@@ -1,4 +1,4 @@
-// js/data.js - Full 78 Cards (Standardized & Astrologically Accurate)
+// js/data.js - Fixed Zodiacs
 (function () {
   window.TAROT_DB = [
   {
@@ -1728,8 +1728,8 @@
         "rev": "Theo đuổi tâm linh theo phong trào, hời hợt."
       }
     },
-    "planet": "Trái Đất",
-    "zodiac": "Thuộc Lửa",
+    "planet": "Không có",
+    "zodiac": "Không có",
     "advice": "Luôn giữ tâm trí tò mò và cởi mở với những khám phá mới trong cuộc sống.",
     "numerology": "Cấp Tiểu Đồng (Page) - Trẻ trung, học hỏi, tin tức, tò mò."
   },
@@ -1777,8 +1777,8 @@
         "rev": "Áp đặt niềm tin của mình lên người khác một cách hung hăng."
       }
     },
-    "planet": "Không Khí",
-    "zodiac": "Thuộc Lửa",
+    "planet": "Không có",
+    "zodiac": "Nhân Mã",
     "advice": "Hành động quyết liệt là tốt, nhưng hãy suy nghĩ về hậu quả trước khi lao đi.",
     "numerology": "Cấp Kỵ Sĩ (Knight) - Năng lượng, di chuyển, theo đuổi mục tiêu."
   },
@@ -1828,8 +1828,8 @@
         "rev": "Sử dụng năng lượng để thu hút sự chú ý thay vì tĩnh tại."
       }
     },
-    "planet": "Nước",
-    "zodiac": "Thuộc Lửa",
+    "planet": "Không có",
+    "zodiac": "Bạch Dương",
     "advice": "Hãy tự tin tỏa sáng và truyền năng lượng tích cực, ấm áp đến những người xung quanh.",
     "numerology": "Cấp Nữ Hoàng (Queen) - Trưởng thành, nuôi dưỡng, làm chủ nội tâm."
   },
@@ -1878,8 +1878,8 @@
         "rev": "Giáo điều, ép buộc người khác theo ý mình."
       }
     },
-    "planet": "Lửa",
-    "zodiac": "Thuộc Lửa",
+    "planet": "Không có",
+    "zodiac": "Sư Tử",
     "advice": "Dùng tầm nhìn và sự lãnh đạo để dẫn dắt người khác, nhưng tránh thói độc tài.",
     "numerology": "Cấp Vua (King) - Lãnh đạo, quyền lực, kiểm soát bên ngoài."
   },
@@ -2422,8 +2422,8 @@
         "rev": "Phớt lờ các thông điệp trực giác vì nghĩ nó là sự trùng hợp."
       }
     },
-    "planet": "Trái Đất",
-    "zodiac": "Thuộc Nước",
+    "planet": "Không có",
+    "zodiac": "Không có",
     "advice": "Hãy lắng nghe tiếng nói của trực giác và đừng ngại thể hiện sự lãng mạn, ngây thơ.",
     "numerology": "Cấp Tiểu Đồng (Page) - Trẻ trung, học hỏi, tin tức, tò mò."
   },
@@ -2473,8 +2473,8 @@
         "rev": "Mù quáng, dễ bị dụ dỗ bởi các giáo phái."
       }
     },
-    "planet": "Không Khí",
-    "zodiac": "Thuộc Nước",
+    "planet": "Không có",
+    "zodiac": "Song Ngư",
     "advice": "Đi theo tiếng gọi của con tim, nhưng nhớ giữ đôi chân trên mặt đất thực tế.",
     "numerology": "Cấp Kỵ Sĩ (Knight) - Năng lượng, di chuyển, theo đuổi mục tiêu."
   },
@@ -2523,8 +2523,8 @@
         "rev": "Bị năng lượng tiêu cực của người khác hút cạn (empath burnout)."
       }
     },
-    "planet": "Nước",
-    "zodiac": "Thuộc Nước",
+    "planet": "Không có",
+    "zodiac": "Cự Giải",
     "advice": "Yêu thương người khác là tốt, nhưng đừng quên yêu thương và thiết lập ranh giới cho chính mình.",
     "numerology": "Cấp Nữ Hoàng (Queen) - Trưởng thành, nuôi dưỡng, làm chủ nội tâm."
   },
@@ -2573,8 +2573,8 @@
         "rev": "Dùng thần quyền hoặc tâm linh để thao túng đám đông."
       }
     },
-    "planet": "Lửa",
-    "zodiac": "Thuộc Nước",
+    "planet": "Không có",
+    "zodiac": "Bọ Cạp",
     "advice": "Sự điềm tĩnh và thấu cảm là vũ khí mạnh nhất của bạn. Đừng để cảm xúc điều khiển hành động.",
     "numerology": "Cấp Vua (King) - Lãnh đạo, quyền lực, kiểm soát bên ngoài."
   },
@@ -3137,8 +3137,8 @@
         "rev": "Dùng trí năng để phán xét tâm linh, phủ nhận trực giác."
       }
     },
-    "planet": "Trái Đất",
-    "zodiac": "Thuộc Khí",
+    "planet": "Không có",
+    "zodiac": "Không có",
     "advice": "Luôn tò mò và cảnh giác. Lời nói có sức mạnh, hãy sử dụng chúng một cách khôn ngoan.",
     "numerology": "Cấp Tiểu Đồng (Page) - Trẻ trung, học hỏi, tin tức, tò mò."
   },
@@ -3189,8 +3189,8 @@
         "rev": "Cực đoan tôn giáo, áp đặt lý tưởng một cách tàn bạo."
       }
     },
-    "planet": "Không Khí",
-    "zodiac": "Thuộc Khí",
+    "planet": "Không có",
+    "zodiac": "Song Tử",
     "advice": "Hành động nhanh chóng dựa trên logic là tốt, nhưng đừng vội vã chà đạp lên cảm xúc người khác.",
     "numerology": "Cấp Kỵ Sĩ (Knight) - Năng lượng, di chuyển, theo đuổi mục tiêu."
   },
@@ -3242,8 +3242,8 @@
         "rev": "Dùng trí năng chối bỏ hoàn toàn tâm linh, cay nghiệt với những người có đức tin."
       }
     },
-    "planet": "Nước",
-    "zodiac": "Thuộc Khí",
+    "planet": "Không có",
+    "zodiac": "Thiên Bình",
     "advice": "Dùng lý trí sắc bén để đánh giá tình hình, nhưng đừng để trái tim trở nên lạnh giá.",
     "numerology": "Cấp Nữ Hoàng (Queen) - Trưởng thành, nuôi dưỡng, làm chủ nội tâm."
   },
@@ -3295,8 +3295,8 @@
         "rev": "Mắc kẹt trong sự kiêu ngạo trí thức, cho mình là thần thánh."
       }
     },
-    "planet": "Lửa",
-    "zodiac": "Thuộc Khí",
+    "planet": "Không có",
+    "zodiac": "Bảo Bình",
     "advice": "Sự công bằng và nguyên tắc là cần thiết, nhưng cũng cần một chút bao dung và thấu hiểu.",
     "numerology": "Cấp Vua (King) - Lãnh đạo, quyền lực, kiểm soát bên ngoài."
   },
@@ -3865,8 +3865,8 @@
         "rev": "Tâm trí lơ đãng, không thể tập trung thiền định."
       }
     },
-    "planet": "Trái Đất",
-    "zodiac": "Thuộc Đất",
+    "planet": "Không có",
+    "zodiac": "Không có",
     "advice": "Bắt đầu với những bước đi thực tế, học hỏi chăm chỉ và lập kế hoạch rõ ràng.",
     "numerology": "Cấp Tiểu Đồng (Page) - Trẻ trung, học hỏi, tin tức, tò mò."
   },
@@ -3917,8 +3917,8 @@
         "rev": "Quá gắn chặt vào vật chất, phủ nhận hoàn toàn các hiện tượng tâm linh."
       }
     },
-    "planet": "Không Khí",
-    "zodiac": "Thuộc Đất",
+    "planet": "Không có",
+    "zodiac": "Xử Nữ",
     "advice": "Sự kiên trì và đáng tin cậy sẽ đưa bạn đến đích, dù có chậm hơn người khác.",
     "numerology": "Cấp Kỵ Sĩ (Knight) - Năng lượng, di chuyển, theo đuổi mục tiêu."
   },
@@ -3970,8 +3970,8 @@
         "rev": "Đánh mất tâm hồn vì mãi chạy theo những giá trị vật chất phù phiếm."
       }
     },
-    "planet": "Nước",
-    "zodiac": "Thuộc Đất",
+    "planet": "Không có",
+    "zodiac": "Ma Kết",
     "advice": "Chăm sóc bản thân và những người xung quanh bằng sự thực tế, ấm áp và chu đáo.",
     "numerology": "Cấp Nữ Hoàng (Queen) - Trưởng thành, nuôi dưỡng, làm chủ nội tâm."
   },
@@ -4021,8 +4021,8 @@
         "rev": "Xem tiền bạc là tôn giáo duy nhất. Coi thường những giá trị tinh thần."
       }
     },
-    "planet": "Lửa",
-    "zodiac": "Thuộc Đất",
+    "planet": "Không có",
+    "zodiac": "Kim Ngưu",
     "advice": "Tạo ra sự ổn định cho mọi người. Sử dụng tài sản vật chất để làm những việc có ý nghĩa.",
     "numerology": "Cấp Vua (King) - Lãnh đạo, quyền lực, kiểm soát bên ngoài."
   }
