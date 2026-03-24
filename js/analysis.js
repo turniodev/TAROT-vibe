@@ -198,15 +198,21 @@ window.AnalysisModule = (function () {
   document.getElementById('btnShareReading')?.addEventListener('click', function() {
     const id = this.dataset.id;
     if (!id) {
-      alert("Đang phân tích, bạn vui lòng chờ chốc lát nhé!");
+      if (!window.AuthModule?.isLoggedIn()) {
+        alert("Vui lòng đăng nhập ở phần luận giải phía trên để nhận thông điệp đầy đủ và chia sẻ nhé!");
+      } else {
+        alert("Đang chờ vũ trụ hồi đáp, bạn vui lòng chờ chốc lát nhé!");
+      }
       return;
     }
     const shareUrl = window.location.origin + window.location.pathname + '?share=' + id;
-    navigator.clipboard.writeText(shareUrl).then(() => {
-      const origText = this.innerHTML;
-      this.innerHTML = 'Đã copy link! <svg width="20" height="20" viewBox="0 0 24 24" fill="none" class="animate-check" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="margin-left:8px;"><polyline points="20 6 9 17 4 12"></polyline></svg>';
-      setTimeout(() => this.innerHTML = origText, 2500);
-    });
+    if (navigator.clipboard) {
+      navigator.clipboard.writeText(shareUrl).then(() => {
+        const origText = this.innerHTML;
+        this.innerHTML = 'Đã copy link! <svg width="20" height="20" viewBox="0 0 24 24" fill="none" class="animate-check" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="margin-left:8px;"><polyline points="20 6 9 17 4 12"></polyline></svg>';
+        setTimeout(() => this.innerHTML = origText, 2500);
+      });
+    }
   });
 
   return { render };

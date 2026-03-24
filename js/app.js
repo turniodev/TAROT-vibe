@@ -49,13 +49,6 @@
     setTimeout(() => window.AnalysisModule.render(cards, session), 200);
   });
 
-  // ── New reading → open full form ──────────
-  document.getElementById('btnNewReading').addEventListener('click', () => {
-    showPage('landing');
-    setTimeout(() => {
-      window.FormModule?.open();
-    }, 150);
-  });
 
   // ── Initial state / Share Link ─────────────────────
   const urlParams = new URLSearchParams(window.location.search);
