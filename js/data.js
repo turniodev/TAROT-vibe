@@ -4093,29 +4093,41 @@ window.TAROT_DB = [
     "aspects": {
       "love": {
         "up": "Một mối quan hệ mới mang lại sự ổn định và hỗ trợ vật chất lẫn nhau.",
-        "rev": "Tình cảm rạn nứt vì áp lực tiền bạc hoặc sự thực dụng quá mức."
+        "rev": "Tình cảm rạn nứt vì áp lực tiền bạc hoặc sự thực dụng quá mức.",
+        "upright": "Một tình yêu thực tế, an toàn và có nền tảng vững chắc. Mối quan hệ được xây dựng trên sự cam kết dài lâu, sự chăm sóc chu đáo từ những điều nhỏ nhặt nhất trong cuộc sống thường nhật.",
+        "reversed": "Sự thiếu hụt nền tảng trong tình cảm. Tình yêu bị chi phối quá nhiều bởi áp lực kinh tế hoặc sự thực dụng, tính toán. Cảm giác không an toàn và thiếu một định hướng chung cho tương lai."
       },
       "career": {
         "up": "Một lời mời làm việc lương cao, một khoản đầu tư hoặc dự án kinh doanh mới.",
-        "rev": "Bị từ chối công việc, hoặc dự án bị đình trệ vì thiếu ngân sách."
+        "rev": "Bị từ chối công việc, hoặc dự án bị đình trệ vì thiếu ngân sách.",
+        "upright": "Một cơ hội việc làm tuyệt vời, một dự án mang lại lợi nhuận bền vững hoặc sự khởi đầu của một công việc kinh doanh có tính thực tiễn cao. Nền móng sự nghiệp đang được đặt những viên gạch đầu tiên.",
+        "reversed": "Sự chậm trễ trong việc thăng tiến hoặc một lời mời làm việc không như kỳ vọng. Kế hoạch kinh doanh thiếu thực tế, rủi ro cao hoặc bạn đang chần chừ không dám nắm bắt cơ hội."
       },
       "finance": {
         "up": "Nhận được một khoản tiền bất ngờ, lợi nhuận đầu tư, hoặc tăng lương.",
-        "rev": "Trì hoãn thanh toán, mất mát tài chính nhỏ, hoặc chi tiêu quá khả năng."
+        "rev": "Trì hoãn thanh toán, mất mát tài chính nhỏ, hoặc chi tiêu quá khả năng.",
+        "upright": "Một nguồn thu nhập mới, một khoản đầu tư sinh lời hoặc một món quà tài sản bất ngờ. Giai đoạn tuyệt vời để bắt đầu tiết kiệm hoặc thiết lập một kế hoạch tài chính dài hạn.",
+        "reversed": "Sự rò rỉ tài chính hoặc một khoản đầu tư thất bại ngay từ bước đầu do tính toán sai lầm. Bạn có thể đang chi tiêu quá mức vào những thứ không mang lại giá trị thực tế."
       },
       "health": {
         "up": "Sức khỏe dồi dào, bắt đầu một chế độ ăn uống hoặc tập luyện mới rất tốt cho cơ thể.",
-        "rev": "Lơ là chăm sóc bản thân, bắt đầu các thói quen xấu ảnh hưởng sức khỏe."
+        "rev": "Lơ là chăm sóc bản thân, bắt đầu các thói quen xấu ảnh hưởng sức khỏe.",
+        "upright": "Sinh khí dồi dào, cơ thể khỏe mạnh và tràn trề năng lượng đất mẹ. Thời điểm lý tưởng để bắt đầu một chế độ ăn uống, tập luyện mới hoặc các phương pháp chữa lành tự nhiên.",
+        "reversed": "Sự lơ là trong việc chăm sóc cơ thể dẫn đến các vấn đề sức khỏe. Sự căng thẳng tài chính đang tác động tiêu cực đến thể trạng của bạn, gây ra sự mệt mỏi."
       },
       "spiritual": {
         "up": "Sự kết nối mạnh mẽ với thế giới tự nhiên và Đất mẹ.",
-        "rev": "Quá bám víu vào vật chất, bỏ quên sự phát triển tâm hồn."
+        "rev": "Quá bám víu vào vật chất, bỏ quên sự phát triển tâm hồn.",
+        "upright": "Tìm thấy sự kết nối tâm linh ngay trong thế giới vật chất (grounding). Sự biết ơn sâu sắc với những phước lành mà vũ trụ ban tặng, hiểu rằng cơ thể là đền thờ của linh hồn.",
+        "reversed": "Mất đi sự kết nối với thiên nhiên và cơ thể. Linh hồn lạc lối giữa những khao khát vật chất phù phiếm, quên mất sự hiện diện của mình trong giây phút hiện tại."
       }
     },
     "planet": "Nguyên tố Đất",
     "zodiac": "Ma Kết, Kim Ngưu, Xử Nữ",
-    "advice": "Một cơ hội tài chính đang đến. Hãy nắm bắt và làm việc chăm chỉ để biến nó thành hiện thực.",
-    "numerology": "Số 1 - Hạt giống, tiềm năng, khởi đầu, ý chí."
+    "advice": "Hãy trân trọng và nuôi dưỡng hạt giống mà vũ trụ vừa trao tặng bằng sự kiên nhẫn và hành động thiết thực. Đừng để nó khô héo vì sự chần chừ hay ảo tưởng.",
+    "numerology": "Số 1 - Hạt giống, tiềm năng, khởi đầu, ý chí.",
+    "generalUpright": "Hiện ra từ đám mây, một bàn tay nâng niu đồng tiền vàng chói lọi, Ace of Pentacles là món quà của vũ trụ dành cho thế giới vật chất. Đây là hạt giống của sự thịnh vượng, sự ổn định, an toàn và một nền tảng vững chắc để biến những ước mơ thành hiện thực. Nó là tiếng gọi của sự hiện diện, của một cơ hội tài chính hay sức khỏe mới đâm chồi nảy lộc từ lòng đất mẹ thiêng liêng.",
+    "generalReversed": "Hạt giống rơi trên vùng đất khô cằn hoặc tuột khỏi bàn tay bạn do sự chần chừ. Một cơ hội bị bỏ lỡ, sự trì hoãn các kế hoạch tài chính, hoặc cảm giác bất an sâu sắc về tương lai vật chất. Nó cũng cảnh báo về việc quá bám víu vào tiền bạc mà bỏ quên giá trị tinh thần."
   },
   {
     "id": 65,
@@ -4144,29 +4156,41 @@ window.TAROT_DB = [
     "aspects": {
       "love": {
         "up": "Cùng nhau nỗ lực cân bằng giữa tình yêu và sự nghiệp.",
-        "rev": "Mối quan hệ bị lơ là vì cả hai quá bận rộn với công việc hoặc lo toan tiền bạc."
+        "rev": "Mối quan hệ bị lơ là vì cả hai quá bận rộn với công việc hoặc lo toan tiền bạc.",
+        "upright": "Sự khéo léo cân bằng giữa tình yêu và công việc, hoặc giữa bạn và đối phương đang cùng nhau san sẻ những gánh nặng tài chính thường nhật. Mối quan hệ có thể cần nhiều sự linh hoạt để thích nghi với các thay đổi hiện tại.",
+        "reversed": "Sự căng thẳng tài chính phá hoại tình yêu. Bạn hoặc đối phương quá bận rộn với công việc, bỏ bê mối quan hệ, hoặc sự thiếu minh bạch trong tiền bạc đang tạo ra hố sâu ngăn cách."
       },
       "career": {
         "up": "Phải làm nhiều việc cùng lúc, sự đa nhiệm (multitasking) linh hoạt.",
-        "rev": "Ngập đầu trong công việc, stress vì không thể hoàn thành deadline."
+        "rev": "Ngập đầu trong công việc, stress vì không thể hoàn thành deadline.",
+        "upright": "Đảm nhận nhiều dự án hoặc vị trí cùng lúc một cách xuất sắc. Khả năng đa nhiệm (multitasking) và sự nhạy bén giúp bạn xử lý mọi thay đổi bất ngờ trong công việc một cách mượt mà.",
+        "reversed": "Cảm giác quá sức vì ôm đồm. Các công việc bị trễ deadline, sai sót liên tục do sự mất tập trung và thiếu tổ chức. Bạn cần học cách ưu tiên và ủy quyền."
       },
       "finance": {
         "up": "Cố gắng cân đối thu chi, xoay vòng vốn kinh doanh.",
-        "rev": "Vỡ nợ nhẹ, vay chỗ này đắp chỗ kia, chi tiêu vượt quá thu nhập."
+        "rev": "Vỡ nợ nhẹ, vay chỗ này đắp chỗ kia, chi tiêu vượt quá thu nhập.",
+        "upright": "Sự khéo léo trong việc luân chuyển dòng tiền, cân đối giữa thu và chi hoặc có nhiều nguồn thu nhập cùng lúc. Một giai đoạn tài chính đòi hỏi sự linh hoạt thay vì tích lũy cứng nhắc.",
+        "reversed": "Khủng hoảng dòng tiền, nợ nần chồng chất do việc quản lý chi tiêu tồi tệ. Vay mượn chỗ này để đắp chỗ kia (vay giật gấu vá vai) đang đẩy bạn đến bờ vực sụp đổ."
       },
       "health": {
         "up": "Cần tìm sự cân bằng giữa làm việc và nghỉ ngơi để duy trì sức khỏe.",
-        "rev": "Kiệt sức do làm việc quá độ, bỏ bữa hoặc ngủ không đủ giấc."
+        "rev": "Kiệt sức do làm việc quá độ, bỏ bữa hoặc ngủ không đủ giấc.",
+        "upright": "Cơ thể đang cố gắng duy trì sự cân bằng năng lượng. Một chế độ tập luyện linh hoạt và việc cân đối giữa thời gian nghỉ ngơi và làm việc sẽ giúp bạn duy trì sinh lực.",
+        "reversed": "Sự kiệt sức do quá tải căng thẳng. Cơ thể báo động bằng những triệu chứng mệt mỏi mãn tính do bạn liên tục bỏ bê việc nghỉ ngơi và ăn uống không điều độ."
       },
       "spiritual": {
         "up": "Cân bằng giữa thế giới vật chất và đời sống tâm linh.",
-        "rev": "Bị cuốn vào cơm áo gạo tiền, không còn thời gian tĩnh tâm."
+        "rev": "Bị cuốn vào cơm áo gạo tiền, không còn thời gian tĩnh tâm.",
+        "upright": "Sự linh hoạt trong tâm trí. Bạn nhận ra rằng sự thay đổi là hằng số duy nhất của vũ trụ, học cách đi theo dòng chảy (go with the flow) để duy trì sự tĩnh tại nội tâm.",
+        "reversed": "Sự bám chấp cứng nhắc vào những dự định đã cũ, dẫn đến sự đau khổ khi mọi thứ không diễn ra theo ý muốn. Bạn đang chống lại dòng chảy vũ trụ thay vì hòa mình vào nó."
       }
     },
     "planet": "Sao Mộc",
     "zodiac": "Ma Kết",
-    "advice": "Sự linh hoạt và khéo léo sẽ giúp bạn cân bằng được những áp lực hiện tại.",
-    "numerology": "Số 2 - Cân bằng, sự kết hợp, đối lập, lựa chọn."
+    "advice": "Hãy thả lỏng và uyển chuyển như một dòng nước. Không cần thiết phải kiểm soát mọi thứ, đôi khi sự thích nghi linh hoạt mới là chìa khóa duy trì sự cân bằng.",
+    "numerology": "Số 2 - Cân bằng, sự kết hợp, đối lập, lựa chọn.",
+    "generalUpright": "Tung hứng hai đồng tiền trong một vũ điệu vô tận vô hình, Two of Pentacles là nghệ thuật duy trì sự cân bằng giữa những biến động không ngừng của dòng đời. Lá bài mang năng lượng linh hoạt, khả năng thích ứng linh hoạt và sự tung hứng khéo léo giữa nhiều trách nhiệm, dự án hoặc dòng tiền. Một sự uyển chuyển tựa như nước trước mọi sóng gió vật chất.",
+    "generalReversed": "Vũ điệu sụp đổ, sự cân bằng bị phá vỡ. Bạn đang bị quá tải, ôm đồm quá nhiều thứ dẫn đến sự kiệt quệ, rối loạn và những quyết định sai lầm. Sự mất kiểm soát tài chính hoặc thời gian đang nhấn chìm bạn trong trạng thái hoảng loạn."
   },
   {
     "id": 66,
@@ -4196,29 +4220,41 @@ window.TAROT_DB = [
     "aspects": {
       "love": {
         "up": "Cả hai cùng chung tay xây dựng tổ ấm, hợp tác giải quyết vấn đề. Tình yêu như những người đồng đội.",
-        "rev": "Không có sự hỗ trợ lẫn nhau, mạnh ai nấy sống, cãi vã vì phân chia việc nhà."
+        "rev": "Không có sự hỗ trợ lẫn nhau, mạnh ai nấy sống, cãi vã vì phân chia việc nhà.",
+        "upright": "Hai người cùng nhau xây dựng một tương lai vững chắc, có thể là mua nhà, lập kế hoạch tài chính dài hạn hoặc hợp tác trong kinh doanh. Sự tôn trọng lẫn nhau tạo nên một nền tảng tình yêu bền vững.",
+        "reversed": "Sự thiếu hợp tác trong mối quan hệ. Một người cảm thấy phải gánh vác mọi trách nhiệm, hoặc cả hai liên tục tranh cãi về các vấn đề tài chính, định hướng tương lai mà không tìm được tiếng nói chung."
       },
       "career": {
         "up": "Một dự án nhóm thành công. Sự tôn trọng lẫn nhau giữa đồng nghiệp và cấp trên.",
-        "rev": "Xung đột công sở, không ai chịu lắng nghe ai, đùn đẩy trách nhiệm."
+        "rev": "Xung đột công sở, không ai chịu lắng nghe ai, đùn đẩy trách nhiệm.",
+        "upright": "Một dự án nhóm thành công rực rỡ nhờ sự phân công lao động rõ ràng. Kỹ năng của bạn được cấp trên và đồng nghiệp ghi nhận, đánh giá cao. Một môi trường làm việc chuyên nghiệp, học hỏi lẫn nhau.",
+        "reversed": "Sự đố kỵ, thiếu năng lực hoặc mâu thuẫn gay gắt trong làm việc nhóm. Cảm giác không được công nhận hoặc bạn đang phải gánh thay phần việc của những đồng nghiệp thiếu trách nhiệm."
       },
       "finance": {
         "up": "Hợp tác kinh doanh sinh lời. Được trả công xứng đáng với chuyên môn.",
-        "rev": "Tranh chấp tài chính trong nội bộ công ty/nhóm làm ăn."
+        "rev": "Tranh chấp tài chính trong nội bộ công ty/nhóm làm ăn.",
+        "upright": "Sự hợp tác tài chính mang lại lợi nhuận bền vững. Đây có thể là thời điểm tốt để tham khảo ý kiến chuyên gia (kế toán, cố vấn tài chính) nhằm tối ưu hóa các khoản đầu tư của bạn.",
+        "reversed": "Những sai lầm tài chính do không lắng nghe lời khuyên từ những người có kinh nghiệm. Sự thất thoát tiền bạc do các hợp đồng hợp tác không rõ ràng hoặc đối tác làm ăn thiếu minh bạch."
       },
       "health": {
         "up": "Tham gia các lớp thể dục nhóm hoặc tìm được một bác sĩ/PT giỏi hỗ trợ.",
-        "rev": "Không tuân thủ lời khuyên y tế của chuyên gia, tự ý chữa bệnh sai cách."
+        "rev": "Không tuân thủ lời khuyên y tế của chuyên gia, tự ý chữa bệnh sai cách.",
+        "upright": "Một kế hoạch chăm sóc sức khỏe có sự hướng dẫn chuyên môn (huấn luyện viên, bác sĩ) sẽ mang lại kết quả tuyệt vời. Sự kiên trì và kỷ luật giúp xây dựng lại nền tảng thể chất.",
+        "reversed": "Sự thiếu cam kết trong việc cải thiện sức khỏe. Từ chối lắng nghe lời khuyên y tế, tự ý điều trị sai cách dẫn đến những hậu quả không đáng có."
       },
       "spiritual": {
         "up": "Học hỏi và phát triển tâm linh cùng với một nhóm hoặc cộng đồng.",
-        "rev": "Cái tôi quá lớn, không chấp nhận sự khác biệt trong tư tưởng của người khác."
+        "rev": "Cái tôi quá lớn, không chấp nhận sự khác biệt trong tư tưởng của người khác.",
+        "upright": "Sự kết nối với một cộng đồng tâm linh mang lại sự hỗ trợ và phát triển sâu sắc. Bạn học hỏi được từ những người đi trước và đóng góp giá trị của mình vào sự tiến hóa chung.",
+        "reversed": "Sự cô lập, từ chối việc chia sẻ và học hỏi. Bạn trở nên bảo thủ với những trải nghiệm tâm linh của mình, bỏ lỡ những góc nhìn sâu sắc từ cộng đồng."
       }
     },
     "planet": "Sao Hỏa",
     "zodiac": "Ma Kết",
-    "advice": "Làm việc nhóm và khiêm tốn học hỏi từ người khác sẽ mang lại thành công lớn.",
-    "numerology": "Số 3 - Phát triển, sáng tạo, làm việc nhóm, mở rộng."
+    "advice": "Kiệt tác không bao giờ được tạo ra bởi một người đơn độc. Hãy học cách lắng nghe, trân trọng tài năng của người khác và cùng nhau xây dựng những điều vĩ đại.",
+    "numerology": "Số 3 - Phát triển, sáng tạo, làm việc nhóm, mở rộng.",
+    "generalUpright": "Ba người thợ đang hợp lực xây dựng một thánh đường, Three of Pentacles là biểu tượng của sự hợp tác hoàn hảo, sự làm việc nhóm hiệu quả và kỹ năng chuyên môn được công nhận. Nó phác họa sức mạnh của việc kết hợp các tài năng khác nhau để kiến tạo nên một công trình mang giá trị lâu dài, nơi mỗi cá nhân đều được tôn trọng và đóng góp vào mục tiêu chung.",
+    "generalReversed": "Công trình bị đình trệ do sự bất đồng, thiếu tổ chức và cái tôi cá nhân quá lớn. Sự thiếu tôn trọng kỹ năng của nhau, sự giao tiếp kém hiệu quả và những xích mích nội bộ đang phá vỡ tinh thần đồng đội và làm hỏng dự án."
   },
   {
     "id": 67,
@@ -4248,29 +4284,41 @@ window.TAROT_DB = [
     "aspects": {
       "love": {
         "up": "Giữ chặt đối phương, sự ghen tuông, kiểm soát và sở hữu quá mức trong tình cảm.",
-        "rev": "Học cách nới lỏng kiểm soát, cho nhau không gian riêng hoặc chia tay vì quá ngột ngạt."
+        "rev": "Học cách nới lỏng kiểm soát, cho nhau không gian riêng hoặc chia tay vì quá ngột ngạt.",
+        "upright": "Sự sở hữu, ghen tuông và tính toán trong tình yêu. Bạn hoặc đối phương quá bám víu vào mối quan hệ vì sợ hãi sự cô đơn hoặc vì lợi ích kinh tế, khiến tình cảm trở nên ngột ngạt và thiếu đi sự tự do trôi chảy.",
+        "reversed": "Sự buông tay dũng cảm để giải thoát cho nhau, hoặc rũ bỏ những ràng buộc vật chất trong tình cảm. Sự cởi mở hơn, sẵn sàng cho đi và nhận lại tình yêu vô điều kiện."
       },
       "career": {
         "up": "Cố bám lấy một công việc ổn định dù nhàm chán, không dám mạo hiểm đổi việc.",
-        "rev": "Dám từ bỏ công việc ổn định để theo đuổi đam mê, hoặc bị mất việc."
+        "rev": "Dám từ bỏ công việc ổn định để theo đuổi đam mê, hoặc bị mất việc.",
+        "upright": "Bám giữ một công việc ổn định nhưng nhàm chán chỉ vì sự an toàn tài chính. Bạn đang cố thủ ở vị trí của mình, từ chối mọi sự thay đổi, đổi mới và không muốn chia sẻ kiến thức với đồng nghiệp.",
+        "reversed": "Sự mất việc hoặc thay đổi cấu trúc khiến bạn bị ép buộc ra khỏi vùng an toàn. Hoặc bạn quyết định từ bỏ sự ổn định để theo đuổi đam mê, mở rộng tầm nhìn nghề nghiệp."
       },
       "finance": {
         "up": "Tiết kiệm từng đồng, tích lũy tài sản an toàn. Từ chối cho vay mượn.",
-        "rev": "Vung tiền quá trán, mua sắm bốc đồng hoặc cuối cùng đã chịu chi tiền cho bản thân."
+        "rev": "Vung tiền quá trán, mua sắm bốc đồng hoặc cuối cùng đã chịu chi tiền cho bản thân.",
+        "upright": "Sự tích lũy tài sản vững chắc nhưng đi kèm với sự keo kiệt. Bạn đang ôm khư khư tiền bạc, từ chối đầu tư hoặc tiêu xài cho những niềm vui cuộc sống vì nỗi ám ảnh nghèo đói.",
+        "reversed": "Sự hao hụt tài chính do chi tiêu phung phí, hoặc bạn cuối cùng cũng nhận ra tiền bạc là để phục vụ cuộc sống. Sự hào phóng, quyên góp hoặc những quyết định đầu tư táo bạo hơn."
       },
       "health": {
         "up": "Táo bón, các vấn đề về tiêu hóa do căng thẳng và 'giữ lại' quá nhiều.",
-        "rev": "Thanh lọc cơ thể, giải phóng căng thẳng và các cảm xúc bị kìm nén."
+        "rev": "Thanh lọc cơ thể, giải phóng căng thẳng và các cảm xúc bị kìm nén.",
+        "upright": "Sự căng cứng của cơ thể do việc cố gắng kiểm soát mọi thứ. Những căn bệnh liên quan đến hệ tiêu hóa, táo bón hoặc sự ứ trệ năng lượng do thiếu sự vận động và đào thải.",
+        "reversed": "Sự giải phóng năng lượng tắc nghẽn. Bắt đầu quá trình thanh lọc cơ thể, thả lỏng tâm trí giúp khôi phục lại dòng chảy sinh lực tự nhiên."
       },
       "spiritual": {
         "up": "Bị trói buộc bởi vật chất, từ chối chia sẻ phước báu.",
-        "rev": "Sự hào phóng mở rộng tâm hồn, hiểu được sự vận hành của dòng chảy vạn vật."
+        "rev": "Sự hào phóng mở rộng tâm hồn, hiểu được sự vận hành của dòng chảy vạn vật.",
+        "upright": "Sự bám chấp tâm linh, kẹt lại với những giáo lý khô cứng và từ chối mở rộng nhận thức. Bản ngã đang cố gắng bảo vệ vùng an toàn của nó trước sự thay đổi vĩ đại của linh hồn.",
+        "reversed": "Sự thức tỉnh kỳ diệu. Bạn nhận ra mọi thứ trên đời đều là phù du, học được bài học vĩ đại về sự vô ngã và buông bỏ, cho phép linh hồn tự do bay bổng."
       }
     },
     "planet": "Mặt Trời",
     "zodiac": "Ma Kết",
-    "advice": "Tiết kiệm là tốt, nhưng bám víu vật chất quá mức sẽ khiến tâm hồn bạn trở nên nghèo nàn.",
-    "numerology": "Số 4 - Ổn định, cấu trúc, nền tảng, sự an toàn."
+    "advice": "Tiền bạc và tình yêu giống như dòng nước, nếu bị ngăn lại sẽ trở thành vũng nước tù đọng. Hãy nới lỏng vòng tay, chỉ khi bạn cho đi, bạn mới tạo ra không gian để nhận lại nhiều hơn.",
+    "numerology": "Số 4 - Ổn định, cấu trúc, nền tảng, sự an toàn.",
+    "generalUpright": "Ôm chặt bốn đồng tiền vào người như những báu vật vô giá, Four of Pentacles là bức chân dung của sự an toàn vật chất, sự bảo thủ và sự tiết kiệm cực đoan. Lá bài phác họa nỗi sợ hãi mất mát, sự bám víu cứng nhắc vào những gì đã có, tạo nên một hàng rào bảo vệ kiên cố nhưng cũng đồng thời tự giam cầm bản thân trong sự ngột ngạt, từ chối sự giao lưu và dòng chảy tự nhiên của vũ trụ.",
+    "generalReversed": "Đồng tiền rơi khỏi tay, bức tường phòng thủ sụp đổ. Sự đảo ngược có thể là một mất mát tài chính đau đớn, hoặc một sự giải thoát tuyệt vời khi bạn học được cách buông bỏ sự kiểm soát tột độ, mở lòng chia sẻ và để dòng chảy năng lượng được lưu thông trở lại."
   },
   {
     "id": 68,
@@ -4300,29 +4348,41 @@ window.TAROT_DB = [
     "aspects": {
       "love": {
         "up": "Bị người yêu ruồng bỏ trong lúc khó khăn nhất, cảm giác cô đơn tột cùng. Hoặc cả hai cùng chật vật vì tiền bạc.",
-        "rev": "Cùng nhau vượt qua sóng gió nghèo khó, mối quan hệ dần được hàn gắn."
+        "rev": "Cùng nhau vượt qua sóng gió nghèo khó, mối quan hệ dần được hàn gắn.",
+        "upright": "Sự lạnh nhạt, chia ly hoặc cảm giác bị đối phương bỏ rơi. Mối quan hệ đang trải qua giai đoạn khủng hoảng trầm trọng vì những gánh nặng tài chính, bệnh tật hoặc sự từ chối sự giúp đỡ từ nhau.",
+        "reversed": "Sự hàn gắn sau những sóng gió lớn. Vượt qua giai đoạn khó khăn tài chính hoặc bệnh tật giúp hai người gắn kết sâu sắc hơn. Người độc thân đang dần mở lòng trở lại sau thời gian dài cô lập."
       },
       "career": {
         "up": "Mất việc, thất nghiệp kéo dài, công ty phá sản. Bị tẩy chay tại nơi làm việc.",
-        "rev": "Tìm được công việc mới sau thời gian dài thất nghiệp, kinh tế gia đình ổn định lại."
+        "rev": "Tìm được công việc mới sau thời gian dài thất nghiệp, kinh tế gia đình ổn định lại.",
+        "upright": "Sự mất việc, phá sản hoặc môi trường làm việc cô lập, xa lánh. Bạn cảm thấy bị bỏ rơi, không ai hỗ trợ và tương lai nghề nghiệp mịt mù, đầy ắp sự bất an.",
+        "reversed": "Sự trở lại với công việc sau thời gian thất nghiệp. Dần dần xây dựng lại uy tín và tìm được một môi trường mới chào đón bạn nồng nhiệt hơn. Mọi khó khăn đang lùi lại phía sau."
       },
       "finance": {
         "up": "Khủng hoảng tài chính nghiêm trọng, vỡ nợ, mất nhà cửa hoặc tài sản.",
-        "rev": "Trả được nợ, tìm ra lối thoát cho các khó khăn tiền bạc."
+        "rev": "Trả được nợ, tìm ra lối thoát cho các khó khăn tiền bạc.",
+        "upright": "Khủng hoảng tài chính trầm trọng, nợ nần, mất mát tài sản hoặc sự thiếu thốn cùng cực. Cảm giác tuyệt vọng vì không có lối thoát và tự cách ly mình khỏi sự giúp đỡ của người khác.",
+        "reversed": "Sự trả được nợ nần, những khoản viện trợ hoặc một công việc mới giúp vực dậy nền tảng kinh tế. Khủng hoảng tài chính dần qua đi, mang lại cảm giác an tâm hơn."
       },
       "health": {
         "up": "Bệnh tật kéo dài, sức đề kháng kém do thiếu thốn vật chất hoặc căng thẳng quá độ.",
-        "rev": "Sức khỏe cải thiện rõ rệt, tìm được phương pháp điều trị hoặc bác sĩ tốt."
+        "rev": "Sức khỏe cải thiện rõ rệt, tìm được phương pháp điều trị hoặc bác sĩ tốt.",
+        "upright": "Bệnh tật dai dẳng, sự kiệt quệ thể chất do thiếu dinh dưỡng hoặc môi trường sống khắc nghiệt. Sự trầm cảm nặng nề, cảm giác đơn độc đang phá hủy hệ miễn dịch.",
+        "reversed": "Sự hồi phục thần kỳ sau một cơn bạo bệnh. Bạn đã tìm được phương pháp điều trị đúng đắn hoặc sự hỗ trợ từ các chuyên gia y tế, mang lại năng lượng sống mới."
       },
       "spiritual": {
         "up": "Cảm thấy bị thế giới và tâm linh ruồng bỏ. Bóng tối bao trùm.",
-        "rev": "Tìm lại được đức tin, ánh sáng của hy vọng chiếu rọi tâm hồn."
+        "rev": "Tìm lại được đức tin, ánh sáng của hy vọng chiếu rọi tâm hồn.",
+        "upright": "Một cuộc khủng hoảng đức tin tột độ. Bạn cảm thấy bị đấng tối cao bỏ rơi giữa cơn bão, linh hồn lạnh lẽo, tuyệt vọng và từ chối nhìn thấy những ánh sáng nhân đạo nhỏ bé xung quanh.",
+        "reversed": "Sự trở về với ánh sáng thiêng liêng. Bạn nhận ra những thử thách này là bài học để trưởng thành sự thấu cảm. Lòng biết ơn trỗi dậy khi bạn đón nhận tình yêu thương vô điều kiện của vũ trụ."
       }
     },
     "planet": "Sao Thủy",
     "zodiac": "Kim Ngưu",
-    "advice": "Đừng ngại ngần yêu cầu sự giúp đỡ. Bạn không cô đơn trong lúc khó khăn này.",
-    "numerology": "Số 5 - Thay đổi, xung đột, mất mát, thử thách."
+    "advice": "Đừng để lòng kiêu hãnh hoặc sự tuyệt vọng che mắt bạn. Ánh sáng của sự giúp đỡ luôn hiện diện ngay bên cạnh, chỉ cần bạn dừng lại, ngước nhìn và gõ cửa.",
+    "numerology": "Số 5 - Thay đổi, xung đột, mất mát, thử thách.",
+    "generalUpright": "Hai bóng người rách rưới lê bước qua cửa sổ nhà thờ rực sáng giữa màn tuyết lạnh giá, Five of Pentacles là hình ảnh đau lòng của sự nghèo đói, sự cô lập và nỗi khốn cùng cả về vật chất lẫn tinh thần. Bạn đang cảm thấy bị bỏ rơi, kiệt quệ và mất hết hy vọng, nhưng bi kịch thực sự là bạn lại mù quáng bước đi trong bóng tối thay vì ngước lên nhìn ánh sáng cứu rỗi ngay bên cạnh.",
+    "generalReversed": "Cơn bão tuyết dần tan, sự phục hồi từ vực thẳm bắt đầu. Bạn đã tìm thấy cánh cửa ấm áp để bước vào, tìm thấy sự giúp đỡ cần thiết hoặc bắt đầu quá trình hàn gắn lại nền tảng tài chính và tinh thần đã vỡ nát. Tia sáng hy vọng len lỏi vào trái tim."
   },
   {
     "id": 69,
@@ -4353,29 +4413,41 @@ window.TAROT_DB = [
     "aspects": {
       "love": {
         "up": "Một mối quan hệ cân bằng, hai bên cùng chăm sóc và hỗ trợ lẫn nhau. Một người có thể chu cấp tài chính cho người kia một cách vui vẻ.",
-        "rev": "Tình yêu dựa trên sự lợi dụng vật chất (đào mỏ), hoặc sự bất bình đẳng quyền lực trong nhà."
+        "rev": "Tình yêu dựa trên sự lợi dụng vật chất (đào mỏ), hoặc sự bất bình đẳng quyền lực trong nhà.",
+        "upright": "Một mối quan hệ cân bằng tuyệt vời, nơi cả hai cùng san sẻ trách nhiệm, tài chính và tình cảm một cách công bằng. Sự hỗ trợ lẫn nhau vô điều kiện giúp tình yêu ngày càng đơm hoa kết trái.",
+        "reversed": "Sự mất cân bằng quyền lực. Một người chi trả mọi thứ và trở thành kẻ kiểm soát, hoặc một kẻ bòn rút tình cảm và vật chất của đối phương. Một tình yêu vụ lợi, thiếu sự tôn trọng bình đẳng."
       },
       "career": {
         "up": "Được sếp thưởng, tăng lương hoặc nhận được sự hướng dẫn tận tình từ cấp trên. Môi trường công bằng.",
-        "rev": "Bị bóc lột sức lao động, trả lương không xứng đáng. Từ chối giúp đỡ đồng nghiệp."
+        "rev": "Bị bóc lột sức lao động, trả lương không xứng đáng. Từ chối giúp đỡ đồng nghiệp.",
+        "upright": "Môi trường làm việc được đền đáp xứng đáng, được tăng lương, thưởng hoặc nhận được sự bảo trợ từ một cấp trên tốt bụng. Bạn có thể là người hướng dẫn, chia sẻ kiến thức cho nhân viên mới.",
+        "reversed": "Sự bóc lột sức lao động, làm việc vất vả nhưng không được trả công xứng đáng. Sự thiên vị, bất công trong công sở hoặc việc bạn bị đồng nghiệp lợi dụng lòng tốt."
       },
       "finance": {
         "up": "Nhận được khoản vay ngân hàng, học bổng hoặc tiền thưởng. Sự thịnh vượng được san sẻ.",
-        "rev": "Cho bạn bè vay tiền và bị quỵt, hoặc bạn đang gặp khó khăn nhưng không ai giúp đỡ."
+        "rev": "Cho bạn bè vay tiền và bị quỵt, hoặc bạn đang gặp khó khăn nhưng không ai giúp đỡ.",
+        "upright": "Sự dồi dào tài chính cho phép bạn hào phóng chia sẻ, đóng góp từ thiện. Hoặc bạn đang nhận được một khoản vay, một sự giúp đỡ tài chính kịp thời để giải quyết khó khăn.",
+        "reversed": "Những khoản nợ khó đòi, các vấn đề rắc rối liên quan đến vay mượn. Sự từ chối giúp đỡ tài chính hoặc những trò lừa đảo ngụy trang dưới danh nghĩa từ thiện."
       },
       "health": {
         "up": "Nhận được sự chăm sóc y tế tuyệt vời, có thể là được hỗ trợ viện phí.",
-        "rev": "Không đủ tiền chi trả các dịch vụ chăm sóc sức khỏe tốt."
+        "rev": "Không đủ tiền chi trả các dịch vụ chăm sóc sức khỏe tốt.",
+        "upright": "Việc tìm kiếm sự giúp đỡ từ các chuyên gia y tế hoặc những người có kinh nghiệm sẽ mang lại kết quả tuyệt vời. Sự chia sẻ những kiến thức sức khỏe giúp ích cho cả cộng đồng.",
+        "reversed": "Sự phớt lờ các lời khuyên y tế, hoặc sự tốn kém tài chính vào những phương pháp chữa bệnh lừa đảo. Cần cân nhắc lại cách bạn đang đầu tư cho sức khỏe của mình."
       },
       "spiritual": {
         "up": "Sự cho đi vô điều kiện. Nhận ra luật nhân quả của tiền bạc (cho đi sẽ nhận lại).",
-        "rev": "Làm từ thiện chỉ để đánh bóng tên tuổi, khoe khoang hoặc mong cầu báo đáp."
+        "rev": "Làm từ thiện chỉ để đánh bóng tên tuổi, khoe khoang hoặc mong cầu báo đáp.",
+        "upright": "Thấu hiểu quy luật nhân quả (Karma) vĩ đại của vũ trụ: những gì bạn cho đi với trái tim thuần khiết sẽ quay trở lại nhân lên gấp bội. Sự giác ngộ thông qua lòng vị tha.",
+        "reversed": "Sự ngạo mạn tâm linh, tự cho mình là người cứu rỗi kẻ khác. Việc làm từ thiện chỉ để thỏa mãn cái tôi và mua chuộc danh tiếng, chối bỏ bản chất thực sự của lòng từ bi."
       }
     },
     "planet": "Mặt Trăng",
     "zodiac": "Kim Ngưu",
-    "advice": "Hãy hào phóng khi có thể, và biết ơn khi nhận được sự giúp đỡ. Dòng tiền cần được lưu thông.",
-    "numerology": "Số 6 - Hài hòa, phục hồi, hợp tác, cho và nhận."
+    "advice": "Sự hào phóng chân chính không tính toán thiệt hơn, và sự nhận lãnh cũng cần đi kèm với lòng biết ơn. Hãy duy trì sự cân bằng của chiếc cân nghiệp lực trong mọi hành động.",
+    "numerology": "Số 6 - Hài hòa, phục hồi, hợp tác, cho và nhận.",
+    "generalUpright": "Người thương gia giàu có cân nhắc thả những đồng tiền vàng cho kẻ nghèo khổ, Six of Pentacles là chiếc cân của sự công bằng, lòng nhân ái, sự chia sẻ và sự tuần hoàn của dòng chảy vật chất. Nó đại diện cho sự hào phóng, các hoạt động từ thiện, sự bảo trợ và những món quà tài chính, đồng thời nhấn mạnh sự cân bằng tinh tế giữa việc cho đi và nhận lại trong cuộc sống.",
+    "generalReversed": "Chiếc cân bị lệch, sự mất cân bằng trong việc cho và nhận. Nó phơi bày sự keo kiệt, lòng tốt giả tạo mang tính áp đặt, sự phụ thuộc tài chính độc hại hoặc những khoản vay không bao giờ được hoàn trả. Sự lợi dụng lòng tốt hoặc việc cho đi với những điều kiện ích kỷ."
   },
   {
     "id": 70,
@@ -4404,29 +4476,41 @@ window.TAROT_DB = [
     "aspects": {
       "love": {
         "up": "Nuôi dưỡng mối quan hệ từng ngày, kiên nhẫn xây dựng nền tảng vững chắc cho tương lai.",
-        "rev": "Mất kiên nhẫn với người yêu, hoặc nhận ra mối quan hệ này tốn thời gian vô ích."
+        "rev": "Mất kiên nhẫn với người yêu, hoặc nhận ra mối quan hệ này tốn thời gian vô ích.",
+        "upright": "Một giai đoạn tạm dừng để nhìn nhận lại mối quan hệ. Cả hai đang suy ngẫm về những gì đã cùng nhau xây dựng và đánh giá xem tình yêu này có đang tiến tới một tương lai bền vững hay không.",
+        "reversed": "Cảm giác mệt mỏi vì đã đầu tư quá nhiều tình cảm nhưng không thấy được sự thay đổi hay cam kết từ đối phương. Sự thất vọng ê chề, muốn buông xuôi sau thời gian dài nỗ lực đơn độc."
       },
       "career": {
         "up": "Tạm dừng để đánh giá lại hướng đi nghề nghiệp. Kết quả công việc cần thời gian để chứng minh.",
-        "rev": "Chán nản vì làm việc cật lực mà chưa thấy thăng tiến. Muốn bỏ cuộc giữa chừng."
+        "rev": "Chán nản vì làm việc cật lực mà chưa thấy thăng tiến. Muốn bỏ cuộc giữa chừng.",
+        "upright": "Thời điểm đánh giá lại định hướng nghề nghiệp. Những nỗ lực trước đây bắt đầu đơm hoa kết trái, dù chậm rãi. Bạn cần kiên nhẫn, tiếp tục chăm sóc các dự án dài hạn thay vì vội vã thay đổi.",
+        "reversed": "Làm việc cật lực nhưng không thấy kết quả, cảm giác bị mắc kẹt trong một dự án bế tắc. Bạn cần dũng cảm cắt lỗ, từ bỏ những mục tiêu không còn khả thi để tập trung vào hướng đi mới."
       },
       "finance": {
         "up": "Các khoản đầu tư dài hạn đang sinh lời chậm mà chắc (như bất động sản, cổ phiếu lâu năm).",
-        "rev": "Rút vốn sớm do thiếu kiên nhẫn, hoặc nhận ra khoản đầu tư thua lỗ."
+        "rev": "Rút vốn sớm do thiếu kiên nhẫn, hoặc nhận ra khoản đầu tư thua lỗ.",
+        "upright": "Các khoản đầu tư dài hạn đang tiến triển ổn định. Mặc dù lợi nhuận chưa bùng nổ ngay lập tức, nhưng sự kiên nhẫn của bạn đang tạo ra một nền tảng tài chính an toàn cho tương lai.",
+        "reversed": "Sự thua lỗ trong các khoản đầu tư do nóng vội hoặc sự trì hoãn trong việc thu hồi vốn. Những thất thoát tài chính do thiếu sự theo dõi và đánh giá định kỳ."
       },
       "health": {
         "up": "Quá trình điều trị bệnh mãn tính cần thời gian dài, nhưng đang đi đúng hướng.",
-        "rev": "Nản lòng vì sức khỏe phục hồi quá chậm, bỏ bê việc tập luyện hoặc ăn kiêng."
+        "rev": "Nản lòng vì sức khỏe phục hồi quá chậm, bỏ bê việc tập luyện hoặc ăn kiêng.",
+        "upright": "Sự kiên nhẫn trong quá trình chữa lành bệnh hoặc duy trì lối sống lành mạnh. Những thay đổi nhỏ sẽ mang lại sức khỏe dẻo dai về lâu dài. Hãy lắng nghe cơ thể mình.",
+        "reversed": "Sự nản lòng vì không thấy kết quả tập luyện ngay lập tức, dẫn đến việc bỏ cuộc giữa chừng. Những chứng bệnh mãn tính tái phát do việc lơ là chăm sóc bản thân."
       },
       "spiritual": {
         "up": "Gieo nhân tốt và bình tâm chờ quả ngọt. Sự phát triển tâm linh đòi hỏi tính kỷ luật dài hạn.",
-        "rev": "Mong muốn giác ngộ 'ăn liền', dễ nản lòng khi tu tập."
+        "rev": "Mong muốn giác ngộ 'ăn liền', dễ nản lòng khi tu tập.",
+        "upright": "Quá trình ươm mầm tâm linh đang diễn ra lặng lẽ. Bạn đang tĩnh tâm chiêm nghiệm lại hành trình của mình, thu hoạch những bài học nhỏ và chuẩn bị cho sự bứt phá nhận thức.",
+        "reversed": "Sự mất kiên nhẫn với quá trình tiến hóa tâm thức. Cảm thấy hoang mang, hoài nghi về con đường đang đi vì không thấy được những phép màu hay sự giác ngộ như kỳ vọng."
       }
     },
     "planet": "Sao Thổ",
     "zodiac": "Kim Ngưu",
-    "advice": "Hãy kiên nhẫn. Quả ngọt cần thời gian để chín. Đừng bỏ cuộc khi sắp đến đích.",
-    "numerology": "Số 7 - Đánh giá, kiên nhẫn, chiến thuật, suy ngẫm."
+    "advice": "Những điều vĩ đại cần có thời gian để trưởng thành. Hãy kiên nhẫn chăm sóc khu vườn của bạn, nhưng cũng đừng ngại nhổ bỏ những cỏ dại không còn mang lại giá trị.",
+    "numerology": "Số 7 - Đánh giá, kiên nhẫn, chiến thuật, suy ngẫm.",
+    "generalUpright": "Người nông dân chống cựa cuốc nhìn ngắm những đồng tiền đang đâm chồi trên giàn cây, Seven of Pentacles là khoảng lặng của sự chiêm nghiệm, đánh giá và sự kiên nhẫn. Bạn đã đổ rất nhiều công sức gieo trồng, và giờ đây là lúc dừng lại, quan sát quá trình phát triển, đánh giá lại định hướng để quyết định xem những hạt giống này có đang mang lại vụ mùa như kỳ vọng hay không.",
+    "generalReversed": "Sự thất vọng chán chường sau những nỗ lực không được đền đáp. Lá bài đảo ngược cảnh báo về sự đầu tư sai chỗ, sự vội vã đòi hỏi kết quả hoặc cảm giác kiệt sức vì những công việc không mang lại lợi nhuận hay ý nghĩa. Một vụ mùa thất bát do bỏ bê hoặc chọn sai hạt giống."
   },
   {
     "id": 71,
@@ -4456,29 +4540,41 @@ window.TAROT_DB = [
     "aspects": {
       "love": {
         "up": "Cả hai đang rất nỗ lực vun đắp và hoàn thiện mối quan hệ. Chú ý đến những chi tiết nhỏ để làm đối phương vui.",
-        "rev": "Bỏ bê tình yêu vì quá mải mê làm việc, hoặc lười biếng không muốn cố gắng giải quyết mâu thuẫn."
+        "rev": "Bỏ bê tình yêu vì quá mải mê làm việc, hoặc lười biếng không muốn cố gắng giải quyết mâu thuẫn.",
+        "upright": "Cả hai đang nỗ lực chăm chút, xây dựng mối quan hệ một cách nghiêm túc. Tình yêu hiện tại không chỉ có sự lãng mạn mà còn là sự đồng hành, cùng nhau giải quyết từng vấn đề nhỏ nhặt bằng sự kiên nhẫn.",
+        "reversed": "Sự chán nản, thiếu cố gắng trong việc duy trì tình cảm. Hoặc một trong hai người quá mải mê với công việc, coi đối phương như một trách nhiệm phải hoàn thành, đánh mất đi ngọn lửa cảm xúc."
       },
       "career": {
         "up": "Học thêm chứng chỉ mới, mài giũa chuyên môn. Làm việc chăm chỉ mang lại chất lượng tuyệt vời.",
-        "rev": "Làm việc chống đối, chất lượng sản phẩm kém, chán nản với công việc lặp đi lặp lại."
+        "rev": "Làm việc chống đối, chất lượng sản phẩm kém, chán nản với công việc lặp đi lặp lại.",
+        "upright": "Thời gian tuyệt vời để nâng cao tay nghề, học thêm chứng chỉ hoặc tập trung cao độ vào công việc chuyên môn. Sự cống hiến thầm lặng của bạn sẽ sớm mang lại sự công nhận và thành công bền vững.",
+        "reversed": "Sự trì hoãn, làm việc thiếu trách nhiệm, lặp đi lặp lại những lỗi sai cơ bản do sự bất cẩn. Cảm thấy chán ghét công việc hiện tại, thiếu động lực để cải thiện kỹ năng."
       },
       "finance": {
         "up": "Kiếm tiền ổn định thông qua sự cần mẫn và tay nghề cao. Không có đường tắt để làm giàu lúc này.",
-        "rev": "Thu nhập giảm sút do thiếu kỹ năng hoặc không chịu cập nhật kiến thức mới."
+        "rev": "Thu nhập giảm sút do thiếu kỹ năng hoặc không chịu cập nhật kiến thức mới.",
+        "upright": "Sự ổn định tài chính đạt được nhờ lao động chân chính và kỹ năng xuất sắc. Những khoản tiết kiệm tích tiểu thành đại. Thu nhập tăng lên nhờ sự nâng cấp giá trị bản thân.",
+        "reversed": "Những rủi ro tài chính do làm ăn cẩu thả, sản phẩm kém chất lượng hoặc thiếu sự tỉ mỉ trong quản lý tiền bạc. Thua lỗ do thiếu kiên nhẫn và muốn đi đường tắt."
       },
       "health": {
         "up": "Thực hiện chế độ ăn uống, tập luyện vô cùng kỷ luật và tỉ mỉ.",
-        "rev": "Ám ảnh quá mức với việc tập luyện (tập sai tư thế) hoặc bỏ bê cơ thể hoàn toàn."
+        "rev": "Ám ảnh quá mức với việc tập luyện (tập sai tư thế) hoặc bỏ bê cơ thể hoàn toàn.",
+        "upright": "Sự kỷ luật tuyệt vời trong việc rèn luyện thể chất và duy trì chế độ dinh dưỡng. Việc tuân thủ nghiêm ngặt các liệu trình điều trị sẽ mang lại sức khỏe dẻo dai, khỏe mạnh.",
+        "reversed": "Sự kiệt quệ thể chất do làm việc quá sức, lao lực. Bỏ bê cơ thể hoặc sự ám ảnh tiêu cực về việc tập luyện dẫn đến những chấn thương do sự cố chấp."
       },
       "spiritual": {
         "up": "Rèn luyện các phương pháp thực hành tâm linh (thiền, yoga) một cách cực kỳ chăm chỉ.",
-        "rev": "Thực hành tâm linh một cách máy móc, thiếu đi cái hồn."
+        "rev": "Thực hành tâm linh một cách máy móc, thiếu đi cái hồn.",
+        "upright": "Sự tu tập thầm lặng, đều đặn mỗi ngày. Bạn hiểu rằng sự giác ngộ không phải là một phép màu chớp nhoáng, mà là kết quả của sự rèn luyện thân tâm liên tục và lòng kiên trì.",
+        "reversed": "Sự lười biếng trong thực hành tâm linh. Hoặc việc chú trọng quá mức vào các nghi thức bề ngoài, tiểu tiết mà bỏ quên mục đích thanh lọc cốt lõi của linh hồn."
       }
     },
     "planet": "Mặt Trời",
     "zodiac": "Xử Nữ",
-    "advice": "Tập trung vào từng chi tiết nhỏ và mài giũa kỹ năng của bạn. Sự cần mẫn sẽ được đền đáp.",
-    "numerology": "Số 8 - Hành động, tốc độ, chuyên cần, sức mạnh."
+    "advice": "Đừng vội vàng tìm kiếm những thành công chớp nhoáng. Mọi kiệt tác vĩ đại đều được tạo nên từ hàng ngàn nhát búa kiên nhẫn trong tĩnh lặng. Hãy cứ mài giũa viên ngọc của chính mình.",
+    "numerology": "Số 8 - Hành động, tốc độ, chuyên cần, sức mạnh.",
+    "generalUpright": "Người thợ thủ công cặm cụi chạm khắc những đồng tiền, Eight of Pentacles là khúc ca của sự lao động miệt mài, tính kỷ luật, sự tập trung cao độ và việc mài giũa kỹ năng đến mức hoàn hảo. Nó đại diện cho sự tận tâm, làm việc chăm chỉ, sự cống hiến thầm lặng cho một chuyên môn cụ thể để tạo ra những kiệt tác mang giá trị thực tiễn bền vững.",
+    "generalReversed": "Sự cẩu thả, thiếu tập trung và làm việc qua loa đại khái. Sự đảo ngược cũng cảnh báo về hội chứng cuồng việc (workaholic), bạn đang trở thành một cỗ máy vô hồn, bị ám ảnh bởi tiểu tiết mà quên mất bức tranh tổng thể, dẫn đến sự kiệt sức và mất đi niềm vui cuộc sống."
   },
   {
     "id": 72,
@@ -4508,29 +4604,41 @@ window.TAROT_DB = [
     "aspects": {
       "love": {
         "up": "Rất hạnh phúc với cuộc sống độc thân độc lập, hoặc một mối quan hệ nơi cả hai đều tự chủ tài chính.",
-        "rev": "Lấy nhau vì tiền, phụ thuộc kinh tế hoàn toàn vào đối phương, hoặc lo sợ bị bỏ rơi nếu nghèo đi."
+        "rev": "Lấy nhau vì tiền, phụ thuộc kinh tế hoàn toàn vào đối phương, hoặc lo sợ bị bỏ rơi nếu nghèo đi.",
+        "upright": "Sự tự tin, độc lập tạo nên sức hấp dẫn tuyệt vời. Một mối quan hệ mà cả hai đều có không gian riêng, tôn trọng và không phụ thuộc lẫn nhau. Người độc thân đang rất hài lòng với sự tự do hiện tại.",
+        "reversed": "Bám víu vào một mối quan hệ chỉ vì sự an toàn tài chính. Sự phù phiếm bề ngoài che đậy cho sự trống rỗng, cô độc bên trong. Một tình yêu mang nặng tính chất đổi chác vật chất."
       },
       "career": {
         "up": "Sự nghiệp thăng hoa, bạn làm chủ công việc kinh doanh của mình. Đạt đỉnh cao của sự chuyên nghiệp.",
-        "rev": "Làm việc quá sức vì lòng tham, không có thời gian nghỉ ngơi. Hoặc một dự án kinh doanh thua lỗ."
+        "rev": "Làm việc quá sức vì lòng tham, không có thời gian nghỉ ngơi. Hoặc một dự án kinh doanh thua lỗ.",
+        "upright": "Sự thành đạt rực rỡ mang tính cá nhân. Đạt được vị trí cao, thu nhập đáng mơ ước và sự tự do tự chủ trong công việc kinh doanh riêng. Bạn đang tận hưởng trái ngọt từ sự nỗ lực xuất chúng của mình.",
+        "reversed": "Làm việc quá sức vì lòng tham, đánh mất cân bằng cuộc sống. Sự lừa dối, sống giả tạo tại nơi công sở, hoặc sự thất bại trong các dự án độc lập do thiếu năng lực quản lý."
       },
       "finance": {
         "up": "Giàu có, sung túc. Thỏa mái chi tiêu cho các kỳ nghỉ dưỡng cao cấp, chăm sóc sắc đẹp, mua sắm.",
-        "rev": "Khủng hoảng tài chính do thói quen tiêu xài xa xỉ (sống ảo). Sợ hãi việc mất đi địa vị."
+        "rev": "Khủng hoảng tài chính do thói quen tiêu xài xa xỉ (sống ảo). Sợ hãi việc mất đi địa vị.",
+        "upright": "Đỉnh cao của sự dư dả và thịnh vượng. Thoải mái nuông chiều bản thân bằng những món đồ cao cấp, tận hưởng một cuộc sống chất lượng cao mà không cần lo nghĩ về tiền bạc.",
+        "reversed": "Chi tiêu hoang phí vào những thứ xa xỉ để che đậy sự tự ti, dẫn đến nợ nần. Hoặc một sự sụp đổ tài chính do phụ thuộc quá nhiều vào nguồn lực của người khác."
       },
       "health": {
         "up": "Sức khỏe cực kỳ tốt, nhan sắc rạng rỡ nhờ biết cách tự yêu thương và chăm sóc bản thân (spa, retreat).",
-        "rev": "Các bệnh liên quan đến lối sống ít vận động, ăn uống đồ ngọt, hoặc phẫu thuật thẩm mỹ hỏng."
+        "rev": "Các bệnh liên quan đến lối sống ít vận động, ăn uống đồ ngọt, hoặc phẫu thuật thẩm mỹ hỏng.",
+        "upright": "Sức khỏe dồi dào, vẻ đẹp rạng rỡ toát ra từ sự mãn nguyện nội tâm. Tận hưởng các dịch vụ chăm sóc sắc đẹp, spa mang lại năng lượng phục hồi tuyệt vời cho cơ thể.",
+        "reversed": "Những vấn đề sức khỏe do lạm dụng các chất kích thích, phẫu thuật thẩm mỹ quá đà hoặc lối sống buông thả. Sự cô đơn đang gặm nhấm tinh thần và hệ miễn dịch."
       },
       "spiritual": {
         "up": "Tự do trong tâm hồn, trân trọng vẻ đẹp của thiên nhiên và cuộc sống.",
-        "rev": "Bị mắc kẹt trong chiếc lồng vàng do chính mình tạo ra."
+        "rev": "Bị mắc kẹt trong chiếc lồng vàng do chính mình tạo ra.",
+        "upright": "Sự tĩnh tại, an yên sâu sắc. Linh hồn hòa nhịp với vẻ đẹp của thiên nhiên và tìm thấy sự thiêng liêng ngay trong sự sung túc của trần gian. Một sự cân bằng tuyệt hảo giữa vật chất và tinh thần.",
+        "reversed": "Mất phương hướng tâm linh, linh hồn bị bóp nghẹt bởi lòng tham vật chất. Chối bỏ trực giác vì sợ đánh mất những thứ phù phiếm bề ngoài, dẫn đến sự trống rỗng tột cùng."
       }
     },
     "planet": "Sao Kim",
     "zodiac": "Xử Nữ",
-    "advice": "Bạn xứng đáng với những gì bạn đã tạo ra. Hãy tự hào và tận hưởng sự độc lập của mình.",
-    "numerology": "Số 9 - Gần hoàn thiện, đỉnh cao cá nhân, độc lập."
+    "advice": "Hãy tự hào về những gì bạn đã xây dựng và cho phép bản thân được tận hưởng chúng. Sự độc lập và vẻ đẹp rạng ngời của bạn chính là món quà truyền cảm hứng cho thế giới.",
+    "numerology": "Số 9 - Gần hoàn thiện, đỉnh cao cá nhân, độc lập.",
+    "generalUpright": "Người phụ nữ điềm tĩnh đi dạo trong khu vườn trù phú với chú chim ưng đậu trên tay, Nine of Pentacles là bức tranh rực rỡ của sự độc lập, sự viên mãn tài chính và vẻ đẹp của sự tự túc. Nó là phần thưởng ngọt ngào cho những nỗ lực cá nhân, một khoảng thời gian tận hưởng sự xa hoa, sự thanh lịch, bình yên nội tâm và lòng kiêu hãnh tuyệt đẹp của một người tự mình kiến tạo nên vương quốc.",
+    "generalReversed": "Sự xa hoa biến thành cái lồng vàng ngột ngạt. Bạn có thể đang mắc kẹt trong sự phụ thuộc tài chính vào người khác, hoặc sự theo đuổi vật chất quá mức đang đánh cắp sự tự do và bình yên thực sự. Cảm giác cô đơn sâu sắc ẩn sau vẻ ngoài hào nhoáng."
   },
   {
     "id": 73,
@@ -4559,29 +4667,41 @@ window.TAROT_DB = [
     "aspects": {
       "love": {
         "up": "Một cuộc hôn nhân gắn kết chặt chẽ với hai bên gia đình, đem lại sự bảo đảm vững chắc về tài chính.",
-        "rev": "Mâu thuẫn với nhà chồng/vợ vì vấn đề tiền bạc, hoặc kết hôn không được gia đình chấp nhận."
+        "rev": "Mâu thuẫn với nhà chồng/vợ vì vấn đề tiền bạc, hoặc kết hôn không được gia đình chấp nhận.",
+        "upright": "Một cuộc hôn nhân viên mãn, vững chắc, môn đăng hộ đối. Tình yêu được sự hậu thuẫn mạnh mẽ từ gia đình hai bên, hứa hẹn một tổ ấm sung túc và một tương lai đảm bảo cho con cháu.",
+        "reversed": "Mâu thuẫn gay gắt với gia đình chồng/vợ về các vấn đề tài chính. Sự can thiệp vật chất từ người lớn đang phá hoại tình yêu, hoặc những cuộc hôn nhân mang tính chất tính toán, lợi ích kinh tế trơ trẽn."
       },
       "career": {
         "up": "Làm việc trong một tập đoàn lớn lâu đời, hoặc tiếp quản công việc kinh doanh của gia đình.",
-        "rev": "Công ty gia đình phá sản, bị sa thải khỏi một vị trí tưởng chừng rất ổn định."
+        "rev": "Công ty gia đình phá sản, bị sa thải khỏi một vị trí tưởng chừng rất ổn định.",
+        "upright": "Sự thành công rực rỡ tại các tập đoàn lớn, công ty gia đình hoặc các ngành nghề truyền thống. Vị trí vô cùng vững chắc, được hưởng các chế độ hưu trí, phúc lợi lâu dài tuyệt vời.",
+        "reversed": "Sự phá sản của những doanh nghiệp lâu đời, sự thất bại trong việc tiếp quản cơ ngơi gia đình. Môi trường công sở đầy rẫy chủ nghĩa ô dù, bè phái gia đình trị gây bức xúc tột độ."
       },
       "finance": {
         "up": "Tài sản khổng lồ, nhận được đất đai, nhà cửa, tiền thừa kế. Một sự giàu có bền vững.",
-        "rev": "Mất mát tài sản gia đình, đầu tư thua lỗ nặng nề để lại khoản nợ cho con cái."
+        "rev": "Mất mát tài sản gia đình, đầu tư thua lỗ nặng nề để lại khoản nợ cho con cái.",
+        "upright": "Đỉnh cao của quyền lực tài chính, sự giàu sang truyền đời. Nhận được một khoản thừa kế lớn, các khoản đầu tư bất động sản sinh lời khổng lồ, tạo ra một di sản kinh tế vững mạnh.",
+        "reversed": "Kiện tụng tài sản thừa kế, sự sụp đổ kinh tế do đầu tư sai lầm làm tiêu tan gia sản nhiều đời. Những khoản nợ lớn đè nặng lên vai các thành viên trong gia đình."
       },
       "health": {
         "up": "Sức khỏe di truyền tốt. Tuổi thọ cao, được gia đình chăm sóc chu đáo khi ốm đau.",
-        "rev": "Phát hiện các căn bệnh di truyền từ gia đình, hoặc lo âu quá độ vì gánh nặng kinh tế gia đình."
+        "rev": "Phát hiện các căn bệnh di truyền từ gia đình, hoặc lo âu quá độ vì gánh nặng kinh tế gia đình.",
+        "upright": "Sức khỏe di truyền tuyệt vời. Sự chăm sóc y tế cao cấp, môi trường sống an toàn và sung túc mang lại nền tảng thể chất khỏe mạnh, trường thọ cho cả gia đình.",
+        "reversed": "Cảnh báo về những căn bệnh di truyền nguy hiểm đang bộc phát. Những mâu thuẫn gia đình tạo ra sự căng thẳng tâm lý trầm trọng, ảnh hưởng xấu đến sức khỏe tổng thể."
       },
       "spiritual": {
         "up": "Tôn kính tổ tiên, giữ gìn các giá trị cội nguồn.",
-        "rev": "Từ chối gốc gác, cảm thấy bị đè nén bởi những kỳ vọng của dòng họ."
+        "rev": "Từ chối gốc gác, cảm thấy bị đè nén bởi những kỳ vọng của dòng họ.",
+        "upright": "Nhận thức sâu sắc về việc gốc rễ gia tộc chính là nền tảng tâm linh vững chắc. Tôn kính tổ tiên, kế thừa những giá trị văn hóa và duy trì sự kết nối thiêng liêng qua nhiều thế hệ.",
+        "reversed": "Sự nổi loạn chống lại các truyền thống gia đình độc hại. Cắt đứt nghiệp lực gia tộc (family karma) để linh hồn được giải phóng khỏi sự kiểm soát vật chất của dòng họ."
       }
     },
     "planet": "Sao Thủy",
     "zodiac": "Xử Nữ",
-    "advice": "Gắn kết với các giá trị cốt lõi của gia đình. Xây dựng một nền tảng vững chắc cho thế hệ sau.",
-    "numerology": "Số 10 - Kết thúc chu kỳ, viên mãn hoặc sụp đổ."
+    "advice": "Sự giàu có thực sự không chỉ là những con số trong ngân hàng, mà là di sản yêu thương và sự an toàn bạn để lại cho những người đi sau. Hãy xây dựng nền móng bằng những giá trị bền vững.",
+    "numerology": "Số 10 - Kết thúc chu kỳ, viên mãn hoặc sụp đổ.",
+    "generalUpright": "Ba thế hệ cùng quây quần dưới cánh cổng lâu đài, Ten of Pentacles là di sản vĩ đại nhất của trần gian: sự thịnh vượng vĩnh cửu, tính kế thừa, truyền thống gia đình và sự sung túc đạt mức tuyệt đối. Nó phác họa một nền tảng kinh tế vững như bàn thạch, sự thịnh vượng được truyền từ đời này sang đời khác, bảo vệ gia đình và những người thân yêu bằng một sự an toàn vật chất trọn vẹn.",
+    "generalReversed": "Sự sụp đổ của một đế chế gia đình. Lá bài đảo ngược phơi bày những cuộc tranh chấp tài sản tàn nhẫn, sự rạn nứt vì di chúc, sự phá sản của công ty gia đình hoặc gánh nặng nợ nần để lại cho thế hệ sau. Sự phá vỡ các giá trị truyền thống một cách đau đớn."
   },
   {
     "id": 74,
@@ -4612,29 +4732,41 @@ window.TAROT_DB = [
     "aspects": {
       "love": {
         "up": "Một tình yêu thực tế, chậm rãi nhưng chắc chắn. Cùng nhau học tập hoặc lên kế hoạch tài chính nhỏ.",
-        "rev": "Thiếu trách nhiệm trong tình cảm, cư xử trẻ con, lười biếng hẹn hò."
+        "rev": "Thiếu trách nhiệm trong tình cảm, cư xử trẻ con, lười biếng hẹn hò.",
+        "upright": "Một tình yêu trẻ trung nhưng đầy sự chân thành và thực tế. Một người đang từ từ, cẩn trọng xây dựng nền tảng tình cảm. Mối quan hệ an toàn, đáng tin cậy, thiếu sự cuồng nhiệt nhưng rất kiên định.",
+        "reversed": "Sự hời hợt, lười biếng trong việc vun đắp tình yêu. Mối quan hệ trở nên tẻ nhạt vì đối phương quá khô khan, thực dụng hoặc không có chí tiến thủ, không có kế hoạch tương lai."
       },
       "career": {
         "up": "Đang đi học nghề, thực tập sinh chăm chỉ. Một ý tưởng kinh doanh mới đang được phác thảo thực tế.",
-        "rev": "Thiếu kỹ năng thực tế, hay mơ mộng viển vông, trượt phỏng vấn do thiếu chuẩn bị."
+        "rev": "Thiếu kỹ năng thực tế, hay mơ mộng viển vông, trượt phỏng vấn do thiếu chuẩn bị.",
+        "upright": "Một tin tức tốt về học hành, công việc thực tập hoặc dự án mới. Thái độ ham học hỏi, cần cù và tỉ mỉ sẽ giúp bạn ghi điểm trong mắt cấp trên và mở ra những cơ hội thăng tiến vững chắc.",
+        "reversed": "Kết quả học tập, làm việc sa sút do lười biếng và thiếu kỷ luật. Bỏ lỡ cơ hội việc làm vì sự chần chừ, hoặc việc theo đuổi những dự án thiếu tính thực tiễn và không có khả năng sinh lời."
       },
       "finance": {
         "up": "Bắt đầu học cách tiết kiệm và đầu tư nhỏ. Nhận được một khoản tiền thưởng hoặc học bổng.",
-        "rev": "Tiêu sạch tiền tiêu vặt, không biết quản lý tài chính cá nhân."
+        "rev": "Tiêu sạch tiền tiêu vặt, không biết quản lý tài chính cá nhân.",
+        "upright": "Một cơ hội kiếm tiền nhỏ giọt nhưng an toàn. Giai đoạn tuyệt vời để bắt đầu học cách quản lý tài chính, tiết kiệm và tìm hiểu về các phương pháp đầu tư cơ bản.",
+        "reversed": "Sự vô trách nhiệm với tiền bạc. Tiêu xài bốc đồng vào những thứ vô bổ, hoặc bị lừa gạt trong những dự án đầu tư thiếu minh bạch vì thiếu kiến thức nền tảng."
       },
       "health": {
         "up": "Bắt đầu tham gia một khóa học về dinh dưỡng hoặc một môn thể thao mới với sự nghiêm túc.",
-        "rev": "Ăn uống vô tội vạ, lười vận động dẫn đến thừa cân, uể oải."
+        "rev": "Ăn uống vô tội vạ, lười vận động dẫn đến thừa cân, uể oải.",
+        "upright": "Bắt đầu thiết lập những thói quen tốt cho cơ thể. Tập trung vào chế độ ăn uống lành mạnh, gần gũi với thiên nhiên, mang lại một nền tảng sức khỏe vững chắc, tươi trẻ.",
+        "reversed": "Sự lười vận động, bỏ bê cơ thể. Những triệu chứng mệt mỏi do lối sống thiếu khoa học, tiêu thụ quá nhiều đồ ăn vặt hoặc lạm dụng cơ thể bằng những thói quen xấu."
       },
       "spiritual": {
         "up": "Khám phá tâm linh thông qua những việc làm thực tế (chăm sóc cây cối, thiền hành).",
-        "rev": "Tâm trí lơ đãng, không thể tập trung thiền định."
+        "rev": "Tâm trí lơ đãng, không thể tập trung thiền định.",
+        "upright": "Một sự kết nối sâu sắc với tự nhiên. Bạn học được cách tìm thấy những thông điệp tâm linh thông qua những công việc chân tay giản dị và sự quan sát cẩn thận thế giới vật chất.",
+        "reversed": "Sự bám chấp quá mức vào vật chất khiến linh hồn trở nên nặng nề, cằn cỗi. Sự mất kết nối với thiên nhiên và chối bỏ mọi sự tồn tại của thế giới tinh thần."
       }
     },
     "planet": "Sao Kim",
     "zodiac": "Kim Ngưu, Xử Nữ, Ma Kết",
-    "advice": "Bắt đầu với những bước đi thực tế, học hỏi chăm chỉ và lập kế hoạch rõ ràng.",
-    "numerology": "Cấp Tiểu Đồng (Page) - Trẻ trung, học hỏi, tin tức, tò mò."
+    "advice": "Một cái cây cổ thụ cũng bắt đầu từ một hạt mầm nhỏ bé. Hãy trân trọng sự khởi đầu, học hỏi bằng sự khiêm tốn và hành động bằng sự kiên nhẫn, thành quả thực tế sẽ đến với bạn.",
+    "numerology": "Cấp Tiểu Đồng (Page) - Trẻ trung, học hỏi, tin tức, tò mò.",
+    "generalUpright": "Cẩn thận nâng niu đồng tiền vàng giữa thiên nhiên tươi đẹp, Page of Pentacles là sứ giả của sự cần mẫn, tinh thần học hỏi, sự khởi đầu thực tế và lòng tò mò về thế giới vật chất. Cậu bé đại diện cho một hạt giống của sự quyết tâm, sự tập trung vào mục tiêu cụ thể, sẵn sàng học hỏi những kỹ năng mới để biến những ước mơ thành hiện thực hữu hình.",
+    "generalReversed": "Sự thiếu tập trung, lười biếng và bỏ dở giữa chừng. Một người mộng mơ thiếu thực tế, không chịu hành động. Sự xao nhãng vào những thú vui vật chất nhất thời, thiếu tính kỷ luật dẫn đến việc bỏ lỡ những cơ hội phát triển tuyệt vời."
   },
   {
     "id": 75,
@@ -4664,29 +4796,41 @@ window.TAROT_DB = [
     "aspects": {
       "love": {
         "up": "Một người yêu cực kỳ chung thủy, đáng tin cậy, chăm lo cho gia đình. Tình yêu thực tế, ít lãng mạn.",
-        "rev": "Mối quan hệ quá nhàm chán, khô khan. Hoặc đối phương là một người ích kỷ, lười biếng vô tích sự."
+        "rev": "Mối quan hệ quá nhàm chán, khô khan. Hoặc đối phương là một người ích kỷ, lười biếng vô tích sự.",
+        "upright": "Một người yêu vô cùng chung thủy, đáng tin cậy, luôn chu cấp và bảo vệ bạn bằng những hành động thực tế. Mối quan hệ ổn định, vững chắc như bàn thạch, hướng tới tương lai lâu dài.",
+        "reversed": "Sự nhàm chán, khô khan và thiếu lãng mạn tột độ trong tình yêu. Sự cố chấp, bảo thủ của đối phương khiến mối quan hệ trở nên nặng nề, ngột ngạt hoặc một người hoàn toàn vô tâm, lười biếng."
       },
       "career": {
         "up": "Một nhân viên mẫn cán, hoàn thành công việc đúng hạn. Sự nghiệp tiến triển chậm nhưng cực kỳ vững chắc.",
-        "rev": "Nghiện việc (workaholic) đến mức quên hết xung quanh, hoặc quá bảo thủ không chịu áp dụng công nghệ mới."
+        "rev": "Nghiện việc (workaholic) đến mức quên hết xung quanh, hoặc quá bảo thủ không chịu áp dụng công nghệ mới.",
+        "upright": "Sự thành công đạt được nhờ sự chăm chỉ, cần mẫn và tỉ mỉ. Bạn là một nhân viên mẫu mực, đáng tin cậy nhất trong nhóm. Mọi dự án đều được hoàn thành một cách chỉn chu, hoàn hảo.",
+        "reversed": "Sự mắc kẹt trong những quy trình làm việc rườm rà, cứng nhắc. Thiếu sáng tạo, sợ hãi sự thay đổi, hoặc sự lười biếng, làm việc qua loa dẫn đến những đánh giá tồi tệ từ cấp trên."
       },
       "finance": {
         "up": "Tích lũy tài sản đều đặn. Đầu tư vào các kênh an toàn nhất. Tuyệt đối không mạo hiểm.",
-        "rev": "Bủn xỉn, chôn chặt tiền một chỗ khiến tiền mất giá. Khủng hoảng tài chính do lười làm việc."
+        "rev": "Bủn xỉn, chôn chặt tiền một chỗ khiến tiền mất giá. Khủng hoảng tài chính do lười làm việc.",
+        "upright": "Những khoản đầu tư an toàn, ít rủi ro và tăng trưởng chậm nhưng chắc chắn. Quản lý tài chính cẩn trọng, tích lũy vững vàng, không bao giờ tham gia vào các trò cá cược may rủi.",
+        "reversed": "Sự keo kiệt thái quá, không dám mạo hiểm làm mất đi những cơ hội kinh tế. Hoặc sự tiêu xài vô kỷ luật, mất mát tài chính vì sự lười biếng trong việc theo dõi thị trường."
       },
       "health": {
         "up": "Sức khỏe ổn định nhờ duy trì những thói quen tốt như lập trình sẵn.",
-        "rev": "Các vấn đề về xương khớp, cơ bắp do sự cứng nhắc hoặc làm việc chân tay quá độ."
+        "rev": "Các vấn đề về xương khớp, cơ bắp do sự cứng nhắc hoặc làm việc chân tay quá độ.",
+        "upright": "Cơ thể khỏe mạnh nhờ sự kỷ luật nghiêm ngặt trong sinh hoạt. Duy trì các thói quen tập luyện và ăn uống một cách kiên trì, mang lại sức đề kháng tuyệt vời và sinh lực dẻo dai.",
+        "reversed": "Sự lười biếng, ì ạch dẫn đến tình trạng thừa cân, mệt mỏi mãn tính. Hoặc quá ám ảnh với việc tập luyện cường độ cao, cứng nhắc dẫn đến các tổn thương cơ xương khớp."
       },
       "spiritual": {
         "up": "Thể hiện đức tin qua hành động thực tiễn (như làm việc thiện).",
-        "rev": "Quá gắn chặt vào vật chất, phủ nhận hoàn toàn các hiện tượng tâm linh."
+        "rev": "Quá gắn chặt vào vật chất, phủ nhận hoàn toàn các hiện tượng tâm linh.",
+        "upright": "Tu tập bằng hành động thiết thực. Trải nghiệm sự giác ngộ qua việc hoàn thành các công việc nhỏ nhặt nhất với sự chánh niệm tuyệt đối. Sự tĩnh tại như một ngọn núi.",
+        "reversed": "Sự khô cằn của tâm thức. Gắn bó với vật chất đến mức từ chối mọi sự thức tỉnh tâm linh. Sự lười biếng trong việc thanh lọc tâm hồn, để cho bản ngã nặng nề lấn át."
       }
     },
     "planet": "Sao Thủy",
     "zodiac": "Xử Nữ",
-    "advice": "Sự kiên trì và đáng tin cậy sẽ đưa bạn đến đích, dù có chậm hơn người khác.",
-    "numerology": "Cấp Kỵ Sĩ (Knight) - Năng lượng, di chuyển, theo đuổi mục tiêu."
+    "advice": "Đừng vội vàng, nhưng cũng đừng bao giờ dừng lại. Sức mạnh thực sự nằm ở sự kiên trì bền bỉ, những bước chân chậm rãi nhưng vững chãi sẽ đưa bạn lên đến đỉnh núi cao nhất.",
+    "numerology": "Cấp Kỵ Sĩ (Knight) - Năng lượng, di chuyển, theo đuổi mục tiêu.",
+    "generalUpright": "Cưỡi trên lưng một con ngựa đen chậm rãi vững chãi, Knight of Pentacles là hiệp sĩ của sự kiên nhẫn, sự bền bỉ, tính kỷ luật thép và sự tận tụy không mệt mỏi. Không mang tốc độ của bão tố, anh ta chinh phục mục tiêu bằng những bước tiến vững chắc, tỉ mỉ, trung thành bảo vệ những gì đã được giao phó và không bao giờ bỏ cuộc cho đến khi chạm đích.",
+    "generalReversed": "Sự kiên nhẫn biến thành sự trì trệ, bảo thủ và cứng nhắc. Hiệp sĩ đảo ngược trở thành một cỗ máy làm việc vô hồn, nhàm chán, cố chấp với những phương pháp cũ kỹ, hoặc ngược lại, hoàn toàn vô trách nhiệm, lười biếng và từ bỏ mọi nỗ lực khi gặp khó khăn."
   },
   {
     "id": 76,
@@ -4717,29 +4861,41 @@ window.TAROT_DB = [
     "aspects": {
       "love": {
         "up": "Một đối tác tuyệt vời, chăm sóc bạn từng miếng ăn giấc ngủ và giúp bạn ổn định cuộc sống.",
-        "rev": "Yêu đương thực dụng, chỉ quan tâm đến nhà lầu xe hơi. Ghen tuông và thích kiểm soát đối tác bằng tiền."
+        "rev": "Yêu đương thực dụng, chỉ quan tâm đến nhà lầu xe hơi. Ghen tuông và thích kiểm soát đối tác bằng tiền.",
+        "upright": "Một tình yêu ấm áp, bao dung và tràn đầy sự chăm sóc thiết thực. Đối phương mang lại cảm giác an toàn như một mái ấm thực sự, nơi bạn được nuôi dưỡng cả về thể chất lẫn tinh thần.",
+        "reversed": "Sự kiểm soát tài chính để thao túng tình cảm. Ghen tuông, ghen tị vật chất, hoặc sự ngột ngạt do sự bao bọc thái quá. Tình yêu biến thành một giao dịch thực dụng, vô hồn."
       },
       "career": {
         "up": "Nữ doanh nhân thành đạt, vừa quản lý công ty tốt vừa có thời gian cho bản thân.",
-        "rev": "Làm việc vì tiền một cách mù quáng, môi trường làm việc chỉ có sự tính toán vụ lợi."
+        "rev": "Làm việc vì tiền một cách mù quáng, môi trường làm việc chỉ có sự tính toán vụ lợi.",
+        "upright": "Khả năng lãnh đạo xuất chúng nhờ sự cân bằng giữa hiệu quả kinh doanh và sự quan tâm đến nhân viên. Rất phù hợp với các lĩnh vực tài chính, chăm sóc sức khỏe, bất động sản. Môi trường làm việc thịnh vượng.",
+        "reversed": "Sự độc tài, bóc lột tại nơi làm việc. Quản lý tài chính yếu kém, hoặc bạn đang làm việc quá sức đến mức quên đi gia đình và bản thân chỉ vì tham vọng vật chất vô đáy."
       },
       "finance": {
         "up": "Rất giỏi quản lý tài chính, đầu tư khôn ngoan và thích dùng tiền để nâng cao chất lượng sống.",
-        "rev": "Chi tiêu hoang phí để khoe khoang sự giàu có, hoặc ngược lại là bủn xỉn cắt xén bữa ăn gia đình."
+        "rev": "Chi tiêu hoang phí để khoe khoang sự giàu có, hoặc ngược lại là bủn xỉn cắt xén bữa ăn gia đình.",
+        "upright": "Sự dồi dào tài chính đạt được nhờ quản lý khôn ngoan và sự nhạy bén thực tế. Một người phụ nữ có tầm ảnh hưởng lớn sẽ mang đến những cơ hội hoặc sự hỗ trợ tài chính tuyệt vời cho bạn.",
+        "reversed": "Sự phung phí để mua địa vị xã hội, hoặc sự keo kiệt bủn xỉn. Rủi ro mất mát tài chính do những quyết định tham lam, bốc đồng hoặc sự lừa dối trong kinh doanh."
       },
       "health": {
         "up": "Sức khỏe tuyệt vời nhờ ăn uống đủ chất và sinh hoạt trong một môi trường sống thoải mái.",
-        "rev": "Béo phì, các vấn đề sức khỏe do ăn uống tẩm bổ quá mức hoặc lười vận động."
+        "rev": "Béo phì, các vấn đề sức khỏe do ăn uống tẩm bổ quá mức hoặc lười vận động.",
+        "upright": "Sức khỏe sung mãn, rạng rỡ. Biết cách yêu thương cơ thể bằng những thực phẩm sạch, liệu pháp thiên nhiên. Tâm hồn và thể chất hòa quyện trong một trạng thái cân bằng tuyệt mỹ.",
+        "reversed": "Những căn bệnh phát sinh do lười vận động, ăn uống vô độ để thỏa mãn cảm xúc. Sự kiệt sức do hội chứng người chăm sóc (burnout) hoặc các vấn đề liên quan đến nội tiết tố."
       },
       "spiritual": {
         "up": "Kết nối tâm linh với Đất mẹ, thích làm vườn, tìm thấy bình yên trong thiên nhiên.",
-        "rev": "Đánh mất tâm hồn vì mãi chạy theo những giá trị vật chất phù phiếm."
+        "rev": "Đánh mất tâm hồn vì mãi chạy theo những giá trị vật chất phù phiếm.",
+        "upright": "Trực giác mạnh mẽ gắn liền với năng lượng của Mẹ Trái Đất (Gaia). Nhận thức được sự thiêng liêng của thế giới vật chất, thực hành lòng biết ơn qua việc nuôi dưỡng sự sống xung quanh.",
+        "reversed": "Cắt đứt mối liên kết với thiên nhiên. Tâm hồn khô héo do sự ám ảnh vật chất tột độ. Sử dụng vỏ bọc tâm linh để trục lợi tài chính, đánh mất sự thuần khiết của lòng từ bi."
       }
     },
     "planet": "Sao Thổ",
     "zodiac": "Ma Kết",
-    "advice": "Chăm sóc bản thân và những người xung quanh bằng sự thực tế, ấm áp và chu đáo.",
-    "numerology": "Cấp Nữ Hoàng (Queen) - Trưởng thành, nuôi dưỡng, làm chủ nội tâm."
+    "advice": "Sự giàu có thực sự là khả năng tạo ra sự sống và nuôi dưỡng những người xung quanh. Hãy hào phóng nhưng cũng đừng quên thiết lập ranh giới để bảo vệ khu vườn nội tâm của mình.",
+    "numerology": "Cấp Nữ Hoàng (Queen) - Trưởng thành, nuôi dưỡng, làm chủ nội tâm.",
+    "generalUpright": "Ngự trị tĩnh lặng giữa thiên nhiên trù phú, Queen of Pentacles là mẫu nghi thiên hạ của thế giới vật chất: ấm áp, thực tế, hào phóng và có khả năng nuôi dưỡng vạn vật. Nàng mang lại sự an toàn, sung túc, khéo léo vun vén gia đình lẫn sự nghiệp bằng lòng trắc ẩn sâu sắc và trí tuệ thực tiễn, biến mọi thứ nàng chạm vào đều sinh sôi nảy nở.",
+    "generalReversed": "Sự nuôi dưỡng biến thành sự kiểm soát nghẹt thở, tính ích kỷ và sự thực dụng tàn nhẫn. Nàng trở nên ám ảnh với địa vị, sự xa hoa, ghen tuông vật chất, hoặc đánh mất bản thân trong việc cố gắng chăm sóc người khác đến mức kiệt quệ. Sự tham lam phá hủy mọi mối quan hệ."
   },
   {
     "id": 77,
@@ -4768,28 +4924,40 @@ window.TAROT_DB = [
     "aspects": {
       "love": {
         "up": "Một người bảo vệ vững chắc cho gia đình, cung cấp cuộc sống vật chất dư dả và an toàn.",
-        "rev": "Sử dụng tiền bạc để kiểm soát gia đình. Một người chồng/vợ độc đoán, vô tâm, chỉ biết đến công việc."
+        "rev": "Sử dụng tiền bạc để kiểm soát gia đình. Một người chồng/vợ độc đoán, vô tâm, chỉ biết đến công việc.",
+        "upright": "Một người bảo vệ vững chắc, mang lại sự an toàn tài chính và một cuộc sống vương giả cho gia đình. Mối quan hệ dựa trên sự trung thành, sự ổn định lâu dài và những cam kết thực tế sâu sắc.",
+        "reversed": "Một kẻ độc tài, gia trưởng, dùng tiền bạc để thao túng đối phương. Mối quan hệ ngột ngạt vì tính bảo thủ, sự cứng nhắc hoặc sự ngoại tình được che đậy bằng vật chất quyền lực."
       },
       "career": {
         "up": "Ông chủ lớn, CEO, nhà đầu tư lỗi lạc. Sự nghiệp đạt đến vị trí cao nhất có thể.",
-        "rev": "Công ty có hành vi kinh doanh gian lận, trốn thuế. Lãnh đạo tham lam vắt kiệt sức lao động nhân viên."
+        "rev": "Công ty có hành vi kinh doanh gian lận, trốn thuế. Lãnh đạo tham lam vắt kiệt sức lao động nhân viên.",
+        "upright": "Đỉnh cao của sự nghiệp quản trị và kinh doanh. Đạt được vị thế quyền lực lớn, thành công rực rỡ trong những dự án quy mô khổng lồ. Sự tôn trọng tuyệt đối từ cấp dưới nhờ tài lãnh đạo thực tế.",
+        "reversed": "Sự tham nhũng, lạm quyền và bóc lột nhân viên tại nơi làm việc. Sự sụp đổ của một công ty lớn do người đứng đầu quá cứng nhắc, bảo thủ và từ chối đổi mới."
       },
       "finance": {
         "up": "Khối tài sản khổng lồ, an toàn và sinh lời không ngừng. Đế chế tài chính được thiết lập.",
-        "rev": "Sự sụp đổ của một đế chế tài chính do lòng tham không đáy hoặc làm ăn phi pháp."
+        "rev": "Sự sụp đổ của một đế chế tài chính do lòng tham không đáy hoặc làm ăn phi pháp.",
+        "upright": "Quyền lực tài chính tột bậc. Khối tài sản khổng lồ, các nguồn thu nhập thụ động vững chắc. Khả năng nhân giống dòng tiền tuyệt vời thông qua các chiến lược đầu tư mang tính vĩ mô.",
+        "reversed": "Khủng hoảng tài chính nghiêm trọng, sự phá sản của những doanh nghiệp lớn do lòng tham không đáy. Những vụ kiện tụng kinh tế, lừa đảo hoặc sự sụp đổ của những khoản đầu tư rủi ro."
       },
       "health": {
         "up": "Sức khỏe rất tốt nhờ có điều kiện chăm sóc y tế hạng nhất.",
-        "rev": "Bệnh tật liên quan đến tuổi già, hoặc các bệnh do dư thừa chất (Gout, tim mạch)."
+        "rev": "Bệnh tật liên quan đến tuổi già, hoặc các bệnh do dư thừa chất (Gout, tim mạch).",
+        "upright": "Sức khỏe cường tráng như một cây cổ thụ vững chãi. Sự an tâm về tài chính mang lại một tinh thần thoải mái, góp phần duy trì một cơ thể khỏe mạnh, trường thọ.",
+        "reversed": "Sự tàn phá sức khỏe do lối sống sa đọa, lạm dụng rượu thịt hoặc làm việc điên cuồng vì tiền bạc. Các căn bệnh liên quan đến hệ tiêu hóa, tim mạch do tích tụ căng thẳng và độc tố."
       },
       "spiritual": {
         "up": "Hiểu rằng vật chất là một công cụ tốt để phục vụ cho sự phát triển của nhân loại.",
-        "rev": "Xem tiền bạc là tôn giáo duy nhất. Coi thường những giá trị tinh thần."
+        "rev": "Xem tiền bạc là tôn giáo duy nhất. Coi thường những giá trị tinh thần.",
+        "upright": "Sự thống nhất tuyệt vời giữa thế giới vật chất và tinh thần. Sử dụng sự giàu có của mình để kiến tạo nên những giá trị nhân đạo vĩ đại, nâng đỡ cộng đồng và bảo vệ sự thiêng liêng của vạn vật.",
+        "reversed": "Sự hủ bại hoàn toàn của linh hồn. Từ chối mọi sự thức tỉnh tâm linh, sống một cuộc đời trần tục, tàn nhẫn và vô hồn. Lạc lối vĩnh viễn trong mê cung của lòng tham quyền lực."
       }
     },
     "planet": "Sao Kim",
     "zodiac": "Kim Ngưu",
-    "advice": "Tạo ra sự ổn định cho mọi người. Sử dụng tài sản vật chất để làm những việc có ý nghĩa.",
-    "numerology": "Cấp Vua (King) - Lãnh đạo, quyền lực, kiểm soát bên ngoài."
+    "advice": "Hãy sử dụng sự thịnh vượng của bạn như một công cụ để kiến tạo một thế giới tốt đẹp hơn. Quyền lực vĩ đại nhất của đồng tiền là khả năng nuôi dưỡng sự sống, chứ không phải phá hủy nó.",
+    "numerology": "Cấp Vua (King) - Lãnh đạo, quyền lực, kiểm soát bên ngoài.",
+    "generalUpright": "Ngồi uy nghi giữa những vòm dây leo trĩu quả, King of Pentacles là đỉnh cao vinh quang của sự thành đạt vật chất, uy quyền kinh tế và sự cai trị bằng trí tuệ thực tiễn. Ông là một nhà lãnh đạo kiệt xuất, kiến tạo nên những đế chế bền vững, bảo vệ vương quốc của mình bằng sự ổn định tài chính tuyệt đối, lòng hào phóng và sự đáng tin cậy không thể lay chuyển.",
+    "generalReversed": "Quyền lực bị vấy bẩn bởi sự tham lam tàn nhẫn, chủ nghĩa duy vật cực đoan và sự bóc lột. Ông trở thành kẻ độc tài cứng nhắc, hủ bại, sử dụng tiền bạc như một công cụ áp bức. Sự bảo thủ, tham nhũng và nguy cơ sụp đổ đế chế do những sai lầm đầy kiêu ngạo."
   }
 ];
