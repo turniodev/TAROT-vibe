@@ -3203,29 +3203,41 @@ window.TAROT_DB = [
     "aspects": {
       "love": {
         "up": "Sự thẳng thắn và giao tiếp rõ ràng trong tình yêu. Nhìn thấu bản chất mối quan hệ.",
-        "rev": "Lời nói tổn thương nhau. Những hiểu lầm không đáng có."
+        "rev": "Lời nói tổn thương nhau. Những hiểu lầm không đáng có.",
+        "upright": "Một cuộc trò chuyện làm sáng tỏ mọi nghi ngờ, phá vỡ những rào cản và hiểu lầm. Sự đối mặt với sự thật có thể đau đớn, nhưng cần thiết để xây dựng lại một mối quan hệ minh bạch và mạnh mẽ hơn.",
+        "reversed": "Sự lừa dối, thao túng ngôn từ và những lời nói cay nghiệt tàn phá tình yêu. Giao tiếp bị đình trệ, bạn đang trốn tránh sự thật và bám víu vào một ảo mộng độc hại."
       },
       "career": {
         "up": "Một dự án mới đầy trí tuệ. Chiến thắng trong các cuộc đàm phán, tranh luận.",
-        "rev": "Bế tắc ý tưởng, giao tiếp kém với đồng nghiệp."
+        "rev": "Bế tắc ý tưởng, giao tiếp kém với đồng nghiệp.",
+        "upright": "Một dự án mới đầy tính đột phá, đòi hỏi khả năng tư duy logic và sự nhạy bén sắc sảo. Cơ hội nghề nghiệp mới mở ra từ một quyết định dứt khoát hoặc một ý tưởng sáng tạo tuyệt vời.",
+        "reversed": "Môi trường công sở đầy rẫy sự bất đồng, thiếu minh bạch và những thông tin sai lệch. Bạn cảm thấy bối rối, không thể tìm ra hướng giải quyết hoặc bị kẹt trong những rào cản quan liêu."
       },
       "finance": {
         "up": "Suy nghĩ logic, quyết định tài chính sắc sảo.",
-        "rev": "Đầu tư bốc đồng dựa trên thông tin sai lệch."
+        "rev": "Đầu tư bốc đồng dựa trên thông tin sai lệch.",
+        "upright": "Bạn có cái nhìn rõ ràng và thực tế về tình hình tài chính của mình. Những quyết định cắt giảm chi phí hợp lý và những chiến lược đầu tư mang tính đột phá dựa trên sự thật khách quan.",
+        "reversed": "Sự bốc đồng, mù quáng trước những nguy cơ tài chính hoặc bị lừa gạt bằng những bản hợp đồng mập mờ. Đừng đưa ra những quyết định tài chính quan trọng khi tâm trí đang rối bời."
       },
       "health": {
         "up": "Tinh thần cực kỳ minh mẫn, phẫu thuật thành công.",
-        "rev": "Đau đầu, căng thẳng thần kinh hoặc chẩn đoán sai bệnh."
+        "rev": "Đau đầu, căng thẳng thần kinh hoặc chẩn đoán sai bệnh.",
+        "upright": "Sức khỏe tinh thần được giải phóng khỏi những nỗi ám ảnh và sự lo âu. Cần chú trọng vào việc duy trì một lối sống minh mẫn và loại bỏ những thói quen gây hại.",
+        "reversed": "Sự kiệt quệ tinh thần, chứng đau nửa đầu do suy nghĩ quá mức, hoặc các vấn đề sức khỏe liên quan đến căng thẳng do thiếu định hướng và sự hỗn loạn nội tâm."
       },
       "spiritual": {
         "up": "Ánh sáng chân lý xua tan màn sương mù.",
-        "rev": "Tự dối mình, không dám đối diện sự thật."
+        "rev": "Tự dối mình, không dám đối diện sự thật.",
+        "upright": "Một sự giác ngộ bằng trí tuệ, cắt đứt sự bám chấp vào những niềm tin sai lệch. Sự thật được phơi bày như ánh sáng chói lòa, dẫn dắt linh hồn đi đúng hướng.",
+        "reversed": "Mất phương hướng trong cõi tâm linh. Bạn có thể đang lạc lối trong những giáo điều cực đoan hoặc những ảo tưởng tinh thần do không sử dụng tư duy phản biện."
       }
     },
     "planet": "Nguyên tố Khí",
     "zodiac": "Thiên Bình, Bảo Bình, Song Tử",
-    "advice": "Sự thật có thể sắc bén và đau đớn, nhưng nó sẽ giải phóng bạn khỏi sự mù mờ.",
-    "numerology": "Số 1 - Hạt giống, tiềm năng, khởi đầu, ý chí."
+    "advice": "Hãy dũng cảm nâng thanh gươm của sự thật lên, dù nó có cắt vào sự ảo tưởng ngọt ngào. Chỉ khi đối mặt với sự thật, bạn mới có thể tìm thấy sự tự do thực sự.",
+    "numerology": "Số 1 - Hạt giống, tiềm năng, khởi đầu, ý chí.",
+    "generalUpright": "Từ giữa đám mây xám xịt của sự mù mờ, Ace of Swords là một luồng sáng trí tuệ xuyên thấu, mang theo sức mạnh của sự thật tàn nhẫn và tính khách quan sắc lạnh. Thanh kiếm vương quyền chém đứt mọi ảo tưởng, phơi bày cốt lõi của vấn đề và mang lại một sự khai sáng đột phá. Đây là hạt giống của sự thật, sự minh mẫn và sức mạnh giao tiếp kiên định.",
+    "generalReversed": "Thanh kiếm rơi khỏi tay, lưỡi kiếm của sự thật bị bẻ cong bởi sự hoang mang, dối trá và những ảo tưởng tự lừa dối. Một sự mù quáng trí tuệ, những quyết định sai lầm do thông tin nhiễu loạn hoặc sự thiếu dứt khoát dẫn đến sự bế tắc trong giao tiếp."
   },
   {
     "id": 51,
@@ -3254,29 +3266,41 @@ window.TAROT_DB = [
     "aspects": {
       "love": {
         "up": "Mối quan hệ chững lại vì cả hai không chịu giải quyết mâu thuẫn cốt lõi.",
-        "rev": "Chấm dứt sự im lặng, bùng nổ cãi vã hoặc chia tay dứt khoát."
+        "rev": "Chấm dứt sự im lặng, bùng nổ cãi vã hoặc chia tay dứt khoát.",
+        "upright": "Sự im lặng đáng sợ giữa hai người. Những vấn đề bị phớt lờ, cả hai chọn cách trốn tránh xung đột để duy trì vỏ bọc êm ấm, dẫn đến sự rạn nứt ngầm không thể cứu vãn.",
+        "reversed": "Cuộc đối đầu không thể tránh khỏi. Cảm xúc trào dâng, những bí mật bị phơi bày và một sự chia tay hoặc quyết định dứt khoát cuối cùng cũng được đưa ra để phá vỡ sự im lặng độc hại."
       },
       "career": {
         "up": "Bế tắc giữa hai công việc hoặc không dám quyết định hướng đi.",
-        "rev": "Bị buộc phải chọn một phe trong cuộc xung đột công ty."
+        "rev": "Bị buộc phải chọn một phe trong cuộc xung đột công ty.",
+        "upright": "Mắc kẹt giữa hai lựa chọn công việc hoặc giữa các phe phái tại nơi làm việc. Sự trì hoãn quyết định khiến bạn mất đi cơ hội và kéo dài tình trạng căng thẳng.",
+        "reversed": "Một quyết định khó khăn trong công việc đã được thực hiện, kéo theo những xáo trộn hoặc một sự thật bị che giấu ở công sở cuối cùng cũng lộ diện."
       },
       "finance": {
         "up": "Từ chối kiểm tra sao kê ngân hàng vì sợ hãi thực tại.",
-        "rev": "Đối diện nợ nần và bắt đầu lên kế hoạch trả nợ."
+        "rev": "Đối diện nợ nần và bắt đầu lên kế hoạch trả nợ.",
+        "upright": "Trốn tránh việc đối diện với những hóa đơn hoặc khoản nợ. Cố tình nhắm mắt làm ngơ trước tình trạng tài chính đang dần tồi tệ đi của mình.",
+        "reversed": "Chấp nhận thực tế tài chính phũ phàng và bắt đầu hành động. Mặc dù khó khăn, đây là bước đầu tiên để thoát khỏi vũng lầy nợ nần."
       },
       "health": {
         "up": "Các bệnh liên quan đến hệ hô hấp hoặc thị lực do trốn tránh điều trị.",
-        "rev": "Sự thật về tình trạng sức khỏe được làm rõ qua xét nghiệm."
+        "rev": "Sự thật về tình trạng sức khỏe được làm rõ qua xét nghiệm.",
+        "upright": "Những vấn đề sức khỏe bị kìm nén do tâm lý chối bỏ bệnh tật. Sự căng thẳng ngầm làm suy giảm hệ miễn dịch và gây ra các triệu chứng như đau ngực, khó thở.",
+        "reversed": "Sự bùng phát của những chứng bệnh do căng thẳng kéo dài. Dù đau đớn, đây là lúc bạn buộc phải tìm kiếm sự điều trị và đối diện với gốc rễ của vấn đề."
       },
       "spiritual": {
         "up": "Từ chối nhìn nhận mặt tối (shadow) của bản thân.",
-        "rev": "Tháo bỏ rào cản phòng vệ tâm lý."
+        "rev": "Tháo bỏ rào cản phòng vệ tâm lý.",
+        "upright": "Sự tắc nghẽn của luân xa tim và luân xa con mắt thứ ba. Bạn từ chối lắng nghe trực giác của mình vì sợ phải thay đổi niềm tin cốt lõi.",
+        "reversed": "Sự giải thoát đau đớn nhưng cần thiết. Nhận thức bị xé toạc, bạn bắt đầu đón nhận những bài học tâm linh khắc nghiệt nhất để trưởng thành."
       }
     },
     "planet": "Mặt Trăng",
     "zodiac": "Thiên Bình",
-    "advice": "Sự né tránh không giải quyết được vấn đề. Hãy đối mặt và đưa ra quyết định.",
-    "numerology": "Số 2 - Cân bằng, sự kết hợp, đối lập, lựa chọn."
+    "advice": "Đừng để nỗi sợ hãi làm bạn mù quáng. Chiếc khăn bịt mắt không bảo vệ bạn khỏi lưỡi kiếm, nó chỉ tước đi quyền quyết định của bạn. Hãy tháo nó ra và đối mặt.",
+    "numerology": "Số 2 - Cân bằng, sự kết hợp, đối lập, lựa chọn.",
+    "generalUpright": "Bịt mắt và chéo hai thanh kiếm trước ngực, Two of Swords là bức chân dung của sự bế tắc tự nguyện và một thế cân bằng mong manh. Bạn đang mắc kẹt ở ngã ba đường, từ chối đối mặt với sự thật bằng cách bịt tai nhắm mắt, cố gắng duy trì một nền hòa bình giả tạo bằng sự trốn tránh và sự giằng xé nội tâm.",
+    "generalReversed": "Sự bế tắc bị phá vỡ, chiếc khăn bịt mắt rơi xuống. Sự đảo ngược buộc bạn phải đưa ra quyết định, dù nó đau đớn đến mức nào. Những căng thẳng bị dồn nén cuối cùng cũng bùng nổ, phơi bày sự thật và đòi hỏi hành động dứt khoát."
   },
   {
     "id": 52,
@@ -3305,29 +3329,41 @@ window.TAROT_DB = [
     "aspects": {
       "love": {
         "up": "Chia tay, ly hôn, phát hiện ngoại tình, hoặc một cuộc cãi vã gây sát thương nặng nề.",
-        "rev": "Dần nguôi ngoai nỗi đau thất tình, hoặc tha thứ cho sự lừa dối."
+        "rev": "Dần nguôi ngoai nỗi đau thất tình, hoặc tha thứ cho sự lừa dối.",
+        "upright": "Sự chia ly đau đớn, sự phản bội, ngoại tình hoặc một cuộc tranh cãi tàn nhẫn để lại những tổn thương sâu sắc. Trái tim tan vỡ, cần nhiều thời gian để đối mặt với cơn bão cảm xúc này.",
+        "reversed": "Khép lại một chương buồn trong tình cảm. Sự tha thứ, buông bỏ người cũ hoặc hàn gắn sau một cú sốc lớn. Nỗi đau đang vơi dần đi."
       },
       "career": {
         "up": "Bị đồng nghiệp đâm sau lưng, dự án thất bại thảm hại, hoặc bị sa thải đột ngột.",
-        "rev": "Khắc phục sai lầm trong công việc, hòa giải với đối thủ."
+        "rev": "Khắc phục sai lầm trong công việc, hòa giải với đối thủ.",
+        "upright": "Những lời gièm pha, sự đâm sau lưng, tranh chấp gay gắt hoặc việc bị sa thải, mất vị trí. Môi trường công sở trở thành một chiến trường đầy rẫy sự cay độc và tổn thương.",
+        "reversed": "Hồi phục sau những thất bại nghề nghiệp. Môi trường độc hại dần được cải thiện, hoặc bạn tìm thấy sức mạnh để rời khỏi nơi làm việc đã mang lại quá nhiều tổn thương."
       },
       "finance": {
         "up": "Mất mát tài chính lớn, phá sản hoặc bị lừa gạt trắng trợn.",
-        "rev": "Phục hồi một phần tài sản, dần làm quen với sự khó khăn."
+        "rev": "Phục hồi một phần tài sản, dần làm quen với sự khó khăn.",
+        "upright": "Sự mất mát lớn về tài sản, phá sản hoặc những tranh chấp kinh tế đau đớn. Những khoản nợ hoặc hợp đồng bị phá vỡ mang lại cú sốc tài chính nặng nề.",
+        "reversed": "Sự tĩnh tâm sau khủng hoảng kinh tế. Bạn chấp nhận việc mất mát và bắt đầu lên kế hoạch xây dựng lại từ đầu với một tâm thái tích cực hơn."
       },
       "health": {
         "up": "Các vấn đề về tim mạch, hoặc trầm cảm nặng do cú sốc tinh thần.",
-        "rev": "Sức khỏe tâm lý dần ổn định sau chấn thương."
+        "rev": "Sức khỏe tâm lý dần ổn định sau chấn thương.",
+        "upright": "Những cơn đau tim, các vấn đề về phẫu thuật hoặc sự kiệt quệ thể chất do trầm cảm nặng nề. Nỗi đau tinh thần biểu hiện thành những căn bệnh vật lý rõ rệt.",
+        "reversed": "Sự phục hồi kỳ diệu sau chấn thương hoặc cơn bạo bệnh. Sức khỏe tinh thần dần ổn định, mang lại năng lượng sống mới cho cơ thể."
       },
       "spiritual": {
         "up": "Trải nghiệm nỗi đau (Dark Night of the Soul) để thanh lọc linh hồn.",
-        "rev": "Từ chối khóc hoặc xả stress, khiến nội tâm bị u uất."
+        "rev": "Từ chối khóc hoặc xả stress, khiến nội tâm bị u uất.",
+        "upright": "Một cuộc khủng hoảng đức tin tột độ. Cảm giác bị vũ trụ hoặc đấng thiêng liêng từ bỏ, bỏ rơi giữa giông bão. Sự sụp đổ của những niềm tin ngây thơ.",
+        "reversed": "Sự trưởng thành tâm linh thông qua đau khổ. Bạn nhận ra nỗi đau là một người thầy vĩ đại, giúp bạn thấu hiểu sâu sắc hơn về lòng trắc ẩn và sự bao dung."
       }
     },
     "planet": "Sao Thổ",
     "zodiac": "Thiên Bình",
-    "advice": "Nỗi đau là một phần của sự trưởng thành. Hãy cho bản thân thời gian để khóc và chữa lành.",
-    "numerology": "Số 3 - Phát triển, sáng tạo, làm việc nhóm, mở rộng."
+    "advice": "Hãy cho phép bản thân trải qua nỗi đau này, đừng đè nén nó. Những cơn mưa giông bão có sức mạnh thanh lọc, vết thương sẽ lành khi mũi kiếm của sự oán giận được rút ra.",
+    "numerology": "Số 3 - Phát triển, sáng tạo, làm việc nhóm, mở rộng.",
+    "generalUpright": "Ba thanh kiếm đâm xuyên qua một trái tim rỉ máu trên nền mây giông bão, Three of Swords là bản giao hưởng buồn bã của sự phản bội, tổn thương sâu sắc và nỗi đau tột cùng của sự thật bị phơi bày. Nó đại diện cho sự mất mát, sự chia ly, nỗi buồn đau thể xác lẫn tinh thần khi những lời nói dối bị đập tan, để lại một nỗi đau sắc nhọn cứa vào tận đáy linh hồn.",
+    "generalReversed": "Mũi kiếm được rút ra, quá trình chữa lành bắt đầu. Dù vết sẹo vẫn còn đó, cơn bão đang dần tan, bạn học cách tha thứ, buông bỏ quá khứ đau thương và chấp nhận sự thật để hồi sinh từ đống tro tàn. Sự giải phóng khỏi sự dằn vặt dai dẳng."
   },
   {
     "id": 53,
@@ -3355,29 +3391,41 @@ window.TAROT_DB = [
     "aspects": {
       "love": {
         "up": "Tạm dừng liên lạc một thời gian để cả hai cùng suy nghĩ lại.",
-        "rev": "Bị kiệt sức vì mối quan hệ quá drama mà không có lúc nào nghỉ ngơi."
+        "rev": "Bị kiệt sức vì mối quan hệ quá drama mà không có lúc nào nghỉ ngơi.",
+        "upright": "Một khoảng thời gian tạm xa nhau hoặc ngừng giao tiếp để cả hai có không gian riêng suy ngẫm. Sự tĩnh lặng cần thiết để làm dịu đi những căng thẳng, tránh những cuộc tranh cãi không hồi kết.",
+        "reversed": "Khoảng thời gian nghỉ ngơi đã kết thúc, mối quan hệ bắt đầu tái kết nối. Nếu không được giải quyết, sự xa cách này có thể biến thành sự bế tắc mãn tính hoặc kết thúc vĩnh viễn."
       },
       "career": {
         "up": "Nghỉ phép, đi du lịch chữa lành hoặc tạm lánh xa drama công sở.",
-        "rev": "Làm việc quá sức đến mức ngất xỉu hoặc không thể tập trung."
+        "rev": "Làm việc quá sức đến mức ngất xỉu hoặc không thể tập trung.",
+        "upright": "Một kỳ nghỉ phép, sự tạm dừng các dự án do quá tải hoặc môi trường công sở căng thẳng. Bạn cần một khoảng lặng để nạp lại năng lượng thay vì cố gắng sức.",
+        "reversed": "Sự trở lại đầy mạnh mẽ với công việc. Tuy nhiên, nếu bạn quay lại quá sớm khi chưa thực sự bình phục, bạn có thể đối mặt với sự kiệt sức (burnout) tồi tệ hơn."
       },
       "finance": {
         "up": "Ngừng đầu tư, giữ tiền an toàn và đánh giá lại ngân sách.",
-        "rev": "Bắt đầu hành động trở lại với các dự án tài chính đang ngủ đông."
+        "rev": "Bắt đầu hành động trở lại với các dự án tài chính đang ngủ đông.",
+        "upright": "Tình hình tài chính đang chững lại, một sự ổn định tạm thời. Đây không phải là lúc để đưa ra các quyết định đầu tư lớn, hãy bảo toàn lực lượng.",
+        "reversed": "Sự biến động tài chính bắt đầu quay trở lại sau một thời gian đóng băng. Cần sự cảnh giác và sẵn sàng hành động để đối phó với những thách thức mới."
       },
       "health": {
         "up": "Rất cần ngủ sâu, thư giãn và nằm viện tĩnh dưỡng.",
-        "rev": "Hồi phục sức khỏe sau bạo bệnh, chuẩn bị quay lại cuộc sống."
+        "rev": "Hồi phục sức khỏe sau bạo bệnh, chuẩn bị quay lại cuộc sống.",
+        "upright": "Sự tĩnh dưỡng tuyệt đối. Những liệu pháp thiền định, giấc ngủ chất lượng và sự cách ly khỏi tiếng ồn là liều thuốc chữa lành tốt nhất cho cơ thể và tâm trí lúc này.",
+        "reversed": "Sự bình phục hoàn toàn hoặc nguy cơ nhập viện khẩn cấp do phớt lờ các dấu hiệu cảnh báo của cơ thể. Đừng đánh giá thấp tầm quan trọng của việc nghỉ ngơi."
       },
       "spiritual": {
         "up": "Thiền định, tĩnh tâm, đi retreat.",
-        "rev": "Từ chối những cảnh báo của cơ thể, ép bản thân tu tập quá mức."
+        "rev": "Từ chối những cảnh báo của cơ thể, ép bản thân tu tập quá mức.",
+        "upright": "Sự ẩn cư tâm linh, một kỳ thiền định Vipassana hoặc khoảng thời gian cô lập bản thân để lắng nghe tiếng nói nội tâm. Sự thanh lọc tâm trí khỏi những tạp niệm.",
+        "reversed": "Trở lại với cuộc sống thường nhật sau một thời gian ẩn tu. Linh hồn bạn đã được chữa lành và sẵn sàng áp dụng những bài học tâm linh vào thế giới thực."
       }
     },
     "planet": "Sao Mộc",
     "zodiac": "Thiên Bình",
-    "advice": "Sức khỏe tinh thần đang báo động. Hãy ngắt kết nối, nghỉ ngơi và tịnh dưỡng hoàn toàn.",
-    "numerology": "Số 4 - Ổn định, cấu trúc, nền tảng, sự an toàn."
+    "advice": "Chiến binh mạnh nhất cũng cần thời gian để mài sắc lại thanh gươm của mình. Đừng sợ hãi sự tĩnh lặng, vì đó là lúc sức mạnh thực sự được tái sinh.",
+    "numerology": "Số 4 - Ổn định, cấu trúc, nền tảng, sự an toàn.",
+    "generalUpright": "Nằm tĩnh lặng trên một ngôi mộ với ba thanh kiếm treo lơ lửng và một thanh nằm dọc, Four of Swords là thời khắc của sự nghỉ ngơi, sự hồi phục bắt buộc và sự tĩnh tại sâu sắc sau giông bão. Nó đại diện cho việc tạm lánh khỏi chiến trường, một giấc ngủ sâu để chữa lành cả thể xác lẫn tâm trí, sự tĩnh tâm để lấy lại sự minh mẫn trước khi đối mặt với thế giới.",
+    "generalReversed": "Sự thức tỉnh sau cơn mê dài. Bạn đã lấy lại sức mạnh, chuẩn bị cầm kiếm trở lại chiến trường. Hoặc, sự đảo ngược cảnh báo về sự kiệt sức trầm trọng nếu bạn từ chối nghỉ ngơi, dẫn đến sự sụp đổ hoàn toàn do sự cố chấp."
   },
   {
     "id": 54,
@@ -3406,29 +3454,41 @@ window.TAROT_DB = [
     "aspects": {
       "love": {
         "up": "Cãi vã, dùng lời lẽ mạt sát nhau để giành phần thắng, gây rạn nứt sâu sắc.",
-        "rev": "Nhận ra sai lầm, xin lỗi và mong muốn làm hòa sau tranh cãi."
+        "rev": "Nhận ra sai lầm, xin lỗi và mong muốn làm hòa sau tranh cãi.",
+        "upright": "Sự hiếu thắng tàn phá tình yêu. Bạn hoặc đối phương muốn giành phần thắng trong mọi cuộc tranh cãi bằng những lời nói cay nghiệt, tổn thương lẫn nhau. Một cuộc tình độc hại, ích kỷ và đầy sự oán hận.",
+        "reversed": "Sự nhận thức về những tổn thương đã gây ra. Khao khát hàn gắn, thỏa hiệp và buông bỏ cái tôi kiêu ngạo. Một lời xin lỗi muộn màng nhằm cứu vãn tình cảm."
       },
       "career": {
         "up": "Môi trường công sở thù địch, chà đạp lên nhau để thăng tiến. Bạn có thể bị chơi xấu.",
-        "rev": "Xóa bỏ thù hằn với đồng nghiệp, từ bỏ môi trường làm việc độc hại."
+        "rev": "Xóa bỏ thù hằn với đồng nghiệp, từ bỏ môi trường làm việc độc hại.",
+        "upright": "Môi trường làm việc thù địch, chơi xấu hoặc bắt nạt chốn công sở. Những thành công được xây dựng trên sự chà đạp người khác. Bạn có thể là nạn nhân hoặc là kẻ đang sử dụng mưu hèn kế bẩn.",
+        "reversed": "Sự kết thúc của những tranh chấp nội bộ. Những kẻ chơi xấu bị lật tẩy, hoặc bạn quyết định buông bỏ những mâu thuẫn để tạo ra một không gian làm việc hòa bình hơn."
       },
       "finance": {
         "up": "Thắng lợi tài chính nhờ các thủ đoạn tàn nhẫn. Trộm cắp, lừa đảo.",
-        "rev": "Trả lại tiền đã lấy cắp, hoặc thoát khỏi một cuộc đấu đá tài sản."
+        "rev": "Trả lại tiền đã lấy cắp, hoặc thoát khỏi một cuộc đấu đá tài sản.",
+        "upright": "Những tranh chấp tài sản gay gắt, kiện tụng hoặc sự lừa lọc kinh doanh. Chiến thắng trong các thương vụ này có thể mang lại tiền bạc nhưng lại đánh mất danh dự và đối tác.",
+        "reversed": "Sự giải quyết hòa bình các tranh chấp tài chính. Nhượng bộ một phần lợi ích kinh tế để đổi lấy sự yên ổn tâm lý."
       },
       "health": {
         "up": "Căng thẳng cực độ, tức giận ảnh hưởng gan, huyết áp.",
-        "rev": "Hạ hỏa, học cách buông bỏ để cứu lấy sức khỏe."
+        "rev": "Hạ hỏa, học cách buông bỏ để cứu lấy sức khỏe.",
+        "upright": "Sức khỏe suy sụp do những cơn giận dữ, thù hằn tích tụ. Sự kiệt sức do việc liên tục phải chiến đấu và đối mặt với những năng lượng tiêu cực.",
+        "reversed": "Sự phục hồi khi buông bỏ sự oán hận. Cơ thể được giải phóng khỏi gánh nặng của những năng lượng thù địch kéo dài."
       },
       "spiritual": {
         "up": "Sự kiêu ngạo, cho rằng mình luôn đúng và hạ nhục người khác.",
-        "rev": "Nhận ra bài học về cái tôi, học cách khiêm tốn."
+        "rev": "Nhận ra bài học về cái tôi, học cách khiêm tốn.",
+        "upright": "Sự tha hóa của linh hồn vì cái tôi kiêu ngạo. Việc từ chối tha thứ và không ngừng gieo rắc sự oán giận đang khiến tâm hồn bạn chìm trong bóng tối nghiệp quả.",
+        "reversed": "Sự buông bỏ vĩ đại. Bạn nhận ra việc tha thứ cho kẻ thù chính là tha thứ cho chính mình, phá vỡ vòng lặp thù hận để tìm về sự thanh thản nội tâm."
       }
     },
     "planet": "Sao Kim",
     "zodiac": "Bảo Bình",
-    "advice": "Đôi khi thắng một cuộc cãi vã không quan trọng bằng việc gìn giữ một mối quan hệ.",
-    "numerology": "Số 5 - Thay đổi, xung đột, mất mát, thử thách."
+    "advice": "Hãy tự hỏi: bạn thà chiến thắng trong một cuộc cãi vã và đánh mất một người trân quý, hay lùi một bước để giữ lại những giá trị thực sự? Sự kiêu hãnh đôi khi là liều thuốc độc.",
+    "numerology": "Số 5 - Thay đổi, xung đột, mất mát, thử thách.",
+    "generalUpright": "Cầm lấy chiến lợi phẩm nhưng không có tiếng hò reo, Five of Swords là bức tranh bi kịch của một chiến thắng rỗng tuếch. Nó đại diện cho sự xung đột cay đắng, sự phản bội, những tổn thương ích kỷ mà ở đó kẻ thắng cũng mang đầy thương tích. Sự kiêu ngạo, tham vọng chiến thắng bằng mọi giá đang phá hủy những mối quan hệ và danh dự của chính bạn.",
+    "generalReversed": "Sự hối hận muộn màng sau những cuộc xung đột tàn nhẫn. Sự đảo ngược đánh dấu việc bạn nhận ra cái giá quá đắt của chiến thắng, khao khát đình chiến, hòa giải hoặc chấp nhận một thất bại nhỏ để cứu vãn một mối quan hệ lớn hơn."
   },
   {
     "id": 55,
@@ -3457,29 +3517,41 @@ window.TAROT_DB = [
     "aspects": {
       "love": {
         "up": "Cả hai cùng vượt qua khó khăn để đến bến bờ hạnh phúc, hoặc bạn quyết định rời bỏ một tình yêu cay đắng.",
-        "rev": "Không thể quên người cũ, mang theo tổn thương vào mối quan hệ mới."
+        "rev": "Không thể quên người cũ, mang theo tổn thương vào mối quan hệ mới.",
+        "upright": "Rời xa một mối quan hệ độc hại hoặc cùng nhau vượt qua một giai đoạn khủng hoảng. Bạn chấp nhận rời bỏ những tổn thương quá khứ để tìm kiếm sự bình yên và thấu hiểu hơn trong tình yêu.",
+        "reversed": "Sự miễn cưỡng buông bỏ. Bạn không thể quên đi nỗi đau cũ, mang theo gánh nặng oán hận vào mối quan hệ hiện tại, khiến mọi nỗ lực hàn gắn đều chìm trong tuyệt vọng."
       },
       "career": {
         "up": "Đổi việc sang một môi trường tốt hơn, hoặc đi công tác xa có kết quả tốt.",
-        "rev": "Công việc bế tắc, không thể nghỉ việc vì hoàn cảnh."
+        "rev": "Công việc bế tắc, không thể nghỉ việc vì hoàn cảnh.",
+        "upright": "Một sự thay đổi môi trường làm việc, chuyển đổi công việc hoặc phòng ban mang lại sự bình yên sau thời gian dài căng thẳng. Công việc đi vào quỹ đạo ổn định, êm đềm hơn.",
+        "reversed": "Mắc kẹt trong một công việc ngột ngạt mà không thể thoát ra. Sự thiếu dũng khí để thay đổi môi trường khiến bạn tiếp tục chịu đựng sự căng thẳng triền miên."
       },
       "finance": {
         "up": "Khủng hoảng tài chính dần qua đi, bắt đầu vào quỹ đạo ổn định.",
-        "rev": "Cố trốn nợ nhưng không thoát, hoặc từ chối đối mặt với nợ nần."
+        "rev": "Cố trốn nợ nhưng không thoát, hoặc từ chối đối mặt với nợ nần.",
+        "upright": "Giai đoạn khó khăn tài chính đã qua, mọi thứ dần ổn định và có thể kiểm soát được. Những chuyến đi xa hoặc việc di chuyển mang lại những cơ hội tài chính mới.",
+        "reversed": "Sự lo âu tài chính kéo dài do không giải quyết triệt để các khoản nợ cũ. Bạn đang mang theo những rắc rối tiền bạc từ quá khứ vào hiện tại."
       },
       "health": {
         "up": "Phục hồi từ từ sau chuỗi ngày mệt mỏi, stress.",
-        "rev": "Quá trình chữa trị bị gián đoạn, bệnh cũ dai dẳng."
+        "rev": "Quá trình chữa trị bị gián đoạn, bệnh cũ dai dẳng.",
+        "upright": "Quá trình phục hồi sức khỏe chậm rãi nhưng tích cực. Sự thay đổi không khí, những chuyến đi nghỉ dưỡng sẽ mang lại hiệu quả chữa lành thần kỳ cho cơ thể và tâm trí.",
+        "reversed": "Sự sa sút sức khỏe do từ chối thay đổi lối sống. Tâm lý trầm uất, kẹt lại với nỗi đau khiến cơ thể không thể phục hồi trọn vẹn."
       },
       "spiritual": {
         "up": "Sự tĩnh lặng nội tâm sau cơn bão giông.",
-        "rev": "Sợ hãi tương lai, không dám buông tay quá khứ."
+        "rev": "Sợ hãi tương lai, không dám buông tay quá khứ.",
+        "upright": "Sự chuyển hóa tâm thức nhẹ nhàng. Bạn đang để lại đằng sau những giáo lý cũ kỹ, hành hương về một trạng thái nhận thức cao hơn, tĩnh lặng và thanh bình hơn.",
+        "reversed": "Sự kháng cự lại sự tiến hóa tâm linh. Linh hồn bạn vùng vẫy trong vũng bùn của những thói quen cũ, sợ hãi trước những thay đổi mang tính cốt lõi."
       }
     },
     "planet": "Sao Thủy",
     "zodiac": "Bảo Bình",
-    "advice": "Hãy để lại những rắc rối phía sau. Hành trình chuyển đổi này sẽ đưa bạn đến nơi bình yên hơn.",
-    "numerology": "Số 6 - Hài hòa, phục hồi, hợp tác, cho và nhận."
+    "advice": "Hãy mang theo bài học, không phải nỗi đau. Hành trình phía trước còn dài, sự tĩnh lặng đang chờ đón bạn, hãy mạnh dạn giong buồm rời xa cơn bão.",
+    "numerology": "Số 6 - Hài hòa, phục hồi, hợp tác, cho và nhận.",
+    "generalUpright": "Lên thuyền rời xa những vùng nước giông bão để tiến tới một chân trời bình lặng hơn, Six of Swords là một cuộc hành trình của sự chuyển tiếp, sự bỏ lại quá khứ đau thương và tiến về phía sự tĩnh tại. Dù vẫn mang theo những thanh gươm của ký ức buồn bã, lá bài mang đến sự nhẹ nhõm, quá trình phục hồi và một sự thay đổi không gian cần thiết để chữa lành.",
+    "generalReversed": "Sự mắc kẹt trong vũng lầy của quá khứ. Con thuyền bị rò rỉ hoặc gặp trở ngại, bạn không thể tiến về phía trước vì sự bám víu vào những nỗi đau hoặc những hành trang tình cảm chưa được giải quyết. Quá trình chữa lành bị trì hoãn."
   },
   {
     "id": 56,
@@ -3510,29 +3582,41 @@ window.TAROT_DB = [
     "aspects": {
       "love": {
         "up": "Bắt cá hai tay, ngoại tình, giấu giếm bí mật hoặc lừa dối tình cảm.",
-        "rev": "Những bí mật ngoại tình bị lộ, hai người buộc phải đối chất."
+        "rev": "Những bí mật ngoại tình bị lộ, hai người buộc phải đối chất.",
+        "upright": "Sự lừa dối ngấm ngầm, ngoại tình, giữ bí mật hoặc trốn tránh trách nhiệm. Một trong hai đang che giấu sự thật hoặc âm thầm chuẩn bị cho một sự ra đi không lời từ biệt.",
+        "reversed": "Lời thú nhận đau lòng nhưng cần thiết. Những bí mật đen tối bị bóc trần, mang lại một cuộc khủng hoảng nhưng lại mở ra cơ hội xây dựng lại trên nền tảng sự thật."
       },
       "career": {
         "up": "Bị cướp công, ăn cắp ý tưởng. Đồng nghiệp hai mặt hoặc bạn đang làm trò mờ ám.",
-        "rev": "Sự gian lận trong công việc bị bại lộ, nguy cơ bị sa thải."
+        "rev": "Sự gian lận trong công việc bị bại lộ, nguy cơ bị sa thải.",
+        "upright": "Sự đạo nhái, ăn cắp ý tưởng hoặc môi trường làm việc đầy sự dối trá, cạnh tranh không lành mạnh. Hoặc, bạn đang sử dụng sự mưu trí, lách luật để đạt được lợi thế vượt trội.",
+        "reversed": "Những hành vi gian lận tại công sở bị phát hiện. Sự kết thúc của những trò chơi khăm, hoặc sự can đảm đối mặt với những vấn đề thay vì chạy trốn."
       },
       "finance": {
         "up": "Nguy cơ bị trộm cắp tài sản, lừa đảo tiền bạc. Phải cực kỳ cẩn thận các hợp đồng.",
-        "rev": "Tìm lại được tài sản bị mất, vạch mặt kẻ lừa đảo."
+        "rev": "Tìm lại được tài sản bị mất, vạch mặt kẻ lừa đảo.",
+        "upright": "Cảnh báo về sự lừa đảo, mất cắp hoặc các hợp đồng mập mờ, bòn rút tài sản. Hãy cẩn trọng tối đa với các giao dịch tài chính mang tính rủi ro cao.",
+        "reversed": "Thoát khỏi một trò lừa đảo ngoạn mục, hoặc việc trả lại những khoản tiền mờ ám. Một sự minh bạch tài chính được lập lại."
       },
       "health": {
         "up": "Bác sĩ chẩn đoán qua loa, giấu giếm tình trạng bệnh.",
-        "rev": "Nhận được sự thật về sức khỏe để điều trị đúng hướng."
+        "rev": "Nhận được sự thật về sức khỏe để điều trị đúng hướng.",
+        "upright": "Làm ngơ trước các triệu chứng bệnh hoặc lừa dối bác sĩ, gia đình về tình trạng sức khỏe thực sự của mình. Tâm lý hoang tưởng, nghi ngờ mọi người xung quanh.",
+        "reversed": "Chấp nhận sự thật về tình trạng sức khỏe và bắt đầu tuân thủ phác đồ điều trị. Giải phóng gánh nặng tâm lý do phải che giấu bệnh tật."
       },
       "spiritual": {
         "up": "Sử dụng tâm linh vì lợi ích cá nhân, sống đạo đức giả.",
-        "rev": "Gột rửa tội lỗi, thú nhận và tìm kiếm sự thanh thản."
+        "rev": "Gột rửa tội lỗi, thú nhận và tìm kiếm sự thanh thản.",
+        "upright": "Sử dụng các vỏ bọc tâm linh để che giấu ý đồ thao túng. Sự dối trá nội tâm, bạn đang tự lừa dối chính linh hồn mình để trốn tránh bóng tối bên trong.",
+        "reversed": "Một sự thanh tẩy lương tâm. Sự đối diện dũng cảm với những góc khuất tăm tối nhất của bản ngã để tìm lại sự thuần khiết nguyên thủy."
       }
     },
     "planet": "Mặt Trăng",
     "zodiac": "Bảo Bình",
-    "advice": "Trung thực là thượng sách. Sự lừa dối sớm muộn gì cũng sẽ bị phơi bày.",
-    "numerology": "Số 7 - Đánh giá, kiên nhẫn, chiến thuật, suy ngẫm."
+    "advice": "Sự thật luôn tìm được cách để vạch trần bóng tối. Sự khôn ngoan chân chính khác với sự mưu mẹo lừa lọc; đừng đánh đổi danh dự để lấy những lợi ích phù phiếm.",
+    "numerology": "Số 7 - Đánh giá, kiên nhẫn, chiến thuật, suy ngẫm.",
+    "generalUpright": "Lẻn đi trong im lặng với năm thanh kiếm, bỏ lại hai thanh phía sau, Seven of Swords phơi bày sự trốn tránh, hành động lén lút, sự phản bội hoặc sự khôn ngoan mưu mẹo. Nó cảnh báo về sự lừa dối, sự trộm cắp niềm tin, hoặc một giải pháp thông minh nhưng thiếu tính minh bạch. Đôi khi, nó là sự cảnh giác cần thiết trước môi trường thù địch.",
+    "generalReversed": "Sự thật bị phơi bày, những bí mật bị vạch trần. Kẻ lừa dối cuối cùng cũng phải đối mặt với hậu quả hoặc sự thức tỉnh lương tâm giục giã bạn thú nhận tội lỗi. Đây cũng là sự từ bỏ các mưu hèn kế bẩn để chọn một con đường trung thực hơn."
   },
   {
     "id": 57,
@@ -3561,29 +3645,41 @@ window.TAROT_DB = [
     "aspects": {
       "love": {
         "up": "Cảm thấy bị giam cầm trong một mối quan hệ độc hại nhưng lại tự cho rằng mình không có quyền lựa chọn.",
-        "rev": "Dũng cảm bước ra khỏi mối tình đầy nước mắt, tìm lại tự do."
+        "rev": "Dũng cảm bước ra khỏi mối tình đầy nước mắt, tìm lại tự do.",
+        "upright": "Mắc kẹt trong một mối quan hệ ngột ngạt nhưng không dám rời đi vì sợ hãi sự cô đơn hoặc định kiến. Cảm giác bất lực, bị kiểm soát và mất đi tiếng nói cá nhân trong tình yêu.",
+        "reversed": "Tìm lại được giá trị bản thân, dũng cảm bước ra khỏi một mối quan hệ độc hại. Phá vỡ sự thao túng tâm lý và lấy lại quyền kiểm soát cuộc đời mình."
       },
       "career": {
         "up": "Cảm thấy bế tắc tột độ ở công sở, sợ mất việc nên cắn răng chịu đựng áp lực vô lý.",
-        "rev": "Tìm ra lối thoát nghề nghiệp, quyết định nghỉ việc hoặc thay đổi cục diện."
+        "rev": "Tìm ra lối thoát nghề nghiệp, quyết định nghỉ việc hoặc thay đổi cục diện.",
+        "upright": "Cảm thấy bị mắc kẹt trong một công việc tồi tệ, không có cơ hội thăng tiến. Bạn tự bào chữa bằng sự ổn định giả tạo mà không dám đấu tranh hoặc tìm kiếm con đường mới.",
+        "reversed": "Thoát khỏi một môi trường làm việc áp bức. Tư duy đột phá giúp bạn vượt qua sự rụt rè, mạnh dạn đề xuất ý tưởng mới hoặc chuyển đổi nghề nghiệp."
       },
       "finance": {
         "up": "Tự kìm hãm bản thân vì sợ rủi ro, không dám tiêu tiền hoặc quá lo lắng về nghèo đói.",
-        "rev": "Trả hết nợ nần, thay đổi tư duy tài chính để làm giàu."
+        "rev": "Trả hết nợ nần, thay đổi tư duy tài chính để làm giàu.",
+        "upright": "Cảm giác tuyệt vọng vì nợ nần hoặc bị trói buộc bởi những cam kết tài chính sai lầm. Sự hoảng loạn khiến bạn không nhìn thấy những giải pháp cứu vãn ngay trước mắt.",
+        "reversed": "Trí tuệ minh mẫn giúp bạn tìm ra lối thoát tài chính. Việc thiết lập một kế hoạch trả nợ thực tế giúp phá vỡ sự kìm kẹp kinh tế."
       },
       "health": {
         "up": "Mắc chứng rối loạn lo âu, ám ảnh cưỡng chế (OCD), hoặc tự kỷ ám thị.",
-        "rev": "Thoát khỏi bệnh tâm lý, tâm trí trở nên thông suốt."
+        "rev": "Thoát khỏi bệnh tâm lý, tâm trí trở nên thông suốt.",
+        "upright": "Những vấn đề sức khỏe tâm thần như rối loạn lo âu, chứng sợ hãi (phobia), và sự hoảng loạn. Cơ thể bị suy nhược do tâm trí liên tục thêu dệt nên những kịch bản tồi tệ.",
+        "reversed": "Sự hồi phục thần kỳ khi giải phóng được nỗi sợ hãi. Trị liệu tâm lý phát huy tác dụng, mang lại sự bình yên nội tâm."
       },
       "spiritual": {
         "up": "Nạn nhân hóa bản thân, tự trách cứ và nhốt mình trong bóng tối.",
-        "rev": "Mở mắt nhìn thấy ánh sáng chân lý, làm chủ cuộc đời."
+        "rev": "Mở mắt nhìn thấy ánh sáng chân lý, làm chủ cuộc đời.",
+        "upright": "Sự trói buộc bởi những giáo điều cực đoan hoặc những niềm tin tâm linh sợ hãi, tội lỗi. Bạn mất kết nối với nguồn sức mạnh nội tại của một linh hồn tự do.",
+        "reversed": "Sự thức tỉnh mạnh mẽ về quyền năng của bản ngã. Bạn không còn bị thao túng bởi những niềm tin giới hạn, tự do khám phá một con đường tâm linh chân chính."
       }
     },
     "planet": "Sao Mộc",
     "zodiac": "Song Tử",
-    "advice": "Nhà tù duy nhất đang giam cầm bạn là tâm trí của chính bạn. Hãy tháo bịt mắt và tự giải thoát.",
-    "numerology": "Số 8 - Hành động, tốc độ, chuyên cần, sức mạnh."
+    "advice": "Nhà tù duy nhất giữ chân bạn chính là tâm trí của bạn. Hãy tháo băng mắt, tự tay cởi trói và bước đi, thanh gươm của sự thật sẽ bảo vệ bạn.",
+    "numerology": "Số 8 - Hành động, tốc độ, chuyên cần, sức mạnh.",
+    "generalUpright": "Bị bịt mắt và trói chặt giữa một rừng gươm, Eight of Swords là nhà tù tinh thần do chính bạn tạo ra. Sự tự nạn nhân hóa, nỗi sợ hãi, sự bất lực và cảm giác bị dồn vào đường cùng khiến bạn tê liệt. Lá bài chỉ ra rằng bạn đang tự trói buộc mình bằng những suy nghĩ tiêu cực, từ chối nhìn nhận sức mạnh nội tại để tìm lối thoát.",
+    "generalReversed": "Sự giải thoát vĩ đại khỏi ngục tù tâm trí. Chiếc khăn bịt mắt rơi xuống, dây trói đứt đoạn. Bạn nhận ra sự tự do vốn dĩ nằm trong tay mình, loại bỏ được những niềm tin hạn hẹp và bước ra ánh sáng với một tư duy hoàn toàn mới."
   },
   {
     "id": 58,
@@ -3613,29 +3709,41 @@ window.TAROT_DB = [
     "aspects": {
       "love": {
         "up": "Đau buồn vật vã vì tình yêu, những dằn vặt và nghi ngờ đối phương khiến bạn mất ngủ.",
-        "rev": "Khóc xong rồi thôi. Sự thật được phơi bày giúp chấm dứt những hoang tưởng."
+        "rev": "Khóc xong rồi thôi. Sự thật được phơi bày giúp chấm dứt những hoang tưởng.",
+        "upright": "Sự ghen tuông hoang tưởng, những nỗi lo sợ mất mát, hoặc cảm giác dằn vặt tội lỗi vì những lỗi lầm trong quá khứ tàn phá mối quan hệ. Tâm trạng u uất tạo ra một khoảng cách lớn giữa hai người.",
+        "reversed": "Chấm dứt sự tự hành hạ bản thân trong tình yêu. Bạn mở lòng chia sẻ nỗi sợ với đối phương, tìm thấy sự thông cảm hoặc dũng cảm buông bỏ một cuộc tình đầy nước mắt."
       },
       "career": {
         "up": "Stress công việc làm bạn thức trắng đêm, áp lực thành tích hoặc sợ hãi thất bại (imposter syndrome).",
-        "rev": "Giảm tải áp lực, nhận ra công việc không đáng để đánh đổi sức khỏe."
+        "rev": "Giảm tải áp lực, nhận ra công việc không đáng để đánh đổi sức khỏe.",
+        "upright": "Áp lực công việc đến mức mất ngủ. Nỗi sợ hãi thất bại, sự đánh giá của cấp trên ám ảnh bạn, khiến bạn rơi vào trạng thái hoảng loạn và đánh mất sự tự tin hoàn toàn.",
+        "reversed": "Sự nhẹ nhõm khi áp lực công việc được tháo gỡ. Bạn nhận ra sự lo lắng của mình là thái quá, lấy lại được sự bình tĩnh và tập trung vào hiệu suất công việc."
       },
       "finance": {
         "up": "Lo sợ tột độ về tiền bạc, vỡ nợ, ám ảnh về sự nghèo đói.",
-        "rev": "Khởi sắc tài chính nhẹ giúp xua tan đám mây lo âu."
+        "rev": "Khởi sắc tài chính nhẹ giúp xua tan đám mây lo âu.",
+        "upright": "Mất ngủ vì nợ nần, ám ảnh về khủng hoảng tài chính. Nỗi sợ hãi sự túng quẫn phóng đại mọi vấn đề, làm tê liệt khả năng giải quyết các rắc rối tiền bạc.",
+        "reversed": "Sự cải thiện tích cực về tư duy tài chính. Cơn ác mộng nợ nần đã qua, hoặc ít nhất bạn đã tìm được ánh sáng cuối đường hầm để thoát khỏi khủng hoảng."
       },
       "health": {
         "up": "Trầm cảm, suy nhược thần kinh, mất ngủ kinh niên, các vấn đề tâm thần.",
-        "rev": "Bắt đầu điều trị tâm lý, thiền định để tìm lại sự bình yên."
+        "rev": "Bắt đầu điều trị tâm lý, thiền định để tìm lại sự bình yên.",
+        "upright": "Các vấn đề tâm thần nghiêm trọng như trầm cảm nặng, rối loạn lo âu lan tỏa, hoảng loạn ban đêm (night terrors) và sự suy nhược thần kinh trầm trọng.",
+        "reversed": "Sự hồi phục tâm lý đáng mừng nhờ sự can thiệp y tế và tâm lý trị liệu. Bóng đêm dần lùi bước, mang lại cho bạn những giấc ngủ bình yên hơn."
       },
       "spiritual": {
         "up": "Đêm đen linh hồn (Dark night of the soul). Cảm giác bị vũ trụ bỏ rơi.",
-        "rev": "Ánh bình minh ló dạng, nhận ra mọi nỗi sợ chỉ là ảo ảnh."
+        "rev": "Ánh bình minh ló dạng, nhận ra mọi nỗi sợ chỉ là ảo ảnh.",
+        "upright": "Sự tăm tối của linh hồn, đêm đen của tâm hồn (Dark Night of the Soul). Cảm giác bị trừng phạt, tội lỗi, mất kết nối hoàn toàn với mọi ánh sáng hy vọng.",
+        "reversed": "Sự vượt qua khủng hoảng tâm linh. Bạn nhận ra những bóng ma tâm trí chỉ là ảo ảnh do bản ngã tạo ra, bước ra ánh sáng với một linh hồn mạnh mẽ và sâu sắc hơn."
       }
     },
     "planet": "Sao Hỏa",
     "zodiac": "Song Tử",
-    "advice": "Phần lớn những nỗi sợ hãi chỉ là sản phẩm của sự tưởng tượng. Hãy thức dậy và đối mặt với thực tế.",
-    "numerology": "Số 9 - Gần hoàn thiện, đỉnh cao cá nhân, độc lập."
+    "advice": "Đừng để những bóng ma trong tâm trí đánh lừa bạn. Hầu hết những điều tồi tệ nhất bạn đang lo sợ sẽ chẳng bao giờ xảy ra. Hãy mở mắt ra và đón ánh bình minh.",
+    "numerology": "Số 9 - Gần hoàn thiện, đỉnh cao cá nhân, độc lập.",
+    "generalUpright": "Thức giấc giữa đêm đen, ôm mặt gào khóc bên cạnh chín thanh gươm lơ lửng, Nine of Swords là cơn ác mộng tột cùng của sự lo âu, nỗi ám ảnh, mặc cảm tội lỗi và sự tuyệt vọng sâu sắc. Những suy nghĩ tiêu cực bóp nghẹt tâm trí, phóng đại những nỗi sợ hãi không có thật, biến bóng đêm thành một nhà tù của sự hành hạ tinh thần mãn tính.",
+    "generalReversed": "Ánh bình minh xua tan cơn ác mộng. Bạn dần vượt qua được nỗi sợ hãi, bình phục khỏi những sang chấn tâm lý, bắt đầu nhìn nhận vấn đề một cách thực tế hơn. Tuy nhiên, nó cũng có thể cảnh báo về những nỗi ám ảnh bị kìm nén quá sâu đang chực chờ bùng nổ."
   },
   {
     "id": 59,
@@ -3663,29 +3771,41 @@ window.TAROT_DB = [
     "aspects": {
       "love": {
         "up": "Mối quan hệ tan vỡ hoàn toàn, bị cắm sừng hoặc tổn thương không thể cứu vãn.",
-        "rev": "Sống sót qua cơn bão ly hôn, tự chữa lành vết thương để yêu lại từ đầu."
+        "rev": "Sống sót qua cơn bão ly hôn, tự chữa lành vết thương để yêu lại từ đầu.",
+        "upright": "Sự tan vỡ thảm khốc của một mối quan hệ, sự phản bội cay đắng từ người tin tưởng nhất. Sự chấm dứt vĩnh viễn không thể vãn hồi, để lại một nỗi đau không thể diễn tả.",
+        "reversed": "Sự hồi sinh sau một cuộc tình đẫm nước mắt. Bạn tha thứ cho kẻ đã phản bội, học cách yêu thương bản thân trở lại và sẵn sàng đóng lại vết thương cũ để bước tiếp."
       },
       "career": {
         "up": "Phá sản, mất việc, uy tín bị hủy hoại hoàn toàn bởi kẻ thù nơi làm việc.",
-        "rev": "Tìm thấy cơ hội mới sau khi mất tất cả. Rút ra bài học đắt giá."
+        "rev": "Tìm thấy cơ hội mới sau khi mất tất cả. Rút ra bài học đắt giá.",
+        "upright": "Sự sụp đổ sự nghiệp, sa thải, phá sản hoặc bị đâm sau lưng một cách phũ phàng tại nơi làm việc. Cảm giác bất lực và thất bại hoàn toàn trước những thế lực thù địch.",
+        "reversed": "Vượt qua cú sốc nghề nghiệp lớn nhất. Rút ra bài học từ đống tro tàn, bạn tìm thấy một định hướng mới và xây dựng lại sự nghiệp với một tầm nhìn sáng suốt hơn."
       },
       "finance": {
         "up": "Trắng tay, chạm đáy tài chính.",
-        "rev": "Trả hết nợ nần, bắt đầu gỡ gạc lại từ con số âm."
+        "rev": "Trả hết nợ nần, bắt đầu gỡ gạc lại từ con số âm.",
+        "upright": "Một thảm họa tài chính thực sự, trắng tay do bị lừa đảo hoặc sự sụp đổ kinh tế thảm khốc. Điểm đáy tột cùng của sự nghèo túng và tuyệt vọng.",
+        "reversed": "Sự thoát khỏi bờ vực phá sản. Tình hình kinh tế đang dần phục hồi sau cơn bão lớn nhất, mang lại tia hy vọng mong manh nhưng vững chắc."
       },
       "health": {
         "up": "Bệnh tật nghiêm trọng, phẫu thuật, suy sụp thể chất hoàn toàn (nhưng có thể phục hồi).",
-        "rev": "Hồi sinh từ cửa tử. Sức khỏe dần có tiến triển tốt."
+        "rev": "Hồi sinh từ cửa tử. Sức khỏe dần có tiến triển tốt.",
+        "upright": "Sự kiệt quệ trầm trọng về thể xác và tinh thần. Bệnh tật nghiêm trọng do áp lực kéo dài đè nát mọi hàng rào miễn dịch của cơ thể.",
+        "reversed": "Sự trở về từ cõi chết, một sự hồi phục ngoạn mục sau căn bệnh hiểm nghèo hoặc những suy sụp tinh thần trầm trọng."
       },
       "spiritual": {
         "up": "Tử vì đạo (nghĩa đen/bóng). Cái tôi bị tiêu diệt hoàn toàn để tái sinh linh hồn.",
-        "rev": "Nhận ra bài học nghiệp quả khắc nghiệt nhất, từ chối việc oán hận."
+        "rev": "Nhận ra bài học nghiệp quả khắc nghiệt nhất, từ chối việc oán hận.",
+        "upright": "Sự chết đi của bản ngã cũ (ego death). Mọi niềm tin, tự tôn và ảo tưởng bị phá hủy hoàn toàn. Một quá trình đau đớn tận cùng nhưng cần thiết cho sự tái sinh tâm linh.",
+        "reversed": "Sự thức tỉnh vĩ đại sau đêm đen tâm hồn. Linh hồn bạn đã được tôi luyện qua ngọn lửa của sự tàn phá, trở nên vô nhiễm và tự do vĩnh viễn."
       }
     },
     "planet": "Mặt Trời",
     "zodiac": "Song Tử",
-    "advice": "Bạn đã chạm đáy, không thể tệ hơn được nữa. Hãy chấp nhận sự kết thúc này để bắt đầu tái sinh.",
-    "numerology": "Số 10 - Kết thúc chu kỳ, viên mãn hoặc sụp đổ."
+    "advice": "Đừng sợ hãi bóng đêm, vì khi chạm đến đáy sâu nhất, mọi lối đi đều sẽ hướng lên trên. Hãy để cái cũ chết đi, nhường chỗ cho ánh bình minh rực rỡ của ngày mai.",
+    "numerology": "Số 10 - Kết thúc chu kỳ, viên mãn hoặc sụp đổ.",
+    "generalUpright": "Bị đâm mười thanh kiếm vào lưng trong một đêm đen, Ten of Swords là vực thẳm sâu nhất của sự phản bội, sự sụp đổ đau đớn, thất bại thảm hại và sự kết thúc tột cùng. Tuy nhiên, đường chân trời phía xa đang hửng sáng, báo hiệu rằng đây là điểm chạm đáy; mọi sự chịu đựng đã đạt đến cực hạn, không thể tồi tệ hơn được nữa, và từ đây, chỉ có con đường đi lên.",
+    "generalReversed": "Sự tái sinh từ cõi chết. Bức màn sụp đổ dần tan biến, những thanh kiếm được rút ra, đánh dấu quá trình chữa lành kỳ diệu. Bạn vượt qua được chấn thương tâm lý kinh hoàng nhất để bắt đầu một chương mới tinh khôi, kiên cường hơn gấp bội."
   },
   {
     "id": 60,
@@ -3716,29 +3836,41 @@ window.TAROT_DB = [
     "aspects": {
       "love": {
         "up": "Quan sát, 'stalk' đối phương trên mạng xã hội. Trò chuyện thẳng thắn, trí tuệ.",
-        "rev": "Soi mói khuyết điểm của nhau, buông lời cay độc, hứa lèo."
+        "rev": "Soi mói khuyết điểm của nhau, buông lời cay độc, hứa lèo.",
+        "upright": "Một mối quan hệ được kích thích bởi sự đồng điệu về trí tuệ. Những cuộc trò chuyện sắc sảo, tranh luận thú vị. Một sự cảnh giác ban đầu trước khi hoàn toàn mở lòng.",
+        "reversed": "Sự ghen tuông, theo dõi ngầm, hoặc những lời nói dối vụn vặt tàn phá lòng tin. Mối quan hệ tràn ngập những lời cãi vã, mỉa mai cay nghiệt và thiếu đi sự ấm áp."
       },
       "career": {
         "up": "Một nhân viên mới thông minh nhưng chưa có kinh nghiệm. Phân tích dữ liệu tốt.",
-        "rev": "Tin đồn công sở. Lên kế hoạch viển vông nhưng lười hành động."
+        "rev": "Tin đồn công sở. Lên kế hoạch viển vông nhưng lười hành động.",
+        "upright": "Sự khởi đầu của một dự án đòi hỏi khả năng tư duy, phân tích và nghiên cứu sâu sắc. Một tin tức quan trọng về công việc sắp đến, đòi hỏi bạn phải hành động nhanh chóng.",
+        "reversed": "Môi trường công sở đầy rẫy sự thọc gậy bánh xe, tin đồn thị phi và những thông tin sai lệch. Sự thiếu tập trung và không giữ lời hứa khiến bạn bị đánh giá thấp."
       },
       "finance": {
         "up": "Cập nhật tin tức thị trường, học hỏi về đầu tư.",
-        "rev": "Tin tức tài chính sai lệch. Cẩn thận các chiêu trò lừa gạt qua mạng."
+        "rev": "Tin tức tài chính sai lệch. Cẩn thận các chiêu trò lừa gạt qua mạng.",
+        "upright": "Thu thập thông tin kỹ lưỡng trước khi đầu tư. Sự nhạy bén giúp bạn nắm bắt được những cơ hội tài chính dựa trên tin tức và sự phân tích sắc sảo.",
+        "reversed": "Tin vào những lời đồn thổi tài chính thiếu căn cứ. Sự tọc mạch vào tài chính người khác hoặc việc ký kết những hợp đồng mập mờ có thể gây thiệt hại lớn."
       },
       "health": {
         "up": "Tư duy sáng suốt. Khám phá các phương pháp điều trị mới.",
-        "rev": "Lên mạng tự chẩn đoán bệnh rồi tự dọa mình (cyberchondria)."
+        "rev": "Lên mạng tự chẩn đoán bệnh rồi tự dọa mình (cyberchondria).",
+        "upright": "Sự linh hoạt về mặt tinh thần mang lại một cơ thể dẻo dai. Cần cẩn trọng với các vấn đề sức khỏe nhỏ nhặt do sự bất cẩn hoặc thiếu ngủ vì mải mê suy nghĩ.",
+        "reversed": "Hội chứng hoang tưởng bệnh tật (Hypochondria), năng lượng thần kinh quá tải do lo lắng, suy diễn. Cần thanh lọc tâm trí khỏi những luồng thông tin độc hại."
       },
       "spiritual": {
         "up": "Tìm kiếm sự thật tâm linh thông qua sách vở, triết học.",
-        "rev": "Dùng trí năng để phán xét tâm linh, phủ nhận trực giác."
+        "rev": "Dùng trí năng để phán xét tâm linh, phủ nhận trực giác.",
+        "upright": "Khao khát tìm hiểu các triết lý tâm linh mới thông qua việc nghiên cứu, đọc sách. Một trí óc rộng mở, sẵn sàng đặt câu hỏi cho những giáo điều cũ kỹ.",
+        "reversed": "Sự hoài nghi cay độc và chủ nghĩa yếm thế cản trở sự phát triển linh hồn. Sử dụng logic một cách cứng nhắc để chối bỏ mọi phép màu của thế giới tâm linh."
       }
     },
     "planet": "Sao Thủy",
     "zodiac": "Song Tử, Thiên Bình, Bảo Bình",
-    "advice": "Luôn tò mò và cảnh giác. Lời nói có sức mạnh, hãy sử dụng chúng một cách khôn ngoan.",
-    "numerology": "Cấp Tiểu Đồng (Page) - Trẻ trung, học hỏi, tin tức, tò mò."
+    "advice": "Hãy sử dụng sự sắc sảo của bạn như một thanh gươm bảo vệ sự thật, đừng biến nó thành một lưỡi dao mỉa mai tổn thương người khác. Hãy quan sát kỹ lưỡng nhưng giữ trái tim cởi mở.",
+    "numerology": "Cấp Tiểu Đồng (Page) - Trẻ trung, học hỏi, tin tức, tò mò.",
+    "generalUpright": "Cầm kiếm với tư thế phòng thủ, Page of Swords là hiện thân của sự tò mò sắc sảo, tính cảnh giác cao độ và khát khao thu thập thông tin mãnh liệt. Lá bài đại diện cho một trí óc non trẻ nhưng đầy năng lượng, sự nhanh trí, một người mang đến tin tức, những ý tưởng đột phá và khao khát bảo vệ sự thật bằng lý luận sắc bén.",
+    "generalReversed": "Sự tò mò biến thành sự soi mói, tọc mạch và đồn thổi ác ý. Sự nhanh trí trở thành mưu mẹo dối trá, thiếu chiều sâu. Lời nói trở thành vũ khí sắc nhọn để công kích, mỉa mai, và sự thiếu trưởng thành trong tư duy dẫn đến những hành động nông nổi, tự mãn."
   },
   {
     "id": 61,
@@ -3768,29 +3900,41 @@ window.TAROT_DB = [
     "aspects": {
       "love": {
         "up": "Sự theo đuổi cuồng nhiệt, một mối tình diễn ra chớp nhoáng nhưng đầy lý trí.",
-        "rev": "Một người vô tình, lạnh lùng, áp đặt suy nghĩ lên đối phương. Bạo lực ngôn từ."
+        "rev": "Một người vô tình, lạnh lùng, áp đặt suy nghĩ lên đối phương. Bạo lực ngôn từ.",
+        "upright": "Một sự thay đổi chóng mặt trong tình cảm. Đối phương mang năng lượng mạnh mẽ, thẳng thắn, có phần khô khan nhưng rất trung thực. Một cuộc tình đầy lý trí và sự kích thích trí tuệ.",
+        "reversed": "Một kẻ thích kiểm soát, áp đặt quan điểm và sử dụng ngôn từ như vũ khí bạo hành tinh thần. Sự lạnh lùng, vô cảm và những trận cãi vã dữ dội hủy hoại mối quan hệ."
       },
       "career": {
         "up": "Ra quyết định nhanh chóng, chinh phục các dự án khó nhằn với sự tập trung cao độ.",
-        "rev": "Dục tốc bất đạt. Lãnh đạo tồi, mắc sai lầm lớn vì không nghe lời khuyên."
+        "rev": "Dục tốc bất đạt. Lãnh đạo tồi, mắc sai lầm lớn vì không nghe lời khuyên.",
+        "upright": "Hành động quyết đoán mang lại đột phá lớn trong công việc. Một cá nhân xuất sắc, tư duy logic tuyệt vời, sẵn sàng phá bỏ những rào cản cũ kỹ để thúc đẩy dự án đi lên.",
+        "reversed": "Sự kiêu ngạo và hiếu thắng tạo ra kẻ thù chốn công sở. Hành động hấp tấp, đưa ra quyết định thiếu suy nghĩ dẫn đến thất bại trầm trọng và phá vỡ đội nhóm."
       },
       "finance": {
         "up": "Chớp lấy cơ hội đầu tư tức thời. Cắt lỗ/chốt lời dứt khoát.",
-        "rev": "Thua lỗ vì đầu tư mù quáng, muốn giàu nhanh."
+        "rev": "Thua lỗ vì đầu tư mù quáng, muốn giàu nhanh.",
+        "upright": "Chớp lấy cơ hội đầu tư bằng tư duy nhạy bén và tốc độ. Sự dứt khoát trong việc cắt giảm chi phí thừa thãi hoặc xử lý các vấn đề tài chính một cách triệt để.",
+        "reversed": "Sự bốc đồng trong chi tiêu hoặc đầu tư liều lĩnh dẫn đến thảm họa tài chính. Mất mát vì việc ra quyết định thiếu cân nhắc và bị mờ mắt bởi cái tôi."
       },
       "health": {
         "up": "Hành động quyết liệt để thay đổi sức khỏe.",
-        "rev": "Nguy cơ tai nạn giao thông, chấn thương do ẩu đả hoặc hoạt động quá mạnh."
+        "rev": "Nguy cơ tai nạn giao thông, chấn thương do ẩu đả hoặc hoạt động quá mạnh.",
+        "upright": "Sự phục hồi nhanh chóng nhờ vào ý chí sắt đá và việc tuân thủ nghiêm ngặt phác đồ điều trị. Năng lượng dồi dào nhưng cần chú ý kiểm soát sự căng thẳng thần kinh.",
+        "reversed": "Sự kiệt sức do hoạt động quá mức. Nguy cơ tai nạn cao do sự vội vã, bất cẩn, hoặc những vấn đề tâm lý như rối loạn hành vi do không kiểm soát được cơn giận."
       },
       "spiritual": {
         "up": "Theo đuổi chân lý một cách mạnh mẽ, phá bỏ các giáo điều.",
-        "rev": "Cực đoan tôn giáo, áp đặt lý tưởng một cách tàn bạo."
+        "rev": "Cực đoan tôn giáo, áp đặt lý tưởng một cách tàn bạo.",
+        "upright": "Sự quyết tâm dẹp bỏ những niềm tin sai lệch bằng tư duy phản biện. Cuộc chiến nội tâm mạnh mẽ để bảo vệ chân lý và sự tự do của linh hồn.",
+        "reversed": "Sự cực đoan trong niềm tin tâm linh, áp đặt giáo lý lên người khác một cách bạo lực. Lạc lối trong chủ nghĩa duy lý lạnh lùng, giết chết sự từ bi."
       }
     },
     "planet": "Sao Thủy",
     "zodiac": "Song Tử",
-    "advice": "Hành động nhanh chóng dựa trên logic là tốt, nhưng đừng vội vã chà đạp lên cảm xúc người khác.",
-    "numerology": "Cấp Kỵ Sĩ (Knight) - Năng lượng, di chuyển, theo đuổi mục tiêu."
+    "advice": "Tốc độ và sự quyết đoán là sức mạnh, nhưng sự vội vã và tàn nhẫn là tự sát. Hãy suy nghĩ thật kỹ trước khi vung thanh kiếm hành động của bạn lên.",
+    "numerology": "Cấp Kỵ Sĩ (Knight) - Năng lượng, di chuyển, theo đuổi mục tiêu.",
+    "generalUpright": "Lao đi trong giông tố với thanh kiếm vung cao, Knight of Swords là cơn lốc của sự quyết đoán, trí tuệ sắc bén và hành động chớp nhoáng. Anh ta đại diện cho lòng can đảm theo đuổi sự thật, tham vọng chinh phục mãnh liệt, tư duy logic tuyệt đối và sự thẳng thắn đến mức tàn nhẫn để đạt được mục tiêu mà không gì cản nổi.",
+    "generalReversed": "Cơn lốc trở thành sự phá hoại vô kỷ luật. Sự liều lĩnh bốc đồng, hung hăng, sự tàn nhẫn trong lời nói và tính hiếu thắng độc hại chà đạp lên mọi cảm xúc của người khác. Anh ta lao vào những trận chiến vô nghĩa chỉ vì sự kiêu ngạo."
   },
   {
     "id": 62,
@@ -3821,29 +3965,41 @@ window.TAROT_DB = [
     "aspects": {
       "love": {
         "up": "Tình yêu trưởng thành, không bi lụy. Rất cần sự trung thực. Có thể biểu thị sự độc thân hoặc góa bụa.",
-        "rev": "Không có chỗ cho sự yếu đuối. Sẵn sàng cắt đứt mối quan hệ không thương tiếc. Hằn học."
+        "rev": "Không có chỗ cho sự yếu đuối. Sẵn sàng cắt đứt mối quan hệ không thương tiếc. Hằn học.",
+        "upright": "Một mối quan hệ đòi hỏi sự trung thực tuyệt đối, tôn trọng không gian riêng và sự bình đẳng về trí tuệ. Bạn trân trọng sự thẳng thắn hơn là những lời đường mật sáo rỗng.",
+        "reversed": "Sự cay nghiệt, phán xét và thiếu bao dung giết chết tình yêu. Nỗi sợ bị tổn thương khiến một người dựng lên bức tường phòng vệ bằng sự lạnh nhạt tàn nhẫn, đẩy đối phương ra xa."
       },
       "career": {
         "up": "Một chuyên gia xuất sắc, công bằng, giao tiếp chuyên nghiệp. Phù hợp các ngành luật, phân tích.",
-        "rev": "Người sếp cay độc, chuyên bới móc lỗi sai của nhân viên."
+        "rev": "Người sếp cay độc, chuyên bới móc lỗi sai của nhân viên.",
+        "upright": "Khả năng lãnh đạo xuất chúng nhờ sự sắc bén, công bằng và giao tiếp rõ ràng. Giải quyết vấn đề một cách logic, không để tình cảm chi phối, cực kỳ phù hợp với các công việc liên quan đến luật pháp, đánh giá.",
+        "reversed": "Sự hách dịch, cay nghiệt và soi mói tàn nhẫn tại nơi làm việc. Môi trường công sở trở thành một trại giam ngột ngạt dưới sự chỉ đạo của một cấp trên lạnh lùng, thiếu thấu cảm."
       },
       "finance": {
         "up": "Rõ ràng trong chuyện tiền bạc, không để tình cảm xen vào làm ăn.",
-        "rev": "Bủn xỉn, tính toán chi li tàn nhẫn."
+        "rev": "Bủn xỉn, tính toán chi li tàn nhẫn.",
+        "upright": "Sự khôn ngoan, tính toán kỹ lưỡng và độc lập tài chính. Không bị mờ mắt bởi lòng tham, bạn đưa ra những quyết định quản lý tài sản dựa trên dữ liệu thực tế và sự minh bạch.",
+        "reversed": "Sự keo kiệt tột độ hoặc những vụ kiện tụng tài chính gay gắt. Sự cứng nhắc và thiếu linh hoạt có thể khiến bạn bỏ lỡ những cơ hội hợp tác kinh tế tốt."
       },
       "health": {
         "up": "Cần tư duy logic để điều trị, sức chịu đựng nỗi đau thể xác tốt.",
-        "rev": "Trầm cảm, xa lánh mọi người, vô sinh hoặc khó có con."
+        "rev": "Trầm cảm, xa lánh mọi người, vô sinh hoặc khó có con.",
+        "upright": "Sự tỉnh táo và kỷ luật giúp duy trì một sức khỏe ổn định. Cần chú ý đến những vấn đề phụ khoa hoặc các bệnh liên quan đến hệ thần kinh do kìm nén cảm xúc.",
+        "reversed": "Sự kiệt quệ do tâm lý cô độc, u uất và cay nghiệt với chính bản thân mình. Trầm cảm do việc từ chối sự giúp đỡ từ người khác và phủ nhận nhu cầu được yêu thương."
       },
       "spiritual": {
         "up": "Tìm kiếm sự thật một cách minh bạch, loại bỏ mê tín dị đoan.",
-        "rev": "Dùng trí năng chối bỏ hoàn toàn tâm linh, cay nghiệt với những người có đức tin."
+        "rev": "Dùng trí năng chối bỏ hoàn toàn tâm linh, cay nghiệt với những người có đức tin.",
+        "upright": "Khả năng loại bỏ những ảo tưởng tâm linh để nhìn thấy chân lý trần trụi. Một người hướng dẫn nghiêm khắc nhưng công bằng, đánh thức trực giác bằng tư duy logic.",
+        "reversed": "Từ chối hoàn toàn thế giới tâm linh vì bị những tổn thương quá khứ làm mù quáng. Tâm hồn trở nên cằn cỗi, chối bỏ sự kết nối thiêng liêng và lòng từ bi vô lượng."
       }
     },
     "planet": "Sao Kim",
     "zodiac": "Thiên Bình",
-    "advice": "Dùng lý trí sắc bén để đánh giá tình hình, nhưng đừng để trái tim trở nên lạnh giá.",
-    "numerology": "Cấp Nữ Hoàng (Queen) - Trưởng thành, nuôi dưỡng, làm chủ nội tâm."
+    "advice": "Hãy sử dụng trí tuệ sắc bén của bạn để cắt đứt sự dối trá, nhưng đừng quên giữ lại một góc nhỏ ấm áp cho lòng trắc ẩn. Sự thật vĩ đại nhất luôn chứa đựng tình yêu thương.",
+    "numerology": "Cấp Nữ Hoàng (Queen) - Trưởng thành, nuôi dưỡng, làm chủ nội tâm.",
+    "generalUpright": "Ngồi uy nghiêm trên ngai vàng giữa bầu trời giông bão, Queen of Swords là bậc thầy của sự thật, sự minh mẫn và sự độc lập tuyệt đối. Nàng phán xét thế giới bằng lăng kính khách quan, sắc bén, không khoan nhượng với sự dối trá, loại bỏ những cảm xúc yếu mềm để đưa ra những quyết định công tâm nhất. Một người phụ nữ trải qua nhiều nỗi đau nhưng đã biến chúng thành trí tuệ sắc lạnh.",
+    "generalReversed": "Sự khách quan biến thành sự lạnh lùng tàn nhẫn, sự cay nghiệt và tính thù dai. Nỗi đau quá khứ khiến nàng trở nên độc hại, sử dụng trí thông minh để thao túng, mỉa mai và trừng phạt người khác. Sự cô lập cực đoan và khép kín trái tim vĩnh viễn."
   },
   {
     "id": 63,
@@ -3874,29 +4030,41 @@ window.TAROT_DB = [
     "aspects": {
       "love": {
         "up": "Mối quan hệ xây dựng trên nền tảng trí tuệ, sự tôn trọng và luật lệ rõ ràng. Khá khô khan.",
-        "rev": "Sự áp đặt, kiểm soát tâm lý, thiếu vắng sự ấm áp và bao dung trong tình yêu."
+        "rev": "Sự áp đặt, kiểm soát tâm lý, thiếu vắng sự ấm áp và bao dung trong tình yêu.",
+        "upright": "Tình yêu được xây dựng trên nền tảng của sự tôn trọng, đạo đức và những cam kết rõ ràng. Mối quan hệ trưởng thành, ít tính lãng mạn nhưng vô cùng vững chắc, an toàn và trung thực.",
+        "reversed": "Sự gia trưởng, độc đoán và kiểm soát nghẹt thở trong tình yêu. Đối phương sử dụng logic để thao túng cảm xúc, gạt bỏ mọi nhu cầu tình cảm của bạn bằng sự lạnh lùng và phán xét tàn nhẫn."
       },
       "career": {
         "up": "Sự nghiệp thăng tiến nhờ tư duy chiến lược và sự chuyên nghiệp tuyệt đối.",
-        "rev": "Môi trường làm việc ngột ngạt dưới trướng một nhà lãnh đạo độc tài, lạm quyền."
+        "rev": "Môi trường làm việc ngột ngạt dưới trướng một nhà lãnh đạo độc tài, lạm quyền.",
+        "upright": "Đỉnh cao của sự nghiệp lãnh đạo, đặc biệt trong các lĩnh vực chuyên môn cao như luật, y khoa, quản trị. Khả năng tư duy chiến lược xuất chúng, đưa ra những quyết định lớn mang tính bước ngoặt và công tâm.",
+        "reversed": "Sự lạm quyền, độc tài và tham nhũng chốn công sở. Môi trường làm việc đầy áp bức, thiếu tính sáng tạo do sự kiểm soát vi mô và tư duy cứng nhắc của người đứng đầu."
       },
       "finance": {
         "up": "Kỷ luật tài chính sắt đá. Các quyết định đầu tư được tính toán chi ly, không rủi ro.",
-        "rev": "Gian lận kinh tế tinh vi, lợi dụng lỗ hổng pháp luật."
+        "rev": "Gian lận kinh tế tinh vi, lợi dụng lỗ hổng pháp luật.",
+        "upright": "Sự kỷ luật thép trong quản lý tài chính. Những khoản đầu tư an toàn, hợp pháp và được tính toán vô cùng chi tiết. Quyền lực tài chính được xây dựng từ sự uyên bác và đạo đức.",
+        "reversed": "Những rắc rối lớn về pháp lý tài chính, kiện tụng hoặc sự gian lận quy mô lớn. Sự tàn nhẫn trong các thỏa thuận kinh tế, bòn rút tài sản mà không màng đến đạo lý."
       },
       "health": {
         "up": "Thực hiện nghiêm ngặt các phác đồ y tế. Tư vấn bác sĩ chuyên khoa giỏi.",
-        "rev": "Áp lực tâm lý nặng nề dẫn đến các bệnh về thần kinh."
+        "rev": "Áp lực tâm lý nặng nề dẫn đến các bệnh về thần kinh.",
+        "upright": "Sức khỏe được duy trì thông qua một chế độ sinh hoạt cực kỳ kỷ luật. Khả năng kiểm soát cảm xúc tốt giúp ngăn ngừa các căn bệnh liên quan đến stress.",
+        "reversed": "Sự sụp đổ thể chất do quá trình đè nén cảm xúc kéo dài. Các bệnh về não bộ, hệ thần kinh do suy nghĩ quá mức, hoặc sự từ chối các liệu pháp chữa lành tự nhiên do quá cứng nhắc."
       },
       "spiritual": {
         "up": "Sống theo nguyên tắc đạo đức và pháp luật tối cao.",
-        "rev": "Mắc kẹt trong sự kiêu ngạo trí thức, cho mình là thần thánh."
+        "rev": "Mắc kẹt trong sự kiêu ngạo trí thức, cho mình là thần thánh.",
+        "upright": "Sự am hiểu sâu sắc về các quy luật vũ trụ. Một bậc thầy tinh thần với trí tuệ uyên bác, dẫn dắt linh hồn bằng kỷ luật nội tâm và những triết lý logic mang tính phổ quát.",
+        "reversed": "Một kẻ đạo đức giả cực đoan, lạm dụng triết lý tâm linh để biện minh cho sự độc tài của mình. Linh hồn bị đống băng bởi sự kiêu ngạo trí tuệ, chối bỏ tình yêu thương vô điều kiện."
       }
     },
     "planet": "Sao Thiên Vương",
     "zodiac": "Bảo Bình",
-    "advice": "Sự công bằng và nguyên tắc là cần thiết, nhưng cũng cần một chút bao dung và thấu hiểu.",
-    "numerology": "Cấp Vua (King) - Lãnh đạo, quyền lực, kiểm soát bên ngoài."
+    "advice": "Hãy để lý trí dẫn đường nhưng đừng để nó đóng băng trái tim bạn. Quyền lực thực sự không nằm ở sự tàn nhẫn lạnh lùng, mà ở việc thực thi công lý với sự thấu hiểu và lòng nhân đạo.",
+    "numerology": "Cấp Vua (King) - Lãnh đạo, quyền lực, kiểm soát bên ngoài.",
+    "generalUpright": "Ngự trên ngai vàng của sự uyên bác, King of Swords là biểu tượng quyền lực tối cao của lý trí, trật tự, tính kỷ luật và sự công bằng luật pháp. Ông là một vị vua điềm tĩnh, sử dụng trí tuệ phân tích sắc sảo và đạo đức vô tư để phán xét, lãnh đạo và duy trì sự thật. Ông bảo vệ vương quốc của mình bằng logic, cấu trúc và sự thật không thể lay chuyển.",
+    "generalReversed": "Quyền lực lý trí bị tha hóa thành sự bạo chúa, độc đoán và sự kiểm soát tàn nhẫn. Lạm quyền, sử dụng luật pháp hoặc trí tuệ để chèn ép kẻ yếu. Ông trở nên lạnh lẽo, vô cảm, thiếu tính nhân văn và tàn phá mọi thứ bằng một tư duy cứng nhắc, bảo thủ và nhẫn tâm."
   },
   {
     "id": 64,
