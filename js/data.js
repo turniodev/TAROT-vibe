@@ -2338,29 +2338,41 @@ window.TAROT_DB = [
     "aspects": {
       "love": {
         "up": "Một tình yêu mới, sự gắn kết sâu sắc và lãng mạn.",
-        "rev": "Tình yêu chững lại, cảm giác lạnh nhạt hoặc cô đơn."
+        "rev": "Tình yêu chững lại, cảm giác lạnh nhạt hoặc cô đơn.",
+        "upright": "Một chương tình yêu mới lộng lẫy và tràn đầy chân thành gõ cửa. Mối quan hệ chớm nở như nụ hồng đẫm sương mai, hứa hẹn sự bao dung, thấu hiểu và một kết nối đồng điệu tuyệt đẹp từ tận đáy lòng.",
+        "reversed": "Sự khô cằn trong cảm xúc, những tổn thương quá khứ khiến bạn e sợ sự tổn thương mới. Cảm giác trống rỗng trong một mối quan hệ thiếu vắng sự kết nối sâu sắc hoặc tình yêu không được đền đáp."
       },
       "career": {
         "up": "Làm việc với đam mê, môi trường làm việc hòa đồng.",
-        "rev": "Thiếu cảm hứng với công việc, đồng nghiệp xa lánh."
+        "rev": "Thiếu cảm hứng với công việc, đồng nghiệp xa lánh.",
+        "upright": "Một cơ hội nghề nghiệp mang đến niềm vui sướng ngập tràn và sự thỏa mãn tinh thần, hơn là những toan tính vật chất. Một dự án sáng tạo nghệ thuật được ươm mầm từ cảm hứng mãnh liệt.",
+        "reversed": "Công việc trở nên tẻ nhạt, thiếu vắng sự say mê. Bạn cảm thấy mình như một cỗ máy vô hồn, không tìm thấy sự gắn kết tâm lý với môi trường xung quanh."
       },
       "finance": {
         "up": "Tiền bạc đi kèm với sự thỏa mãn (ví dụ: làm từ thiện).",
-        "rev": "Chi tiêu bù đắp cho cảm xúc thiếu thốn."
+        "rev": "Chi tiêu bù đắp cho cảm xúc thiếu thốn.",
+        "upright": "Sự sung túc tài chính tự nhiên như dòng nước chảy khi bạn làm việc với một trái tim rộng mở. Những món quà vật chất bất ngờ đến từ lòng tốt và sự chia sẻ.",
+        "reversed": "Những mất mát tài chính do những quyết định dựa trên cảm tính bốc đồng thay vì lý trí. Hãy cẩn trọng trước những hứa hẹn đầu tư không rõ ràng."
       },
       "health": {
         "up": "Cảm xúc tích cực giúp chữa lành thể chất.",
-        "rev": "Bệnh tật do kìm nén cảm xúc lâu ngày."
+        "rev": "Bệnh tật do kìm nén cảm xúc lâu ngày.",
+        "upright": "Sự phục hồi màu nhiệm từ gốc rễ tâm lý. Cảm xúc cân bằng và bình yên nuôi dưỡng một cơ thể khỏe mạnh, tràn đầy sinh khí thanh lọc.",
+        "reversed": "Những căn bệnh tâm sinh lý do kìm nén cảm xúc kéo dài. Sự khô cạn tâm hồn đang bào mòn dần hàng rào miễn dịch của cơ thể."
       },
       "spiritual": {
         "up": "Khai mở trực giác, tình yêu vô điều kiện.",
-        "rev": "Mất kết nối với tâm hồn, cảm thấy trống rỗng."
+        "rev": "Mất kết nối với tâm hồn, cảm thấy trống rỗng.",
+        "upright": "Một sự thức tỉnh trực giác mạnh mẽ. Linh hồn bạn như một hồ nước phẳng lặng, phản chiếu rõ nét những thông điệp thiêng liêng từ vũ trụ. Một khao khát kết nối với đấng tối cao bằng trái tim rộng mở.",
+        "reversed": "Sự ngăn cách với thế giới tâm linh do việc chối bỏ trực giác của bản thân. Bạn trở nên khô khan, hoài nghi và từ chối tình yêu thương vô điều kiện của vũ trụ."
       }
     },
     "planet": "Nguyên tố Nước",
     "zodiac": "Cự Giải, Bọ Cạp, Song Ngư",
-    "advice": "Hãy mở rộng trái tim để đón nhận tình yêu và để cảm xúc tuôn chảy tự nhiên.",
-    "numerology": "Số 1 - Hạt giống, tiềm năng, khởi đầu, ý chí."
+    "advice": "Hãy mở rộng trái tim để đón nhận dòng chảy yêu thương đang tuôn trào. Đừng để sợ hãi tước đi quyền được cảm nhận vẻ đẹp của lòng trắc ẩn.",
+    "numerology": "Số 1 - Hạt giống, tiềm năng, khởi đầu, ý chí.",
+    "generalUpright": "Từ bàn tay của các thiên thần bay lên từ cõi vô thức sâu thẳm, Ace of Cups là hiện thân thuần khiết nhất của nguồn năng lượng chữa lành bằng tình yêu thương và lòng trắc ẩn nguyên thủy. Một chiếc cốc tràn trề sinh thủy thiêng liêng tuôn chảy thành năm dòng suối của năm giác quan, đánh thức linh hồn vào những rung động mới chớm đầy sâu sắc và màu nhiệm.",
+    "generalReversed": "Chiếc cốc bị lật úp, những dòng suối trong vắt cạn khô. Đây là tiếng nấc nghẹn của một tâm hồn đang đóng sập cửa trước những yêu thương, một trái tim cạn kiệt xúc cảm hoặc sự trống rỗng sâu sắc khi tình cảm bị kìm nén không có lối thoát."
   },
   {
     "id": 37,
@@ -2387,29 +2399,41 @@ window.TAROT_DB = [
     "aspects": {
       "love": {
         "up": "Một mối tình lãng mạn tuyệt vời, có thể tiến tới hôn nhân.",
-        "rev": "Cãi vã, chia tay hoặc tình yêu thiếu sự tôn trọng."
+        "rev": "Cãi vã, chia tay hoặc tình yêu thiếu sự tôn trọng.",
+        "upright": "Một tình yêu đẹp đẽ, cân bằng và hỗ trợ lẫn nhau sâu sắc. Một cam kết lãng mạn, một lời cầu hôn hoặc sự tái kết nối mạnh mẽ của những tri kỷ sau một thời gian dài xa cách.",
+        "reversed": "Sự rạn nứt niềm tin, sự oán giận ngấm ngầm hoặc sự chia tay đầy nước mắt. Một trong hai người đang cho đi quá nhiều mà không nhận lại được bao nhiêu, tạo ra một hố sâu ngăn cách."
       },
       "career": {
         "up": "Một đối tác làm ăn tuyệt vời, hợp đồng thuận lợi.",
-        "rev": "Hủy bỏ hợp đồng, đối tác lừa dối hoặc xung đột."
+        "rev": "Hủy bỏ hợp đồng, đối tác lừa dối hoặc xung đột.",
+        "upright": "Một mối quan hệ đối tác kinh doanh hoàn hảo, một hợp đồng mang lại lợi ích cân bằng cho cả hai bên. Môi trường làm việc tràn ngập sự hỗ trợ và tôn trọng lẫn nhau.",
+        "reversed": "Xung đột lợi ích, sự cạnh tranh ngầm hoặc sự phản bội trong hợp tác kinh doanh. Mối quan hệ đồng nghiệp trở nên căng thẳng, đầy rẫy sự bất mãn và thiếu công bằng."
       },
       "finance": {
         "up": "Chia sẻ tài chính trong hôn nhân/hợp tác kinh doanh.",
-        "rev": "Tranh chấp tiền bạc với người yêu/đối tác."
+        "rev": "Tranh chấp tiền bạc với người yêu/đối tác.",
+        "upright": "Sự ổn định tài chính đạt được nhờ vào sự hợp tác khôn ngoan. Cả hai bên đều minh bạch và cùng nhau xây dựng nên một nền kinh tế vững chắc.",
+        "reversed": "Những tranh chấp tài chính, sự mập mờ trong phân chia lợi nhuận. Sự thiếu tin tưởng khiến các thỏa thuận kinh tế sụp đổ nhanh chóng."
       },
       "health": {
         "up": "Cân bằng âm dương, sức khỏe tốt nhờ tình cảm viên mãn.",
-        "rev": "Stress do chuyện tình cảm ảnh hưởng sức khỏe."
+        "rev": "Stress do chuyện tình cảm ảnh hưởng sức khỏe.",
+        "upright": "Sự cân bằng tuyệt vời giữa cơ thể và tâm trí. Mối quan hệ chữa lành mang lại những chuyển biến tích cực đáng kinh ngạc cho sức khỏe của bạn.",
+        "reversed": "Những căn bệnh tái phát do những áp lực tâm lý từ các mối quan hệ độc hại. Sự mất cân bằng nội tiết hoặc hệ thần kinh do stress kéo dài."
       },
       "spiritual": {
         "up": "Nhận ra người tri kỷ (soulmate).",
-        "rev": "Ảo tưởng về tri kỷ, bỏ mặc bản thân."
+        "rev": "Ảo tưởng về tri kỷ, bỏ mặc bản thân.",
+        "upright": "Sự hòa hợp hoàn hảo giữa bản ngã và linh hồn cao cả. Một cuộc hôn nhân tâm linh, sự cân bằng giữa tính nam và tính nữ bên trong bạn.",
+        "reversed": "Sự chia cắt nội tâm, một cuộc nội chiến giữa những gì bạn khao khát và những gì bạn buộc phải tuân theo. Sự chối bỏ một nửa bóng tối hoặc ánh sáng của chính mình."
       }
     },
     "planet": "Sao Kim",
     "zodiac": "Cự Giải",
-    "advice": "Trân trọng sự kết nối đồng điệu. Sự hợp tác dựa trên tình yêu và tôn trọng là chìa khóa.",
-    "numerology": "Số 2 - Cân bằng, sự kết hợp, đối lập, lựa chọn."
+    "advice": "Tình yêu và sự tôn trọng là chìa khóa vạn năng cho mọi mối quan hệ. Hãy lắng nghe đối phương bằng trái tim rộng mở và sẵn sàng chia sẻ nửa chiếc cốc của mình.",
+    "numerology": "Số 2 - Cân bằng, sự kết hợp, đối lập, lựa chọn.",
+    "generalUpright": "Hai chiếc cốc chạm vào nhau trong một giao ước thiêng liêng của linh hồn, Two of Cups vẽ nên bức tranh của sự đồng điệu hoàn hảo, sự cân bằng tinh tế của hai cực Âm Dương. Nó đánh dấu một sự gặp gỡ định mệnh, nơi sự thu hút mạnh mẽ, sự thấu hiểu vô điều kiện và sự kết hợp tương hỗ đưa hai bản thể hòa quyện thành một thực thể trọn vẹn hơn.",
+    "generalReversed": "Chiếc cốc vỡ tan, sự hòa hợp biến thành sự bất đồng cay đắng. Lá bài đảo ngược phơi bày sự mất cân bằng quyền lực, những hiểu lầm sâu sắc hoặc sự phụ thuộc cảm xúc độc hại đang ăn mòn một mối quan hệ từng rất tốt đẹp."
   },
   {
     "id": 38,
@@ -2436,29 +2460,41 @@ window.TAROT_DB = [
     "aspects": {
       "love": {
         "up": "Một sự kiện vui vẻ (đám cưới, đính hôn) cùng bạn bè.",
-        "rev": "Ghen tuông với bạn bè của đối phương, hoặc có người thứ 3."
+        "rev": "Ghen tuông với bạn bè của đối phương, hoặc có người thứ 3.",
+        "upright": "Mối quan hệ nhận được sự chúc phúc và hỗ trợ nồng nhiệt từ bạn bè, gia đình. Một lễ đính hôn, đám cưới hoặc một cột mốc tình cảm đáng nhớ được ăn mừng cùng những người thân yêu.",
+        "reversed": "Sự can thiệp độc hại từ bên thứ ba (bạn bè, gia đình) đang phá hoại tình yêu của bạn. Hoặc bạn đang quá mải mê với các cuộc vui bên ngoài mà bỏ bê người bạn đời của mình."
       },
       "career": {
         "up": "Thành công của dự án nhóm, tiệc tùng công ty.",
-        "rev": "Drama công sở, bị bạn bè tại chỗ làm nói xấu."
+        "rev": "Drama công sở, bị bạn bè tại chỗ làm nói xấu.",
+        "upright": "Một chiến thắng của cả tập thể. Không khí làm việc nhóm tràn đầy hứng khởi, sự hỗ trợ nhiệt tình từ đồng nghiệp giúp dự án gặt hái thành công lớn.",
+        "reversed": "Sự bè phái, chia rẽ nội bộ hoặc nạn nói xấu sau lưng (drama công sở). Công sức tập thể bị chiếm đoạt bởi cá nhân, hoặc sự thiếu hòa đồng khiến bạn bị cô lập tại nơi làm việc."
       },
       "finance": {
         "up": "Tài chính tốt, đủ để khao bạn bè hoặc tiệc tùng.",
-        "rev": "Cháy túi vì ăn chơi đàng điếm, tiệc tùng vô bổ."
+        "rev": "Cháy túi vì ăn chơi đàng điếm, tiệc tùng vô bổ.",
+        "upright": "Tài lộc dư dả để bạn thoải mái chiêu đãi, tụ tập bạn bè hoặc tổ chức những sự kiện ăn mừng. Những sự kiện cộng đồng mang lại nguồn lợi kinh tế bất ngờ.",
+        "reversed": "Chi tiêu phung phí vào những cuộc vui vô bổ. Sự rỗng tuếch của việc 'vung tay quá trán' để chứng tỏ bản thân với đám đông, dẫn đến sự thâm hụt nghiêm trọng."
       },
       "health": {
         "up": "Khỏe mạnh, vui vẻ nhờ mạng lưới bạn bè hỗ trợ.",
-        "rev": "Hậu quả do say xỉn, ăn uống quá độ."
+        "rev": "Hậu quả do say xỉn, ăn uống quá độ.",
+        "upright": "Sinh lực rạng rỡ, sức khỏe dẻo dai nhờ lối sống vui vẻ, tích cực. Mạng lưới quan hệ xã hội tốt là liều thuốc vàng cho sức khỏe tinh thần.",
+        "reversed": "Sự sa sút thể chất do lạm dụng các chất kích thích, tiệc tùng thâu đêm suốt sáng. Các vấn đề tiêu hóa hoặc kiệt sức trầm trọng do lối sống buông thả."
       },
       "spiritual": {
         "up": "Hòa mình vào cộng đồng, nhóm thiện nguyện.",
-        "rev": "Bị nhóm bạn xấu kéo lùi sự phát triển tâm linh."
+        "rev": "Bị nhóm bạn xấu kéo lùi sự phát triển tâm linh.",
+        "upright": "Hòa mình vào năng lượng của tập thể, bạn tìm thấy sự an lạc sâu sắc. Một sự thức tỉnh tập thể, những vòng tròn chữa lành tâm linh mạnh mẽ.",
+        "reversed": "Sự lạc lõng giữa đám đông. Tâm hồn cảm thấy trống rỗng dù bị bao quanh bởi vô vàn người, khao khát một sự tĩnh lặng để tìm về giá trị đích thực thay vì những ồn ào bề ngoài."
       }
     },
     "planet": "Sao Thủy",
     "zodiac": "Cự Giải",
-    "advice": "Cùng chia sẻ niềm vui với cộng đồng và bạn bè. Đừng tự cô lập mình.",
-    "numerology": "Số 3 - Phát triển, sáng tạo, làm việc nhóm, mở rộng."
+    "advice": "Đừng ngần ngại dựa vào những người bạn trân quý, nhưng cũng đừng quên tự lập. Một vòng tròn bạn bè tốt là bệ phóng, chứ không phải nơi để bạn chìm đắm quên lối về.",
+    "numerology": "Số 3 - Phát triển, sáng tạo, làm việc nhóm, mở rộng.",
+    "generalUpright": "Ba người phụ nữ nâng cốc trong một vũ điệu ăn mừng hân hoan, Three of Cups là bản nhạc tươi vui của tình huynh đệ, sự gắn kết cộng đồng và niềm vui sướng sẻ chia. Nó đại diện cho tình bạn vô tư, sự đoàn tụ ấm áp, những khoảnh khắc ăn mừng thành quả cùng nhau và một hệ thống hỗ trợ tinh thần tuyệt vời giúp bạn vượt qua mọi chông gai.",
+    "generalReversed": "Niềm vui sướng trở thành những bữa tiệc sa đọa trống rỗng. Bạn đang lạc lối trong sự phù phiếm, những cuộc vui quá đà dẫn đến sự kiệt quệ, hoặc đau đớn hơn là sự cô lập, bị tẩy chay khỏi một nhóm người mà bạn từng coi là tri kỷ."
   },
   {
     "id": 39,
@@ -2485,29 +2521,41 @@ window.TAROT_DB = [
     "aspects": {
       "love": {
         "up": "Thất vọng về tình yêu, từ chối mở lòng dù có người tán tỉnh.",
-        "rev": "Sẵn sàng hẹn hò trở lại sau thời gian dài cô đơn."
+        "rev": "Sẵn sàng hẹn hò trở lại sau thời gian dài cô đơn.",
+        "upright": "Sự nhàm chán ngự trị trong mối quan hệ. Cảm giác 'có cũng như không', thiếu đi sự mới mẻ và những rung động sâu sắc, dẫn đến việc phớt lờ những quan tâm từ đối phương.",
+        "reversed": "Sự chủ động hàn gắn những rạn nứt. Một thái độ trân trọng đối phương hơn sau thời gian vô tâm. Người độc thân bắt đầu mở lòng trở lại để đón nhận tình yêu."
       },
       "career": {
         "up": "Chán việc, không thiết tha với các lời mời hấp dẫn.",
-        "rev": "Tìm lại được cảm hứng làm việc, chớp lấy cơ hội thăng tiến."
+        "rev": "Tìm lại được cảm hứng làm việc, chớp lấy cơ hội thăng tiến.",
+        "upright": "Sự chán ghét công việc hiện tại. Cảm thấy thiếu động lực, không muốn nỗ lực thêm dù có cơ hội thăng tiến bày ra trước mắt. Bạn đang chờ đợi một thứ gì đó hoàn hảo ảo tưởng.",
+        "reversed": "Tìm lại được ngọn lửa đam mê công việc. Nhận thức rõ ràng về những cơ hội và bắt tay vào hành động thay vì ngồi than vãn về hoàn cảnh."
       },
       "finance": {
         "up": "Không quan tâm đến tiền bạc, bỏ qua cơ hội kiếm tiền.",
-        "rev": "Bắt đầu quan tâm và giải quyết vấn đề tài chính."
+        "rev": "Bắt đầu quan tâm và giải quyết vấn đề tài chính.",
+        "upright": "Tài chính ổn định nhưng bạn cảm thấy không thỏa mãn. Việc tập trung quá nhiều vào những gì chưa có khiến bạn mù quáng trước những phúc lộc đang hiện hữu.",
+        "reversed": "Biết ơn với những gì mình đang có. Một thái độ tài chính tích cực hơn, tập trung vào việc tạo ra giá trị mới thay vì ủ rũ vì những cơ hội đã mất."
       },
       "health": {
         "up": "Mệt mỏi, thiếu năng lượng sống, trầm cảm nhẹ.",
-        "rev": "Tìm lại niềm vui, chủ động tham gia hoạt động thể thao."
+        "rev": "Tìm lại niềm vui, chủ động tham gia hoạt động thể thao.",
+        "upright": "Sự mệt mỏi, uể oải dai dẳng do tâm trạng chán nản. Các chứng trầm cảm nhẹ, sự suy kiệt do thiếu hứng thú với cuộc sống xung quanh.",
+        "reversed": "Sự phục hồi kỳ diệu cả về thể chất lẫn tinh thần. Việc thay đổi góc nhìn tích cực mang lại nguồn năng lượng chữa lành mạnh mẽ cho cơ thể."
       },
       "spiritual": {
         "up": "Lạc lối, từ chối những thông điệp vũ trụ.",
-        "rev": "Mở rộng lòng mình đón nhận sự thật tâm linh."
+        "rev": "Mở rộng lòng mình đón nhận sự thật tâm linh.",
+        "upright": "Sự xa lánh thế giới tâm linh vì hoài nghi. Tâm hồn đóng kín cửa, chìm trong cái bóng của bản ngã hẹp hòi và từ chối mọi sự giúp đỡ từ vũ trụ.",
+        "reversed": "Một luồng sáng thấu hiểu bất ngờ. Bạn nhận ra sự hiện diện của những phép màu nhỏ bé xung quanh, lòng biết ơn tuôn chảy và hàn gắn những vết nứt nội tâm."
       }
     },
     "planet": "Mặt Trăng",
     "zodiac": "Cự Giải",
-    "advice": "Đừng quá chìm đắm trong nỗi buồn mà phớt lờ những cơ hội tuyệt vời đang được trao cho bạn.",
-    "numerology": "Số 4 - Ổn định, cấu trúc, nền tảng, sự an toàn."
+    "advice": "Đừng để sự bất mãn mù quáng che khuất đi những món quà đang hiện hữu ngay trước mắt. Hãy xoay người lại, đưa tay ra và nhận lấy chiếc cốc mà vũ trụ đang kiên nhẫn trao tặng.",
+    "numerology": "Số 4 - Ổn định, cấu trúc, nền tảng, sự an toàn.",
+    "generalUpright": "Ngồi khoanh tay dưới gốc cây đầy vẻ chán chường trước ba chiếc cốc, Four of Cups phác họa một khoảnh khắc của sự trì trệ cảm xúc, sự cô lập tự nguyện và cảm giác vô nghĩa sâu sắc. Dù vũ trụ mang đến một chiếc cốc mới (cơ hội, tình yêu), bạn lại quá chìm đắm trong sự bất mãn, nỗi thất vọng nội tâm và sự thờ ơ để có thể nhìn thấy món quà đó.",
+    "generalReversed": "Sự thức tỉnh sau một cơn mê dài. Bạn đột ngột nhận ra những cơ hội quý giá đã bị bỏ lỡ, và giờ đây, khát khao sống trỗi dậy mạnh mẽ. Sự đảo ngược đánh dấu việc phá vỡ vỏ bọc cô lập, sẵn sàng đưa tay đón nhận chiếc cốc từ vũ trụ với một thái độ đầy biết ơn."
   },
   {
     "id": 40,
@@ -2535,29 +2583,41 @@ window.TAROT_DB = [
     "aspects": {
       "love": {
         "up": "Đau buồn vì chia tay, không thể quên được người cũ.",
-        "rev": "Vượt qua nỗi đau, học cách tha thứ và bước tiếp."
+        "rev": "Vượt qua nỗi đau, học cách tha thứ và bước tiếp.",
+        "upright": "Sự đổ vỡ tình cảm, nỗi đau chia ly hoặc sự phản bội để lại một vết thương khó lành. Bạn gặm nhấm nỗi đau, không thể buông bỏ hình bóng cũ và đắm chìm trong sự tự trách.",
+        "reversed": "Quá trình chữa lành vết thương lòng bắt đầu. Chấp nhận sự thật, tha thứ cho người cũ và cho chính mình, mở ra một tia hy vọng mỏng manh nhưng kiên định vào tương lai tình cảm."
       },
       "career": {
         "up": "Thất vọng tràn trề vì dự án thất bại hoặc mất việc.",
-        "rev": "Chấp nhận sự thật, tìm kiếm một công việc mới tốt hơn."
+        "rev": "Chấp nhận sự thật, tìm kiếm một công việc mới tốt hơn.",
+        "upright": "Sự thất bại, mất việc hoặc một dự án tâm huyết đổ vỡ. Bạn cảm thấy sụp đổ, chìm đắm trong cảm giác thua cuộc và hối hận về những quyết định sai lầm trong quá khứ.",
+        "reversed": "Đứng lên từ đống tro tàn của thất bại. Rút ra bài học xương máu, nhìn nhận những nguồn lực còn lại (kỹ năng, kinh nghiệm, đồng nghiệp tốt) để bắt đầu một chặng đường mới."
       },
       "finance": {
         "up": "Mất mát tài sản, đầu tư thua lỗ gây hối hận.",
-        "rev": "Khôi phục lại nguồn vốn, học được bài học quản lý rủi ro."
+        "rev": "Khôi phục lại nguồn vốn, học được bài học quản lý rủi ro.",
+        "upright": "Một mất mát tài chính đau đớn, phá sản hoặc đầu tư thua lỗ. Sự ám ảnh về số tiền đã mất khiến bạn tê liệt, không thể tìm cách vãn hồi cục diện.",
+        "reversed": "Sự phục hồi tài chính chậm rãi nhưng chắc chắn. Bạn chấp nhận việc cắt lỗ, tập trung vào số vốn ít ỏi còn lại để tái thiết nền tảng kinh tế."
       },
       "health": {
         "up": "Đau buồn ảnh hưởng nghiêm trọng đến sức khỏe (trầm cảm).",
-        "rev": "Ra khỏi vùng đen tối, bắt đầu chăm sóc bản thân."
+        "rev": "Ra khỏi vùng đen tối, bắt đầu chăm sóc bản thân.",
+        "upright": "Những nỗi đau tâm lý sâu sắc gây tổn hại nghiêm trọng đến thể chất. Sự mất ngủ, các vấn đề về tiêu hóa do sự u sầu và những giọt nước mắt kìm nén.",
+        "reversed": "Sự bình phục tâm lý mang lại hiệu quả chữa lành thần kỳ cho cơ thể. Bạn đang học cách yêu thương bản thân trở lại sau giông bão."
       },
       "spiritual": {
         "up": "Mắc kẹt trong bóng tối nội tâm.",
-        "rev": "Tự tha thứ, gột rửa tâm hồn."
+        "rev": "Tự tha thứ, gột rửa tâm hồn.",
+        "upright": "Khuất phục trước bóng tối nội tâm. Cảm giác bị trừng phạt, mặc cảm tội lỗi nặng nề đang giam cầm linh hồn trong ngục tù của sự dằn vặt vô tận.",
+        "reversed": "Một sự giải thoát kỳ diệu. Bạn hiểu rằng mất mát là một phần tất yếu của quá trình tiến hóa tâm hồn. Bạn buông bỏ gánh nặng nghiệp lực và tiến về phía ánh sáng."
       }
     },
     "planet": "Sao Hỏa",
     "zodiac": "Bọ Cạp",
-    "advice": "Than khóc cho những gì đã mất là cần thiết, nhưng đừng quên nhìn lại những gì bạn vẫn còn.",
-    "numerology": "Số 5 - Thay đổi, xung đột, mất mát, thử thách."
+    "advice": "Hãy để những giọt nước mắt rơi cho đến khi cạn kiệt, nhưng đừng quên xoay người lại. Vẫn còn đó những yêu thương chưa vỡ đang âm thầm chờ đợi bạn.",
+    "numerology": "Số 5 - Thay đổi, xung đột, mất mát, thử thách.",
+    "generalUpright": "Khoác chiếc áo choàng đen đứng khóc trước ba chiếc cốc đổ nát, Five of Cups là bản bi ca của sự mất mát, sự tiếc nuối tột cùng và nỗi đau quá khứ cứa sâu vào linh hồn. Nhưng bi kịch thực sự không nằm ở những gì đã vỡ, mà ở việc ánh mắt bạn bị giam cầm vĩnh viễn trong đống tro tàn, hoàn toàn mù quáng trước hai chiếc cốc vẫn còn đứng vững sau lưng.",
+    "generalReversed": "Một sự chữa lành đầy hy vọng. Bạn cuối cùng cũng lau khô giọt nước mắt, quay lưng lại với quá khứ đau thương và nhận ra những gì vẫn còn nguyên vẹn. Sự đảo ngược là khoảnh khắc chấp nhận mất mát, tha thứ cho bản thân và bắt đầu xây dựng lại cuộc đời từ những mảnh ghép còn sót lại."
   },
   {
     "id": 41,
@@ -2585,29 +2645,41 @@ window.TAROT_DB = [
     "aspects": {
       "love": {
         "up": "Tình yêu trong sáng, sự quay lại của người yêu cũ hoặc bạn thời thơ ấu.",
-        "rev": "Mắc kẹt trong kỷ niệm, dùng người cũ để che lấp nỗi buồn hiện tại."
+        "rev": "Mắc kẹt trong kỷ niệm, dùng người cũ để che lấp nỗi buồn hiện tại.",
+        "upright": "Sự tái hợp với một tình cũ, một người bạn thanh mai trúc mã, hoặc mối quan hệ hiện tại mang lại cảm giác an toàn, bao dung và quen thuộc như người thân trong gia đình.",
+        "reversed": "Sự phụ thuộc vào người cũ, không thể thoát khỏi bóng ma của cuộc tình quá khứ. Hoặc tính cách trẻ con, thiếu trách nhiệm đang đẩy mối quan hệ hiện tại vào bờ vực tan vỡ."
       },
       "career": {
         "up": "Công việc liên quan đến trẻ em, sáng tạo hồn nhiên, hoặc làm việc với đồng nghiệp cũ.",
-        "rev": "Áp dụng các phương pháp cũ rích không còn hiệu quả."
+        "rev": "Áp dụng các phương pháp cũ rích không còn hiệu quả.",
+        "upright": "Những dự án liên quan đến trẻ em, lịch sử hoặc quá khứ mang lại thành công. Sự giúp đỡ vô tư từ đồng nghiệp cũ hoặc sếp cũ mở ra một hướng đi mới đầy triển vọng.",
+        "reversed": "Sự trì trệ do bám víu vào những phương pháp làm việc cũ kỹ, lỗi thời. Sự thiếu chín chắn trong giao tiếp công sở dẫn đến những đánh giá tiêu cực từ cấp trên."
       },
       "finance": {
         "up": "Được nhận thừa kế, quà tặng, hoặc nhận lại một khoản nợ cũ.",
-        "rev": "Sợ lớn, không biết quản lý tài chính độc lập."
+        "rev": "Sợ lớn, không biết quản lý tài chính độc lập.",
+        "upright": "Nhận được một món quà tài chính bất ngờ từ người lớn tuổi, một tài sản thừa kế nhỏ hoặc tìm lại được một khoản tiền tưởng chừng đã mất. Tài chính mang lại cảm giác an yên.",
+        "reversed": "Sự thiếu trách nhiệm trong quản lý chi tiêu (tiêu tiền như trẻ con). Rủi ro tài chính do tin tưởng mù quáng vào những người quen cũ."
       },
       "health": {
         "up": "Nếu có bệnh thì khả năng cao liên quan đến di truyền từ gia đình.",
-        "rev": "Cần rời khỏi tổ ấm để tự lập, tự lo cho sức khỏe."
+        "rev": "Cần rời khỏi tổ ấm để tự lập, tự lo cho sức khỏe.",
+        "upright": "Sự phục hồi dễ dàng nhờ môi trường chăm sóc ấm áp từ gia đình. Cơ hội chữa lành thông qua các liệu pháp tâm lý giải quyết vấn đề 'đứa trẻ bên trong' (inner child).",
+        "reversed": "Những chứng bệnh tâm lý liên quan đến chấn thương tuổi thơ (trauma) đang bộc phát. Hãy ngừng chối bỏ và bắt đầu quá trình đối diện để chữa lành sâu sắc."
       },
       "spiritual": {
         "up": "Làm việc với đứa trẻ bên trong (inner child).",
-        "rev": "Từ chối tha thứ cho những tổn thương thời ấu thơ."
+        "rev": "Từ chối tha thứ cho những tổn thương thời ấu thơ.",
+        "upright": "Sự thanh lọc linh hồn về trạng thái thuần khiết ban sơ. Trực giác hoạt động nhạy bén tựa như lăng kính vô nhiễm của một đứa trẻ. Một khao khát yêu thương và cho đi vô điều kiện.",
+        "reversed": "Bị mắc kẹt trong những giáo điều hoặc định kiến của gia đình từ khi còn nhỏ. Cần phải dũng cảm phá vỡ lớp vỏ bọc cũ kỹ để tìm ra con đường tâm linh của riêng mình."
       }
     },
     "planet": "Mặt Trời",
     "zodiac": "Bọ Cạp",
-    "advice": "Quá khứ mang lại sự ấm áp, nhưng đừng biến nó thành nơi trốn tránh thực tại.",
-    "numerology": "Số 6 - Hài hòa, phục hồi, hợp tác, cho và nhận."
+    "advice": "Quá khứ là một bảo tàng tuyệt đẹp để ghé thăm, nhưng không phải là nơi để cư ngụ. Hãy mang theo hơi ấm của những kỷ niệm làm hành trang tiến bước về tương lai.",
+    "numerology": "Số 6 - Hài hòa, phục hồi, hợp tác, cho và nhận.",
+    "generalUpright": "Sáu chiếc cốc phủ đầy những bông hoa trắng trên nền hoài niệm, Six of Cups là cánh cửa thần kỳ đưa tâm hồn trở về vương quốc tuổi thơ rực rỡ và những ký ức ngọt ngào vô tội. Nó là hơi ấm của lòng tốt vô tư, sự đoàn tụ với quá khứ, những người bạn cũ, tình yêu ngây thơ và khao khát tìm về sự giản dị thuần khiết giữa thế giới phồn hoa phức tạp.",
+    "generalReversed": "Lạc lối trong mê cung của quá khứ. Bạn đang bám víu vào những hoài niệm không thực tế, từ chối việc trưởng thành và trốn tránh thực tại khắc nghiệt. Những tổn thương tuổi thơ chưa được giải quyết đang ngăn cản bước chân bạn tiến về phía trước."
   },
   {
     "id": 42,
@@ -2634,29 +2706,41 @@ window.TAROT_DB = [
     "aspects": {
       "love": {
         "up": "Có nhiều người theo đuổi nhưng không biết chọn ai, hoặc đang lý tưởng hóa đối phương.",
-        "rev": "Nhìn rõ bản chất của một người và thoát khỏi ảo tưởng tình yêu."
+        "rev": "Nhìn rõ bản chất của một người và thoát khỏi ảo tưởng tình yêu.",
+        "upright": "Bạn đang mù quáng, lý tưởng hóa đối phương một cách phi thực tế, hoặc đang đứng giữa quá nhiều lựa chọn tình cảm nhưng không ai thực sự chân thành. Sự ảo tưởng về một tình yêu hoàn hảo không tì vết.",
+        "reversed": "Thức tỉnh khỏi một mối quan hệ đầy lừa dối hoặc ảo mộng. Lớp mặt nạ rơi xuống, bạn nhận ra sự thật đau lòng nhưng lại tìm thấy sự giải thoát và một cái nhìn thực tế hơn về tình yêu."
       },
       "career": {
         "up": "Nhiều lời mời chào việc làm nhưng cần cẩn thận bánh vẽ.",
-        "rev": "Đưa ra quyết định nghề nghiệp chắc chắn, thực tế."
+        "rev": "Đưa ra quyết định nghề nghiệp chắc chắn, thực tế.",
+        "upright": "Đứng trước vô vàn ngã rẽ sự nghiệp, bạn bị mờ mắt bởi những lời hứa hẹn hào nhoáng nhưng sáo rỗng. Cẩn thận với những dự án bánh vẽ thiếu cơ sở thực tiễn.",
+        "reversed": "Loại bỏ những kế hoạch viển vông, tập trung toàn lực vào một mục tiêu khả thi duy nhất. Sự tỉnh táo trong công việc giúp bạn vạch ra một lộ trình thực tế vững chắc."
       },
       "finance": {
         "up": "Cẩn thận với các dự án 'làm giàu nhanh' đầy cám dỗ.",
-        "rev": "Tránh được cạm bẫy lừa đảo nhờ sự tỉnh táo."
+        "rev": "Tránh được cạm bẫy lừa đảo nhờ sự tỉnh táo.",
+        "upright": "Những cạm bẫy 'làm giàu nhanh chóng' đang mời gọi bằng những lời đường mật. Sự thiếu tỉnh táo trước các quyết định đầu tư có thể dẫn đến hậu quả khôn lường.",
+        "reversed": "Từ bỏ những mộng tưởng làm giàu không tưởng. Bắt đầu thiết lập những nguyên tắc tài chính thực tế và cẩn trọng với các cam kết tài chính dài hạn."
       },
       "health": {
         "up": "Mệt mỏi vì mộng du, mất ngủ hoặc ám ảnh sức khỏe.",
-        "rev": "Sự thật về tình trạng sức khỏe được làm rõ qua xét nghiệm."
+        "rev": "Sự thật về tình trạng sức khỏe được làm rõ qua xét nghiệm.",
+        "upright": "Sự lạm dụng chất kích thích, thuốc an thần hoặc rượu chè để trốn tránh hiện thực. Những ảo giác hoặc rối loạn giấc ngủ do tâm trí quá mệt mỏi với những hoang tưởng.",
+        "reversed": "Sự cải thiện sức khỏe tâm thần đáng kể khi bạn ngừng trốn chạy. Việc đối mặt với thực tại giúp giải tỏa những căng thẳng vô hình."
       },
       "spiritual": {
         "up": "Ảo tưởng tâm linh, sống mộng mơ xa rời thực tại.",
-        "rev": "Quay về thực tại chánh niệm (mindfulness)."
+        "rev": "Quay về thực tại chánh niệm (mindfulness).",
+        "upright": "Sự ảo tưởng tâm linh (spiritual bypassing). Bạn đắm chìm trong những trải nghiệm siêu nhiên hời hợt hoặc bị mê hoặc bởi những đạo sư giả tạo thay vì đối mặt với bóng tối nội tâm.",
+        "reversed": "Sự giác ngộ thực sự. Bạn nhận ra chân lý ẩn giấu đằng sau những phù phiếm bề ngoài, cam kết với một con đường tu tập vững vàng và bám rễ sâu vào hiện thực."
       }
     },
     "planet": "Sao Kim",
     "zodiac": "Bọ Cạp",
-    "advice": "Hãy thực tế. Đừng bị mờ mắt bởi những ảo ảnh; đưa ra lựa chọn và tập trung vào nó.",
-    "numerology": "Số 7 - Đánh giá, kiên nhẫn, chiến thuật, suy ngẫm."
+    "advice": "Giấc mơ chỉ có giá trị khi nó truyền cảm hứng cho thực tại. Đã đến lúc bước xuống từ những đám mây, chọn lấy một chiếc cốc duy nhất và bắt đầu hành động.",
+    "numerology": "Số 7 - Đánh giá, kiên nhẫn, chiến thuật, suy ngẫm.",
+    "generalUpright": "Bảy chiếc cốc lơ lửng trên những đám mây huyễn hoặc, Seven of Cups là một bức tranh đa diện về sự cám dỗ, sự đa dạng của các lựa chọn và vương quốc lộng lẫy của sự ảo tưởng. Nó cảnh báo về sự lạc lối giữa mê cung của những ước mơ hão huyền, những khát khao bóng bẩy nhưng thiếu thực tế, nơi không phải chiếc cốc nào cũng chứa đầy mật ngọt.",
+    "generalReversed": "Sự tan vỡ của những ảo ảnh mờ sương. Bạn thức tỉnh khỏi cơn mộng du, nhìn rõ thực tại trần trụi và đưa ra những quyết định sắc bén. Màn sương mù tan đi, để lại sự tập trung cao độ và nhận thức rõ ràng về những gì thực sự có giá trị."
   },
   {
     "id": 43,
@@ -2684,29 +2768,41 @@ window.TAROT_DB = [
     "aspects": {
       "love": {
         "up": "Chấm dứt một mối quan hệ dù không có lỗi lầm gì, chỉ vì không còn cảm xúc.",
-        "rev": "Sợ ế, sợ cô đơn nên níu kéo một tình yêu nhàm chán."
+        "rev": "Sợ ế, sợ cô đơn nên níu kéo một tình yêu nhàm chán.",
+        "upright": "Một sự buông bỏ cần thiết. Dù còn yêu, nhưng bạn nhận ra mối quan hệ này không còn mang lại sự phát triển hoặc bình yên nội tâm. Một sự ra đi trong im lặng, dằn vặt nhưng kiên quyết để bảo vệ linh hồn.",
+        "reversed": "Bám víu tuyệt vọng vào một cuộc tình đã chết. Nỗi sợ hãi sự cô đơn lấn át lý trí, khiến bạn chấp nhận sống mòn trong một mối quan hệ độc hại, kìm hãm lẫn nhau."
       },
       "career": {
         "up": "Bỏ việc lương cao để đi tìm đam mê thực sự của cuộc đời.",
-        "rev": "Làm việc vật vờ, kiệt quệ nhưng sợ mất nguồn thu."
+        "rev": "Làm việc vật vờ, kiệt quệ nhưng sợ mất nguồn thu.",
+        "upright": "Rời bỏ một công việc ổn định nhưng nhàm chán để đi tìm tiếng gọi thực sự của đam mê. Dù thu nhập giảm sút, sự thỏa mãn tinh thần mới là đích đến vĩ đại mà bạn đang tìm kiếm.",
+        "reversed": "Chịu đựng sự bóc lột hoặc môi trường làm việc ngột ngạt chỉ vì sự an toàn giả tạo. Bạn không dám bước ra khỏi vùng an toàn để tìm kiếm một con đường tốt đẹp hơn."
       },
       "finance": {
         "up": "Từ bỏ lối sống chạy theo vật chất, bằng lòng với sự đơn giản.",
-        "rev": "Từ chối bỏ lỗ, cố bám trụ một khoản đầu tư thất bại."
+        "rev": "Từ chối bỏ lỗ, cố bám trụ một khoản đầu tư thất bại.",
+        "upright": "Sự thức tỉnh rằng tiền bạc không mua được hạnh phúc. Bạn buông bỏ lòng tham vật chất, sẵn sàng chấp nhận một cuộc sống giản dị hơn để đổi lấy sự tĩnh tại tâm hồn.",
+        "reversed": "Sự bám víu mù quáng vào những khoản đầu tư đang thua lỗ trầm trọng vì không dám chấp nhận thất bại. Càng vùng vẫy, bạn càng lún sâu vào khủng hoảng."
       },
       "health": {
         "up": "Từ bỏ những thói quen cũ độc hại, tĩnh tâm.",
-        "rev": "Khước từ việc chữa trị hoặc thay đổi vì tuyệt vọng."
+        "rev": "Khước từ việc chữa trị hoặc thay đổi vì tuyệt vọng.",
+        "upright": "Sự mệt mỏi rã rời của thể xác sau một thời gian dài đấu tranh nội tâm. Cơ thể cần một khoảng thời gian tĩnh lặng, tránh xa những ồn ào để phục hồi sinh khí tận gốc.",
+        "reversed": "Những căn bệnh tâm sinh lý trầm trọng do việc đè nén khát khao giải thoát. Sự kiệt quệ kéo dài khi linh hồn không ngừng vùng vẫy trong ngục tù thể xác."
       },
       "spiritual": {
         "up": "Hành trình tìm kiếm ý nghĩa linh hồn (như một nhà sư).",
-        "rev": "Sợ phải đối diện với sự trống rỗng bên trong mình."
+        "rev": "Sợ phải đối diện với sự trống rỗng bên trong mình.",
+        "upright": "Một sự từ bỏ vĩ đại vì mục đích tu tập. Sự khao khát mãnh liệt thấu hiểu ý nghĩa thực sự của sự tồn tại, bước chân vào hành trình đơn độc tìm kiếm đấng tối cao.",
+        "reversed": "Sự lạc lối thảm hại giữa vòng lặp của sự vô minh. Linh hồn gào thét nhưng bạn lại bịt tai lại, từ chối việc tiến hóa tâm thức vì sợ hãi những nỗi đau phải đối mặt."
       }
     },
     "planet": "Sao Thổ",
     "zodiac": "Song Ngư",
-    "advice": "Nếu nơi hiện tại không còn mang lại bình yên, hãy dũng cảm bước đi tìm kiếm chân lý mới.",
-    "numerology": "Số 8 - Hành động, tốc độ, chuyên cần, sức mạnh."
+    "advice": "Đôi khi, chiến thắng vĩ đại nhất lại bắt nguồn từ sự buông bỏ. Hãy dũng cảm quay lưng lại với những thứ đã lấp lánh nhưng rỗng tuếch, để trái tim dẫn đường trong đêm tối.",
+    "numerology": "Số 8 - Hành động, tốc độ, chuyên cần, sức mạnh.",
+    "generalUpright": "Khoác lên mình chiếc áo choàng đỏ trầm ngâm rời bỏ tám chiếc cốc, Eight of Cups là một cuộc hành hương cô độc của linh hồn để đi tìm sự thật cao cả hơn. Dù vật chất đủ đầy, dù tình cảm tưởng chừng viên mãn, nhưng trái tim vẫn thét gào một khoảng trống vô định. Lá bài đại diện cho sự buông bỏ dũng cảm những điều không còn phục vụ cho sự tiến hóa tâm thức, dấn bước vào bóng đêm vô định.",
+    "generalReversed": "Sự sợ hãi bóng đêm khiến bạn quay đầu lại. Bạn bị mắc kẹt trong một mối quan hệ hoặc hoàn cảnh đã mục nát, cạn kiệt hy vọng chỉ vì sợ hãi sự cô đơn và những điều chưa biết. Sự chối bỏ trực giác giục giã bạn phải ra đi."
   },
   {
     "id": 44,
@@ -2733,29 +2829,41 @@ window.TAROT_DB = [
     "aspects": {
       "love": {
         "up": "Hạnh phúc viên mãn trong tình yêu, mọi mong ước về nửa kia đều thành hiện thực.",
-        "rev": "Ích kỷ trong tình yêu, chỉ nhận mà không muốn cho đi."
+        "rev": "Ích kỷ trong tình yêu, chỉ nhận mà không muốn cho đi.",
+        "upright": "Một tình yêu viên mãn như trong truyện cổ tích. Cảm giác hạnh phúc ngập tràn, thăng hoa trong cảm xúc và thể xác. Sự tự hào vô bờ bến về đối phương và mối quan hệ hiện tại.",
+        "reversed": "Sự ích kỷ, ái kỷ tàn phá tình yêu. Mối quan hệ dựa trên sự hào nhoáng bề ngoài, thiếu vắng sự hy sinh. Khao khát những dục vọng phù phiếm thay vì một tình yêu đích thực."
       },
       "career": {
         "up": "Đạt được đỉnh cao sự nghiệp mong đợi, tự hào về bản thân.",
-        "rev": "Thành công trong công việc nhưng cảm thấy sáo rỗng."
+        "rev": "Thành công trong công việc nhưng cảm thấy sáo rỗng.",
+        "upright": "Đỉnh cao của sự thành đạt mang tính cá nhân. Dự án hoàn thành xuất sắc, mang lại danh tiếng, địa vị và sự tôn trọng tuyệt đối. Một khoảng thời gian vàng son để tận hưởng thành quả.",
+        "reversed": "Sự tự mãn, kiêu ngạo cản trở sự tiến bộ. Dù đạt được thành tựu, nhưng bạn lại cảm thấy hụt hẫng vô nghĩa, hoặc sự thành công này được xây dựng trên sự chà đạp người khác."
       },
       "finance": {
         "up": "Tài lộc dồi dào, tự do tài chính, thoải mái hưởng thụ.",
-        "rev": "Tham lam, tiêu xài lãng phí chỉ để thỏa mãn thói hư vinh."
+        "rev": "Tham lam, tiêu xài lãng phí chỉ để thỏa mãn thói hư vinh.",
+        "upright": "Một sự dư dả, giàu có đáng kinh ngạc. Mọi khoản đầu tư đều sinh lời lớn. Đây là thời điểm để bạn thoải mái nuông chiều bản thân bằng những phần thưởng vật chất xứng đáng.",
+        "reversed": "Sự phung phí vào những món đồ xa xỉ không cần thiết để bù đắp cho sự trống rỗng bên trong. Hoặc sự thất vọng ê chề khi một khoản thu nhập lớn không đến như kỳ vọng."
       },
       "health": {
         "up": "Cơ thể khỏe mạnh cường tráng, tâm lý vô cùng thoải mái.",
-        "rev": "Bệnh tật do ăn uống, nhậu nhẹt quá đà (bệnh nhà giàu)."
+        "rev": "Bệnh tật do ăn uống, nhậu nhẹt quá đà (bệnh nhà giàu).",
+        "upright": "Sức khỏe sung mãn, tâm trạng rạng rỡ và vẻ đẹp tỏa sáng từ sự hạnh phúc nội tâm. Việc tận hưởng cuộc sống (ăn ngon, nghỉ ngơi) mang lại năng lượng tuyệt vời.",
+        "reversed": "Sự suy giảm sức khỏe do lối sống sa đọa, lạm dụng thức ăn, rượu bia hoặc các chất kích thích do quá nuông chiều bản thân. Cơ thể đang kêu cứu vì sự thừa thãi độc hại."
       },
       "spiritual": {
         "up": "Sống trong lòng biết ơn với vũ trụ.",
-        "rev": "Vui sướng giả tạo, che đậy sự thiếu vắng tâm linh."
+        "rev": "Vui sướng giả tạo, che đậy sự thiếu vắng tâm linh.",
+        "upright": "Sự viên mãn tâm linh, cảm giác hợp nhất hoàn hảo với vũ trụ và lòng biết ơn sâu sắc đối với mọi phước lành. Một sự tĩnh tại nội tâm hiếm có.",
+        "reversed": "Sự mù quáng tinh thần. Sử dụng những triết lý tâm linh để biện minh cho lối sống ích kỷ, hoang phí. Một cái tôi ngụy trang dưới vỏ bọc của sự giác ngộ."
       }
     },
     "planet": "Sao Mộc",
     "zodiac": "Song Ngư",
-    "advice": "Tận hưởng sự viên mãn hiện tại, nhưng hãy giữ lòng biết ơn và đừng trở nên tham lam.",
-    "numerology": "Số 9 - Gần hoàn thiện, đỉnh cao cá nhân, độc lập."
+    "advice": "Hãy tận hưởng trọn vẹn sự ngọt ngào của thành quả, nhưng đừng để lòng tham biến bạn thành tù nhân của chiếc cốc vật chất. Hãy lan tỏa sự viên mãn ấy đến những người xung quanh.",
+    "numerology": "Số 9 - Gần hoàn thiện, đỉnh cao cá nhân, độc lập.",
+    "generalUpright": "Vòng tay ôm trước ngực với nụ cười mãn nguyện, Nine of Cups là chiếc cúp vàng chói lọi của sự thỏa mãn tột cùng, niềm tự hào kiêu hãnh và sự viên mãn của những ước nguyện cá nhân. Nó là một bữa tiệc ăn mừng sự dư dả, sự nuông chiều bản thân, khi mọi khao khát vật chất và cảm xúc đều được vũ trụ đáp đền một cách hào phóng nhất.",
+    "generalReversed": "Phía sau bức màn nhung của sự xa hoa là một hố sâu vô hình của lòng tham không đáy và sự rỗng tuếch. Bạn đang sa ngã vào sự ích kỷ, sự tự phụ thái quá hoặc cảm giác bất mãn dai dẳng dù sở hữu tất cả mọi thứ. Những ước mơ thành hiện thực nhưng lại mang theo vị đắng cay của sự hối hận."
   },
   {
     "id": 45,
@@ -2782,29 +2890,41 @@ window.TAROT_DB = [
     "aspects": {
       "love": {
         "up": "Hôn nhân hạnh phúc, một gia đình êm ấm, yêu thương gắn kết vô điều kiện.",
-        "rev": "Ly thân, bạo lực gia đình hoặc các cuộc cãi vã gây tổn thương."
+        "rev": "Ly thân, bạo lực gia đình hoặc các cuộc cãi vã gây tổn thương.",
+        "upright": "Cột mốc viên mãn tột cùng của tình yêu lứa đôi: hôn nhân bền vững, sự ra đời của những đứa trẻ, một gia đình hạnh phúc hoàn hảo. Sự hòa hợp tuyệt đối từ thể xác đến linh hồn.",
+        "reversed": "Những mâu thuẫn gia đình gay gắt, nguy cơ ly hôn hoặc sự can thiệp thô bạo từ họ hàng phá nát hạnh phúc lứa đôi. Trái tim rỉ máu vì mái ấm không còn là nơi để trở về."
       },
       "career": {
         "up": "Môi trường làm việc như một gia đình, chia sẻ và hỗ trợ hết mình.",
-        "rev": "Công ty có lục đục nội bộ, chia bè kết phái đấu đá."
+        "rev": "Công ty có lục đục nội bộ, chia bè kết phái đấu đá.",
+        "upright": "Môi trường làm việc như một đại gia đình thứ hai, nơi sự hỗ trợ, tôn trọng và sẻ chia được đặt lên hàng đầu. Sự cân bằng tuyệt hảo giữa công việc và đời sống cá nhân.",
+        "reversed": "Môi trường công sở độc hại, văn hóa công ty xuống cấp trầm trọng. Mâu thuẫn giữa đồng nghiệp leo thang, hoặc công việc đang vắt kiệt quỹ thời gian dành cho gia đình."
       },
       "finance": {
         "up": "Tài chính cực kỳ ổn định, là nền tảng vững chắc cho gia đình.",
-        "rev": "Tranh chấp tài sản gia đình, nợ nần gây đổ vỡ hạnh phúc."
+        "rev": "Tranh chấp tài sản gia đình, nợ nần gây đổ vỡ hạnh phúc.",
+        "upright": "Sự an toàn tài chính tuyệt đối, đảm bảo một tương lai vững chắc cho gia đình và thế hệ sau. Tài lộc dồi dào là nền tảng chắp cánh cho sự bình yên tổ ấm.",
+        "reversed": "Những khó khăn tài chính đè nặng lên mái ấm gia đình. Tranh chấp tài sản, thừa kế hoặc những mất mát kinh tế gây ra sự bất hòa sâu sắc giữa các thành viên."
       },
       "health": {
         "up": "Sức khỏe cực tốt nhờ được sống trong tình yêu thương, chăm sóc.",
-        "rev": "Bệnh tật phát sinh do môi trường gia đình căng thẳng, u uất."
+        "rev": "Bệnh tật phát sinh do môi trường gia đình căng thẳng, u uất.",
+        "upright": "Sự bình yên trong tâm hồn tỏa ra một nguồn năng lượng chữa lành kỳ diệu. Cơ thể và tâm trí ở trong trạng thái sung mãn nhất nhờ tình yêu thương bao bọc.",
+        "reversed": "Những chấn thương tâm lý gia đình đang đầu độc sức khỏe thể chất. Môi trường sống căng thẳng gây ra các vấn đề về hệ thần kinh và sự suy sụp miễn dịch."
       },
       "spiritual": {
         "up": "Đạt được sự bình yên nội tại, lan tỏa tình thương.",
-        "rev": "Từ chối việc chữa lành vết thương gia đình (inner family healing)."
+        "rev": "Từ chối việc chữa lành vết thương gia đình (inner family healing).",
+        "upright": "Tình yêu thương gia đình trở thành con đường giác ngộ thiêng liêng nhất. Bạn tìm thấy Thượng đế ngay trong ánh mắt của những người thân yêu, hiểu được giá trị của sự kết nối vũ trụ.",
+        "reversed": "Cảm giác bị cắt đứt khỏi dòng chảy yêu thương của cội nguồn. Sự tổn thương từ gia đình khiến linh hồn bạn chối bỏ mọi niềm tin vào sự gắn kết và lòng vị tha."
       }
     },
     "planet": "Sao Hỏa",
     "zodiac": "Song Ngư",
-    "advice": "Trân trọng hạnh phúc gia đình và những người yêu thương bạn vô điều kiện.",
-    "numerology": "Số 10 - Kết thúc chu kỳ, viên mãn hoặc sụp đổ."
+    "advice": "Gia đình và tình yêu thương không phải là đích đến, mà là một phép màu cần được nuôi dưỡng mỗi ngày. Hãy trân trọng và bảo vệ những người yêu thương bạn vô điều kiện.",
+    "numerology": "Số 10 - Kết thúc chu kỳ, viên mãn hoặc sụp đổ.",
+    "generalUpright": "Dưới vòm trời rực rỡ cầu vồng với mười chiếc cốc lấp lánh, Ten of Cups là bản giao hưởng vĩ đại nhất của sự hòa hợp, mái ấm gia đình và niềm hạnh phúc vĩnh cửu. Lá bài là hiện thân của một tình yêu vô điều kiện, nơi những tâm hồn được kết nối sâu sắc, tạo nên một bến đỗ bình yên, tràn ngập phước lành thiêng liêng và sự đồng điệu tâm thức tột bậc.",
+    "generalReversed": "Chiếc cầu vồng tan biến, mái ấm rạn nứt vì những xung đột ngầm. Sự giả tạo che đậy những tổn thương sâu sắc trong gia đình, sự chia ly, phản bội hoặc cảm giác lạc lõng, cô đơn ngay trong chính ngôi nhà của mình. Một sự phá vỡ cấu trúc của những giá trị thiêng liêng nhất."
   },
   {
     "id": 46,
@@ -2833,29 +2953,41 @@ window.TAROT_DB = [
     "aspects": {
       "love": {
         "up": "Một lời tỏ tình dễ thương, một thông điệp tình cảm tươi mới.",
-        "rev": "Người yêu cư xử trẻ con, ghen tuông vớ vẩn."
+        "rev": "Người yêu cư xử trẻ con, ghen tuông vớ vẩn.",
+        "upright": "Một lời tỏ tình lãng mạn bất ngờ, một tin nhắn ngập tràn yêu thương hoặc sự bắt đầu của một tình cảm thuần khiết. Mối quan hệ nhẹ nhàng, chữa lành và đầy tính thơ.",
+        "reversed": "Sự thất vọng vì tình cảm không được đáp lại, hoặc một người quá yếu đuối, bi lụy và phụ thuộc vào đối phương. Tính khí trẻ con, hờn ghen vô cớ đang phá hoại tình yêu."
       },
       "career": {
         "up": "Có cảm hứng nghệ thuật, ý tưởng thiết kế/sáng tạo tuyệt vời.",
-        "rev": "Mơ mộng giữa giờ làm, thiếu kỹ năng thực tế."
+        "rev": "Mơ mộng giữa giờ làm, thiếu kỹ năng thực tế.",
+        "upright": "Một cơ hội tuyệt vời trong lĩnh vực nghệ thuật, sáng tạo hoặc một môi trường làm việc coi trọng cảm xúc con người. Sự nhạy bén giúp bạn đưa ra những ý tưởng độc đáo.",
+        "reversed": "Thiếu sự chuyên nghiệp, làm việc theo cảm hứng thất thường, bỏ dở công việc khi gặp áp lực. Một tin đồn thị phi hoặc sự thiếu hòa đồng đang cô lập bạn tại công sở."
       },
       "finance": {
         "up": "Một tin tức tài chính nhỏ bé nhưng làm bạn vui vẻ.",
-        "rev": "Ném tiền vào những thú vui không đâu vào đâu."
+        "rev": "Ném tiền vào những thú vui không đâu vào đâu.",
+        "upright": "Những quyết định tài chính dựa trên trực giác mang lại kết quả khả quan. Nhận được một món quà vật chất nhỏ mang ý nghĩa tinh thần lớn lao.",
+        "reversed": "Chi tiêu bốc đồng để bù đắp cho sự trống rỗng cảm xúc. Sự thiếu thực tế và tính toán sơ sài khiến bạn dễ bị lừa gạt trong các quyết định tiền bạc."
       },
       "health": {
         "up": "Năng lượng nhẹ nhàng, rất tốt để học cách yêu thương bản thân.",
-        "rev": "Tâm lý nhạy cảm quá mức, buồn rầu không rõ lý do."
+        "rev": "Tâm lý nhạy cảm quá mức, buồn rầu không rõ lý do.",
+        "upright": "Sự nhẹ nhõm về tâm lý mang lại một cơ thể linh hoạt, tràn trề sinh khí non trẻ. Thời điểm tuyệt vời cho các phương pháp trị liệu bằng nghệ thuật, âm nhạc.",
+        "reversed": "Sự nhạy cảm thái quá dẫn đến trầm cảm nhẹ, rối loạn cảm xúc hoặc những căn bệnh liên quan đến hệ thống tuyến giáp, thần kinh do không biết cách tự giải tỏa."
       },
       "spiritual": {
         "up": "Bắt đầu khám phá trực giác, giải mã giấc mơ.",
-        "rev": "Phớt lờ các thông điệp trực giác vì nghĩ nó là sự trùng hợp."
+        "rev": "Phớt lờ các thông điệp trực giác vì nghĩ nó là sự trùng hợp.",
+        "upright": "Trực giác hoạt động nhạy bén lạ thường. Những giấc mơ tiên tri, thông điệp tâm linh đến thông qua sự đồng cảm sâu sắc. Bạn dễ dàng kết nối với năng lượng thanh khiết.",
+        "reversed": "Ảo tưởng tâm linh, tự lừa dối bản thân. Bạn đóng cửa linh hồn, chối bỏ trực giác thực sự vì sợ hãi những thông điệp mà tiềm thức đang cố gắng truyền đạt."
       }
     },
     "planet": "Mặt Trăng",
     "zodiac": "Cự Giải, Bọ Cạp, Song Ngư",
-    "advice": "Hãy lắng nghe tiếng nói của trực giác và đừng ngại thể hiện sự lãng mạn, ngây thơ.",
-    "numerology": "Cấp Tiểu Đồng (Page) - Trẻ trung, học hỏi, tin tức, tò mò."
+    "advice": "Hãy mở rộng tâm hồn đón nhận sự đồng cảm và lòng tò mò ngây thơ. Đừng để vỏ bọc cứng nhắc của sự trưởng thành bóp nghẹt đứa trẻ mộng mơ bên trong bạn.",
+    "numerology": "Cấp Tiểu Đồng (Page) - Trẻ trung, học hỏi, tin tức, tò mò.",
+    "generalUpright": "Với chiếc cốc và chú cá nhỏ ngoi lên từ cõi vô thức, Page of Cups là sứ giả của sự mơ mộng, trí tưởng tượng bay bổng và những thông điệp ngây thơ đầy tính đồng cảm. Lá bài là một khởi đầu dịu dàng, những cảm xúc tinh khôi, sự đánh thức trực giác nghệ thuật và một trái tim luôn rộng mở để đón nhận những bất ngờ ngọt ngào từ vũ trụ.",
+    "generalReversed": "Sự ngây thơ biến thành sự mong manh quá mức, nhạy cảm bệnh lý và kìm nén cảm xúc. Một đứa trẻ hờn dỗi bên trong đang phản ứng lại thế giới bằng sự thu mình, ảo tưởng trốn tránh thực tại hoặc những cơn bùng nổ cảm xúc thiếu kiểm soát, vô lý."
   },
   {
     "id": 47,
@@ -2884,29 +3016,41 @@ window.TAROT_DB = [
     "aspects": {
       "love": {
         "up": "Một tình yêu lãng mạn như truyện cổ tích. Lời cầu hôn hoặc tỏ tình chân thành.",
-        "rev": "Lừa tình, một kẻ đào hoa chỉ muốn chinh phục rồi bỏ chạy."
+        "rev": "Lừa tình, một kẻ đào hoa chỉ muốn chinh phục rồi bỏ chạy.",
+        "upright": "Một mối tình lãng mạn như trong phim ập đến. Đối phương là người lãng mạn, tinh tế, luôn biết cách chiều chuộng cảm xúc của bạn. Một sự kết nối sâu sắc, nên thơ và đắm say.",
+        "reversed": "Một kẻ đào hoa, đa tình nhưng thiếu cam kết, dễ dàng thay lòng đổi dạ. Cẩn thận với những lời hứa trăng hoa, sự ghen tuông độc hại hoặc những bi kịch cảm xúc bị thổi phồng."
       },
       "career": {
         "up": "Công việc liên quan đến nghệ thuật, ngoại giao, hòa giải. Một đề nghị làm việc hấp dẫn.",
-        "rev": "Nghĩ ra các ý tưởng hoang đường nhưng không thể thực thi."
+        "rev": "Nghĩ ra các ý tưởng hoang đường nhưng không thể thực thi.",
+        "upright": "Thành công nhờ khả năng ngoại giao, thấu cảm và sự duyên dáng. Phù hợp với các ngành nghề đàm phán, nghệ thuật, tư vấn tâm lý. Một môi trường làm việc đầy cảm hứng.",
+        "reversed": "Sự mơ mộng hão huyền, thiếu thực tế trong công việc dẫn đến những thất bại ê chề. Xung đột tại nơi làm việc do tâm trạng thất thường và không giữ lời hứa."
       },
       "finance": {
         "up": "Tiền bạc kiếm được từ nghệ thuật hoặc những giao dịch ngoại giao.",
-        "rev": "Vung tiền không tiếc tay để mua vui hoặc làm vừa lòng người khác."
+        "rev": "Vung tiền không tiếc tay để mua vui hoặc làm vừa lòng người khác.",
+        "upright": "Sự khôn khéo trong giao tiếp mang lại những thỏa thuận tài chính thuận lợi. Sự nhạy bén với các dự án nghệ thuật hoặc nhân đạo sẽ đem lại lợi ích không ngờ.",
+        "reversed": "Sự lừa dối trong các giao dịch tài chính. Hãy cẩn thận với những kẻ mồm mép tép nhảy, vẽ ra những viễn cảnh đầu tư huy hoàng nhưng rỗng tuếch bên trong."
       },
       "health": {
         "up": "Cảm xúc thăng hoa mang lại sức khỏe tốt.",
-        "rev": "Rối loạn cảm xúc, các bệnh liên quan đến hệ sinh dục hoặc thận."
+        "rev": "Rối loạn cảm xúc, các bệnh liên quan đến hệ sinh dục hoặc thận.",
+        "upright": "Sức khỏe đang hồi phục tốt nhờ sự tĩnh tâm và các phương pháp thư giãn tinh thần. Cơ thể linh hoạt, uyển chuyển theo dòng chảy năng lượng tích cực.",
+        "reversed": "Sự sa đọa vào rượu chè, các chất gây nghiện để trốn tránh nỗi đau thực tại. Sự kiệt quệ sinh lực do tâm lý u sầu, bi lụy vắt kiệt."
       },
       "spiritual": {
         "up": "Hành động theo tiếng gọi của con tim, tìm kiếm cái đẹp.",
-        "rev": "Mù quáng, dễ bị dụ dỗ bởi các giáo phái."
+        "rev": "Mù quáng, dễ bị dụ dỗ bởi các giáo phái.",
+        "upright": "Một người dẫn đường tâm linh đầy lòng trắc ẩn. Bạn đang dấn thân vào một cuộc hành trình nội tâm sâu sắc, dẫn dắt bởi sự thấu cảm và tình yêu vô lượng.",
+        "reversed": "Sự lạc lối vào những giáo phái hoặc niềm tin thao túng tâm lý. Sự mù quáng trước vẻ bề ngoài đạo mạo mà quên mất sự tỉnh táo của lý trí."
       }
     },
     "planet": "Sao Hải Vương",
     "zodiac": "Song Ngư",
-    "advice": "Đi theo tiếng gọi của con tim, nhưng nhớ giữ đôi chân trên mặt đất thực tế.",
-    "numerology": "Cấp Kỵ Sĩ (Knight) - Năng lượng, di chuyển, theo đuổi mục tiêu."
+    "advice": "Hãy lắng nghe tiếng gọi của trái tim và theo đuổi giấc mơ bằng sự chân thành, nhưng đừng quên mang theo một thanh gươm lý trí để bảo vệ linh hồn khỏi sự mù quáng.",
+    "numerology": "Cấp Kỵ Sĩ (Knight) - Năng lượng, di chuyển, theo đuổi mục tiêu.",
+    "generalUpright": "Cưỡi trên lưng bạch mã bước đi khoan thai, Knight of Cups là chàng hiệp sĩ của chủ nghĩa lãng mạn, sự tinh tế, lòng nhân ái và trực giác sâu sắc. Chàng mang theo chiếc cốc của những khao khát lý tưởng, theo đuổi những giấc mơ bằng cả trái tim và lan tỏa sự ấm áp, quyến rũ chết người đến bất cứ nơi nào chàng đi qua.",
+    "generalReversed": "Chủ nghĩa lãng mạn sụp đổ thành sự bi lụy, trăng hoa và thao túng cảm xúc. Mặt tối của chàng hiệp sĩ phơi bày sự thiếu thực tế, hứa hẹn viển vông, ghen tuông bệnh hoạn và xu hướng lạm dụng sự đồng cảm để lợi dụng tình cảm của người khác vì lợi ích cá nhân."
   },
   {
     "id": 48,
@@ -2934,29 +3078,41 @@ window.TAROT_DB = [
     "aspects": {
       "love": {
         "up": "Sự bao dung, chia sẻ sâu sắc. Bạn là bến đỗ bình yên cho người ấy.",
-        "rev": "Lụy tình, ghen tuông mù quáng, lúc nào cũng đóng vai nạn nhân."
+        "rev": "Lụy tình, ghen tuông mù quáng, lúc nào cũng đóng vai nạn nhân.",
+        "upright": "Một tình yêu thiêng liêng, vị tha và sâu sắc đến mức tâm giao. Người phụ nữ trong mối quan hệ này bao dung, thấu cảm và luôn là bến đỗ bình yên cho đối phương.",
+        "reversed": "Sự thao túng tinh vi bằng cảm giác tội lỗi. Tính bi lụy, bám víu và sự thiếu an toàn tột độ khiến mối quan hệ trở nên ngột ngạt. Tình yêu biến thành sự trói buộc nghẹt thở."
       },
       "career": {
         "up": "Làm việc tốt trong lĩnh vực chăm sóc y tế, tham vấn tâm lý, nghệ thuật.",
-        "rev": "Để tình cảm xen vào công việc, giải quyết vấn đề bằng cảm tính."
+        "rev": "Để tình cảm xen vào công việc, giải quyết vấn đề bằng cảm tính.",
+        "upright": "Một nhà lãnh đạo đầy lòng trắc ẩn, thấu hiểu nhân viên. Khả năng giải quyết mâu thuẫn khéo léo và trực giác xuất sắc giúp bạn vượt qua những khó khăn công sở một cách êm ái.",
+        "reversed": "Sự thiếu ranh giới trong công việc dẫn đến kiệt sức vì ôm đồm cảm xúc của người khác. Sự thiên vị dựa trên tình cảm cá nhân gây ra bất mãn nội bộ."
       },
       "finance": {
         "up": "Tài chính bình ổn. Bạn thích dùng tiền chăm lo cho gia đình hơn là tích lũy.",
-        "rev": "Hy sinh tài sản của mình cho một kẻ lợi dụng tình cảm."
+        "rev": "Hy sinh tài sản của mình cho một kẻ lợi dụng tình cảm.",
+        "upright": "Sự ổn định tài chính đạt được nhờ sự tĩnh tâm, không tham lam bốc đồng. Khả năng thấu cảm giúp bạn thu hút được những đối tác tài chính trung thành, tử tế.",
+        "reversed": "Sự nhẹ dạ cả tin khiến bạn dễ dàng bị lợi dụng lòng tốt trong các vấn đề vay mượn. Những quyết định tiền bạc mù quáng do bị chi phối bởi tình cảm."
       },
       "health": {
         "up": "Cần chú ý thư giãn tinh thần, sức khỏe rất tốt nếu tâm trạng tốt.",
-        "rev": "Sức khỏe suy sụp hoàn toàn vì những cú sốc tình cảm."
+        "rev": "Sức khỏe suy sụp hoàn toàn vì những cú sốc tình cảm.",
+        "upright": "Sức khỏe tinh thần tuyệt hảo, tỏa ra năng lượng chữa lành mạnh mẽ cho chính mình và người xung quanh. Sự kết nối sâu sắc giữa thân và tâm.",
+        "reversed": "Sự kiệt quệ trầm trọng, hội chứng 'burnout' của những người chăm sóc (khi cho đi quá nhiều mà quên mất bản thân). Những căn bệnh nội khoa liên quan đến sự kìm nén uất ức kéo dài."
       },
       "spiritual": {
         "up": "Trực giác sắc bén như nhà ngoại cảm, kết nối thần giao cách cảm.",
-        "rev": "Bị năng lượng tiêu cực của người khác hút cạn (empath burnout)."
+        "rev": "Bị năng lượng tiêu cực của người khác hút cạn (empath burnout).",
+        "upright": "Một vị nữ tu thực sự của linh hồn. Khả năng kết nối tâm linh, thấu thị và truyền đạt thông điệp của vũ trụ thông qua những giấc mơ và trực giác vô ngần.",
+        "reversed": "Sự chìm đắm vào tà thuật, hoặc ảo tưởng sức mạnh tâm linh để thao túng người khác. Lạc lối trong cõi âm, mất đi sự kết nối với ánh sáng của lòng trắc ẩn thuần khiết."
       }
     },
     "planet": "Mặt Trăng",
     "zodiac": "Cự Giải",
-    "advice": "Yêu thương người khác là tốt, nhưng đừng quên yêu thương và thiết lập ranh giới cho chính mình.",
-    "numerology": "Cấp Nữ Hoàng (Queen) - Trưởng thành, nuôi dưỡng, làm chủ nội tâm."
+    "advice": "Trực giác là tài sản quý giá nhất của bạn, nhưng hãy bảo vệ ranh giới cảm xúc của chính mình. Bạn không thể rót nước cho người khác từ một chiếc cốc rỗng.",
+    "numerology": "Cấp Nữ Hoàng (Queen) - Trưởng thành, nuôi dưỡng, làm chủ nội tâm.",
+    "generalUpright": "Ngự trên ngai vàng với chiếc cốc đóng kín, Queen of Cups là bậc thầy của thế giới nội tâm, hiện thân của sự cảm thông sâu sắc, sự chữa lành thiêng liêng và trí tuệ trực giác tối cao. Nàng như một đại dương bao la, tĩnh lặng trên bề mặt nhưng ẩn chứa những dòng chảy cảm xúc mãnh liệt, thấu hiểu mọi nỗi đau và tỏa ra năng lượng an ủi vô bờ.",
+    "generalReversed": "Đại dương tĩnh lặng hóa thành cơn bão ngầm của sự phụ thuộc cảm xúc, sự oán giận bị đè nén và tính khí thất thường. Nàng trở nên thao túng, đóng vai nạn nhân, dùng sự thấu hiểu như một vũ khí để kiểm soát người khác, hoặc hoàn toàn chìm đắm trong sự nhạy cảm tuyệt vọng."
   },
   {
     "id": 49,
@@ -2984,29 +3140,41 @@ window.TAROT_DB = [
     "aspects": {
       "love": {
         "up": "Một người chồng/đối tác trưởng thành, vững chãi, luôn biết cách lắng nghe và vỗ về.",
-        "rev": "Mối quan hệ đầy dối trá, thao túng tâm lý (gaslighting), ghen tuông ngầm."
+        "rev": "Mối quan hệ đầy dối trá, thao túng tâm lý (gaslighting), ghen tuông ngầm.",
+        "upright": "Một trụ cột vững chắc, ấm áp và trưởng thành trong tình yêu. Mối quan hệ an toàn tuyệt đối, nơi những chia sẻ thầm kín nhất được thấu hiểu, tôn trọng và bảo vệ vô điều kiện.",
+        "reversed": "Sự bạo hành tinh thần ngấm ngầm, sự lạnh nhạt đến tàn nhẫn hoặc thái độ kiểm soát, thao túng cảm xúc của đối phương. Một tình yêu độc hại, ngột ngạt và đầy tính toán."
       },
       "career": {
         "up": "Lãnh đạo bằng sự thấu hiểu, công tâm và khôn khéo.",
-        "rev": "Sếp sử dụng thủ đoạn tâm lý để chèn ép nhân viên."
+        "rev": "Sếp sử dụng thủ đoạn tâm lý để chèn ép nhân viên.",
+        "upright": "Một nhà lãnh đạo xuất chúng, ngoại giao tài tình, luôn giữ được cái đầu lạnh nhưng trái tim ấm áp trước mọi khủng hoảng. Tạo ra sự cân bằng và hòa bình trong môi trường làm việc.",
+        "reversed": "Sử dụng sự thông minh cảm xúc để lừa lọc, chèn ép đồng nghiệp. Sự bất công trong quản lý, nơi những quyết định được đưa ra dựa trên sự thù hằn cá nhân bị che giấu kỹ lưỡng."
       },
       "finance": {
         "up": "Quyết định đầu tư sáng suốt, không bị cảm xúc chi phối (không fomo).",
-        "rev": "Lợi dụng niềm tin của người khác để kiếm tiền bất chính."
+        "rev": "Lợi dụng niềm tin của người khác để kiếm tiền bất chính.",
+        "upright": "Quyết định đầu tư sáng suốt, không bị lay động bởi những biến động hoảng loạn của thị trường. Sự vững vàng và khôn ngoan mang lại khối tài sản bền vững.",
+        "reversed": "Những sai lầm tài chính do sự cố chấp hoặc bị cảm xúc tiêu cực che mờ lý trí. Có nguy cơ bị lừa đảo bởi những kẻ mang vỏ bọc đạo mạo, đáng tin cậy."
       },
       "health": {
         "up": "Sức khỏe cực kỳ ổn định nhờ một cái đầu lạnh và tâm lý vững.",
-        "rev": "Dùng rượu bia, chất kích thích để đè nén nỗi đau."
+        "rev": "Dùng rượu bia, chất kích thích để đè nén nỗi đau.",
+        "upright": "Sức khỏe ổn định nhờ khả năng quản lý stress tuyệt vời. Một hệ thần kinh vững vàng, không bị tác động bởi những áp lực từ môi trường xung quanh.",
+        "reversed": "Nguy cơ mắc các bệnh về huyết áp, tim mạch hoặc các chứng nghiện ngập (rượu, thuốc) do cố gắng đè nén những giông bão nội tâm quá mức."
       },
       "spiritual": {
         "up": "Bậc thầy về trí tuệ cảm xúc (EQ) và tâm linh.",
-        "rev": "Dùng thần quyền hoặc tâm linh để thao túng đám đông."
+        "rev": "Dùng thần quyền hoặc tâm linh để thao túng đám đông.",
+        "upright": "Một bậc đạo sư thấu hiểu mọi hỷ nộ ái ố của nhân sinh. Sự bình thản, tĩnh lặng nội tâm giúp ông trở thành điểm tựa tâm linh vĩ đại cho những linh hồn lạc lối.",
+        "reversed": "Một kẻ đạo đức giả, lạm dụng niềm tin tôn giáo để thao túng đám đông. Một linh hồn kiêu ngạo, đóng kín cửa với sự chân thật và lòng từ bi thực sự."
       }
     },
     "planet": "Sao Diêm Vương",
     "zodiac": "Bọ Cạp",
-    "advice": "Sự điềm tĩnh và thấu cảm là vũ khí mạnh nhất của bạn. Đừng để cảm xúc điều khiển hành động.",
-    "numerology": "Cấp Vua (King) - Lãnh đạo, quyền lực, kiểm soát bên ngoài."
+    "advice": "Hãy đối diện với những giông bão nội tâm bằng sự tĩnh lặng và bao dung. Sức mạnh vĩ đại nhất không nằm ở việc triệt tiêu cảm xúc, mà ở việc trở thành người thuyền trưởng kiên cường lèo lái nó.",
+    "numerology": "Cấp Vua (King) - Lãnh đạo, quyền lực, kiểm soát bên ngoài.",
+    "generalUpright": "Uy nghi trên ngai vàng trôi nổi trên vùng biển động, King of Cups là biểu tượng vĩ đại của sự tự chủ cảm xúc, sự điềm tĩnh phi thường và trí tuệ cảm xúc uyên thâm. Ông không kìm nén dòng chảy nội tâm mà làm chủ nó, biến những giông bão cảm xúc thành một nguồn sức mạnh bao dung, khôn ngoan và sự thấu cảm sâu sắc, dẫn dắt vương quốc của mình bằng tình yêu thương và sự tĩnh tại.",
+    "generalReversed": "Sự tự chủ sụp đổ, để lộ ra một bạo chúa cảm xúc. Mặt tối của ông là sự lạnh lùng tàn nhẫn tột độ che đậy cho một nội tâm giông bão, sự thao túng tâm lý lão luyện, hoặc kìm nén cảm xúc đến mức trở nên độc hại, gieo rắc sự sợ hãi thay vì lòng kính trọng."
   },
   {
     "id": 50,
