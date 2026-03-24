@@ -1,4 +1,4 @@
-// js/data.js - Fixed Court Cards Planets
+// js/data.js - Fixed all 'Không có' Zodiacs
 (function () {
   window.TAROT_DB = [
   {
@@ -548,7 +548,7 @@
     "arcana": "major",
     "image": "cards/10-Wheel-of-Fortune.jpg",
     "planet": "Sao Mộc",
-    "zodiac": "Không có",
+    "zodiac": "Nhân Mã, Song Ngư",
     "element": "Lửa",
     "keywords": [
       "Định mệnh",
@@ -656,7 +656,7 @@
     "arcana": "major",
     "image": "cards/12-The-Hanged-Man.jpg",
     "planet": "Sao Hải Vương",
-    "zodiac": "Không có",
+    "zodiac": "Song Ngư",
     "element": "Nước",
     "keywords": [
       "Hy sinh",
@@ -874,7 +874,7 @@
     "arcana": "major",
     "image": "cards/16-The-Tower.jpg",
     "planet": "Sao Hỏa",
-    "zodiac": "Không có",
+    "zodiac": "Bạch Dương, Bọ Cạp",
     "element": "Lửa",
     "keywords": [
       "Sự phá hủy",
@@ -1092,7 +1092,7 @@
     "arcana": "major",
     "image": "cards/20-Judgement.jpg",
     "planet": "Sao Diêm Vương",
-    "zodiac": "Không có",
+    "zodiac": "Bọ Cạp",
     "element": "Lửa",
     "keywords": [
       "Sự tái sinh",
@@ -1147,7 +1147,7 @@
     "arcana": "major",
     "image": "cards/21-The-World.jpg",
     "planet": "Sao Thổ",
-    "zodiac": "Không có",
+    "zodiac": "Ma Kết, Bảo Bình",
     "element": "Đất",
     "keywords": [
       "Hoàn thành",
