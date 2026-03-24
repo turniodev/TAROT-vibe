@@ -50,7 +50,8 @@
       }
     },
     "advice": "Hãy dũng cảm bước đi, nhưng đừng quên nhìn xuống đường. Tự do phải đi kèm với sự chuẩn bị tâm lý.",
-    "numerology": "0 - Tiềm năng nguyên thủy, tính không, vô hạn."
+    "numerology": "0 - Tiềm năng nguyên thủy, tính không, vô hạn.",
+    "suit": null
   },
   {
     "id": 1,
@@ -102,7 +103,8 @@
       }
     },
     "advice": "Tất cả các nguồn lực bạn cần đều đã sẵn sàng. Hãy tập trung ý chí và hành động để biến ý tưởng thành hiện thực.",
-    "numerology": "1 - Bắt đầu, ý chí khởi nguyên, cá thể độc lập."
+    "numerology": "1 - Bắt đầu, ý chí khởi nguyên, cá thể độc lập.",
+    "suit": null
   },
   {
     "id": 2,
@@ -154,7 +156,8 @@
       }
     },
     "advice": "Đừng vội vàng hành động. Hãy kiên nhẫn, tĩnh lặng và tin tưởng hoàn toàn vào trực giác của bạn.",
-    "numerology": "2 - Sự nhị nguyên, cân bằng, tính nữ sâu sắc."
+    "numerology": "2 - Sự nhị nguyên, cân bằng, tính nữ sâu sắc.",
+    "suit": null
   },
   {
     "id": 3,
@@ -207,7 +210,8 @@
       }
     },
     "advice": "Hãy yêu thương bản thân, nuôi dưỡng các mối quan hệ và đón nhận sự phong phú mà vũ trụ ban tặng.",
-    "numerology": "3 - Sự sáng tạo, sinh sôi, phát triển mạnh mẽ."
+    "numerology": "3 - Sự sáng tạo, sinh sôi, phát triển mạnh mẽ.",
+    "suit": null
   },
   {
     "id": 4,
@@ -260,7 +264,8 @@
       }
     },
     "advice": "Đã đến lúc dùng lý trí thay cho cảm xúc. Thiết lập quy tắc, giữ kỷ luật và bảo vệ những gì bạn đã tạo ra.",
-    "numerology": "4 - Nền tảng vững chắc, trật tự, vật chất, sự an toàn."
+    "numerology": "4 - Nền tảng vững chắc, trật tự, vật chất, sự an toàn.",
+    "suit": null
   },
   {
     "id": 5,
@@ -313,7 +318,8 @@
       }
     },
     "advice": "Nếu đang gặp bế tắc, hãy tìm đến sự thông thái từ những người đi trước hoặc bám sát vào các nguyên tắc đã được kiểm chứng.",
-    "numerology": "5 - Sự thay đổi, kết nối, các giác quan và sự giảng dạy."
+    "numerology": "5 - Sự thay đổi, kết nối, các giác quan và sự giảng dạy.",
+    "suit": null
   },
   {
     "id": 6,
@@ -365,7 +371,8 @@
       }
     },
     "advice": "Dù trong tình cảm hay công việc, hãy đưa ra sự lựa chọn xuất phát từ sự trung thực và trái tim của bạn. Sự hòa hợp chỉ đến khi các giá trị cá nhân được tôn trọng.",
-    "numerology": "6 - Tình yêu, cân bằng, sắc đẹp, trách nhiệm."
+    "numerology": "6 - Tình yêu, cân bằng, sắc đẹp, trách nhiệm.",
+    "suit": null
   },
   {
     "id": 7,
@@ -419,7 +426,8 @@
       }
     },
     "advice": "Đừng để các thế lực bên ngoài hay cảm xúc cá nhân điều khiển bạn. Hãy cầm chắc dây cương, tập trung vào mục tiêu và tiến tới.",
-    "numerology": "7 - Sự phát triển, thử thách, bí ẩn và trí tuệ."
+    "numerology": "7 - Sự phát triển, thử thách, bí ẩn và trí tuệ.",
+    "suit": null
   },
   {
     "id": 8,
@@ -473,7 +481,8 @@
       }
     },
     "advice": "Dùng tình yêu thương, lòng bao dung và sự kiên nhẫn để đối mặt với khó khăn. Vũ lực không bao giờ là giải pháp cho lá bài này.",
-    "numerology": "8 - Sức mạnh, quyền lực, vòng tuần hoàn của nghiệp (Karma)."
+    "numerology": "8 - Sức mạnh, quyền lực, vòng tuần hoàn của nghiệp (Karma).",
+    "suit": null
   },
   {
     "id": 9,
@@ -526,7 +535,8 @@
       }
     },
     "advice": "Im lặng là vàng. Đừng vội vàng ra quyết định; câu trả lời bạn đang tìm kiếm nằm ngay bên trong bạn.",
-    "numerology": "9 - Sự hoàn thiện nội tâm, kết thúc chu kỳ, trí tuệ sâu sắc."
+    "numerology": "9 - Sự hoàn thiện nội tâm, kết thúc chu kỳ, trí tuệ sâu sắc.",
+    "suit": null
   },
   {
     "id": 10,
@@ -579,7 +589,8 @@
       }
     },
     "advice": "Hãy chấp nhận sự thay đổi của hoàn cảnh với thái độ lạc quan. Hãy làm việc tốt (gieo nhân tốt) để chuẩn bị cho vòng quay vận mệnh tiếp theo.",
-    "numerology": "10 - Kết thúc và bắt đầu, bước ngoặt, sự hoàn hảo."
+    "numerology": "10 - Kết thúc và bắt đầu, bước ngoặt, sự hoàn hảo.",
+    "suit": null
   },
   {
     "id": 11,
@@ -632,7 +643,8 @@
       }
     },
     "advice": "Sự thật luôn chiến thắng. Hãy đối mặt với mọi việc bằng sự trung thực và đừng cố gắng bẻ cong luật lệ.",
-    "numerology": "11 - Sự công bằng, lý trí, pháp luật và nhân quả."
+    "numerology": "11 - Sự công bằng, lý trí, pháp luật và nhân quả.",
+    "suit": null
   },
   {
     "id": 12,
@@ -685,7 +697,8 @@
       }
     },
     "advice": "Đừng cố bơi ngược dòng lúc này. Buông bỏ sự cố chấp, thay đổi góc nhìn và bạn sẽ tìm thấy câu trả lời.",
-    "numerology": "12 - Sự hoàn tất chu kỳ, tầm nhìn mới, sự đảo ngược."
+    "numerology": "12 - Sự hoàn tất chu kỳ, tầm nhìn mới, sự đảo ngược.",
+    "suit": null
   },
   {
     "id": 13,
@@ -739,7 +752,8 @@
       }
     },
     "advice": "Giống như con rắn lột xác, bạn phải dứt bỏ những thứ cũ kỹ không còn phục vụ cho sự phát triển của mình. Hãy dũng cảm buông tay.",
-    "numerology": "13 - Sự biến đổi sâu sắc, phá hủy và tái sinh."
+    "numerology": "13 - Sự biến đổi sâu sắc, phá hủy và tái sinh.",
+    "suit": null
   },
   {
     "id": 14,
@@ -793,7 +807,8 @@
       }
     },
     "advice": "Sự ôn hòa và điều độ là chìa khóa của hạnh phúc lâu dài. Hãy tránh xa mọi sự cực đoan và giữ cho tâm trí cân bằng.",
-    "numerology": "14 - Sự chuyển tiếp, hòa hợp, thay đổi nhịp độ."
+    "numerology": "14 - Sự chuyển tiếp, hòa hợp, thay đổi nhịp độ.",
+    "suit": null
   },
   {
     "id": 15,
@@ -846,7 +861,8 @@
       }
     },
     "advice": "Sự trói buộc lớn nhất là sự trói buộc do chính bạn tạo ra trong tâm trí. Hãy dũng cảm nhìn thẳng vào phần tối và tự tháo xiềng xích cho mình.",
-    "numerology": "15 - Cám dỗ, bài học nghiệp quả từ vật chất."
+    "numerology": "15 - Cám dỗ, bài học nghiệp quả từ vật chất.",
+    "suit": null
   },
   {
     "id": 16,
@@ -899,7 +915,8 @@
       }
     },
     "advice": "Đừng cố giữ lại tòa tháp đang bốc cháy. Hãy nhảy ra, chấp nhận sự mất mát và bắt đầu dọn dẹp đống đổ nát để xây dựng lại.",
-    "numerology": "16 - Sự tái sinh từ đống tro tàn, ánh sáng chớp nhoáng (sự thức tỉnh)."
+    "numerology": "16 - Sự tái sinh từ đống tro tàn, ánh sáng chớp nhoáng (sự thức tỉnh).",
+    "suit": null
   },
   {
     "id": 17,
@@ -953,7 +970,8 @@
       }
     },
     "advice": "Hãy trút bỏ lớp vỏ bọc bên ngoài. Lạc quan lên, tiếp tục hy vọng và đón nhận nguồn cảm hứng chữa lành mà vũ trụ gửi đến.",
-    "numerology": "17 - Sự chữa lành, tái tạo, trực giác và ánh sáng."
+    "numerology": "17 - Sự chữa lành, tái tạo, trực giác và ánh sáng.",
+    "suit": null
   },
   {
     "id": 18,
@@ -1006,7 +1024,8 @@
       }
     },
     "advice": "Dưới ánh trăng mờ ảo, đừng để nỗi sợ hãi đánh lừa bạn. Hãy bình tĩnh, lắng nghe trực giác và chờ đợi cho đến khi sự thật lộ sáng.",
-    "numerology": "18 - Giấc mơ, ảo ảnh, bóng tối."
+    "numerology": "18 - Giấc mơ, ảo ảnh, bóng tối.",
+    "suit": null
   },
   {
     "id": 19,
@@ -1060,7 +1079,8 @@
       }
     },
     "advice": "Hãy tận hưởng niềm vui và lan tỏa sự rực rỡ của mình cho mọi người. Bạn xứng đáng với những gì tốt đẹp nhất lúc này.",
-    "numerology": "19 - Ánh sáng, năng lượng Dương, sự hoàn mỹ."
+    "numerology": "19 - Ánh sáng, năng lượng Dương, sự hoàn mỹ.",
+    "suit": null
   },
   {
     "id": 20,
@@ -1114,7 +1134,8 @@
       }
     },
     "advice": "Hãy thành thật đối diện với chính mình. Lắng nghe tiếng gọi nội tâm, tha thứ cho quá khứ và dũng cảm đón nhận sự tái sinh.",
-    "numerology": "20 - Sự thức tỉnh, chuyển tiếp không gian tâm linh, đánh giá."
+    "numerology": "20 - Sự thức tỉnh, chuyển tiếp không gian tâm linh, đánh giá.",
+    "suit": null
   },
   {
     "id": 21,
@@ -1168,12 +1189,13 @@
       }
     },
     "advice": "Hãy tự hào về hành trình bạn đã vượt qua. Tận hưởng thành quả, và chuẩn bị sẵn sàng bước sang một chương mới của cuộc đời.",
-    "numerology": "21 - Sự viên mãn, hoàn hảo, vòng tròn sự sống kết nối."
+    "numerology": "21 - Sự viên mãn, hoàn hảo, vòng tròn sự sống kết nối.",
+    "suit": null
   },
   {
     "id": 22,
     "name": "Ace of Wands",
-    "nameVi": "Ace of Wands (Một Gậy)",
+    "nameVi": "Một Gậy",
     "number": "1",
     "arcana": "minor",
     "suit": "wands",
@@ -1213,12 +1235,16 @@
         "up": "Thức tỉnh đam mê tâm linh.",
         "rev": "Mất kết nối với mục đích sống."
       }
-    }
+    },
+    "planet": "",
+    "zodiac": "",
+    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
+    "numerology": ""
   },
   {
     "id": 23,
     "name": "Two of Wands",
-    "nameVi": "Two of Wands (Hai Gậy)",
+    "nameVi": "Hai Gậy",
     "number": "2",
     "arcana": "minor",
     "suit": "wands",
@@ -1258,12 +1284,16 @@
         "up": "Khám phá những triết lý mới.",
         "rev": "Sợ mở rộng thế giới quan."
       }
-    }
+    },
+    "planet": "",
+    "zodiac": "",
+    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
+    "numerology": ""
   },
   {
     "id": 24,
     "name": "Three of Wands",
-    "nameVi": "Three of Wands (Ba Gậy)",
+    "nameVi": "Ba Gậy",
     "number": "3",
     "arcana": "minor",
     "suit": "wands",
@@ -1303,12 +1333,16 @@
         "up": "Tầm nhìn tâm linh được mở rộng.",
         "rev": "Thất vọng vì chưa đạt được giác ngộ như mong muốn."
       }
-    }
+    },
+    "planet": "",
+    "zodiac": "",
+    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
+    "numerology": ""
   },
   {
     "id": 25,
     "name": "Four of Wands",
-    "nameVi": "Four of Wands (Bốn Gậy)",
+    "nameVi": "Bốn Gậy",
     "number": "4",
     "arcana": "minor",
     "suit": "wands",
@@ -1348,12 +1382,16 @@
         "up": "Hòa hợp tâm linh với cộng đồng.",
         "rev": "Cảm thấy lạc lõng trong cộng đồng của mình."
       }
-    }
+    },
+    "planet": "",
+    "zodiac": "",
+    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
+    "numerology": ""
   },
   {
     "id": 26,
     "name": "Five of Wands",
-    "nameVi": "Five of Wands (Năm Gậy)",
+    "nameVi": "Năm Gậy",
     "number": "5",
     "arcana": "minor",
     "suit": "wands",
@@ -1393,12 +1431,16 @@
         "up": "Xung đột nội tâm về niềm tin.",
         "rev": "Chấp nhận sự khác biệt về niềm tin."
       }
-    }
+    },
+    "planet": "",
+    "zodiac": "",
+    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
+    "numerology": ""
   },
   {
     "id": 27,
     "name": "Six of Wands",
-    "nameVi": "Six of Wands (Sáu Gậy)",
+    "nameVi": "Sáu Gậy",
     "number": "6",
     "arcana": "minor",
     "suit": "wands",
@@ -1438,12 +1480,16 @@
         "up": "Được dẫn dắt và truyền cảm hứng cho người khác.",
         "rev": "Cái tôi tâm linh quá lớn."
       }
-    }
+    },
+    "planet": "",
+    "zodiac": "",
+    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
+    "numerology": ""
   },
   {
     "id": 28,
     "name": "Seven of Wands",
-    "nameVi": "Seven of Wands (Bảy Gậy)",
+    "nameVi": "Bảy Gậy",
     "number": "7",
     "arcana": "minor",
     "suit": "wands",
@@ -1483,12 +1529,16 @@
         "up": "Kiên định với niềm tin của bản thân.",
         "rev": "Dao động và từ bỏ niềm tin."
       }
-    }
+    },
+    "planet": "",
+    "zodiac": "",
+    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
+    "numerology": ""
   },
   {
     "id": 29,
     "name": "Eight of Wands",
-    "nameVi": "Eight of Wands (Tám Gậy)",
+    "nameVi": "Tám Gậy",
     "number": "8",
     "arcana": "minor",
     "suit": "wands",
@@ -1528,12 +1578,16 @@
         "up": "Nhận thức tâm linh đến bất ngờ, giác ngộ chớp nhoáng.",
         "rev": "Cảm thấy quá tải với các luồng thông tin tâm linh."
       }
-    }
+    },
+    "planet": "",
+    "zodiac": "",
+    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
+    "numerology": ""
   },
   {
     "id": 30,
     "name": "Nine of Wands",
-    "nameVi": "Nine of Wands (Chín Gậy)",
+    "nameVi": "Chín Gậy",
     "number": "9",
     "arcana": "minor",
     "suit": "wands",
@@ -1573,12 +1627,16 @@
         "up": "Thử thách tâm linh cuối cùng trước khi giác ngộ.",
         "rev": "Mất niềm tin do quá nhiều sóng gió."
       }
-    }
+    },
+    "planet": "",
+    "zodiac": "",
+    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
+    "numerology": ""
   },
   {
     "id": 31,
     "name": "Ten of Wands",
-    "nameVi": "Ten of Wands (Mười Gậy)",
+    "nameVi": "Mười Gậy",
     "number": "10",
     "arcana": "minor",
     "suit": "wands",
@@ -1618,12 +1676,16 @@
         "up": "Cảm thấy nghĩa vụ tâm linh quá nặng nề.",
         "rev": "Giải phóng bản thân khỏi các nghĩa vụ tự áp đặt."
       }
-    }
+    },
+    "planet": "",
+    "zodiac": "",
+    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
+    "numerology": ""
   },
   {
     "id": 32,
     "name": "Page of Wands",
-    "nameVi": "Page of Wands (Tiểu Đồng Gậy)",
+    "nameVi": "Tiểu Đồng Gậy",
     "number": "11",
     "arcana": "minor",
     "suit": "wands",
@@ -1663,12 +1725,16 @@
         "up": "Hào hứng khám phá những con đường tâm linh mới.",
         "rev": "Theo đuổi tâm linh theo phong trào, hời hợt."
       }
-    }
+    },
+    "planet": "",
+    "zodiac": "",
+    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
+    "numerology": ""
   },
   {
     "id": 33,
     "name": "Knight of Wands",
-    "nameVi": "Knight of Wands (Kỵ Sĩ Gậy)",
+    "nameVi": "Kỵ Sĩ Gậy",
     "number": "12",
     "arcana": "minor",
     "suit": "wands",
@@ -1708,12 +1774,16 @@
         "up": "Truyền cảm hứng mạnh mẽ cho người khác.",
         "rev": "Áp đặt niềm tin của mình lên người khác một cách hung hăng."
       }
-    }
+    },
+    "planet": "",
+    "zodiac": "",
+    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
+    "numerology": ""
   },
   {
     "id": 34,
     "name": "Queen of Wands",
-    "nameVi": "Queen of Wands (Nữ Hoàng Gậy)",
+    "nameVi": "Nữ Hoàng Gậy",
     "number": "13",
     "arcana": "minor",
     "suit": "wands",
@@ -1755,12 +1825,16 @@
         "up": "Năng lượng tích cực, tỏa sáng rực rỡ.",
         "rev": "Sử dụng năng lượng để thu hút sự chú ý thay vì tĩnh tại."
       }
-    }
+    },
+    "planet": "",
+    "zodiac": "",
+    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
+    "numerology": ""
   },
   {
     "id": 35,
     "name": "King of Wands",
-    "nameVi": "King of Wands (Vua Gậy)",
+    "nameVi": "Vua Gậy",
     "number": "14",
     "arcana": "minor",
     "suit": "wands",
@@ -1801,12 +1875,16 @@
         "up": "Dẫn dắt người khác bằng đạo đức và tầm nhìn.",
         "rev": "Giáo điều, ép buộc người khác theo ý mình."
       }
-    }
+    },
+    "planet": "",
+    "zodiac": "",
+    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
+    "numerology": ""
   },
   {
     "id": 36,
     "name": "Ace of Cups",
-    "nameVi": "Ace of Cups (Một Cốc)",
+    "nameVi": "Một Cốc",
     "number": "1",
     "arcana": "minor",
     "suit": "cups",
@@ -1846,12 +1924,16 @@
         "up": "Khai mở trực giác, tình yêu vô điều kiện.",
         "rev": "Mất kết nối với tâm hồn, cảm thấy trống rỗng."
       }
-    }
+    },
+    "planet": "",
+    "zodiac": "",
+    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
+    "numerology": ""
   },
   {
     "id": 37,
     "name": "Two of Cups",
-    "nameVi": "Two of Cups (Hai Cốc)",
+    "nameVi": "Hai Cốc",
     "number": "2",
     "arcana": "minor",
     "suit": "cups",
@@ -1891,12 +1973,16 @@
         "up": "Nhận ra người tri kỷ (soulmate).",
         "rev": "Ảo tưởng về tri kỷ, bỏ mặc bản thân."
       }
-    }
+    },
+    "planet": "",
+    "zodiac": "",
+    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
+    "numerology": ""
   },
   {
     "id": 38,
     "name": "Three of Cups",
-    "nameVi": "Three of Cups (Ba Cốc)",
+    "nameVi": "Ba Cốc",
     "number": "3",
     "arcana": "minor",
     "suit": "cups",
@@ -1936,12 +2022,16 @@
         "up": "Hòa mình vào cộng đồng, nhóm thiện nguyện.",
         "rev": "Bị nhóm bạn xấu kéo lùi sự phát triển tâm linh."
       }
-    }
+    },
+    "planet": "",
+    "zodiac": "",
+    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
+    "numerology": ""
   },
   {
     "id": 39,
     "name": "Four of Cups",
-    "nameVi": "Four of Cups (Bốn Cốc)",
+    "nameVi": "Bốn Cốc",
     "number": "4",
     "arcana": "minor",
     "suit": "cups",
@@ -1981,12 +2071,16 @@
         "up": "Lạc lối, từ chối những thông điệp vũ trụ.",
         "rev": "Mở rộng lòng mình đón nhận sự thật tâm linh."
       }
-    }
+    },
+    "planet": "",
+    "zodiac": "",
+    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
+    "numerology": ""
   },
   {
     "id": 40,
     "name": "Five of Cups",
-    "nameVi": "Five of Cups (Năm Cốc)",
+    "nameVi": "Năm Cốc",
     "number": "5",
     "arcana": "minor",
     "suit": "cups",
@@ -2027,12 +2121,16 @@
         "up": "Mắc kẹt trong bóng tối nội tâm.",
         "rev": "Tự tha thứ, gột rửa tâm hồn."
       }
-    }
+    },
+    "planet": "",
+    "zodiac": "",
+    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
+    "numerology": ""
   },
   {
     "id": 41,
     "name": "Six of Cups",
-    "nameVi": "Six of Cups (Sáu Cốc)",
+    "nameVi": "Sáu Cốc",
     "number": "6",
     "arcana": "minor",
     "suit": "cups",
@@ -2073,12 +2171,16 @@
         "up": "Làm việc với đứa trẻ bên trong (inner child).",
         "rev": "Từ chối tha thứ cho những tổn thương thời ấu thơ."
       }
-    }
+    },
+    "planet": "",
+    "zodiac": "",
+    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
+    "numerology": ""
   },
   {
     "id": 42,
     "name": "Seven of Cups",
-    "nameVi": "Seven of Cups (Bảy Cốc)",
+    "nameVi": "Bảy Cốc",
     "number": "7",
     "arcana": "minor",
     "suit": "cups",
@@ -2118,12 +2220,16 @@
         "up": "Ảo tưởng tâm linh, sống mộng mơ xa rời thực tại.",
         "rev": "Quay về thực tại chánh niệm (mindfulness)."
       }
-    }
+    },
+    "planet": "",
+    "zodiac": "",
+    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
+    "numerology": ""
   },
   {
     "id": 43,
     "name": "Eight of Cups",
-    "nameVi": "Eight of Cups (Tám Cốc)",
+    "nameVi": "Tám Cốc",
     "number": "8",
     "arcana": "minor",
     "suit": "cups",
@@ -2164,12 +2270,16 @@
         "up": "Hành trình tìm kiếm ý nghĩa linh hồn (như một nhà sư).",
         "rev": "Sợ phải đối diện với sự trống rỗng bên trong mình."
       }
-    }
+    },
+    "planet": "",
+    "zodiac": "",
+    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
+    "numerology": ""
   },
   {
     "id": 44,
     "name": "Nine of Cups",
-    "nameVi": "Nine of Cups (Chín Cốc)",
+    "nameVi": "Chín Cốc",
     "number": "9",
     "arcana": "minor",
     "suit": "cups",
@@ -2209,12 +2319,16 @@
         "up": "Sống trong lòng biết ơn với vũ trụ.",
         "rev": "Vui sướng giả tạo, che đậy sự thiếu vắng tâm linh."
       }
-    }
+    },
+    "planet": "",
+    "zodiac": "",
+    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
+    "numerology": ""
   },
   {
     "id": 45,
     "name": "Ten of Cups",
-    "nameVi": "Ten of Cups (Mười Cốc)",
+    "nameVi": "Mười Cốc",
     "number": "10",
     "arcana": "minor",
     "suit": "cups",
@@ -2254,12 +2368,16 @@
         "up": "Đạt được sự bình yên nội tại, lan tỏa tình thương.",
         "rev": "Từ chối việc chữa lành vết thương gia đình (inner family healing)."
       }
-    }
+    },
+    "planet": "",
+    "zodiac": "",
+    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
+    "numerology": ""
   },
   {
     "id": 46,
     "name": "Page of Cups",
-    "nameVi": "Page of Cups (Tiểu Đồng Cốc)",
+    "nameVi": "Tiểu Đồng Cốc",
     "number": "11",
     "arcana": "minor",
     "suit": "cups",
@@ -2301,12 +2419,16 @@
         "up": "Bắt đầu khám phá trực giác, giải mã giấc mơ.",
         "rev": "Phớt lờ các thông điệp trực giác vì nghĩ nó là sự trùng hợp."
       }
-    }
+    },
+    "planet": "",
+    "zodiac": "",
+    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
+    "numerology": ""
   },
   {
     "id": 47,
     "name": "Knight of Cups",
-    "nameVi": "Knight of Cups (Kỵ Sĩ Cốc)",
+    "nameVi": "Kỵ Sĩ Cốc",
     "number": "12",
     "arcana": "minor",
     "suit": "cups",
@@ -2348,12 +2470,16 @@
         "up": "Hành động theo tiếng gọi của con tim, tìm kiếm cái đẹp.",
         "rev": "Mù quáng, dễ bị dụ dỗ bởi các giáo phái."
       }
-    }
+    },
+    "planet": "",
+    "zodiac": "",
+    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
+    "numerology": ""
   },
   {
     "id": 48,
     "name": "Queen of Cups",
-    "nameVi": "Queen of Cups (Nữ Hoàng Cốc)",
+    "nameVi": "Nữ Hoàng Cốc",
     "number": "13",
     "arcana": "minor",
     "suit": "cups",
@@ -2394,12 +2520,16 @@
         "up": "Trực giác sắc bén như nhà ngoại cảm, kết nối thần giao cách cảm.",
         "rev": "Bị năng lượng tiêu cực của người khác hút cạn (empath burnout)."
       }
-    }
+    },
+    "planet": "",
+    "zodiac": "",
+    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
+    "numerology": ""
   },
   {
     "id": 49,
     "name": "King of Cups",
-    "nameVi": "King of Cups (Vua Cốc)",
+    "nameVi": "Vua Cốc",
     "number": "14",
     "arcana": "minor",
     "suit": "cups",
@@ -2440,12 +2570,16 @@
         "up": "Bậc thầy về trí tuệ cảm xúc (EQ) và tâm linh.",
         "rev": "Dùng thần quyền hoặc tâm linh để thao túng đám đông."
       }
-    }
+    },
+    "planet": "",
+    "zodiac": "",
+    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
+    "numerology": ""
   },
   {
     "id": 50,
     "name": "Ace of Swords",
-    "nameVi": "Ace of Swords (Một Kiếm)",
+    "nameVi": "Một Kiếm",
     "number": "1",
     "arcana": "minor",
     "suit": "swords",
@@ -2487,12 +2621,16 @@
         "up": "Ánh sáng chân lý xua tan màn sương mù.",
         "rev": "Tự dối mình, không dám đối diện sự thật."
       }
-    }
+    },
+    "planet": "",
+    "zodiac": "",
+    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
+    "numerology": ""
   },
   {
     "id": 51,
     "name": "Two of Swords",
-    "nameVi": "Two of Swords (Hai Kiếm)",
+    "nameVi": "Hai Kiếm",
     "number": "2",
     "arcana": "minor",
     "suit": "swords",
@@ -2534,12 +2672,16 @@
         "up": "Từ chối nhìn nhận mặt tối (shadow) của bản thân.",
         "rev": "Tháo bỏ rào cản phòng vệ tâm lý."
       }
-    }
+    },
+    "planet": "",
+    "zodiac": "",
+    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
+    "numerology": ""
   },
   {
     "id": 52,
     "name": "Three of Swords",
-    "nameVi": "Three of Swords (Ba Kiếm)",
+    "nameVi": "Ba Kiếm",
     "number": "3",
     "arcana": "minor",
     "suit": "swords",
@@ -2581,12 +2723,16 @@
         "up": "Trải nghiệm nỗi đau (Dark Night of the Soul) để thanh lọc linh hồn.",
         "rev": "Từ chối khóc hoặc xả stress, khiến nội tâm bị u uất."
       }
-    }
+    },
+    "planet": "",
+    "zodiac": "",
+    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
+    "numerology": ""
   },
   {
     "id": 53,
     "name": "Four of Swords",
-    "nameVi": "Four of Swords (Bốn Kiếm)",
+    "nameVi": "Bốn Kiếm",
     "number": "4",
     "arcana": "minor",
     "suit": "swords",
@@ -2627,12 +2773,16 @@
         "up": "Thiền định, tĩnh tâm, đi retreat.",
         "rev": "Từ chối những cảnh báo của cơ thể, ép bản thân tu tập quá mức."
       }
-    }
+    },
+    "planet": "",
+    "zodiac": "",
+    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
+    "numerology": ""
   },
   {
     "id": 54,
     "name": "Five of Swords",
-    "nameVi": "Five of Swords (Năm Kiếm)",
+    "nameVi": "Năm Kiếm",
     "number": "5",
     "arcana": "minor",
     "suit": "swords",
@@ -2674,12 +2824,16 @@
         "up": "Sự kiêu ngạo, cho rằng mình luôn đúng và hạ nhục người khác.",
         "rev": "Nhận ra bài học về cái tôi, học cách khiêm tốn."
       }
-    }
+    },
+    "planet": "",
+    "zodiac": "",
+    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
+    "numerology": ""
   },
   {
     "id": 55,
     "name": "Six of Swords",
-    "nameVi": "Six of Swords (Sáu Kiếm)",
+    "nameVi": "Sáu Kiếm",
     "number": "6",
     "arcana": "minor",
     "suit": "swords",
@@ -2721,12 +2875,16 @@
         "up": "Sự tĩnh lặng nội tâm sau cơn bão giông.",
         "rev": "Sợ hãi tương lai, không dám buông tay quá khứ."
       }
-    }
+    },
+    "planet": "",
+    "zodiac": "",
+    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
+    "numerology": ""
   },
   {
     "id": 56,
     "name": "Seven of Swords",
-    "nameVi": "Seven of Swords (Bảy Kiếm)",
+    "nameVi": "Bảy Kiếm",
     "number": "7",
     "arcana": "minor",
     "suit": "swords",
@@ -2770,12 +2928,16 @@
         "up": "Sử dụng tâm linh vì lợi ích cá nhân, sống đạo đức giả.",
         "rev": "Gột rửa tội lỗi, thú nhận và tìm kiếm sự thanh thản."
       }
-    }
+    },
+    "planet": "",
+    "zodiac": "",
+    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
+    "numerology": ""
   },
   {
     "id": 57,
     "name": "Eight of Swords",
-    "nameVi": "Eight of Swords (Tám Kiếm)",
+    "nameVi": "Tám Kiếm",
     "number": "8",
     "arcana": "minor",
     "suit": "swords",
@@ -2817,12 +2979,16 @@
         "up": "Nạn nhân hóa bản thân, tự trách cứ và nhốt mình trong bóng tối.",
         "rev": "Mở mắt nhìn thấy ánh sáng chân lý, làm chủ cuộc đời."
       }
-    }
+    },
+    "planet": "",
+    "zodiac": "",
+    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
+    "numerology": ""
   },
   {
     "id": 58,
     "name": "Nine of Swords",
-    "nameVi": "Nine of Swords (Chín Kiếm)",
+    "nameVi": "Chín Kiếm",
     "number": "9",
     "arcana": "minor",
     "suit": "swords",
@@ -2865,12 +3031,16 @@
         "up": "Đêm đen linh hồn (Dark night of the soul). Cảm giác bị vũ trụ bỏ rơi.",
         "rev": "Ánh bình minh ló dạng, nhận ra mọi nỗi sợ chỉ là ảo ảnh."
       }
-    }
+    },
+    "planet": "",
+    "zodiac": "",
+    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
+    "numerology": ""
   },
   {
     "id": 59,
     "name": "Ten of Swords",
-    "nameVi": "Ten of Swords (Mười Kiếm)",
+    "nameVi": "Mười Kiếm",
     "number": "10",
     "arcana": "minor",
     "suit": "swords",
@@ -2911,12 +3081,16 @@
         "up": "Tử vì đạo (nghĩa đen/bóng). Cái tôi bị tiêu diệt hoàn toàn để tái sinh linh hồn.",
         "rev": "Nhận ra bài học nghiệp quả khắc nghiệt nhất, từ chối việc oán hận."
       }
-    }
+    },
+    "planet": "",
+    "zodiac": "",
+    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
+    "numerology": ""
   },
   {
     "id": 60,
     "name": "Page of Swords",
-    "nameVi": "Page of Swords (Tiểu Đồng Kiếm)",
+    "nameVi": "Tiểu Đồng Kiếm",
     "number": "11",
     "arcana": "minor",
     "suit": "swords",
@@ -2960,12 +3134,16 @@
         "up": "Tìm kiếm sự thật tâm linh thông qua sách vở, triết học.",
         "rev": "Dùng trí năng để phán xét tâm linh, phủ nhận trực giác."
       }
-    }
+    },
+    "planet": "",
+    "zodiac": "",
+    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
+    "numerology": ""
   },
   {
     "id": 61,
     "name": "Knight of Swords",
-    "nameVi": "Knight of Swords (Kỵ Sĩ Kiếm)",
+    "nameVi": "Kỵ Sĩ Kiếm",
     "number": "12",
     "arcana": "minor",
     "suit": "swords",
@@ -3008,12 +3186,16 @@
         "up": "Theo đuổi chân lý một cách mạnh mẽ, phá bỏ các giáo điều.",
         "rev": "Cực đoan tôn giáo, áp đặt lý tưởng một cách tàn bạo."
       }
-    }
+    },
+    "planet": "",
+    "zodiac": "",
+    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
+    "numerology": ""
   },
   {
     "id": 62,
     "name": "Queen of Swords",
-    "nameVi": "Queen of Swords (Nữ Hoàng Kiếm)",
+    "nameVi": "Nữ Hoàng Kiếm",
     "number": "13",
     "arcana": "minor",
     "suit": "swords",
@@ -3057,12 +3239,16 @@
         "up": "Tìm kiếm sự thật một cách minh bạch, loại bỏ mê tín dị đoan.",
         "rev": "Dùng trí năng chối bỏ hoàn toàn tâm linh, cay nghiệt với những người có đức tin."
       }
-    }
+    },
+    "planet": "",
+    "zodiac": "",
+    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
+    "numerology": ""
   },
   {
     "id": 63,
     "name": "King of Swords",
-    "nameVi": "King of Swords (Vua Kiếm)",
+    "nameVi": "Vua Kiếm",
     "number": "14",
     "arcana": "minor",
     "suit": "swords",
@@ -3106,12 +3292,16 @@
         "up": "Sống theo nguyên tắc đạo đức và pháp luật tối cao.",
         "rev": "Mắc kẹt trong sự kiêu ngạo trí thức, cho mình là thần thánh."
       }
-    }
+    },
+    "planet": "",
+    "zodiac": "",
+    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
+    "numerology": ""
   },
   {
     "id": 64,
     "name": "Ace of Pentacles",
-    "nameVi": "Ace of Pentacles (Một Tiền)",
+    "nameVi": "Một Tiền",
     "number": "1",
     "arcana": "minor",
     "suit": "pentacles",
@@ -3153,12 +3343,16 @@
         "up": "Sự kết nối mạnh mẽ với thế giới tự nhiên và Đất mẹ.",
         "rev": "Quá bám víu vào vật chất, bỏ quên sự phát triển tâm hồn."
       }
-    }
+    },
+    "planet": "",
+    "zodiac": "",
+    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
+    "numerology": ""
   },
   {
     "id": 65,
     "name": "Two of Pentacles",
-    "nameVi": "Two of Pentacles (Hai Tiền)",
+    "nameVi": "Hai Tiền",
     "number": "2",
     "arcana": "minor",
     "suit": "pentacles",
@@ -3200,12 +3394,16 @@
         "up": "Cân bằng giữa thế giới vật chất và đời sống tâm linh.",
         "rev": "Bị cuốn vào cơm áo gạo tiền, không còn thời gian tĩnh tâm."
       }
-    }
+    },
+    "planet": "",
+    "zodiac": "",
+    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
+    "numerology": ""
   },
   {
     "id": 66,
     "name": "Three of Pentacles",
-    "nameVi": "Three of Pentacles (Ba Tiền)",
+    "nameVi": "Ba Tiền",
     "number": "3",
     "arcana": "minor",
     "suit": "pentacles",
@@ -3248,12 +3446,16 @@
         "up": "Học hỏi và phát triển tâm linh cùng với một nhóm hoặc cộng đồng.",
         "rev": "Cái tôi quá lớn, không chấp nhận sự khác biệt trong tư tưởng của người khác."
       }
-    }
+    },
+    "planet": "",
+    "zodiac": "",
+    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
+    "numerology": ""
   },
   {
     "id": 67,
     "name": "Four of Pentacles",
-    "nameVi": "Four of Pentacles (Bốn Tiền)",
+    "nameVi": "Bốn Tiền",
     "number": "4",
     "arcana": "minor",
     "suit": "pentacles",
@@ -3296,12 +3498,16 @@
         "up": "Bị trói buộc bởi vật chất, từ chối chia sẻ phước báu.",
         "rev": "Sự hào phóng mở rộng tâm hồn, hiểu được sự vận hành của dòng chảy vạn vật."
       }
-    }
+    },
+    "planet": "",
+    "zodiac": "",
+    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
+    "numerology": ""
   },
   {
     "id": 68,
     "name": "Five of Pentacles",
-    "nameVi": "Five of Pentacles (Năm Tiền)",
+    "nameVi": "Năm Tiền",
     "number": "5",
     "arcana": "minor",
     "suit": "pentacles",
@@ -3344,12 +3550,16 @@
         "up": "Cảm thấy bị thế giới và tâm linh ruồng bỏ. Bóng tối bao trùm.",
         "rev": "Tìm lại được đức tin, ánh sáng của hy vọng chiếu rọi tâm hồn."
       }
-    }
+    },
+    "planet": "",
+    "zodiac": "",
+    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
+    "numerology": ""
   },
   {
     "id": 69,
     "name": "Six of Pentacles",
-    "nameVi": "Six of Pentacles (Sáu Tiền)",
+    "nameVi": "Sáu Tiền",
     "number": "6",
     "arcana": "minor",
     "suit": "pentacles",
@@ -3393,12 +3603,16 @@
         "up": "Sự cho đi vô điều kiện. Nhận ra luật nhân quả của tiền bạc (cho đi sẽ nhận lại).",
         "rev": "Làm từ thiện chỉ để đánh bóng tên tuổi, khoe khoang hoặc mong cầu báo đáp."
       }
-    }
+    },
+    "planet": "",
+    "zodiac": "",
+    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
+    "numerology": ""
   },
   {
     "id": 70,
     "name": "Seven of Pentacles",
-    "nameVi": "Seven of Pentacles (Bảy Tiền)",
+    "nameVi": "Bảy Tiền",
     "number": "7",
     "arcana": "minor",
     "suit": "pentacles",
@@ -3440,12 +3654,16 @@
         "up": "Gieo nhân tốt và bình tâm chờ quả ngọt. Sự phát triển tâm linh đòi hỏi tính kỷ luật dài hạn.",
         "rev": "Mong muốn giác ngộ 'ăn liền', dễ nản lòng khi tu tập."
       }
-    }
+    },
+    "planet": "",
+    "zodiac": "",
+    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
+    "numerology": ""
   },
   {
     "id": 71,
     "name": "Eight of Pentacles",
-    "nameVi": "Eight of Pentacles (Tám Tiền)",
+    "nameVi": "Tám Tiền",
     "number": "8",
     "arcana": "minor",
     "suit": "pentacles",
@@ -3488,12 +3706,16 @@
         "up": "Rèn luyện các phương pháp thực hành tâm linh (thiền, yoga) một cách cực kỳ chăm chỉ.",
         "rev": "Thực hành tâm linh một cách máy móc, thiếu đi cái hồn."
       }
-    }
+    },
+    "planet": "",
+    "zodiac": "",
+    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
+    "numerology": ""
   },
   {
     "id": 72,
     "name": "Nine of Pentacles",
-    "nameVi": "Nine of Pentacles (Chín Tiền)",
+    "nameVi": "Chín Tiền",
     "number": "9",
     "arcana": "minor",
     "suit": "pentacles",
@@ -3536,12 +3758,16 @@
         "up": "Tự do trong tâm hồn, trân trọng vẻ đẹp của thiên nhiên và cuộc sống.",
         "rev": "Bị mắc kẹt trong chiếc lồng vàng do chính mình tạo ra."
       }
-    }
+    },
+    "planet": "",
+    "zodiac": "",
+    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
+    "numerology": ""
   },
   {
     "id": 73,
     "name": "Ten of Pentacles",
-    "nameVi": "Ten of Pentacles (Mười Tiền)",
+    "nameVi": "Mười Tiền",
     "number": "10",
     "arcana": "minor",
     "suit": "pentacles",
@@ -3583,12 +3809,16 @@
         "up": "Tôn kính tổ tiên, giữ gìn các giá trị cội nguồn.",
         "rev": "Từ chối gốc gác, cảm thấy bị đè nén bởi những kỳ vọng của dòng họ."
       }
-    }
+    },
+    "planet": "",
+    "zodiac": "",
+    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
+    "numerology": ""
   },
   {
     "id": 74,
     "name": "Page of Pentacles",
-    "nameVi": "Page of Pentacles (Tiểu Đồng Tiền)",
+    "nameVi": "Tiểu Đồng Tiền",
     "number": "11",
     "arcana": "minor",
     "suit": "pentacles",
@@ -3632,12 +3862,16 @@
         "up": "Khám phá tâm linh thông qua những việc làm thực tế (chăm sóc cây cối, thiền hành).",
         "rev": "Tâm trí lơ đãng, không thể tập trung thiền định."
       }
-    }
+    },
+    "planet": "",
+    "zodiac": "",
+    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
+    "numerology": ""
   },
   {
     "id": 75,
     "name": "Knight of Pentacles",
-    "nameVi": "Knight of Pentacles (Kỵ Sĩ Tiền)",
+    "nameVi": "Kỵ Sĩ Tiền",
     "number": "12",
     "arcana": "minor",
     "suit": "pentacles",
@@ -3680,12 +3914,16 @@
         "up": "Thể hiện đức tin qua hành động thực tiễn (như làm việc thiện).",
         "rev": "Quá gắn chặt vào vật chất, phủ nhận hoàn toàn các hiện tượng tâm linh."
       }
-    }
+    },
+    "planet": "",
+    "zodiac": "",
+    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
+    "numerology": ""
   },
   {
     "id": 76,
     "name": "Queen of Pentacles",
-    "nameVi": "Queen of Pentacles (Nữ Hoàng Tiền)",
+    "nameVi": "Nữ Hoàng Tiền",
     "number": "13",
     "arcana": "minor",
     "suit": "pentacles",
@@ -3729,12 +3967,16 @@
         "up": "Kết nối tâm linh với Đất mẹ, thích làm vườn, tìm thấy bình yên trong thiên nhiên.",
         "rev": "Đánh mất tâm hồn vì mãi chạy theo những giá trị vật chất phù phiếm."
       }
-    }
+    },
+    "planet": "",
+    "zodiac": "",
+    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
+    "numerology": ""
   },
   {
     "id": 77,
     "name": "King of Pentacles",
-    "nameVi": "King of Pentacles (Vua Tiền)",
+    "nameVi": "Vua Tiền",
     "number": "14",
     "arcana": "minor",
     "suit": "pentacles",
@@ -3776,6 +4018,10 @@
         "up": "Hiểu rằng vật chất là một công cụ tốt để phục vụ cho sự phát triển của nhân loại.",
         "rev": "Xem tiền bạc là tôn giáo duy nhất. Coi thường những giá trị tinh thần."
       }
-    }
+    },
+    "planet": "",
+    "zodiac": "",
+    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
+    "numerology": ""
   }
 ]
