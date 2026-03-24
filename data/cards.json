@@ -1,0 +1,510 @@
+[
+  {
+    "id": 0,
+    "name": "The Fool",
+    "nameVi": "Kẻ Ngốc",
+    "number": "0",
+    "arcana": "major",
+    "suit": null,
+    "image": "cards/0-The-Fool.jpg",
+    "planet": "Sao Thiên Vương (Uranus)",
+    "zodiac": "Bảo Bình (Aquarius)",
+    "element": "Không khí",
+    "keywords": ["Khởi đầu mới", "Tiềm năng vô hạn", "Sự ngây thơ", "Lòng tin và tự do", "Dũng cảm"],
+    "keywordsReversed": ["Liều lĩnh", "Thiếu kinh nghiệm", "Bốc đồng", "Mù quáng"],
+    "generalUpright": "The Fool là biểu tượng của sự khởi đầu mới, tiềm năng vô tận, và lòng tin mãnh liệt vào cuộc hành trình phía trước. Đây là lúc bạn cần mở lòng với những cơ hội chưa biết, dũng cảm bước vào hành trình mới.",
+    "generalReversed": "Khi ngược, The Fool cảnh báo về sự liều lĩnh thiếu suy nghĩ, hành động bốc đồng mà không có kế hoạch. Hãy dừng lại và cân nhắc kỹ trước khi tiến bước.",
+    "symbols": [
+      {"name": "Người du hành trẻ tuổi", "meaning": "Linh hồn tự do, sẵn sàng bước vào hành trình mới"},
+      {"name": "Gói hành lý nhỏ", "meaning": "Hành trang tinh thần và tiềm năng còn ẩn giấu"},
+      {"name": "Bông hoa trắng", "meaning": "Sự ngây thơ và tinh khiết"},
+      {"name": "Chú chó nhỏ", "meaning": "Sự trung thành và bản năng bảo vệ"},
+      {"name": "Vách đá", "meaning": "Rủi ro khi bước vào điều chưa biết"},
+      {"name": "Bầu trời sáng", "meaning": "Hy vọng và những khả năng vô tận"}
+    ],
+    "aspects": {
+      "love": {
+        "upright": "Báo hiệu một mối quan hệ mới hoặc sự khởi đầu mới trong chuyện tình cảm. Hãy mở lòng và tin tưởng vào tình yêu.",
+        "reversed": "Thể hiện sự thiếu ổn định hoặc liều lĩnh trong mối quan hệ. Bạn có thể đang quá ngây thơ hoặc mù quáng."
+      },
+      "career": {
+        "upright": "Khuyến khích bạn thử nghiệm những cơ hội mới trong sự nghiệp. Đây là thời điểm dám nghĩ dám làm.",
+        "reversed": "Cẩn thận với những quyết định hấp tấp. Bạn có thể thiếu sự chuẩn bị kỹ lưỡng."
+      },
+      "health": {
+        "upright": "Một khởi đầu mới trong chế độ chăm sóc sức khỏe có thể giúp bạn cải thiện đáng kể.",
+        "reversed": "Cảnh báo về việc coi nhẹ sức khỏe hoặc thực hiện những hành động thiếu thận trọng."
+      },
+      "finance": {
+        "upright": "Dấu hiệu của cơ hội tài chính mới, nhưng hãy đảm bảo bạn có kế hoạch cụ thể.",
+        "reversed": "Tránh chi tiêu thiếu kiểm soát hoặc đầu tư liều lĩnh."
+      },
+      "spiritual": {
+        "upright": "Thời điểm tuyệt vời để khám phá con đường tâm linh mới, mở lòng với những trải nghiệm huyền bí.",
+        "reversed": "Tránh lạc lối trong những lý tưởng viển vông, hãy giữ vững nền tảng thực tế."
+      }
+    },
+    "advice": "Hãy tin tưởng vào bản thân và bước vào hành trình mới với trái tim rộng mở. Đừng sợ hãi trước điều chưa biết.",
+    "numerology": "0 - Vô hạn, khởi đầu, tiềm năng thuần túy"
+  },
+  {
+    "id": 1,
+    "name": "The Magician",
+    "nameVi": "Pháp Sư",
+    "number": "I",
+    "arcana": "major",
+    "suit": null,
+    "image": "cards/1-The-Magician.jpg",
+    "planet": "Sao Thủy (Mercury)",
+    "zodiac": "Song Tử (Gemini) & Xử Nữ (Virgo)",
+    "element": "Không khí",
+    "keywords": ["Ý chí mạnh mẽ", "Tập trung", "Sáng tạo", "Thao túng", "Kỹ năng"],
+    "keywordsReversed": ["Lừa dối", "Thủ thuật", "Lạm dụng quyền lực", "Thiếu trọng tâm"],
+    "generalUpright": "The Magician tượng trưng cho sức mạnh ý chí, khả năng biến ước mơ thành hiện thực. Bạn có đủ công cụ và kỹ năng để thành công.",
+    "generalReversed": "Khi ngược, The Magician cảnh báo về sự lừa dối, thao túng hoặc lãng phí tài năng. Hãy kiểm tra lại động cơ thực sự của bạn.",
+    "symbols": [
+      {"name": "Cây đũa phép", "meaning": "Ý chí và quyền năng"},
+      {"name": "Bốn biểu tượng trên bàn", "meaning": "Bốn nguyên tố: đất, nước, lửa, không khí"},
+      {"name": "Dải ruy băng vô cực", "meaning": "Tiềm năng vô tận"},
+      {"name": "Bông hoa hồng và hoa loa kèn", "meaning": "Sự thuần khiết và đam mê"}
+    ],
+    "aspects": {
+      "love": {
+        "upright": "Bạn có khả năng thu hút tình yêu. Hãy tự tin thể hiện bản thân.",
+        "reversed": "Cảnh giác với người có ý định thao túng trong tình cảm."
+      },
+      "career": {
+        "upright": "Thời điểm tỏa sáng trong công việc, kỹ năng của bạn được công nhận.",
+        "reversed": "Tránh dùng thủ thuật hoặc lừa dối trong công việc."
+      },
+      "health": {
+        "upright": "Sức khỏe tốt, có ý chí mạnh để cải thiện thể chất.",
+        "reversed": "Đừng bỏ qua các triệu chứng bệnh. Hãy tìm kiếm sự tư vấn chuyên môn."
+      },
+      "finance": {
+        "upright": "Bạn có khả năng tạo ra thu nhập mới. Sử dụng kỹ năng của bạn.",
+        "reversed": "Cảnh giác với các kế hoạch tài chính có vẻ quá tốt để là thật."
+      },
+      "spiritual": {
+        "upright": "Bạn đang kết nối mạnh mẽ với nguồn năng lượng vũ trụ.",
+        "reversed": "Đừng sử dụng năng lượng tâm linh vào mục đích tiêu cực."
+      }
+    },
+    "advice": "Sử dụng tất cả tài năng và nguồn lực bạn có. Mọi thứ bạn cần đều đã sẵn sàng.",
+    "numerology": "1 - Khởi đầu, lãnh đạo, ý chí, hành động"
+  },
+  {
+    "id": 2,
+    "name": "The High Priestess",
+    "nameVi": "Nữ Tư Tế",
+    "number": "II",
+    "arcana": "major",
+    "suit": null,
+    "image": "cards/2-The-High-Priestess.jpg",
+    "planet": "Mặt Trăng (Moon)",
+    "zodiac": "Cự Giải (Cancer)",
+    "element": "Nước",
+    "keywords": ["Trực giác", "Bí ẩn", "Nội tâm", "Tiềm thức", "Sự khôn ngoan"],
+    "keywordsReversed": ["Bí mật bị che giấu", "Mất kết nối", "Hỗn loạn nội tâm"],
+    "generalUpright": "The High Priestess đại diện cho trực giác và tri thức tiềm ẩn. Hãy lắng nghe tiếng nói nội tâm và tin vào trực giác của bạn.",
+    "generalReversed": "Khi ngược, lá bài báo hiệu bạn đang bỏ qua tiếng nói nội tâm, hoặc có điều gì đó bị che giấu khỏi bạn.",
+    "symbols": [
+      {"name": "Hai cột trắng và đen", "meaning": "Sự cân bằng giữa hai thái cực, ánh sáng và bóng tối"},
+      {"name": "Cuộn sách Torah", "meaning": "Tri thức huyền bí và luật thiêng liêng"},
+      {"name": "Vầng trăng dưới chân", "meaning": "Kiểm soát tiềm thức và cảm xúc"},
+      {"name": "Màn che", "meaning": "Ranh giới giữa thế giới hiện thực và huyền bí"}
+    ],
+    "aspects": {
+      "love": {
+        "upright": "Tin vào trực giác của bạn trong tình yêu. Có thể có điều chưa được nói ra.",
+        "reversed": "Có thể đang che giấu cảm xúc thật, hoặc đối phương không thành thật."
+      },
+      "career": {
+        "upright": "Hãy nghiên cứu kỹ trước khi quyết định. Kiến thức tiềm ẩn là chìa khóa.",
+        "reversed": "Thiếu thông tin quan trọng để đưa ra quyết định đúng đắn."
+      },
+      "health": {
+        "upright": "Chú ý đến những dấu hiệu tinh tế của cơ thể. Lắng nghe cơ thể bạn.",
+        "reversed": "Cần kiểm tra sức khỏe định kỳ. Đừng bỏ qua các triệu chứng."
+      },
+      "finance": {
+        "upright": "Hãy thận trọng và nghiên cứu kỹ trước khi đầu tư.",
+        "reversed": "Có thể thiếu thông tin tài chính quan trọng. Hãy tìm hiểu kỹ hơn."
+      },
+      "spiritual": {
+        "upright": "Thời điểm tuyệt vời để thiền định và kết nối với tâm linh sâu sắc.",
+        "reversed": "Đang mất kết nối với bản thân tâm linh. Hãy dành thời gian tĩnh lặng."
+      }
+    },
+    "advice": "Hãy lắng nghe tiếng nói bên trong. Câu trả lời bạn tìm kiếm nằm trong chính bạn.",
+    "numerology": "2 - Cân bằng, hợp tác, trực giác, duality"
+  },
+  {
+    "id": 3,
+    "name": "The Empress",
+    "nameVi": "Nữ Hoàng",
+    "number": "III",
+    "arcana": "major",
+    "suit": null,
+    "image": "cards/3-The-Empress.jpg",
+    "planet": "Sao Kim (Venus)",
+    "zodiac": "Kim Ngưu (Taurus) & Thiên Bình (Libra)",
+    "element": "Đất",
+    "keywords": ["Phong phú", "Sáng tạo", "Tự nhiên", "Mẫu tính", "Vẻ đẹp"],
+    "keywordsReversed": ["Phụ thuộc", "Sáng tạo bị chặn", "Thiếu chăm sóc bản thân"],
+    "generalUpright": "The Empress là hiện thân của sự phong phú, sáng tạo và tình yêu. Đây là thời điểm của sự sinh sôi, nuôi dưỡng và tận hưởng những điều tốt đẹp trong cuộc sống.",
+    "generalReversed": "Khi ngược, lá bài báo hiệu sự thiếu hụt, sáng tạo bị chặn đứng hoặc sự phụ thuộc quá mức.",
+    "symbols": [
+      {"name": "Vương miện 12 ngôi sao", "meaning": "12 cung hoàng đạo, sự kết nối với vũ trụ"},
+      {"name": "Cánh đồng lúa mì", "meaning": "Sự phong phú và thu hoạch"},
+      {"name": "Biểu tượng Venus", "meaning": "Tình yêu, vẻ đẹp và sự hài hòa"},
+      {"name": "Dòng suối", "meaning": "Cảm xúc và tiềm thức"}
+    ],
+    "aspects": {
+      "love": {
+        "upright": "Mối quan hệ đang nở hoa, tràn đầy tình yêu và sự ấm áp.",
+        "reversed": "Có thể đang chịu đựng mối quan hệ không lành mạnh hoặc phụ thuộc."
+      },
+      "career": {
+        "upright": "Sáng tạo của bạn đang ở đỉnh cao. Hãy thể hiện tài năng.",
+        "reversed": "Sáng tạo bị chặn. Hãy tìm cách giải phóng nguồn năng lượng sáng tạo."
+      },
+      "health": {
+        "upright": "Sức khỏe sinh sản tốt. Hãy chăm sóc bản thân như chăm sóc thiên nhiên.",
+        "reversed": "Cần chú ý hơn đến việc tự chăm sóc bản thân."
+      },
+      "finance": {
+        "upright": "Thời kỳ thịnh vượng. Các khoản đầu tư mang lại kết quả tốt.",
+        "reversed": "Cần xem lại thói quen chi tiêu. Tránh xa hoa lãng phí."
+      },
+      "spiritual": {
+        "upright": "Kết nối với thiên nhiên giúp bạn tìm thấy sự bình yên tâm linh.",
+        "reversed": "Đang xa cách thiên nhiên và bản năng nguyên thủy."
+      }
+    },
+    "advice": "Nuôi dưỡng bản thân và những người xung quanh. Hãy tạo ra và trân trọng vẻ đẹp trong cuộc sống.",
+    "numerology": "3 - Sáng tạo, phát triển, biểu đạt, phong phú"
+  },
+  {
+    "id": 4,
+    "name": "The Emperor",
+    "nameVi": "Hoàng Đế",
+    "number": "IV",
+    "arcana": "major",
+    "suit": null,
+    "image": "cards/4-The-Emperor.jpg",
+    "planet": "Sao Hỏa (Mars)",
+    "zodiac": "Bạch Dương (Aries)",
+    "element": "Lửa",
+    "keywords": ["Quyền lực", "Cấu trúc", "Kỷ luật", "Ổn định", "Lãnh đạo"],
+    "keywordsReversed": ["Độc đoán", "Cứng nhắc", "Kiểm soát quá mức", "Yếu đuối"],
+    "generalUpright": "The Emperor đại diện cho quyền lực, trật tự và cấu trúc. Đây là thời điểm thiết lập nền tảng vững chắc và thực thi kỷ luật.",
+    "generalReversed": "Khi ngược, lá bài cảnh báo về sự độc đoán, kiểm soát quá mức hoặc thiếu kỷ luật.",
+    "symbols": [
+      {"name": "Ngai vàng đá", "meaning": "Sức mạnh và sự kiên định"},
+      {"name": "Vương trượng đầu đại bàng", "meaning": "Quyền lực và tầm nhìn"},
+      {"name": "Giáp che", "meaning": "Bảo vệ và sức mạnh"},
+      {"name": "Núi đá", "meaning": "Nền tảng vững chắc và kiên định"}
+    ],
+    "aspects": {
+      "love": {
+        "upright": "Mối quan hệ ổn định và có cấu trúc. Bạn hoặc đối tác đóng vai trò bảo vệ.",
+        "reversed": "Có thể có sự kiểm soát quá mức trong mối quan hệ."
+      },
+      "career": {
+        "upright": "Thời điểm lãnh đạo và thiết lập trật tự. Sự nghiệp đang ổn định và phát triển.",
+        "reversed": "Cần kiểm tra lại phong cách lãnh đạo. Có thể quá cứng nhắc."
+      },
+      "health": {
+        "upright": "Duy trì thói quen sức khỏe đều đặn mang lại kết quả tốt.",
+        "reversed": "Cần cân bằng giữa kỷ luật và sự linh hoạt trong chăm sóc sức khỏe."
+      },
+      "finance": {
+        "upright": "Tài chính ổn định nhờ kỷ luật và kế hoạch rõ ràng.",
+        "reversed": "Cần xem lại cách quản lý tài chính. Tránh quá kiểm soát hoặc quá tự do."
+      },
+      "spiritual": {
+        "upright": "Kỷ luật tâm linh giúp bạn phát triển bền vững.",
+        "reversed": "Tránh áp đặt niềm tin tâm linh lên người khác."
+      }
+    },
+    "advice": "Hãy thiết lập nền tảng vững chắc và duy trì kỷ luật. Sự ổn định là chìa khóa thành công.",
+    "numerology": "4 - Ổn định, nền tảng, thực tế, trật tự"
+  },
+  {
+    "id": 5,
+    "name": "The Hierophant",
+    "nameVi": "Giáo Hoàng",
+    "number": "V",
+    "arcana": "major",
+    "suit": null,
+    "image": "cards/5-The-Hierophant.jpg",
+    "planet": "Sao Kim (Venus)",
+    "zodiac": "Kim Ngưu (Taurus)",
+    "element": "Đất",
+    "keywords": ["Truyền thống", "Tôn giáo", "Giáo dục", "Chuẩn mực xã hội", "Hướng dẫn tinh thần"],
+    "keywordsReversed": ["Phá vỡ truyền thống", "Giáo điều", "Nổi loạn", "Phi chính thống"],
+    "generalUpright": "The Hierophant đại diện cho truyền thống, thể chế và giáo lý tâm linh. Đây là lúc tìm kiếm sự hướng dẫn từ các cố vấn có kinh nghiệm.",
+    "generalReversed": "Khi ngược, lá bài khuyến khích bạn phá vỡ các quy tắc cũ và tìm con đường riêng của mình.",
+    "symbols": [
+      {"name": "Giáo hoàng ngồi trên ngai", "meaning": "Quyền lực tâm linh và truyền thống"},
+      {"name": "Hai môn đồ", "meaning": "Truyền thụ kiến thức"},
+      {"name": "Vương trượng ba tầng", "meaning": "Ba thế giới: thể chất, tâm hồn, tâm linh"},
+      {"name": "Hai chìa khóa", "meaning": "Mở khóa tri thức huyền bí"}
+    ],
+    "aspects": {
+      "love": {
+        "upright": "Mối quan hệ truyền thống, cam kết. Có thể dẫn đến hôn nhân.",
+        "reversed": "Mối quan hệ phi truyền thống hoặc phá vỡ kỳ vọng xã hội."
+      },
+      "career": {
+        "upright": "Làm việc trong khuôn khổ quy tắc và truyền thống mang lại thành công.",
+        "reversed": "Cần cách tiếp cận mới mẻ, táo bạo hơn trong công việc."
+      },
+      "health": {
+        "upright": "Tin tưởng vào y học truyền thống và lời khuyên của các chuyên gia.",
+        "reversed": "Có thể cân nhắc các phương pháp điều trị thay thế."
+      },
+      "finance": {
+        "upright": "Tuân theo các phương pháp tài chính đã được chứng minh.",
+        "reversed": "Có thể cần phá vỡ các thói quen tài chính cũ."
+      },
+      "spiritual": {
+        "upright": "Học hỏi từ truyền thống tâm linh và các vị thầy có kinh nghiệm.",
+        "reversed": "Tìm kiếm con đường tâm linh độc lập, không bị ràng buộc bởi giáo điều."
+      }
+    },
+    "advice": "Tìm kiếm sự hướng dẫn từ những người có kinh nghiệm và học hỏi từ truyền thống.",
+    "numerology": "5 - Thay đổi, tự do, kinh nghiệm, thích nghi"
+  },
+  {
+    "id": 6,
+    "name": "The Lovers",
+    "nameVi": "Người Tình",
+    "number": "VI",
+    "arcana": "major",
+    "suit": null,
+    "image": "cards/6-The-Lovers.jpg",
+    "planet": "Sao Thủy (Mercury)",
+    "zodiac": "Song Tử (Gemini)",
+    "element": "Không khí",
+    "keywords": ["Tình yêu", "Mối quan hệ", "Sự lựa chọn", "Hài hòa", "Giá trị"],
+    "keywordsReversed": ["Không hài hòa", "Lựa chọn sai lầm", "Mất cân bằng", "Căng thẳng"],
+    "generalUpright": "The Lovers tượng trưng cho tình yêu, mối quan hệ hài hòa và những lựa chọn quan trọng về giá trị.",
+    "generalReversed": "Khi ngược, lá bài cảnh báo về sự mất cân bằng, lựa chọn sai lầm hoặc xung đột trong mối quan hệ.",
+    "symbols": [
+      {"name": "Adam và Eva", "meaning": "Kết hợp đối lập, tình yêu lý tưởng"},
+      {"name": "Thiên thần Raphael", "meaning": "Phước lành thiêng liêng"},
+      {"name": "Cây táo có rắn", "meaning": "Cám dỗ và tri thức"},
+      {"name": "Ngọn lửa", "meaning": "Đam mê và ham muốn"}
+    ],
+    "aspects": {
+      "love": {
+        "upright": "Mối quan hệ sâu sắc và có ý nghĩa. Kết nối tâm hồn thực sự.",
+        "reversed": "Mất cân bằng trong mối quan hệ. Cần đánh giá lại cam kết."
+      },
+      "career": {
+        "upright": "Lựa chọn sự nghiệp thuận theo giá trị và đam mê của bạn.",
+        "reversed": "Cần đưa ra quyết định khó khăn liên quan đến công việc."
+      },
+      "health": {
+        "upright": "Hài hòa giữa thể chất và tinh thần.",
+        "reversed": "Cần chú ý đến sức khỏe tâm thần và mối quan hệ."
+      },
+      "finance": {
+        "upright": "Hợp tác tài chính mang lại kết quả tốt.",
+        "reversed": "Cẩn thận với các quyết định tài chính chung."
+      },
+      "spiritual": {
+        "upright": "Đang liên kết với linh hồn bạn đời và nguồn năng lượng thiêng liêng.",
+        "reversed": "Cần cân bằng lại cuộc sống tâm linh với cuộc sống thực tế."
+      }
+    },
+    "advice": "Hãy chọn lựa thứ thực sự phù hợp với giá trị cốt lõi của bạn. Tình yêu thực sự cần hai bên cùng nhau phát triển.",
+    "numerology": "6 - Tình yêu, hài hòa, trách nhiệm, lựa chọn"
+  },
+  {
+    "id": 7,
+    "name": "The Chariot",
+    "nameVi": "Cỗ Xe",
+    "number": "VII",
+    "arcana": "major",
+    "suit": null,
+    "image": "cards/7-The-Chariot.jpg",
+    "planet": "Mặt Trăng (Moon)",
+    "zodiac": "Cự Giải (Cancer)",
+    "element": "Nước",
+    "keywords": ["Chiến thắng", "Quyết tâm", "Kiểm soát", "Ý chí", "Hành động"],
+    "keywordsReversed": ["Mất kiểm soát", "Thất bại", "Hung hăng", "Thiếu hướng đi"],
+    "generalUpright": "The Chariot tượng trưng cho sự chiến thắng thông qua ý chí mạnh mẽ và kiểm soát bản thân. Bạn đang trên đường đến thành công.",
+    "generalReversed": "Khi ngược, cảnh báo về sự mất kiểm soát, thiếu hướng đi hoặc bị chia rẽ bởi những xung đột nội tâm.",
+    "symbols": [
+      {"name": "Hai con nhân sư", "meaning": "Hai lực đối lập cần được kiểm soát"},
+      {"name": "Khiên sao", "meaning": "Bảo vệ thần thánh"},
+      {"name": "Vương miện ngôi sao", "meaning": "Kết nối với ý chí thiêng liêng"},
+      {"name": "Thành phố phía sau", "meaning": "Đã vượt qua quá khứ, hướng đến tương lai"}
+    ],
+    "aspects": {
+      "love": {
+        "upright": "Kiên định theo đuổi tình yêu mục tiêu. Mối quan hệ cần sự cân bằng.",
+        "reversed": "Có thể đang kiểm soát quá mức trong mối quan hệ."
+      },
+      "career": {
+        "upright": "Thúc đẩy sự nghiệp với quyết tâm. Thành công đang đến gần.",
+        "reversed": "Cần điều chỉnh hướng đi trong sự nghiệp."
+      },
+      "health": {
+        "upright": "Có ý chí vượt qua bệnh tật hoặc khó khăn sức khỏe.",
+        "reversed": "Cần kiểm soát tốt hơn lối sống và thói quen sức khỏe."
+      },
+      "finance": {
+        "upright": "Tiến bước mạnh mẽ trong các kế hoạch tài chính.",
+        "reversed": "Cần xem lại định hướng tài chính, tránh chi tiêu bốc đồng."
+      },
+      "spiritual": {
+        "upright": "Kiểm soát các xung đột nội tâm đưa đến tiến bộ tâm linh.",
+        "reversed": "Mất kết nối với la bàn nội tâm. Hãy thiền định để tìm lại định hướng."
+      }
+    },
+    "advice": "Kiểm soát cả hai mặt của bản thân - lý trí và cảm xúc - để tiến đến mục tiêu với quyết tâm.",
+    "numerology": "7 - Huyền bí, trí tuệ nội tâm, chiến thắng, chủ quyền"
+  },
+  {
+    "id": 8,
+    "name": "Strength",
+    "nameVi": "Sức Mạnh",
+    "number": "VIII",
+    "arcana": "major",
+    "suit": null,
+    "image": "cards/8-Strength.jpg",
+    "planet": "Mặt Trời (Sun)",
+    "zodiac": "Sư Tử (Leo)",
+    "element": "Lửa",
+    "keywords": ["Dũng cảm", "Kiên nhẫn", "Đồng cảm", "Sức mạnh nội tâm", "Tự kiểm soát"],
+    "keywordsReversed": ["Yếu đuối", "Thiếu tự tin", "Lạm dụng quyền lực", "Nghi ngờ bản thân"],
+    "generalUpright": "Strength đại diện cho sức mạnh nội tâm, lòng dũng cảm và khả năng kiểm soát bản năng thô. Bạn mạnh mẽ hơn bạn nghĩ.",
+    "generalReversed": "Khi ngược, lá bài cho thấy thiếu tự tin, sợ hãi hoặc đang cho phép cảm xúc tiêu cực kiểm soát bạn.",
+    "symbols": [
+      {"name": "Người phụ nữ và sư tử", "meaning": "Sức mạnh tinh thần chinh phục bản năng thô"},
+      {"name": "Biểu tượng vô cực", "meaning": "Tiềm năng vô tận và sự kết nối tâm linh"},
+      {"name": "Vòng hoa trên đầu", "meaning": "Chiến thắng tinh thần và sự thuần khiết"},
+      {"name": "Màu trắng", "meaning": "Sự thuần khiết tâm hồn"}
+    ],
+    "aspects": {
+      "love": {
+        "upright": "Mối quan hệ được xây dựng trên sự kiên nhẫn và lòng đồng cảm.",
+        "reversed": "Có thể đang thiếu tự tin hoặc sợ bị tổn thương trong tình yêu."
+      },
+      "career": {
+        "upright": "Đối mặt với thách thức công việc bằng lòng dũng cảm và kiên nhẫn.",
+        "reversed": "Cần tìm lại sự tự tin ở nơi làm việc."
+      },
+      "health": {
+        "upright": "Sức mạnh nội tâm giúp vượt qua bệnh tật và phục hồi tốt.",
+        "reversed": "Cần chú ý đến sức khỏe tâm thần và tìm kiếm sự hỗ trợ."
+      },
+      "finance": {
+        "upright": "Kiên nhẫn và kiên định trong kế hoạch tài chính.",
+        "reversed": "Tránh để nỗi sợ hãi kiểm soát các quyết định tài chính."
+      },
+      "spiritual": {
+        "upright": "Kết nối sức mạnh tâm linh với đời sống thực tế.",
+        "reversed": "Cần làm việc với những nỗi sợ hãi và bóng tối nội tâm."
+      }
+    },
+    "advice": "Sức mạnh thực sự không phải là kiểm soát người khác mà là kiểm soát bản thân bằng tình yêu và lòng đồng cảm.",
+    "numerology": "8 - Quyền lực, cân bằng, vô hạn, thành công vật chất"
+  },
+  {
+    "id": 9,
+    "name": "The Hermit",
+    "nameVi": "Ẩn Sĩ",
+    "number": "IX",
+    "arcana": "major",
+    "suit": null,
+    "image": "cards/9-The-Hermit.jpg",
+    "planet": "Sao Thủy (Mercury)",
+    "zodiac": "Xử Nữ (Virgo)",
+    "element": "Đất",
+    "keywords": ["Cô đơn", "Hướng nội", "Trí tuệ", "Tìm kiếm nội tâm", "Chỉ dẫn"],
+    "keywordsReversed": ["Cô lập quá mức", "Rút lui khỏi xã hội", "Cô đơn không mong muốn"],
+    "generalUpright": "The Hermit kêu gọi bạn rút lui khỏi thế giới bên ngoài để tìm kiếm ánh sáng bên trong. Đây là thời điểm suy ngẫm và tìm kiếm sự thật.",
+    "generalReversed": "Khi ngược, lá bài cảnh báo về sự cô lập quá mức hoặc không sẵn sàng chấp nhận sự giúp đỡ.",
+    "symbols": [
+      {"name": "Đèn lồng với ngôi sao 6 cánh", "meaning": "Ánh sáng tri thức soi đường"},
+      {"name": "Gậy chống", "meaning": "Sức mạnh và sự hỗ trợ trên hành trình"},
+      {"name": "Núi cao phủ tuyết", "meaning": "Đỉnh cao của thành tựu tâm linh"},
+      {"name": "Trang phục xám", "meaning": "Sự vô hình và khiêm tốn"}
+    ],
+    "aspects": {
+      "love": {
+        "upright": "Thời gian cần thiết để hiểu bản thân trước khi tìm kiếm tình yêu.",
+        "reversed": "Có thể đang cô lập bản thân quá mức khỏi tình yêu."
+      },
+      "career": {
+        "upright": "Suy ngẫm kỹ về định hướng sự nghiệp. Thời gian học hỏi và chuẩn bị.",
+        "reversed": "Cần tìm kiếm sự hợp tác và kết nối với đồng nghiệp."
+      },
+      "health": {
+        "upright": "Thời gian nghỉ ngơi và phục hồi. Lắng nghe cơ thể.",
+        "reversed": "Tránh tự cô lập khi đang bệnh. Hãy tìm kiếm sự giúp đỡ."
+      },
+      "finance": {
+        "upright": "Nghiên cứu kỹ trước khi đưa ra quyết định tài chính.",
+        "reversed": "Đừng quá phụ thuộc vào bản thân trong các quyết định tài chính phức tạp."
+      },
+      "spiritual": {
+        "upright": "Thời điểm tuyệt vời để đi sâu vào thiền định và tìm kiếm sự khai sáng.",
+        "reversed": "Tránh sa vào sự cô lập tâm linh tiêu cực."
+      }
+    },
+    "advice": "Hãy dành thời gian một mình để lắng nghe tiếng nói nội tâm. Sự im lặng cũng là một thầy giáo vĩ đại.",
+    "numerology": "9 - Hoàn thành, tri tuệ, nhân đạo, tâm linh"
+  },
+  {
+    "id": 10,
+    "name": "Wheel of Fortune",
+    "nameVi": "Bánh Xe Số Phận",
+    "number": "X",
+    "arcana": "major",
+    "suit": null,
+    "image": "cards/10-Wheel-of-Fortune.jpg",
+    "planet": "Sao Mộc (Jupiter)",
+    "zodiac": "Nhân Mã (Sagittarius)",
+    "element": "Lửa",
+    "keywords": ["Vận mệnh", "Thay đổi", "Chu kỳ", "May mắn", "Bước ngoặt"],
+    "keywordsReversed": ["Vận rủi", "Kháng cự thay đổi", "Phá vỡ chu kỳ", "Mất kiểm soát"],
+    "generalUpright": "Bánh Xe Số Phận báo hiệu sự thay đổi lớn và bước ngoặt trong cuộc đời. Đây là thời điểm của may mắn và vận may.",
+    "generalReversed": "Khi ngược, cảnh báo về vận rủi hoặc chu kỳ tiêu cực. Hãy thích nghi với sự thay đổi.",
+    "symbols": [
+      {"name": "Bánh xe với các biểu tượng", "meaning": "Chu kỳ cuộc sống và vũ trụ"},
+      {"name": "Rắn Typhon", "meaning": "Năng lượng đi xuống"},
+      {"name": "Nhân sư", "meaning": "Tri thức ổn định trước vòng quay số phận"},
+      {"name": "Chữ TARO/TORA/ROTA", "meaning": "Luân hồi và chu kỳ vũ trụ"}
+    ],
+    "aspects": {
+      "love": {
+        "upright": "Bước ngoặt tích cực trong tình yêu. Cơ hội gặp gỡ hoặc phát triển mối quan hệ.",
+        "reversed": "Chu kỳ tiêu cực trong tình yêu. Hãy xem xét lại mẫu hành vi."
+      },
+      "career": {
+        "upright": "Cơ hội nghề nghiệp bất ngờ xuất hiện. Vận may đang đến.",
+        "reversed": "Thay đổi không mong muốn trong công việc. Hãy sẵn sàng thích nghi."
+      },
+      "health": {
+        "upright": "Sức khỏe đang cải thiện. Chu kỳ tốt bắt đầu.",
+        "reversed": "Cần chú ý hơn đến sức khỏe. Vòng lặp tiêu cực."
+      },
+      "finance": {
+        "upright": "May mắn tài chính đang đến. Cơ hội đầu tư tốt.",
+        "reversed": "Thận trọng với rủi ro tài chính. Chuẩn bị cho biến động."
+      },
+      "spiritual": {
+        "upright": "Đang tiến hóa tâm linh theo chu kỳ vũ trụ tự nhiên.",
+        "reversed": "Cần hiểu và chấp nhận các chu kỳ tâm linh."
+      }
+    },
+    "advice": "Hãy đón nhận sự thay đổi với lòng biết ơn. Mọi thứ đều có chu kỳ, và vầng mặt trời luôn mọc sau đêm dài.",
+    "numerology": "10 - Hoàn thành chu kỳ, mới bắt đầu, vận mệnh"
+  }
+]

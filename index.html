@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Huyền Bí Tarot – Nhìn Xuyên Màn Đêm</title>
+  <meta name="description" content="Trải bài Tarot huyền bí – khám phá bí ẩn vận mệnh qua các lá bài cổ xưa." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400;600;700&family=EB+Garamond:ital,wght@0,400;0,500;1,400;1,500&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- Canvas layers -->
+  <canvas id="particleCanvas"></canvas>
+  <canvas id="lightningCanvas"></canvas>
+
+  <!-- Background -->
+  <div class="bg-nebula"></div>
+  <div class="bg-vignette"></div>
+
+  <!-- Floating cards layer -->
+  <div id="floatingCards" class="floating-cards-layer"></div>
+
+  <!-- ===================== LANDING PAGE ===================== -->
+  <div id="pageLanding" class="page page--active">
+    <div class="landing-center">
+      <div class="sigil-wrap">
+        <svg class="sigil-svg" viewBox="0 0 200 200">
+          <circle cx="100" cy="100" r="90" fill="none" stroke="rgba(155,48,255,0.4)" stroke-width="0.8" />
+          <circle cx="100" cy="100" r="70" fill="none" stroke="rgba(201,168,76,0.3)" stroke-width="0.6" />
+          <circle cx="100" cy="100" r="50" fill="none" stroke="rgba(155,48,255,0.6)" stroke-width="0.8" />
+          <polygon points="100,20 118,80 180,80 130,115 150,175 100,140 50,175 70,115 20,80 82,80" fill="none"
+            stroke="rgba(201,168,76,0.25)" stroke-width="0.6" />
+          <circle cx="100" cy="100" r="6" fill="rgba(155,48,255,0.8)" />
+        </svg>
+        <div class="sigil-glow"></div>
+      </div>
+
+      <h1 class="landing-title">Tarot Huyền Bí</h1>
+      <p class="landing-subtitle">Nhìn xuyên màn đêm &mdash; Khám phá vận mệnh</p>
+
+      <div class="landing-rune-row">
+        <span class="rune">&#x16A0;</span>
+        <span class="rune-dot"></span>
+        <span class="rune">&#x16B9;</span>
+        <span class="rune-dot"></span>
+        <span class="rune">&#x16C1;</span>
+        <span class="rune-dot"></span>
+        <span class="rune">&#x16A2;</span>
+      </div>
+
+      <button id="btnOpenForm" class="btn-begin">
+        <span class="btn-begin__aura"></span>
+        <span class="btn-begin__ring"></span>
+        <span class="btn-begin__text">Bắt Đầu Hành Trình</span>
+        <span class="btn-begin__arrow">&#x2192;</span>
+      </button>
+
+      <p class="landing-hint">Chạm vào để vũ trụ lắng nghe</p>
+    </div>
+  </div>
+
+  <!-- ===================== FORM OVERLAY ===================== -->
+  <div id="formOverlay" class="form-overlay">
+    <div class="form-panel">
+      <!-- Progress bar -->
+      <div class="form-progress">
+        <div class="form-progress__bar" id="formProgressBar"></div>
+      </div>
+
+      <!-- Step indicator -->
+      <div class="form-steps-indicator">
+        <div class="step-dot active" data-step="1"></div>
+        <div class="step-line"></div>
+        <div class="step-dot" data-step="2"></div>
+        <div class="step-line"></div>
+        <div class="step-dot" data-step="3"></div>
+        <div class="step-line"></div>
+        <div class="step-dot" data-step="4"></div>
+      </div>
+
+      <button id="btnCloseForm" class="form-close" aria-label="Đóng">&times;</button>
+
+      <!-- STEP 1: Name -->
+      <div class="form-step active" id="step1">
+        <div class="step-header">
+          <span class="step-number">01</span>
+          <h2 class="step-title">Kết Nối Năng Lượng</h2>
+          <p class="step-desc">Tên của bạn sẽ giúp vũ trụ định vị và lắng nghe</p>
+        </div>
+        <div class="field-wrap">
+          <input type="text" id="inputName" class="mystical-input" placeholder=" " autocomplete="off" />
+          <label for="inputName" class="mystical-label">Họ và tên của bạn</label>
+          <div class="input-glow-bar"></div>
+        </div>
+        <div class="step-nav">
+          <button class="btn-next" data-next="2">Tiếp theo <span class="nav-arrow">&#x2192;</span></button>
+        </div>
+      </div>
+
+      <!-- STEP 2: Theme -->
+      <div class="form-step" id="step2">
+        <div class="step-header">
+          <span class="step-number">02</span>
+          <h2 class="step-title">Chọn Lĩnh Vực</h2>
+          <p class="step-desc">Vũ trụ cần biết bạn muốn khám phá điều gì</p>
+        </div>
+        <div class="theme-options" id="themeOptions">
+          <button class="theme-card" data-value="love">
+            <span class="theme-icon-wrap"><span class="theme-icon">&#9829;</span></span>
+            <span class="theme-name">Tình Yêu</span>
+            <span class="theme-desc">Mối quan hệ & cảm xúc</span>
+          </button>
+          <button class="theme-card" data-value="career">
+            <span class="theme-icon-wrap"><span class="theme-icon">&#9651;</span></span>
+            <span class="theme-name">Sự Nghiệp</span>
+            <span class="theme-desc">Công việc & định hướng</span>
+          </button>
+          <button class="theme-card" data-value="finance">
+            <span class="theme-icon-wrap"><span class="theme-icon">&#11045;</span></span>
+            <span class="theme-name">Tài Chính</span>
+            <span class="theme-desc">Tiền bạc & đầu tư</span>
+          </button>
+          <button class="theme-card" data-value="health">
+            <span class="theme-icon-wrap"><span class="theme-icon">&#10022;</span></span>
+            <span class="theme-name">Sức Khỏe</span>
+            <span class="theme-desc">Thể chất & tinh thần</span>
+          </button>
+          <button class="theme-card" data-value="spiritual">
+            <span class="theme-icon-wrap"><span class="theme-icon">&#8734;</span></span>
+            <span class="theme-name">Tâm Linh</span>
+            <span class="theme-desc">Nội tâm & khai sáng</span>
+          </button>
+          <button class="theme-card" data-value="general">
+            <span class="theme-icon-wrap"><span class="theme-icon">&#10038;</span></span>
+            <span class="theme-name">Tổng Quát</span>
+            <span class="theme-desc">Cuộc sống & vận mệnh</span>
+          </button>
+        </div>
+        <div class="step-nav">
+          <button class="btn-prev" data-prev="1"><span class="nav-arrow">&#x2190;</span> Quay lại</button>
+          <button class="btn-next" data-next="3">Tiếp theo <span class="nav-arrow">&#x2192;</span></button>
+        </div>
+      </div>
+
+      <!-- STEP 3: Question -->
+      <div class="form-step" id="step3">
+        <div class="step-header">
+          <span class="step-number">03</span>
+          <h2 class="step-title">Câu Hỏi Của Bạn</h2>
+          <p class="step-desc">Hãy đặt câu hỏi với tất cả sự thành tâm</p>
+        </div>
+        <div class="field-wrap textarea-wrap">
+          <textarea id="inputQuestion" class="mystical-input mystical-textarea" placeholder=" " rows="4"></textarea>
+          <label for="inputQuestion" class="mystical-label">Điều bạn muốn vũ trụ giải đáp...</label>
+          <div class="input-glow-bar"></div>
+          <div class="char-count" id="charCount">0 / 200</div>
+        </div>
+        <div class="step-nav">
+          <button class="btn-prev" data-prev="2"><span class="nav-arrow">&#x2190;</span> Quay lại</button>
+          <button class="btn-next" data-next="4">Tiếp theo <span class="nav-arrow">&#x2192;</span></button>
+        </div>
+      </div>
+
+      <!-- STEP 4: Spread count -->
+      <div class="form-step" id="step4">
+        <div class="step-header">
+          <span class="step-number">04</span>
+          <h2 class="step-title">Chọn Kiểu Trải Bài</h2>
+          <p class="step-desc">Mỗi kiểu trải bài mang một chiều sâu khác nhau</p>
+        </div>
+        <div class="spread-options" id="spreadOptions">
+          <label class="spread-card-opt">
+            <input type="radio" name="spread" value="1" />
+            <div class="spread-card-ui">
+              <div class="spread-visual spread-vis-1">
+                <div class="mini-card"></div>
+              </div>
+              <strong>1 Lá</strong>
+              <span>Câu trả lời trực tiếp</span>
+            </div>
+          </label>
+          <label class="spread-card-opt">
+            <input type="radio" name="spread" value="3" checked />
+            <div class="spread-card-ui">
+              <div class="spread-visual spread-vis-3">
+                <div class="mini-card"></div>
+                <div class="mini-card"></div>
+                <div class="mini-card"></div>
+              </div>
+              <strong>3 Lá</strong>
+              <span>Quá khứ – Hiện tại – Tương lai</span>
+            </div>
+          </label>
+          <label class="spread-card-opt">
+            <input type="radio" name="spread" value="5" />
+            <div class="spread-card-ui">
+              <div class="spread-visual spread-vis-5">
+                <div class="mini-card"></div>
+                <div class="mini-card"></div>
+                <div class="mini-card mc-center"></div>
+                <div class="mini-card"></div>
+                <div class="mini-card"></div>
+              </div>
+              <strong>5 Lá</strong>
+              <span>Trải bài thập tự sâu</span>
+            </div>
+          </label>
+        </div>
+        <div class="step-nav">
+          <button class="btn-prev" data-prev="3"><span class="nav-arrow">&#x2190;</span> Quay lại</button>
+          <button id="btnBeginReading" class="btn-begin-reading">
+            <span class="btn-begin-reading__aura"></span>
+            <span class="btn-begin-reading__text">Mở Bài Tarot</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===================== READING PAGE ===================== -->
+  <div id="pageReading" class="page">
+    <div class="reading-header">
+      <div id="readingUserInfo" class="reading-user-info"></div>
+      <div id="readingQuestion" class="reading-question"></div>
+    </div>
+    <div class="reading-instruction" id="readingInstruction">Tập trung vào câu hỏi và chọn lá bài của bạn</div>
+    <div id="deckArea" class="deck-area"></div>
+    <div id="selectedArea" class="selected-area"></div>
+    <div class="reading-controls">
+      <button id="btnFlipAll" class="btn-control hidden">Lật Tất Cả Lá Bài</button>
+      <button id="btnGoAnalysis" class="btn-control btn-control--primary hidden">Xem Phân Tích</button>
+    </div>
+  </div>
+
+  <!-- ===================== ANALYSIS PAGE ===================== -->
+  <div id="pageAnalysis" class="page">
+    <div id="analysisContent" class="analysis-content"></div>
+    <div class="analysis-footer">
+      <button id="btnNewReading" class="btn-control">Trải Bài Mới</button>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/data.js"></script>
+  <script src="js/particles.js"></script>
+  <script src="js/lightning.js"></script>
+  <script src="js/float-cards.js"></script>
+  <script src="js/effects.js"></script>
+  <script src="js/form.js"></script>
+  <script src="js/reading.js"></script>
+  <script src="js/analysis.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>
