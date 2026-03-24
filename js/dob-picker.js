@@ -12,7 +12,7 @@
 
   const currentYear = new Date().getFullYear();
   const MIN_YEAR = 1920;
-  const MAX_YEAR = currentYear;
+  const MAX_YEAR = currentYear - 16;
 
   /* ── Build item lists ──────────────────────────────── */
   function daysInMonth(m, y) {

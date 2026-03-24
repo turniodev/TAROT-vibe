@@ -184,6 +184,19 @@
   const btnHistoryAnalysis = document.getElementById('btnHistoryAnalysis');
   if (btnHistoryAnalysis) btnHistoryAnalysis.addEventListener('click', open);
 
+  // Back to home (floating btn above history float btn)
+  const btnBackHome = document.getElementById('btnBackHome');
+  if (btnBackHome) {
+    btnBackHome.addEventListener('click', () => {
+      // Close history panel if open
+      close();
+      // Navigate to landing page
+      document.querySelectorAll('.page').forEach(p => p.classList.remove('page--active'));
+      const landing = document.getElementById('pageLanding') || document.querySelector('.page');
+      if (landing) landing.classList.add('page--active');
+    });
+  }
+
   /* ── Expose API ─────────────────────────────────── */
   window.HistoryModule = { save, open, close, renderPanel };
 })();

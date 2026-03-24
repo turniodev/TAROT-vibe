@@ -57,6 +57,65 @@
     }, 150);
   });
 
-  // ── Initial state ──────────────────────────────────
-  showPage('landing');
+  // ── Initial state / Share Link ─────────────────────
+  const urlParams = new URLSearchParams(window.location.search);
+  const shareId = urlParams.get('share');
+
+  if (shareId) {
+    showPage('analysis');
+    loadSharedReading(shareId);
+  } else {
+    showPage('landing');
+  }
+
+  async function loadSharedReading(id) {
+    const contentEl = document.getElementById('analysisContent');
+    contentEl.innerHTML = `
+      <div class="ai-loading">
+        <div class="ai-pulse"></div>
+        <span>Đang tải thông điệp…</span>
+      </div>`;
+    
+    try {
+      const res = await fetch(`https://ka-en.com.vn/tarot_api/get_reading.php?id=${id}`);
+      if (!res.ok) throw new Error("Không tìm thấy kết quả hoặc kết nối lỗi.");
+      const data = await res.json();
+      
+      const session = {
+        name: data.name,
+        dob: data.dob,
+        theme: data.theme,
+        question: data.question,
+        spread: data.spread_count
+      };
+      
+      // Map API cards to app format
+      const cards = data.cards.map(c => {
+        const fullCard = window.TAROT_DB ? window.TAROT_DB.find(db => db.id === c.id) : null;
+        return {
+          id: c.id,
+          name: c.name,
+          nameVi: c.name_vi,
+          number: fullCard ? fullCard.number : '',
+          image: fullCard ? fullCard.image : `images/cards/${c.id}.jpg`,
+          isReversed: c.is_reversed === 1 || c.is_reversed === true,
+          upright: fullCard ? fullCard.upright : c.meaning,
+          reversed: fullCard ? fullCard.reversed : c.meaning,
+          keywords: fullCard ? fullCard.keywords : [],
+          keywordsRev: fullCard ? fullCard.keywordsRev : [],
+          planet: fullCard?.planet,
+          zodiac: fullCard?.zodiac,
+          numerology: fullCard?.numerology,
+          aspects: fullCard?.aspects,
+          advice: fullCard?.advice
+        };
+      });
+
+      window.AnalysisModule.render(cards, session, data.gemini_analysis);
+
+    } catch (err) {
+      alert(err.message);
+      showPage('landing');
+    }
+  }
 })();

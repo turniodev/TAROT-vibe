@@ -22,6 +22,12 @@ window.ReadingModule = (function () {
   let revealQueue  = [];   // [{card, slotIdx}, ...]
   let revealCursor = 0;
 
+  function formatDob(dob) {
+    if (!dob) return '';
+    const p = dob.split('-');
+    return p.length === 3 ? `${p[2]}/${p[1]}/${p[0]}` : dob;
+  }
+
   /* ══════════════════════════════════════════════════
      PUBLIC: init
   ══════════════════════════════════════════════════ */
@@ -34,17 +40,20 @@ window.ReadingModule = (function () {
     labels        = TarotHelper.getSpreadLabels(sess.spread);
     fullDeck      = TarotHelper.drawCards(78);
 
-    userInfo.textContent  = `${sess.name}${sess.dob ? ` (Sinh: ${sess.dob})` : ''}  ·  ${TarotHelper.getThemeLabel(sess.theme)}`;
-    questionEl.textContent = `"${sess.question}"`;
+    const clockSVG = `<svg class="dob-clock-icon" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>`;
+    userInfo.innerHTML  = `${sess.name}${sess.dob ? ' ' + clockSVG + ' ' + formatDob(sess.dob) : ''}  &middot;  ${TarotHelper.getThemeLabel(sess.theme)}`;
+    questionEl.innerHTML = `<span class="reading-q-text">&ldquo;${sess.question}&rdquo;</span>`;
     instruction.textContent = `Tập trung vào câu hỏi và chọn ${sess.spread} lá bài`;
 
     deckArea.innerHTML    = '';
     selectedArea.innerHTML = '';
+    selectedArea.dataset.spread = sess.spread; // for CSS 1-card targeting
 
     deckArea.style.display     = '';
     deckArea.style.opacity     = '1';
     deckArea.style.transform   = 'none';
     deckArea.style.pointerEvents = 'all';
+    document.getElementById('pageReading')?.classList.remove('deck-hidden');
 
     btnFlipAll.classList.add('hidden');
     btnGoAnalysis.classList.add('hidden');
@@ -119,6 +128,7 @@ window.ReadingModule = (function () {
       deckArea.style.pointerEvents = 'none';
       setTimeout(() => {
         deckArea.style.display = 'none';
+        document.getElementById('pageReading')?.classList.add('deck-hidden');
         expandSpreadCards();
       }, 750);
       btnFlipAll.classList.remove('hidden');
@@ -223,7 +233,7 @@ window.ReadingModule = (function () {
 
   /* ══════════════════════════════════════════════════
      FLIP SINGLE CARD
-  ══════════════════════════════════════════════════ */
+  /* ══ FLIP SINGLE CARD ════════════════════════════════ */
   function flipCard(cardEl, card, slotIdx, e) {
     cardEl.classList.add('flipped');
     window.FX?.ripple(cardEl, e, 'rgba(201,168,76,0.4)');
@@ -231,10 +241,18 @@ window.ReadingModule = (function () {
     flippedCount++;
 
     setTimeout(() => {
-      // Push to carousel queue and show
       revealQueue.push({ card, slotIdx });
       revealCursor = revealQueue.length - 1;
-      openMeaningCarousel(revealCursor, true);
+
+      const modalOpen = !!document.getElementById('meaningModal');
+      if (!modalOpen) {
+        // First flip: open with animation
+        openMeaningCarousel(revealCursor, true);
+      } else {
+        // Subsequent flips while modal open: silently update dots only
+        updateCarouselDotsOnly();
+      }
+
       addTapHint(cardEl);
       checkAllFlipped();
     }, 700);
@@ -262,8 +280,24 @@ window.ReadingModule = (function () {
   }
 
   /* ══════════════════════════════════════════════════
-     MEANING MODAL — CAROUSEL
-  ══════════════════════════════════════════════════ */
+   /* ══ MEANING MODAL — CAROUSEL ════════════════════════════ */
+
+  function updateCarouselDotsOnly() {
+    const dotsEl = document.getElementById('mmDotsBar');
+    if (!dotsEl) return;
+    const total = revealQueue.length;
+    dotsEl.innerHTML = revealQueue.map((_, i) =>
+      `<button class="mm-dot${i === revealCursor ? ' active' : ''}" data-i="${i}"></button>`).join('');
+    dotsEl.querySelectorAll('.mm-dot').forEach(d => d.addEventListener('click', () => {
+      const to = parseInt(d.dataset.i);
+      if (to !== revealCursor) {
+        const dir = to > revealCursor ? 1 : -1;
+        revealCursor = to;
+        slideCard(revealCursor, dir);
+      }
+    }));
+  }
+
   function buildCardHTML({ card, slotIdx }) {
     const label      = labels[slotIdx] || `Lá ${slotIdx + 1}`;
     const theme      = session.theme;
@@ -275,24 +309,26 @@ window.ReadingModule = (function () {
     const themeLabel = TarotHelper.getThemeLabel(theme);
     return `
       <div class="mm-layout">
-        <div class="mm-img-col">
+        <div class="mm-header-row">
           <img src="${card.image}" alt="${card.name}"
                class="mm-card-img${isRev ? ' mm-card-img--rev' : ''}"/>
-          <div class="mm-slot-label">${label}</div>
-        </div>
-        <div class="mm-content">
-          <div class="mm-title">${card.name}</div>
-          <div class="mm-subtitle">
-            ${card.nameVi} &nbsp;|&nbsp; ${card.number}
-            &nbsp;|&nbsp;
-            <span class="mm-orient ${isRev ? 'rev' : 'up'}">${isRev ? 'Ngược' : 'Xuôi'}</span>
+          <div class="mm-header-info">
+            <div class="mm-slot-label">${label}</div>
+            <div class="mm-title">${card.name}</div>
+            <div class="mm-subtitle">
+              ${card.nameVi} &nbsp;|&nbsp; ${card.number}
+              &nbsp;|&nbsp;
+              <span class="mm-orient ${isRev ? 'rev' : 'up'}">${isRev ? 'Ngược' : 'Xuôi'}</span>
+            </div>
+            ${card.planet || card.zodiac ? `
+            <div class="mm-meta-row">
+              ${card.planet     ? `<span class="mm-chip">Hành tinh: ${card.planet}</span>` : ''}
+              ${card.zodiac     ? `<span class="mm-chip">Cung: ${card.zodiac}</span>` : ''}
+              ${card.numerology ? `<span class="mm-chip">${card.numerology}</span>` : ''}
+            </div>` : ''}
           </div>
-          ${card.planet || card.zodiac ? `
-          <div class="mm-meta-row">
-            ${card.planet     ? `<span class="mm-chip">Hành tinh: ${card.planet}</span>` : ''}
-            ${card.zodiac     ? `<span class="mm-chip">Cung: ${card.zodiac}</span>` : ''}
-            ${card.numerology ? `<span class="mm-chip">${card.numerology}</span>` : ''}
-          </div>` : ''}
+        </div>
+        <div class="mm-body">
           <div class="mm-section">Ý Nghĩa</div>
           <p class="mm-text">${meaning}</p>
           <div class="mm-section">Từ Khóa</div>
@@ -321,59 +357,117 @@ window.ReadingModule = (function () {
     const showNav = total > 1;
 
     modal.innerHTML = `
-      <div class="meaning-modal-panel">
-        <button class="meaning-modal-close" id="mmClose">&times;</button>
-
-        ${showNav ? `<button class="mm-nav mm-nav--prev" id="mmPrev"${idx === 0 ? ' disabled' : ''}>&#8592;</button>` : ''}
-
-        <div class="mm-card-content">
-          ${buildCardHTML(revealQueue[idx])}
+      <div class="mm-carousel-wrap">
+        ${showNav ? `<button class="mm-nav mm-nav--prev" id="mmPrev"${idx === 0 ? ' disabled' : ''}><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg></button>` : ''}
+        <div class="meaning-modal-panel">
+          <button class="meaning-modal-close" id="mmClose">&times;</button>
+          <div class="mm-card-content" id="mmCardContent">
+            ${buildCardHTML(revealQueue[idx])}
+          </div>
         </div>
+        ${showNav ? `<button class="mm-nav mm-nav--next" id="mmNext"${idx === total - 1 ? ' disabled' : ''}><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg></button>` : ''}
+      </div>
+      ${showNav ? `
+      <div class="mm-dots" id="mmDotsBar">
+        ${revealQueue.map((_, i) => `<button class="mm-dot${i === idx ? ' active' : ''}" data-i="${i}"></button>`).join('')}
+      </div>` : ''}`;
 
-        ${showNav ? `<button class="mm-nav mm-nav--next" id="mmNext"${idx === total - 1 ? ' disabled' : ''}>&#8594;</button>` : ''}
-
-        ${showNav ? `
-        <div class="mm-dots">
-          ${revealQueue.map((_, i) => `<button class="mm-dot${i === idx ? ' active' : ''}" data-i="${i}"></button>`).join('')}
-        </div>` : ''}
-      </div>`;
-
+    // Close
     modal.querySelector('#mmClose').addEventListener('click', closeMeaningModal);
+
+    // Prev / Next
     modal.querySelector('#mmPrev')?.addEventListener('click', () => {
-      if (revealCursor > 0) { revealCursor--; renderMeaningModal(modal, revealCursor, false); }
+      if (revealCursor > 0) { revealCursor--; slideCard(revealCursor, -1); }
     });
     modal.querySelector('#mmNext')?.addEventListener('click', () => {
-      if (revealCursor < revealQueue.length - 1) { revealCursor++; renderMeaningModal(modal, revealCursor, false); }
+      if (revealCursor < revealQueue.length - 1) { revealCursor++; slideCard(revealCursor, 1); }
     });
+
+    // Dots
     modal.querySelectorAll('.mm-dot').forEach(d => d.addEventListener('click', () => {
-      revealCursor = parseInt(d.dataset.i);
-      renderMeaningModal(modal, revealCursor, false);
+      const to = parseInt(d.dataset.i);
+      if (to !== revealCursor) { const dir = to > revealCursor ? 1 : -1; revealCursor = to; slideCard(revealCursor, dir); }
     }));
 
-    // Keyboard nav
+    // Keyboard
     if (modal._key) document.removeEventListener('keydown', modal._key);
     modal._key = e => {
       if (!document.getElementById('meaningModal')) return;
-      if (e.key === 'ArrowRight' && revealCursor < revealQueue.length - 1) { revealCursor++; renderMeaningModal(modal, revealCursor, false); }
-      if (e.key === 'ArrowLeft'  && revealCursor > 0)                      { revealCursor--; renderMeaningModal(modal, revealCursor, false); }
+      if (e.key === 'ArrowRight' && revealCursor < revealQueue.length - 1) { revealCursor++; slideCard(revealCursor, 1); }
+      if (e.key === 'ArrowLeft'  && revealCursor > 0) { revealCursor--; slideCard(revealCursor, -1); }
       if (e.key === 'Escape') closeMeaningModal();
     };
     document.addEventListener('keydown', modal._key);
 
     if (animate) {
-      modal.style.display = 'flex'; modal.style.opacity = '0';
+      modal.style.display = 'flex'; modal.style.flexDirection = 'column'; modal.style.opacity = '0';
       const p = modal.querySelector('.meaning-modal-panel');
       p.style.transform = 'scale(0.88) translateY(20px)'; p.style.opacity = '0';
       if (window.triggerLightning) window.triggerLightning();
       requestAnimationFrame(() => requestAnimationFrame(() => {
         modal.style.transition = 'opacity 0.35s'; modal.style.opacity = '1';
         p.style.transition = 'transform 0.45s cubic-bezier(0.22,1,0.36,1), opacity 0.45s';
-        p.style.transform  = 'scale(1) translateY(0)'; p.style.opacity = '1';
+        p.style.transform = 'scale(1) translateY(0)'; p.style.opacity = '1';
       }));
     } else {
-      modal.style.display = 'flex'; modal.style.opacity = '1';
+      modal.style.display = 'flex'; modal.style.flexDirection = 'column'; modal.style.opacity = '1';
     }
+
+    // Touch swipe support for mobile
+    addSwipeGesture(modal);
   }
+
+  function addSwipeGesture(modal) {
+    const panel = modal.querySelector('.meaning-modal-panel');
+    if (!panel) return;
+    let startX = 0;
+    const onTouchStart = e => { startX = e.touches[0].clientX; };
+    const onTouchEnd   = e => {
+      const dx = e.changedTouches[0].clientX - startX;
+      if (Math.abs(dx) < 40) return;
+      if (dx < 0 && revealCursor < revealQueue.length - 1) { revealCursor++; slideCard(revealCursor, 1); }
+      if (dx > 0 && revealCursor > 0)                      { revealCursor--; slideCard(revealCursor, -1); }
+    };
+    panel.removeEventListener('touchstart', panel._ts);
+    panel.removeEventListener('touchend',   panel._te);
+    panel._ts = onTouchStart;
+    panel._te = onTouchEnd;
+    panel.addEventListener('touchstart', panel._ts, { passive: true });
+    panel.addEventListener('touchend',   panel._te, { passive: true });
+  }
+
+  function slideCard(idx, dir) {
+    const modal   = document.getElementById('meaningModal');
+    if (!modal) return;
+    const content = document.getElementById('mmCardContent');
+    if (!content) return;
+
+    // Slide out old
+    content.style.transition = 'transform 0.22s ease-in, opacity 0.18s';
+    content.style.transform  = `translateX(${dir < 0 ? '60px' : '-60px'})`;
+    content.style.opacity    = '0';
+
+    setTimeout(() => {
+      content.innerHTML = buildCardHTML(revealQueue[idx]);
+      content.style.transition = 'none';
+      content.style.transform  = `translateX(${dir < 0 ? '-40px' : '40px'})`;
+      content.style.opacity    = '0';
+      requestAnimationFrame(() => requestAnimationFrame(() => {
+        content.style.transition = 'transform 0.3s cubic-bezier(0.22,1,0.36,1), opacity 0.28s';
+        content.style.transform  = 'translateX(0)';
+        content.style.opacity    = '1';
+      }));
+
+      // Update nav + dots
+      const total = revealQueue.length;
+      const prev  = modal.querySelector('#mmPrev');
+      const next  = modal.querySelector('#mmNext');
+      if (prev) prev.disabled = idx === 0;
+      if (next) next.disabled = idx === total - 1;
+      modal.querySelectorAll('.mm-dot').forEach((d, i) => d.classList.toggle('active', i === idx));
+    }, 220);
+  }
+
 
   function closeMeaningModal() {
     const modal = document.getElementById('meaningModal');
