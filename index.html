@@ -23,6 +23,16 @@
   <!-- Background -->
   <div class="bg-nebula"></div>
   <div class="bg-vignette"></div>
+  <!-- Large faint background sigil -->
+  <div class="bg-sigil-wrap" aria-hidden="true">
+    <svg class="bg-sigil-svg" viewBox="0 0 400 400">
+      <circle cx="200" cy="200" r="188" fill="none" stroke="rgba(155,48,255,0.07)" stroke-width="1.2" />
+      <circle cx="200" cy="200" r="150" fill="none" stroke="rgba(201,168,76,0.06)" stroke-width="0.9" />
+      <circle cx="200" cy="200" r="112" fill="none" stroke="rgba(155,48,255,0.08)" stroke-width="0.8" />
+      <circle cx="200" cy="200" r="70" fill="none" stroke="rgba(201,168,76,0.05)" stroke-width="0.6" />
+    </svg>
+  </div>
+
 
   <!-- Floating cards layer -->
   <div id="floatingCards" class="floating-cards-layer"></div>
@@ -62,6 +72,13 @@
         <span class="btn-begin__arrow">&#x2192;</span>
       </button>
 
+      <button id="btnHistory" class="btn-history" title="Lịch Sử Trải Bài">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+          <circle cx="12" cy="12" r="10" />
+          <polyline points="12 6 12 12 16 14" />
+        </svg>
+        Trãi bài quá khứ
+      </button>
       <p class="landing-hint">Chạm vào để vũ trụ lắng nghe</p>
     </div>
   </div>
@@ -87,16 +104,21 @@
 
       <button id="btnCloseForm" class="form-close" aria-label="Đóng">&times;</button>
 
-      <!-- STEP 1: Name -->
+      <!-- STEP 1: Name & DOB -->
       <div class="form-step active" id="step1">
         <div class="step-header">
           <span class="step-number">01</span>
-          <h2 class="step-title">Kết Nối Năng Lượng</h2>
-          <p class="step-desc">Tên của bạn sẽ giúp vũ trụ định vị và lắng nghe</p>
+          <h2 class="step-title">Người Trải Bài</h2>
+          <p class="step-desc">Tên và ngày sinh giúp vũ trụ kết nối năng lượng chính xác hơn</p>
+        </div>
+        <div class="field-wrap" style="margin-bottom: 24px;">
+          <input type="text" id="inputName" class="mystical-input" placeholder=" " autocomplete="off" />
+          <label for="inputName" class="mystical-label">Họ Tên của bạn</label>
+          <div class="input-glow-bar"></div>
         </div>
         <div class="field-wrap">
-          <input type="text" id="inputName" class="mystical-input" placeholder=" " autocomplete="off" />
-          <label for="inputName" class="mystical-label">Họ và tên của bạn</label>
+          <input type="date" id="inputDob" class="mystical-input" placeholder=" " />
+          <label for="inputDob" class="mystical-label">Ngày Sinh</label>
           <div class="input-glow-bar"></div>
         </div>
         <div class="step-nav">
@@ -111,41 +133,13 @@
           <h2 class="step-title">Chọn Lĩnh Vực</h2>
           <p class="step-desc">Vũ trụ cần biết bạn muốn khám phá điều gì</p>
         </div>
-        <div class="theme-options" id="themeOptions">
-          <button class="theme-card" data-value="love">
-            <span class="theme-icon-wrap"><span class="theme-icon">&#9829;</span></span>
-            <span class="theme-name">Tình Yêu</span>
-            <span class="theme-desc">Mối quan hệ & cảm xúc</span>
-          </button>
-          <button class="theme-card" data-value="career">
-            <span class="theme-icon-wrap"><span class="theme-icon">&#9651;</span></span>
-            <span class="theme-name">Sự Nghiệp</span>
-            <span class="theme-desc">Công việc & định hướng</span>
-          </button>
-          <button class="theme-card" data-value="finance">
-            <span class="theme-icon-wrap"><span class="theme-icon">&#11045;</span></span>
-            <span class="theme-name">Tài Chính</span>
-            <span class="theme-desc">Tiền bạc & đầu tư</span>
-          </button>
-          <button class="theme-card" data-value="health">
-            <span class="theme-icon-wrap"><span class="theme-icon">&#10022;</span></span>
-            <span class="theme-name">Sức Khỏe</span>
-            <span class="theme-desc">Thể chất & tinh thần</span>
-          </button>
-          <button class="theme-card" data-value="spiritual">
-            <span class="theme-icon-wrap"><span class="theme-icon">&#8734;</span></span>
-            <span class="theme-name">Tâm Linh</span>
-            <span class="theme-desc">Nội tâm & khai sáng</span>
-          </button>
-          <button class="theme-card" data-value="general">
-            <span class="theme-icon-wrap"><span class="theme-icon">&#10038;</span></span>
-            <span class="theme-name">Tổng Quát</span>
-            <span class="theme-desc">Cuộc sống & vận mệnh</span>
-          </button>
-        </div>
-        <div class="step-nav">
+        <!-- Level 1: 5 main theme cards -->
+        <div class="theme-options" id="mainThemeGrid"></div>
+        <!-- Level 2: sub-themes (shown after main selected) -->
+        <div class="sub-theme-panel hidden" id="subThemePanel"></div>
+        <div class="step-nav" style="margin-top:14px;">
           <button class="btn-prev" data-prev="1"><span class="nav-arrow">&#x2190;</span> Quay lại</button>
-          <button class="btn-next" data-next="3">Tiếp theo <span class="nav-arrow">&#x2192;</span></button>
+          <button id="btnSkipTheme" class="btn-skip-theme" type="button">Bỏ Qua</button>
         </div>
       </div>
 
@@ -156,12 +150,28 @@
           <h2 class="step-title">Câu Hỏi Của Bạn</h2>
           <p class="step-desc">Hãy đặt câu hỏi với tất cả sự thành tâm</p>
         </div>
-        <div class="field-wrap textarea-wrap">
-          <textarea id="inputQuestion" class="mystical-input mystical-textarea" placeholder=" " rows="4"></textarea>
-          <label for="inputQuestion" class="mystical-label">Điều bạn muốn vũ trụ giải đáp...</label>
-          <div class="input-glow-bar"></div>
-          <div class="char-count" id="charCount">0 / 200</div>
+
+        <!-- Mode tabs -->
+        <div class="q-mode-tabs">
+          <button class="q-tab active" id="tabCustomQ" type="button">Tự Nhập</button>
+          <button class="q-tab" id="tabPresetQ" type="button">Câu Hỏi Gợi Ý</button>
         </div>
+
+        <!-- Custom input panel -->
+        <div id="customQPanel">
+          <div class="field-wrap textarea-wrap">
+            <textarea id="inputQuestion" class="mystical-input mystical-textarea" placeholder=" " rows="4"></textarea>
+            <label for="inputQuestion" class="mystical-label">Ðiều bạn muốn vũ trụ giải đáp...</label>
+            <div class="input-glow-bar"></div>
+            <div class="char-count" id="charCount">0 / 200</div>
+          </div>
+        </div>
+
+        <!-- Preset questions panel -->
+        <div id="presetQPanel" class="hidden">
+          <div class="preset-q-grid" id="presetQGrid"></div>
+        </div>
+
         <div class="step-nav">
           <button class="btn-prev" data-prev="2"><span class="nav-arrow">&#x2190;</span> Quay lại</button>
           <button class="btn-next" data-next="4">Tiếp theo <span class="nav-arrow">&#x2192;</span></button>
@@ -183,7 +193,9 @@
                 <div class="mini-card"></div>
               </div>
               <strong>1 Lá</strong>
-              <span>Câu trả lời trực tiếp</span>
+              <span>Năng lượng ngày hôm nay</span>
+              <p class="spread-detail">Một lá bài duy nhất — thông điệp rõ ràng, tập trung. Lý tưởng khi bạn cần một câu
+                trả lời nhanh hoặc năng lượng của ngày hôm nay.</p>
             </div>
           </label>
           <label class="spread-card-opt">
@@ -196,6 +208,8 @@
               </div>
               <strong>3 Lá</strong>
               <span>Quá khứ – Hiện tại – Tương lai</span>
+              <p class="spread-detail">Khám phá nguồn gốc vấn đề, trạng thái hiện tại và hướng đi phía trước. Phố biến
+                nhất, phù hợp với hầu hết mọi câu hỏi.</p>
             </div>
           </label>
           <label class="spread-card-opt">
@@ -210,6 +224,8 @@
               </div>
               <strong>5 Lá</strong>
               <span>Trải bài thập tự sâu</span>
+              <p class="spread-detail">5 lá: Tình huống • Thách thức • Lời khuyên • Ảnh hưởng bên ngoài • Kết quả. Phân
+                tích toàn diện, dành cho những câu hỏi phức tạp.</p>
             </div>
           </label>
         </div>
@@ -243,7 +259,60 @@
   <div id="pageAnalysis" class="page">
     <div id="analysisContent" class="analysis-content"></div>
     <div class="analysis-footer">
-      <button id="btnNewReading" class="btn-control">Trải Bài Mới</button>
+      <button id="btnNewReading" class="btn-control btn-control--primary">Trải Bài Mới</button>
+    </div>
+  </div>
+
+  <!-- ===================== HISTORY PANEL ===================== -->
+  <div id="historyOverlay" class="history-overlay"></div>
+  <div id="historyPanel" class="history-panel">
+    <div class="history-panel__header">
+      <div>
+        <div class="history-panel__title">Lịch Sử Trải Bài</div>
+        <div class="history-panel__sub">Được lưu tự động trên thiết bị này</div>
+      </div>
+      <button id="btnHistoryClose" class="history-close-btn">&times;</button>
+    </div>
+    <div id="historyList" class="history-list"></div>
+  </div>
+
+
+
+  <!-- ============ DAILY LIMIT — BLOCKED (1-card) ============ -->
+  <div id="dlBlockedModal" class="dl-overlay">
+    <div class="dl-panel dl-blocked">
+      <div class="dl-sigil">✦</div>
+      <h2 class="dl-title">Năng Lượng Đã Thiết Lập</h2>
+      <p class="dl-body">
+        Vũ trụ đã gửi thông điệp cho chủ đề
+        <strong class="dlb-theme"></strong>
+        của bạn hôm nay.
+      </p>
+      <p class="dl-body">
+        Mỗi cánh cửa chỉ mở một lần mỗi ngày — hãy suy ngẫm
+        thông điệp đó cho đến <strong>23:59</strong>.
+        Còn lại <strong class="dlb-time"></strong>.
+      </p>
+      <p class="dl-hint">Hãy thử một chủ đề khác, hoặc quay lại ngày mai.</p>
+      <button id="dlbBtnClose" class="dl-btn dl-btn--primary">Tôi Hiểu Rồi</button>
+    </div>
+  </div>
+
+  <!-- ============ DAILY LIMIT — WARNING (3/5-card) ============ -->
+  <div id="dlWarnModal" class="dl-overlay">
+    <div class="dl-panel dl-warn">
+      <div class="dl-sigil dl-sigil--gold">☽</div>
+      <h2 class="dl-title">Vũ Trụ Đã Lên Tiếng</h2>
+      <p class="dl-body">
+        Bạn đã trải bài chủ đề này hôm nay. Năng lượng tâm linh
+        thường mang ý nghĩa sâu sắc nhất ở lần đầu tiên —
+        việc hỏi lại có thể làm <em>mờ đi</em> thông điệp ban đầu.
+      </p>
+      <p class="dl-hint">Bạn có muốn tiếp tục dù vậy?</p>
+      <div class="dl-actions">
+        <button id="dlwBtnClose"    class="dl-btn">Quay Lại</button>
+        <button id="dlwBtnContinue" class="dl-btn dl-btn--primary">Tiếp Tục</button>
+      </div>
     </div>
   </div>
 
@@ -256,6 +325,8 @@
   <script src="js/form.js"></script>
   <script src="js/reading.js"></script>
   <script src="js/analysis.js"></script>
+  <script src="js/history.js"></script>
+  <script src="js/daily_limit.js"></script>
   <script src="js/app.js"></script>
 </body>
 

@@ -19,7 +19,7 @@ window.AnalysisModule = (function () {
     titleBlock.innerHTML = `
       <h1 class="analysis-main-title">Thông Điệp Từ Vũ Trụ</h1>
       <div class="analysis-divider"></div>
-      <p class="analysis-meta-line">${session.name} &mdash; ${themeLabel}</p>
+      <p class="analysis-meta-line">${session.name}${session.dob ? ` (Sinh: ${session.dob})` : ''} &mdash; ${themeLabel}</p>
       <p class="analysis-question-line">"${session.question}"</p>
     `;
     container.appendChild(titleBlock);
@@ -30,7 +30,17 @@ window.AnalysisModule = (function () {
       const meaning = isRev ? card.reversed : card.upright;
       const kws     = (isRev ? card.keywordsRev : card.keywords) || [];
       const aspect  = card.aspects?.[theme] || card.aspects?.love || null;
-      const aspectText = aspect ? (isRev ? aspect.rev : aspect.up) : null;
+      let aspectText = aspect ? (isRev ? aspect.rev : aspect.up) : null;
+
+      // Avoid rendering identical text if meaning and aspectText are very similar
+      if (aspectText && meaning) {
+        const mTrim = meaning.trim();
+        const aTrim = aspectText.trim();
+        // Compare first 40 chars to catch "Trong mối quan hệ: " prefixed exact copies
+        if (mTrim === aTrim || mTrim.includes(aTrim.substring(0, 40)) || aTrim.includes(mTrim.substring(0, 40))) {
+          aspectText = null;
+        }
+      }
 
       const block = document.createElement('div');
       block.className = 'analysis-block';

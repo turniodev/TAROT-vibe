@@ -28,12 +28,19 @@ window.ReadingModule = (function () {
     labels        = TarotHelper.getSpreadLabels(sess.spread);
     fullDeck      = TarotHelper.drawCards(78); // full 78-card deck
 
-    userInfo.textContent  = `${sess.name}  ·  ${TarotHelper.getThemeLabel(sess.theme)}`;
+    userInfo.textContent  = `${sess.name}${sess.dob ? ` (Sinh: ${sess.dob})` : ''}  ·  ${TarotHelper.getThemeLabel(sess.theme)}`;
     questionEl.textContent = `"${sess.question}"`;
     instruction.textContent = `Tập trung vào câu hỏi và chọn ${sess.spread} lá bài`;
 
     deckArea.innerHTML     = '';
     selectedArea.innerHTML = '';
+
+    // Reset deck visibility from previous readings
+    deckArea.style.display       = '';
+    deckArea.style.opacity       = '1';
+    deckArea.style.transform     = 'none';
+    deckArea.style.pointerEvents = 'all';
+
     btnFlipAll.classList.add('hidden');
     btnGoAnalysis.classList.add('hidden');
 
@@ -94,11 +101,11 @@ window.ReadingModule = (function () {
     const slotIdx = selectedCards.length - 1;
 
     setTimeout(() => {
-      el.style.visibility = 'hidden'; // keep space, just invisible
-      el.style.opacity    = '';
+      el.style.opacity    = '0.15';
       el.style.transform  = '';
       el.style.transition = '';
       el.style.pointerEvents = 'none';
+      el.style.filter = 'grayscale(0.5)';
       addSelectedSlot(card, slotIdx);
       updateInstruction();
     }, 420);
@@ -111,26 +118,26 @@ window.ReadingModule = (function () {
     } else {
       instruction.textContent = 'Hãy lật từng lá bài để khám phá thông điệp';
       // Hide deck when all cards selected
-      deckArea.style.transition = 'opacity 0.5s, transform 0.5s';
+      deckArea.style.transition = 'opacity 0.75s ease-out, transform 0.75s ease-out';
       deckArea.style.opacity = '0';
-      deckArea.style.transform = 'scale(0.95)';
+      deckArea.style.transform = 'translateY(15px) scale(0.92)';
       deckArea.style.pointerEvents = 'none';
       setTimeout(() => {
         deckArea.style.display = 'none';
         expandSpreadCards();  // grow cards to full size after deck hides
-      }, 520);
+      }, 750);
       btnFlipAll.classList.remove('hidden');
     }
   }
 
   /* ── Dynamic card sizing ──────────────────────────── */
-  const SMALL_W = 120, SMALL_H = 206;   // while deck is visible
+  const SMALL_W = 100, SMALL_H = 172;   // while deck is visible
 
   function getSpreadCardSize() {
     const n       = session.spread;
     const gap     = 22;
     const padding = 48;
-    const maxH    = Math.min(window.innerHeight * 0.64, 580);
+    const maxH    = Math.min(window.innerHeight * 0.58, 540); // Slightly smaller height
     const usableW = Math.min(window.innerWidth - padding * 2, 1100);
     const wByW    = Math.floor((usableW - (n - 1) * gap) / n);
     const wByH    = Math.floor(maxH / 1.72);
@@ -144,10 +151,10 @@ window.ReadingModule = (function () {
     const cards = selectedArea.querySelectorAll('.spread-card');
     cards.forEach((c, i) => {
       setTimeout(() => {
-        c.style.transition = 'width 0.55s cubic-bezier(0.22,1,0.36,1), height 0.55s cubic-bezier(0.22,1,0.36,1)';
+        c.style.transition = 'width 0.6s cubic-bezier(0.22,1,0.36,1), height 0.6s cubic-bezier(0.22,1,0.36,1)';
         c.style.width  = w + 'px';
         c.style.height = h + 'px';
-      }, i * 60);
+      }, i * 65);
     });
   }
 
