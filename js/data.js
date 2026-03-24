@@ -1,4 +1,4 @@
-// js/data.js - Full 78 Cards (Standardized)
+// js/data.js - Full 78 Cards (Standardized & Astrologically Accurate)
 (function () {
   window.TAROT_DB = [
   {
@@ -1238,10 +1238,10 @@
         "rev": "Mất kết nối với mục đích sống."
       }
     },
-    "planet": "",
-    "zodiac": "",
-    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
-    "numerology": ""
+    "planet": "Nguyên tố Lửa",
+    "zodiac": "Bạch Dương, Sư Tử, Nhân Mã",
+    "advice": "Hãy nắm bắt ngay cảm hứng đang dâng trào và bắt tay vào hành động.",
+    "numerology": "Số 1 - Hạt giống, tiềm năng, khởi đầu, ý chí."
   },
   {
     "id": 23,
@@ -1287,10 +1287,10 @@
         "rev": "Sợ mở rộng thế giới quan."
       }
     },
-    "planet": "",
-    "zodiac": "",
-    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
-    "numerology": ""
+    "planet": "Sao Hỏa",
+    "zodiac": "Bạch Dương",
+    "advice": "Đã đến lúc bước ra khỏi vùng an toàn. Lập kế hoạch và nhìn xa hơn.",
+    "numerology": "Số 2 - Cân bằng, sự kết hợp, đối lập, lựa chọn."
   },
   {
     "id": 24,
@@ -1336,10 +1336,10 @@
         "rev": "Thất vọng vì chưa đạt được giác ngộ như mong muốn."
       }
     },
-    "planet": "",
-    "zodiac": "",
-    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
-    "numerology": ""
+    "planet": "Mặt Trời",
+    "zodiac": "Bạch Dương",
+    "advice": "Hãy kiên nhẫn. Tầm nhìn của bạn đang đi đúng hướng, chỉ cần chờ đợi kết quả.",
+    "numerology": "Số 3 - Phát triển, sáng tạo, làm việc nhóm, mở rộng."
   },
   {
     "id": 25,
@@ -1385,10 +1385,10 @@
         "rev": "Cảm thấy lạc lõng trong cộng đồng của mình."
       }
     },
-    "planet": "",
-    "zodiac": "",
-    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
-    "numerology": ""
+    "planet": "Sao Kim",
+    "zodiac": "Bạch Dương",
+    "advice": "Hãy dành thời gian ăn mừng những thành quả và tận hưởng sự bình yên bên người thân.",
+    "numerology": "Số 4 - Ổn định, cấu trúc, nền tảng, sự an toàn."
   },
   {
     "id": 26,
@@ -1434,10 +1434,10 @@
         "rev": "Chấp nhận sự khác biệt về niềm tin."
       }
     },
-    "planet": "",
-    "zodiac": "",
-    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
-    "numerology": ""
+    "planet": "Sao Thổ",
+    "zodiac": "Sư Tử",
+    "advice": "Cạnh tranh là để phát triển. Hãy đấu tranh công bằng nhưng đừng để cái tôi lấn át.",
+    "numerology": "Số 5 - Thay đổi, xung đột, mất mát, thử thách."
   },
   {
     "id": 27,
@@ -1483,10 +1483,10 @@
         "rev": "Cái tôi tâm linh quá lớn."
       }
     },
-    "planet": "",
-    "zodiac": "",
-    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
-    "numerology": ""
+    "planet": "Sao Mộc",
+    "zodiac": "Sư Tử",
+    "advice": "Hãy tự hào về thành tựu của mình, nhưng đừng để sự kiêu ngạo làm mờ mắt.",
+    "numerology": "Số 6 - Hài hòa, phục hồi, hợp tác, cho và nhận."
   },
   {
     "id": 28,
@@ -1532,10 +1532,10 @@
         "rev": "Dao động và từ bỏ niềm tin."
       }
     },
-    "planet": "",
-    "zodiac": "",
-    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
-    "numerology": ""
+    "planet": "Sao Hỏa",
+    "zodiac": "Sư Tử",
+    "advice": "Hãy giữ vững lập trường của bạn. Đừng lùi bước trước áp lực của người khác.",
+    "numerology": "Số 7 - Đánh giá, kiên nhẫn, chiến thuật, suy ngẫm."
   },
   {
     "id": 29,
@@ -1581,10 +1581,10 @@
         "rev": "Cảm thấy quá tải với các luồng thông tin tâm linh."
       }
     },
-    "planet": "",
-    "zodiac": "",
-    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
-    "numerology": ""
+    "planet": "Sao Thủy",
+    "zodiac": "Nhân Mã",
+    "advice": "Mọi thứ đang diễn ra rất nhanh, hãy linh hoạt và nắm bắt kịp thời các luồng thông tin.",
+    "numerology": "Số 8 - Hành động, tốc độ, chuyên cần, sức mạnh."
   },
   {
     "id": 30,
@@ -1630,10 +1630,10 @@
         "rev": "Mất niềm tin do quá nhiều sóng gió."
       }
     },
-    "planet": "",
-    "zodiac": "",
-    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
-    "numerology": ""
+    "planet": "Mặt Trăng",
+    "zodiac": "Nhân Mã",
+    "advice": "Bạn đã vượt qua rất nhiều thử thách. Hãy ráng thêm chút nữa, đích đến đã rất gần.",
+    "numerology": "Số 9 - Gần hoàn thiện, đỉnh cao cá nhân, độc lập."
   },
   {
     "id": 31,
@@ -1679,10 +1679,10 @@
         "rev": "Giải phóng bản thân khỏi các nghĩa vụ tự áp đặt."
       }
     },
-    "planet": "",
-    "zodiac": "",
-    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
-    "numerology": ""
+    "planet": "Sao Thổ",
+    "zodiac": "Nhân Mã",
+    "advice": "Đừng ngại san sẻ gánh nặng. Biết từ chối những trách nhiệm không thuộc về mình.",
+    "numerology": "Số 10 - Kết thúc chu kỳ, viên mãn hoặc sụp đổ."
   },
   {
     "id": 32,
@@ -1728,10 +1728,10 @@
         "rev": "Theo đuổi tâm linh theo phong trào, hời hợt."
       }
     },
-    "planet": "",
-    "zodiac": "",
-    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
-    "numerology": ""
+    "planet": "Trái Đất",
+    "zodiac": "Thuộc Lửa",
+    "advice": "Luôn giữ tâm trí tò mò và cởi mở với những khám phá mới trong cuộc sống.",
+    "numerology": "Cấp Tiểu Đồng (Page) - Trẻ trung, học hỏi, tin tức, tò mò."
   },
   {
     "id": 33,
@@ -1777,10 +1777,10 @@
         "rev": "Áp đặt niềm tin của mình lên người khác một cách hung hăng."
       }
     },
-    "planet": "",
-    "zodiac": "",
-    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
-    "numerology": ""
+    "planet": "Không Khí",
+    "zodiac": "Thuộc Lửa",
+    "advice": "Hành động quyết liệt là tốt, nhưng hãy suy nghĩ về hậu quả trước khi lao đi.",
+    "numerology": "Cấp Kỵ Sĩ (Knight) - Năng lượng, di chuyển, theo đuổi mục tiêu."
   },
   {
     "id": 34,
@@ -1828,10 +1828,10 @@
         "rev": "Sử dụng năng lượng để thu hút sự chú ý thay vì tĩnh tại."
       }
     },
-    "planet": "",
-    "zodiac": "",
-    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
-    "numerology": ""
+    "planet": "Nước",
+    "zodiac": "Thuộc Lửa",
+    "advice": "Hãy tự tin tỏa sáng và truyền năng lượng tích cực, ấm áp đến những người xung quanh.",
+    "numerology": "Cấp Nữ Hoàng (Queen) - Trưởng thành, nuôi dưỡng, làm chủ nội tâm."
   },
   {
     "id": 35,
@@ -1878,10 +1878,10 @@
         "rev": "Giáo điều, ép buộc người khác theo ý mình."
       }
     },
-    "planet": "",
-    "zodiac": "",
-    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
-    "numerology": ""
+    "planet": "Lửa",
+    "zodiac": "Thuộc Lửa",
+    "advice": "Dùng tầm nhìn và sự lãnh đạo để dẫn dắt người khác, nhưng tránh thói độc tài.",
+    "numerology": "Cấp Vua (King) - Lãnh đạo, quyền lực, kiểm soát bên ngoài."
   },
   {
     "id": 36,
@@ -1927,10 +1927,10 @@
         "rev": "Mất kết nối với tâm hồn, cảm thấy trống rỗng."
       }
     },
-    "planet": "",
-    "zodiac": "",
-    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
-    "numerology": ""
+    "planet": "Nguyên tố Nước",
+    "zodiac": "Cự Giải, Bọ Cạp, Song Ngư",
+    "advice": "Hãy mở rộng trái tim để đón nhận tình yêu và để cảm xúc tuôn chảy tự nhiên.",
+    "numerology": "Số 1 - Hạt giống, tiềm năng, khởi đầu, ý chí."
   },
   {
     "id": 37,
@@ -1976,10 +1976,10 @@
         "rev": "Ảo tưởng về tri kỷ, bỏ mặc bản thân."
       }
     },
-    "planet": "",
-    "zodiac": "",
-    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
-    "numerology": ""
+    "planet": "Sao Kim",
+    "zodiac": "Cự Giải",
+    "advice": "Trân trọng sự kết nối đồng điệu. Sự hợp tác dựa trên tình yêu và tôn trọng là chìa khóa.",
+    "numerology": "Số 2 - Cân bằng, sự kết hợp, đối lập, lựa chọn."
   },
   {
     "id": 38,
@@ -2025,10 +2025,10 @@
         "rev": "Bị nhóm bạn xấu kéo lùi sự phát triển tâm linh."
       }
     },
-    "planet": "",
-    "zodiac": "",
-    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
-    "numerology": ""
+    "planet": "Sao Thủy",
+    "zodiac": "Cự Giải",
+    "advice": "Cùng chia sẻ niềm vui với cộng đồng và bạn bè. Đừng tự cô lập mình.",
+    "numerology": "Số 3 - Phát triển, sáng tạo, làm việc nhóm, mở rộng."
   },
   {
     "id": 39,
@@ -2074,10 +2074,10 @@
         "rev": "Mở rộng lòng mình đón nhận sự thật tâm linh."
       }
     },
-    "planet": "",
-    "zodiac": "",
-    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
-    "numerology": ""
+    "planet": "Mặt Trăng",
+    "zodiac": "Cự Giải",
+    "advice": "Đừng quá chìm đắm trong nỗi buồn mà phớt lờ những cơ hội tuyệt vời đang được trao cho bạn.",
+    "numerology": "Số 4 - Ổn định, cấu trúc, nền tảng, sự an toàn."
   },
   {
     "id": 40,
@@ -2124,10 +2124,10 @@
         "rev": "Tự tha thứ, gột rửa tâm hồn."
       }
     },
-    "planet": "",
-    "zodiac": "",
-    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
-    "numerology": ""
+    "planet": "Sao Hỏa",
+    "zodiac": "Bọ Cạp",
+    "advice": "Than khóc cho những gì đã mất là cần thiết, nhưng đừng quên nhìn lại những gì bạn vẫn còn.",
+    "numerology": "Số 5 - Thay đổi, xung đột, mất mát, thử thách."
   },
   {
     "id": 41,
@@ -2174,10 +2174,10 @@
         "rev": "Từ chối tha thứ cho những tổn thương thời ấu thơ."
       }
     },
-    "planet": "",
-    "zodiac": "",
-    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
-    "numerology": ""
+    "planet": "Mặt Trời",
+    "zodiac": "Bọ Cạp",
+    "advice": "Quá khứ mang lại sự ấm áp, nhưng đừng biến nó thành nơi trốn tránh thực tại.",
+    "numerology": "Số 6 - Hài hòa, phục hồi, hợp tác, cho và nhận."
   },
   {
     "id": 42,
@@ -2223,10 +2223,10 @@
         "rev": "Quay về thực tại chánh niệm (mindfulness)."
       }
     },
-    "planet": "",
-    "zodiac": "",
-    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
-    "numerology": ""
+    "planet": "Sao Kim",
+    "zodiac": "Bọ Cạp",
+    "advice": "Hãy thực tế. Đừng bị mờ mắt bởi những ảo ảnh; đưa ra lựa chọn và tập trung vào nó.",
+    "numerology": "Số 7 - Đánh giá, kiên nhẫn, chiến thuật, suy ngẫm."
   },
   {
     "id": 43,
@@ -2273,10 +2273,10 @@
         "rev": "Sợ phải đối diện với sự trống rỗng bên trong mình."
       }
     },
-    "planet": "",
-    "zodiac": "",
-    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
-    "numerology": ""
+    "planet": "Sao Thổ",
+    "zodiac": "Song Ngư",
+    "advice": "Nếu nơi hiện tại không còn mang lại bình yên, hãy dũng cảm bước đi tìm kiếm chân lý mới.",
+    "numerology": "Số 8 - Hành động, tốc độ, chuyên cần, sức mạnh."
   },
   {
     "id": 44,
@@ -2322,10 +2322,10 @@
         "rev": "Vui sướng giả tạo, che đậy sự thiếu vắng tâm linh."
       }
     },
-    "planet": "",
-    "zodiac": "",
-    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
-    "numerology": ""
+    "planet": "Sao Mộc",
+    "zodiac": "Song Ngư",
+    "advice": "Tận hưởng sự viên mãn hiện tại, nhưng hãy giữ lòng biết ơn và đừng trở nên tham lam.",
+    "numerology": "Số 9 - Gần hoàn thiện, đỉnh cao cá nhân, độc lập."
   },
   {
     "id": 45,
@@ -2371,10 +2371,10 @@
         "rev": "Từ chối việc chữa lành vết thương gia đình (inner family healing)."
       }
     },
-    "planet": "",
-    "zodiac": "",
-    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
-    "numerology": ""
+    "planet": "Sao Hỏa",
+    "zodiac": "Song Ngư",
+    "advice": "Trân trọng hạnh phúc gia đình và những người yêu thương bạn vô điều kiện.",
+    "numerology": "Số 10 - Kết thúc chu kỳ, viên mãn hoặc sụp đổ."
   },
   {
     "id": 46,
@@ -2422,10 +2422,10 @@
         "rev": "Phớt lờ các thông điệp trực giác vì nghĩ nó là sự trùng hợp."
       }
     },
-    "planet": "",
-    "zodiac": "",
-    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
-    "numerology": ""
+    "planet": "Trái Đất",
+    "zodiac": "Thuộc Nước",
+    "advice": "Hãy lắng nghe tiếng nói của trực giác và đừng ngại thể hiện sự lãng mạn, ngây thơ.",
+    "numerology": "Cấp Tiểu Đồng (Page) - Trẻ trung, học hỏi, tin tức, tò mò."
   },
   {
     "id": 47,
@@ -2473,10 +2473,10 @@
         "rev": "Mù quáng, dễ bị dụ dỗ bởi các giáo phái."
       }
     },
-    "planet": "",
-    "zodiac": "",
-    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
-    "numerology": ""
+    "planet": "Không Khí",
+    "zodiac": "Thuộc Nước",
+    "advice": "Đi theo tiếng gọi của con tim, nhưng nhớ giữ đôi chân trên mặt đất thực tế.",
+    "numerology": "Cấp Kỵ Sĩ (Knight) - Năng lượng, di chuyển, theo đuổi mục tiêu."
   },
   {
     "id": 48,
@@ -2523,10 +2523,10 @@
         "rev": "Bị năng lượng tiêu cực của người khác hút cạn (empath burnout)."
       }
     },
-    "planet": "",
-    "zodiac": "",
-    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
-    "numerology": ""
+    "planet": "Nước",
+    "zodiac": "Thuộc Nước",
+    "advice": "Yêu thương người khác là tốt, nhưng đừng quên yêu thương và thiết lập ranh giới cho chính mình.",
+    "numerology": "Cấp Nữ Hoàng (Queen) - Trưởng thành, nuôi dưỡng, làm chủ nội tâm."
   },
   {
     "id": 49,
@@ -2573,10 +2573,10 @@
         "rev": "Dùng thần quyền hoặc tâm linh để thao túng đám đông."
       }
     },
-    "planet": "",
-    "zodiac": "",
-    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
-    "numerology": ""
+    "planet": "Lửa",
+    "zodiac": "Thuộc Nước",
+    "advice": "Sự điềm tĩnh và thấu cảm là vũ khí mạnh nhất của bạn. Đừng để cảm xúc điều khiển hành động.",
+    "numerology": "Cấp Vua (King) - Lãnh đạo, quyền lực, kiểm soát bên ngoài."
   },
   {
     "id": 50,
@@ -2624,10 +2624,10 @@
         "rev": "Tự dối mình, không dám đối diện sự thật."
       }
     },
-    "planet": "",
-    "zodiac": "",
-    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
-    "numerology": ""
+    "planet": "Nguyên tố Khí",
+    "zodiac": "Thiên Bình, Bảo Bình, Song Tử",
+    "advice": "Sự thật có thể sắc bén và đau đớn, nhưng nó sẽ giải phóng bạn khỏi sự mù mờ.",
+    "numerology": "Số 1 - Hạt giống, tiềm năng, khởi đầu, ý chí."
   },
   {
     "id": 51,
@@ -2675,10 +2675,10 @@
         "rev": "Tháo bỏ rào cản phòng vệ tâm lý."
       }
     },
-    "planet": "",
-    "zodiac": "",
-    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
-    "numerology": ""
+    "planet": "Mặt Trăng",
+    "zodiac": "Thiên Bình",
+    "advice": "Sự né tránh không giải quyết được vấn đề. Hãy đối mặt và đưa ra quyết định.",
+    "numerology": "Số 2 - Cân bằng, sự kết hợp, đối lập, lựa chọn."
   },
   {
     "id": 52,
@@ -2726,10 +2726,10 @@
         "rev": "Từ chối khóc hoặc xả stress, khiến nội tâm bị u uất."
       }
     },
-    "planet": "",
-    "zodiac": "",
-    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
-    "numerology": ""
+    "planet": "Sao Thổ",
+    "zodiac": "Thiên Bình",
+    "advice": "Nỗi đau là một phần của sự trưởng thành. Hãy cho bản thân thời gian để khóc và chữa lành.",
+    "numerology": "Số 3 - Phát triển, sáng tạo, làm việc nhóm, mở rộng."
   },
   {
     "id": 53,
@@ -2776,10 +2776,10 @@
         "rev": "Từ chối những cảnh báo của cơ thể, ép bản thân tu tập quá mức."
       }
     },
-    "planet": "",
-    "zodiac": "",
-    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
-    "numerology": ""
+    "planet": "Sao Mộc",
+    "zodiac": "Thiên Bình",
+    "advice": "Sức khỏe tinh thần đang báo động. Hãy ngắt kết nối, nghỉ ngơi và tịnh dưỡng hoàn toàn.",
+    "numerology": "Số 4 - Ổn định, cấu trúc, nền tảng, sự an toàn."
   },
   {
     "id": 54,
@@ -2827,10 +2827,10 @@
         "rev": "Nhận ra bài học về cái tôi, học cách khiêm tốn."
       }
     },
-    "planet": "",
-    "zodiac": "",
-    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
-    "numerology": ""
+    "planet": "Sao Kim",
+    "zodiac": "Bảo Bình",
+    "advice": "Đôi khi thắng một cuộc cãi vã không quan trọng bằng việc gìn giữ một mối quan hệ.",
+    "numerology": "Số 5 - Thay đổi, xung đột, mất mát, thử thách."
   },
   {
     "id": 55,
@@ -2878,10 +2878,10 @@
         "rev": "Sợ hãi tương lai, không dám buông tay quá khứ."
       }
     },
-    "planet": "",
-    "zodiac": "",
-    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
-    "numerology": ""
+    "planet": "Sao Thủy",
+    "zodiac": "Bảo Bình",
+    "advice": "Hãy để lại những rắc rối phía sau. Hành trình chuyển đổi này sẽ đưa bạn đến nơi bình yên hơn.",
+    "numerology": "Số 6 - Hài hòa, phục hồi, hợp tác, cho và nhận."
   },
   {
     "id": 56,
@@ -2931,10 +2931,10 @@
         "rev": "Gột rửa tội lỗi, thú nhận và tìm kiếm sự thanh thản."
       }
     },
-    "planet": "",
-    "zodiac": "",
-    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
-    "numerology": ""
+    "planet": "Mặt Trăng",
+    "zodiac": "Bảo Bình",
+    "advice": "Trung thực là thượng sách. Sự lừa dối sớm muộn gì cũng sẽ bị phơi bày.",
+    "numerology": "Số 7 - Đánh giá, kiên nhẫn, chiến thuật, suy ngẫm."
   },
   {
     "id": 57,
@@ -2982,10 +2982,10 @@
         "rev": "Mở mắt nhìn thấy ánh sáng chân lý, làm chủ cuộc đời."
       }
     },
-    "planet": "",
-    "zodiac": "",
-    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
-    "numerology": ""
+    "planet": "Sao Mộc",
+    "zodiac": "Song Tử",
+    "advice": "Nhà tù duy nhất đang giam cầm bạn là tâm trí của chính bạn. Hãy tháo bịt mắt và tự giải thoát.",
+    "numerology": "Số 8 - Hành động, tốc độ, chuyên cần, sức mạnh."
   },
   {
     "id": 58,
@@ -3034,10 +3034,10 @@
         "rev": "Ánh bình minh ló dạng, nhận ra mọi nỗi sợ chỉ là ảo ảnh."
       }
     },
-    "planet": "",
-    "zodiac": "",
-    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
-    "numerology": ""
+    "planet": "Sao Hỏa",
+    "zodiac": "Song Tử",
+    "advice": "Phần lớn những nỗi sợ hãi chỉ là sản phẩm của sự tưởng tượng. Hãy thức dậy và đối mặt với thực tế.",
+    "numerology": "Số 9 - Gần hoàn thiện, đỉnh cao cá nhân, độc lập."
   },
   {
     "id": 59,
@@ -3084,10 +3084,10 @@
         "rev": "Nhận ra bài học nghiệp quả khắc nghiệt nhất, từ chối việc oán hận."
       }
     },
-    "planet": "",
-    "zodiac": "",
-    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
-    "numerology": ""
+    "planet": "Mặt Trời",
+    "zodiac": "Song Tử",
+    "advice": "Bạn đã chạm đáy, không thể tệ hơn được nữa. Hãy chấp nhận sự kết thúc này để bắt đầu tái sinh.",
+    "numerology": "Số 10 - Kết thúc chu kỳ, viên mãn hoặc sụp đổ."
   },
   {
     "id": 60,
@@ -3137,10 +3137,10 @@
         "rev": "Dùng trí năng để phán xét tâm linh, phủ nhận trực giác."
       }
     },
-    "planet": "",
-    "zodiac": "",
-    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
-    "numerology": ""
+    "planet": "Trái Đất",
+    "zodiac": "Thuộc Khí",
+    "advice": "Luôn tò mò và cảnh giác. Lời nói có sức mạnh, hãy sử dụng chúng một cách khôn ngoan.",
+    "numerology": "Cấp Tiểu Đồng (Page) - Trẻ trung, học hỏi, tin tức, tò mò."
   },
   {
     "id": 61,
@@ -3189,10 +3189,10 @@
         "rev": "Cực đoan tôn giáo, áp đặt lý tưởng một cách tàn bạo."
       }
     },
-    "planet": "",
-    "zodiac": "",
-    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
-    "numerology": ""
+    "planet": "Không Khí",
+    "zodiac": "Thuộc Khí",
+    "advice": "Hành động nhanh chóng dựa trên logic là tốt, nhưng đừng vội vã chà đạp lên cảm xúc người khác.",
+    "numerology": "Cấp Kỵ Sĩ (Knight) - Năng lượng, di chuyển, theo đuổi mục tiêu."
   },
   {
     "id": 62,
@@ -3242,10 +3242,10 @@
         "rev": "Dùng trí năng chối bỏ hoàn toàn tâm linh, cay nghiệt với những người có đức tin."
       }
     },
-    "planet": "",
-    "zodiac": "",
-    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
-    "numerology": ""
+    "planet": "Nước",
+    "zodiac": "Thuộc Khí",
+    "advice": "Dùng lý trí sắc bén để đánh giá tình hình, nhưng đừng để trái tim trở nên lạnh giá.",
+    "numerology": "Cấp Nữ Hoàng (Queen) - Trưởng thành, nuôi dưỡng, làm chủ nội tâm."
   },
   {
     "id": 63,
@@ -3295,10 +3295,10 @@
         "rev": "Mắc kẹt trong sự kiêu ngạo trí thức, cho mình là thần thánh."
       }
     },
-    "planet": "",
-    "zodiac": "",
-    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
-    "numerology": ""
+    "planet": "Lửa",
+    "zodiac": "Thuộc Khí",
+    "advice": "Sự công bằng và nguyên tắc là cần thiết, nhưng cũng cần một chút bao dung và thấu hiểu.",
+    "numerology": "Cấp Vua (King) - Lãnh đạo, quyền lực, kiểm soát bên ngoài."
   },
   {
     "id": 64,
@@ -3346,10 +3346,10 @@
         "rev": "Quá bám víu vào vật chất, bỏ quên sự phát triển tâm hồn."
       }
     },
-    "planet": "",
-    "zodiac": "",
-    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
-    "numerology": ""
+    "planet": "Nguyên tố Đất",
+    "zodiac": "Ma Kết, Kim Ngưu, Xử Nữ",
+    "advice": "Một cơ hội tài chính đang đến. Hãy nắm bắt và làm việc chăm chỉ để biến nó thành hiện thực.",
+    "numerology": "Số 1 - Hạt giống, tiềm năng, khởi đầu, ý chí."
   },
   {
     "id": 65,
@@ -3397,10 +3397,10 @@
         "rev": "Bị cuốn vào cơm áo gạo tiền, không còn thời gian tĩnh tâm."
       }
     },
-    "planet": "",
-    "zodiac": "",
-    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
-    "numerology": ""
+    "planet": "Sao Mộc",
+    "zodiac": "Ma Kết",
+    "advice": "Sự linh hoạt và khéo léo sẽ giúp bạn cân bằng được những áp lực hiện tại.",
+    "numerology": "Số 2 - Cân bằng, sự kết hợp, đối lập, lựa chọn."
   },
   {
     "id": 66,
@@ -3449,10 +3449,10 @@
         "rev": "Cái tôi quá lớn, không chấp nhận sự khác biệt trong tư tưởng của người khác."
       }
     },
-    "planet": "",
-    "zodiac": "",
-    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
-    "numerology": ""
+    "planet": "Sao Hỏa",
+    "zodiac": "Ma Kết",
+    "advice": "Làm việc nhóm và khiêm tốn học hỏi từ người khác sẽ mang lại thành công lớn.",
+    "numerology": "Số 3 - Phát triển, sáng tạo, làm việc nhóm, mở rộng."
   },
   {
     "id": 67,
@@ -3501,10 +3501,10 @@
         "rev": "Sự hào phóng mở rộng tâm hồn, hiểu được sự vận hành của dòng chảy vạn vật."
       }
     },
-    "planet": "",
-    "zodiac": "",
-    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
-    "numerology": ""
+    "planet": "Mặt Trời",
+    "zodiac": "Ma Kết",
+    "advice": "Tiết kiệm là tốt, nhưng bám víu vật chất quá mức sẽ khiến tâm hồn bạn trở nên nghèo nàn.",
+    "numerology": "Số 4 - Ổn định, cấu trúc, nền tảng, sự an toàn."
   },
   {
     "id": 68,
@@ -3553,10 +3553,10 @@
         "rev": "Tìm lại được đức tin, ánh sáng của hy vọng chiếu rọi tâm hồn."
       }
     },
-    "planet": "",
-    "zodiac": "",
-    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
-    "numerology": ""
+    "planet": "Sao Thủy",
+    "zodiac": "Kim Ngưu",
+    "advice": "Đừng ngại ngần yêu cầu sự giúp đỡ. Bạn không cô đơn trong lúc khó khăn này.",
+    "numerology": "Số 5 - Thay đổi, xung đột, mất mát, thử thách."
   },
   {
     "id": 69,
@@ -3606,10 +3606,10 @@
         "rev": "Làm từ thiện chỉ để đánh bóng tên tuổi, khoe khoang hoặc mong cầu báo đáp."
       }
     },
-    "planet": "",
-    "zodiac": "",
-    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
-    "numerology": ""
+    "planet": "Mặt Trăng",
+    "zodiac": "Kim Ngưu",
+    "advice": "Hãy hào phóng khi có thể, và biết ơn khi nhận được sự giúp đỡ. Dòng tiền cần được lưu thông.",
+    "numerology": "Số 6 - Hài hòa, phục hồi, hợp tác, cho và nhận."
   },
   {
     "id": 70,
@@ -3657,10 +3657,10 @@
         "rev": "Mong muốn giác ngộ 'ăn liền', dễ nản lòng khi tu tập."
       }
     },
-    "planet": "",
-    "zodiac": "",
-    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
-    "numerology": ""
+    "planet": "Sao Thổ",
+    "zodiac": "Kim Ngưu",
+    "advice": "Hãy kiên nhẫn. Quả ngọt cần thời gian để chín. Đừng bỏ cuộc khi sắp đến đích.",
+    "numerology": "Số 7 - Đánh giá, kiên nhẫn, chiến thuật, suy ngẫm."
   },
   {
     "id": 71,
@@ -3709,10 +3709,10 @@
         "rev": "Thực hành tâm linh một cách máy móc, thiếu đi cái hồn."
       }
     },
-    "planet": "",
-    "zodiac": "",
-    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
-    "numerology": ""
+    "planet": "Mặt Trời",
+    "zodiac": "Xử Nữ",
+    "advice": "Tập trung vào từng chi tiết nhỏ và mài giũa kỹ năng của bạn. Sự cần mẫn sẽ được đền đáp.",
+    "numerology": "Số 8 - Hành động, tốc độ, chuyên cần, sức mạnh."
   },
   {
     "id": 72,
@@ -3761,10 +3761,10 @@
         "rev": "Bị mắc kẹt trong chiếc lồng vàng do chính mình tạo ra."
       }
     },
-    "planet": "",
-    "zodiac": "",
-    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
-    "numerology": ""
+    "planet": "Sao Kim",
+    "zodiac": "Xử Nữ",
+    "advice": "Bạn xứng đáng với những gì bạn đã tạo ra. Hãy tự hào và tận hưởng sự độc lập của mình.",
+    "numerology": "Số 9 - Gần hoàn thiện, đỉnh cao cá nhân, độc lập."
   },
   {
     "id": 73,
@@ -3812,10 +3812,10 @@
         "rev": "Từ chối gốc gác, cảm thấy bị đè nén bởi những kỳ vọng của dòng họ."
       }
     },
-    "planet": "",
-    "zodiac": "",
-    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
-    "numerology": ""
+    "planet": "Sao Thủy",
+    "zodiac": "Xử Nữ",
+    "advice": "Gắn kết với các giá trị cốt lõi của gia đình. Xây dựng một nền tảng vững chắc cho thế hệ sau.",
+    "numerology": "Số 10 - Kết thúc chu kỳ, viên mãn hoặc sụp đổ."
   },
   {
     "id": 74,
@@ -3865,10 +3865,10 @@
         "rev": "Tâm trí lơ đãng, không thể tập trung thiền định."
       }
     },
-    "planet": "",
-    "zodiac": "",
-    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
-    "numerology": ""
+    "planet": "Trái Đất",
+    "zodiac": "Thuộc Đất",
+    "advice": "Bắt đầu với những bước đi thực tế, học hỏi chăm chỉ và lập kế hoạch rõ ràng.",
+    "numerology": "Cấp Tiểu Đồng (Page) - Trẻ trung, học hỏi, tin tức, tò mò."
   },
   {
     "id": 75,
@@ -3917,10 +3917,10 @@
         "rev": "Quá gắn chặt vào vật chất, phủ nhận hoàn toàn các hiện tượng tâm linh."
       }
     },
-    "planet": "",
-    "zodiac": "",
-    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
-    "numerology": ""
+    "planet": "Không Khí",
+    "zodiac": "Thuộc Đất",
+    "advice": "Sự kiên trì và đáng tin cậy sẽ đưa bạn đến đích, dù có chậm hơn người khác.",
+    "numerology": "Cấp Kỵ Sĩ (Knight) - Năng lượng, di chuyển, theo đuổi mục tiêu."
   },
   {
     "id": 76,
@@ -3970,10 +3970,10 @@
         "rev": "Đánh mất tâm hồn vì mãi chạy theo những giá trị vật chất phù phiếm."
       }
     },
-    "planet": "",
-    "zodiac": "",
-    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
-    "numerology": ""
+    "planet": "Nước",
+    "zodiac": "Thuộc Đất",
+    "advice": "Chăm sóc bản thân và những người xung quanh bằng sự thực tế, ấm áp và chu đáo.",
+    "numerology": "Cấp Nữ Hoàng (Queen) - Trưởng thành, nuôi dưỡng, làm chủ nội tâm."
   },
   {
     "id": 77,
@@ -4021,10 +4021,10 @@
         "rev": "Xem tiền bạc là tôn giáo duy nhất. Coi thường những giá trị tinh thần."
       }
     },
-    "planet": "",
-    "zodiac": "",
-    "advice": "Lắng nghe trực giác và hoàn cảnh hiện tại của bạn để áp dụng linh hoạt bài học của lá bài này.",
-    "numerology": ""
+    "planet": "Lửa",
+    "zodiac": "Thuộc Đất",
+    "advice": "Tạo ra sự ổn định cho mọi người. Sử dụng tài sản vật chất để làm những việc có ý nghĩa.",
+    "numerology": "Cấp Vua (King) - Lãnh đạo, quyền lực, kiểm soát bên ngoài."
   }
 ];
 })();
