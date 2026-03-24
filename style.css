@@ -120,8 +120,9 @@ body {
   animation: sigilBreath 3s ease-in-out infinite alternate;
 }
 @keyframes sigilBreath {
-  from { transform: scale(0.9); opacity: 0.6; }
-  to   { transform: scale(1.15); opacity: 1; }
+  0%   { transform: scale(0.82); opacity: 0.25; filter: brightness(0.5); }
+  50%  { transform: scale(1.08); opacity: 0.85; filter: brightness(1.6) drop-shadow(0 0 18px rgba(155,48,255,0.9)); }
+  100% { transform: scale(0.82); opacity: 0.25; filter: brightness(0.5); }
 }
 
 /* Title */
@@ -575,7 +576,7 @@ body {
 }
 
 /* ============ READING PAGE ============ */
-#pageReading { justify-content: flex-start; padding-top: 30px; gap: 16px; }
+#pageReading { justify-content: flex-start; padding-top: 48px; gap: 8px; }
 
 .reading-header { text-align: center; }
 .reading-user-info {
@@ -608,12 +609,13 @@ body {
   perspective: 1200px;
 }
 
-/* Selected area */
+/* Selected area — spaced from deck above */
 .selected-area {
-  display: flex; flex-wrap: wrap;
-  justify-content: center; gap: 16px;
-  min-height: 260px; max-width: 900px;
-  width: 100%;
+  display: flex; flex-wrap: nowrap;
+  justify-content: center; align-items: flex-start;
+  gap: 18px;
+  width: 100%; padding: 0 16px;
+  margin-top: 24px;
 }
 
 /* Tarot card */
@@ -662,17 +664,20 @@ body {
   from { color: rgba(155,48,255,0.3); filter: blur(0); }
   to   { color: rgba(200,121,255,0.9); filter: drop-shadow(0 0 8px rgba(155,48,255,0.8)); }
 }
-.card-face { transform: rotateY(180deg); }
+.card-face { transform: rotateY(180deg); display: flex; flex-direction: column; }
 .card-face img {
-  width: 100%; height: 72%;
+  flex: 1;
+  width: 100%;
+  min-height: 0;
   object-fit: cover; display: block;
 }
 .card-face.card-reversed img { transform: rotate(180deg); }
 .card-caption {
-  padding: 5px 7px;
-  background: linear-gradient(180deg, rgba(8,0,20,0.9), rgba(16,0,40,1));
+  padding: 7px 8px 8px;
+  background: linear-gradient(180deg, rgba(8,0,20,0.92), rgba(16,0,40,1));
   border-top: 1px solid rgba(155,48,255,0.2);
   text-align: center;
+  flex-shrink: 0;
 }
 .card-caption-name {
   display: block; font-family: 'Cinzel', serif;
@@ -1034,6 +1039,36 @@ body {
   padding: 0 20px;
 }
 
+/* ── Spread cards: size set by JS dynamically ────────── */
+.spread-card {
+  /* width/height injected by JS per spread count */
+  flex-shrink: 0;
+}
+.selected-area {
+  display: flex; flex-wrap: nowrap;
+  justify-content: center; align-items: flex-start;
+  gap: 18px;
+  width: 100%; padding: 0 16px;
+}
+/* Caption on spread card — English name larger */
+.spread-card .card-caption-name {
+  font-size: 0.82rem;
+  font-family: 'Cinzel', serif;
+  color: var(--c-gold-bright);
+}
+.spread-card .card-caption-en {
+  font-size: 0.68rem;
+  color: rgba(232,180,255,0.65);
+}
+.spread-card .card-orientation {
+  font-size: 0.6rem; padding: 2px 10px; margin-top: 4px;
+}
+.spread-card .card-caption {
+  padding: 8px 10px 10px;
+}
+
+
+
 /* ── Analysis two-column layout ─────────────────────── */
 .ab-layout {
   display: flex; gap: 28px; align-items: flex-start;
@@ -1045,7 +1080,7 @@ body {
   position: sticky; top: 20px;
 }
 .ab-card-img {
-  width: 120px; height: 207px;
+  width: 190px; height: 327px;
   object-fit: cover;
   border-radius: 12px;
   border: 2px solid rgba(155,48,255,0.45);
@@ -1144,10 +1179,151 @@ body {
   color: rgba(255,255,255,0.5); margin-top: 6px;
 }
 
-@media (max-width: 640px) {
-  .ab-layout { flex-direction: column; align-items: center; }
-  .ab-card-img { width: 90px; height: 155px; }
-  .ab-card-title { font-size: 1rem; }
+/* Tap-to-read hint BELOW the card (inside slot-wrap) */
+.tap-hint {
+  display: inline-block;
+  background: rgba(10,0,28,0.88);
+  border: 1px solid rgba(201,168,76,0.35);
+  border-radius: 20px;
+  padding: 4px 14px;
+  font-family: 'Cinzel', serif;
+  font-size: 0.58rem;
+  letter-spacing: 0.08em;
+  color: rgba(201,168,76,0.95);
+  text-shadow: 0 0 8px rgba(201,168,76,0.5);
+  animation: tapHintPulse 1.6s ease-in-out infinite;
+  pointer-events: none;
+  white-space: nowrap;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.5);
 }
+@keyframes tapHintPulse {
+  0%,100% { opacity: 0.5; }
+  50%      { opacity: 1; text-shadow: 0 0 14px rgba(201,168,76,0.9); }
+}
+
+/* ══════════════════════════════════════════════════
+   MEANING MODAL
+══════════════════════════════════════════════════ */
+.meaning-modal-overlay {
+  position: fixed; inset: 0; z-index: 500;
+  display: flex; align-items: center; justify-content: center;
+  padding: 20px;
+  background: rgba(4,0,14,0.75);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.meaning-modal-panel {
+  position: relative;
+  width: 100%; max-width: 700px;
+  max-height: 88vh; overflow-y: auto;
+  background: linear-gradient(160deg, rgba(16,0,40,0.98), rgba(8,0,22,0.99));
+  border: 1px solid rgba(155,48,255,0.4);
+  border-radius: 24px;
+  padding: 40px 36px 36px;
+  box-shadow:
+    0 40px 100px rgba(0,0,0,0.85),
+    0 0 60px rgba(107,0,204,0.2),
+    0 0 0 1px rgba(155,48,255,0.15),
+    inset 0 1px 0 rgba(255,255,255,0.07);
+}
+.meaning-modal-panel::before {
+  content: '';
+  position: absolute; top: 0; left: 0; right: 0; height: 2px;
+  border-radius: 24px 24px 0 0;
+  background: linear-gradient(90deg, transparent, var(--c-violet), var(--c-gold), transparent);
+}
+
+.meaning-modal-close {
+  position: absolute; top: 14px; right: 18px;
+  background: none; border: none;
+  color: rgba(232,180,255,0.4);
+  font-size: 1.8rem; line-height: 1;
+  cursor: pointer; z-index: 2;
+  transition: color 0.3s, transform 0.3s;
+}
+.meaning-modal-close:hover { color: var(--c-glow); transform: rotate(90deg); }
+
+/* Two-column layout inside modal */
+.mm-layout {
+  display: flex; gap: 30px; align-items: flex-start;
+}
+.mm-img-col {
+  flex-shrink: 0;
+  display: flex; flex-direction: column;
+  align-items: center; gap: 10px;
+}
+.mm-card-img {
+  width: 165px; height: 284px;
+  object-fit: cover; border-radius: 12px;
+  border: 2px solid rgba(155,48,255,0.5);
+  box-shadow: 0 6px 28px rgba(107,0,204,0.55);
+  display: block;
+}
+.mm-card-img--rev { transform: rotate(180deg); }
+.mm-slot-label {
+  font-family: 'Cinzel', serif;
+  font-size: 0.72rem; letter-spacing: 0.12em;
+  color: var(--c-gold); text-align: center;
+  text-shadow: 0 0 8px rgba(201,168,76,0.5);
+}
+
+.mm-content { flex: 1; min-width: 0; }
+.mm-title {
+  font-family: 'Cinzel Decorative', serif;
+  font-size: clamp(1.1rem, 2.5vw, 1.6rem);
+  color: var(--c-gold-bright);
+  margin-bottom: 6px; line-height: 1.3;
+}
+.mm-subtitle {
+  font-family: 'Cinzel', serif;
+  font-size: 0.76rem; letter-spacing: 0.1em;
+  color: var(--c-pale); opacity: 0.75;
+  margin-bottom: 14px;
+}
+.mm-orient {
+  font-size: 0.72rem; padding: 2px 10px;
+  border-radius: 12px; display: inline-block;
+}
+.mm-orient.up  { background: rgba(107,0,204,0.4); color: var(--c-pale); }
+.mm-orient.rev { background: rgba(180,60,30,0.35); color: #ffb090; }
+
+.mm-meta-row { display: flex; flex-wrap: wrap; gap: 7px; margin-bottom: 16px; }
+.mm-chip {
+  background: rgba(107,0,204,0.2);
+  border: 1px solid rgba(155,48,255,0.25);
+  border-radius: 20px; padding: 4px 13px;
+  font-family: 'Cinzel', serif;
+  font-size: 0.68rem; color: var(--c-pale); letter-spacing: 0.06em;
+}
+.mm-section {
+  font-family: 'Cinzel', serif;
+  font-size: 0.7rem; letter-spacing: 0.14em;
+  color: var(--c-gold); text-transform: uppercase;
+  margin: 14px 0 7px;
+}
+.mm-text {
+  font-family: 'EB Garamond', serif;
+  font-size: 1.05rem; line-height: 1.82;
+  color: rgba(255,255,255,0.88);
+}
+.mm-text--aspect { color: rgba(232,180,255,0.9); }
+.mm-text--advice { font-style: italic; color: rgba(240,208,96,0.9); }
+
+.mm-kw-row { display: flex; flex-wrap: wrap; gap: 7px; margin-bottom: 4px; }
+.mm-kw {
+  background: rgba(155,48,255,0.15);
+  border: 1px solid rgba(155,48,255,0.3);
+  border-radius: 20px; padding: 4px 14px;
+  font-family: 'EB Garamond', serif;
+  font-size: 0.92rem; color: var(--c-pale); font-style: italic;
+}
+
+@media (max-width: 560px) {
+  .mm-layout { flex-direction: column; align-items: center; }
+  .mm-card-img { width: 100px; height: 172px; }
+  .meaning-modal-panel { padding: 32px 20px 28px; }
+}
+
 
 

@@ -82,18 +82,23 @@ window.ReadingModule = (function () {
     if (el.classList.contains('picking')) return;
 
     el.classList.add('picking');
-    window.FX?.ripple(el, e, 'rgba(200,121,255,0.4)');
+    window.FX?.ripple(el, e, 'rgba(201,168,76,0.5)');
+    window.FX?.glowPulse(el, 'rgba(201,168,76,0.6)');
 
-    // Fly-out animation
-    el.style.transition = 'transform 0.5s cubic-bezier(0.23,1,0.32,1), opacity 0.4s';
-    el.style.transform  = 'scale(1.15) translateY(-30px)';
+    // Fade in-place — keep gap in deck layout
+    el.style.transition = 'opacity 0.4s, transform 0.3s';
     el.style.opacity    = '0';
+    el.style.transform  = 'scale(1.1) translateY(-6px)';
 
     selectedCards.push(card);
     const slotIdx = selectedCards.length - 1;
 
     setTimeout(() => {
-      el.style.display = 'none';
+      el.style.visibility = 'hidden'; // keep space, just invisible
+      el.style.opacity    = '';
+      el.style.transform  = '';
+      el.style.transition = '';
+      el.style.pointerEvents = 'none';
       addSelectedSlot(card, slotIdx);
       updateInstruction();
     }, 420);
@@ -110,9 +115,40 @@ window.ReadingModule = (function () {
       deckArea.style.opacity = '0';
       deckArea.style.transform = 'scale(0.95)';
       deckArea.style.pointerEvents = 'none';
-      setTimeout(() => { deckArea.style.display = 'none'; }, 520);
+      setTimeout(() => {
+        deckArea.style.display = 'none';
+        expandSpreadCards();  // grow cards to full size after deck hides
+      }, 520);
       btnFlipAll.classList.remove('hidden');
     }
+  }
+
+  /* ── Dynamic card sizing ──────────────────────────── */
+  const SMALL_W = 120, SMALL_H = 206;   // while deck is visible
+
+  function getSpreadCardSize() {
+    const n       = session.spread;
+    const gap     = 22;
+    const padding = 48;
+    const maxH    = Math.min(window.innerHeight * 0.64, 580);
+    const usableW = Math.min(window.innerWidth - padding * 2, 1100);
+    const wByW    = Math.floor((usableW - (n - 1) * gap) / n);
+    const wByH    = Math.floor(maxH / 1.72);
+    const w       = Math.min(wByW, wByH, 290);
+    const h       = Math.round(w * 1.72);
+    return { w, h };
+  }
+
+  function expandSpreadCards() {
+    const { w, h } = getSpreadCardSize();
+    const cards = selectedArea.querySelectorAll('.spread-card');
+    cards.forEach((c, i) => {
+      setTimeout(() => {
+        c.style.transition = 'width 0.55s cubic-bezier(0.22,1,0.36,1), height 0.55s cubic-bezier(0.22,1,0.36,1)';
+        c.style.width  = w + 'px';
+        c.style.height = h + 'px';
+      }, i * 60);
+    });
   }
 
   /* ══════════════════════════════════════════════════
@@ -145,6 +181,9 @@ window.ReadingModule = (function () {
   function buildSpreadCard(card, slotIdx) {
     const wrap = document.createElement('div');
     wrap.className = 'tarot-card spread-card';
+    // Start small while deck is still visible; will expand after deck hides
+    wrap.style.width  = SMALL_W + 'px';
+    wrap.style.height = SMALL_H + 'px';
 
     const inner = document.createElement('div');
     inner.className = 'card-inner';
@@ -170,11 +209,12 @@ window.ReadingModule = (function () {
     const caption = document.createElement('div');
     caption.className = 'card-caption';
     caption.innerHTML = `
-      <span class="card-caption-name">${card.nameVi}</span>
-      <span class="card-caption-en">${card.name}</span>
+      <span class="card-caption-name">${card.name}</span>
+      <span class="card-caption-en">${card.nameVi}</span>
       <span class="card-orientation ${card.isReversed ? 'rev' : 'up'}">
         ${card.isReversed ? 'Ngược' : 'Xuôi'}
       </span>`;
+
 
     face.appendChild(frontImg);
     face.appendChild(caption);
@@ -182,10 +222,13 @@ window.ReadingModule = (function () {
     inner.appendChild(face);
     wrap.appendChild(inner);
 
-    // Click to flip
+    // 1st click → flip; 2nd click → show/hide meaning
     wrap.addEventListener('click', (e) => {
-      if (wrap.classList.contains('flipped')) return;
-      flipCard(wrap, card, slotIdx, e);
+      if (!wrap.classList.contains('flipped')) {
+        flipCard(wrap, card, slotIdx, e);
+      } else {
+        toggleMeaningPanel(wrap, card, slotIdx, e);
+      }
     });
 
     return wrap;
@@ -197,62 +240,130 @@ window.ReadingModule = (function () {
   function flipCard(cardEl, card, slotIdx, e) {
     cardEl.classList.add('flipped');
     window.FX?.ripple(cardEl, e, 'rgba(201,168,76,0.4)');
-
     if (window.triggerLightning) window.triggerLightning();
-
     flippedCount++;
 
-    // Show meaning panel after flip animation
+    // After flip: show tap-to-read hint
     setTimeout(() => {
-      showMeaningPanel(cardEl, card, slotIdx);
+      addTapHint(cardEl);
       checkAllFlipped();
-    }, 650);
+    }, 680);
+  }
+
+  function addTapHint(cardEl) {
+    const slotWrap = cardEl.closest('.slot-wrap');
+    if (!slotWrap || slotWrap.querySelector('.tap-hint')) return;
+    const hint = document.createElement('div');
+    hint.className = 'tap-hint';
+    hint.textContent = 'Bấm để xem ý nghĩa';
+    slotWrap.appendChild(hint); // below the card, not inside card-face
+  }
+
+  function toggleMeaningPanel(cardEl, card, slotIdx, e) {
+    showMeaningModal(card, slotIdx);
+    window.FX?.ripple(cardEl, e, 'rgba(155,48,255,0.3)');
   }
 
   /* ══════════════════════════════════════════════════
-     MEANING PANEL (inline below each card)
+     MEANING MODAL
   ══════════════════════════════════════════════════ */
-  function showMeaningPanel(cardEl, card, slotIdx) {
-    const slotWrap = cardEl.closest('.slot-wrap');
-    if (!slotWrap || slotWrap.querySelector('.meaning-panel')) return;
-
+  function showMeaningModal(card, slotIdx) {
+    const label    = labels[slotIdx] || `Lá ${slotIdx + 1}`;
     const theme    = session.theme;
     const isRev    = card.isReversed;
     const meaning  = isRev ? card.reversed : card.upright;
-    const keywords = isRev ? card.keywordsRev : card.keywords;
-    const aspect   = card.aspects?.[theme] || card.aspects?.love;
-
-    const panel = document.createElement('div');
-    panel.className = 'meaning-panel';
+    const keywords = (isRev ? card.keywordsRev : card.keywords) || [];
+    const aspect   = card.aspects?.[theme] || card.aspects?.love || null;
     const aspectText = aspect ? (isRev ? aspect.rev : aspect.up) : null;
-    panel.innerHTML = `
-      <div class="mp-name">${card.nameVi} — ${isRev ? 'Ngược' : 'Xuôi'}</div>
-      <div class="mp-orientation ${isRev ? 'rev' : 'up'}">${isRev ? 'Ngược' : 'Xuôi'}</div>
-      <div class="mp-section">Ý Nghĩa</div>
-      <div class="mp-text">${meaning}</div>
-      <div class="mp-section">Từ Khóa</div>
-      <div class="mp-keywords">
-        ${(keywords || []).map(k => `<span class="mp-kw">${k}</span>`).join('')}
+    const themeLabel = TarotHelper.getThemeLabel(theme);
+
+    // Build or reuse modal
+    let modal = document.getElementById('meaningModal');
+    if (!modal) {
+      modal = document.createElement('div');
+      modal.id = 'meaningModal';
+      modal.className = 'meaning-modal-overlay';
+      modal.addEventListener('click', (e) => {
+        if (e.target === modal) closeMeaningModal();
+      });
+      document.body.appendChild(modal);
+    }
+
+    modal.innerHTML = `
+      <div class="meaning-modal-panel">
+        <button class="meaning-modal-close" onclick="document.getElementById('meaningModal').remove()">&times;</button>
+
+        <div class="mm-layout">
+          <!-- Card image -->
+          <div class="mm-img-col">
+            <img
+              src="${card.image}"
+              alt="${card.name}"
+              class="mm-card-img${isRev ? ' mm-card-img--rev' : ''}"
+            />
+            <div class="mm-slot-label">${label}</div>
+          </div>
+
+          <!-- Content -->
+          <div class="mm-content">
+            <div class="mm-title">${card.name}</div>
+            <div class="mm-subtitle">
+              ${card.nameVi} &nbsp;|&nbsp; ${card.number}
+              &nbsp;|&nbsp;
+              <span class="mm-orient ${isRev ? 'rev' : 'up'}">${isRev ? 'Ngược' : 'Xuôi'}</span>
+            </div>
+
+            ${card.planet || card.zodiac ? `
+            <div class="mm-meta-row">
+              ${card.planet ? `<span class="mm-chip">Hành tinh: ${card.planet}</span>` : ''}
+              ${card.zodiac ? `<span class="mm-chip">Cung: ${card.zodiac}</span>` : ''}
+              ${card.numerology ? `<span class="mm-chip">${card.numerology}</span>` : ''}
+            </div>` : ''}
+
+            <div class="mm-section">Ý Nghĩa</div>
+            <p class="mm-text">${meaning}</p>
+
+            <div class="mm-section">Từ Khóa</div>
+            <div class="mm-kw-row">
+              ${keywords.map(k => `<span class="mm-kw">${k}</span>`).join('')}
+            </div>
+
+            ${aspectText ? `
+              <div class="mm-section">Trong Lĩnh Vực ${themeLabel}</div>
+              <p class="mm-text mm-text--aspect">${aspectText}</p>
+            ` : ''}
+
+            ${card.advice ? `
+              <div class="mm-section">Lời Khuyên</div>
+              <p class="mm-text mm-text--advice">${card.advice}</p>
+            ` : ''}
+          </div>
+        </div>
       </div>
-      ${aspectText ? `
-        <div class="mp-section">Trong Lĩnh Vực ${TarotHelper.getThemeLabel(theme)}</div>
-        <div class="mp-aspect-text">${aspectText}</div>
-      ` : ''}
-      ${card.advice ? `<div class="mp-section">Lời Khuyên</div><div class="mp-advice">${card.advice}</div>` : ''}
     `;
 
-    slotWrap.appendChild(panel);
-
     // Animate in
-    requestAnimationFrame(() => {
-      panel.style.opacity = '0';
-      panel.style.transform = 'translateY(-10px)';
-      requestAnimationFrame(() => {
-        panel.style.transition = 'opacity 0.5s ease, transform 0.5s cubic-bezier(0.22,1,0.36,1)';
-        panel.style.opacity = '1';
-        panel.style.transform = 'translateY(0)';
-      });
-    });
+    modal.style.display = 'flex';
+    modal.style.opacity = '0';
+    const panel = modal.querySelector('.meaning-modal-panel');
+    panel.style.transform = 'scale(0.88) translateY(20px)';
+    panel.style.opacity   = '0';
+    if (window.triggerLightning) window.triggerLightning();
+    requestAnimationFrame(() => requestAnimationFrame(() => {
+      modal.style.transition = 'opacity 0.35s';
+      modal.style.opacity    = '1';
+      panel.style.transition = 'transform 0.45s cubic-bezier(0.22,1,0.36,1), opacity 0.45s';
+      panel.style.transform  = 'scale(1) translateY(0)';
+      panel.style.opacity    = '1';
+    }));
+  }
+
+  function closeMeaningModal() {
+    const modal = document.getElementById('meaningModal');
+    if (!modal) return;
+    modal.style.transition = 'opacity 0.3s';
+    modal.style.opacity    = '0';
+    setTimeout(() => modal.remove(), 320);
   }
 
   /* ══════════════════════════════════════════════════

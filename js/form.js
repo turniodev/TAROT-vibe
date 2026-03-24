@@ -155,6 +155,22 @@
     });
   });
 
+  /* ── Enter key to advance ────────────────────────── */
+  document.getElementById('inputName').addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') {
+      e.preventDefault();
+      if (validateStep(1)) goToStep(2, 'forward');
+    }
+  });
+
+  // Textarea: Ctrl+Enter or Shift+Enter to advance (plain Enter = newline)
+  inputQ.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter' && (e.ctrlKey || e.shiftKey)) {
+      e.preventDefault();
+      if (validateStep(3)) goToStep(4, 'forward');
+    }
+  });
+
   /* ── Char counter ─────────────────────────────────── */
   if (inputQ && charCount) {
     inputQ.addEventListener('input', () => {

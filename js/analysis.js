@@ -50,9 +50,9 @@ window.AnalysisModule = (function () {
 
           <!-- RIGHT: content -->
           <div class="ab-content-col">
-            <div class="ab-card-title">${labels[i]} — ${card.nameVi}</div>
+            <div class="ab-card-title">${labels[i]} — ${card.name}</div>
             <div class="ab-card-subtitle">
-              ${card.name} &nbsp;|&nbsp; ${card.number}
+              ${card.nameVi} &nbsp;|&nbsp; ${card.number}
               &nbsp;|&nbsp;
               <span class="ab-orientation ${isRev ? 'rev' : 'up'}">${isRev ? 'Ngược' : 'Xuôi'}</span>
             </div>
