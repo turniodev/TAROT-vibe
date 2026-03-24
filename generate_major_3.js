@@ -1,0 +1,201 @@
+﻿const fs = require('fs');
+
+const cards = [
+  {
+    id: 11,
+    name: "Justice",
+    nameVi: "Công Lý",
+    number: "XI",
+    arcana: "major",
+    image: "cards/11-Justice.jpg",
+    planet: "Sao Kim",
+    zodiac: "Thiên Bình",
+    element: "Khí",
+    keywords: ["Công lý", "Sự thật", "Nghiệp (Karma)", "Nhân quả", "Quyết định", "Pháp luật", "Cân bằng"],
+    keywordsRev: ["Bất công", "Thiếu trung thực", "Lảng tránh trách nhiệm", "Tham nhũng", "Định kiến"],
+    upright: "Lá Justice biểu trưng cho sự thật, pháp luật và luật nhân quả. Nó khuyên bạn phải hành động trung thực, công bằng và chịu trách nhiệm với những gì mình làm. Mọi quyết định đưa ra lúc này sẽ mang lại hệ quả lâu dài.",
+    reversed: "Sự bất công, dối trá, hoặc bạn đang cố gắng lẩn tránh hậu quả từ những sai lầm trong quá khứ. Nó cũng báo hiệu các rắc rối về pháp lý có kết quả bất lợi.",
+    aspects: {
+      love: {
+        up: "Sự trung thực và sòng phẳng trong tình yêu. Nếu có mâu thuẫn, nó sẽ được giải quyết công bằng. Cũng có thể liên quan đến các hợp đồng hôn nhân.",
+        rev: "Có sự lừa dối, không chung thủy hoặc bạn đang đối xử không công bằng với đối phương (hoặc ngược lại). Ly hôn/chia tay với nhiều tranh chấp."
+      },
+      career: {
+        up: "Những nỗ lực của bạn sẽ được đền đáp xứng đáng. Cần chú ý kỹ các hợp đồng, giấy tờ pháp lý trong công việc.",
+        rev: "Gặp phải sự thiên vị, đối xử bất công tại nơi làm việc. Hoặc bạn đang làm những việc mờ ám và có nguy cơ bị phát hiện."
+      },
+      finance: {
+        up: "Cân bằng thu chi. Giao dịch minh bạch. Tiền bạc kiếm được từ mồ hôi công sức chân chính.",
+        rev: "Cảnh báo về gian lận tài chính, rắc rối với thuế, hoặc bạn đang bị ai đó lợi dụng tiền bạc một cách bất công."
+      },
+      health: {
+        up: "Sức khỏe đang ở trạng thái cân bằng. Lối sống lành mạnh mang lại cơ thể khỏe mạnh.",
+        rev: "Sự mất cân bằng do lối sống buông thả (nhân quả của việc không chăm sóc cơ thể). Cần cẩn thận với các vấn đề sức khỏe mãn tính do thói quen xấu."
+      },
+      spiritual: {
+        up: "Bài học về nghiệp (Karma). Nhận thức được mọi hành động, lời nói đều tạo ra quả báo.",
+        rev: "Từ chối nhìn nhận sai lầm của bản thân, đổ lỗi cho hoàn cảnh thay vì chịu trách nhiệm."
+      }
+    },
+    advice: "Sự thật luôn chiến thắng. Hãy đối mặt với mọi việc bằng sự trung thực và đừng cố gắng bẻ cong luật lệ.",
+    numerology: "11 - Sự công bằng, lý trí, pháp luật và nhân quả."
+  },
+  {
+    id: 12,
+    name: "The Hanged Man",
+    nameVi: "Người Treo Ngược",
+    number: "XII",
+    arcana: "major",
+    image: "cards/12-The-Hanged-Man.jpg",
+    planet: "Sao Hải Vương",
+    zodiac: "Không có",
+    element: "Nước",
+    keywords: ["Hy sinh", "Sự đình trệ", "Góc nhìn mới", "Buông bỏ", "Chờ đợi", "Chấp nhận", "Khai sáng"],
+    keywordsRev: ["Đình trệ vô ích", "Sợ hy sinh", "Cố chấp", "Kéo dài thời gian", "Cảm tử quân"],
+    upright: "Lá The Hanged Man đòi hỏi sự hy sinh, buông bỏ kiểm soát và tạm thời đình trệ để có được một góc nhìn mới (như việc bị treo ngược). Đây là sự chờ đợi tự nguyện, một sự hy sinh ngắn hạn vì mục tiêu lớn hơn.",
+    reversed: "Sự trì hoãn không mang lại kết quả, từ chối thay đổi góc nhìn, bám víu vào quá khứ hoặc đóng vai nạn nhân mà không chịu giải quyết vấn đề.",
+    aspects: {
+      love: {
+        up: "Mối quan hệ đang ở giai đoạn chững lại. Cả hai cần lùi lại, nhìn nhận vấn đề từ góc độ của người kia để tìm ra tiếng nói chung.",
+        rev: "Mắc kẹt trong một mối quan hệ độc hại, hoặc bạn đang hy sinh quá nhiều vì tình yêu nhưng không được đền đáp."
+      },
+      career: {
+        up: "Công việc đang bế tắc hoặc giậm chân tại chỗ. Đừng ép buộc sự thay đổi, hãy tận dụng thời gian này để lập kế hoạch dài hạn.",
+        rev: "Cảm thấy bế tắc nhưng không chịu thay đổi hoặc buông bỏ công việc cũ. Lãng phí thời gian và công sức vào những dự án vô nghĩa."
+      },
+      finance: {
+        up: "Sự tạm dừng trong vấn đề tiền bạc. Có thể bạn cần 'thắt lưng buộc bụng' (hy sinh chi tiêu) để dành tiền cho một mục đích lớn hơn.",
+        rev: "Tiền bạc đình trệ do đầu tư sai chỗ, hoặc bạn đang quá sợ hãi việc mất tiền nên không dám hành động."
+      },
+      health: {
+        up: "Sức khỏe đang trong quá trình điều trị kéo dài, đòi hỏi sự kiên nhẫn và nghỉ ngơi tuyệt đối.",
+        rev: "Bỏ qua các phương pháp chữa trị khác nhau vì sự cố chấp. Sức khỏe sa sút do tâm trạng tiêu cực kéo dài."
+      },
+      spiritual: {
+        up: "Sự khai sáng (halo quanh đầu). Buông bỏ cái tôi (Ego) và để dòng chảy vũ trụ dẫn dắt. Chấp nhận nghịch cảnh với sự bình thản.",
+        rev: "Trống rỗng, mất kết nối tâm linh, từ chối bài học vũ trụ gửi đến và chìm đắm trong sự hối tiếc."
+      }
+    },
+    advice: "Đừng cố bơi ngược dòng lúc này. Buông bỏ sự cố chấp, thay đổi góc nhìn và bạn sẽ tìm thấy câu trả lời.",
+    numerology: "12 - Sự hoàn tất chu kỳ, tầm nhìn mới, sự đảo ngược."
+  },
+  {
+    id: 13,
+    name: "Death",
+    nameVi: "Cái Chết",
+    number: "XIII",
+    arcana: "major",
+    image: "cards/13-Death.jpg",
+    planet: "Sao Diêm Vương",
+    zodiac: "Bọ Cạp",
+    element: "Nước",
+    keywords: ["Kết thúc", "Sự chuyển hóa", "Thay đổi", "Chuyển giao", "Cắt đứt", "Sự tái sinh", "Giũ bỏ quá khứ"],
+    keywordsRev: ["Kháng cự thay đổi", "Trì trệ", "Sợ cái mới", "Kéo dài nỗi đau", "Mắc kẹt", "Không thể dứt bỏ"],
+    upright: "Lá Death hiếm khi mang nghĩa cái chết vật lý. Nó đại diện cho sự kết thúc hoàn toàn của một giai đoạn (mối quan hệ, công việc, niềm tin cũ) để mở đường cho sự tái sinh và những khởi đầu mới tốt đẹp hơn. Một sự chuyển hóa không thể tránh khỏi.",
+    reversed: "Sự kháng cự lại sự thay đổi vì sợ hãi những điều chưa biết. Bạn đang cố gắng níu kéo một thứ đã kết thúc, gây ra sự đau đớn và trì trệ không cần thiết.",
+    aspects: {
+      love: {
+        up: "Sự kết thúc của một mối quan hệ không còn phù hợp, hoặc chấm dứt những thói quen xấu để tình yêu bước sang một trang mới, gắn kết hơn.",
+        rev: "Sự kết thúc không dứt khoát. Níu kéo người cũ, không thể vượt qua tổn thương, hoặc mắc kẹt trong một mối quan hệ chết yểu."
+      },
+      career: {
+        up: "Sự nghiệp có sự lột xác hoàn toàn. Có thể là mất việc, đổi nghề hoặc công ty tái cơ cấu. Đừng sợ hãi, vì cánh cửa mới đang chờ bạn.",
+        rev: "Bạn đang chán ghét công việc hiện tại nhưng sợ thất nghiệp nên không dám nghỉ. Sự nghiệp trì trệ, ngột ngạt."
+      },
+      finance: {
+        up: "Sự kết thúc của một nguồn thu nhập hoặc một mô hình tài chính cũ. Sẽ có sự chuyển đổi cấu trúc tiền bạc trong thời gian tới.",
+        rev: "Sợ hãi rủi ro tài chính đến mức không dám hành động. Kéo dài một dự án đầu tư đang thua lỗ."
+      },
+      health: {
+        up: "Một thay đổi lớn trong chế độ chăm sóc sức khỏe. Cần cắt bỏ hoàn toàn những thói quen gây hại (thuốc lá, rượu bia).",
+        rev: "Sức khỏe không có tiến triển do bạn từ chối thay đổi thói quen xấu. Các vấn đề bệnh tật kéo dài không dứt."
+      },
+      spiritual: {
+        up: "Giũ bỏ cái tôi cũ, 'chết đi' để tái sinh thành một phiên bản giác ngộ và thấu hiểu hơn.",
+        rev: "Chìm đắm trong các trạng thái tiêu cực, từ chối sự chuyển hóa linh hồn vì sợ hãi cái mới."
+      }
+    },
+    advice: "Giống như con rắn lột xác, bạn phải dứt bỏ những thứ cũ kỹ không còn phục vụ cho sự phát triển của mình. Hãy dũng cảm buông tay.",
+    numerology: "13 - Sự biến đổi sâu sắc, phá hủy và tái sinh."
+  },
+  {
+    id: 14,
+    name: "Temperance",
+    nameVi: "Tiết Chế",
+    number: "XIV",
+    arcana: "major",
+    image: "cards/14-Temperance.jpg",
+    planet: "Sao Mộc",
+    zodiac: "Nhân Mã",
+    element: "Lửa",
+    keywords: ["Cân bằng", "Điều độ", "Kiên nhẫn", "Sự hòa hợp", "Trung dung", "Chữa lành", "Pha trộn"],
+    keywordsRev: ["Mất cân bằng", "Dư thừa", "Cực đoan", "Xung đột", "Thiếu kiên nhẫn", "Vội vàng"],
+    upright: "Lá Temperance khuyên bạn hãy sống có chừng mực, tránh xa sự cực đoan và tìm kiếm sự cân bằng (như thiên thần đang pha trộn hai chiếc cốc). Sự kiên nhẫn và hòa hợp sẽ mang lại sự bình yên, chữa lành.",
+    reversed: "Sự mất cân bằng, sống quá vội vã, cực đoan hoặc hành động bốc đồng. Cảnh báo về sự dư thừa (ăn uống quá độ, chi tiêu vô tội vạ, yêu đương mù quáng).",
+    aspects: {
+      love: {
+        up: "Mối quan hệ yên bình, hòa hợp. Hai bạn biết cách nhường nhịn, dung hòa những điểm khác biệt của nhau để duy trì tình cảm bền vững.",
+        rev: "Sự bất đồng, mâu thuẫn gay gắt do cái tôi quá lớn hoặc không ai chịu nhường ai. Thiếu sự bao dung trong tình yêu."
+      },
+      career: {
+        up: "Công việc tiến triển ổn định. Môi trường làm việc hài hòa, hợp tác nhóm tốt. Bạn đang cân bằng rất tốt giữa công việc và cuộc sống.",
+        rev: "Căng thẳng do áp lực công việc, mâu thuẫn với đồng nghiệp hoặc bạn đang tham lam ôm đồm quá nhiều việc."
+      },
+      finance: {
+        up: "Tài chính ổn định. Thu chi cân bằng, không có sự phung phí. Thời điểm tốt để tích lũy đều đặn.",
+        rev: "Chi tiêu mất kiểm soát hoặc đầu tư cực đoan (tất tay) dễ dẫn đến thua lỗ nặng nề. Cần xem lại ngân sách."
+      },
+      health: {
+        up: "Tình trạng sức khỏe tuyệt vời nhờ duy trì chế độ ăn uống, tập luyện và nghỉ ngơi điều độ. Thời điểm chữa lành lý tưởng.",
+        rev: "Cảnh báo về thói quen ăn uống, sinh hoạt vô độ (thức khuya, nhậu nhẹt) gây suy giảm sức khỏe trầm trọng."
+      },
+      spiritual: {
+        up: "Tìm thấy điểm trung dung (Middle Way) trong tâm hồn. Sự kết hợp hoàn hảo giữa ý thức và tiềm thức.",
+        rev: "Mất cân bằng năng lượng, bị cuốn vào những cảm xúc tiêu cực mãnh liệt."
+      }
+    },
+    advice: "Sự ôn hòa và điều độ là chìa khóa của hạnh phúc lâu dài. Hãy tránh xa mọi sự cực đoan và giữ cho tâm trí cân bằng.",
+    numerology: "14 - Sự chuyển tiếp, hòa hợp, thay đổi nhịp độ."
+  },
+  {
+    id: 15,
+    name: "The Devil",
+    nameVi: "Ác Quỷ",
+    number: "XV",
+    arcana: "major",
+    image: "cards/15-The-Devil.jpg",
+    planet: "Sao Thổ",
+    zodiac: "Ma Kết",
+    element: "Đất",
+    keywords: ["Bóng tối", "Cám dỗ", "Gắn bó độc hại", "Sự ràng buộc", "Vật chất", "Nghiện ngập", "Giới hạn tự áp đặt"],
+    keywordsRev: ["Giải thoát", "Cắt đứt ràng buộc", "Vượt qua cám dỗ", "Phục hồi", "Sự tự do"],
+    upright: "Lá The Devil chỉ ra rằng bạn đang bị trói buộc bởi những thói quen xấu, cám dỗ vật chất, mối quan hệ độc hại hoặc niềm tin giới hạn tự áp đặt. Thực chất, sợi dây chuyền trên cổ các nhân vật rất lỏng, bạn hoàn toàn có thể tự giải thoát mình nếu dám đối mặt với phần tối (shadow) của bản thân.",
+    reversed: "Sự giải thoát. Bạn đang phá vỡ xiềng xích, từ bỏ thói quen xấu, thoát khỏi sự thao túng hoặc cắt đứt một mối quan hệ độc hại để giành lại tự do.",
+    aspects: {
+      love: {
+        up: "Mối quan hệ dựa nhiều vào nhu cầu thể xác, vật chất hoặc sự kiểm soát, ghen tuông độc hại. Sự phụ thuộc quá mức vào đối phương.",
+        rev: "Thoát khỏi một mối quan hệ bạo hành, lợi dụng. Bắt đầu nhận ra giá trị bản thân và không để ai thao túng tình cảm của mình nữa."
+      },
+      career: {
+        up: "Bị mắc kẹt trong một công việc bạn chán ghét nhưng không dám nghỉ vì tiền bạc hoặc sự ổn định. Môi trường làm việc độc hại, đấu đá thủ đoạn.",
+        rev: "Bạn dũng cảm từ bỏ công việc không lành mạnh hoặc thoát khỏi sự chèn ép của cấp trên để tìm con đường mới tự do hơn."
+      },
+      finance: {
+        up: "Lòng tham làm mờ mắt. Cảnh báo những giao dịch mờ ám, cờ bạc, nợ nần hoặc bị trói buộc bởi những khoản vay mượn nặng lãi.",
+        rev: "Thanh toán dứt điểm nợ nần, thoát khỏi khủng hoảng tài chính và từ bỏ thói quen tiêu xài vô tội vạ."
+      },
+      health: {
+        up: "Cảnh báo nghiêm trọng về các chứng nghiện (rượu, thuốc, game...), lối sống hủy hoại cơ thể hoặc bệnh tâm lý (trầm cảm, ám ảnh).",
+        rev: "Giai đoạn phục hồi sau nghiện ngập. Bạn đã nhận ra vấn đề và đang nỗ lực kiểm soát lại sức khỏe của mình."
+      },
+      spiritual: {
+        up: "Mất kết nối hoàn toàn với ánh sáng, chìm đắm trong chủ nghĩa duy vật và tuyệt vọng. Tránh né những góc khuất tâm hồn.",
+        rev: "Đối mặt và vượt qua 'phần con' (bản năng tối) trong mình. Tái sinh linh hồn."
+      }
+    },
+    advice: "Sự trói buộc lớn nhất là sự trói buộc do chính bạn tạo ra trong tâm trí. Hãy dũng cảm nhìn thẳng vào phần tối và tự tháo xiềng xích cho mình.",
+    numerology: "15 - Cám dỗ, bài học nghiệp quả từ vật chất."
+  }
+];
+
+fs.writeFileSync('E:/TAROT/js/major_11_15.json', JSON.stringify(cards, null, 2));

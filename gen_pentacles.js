@@ -1,0 +1,217 @@
+﻿const fs = require('fs');
+
+const pentacles = [
+  {
+    id: 64, name: "Ace of Pentacles", nameVi: "Ace of Pentacles (Một Tiền)", number: "1", arcana: "minor", suit: "pentacles", image: "cards/64-Ace-of-Pentacles.jpg",
+    element: "Đất",
+    keywords: ["Cơ hội tài chính", "Sự sung túc", "Khởi đầu vững chắc", "Đầu tư", "Công việc mới"],
+    keywordsRev: ["Bỏ lỡ cơ hội", "Tham lam", "Thiếu kế hoạch", "Khó khăn tiền bạc"],
+    upright: "Một cơ hội tuyệt vời liên quan đến tài chính, công việc hoặc vật chất đang hiện ra. Một nền tảng vững chắc để bắt đầu một dự án sinh lời.",
+    reversed: "Một cơ hội tài chính bị bỏ lỡ, hoặc một dự án khởi đầu tồi tệ do thiếu nguồn vốn và kế hoạch thực tế.",
+    aspects: {
+      love: { up: "Một mối quan hệ mới mang lại sự ổn định và hỗ trợ vật chất lẫn nhau.", rev: "Tình cảm rạn nứt vì áp lực tiền bạc hoặc sự thực dụng quá mức." },
+      career: { up: "Một lời mời làm việc lương cao, một khoản đầu tư hoặc dự án kinh doanh mới.", rev: "Bị từ chối công việc, hoặc dự án bị đình trệ vì thiếu ngân sách." },
+      finance: { up: "Nhận được một khoản tiền bất ngờ, lợi nhuận đầu tư, hoặc tăng lương.", rev: "Trì hoãn thanh toán, mất mát tài chính nhỏ, hoặc chi tiêu quá khả năng." },
+      health: { up: "Sức khỏe dồi dào, bắt đầu một chế độ ăn uống hoặc tập luyện mới rất tốt cho cơ thể.", rev: "Lơ là chăm sóc bản thân, bắt đầu các thói quen xấu ảnh hưởng sức khỏe." },
+      spiritual: { up: "Sự kết nối mạnh mẽ với thế giới tự nhiên và Đất mẹ.", rev: "Quá bám víu vào vật chất, bỏ quên sự phát triển tâm hồn." }
+    }
+  },
+  {
+    id: 65, name: "Two of Pentacles", nameVi: "Two of Pentacles (Hai Tiền)", number: "2", arcana: "minor", suit: "pentacles", image: "cards/65-Two-of-Pentacles.jpg",
+    element: "Đất",
+    keywords: ["Cân bằng", "Linh hoạt", "Quản lý thời gian", "Cân đối tài chính", "Thích nghi"],
+    keywordsRev: ["Mất cân bằng", "Quá tải", "Quản lý kém", "Chi tiêu lố"],
+    upright: "Sự khéo léo trong việc tung hứng nhiều trách nhiệm cùng lúc (như công việc, gia đình, tài chính). Sự linh hoạt giúp bạn vượt qua giai đoạn bận rộn này.",
+    reversed: "Cảm giác quá tải, không thể cân bằng được cuộc sống và công việc. Sự quản lý thời gian và tiền bạc đang gặp vấn đề nghiêm trọng.",
+    aspects: {
+      love: { up: "Cùng nhau nỗ lực cân bằng giữa tình yêu và sự nghiệp.", rev: "Mối quan hệ bị lơ là vì cả hai quá bận rộn với công việc hoặc lo toan tiền bạc." },
+      career: { up: "Phải làm nhiều việc cùng lúc, sự đa nhiệm (multitasking) linh hoạt.", rev: "Ngập đầu trong công việc, stress vì không thể hoàn thành deadline." },
+      finance: { up: "Cố gắng cân đối thu chi, xoay vòng vốn kinh doanh.", rev: "Vỡ nợ nhẹ, vay chỗ này đắp chỗ kia, chi tiêu vượt quá thu nhập." },
+      health: { up: "Cần tìm sự cân bằng giữa làm việc và nghỉ ngơi để duy trì sức khỏe.", rev: "Kiệt sức do làm việc quá độ, bỏ bữa hoặc ngủ không đủ giấc." },
+      spiritual: { up: "Cân bằng giữa thế giới vật chất và đời sống tâm linh.", rev: "Bị cuốn vào cơm áo gạo tiền, không còn thời gian tĩnh tâm." }
+    }
+  },
+  {
+    id: 66, name: "Three of Pentacles", nameVi: "Three of Pentacles (Ba Tiền)", number: "3", arcana: "minor", suit: "pentacles", image: "cards/66-Three-of-Pentacles.jpg",
+    element: "Đất",
+    keywords: ["Hợp tác", "Làm việc nhóm", "Chuyên môn", "Học hỏi", "Kỹ năng", "Xây dựng"],
+    keywordsRev: ["Bất đồng nhóm", "Thiếu chuyên môn", "Xung đột", "Đình trệ"],
+    upright: "Thành công đạt được nhờ sự hợp tác, làm việc nhóm và đóng góp chuyên môn của mỗi cá nhân. Những kỹ năng của bạn đang được công nhận và đánh giá cao.",
+    reversed: "Sự thiếu hợp tác, mâu thuẫn trong nhóm làm việc hoặc thiếu kinh nghiệm dẫn đến chất lượng công việc tồi tệ.",
+    aspects: {
+      love: { up: "Cả hai cùng chung tay xây dựng tổ ấm, hợp tác giải quyết vấn đề. Tình yêu như những người đồng đội.", rev: "Không có sự hỗ trợ lẫn nhau, mạnh ai nấy sống, cãi vã vì phân chia việc nhà." },
+      career: { up: "Một dự án nhóm thành công. Sự tôn trọng lẫn nhau giữa đồng nghiệp và cấp trên.", rev: "Xung đột công sở, không ai chịu lắng nghe ai, đùn đẩy trách nhiệm." },
+      finance: { up: "Hợp tác kinh doanh sinh lời. Được trả công xứng đáng với chuyên môn.", rev: "Tranh chấp tài chính trong nội bộ công ty/nhóm làm ăn." },
+      health: { up: "Tham gia các lớp thể dục nhóm hoặc tìm được một bác sĩ/PT giỏi hỗ trợ.", rev: "Không tuân thủ lời khuyên y tế của chuyên gia, tự ý chữa bệnh sai cách." },
+      spiritual: { up: "Học hỏi và phát triển tâm linh cùng với một nhóm hoặc cộng đồng.", rev: "Cái tôi quá lớn, không chấp nhận sự khác biệt trong tư tưởng của người khác." }
+    }
+  },
+  {
+    id: 67, name: "Four of Pentacles", nameVi: "Four of Pentacles (Bốn Tiền)", number: "4", arcana: "minor", suit: "pentacles", image: "cards/67-Four-of-Pentacles.jpg",
+    element: "Đất",
+    keywords: ["Tiết kiệm", "Bảo vệ tài sản", "Keo kiệt", "Bám víu", "Sự ổn định", "An toàn"],
+    keywordsRev: ["Tiêu xài hoang phí", "Buông bỏ vật chất", "Chia sẻ", "Mất mát"],
+    upright: "Bạn đang trong trạng thái kiểm soát tài chính chặt chẽ, tiết kiệm và bảo vệ những gì mình có. Cảnh báo về sự keo kiệt hoặc quá bám víu vào vật chất, sợ hãi rủi ro.",
+    reversed: "Đã đến lúc buông bỏ sự kiểm soát cứng nhắc. Sự rộng rãi, quyên góp, hoặc ngược lại là sự tiêu xài hoang phí đến mức mất đi sự ổn định.",
+    aspects: {
+      love: { up: "Giữ chặt đối phương, sự ghen tuông, kiểm soát và sở hữu quá mức trong tình cảm.", rev: "Học cách nới lỏng kiểm soát, cho nhau không gian riêng hoặc chia tay vì quá ngột ngạt." },
+      career: { up: "Cố bám lấy một công việc ổn định dù nhàm chán, không dám mạo hiểm đổi việc.", rev: "Dám từ bỏ công việc ổn định để theo đuổi đam mê, hoặc bị mất việc." },
+      finance: { up: "Tiết kiệm từng đồng, tích lũy tài sản an toàn. Từ chối cho vay mượn.", rev: "Vung tiền quá trán, mua sắm bốc đồng hoặc cuối cùng đã chịu chi tiền cho bản thân." },
+      health: { up: "Táo bón, các vấn đề về tiêu hóa do căng thẳng và 'giữ lại' quá nhiều.", rev: "Thanh lọc cơ thể, giải phóng căng thẳng và các cảm xúc bị kìm nén." },
+      spiritual: { up: "Bị trói buộc bởi vật chất, từ chối chia sẻ phước báu.", rev: "Sự hào phóng mở rộng tâm hồn, hiểu được sự vận hành của dòng chảy vạn vật." }
+    }
+  },
+  {
+    id: 68, name: "Five of Pentacles", nameVi: "Five of Pentacles (Năm Tiền)", number: "5", arcana: "minor", suit: "pentacles", image: "cards/68-Five-of-Pentacles.jpg",
+    element: "Đất",
+    keywords: ["Nghèo khó", "Mất mát tài chính", "Cô lập", "Lo âu", "Bệnh tật", "Từ chối giúp đỡ"],
+    keywordsRev: ["Hồi phục tài chính", "Cải thiện", "Vượt qua khó khăn", "Được giúp đỡ"],
+    upright: "Giai đoạn khó khăn chồng chất: suy kiệt tài chính, bệnh tật và cảm giác bị cô lập. Bạn có thể đang lạnh cóng bên ngoài, trong khi sự giúp đỡ (nhà thờ) ở ngay phía sau nhưng bạn không nhận ra.",
+    reversed: "Kết thúc giai đoạn tăm tối. Sự phục hồi tài chính hoặc sức khỏe đang diễn ra. Bạn cuối cùng đã mở lòng đón nhận sự giúp đỡ từ người khác.",
+    aspects: {
+      love: { up: "Bị người yêu ruồng bỏ trong lúc khó khăn nhất, cảm giác cô đơn tột cùng. Hoặc cả hai cùng chật vật vì tiền bạc.", rev: "Cùng nhau vượt qua sóng gió nghèo khó, mối quan hệ dần được hàn gắn." },
+      career: { up: "Mất việc, thất nghiệp kéo dài, công ty phá sản. Bị tẩy chay tại nơi làm việc.", rev: "Tìm được công việc mới sau thời gian dài thất nghiệp, kinh tế gia đình ổn định lại." },
+      finance: { up: "Khủng hoảng tài chính nghiêm trọng, vỡ nợ, mất nhà cửa hoặc tài sản.", rev: "Trả được nợ, tìm ra lối thoát cho các khó khăn tiền bạc." },
+      health: { up: "Bệnh tật kéo dài, sức đề kháng kém do thiếu thốn vật chất hoặc căng thẳng quá độ.", rev: "Sức khỏe cải thiện rõ rệt, tìm được phương pháp điều trị hoặc bác sĩ tốt." },
+      spiritual: { up: "Cảm thấy bị thế giới và tâm linh ruồng bỏ. Bóng tối bao trùm.", rev: "Tìm lại được đức tin, ánh sáng của hy vọng chiếu rọi tâm hồn." }
+    }
+  },
+  {
+    id: 69, name: "Six of Pentacles", nameVi: "Six of Pentacles (Sáu Tiền)", number: "6", arcana: "minor", suit: "pentacles", image: "cards/69-Six-of-Pentacles.jpg",
+    element: "Đất",
+    keywords: ["Từ thiện", "Chia sẻ", "Sự hào phóng", "Nhận giúp đỡ", "Công bằng tài chính", "Cho và nhận"],
+    keywordsRev: ["Keo kiệt", "Lợi dụng", "Nợ nần", "Đòi hỏi vô lý", "Bất bình đẳng"],
+    upright: "Sự cân bằng giữa cho và nhận. Bạn đang ở vị thế có thể giúp đỡ người khác (từ thiện, cho vay) hoặc bạn đang được nhận sự hỗ trợ tài chính từ một người rộng lượng.",
+    reversed: "Sự bất bình đẳng về tài chính. Một bên đang lợi dụng lòng tốt của bên kia, hoặc các khoản nợ không được hoàn trả. Sự keo kiệt hoặc giúp đỡ có điều kiện.",
+    aspects: {
+      love: { up: "Một mối quan hệ cân bằng, hai bên cùng chăm sóc và hỗ trợ lẫn nhau. Một người có thể chu cấp tài chính cho người kia một cách vui vẻ.", rev: "Tình yêu dựa trên sự lợi dụng vật chất (đào mỏ), hoặc sự bất bình đẳng quyền lực trong nhà." },
+      career: { up: "Được sếp thưởng, tăng lương hoặc nhận được sự hướng dẫn tận tình từ cấp trên. Môi trường công bằng.", rev: "Bị bóc lột sức lao động, trả lương không xứng đáng. Từ chối giúp đỡ đồng nghiệp." },
+      finance: { up: "Nhận được khoản vay ngân hàng, học bổng hoặc tiền thưởng. Sự thịnh vượng được san sẻ.", rev: "Cho bạn bè vay tiền và bị quỵt, hoặc bạn đang gặp khó khăn nhưng không ai giúp đỡ." },
+      health: { up: "Nhận được sự chăm sóc y tế tuyệt vời, có thể là được hỗ trợ viện phí.", rev: "Không đủ tiền chi trả các dịch vụ chăm sóc sức khỏe tốt." },
+      spiritual: { up: "Sự cho đi vô điều kiện. Nhận ra luật nhân quả của tiền bạc (cho đi sẽ nhận lại).", rev: "Làm từ thiện chỉ để đánh bóng tên tuổi, khoe khoang hoặc mong cầu báo đáp." }
+    }
+  },
+  {
+    id: 70, name: "Seven of Pentacles", nameVi: "Seven of Pentacles (Bảy Tiền)", number: "7", arcana: "minor", suit: "pentacles", image: "cards/70-Seven-of-Pentacles.jpg",
+    element: "Đất",
+    keywords: ["Kiên nhẫn", "Chờ đợi thành quả", "Đầu tư dài hạn", "Đánh giá lại", "Sự bền bỉ"],
+    keywordsRev: ["Thiếu kiên nhẫn", "Đầu tư thất bại", "Lười biếng", "Chậm trễ"],
+    upright: "Thời gian để dừng lại, đánh giá những nỗ lực đã bỏ ra. Hạt giống bạn gieo đang lớn lên, đòi hỏi sự kiên nhẫn. Thành quả không đến ngay nhưng chắc chắn sẽ đến.",
+    reversed: "Sự thiếu kiên nhẫn dẫn đến việc hỏng bét dự án, hoặc bạn nhận ra rằng mình đang đổ mồ hôi vào một mảnh đất cằn cỗi không mang lại lợi nhuận.",
+    aspects: {
+      love: { up: "Nuôi dưỡng mối quan hệ từng ngày, kiên nhẫn xây dựng nền tảng vững chắc cho tương lai.", rev: "Mất kiên nhẫn với người yêu, hoặc nhận ra mối quan hệ này tốn thời gian vô ích." },
+      career: { up: "Tạm dừng để đánh giá lại hướng đi nghề nghiệp. Kết quả công việc cần thời gian để chứng minh.", rev: "Chán nản vì làm việc cật lực mà chưa thấy thăng tiến. Muốn bỏ cuộc giữa chừng." },
+      finance: { up: "Các khoản đầu tư dài hạn đang sinh lời chậm mà chắc (như bất động sản, cổ phiếu lâu năm).", rev: "Rút vốn sớm do thiếu kiên nhẫn, hoặc nhận ra khoản đầu tư thua lỗ." },
+      health: { up: "Quá trình điều trị bệnh mãn tính cần thời gian dài, nhưng đang đi đúng hướng.", rev: "Nản lòng vì sức khỏe phục hồi quá chậm, bỏ bê việc tập luyện hoặc ăn kiêng." },
+      spiritual: { up: "Gieo nhân tốt và bình tâm chờ quả ngọt. Sự phát triển tâm linh đòi hỏi tính kỷ luật dài hạn.", rev: "Mong muốn giác ngộ 'ăn liền', dễ nản lòng khi tu tập." }
+    }
+  },
+  {
+    id: 71, name: "Eight of Pentacles", nameVi: "Eight of Pentacles (Tám Tiền)", number: "8", arcana: "minor", suit: "pentacles", image: "cards/71-Eight-of-Pentacles.jpg",
+    element: "Đất",
+    keywords: ["Học hỏi", "Kỹ năng", "Sự chuyên cần", "Chi tiết", "Nỗ lực tập trung", "Sự tỉ mỉ"],
+    keywordsRev: ["Lười biếng", "Thiếu tham vọng", "Cẩu thả", "Ám ảnh sự hoàn hảo"],
+    upright: "Bạn đang hoàn thiện các kỹ năng của mình thông qua sự chuyên cần, tập trung cao độ và làm việc tỉ mỉ. Đây là giai đoạn của sự rèn giũa để trở thành một chuyên gia (master).",
+    reversed: "Sự cẩu thả, thiếu tập trung vào chi tiết, lười biếng. Hoặc ngược lại, bạn đang quá ám ảnh với sự hoàn hảo đến mức làm chậm tiến độ.",
+    aspects: {
+      love: { up: "Cả hai đang rất nỗ lực vun đắp và hoàn thiện mối quan hệ. Chú ý đến những chi tiết nhỏ để làm đối phương vui.", rev: "Bỏ bê tình yêu vì quá mải mê làm việc, hoặc lười biếng không muốn cố gắng giải quyết mâu thuẫn." },
+      career: { up: "Học thêm chứng chỉ mới, mài giũa chuyên môn. Làm việc chăm chỉ mang lại chất lượng tuyệt vời.", rev: "Làm việc chống đối, chất lượng sản phẩm kém, chán nản với công việc lặp đi lặp lại." },
+      finance: { up: "Kiếm tiền ổn định thông qua sự cần mẫn và tay nghề cao. Không có đường tắt để làm giàu lúc này.", rev: "Thu nhập giảm sút do thiếu kỹ năng hoặc không chịu cập nhật kiến thức mới." },
+      health: { up: "Thực hiện chế độ ăn uống, tập luyện vô cùng kỷ luật và tỉ mỉ.", rev: "Ám ảnh quá mức với việc tập luyện (tập sai tư thế) hoặc bỏ bê cơ thể hoàn toàn." },
+      spiritual: { up: "Rèn luyện các phương pháp thực hành tâm linh (thiền, yoga) một cách cực kỳ chăm chỉ.", rev: "Thực hành tâm linh một cách máy móc, thiếu đi cái hồn." }
+    }
+  },
+  {
+    id: 72, name: "Nine of Pentacles", nameVi: "Nine of Pentacles (Chín Tiền)", number: "9", arcana: "minor", suit: "pentacles", image: "cards/72-Nine-of-Pentacles.jpg",
+    element: "Đất",
+    keywords: ["Độc lập", "Tự do tài chính", "Thành quả", "Sang trọng", "Tự tin", "Tận hưởng"],
+    keywordsRev: ["Phụ thuộc tài chính", "Tiêu xài phù phiếm", "Hối hả", "Sợ mất mát"],
+    upright: "Sự độc lập, tự chủ về mặt tài chính và thành công cá nhân rực rỡ. Bạn đang tận hưởng cuộc sống sang trọng, an bình và tự hào về những gì mình tự tay gây dựng được.",
+    reversed: "Sự phụ thuộc vào tiền bạc của người khác. Tiêu xài vung vít cho những thứ xa xỉ bề ngoài để che đậy sự trống rỗng, hoặc quá bận rộn kiếm tiền mà quên mất tận hưởng cuộc sống.",
+    aspects: {
+      love: { up: "Rất hạnh phúc với cuộc sống độc thân độc lập, hoặc một mối quan hệ nơi cả hai đều tự chủ tài chính.", rev: "Lấy nhau vì tiền, phụ thuộc kinh tế hoàn toàn vào đối phương, hoặc lo sợ bị bỏ rơi nếu nghèo đi." },
+      career: { up: "Sự nghiệp thăng hoa, bạn làm chủ công việc kinh doanh của mình. Đạt đỉnh cao của sự chuyên nghiệp.", rev: "Làm việc quá sức vì lòng tham, không có thời gian nghỉ ngơi. Hoặc một dự án kinh doanh thua lỗ." },
+      finance: { up: "Giàu có, sung túc. Thỏa mái chi tiêu cho các kỳ nghỉ dưỡng cao cấp, chăm sóc sắc đẹp, mua sắm.", rev: "Khủng hoảng tài chính do thói quen tiêu xài xa xỉ (sống ảo). Sợ hãi việc mất đi địa vị." },
+      health: { up: "Sức khỏe cực kỳ tốt, nhan sắc rạng rỡ nhờ biết cách tự yêu thương và chăm sóc bản thân (spa, retreat).", rev: "Các bệnh liên quan đến lối sống ít vận động, ăn uống đồ ngọt, hoặc phẫu thuật thẩm mỹ hỏng." },
+      spiritual: { up: "Tự do trong tâm hồn, trân trọng vẻ đẹp của thiên nhiên và cuộc sống.", rev: "Bị mắc kẹt trong chiếc lồng vàng do chính mình tạo ra." }
+    }
+  },
+  {
+    id: 73, name: "Ten of Pentacles", nameVi: "Ten of Pentacles (Mười Tiền)", number: "10", arcana: "minor", suit: "pentacles", image: "cards/73-Ten-of-Pentacles.jpg",
+    element: "Đất",
+    keywords: ["Gia tài", "Thừa kế", "Ổn định gia đình", "Truyền thống", "Sự thịnh vượng lâu dài"],
+    keywordsRev: ["Tranh chấp gia đình", "Mất gia sản", "Cắt đứt truyền thống", "Phá sản"],
+    upright: "Một sự thịnh vượng mang tính kế thừa (gia tộc, công ty gia đình, tài sản để lại). Nền tảng gia đình cực kỳ vững chắc về mặt vật chất, truyền thống được gìn giữ qua nhiều thế hệ.",
+    reversed: "Tranh chấp tài sản thừa kế, sự sụp đổ của công ty gia đình hoặc phá vỡ các giá trị truyền thống để ra ở riêng. Vỡ nợ ảnh hưởng đến cả gia đình.",
+    aspects: {
+      love: { up: "Một cuộc hôn nhân gắn kết chặt chẽ với hai bên gia đình, đem lại sự bảo đảm vững chắc về tài chính.", rev: "Mâu thuẫn với nhà chồng/vợ vì vấn đề tiền bạc, hoặc kết hôn không được gia đình chấp nhận." },
+      career: { up: "Làm việc trong một tập đoàn lớn lâu đời, hoặc tiếp quản công việc kinh doanh của gia đình.", rev: "Công ty gia đình phá sản, bị sa thải khỏi một vị trí tưởng chừng rất ổn định." },
+      finance: { up: "Tài sản khổng lồ, nhận được đất đai, nhà cửa, tiền thừa kế. Một sự giàu có bền vững.", rev: "Mất mát tài sản gia đình, đầu tư thua lỗ nặng nề để lại khoản nợ cho con cái." },
+      health: { up: "Sức khỏe di truyền tốt. Tuổi thọ cao, được gia đình chăm sóc chu đáo khi ốm đau.", rev: "Phát hiện các căn bệnh di truyền từ gia đình, hoặc lo âu quá độ vì gánh nặng kinh tế gia đình." },
+      spiritual: { up: "Tôn kính tổ tiên, giữ gìn các giá trị cội nguồn.", rev: "Từ chối gốc gác, cảm thấy bị đè nén bởi những kỳ vọng của dòng họ." }
+    }
+  },
+  {
+    id: 74, name: "Page of Pentacles", nameVi: "Page of Pentacles (Tiểu Đồng Tiền)", number: "11", arcana: "minor", suit: "pentacles", image: "cards/74-Page-of-Pentacles.jpg",
+    element: "Đất",
+    keywords: ["Học sinh", "Khởi nghiệp", "Tham vọng", "Tập trung", "Cơ hội tài chính", "Chăm chỉ"],
+    keywordsRev: ["Lười biếng", "Chần chừ", "Mất mục tiêu", "Thất bại học tập", "Tin xấu về tiền bạc"],
+    upright: "Sự nhiệt huyết của một người mới bắt đầu học hỏi hoặc khởi nghiệp. Một tin tức tốt về tiền bạc, học bổng hoặc công việc. Tính cách thực tế, chăm chỉ và đáng tin cậy.",
+    reversed: "Thiếu tập trung, lười học, không có mục tiêu rõ ràng. Hoặc những tin tức không may mắn liên quan đến tiền bạc, bị rớt môn/trượt phỏng vấn.",
+    aspects: {
+      love: { up: "Một tình yêu thực tế, chậm rãi nhưng chắc chắn. Cùng nhau học tập hoặc lên kế hoạch tài chính nhỏ.", rev: "Thiếu trách nhiệm trong tình cảm, cư xử trẻ con, lười biếng hẹn hò." },
+      career: { up: "Đang đi học nghề, thực tập sinh chăm chỉ. Một ý tưởng kinh doanh mới đang được phác thảo thực tế.", rev: "Thiếu kỹ năng thực tế, hay mơ mộng viển vông, trượt phỏng vấn do thiếu chuẩn bị." },
+      finance: { up: "Bắt đầu học cách tiết kiệm và đầu tư nhỏ. Nhận được một khoản tiền thưởng hoặc học bổng.", rev: "Tiêu sạch tiền tiêu vặt, không biết quản lý tài chính cá nhân." },
+      health: { up: "Bắt đầu tham gia một khóa học về dinh dưỡng hoặc một môn thể thao mới với sự nghiêm túc.", rev: "Ăn uống vô tội vạ, lười vận động dẫn đến thừa cân, uể oải." },
+      spiritual: { up: "Khám phá tâm linh thông qua những việc làm thực tế (chăm sóc cây cối, thiền hành).", rev: "Tâm trí lơ đãng, không thể tập trung thiền định." }
+    }
+  },
+  {
+    id: 75, name: "Knight of Pentacles", nameVi: "Knight of Pentacles (Kỵ Sĩ Tiền)", number: "12", arcana: "minor", suit: "pentacles", image: "cards/75-Knight-of-Pentacles.jpg",
+    element: "Đất",
+    keywords: ["Chăm chỉ", "Đáng tin cậy", "Kiên nhẫn", "Bảo thủ", "Tiến triển chậm nhưng chắc"],
+    keywordsRev: ["Lười biếng", "Nghiện việc", "Bướng bỉnh", "Nhàm chán", "Trì trệ"],
+    upright: "Đại diện cho sự đáng tin cậy, trách nhiệm và sự kiên nhẫn. Tiến độ có thể chậm chạp (ngựa đứng yên) nhưng vô cùng chắc chắn và không bao giờ bỏ cuộc cho đến khi hoàn thành.",
+    reversed: "Sự bướng bỉnh, bảo thủ không chịu thay đổi. Sự nhàm chán lặp đi lặp lại. Hoặc một người lười biếng, thiếu động lực và vô trách nhiệm.",
+    aspects: {
+      love: { up: "Một người yêu cực kỳ chung thủy, đáng tin cậy, chăm lo cho gia đình. Tình yêu thực tế, ít lãng mạn.", rev: "Mối quan hệ quá nhàm chán, khô khan. Hoặc đối phương là một người ích kỷ, lười biếng vô tích sự." },
+      career: { up: "Một nhân viên mẫn cán, hoàn thành công việc đúng hạn. Sự nghiệp tiến triển chậm nhưng cực kỳ vững chắc.", rev: "Nghiện việc (workaholic) đến mức quên hết xung quanh, hoặc quá bảo thủ không chịu áp dụng công nghệ mới." },
+      finance: { up: "Tích lũy tài sản đều đặn. Đầu tư vào các kênh an toàn nhất. Tuyệt đối không mạo hiểm.", rev: "Bủn xỉn, chôn chặt tiền một chỗ khiến tiền mất giá. Khủng hoảng tài chính do lười làm việc." },
+      health: { up: "Sức khỏe ổn định nhờ duy trì những thói quen tốt như lập trình sẵn.", rev: "Các vấn đề về xương khớp, cơ bắp do sự cứng nhắc hoặc làm việc chân tay quá độ." },
+      spiritual: { up: "Thể hiện đức tin qua hành động thực tiễn (như làm việc thiện).", rev: "Quá gắn chặt vào vật chất, phủ nhận hoàn toàn các hiện tượng tâm linh." }
+    }
+  },
+  {
+    id: 76, name: "Queen of Pentacles", nameVi: "Queen of Pentacles (Nữ Hoàng Tiền)", number: "13", arcana: "minor", suit: "pentacles", image: "cards/76-Queen-of-Pentacles.jpg",
+    element: "Đất",
+    keywords: ["Nuôi dưỡng", "Thực tế", "Cung cấp", "Sự ấm áp", "Giàu có", "Gia đình và sự nghiệp"],
+    keywordsRev: ["Tham lam", "Bỏ bê gia đình", "Chỉ biết đến tiền", "Thực dụng", "Phụ thuộc"],
+    upright: "Mẫu người vừa giỏi kiếm tiền, vừa biết chăm lo chu toàn cho gia đình. Sự hiện thân của sự giàu có, lòng hiếu khách, thực tế và vô cùng hào phóng.",
+    reversed: "Một người mẹ/người vợ bỏ bê gia đình vì quá đam mê kiếm tiền. Sự thực dụng, tham lam, hoặc một người không biết lo toan, sống phụ thuộc vào tiền của người khác.",
+    aspects: {
+      love: { up: "Một đối tác tuyệt vời, chăm sóc bạn từng miếng ăn giấc ngủ và giúp bạn ổn định cuộc sống.", rev: "Yêu đương thực dụng, chỉ quan tâm đến nhà lầu xe hơi. Ghen tuông và thích kiểm soát đối tác bằng tiền." },
+      career: { up: "Nữ doanh nhân thành đạt, vừa quản lý công ty tốt vừa có thời gian cho bản thân.", rev: "Làm việc vì tiền một cách mù quáng, môi trường làm việc chỉ có sự tính toán vụ lợi." },
+      finance: { up: "Rất giỏi quản lý tài chính, đầu tư khôn ngoan và thích dùng tiền để nâng cao chất lượng sống.", rev: "Chi tiêu hoang phí để khoe khoang sự giàu có, hoặc ngược lại là bủn xỉn cắt xén bữa ăn gia đình." },
+      health: { up: "Sức khỏe tuyệt vời nhờ ăn uống đủ chất và sinh hoạt trong một môi trường sống thoải mái.", rev: "Béo phì, các vấn đề sức khỏe do ăn uống tẩm bổ quá mức hoặc lười vận động." },
+      spiritual: { up: "Kết nối tâm linh với Đất mẹ, thích làm vườn, tìm thấy bình yên trong thiên nhiên.", rev: "Đánh mất tâm hồn vì mãi chạy theo những giá trị vật chất phù phiếm." }
+    }
+  },
+  {
+    id: 77, name: "King of Pentacles", nameVi: "King of Pentacles (Vua Tiền)", number: "14", arcana: "minor", suit: "pentacles", image: "cards/77-King-of-Pentacles.jpg",
+    element: "Đất",
+    keywords: ["Sự thịnh vượng", "Lãnh đạo doanh nghiệp", "Ổn định", "Quyền lực vật chất", "Thành tựu"],
+    keywordsRev: ["Tham nhũng", "Độc tài tài chính", "Vật chất tàn nhẫn", "Cố chấp"],
+    upright: "Đỉnh cao của sự thành công về mặt vật chất. Một doanh nhân thành đạt, quyền lực, ổn định và có khả năng biến mọi thứ ông chạm vào thành vàng.",
+    reversed: "Một kẻ độc tài, sẵn sàng chà đạp lên người khác để làm giàu. Sự tham nhũng, lạm quyền, hoặc một người đàn ông giàu có nhưng keo kiệt và vô cảm.",
+    aspects: {
+      love: { up: "Một người bảo vệ vững chắc cho gia đình, cung cấp cuộc sống vật chất dư dả và an toàn.", rev: "Sử dụng tiền bạc để kiểm soát gia đình. Một người chồng/vợ độc đoán, vô tâm, chỉ biết đến công việc." },
+      career: { up: "Ông chủ lớn, CEO, nhà đầu tư lỗi lạc. Sự nghiệp đạt đến vị trí cao nhất có thể.", rev: "Công ty có hành vi kinh doanh gian lận, trốn thuế. Lãnh đạo tham lam vắt kiệt sức lao động nhân viên." },
+      finance: { up: "Khối tài sản khổng lồ, an toàn và sinh lời không ngừng. Đế chế tài chính được thiết lập.", rev: "Sự sụp đổ của một đế chế tài chính do lòng tham không đáy hoặc làm ăn phi pháp." },
+      health: { up: "Sức khỏe rất tốt nhờ có điều kiện chăm sóc y tế hạng nhất.", rev: "Bệnh tật liên quan đến tuổi già, hoặc các bệnh do dư thừa chất (Gout, tim mạch)." },
+      spiritual: { up: "Hiểu rằng vật chất là một công cụ tốt để phục vụ cho sự phát triển của nhân loại.", rev: "Xem tiền bạc là tôn giáo duy nhất. Coi thường những giá trị tinh thần." }
+    }
+  }
+];
+
+fs.writeFileSync('E:/TAROT/js/pentacles.json', JSON.stringify(pentacles, null, 2));
+console.log("Pentacles Generated!");

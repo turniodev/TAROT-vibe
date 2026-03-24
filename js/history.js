@@ -62,7 +62,7 @@
 
     list.innerHTML = hist.map((e, idx) => {
       const date    = e.dt.replace('T', ' ');
-      const theme   = THEME_LABEL[e.th] || e.th;
+      const theme   = (window.TarotHelper?.getThemeLabel(e.th)) || e.th;
       const qText   = e.q || '(không có câu hỏi)';
       const cards   = reconstruct(e.c || []);
       const thumbs  = cards.slice(0, 5).map(c =>
@@ -106,15 +106,52 @@
       });
     });
 
-    // Delete
+    // Delete — show confirm modal first
     list.querySelectorAll('.hist-btn-del').forEach(btn => {
       btn.addEventListener('click', () => {
+        const idx = parseInt(btn.dataset.idx);
         const arr = load();
-        arr.splice(parseInt(btn.dataset.idx), 1);
-        persist(arr);
-        renderPanel();
+        const e   = arr[idx];
+        if (!e) return;
+        showDeleteConfirm(e, () => {
+          arr.splice(idx, 1);
+          persist(arr);
+          renderPanel();
+        });
       });
     });
+  }
+
+  /* ── Delete confirmation modal ──────────────────── */
+  function showDeleteConfirm(entry, onConfirm) {
+    document.getElementById('histDeleteConfirm')?.remove();
+
+    const theme  = window.TarotHelper?.getThemeLabel(entry.th) || entry.th;
+    const date   = entry.dt.replace('T', ' ');
+    const qText  = entry.q || '(không có câu hỏi)';
+
+    const modal = document.createElement('div');
+    modal.id = 'histDeleteConfirm';
+    modal.className = 'hist-confirm-overlay';
+    modal.innerHTML = `
+      <div class="hist-confirm-box">
+        <div class="hist-confirm-icon">🗑</div>
+        <div class="hist-confirm-title">Xác Nhận Xoá</div>
+        <div class="hist-confirm-meta">${theme} · ${entry.sp} lá · ${date}</div>
+        <div class="hist-confirm-q">"${qText}"</div>
+        <div class="hist-confirm-actions">
+          <button id="histConfirmCancel" class="hist-confirm-btn hist-confirm-btn--cancel">Huỷ</button>
+          <button id="histConfirmDelete" class="hist-confirm-btn hist-confirm-btn--delete">Xoá</button>
+        </div>
+      </div>`;
+
+    document.body.appendChild(modal);
+    requestAnimationFrame(() => modal.classList.add('visible'));
+
+    const dismiss = () => { modal.classList.remove('visible'); setTimeout(() => modal.remove(), 300); };
+    modal.querySelector('#histConfirmCancel').addEventListener('click', dismiss);
+    modal.querySelector('#histConfirmDelete').addEventListener('click', () => { dismiss(); onConfirm(); });
+    modal.addEventListener('click', e => { if (e.target === modal) dismiss(); });
   }
 
   /* ── Open / Close panel ────────────────────────── */
@@ -143,6 +180,9 @@
   if (btnOpen)  btnOpen.addEventListener('click',  open);
   if (btnClose) btnClose.addEventListener('click', close);
   if (overlay)  overlay.addEventListener('click',  close);
+
+  const btnHistoryAnalysis = document.getElementById('btnHistoryAnalysis');
+  if (btnHistoryAnalysis) btnHistoryAnalysis.addEventListener('click', open);
 
   /* ── Expose API ─────────────────────────────────── */
   window.HistoryModule = { save, open, close, renderPanel };

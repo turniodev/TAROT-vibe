@@ -1,0 +1,217 @@
+﻿const fs = require('fs');
+
+const cups = [
+  {
+    id: 36, name: "Ace of Cups", nameVi: "Ace of Cups (Một Cốc)", number: "1", arcana: "minor", suit: "cups", image: "cards/36-Ace-of-Cups.jpg",
+    element: "Nước",
+    keywords: ["Tình yêu mới", "Cảm xúc dạt dào", "Trực giác", "Thấu cảm"],
+    keywordsRev: ["Đè nén cảm xúc", "Mất kết nối", "Thất vọng tình cảm"],
+    upright: "Sự khởi đầu của một luồng cảm xúc mới mẻ, sâu sắc và tình yêu thuần khiết. Thời điểm tuyệt vời để mở lòng và kết nối với người khác.",
+    reversed: "Trái tim đóng kín, kìm nén cảm xúc vì sợ tổn thương hoặc cảm thấy bị bỏ rơi.",
+    aspects: {
+      love: { up: "Một tình yêu mới, sự gắn kết sâu sắc và lãng mạn.", rev: "Tình yêu chững lại, cảm giác lạnh nhạt hoặc cô đơn." },
+      career: { up: "Làm việc với đam mê, môi trường làm việc hòa đồng.", rev: "Thiếu cảm hứng với công việc, đồng nghiệp xa lánh." },
+      finance: { up: "Tiền bạc đi kèm với sự thỏa mãn (ví dụ: làm từ thiện).", rev: "Chi tiêu bù đắp cho cảm xúc thiếu thốn." },
+      health: { up: "Cảm xúc tích cực giúp chữa lành thể chất.", rev: "Bệnh tật do kìm nén cảm xúc lâu ngày." },
+      spiritual: { up: "Khai mở trực giác, tình yêu vô điều kiện.", rev: "Mất kết nối với tâm hồn, cảm thấy trống rỗng." }
+    }
+  },
+  {
+    id: 37, name: "Two of Cups", nameVi: "Two of Cups (Hai Cốc)", number: "2", arcana: "minor", suit: "cups", image: "cards/37-Two-of-Cups.jpg",
+    element: "Nước",
+    keywords: ["Đối tác", "Sự hòa hợp", "Tình yêu đồng điệu", "Cam kết"],
+    keywordsRev: ["Mất cân bằng", "Chia tay", "Bất hòa trong tình cảm"],
+    upright: "Sự kết hợp hoàn hảo giữa hai tâm hồn. Tình yêu đồng điệu, sự hợp tác bình đẳng và tôn trọng lẫn nhau.",
+    reversed: "Sự mất kết nối, rạn nứt trong tình cảm hoặc một đối tác không đáng tin cậy.",
+    aspects: {
+      love: { up: "Một mối tình lãng mạn tuyệt vời, có thể tiến tới hôn nhân.", rev: "Cãi vã, chia tay hoặc tình yêu thiếu sự tôn trọng." },
+      career: { up: "Một đối tác làm ăn tuyệt vời, hợp đồng thuận lợi.", rev: "Hủy bỏ hợp đồng, đối tác lừa dối hoặc xung đột." },
+      finance: { up: "Chia sẻ tài chính trong hôn nhân/hợp tác kinh doanh.", rev: "Tranh chấp tiền bạc với người yêu/đối tác." },
+      health: { up: "Cân bằng âm dương, sức khỏe tốt nhờ tình cảm viên mãn.", rev: "Stress do chuyện tình cảm ảnh hưởng sức khỏe." },
+      spiritual: { up: "Nhận ra người tri kỷ (soulmate).", rev: "Ảo tưởng về tri kỷ, bỏ mặc bản thân." }
+    }
+  },
+  {
+    id: 38, name: "Three of Cups", nameVi: "Three of Cups (Ba Cốc)", number: "3", arcana: "minor", suit: "cups", image: "cards/38-Three-of-Cups.jpg",
+    element: "Nước",
+    keywords: ["Ăn mừng", "Tình bạn", "Tụ tập", "Niềm vui tập thể"],
+    keywordsRev: ["Quá đà", "Bị cô lập", "Chuyện tình tay ba"],
+    upright: "Thời gian để tụ tập, ăn mừng và chia sẻ niềm vui với bạn bè, cộng đồng. Mối quan hệ xã hội phát triển rực rỡ.",
+    reversed: "Cảnh báo về tình yêu tay ba, sự phản bội từ bạn bè hoặc ăn chơi quá đà gây hậu quả.",
+    aspects: {
+      love: { up: "Một sự kiện vui vẻ (đám cưới, đính hôn) cùng bạn bè.", rev: "Ghen tuông với bạn bè của đối phương, hoặc có người thứ 3." },
+      career: { up: "Thành công của dự án nhóm, tiệc tùng công ty.", rev: "Drama công sở, bị bạn bè tại chỗ làm nói xấu." },
+      finance: { up: "Tài chính tốt, đủ để khao bạn bè hoặc tiệc tùng.", rev: "Cháy túi vì ăn chơi đàng điếm, tiệc tùng vô bổ." },
+      health: { up: "Khỏe mạnh, vui vẻ nhờ mạng lưới bạn bè hỗ trợ.", rev: "Hậu quả do say xỉn, ăn uống quá độ." },
+      spiritual: { up: "Hòa mình vào cộng đồng, nhóm thiện nguyện.", rev: "Bị nhóm bạn xấu kéo lùi sự phát triển tâm linh." }
+    }
+  },
+  {
+    id: 39, name: "Four of Cups", nameVi: "Four of Cups (Bốn Cốc)", number: "4", arcana: "minor", suit: "cups", image: "cards/39-Four-of-Cups.jpg",
+    element: "Nước",
+    keywords: ["Nhàm chán", "Lờ đi cơ hội", "Thiếu động lực", "Suy ngẫm"],
+    keywordsRev: ["Tỉnh ngộ", "Nắm bắt cơ hội", "Bỏ qua quá khứ"],
+    upright: "Cảm giác nhàm chán, chán nản với thực tại. Bạn đang phớt lờ những cơ hội tốt đang được trao cho mình.",
+    reversed: "Bừng tỉnh, nhận ra và nắm bắt cơ hội bị bỏ lỡ. Sẵn sàng hòa nhập lại với cuộc sống.",
+    aspects: {
+      love: { up: "Thất vọng về tình yêu, từ chối mở lòng dù có người tán tỉnh.", rev: "Sẵn sàng hẹn hò trở lại sau thời gian dài cô đơn." },
+      career: { up: "Chán việc, không thiết tha với các lời mời hấp dẫn.", rev: "Tìm lại được cảm hứng làm việc, chớp lấy cơ hội thăng tiến." },
+      finance: { up: "Không quan tâm đến tiền bạc, bỏ qua cơ hội kiếm tiền.", rev: "Bắt đầu quan tâm và giải quyết vấn đề tài chính." },
+      health: { up: "Mệt mỏi, thiếu năng lượng sống, trầm cảm nhẹ.", rev: "Tìm lại niềm vui, chủ động tham gia hoạt động thể thao." },
+      spiritual: { up: "Lạc lối, từ chối những thông điệp vũ trụ.", rev: "Mở rộng lòng mình đón nhận sự thật tâm linh." }
+    }
+  },
+  {
+    id: 40, name: "Five of Cups", nameVi: "Five of Cups (Năm Cốc)", number: "5", arcana: "minor", suit: "cups", image: "cards/40-Five-of-Cups.jpg",
+    element: "Nước",
+    keywords: ["Tuyệt vọng", "Mất mát", "Hối tiếc", "Nỗi đau", "Vẫn còn hy vọng"],
+    keywordsRev: ["Tha thứ", "Tiến lên", "Phục hồi sau tổn thương"],
+    upright: "Nỗi buồn sâu sắc vì một sự mất mát, chia tay hoặc thất bại. Nhưng hãy nhớ, vẫn còn hai chiếc cốc đứng vững (vẫn còn hy vọng) đằng sau lưng.",
+    reversed: "Sự chữa lành đã bắt đầu. Bạn đã chấp nhận quá khứ, tha thứ và sẵn sàng tiến về phía trước.",
+    aspects: {
+      love: { up: "Đau buồn vì chia tay, không thể quên được người cũ.", rev: "Vượt qua nỗi đau, học cách tha thứ và bước tiếp." },
+      career: { up: "Thất vọng tràn trề vì dự án thất bại hoặc mất việc.", rev: "Chấp nhận sự thật, tìm kiếm một công việc mới tốt hơn." },
+      finance: { up: "Mất mát tài sản, đầu tư thua lỗ gây hối hận.", rev: "Khôi phục lại nguồn vốn, học được bài học quản lý rủi ro." },
+      health: { up: "Đau buồn ảnh hưởng nghiêm trọng đến sức khỏe (trầm cảm).", rev: "Ra khỏi vùng đen tối, bắt đầu chăm sóc bản thân." },
+      spiritual: { up: "Mắc kẹt trong bóng tối nội tâm.", rev: "Tự tha thứ, gột rửa tâm hồn." }
+    }
+  },
+  {
+    id: 41, name: "Six of Cups", nameVi: "Six of Cups (Sáu Cốc)", number: "6", arcana: "minor", suit: "cups", image: "cards/41-Six-of-Cups.jpg",
+    element: "Nước",
+    keywords: ["Hoài niệm", "Trẻ thơ", "Hồn nhiên", "Người cũ", "Kỷ niệm"],
+    keywordsRev: ["Bám víu quá khứ", "Sống thực tế", "Trưởng thành"],
+    upright: "Những kỷ niệm đẹp đẽ về tuổi thơ, người cũ hoặc niềm vui hồn nhiên sống lại. Một giai đoạn ngọt ngào, hoài niệm.",
+    reversed: "Bạn đang sống quá nhiều trong quá khứ, từ chối lớn lên và trốn tránh trách nhiệm hiện tại.",
+    aspects: {
+      love: { up: "Tình yêu trong sáng, sự quay lại của người yêu cũ hoặc bạn thời thơ ấu.", rev: "Mắc kẹt trong kỷ niệm, dùng người cũ để che lấp nỗi buồn hiện tại." },
+      career: { up: "Công việc liên quan đến trẻ em, sáng tạo hồn nhiên, hoặc làm việc với đồng nghiệp cũ.", rev: "Áp dụng các phương pháp cũ rích không còn hiệu quả." },
+      finance: { up: "Được nhận thừa kế, quà tặng, hoặc nhận lại một khoản nợ cũ.", rev: "Sợ lớn, không biết quản lý tài chính độc lập." },
+      health: { up: "Nếu có bệnh thì khả năng cao liên quan đến di truyền từ gia đình.", rev: "Cần rời khỏi tổ ấm để tự lập, tự lo cho sức khỏe." },
+      spiritual: { up: "Làm việc với đứa trẻ bên trong (inner child).", rev: "Từ chối tha thứ cho những tổn thương thời ấu thơ." }
+    }
+  },
+  {
+    id: 42, name: "Seven of Cups", nameVi: "Seven of Cups (Bảy Cốc)", number: "7", arcana: "minor", suit: "cups", image: "cards/42-Seven-of-Cups.jpg",
+    element: "Nước",
+    keywords: ["Lựa chọn", "Ảo mộng", "Mơ mộng", "Suy nghĩ quá nhiều"],
+    keywordsRev: ["Tỉnh mộng", "Quyết định rõ ràng", "Thiếu lựa chọn"],
+    upright: "Có quá nhiều lựa chọn, nhưng không phải tất cả đều tốt đẹp. Bạn đang bị cuốn vào ảo ảnh và những lời hứa hão huyền.",
+    reversed: "Sự tỉnh táo. Lớp sương mù ảo mộng tan đi, giúp bạn đưa ra được một lựa chọn dứt khoát và thực tế.",
+    aspects: {
+      love: { up: "Có nhiều người theo đuổi nhưng không biết chọn ai, hoặc đang lý tưởng hóa đối phương.", rev: "Nhìn rõ bản chất của một người và thoát khỏi ảo tưởng tình yêu." },
+      career: { up: "Nhiều lời mời chào việc làm nhưng cần cẩn thận bánh vẽ.", rev: "Đưa ra quyết định nghề nghiệp chắc chắn, thực tế." },
+      finance: { up: "Cẩn thận với các dự án 'làm giàu nhanh' đầy cám dỗ.", rev: "Tránh được cạm bẫy lừa đảo nhờ sự tỉnh táo." },
+      health: { up: "Mệt mỏi vì mộng du, mất ngủ hoặc ám ảnh sức khỏe.", rev: "Sự thật về tình trạng sức khỏe được làm rõ qua xét nghiệm." },
+      spiritual: { up: "Ảo tưởng tâm linh, sống mộng mơ xa rời thực tại.", rev: "Quay về thực tại chánh niệm (mindfulness)." }
+    }
+  },
+  {
+    id: 43, name: "Eight of Cups", nameVi: "Eight of Cups (Tám Cốc)", number: "8", arcana: "minor", suit: "cups", image: "cards/43-Eight-of-Cups.jpg",
+    element: "Nước",
+    keywords: ["Rời bỏ", "Tìm kiếm ý nghĩa", "Thất vọng", "Từ bỏ", "Tìm kiếm tâm linh"],
+    keywordsRev: ["Sợ rời đi", "Bám víu vô vọng", "Sợ sự cô đơn"],
+    upright: "Sự ra đi tự nguyện. Bạn từ bỏ những thứ đã đạt được (8 chiếc cốc) nhưng không còn mang lại hạnh phúc để tìm kiếm một ý nghĩa sâu sắc hơn.",
+    reversed: "Cảm thấy bế tắc, thất vọng tột cùng nhưng sợ hãi sự thay đổi nên không dám bước chân đi.",
+    aspects: {
+      love: { up: "Chấm dứt một mối quan hệ dù không có lỗi lầm gì, chỉ vì không còn cảm xúc.", rev: "Sợ ế, sợ cô đơn nên níu kéo một tình yêu nhàm chán." },
+      career: { up: "Bỏ việc lương cao để đi tìm đam mê thực sự của cuộc đời.", rev: "Làm việc vật vờ, kiệt quệ nhưng sợ mất nguồn thu." },
+      finance: { up: "Từ bỏ lối sống chạy theo vật chất, bằng lòng với sự đơn giản.", rev: "Từ chối bỏ lỗ, cố bám trụ một khoản đầu tư thất bại." },
+      health: { up: "Từ bỏ những thói quen cũ độc hại, tĩnh tâm.", rev: "Khước từ việc chữa trị hoặc thay đổi vì tuyệt vọng." },
+      spiritual: { up: "Hành trình tìm kiếm ý nghĩa linh hồn (như một nhà sư).", rev: "Sợ phải đối diện với sự trống rỗng bên trong mình." }
+    }
+  },
+  {
+    id: 44, name: "Nine of Cups", nameVi: "Nine of Cups (Chín Cốc)", number: "9", arcana: "minor", suit: "cups", image: "cards/44-Nine-of-Cups.jpg",
+    element: "Nước",
+    keywords: ["Ước nguyện thành sự thật", "Mãn nguyện", "Hạnh phúc cá nhân", "Sự sung túc"],
+    keywordsRev: ["Tham lam", "Bất mãn", "Niềm vui hời hợt"],
+    upright: "Lá bài của 'Điều ước thành hiện thực'. Sự thỏa mãn tuyệt đối về vật chất lẫn tinh thần. Bạn đang tận hưởng thành quả rực rỡ của mình.",
+    reversed: "Lòng tham không đáy, có được điều mình muốn nhưng vẫn không thấy đủ, hoặc theo đuổi khoái lạc bề ngoài.",
+    aspects: {
+      love: { up: "Hạnh phúc viên mãn trong tình yêu, mọi mong ước về nửa kia đều thành hiện thực.", rev: "Ích kỷ trong tình yêu, chỉ nhận mà không muốn cho đi." },
+      career: { up: "Đạt được đỉnh cao sự nghiệp mong đợi, tự hào về bản thân.", rev: "Thành công trong công việc nhưng cảm thấy sáo rỗng." },
+      finance: { up: "Tài lộc dồi dào, tự do tài chính, thoải mái hưởng thụ.", rev: "Tham lam, tiêu xài lãng phí chỉ để thỏa mãn thói hư vinh." },
+      health: { up: "Cơ thể khỏe mạnh cường tráng, tâm lý vô cùng thoải mái.", rev: "Bệnh tật do ăn uống, nhậu nhẹt quá đà (bệnh nhà giàu)." },
+      spiritual: { up: "Sống trong lòng biết ơn với vũ trụ.", rev: "Vui sướng giả tạo, che đậy sự thiếu vắng tâm linh." }
+    }
+  },
+  {
+    id: 45, name: "Ten of Cups", nameVi: "Ten of Cups (Mười Cốc)", number: "10", arcana: "minor", suit: "cups", image: "cards/45-Ten-of-Cups.jpg",
+    element: "Nước",
+    keywords: ["Hạnh phúc gia đình", "Sự viên mãn", "Hòa hợp", "Bình yên"],
+    keywordsRev: ["Gia đình rạn nứt", "Mâu thuẫn", "Hạnh phúc giả tạo"],
+    upright: "Một cái kết viên mãn tuyệt đối cho tình yêu và gia đình. Sự hòa hợp, bình yên, một mái ấm ngập tràn tiếng cười và cầu vồng hạnh phúc.",
+    reversed: "Sự rạn nứt trong gia đình, cãi vã, hoặc cố tình che giấu mâu thuẫn để vẽ nên bức tranh 'gia đình kiểu mẫu' giả tạo.",
+    aspects: {
+      love: { up: "Hôn nhân hạnh phúc, một gia đình êm ấm, yêu thương gắn kết vô điều kiện.", rev: "Ly thân, bạo lực gia đình hoặc các cuộc cãi vã gây tổn thương." },
+      career: { up: "Môi trường làm việc như một gia đình, chia sẻ và hỗ trợ hết mình.", rev: "Công ty có lục đục nội bộ, chia bè kết phái đấu đá." },
+      finance: { up: "Tài chính cực kỳ ổn định, là nền tảng vững chắc cho gia đình.", rev: "Tranh chấp tài sản gia đình, nợ nần gây đổ vỡ hạnh phúc." },
+      health: { up: "Sức khỏe cực tốt nhờ được sống trong tình yêu thương, chăm sóc.", rev: "Bệnh tật phát sinh do môi trường gia đình căng thẳng, u uất." },
+      spiritual: { up: "Đạt được sự bình yên nội tại, lan tỏa tình thương.", rev: "Từ chối việc chữa lành vết thương gia đình (inner family healing)." }
+    }
+  },
+  {
+    id: 46, name: "Page of Cups", nameVi: "Page of Cups (Tiểu Đồng Cốc)", number: "11", arcana: "minor", suit: "cups", image: "cards/46-Page-of-Cups.jpg",
+    element: "Nước",
+    keywords: ["Tin vui tình cảm", "Sáng tạo", "Trực giác", "Lời xin lỗi", "Lãng mạn"],
+    keywordsRev: ["Đa sầu đa cảm", "Chưa trưởng thành", "Tin đồn", "Thất vọng"],
+    upright: "Một tin tức vui vẻ về tình cảm hoặc một ý tưởng sáng tạo độc đáo sắp đến. Người mang đến sự ngây thơ, lãng mạn và tình cảm chân thành.",
+    reversed: "Sự bồng bột trong cảm xúc, hờn dỗi trẻ con, mộng mơ quá mức hoặc những tin đồn nhảm nhí.",
+    aspects: {
+      love: { up: "Một lời tỏ tình dễ thương, một thông điệp tình cảm tươi mới.", rev: "Người yêu cư xử trẻ con, ghen tuông vớ vẩn." },
+      career: { up: "Có cảm hứng nghệ thuật, ý tưởng thiết kế/sáng tạo tuyệt vời.", rev: "Mơ mộng giữa giờ làm, thiếu kỹ năng thực tế." },
+      finance: { up: "Một tin tức tài chính nhỏ bé nhưng làm bạn vui vẻ.", rev: "Ném tiền vào những thú vui không đâu vào đâu." },
+      health: { up: "Năng lượng nhẹ nhàng, rất tốt để học cách yêu thương bản thân.", rev: "Tâm lý nhạy cảm quá mức, buồn rầu không rõ lý do." },
+      spiritual: { up: "Bắt đầu khám phá trực giác, giải mã giấc mơ.", rev: "Phớt lờ các thông điệp trực giác vì nghĩ nó là sự trùng hợp." }
+    }
+  },
+  {
+    id: 47, name: "Knight of Cups", nameVi: "Knight of Cups (Kỵ Sĩ Cốc)", number: "12", arcana: "minor", suit: "cups", image: "cards/47-Knight-of-Cups.jpg",
+    element: "Nước",
+    keywords: ["Lãng tử", "Đề nghị tình yêu", "Sự quyến rũ", "Hòa bình", "Lời mời"],
+    keywordsRev: ["Trăng hoa", "Phi thực tế", "Giận dỗi", "Lừa dối tình cảm"],
+    upright: "Một lời cầu hôn, một lời mời lãng mạn. Kỵ sĩ cốc là một người quyến rũ, nhẹ nhàng, sống theo trái tim và mang lại hòa bình.",
+    reversed: "Một kẻ trăng hoa, sở khanh, hứa hẹn nhiều nhưng không làm gì cả. Dễ hờn dỗi và chạy trốn sự thật.",
+    aspects: {
+      love: { up: "Một tình yêu lãng mạn như truyện cổ tích. Lời cầu hôn hoặc tỏ tình chân thành.", rev: "Lừa tình, một kẻ đào hoa chỉ muốn chinh phục rồi bỏ chạy." },
+      career: { up: "Công việc liên quan đến nghệ thuật, ngoại giao, hòa giải. Một đề nghị làm việc hấp dẫn.", rev: "Nghĩ ra các ý tưởng hoang đường nhưng không thể thực thi." },
+      finance: { up: "Tiền bạc kiếm được từ nghệ thuật hoặc những giao dịch ngoại giao.", rev: "Vung tiền không tiếc tay để mua vui hoặc làm vừa lòng người khác." },
+      health: { up: "Cảm xúc thăng hoa mang lại sức khỏe tốt.", rev: "Rối loạn cảm xúc, các bệnh liên quan đến hệ sinh dục hoặc thận." },
+      spiritual: { up: "Hành động theo tiếng gọi của con tim, tìm kiếm cái đẹp.", rev: "Mù quáng, dễ bị dụ dỗ bởi các giáo phái." }
+    }
+  },
+  {
+    id: 48, name: "Queen of Cups", nameVi: "Queen of Cups (Nữ Hoàng Cốc)", number: "13", arcana: "minor", suit: "cups", image: "cards/48-Queen-of-Cups.jpg",
+    element: "Nước",
+    keywords: ["Nuôi dưỡng", "Thấu cảm", "Trực giác nhạy bén", "Yêu thương vô điều kiện"],
+    keywordsRev: ["Lụy tình", "Kiệt sức cảm xúc", "Nạn nhân hóa bản thân", "Thao túng cảm xúc"],
+    upright: "Sự hiện thân của tình mẹ, sự thấu cảm và yêu thương sâu sắc. Một người vô cùng bao dung, thấu hiểu người khác và có trực giác chính xác.",
+    reversed: "Sự phụ thuộc cảm xúc (lụy tình), lấy nước mắt làm vũ khí thao túng, hoặc kiệt sức vì lo lắng cho người khác quá nhiều.",
+    aspects: {
+      love: { up: "Sự bao dung, chia sẻ sâu sắc. Bạn là bến đỗ bình yên cho người ấy.", rev: "Lụy tình, ghen tuông mù quáng, lúc nào cũng đóng vai nạn nhân." },
+      career: { up: "Làm việc tốt trong lĩnh vực chăm sóc y tế, tham vấn tâm lý, nghệ thuật.", rev: "Để tình cảm xen vào công việc, giải quyết vấn đề bằng cảm tính." },
+      finance: { up: "Tài chính bình ổn. Bạn thích dùng tiền chăm lo cho gia đình hơn là tích lũy.", rev: "Hy sinh tài sản của mình cho một kẻ lợi dụng tình cảm." },
+      health: { up: "Cần chú ý thư giãn tinh thần, sức khỏe rất tốt nếu tâm trạng tốt.", rev: "Sức khỏe suy sụp hoàn toàn vì những cú sốc tình cảm." },
+      spiritual: { up: "Trực giác sắc bén như nhà ngoại cảm, kết nối thần giao cách cảm.", rev: "Bị năng lượng tiêu cực của người khác hút cạn (empath burnout)." }
+    }
+  },
+  {
+    id: 49, name: "King of Cups", nameVi: "King of Cups (Vua Cốc)", number: "14", arcana: "minor", suit: "cups", image: "cards/49-King-of-Cups.jpg",
+    element: "Nước",
+    keywords: ["Kiểm soát cảm xúc", "Điềm tĩnh", "Khôn ngoan", "Cố vấn"],
+    keywordsRev: ["Thao túng", "Bí ẩn khó lường", "Cảm xúc thất thường", "Lạm dụng"],
+    upright: "Một người làm chủ được cảm xúc của mình, điềm tĩnh giữa sóng gió. Sự khôn ngoan sâu sắc, một nhà ngoại giao tài ba hoặc người cố vấn tuyệt vời.",
+    reversed: "Che giấu những cảm xúc đen tối bên trong. Kẻ thao túng tâm lý bậc thầy, dễ nổi nóng thất thường hoặc lạnh lùng tàn nhẫn.",
+    aspects: {
+      love: { up: "Một người chồng/đối tác trưởng thành, vững chãi, luôn biết cách lắng nghe và vỗ về.", rev: "Mối quan hệ đầy dối trá, thao túng tâm lý (gaslighting), ghen tuông ngầm." },
+      career: { up: "Lãnh đạo bằng sự thấu hiểu, công tâm và khôn khéo.", rev: "Sếp sử dụng thủ đoạn tâm lý để chèn ép nhân viên." },
+      finance: { up: "Quyết định đầu tư sáng suốt, không bị cảm xúc chi phối (không fomo).", rev: "Lợi dụng niềm tin của người khác để kiếm tiền bất chính." },
+      health: { up: "Sức khỏe cực kỳ ổn định nhờ một cái đầu lạnh và tâm lý vững.", rev: "Dùng rượu bia, chất kích thích để đè nén nỗi đau." },
+      spiritual: { up: "Bậc thầy về trí tuệ cảm xúc (EQ) và tâm linh.", rev: "Dùng thần quyền hoặc tâm linh để thao túng đám đông." }
+    }
+  }
+];
+
+fs.writeFileSync('E:/TAROT/js/cups.json', JSON.stringify(cups, null, 2));
+console.log("Cups Generated!");

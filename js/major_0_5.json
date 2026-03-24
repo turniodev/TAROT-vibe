@@ -1,0 +1,318 @@
+[
+  {
+    "id": 0,
+    "name": "The Fool",
+    "nameVi": "Kẻ Ngốc",
+    "number": "0",
+    "arcana": "major",
+    "image": "cards/0-The-Fool.jpg",
+    "planet": "Sao Thiên Vương",
+    "zodiac": "Bảo Bình",
+    "element": "Khí",
+    "keywords": [
+      "Khởi đầu mới",
+      "Tiềm năng vô hạn",
+      "Niềm tin",
+      "Tự do",
+      "Dũng cảm",
+      "Ngây thơ",
+      "Phiêu lưu"
+    ],
+    "keywordsRev": [
+      "Liều lĩnh",
+      "Thiếu kinh nghiệm",
+      "Bốc đồng",
+      "Mù quáng",
+      "Thiếu suy nghĩ"
+    ],
+    "upright": "The Fool là biểu tượng của sự khởi đầu mới, tiềm năng vô tận và lòng tin mãnh liệt vào hành trình phía trước. Đây là lúc bạn cần mở lòng với những cơ hội chưa biết, dũng cảm bước ra khỏi vùng an toàn.",
+    "reversed": "Khi ngược, The Fool cảnh báo về sự liều lĩnh thiếu tính toán, hành động bốc đồng hoặc sự ngây thơ quá mức dễ bị lợi dụng. Hãy dừng lại cân nhắc kỹ trước khi quyết định.",
+    "aspects": {
+      "love": {
+        "up": "Báo hiệu một mối quan hệ mới mẻ, thú vị sắp tới hoặc một luồng sinh khí mới trong tình yêu hiện tại. Khuyên bạn nên cởi mở và tin tưởng.",
+        "rev": "Cảnh báo một mối quan hệ hời hợt, thiếu cam kết hoặc bạn đang quá mù quáng, lý tưởng hóa đối phương."
+      },
+      "career": {
+        "up": "Một cơ hội nghề nghiệp mới đang mở ra. Dù có rủi ro, đây là lúc dám nghĩ dám làm, thử sức với lĩnh vực mới.",
+        "rev": "Bạn có thể đang hành động thiếu chuẩn bị hoặc đưa ra các quyết định nghề nghiệp bồng bột. Cần lập kế hoạch rõ ràng hơn."
+      },
+      "finance": {
+        "up": "Cơ hội tài chính mới xuất hiện, nhưng hãy chắc chắn bạn đã nắm rõ luật chơi trước khi đầu tư.",
+        "rev": "Tránh chi tiêu bốc đồng hoặc đầu tư vào những thứ bạn không hiểu rõ. Nguy cơ mất tiền do bất cẩn."
+      },
+      "health": {
+        "up": "Sinh lực dồi dào, tràn đầy năng lượng. Có thể bắt đầu một thói quen tập luyện mới.",
+        "rev": "Cẩn thận với các tai nạn do bất cẩn. Đừng phớt lờ các dấu hiệu cảnh báo của cơ thể."
+      },
+      "spiritual": {
+        "up": "Sự thức tỉnh tâm linh, sẵn sàng dấn thân vào một hành trình khám phá bản thân hoàn toàn mới.",
+        "rev": "Lạc lối, không tìm thấy mục đích thực sự hoặc đang theo đuổi những niềm tin hời hợt."
+      }
+    },
+    "advice": "Hãy dũng cảm bước đi, nhưng đừng quên nhìn xuống đường. Tự do phải đi kèm với sự chuẩn bị tâm lý.",
+    "numerology": "0 - Tiềm năng nguyên thủy, tính không, vô hạn."
+  },
+  {
+    "id": 1,
+    "name": "The Magician",
+    "nameVi": "Pháp Sư",
+    "number": "I",
+    "arcana": "major",
+    "image": "cards/1-The-Magician.jpg",
+    "planet": "Sao Thủy",
+    "zodiac": "Song Tử & Xử Nữ",
+    "element": "Khí",
+    "keywords": [
+      "Sáng tạo",
+      "Biến ước mơ thành sự thật",
+      "Kỹ năng",
+      "Tự tin",
+      "Hành động",
+      "Năng lượng tích cực"
+    ],
+    "keywordsRev": [
+      "Lừa dối",
+      "Thao túng",
+      "Thiếu tập trung",
+      "Tài năng bị lãng phí",
+      "Ảo tưởng"
+    ],
+    "upright": "The Magician đại diện cho sức mạnh ý chí, khả năng sáng tạo và năng lực hiện thực hóa mục tiêu. Bạn hiện có đủ công cụ và tài nguyên cần thiết để thành công, điều quan trọng là phải hành động ngay.",
+    "reversed": "Lá bài đảo ngược cảnh báo về sự lừa gạt, thao túng (từ người khác hoặc tự dối mình), hoặc bạn đang lãng phí tài năng vì thiếu sự tập trung và kỷ luật.",
+    "aspects": {
+      "love": {
+        "up": "Bạn hoặc đối tác đang làm chủ mối quan hệ, mang lại sự mới mẻ và cuốn hút. Nếu độc thân, bạn có sức hút mãnh liệt để thu hút người mới.",
+        "rev": "Cẩn thận với những lời hứa hão huyền, sự thao túng tâm lý (gaslighting) hoặc dối trá trong tình cảm."
+      },
+      "career": {
+        "up": "Đây là thời điểm tuyệt vời để khởi xướng các dự án. Bạn có kỹ năng và sức ảnh hưởng để vượt qua mọi thử thách.",
+        "rev": "Bạn có thể đang không phát huy hết khả năng, hoặc môi trường làm việc có sự mờ ám, lừa lọc."
+      },
+      "finance": {
+        "up": "Khả năng kiếm tiền tốt thông qua tài năng cá nhân và sự nhạy bén. Có thể có cơ hội gia tăng thu nhập đột phá.",
+        "rev": "Tránh những kế hoạch 'làm giàu nhanh' hoặc các khoản đầu tư rủi ro có dấu hiệu lừa đảo."
+      },
+      "health": {
+        "up": "Khả năng phục hồi nhanh chóng. Bạn có sức mạnh tự chữa lành nếu biết kết hợp cả thể chất lẫn tinh thần.",
+        "rev": "Có thể bạn đang chẩn đoán sai bệnh hoặc cần tìm kiếm ý kiến thứ hai (second opinion) từ chuyên gia đáng tin cậy."
+      },
+      "spiritual": {
+        "up": "Kết nối sâu sắc giữa ý thức và vũ trụ ('Trên sao, dưới vậy'). Sức mạnh tâm linh đang ở mức cao.",
+        "rev": "Sử dụng sức mạnh tâm linh hoặc kiến thức cho những mục đích ích kỷ, hoặc đang mất kết nối với vũ trụ."
+      }
+    },
+    "advice": "Tất cả các nguồn lực bạn cần đều đã sẵn sàng. Hãy tập trung ý chí và hành động để biến ý tưởng thành hiện thực.",
+    "numerology": "1 - Bắt đầu, ý chí khởi nguyên, cá thể độc lập."
+  },
+  {
+    "id": 2,
+    "name": "The High Priestess",
+    "nameVi": "Nữ Tư Tế",
+    "number": "II",
+    "arcana": "major",
+    "image": "cards/2-The-High-Priestess.jpg",
+    "planet": "Mặt Trăng",
+    "zodiac": "Cự Giải",
+    "element": "Nước",
+    "keywords": [
+      "Trực giác",
+      "Bí ẩn",
+      "Tiềm thức",
+      "Sự tĩnh lặng",
+      "Kiến thức nội tâm",
+      "Chờ đợi"
+    ],
+    "keywordsRev": [
+      "Phớt lờ trực giác",
+      "Bí mật bị tiết lộ",
+      "Sự hời hợt",
+      "Cảm xúc kìm nén",
+      "Rút lui"
+    ],
+    "upright": "Lá bài biểu trưng cho trí tuệ tâm linh, trực giác sâu sắc và những điều bí ẩn chưa được hé lộ. Đây là lúc lùi lại, giữ im lặng, và lắng nghe tiếng nói từ bên trong thay vì hành động vội vã.",
+    "reversed": "Khi ngược, nó cho thấy bạn đang phớt lờ trực giác của mình, bị ảnh hưởng quá nhiều bởi ý kiến người ngoài hoặc có những bí mật đang bị che giấu gây hại.",
+    "aspects": {
+      "love": {
+        "up": "Tình yêu đang ở giai đoạn tĩnh lặng, kết nối sâu sắc về mặt tâm hồn. Có thể có một sự thu hút bí ẩn, hoặc bạn cần lắng nghe trực giác để hiểu đối phương.",
+        "rev": "Sự thiếu trung thực, những bí mật bị giấu giếm gây rạn nứt. Có thể bạn đang tự lừa dối bản thân về cảm xúc thật."
+      },
+      "career": {
+        "up": "Bạn nên học hỏi thêm thay vì cố gắng thể hiện. Lắng nghe trực giác trước các quyết định lớn. Thông tin quan trọng vẫn còn đang ẩn giấu.",
+        "rev": "Bạn đang bị che giấu thông tin trong công việc. Đừng vội vàng ký kết hoặc tham gia khi chưa biết rõ tình hình."
+      },
+      "finance": {
+        "up": "Giữ kín tình hình tài chính của mình. Chờ đợi thêm thông tin trước khi đưa ra quyết định đầu tư.",
+        "rev": "Có nguy cơ bị lừa đảo tài chính hoặc bạn đang thiếu minh bạch về tiền bạc với người khác."
+      },
+      "health": {
+        "up": "Lắng nghe cơ thể mình. Nó đang cố gắng truyền đạt điều gì đó. Có thể cần chú ý đến vấn đề nội tiết, hormone.",
+        "rev": "Bỏ qua các triệu chứng cảnh báo. Cần đi khám để làm rõ những vấn đề tiềm ẩn."
+      },
+      "spiritual": {
+        "up": "Thời điểm hoàn hảo để thiền định, kết nối với tiềm thức và khai mở các khả năng tâm linh.",
+        "rev": "Mất kết nối với nội tâm, cảm thấy chênh vênh, trống rỗng vì chạy theo các giá trị vật chất."
+      }
+    },
+    "advice": "Đừng vội vàng hành động. Hãy kiên nhẫn, tĩnh lặng và tin tưởng hoàn toàn vào trực giác của bạn.",
+    "numerology": "2 - Sự nhị nguyên, cân bằng, tính nữ sâu sắc."
+  },
+  {
+    "id": 3,
+    "name": "The Empress",
+    "nameVi": "Nữ Hoàng",
+    "number": "III",
+    "arcana": "major",
+    "image": "cards/3-The-Empress.jpg",
+    "planet": "Sao Kim",
+    "zodiac": "Kim Ngưu & Thiên Bình",
+    "element": "Đất",
+    "keywords": [
+      "Sinh sôi nảy nở",
+      "Mẫu tử",
+      "Sự phong phú",
+      "Thiên nhiên",
+      "Nuôi dưỡng",
+      "Sự thoải mái",
+      "Sắc đẹp"
+    ],
+    "keywordsRev": [
+      "Bỏ bê bản thân",
+      "Quá bảo bọc",
+      "Khô khan",
+      "Phụ thuộc",
+      "Sự cạn kiệt sáng tạo"
+    ],
+    "upright": "The Empress là ngọn nguồn của sự sống, cái đẹp, tình yêu và sự sung túc. Lá bài báo hiệu một thời kỳ gặt hái thành quả, sự sinh sôi (có thể là mang thai hoặc ý tưởng mới) và sự viên mãn về vật chất lẫn tinh thần.",
+    "reversed": "Bạn có thể đang bỏ bê việc chăm sóc bản thân, hoặc ngược lại, đang quá bao bọc/phụ thuộc vào người khác. Sự sáng tạo bị tắc nghẽn hoặc gặp khó khăn về tài chính.",
+    "aspects": {
+      "love": {
+        "up": "Một tình yêu ngọt ngào, thấu hiểu và lãng mạn. Rất tốt cho việc kết hôn hoặc có tin vui về đường con cái.",
+        "rev": "Cảm giác bị phụ thuộc quá mức vào đối phương, sự ghen tuông, hoặc thiếu đi sự chăm sóc cần thiết trong tình cảm."
+      },
+      "career": {
+        "up": "Dự án của bạn đang đơm hoa kết trái. Bạn có môi trường làm việc thoải mái, được đồng nghiệp hỗ trợ tốt.",
+        "rev": "Cạn kiệt ý tưởng, làm việc trong môi trường ngột ngạt hoặc bạn đang ôm đồm quá nhiều việc của người khác."
+      },
+      "finance": {
+        "up": "Sự sung túc và ổn định. Đầu tư sinh lời tốt. Thời điểm tốt để tận hưởng thành quả từ tiền bạc.",
+        "rev": "Khó khăn tài chính do tiêu xài hoang phí, hoặc lo lắng quá mức về tiền bạc khiến bạn mất vui."
+      },
+      "health": {
+        "up": "Sức khỏe dồi dào, khả năng sinh sản tốt. Khuyên bạn nên gần gũi với thiên nhiên để thư giãn.",
+        "rev": "Cảnh báo các vấn đề liên quan đến việc ăn uống kém điều độ, hoặc căng thẳng do lo toan quá nhiều cho gia đình."
+      },
+      "spiritual": {
+        "up": "Kết nối mạnh mẽ với Đất mẹ và thiên nhiên. Sự bình yên trong tâm hồn.",
+        "rev": "Bị cuốn vào vật chất, quên mất việc nuôi dưỡng tâm hồn và vẻ đẹp bên trong."
+      }
+    },
+    "advice": "Hãy yêu thương bản thân, nuôi dưỡng các mối quan hệ và đón nhận sự phong phú mà vũ trụ ban tặng.",
+    "numerology": "3 - Sự sáng tạo, sinh sôi, phát triển mạnh mẽ."
+  },
+  {
+    "id": 4,
+    "name": "The Emperor",
+    "nameVi": "Hoàng Đế",
+    "number": "IV",
+    "arcana": "major",
+    "image": "cards/4-The-Emperor.jpg",
+    "planet": "Sao Hỏa",
+    "zodiac": "Bạch Dương",
+    "element": "Lửa",
+    "keywords": [
+      "Quyền lực",
+      "Cấu trúc",
+      "Kỷ luật",
+      "Sự ổn định",
+      "Lãnh đạo",
+      "Quy tắc",
+      "Tính nam"
+    ],
+    "keywordsRev": [
+      "Độc đoán",
+      "Sự cứng nhắc",
+      "Lạm dụng quyền lực",
+      "Kỷ luật kém",
+      "Thiếu kiểm soát"
+    ],
+    "upright": "The Emperor tượng trưng cho quyền lực, sự ổn định, kỷ luật và trật tự. Lá bài khuyên bạn nên thiết lập cấu trúc rõ ràng, dùng lý trí và khả năng lãnh đạo để kiểm soát tình hình và xây dựng nền tảng vững chắc.",
+    "reversed": "Biểu thị sự độc tài, kiểm soát thái quá gây ngột ngạt, hoặc ngược lại là sự vô kỷ luật, yếu đuối, không thể bảo vệ những gì mình đang có.",
+    "aspects": {
+      "love": {
+        "up": "Một mối quan hệ ổn định, thực tế và mang tính bảo bọc. Có thể thiếu một chút lãng mạn nhưng bù lại bằng sự vững chãi, trung thành.",
+        "rev": "Mối quan hệ có dấu hiệu gia trưởng, kiểm soát quá mức từ một phía, hoặc sự thiếu trách nhiệm, lảng tránh cam kết."
+      },
+      "career": {
+        "up": "Bạn đang ở vị thế tốt, có quyền lực và tầm ảnh hưởng. Sự nghiệp phát triển nhờ vào kỷ luật và cấu trúc công việc rõ ràng.",
+        "rev": "Xung đột với sếp hoặc cấp trên. Môi trường làm việc thiếu định hướng, vô tổ chức, hoặc quản lý vi mô (micromanagement) tồi tệ."
+      },
+      "finance": {
+        "up": "Quản lý tài chính chặt chẽ, kỷ luật. Tiền bạc ổn định nhờ biết cách lập ngân sách và kiểm soát chi tiêu.",
+        "rev": "Mất kiểm soát tài chính. Cần xem xét lại cách quản lý tiền bạc, tránh để người khác lạm quyền trong tài sản của bạn."
+      },
+      "health": {
+        "up": "Sức khỏe ổn định. Cần duy trì chế độ tập luyện và ăn uống có kỷ luật chặt chẽ.",
+        "rev": "Căng thẳng do ôm đồm nhiều trách nhiệm. Cần nới lỏng bản thân, tránh sự cứng nhắc gây mệt mỏi thể chất."
+      },
+      "spiritual": {
+        "up": "Học cách làm chủ tâm trí và cảm xúc của bản thân thông qua kỷ luật.",
+        "rev": "Cứng đầu, không chịu mở lòng tiếp thu những quan điểm tâm linh mới, bị trói buộc bởi các giáo điều."
+      }
+    },
+    "advice": "Đã đến lúc dùng lý trí thay cho cảm xúc. Thiết lập quy tắc, giữ kỷ luật và bảo vệ những gì bạn đã tạo ra.",
+    "numerology": "4 - Nền tảng vững chắc, trật tự, vật chất, sự an toàn."
+  },
+  {
+    "id": 5,
+    "name": "The Hierophant",
+    "nameVi": "Giáo Hoàng",
+    "number": "V",
+    "arcana": "major",
+    "image": "cards/5-The-Hierophant.jpg",
+    "planet": "Sao Kim",
+    "zodiac": "Kim Ngưu",
+    "element": "Đất",
+    "keywords": [
+      "Tôn giáo",
+      "Truyền thống",
+      "Niềm tin",
+      "Gia nhập đội nhóm",
+      "Giáo lý",
+      "Người dẫn dắt",
+      "Hôn nhân"
+    ],
+    "keywordsRev": [
+      "Phá vỡ quy tắc",
+      "Nổi loạn",
+      "Tư duy hạn hẹp",
+      "Từ chối truyền thống",
+      "Tự do cá nhân"
+    ],
+    "upright": "The Hierophant đại diện cho các giá trị truyền thống, hệ thống niềm tin, trường học và các tổ chức tôn giáo/xã hội. Lá bài khuyên bạn nên tuân theo các quy tắc đã được thiết lập, hoặc tìm kiếm một người thầy/cố vấn có kinh nghiệm để học hỏi.",
+    "reversed": "Khuyến khích bạn thoát khỏi tư duy lối mòn, thách thức những quy tắc lỗi thời hoặc từ chối đi theo đám đông. Đây là lúc tự tìm ra chân lý cho riêng mình.",
+    "aspects": {
+      "love": {
+        "up": "Mối quan hệ tiến tới cam kết vững chắc, truyền thống như hôn nhân, đính hôn. Tình yêu dựa trên sự chia sẻ chung về hệ giá trị và niềm tin.",
+        "rev": "Sự bất đồng về quan điểm sống, tôn giáo hoặc truyền thống gia đình. Muốn phá vỡ các ranh giới và định kiến trong tình yêu."
+      },
+      "career": {
+        "up": "Làm việc tốt trong môi trường có tổ chức, tuân thủ nội quy. Rất thuận lợi cho việc học tập, làm việc nhóm hoặc được một mentor (người hướng dẫn) dẫn dắt.",
+        "rev": "Cảm thấy ngột ngạt vì sự cứng nhắc của công ty. Bạn muốn làm việc độc lập hoặc áp dụng những phương pháp sáng tạo, phá cách hơn."
+      },
+      "finance": {
+        "up": "Đầu tư an toàn, theo các kênh truyền thống và uy tín (như tiết kiệm ngân hàng, quỹ lâu đời). Tránh rủi ro lớn.",
+        "rev": "Bạn đang xem xét các phương pháp đầu tư mới lạ, phi truyền thống. Cần cẩn thận đừng mạo hiểm quá mức."
+      },
+      "health": {
+        "up": "Theo đuổi các phương pháp điều trị truyền thống, y học hiện đại hoặc tuân thủ nghiêm ngặt phác đồ của bác sĩ.",
+        "rev": "Bạn có thể đang tìm kiếm các giải pháp chữa bệnh thay thế (alternative medicine) do các phương pháp cũ không hiệu quả."
+      },
+      "spiritual": {
+        "up": "Phát triển tâm linh thông qua việc tham gia một cộng đồng tôn giáo hoặc học hỏi các giáo lý truyền thống.",
+        "rev": "Giải phóng bản thân khỏi các niềm tin bị áp đặt. Tìm kiếm con đường tâm linh độc lập mang tính cá nhân cao."
+      }
+    },
+    "advice": "Nếu đang gặp bế tắc, hãy tìm đến sự thông thái từ những người đi trước hoặc bám sát vào các nguyên tắc đã được kiểm chứng.",
+    "numerology": "5 - Sự thay đổi, kết nối, các giác quan và sự giảng dạy."
+  }
+]

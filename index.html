@@ -12,6 +12,8 @@
     href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400;600;700&family=EB+Garamond:ital,wght@0,400;0,500;1,400;1,500&display=swap"
     rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
+  <!-- Google Identity Services -->
+  <script src="https://accounts.google.com/gsi/client" async defer></script>
 </head>
 
 <body>
@@ -52,10 +54,14 @@
         <div class="sigil-glow"></div>
       </div>
 
-      <h1 class="landing-title">Tarot Huyền Bí</h1>
-      <p class="landing-subtitle">Nhìn xuyên màn đêm &mdash; Khám phá vận mệnh</p>
+      <h1 class="landing-title reveal-title">
+        <span class="title-word" style="--wi:0">Tarot</span>
+        <span class="title-word title-word--gold" style="--wi:1">Huyền</span>
+        <span class="title-word title-word--gold" style="--wi:2">Bí</span>
+      </h1>
+      <p class="landing-subtitle reveal-item" style="--di:0">Nhìn xuyên màn đêm &mdash; Khám phá vận mệnh</p>
 
-      <div class="landing-rune-row">
+      <div class="landing-rune-row reveal-item" style="--di:1">
         <span class="rune">&#x16A0;</span>
         <span class="rune-dot"></span>
         <span class="rune">&#x16B9;</span>
@@ -65,21 +71,23 @@
         <span class="rune">&#x16A2;</span>
       </div>
 
-      <button id="btnOpenForm" class="btn-begin">
+      <button id="btnOpenForm" class="btn-begin reveal-item" style="--di:2">
         <span class="btn-begin__aura"></span>
         <span class="btn-begin__ring"></span>
         <span class="btn-begin__text">Bắt Đầu Hành Trình</span>
         <span class="btn-begin__arrow">&#x2192;</span>
       </button>
 
-      <button id="btnHistory" class="btn-history" title="Lịch Sử Trải Bài">
+      <button id="btnHistory" class="btn-history reveal-item" style="--di:3" title="Lịch Sử Trải Bài">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
           <circle cx="12" cy="12" r="10" />
           <polyline points="12 6 12 12 16 14" />
         </svg>
         Trãi bài quá khứ
       </button>
-      <p class="landing-hint">Chạm vào để vũ trụ lắng nghe</p>
+      <!-- User avatar badge after login -->
+      <div id="userBadge" class="user-badge reveal-item" style="--di:3.5"></div>
+      <p class="landing-hint reveal-item" style="--di:4">Chạm vào để vũ trụ lắng nghe</p>
     </div>
   </div>
 
@@ -113,13 +121,59 @@
         </div>
         <div class="field-wrap" style="margin-bottom: 24px;">
           <input type="text" id="inputName" class="mystical-input" placeholder=" " autocomplete="off" />
-          <label for="inputName" class="mystical-label">Họ Tên của bạn</label>
+          <label for="inputName" class="mystical-label">Họ và tên người xem</label>
           <div class="input-glow-bar"></div>
         </div>
-        <div class="field-wrap">
-          <input type="date" id="inputDob" class="mystical-input" placeholder=" " />
-          <label for="inputDob" class="mystical-label">Ngày Sinh</label>
-          <div class="input-glow-bar"></div>
+        <!-- Custom DOB Picker -->
+        <div class="dob-picker-wrap" id="dobPickerWrap">
+          <div class="dob-label">Ngày Sinh</div>
+          <div class="dob-display" id="dobDisplay" tabindex="0" role="button" aria-label="Chọn ngày sinh">
+            <span class="dob-display__icon">✦</span>
+            <span class="dob-display__text" id="dobDisplayText">Chọn ngày tháng năm sinh</span>
+            <span class="dob-display__arrow">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"
+                stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="4" width="18" height="18" rx="3" />
+                <line x1="16" y1="2" x2="16" y2="6" />
+                <line x1="8" y1="2" x2="8" y2="6" />
+                <line x1="3" y1="10" x2="21" y2="10" />
+              </svg>
+            </span>
+          </div>
+          <input type="hidden" id="inputDob" />
+          <!-- Dropdown Panel -->
+          <div class="dob-panel" id="dobPanel" aria-hidden="true">
+            <div class="dob-panel__header">
+              <span class="dob-panel__title">✦ Ngày Sinh ✦</span>
+            </div>
+            <div class="dob-drums">
+              <!-- Day drum -->
+              <div class="dob-drum-col">
+                <div class="dob-drum-label">Ngày</div>
+                <div class="dob-drum" id="drumDay" data-type="day">
+                  <div class="dob-drum__track" id="drumDayTrack"></div>
+                </div>
+              </div>
+              <!-- Month drum -->
+              <div class="dob-drum-col">
+                <div class="dob-drum-label">Tháng</div>
+                <div class="dob-drum" id="drumMonth" data-type="month">
+                  <div class="dob-drum__track" id="drumMonthTrack"></div>
+                </div>
+              </div>
+              <!-- Year drum -->
+              <div class="dob-drum-col">
+                <div class="dob-drum-label">Năm</div>
+                <div class="dob-drum" id="drumYear" data-type="year">
+                  <div class="dob-drum__track" id="drumYearTrack"></div>
+                </div>
+              </div>
+            </div>
+            <div class="dob-panel__footer">
+              <button class="dob-btn dob-btn--clear" id="dobBtnClear" type="button">Xóa</button>
+              <button class="dob-btn dob-btn--confirm" id="dobBtnConfirm" type="button">Xác Nhận ✦</button>
+            </div>
+          </div>
         </div>
         <div class="step-nav">
           <button class="btn-next" data-next="2">Tiếp theo <span class="nav-arrow">&#x2192;</span></button>
@@ -228,6 +282,45 @@
                 tích toàn diện, dành cho những câu hỏi phức tạp.</p>
             </div>
           </label>
+          <label class="spread-card-opt">
+            <input type="radio" name="spread" value="7" />
+            <div class="spread-card-ui">
+              <div class="spread-visual spread-vis-7">
+                <div class="mini-card"></div>
+                <div class="mini-card"></div>
+                <div class="mini-card"></div>
+                <div class="mini-card mc-center"></div>
+                <div class="mini-card"></div>
+                <div class="mini-card"></div>
+                <div class="mini-card"></div>
+              </div>
+              <strong>7 Lá</strong>
+              <span>Trải bài Celtic đầy đủ</span>
+              <p class="spread-detail">7 lá: Bạn • Tình huống • Nguyên nhân • Quá khứ • Tương lai • Lời khuyên • Kết
+                quả. Phân tích chi tiết và toàn diện.</p>
+            </div>
+          </label>
+          <label class="spread-card-opt">
+            <input type="radio" name="spread" value="10" />
+            <div class="spread-card-ui">
+              <div class="spread-visual spread-vis-10">
+                <div class="mini-card"></div>
+                <div class="mini-card"></div>
+                <div class="mini-card"></div>
+                <div class="mini-card mc-center"></div>
+                <div class="mini-card"></div>
+                <div class="mini-card"></div>
+                <div class="mini-card"></div>
+                <div class="mini-card"></div>
+                <div class="mini-card"></div>
+                <div class="mini-card"></div>
+              </div>
+              <strong>10 Lá</strong>
+              <span>Celtic Cross — Hùng hồn nhất</span>
+              <p class="spread-detail">10 lá: Bố cục Celtic Cross hoàn chỉnh — khám phá mọi chiều cạnh của vấn đề từ gốc
+                rễ đến kết quả sau cùng.</p>
+            </div>
+          </label>
         </div>
         <div class="step-nav">
           <button class="btn-prev" data-prev="3"><span class="nav-arrow">&#x2190;</span> Quay lại</button>
@@ -261,6 +354,14 @@
     <div class="analysis-footer">
       <button id="btnNewReading" class="btn-control btn-control--primary">Trải Bài Mới</button>
     </div>
+    <!-- Floating history button on analysis page -->
+    <button id="btnHistoryAnalysis" class="btn-history-float" title="Lịch sử trải bài">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="10"/>
+        <polyline points="12 6 12 12 16 14"/>
+      </svg>
+      Lịch Sử
+    </button>
   </div>
 
   <!-- ===================== HISTORY PANEL ===================== -->
@@ -269,7 +370,7 @@
     <div class="history-panel__header">
       <div>
         <div class="history-panel__title">Lịch Sử Trải Bài</div>
-        <div class="history-panel__sub">Được lưu tự động trên thiết bị này</div>
+        <div class="history-panel__sub">Lưu lại tín hiệu vũ trụ</div>
       </div>
       <button id="btnHistoryClose" class="history-close-btn">&times;</button>
     </div>
@@ -310,7 +411,7 @@
       </p>
       <p class="dl-hint">Bạn có muốn tiếp tục dù vậy?</p>
       <div class="dl-actions">
-        <button id="dlwBtnClose"    class="dl-btn">Quay Lại</button>
+        <button id="dlwBtnClose" class="dl-btn">Quay Lại</button>
         <button id="dlwBtnContinue" class="dl-btn dl-btn--primary">Tiếp Tục</button>
       </div>
     </div>
@@ -322,11 +423,14 @@
   <script src="js/lightning.js"></script>
   <script src="js/float-cards.js"></script>
   <script src="js/effects.js"></script>
+  <script src="js/dob-picker.js"></script>
   <script src="js/form.js"></script>
+  <script src="js/helper.js"></script>
   <script src="js/reading.js"></script>
   <script src="js/analysis.js"></script>
   <script src="js/history.js"></script>
   <script src="js/daily_limit.js"></script>
+  <script src="js/auth.js"></script>
   <script src="js/app.js"></script>
 </body>
 

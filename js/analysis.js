@@ -1,19 +1,16 @@
-// js/analysis.js — Analysis page rendering (fixed layout + Vietnamese + font)
+// js/analysis.js — Analysis page: card details + Gemini AI synthesis
 window.AnalysisModule = (function () {
   const container = document.getElementById('analysisContent');
+  const API_BASE  = 'https://ka-en.com.vn/tarot_api';
 
-  const THEME_LABELS = {
-    love:'Tình Yêu', career:'Sự Nghiệp', finance:'Tài Chính',
-    health:'Sức Khỏe', spiritual:'Tâm Linh', general:'Tổng Quát'
-  };
-
+  /* ── Main render ────────────────────────────────────── */
   function render(cards, session) {
     container.innerHTML = '';
-    const theme  = session.theme;
-    const labels = TarotHelper.getSpreadLabels(cards.length);
-    const themeLabel = THEME_LABELS[theme] || theme;
+    const theme      = session.theme;
+    const labels     = TarotHelper.getSpreadLabels(cards.length);
+    const themeLabel = TarotHelper.getThemeLabel(theme);
 
-    /* ── Title ─────────────────────────────────────── */
+    /* Title */
     const titleBlock = document.createElement('div');
     titleBlock.className = 'analysis-title-block';
     titleBlock.innerHTML = `
@@ -24,41 +21,28 @@ window.AnalysisModule = (function () {
     `;
     container.appendChild(titleBlock);
 
-    /* ── Each card block: image LEFT, content RIGHT ── */
+    /* Card blocks */
     cards.forEach((card, i) => {
-      const isRev   = card.isReversed;
-      const meaning = isRev ? card.reversed : card.upright;
-      const kws     = (isRev ? card.keywordsRev : card.keywords) || [];
-      const aspect  = card.aspects?.[theme] || card.aspects?.love || null;
-      let aspectText = aspect ? (isRev ? aspect.rev : aspect.up) : null;
+      const isRev      = card.isReversed;
+      const meaning    = isRev ? card.reversed : card.upright;
+      const kws        = (isRev ? card.keywordsRev : card.keywords) || [];
+      const aspect     = card.aspects?.[theme] || card.aspects?.love || null;
+      let   aspectText = aspect ? (isRev ? aspect.rev : aspect.up) : null;
 
-      // Avoid rendering identical text if meaning and aspectText are very similar
       if (aspectText && meaning) {
-        const mTrim = meaning.trim();
-        const aTrim = aspectText.trim();
-        // Compare first 40 chars to catch "Trong mối quan hệ: " prefixed exact copies
-        if (mTrim === aTrim || mTrim.includes(aTrim.substring(0, 40)) || aTrim.includes(mTrim.substring(0, 40))) {
-          aspectText = null;
-        }
+        const mT = meaning.trim(), aT = aspectText.trim();
+        if (mT === aT || mT.includes(aT.substring(0, 40)) || aT.includes(mT.substring(0, 40))) aspectText = null;
       }
 
       const block = document.createElement('div');
       block.className = 'analysis-block';
       block.style.animationDelay = (i * 150) + 'ms';
-
       block.innerHTML = `
         <div class="ab-layout">
-          <!-- LEFT: card image -->
           <div class="ab-img-col">
-            <img
-              src="${card.image}"
-              alt="${card.name}"
-              class="ab-card-img${isRev ? ' ab-card-img--rev' : ''}"
-            />
+            <img src="${card.image}" alt="${card.name}" class="ab-card-img${isRev ? ' ab-card-img--rev' : ''}"/>
             <div class="ab-slot-label">${labels[i]}</div>
           </div>
-
-          <!-- RIGHT: content -->
           <div class="ab-content-col">
             <div class="ab-card-title">${labels[i]} — ${card.name}</div>
             <div class="ab-card-subtitle">
@@ -66,59 +50,130 @@ window.AnalysisModule = (function () {
               &nbsp;|&nbsp;
               <span class="ab-orientation ${isRev ? 'rev' : 'up'}">${isRev ? 'Ngược' : 'Xuôi'}</span>
             </div>
-
             <div class="ab-meta-row">
-              ${card.planet  ? `<span class="ab-meta-chip">Hành tinh: ${card.planet}</span>` : ''}
-              ${card.zodiac  ? `<span class="ab-meta-chip">Cung: ${card.zodiac}</span>` : ''}
+              ${card.planet     ? `<span class="ab-meta-chip">Hành tinh: ${card.planet}</span>` : ''}
+              ${card.zodiac     ? `<span class="ab-meta-chip">Cung: ${card.zodiac}</span>` : ''}
               ${card.numerology ? `<span class="ab-meta-chip">${card.numerology}</span>` : ''}
             </div>
-
             <div class="ab-section-label">Ý Nghĩa</div>
             <p class="ab-text">${meaning || ''}</p>
-
             <div class="ab-section-label">Từ Khóa</div>
-            <div class="ab-kw-row">
-              ${kws.map(k => `<span class="ab-kw">${k}</span>`).join('')}
-            </div>
-
-            ${aspectText ? `
-              <div class="ab-section-label">Trong Lĩnh Vực ${themeLabel}</div>
-              <p class="ab-text ab-text--aspect">${aspectText}</p>
-            ` : ''}
-
-            ${card.advice ? `
-              <div class="ab-section-label">Lời Khuyên</div>
-              <p class="ab-text ab-text--advice">${card.advice}</p>
-            ` : ''}
+            <div class="ab-kw-row">${kws.map(k => `<span class="ab-kw">${k}</span>`).join('')}</div>
+            ${aspectText ? `<div class="ab-section-label">Trong ${themeLabel}</div><p class="ab-text ab-text--aspect">${aspectText}</p>` : ''}
+            ${card.advice ? `<div class="ab-section-label">Lời Khuyên</div><p class="ab-text ab-text--advice">${card.advice}</p>` : ''}
           </div>
-        </div>
-      `;
+        </div>`;
       container.appendChild(block);
     });
 
-    /* ── Overall summary ────────────────────────────── */
-    const overall = document.createElement('div');
-    overall.className = 'overall-box';
-    overall.innerHTML = `
-      <div class="overall-title">Tổng Hợp Thông Điệp</div>
-      <p class="overall-text">${buildSummary(cards, session, themeLabel)}</p>
+    /* AI Analysis section */
+    const aiBlock = document.createElement('div');
+    aiBlock.className = 'overall-box ai-analysis-box';
+    aiBlock.innerHTML = `
+      <div class="overall-title">
+        <span class="ai-label">✦ Luận Giải Tổng Hợp — AI Tarot</span>
+      </div>
+      <div class="ai-loading" id="aiLoading">
+        <div class="ai-pulse"></div>
+        <span>Đang kết nối với vũ trụ…</span>
+      </div>
+      <div class="ai-content" id="aiContent" style="display:none"></div>
     `;
-    container.appendChild(overall);
+    container.appendChild(aiBlock);
+
+    /* History save always, AI only after login */
+    HistoryModule?.save(session, cards);
+
+    // Gate: require Google login for AI analysis
+    if (window.AuthModule?.isLoggedIn()) {
+      fetchGeminiAnalysis(cards, session, labels, themeLabel);
+    } else {
+      const loadEl = document.getElementById('aiLoading');
+      if (loadEl) loadEl.innerHTML = `
+        <div class="ai-login-gate">
+          <p>Đăng nhập Google để nhận luận giải AI cá nhân hóa</p>
+          <button class="ai-login-btn" id="btnAiLogin">
+            <svg width="18" height="18" viewBox="0 0 24 24"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l3.66-2.84z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg>
+            Đăng nhập với Google
+          </button>
+        </div>`;
+      document.getElementById('btnAiLogin')?.addEventListener('click', () => {
+        window.AuthModule.requireLogin(user => {
+          fetchGeminiAnalysis(cards, session, labels, themeLabel);
+        });
+      });
+    }
   }
 
-  function buildSummary(cards, session, themeLabel) {
-    const names    = cards.map(c => c.nameVi).join(', ');
-    const upCount  = cards.filter(c => !c.isReversed).length;
-    const revCount = cards.length - upCount;
-    const tone     = upCount >= cards.length * 0.6
-      ? 'Năng lượng chủ yếu mang tín hiệu tích cực và thuận lợi.'
-      : 'Các lá bài gửi đến thông điệp cảnh báo và cần thận trọng.';
+  /* ── Call PHP proxy ──────────────────────────────────── */
+  async function fetchGeminiAnalysis(cards, session, labels, themeLabel) {
+    const loadEl   = document.getElementById('aiLoading');
+    const contentEl = document.getElementById('aiContent');
 
-    return `Với sự kết hợp của <em>${names}</em>, vũ trụ đang nói rằng: ${tone} `
-      + `${session.name} ơi, hãy lắng nghe tiếng nói bên trong, giữ bình tâm và tin vào hành trình phía trước. `
-      + `${upCount} lá bài xuôi và ${revCount} lá bài ngược phản ánh sự cân bằng giữa `
-      + `những thuận lợi và thách thức trong ${themeLabel.toLowerCase()} của bạn. `
-      + `Hãy tin vào quá trình — mọi thứ đều có lý do để xảy ra đúng lúc nhất.`;
+    const payload = {
+      name:        session.name,
+      dob:         session.dob || '',
+      theme:       session.theme,
+      theme_label: themeLabel,
+      question:    session.question,
+      spread:      cards.length,
+      cards: cards.map((c, i) => ({
+        slot_idx:       i,
+        position_label: labels[i] || `Lá ${i+1}`,
+        id:             c.id,
+        name:           c.name,
+        name_vi:        c.nameVi,
+        number:         c.number || '',
+        is_reversed:    c.isReversed,
+        meaning:        c.isReversed ? c.reversed : c.upright,
+        keywords:       (c.isReversed ? c.keywordsRev : c.keywords) || [],
+      }))
+    };
+
+    try {
+      const res  = await fetch(`${API_BASE}/gemini_proxy.php`, {
+        method:  'POST',
+        headers: {
+          'Content-Type':  'application/json',
+          'Authorization': `Bearer ${window.AuthModule?.getToken() || ''}`,
+        },
+        body:    JSON.stringify(payload),
+      });
+
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const data = await res.json();
+      const md   = data.analysis || '';
+
+      loadEl.style.display   = 'none';
+      contentEl.style.display = '';
+      contentEl.innerHTML     = markdownToHtml(md);
+
+    } catch (err) {
+      loadEl.innerHTML = `<p class="ai-error">⚠ Không thể kết nối AI: ${err.message}</p>`;
+    }
+  }
+
+  /* ── Lightweight Markdown → HTML ─────────────────────── */
+  function markdownToHtml(md) {
+    return md
+      // Headers
+      .replace(/^### (.+)$/gm, '<h3 class="ai-h3">$1</h3>')
+      .replace(/^## (.+)$/gm,  '<h2 class="ai-h2">$1</h2>')
+      .replace(/^# (.+)$/gm,   '<h2 class="ai-h2">$1</h2>')
+      // Bold
+      .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+      // Italic
+      .replace(/\*(.+?)\*/g, '<em>$1</em>')
+      // Bullet lists
+      .replace(/^[-•] (.+)$/gm, '<li>$1</li>')
+      .replace(/(<li>.*<\/li>\n?)+/gs, m => `<ul class="ai-list">${m}</ul>`)
+      // Numbered lists
+      .replace(/^\d+\. (.+)$/gm, '<li>$1</li>')
+      // Line breaks
+      .replace(/\n\n+/g, '</p><p class="ai-p">')
+      // Wrap in paragraph
+      .replace(/^(?!<[hul])(.+)$/gm, (m) => m.trim() ? m : '')
+      .replace(/^([^<].+)$/gm, '<p class="ai-p">$1</p>');
   }
 
   return { render };

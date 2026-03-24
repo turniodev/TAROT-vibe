@@ -44,17 +44,28 @@
   }
 
   /* ── Open / Close ─────────────────────────────────── */
+  const USER_KEY = 'tbhb_user';
+
   function openForm() {
     stepEls.forEach((s, i) => s.classList.toggle('active', i === 0));
     currentStep = 1;
     updateProgress(1);
     _selectedTheme = 'general';
     renderMainThemes('mainThemeGrid');
-    
-    // Auto-fill from latest session
+
+    // Auto-fill: try current session first, then localStorage
     const prev = window.ReadingModule?.getSession ? window.ReadingModule.getSession() : null;
-    if (prev?.name) document.getElementById('inputName').value = prev.name;
-    if (prev?.dob)  document.getElementById('inputDob').value  = prev.dob;
+    let savedName = prev?.name || '';
+    let savedDob  = prev?.dob  || '';
+    if (!savedName || !savedDob) {
+      try {
+        const stored = JSON.parse(localStorage.getItem(USER_KEY) || '{}');
+        if (!savedName) savedName = stored.name || '';
+        if (!savedDob)  savedDob  = stored.dob  || '';
+      } catch {}
+    }
+    if (savedName) document.getElementById('inputName').value = savedName;
+    if (savedDob)  window.DobPicker?.setValue(savedDob);
 
     const subEl  = document.getElementById('subThemePanel');
     const gridEl = document.getElementById('mainThemeGrid');
@@ -204,7 +215,17 @@
         valid = false;
       }
       if (!dob.value) {
-        window.FX?.shake(dob); window.FX?.glowPulse(dob, 'rgba(255,80,80,0.6)');
+        // Shake the dob trigger display instead
+        const dobDisplay = document.getElementById('dobDisplay');
+        if (dobDisplay) {
+          window.FX?.shake(dobDisplay);
+          dobDisplay.style.borderColor = 'rgba(255,80,80,0.6)';
+          dobDisplay.style.boxShadow = '0 0 0 3px rgba(255,80,80,0.15)';
+          setTimeout(() => {
+            dobDisplay.style.borderColor = '';
+            dobDisplay.style.boxShadow = '';
+          }, 1200);
+        }
         valid = false;
       }
       return valid;
@@ -460,13 +481,16 @@
       return MAIN_THEMES.find(t => t.key === key)?.label || 'Tổng Quát';
     },
     getData() {
-      return {
+      const data = {
         name:     document.getElementById('inputName').value.trim(),
         dob:      document.getElementById('inputDob').value,
         theme:    _selectedTheme,
         question: inputQ.value.trim(),
         spread:   parseInt(document.querySelector('input[name="spread"]:checked')?.value || '3')
       };
+      // Persist user info for next session
+      try { localStorage.setItem(USER_KEY, JSON.stringify({ name: data.name, dob: data.dob })); } catch {}
+      return data;
     },
     setTheme(key) { _selectedTheme = key; }
   };
