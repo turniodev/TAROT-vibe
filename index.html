@@ -92,7 +92,14 @@
       </button>
       <!-- User avatar badge after login -->
       <div id="userBadge" class="user-badge reveal-item" style="--di:3.5"></div>
-      <p class="landing-hint reveal-item" style="--di:4">Chạm vào để vũ trụ lắng nghe</p>
+      <p id="btnDictionary" class="landing-hint reveal-item btn-dict" style="--di:4; cursor: pointer; display: inline-flex; align-items: center; justify-content: center; gap: 8px;">
+        <span class="dict-card-fan">
+          <img src="cards/back.png" class="fan-card fan-card-1" alt="" />
+          <img src="cards/back.png" class="fan-card fan-card-2" alt="" />
+          <img src="cards/back.png" class="fan-card fan-card-3" alt="" />
+        </span>
+        <span>Ý nghĩa các lá bài</span>
+      </p>
     </div>
   </div>
 
@@ -457,20 +464,51 @@
     </div>
   </div>
 
+
+  <!-- ===================== DICTIONARY MODAL ===================== -->
+  <div id="dictionaryModal" class="dict-modal">
+    <div class="dict-panel">
+      <div class="dict-header">
+        <h2 class="dict-title">Sách Phép Tarot</h2>
+        <button id="btnDictClose" class="dict-close">&times;</button>
+      </div>
+      <div class="dict-content">
+        <div class="dict-group">
+          <h3 class="dict-group-title">Major Arcana <span class="dict-group-sub">(Bộ Ẩn Chính)</span></h3>
+          <div class="dict-grid" id="dictMajor"></div>
+        </div>
+        <div class="dict-group">
+          <h3 class="dict-group-title">Minor Arcana <span class="dict-group-sub">(Bộ Ẩn Phụ)</span></h3>
+          <div class="dict-grid" id="dictMinor"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===================== CARD DETAIL MODAL ===================== -->
+  <div id="cardDetailModal" class="cd-modal">
+    <div class="cd-panel">
+      <button id="btnCdClose" class="cd-close">&times;</button>
+      <div class="cd-content" id="cdContent"></div>
+    </div>
+  </div>
+
   <!-- Scripts -->
+  <script src="js/tarotHelper.js"></script>
   <script src="js/data.js"></script>
   <script src="js/particles.js"></script>
   <script src="js/lightning.js"></script>
   <script src="js/float-cards.js"></script>
   <script src="js/effects.js"></script>
   <script src="js/dob-picker.js"></script>
-  <script src="js/form.js"></script>
   <script src="js/helper.js"></script>
+  <script src="js/auth.js"></script>
+  <script src="js/daily_limit.js"></script>
+  <script src="js/history.js"></script>
+  <script src="js/form.js"></script>
   <script src="js/reading.js"></script>
   <script src="js/analysis.js"></script>
-  <script src="js/history.js"></script>
-  <script src="js/daily_limit.js"></script>
-  <script src="js/auth.js"></script>
+  <script src="js/dictionary.js"></script>
   <script src="js/app.js"></script>
 </body>
 

@@ -9,19 +9,21 @@ require_once __DIR__ . '/helpers.php';
 
 cors_headers();
 
-$name   = trim($_GET['name']   ?? '');
-$dob    = trim($_GET['dob']    ?? '') ?: null;
+$email = verify_google_token();
+
 $limit  = max(1, min(50, (int)($_GET['limit']  ?? 20)));
 $offset = max(0, (int)($_GET['offset'] ?? 0));
-
-if (!$name) json_error('name required', 400);
 
 $pdo = get_pdo();
 
 // Find user
-$user = $pdo->prepare('SELECT id FROM users WHERE name = ? AND dob ' . ($dob ? '= ?' : 'IS NULL') . ' LIMIT 1');
-$user->execute($dob ? [$name, $dob] : [$name]);
-$user_id = $user->fetchColumn();
+$user = $pdo->prepare('SELECT id, name, dob FROM users WHERE email = ? LIMIT 1');
+$user->execute([$email]);
+$userData = $user->fetch(PDO::FETCH_ASSOC);
+
+if (!$userData) json_ok(['readings' => [], 'total' => 0]);
+
+$user_id = $userData['id'];
 if (!$user_id) json_ok(['readings' => [], 'total' => 0]);
 
 // Count
@@ -37,10 +39,24 @@ $rs->execute([$user_id, $limit, $offset]);
 $readings = $rs->fetchAll();
 
 // Cards per reading
-$cs = $pdo->prepare('SELECT slot_idx, position_label, card_id, card_name, card_name_vi, is_reversed FROM reading_cards WHERE reading_id = ? ORDER BY slot_idx');
+$cs = $pdo->prepare('SELECT card_id as id, card_name as name, card_name_vi as name_vi, is_reversed as r FROM reading_cards WHERE reading_id = ? ORDER BY slot_idx');
 foreach ($readings as &$r) {
+    // Append user data for the frontend mapping logic
+    $r['n']   = $userData['name'];
+    $r['dob'] = $userData['dob'];
+    
+    // Map schema for history.js
+    $r['th'] = $r['theme'];
+    $r['q']  = $r['question'];
+    $r['sp'] = (int)$r['spread_count'];
+    $r['dt'] = str_replace(' ', 'T', $r['created_at']);
+    $r['ai'] = $r['gemini_analysis'];
+    
     $cs->execute([$r['id']]);
-    $r['cards'] = $cs->fetchAll();
+    $r['c'] = $cs->fetchAll(PDO::FETCH_ASSOC);
+    
+    // Cleanup unnecessary raw keys
+    unset($r['theme'], $r['question'], $r['spread_count'], $r['created_at'], $r['gemini_analysis']);
 }
 unset($r);
 

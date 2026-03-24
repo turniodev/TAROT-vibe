@@ -10,10 +10,10 @@ SET foreign_key_checks = 0;
 CREATE TABLE IF NOT EXISTS `users` (
   `id`         INT          UNSIGNED AUTO_INCREMENT PRIMARY KEY,
   `name`       VARCHAR(255) NOT NULL,
+  `email`      VARCHAR(255) NULL UNIQUE,
   `dob`        DATE         NULL,
   `created_at` TIMESTAMP    NOT NULL DEFAULT CURRENT_TIMESTAMP,
-  `last_seen`  TIMESTAMP    NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-  UNIQUE KEY `uq_name_dob` (`name`, `dob`)
+  `last_seen`  TIMESTAMP    NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- ── Readings ───────────────────────────────────────────────────

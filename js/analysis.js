@@ -49,7 +49,7 @@ window.AnalysisModule = (function () {
       const meaning = isRev ? card.reversed : card.upright;
       const kws = (isRev ? card.keywordsRev : card.keywords) || [];
       const aspect = card.aspects?.[theme] || card.aspects?.love || null;
-      let aspectText = aspect ? (isRev ? aspect.rev : aspect.up) : null;
+      let aspectText = aspect ? (isRev ? (aspect.reversed || aspect.rev) : (aspect.upright || aspect.up)) : null;
 
       if (aspectText && meaning) {
         const mT = meaning.trim(), aT = aspectText.trim();
@@ -61,25 +61,25 @@ window.AnalysisModule = (function () {
       block.style.animationDelay = (i * 150) + 'ms';
       block.innerHTML = `
         <div class="ab-layout">
-          <div class="ab-header-row">
-            <img src="${card.image}" alt="${card.name}" class="ab-card-img${isRev ? ' ab-card-img--rev' : ''}"/>
-            <div class="ab-header-info">
-              <div class="ab-card-title">${card.name}</div>
-              <div class="ab-card-subtitle">
-                ${card.nameVi} &nbsp;|&nbsp; ${card.number}
-                &nbsp;|&nbsp;
-                <span class="ab-orientation ${isRev ? 'rev' : 'up'}">${isRev ? 'Ngược' : 'Xuôi'}</span>
-              </div>
-              <div class="ab-meta-row">
-                ${card.planet ? `<span class="ab-meta-chip">Hành tinh: ${card.planet}</span>` : ''}
-                ${card.zodiac ? `<span class="ab-meta-chip">Cung: ${card.zodiac}</span>` : ''}
-                ${card.numerology ? `<span class="ab-meta-chip">${card.numerology}</span>` : ''}
-              </div>
+          <img src="${card.image}" alt="${card.name}" class="ab-card-img${isRev ? ' ab-card-img--rev' : ''}"/>
+          <div class="ab-header-info">
+            <div class="ab-card-title">${card.name}</div>
+            <div class="ab-card-subtitle">
+              ${card.nameVi} &nbsp;|&nbsp; ${card.number}
+              &nbsp;|&nbsp;
+              <span class="ab-orientation ${isRev ? 'rev' : 'up'}">${isRev ? 'Ngược' : 'Xuôi'}</span>
+            </div>
+            <div class="ab-meta-row">
+              ${card.planet ? `<span class="ab-meta-chip">Hành tinh: ${card.planet}</span>` : ''}
+              ${card.zodiac ? `<span class="ab-meta-chip">Cung: ${card.zodiac}</span>` : ''}
+              ${card.numerology ? `<span class="ab-meta-chip">${card.numerology}</span>` : ''}
             </div>
           </div>
-          <div class="ab-body">
+          <div class="ab-meaning">
             <div class="ab-section-label">Ý Nghĩa</div>
             <p class="ab-text">${meaning || ''}</p>
+          </div>
+          <div class="ab-body">
             <div class="ab-section-label">Từ Khóa</div>
             <div class="ab-kw-row">${kws.map(k => `<span class="ab-kw">${k}</span>`).join('')}</div>
             ${aspectText ? `<div class="ab-section-label">Trong ${themeLabel}</div><p class="ab-text ab-text--aspect">${aspectText}</p>` : ''}
@@ -89,8 +89,8 @@ window.AnalysisModule = (function () {
       container.appendChild(block);
     });
 
-    /* History save always for own readings */
-    if (!preloadedAnalysis) HistoryModule?.save(session, cards);
+    // The save to history action is handled by app.js at the time of clicking "Go Analysis".
+    // This prevents duplicate history items when re-viewing from history tab.
 
     if (preloadedAnalysis) {
       document.getElementById('aiLoading').style.display = 'none';
@@ -98,6 +98,32 @@ window.AnalysisModule = (function () {
       contentEl.style.display = '';
       contentEl.innerHTML = markdownToHtml(preloadedAnalysis);
       document.getElementById('btnShareReading').dataset.id = new URLSearchParams(window.location.search).get('share');
+    } else if (session.isHistoryReplay || window.location.search.includes('share=')) {
+      // Missing AI analysis on an old session - show button to request
+      document.getElementById('aiLoading').innerHTML = `
+        <div class="ai-login-gate" style="text-align: center;">
+          <p style="margin-bottom: 16px; opacity: 0.8;">Chưa có dữ liệu luận giải tổng hợp cho trải bài này.</p>
+          <button class="ai-login-btn" id="btnForceAi">
+            <span>✦</span> Nhận Thông Điệp Vũ Trụ
+          </button>
+        </div>`;
+      document.getElementById('btnForceAi')?.addEventListener('click', () => {
+        const showLoading = () => {
+          document.getElementById('aiLoading').innerHTML = `
+            <div class="ai-pulse" style="margin: 0 auto 16px;"></div>
+            <span>Đang kết nối với vũ trụ…</span>
+          `;
+        };
+        if (!window.AuthModule?.isLoggedIn()) {
+          window.AuthModule?.requireLogin(user => {
+            showLoading();
+            fetchGeminiAnalysis(cards, session, labels, themeLabel);
+          });
+        } else {
+          showLoading();
+          fetchGeminiAnalysis(cards, session, labels, themeLabel);
+        }
+      });
     } else if (window.AuthModule?.isLoggedIn()) {
       fetchGeminiAnalysis(cards, session, labels, themeLabel);
     } else {
@@ -124,23 +150,34 @@ window.AnalysisModule = (function () {
     const contentEl = document.getElementById('aiContent');
 
     const payload = {
+      reading_id: session.readingId || null,
+      created_at: session.dt || null,
       name: session.name,
       dob: session.dob || '',
       theme: session.theme,
       theme_label: themeLabel,
       question: session.question,
       spread: cards.length,
-      cards: cards.map((c, i) => ({
-        slot_idx: i,
-        position_label: labels[i] || `Lá ${i + 1}`,
-        id: c.id,
-        name: c.name,
-        name_vi: c.nameVi,
-        number: c.number || '',
-        is_reversed: c.isReversed,
-        meaning: c.isReversed ? c.reversed : c.upright,
-        keywords: (c.isReversed ? c.keywordsRev : c.keywords) || [],
-      }))
+      cards: cards.map((c, i) => {
+        const aspect = c.aspects && c.aspects[session.theme] ? c.aspects[session.theme] : (c.aspects?.love || null);
+        const aspect_meaning = aspect ? (c.isReversed ? (aspect.reversed || aspect.rev) : (aspect.upright || aspect.up)) : null;
+        return {
+          slot_idx: i,
+          position_label: labels[i] || `Lá ${i + 1}`,
+          id: c.id,
+          name: c.name,
+          name_vi: c.nameVi,
+          number: c.number || '',
+          is_reversed: c.isReversed,
+          meaning: c.isReversed ? c.reversed : c.upright,
+          keywords: (c.isReversed ? c.keywordsRev : c.keywords) || [],
+          planet: c.planet || null,
+          zodiac: c.zodiac || null,
+          element: c.element || null,
+          numerology: c.numerology || null,
+          aspect_meaning: aspect_meaning || null
+        };
+      })
     };
 
     try {
@@ -161,19 +198,42 @@ window.AnalysisModule = (function () {
       if (data.reading_id) {
         document.getElementById('btnShareReading').dataset.id = data.reading_id;
       }
+      
+      
+      // Save analysis to history to prevent re-fetching later
+      const idToUpdate = session.readingId || session.localId;
+      if (idToUpdate) {
+        window.HistoryModule?.updateAnalysis(idToUpdate, md);
+      }
 
       loadEl.style.display = 'none';
       contentEl.style.display = '';
       contentEl.innerHTML = markdownToHtml(md);
 
     } catch (err) {
-      loadEl.innerHTML = `<p class="ai-error">⚠ Không thể kết nối AI: ${err.message}</p>`;
+      contentEl.style.display = 'none';
+      loadEl.style.display = '';
+      loadEl.innerHTML = `
+        <div class="ai-error-box" style="text-align: center;">
+          <p class="ai-error" style="margin-bottom:12px">⚠ Không thể kết nối AI: ${err.message}</p>
+          <button class="btn-primary" id="btnRetryAI" style="padding:8px 24px; font-size: 0.9rem; margin: 0 auto; display: inline-flex;">Thử lại ngay</button>
+        </div>
+      `;
+      document.getElementById('btnRetryAI').addEventListener('click', () => {
+        loadEl.innerHTML = `
+          <div class="ai-pulse"></div>
+          <span>Đang kết nối lại với vũ trụ…</span>
+        `;
+        fetchGeminiAnalysis(cards, session, labels, themeLabel);
+      });
     }
   }
 
   /* ── Lightweight Markdown → HTML ─────────────────────── */
   function markdownToHtml(md) {
     return md
+      // Divider
+      .replace(/^[-*_]{3,}$/gm, '<div class="ai-divider"><span>✦</span></div>')
       // Headers
       .replace(/^### (.+)$/gm, '<h3 class="ai-h3">$1</h3>')
       .replace(/^## (.+)$/gm, '<h2 class="ai-h2">$1</h2>')

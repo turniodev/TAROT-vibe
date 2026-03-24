@@ -44,7 +44,7 @@
     const session = window.ReadingModule.getSession();
     // Record AFTER reading is complete
     window.DailyLimit?.record(session.theme, session.spread);
-    window.HistoryModule?.save(session, cards);
+    session.localId = window.HistoryModule?.save(session, cards);
     showPage('analysis');
     setTimeout(() => window.AnalysisModule.render(cards, session), 200);
   });
@@ -79,7 +79,9 @@
         dob: data.dob,
         theme: data.theme,
         question: data.question,
-        spread: data.spread_count
+        spread: data.spread_count,
+        isSharedReplay: true,
+        readingId: id
       };
       
       // Map API cards to app format
@@ -98,6 +100,7 @@
           keywordsRev: fullCard ? fullCard.keywordsRev : [],
           planet: fullCard?.planet,
           zodiac: fullCard?.zodiac,
+          element: fullCard?.element,
           numerology: fullCard?.numerology,
           aspects: fullCard?.aspects,
           advice: fullCard?.advice

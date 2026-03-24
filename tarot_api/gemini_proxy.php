@@ -36,7 +36,7 @@ if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
 }
 
 // ── Verify Google token ────────────────────────────────────────
-verify_google_token();
+$user_email = verify_google_token();
 
 $body = json_decode(file_get_contents('php://input'), true);
 if (!$body || empty($body['cards'])) {
@@ -50,151 +50,175 @@ $prompt = build_prompt($body);
 $analysis = call_gemini($prompt);
 
 // ── 3. Persist to DB ───────────────────────────────────────────
-$reading_id = save_reading($body, $analysis);
+$reading_id = save_reading($body, $analysis, $user_email);
 
 // ── 4. Respond ─────────────────────────────────────────────────
 json_ok(['analysis' => $analysis, 'reading_id' => $reading_id]);
 
-/* ── Google token verification ────────────────────────────────── */
 
-function verify_google_token(): void {
-    $auth  = $_SERVER['HTTP_AUTHORIZATION'] ?? '';
-    $token = str_starts_with($auth, 'Bearer ') ? trim(substr($auth, 7)) : '';
-
-    if (!$token) {
-        json_error('Authentication required', 401);
-    }
-
-    // Verify via Google's tokeninfo endpoint
-    $url  = 'https://oauth2.googleapis.com/tokeninfo?id_token=' . urlencode($token);
-    $res  = @file_get_contents($url);
-    $info = $res ? json_decode($res, true) : null;
-
-    if (!$info || isset($info['error']) || empty($info['email'])) {
-        json_error('Invalid or expired Google token', 401);
-    }
-    // Optionally check audience matches your CLIENT_ID
-    // if ($info['aud'] !== GOOGLE_CLIENT_ID) json_error('Token audience mismatch', 401);
-}
 
 /* ── Helpers ──────────────────────────────────────────────────── */
 
-function build_prompt(array $d): string {
-    $name       = $d['name']        ?? 'Người dùng';
-    $dob        = $d['dob']         ?? '';
-    $theme      = $d['theme_label'] ?? $d['theme'] ?? 'Tổng quát';
-    $question   = $d['question']    ?? '';
-    $spread     = (int)($d['spread'] ?? count($d['cards']));
-    $cards      = $d['cards'];
+function build_prompt(array $d): string
+{
+    $name = $d['name'] ?? 'Người dùng';
+    $dob = $d['dob'] ?? '';
+    $theme = $d['theme_label'] ?? $d['theme'] ?? 'Tổng quát';
+    $question = $d['question'] ?? '';
+    $spread = (int) ($d['spread'] ?? count($d['cards']));
+    $cards = $d['cards'];
 
     $dob_str = $dob ? "Ngày sinh: **{$dob}**" : '';
 
     // Build card details
     $card_lines = '';
     foreach ($cards as $i => $c) {
-        $orient  = $c['is_reversed'] ? 'Ngược' : 'Xuôi';
-        $kws     = implode(', ', $c['keywords'] ?? []);
+        $orient = $c['is_reversed'] ? 'Ngược' : 'Xuôi';
+        $kws = implode(', ', $c['keywords'] ?? []);
+        
+        $aspect_str = !empty($c['aspect_meaning']) ? "- **Phân tích chuyên sâu ({$theme}):** {$c['aspect_meaning']}\n" : "";
+        
+        $astro_str = [];
+        if (!empty($c['planet'])) $astro_str[] = "Hành tinh: " . $c['planet'];
+        if (!empty($c['zodiac'])) $astro_str[] = "Cung: " . $c['zodiac'];
+        if (!empty($c['element'])) $astro_str[] = "Nguyên tố: " . $c['element'];
+        if (!empty($c['numerology'])) $astro_str[] = "Thần số: " . $c['numerology'];
+        $astro_line = !empty($astro_str) ? "- **Chiêm tinh & Năng lượng:** " . implode(' | ', $astro_str) . "\n" : "";
+
         $card_lines .= <<<CARD
 
 ### Vị trí {$i}: {$c['position_label']}
 - **Lá bài:** {$c['name']} ({$c['name_vi']}) — {$c['number']}
 - **Chiều:** {$orient}
-- **Ý nghĩa:** {$c['meaning']}
+{$astro_line}{$aspect_str}- **Ý nghĩa gốc:** {$c['meaning']}
 - **Từ khóa:** {$kws}
 
 CARD;
     }
 
     return <<<PROMPT
-Bạn là một chuyên gia giải Tarot người Việt, có kiến thức sâu về Tarot học, tâm lý học và chiêm tinh học. Hãy đưa ra một bài luận giải chi tiết, sâu sắc và đầy đủ bằng tiếng Việt.
+Bạn là một chuyên gia giải Tarot. Hãy đưa ra bài luận giải NGẮN GỌN, ĐÚNG TRỌNG TÂM.
+TUYỆT ĐỐI KHÔNG chào hỏi (ví dụ: Chào bạn, Xin chào,...). KHÔNG nhắc lại vai trò hoặc prompt. Bắt đầu ngay lập tức với đề mục đầu tiên.
 
 ## Thông tin người trải bài
 - **Họ tên:** {$name}
 - {$dob_str}
 - **Chủ đề:** {$theme}
 - **Câu hỏi:** {$question}
-- **Kiểu trải bài:** {$spread} lá
+
+YÊU CẦU ĐẶC BIỆT: Phải liên kết yếu tố chiêm tinh, nguyên tố của các lá bài với ngày sinh của {$name} (để tính Bản mệnh/Cung/Con số năng lượng) nhằm đưa ra các nhận định cực kỳ sâu sắc và cá nhân hóa. Sử dụng cả phần "Phân tích chuyên sâu" của các lá bài để đào sâu vào hoàn cảnh của {$name}.
 
 ## Các lá bài đã rút
 {$card_lines}
 
-## Yêu cầu luận giải
+## Yêu cầu định dạng (Cực kỳ ngắn gọn)
 
-Hãy viết một bài luận giải hoàn chỉnh bằng tiếng Việt, bao gồm:
+Hãy viết luận giải XÚC TÍCH (tối đa 3-4 đoạn ngắn). Bắt buộc phải sử dụng tiêu đề H3 (###) và vạch kẻ (---) như cú pháp mẫu sau:
 
-1. **Tổng quan năng lượng** — Cảm nhận chung về bộ bài; mối liên kết giữa các lá
-2. **Phân tích từng lá** — Ý nghĩa sâu của từng lá trong vị trí đó, liên quan đến câu hỏi "{$question}"
-3. **Thông điệp tổng hợp** — Câu trả lời cuối cùng cho câu hỏi của {$name}
-4. **Lời khuyên hành động** — 3–5 hành động cụ thể, thực tế
-5. **Cảnh báo & lưu ý** — Những điều cần thận trọng
+### 1. Vào thẳng vấn đề
+[Trả lời trực tiếp câu hỏi "{$question}" dựa trên kết hợp của các lá bài]
 
-**Phong cách:** Chuyên nghiệp nhưng ấm áp, cụ thể và thiết thực. Dùng Markdown cho tiêu đề và nhấn mạnh.
+---
+
+### 2. Thông điệp cốt lõi
+[Ý nghĩa ngắn gọn của các lá bài đối với hoàn cảnh hiện tại]
+
+---
+
+### 3. Lời khuyên hành động
+- (Hành động 1)
+- (Hành động 2)
+
+**Phong cách:** Thẳng thắn, ngắn gọn, thiết thực, tập trung hoàn toàn vào câu hỏi. Sử dụng Markdown để trình bày mạch lạc. KHÔNG viết quá dài.
 PROMPT;
 }
 
-function call_gemini(string $prompt): string {
+function call_gemini(string $prompt): string
+{
     $payload = json_encode([
-        'contents' => [[
-            'parts' => [['text' => $prompt]]
-        ]],
+        'contents' => [
+            [
+                'parts' => [['text' => $prompt]]
+            ]
+        ],
         'generationConfig' => [
-            'temperature'     => 0.85,
-            'maxOutputTokens' => 2048,
-            'topP'            => 0.95,
+            'temperature' => 1.5,
+            'maxOutputTokens' => 12048,
+            'topP' => 0.95,
         ]
     ], JSON_UNESCAPED_UNICODE);
 
     $ch = curl_init(GEMINI_ENDPOINT);
     curl_setopt_array($ch, [
         CURLOPT_RETURNTRANSFER => true,
-        CURLOPT_POST           => true,
-        CURLOPT_POSTFIELDS     => $payload,
-        CURLOPT_HTTPHEADER     => ['Content-Type: application/json'],
-        CURLOPT_TIMEOUT        => 60,
+        CURLOPT_POST => true,
+        CURLOPT_POSTFIELDS => $payload,
+        CURLOPT_HTTPHEADER => ['Content-Type: application/json'],
+        CURLOPT_TIMEOUT => 60,
     ]);
 
     $resp = curl_exec($ch);
-    $err  = curl_error($ch);
+    $err = curl_error($ch);
     curl_close($ch);
 
-    if ($err) json_error('Gemini connection error: ' . $err, 502);
+    if ($err)
+        json_error('Gemini connection error: ' . $err, 502);
 
     $data = json_decode($resp, true);
     $text = $data['candidates'][0]['content']['parts'][0]['text'] ?? null;
-    if (!$text) json_error('Gemini returned empty response: ' . $resp, 502);
+    if (!$text)
+        json_error('Gemini returned empty response: ' . $resp, 502);
 
     return $text;
 }
 
-function save_reading(array $d, string $analysis): int {
+function save_reading(array $d, string $analysis, string $email): int
+{
     $pdo = get_pdo();
 
-    // Upsert user
+    // Upsert user by Email
     $name = trim($d['name'] ?? '');
     $dob  = $d['dob'] ?: null;
-    $pdo->prepare('INSERT INTO users (name, dob) VALUES (?, ?) ON DUPLICATE KEY UPDATE last_seen = NOW()')
-        ->execute([$name, $dob]);
-    $user_id = $pdo->query('SELECT id FROM users WHERE name = ' . $pdo->quote($name) .
-        ' AND dob ' . ($dob ? '= ' . $pdo->quote($dob) : 'IS NULL') . ' LIMIT 1')
+    
+    $pdo->prepare('INSERT INTO users (email, name, dob) VALUES (?, ?, ?) ON DUPLICATE KEY UPDATE name = VALUES(name), dob = IFNULL(VALUES(dob), dob), last_seen = NOW()')
+        ->execute([$email, $name, $dob]);
+        
+    $user_id = $pdo->query('SELECT id FROM users WHERE email = ' . $pdo->quote($email) . ' LIMIT 1')
         ->fetchColumn();
 
+    // If reading_id is provided, check if it belongs to this user. If yes, just update the analysis and return.
+    if (!empty($d['reading_id'])) {
+        $reading_id = (int)$d['reading_id'];
+        // LocalStorage timestamp IDs are huge numbers, DB IDs are small.
+        if ($reading_id < 1000000000000) {
+            $check = $pdo->prepare('SELECT id FROM readings WHERE id = ? AND user_id = ?');
+            $check->execute([$reading_id, $user_id]);
+            if ($check->fetchColumn()) {
+                $stmt = $pdo->prepare('UPDATE readings SET gemini_analysis = ? WHERE id = ?');
+                $stmt->execute([$analysis, $reading_id]);
+                return $reading_id;
+            }
+        }
+    }
+
     // Insert reading
-    $stmt = $pdo->prepare('INSERT INTO readings (user_id, theme, question, spread_count, gemini_analysis) VALUES (?,?,?,?,?)');
-    $stmt->execute([$user_id, $d['theme'] ?? 'general', $d['question'] ?? '', count($d['cards']), $analysis]);
-    $reading_id = (int)$pdo->lastInsertId();
+    $created_at = !empty($d['created_at']) ? str_replace('T', ' ', substr($d['created_at'], 0, 16)) . ':00' : date('Y-m-d H:i:s');
+    $stmt = $pdo->prepare('INSERT INTO readings (user_id, theme, question, spread_count, gemini_analysis, created_at) VALUES (?,?,?,?,?,?)');
+    $stmt->execute([$user_id, $d['theme'] ?? 'general', $d['question'] ?? '', count($d['cards']), $analysis, $created_at]);
+    $reading_id = (int) $pdo->lastInsertId();
 
     // Insert cards
     $cs = $pdo->prepare('INSERT INTO reading_cards (reading_id, slot_idx, position_label, card_id, card_name, card_name_vi, is_reversed, meaning) VALUES (?,?,?,?,?,?,?,?)');
     foreach ($d['cards'] as $c) {
         $cs->execute([
             $reading_id,
-            (int)$c['slot_idx'],
+            (int) $c['slot_idx'],
             $c['position_label'] ?? '',
-            $c['id']             ?? '',
-            $c['name']           ?? '',
-            $c['name_vi']        ?? '',
+            $c['id'] ?? '',
+            $c['name'] ?? '',
+            $c['name_vi'] ?? '',
             $c['is_reversed'] ? 1 : 0,
-            $c['meaning']        ?? '',
+            $c['meaning'] ?? '',
         ]);
     }
 

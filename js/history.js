@@ -1,7 +1,7 @@
-// js/history.js — Compact reading history with localStorage
+// js/history.js — Compact reading history with localStorage + Remote Sync
 (function () {
-  const KEY     = 'tbhb_hist';   // tarot-bi-history
-  const MAX     = 20;            // max entries kept
+  const KEY = 'tbhb_hist';   // tarot-bi-history
+  const MAX = 20;            // max entries kept
 
   const THEME_LABEL = {
     love: 'Tình Yêu', career: 'Sự Nghiệp', finance: 'Tài Chính',
@@ -16,23 +16,39 @@
     localStorage.setItem(KEY, JSON.stringify(arr.slice(0, MAX)));
   }
 
-  /* ── Save a reading (compact) ──────────────────── */
-  // cards: array of card objects from ReadingModule.getSelectedCards()
   function save(session, cards) {
     if (!session || !cards?.length) return;
     const entry = {
-      id:  Date.now(),
-      n:   session.name,
+      id: Date.now(),
+      n: session.name,
       dob: session.dob,
-      th:  session.theme,
-      q:   (session.question || '').slice(0, 90),
-      sp:  session.spread,
-      dt:  new Date().toISOString().slice(0, 16), // "YYYY-MM-DDTHH:MM"
-      c:   cards.map(c => ({ id: c.id, r: c.isReversed ? 1 : 0 }))
+      th: session.theme,
+      q: (session.question || '').slice(0, 90),
+      sp: session.spread,
+      dt: new Date().toISOString().slice(0, 16),
+      c: cards.map(c => ({ id: c.id, r: c.isReversed ? 1 : 0 }))
     };
     const hist = load();
     hist.unshift(entry);
     persist(hist);
+    return entry.id;
+  }
+
+  function updateAnalysis(id, aiMarkdown) {
+    if (window._histCache) {
+      const e = window._histCache.find(x => x.id === id);
+      if (e) {
+        e.ai = aiMarkdown;
+      }
+    }
+    
+    // Fallback sync for local storage if viewing a local id
+    const hist = load();
+    const lc = hist.find(x => x.id === id);
+    if (lc) {
+      lc.ai = aiMarkdown;
+      persist(hist);
+    }
   }
 
   /* ── Reconstruct card objects from compact data ── */
@@ -46,26 +62,54 @@
   }
 
   /* ── Render history panel ──────────────────────── */
-  function renderPanel() {
+  async function renderPanel() {
     const list = document.getElementById('historyList');
     if (!list) return;
-    const hist = load();
+
+    let hist = load(); // Start with local storage
+
+    if (window.AuthModule?.isLoggedIn()) {
+      try {
+        const res = await fetch(`https://ka-en.com.vn/tarot_api/get_history.php?limit=20&t=${Date.now()}`, {
+          headers: { 'Authorization': `Bearer ${window.AuthModule.getToken()}` }
+        });
+        if (res.ok) {
+          const data = await res.json();
+          const remote = data.readings || [];
+
+          // Merge remote and local, deduplicate by dt+name
+          const seen = new Set();
+          const merged = [];
+          for (const r of [...remote, ...hist]) {
+            const key = r.dt.slice(0, 16) + '|' + r.n;
+            if (!seen.has(key)) {
+              seen.add(key);
+              merged.push(r);
+            }
+          }
+          hist = merged.sort((a, b) => b.dt.localeCompare(a.dt)).slice(0, MAX);
+        }
+      } catch (err) { }
+    }
+
+    window._histCache = hist;
+
     if (!hist.length) {
       list.innerHTML = `
         <div class="hist-empty">
           <div class="hist-empty-icon">✦</div>
           <p>Chưa có lịch sử trải bài</p>
-          <p class="hist-empty-sub">Các buổi đọc bài sẽ được lưu tự động</p>
+          <p class="hist-empty-sub">Các buổi đọc bài sẽ được lưu tự động trên thiết bị hoặc mây.</p>
         </div>`;
       return;
     }
 
     list.innerHTML = hist.map((e, idx) => {
-      const date    = e.dt.replace('T', ' ');
-      const theme   = (window.TarotHelper?.getThemeLabel(e.th)) || e.th;
-      const qText   = e.q || '(không có câu hỏi)';
-      const cards   = reconstruct(e.c || []);
-      const thumbs  = cards.slice(0, 5).map(c =>
+      const date = e.dt.replace('T', ' ');
+      const theme = (window.TarotHelper?.getThemeLabel(e.th)) || THEME_LABEL[e.th] || e.th;
+      const qText = e.q || '(không có câu hỏi)';
+      const cards = reconstruct(e.c || []);
+      const thumbs = cards.slice(0, 5).map(c =>
         `<img class="hist-thumb${c.isReversed ? ' hist-thumb--rev' : ''}"
               src="${c.image}" alt="${c.name}" title="${c.name}${c.isReversed ? ' (Ngược)' : ''}" />`
       ).join('');
@@ -84,7 +128,7 @@
           <div class="hist-thumbs">${thumbs}</div>
           <div class="hist-actions">
             <button class="hist-btn-replay" data-idx="${idx}">Xem Lại</button>
-            <button class="hist-btn-del"    data-idx="${idx}">Xoá</button>
+            <button class="hist-btn-del"    data-idx="${idx}">Thanh tẩy</button>
           </div>
         </div>`;
     }).join('');
@@ -92,43 +136,53 @@
     // Replay
     list.querySelectorAll('.hist-btn-replay').forEach(btn => {
       btn.addEventListener('click', () => {
-        const e = load()[parseInt(btn.dataset.idx)];
+        const e = window._histCache[parseInt(btn.dataset.idx)];
         if (!e) return;
-        const cards   = reconstruct(e.c || []);
-        const session = { name: e.n, dob: e.dob, theme: e.th, question: e.q, spread: e.sp };
+        const cards = reconstruct(e.c || []);
+        const session = { name: e.n, dob: e.dob, theme: e.th, question: e.q, spread: e.sp, isHistoryReplay: true, readingId: e.id, dt: e.dt || null };
         close();
-        // Show analysis with reconstructed data
         document.querySelectorAll('.page').forEach(p => p.classList.remove('page--active'));
         document.getElementById('pageAnalysis').classList.add('page--active');
         setTimeout(() => {
-          if (window.AnalysisModule) window.AnalysisModule.render(cards, session);
+          if (window.AnalysisModule) window.AnalysisModule.render(cards, session, e.ai);
         }, 200);
       });
     });
 
-    // Delete — show confirm modal first
+    // Delete
     list.querySelectorAll('.hist-btn-del').forEach(btn => {
       btn.addEventListener('click', () => {
         const idx = parseInt(btn.dataset.idx);
-        const arr = load();
-        const e   = arr[idx];
+        const arr = window._histCache || [];
+        const e = arr[idx];
         if (!e) return;
-        showDeleteConfirm(e, () => {
-          arr.splice(idx, 1);
-          persist(arr);
+        showDeleteConfirm(e, async () => {
+          const localArr = load();
+          const localIdx = localArr.findIndex(x => x.dt.slice(0, 16) === e.dt.slice(0, 16) && x.n === e.n);
+          if (localIdx >= 0) {
+            localArr.splice(localIdx, 1);
+            persist(localArr);
+          }
+          if (e.id < 1000000000000 && window.AuthModule?.isLoggedIn()) {
+            try {
+              await fetch(`https://ka-en.com.vn/tarot_api/delete_reading.php?id=${e.id}`, {
+                method: 'POST',
+                headers: { 'Authorization': `Bearer ${window.AuthModule.getToken()}` }
+              });
+            } catch (err) { }
+          }
           renderPanel();
         });
       });
     });
   }
 
-  /* ── Delete confirmation modal ──────────────────── */
   function showDeleteConfirm(entry, onConfirm) {
     document.getElementById('histDeleteConfirm')?.remove();
 
-    const theme  = window.TarotHelper?.getThemeLabel(entry.th) || entry.th;
-    const date   = entry.dt.replace('T', ' ');
-    const qText  = entry.q || '(không có câu hỏi)';
+    const theme = window.TarotHelper?.getThemeLabel(entry.th) || THEME_LABEL[entry.th] || entry.th;
+    const date = entry.dt.replace('T', ' ');
+    const qText = entry.q || '(không có câu hỏi)';
 
     const modal = document.createElement('div');
     modal.id = 'histDeleteConfirm';
@@ -136,12 +190,12 @@
     modal.innerHTML = `
       <div class="hist-confirm-box">
         <div class="hist-confirm-icon">🗑</div>
-        <div class="hist-confirm-title">Xác Nhận Xoá</div>
+        <div class="hist-confirm-title">Xác Nhận Thanh Tẩy</div>
         <div class="hist-confirm-meta">${theme} · ${entry.sp} lá · ${date}</div>
         <div class="hist-confirm-q">"${qText}"</div>
         <div class="hist-confirm-actions">
           <button id="histConfirmCancel" class="hist-confirm-btn hist-confirm-btn--cancel">Huỷ</button>
-          <button id="histConfirmDelete" class="hist-confirm-btn hist-confirm-btn--delete">Xoá</button>
+          <button id="histConfirmDelete" class="hist-confirm-btn hist-confirm-btn--delete">Thanh tẩy</button>
         </div>
       </div>`;
 
@@ -154,7 +208,6 @@
     modal.addEventListener('click', e => { if (e.target === modal) dismiss(); });
   }
 
-  /* ── Open / Close panel ────────────────────────── */
   function open() {
     document.getElementById('historyPanel').classList.add('open');
     const ov = document.getElementById('historyOverlay');
@@ -170,33 +223,26 @@
     ov.style.pointerEvents = 'none';
   }
 
-  /* ── Wire controls ─────────────────────────────── */
-  document.addEventListener('DOMContentLoaded', () => {});
-
-  const btnOpen  = document.getElementById('btnHistory');
+  const btnOpen = document.getElementById('btnHistory');
   const btnClose = document.getElementById('btnHistoryClose');
-  const overlay  = document.getElementById('historyOverlay');
+  const overlay = document.getElementById('historyOverlay');
 
-  if (btnOpen)  btnOpen.addEventListener('click',  open);
+  if (btnOpen) btnOpen.addEventListener('click', open);
   if (btnClose) btnClose.addEventListener('click', close);
-  if (overlay)  overlay.addEventListener('click',  close);
+  if (overlay) overlay.addEventListener('click', close);
 
   const btnHistoryAnalysis = document.getElementById('btnHistoryAnalysis');
   if (btnHistoryAnalysis) btnHistoryAnalysis.addEventListener('click', open);
 
-  // Back to home (floating btn above history float btn)
   const btnBackHome = document.getElementById('btnBackHome');
   if (btnBackHome) {
     btnBackHome.addEventListener('click', () => {
-      // Close history panel if open
       close();
-      // Navigate to landing page
       document.querySelectorAll('.page').forEach(p => p.classList.remove('page--active'));
       const landing = document.getElementById('pageLanding') || document.querySelector('.page');
       if (landing) landing.classList.add('page--active');
     });
   }
 
-  /* ── Expose API ─────────────────────────────────── */
-  window.HistoryModule = { save, open, close, renderPanel };
+  window.HistoryModule = { save, open, close, renderPanel, updateAnalysis };
 })();
