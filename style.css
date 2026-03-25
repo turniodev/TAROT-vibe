@@ -914,6 +914,7 @@ body {
 .btn-begin.auto-glow {
   animation: btnAutoGlowPulse 2s infinite ease-in-out;
   border-color: rgba(200, 121, 255, 0.8) !important;
+  background: rgba(40, 10, 60, 0.95);
   z-index: 100;
 }
 
@@ -2039,6 +2040,20 @@ body {
 
 .tarot-card:hover:not(.is-selected)::after {
   box-shadow: 0 0 28px rgba(155, 48, 255, 0.7), 0 0 60px rgba(155, 48, 255, 0.2);
+}
+
+/* Hover effects for Flipped Spread Cards */
+.tarot-card.spread-card.flipped {
+  cursor: pointer !important;
+}
+
+.tarot-card.spread-card.flipped:hover {
+  transform: translateY(-10px) scale(1.02) !important;
+  z-index: 20;
+}
+
+.tarot-card.spread-card.flipped:hover::after {
+  box-shadow: 0 0 40px rgba(200, 168, 76, 0.5), 0 0 80px rgba(155, 48, 255, 0.3) !important;
 }
 
 /* Slot label */

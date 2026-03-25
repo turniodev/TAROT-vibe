@@ -121,15 +121,31 @@ window.ReadingModule = (function () {
       instruction.textContent = `Hãy chọn thêm ${remaining} lá bài nữa...`;
     } else {
       instruction.textContent = 'Hãy lật từng lá bài để khám phá thông điệp';
-      deckArea.style.transition   = 'opacity 0.75s ease-out, transform 0.75s ease-out';
+      
+      const currentHeight = deckArea.offsetHeight;
+      deckArea.style.maxHeight = currentHeight + 'px';
+      deckArea.style.overflow = 'hidden';
+      deckArea.getBoundingClientRect(); // force reflow
+      
+      deckArea.style.transition   = 'opacity 0.6s ease-out, transform 0.6s ease-out, max-height 1.0s cubic-bezier(0.22, 1, 0.36, 1), margin-bottom 1.0s cubic-bezier(0.22, 1, 0.36, 1)';
       deckArea.style.opacity      = '0';
       deckArea.style.transform    = 'translateY(15px) scale(0.92)';
       deckArea.style.pointerEvents = 'none';
+
+      // Sinh lướt mượt mà cuộn deck lại (Làm các lá bài trượt lên)
+      setTimeout(() => {
+        deckArea.style.maxHeight = '0px';
+        deckArea.style.margin = '0px';
+      }, 10);
+
+      setTimeout(() => {
+        expandSpreadCards();
+      }, 50);
+
       setTimeout(() => {
         deckArea.style.display = 'none';
         document.getElementById('pageReading')?.classList.add('deck-hidden');
-        expandSpreadCards();
-      }, 750);
+      }, 1000);
     }
   }
 
@@ -485,9 +501,16 @@ window.ReadingModule = (function () {
     if (flippedCount >= session.spread) {
       instruction.textContent = 'Tất cả lá bài đã lên tiếng. Hãy đọc thông điệp của vũ trụ...';
       setTimeout(() => {
+        btnGoAnalysis.style.opacity = '0';
+        btnGoAnalysis.style.transition = 'none';
         btnGoAnalysis.classList.remove('hidden');
-        btnGoAnalysis.classList.add('auto-glow');
-      }, 300);
+        
+        requestAnimationFrame(() => requestAnimationFrame(() => {
+          btnGoAnalysis.style.transition = 'opacity 1.5s ease-in-out';
+          btnGoAnalysis.style.opacity = '1';
+          btnGoAnalysis.classList.add('auto-glow');
+        }));
+      }, 500);
     }
   }
 
