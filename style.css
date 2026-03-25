@@ -2956,7 +2956,8 @@ body {
   color: rgba(201, 168, 76, 0.95);
   text-shadow: 0 0 8px rgba(201, 168, 76, 0.5);
   animation: tapHintPulse 1.6s ease-in-out infinite;
-  pointer-events: none;
+  pointer-events: auto;
+  cursor: pointer;
   white-space: nowrap;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.5);
 }

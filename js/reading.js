@@ -336,9 +336,19 @@ window.ReadingModule = (function () {
   function addTapHint(cardEl) {
     const slotWrap = cardEl.closest('.slot-wrap');
     if (!slotWrap || slotWrap.querySelector('.tap-hint')) return;
+    
+    // Create an invisible overlay/trigger for the tap hint or just make it clickable
     const hint = document.createElement('div');
     hint.className   = 'tap-hint';
     hint.textContent = 'Xem ý nghĩa';
+    
+    // Trigger the card click when the hint is clicked
+    hint.style.cursor = 'pointer';
+    hint.addEventListener('click', (e) => {
+      e.stopPropagation();
+      cardEl.click();
+    });
+    
     slotWrap.appendChild(hint);
   }
 
