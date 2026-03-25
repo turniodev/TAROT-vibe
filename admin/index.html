@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tarot Admin — Bảng Điều Khiển</title>
+  <link rel="icon" type="image/png" href="../cards/icon/tarot_favicon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Cinzel:wght@600&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg:       #050410;
+      --surface:  #0d0b1e;
+      --card:     #12102a;
+      --border:   rgba(155,48,255,0.2);
+      --purple:   #9b30ff;
+      --gold:     #c9a84c;
+      --text:     #e8e0ff;
+      --muted:    rgba(232,224,255,0.5);
+      --danger:   #ff6060;
+      --success:  #60ffa0;
+    }
+    body { background: var(--bg); color: var(--text); font-family: 'Inter', sans-serif; font-size: 14px; min-height: 100vh; }
+
+    /* ── Login Screen ─────────────────────────── */
+    #loginScreen {
+      display: flex; align-items: center; justify-content: center; height: 100vh;
+      background: radial-gradient(ellipse at 50% 40%, rgba(107,0,204,0.2) 0%, transparent 60%);
+    }
+    .login-box {
+      background: var(--card); border: 1px solid var(--border); border-radius: 20px;
+      padding: 48px 40px; width: min(420px, 92vw); text-align: center;
+      box-shadow: 0 0 60px rgba(107,0,204,0.25);
+    }
+    .login-icon { font-size: 2.5rem; margin-bottom: 16px; }
+    .login-title { font-family: 'Cinzel', serif; font-size: 1.3rem; color: var(--gold); margin-bottom: 8px; }
+    .login-sub { color: var(--muted); font-size: 0.85rem; margin-bottom: 28px; }
+    .login-input {
+      width: 100%; background: rgba(255,255,255,0.06); border: 1px solid var(--border);
+      border-radius: 10px; padding: 13px 16px; color: #fff; font-size: 1rem;
+      outline: none; margin-bottom: 16px; transition: border-color 0.3s;
+    }
+    .login-input:focus { border-color: var(--purple); box-shadow: 0 0 12px rgba(155,48,255,0.3); }
+    .login-btn {
+      width: 100%; padding: 13px; background: linear-gradient(135deg, rgba(107,0,204,0.8), rgba(155,48,255,0.6));
+      border: 1px solid rgba(155,48,255,0.5); border-radius: 10px; color: var(--gold);
+      font-family: 'Cinzel', serif; font-size: 0.9rem; letter-spacing: 0.1em; cursor: pointer;
+      transition: all 0.3s;
+    }
+    .login-btn:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(155,48,255,0.4); }
+    .login-error { color: var(--danger); font-size: 0.82rem; margin-top: 12px; }
+
+    /* ── App Layout ───────────────────────────── */
+    #app { display: none; }
+    .admin-layout { display: flex; min-height: 100vh; }
+
+    /* Sidebar */
+    .sidebar {
+      width: 220px; flex-shrink: 0; background: var(--surface); border-right: 1px solid var(--border);
+      display: flex; flex-direction: column; padding: 24px 0; position: sticky; top: 0; height: 100vh;
+    }
+    .sidebar-logo { padding: 0 20px 24px; border-bottom: 1px solid var(--border); margin-bottom: 16px; }
+    .sidebar-logo-title { font-family: 'Cinzel', serif; color: var(--gold); font-size: 1rem; }
+    .sidebar-logo-sub { color: var(--muted); font-size: 0.7rem; margin-top: 2px; }
+    .nav-item {
+      display: flex; align-items: center; gap: 10px; padding: 10px 20px; cursor: pointer;
+      color: var(--muted); transition: all 0.2s; border-left: 3px solid transparent; font-size: 0.85rem;
+    }
+    .nav-item:hover { background: rgba(155,48,255,0.08); color: var(--text); }
+    .nav-item.active { color: var(--purple); border-left-color: var(--purple); background: rgba(155,48,255,0.1); }
+    .nav-icon { font-size: 1rem; width: 20px; text-align: center; }
+    .sidebar-footer { margin-top: auto; padding: 16px 20px; border-top: 1px solid var(--border); }
+    .logout-btn {
+      width: 100%; padding: 8px; background: rgba(255,96,96,0.1); border: 1px solid rgba(255,96,96,0.3);
+      border-radius: 8px; color: var(--danger); cursor: pointer; font-size: 0.82rem; transition: all 0.2s;
+    }
+    .logout-btn:hover { background: rgba(255,96,96,0.2); }
+
+    /* Main */
+    .main { flex: 1; overflow-x: hidden; }
+    .topbar {
+      background: var(--surface); border-bottom: 1px solid var(--border); padding: 16px 28px;
+      display: flex; align-items: center; gap: 16px; position: sticky; top: 0; z-index: 10;
+    }
+    .topbar-title { font-family: 'Cinzel', serif; color: var(--gold); font-size: 1rem; flex: 1; }
+    .search-input {
+      background: rgba(255,255,255,0.06); border: 1px solid var(--border); border-radius: 8px;
+      padding: 8px 14px; color: #fff; outline: none; width: 260px; font-size: 0.85rem; transition: border-color 0.3s;
+    }
+    .search-input:focus { border-color: var(--purple); }
+    .content { padding: 24px 28px; }
+
+    /* Stats cards */
+    .stats-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 16px; margin-bottom: 28px; }
+    .stat-card {
+      background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 20px;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .stat-card:hover { transform: translateY(-3px); box-shadow: 0 8px 24px rgba(107,0,204,0.25); }
+    .stat-label { color: var(--muted); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 8px; }
+    .stat-value { font-size: 2rem; font-weight: 700; color: var(--purple); }
+    .stat-sub { color: var(--muted); font-size: 0.75rem; margin-top: 4px; }
+
+    /* Table */
+    .table-wrap { background: var(--card); border: 1px solid var(--border); border-radius: 14px; overflow: hidden; }
+    .table-header { padding: 16px 20px; border-bottom: 1px solid var(--border); display: flex; align-items: center; gap: 12px; }
+    .table-title { font-weight: 600; font-size: 0.9rem; }
+    .badge { background: rgba(155,48,255,0.2); color: var(--purple); border-radius: 20px; padding: 2px 10px; font-size: 0.75rem; }
+    table { width: 100%; border-collapse: collapse; }
+    th { background: rgba(155,48,255,0.08); color: var(--muted); font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.08em; padding: 10px 16px; text-align: left; }
+    td { padding: 12px 16px; border-bottom: 1px solid rgba(155,48,255,0.08); font-size: 0.83rem; vertical-align: middle; }
+    tr:last-child td { border-bottom: none; }
+    tr:hover td { background: rgba(155,48,255,0.04); }
+    .td-muted { color: var(--muted); }
+    .td-wrap { max-width: 280px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .theme-chip {
+      display: inline-block; background: rgba(201,168,76,0.15); border: 1px solid rgba(201,168,76,0.3);
+      color: var(--gold); border-radius: 20px; padding: 2px 10px; font-size: 0.72rem; white-space: nowrap;
+    }
+    .plan-chip {
+      display: inline-block; border-radius: 20px; padding: 2px 10px; font-size: 0.72rem; white-space: nowrap;
+      background: rgba(96,255,160,0.1); border: 1px solid rgba(96,255,160,0.3); color: var(--success);
+    }
+    .plan-chip.free { background: rgba(255,255,255,0.05); border-color: var(--border); color: var(--muted); }
+    .action-btn {
+      background: rgba(155,48,255,0.15); border: 1px solid rgba(155,48,255,0.3); color: var(--purple);
+      border-radius: 6px; padding: 4px 12px; cursor: pointer; font-size: 0.78rem; transition: all 0.2s;
+    }
+    .action-btn:hover { background: rgba(155,48,255,0.3); }
+
+    /* Pagination */
+    .pagination { display: flex; gap: 6px; padding: 16px 20px; border-top: 1px solid var(--border); justify-content: flex-end; }
+    .page-btn {
+      background: rgba(155,48,255,0.1); border: 1px solid var(--border); color: var(--muted);
+      border-radius: 6px; padding: 5px 12px; cursor: pointer; font-size: 0.8rem; transition: all 0.2s;
+    }
+    .page-btn:hover, .page-btn.active { background: rgba(155,48,255,0.3); color: var(--text); border-color: var(--purple); }
+    .page-btn:disabled { opacity: 0.3; cursor: default; }
+
+    /* Detail modal */
+    .detail-overlay {
+      position: fixed; inset: 0; background: rgba(4,0,14,0.85); backdrop-filter: blur(8px);
+      z-index: 100; display: none; align-items: flex-start; justify-content: center; padding: 40px 20px; overflow-y: auto;
+    }
+    .detail-overlay.open { display: flex; }
+    .detail-box {
+      background: var(--card); border: 1px solid var(--border); border-radius: 18px;
+      width: min(800px, 100%); padding: 32px; position: relative;
+      box-shadow: 0 0 60px rgba(107,0,204,0.3);
+    }
+    .detail-close {
+      position: absolute; top: 16px; right: 16px; background: rgba(255,255,255,0.08); border: none;
+      color: #fff; width: 32px; height: 32px; border-radius: 50%; cursor: pointer; font-size: 1.1rem;
+      display: flex; align-items: center; justify-content: center; transition: background 0.2s;
+    }
+    .detail-close:hover { background: rgba(255,96,96,0.3); }
+    .detail-name { font-family: 'Cinzel', serif; color: var(--gold); font-size: 1.1rem; margin-bottom: 4px; }
+    .detail-meta { color: var(--muted); font-size: 0.82rem; margin-bottom: 20px; }
+    .detail-question { font-size: 1rem; color: var(--text); font-style: italic; padding: 12px 16px; background: rgba(155,48,255,0.08); border-radius: 10px; margin-bottom: 20px; border-left: 3px solid var(--purple); }
+    .cards-row { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 20px; }
+    .card-thumb { text-align: center; }
+    .card-thumb img { width: 60px; height: auto; border-radius: 6px; display: block; margin: 0 auto 4px; }
+    .card-thumb.rev img { transform: rotate(180deg); }
+    .card-thumb-name { font-size: 0.68rem; color: var(--muted); max-width: 70px; }
+    .card-thumb-pos { font-size: 0.62rem; color: var(--gold); margin-bottom: 2px; }
+    .analysis-box { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 16px; max-height: 400px; overflow-y: auto; }
+    .analysis-box pre { font-family: 'Inter', sans-serif; font-size: 0.83rem; line-height: 1.7; color: var(--text); white-space: pre-wrap; }
+
+    /* Theme chart */
+    .theme-bars { display: flex; flex-direction: column; gap: 8px; padding: 16px 20px; }
+    .theme-bar-row { display: flex; align-items: center; gap: 10px; }
+    .theme-bar-label { width: 180px; font-size: 0.78rem; color: var(--muted); flex-shrink: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .theme-bar-track { flex: 1; height: 8px; background: rgba(255,255,255,0.06); border-radius: 4px; overflow: hidden; }
+    .theme-bar-fill { height: 100%; background: linear-gradient(90deg, var(--purple), #6b00cc); border-radius: 4px; transition: width 0.5s; }
+    .theme-bar-cnt { font-size: 0.75rem; color: var(--muted); width: 30px; text-align: right; flex-shrink: 0; }
+
+    @media (max-width: 768px) {
+      .sidebar { display: none; }
+      .search-input { width: 160px; }
+      .content { padding: 16px; }
+      .detail-box { padding: 20px; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- Login -->
+<div id="loginScreen">
+  <div class="login-box">
+    <div class="login-icon">🔮</div>
+    <h1 class="login-title">Tarot Admin</h1>
+    <p class="login-sub">Bảng điều khiển quản trị viên huyền bí</p>
+    <input type="password" class="login-input" id="secretInput" placeholder="Nhập mật khẩu bí mật..." />
+    <button class="login-btn" onclick="doLogin()">✦ Tiến Vào ✦</button>
+    <div class="login-error" id="loginError"></div>
+  </div>
+</div>
+
+<!-- App -->
+<div id="app">
+  <div class="admin-layout">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="sidebar-logo">
+        <div class="sidebar-logo-title">✦ Tarot Admin</div>
+        <div class="sidebar-logo-sub">Bảng Điều Khiển Huyền Bí</div>
+      </div>
+      <nav>
+        <div class="nav-item active" data-view="dashboard" onclick="switchView('dashboard', this)">
+          <span class="nav-icon">📊</span> Tổng Quan
+        </div>
+        <div class="nav-item" data-view="readings" onclick="switchView('readings', this)">
+          <span class="nav-icon">🃏</span> Lịch Sử Trải Bài
+        </div>
+        <div class="nav-item" data-view="users" onclick="switchView('users', this)">
+          <span class="nav-icon">👥</span> Người Dùng
+        </div>
+      </nav>
+      <div class="sidebar-footer">
+        <button class="logout-btn" onclick="logout()">↩ Đăng Xuất</button>
+      </div>
+    </aside>
+
+    <!-- Main -->
+    <div class="main">
+      <div class="topbar">
+        <div class="topbar-title" id="viewTitle">Tổng Quan</div>
+        <input type="text" class="search-input" id="searchInput" placeholder="🔍  Tìm kiếm..." oninput="onSearch(this.value)" />
+      </div>
+
+      <div class="content" id="viewContent">
+        <div style="color:var(--muted); text-align:center; padding:60px;">Đang tải...</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Detail modal -->
+<div class="detail-overlay" id="detailOverlay">
+  <div class="detail-box" id="detailBox">
+    <button class="detail-close" onclick="closeDetail()">✕</button>
+    <div id="detailContent">Đang tải...</div>
+  </div>
+</div>
+
+<script>
+const API = 'https://ka-en.com.vn/tarot_api/admin_api.php';
+let SECRET = '';
+let currentView = 'dashboard';
+let currentPage = 1;
+let searchTimer;
+
+// ── Auth ────────────────────────────────────────────
+function doLogin() {
+  const s = document.getElementById('secretInput').value.trim();
+  if (!s) return;
+  SECRET = s;
+  document.getElementById('loginError').textContent = '';
+  apiFetch('stats').then(() => {
+    document.getElementById('loginScreen').style.display = 'none';
+    document.getElementById('app').style.display = 'block';
+    loadView('dashboard');
+  }).catch(() => {
+    document.getElementById('loginError').textContent = '❌ Mật khẩu không đúng!';
+    SECRET = '';
+  });
+}
+document.getElementById('secretInput').addEventListener('keydown', e => { if (e.key === 'Enter') doLogin(); });
+
+function logout() {
+  SECRET = '';
+  document.getElementById('loginScreen').style.display = 'flex';
+  document.getElementById('app').style.display = 'none';
+}
+
+// ── API ──────────────────────────────────────────────
+async function apiFetch(action, params = {}) {
+  const url = new URL(API);
+  url.searchParams.set('action', action);
+  Object.entries(params).forEach(([k, v]) => url.searchParams.set(k, v));
+  const res = await fetch(url, { headers: { 'Authorization': `Bearer ${SECRET}` } });
+  if (!res.ok) throw new Error(res.status);
+  const data = await res.json();
+  return data;
+}
+
+// ── Routing ──────────────────────────────────────────
+function switchView(view, el) {
+  document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
+  el.classList.add('active');
+  currentPage = 1;
+  document.getElementById('searchInput').value = '';
+  loadView(view);
+}
+
+function loadView(view) {
+  currentView = view;
+  const titles = { dashboard: 'Tổng Quan', readings: 'Lịch Sử Trải Bài', users: 'Người Dùng' };
+  document.getElementById('viewTitle').textContent = titles[view] || view;
+  document.getElementById('viewContent').innerHTML = '<div style="color:var(--muted); text-align:center; padding:60px;">Đang tải dữ liệu từ vũ trụ...</div>';
+
+  if (view === 'dashboard') renderDashboard();
+  if (view === 'readings') renderReadings();
+  if (view === 'users')    renderUsers();
+}
+
+function onSearch(val) {
+  clearTimeout(searchTimer);
+  searchTimer = setTimeout(() => {
+    currentPage = 1;
+    if (currentView === 'readings') renderReadings(val);
+    if (currentView === 'users')    renderUsers(val);
+  }, 400);
+}
+
+// ── Dashboard ────────────────────────────────────────
+async function renderDashboard() {
+  const d = await apiFetch('stats');
+  const s = d.stats;
+  const maxCnt = Math.max(...(d.theme_breakdown.map(t => t.cnt)), 1);
+
+  const THEME_MAP = {
+    love:'Tình Yêu', ex:'Người Yêu Cũ', current_love:'Người Yêu Hiện Tại',
+    ambiguous:'Mối Quan Hệ Mập Mờ', crush:'Crush / Thầm Thích', future_love:'Tình Duyên TL',
+    someone:'Người Ấy', marriage:'Hôn Nhân', conflict:'Xung Đột', breakup:'Chia Tay',
+    long_distance:'Yêu Xa', jealousy:'Người Thứ Ba', self_love:'Yêu Bản Thân',
+    career:'Sự Nghiệp', job_search:'Xin Việc', promotion:'Thăng Tiến',
+    business:'Kinh Doanh', colleague:'Đồng Nghiệp', career_change:'Chuyển Nghề',
+    freelance:'Freelance', interview:'Phỏng Vấn',
+    finance:'Tài Chính', investment:'Đầu Tư', debt:'Nợ Nần', savings:'Tiết Kiệm', luck_money:'Lộc Tài',
+    health:'Sức Khỏe', mental:'Tâm Thần', energy:'Năng Lượng', family:'Gia Đình', diet:'Chăm Sóc',
+    study:'Học Tập', study_abroad:'Du Học', self:'Bản Thân', purpose:'Mục Đích',
+    shadow_self:'Bóng Tối', decision:'Quyết Định', travel:'Du Lịch', spiritual:'Tâm Linh',
+    general:'Tổng Quát'
+  };
+
+  document.getElementById('viewContent').innerHTML = `
+    <div class="stats-grid">
+      <div class="stat-card">
+        <div class="stat-label">Tổng Người Dùng</div>
+        <div class="stat-value">${s.total_users}</div>
+        <div class="stat-sub">Tài khoản đã đăng ký</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Tổng Trải Bài</div>
+        <div class="stat-value">${s.total_readings}</div>
+        <div class="stat-sub">Từ trước đến nay</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Hôm Nay</div>
+        <div class="stat-value" style="color:var(--gold)">${s.today_readings}</div>
+        <div class="stat-sub">Lần trải bài</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">7 Ngày Qua</div>
+        <div class="stat-value" style="color:var(--success)">${s.week_readings}</div>
+        <div class="stat-sub">Lần trải bài</div>
+      </div>
+    </div>
+
+    <div class="table-wrap">
+      <div class="table-header">
+        <div class="table-title">Chủ Đề Phổ Biến</div>
+      </div>
+      <div class="theme-bars">
+        ${d.theme_breakdown.map(t => `
+          <div class="theme-bar-row">
+            <div class="theme-bar-label">${THEME_MAP[t.theme] || t.theme}</div>
+            <div class="theme-bar-track"><div class="theme-bar-fill" style="width:${(t.cnt/maxCnt*100).toFixed(1)}%"></div></div>
+            <div class="theme-bar-cnt">${t.cnt}</div>
+          </div>
+        `).join('')}
+      </div>
+    </div>
+  `;
+}
+
+// ── Readings ─────────────────────────────────────────
+async function renderReadings(search = '') {
+  const d = await apiFetch('readings', { page: currentPage, q: search });
+  if (!d.readings?.length) {
+    document.getElementById('viewContent').innerHTML = '<div style="color:var(--muted); text-align:center; padding:60px;">Chưa có dữ liệu</div>';
+    return;
+  }
+
+  const rows = d.readings.map(r => `
+    <tr>
+      <td>${r.id}</td>
+      <td>
+        <div style="font-weight:500">${r.name}</div>
+        <div class="td-muted" style="font-size:0.75rem">${r.email}</div>
+      </td>
+      <td><span class="theme-chip">${r.theme}</span></td>
+      <td class="td-wrap" title="${r.question}">${r.question}</td>
+      <td style="text-align:center">${r.spread_count} lá</td>
+      <td>
+        ${(r.cards || []).slice(0, 3).map(c =>
+          `<span class="td-muted" style="font-size:0.72rem">${c.card_name_vi || c.card_name}${c.is_reversed ? '↓' : ''}</span>`
+        ).join(', ')}
+        ${r.cards?.length > 3 ? `<span class="td-muted">...</span>` : ''}
+      </td>
+      <td class="td-muted" style="font-size:0.75rem">${r.created_at.slice(0,16).replace('T',' ')}</td>
+      <td><button class="action-btn" onclick="showDetail(${r.id})">Xem chi tiết</button></td>
+    </tr>
+  `).join('');
+
+  document.getElementById('viewContent').innerHTML = `
+    <div class="table-wrap">
+      <div class="table-header">
+        <div class="table-title">Lịch Sử Trải Bài</div>
+        <span class="badge">${d.total} bản ghi</span>
+      </div>
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th><th>Người dùng</th><th>Chủ đề</th><th>Câu hỏi</th>
+            <th>Số lá</th><th>Các lá bài</th><th>Thời gian</th><th></th>
+          </tr>
+        </thead>
+        <tbody>${rows}</tbody>
+      </table>
+      <div class="pagination">${renderPagination(d.page, d.pages)}</div>
+    </div>
+  `;
+}
+
+// ── Users ────────────────────────────────────────────
+async function renderUsers(search = '') {
+  const d = await apiFetch('users', { page: currentPage, q: search });
+  if (!d.users?.length) {
+    document.getElementById('viewContent').innerHTML = '<div style="color:var(--muted); text-align:center; padding:60px;">Chưa có người dùng</div>';
+    return;
+  }
+
+  const rows = d.users.map(u => `
+    <tr>
+      <td>
+        <div style="font-weight:500">${u.name || '—'}</div>
+        <div class="td-muted" style="font-size:0.75rem">${u.email}</div>
+      </td>
+      <td class="td-muted">${u.dob || '—'}</td>
+      <td>
+        <span class="plan-chip ${u.plan_type === 'free' ? 'free' : ''}">
+          ${{ free: 'Miễn phí', guide: '⭐ Người Dẫn Đường', master: '👑 Bậc Thầy' }[u.plan_type] || u.plan_type}
+        </span>
+      </td>
+      <td class="td-muted">${u.plan_expiry_date ? u.plan_expiry_date.slice(0,10) : '—'}</td>
+      <td style="text-align:center; color:var(--purple)">${u.reading_count}</td>
+      <td class="td-muted" style="font-size:0.75rem">${u.last_reading ? u.last_reading.slice(0,16).replace('T',' ') : '—'}</td>
+    </tr>
+  `).join('');
+
+  document.getElementById('viewContent').innerHTML = `
+    <div class="table-wrap">
+      <div class="table-header">
+        <div class="table-title">Danh Sách Người Dùng</div>
+        <span class="badge">${d.total} tài khoản</span>
+      </div>
+      <table>
+        <thead>
+          <tr><th>Tên / Email</th><th>Ngày sinh</th><th>Gói cước</th><th>Hết hạn</th><th>Số lần xem</th><th>Lần cuối</th></tr>
+        </thead>
+        <tbody>${rows}</tbody>
+      </table>
+      <div class="pagination">${renderPagination(d.page, Math.ceil(d.total/20))}</div>
+    </div>
+  `;
+}
+
+// ── Detail modal ─────────────────────────────────────
+async function showDetail(id) {
+  document.getElementById('detailOverlay').classList.add('open');
+  document.getElementById('detailContent').innerHTML = '<div style="color:var(--muted); padding:40px; text-align:center">Đang kết nối vũ trụ...</div>';
+  const d = await apiFetch('reading', { id });
+  const r = d.reading;
+  document.getElementById('detailContent').innerHTML = `
+    <div class="detail-name">${r.name} <span style="font-family:Inter; font-weight:400; font-size:0.85rem; color:var(--muted)">&lt;${r.email}&gt;</span></div>
+    <div class="detail-meta">
+      Sinh: ${r.dob || '—'} &nbsp;|&nbsp; 
+      Chủ đề: <span style="color:var(--gold)">${r.theme}</span> &nbsp;|&nbsp; 
+      ${r.spread_count} lá &nbsp;|&nbsp; 
+      ${r.created_at.slice(0,16).replace('T',' ')}
+    </div>
+    <div class="detail-question">"${r.question}"</div>
+    <div class="cards-row">
+      ${(r.cards || []).map(c => `
+        <div class="card-thumb ${c.is_reversed ? 'rev' : ''}">
+          <div class="card-thumb-pos">${c.position_label}</div>
+          <img src="../cards/${c.card_name.toLowerCase().replace(/ /g, '-')}.jpg" 
+               onerror="this.style.display='none'" alt="${c.card_name}" />
+          <div class="card-thumb-name">${c.card_name_vi || c.card_name}${c.is_reversed ? ' ↓' : ''}</div>
+        </div>
+      `).join('')}
+    </div>
+    <div style="color:var(--muted); font-size:0.78rem; margin-bottom:8px; text-transform:uppercase; letter-spacing:0.1em">✦ Luận Giải AI</div>
+    <div class="analysis-box">
+      <pre>${r.gemini_analysis || '(Chưa có luận giải)'}</pre>
+    </div>
+  `;
+}
+
+function closeDetail() {
+  document.getElementById('detailOverlay').classList.remove('open');
+}
+document.getElementById('detailOverlay').addEventListener('click', e => {
+  if (e.target === document.getElementById('detailOverlay')) closeDetail();
+});
+
+// ── Pagination ────────────────────────────────────────
+function renderPagination(current, total) {
+  if (total <= 1) return '';
+  let html = '';
+  html += `<button class="page-btn" onclick="goPage(${current-1})" ${current <= 1 ? 'disabled' : ''}>‹</button>`;
+  for (let i = 1; i <= total; i++) {
+    if (i === 1 || i === total || Math.abs(i - current) <= 2) {
+      html += `<button class="page-btn ${i===current?'active':''}" onclick="goPage(${i})">${i}</button>`;
+    } else if (Math.abs(i - current) === 3) {
+      html += `<span class="page-btn" style="pointer-events:none">…</span>`;
+    }
+  }
+  html += `<button class="page-btn" onclick="goPage(${current+1})" ${current >= total ? 'disabled' : ''}>›</button>`;
+  return html;
+}
+
+function goPage(p) {
+  currentPage = p;
+  loadView(currentView);
+}
+</script>
+</body>
+</html>
