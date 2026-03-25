@@ -78,7 +78,7 @@ $user_data = $stmt->fetch();
 // Đăng nhập free => 3/ngày
 // Gói trả phí => theo plan
 $is_anonymous = str_ends_with($user_email, '@tarot.local');
-$max_draws = $is_anonymous ? 3 : 3;
+$max_draws = $is_anonymous ? 5 : 5;
 
 if ($user_data && $user_data['plan_expiry_date'] && strtotime($user_data['plan_expiry_date']) > time()) {
     if ($user_data['plan_type'] === 'guide')
@@ -184,19 +184,20 @@ YÊU CẦU ĐẶC BIỆT: Hãy xưng hô và đưa ra lời khuyên phù hợp d
 
 Hãy viết luận giải XÚC TÍCH (tối đa 5-6 đoạn ngắn). Bắt buộc phải sử dụng tiêu đề H3 (###) và vạch kẻ (---) như cú pháp mẫu sau:
 
-### 1. Luận giải vấn đề
+### Luận giải vấn đề
 [Trả lời trực tiếp câu hỏi "{$question}" dựa trên kết hợp của các lá bài]
 
 ---
 
-### 2. Thông điệp cốt lõi
-[Ý nghĩa ngắn gọn của các lá bài đối với hoàn cảnh hiện tại]
+### Thông điệp cốt lõi
+[Ý nghĩa sâu sắc của các lá bài đối với hoàn cảnh hiện tại]
 
 ---
 
-### 3. Lời khuyên hành động
+### Lời khuyên hành động
 - (Hành động 1)
 - (Hành động 2)
+- (Hành động 3)
 
 **Phong cách:** Thẳng thắn, ngắn gọn, thiết thực, tập trung hoàn toàn vào câu hỏi. Sử dụng Markdown để trình bày mạch lạc. KHÔNG viết quá dài.
 PROMPT;

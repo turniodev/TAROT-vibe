@@ -1913,11 +1913,32 @@ body {
   height: 100%;
   position: relative;
   transform-style: preserve-3d;
+  transition: transform 0.4s var(--ease-out);
+}
+
+/* Flip animation — use a longer transition only during flip */
+.tarot-card.flipping .card-inner {
   transition: transform 1s cubic-bezier(0.23, 1, 0.32, 1);
 }
 
 .tarot-card.flipped .card-inner {
   transform: rotateY(180deg);
+}
+
+/* Hover on FLIPPED cards: combine the flip with the lift/tilt by applying to .card-inner */
+.tarot-card.spread-card.flipped:hover .card-inner {
+  transform: rotateY(180deg) translateZ(20px) scale(1.03);
+  transition: transform 0.4s var(--ease-out);
+}
+
+.tarot-card.spread-card.flipped {
+  cursor: pointer;
+
+}
+
+.tarot-card.spread-card.flipped:hover {
+  transform: translateY(-14px) !important;
+  z-index: 10;
 }
 
 .card-face,
@@ -1978,10 +1999,13 @@ body {
   min-height: 0;
   object-fit: cover;
   display: block;
+  border-top-left-radius: 11px;
+  border-top-right-radius: 11px;
 }
 
 .card-face.card-reversed img {
   transform: rotate(180deg);
+  border-radius: 0 0 11px 11px;
 }
 
 .card-caption {
@@ -1990,6 +2014,8 @@ body {
   border-top: 1px solid rgba(155, 48, 255, 0.2);
   text-align: center;
   flex-shrink: 0;
+  border-bottom-left-radius: 11px;
+  border-bottom-right-radius: 11px;
 }
 
 .card-caption-name {
@@ -2043,25 +2069,11 @@ body {
   box-shadow: 0 0 28px rgba(155, 48, 255, 0.7), 0 0 60px rgba(155, 48, 255, 0.2);
 }
 
-/* Hover effects for Flipped Spread Cards */
-.tarot-card.spread-card.flipped {
-  cursor: pointer !important;
-}
-
-.tarot-card.spread-card.flipped:hover {
-  transform: translateY(-16px) scale(1.04) !important;
-  z-index: 20;
-}
-
-.tarot-card.spread-card.flipped:hover .card-face {
-  border-color: rgba(255, 215, 0, 0.8) !important;
-  box-shadow: 0 0 35px rgba(255, 215, 0, 0.5), inset 0 0 25px rgba(255, 255, 255, 0.15) !important;
-  filter: brightness(1.15) contrast(1.08) drop-shadow(0 0 10px rgba(255,215,0,0.4));
-}
-
+/* Flipped card hover aura same as face-down */
 .tarot-card.spread-card.flipped:hover::after {
-  box-shadow: 0 0 50px rgba(255, 215, 0, 0.6), 0 0 100px rgba(155, 48, 255, 0.6) !important;
+  box-shadow: 0 0 28px rgba(155, 48, 255, 0.7), 0 0 60px rgba(155, 48, 255, 0.2);
 }
+
 
 /* Slot label */
 .slot-wrap {

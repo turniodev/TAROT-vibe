@@ -171,9 +171,9 @@ window.ReadingModule = (function () {
       maxW = 420;
       heightRatio = 0.75;
     } else if (n === 3) {
-      maxAbsHeight = 620;
-      maxW = 340;
-      heightRatio = 0.65;
+      maxAbsHeight = 560;
+      maxW = 250;
+      heightRatio = 0.6;
     }
 
     const maxH   = Math.min(window.innerHeight * heightRatio, maxAbsHeight);
@@ -272,7 +272,12 @@ window.ReadingModule = (function () {
      FLIP SINGLE CARD
   /* ══ FLIP SINGLE CARD ════════════════════════════════ */
   function flipCard(cardEl, card, slotIdx, e) {
+    // Add flipping class for slow cubic-bezier transition on inner
+    const inner = cardEl.querySelector('.card-inner');
+    cardEl.classList.add('flipping');
     cardEl.classList.add('flipped');
+    if (inner) setTimeout(() => cardEl.classList.remove('flipping'), 1050);
+
     window.FX?.ripple(cardEl, e, 'rgba(201,168,76,0.4)');
     if (e && e.clientX) window.FX?.burst(e.clientX, e.clientY, 25);
     if (window.triggerLightning) window.triggerLightning();
