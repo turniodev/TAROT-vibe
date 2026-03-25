@@ -120,6 +120,14 @@
       else if (docEl.msRequestFullscreen) docEl.msRequestFullscreen().catch(() => { });
     }
 
+    // Play background music when entering full screen / exploring
+    if (!window.bgMusic) {
+      window.bgMusic = new Audio('bg_music/mfcc-mystery-mystic-mystical-music-279834.mp3');
+      window.bgMusic.loop = true;
+      window.bgMusic.volume = 0.5;
+    }
+    window.bgMusic.play().catch(err => console.log("Audio autoplay blocked:", err));
+
     window.FX?.ripple(e.currentTarget, e, 'rgba(200,121,255,0.35)');
     if (window.Particles && window.Particles.triggerWarp) {
       window.Particles.triggerWarp(1500);
