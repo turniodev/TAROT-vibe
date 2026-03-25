@@ -122,30 +122,35 @@ window.ReadingModule = (function () {
     } else {
       instruction.textContent = 'Hãy lật từng lá bài để khám phá thông điệp';
       
-      const currentHeight = deckArea.offsetHeight;
-      deckArea.style.maxHeight = currentHeight + 'px';
-      deckArea.style.overflow = 'hidden';
-      deckArea.getBoundingClientRect(); // force reflow
-      
-      deckArea.style.transition   = 'opacity 0.6s ease-out, transform 0.6s ease-out, max-height 1.0s cubic-bezier(0.22, 1, 0.36, 1), margin-bottom 1.0s cubic-bezier(0.22, 1, 0.36, 1)';
+      deckArea.style.transition   = 'opacity 0.6s ease-out, transform 0.6s ease-out';
       deckArea.style.opacity      = '0';
       deckArea.style.transform    = 'translateY(15px) scale(0.92)';
       deckArea.style.pointerEvents = 'none';
 
-      // Sinh lướt mượt mà cuộn deck lại (Làm các lá bài trượt lên)
       setTimeout(() => {
-        deckArea.style.maxHeight = '0px';
-        deckArea.style.margin = '0px';
-      }, 10);
-
-      setTimeout(() => {
-        expandSpreadCards();
-      }, 50);
-
-      setTimeout(() => {
+        // Measure where the cards are currently
+        const originalY = selectedArea.getBoundingClientRect().top;
+        
+        // Hide deck, causing selectedArea to snap up
         deckArea.style.display = 'none';
         document.getElementById('pageReading')?.classList.add('deck-hidden');
-      }, 1000);
+        
+        // Calculate snap difference
+        const newY = selectedArea.getBoundingClientRect().top;
+        const diffY = originalY - newY;
+        
+        // Instantly offset the selected area back to where it was
+        selectedArea.style.transition = 'none';
+        selectedArea.style.transform = `translateY(${diffY}px)`;
+        selectedArea.getBoundingClientRect(); // force reflow
+        
+        // Smoothly glide up to natural position while cards expand
+        requestAnimationFrame(() => {
+          selectedArea.style.transition = 'transform 1.2s cubic-bezier(0.22, 1, 0.36, 1)';
+          selectedArea.style.transform = 'translateY(0)';
+          expandSpreadCards();
+        });
+      }, 600);
     }
   }
 
@@ -155,11 +160,29 @@ window.ReadingModule = (function () {
   function getSpreadCardSize() {
     const n = session.spread;
     const gap = 22, padding = 48;
-    const maxH   = Math.min(window.innerHeight * 0.58, 540);
-    const usableW = Math.min(window.innerWidth - padding * 2, 1100);
+    
+    // Nới lỏng giới hạn chiều cao tối đa cho tụ ít bài
+    let maxAbsHeight = 540;
+    let maxW = 290;
+    let heightRatio = 0.6;
+    
+    if (n === 1) {
+      maxAbsHeight = 750;
+      maxW = 420;
+      heightRatio = 0.75;
+    } else if (n === 3) {
+      maxAbsHeight = 620;
+      maxW = 340;
+      heightRatio = 0.65;
+    }
+
+    const maxH   = Math.min(window.innerHeight * heightRatio, maxAbsHeight);
+    const usableW = Math.min(window.innerWidth - padding * 2, 1200);
+    
     const wByW   = Math.floor((usableW - (n - 1) * gap) / n);
     const wByH   = Math.floor(maxH / 1.72);
-    const w      = Math.min(wByW, wByH, 290);
+    
+    const w      = Math.min(wByW, wByH, maxW);
     return { w, h: Math.round(w * 1.72) };
   }
 
@@ -168,7 +191,7 @@ window.ReadingModule = (function () {
     const cards = selectedArea.querySelectorAll('.spread-card');
     cards.forEach((c, i) => {
       setTimeout(() => {
-        c.style.transition = 'width 1.4s cubic-bezier(0.22,1,0.36,1), height 1.4s cubic-bezier(0.22,1,0.36,1)';
+        c.style.transition = 'width 1.2s cubic-bezier(0.22,1,0.36,1), height 1.2s cubic-bezier(0.22,1,0.36,1), transform 0.4s var(--ease-out), box-shadow 0.4s var(--ease-out)';
         c.style.width  = w + 'px';
         c.style.height = h + 'px';
       }, i * 150);
