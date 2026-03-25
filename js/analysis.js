@@ -48,7 +48,7 @@ window.AnalysisModule = (function () {
       const isRev = card.isReversed;
       const meaning = isRev ? (card.generalReversed || card.reversed) : (card.generalUpright || card.upright);
       const kws = (isRev ? card.keywordsRev : card.keywords) || [];
-      const aspect = card.aspects?.[theme] || card.aspects?.love || null;
+      const aspect = card.aspects?.[theme] || card.aspects?.general || null;
       let aspectText = aspect ? (isRev ? (aspect.reversed || aspect.rev) : (aspect.upright || aspect.up)) : null;
 
       if (aspectText && meaning) {
@@ -159,7 +159,7 @@ window.AnalysisModule = (function () {
       question: session.question,
       spread: cards.length,
       cards: cards.map((c, i) => {
-        const aspect = c.aspects && c.aspects[session.theme] ? c.aspects[session.theme] : (c.aspects?.love || null);
+        const aspect = c.aspects?.[session.theme] || c.aspects?.general || null;
         const aspect_meaning = aspect ? (c.isReversed ? (aspect.reversed || aspect.rev) : (aspect.upright || aspect.up)) : null;
         return {
           slot_idx: i,
@@ -190,7 +190,18 @@ window.AnalysisModule = (function () {
         body: JSON.stringify(payload),
       });
 
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      if (!res.ok) {
+        if (res.status === 403) {
+          const errData = await res.json().catch(() => ({}));
+          if (errData.message === 'QUOTA_EXCEEDED') {
+            loadEl.style.display = 'none';
+            // Show premium paywall via DailyLimit module
+            if (window.DailyLimit) window.DailyLimit.showBlocked(payload.theme);
+            return; // STOP execution
+          }
+        }
+        throw new Error(`HTTP ${res.status}`);
+      }
       const data = await res.json();
       const md = data.analysis || '';
       

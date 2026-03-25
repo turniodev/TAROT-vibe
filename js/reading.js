@@ -306,7 +306,7 @@ window.ReadingModule = (function () {
     const isRev      = card.isReversed;
     const meaning    = isRev ? (card.generalReversed || card.reversed) : (card.generalUpright || card.upright);
     const keywords   = (isRev ? card.keywordsRev : card.keywords) || [];
-    const aspect     = card.aspects?.[theme] || card.aspects?.love || null;
+    const aspect     = card.aspects?.[theme] || card.aspects?.general || null;
     const aspectText = aspect ? (isRev ? (aspect.reversed || aspect.rev) : (aspect.upright || aspect.up)) : null;
     const themeLabel = TarotHelper.getThemeLabel(theme);
     return `

@@ -43,6 +43,28 @@ if (!$body || empty($body['cards'])) {
     json_error('Invalid payload', 400);
 }
 
+// ── 0.5. Verify User Quota Limits ──────────────────────────────
+$pdo = get_pdo();
+$today = date('Y-m-d');
+$stmt = $pdo->prepare('
+    SELECT u.plan_type, u.plan_expiry_date, 
+           (SELECT COUNT(*) FROM readings r WHERE r.user_id = u.id AND DATE(r.created_at) = ?) as draws_today 
+    FROM users u WHERE u.email = ? LIMIT 1
+');
+$stmt->execute([$today, $user_email]);
+$user_data = $stmt->fetch();
+
+$max_draws = 3; // Miễn phí 3 lần/ngày
+if ($user_data && $user_data['plan_expiry_date'] && strtotime($user_data['plan_expiry_date']) > time()) {
+    if ($user_data['plan_type'] === 'guide') $max_draws = 5;
+    if ($user_data['plan_type'] === 'master') $max_draws = 999999;
+}
+$draws_today = $user_data ? (int)$user_data['draws_today'] : 0;
+
+if ($draws_today >= $max_draws) {
+    json_error('QUOTA_EXCEEDED', 403);
+}
+
 // ── 1. Build Gemini prompt ─────────────────────────────────────
 $prompt = build_prompt($body);
 

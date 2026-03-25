@@ -261,6 +261,13 @@ window.FX = (function () {
       requestAnimationFrame(animateAura);
     }
     requestAnimationFrame(animateAura);
+
+    /* Global Fairy Sparks on Click */
+    document.addEventListener('click', (e) => {
+      // Ignore input fields so typing isn't distracting
+      if (['INPUT', 'TEXTAREA'].includes(e.target.tagName)) return;
+      burst(e.clientX, e.clientY, 10);
+    });
   });
 
   // Also attach after any dynamic renders

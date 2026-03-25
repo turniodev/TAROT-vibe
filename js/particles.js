@@ -2,7 +2,7 @@
 (function () {
   const canvas = document.getElementById('particleCanvas');
   const ctx = canvas.getContext('2d');
-  let W, H, particles = [], stars = [], shootingStars = [];
+  let W, H, particles = [], stars = [], shootingStars = [], fireflies = [];
 
   function resize() {
     W = canvas.width  = window.innerWidth;
@@ -50,6 +50,23 @@
       life: 1.5,                    // longer life
       decay: Math.random() * 0.015 + 0.008,
       width: Math.random() * 1.5 + 1.2
+    });
+  }
+
+  function spawnFirefly() {
+    fireflies.push({
+      x: Math.random() * W,
+      y: H + 10,
+      vx: (Math.random() - 0.5) * 0.4,
+      vy: -Math.random() * 1.2 - 0.3,
+      size: Math.random() * 2.5 + 1.2,
+      life: 0,
+      maxLife: Math.random() * 300 + 200,
+      swayCenter: Math.random() * W,
+      swayPhase: Math.random() * Math.PI * 2,
+      swaySpeed: Math.random() * 0.015 + 0.005,
+      swayAmp: Math.random() * 40 + 15,
+      color: Math.random() > 0.7 ? '201, 168, 76' : '155, 48, 255'
     });
   }
 
@@ -108,15 +125,41 @@
     });
   }
 
+  function drawFireflies(t) {
+    for (let i = fireflies.length - 1; i >= 0; i--) {
+      const f = fireflies[i];
+      f.life++;
+      if (f.life > f.maxLife || f.y < -20) { fireflies.splice(i, 1); continue; }
+      
+      f.x = f.swayCenter + Math.sin(f.life * f.swaySpeed + f.swayPhase) * f.swayAmp;
+      f.swayCenter += f.vx;
+      f.y += f.vy;
+
+      const progress = f.life / f.maxLife;
+      // Parabola opacity (fades in and out)
+      const alpha = Math.sin(progress * Math.PI) * 0.85;
+      
+      ctx.beginPath();
+      ctx.arc(f.x, f.y, f.size, 0, Math.PI * 2);
+      ctx.fillStyle = `rgba(${f.color}, ${alpha})`;
+      ctx.shadowBlur = 12;
+      ctx.shadowColor = `rgba(${f.color}, ${alpha})`;
+      ctx.fill();
+    }
+    ctx.shadowBlur = 0;
+  }
+
   let t = 0;
   function loop() {
     ctx.clearRect(0, 0, W, H);
     t += 0.016;
     drawStars(t);
     if (Math.random() < 0.15) spawnParticle();
-    if (Math.random() < 0.008) spawnShootingStar(); // visible shooting stars
+    if (Math.random() < 0.008) spawnShootingStar();
+    if (Math.random() < 0.02) spawnFirefly(); // ~1 per second
     
     drawParticles();
+    drawFireflies();
     drawShootingStars();
     
     requestAnimationFrame(loop);

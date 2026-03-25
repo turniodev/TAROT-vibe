@@ -7,13 +7,17 @@
     return new Date().toLocaleDateString('sv-SE'); // "YYYY-MM-DD" always
   }
 
+  const FREE_DAILY_LIMIT = 3;
+
   /* ── Load / initialise today's log ────────────────── */
   function loadLog() {
     try {
       const raw = JSON.parse(localStorage.getItem(KEY) || '{}');
-      if (raw.date === today()) return raw.log || {};
+      if (raw.date === today()) {
+        return raw.log || { total: 0 };
+      }
     } catch {}
-    return {};                // new day or corrupt
+    return { total: 0 };
   }
 
   function saveLog(log) {
@@ -23,21 +27,29 @@
   /* ── Record a reading ──────────────────────────────── */
   function record(theme, spread) {
     const log = loadLog();
-    const k   = `${theme}-${spread}`;
-    log[k]    = (log[k] || 0) + 1;
+    log.total = (log.total || 0) + 1;
+    
+    const k = `${theme}-${spread}`;
+    log[k]  = (log[k] || 0) + 1;
     saveLog(log);
   }
 
   /* ── Check limits ──────────────────────────────────── */
-  // Returns: 'ok' | 'blocked' | 'warn'
   function check(theme, spread) {
-    const log   = loadLog();
-    const k     = `${theme}-${spread}`;
-    const count = log[k] || 0;
-    if (spread === 1) {
-      return count >= 1 ? 'blocked' : 'ok';
+    const log = loadLog();
+    
+    // Check global daily limit
+    if ((log.total || 0) >= FREE_DAILY_LIMIT) {
+      return 'blocked';
     }
-    return count >= 1 ? 'warn' : 'ok';
+    
+    // Check if repeating exact same theme+spread
+    const k = `${theme}-${spread}`;
+    if ((log[k] || 0) >= 1) {
+      return 'warn';
+    }
+    
+    return 'ok';
   }
 
   /* ── Time until midnight ───────────────────────────── */
@@ -52,10 +64,9 @@
 
   /* ── Show blocked modal ────────────────────────────── */
   function showBlocked(theme) {
-    const el    = document.getElementById('dlBlockedModal');
-    const label = window.FormModule?.getThemeLabel(theme) || 'Tổng Quát';
-    el.querySelector('.dlb-theme').textContent  = label;
-    el.querySelector('.dlb-time').textContent   = timeUntilMidnight();
+    const el = document.getElementById('dlBlockedModal');
+    const limitEl = el.querySelector('.dlb-limit');
+    if (limitEl) limitEl.textContent = FREE_DAILY_LIMIT;
     el.classList.add('visible');
   }
 

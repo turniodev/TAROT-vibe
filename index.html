@@ -92,7 +92,8 @@
       </button>
       <!-- User avatar badge after login -->
       <div id="userBadge" class="user-badge reveal-item" style="--di:3.5"></div>
-      <p id="btnDictionary" class="landing-hint reveal-item btn-dict" style="--di:4; cursor: pointer; display: inline-flex; align-items: center; justify-content: center; gap: 8px;">
+      <p id="btnDictionary" class="landing-hint reveal-item btn-dict"
+        style="--di:4; cursor: pointer; display: inline-flex; align-items: center; justify-content: center; gap: 8px;">
         <span class="dict-card-fan">
           <img src="cards/back.png" class="fan-card fan-card-1" alt="" />
           <img src="cards/back.png" class="fan-card fan-card-2" alt="" />
@@ -390,7 +391,14 @@
     <div class="analysis-footer">
       <button id="btnShareReading" class="btn-control btn-control--primary">
         Chia Sẻ Kết Quả
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="margin-left: 8px;"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line></svg>
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+          stroke-linecap="round" stroke-linejoin="round" style="margin-left: 8px;">
+          <circle cx="18" cy="5" r="3"></circle>
+          <circle cx="6" cy="12" r="3"></circle>
+          <circle cx="18" cy="19" r="3"></circle>
+          <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line>
+          <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line>
+        </svg>
       </button>
     </div>
     <!-- Floating history button -->
@@ -428,21 +436,45 @@
 
   <!-- ============ DAILY LIMIT — BLOCKED (1-card) ============ -->
   <div id="dlBlockedModal" class="dl-overlay">
-    <div class="dl-panel dl-blocked">
+    <div class="dl-panel dl-blocked" style="max-width: 600px; text-align: center;">
       <div class="dl-sigil">✦</div>
-      <h2 class="dl-title">Năng Lượng Đã Thiết Lập</h2>
-      <p class="dl-body">
-        Vũ trụ đã gửi thông điệp cho chủ đề
-        <strong class="dlb-theme"></strong>
-        của bạn hôm nay.
+      <h2 class="dl-title" style="margin-bottom: 8px;">Giới Hạn Năng Lượng</h2>
+      <p class="dl-body" style="margin-bottom: 24px;">
+        Vũ trụ đã trao cho bạn <strong class="dlb-limit">3</strong> thông điệp miễn phí hôm nay.
+        Bạn cần chuẩn bị lễ vật để mở thêm những chòm sao mới mẻ khác.
       </p>
-      <p class="dl-body">
-        Mỗi cánh cửa chỉ mở một lần mỗi ngày — hãy suy ngẫm
-        thông điệp đó cho đến <strong>23:59</strong>.
-        Còn lại <strong class="dlb-time"></strong>.
-      </p>
-      <p class="dl-hint">Hãy thử một chủ đề khác, hoặc quay lại ngày mai.</p>
-      <button id="dlbBtnClose" class="dl-btn dl-btn--primary">Tôi Hiểu Rồi</button>
+
+      <div class="premium-tiers">
+        <!-- Standard Tier -->
+        <div class="pt-card">
+          <div class="pt-badge">Phổ Biến</div>
+          <h3 class="pt-title">Người Dẫn Đường</h3>
+          <div class="pt-price"><span>29.000đ</span>/tháng</div>
+          <ul class="pt-features">
+            <li>✦ 5 lần trải bài mỗi ngày</li>
+            <li>✦ luận giải chi tiết</li>
+            <li>✦ Trải nghiệm không quảng cáo</li>
+          </ul>
+          <button class="dl-btn dl-btn--primary" style="width:100%; margin-top: 20px;">Đăng Ký</button>
+        </div>
+
+        <!-- Premium Tier -->
+        <div class="pt-card pt-card--gold">
+          <div class="pt-badge pt-badge--gold">Vô Hạn</div>
+          <h3 class="pt-title" style="color: var(--c-gold);">Bậc Thầy Tarot</h3>
+          <div class="pt-price" style="color: var(--c-glow);"><span>109.000đ</span>/tháng</div>
+          <ul class="pt-features">
+            <li>✦ <strong>Không giới hạn</strong> lượt trải bài</li>
+            <li>✦ Luận giải chuyên sâu và kết nối</li>
+            <li>✦ Ưu tiên phản hồi phân tích nhanh</li>
+          </ul>
+          <button class="dl-btn dl-btn--gold" style="width:100%; margin-top: 20px;">Mở Khóa Ngay</button>
+        </div>
+      </div>
+
+      <button id="dlbBtnClose" class="dl-btn"
+        style="border:none; background:transparent; padding:0; font-size: 0.8rem; text-decoration: underline; opacity: 0.6; margin-top: 10px;">Hoặc
+        quay lại vào ngày mai để nhận thông điệp miễn phí.</button>
     </div>
   </div>
 

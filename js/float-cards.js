@@ -86,9 +86,26 @@
     if (card.y > vh + m) card.y = -80;
   }
 
+  let mouseX = window.innerWidth / 2;
+  let mouseY = window.innerHeight / 2;
+  let currentParallaxX = 0;
+  let currentParallaxY = 0;
+
+  document.addEventListener('mousemove', (e) => {
+    mouseX = e.clientX;
+    mouseY = e.clientY;
+  });
+
   let t = 0;
   function animate() {
     t += 0.016;
+
+    // Smooth lerp for parallax
+    const targetPx = (mouseX - window.innerWidth / 2) * 0.08;
+    const targetPy = (mouseY - window.innerHeight / 2) * 0.08;
+    currentParallaxX += (targetPx - currentParallaxX) * 0.05;
+    currentParallaxY += (targetPy - currentParallaxY) * 0.05;
+
     cards.forEach((c, i) => {
       c.x += c.vx + Math.sin(t * c.driftSpeed + c.driftPhase) * c.driftAmp;
       c.y += c.vy + Math.cos(t * c.driftSpeed + c.driftPhase + 1) * c.driftAmp;
@@ -96,7 +113,12 @@
       wrapAround(c);
 
       const opacityPulse = c.opacity + 0.05 * Math.sin(t * 0.5 + i);
-      c.el.style.transform = `translate(${c.x}px, ${c.y}px) rotate(${c.rot}deg) scale(${c.scale})`;
+
+      // Depth perception: cards that are "closer" (larger scale) move more
+      const px = c.x - (currentParallaxX * c.scale * 1.5);
+      const py = c.y - (currentParallaxY * c.scale * 1.5);
+
+      c.el.style.transform = `translate(${px}px, ${py}px) rotate(${c.rot}deg) scale(${c.scale})`;
       c.el.style.opacity = opacityPulse.toFixed(3);
     });
     requestAnimationFrame(animate);
