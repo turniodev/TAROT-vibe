@@ -904,6 +904,34 @@ body {
   transform: translateX(5px);
 }
 
+/* Auto Glow Pulse when ready */
+@keyframes btnAutoGlowPulse {
+  0% { box-shadow: 0 0 15px rgba(200, 121, 255, 0.4); transform: scale(1); }
+  50% { box-shadow: 0 0 35px rgba(200, 121, 255, 1), 0 0 15px rgba(201, 168, 76, 0.6); transform: scale(1.04); }
+  100% { box-shadow: 0 0 15px rgba(200, 121, 255, 0.4); transform: scale(1); }
+}
+
+.btn-begin.auto-glow {
+  animation: btnAutoGlowPulse 2s infinite ease-in-out;
+  border-color: rgba(200, 121, 255, 0.8) !important;
+  z-index: 100;
+}
+
+.btn-begin.auto-glow .btn-begin__aura {
+  opacity: 1;
+  background: radial-gradient(circle, rgba(200, 121, 255, 0.45) 0%, transparent 60%);
+}
+
+.btn-begin.auto-glow .btn-begin__arrow {
+  animation: arrowBounce 0.8s infinite alternate ease-in-out;
+  color: var(--c-gold-pale);
+}
+
+@keyframes arrowBounce {
+  from { transform: translateX(0); }
+  to { transform: translateX(6px); }
+}
+
 .landing-hint {
   font-family: 'EB Garamond', serif;
   font-size: 0.85rem;
@@ -1562,19 +1590,23 @@ body {
   height: 22px;
 }
 
-/* Spread detail description */
-.spread-detail {
-  font-family: 'EB Garamond', serif;
-  font-size: 0.84rem;
-  line-height: 1.6;
-  color: rgba(232, 180, 255, 0.5);
-  font-style: italic;
+/* Spread detail description box */
+.spread-description-box {
+  margin-bottom: 20px;
+  padding: 16px 20px;
+  background: rgba(30, 0, 60, 0.4);
+  border: 1px solid rgba(201, 168, 76, 0.25);
+  border-radius: 12px;
   text-align: center;
-  transition: color 0.3s;
-}
-
-.spread-card-opt input:checked+.spread-card-ui .spread-detail {
-  color: rgba(232, 180, 255, 0.9);
+  font-family: 'EB Garamond', serif;
+  font-size: 1.0rem;
+  line-height: 1.5;
+  color: var(--c-gold-pale);
+  transition: opacity 0.3s var(--ease-out);
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Q-mode tabs */
@@ -4456,8 +4488,9 @@ body {
     font-size: 0.68rem !important;
   }
 
-  .spread-detail {
-    display: none !important;
+  .spread-description-box {
+    font-size: 0.9rem !important;
+    padding: 12px 14px !important;
   }
 
   .spread-mini-cards {

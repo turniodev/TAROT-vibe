@@ -143,9 +143,12 @@
       if (warpFactor < 2.5) warpFactor += 0.06; // Gradual acceleration up to max speed
     }
 
-    stars.forEach(s => {
+    stars.forEach((s, index) => {
       ctx.beginPath();
       if (isWarping) {
+        // Giảm thiểu đến 80% hạt bị hút vào để tránh rối mắt
+        if (index % 5 !== 0) return;
+
         const dx = s.x - W / 2;
         const dy = s.y - H / 2;
         const dist = Math.sqrt(dx * dx + dy * dy) || 1;
@@ -182,9 +185,8 @@
       }
     });
 
-    if (isWarping && Math.random() < 0.8) {
+    if (isWarping && Math.random() < 0.1) {
       spawnShootingStar();
-      if (Math.random() < 0.6) spawnShootingStar();
     }
   }
 
@@ -194,13 +196,20 @@
       p.life -= p.decay;
       if (p.life <= 0) { particles.splice(i, 1); return; }
       ctx.beginPath();
-      ctx.arc(p.x, p.y, p.r * p.life, 0, Math.PI * 2);
+      const r = p.r * p.life;
       const alpha = p.life * 0.7;
-      ctx.fillStyle = `hsla(${p.hue}, 90%, 75%, ${alpha})`;
-      ctx.shadowBlur = 6;
-      ctx.shadowColor = `hsla(${p.hue}, 90%, 75%, ${alpha * 0.5})`;
+
+      // Glow layer (Replaces expensive shadowBlur)
+      ctx.beginPath();
+      ctx.arc(p.x, p.y, r * 3, 0, Math.PI * 2);
+      ctx.fillStyle = `hsla(${p.hue}, 90%, 75%, ${alpha * 0.25})`;
       ctx.fill();
-      ctx.shadowBlur = 0;
+
+      // Core layer
+      ctx.beginPath();
+      ctx.arc(p.x, p.y, r, 0, Math.PI * 2);
+      ctx.fillStyle = `hsla(${p.hue}, 90%, 75%, ${alpha})`;
+      ctx.fill();
     });
   }
 
@@ -221,15 +230,21 @@
       grad.addColorStop(0.2, `rgba(200, 160, 255, ${s.life * 0.8})`);
       grad.addColorStop(1, 'rgba(155, 48, 255, 0)');
       
+      // Glow trail (Replaces expensive shadowBlur)
+      ctx.beginPath();
+      ctx.moveTo(s.x, s.y);
+      ctx.lineTo(endX, endY);
+      ctx.strokeStyle = `rgba(200, 160, 255, ${s.life * 0.3})`;
+      ctx.lineWidth = s.width * 3;
+      ctx.stroke();
+
+      // Core trail
       ctx.beginPath();
       ctx.moveTo(s.x, s.y);
       ctx.lineTo(endX, endY);
       ctx.strokeStyle = grad;
       ctx.lineWidth = s.width;
-      ctx.shadowBlur = 8;
-      ctx.shadowColor = `rgba(255, 255, 255, ${s.life * 0.6})`;
       ctx.stroke();
-      ctx.shadowBlur = 0;
     });
   }
 
@@ -247,14 +262,18 @@
       // Parabola opacity (fades in and out)
       const alpha = Math.sin(progress * Math.PI) * 0.85;
       
+      // Glow layer (Replaces expensive shadowBlur)
+      ctx.beginPath();
+      ctx.arc(f.x, f.y, f.size * 3, 0, Math.PI * 2);
+      ctx.fillStyle = `rgba(${f.color}, ${alpha * 0.25})`;
+      ctx.fill();
+
+      // Core layer
       ctx.beginPath();
       ctx.arc(f.x, f.y, f.size, 0, Math.PI * 2);
       ctx.fillStyle = `rgba(${f.color}, ${alpha})`;
-      ctx.shadowBlur = 12;
-      ctx.shadowColor = `rgba(${f.color}, ${alpha})`;
       ctx.fill();
     }
-    ctx.shadowBlur = 0;
   }
 
   let t = 0;
@@ -282,7 +301,7 @@
     triggerWarp: function(duration = 800) {
       isWarping = true;
       warpFactor = 0;
-      for (let i = 0; i < 15; i++) spawnShootingStar(); // Initial burst
+      for (let i = 0; i < 4; i++) spawnShootingStar(); // Initial burst
       setTimeout(() => {
         isWarping = false;
         warpFactor = 0;

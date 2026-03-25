@@ -848,6 +848,25 @@
     });
   }
 
+  /* ── Spread Selection Logic ────────────────────────── */
+  const spreadRadios = document.querySelectorAll('input[name="spread"]');
+  const spreadDescBox = document.getElementById('spreadDescriptionBox');
+  if (spreadRadios.length && spreadDescBox) {
+    spreadRadios.forEach(r => {
+      r.addEventListener('change', () => {
+        if (r.checked) {
+          spreadDescBox.style.opacity = 0;
+          spreadDescBox.style.transform = 'translateY(4px)';
+          setTimeout(() => {
+            spreadDescBox.innerHTML = r.getAttribute('data-desc') || '';
+            spreadDescBox.style.opacity = 1;
+            spreadDescBox.style.transform = 'translateY(0)';
+          }, 250);
+        }
+      });
+    });
+  }
+
   /* ── Public API ─────────────────────────────────────── */
   window.FormModule = {
     open: openForm,

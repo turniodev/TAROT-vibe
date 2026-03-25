@@ -311,19 +311,19 @@
         </div>
         <div class="spread-options" id="spreadOptions">
           <label class="spread-card-opt">
-            <input type="radio" name="spread" value="1" />
+            <input type="radio" name="spread" value="1"
+              data-desc="<strong>[1 Lá - Năng Lượng Phức Chuyển ]</strong> <br> Đem lại một thông điệp trực diện và rõ ràng nhất. Rất lý tưởng cho mục đích xin lời khuyên định hướng trong ngày, hoặc muốn nhận câu trả lời dứt khoát dạng Có/Không cho một tình huống khẩn cấp, đơn giản." />
             <div class="spread-card-ui">
               <div class="spread-visual spread-vis-1">
                 <div class="mini-card"></div>
               </div>
               <strong>1 Lá</strong>
               <span>Năng lượng ngày hôm nay</span>
-              <p class="spread-detail">Một lá bài duy nhất — thông điệp rõ ràng, tập trung. Lý tưởng khi bạn cần một câu
-                trả lời nhanh hoặc năng lượng của ngày hôm nay.</p>
             </div>
           </label>
           <label class="spread-card-opt">
-            <input type="radio" name="spread" value="3" checked />
+            <input type="radio" name="spread" value="3" checked
+              data-desc="<strong>[3 Lá - Dòng Chảy Thời Gian ]</strong> <br> Bố cục quốc dân cung cấp cái nhìn bao quát về dòng chảy sự việc. Phù hợp nhất khi bạn gặp vướng mắc tâm lý và cần rà soát lại nguồn cơn vấn đề, tình trạng hiện tại, và xu hướng phát triển tiếp theo." />
             <div class="spread-card-ui">
               <div class="spread-visual spread-vis-3">
                 <div class="mini-card"></div>
@@ -332,12 +332,11 @@
               </div>
               <strong>3 Lá</strong>
               <span>Quá khứ – Hiện tại – Tương lai</span>
-              <p class="spread-detail">Khám phá nguồn gốc vấn đề, trạng thái hiện tại và hướng đi phía trước. Phố biến
-                nhất, phù hợp với hầu hết mọi câu hỏi.</p>
             </div>
           </label>
           <label class="spread-card-opt">
-            <input type="radio" name="spread" value="5" />
+            <input type="radio" name="spread" value="5"
+              data-desc="<strong>[5 Lá - Phân Tích Thập Tự ]</strong> <br> Đi sâu mổ xẻ Tình huống, Thách thức, Lời khuyên, Yếu tố ngoại cảnh và Cứu cánh. Dành riêng cho những quyết định liên quan đến công việc khởi nghiệp hoặc tình cảm rối ren, nơi bạn cần nhìn thấu triệt lợi hại." />
             <div class="spread-card-ui">
               <div class="spread-visual spread-vis-5">
                 <div class="mini-card"></div>
@@ -348,12 +347,11 @@
               </div>
               <strong>5 Lá</strong>
               <span>Trải bài thập tự sâu</span>
-              <p class="spread-detail">5 lá: Tình huống • Thách thức • Lời khuyên • Ảnh hưởng bên ngoài • Kết quả. Phân
-                tích toàn diện, dành cho những câu hỏi phức tạp.</p>
             </div>
           </label>
           <label class="spread-card-opt">
-            <input type="radio" name="spread" value="7" />
+            <input type="radio" name="spread" value="7"
+              data-desc="<strong>[7 Lá - Bản Ngã Nội Tâm ]</strong> <br> Đánh giá chi tiết từ tính cách cá nhân, năng lượng tiềm ẩn, vết thương quá khứ cho tới viễn cảnh tương lai. Thích hợp khi bạn đang đứng ở ngã rẽ cuộc đời (chuyển việc dời chỗ) và đắn đo về hướng đi mới." />
             <div class="spread-card-ui">
               <div class="spread-visual spread-vis-7">
                 <div class="mini-card"></div>
@@ -366,12 +364,11 @@
               </div>
               <strong>7 Lá</strong>
               <span>Trải bài Celtic đầy đủ</span>
-              <p class="spread-detail">7 lá: Bạn • Tình huống • Nguyên nhân • Quá khứ • Tương lai • Lời khuyên • Kết
-                quả. Phân tích chi tiết và toàn diện.</p>
             </div>
           </label>
           <label class="spread-card-opt">
-            <input type="radio" name="spread" value="10" />
+            <input type="radio" name="spread" value="10"
+              data-desc="<strong>[10 Lá - Celtic Cross Tối Hậu ]</strong> <br> Bố cục toàn diện bậc nhất của hệ Tarot. Tuyệt vời nhất để giải mã một biến cố cực kỳ phức tạp (ly hôn, khủng hoảng nợ nần), khám phá nguyên nhân gốc rễ, sức mạnh chống đối và định mệnh điểm cuối cùng." />
             <div class="spread-card-ui">
               <div class="spread-visual spread-vis-10">
                 <div class="mini-card"></div>
@@ -387,11 +384,15 @@
               </div>
               <strong>10 Lá</strong>
               <span>Celtic Cross — Hùng hồn nhất</span>
-              <p class="spread-detail">10 lá: Bố cục Celtic Cross hoàn chỉnh — khám phá mọi chiều cạnh của vấn đề từ gốc
-                rễ đến kết quả sau cùng.</p>
             </div>
           </label>
         </div>
+
+        <!-- Spread Description Box -->
+        <div id="spreadDescriptionBox" class="spread-description-box"><strong>[ Tụ 3 Lá - Dòng Chảy Thời Gian ]</strong>
+          <br> Bố cục quốc dân cung cấp cái nhìn bao quát về dòng chảy sự việc. Phù hợp nhất khi bạn gặp vướng mắc tâm
+          lý và cần rà soát lại nguồn cơn vấn đề, tình trạng hiện tại, và xu hướng phát triển tiếp theo.</div>
+
         <div class="step-nav">
           <button class="btn-prev" data-prev="3"><span class="nav-arrow"><svg width="14" height="14" viewBox="0 0 24 24"
                 fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
@@ -416,10 +417,9 @@
     <div id="selectedArea" class="selected-area"></div>
     <div id="deckArea" class="deck-area"></div>
     <div class="reading-controls">
-      <button id="btnFlipAll" class="btn-control hidden">Lật Tất Cả Lá Bài</button>
       <button id="btnGoAnalysis" class="btn-begin btn-begin--analysis hidden">
         <span class="btn-begin__aura"></span><span class="btn-begin__ring"></span>
-        <span class="btn-begin__text">Xem Phân Tích</span>
+        <span class="btn-begin__text">Xem Luận Giải</span>
         <span class="btn-begin__arrow"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
             stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
             <polyline points="9 18 15 12 9 6" />
@@ -580,7 +580,8 @@
         Cam Kết Bảo Mật</h2>
       <p
         style="font-family: 'EB Garamond', serif; color: rgba(232, 180, 255, 0.85); font-size: 1.05rem; line-height: 1.6; margin-bottom: 0;">
-        <strong style="color: var(--c-gold);">Mystery Tarot</strong> cam kết <strong>TUYỆT ĐỐI KHÔNG sử dụng trái phép</strong> thông tin cá nhân của bạn.<br><br>
+        <strong style="color: var(--c-gold);">Mystery Tarot</strong> cam kết <strong>TUYỆT ĐỐI KHÔNG sử dụng trái
+          phép</strong> thông tin cá nhân của bạn.<br><br>
         Họ tên, ngày sinh và giới tính chỉ được sử dụng để tính toán hệ tọa độ chiêm tinh, cung hoàng đạo và thần số học
         nhằm giúp thông điệp Tarot được giải mã cá nhân hóa và chính xác nhất cho riêng bạn.
       </p>

@@ -7,7 +7,6 @@ window.ReadingModule = (function () {
   const instruction = document.getElementById('readingInstruction');
   const userInfo    = document.getElementById('readingUserInfo');
   const questionEl  = document.getElementById('readingQuestion');
-  const btnFlipAll  = document.getElementById('btnFlipAll');
   const btnGoAnalysis = document.getElementById('btnGoAnalysis');
 
   const BACK = 'cards/back.png';
@@ -55,8 +54,8 @@ window.ReadingModule = (function () {
     deckArea.style.pointerEvents = 'all';
     document.getElementById('pageReading')?.classList.remove('deck-hidden');
 
-    btnFlipAll.classList.add('hidden');
     btnGoAnalysis.classList.add('hidden');
+    btnGoAnalysis.classList.remove('auto-glow');
 
     renderDeck();
   }
@@ -131,7 +130,6 @@ window.ReadingModule = (function () {
         document.getElementById('pageReading')?.classList.add('deck-hidden');
         expandSpreadCards();
       }, 750);
-      btnFlipAll.classList.remove('hidden');
     }
   }
 
@@ -483,40 +481,15 @@ window.ReadingModule = (function () {
     setTimeout(() => modal.remove(), 320);
   }
 
-  /* ══════════════════════════════════════════════════
-     FLIP ALL
-  ══════════════════════════════════════════════════ */
-  function flipAll() {
-    const cards = selectedArea.querySelectorAll('.spread-card:not(.flipped)');
-    if (cards.length === 0) return;
-    
-    btnFlipAll.classList.add('hidden');
-    
-    cards.forEach((c, i) => { 
-      setTimeout(() => c.click(), i * 350); 
-    });
-
-    // Wait for all animations to settle + the user's requested 2s delay
-    // Last card clicks at (cards.length - 1) * 350.
-    // flipCard has a 700ms internal delay. 
-    // Total wait before 2s start: ((cards.length-1)*350) + 700.
-    const baseWait = (cards.length - 1) * 350 + 800; 
-    setTimeout(() => {
-      revealCursor = 0; // Start at the first card
-      openMeaningCarousel(revealCursor, true);
-    }, baseWait + 2000);
-  }
-
   function checkAllFlipped() {
     if (flippedCount >= session.spread) {
       instruction.textContent = 'Tất cả lá bài đã lên tiếng. Hãy đọc thông điệp của vũ trụ...';
-      btnFlipAll.classList.add('hidden');
-      setTimeout(() => btnGoAnalysis.classList.remove('hidden'), 300);
+      setTimeout(() => {
+        btnGoAnalysis.classList.remove('hidden');
+        btnGoAnalysis.classList.add('auto-glow');
+      }, 300);
     }
   }
-
-  /* ── Button events ─────────────────────────────── */
-  btnFlipAll.addEventListener('click', flipAll);
 
   /* ── Public API ─────────────────────────────────── */
   return {
