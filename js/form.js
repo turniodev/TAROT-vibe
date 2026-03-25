@@ -95,9 +95,20 @@
     if (window.FX?.modalOpen) window.FX.modalOpen(overlay, panel);
     else overlay.classList.add('visible');
   }
-  function closeForm() {
+  function closeForm(skipRestore = false) {
     if (window.FX?.modalClose) window.FX.modalClose(overlay, panel);
     else overlay.classList.remove('visible');
+
+    // Phục hồi lại trang chủ nếu user đóng form (cancel)
+    if (skipRestore !== true) {
+      const landingCenter = document.querySelector('.landing-center');
+      if (landingCenter) {
+        landingCenter.style.transform = '';
+        landingCenter.style.opacity = '1';
+        landingCenter.style.transition = 'transform 0.6s var(--ease-out), opacity 0.6s';
+        landingCenter.style.pointerEvents = 'all';
+      }
+    }
   }
 
   document.getElementById('btnOpenForm').addEventListener('click', (e) => {
@@ -113,19 +124,9 @@
         landingCenter.style.pointerEvents = 'none';
       }
 
-      // Đợi 1.3s (để sao bay đã mắt) rồi mới mở Popup Form
+      // Đợi 1.1s (để sao bay đã mắt) rồi mới mở Popup Form
       setTimeout(() => {
         openForm();
-
-        // Phục hồi lại class cũ ngầm phía sau (không ảnh hưởng UX)
-        setTimeout(() => {
-          if (landingCenter) {
-            landingCenter.style.transform = '';
-            landingCenter.style.opacity = '1';
-            landingCenter.style.transition = '';
-            landingCenter.style.pointerEvents = 'all';
-          }
-        }, 1000);
       }, 1100);
     } else {
       setTimeout(openForm, 80);
@@ -159,6 +160,9 @@
       { key: 'long_distance', label: 'Yêu Xa', desc: 'Mối tình dị địa' },
       { key: 'jealousy', label: 'Người Thứ Ba / Ghen', desc: 'Nghi ngờ & phản bội' },
       { key: 'self_love', label: 'Yêu Bản Thân', desc: 'Nhìn lại chính mình' },
+      { key: 'friendship', label: 'Tình Bạn / Tri Kỷ', desc: 'Sự thấu hiểu & khăng khít' },
+      { key: 'pregnancy', label: 'Con Cái / Thai Kỳ', desc: 'Kế hoạch gia đình' },
+      { key: 'gossip', label: 'Thị Phi / Đàm Tiếu', desc: 'Lời ra tiếng vào' },
     ],
     career: [
       { key: 'career', label: 'Sự Nghiệp / Công Việc', desc: 'Công việc hiện tại' },
@@ -169,6 +173,8 @@
       { key: 'career_change', label: 'Chuyển Nghề', desc: 'Thay đổi hướng đi' },
       { key: 'freelance', label: 'Freelance / Tự Do', desc: 'Công việc tự do' },
       { key: 'interview', label: 'Phỏng Vấn', desc: 'Kết quả phỏng vấn' },
+      { key: 'legal', label: 'Pháp Lý / Giấy Tờ', desc: 'Hợp đồng & rắc rối' },
+      { key: 'moving', label: 'Chuyển Chỗ / Xuất Ngoại', desc: 'Định cư & nhà cửa' },
     ],
     finance: [
       { key: 'finance', label: 'Tài Chính Tổng Quán', desc: 'Tiền bạc & đầu tư' },
@@ -183,6 +189,7 @@
       { key: 'energy', label: 'Năng Lượng & Chakra', desc: 'Cân bằng năng lượng' },
       { key: 'family', label: 'Gia Đình', desc: 'Các mối quan hệ gia đình' },
       { key: 'diet', label: 'Điều Độ / Chăm Sóc', desc: 'Ăn uống & lối sống' },
+      { key: 'pet', label: 'Thú Cưng', desc: 'Vật nuôi kết nối' },
     ],
     self: [
       { key: 'study', label: 'Học Tập', desc: 'Kết quả & mục tiêu học' },
@@ -193,6 +200,10 @@
       { key: 'decision', label: 'Ra Quyết Định', desc: 'Lựa chọn quan trọng' },
       { key: 'travel', label: 'Du Lịch / Di Chuyển', desc: 'Kế hoạch di chuyển' },
       { key: 'spiritual', label: 'Tâm Linh', desc: 'Giác ngộ & tâm linh' },
+      { key: 'dream', label: 'Giải Mã Giấc Mơ', desc: 'Thông điệp cõi vô thức' },
+      { key: 'past_life', label: 'Tiền Kiếp', desc: 'Nợ nần kiếp trước' },
+      { key: 'karma', label: 'Nghiệp Quả (Karma)', desc: 'Nhân quả tuần hoàn' },
+      { key: 'lost_item', label: 'Tìm Đồ Thất Lạc', desc: 'Manh mối & phương hướng' },
     ],
   };
 

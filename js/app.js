@@ -30,7 +30,7 @@
       if (!proceed) return;
     }
 
-    window.FormModule.close();
+    window.FormModule.close(true);
     
     function executeWarpAndRead() {
       const particles = window.Particles;
@@ -71,7 +71,10 @@
     const focusText = document.getElementById('focusText');
 
     if (focusScreen && focusText) {
-      focusText.innerHTML = `Hãy nghiêm túc và tập trung nghĩ về...<br><br><span style="color:var(--c-gold); font-size:1.4rem; font-style:italic">"${data.question}"</span><br><br><span style="font-size:0.85rem; opacity:0.5; font-family:'EB Garamond',serif">Chấp tâm trong khoảnh khắc, vũ trụ đang lắng nghe...</span>`;
+      const themeLabel = window.TarotHelper?.getThemeLabel(data.theme);
+      const targetText = (data.theme && data.theme !== 'general' && themeLabel) ? themeLabel : data.question;
+
+      focusText.innerHTML = `Hãy nghiêm túc và tập trung nghĩ về...<br><br><span style="color:var(--c-gold); font-size:1.4rem; font-style:italic">"${targetText}"</span><br><br><span style="font-size:0.85rem; opacity:0.5; font-family:'EB Garamond',serif">Chấp tâm trong khoảnh khắc, vũ trụ đang lắng nghe...</span>`;
       focusScreen.classList.add('active');
       setTimeout(() => {
         focusScreen.classList.remove('active');
