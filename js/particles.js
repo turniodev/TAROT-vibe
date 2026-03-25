@@ -2,12 +2,13 @@
 (function () {
   const canvas = document.getElementById('particleCanvas');
   const ctx = canvas.getContext('2d');
-  let W, H, particles = [], stars = [], shootingStars = [], fireflies = [];
+  let W, H, particles = [], stars = [], shootingStars = [], fireflies = [], wisps = [];
 
   function resize() {
     W = canvas.width  = window.innerWidth;
     H = canvas.height = window.innerHeight;
     createStars();
+    createWisps();
   }
 
   function createStars() {
@@ -23,6 +24,45 @@
         phase: Math.random() * Math.PI * 2
       });
     }
+  }
+
+  function createWisps() {
+    wisps = [];
+    const count = Math.max(3, Math.floor(W / 350));
+    for (let i = 0; i < count; i++) {
+      wisps.push({
+        x: Math.random() * W,
+        y: Math.random() * H,
+        r: Math.random() * 300 + 200, 
+        vx: (Math.random() - 0.5) * 0.2,
+        vy: (Math.random() - 0.5) * 0.2,
+        hue: Math.random() > 0.5 ? 275 : 255, 
+        baseAlpha: Math.random() * 0.04 + 0.02,
+        phase: Math.random() * Math.PI * 2,
+        pulseSpeed: Math.random() * 0.01 + 0.005
+      });
+    }
+  }
+
+  function drawWisps(t) {
+    wisps.forEach(w => {
+      w.x += w.vx;
+      w.y += w.vy;
+      if (w.x > W + w.r) w.x = -w.r;
+      if (w.x < -w.r) w.x = W + w.r;
+      if (w.y > H + w.r) w.y = -w.r;
+      if (w.y < -w.r) w.y = H + w.r;
+
+      const alpha = w.baseAlpha + Math.sin(t * w.pulseSpeed + w.phase) * (w.baseAlpha * 0.5);
+      const grad = ctx.createRadialGradient(w.x, w.y, 0, w.x, w.y, w.r);
+      grad.addColorStop(0, `hsla(${w.hue}, 90%, 65%, ${alpha})`);
+      grad.addColorStop(1, `hsla(${w.hue}, 90%, 65%, 0)`);
+      
+      ctx.beginPath();
+      ctx.arc(w.x, w.y, w.r, 0, Math.PI * 2);
+      ctx.fillStyle = grad;
+      ctx.fill();
+    });
   }
 
   function spawnParticle() {
@@ -95,14 +135,57 @@
   });
   // ──────────────────────────────────────────
 
+  let isWarping = false;
+  let warpFactor = 0;
+
   function drawStars(t) {
+    if (isWarping) {
+      if (warpFactor < 2.5) warpFactor += 0.06; // Gradual acceleration up to max speed
+    }
+
     stars.forEach(s => {
-      s.a = 0.4 + 0.5 * Math.sin(t * s.speed + s.phase);
       ctx.beginPath();
-      ctx.arc(s.x, s.y, s.r, 0, Math.PI * 2);
-      ctx.fillStyle = `rgba(200, 160, 255, ${s.a})`;
-      ctx.fill();
+      if (isWarping) {
+        const dx = s.x - W / 2;
+        const dy = s.y - H / 2;
+        const dist = Math.sqrt(dx * dx + dy * dy) || 1;
+        
+        // Push outward
+        const speed = warpFactor * dist * 0.035;
+        s.x += (dx / dist) * speed;
+        s.y += (dy / dist) * speed;
+        s.r += warpFactor * 0.005;
+
+        // Respawn in center if out of bounds (Creates infinite tunnel)
+        if (s.x < -50 || s.x > W + 50 || s.y < -50 || s.y > H + 50) {
+          s.x = W / 2 + (Math.random() - 0.5) * 80;
+          s.y = H / 2 + (Math.random() - 0.5) * 80;
+          s.r = Math.random() * 0.5 + 0.2; // reset size
+        }
+
+        ctx.arc(s.x, s.y, s.r, 0, Math.PI * 2);
+        ctx.fillStyle = `rgba(255, 230, 255, ${0.4 + warpFactor * 0.15})`;
+        ctx.fill();
+
+        // Starlight trail
+        ctx.beginPath();
+        ctx.moveTo(s.x, s.y);
+        ctx.lineTo(s.x - dx * warpFactor * 0.04, s.y - dy * warpFactor * 0.04);
+        ctx.strokeStyle = `rgba(155, 80, 255, ${0.5 + warpFactor * 0.1})`;
+        ctx.lineWidth = s.r * 1.5;
+        ctx.stroke();
+      } else {
+        s.a = 0.4 + 0.5 * Math.sin(t * s.speed + s.phase);
+        ctx.arc(s.x, s.y, s.r, 0, Math.PI * 2);
+        ctx.fillStyle = `rgba(200, 160, 255, ${s.a})`;
+        ctx.fill();
+      }
     });
+
+    if (isWarping && Math.random() < 0.8) {
+      spawnShootingStar();
+      if (Math.random() < 0.6) spawnShootingStar();
+    }
   }
 
   function drawParticles() {
@@ -178,6 +261,7 @@
   function loop() {
     ctx.clearRect(0, 0, W, H);
     t += 0.016;
+    drawWisps(t);
     drawStars(t);
     if (Math.random() < 0.15) spawnParticle();
     if (Math.random() < 0.008) spawnShootingStar();
@@ -193,4 +277,18 @@
   window.addEventListener('resize', resize);
   resize();
   loop();
+
+  window.Particles = {
+    triggerWarp: function(duration = 800) {
+      isWarping = true;
+      warpFactor = 0;
+      for (let i = 0; i < 15; i++) spawnShootingStar(); // Initial burst
+      setTimeout(() => {
+        isWarping = false;
+        warpFactor = 0;
+        createStars(); // Reset stars to random positions after warp
+      }, duration);
+    }
+  };
+
 })();

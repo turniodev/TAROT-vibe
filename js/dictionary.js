@@ -97,7 +97,8 @@
     if (card.aspects && Object.keys(card.aspects).length > 0) {
       const grouped = {};
       Object.keys(card.aspects).forEach(k => {
-        const meta = ASPECT_LABELS[k] || { label: k, group: '✦ Khác' };
+        const meta = ASPECT_LABELS[k];
+        if (!meta) return; // Skip "Khác" and other unmapped properties like "general"
         if (!grouped[meta.group]) grouped[meta.group] = [];
         grouped[meta.group].push({ key: k, label: meta.label, data: card.aspects[k] });
       });
