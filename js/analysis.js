@@ -173,10 +173,7 @@ window.AnalysisModule = (function () {
     const qList = document.getElementById('clarifyQuestions');
     let btnSubmit = document.getElementById('btnSubmitClarify');
 
-    // Nếu load lịch sử hoặc share thì ko làm rõ nữa, call luôn AI (vì lúc play history ko trả lời lại)
-    if (session.isHistoryReplay || window.location.search.includes('share=')) {
-      return fetchGeminiAnalysis(payload, cards, session, labels, themeLabel);
-    }
+    // Đã bỏ check history bypass: nếu history CHƯA CÓ luận giải, vẫn bật popup cho user trả lời.
 
     modal.classList.add('visible');
     loading.style.display = 'block';
@@ -373,11 +370,11 @@ window.AnalysisModule = (function () {
         <div style="text-align:center; padding: 32px 20px;">
           <div style="font-size:2.5rem; margin-bottom:16px;">✦</div>
           <h3 style="font-family:'Cinzel',serif; color:var(--c-gold); font-size:1.1rem; margin-bottom:12px;">
-            Bạn Đã Dùng Hết Lượt Luận Giải Miễn Phí Hôm Nay
+            Bạn Đã Dùng Hết 10 Lượt Luận Giải Miễn Phí Hôm Nay
           </h3>
           <p style="color:var(--c-pale); font-size:0.9rem; line-height:1.7; margin-bottom:24px;">
-            Người dùng chưa đăng nhập được <strong style="color:var(--c-gold)">1 lần luận giải AI miễn phí</strong> mỗi ngày.<br/>
-            Đăng nhập bằng Google để nhận <strong style="color:#a78bfa">3 lần/ngày</strong> hoặc nâng cấp gói để không giới hạn.
+            Hệ thống hiện tại giới hạn <strong style="color:var(--c-gold)">10 lần luận giải AI miễn phí</strong> mỗi ngày cho trải nghiệm thử nghiệm.<br/>
+            Bạn có thể đăng nhập bằng Google hoặc nâng cấp gói để không giới hạn.
           </p>
           <div style="display:flex; gap:12px; justify-content:center; flex-wrap:wrap;">
             <button onclick="document.getElementById('btnGoogleLogin')?.click()"
