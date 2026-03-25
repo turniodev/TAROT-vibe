@@ -525,34 +525,248 @@ window.ClarifyData = {
     "Sợi dây chung điểm giao sở thích nay đã mai một thì liệu có còn đề tài để ngồi lại dốc bầu tâm sự dài dòng trắng đêm thao thức nữa không?",
     "Một mối tình chung xen ngang giữa hai con người có vẻ như đang rạn nứt vì đối phương đã có cảm tình với người kề cận mình có phải không?",
     "Bạn nghĩ cắt đứt một người đồng điệu nhưng lại gây sát thương lớn về sau là giải pháp đau thương ngắn mà thoát đau khổ dài chứ?"
+  ],
+
+  // Bổ sung các mảng câu hỏi chuyên biệt cho những subtheme còn lại thay vì alias
+
+  general: [
+    "Bạn có đang cảm thấy nhịp sống hiện tại đang trôi qua quá nhanh và mất kiểm soát không?",
+    "Có phải sâu thẳm bên trong, bạn đang tìm kiếm một sự thay đổi lớn đánh thức bản ngã?",
+    "Gần đây bạn có hay bỏ qua những sở thích cá nhân vì quá bận rộn mưu sinh không?",
+    "Bạn có cảm giác mình đang sống để làm hài lòng người khác thay vì chính mình?",
+    "Có phải một nỗi sợ vô hình từ tương lai đang cản trở bạn tận hưởng hiện tại?",
+    "Bạn có thường xuyên cảm thấy mệt mỏi mà không tìm ra một lý do thể chất cụ thể?",
+    "Một mối quan hệ bạn bè hoặc người thân dạo này có khiến bạn phải suy nghĩ nhiều?",
+    "Bạn có đang che giấu cảm xúc thật của mình với mọi người xung quanh để giữ hòa khí?",
+    "Gần đây bạn có khao khát một khoảng thời gian yên tĩnh tuyệt đối để nạp lại năng lượng?",
+    "Bạn có tin rằng trực giác của mình dạo này đang trở nên cực kỳ nhạy bén sắc sảo?"
+  ],
+  current_love: [
+    "Bạn có đang cảm thấy tiếng nói của mình không đủ trọng lượng trong mối quan hệ này?",
+    "Có phải đôi khi bạn lo sợ người ấy sẽ rời đi nếu bạn bộc lộ quá nhiều khuyết điểm?",
+    "Bạn và đối phương có còn thường xuyên dành cho nhau những lời khen ngợi nhỏ tươi mới?",
+    "Những cuộc trò chuyện gần đây có mang tính chất thủ tục bề mặt hơn là chiều sâu tâm hồn?",
+    "Bạn có sẵn sàng nhượng bộ trong một vấn đề lớn chỉ để tránh một trận cãi vã kinh hoàng?",
+    "Có phải sợi dây liên kết thân mật (thể xác và tâm hồn) dạo này đang bị buông lỏng?",
+    "Bạn có cảm giác mình đang phải làm mẹ/làm thầy của người yêu thay vì là một người bạn đời?",
+    "Người ấy có thể hiện sự ủng hộ tuyệt đối với những hoài bão sự nghiệp của bạn không?",
+    "Bạn có thường xuyên mơ về một cuộc sống độc thân tự do thay vì gò bó hiện tại?",
+    "Sâu thẳm, bạn có tin rằng người này chính là bến đỗ cuối cùng của đời mình chứ?"
+  ],
+  ambiguous: [
+    "Có phải bạn đang luôn là người chủ động nhắn tin hoặc gợi ý những cuộc hẹn trước?",
+    "Sự im lặng bất thình lình của đối phương có thường xuyên làm bạn bị thao thức mất ngủ?",
+    "Bạn có đang dùng danh nghĩa 'bạn bè' để che lấp đi khát khao sở hữu mãnh liệt không?",
+    "Người ấy có từng có những hành động ân cần vượt mức để rồi lại lạnh nhạt quay đi?",
+    "Bạn có sợ rằng nếu tỏ tình thẳng thắn, bạn sẽ mất cả chì lẫn chài trong mối quan hệ này?",
+    "Có phải một vài người xung quanh cũng đang nhận ra sự mờ ám bất thường của hai người?",
+    "Bạn có linh cảm rằng người này chỉ xem bạn là một phương án dự phòng lúc cô đơn không?",
+    "Sự mập mờ này có đang bào mòn lòng tự tôn và tiêu tốn năng lượng hoạt động của bạn?",
+    "Người ấy có chia sẻ những bí mật cá nhân giấu kín với đa số người khác cho riêng bạn nghe?",
+    "Bạn đã đặt ra một mốc thời gian giới hạn để tự rút lui nếu họ cứ mãi ậm ờ không rõ ràng chưa?"
+  ],
+  future_love: [
+    "Bạn có tự tay phá bỏ những bức tường phòng thủ cũ để thực sự đón nhận người mới chưa?",
+    "Sự mong mỏi có một người bên cạnh lúc này là do bạn cô đơn hay do bạn đã sẵn sàng chia sẻ?",
+    "Bạn có đang vô tình thu hút những người giống hệt khuôn mẫu tổn thương của quá khứ?",
+    "Gần đây bạn có linh cảm mạnh mẽ hoặc hay bắt gặp các con số lặp lại báo hiệu tình duyên tới?",
+    "Bạn có nguyện lòng thay đổi những tật xấu cá nhân để vun vén cho một bến đỗ vững chắc tương lai?",
+    "Có phải tiêu chuẩn về một người bạn đời của bạn đang bị ảnh hưởng quá lớn bởi phim ảnh hoặc mạng xã hội?",
+    "Bạn có đang mở rộng vòng tròn giao tiếp thay vì chỉ giam mình trong căn nhà và công ty?",
+    "Sâu thẳm, bạn có nỗi sợ rằng mình sẽ vĩnh viễn không tìm được người thấu cảm tận cùng tâm can không?",
+    "Việc kết hôn hay lập gia đình có đang là áp lực từ bề trên bủa vây ép nghẹt nhịp sống của bạn?",
+    "Bạn đã thực hành việc yêu thương chính cơ thể mình để tỏa ra từ trường thu hút duyên lành chưa?"
+  ],
+  someone: [
+    "Có phải bạn rất sợ cảm giác họ nhìn thấu được những nhược điểm và sự yếu đuối của mình?",
+    "Những tương tác gần đây giữa cả hai có thường xuyên bị hiểu lầm từ những vỏ bọc tự tôn quá lớn?",
+    "Người đó có biểu hiện ghen tuông ngầm hoặc để ý thái quá khi bạn tiếp xúc với người khác giới?",
+    "Bạn có thường xuyên lướt xem trang cá nhân của họ chỉ để đoán tâm trạng hôm nay ra sao?",
+    "Họ có thường hay mỉm cười hoặc thay đổi dãn cơ mặt mỗi lúc vô tình chạm mắt với bạn?",
+    "Sự quan tâm của người đó dành cho bạn có sự khác biệt rõ nét so với những người xung quanh?",
+    "Bạn có nghĩ rằng họ cũng đang thao thức dò đoán xem bạn thực sự có tình cảm với họ không?",
+    "Giữa hai người có một rào cản lớn vô hình về công việc, địa vị hoặc gia cảnh không?",
+    "Trực giác của bạn có đang mách bảo rằng họ thực sự rất coi trọng và muốn che chở cho bạn?",
+    "Họ đã từng để lộ một vài khoảng khắc mong manh yếu mềm lạ thường chỉ trước mặt bạn chưa?"
+  ],
+  conflict: [
+    "Có phải mâu thuẫn này bắt nguồn từ một chuyện nhỏ giọt nước tràn ly chứ không phải bản chất?",
+    "Bạn có đang dùng sự im lặng tàn nhẫn như một vũ khí để thao túng cảm giác tội lỗi của người kia?",
+    "Đối phương có tỏ thái độ lấn lướt và không bao giờ chịu hạ mình xin lỗi dù biết họ đã đi quá đà?",
+    "Việc đào bới lại lỗi lầm cũ rích có thường xuyên xuất hiện trong các cuộc tranh cãi dạo gần đây?",
+    "Bạn có sợ rằng nếu mình chủ động làm lành trước sẽ bị coi là lép vế và mất đi uy vũ diện mạo?",
+    "Cả hai có đang che đậy sự quan tâm bằng những lời thóa mạ sắc nhọn đâm xuyên tim đối phương?",
+    "Có sự tác động từ lời khuyên của một người ngoài cụ thể nào đó làm mâu thuẫn này sâu sắc thêm không?",
+    "Bạn có ước rằng giá như mình có thể kiểm soát được cơn giận lúc đó thì mọi chuyện đã không tồi tệ thế này?",
+    "Điều bạn mong muốn nhất lúc này chỉ là một cái ôm và từ 'anh/em hiểu' thay vì tranh luận đúng sai?",
+    "Bạn có tin cuộc khủng hoảng này là chất xúc tác cần thiết để mối quan hệ được lột xác trưởng thành không?"
+  ],
+  breakup: [
+    "Quyết định chia tay vừa rồi có được thốt ra trong sự nóng giận bốc đồng không suy tính kỹ càng?",
+    "Có phải bạn vẫn đang ảo tưởng tìm kiếm cái bóng của họ trong tất cả những người mới lướt qua?",
+    "Việc giữ liên lạc dưới danh nghĩa bạn bè có đang làm cái hố sâu đau đớn này không thể khép miệng?",
+    "Bạn có đang cảm nhận được sự trống trải thấu xương khi thói quen hàng ngày vắng đi một nhân ảnh?",
+    "Lý do cốt lõi để dứt áo ra đi là sự chênh lệch to lớn về giá trị sống chứ không phải vì hết yêu phải không?",
+    "Đối phương có để lại cho bạn một bài học đắt giá về việc đừng vứt bỏ cái tôi để lụy tình?",
+    "Bạn có luôn tò mò muốn biết cuộc sống của người ấy hiện tại có đang tồi tệ hơn lúc ở bên bạn không?",
+    "Sự hối tiếc có đang xâm chiếm tâm trí bạn mỗi đêm tĩnh lặng khi âm nhạc buồn bã cất lên?",
+    "Nếu hàn gắn lại, cả hai đã tìm được phương pháp rốt ráo để không dẫm lên vết xe đổ tàn khốc kia chưa?",
+    "Bạn có nghĩ kết thúc dẫu cay đắng này lại chính là ân huệ cứu rỗi tuổi thanh xuân của cả hai?"
+  ],
+  long_distance: [
+    "Sự chênh lệch múi giờ hoặc lịch trình sinh hoạt có đang khiến những cuộc gọi thưa thớt dần?",
+    "Bạn có thường xuyên cảm thấy tủi thân bơ vơ khi thấy các cặp đôi khác âu yếm trên phố?",
+    "Sự ghen tuông vô cớ có phải là liều thuốc độc đang dần giết chết một niềm tin từng rất vững vàng?",
+    "Có phải người ấy bắt đầu giấu giếm về những cuộc hẹn ban đêm hoặc các mối quan hệ đồng nghiệp mới?",
+    "Cả hai đã thống nhất được một thời điểm cụ thể rõ ràng để đoàn tụ dứt điểm trạng thái yêu xa chưa?",
+    "Những tin nhắn dạo gần đây có thường tẻ nhạt theo kiểu thông báo và báo cáo thay vì là kết nối?",
+    "Bạn có sẵn sàng từ bỏ môi trường ổn định hiện tại để bay đến phương trời đó sống cạnh người ấy không?",
+    "Việc tiêu hao quá nhiều dung lượng tình cảm qua màn hình điện thoại có làm bạn bị chai sạn cảm xúc thực tế?",
+    "Bạn có đôi lúc ngã lòng và thấy rung động nhẹ trước một sự quan tâm vật lý ân cần gần ngay trước mắt?",
+    "Người đó có cho bạn đủ cảm giác an tâm vô điều kiện để bạn vững chãi tiếp tục đợi chờ?"
+  ],
+  jealousy: [
+    "Sự xuất hiện của 'trà xanh' có đang quá lộ liễu và thách thức sự giới hạn chịu đựng của bạn?",
+    "Người yêu bạn có đang binh vực hoặc tìm lý lẽ để biện minh cho hành vi ranh giới mờ nhạt với người kia không?",
+    "Bạn có đang dùng cách kiểm tra điện thoại, theo dõi định vị biến bản thân thành một kẻ săn mồi điên loạn?",
+    "Nỗi sợ mất đi một thứ thuộc về mình có đang lấn át cả tình yêu thuần khiết và lòng tự tôn ngạo nghễ của bạn?",
+    "Hành xử của người thứ ba dườn như đang muốn chọc tức để bạn đánh mất sự bình tĩnh rồi mắc bẫy phải không?",
+    "Trong tận tiềm thức, sự ghen tuông này xuất phát từ việc bạn tự thấy mình thua kém đối thủ về mặt nào đó?",
+    "Sự rạn nứt vốn dĩ đã có từ bên trong hai người, người thứ ba chỉ là giọt nước tràn ly làm vỡ òa mọi thứ?",
+    "Nếu phát hiện sự lừa dối thể xác rõ ràng, bạn có một lần quay lưng rũ bỏ không lưu luyến thỏa hiệp?",
+    "Người ấy có ý thức được việc họ hòa giải cho hòa bình nhưng lại đang cắt xén niềm tin cốt tủy của bạn không?",
+    "Cơn sóng ghen tuông này có đem lại một cuộc đối thoại chân thật nhất từ trước đến nay để cả hai phơi bày bộ mặt thật?"
+  ],
+  self_love: [
+    "Bạn có thường xuyên bỏ qua những mong mỏi của cơ thể như nghỉ ngơi để lao đầu vào công danh ảo ảnh?",
+    "Bạn đánh giá sắc vóc của mình trước gương dạo này bằng một đôi mắt đầy chỉ trích khắt khe thay vì xót xa?",
+    "Có phải bạn hay so đo hành trình của mình với sự hào nhoáng của những người bằng tuổi trên bảng xếp hạng xã hội?",
+    "Bạn có bao giờ dám từ chối một lời nhờ vả vô lý để bảo vệ khoảng thời gian thư giãn cuối tuần của bản thân?",
+    "Bạn có đang tự ban phát cho mình cái quyền được thất bại và khóc lóc mà không bị áp lực phải mạnh mẽ lên?",
+    "Việc mua cho chính bản thân một món quà đắt tiền có làm bạn cảm thấy tội lỗi và áy náy khôn nguôi?",
+    "Từ sâu thẳm, bạn có luôn đinh ninh rằng mình phải làm dâu trăm họ để đạt được sự công nhận từ dư luận?",
+    "Bạn đã thiết lập được một thành trì ranh giới cá nhân đủ cứng cáp để không kẻ nào xúc phạm mình chưa?",
+    "Phần tĩnh lặng nội tâm của bạn có thường xuyên hét lớn để kêu cứu nhưng bạn lại dùng tiếng ồn xung quanh để át đi?",
+    "Bạn có coi việc dành một tiếng mỗi ngày tĩnh tâm là xa xỉ phẩm trong một thời gian biểu quá khắc nghiệt?"
+  ],
+  job_search: [
+    "Bạn có đang vô định rải CV khắp mọi nơi mà không hề nghiên cứu kĩ văn hóa doanh nghiệp tổ chức?",
+    "Nỗi tuyệt vọng vì những lần từ chối có đang làm hồ sơ của bạn mất đi sự nhuệ khí sáng chói vốn có?",
+    "Bạn có đang đòi hỏi một mức lương vượt định giá thực tại của thị trường chỉ để thỏa ấn tượng cá nhân?",
+    "Sự e ngại khi phải dùng công nghệ hoặc xu hướng mới trong quy trình tuyển dụng có làm bạn bị tụt hậu?",
+    "Bạn đã biết vận dụng các mối quan hệ network cũ để tìm kiếm một sự tiến cử chất lượng và uy tín chưa?",
+    "Vòng phỏng vấn kỹ thuật hoặc bài test nghiệp vụ có đang là rào cản ám ảnh lớn nhất của bạn lúc này?",
+    "Việc nhận những công việc tạm bợ dưới một bậc có làm bạn giằng xé giữa cái nết sinh tồn và lòng kiêu bạc?",
+    "Bản CV của bạn đã thực sự phản chiếu những đóng góp sâu sắc thay vì chỉ đưa ra danh sách mô tả sáo rỗng?",
+    "Một cơ hội tại địa phương nhỏ có vẻ đang hứa hẹn hơn cuộc bon chen nghẹt thở nơi thị thành trung tâm?",
+    "Trực giác của bạn có dự cảm rằng một chiếc email hồi âm mang tới cơ may đổi vận sẽ xuất hiện ngay trong tháng này?"
+  ],
+  promotion: [
+    "Có phải bạn đã cống hiến âm thầm rất lâu nhưng một đồng nghiệp khác lại luôn được cấp trên tung hô chú ý?",
+    "Bạn có sẵn lòng gánh lấy trách nhiệm của một quản lý với lượng giờ làm thêm gấp đôi mà không ca thán?",
+    "Sếp trực tiếp của bạn có vẻ như đang lo ngại nếu bạn thăng tiến sẽ chèn ép chiếc ghế họ đang ngồi?",
+    "Những quyết sách đột phá của bạn mang về lợi nhuận khổng lổ có bị người khác trơ tráo ăn cắp công lao?",
+    "Bạn đã tự đánh tiếng và đưa ra một yêu cầu thăng chức đàng hoàng hay chỉ ngồi im đợi sự ban phát thần thánh?",
+    "Sự trì hoãn thăng chức này có xuất phát từ chính cái cơ cấu nhân sự đóng băng của công ty hơn là năng lực của bạn?",
+    "Việc làm thân và giao tiếp mềm mỏng (soft skill) trịnh trọng với sếp lớn là thứ bạn vô tình coi nhẹ?",
+    "Chiếc ghế thăng tiến này có kèm theo sự thù địch và chia bè phái khủng khiếp của nhân viên cấp dưới không?",
+    "Bạn có cho rằng việc tăng lương thực tế mới là điều cốt tử chứ cái mác chức danh quản lý cũng chỉ là phù du hư ảo?",
+    "Phải chăng vũ trụ đang chặn hướng thăng tiến này để chuẩn bị lùa bạn sang một tổ chức mới trọng vọng hơn 10 lần?"
+  ],
+  colleague: [
+    "Một người đồng nghiệp có vẻ thân thiện nhưng lại mang cái tâm soi mói hám lợi có đang làm bạn kinh tởm?",
+    "Văn hóa cô lập và bắt nạt chốn công sở (toxic office) tại nơi này có đang bủa vây gặm nhấm tinh thần bạn không?",
+    "Có phải việc phân chia khối lượng công việc đang bất công tột độ, đẩy phần gánh tạ nhọc nhằn về phía bạn?",
+    "Bạn có từng dại dột bộc lộ điểm yếu trong cuộc sống riêng tư với một người đồng nghiệp nay lại thành yếu huyệt?",
+    "Việc buôn chuyện (gossip) trong giờ làm có đang được dung túng khiến những tin đồn thất thiệt lan tràn cực độ?",
+    "Bạn và đồng đội đó có đang theo đuổi những giá trị công việc hoàn toàn lệch pha khiến không thể ăn khớp một nhịp?",
+    "Sự thân mật quá trớn của một đồng nghiệp khác giới có manh nha tạo ra sự khó xử lúng túng cho bạn?",
+    "Có phải sếp đang sử dụng chiến thuật chia để trị để các đồng nghiệp luôn trong thế nghi kỵ không thể liên minh?",
+    "Bạn có dự định thiết lập một bản quy ước lạnh lùng chỉ nói chuyện công việc, cắt đứt tình cảm lằng nhằng ở văn phòng?",
+    "Đôi lúc bạn thấy mình đang rơi vào cái nôi trẻ con đầy hờn dỗi ở nơi công sở thay vì những cái đầu lạnh chuyên nghiệp?"
+  ],
+  career_change: [
+    "Bạn có đang định từ bỏ một thâm niên chuyên môn dày dặn chỉ để rẽ ngang chớp lấy một xu hướng hot của bề nổi?",
+    "Sự chán ngán tột độ đến mức buồn nôn vào mỗi sáng thứ Hai có phải là động cơ mãnh liệt nhất cho cú quay xe này?",
+    "Lưu lượng dự trữ tài chính có cho phép bạn sống lay lắt 1 năm học hỏi làm lính mới ở môi trường trái ngành đầy gai góc?",
+    "Xung đột giữa đam mê thuần nghệ thuật và thứ nghề nghiệp kiếm cơm thực tế trần trụi đang vắt kiệt tâm can bạn?",
+    "Bạn có tin rằng những kỹ năng gốc rễ (phân tích, giao tiếp) từ ngành cũ vẫn sẽ tỏa sáng rực rỡ ở miền đất mới lạ lẫm?",
+    "Ám ảnh thất bại từ tuổi trung niên hoặc lứa tuổi muộn màng có làm chuông báo động tâm lý bạn reo điên cuồng?",
+    "Gia đình và những gánh nặng bảo bọc người thân có đang là tảng đá đeo chân kéo bạn lùi lại khỏi ước mơ bùng cháy?",
+    "Bạn đã đi học thêm một khóa cấp bằng chứng chỉ nào đó một cách âm thầm để lót gạch cho bước đi lịch sử này chưa?",
+    "Vũ trụ có đang liên tục đóng sầm các cánh cửa cũ lại để cưỡng ép bạn phải phá kén bước vào một bầu trời chuyển đổi kỳ vĩ?",
+    "Bạn thà nếm trải chông gai với nụ cười tự tại thỏa mãn mộng tưởng, còn hơn ngồi êm trên cái ghế bọc nhung nhưng ngột ngạt chứ?"
+  ],
+  freelance: [
+    "Sự cô lập xã hội khi chỉ làm việc tại nhà với bốn bức tường góc cửa có làm tính cách bạn càu nhàu nóng nảy đi lên?",
+    "Có phải vấn đề khó khăn nhất là bạn không thể quản trị được kỷ luật tự giác thời gian, dẫn tới thường xuyên lố deadline?",
+    "Thu nhập hình răng cưa (tháng bão tiền, tháng khô hạn) có đang tạo một cơn trầm cảm kéo dài về mặt an toàn cơ bản?",
+    "Bạn có đang để những đối tác lợi dụng sự mềm mỏng mà trả giá bèo bọt hoặc hoãn thanh toán dai dẳng đầy mệt mỏi?",
+    "Làm tự do dường như đang vô hình ăn cắp luôn khoảng thời gian cuối tuần hoặc nghỉ lễ của một cách không thương tiếc?",
+    "Khát khao trở thành một chủ doanh nghiệp solo (solopreneur) thay vì cạo máy cày thuê có đang bùng nổ rạo rực trong bạn?",
+    "Bạn đã có cho mình một gói định vị thương hiệu (personal brand) ấn tượng để tự bán bản thân lấy vị thế tự cao chưa?",
+    "Tận sâu trong nội tâm, bạn có khinh miệt việc luồn cúi chốn văn phòng và chọn tự do dẫu biết cái giá rất lạnh lẽo?",
+    "Lượng khách hàng quen thuộc hiện có đã đủ độ sâu để tạo ra một dòng thu nhập đắp đậy cho các rủi ro sức khỏe không?",
+    "Bạn có thể thề cam kết rằng sẽ coi công việc freelance này như một cuộc chiến sinh tử chứ không phải làm chơi cho vui?"
+  ],
+  investment: [
+    "Sức quyến rũ chết người của một đồ thị thị trường đang tăng điên đão có làm bạn vứt bỏ nguyên tắc thận trọng xương máu?",
+    "Khoản tiền mang đi rót dự án này có phải là vốn tích cóp để phòng thân, chữa bệnh hoặc tiền mượn lãi mẹ đẻ lãi con?",
+    "Bạn có đang ngộ nhận tin đồn từ một hội nhóm phím hàng trên mạng thành chân lý đầu tư và phó mặc mù quáng?",
+    "Danh mục tài sản đang bị tập trung chết dở vào một khía cạnh duy nhất khiến bạn đứng ngồi không yên khi bão tố đến?",
+    "Đôi mắt bạn có vẩn đục vì tham lam, che lấp đi việc định giá thực tế tồi tệ của dự án công nghệ hào nhoáng ngoài kia?",
+    "Thái độ hoảng loạn khi chứng kiến sắc đỏ trên sàn chứng khoán có thể sẽ kích hoạt việc bạn bấm nút bán tống bán tháo cắt máu?",
+    "Bản đồ chiêm tinh của bạn gần đây có báo một luồng hung tinh án ngữ tại phương trời tài phước ngăn chặn việc xuống tiền lớn?",
+    "Đầu tư vào tri thức một chuyên gia cố vấn tài chính vững trãi có nằm trong danh mục ưu tiên trước khi chơi lớn không?",
+    "Bạn nghĩ thế trận đóng băng sắp tới vắt qua mùa thu đông liệu có cho bạn thêm thời gian gom nhóp tài lực chạm đáy rẻ mạt?",
+    "Trở thành một chiến tướng dài hạn ngồi im chờ hoa mai nở, thay vì cứ nhảy nhót lướt sóng có phù hợp với tĩnh tính hiện giờ?"
+  ],
+  savings: [
+    "Khái niệm tiết kiệm đối với bạn chỉ là phần thừa thãi tủn mủn sau khi đã chi tiêu bạt mạng cho mọi khoái lạc đời thường?",
+    "Một biến cố bất thình lình về xe cộ hoặc nhập viện có đang thổi bay chiếc quỹ dụ phòng mỏng manh tựa như sương sớm của bạn?",
+    "Bạn có cảm giác bứt rứt và túng quẫn mỗi lần phải dằn lòng bỏ lợn đất một khoản cố định vì thu nhập đang bị lạm phát gặm mòn?",
+    "Áp lực chu cấp đầm đìa cho người thân có đang biến bạn thành cái máy ATM trút hầu bao sạch bách không còn một cắc nhỏ tích lũy?",
+    "Bạn có tự ngụy biện cho thói quen chi tiêu chữa lành cảm xúc (retail therapy) để mua cả tá món đồ mà sau đó chả ngó ngàng?",
+    "Một cuốn sổ cái điện tử có bị bạn lập ra hùng hổ rồi ném vào góc chết bụi phủ mờ chỉ sau độ 1 tháng hưng phấn ban đầu?",
+    "Nếu lỡ sụp đổ nguồn thu nhập, gia đình bạn có thể gượng gạo chèo chống nổi 6 tháng giông bão với chiếc két tiết kiệm hiện thời?",
+    "Bạn có tính để gửi hưu trí hoặc vàng thỏi thay cho tiền giấy để phòng trừ cơn bão suy thoái tài chính khủng khiếp từ vũ trụ?",
+    "Tích lũy từ từ 3% vào một hũ tự do tài chính có làm bạn kiên nhẫn hơn thay vì ao ước làm giàu xổ số sau một đêm gắt gao?",
+    "Sự bình an nội tại khi biết mình có tiền phòng thân có làm bạn tỏa sáng rạng rỡ dẹp bỏ mọi âu lo trong công việc thường nhật?"
+  ],
+  luck_money: [
+    "Việc bạn lượm được những khoản tiền nhỏ vô cớ hay quà tặng dạo này có phải là vũ trụ đang mỉm cười báo trước đại lộc?",
+    "Bạn có đang cầu nguyện sự may mắn bằng những đồ phong thủy tốn kém nhưng lại quên mất tích phước bằng việc thiện nguyện?",
+    "Khoản tài lộc không lường trước này dường như xuất phát từ hồi đáp của một hành động tử tế vô tư năm xưa bạn từng cấy hạt?",
+    "Sức ì ạch lười biếng phó mặc cuộc sống có đang kìm phong ấn dòng lộc lá đáng ra đã ùa vào ngập hiên nhà bạn?",
+    "Bạn có thường xuyên cảm thấy biết ơn và dẹp tan lòng sân si, nhờ đó tần số thu hút của cải trở nên cực mạnh mẽ?",
+    "Của thiên trả địa, một dòng tiền trôi vào tay theo đường không trong sạch có làm bạn gieo ám khí cho con đường tương lai?",
+    "Tháng tới theo chu kỳ sao Mộc bảo hộ, bạn có sẵn sàng xòe bàn tay đón nhận một cơn mưa hợp đồng và quý nhân hào phóng?",
+    "Dùng tiếng cười hào sảng và ánh mắt bao dung để tiếp đãi nhân sinh có đang thay đổi cả vận cung tài Bạch vốn đìu hiu?",
+    "Việc đòi lại những món nợ dai dẳng từ kẻ xấu có thể đến được hồi kết êm xuôi và bạn nhặt lại được chính đồng mồ hôi của mình?",
+    "Nếu gặp vận may trúng số, bạn đã lập tức có kế hoạch tản mạn phân bổ mà không để nó quay ra cắn phá cuộc sống an ổn không?"
+  ],
+  mental: [
+    "Dòng suy nghĩ tiêu cực tăm tối có giống như một vòng xoáy lốc cứ liên tiếp cuốn bạn vào lúc 2 giờ sáng vắng vẻ?",
+    "Có phải việc gồng mình tỏ ra ổn thỏa mạnh mẽ trên mặt ngoài đang bào mòn nát vụn hệ miễn dịch tâm hồn bên trong bạn?",
+    "Sự mẫn cảm tột mức khiến một tiếng ồn nhẹ hay một lời nói bâng quơ cũng đủ làm bạn căng như dây đàn sắp đứt lìa?",
+    "Bạn có linh cảm cơn kiệt quệ tâm lý (burnout) dạo gần đây là tổng hòa dồn nén của ba năm qua chứ không chỉ một biến cố?",
+    "Tìm kiếm sự tư vấn chuyên gia trị liệu chuyên nghiệp có đang bị rào cản từ định kiến xã hội hoặc sợ hãi bị dán nhãn điên loạn?",
+    "Rời xa cái mạng xã hội lềnh phềnh so sánh đố kỵ có phải là liều oxy khẩn cấp nhất lúc này để bạn thở phần người thực tại?",
+    "Từng có ý định lướt thoáng qua não bộ về việc muốn biến mất hoàn toàn khỏi nhân thế để nhẹ gánh có làm bạn giật mình lạnh óc?",
+    "Tìm lại một thú vui nghệ thuật hồi nhỏ xíu như vẽ vời, nặn đất có khả năng là công tắc diệu kỳ bật lại sự sống trong đôi mắt?",
+    "Tâm bệnh của bạn có đang phản bác dữ dội ra thân thể bằng việc trào ngược dạ dày tồi tệ, thở hổn hển không sâu?",
+    "Bạn có dám mạnh mẽ tuyên bố từ bỏ một môi trường hoặc cá nhân độc hại dù có phải sống nhờ dưới sự chỉ trích gay gắt chứ?"
+  ],
+  dream: [
+    "Dạo gần đây những giấc mộng đuổi bắt mỏi rời chân và thét gào không nên tiếng có ám ảnh bạn ngay cả khi tỉnh dậy lúc bình minh?",
+    "Sự xuất hiện của dòng nước trong giấc chiêm bao có mang lại ấn tượng êm đềm rửa tội hay là thứ nước lụt lội đen kịt nghẹt thở?",
+    "Một người đã khuất thân thiết có thi thoảng lại về gửi gắm vài điềm báo úp mở không rành mạch khiến bạn muốn hỏi Thần rành rẽ?",
+    "Khuôn mặt một kẻ xa lạ trong mơ lại gây sự xuyến xao lưu luyến quyến luyến như thể đó là cố nhân nơi tiền kiếp xa lắc lơ?",
+    "Việc ghi chép lại ngay tắp lự nội dung mơ mộng lúc mới ngái ngủ có phải là thói quen giúp bạn tìm ra mật mã vũ trụ gửi trao?",
+    "Có phải bạn rất sợ chìm vào giấc ngủ vì sự tái lập lặp đi lặp lại của một hiện tượng rùng rợn bị bóng đè giữa màn đêm vô hình?",
+    "Loài động vật hoang dã mãnh thú lởn vởn trong cõi mộng có là đại diện cho phần sức mạnh tiềm ẩn nội tại ngạo nghễ đang thức giấc?",
+    "Sự rơi tự do từ đỉnh tháp dường như phản hồi lại sự vô túng, mất hoàn toàn điểm tựa và sự kiểm soát trong công việc chính ngoài đời?",
+    "Những giấc mộng đẹp như thiên cảnh dạo này có giống hệt như một cánh cổng dịch chuyển tức thời bạn đang học thực tập vô thức?",
+    "Bạn có tin rằng giải mã được chuỗi chiêm bao này sẽ chỉ lối cho bạn tìm được đoạn đường sinh lộ tránh thảm họa ở tương lai vạn nhịp?"
   ]
 };
-
-// Map generated keys to actual SUB_THEMES keys from form.js
-Object.assign(window.ClarifyData, {
-  general: window.ClarifyData.self,
-  current_love: window.ClarifyData.relationship,
-  ambiguous: window.ClarifyData.toxic || window.ClarifyData.crush,
-  future_love: window.ClarifyData.single,
-  someone: window.ClarifyData.crush,
-  conflict: window.ClarifyData.conflict_love,
-  breakup: window.ClarifyData.ex,
-  long_distance: window.ClarifyData.relationship,
-  jealousy: window.ClarifyData.toxic,
-  self_love: window.ClarifyData.healing || window.ClarifyData.self,
-  
-  job_search: window.ClarifyData.interview || window.ClarifyData.job,
-  promotion: window.ClarifyData.job,
-  colleague: window.ClarifyData.conflict_work,
-  career_change: window.ClarifyData.change,
-  freelance: window.ClarifyData.business,
-  
-  investment: window.ClarifyData.invest,
-  savings: window.ClarifyData.cashflow,
-  luck_money: window.ClarifyData.luck,
-  
-  mental: window.ClarifyData.healing,
-  
-  dream: window.ClarifyData.spiritual
-});
-

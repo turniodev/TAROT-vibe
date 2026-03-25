@@ -115,9 +115,9 @@
     // Kích hoạt Fullscreen (F11) để tạo cảm giác nhập vai
     const docEl = document.documentElement;
     if (!document.fullscreenElement && !document.webkitFullscreenElement && !document.msFullscreenElement) {
-      if (docEl.requestFullscreen) docEl.requestFullscreen().catch(()=>{});
-      else if (docEl.webkitRequestFullscreen) docEl.webkitRequestFullscreen().catch(()=>{});
-      else if (docEl.msRequestFullscreen) docEl.msRequestFullscreen().catch(()=>{});
+      if (docEl.requestFullscreen) docEl.requestFullscreen().catch(() => { });
+      else if (docEl.webkitRequestFullscreen) docEl.webkitRequestFullscreen().catch(() => { });
+      else if (docEl.msRequestFullscreen) docEl.msRequestFullscreen().catch(() => { });
     }
 
     window.FX?.ripple(e.currentTarget, e, 'rgba(200,121,255,0.35)');
@@ -900,6 +900,65 @@
       ]
     }],
   };
+
+  // Add more deep, diverse questions to every subtheme
+  const extraQS = {
+    ex: ["Phần tổn thương nào trong tôi vẫn chưa thực sự buông bỏ hình bóng đó?", "Nếu vô tình tình cờ chạm mặt, vũ trụ muốn tôi phản ứng thế nào?", "Họ đang trải qua giai đoạn nhân quả nào sau khi rời xa tôi?"],
+    current_love: ["Hai chúng tôi có đang hỗ trợ nhau phát triển hay kìm hãm lẫn nhau?", "Trong mắt đối phương, điểm quyến rũ nhất của tôi là gì?", "Nỗi sợ vô hình nào đang cản trở chúng tôi tiến thêm một bước tiến cam kết?"],
+    ambiguous: ["Tại sao vũ trụ lại đưa mối quan hệ không tên này vào cuộc đời tôi?", "Tôi đang lừa dối bản thân điều gì khi cứ bám víu lấy người này?", "Làm cách nào để tôi lấy lại quyền tự chủ và giá trị của bản thân?"],
+    crush: ["Nếu tôi bộc lộ tình cảm lúc này, tỷ lệ thành công là bao nhiêu?", "Họ có đang bị tổn thương bởi một mối tình cũ chưa lành không?", "Tôi đang yêu con người thật của họ hay chỉ là hình mẫu do tôi tưởng tượng?"],
+    future_love: ["Tôi cần dọn dẹp năng lượng tiêu cực nào để dọn chỗ cho tình yêu chớm nở?", "Phẩm chất tốt đẹp nào ở tôi đang thu hút một người bạn đời chất lượng?", "Lần chạm trán với người yêu tương lai sẽ mang không khí bất ngờ ra sao?"],
+    someone: ["Họ có cảm thấy ghen tỵ ngầm khi thấy tôi đi cùng người khác không?", "Tôi đang đóng vai trò gì trong quá trình trưởng thành của họ?", "Họ có đang cố tạo ra một vỏ bọc lạnh lùng để bảo vệ trái tim yếu đuối?"],
+    marriage: ["Làm sao để khơi dậy lại ngọn lửa lãng mạn như thuở mới yêu?", "Bài học lớn nhất mà cuộc hôn nhân này đang dạy tôi là gì?", "Cả hai chúng tôi có đang đồng điệu chung một tầm nhìn về 10 năm tới?"],
+    conflict: ["Phần mâu thuẫn này thực chất là để che đậy nỗi đau sâu kín nào?", "Tôi có đang để cái tôi của mình vượt lấp đi sự cảm thông cần thiết?", "Sự hòa giải lúc này có mang lại sự bình yên giả tạo hay giải quyết tận gốc?"],
+    breakup: ["Sự chia ly này đã cứu tôi khỏi những thảm họa tiềm ẩn nào trong tương lai?", "Góc khuất nào của bản thân tôi vừa được bộc lộ sau nỗi đau đổ vỡ?", "Tôi nên bắt đầu quá trình chữa lành từ mảng nào trong tâm hồn?"],
+    long_distance: ["Chướng ngại lớn nhất lúc này là không gian vật lý hay sự lệch pha về tinh thần?", "Chúng tôi có thể làm gì để tạo cảm giác gắn kết dù cách xa nghìn dặm?", "Sự chờ đợi mỏi mòn này liệu có mang lại trái ngọt xứng đáng không?"],
+    jealousy: ["Sự ghen tuông này xuất phát từ linh cảm chính xác hay nỗi bất an từ quá khứ?", "Sự xuất hiện của 'người thứ ba' đang phơi bày lỗ hổng nào của mối quan hệ?", "Tôi lấy lại sự tự tin và rực rỡ của mình bằng cách nào sau chấn thương này?"],
+    self_love: ["Tôi đang khắt khe chà đạp bản thân mình ở khía cạnh nào?", "Đứa trẻ bên trong tôi đang gào thét đòi hỏi sự an ủi ở vấn đề gì?", "Làm cách nào để tôi tha thứ cho những quyết định sai lầm trong quá khứ?"],
+    friendship: ["Tôi có đang cho đi quá nhiều mà nhận lại sự thờ ơ từ người bạn này?", "Lời nói dối vô hại nào đang ăn mòn gốc rễ tin tưởng giữa hai chúng tôi?", "Sự đứt gãy tình bạn này mang lại ánh sáng giải thoát nào cho tôi?"],
+    pregnancy: ["Linh hồn đứa trẻ đến với tôi mang theo nhân duyên tốt lành nào?", "Nỗi sợ hãi nào về việc làm cha mẹ đang làm tôi cạn kiệt năng lượng?", "Sự thay đổi về thể chất này đang muốn nhắc nhở tôi trân quý bản thân ra sao?"],
+    gossip: ["Sự ganh ghét của họ bắt nguồn từ điểm sáng nào mà tôi đang sở hữu?", "Vũ trụ đang dạy tôi bài học gì về việc làm chủ cảm xúc trước miệng đời?", "Tôi nên phản đòn mạnh mẽ hay dùng sự im lặng kiêu hãnh để đáp trả?"],
+    career: ["Lộ trình thăng tiến 5 năm tới của tôi đang sáng rực hay mù mịt?", "Năng khiếu tiềm ẩn nào của tôi chưa được khai mở trong công việc hiện hành?", "Tôi có đang làm việc chỉ vì tiền mà để linh hồn mình trống rỗng?"],
+    job_search: ["Tại sao tôi liên tục bị từ chối dù hồ sơ của tôi rất ổn thỏa?", "Công ty tương lai sẽ mang lại cho tôi văn hóa làm việc độc hại hay lành mạnh?", "Tôi nên tiếp tục theo đuổi đam mê hay chọn một công việc an toàn để sinh tồn?"],
+    promotion: ["Có kẻ ngáng đường nào đang tìm cách cướp công lao thăng tiến của tôi?", "Việc giữ chức vụ cao hơn có đánh đổi bằng sự gắn kết của gia đình tôi không?", "Tôi cần trau dồi kỹ năng lãnh đạo sắc bén nào để ngồi vững trên chiếc ghế đó?"],
+    business: ["Chiến lược hiện tại của dự án này đang đi vào ngõ cụt hay lối mở?", "Đối tác hiện tại có cùng chung dòng chảy đạo đức kinh doanh với tôi không?", "Thời điểm này là lúc nên mở rộng mạnh mẽ hay thu mình phòng thủ bảo toàn vốn?"],
+    colleague: ["Tại sao tôi luôn cảm thấy kiệt sức khi phải làm việc chung với tập thể này?", "Có một sự bất công ngầm nào đang diễn ra mà sếp cố tình làm ngơ không?", "Làm sao để tôi vạch ra ranh giới rạch ròi giữa tình cảm cá nhân và luân lý công việc?"],
+    career_change: ["Sự rẽ ngang này có phải là tiếng gọi của thiên hướng hay chỉ là phút bốc đồng?", "Tôi có đủ sức chịu đựng khó khăn trong 2 năm đầu tiên xây lại từ con số không?", "Ngành nghề mới này có mang lại sự tự do tài chính mà tôi luôn ao ước không?"],
+    freelance: ["Tài năng của tôi có đang bị thị trường đánh giá thấp đi giá trị thực?", "Sự chông chênh vô định ngày qua ngày đang làm tôi bào mòn tinh thần ra sao?", "Tôi có nên xây dựng một thương hiệu cá nhân ngạo nghễ hơn thay vì ẩn mình?"],
+    interview: ["Ấn tượng đầu tiên tôi để lại cho nhà tuyển dụng sẽ mang màu sắc gì?", "Lỗ hổng chết người nào trong buổi phỏng vấn mà tôi cần bọc lót khéo léo?", "Liệu mức lương bổng họ đề nghị có phản ánh đúng năng lực tôi cống hiến không?"],
+    legal: ["Có ẩn khuất nào trong hợp đồng mà bên kia đang cố tình giấu giếm tôi?", "Cán cân công lý đang nghiêng về bên nào trong vụ kiện tụng kéo dài này?", "Việc theo đuổi pháp lý có tiêu hao hố đen tiền bạc hơn mức tôi nhận lại không?"],
+    moving: ["Việc rời đi khỏi quê hương mang lại sự tái sinh hay sự lạc lõng cô độc?", "Năng lượng địa linh phong thủy của ngôi nhà mới sẽ phù trợ dồi dào cho ai?", "Có điều gì dang dở tôi cần giải quyết triệt để trước khi xách vali rời đi?"],
+    finance: ["Lỗ hổng thất thoát tài chính lớn nhất của tôi hiện nay nằm ở đâu?", "Có phải tôi đang mang tâm lý 'sợ thiếu thốn' khiến dòng chảy tiền bạc bị tắc nghẽn?", "Cơ may hoạnh tài bất ngờ nào đang chực chờ rơi xuống tay tôi?"],
+    investment: ["Tài sản hoặc mã cổ phiếu tôi nhắm tới là chiếc phao cứu sinh hay cái bẫy mồi?", "Lòng tham của tôi có đang làm mờ đi các rủi ro pháp lý của dự án này?", "Tôi nên giữ nguyên hiện trạng hay chốt lời cắt lỗ ngay lập tức lúc này?"],
+    debt: ["Khoản nợ này là kết quả của sự xui xẻo hay sự thiếu giáo dục tài chính trầm trọng?", "Làm sao để tôi phá vỡ vòng lặp vay mượn kham khổ đắp đổi qua ngày này?", "Người chủ nợ có ý định dùng khoản vay này để khống chế và thao túng tôi không?"],
+    savings: ["Tôi đang tiết kiệm vì sự an toàn tương lai hay vì nỗi ám ảnh ki bo mù quáng?", "Khoản tiền tích lũy này cuối cùng sẽ được dùng vào mục tiêu rực rỡ nào?", "Có phải tôi đang bỏ lỡ những trải nghiệm tuổi trẻ chỉ vì khắt khe chắt bóp từng đồng?"],
+    luck_money: ["Nguồn lộc này là lộc từ gia tiên âm phù hay từ sự nhạy bén cá nhân trói lấy?", "Tôi có nên chia sẻ bớt sự may mắn này cho người nghèo khó để tích phước sâu dày?", "Vận đỏ này sẽ kéo dài bao lâu trước khi biểu đồ may mắn đi vào nhịp chỉnh?"],
+    health: ["Căn bệnh vặt vãnh lặp lại này đang cảnh báo sự suy sụp của cơ quan nào?", "Tôi có đang dựa dẫm quá nhiều vào thuốc men thay vì sức đề kháng tự nhiên?", "Cơ thể tôi đang biểu tình chống lại thực phẩm hay thói quen cụ thể nào?"],
+    mental: ["Áp lực vô hình nào đang bào mòn hệ thần kinh của tôi từ bên trong?", "Có một tổn thương thuở ấu thơ nào vừa bị kích hoạt lại trong tuần qua không?", "Tôi cần làm gì để trục xuất những đám mây đen tiêu cực vây kín não bộ?"],
+    energy: ["Ai trong vòng tròn giao tiếp đang hút cạn kiệt sinh khí trân quý của tôi?", "Luân xa (Chakra) nào của tôi đang bị tắc nghẽn nghẹt thở cần thông suốt?", "Tôi nên thực hành bộ môn gì để thu hút dương khí và xua đuổi ám khí?"],
+    family: ["Nút thắt thế hệ nào đang ngăn cản sự thấu hiểu giữa tôi và người lớn trong nhà?", "Có một bí mật động trời nào của gia đình đang được che đậy khéo léo?", "Tôi có đang phải gánh vác trách nhiệm của người khác một cách phi lý không?"],
+    diet: ["Sự thèm khát ăn uống mất kiểm soát dạo này là để lấp đầy khoảng trống tình cảm nào?", "Chế độ ăn hiện tại có cung cấp đủ linh khí để trí não tôi sắc bén không?", "Tôi đã sẵn sàng để dẹp bỏ những thói quen tự đầu độc bản thân trước khi quá muộn?"],
+    pet: ["Người bạn nhỏ bé này đang muốn truyền đạt thông điệp chữa lành nào cho tôi?", "Có phải thú cưng đang gánh thay tôi một phần trọc khí xui xẻo trong nhà?", "Mối duyên kỳ ngộ nào đã đưa sinh linh này đến cứu rỗi tôi vượt qua lúc cô đơn?"],
+    study: ["Sự xao nhãng hiện tại là do tôi lười biếng hay do não bộ đang quá tải thông tin?", "Phương pháp tiếp thu hiện tại có thực sự phù hợp với cấu trúc tư duy của tôi không?", "Kết quả kỳ học này sẽ mở ra cánh cửa nào vĩ đại định hình 5 năm tới?"],
+    study_abroad: ["Môi trường văn hóa mới sẽ mang lại cú sốc tâm lý nào mà tôi cần chuẩn bị giáp tâm?", "Tôi có đủ mạnh mẽ vượt qua những đêm đông khóc nghẹn vì tủi thân nơi xứ người?", "Chuyến phiêu lưu này là bước đệm thăng hoa hay sẽ kết thúc bằng sự quay về mỏi mệt?"],
+    self: ["Kẻ thù nguy hiểm nhất đánh gục mọi kế hoạch của tôi lại chính là bản thân tôi?", "Tôi đang khoác lên mình chiếc mặt nạ nào cứng nhắc khiến mọi người khó gần?", "Nếu không còn bị đánh giá bởi tiền bạc, tôi sẽ tự định nghĩa giá trị mình ra sao?"],
+    purpose: ["Tôi sinh ra ở kiếp sống này với bản hợp đồng linh hồn thiêng liêng nào?", "Tài năng nào tôi đang lãng phí nhất chỉ vì sợ không kiếm ra tiền thực dụng?", "Thử thách đau thương hiện tại đóng vai trò gì trong bản đồ thức tỉnh sứ mệnh?"],
+    shadow_self: ["Phần con ác quỷ ích kỷ bên trong tôi đang thèm khát điều gì nhất?", "Tại sao tôi luôn lặp lại một hành vi phá hoại hạnh phúc mỗi khi sắp chạm tới?", "Khi đối diện với bóng tối ghen tuông hẹp hòi của mình, vũ trụ khuyên tôi điều gì?"],
+    decision: ["Nếu tôi chọn phương án rủi ro, kết quả tồi tệ nhất và rực rỡ nhất sẽ là gì?", "Lực cản khiến tôi do dự không dám vung gươm chém đứt rễ là sợ hãi hay tiếc nuối?", "Lựa chọn nào sẽ khiến tôi mỉm cười thanh thản khi nhìn lại ở tuổi 80?"],
+    travel: ["Vùng đất sắp tới ẩn chứa một nhân duyên định mệnh nào đang chờ tôi giải mã?", "Chuyến đi này mang tính chất chạy trốn thực tại hay mở rộng chiều kích tâm hồn?", "Điều xui xẻo lặt vặt nào có thể xảy ra trên đường đi mà tôi cần bình tâm đón nhận?"],
+    spiritual: ["Tín hiệu lặp lại 11:11 hay 333 gần đây mang hàm ý vũ trụ khẩn cấp gì?", "Có một vị thần linh bảo hộ nào đang đứng sát bên che chở cho tôi khỏi hoạn nạn?", "Làm cách nào để tôi khai mở con mắt thứ ba thấu thị mọi lời nói dối ngụy tạo?"],
+    dream: ["Người lạ mặt tôi liên tục gặp trong mơ là một tiền kiếp hay một thông điệp từ linh hồn?", "Tôi đang chạy trốn con quái vật tiềm thức nào trong ngần ấy đêm giật mình tỉnh giấc?", "Giấc mộng thấy sự đổ vỡ là điềm báo đại hung hay chỉ là sự phá tảng cho cái mới ra hoa?"],
+    past_life: ["Ám ảnh sợ hãi vô lý với độ cao, dòng nước hay bóng tối của tôi là cái chết từ kiếp nào?", "Người đang hành hạ tâm lý tôi kiếp này có phải là chủ nợ xương máu tôi nợ kiếp trước?", "Tôi đã từng mang thân phận hiển hách và quyền rũ nào trước khi đầu thai hiện thế?"],
+    karma: ["Tôi có đang trả cái nghiệp xen vào gia đình người khác bằng sự bất hạnh tình duyên lúc này?", "Làm sao để dùng phước đức chắp vá lại cái nghiệp mạn phép sát sinh tôi từng vô tình gieo?", "Hoạn nạn liên hoàn này là sự trừng phạt tàn nhẫn hay là sự thanh lọc nghiệp quả sau cuối?"],
+    lost_item: ["Có bàn tay của kẻ tiểu nhân nào lén lút sắp đặt sự biến mất của vật này không?", "Mất đi vật bảo chứng này, số phận của tôi rẽ sang nhánh may mắn hay bế tắc?", "Vật vô tri kì thực đang thế mạng cho thân xác tôi tránh một kiếp nạn đụng xe đẫm máu?"],
+    general: ["Thông điệp cuối cùng nếu ngày mai không bao giờ đến vũ trụ sẽ nói gì với tôi?", "Điều kỳ diệu nào đang chờ chực phía sau khúc cua tuyệt vọng nhất của tuần này?"]
+  };
+
+  Object.keys(extraQS).forEach(k => {
+    if (PRESET_Q[k] && PRESET_Q[k][0]) {
+      PRESET_Q[k][0].qs.push(...extraQS[k]);
+    }
+  });
 
   function refreshPresetQ() {
     const grid = document.getElementById('presetQGrid');
