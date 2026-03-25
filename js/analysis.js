@@ -123,24 +123,11 @@ window.AnalysisModule = (function () {
           showLoading();
           fetchGeminiAnalysis(cards, session, labels, themeLabel);
         }
-      });
-    } else if (window.AuthModule?.isLoggedIn()) {
-      fetchGeminiAnalysis(cards, session, labels, themeLabel);
-    } else {
-      const loadEl = document.getElementById('aiLoading');
-      if (loadEl) loadEl.innerHTML = `
-        <div class="ai-login-gate">
-          <p>Đăng nhập để nhận luận giải và lưu trữ cá nhân hóa</p>
-          <button class="ai-login-btn" id="btnAiLogin">
-            <svg width="18" height="18" viewBox="0 0 24 24"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l3.66-2.84z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg>
-            Đăng nhập với Google
-          </button>
-        </div>`;
-      document.getElementById('btnAiLogin')?.addEventListener('click', () => {
-        window.AuthModule.requireLogin(user => {
-          fetchGeminiAnalysis(cards, session, labels, themeLabel);
         });
-      });
+    } else {
+      // Tất cả users (kể cả anonymous) đều được gọi AI.
+      // Backend sẽ kiểm tra quota: anonymous=1 lần/ngày, login=3 lần/ngày.
+      fetchGeminiAnalysis(cards, session, labels, themeLabel);
     }
   }
 
@@ -195,9 +182,14 @@ window.AnalysisModule = (function () {
           const errData = await res.json().catch(() => ({}));
           if (errData.message === 'QUOTA_EXCEEDED') {
             loadEl.style.display = 'none';
-            // Show premium paywall via DailyLimit module
-            if (window.DailyLimit) window.DailyLimit.showBlocked(payload.theme);
-            return; // STOP execution
+            if (errData.is_anonymous) {
+              // Anonymous: khuyến khích đăng nhập để được 3 lần/ngày
+              showAnonQuotaModal();
+            } else {
+              // Đã login nhưng hết quota → hiện paywall nâng cấp gói
+              if (window.DailyLimit) window.DailyLimit.showBlocked(payload.theme);
+            }
+            return;
           }
         }
         throw new Error(`HTTP ${res.status}`);
@@ -285,6 +277,46 @@ window.AnalysisModule = (function () {
       });
     }
   });
+
+  /* ── Anonymous quota exhausted → prompt to login ─── */
+  function showAnonQuotaModal() {
+    // Reuse the aiBlock area to show inline message
+    const aiContent = document.getElementById('aiContent');
+    const aiLoading = document.getElementById('aiLoading');
+    if (aiLoading) aiLoading.style.display = 'none';
+    if (aiContent) {
+      aiContent.style.display = 'block';
+      aiContent.innerHTML = `
+        <div style="text-align:center; padding: 32px 20px;">
+          <div style="font-size:2.5rem; margin-bottom:16px;">✦</div>
+          <h3 style="font-family:'Cinzel',serif; color:var(--c-gold); font-size:1.1rem; margin-bottom:12px;">
+            Bạn Đã Dùng Hết Lượt Luận Giải Miễn Phí Hôm Nay
+          </h3>
+          <p style="color:var(--c-pale); font-size:0.9rem; line-height:1.7; margin-bottom:24px;">
+            Người dùng chưa đăng nhập được <strong style="color:var(--c-gold)">1 lần luận giải AI miễn phí</strong> mỗi ngày.<br/>
+            Đăng nhập bằng Google để nhận <strong style="color:#a78bfa">3 lần/ngày</strong> hoặc nâng cấp gói để không giới hạn.
+          </p>
+          <div style="display:flex; gap:12px; justify-content:center; flex-wrap:wrap;">
+            <button onclick="document.getElementById('btnGoogleLogin')?.click()"
+              style="padding:10px 24px; background:linear-gradient(135deg,rgba(107,0,204,0.8),rgba(155,48,255,0.6));
+                     border:1px solid rgba(155,48,255,0.5); border-radius:10px; color:var(--c-gold);
+                     font-family:'Cinzel',serif; font-size:0.85rem; cursor:pointer; letter-spacing:0.08em;">
+              🔮 Đăng Nhập Google
+            </button>
+            <button onclick="window.DailyLimit?.showBlocked()"
+              style="padding:10px 24px; background:rgba(201,168,76,0.1); border:1px solid rgba(201,168,76,0.3);
+                     border-radius:10px; color:var(--c-gold); font-family:'Cinzel',serif;
+                     font-size:0.85rem; cursor:pointer; letter-spacing:0.08em;">
+              ⭐ Nâng Cấp Gói
+            </button>
+          </div>
+          <p style="color:rgba(232,224,255,0.3); font-size:0.75rem; margin-top:20px;">
+            Lượt miễn phí sẽ được reset vào 00:00 mỗi ngày
+          </p>
+        </div>
+      `;
+    }
+  }
 
   return { render };
 })();

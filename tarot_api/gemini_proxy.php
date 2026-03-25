@@ -74,7 +74,12 @@ $stmt = $pdo->prepare('
 $stmt->execute([$today, $user_email]);
 $user_data = $stmt->fetch();
 
-$max_draws = 3; // Free: 3 lần/ngày
+// Anonymous (@tarot.local) => 1 luận giải/ngày
+// Đăng nhập free => 3/ngày
+// Gói trả phí => theo plan
+$is_anonymous = str_ends_with($user_email, '@tarot.local');
+$max_draws = $is_anonymous ? 1 : 3;
+
 if ($user_data && $user_data['plan_expiry_date'] && strtotime($user_data['plan_expiry_date']) > time()) {
     if ($user_data['plan_type'] === 'guide')  $max_draws = 5;
     if ($user_data['plan_type'] === 'master') $max_draws = 999999;
@@ -82,7 +87,15 @@ if ($user_data && $user_data['plan_expiry_date'] && strtotime($user_data['plan_e
 $draws_today = $user_data ? (int)$user_data['draws_today'] : 0;
 
 if ($draws_today >= $max_draws) {
-    json_error('QUOTA_EXCEEDED', 403);
+    // Trả về thêm thông tin để frontend hiện đúng modal
+    http_response_code(403);
+    echo json_encode([
+        'status'      => 'error',
+        'message'     => 'QUOTA_EXCEEDED',
+        'is_anonymous'=> $is_anonymous,
+        'max_draws'   => $max_draws,
+    ], JSON_UNESCAPED_UNICODE);
+    exit;
 }
 
 // ── 1. Build Gemini prompt ─────────────────────────────────────
