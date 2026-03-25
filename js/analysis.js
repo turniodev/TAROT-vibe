@@ -33,6 +33,7 @@ window.AnalysisModule = (function () {
 
     /* ── AI Analysis block FIRST ── */
     const aiBlock = document.createElement('div');
+    aiBlock.id = 'aiBlockBox';
     aiBlock.className = 'overall-box ai-analysis-box';
     aiBlock.innerHTML = `
       <div class="overall-title">
@@ -175,6 +176,9 @@ window.AnalysisModule = (function () {
 
     // Đã bỏ check history bypass: nếu history CHƯA CÓ luận giải, vẫn bật popup cho user trả lời.
 
+    const aiBox = document.getElementById('aiBlockBox');
+    if (aiBox) aiBox.style.display = 'none';
+
     modal.classList.add('visible');
     loading.style.display = 'block';
     qList.style.display = 'none';
@@ -209,31 +213,60 @@ window.AnalysisModule = (function () {
       qList.style.display = 'block';
 
       const answers = [null, null, null];
-      const checkComplete = () => { btnSubmit.disabled = answers.includes(null); };
+      
+      const cq1 = document.getElementById('cq1');
+      const cq2 = document.getElementById('cq2');
+      const cq3 = document.getElementById('cq3');
+      const cb_submit_wrap = btnSubmit.parentNode;
+
+      // Reset to show only Q1 and hide submit button
+      cq1.style.display = 'block';
+      cq2.style.display = 'none';
+      cq3.style.display = 'none';
+      cb_submit_wrap.style.display = 'none';
+
+      const checkCompleteAndNext = (index) => {
+        setTimeout(() => {
+          if (index === 0) {
+            cq1.style.opacity = '0';
+            setTimeout(() => { cq1.style.display = 'none'; cq2.style.display = 'block'; cq2.style.opacity = '1'; }, 300);
+          } else if (index === 1) {
+            cq2.style.opacity = '0';
+            setTimeout(() => { cq2.style.display = 'none'; cq3.style.display = 'block'; cq3.style.opacity = '1'; }, 300);
+          } else if (index === 2) {
+            cq3.style.opacity = '0';
+            setTimeout(() => {
+              modal.classList.remove('visible');
+              payload.clarifications = answers;
+              document.getElementById('aiLoading').innerHTML = `<div class="ai-pulse" style="margin: 0 auto 16px;"></div><span>Đang tập hợp năng lượng vui lòng kiên nhẫn và suy nghĩ về điều bạn mong chờ...</span>`;
+              fetchGeminiAnalysis(payload, cards, session, labels, themeLabel);
+            }, 300);
+          }
+        }, 400); // Wait 400ms after click (to show active state)
+      };
 
       for (let i = 0; i < 3; i++) {
         const item = document.getElementById(`cq${i + 1}`);
-        item.querySelector('.cq-text').textContent = `${i + 1}. ${questions[i]}`;
+        item.style.transition = 'opacity 0.3s ease';
+        if (i > 0) item.style.opacity = '0'; // Only cq1 is opacity 1 at start
+        
+        item.querySelector('.cq-text').innerHTML = `<span style="opacity:0.6; font-size: 0.9em;">Câu ${i + 1}/3:</span><br/>${questions[i]}`;
 
         item.querySelectorAll('.cq-btn').forEach(btn => {
           const newBtn = btn.cloneNode(true);
           newBtn.classList.remove('active');
           btn.parentNode.replaceChild(newBtn, btn);
+          
           newBtn.addEventListener('click', () => {
+             // Prevent multi-click
+            if (answers[i] !== null) return;
             item.querySelectorAll('.cq-btn').forEach(b => b.classList.remove('active'));
             newBtn.classList.add('active');
             answers[i] = { q: questions[i], a: newBtn.dataset.ans };
-            checkComplete();
+            checkCompleteAndNext(i);
           });
         });
       }
-
-      btnSubmit.addEventListener('click', () => {
-        modal.classList.remove('visible');
-        payload.clarifications = answers;
-        document.getElementById('aiLoading').innerHTML = `<div class="ai-pulse" style="margin: 0 auto 16px;"></div><span>Đang tập hợp năng lượng vui lòng kiến nhẫn và suy nghĩ về điều bạn mong chờ...</span>`;
-        fetchGeminiAnalysis(payload, cards, session, labels, themeLabel);
-      });
 
     } catch (e) {
       // Bỏ qua nếu lỗi
@@ -244,6 +277,9 @@ window.AnalysisModule = (function () {
 
   /* ── Call PHP proxy ──────────────────────────────────── */
   async function fetchGeminiAnalysis(payload, cards, session, labels, themeLabel) {
+    const aiBox = document.getElementById('aiBlockBox');
+    if (aiBox) aiBox.style.display = 'block';
+
     const loadEl = document.getElementById('aiLoading');
     const contentEl = document.getElementById('aiContent');
 

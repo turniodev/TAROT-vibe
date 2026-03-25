@@ -6644,45 +6644,57 @@ body {
 }
 
 .cq-item {
-  margin-bottom: 20px;
-  padding: 16px;
-  background: rgba(107, 0, 204, 0.1);
-  border: 1px solid rgba(155, 48, 255, 0.2);
-  border-radius: 12px;
+  margin: 0 auto 30px auto;
+  padding: 36px 32px;
+  background: rgba(22, 14, 38, 0.65);
+  border: 1px solid rgba(201, 168, 76, 0.2);
+  border-radius: 20px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.5), inset 0 0 20px rgba(201, 168, 76, 0.05);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  text-align: center;
 }
 .cq-text {
   font-family: 'EB Garamond', serif;
-  font-size: 1.15rem;
-  color: #fff;
-  margin: 0 0 12px 0;
-  line-height: 1.5;
+  font-size: 1.3rem;
+  color: rgba(255, 255, 255, 0.95);
+  margin: 0 0 32px 0;
+  line-height: 1.6;
 }
 .cq-btns {
   display: flex;
-  gap: 12px;
+  justify-content: center;
+  gap: 20px;
 }
 .cq-btn {
   flex: 1;
-  padding: 10px;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  max-width: 140px;
+  padding: 12px 0;
+  background: transparent;
+  border: 1px solid rgba(201, 168, 76, 0.3);
   border-radius: 50px;
   color: var(--c-gold-pale);
-  font-family: 'Philosopher', serif;
+  font-family: 'Cinzel', serif;
   font-size: 1.05rem;
   cursor: pointer;
-  transition: all 0.2s;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  position: relative;
+  overflow: hidden;
 }
 .cq-btn:hover {
-  background: rgba(255, 255, 255, 0.1);
-  border-color: rgba(255, 255, 255, 0.3);
+  background: rgba(201, 168, 76, 0.1);
+  border-color: rgba(201, 168, 76, 0.6);
+  box-shadow: 0 0 15px rgba(201, 168, 76, 0.2);
+  transform: translateY(-2px);
+  color: var(--c-gold);
 }
 .cq-btn.active {
-  background: rgba(201, 168, 76, 0.15);
+  background: rgba(201, 168, 76, 0.25);
   border-color: var(--c-gold);
-  color: var(--c-gold);
-  box-shadow: 0 0 15px rgba(201, 168, 76, 0.4), inset 0 0 10px rgba(201, 168, 76, 0.2);
+  color: #fff;
+  box-shadow: 0 0 20px rgba(201, 168, 76, 0.4), inset 0 0 10px rgba(201, 168, 76, 0.2);
   text-shadow: 0 0 5px rgba(201, 168, 76, 0.5);
+  transform: scale(0.96);
 }
 
 .dict-group-sub {

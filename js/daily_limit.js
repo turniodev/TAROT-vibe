@@ -7,7 +7,8 @@
     return new Date().toLocaleDateString('sv-SE'); // "YYYY-MM-DD" always
   }
 
-  const FREE_DAILY_LIMIT = 3;
+  const FREE_DAILY_LIMIT = 999999;
+
 
   /* ── Load / initialise today's log ────────────────── */
   function loadLog() {
