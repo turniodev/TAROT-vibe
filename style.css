@@ -1929,6 +1929,7 @@ body {
   -webkit-backface-visibility: hidden;
   overflow: hidden;
   border: 1px solid rgba(155, 48, 255, 0.3);
+  transition: border-color 0.4s, box-shadow 0.4s, filter 0.4s, transform 0.4s;
 }
 
 .card-back {
@@ -2048,12 +2049,18 @@ body {
 }
 
 .tarot-card.spread-card.flipped:hover {
-  transform: translateY(-10px) scale(1.02) !important;
+  transform: translateY(-16px) scale(1.04) !important;
   z-index: 20;
 }
 
+.tarot-card.spread-card.flipped:hover .card-face {
+  border-color: rgba(255, 215, 0, 0.8) !important;
+  box-shadow: 0 0 35px rgba(255, 215, 0, 0.5), inset 0 0 25px rgba(255, 255, 255, 0.15) !important;
+  filter: brightness(1.15) contrast(1.08) drop-shadow(0 0 10px rgba(255,215,0,0.4));
+}
+
 .tarot-card.spread-card.flipped:hover::after {
-  box-shadow: 0 0 40px rgba(200, 168, 76, 0.5), 0 0 80px rgba(155, 48, 255, 0.3) !important;
+  box-shadow: 0 0 50px rgba(255, 215, 0, 0.6), 0 0 100px rgba(155, 48, 255, 0.6) !important;
 }
 
 /* Slot label */
@@ -6361,8 +6368,8 @@ body {
   width: 18px;
   height: auto;
   border-radius: 2px;
-  border: 1px solid rgba(155, 48, 255, 0.5);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
   transform-origin: bottom center;
   transition: transform 0.4s var(--ease-out);
   bottom: 0;

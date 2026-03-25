@@ -31,11 +31,39 @@
     }
 
     window.FormModule.close();
+    
+    const particles = window.Particles;
+    const hasWarp = particles && particles.triggerWarp;
+
+    if (hasWarp) {
+      particles.triggerWarp(1400); // Trigger visual warp
+
+      const landingCenter = document.querySelector('.landing-center');
+      if (landingCenter) {
+        landingCenter.style.transition = 'transform 1.0s cubic-bezier(0.5, 0, 0.5, 1), opacity 0.8s';
+        landingCenter.style.transform = 'scale(1.4) translateY(-30px)';
+        landingCenter.style.opacity = '0';
+        landingCenter.style.pointerEvents = 'none';
+      }
+    }
+
     setTimeout(() => {
       if (window.triggerLightning) window.triggerLightning();
       showPage('reading');
       window.ReadingModule.init(data);
-    }, 300);
+
+      if (hasWarp) {
+        setTimeout(() => {
+          const landingCenter = document.querySelector('.landing-center');
+          if (landingCenter) {
+            landingCenter.style.transform = '';
+            landingCenter.style.opacity = '1';
+            landingCenter.style.transition = '';
+            landingCenter.style.pointerEvents = 'all';
+          }
+        }, 1000);
+      }
+    }, hasWarp ? 1200 : 300);
   });
 
   // ── Go to analysis ─────────────────────────────────
