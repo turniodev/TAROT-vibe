@@ -246,7 +246,7 @@
 
 <script>
 const API = 'https://ka-en.com.vn/tarot_api/admin_api.php';
-let SECRET = '';
+let SECRET = sessionStorage.getItem('tarot_admin_secret') || '';
 let currentView = 'dashboard';
 let currentPage = 1;
 let searchTimer;
@@ -258,20 +258,36 @@ function doLogin() {
   SECRET = s;
   document.getElementById('loginError').textContent = '';
   apiFetch('stats').then(() => {
-    document.getElementById('loginScreen').style.display = 'none';
-    document.getElementById('app').style.display = 'block';
-    loadView('dashboard');
+    sessionStorage.setItem('tarot_admin_secret', SECRET);
+    showApp();
   }).catch(() => {
     document.getElementById('loginError').textContent = '❌ Mật khẩu không đúng!';
     SECRET = '';
+    sessionStorage.removeItem('tarot_admin_secret');
   });
 }
 document.getElementById('secretInput').addEventListener('keydown', e => { if (e.key === 'Enter') doLogin(); });
 
 function logout() {
   SECRET = '';
+  sessionStorage.removeItem('tarot_admin_secret');
   document.getElementById('loginScreen').style.display = 'flex';
   document.getElementById('app').style.display = 'none';
+  document.getElementById('secretInput').value = '';
+}
+
+function showApp() {
+  document.getElementById('loginScreen').style.display = 'none';
+  document.getElementById('app').style.display = 'block';
+  loadView('dashboard');
+}
+
+// Auto-login if secret saved
+if (SECRET) {
+  apiFetch('stats').then(() => showApp()).catch(() => {
+    SECRET = '';
+    sessionStorage.removeItem('tarot_admin_secret');
+  });
 }
 
 // ── API ──────────────────────────────────────────────
