@@ -35,12 +35,32 @@ if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
     json_error('Method not allowed', 405);
 }
 
-// ── Verify Google token ────────────────────────────────────────
-$user_email = verify_google_token();
-
+// ── Identify user (optional Google login) ──────────────────────
 $body = json_decode(file_get_contents('php://input'), true);
 if (!$body || empty($body['cards'])) {
     json_error('Invalid payload', 400);
+}
+
+// Try Google token first; if missing, fall back to anonymous identity
+$user_email = null;
+$auth_header = $_SERVER['HTTP_AUTHORIZATION'] ?? '';
+$id_token = str_starts_with($auth_header, 'Bearer ') ? trim(substr($auth_header, 7)) : '';
+
+if ($id_token) {
+    // Verify Google token
+    $url = 'https://oauth2.googleapis.com/tokeninfo?id_token=' . urlencode($id_token);
+    $res = @file_get_contents($url);
+    $info = $res ? json_decode($res, true) : null;
+    if ($info && !isset($info['error']) && !empty($info['email'])) {
+        $user_email = strtolower(trim($info['email']));
+    }
+}
+
+// Anonymous fallback: use name + dob as synthetic identifier
+if (!$user_email) {
+    $anon_name  = strtolower(trim(preg_replace('/\s+/', '_', $body['name'] ?? 'guest')));
+    $anon_dob   = preg_replace('/[^0-9\-]/', '', $body['dob'] ?? '0000-00-00');
+    $user_email = 'anon_' . $anon_name . '_' . $anon_dob . '@tarot.local';
 }
 
 // ── 0.5. Verify User Quota Limits ──────────────────────────────
@@ -54,9 +74,9 @@ $stmt = $pdo->prepare('
 $stmt->execute([$today, $user_email]);
 $user_data = $stmt->fetch();
 
-$max_draws = 3; // Miễn phí 3 lần/ngày
+$max_draws = 3; // Free: 3 lần/ngày
 if ($user_data && $user_data['plan_expiry_date'] && strtotime($user_data['plan_expiry_date']) > time()) {
-    if ($user_data['plan_type'] === 'guide') $max_draws = 5;
+    if ($user_data['plan_type'] === 'guide')  $max_draws = 5;
     if ($user_data['plan_type'] === 'master') $max_draws = 999999;
 }
 $draws_today = $user_data ? (int)$user_data['draws_today'] : 0;
