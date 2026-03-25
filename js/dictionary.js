@@ -92,15 +92,16 @@
     const cdModal = document.getElementById('cardDetailModal');
     if (!cdContent || !cdModal) return;
 
-    // Astrological info
     const astroData = [];
     if (card.planet) astroData.push(`<span>Hành tinh:</span> ${card.planet}`);
     if (card.zodiac) astroData.push(`<span>Cung:</span> ${card.zodiac}`);
     if (card.element) astroData.push(`<span>Nguyên tố:</span> ${card.element}`);
-    const astroHtml = astroData.length > 0 ? `<div class="cd-astro">${astroData.join(' | ')}</div>` : '';
+    const astroHtml = astroData.length > 0 ? `<div class="cd-astro"><div style="margin-bottom:5px">${astroData.join('</div><div style="margin-bottom:5px">')}</div></div>` : '';
 
-    const keywordsStr = card.keywords ? card.keywords.join(', ') : '';
-    const keywordsRevStr = card.keywordsRev ? card.keywordsRev.join(', ') : '';
+    const kwsUp = card.keywords || [];
+    const kwsRev = card.keywordsRev || [];
+    const keywordsHtml = kwsUp.length ? `<div class="mm-kw-row" style="margin-top:12px">${kwsUp.map(k => `<span class="mm-kw">${k}</span>`).join('')}</div>` : '';
+    const keywordsRevHtml = kwsRev.length ? `<div class="mm-kw-row" style="margin-top:12px">${kwsRev.map(k => `<span class="mm-kw" style="border-color:rgba(220,50,50,0.3); color:#ffcccc; background:rgba(220,50,50,0.15)">${k}</span>`).join('')}</div>` : '';
 
     // ── Render ALL aspects dynamically — accordion style ──
     let aspectsHtml = '';
@@ -166,13 +167,13 @@
           <div class="cd-section">
             <h3 class="cd-sec-title">Ý Nghĩa Xuôi (Upright)</h3>
             <p class="cd-desc">${card.generalUpright || card.upright}</p>
-            ${keywordsStr ? `<div class="cd-kws"><strong>Từ khóa:</strong> ${keywordsStr}</div>` : ''}
+            ${keywordsHtml}
           </div>
           
           <div class="cd-section" style="margin-top: 24px;">
             <h3 class="cd-sec-title">Ý Nghĩa Ngược (Reversed)</h3>
             <p class="cd-desc">${card.generalReversed || card.reversed}</p>
-            ${keywordsRevStr ? `<div class="cd-kws"><strong>Từ khóa:</strong> ${keywordsRevStr}</div>` : ''}
+            ${keywordsRevHtml}
           </div>
           
           ${aspectsHtml}

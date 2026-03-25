@@ -969,6 +969,46 @@ window.TAROT_DB = [
       "general": {
         "upright": "Bức tranh của tạo hóa dang tay đón đợi bạn! Vũ trụ gửi gắm một lời thì thầm: Hãy khởi đầu, hãy bước tới vô định mà chẳng màng sợ hãi. Lăng kính nguyên thủy, đầy tươi mới của Kẻ Ngốc sẽ vén lên bức màn kỳ tích mà bạn hằng tìm kiếm.",
         "reversed": "Bầu trời có thể sáng chói nhưng sát sườn lại là khe sâu không đáy. Sự phớt lờ cảnh báo từ thực tại và chạy theo tiếng vãn lầm lỗi có thể là án tử cho chuyến đi chưa kịp rực rỡ đã tàn úa."
+      },
+      "friendship": {
+        "upright": "Một tình bạn vững chãi như thành trì, nơi sự bảo bọc và lời khuyên sắc bén luôn hiện hữu. Đây là mối giao hảo dựa trên sự tôn trọng, kỷ luật và mục tiêu chung, mang lại cảm giác an toàn và định hướng.",
+        "reversed": "Một tình bạn độc đoán, kiểm soát đến ngột ngạt hoặc thiếu vắng sự ấm áp. Sự cứng nhắc và đòi hỏi quá mức từ một phía đang biến tình thân thành gánh nặng của quyền lực."
+      },
+      "pregnancy": {
+        "upright": "Sự tượng hình của một sinh linh được lên kế hoạch cẩn trọng, mang theo niềm mong mỏi về một gia đình có nền tảng vững chắc. Có thể báo hiệu một người cha mạnh mẽ, đầy trách nhiệm đang chờ đón.",
+        "reversed": "Những áp lực kiểm soát hoặc sự cứng nhắc trong việc thụ thai. Có thể là dấu hiệu của một người cha thiếu vắng hoặc quá độc đoán, gây căng thẳng cho hành trình làm mẹ."
+      },
+      "gossip": {
+        "upright": "Bậc đế vương không bận tâm đến những lời ong tiếng ve tầm thường. Sự điềm tĩnh và thái độ phớt lờ thị phi là lá chắn kiên cố, giữ vững uy tín và quyền lực của bản thân.",
+        "reversed": "Sử dụng lời đồn đại để thao túng, kiểm soát hoặc hạ bệ người khác. Hoặc bạn đang là mục tiêu của những tin đồn độc hại, bị bóp méo hình ảnh bởi sự ghen ghét quyền lực."
+      },
+      "legal": {
+        "upright": "Pháp lý sẽ được giải quyết một cách có trật tự, công bằng dưới sự lãnh đạo của luật pháp. Một phán quyết minh bạch, có lý có tình, mang lại sự ổn định và công lý vững bền.",
+        "reversed": "Những rắc rối pháp lý xuất phát từ sự cứng nhắc, lạm dụng quyền lực hoặc sự thiếu kỷ luật. Cảm giác bị áp bức bởi hệ thống quan liêu hoặc những điều luật hà khắc, lỗi thời."
+      },
+      "moving": {
+        "upright": "Một cuộc di dời được tính toán kỹ lưỡng, hướng tới một nơi chốn ổn định, an toàn và có tiềm năng phát triển. Đây là bước đi vững chắc để xây dựng một nền móng mới cho tương lai.",
+        "reversed": "Sự trì hoãn, cứng nhắc trong việc thay đổi nơi ở hoặc một cuộc chuyển đi đầy hỗn loạn, thiếu tổ chức. Có thể cảm thấy bị kiểm soát bởi hoàn cảnh, không thể tự quyết định chốn an cư."
+      },
+      "pet": {
+        "upright": "Một thú cưng được huấn luyện bài bản, mang lại sự trật tự và trách nhiệm. Có thể là một người bạn bốn chân trung thành, bảo vệ, như một cận vệ của gia đình.",
+        "reversed": "Một thú cưng khó bảo, đòi hỏi sự kiểm soát quá mức hoặc một chủ nhân quá độc đoán, hà khắc trong việc nuôi dưỡng. Sự cứng nhắc trong cách chăm sóc gây ra mâu thuẫn."
+      },
+      "dream": {
+        "upright": "Giấc mơ về quyền lực, lãnh đạo hoặc những cấu trúc vững chắc. Vũ trụ đang mách bảo bạn hãy nắm quyền kiểm soát, thiết lập trật tự và xây dựng nền móng cho cuộc sống.",
+        "reversed": "Ác mộng về sự áp bức, bị kiểm soát hoặc mất đi quyền tự chủ. Giấc mơ phản ánh nỗi sợ hãi mất kiểm soát hoặc sự chống đối ngầm với các thế lực độc đoán."
+      },
+      "past_life": {
+        "upright": "Ở kiếp xưa, bạn từng là một vị vua, người kiến trúc sư vĩ đại hoặc nhà lãnh đạo tài ba, người đã xây dựng nên những đế chế, thiết lập luật lệ và tạo dựng trật tự bền vững.",
+        "reversed": "Tiền kiếp chứng kiến sự lạm dụng quyền lực, sự độc đoán hoặc phải chịu đựng sự áp bức. Bài học về sự công bằng và trách nhiệm từ quá khứ đang vọng về."
+      },
+      "karma": {
+        "upright": "Nghiệp báo đang ban thưởng cho những ai sống có kỷ luật, trách nhiệm và biết cách quản lý, kiến tạo. Sự công bằng và trật tự bạn gieo sẽ mang lại thành quả vững chắc, lâu dài.",
+        "reversed": "Những hậu quả của sự độc đoán, lạm dụng quyền lực hoặc thiếu trách nhiệm đang đến hồi tính sổ. Karma đòi hỏi bạn phải học cách buông bỏ kiểm soát và chấp nhận sự công bằng."
+      },
+      "lost_item": {
+        "upright": "Món đồ thất lạc đang nằm ở một nơi có tổ chức, ngăn nắp, có thể là trong ngăn kéo, tủ hồ sơ hoặc một vị trí cố định mà bạn đã đặt theo thói quen.",
+        "reversed": "Vật bị mất do sự cứng nhắc trong sắp xếp hoặc sự cố chấp không chịu thay đổi cách tìm kiếm. Có thể do sự lộn xộn dưới một lớp vỏ bọc trật tự giả tạo."
       }
     },
     "advice": "Đừng để cảm xúc lấn át lý trí. Hãy thiết lập ranh giới rõ ràng, giữ vững kỷ luật và trở thành người cai trị thông thái nhất cho vương quốc cuộc đời bạn.",
@@ -1165,6 +1205,46 @@ window.TAROT_DB = [
       "general": {
         "upright": "Lá bài Giáo Hoàng xuất hiện cho thấy đây là thời điểm để tìm kiếm sự hướng dẫn, học hỏi từ kinh nghiệm của người khác và tuân thủ những nguyên tắc đã được thiết lập. Bạn sẽ tìm thấy sự bình yên và định hướng trong các cấu trúc truyền thống, giáo dục và tâm linh. Hãy lắng nghe lời khuyên từ những người có uy tín và hành động một cách có trách nhiệm.",
         "reversed": "Lá bài Giáo Hoàng ngược khuyến khích bạn thách thức những quan niệm cũ, phá vỡ các quy tắc lỗi thời và tìm kiếm con đường của riêng mình. Bạn có thể cảm thấy bị gò bó bởi những truyền thống hoặc kỳ vọng xã hội. Đây là lúc để tin vào trực giác, phát triển hệ thống giá trị cá nhân và không ngại đi ngược lại số đông."
+      },
+      "friendship": {
+        "upright": "Một tình bạn thâm giao, gắn kết bởi những giá trị truyền thống, niềm tin vững bền hoặc cùng chung một con đường tâm linh. Người bạn này là một bậc thầy, một người dẫn lối đáng kính.",
+        "reversed": "Một tình bạn bị trói buộc bởi những giáo điều cũ kỹ, sự phán xét hoặc thói đạo đức giả. Mối quan hệ trở nên ngột ngạt khi một bên cố gắng áp đặt niềm tin lên người kia."
+      },
+      "pregnancy": {
+        "upright": "Một thai kỳ được chờ đón trong khuôn khổ truyền thống, được sự chúc phúc của gia đình và cộng đồng. Tìm kiếm lời khuyên từ những người lớn tuổi hoặc các bậc thầy tâm linh để chuẩn bị làm cha mẹ.",
+        "reversed": "Sự phản kháng với những quan niệm truyền thống về việc mang thai hoặc làm cha mẹ. Cảm giác bị phán xét, hoặc bị ràng buộc bởi những định kiến lỗi thời về gia đình."
+      },
+      "gossip": {
+        "upright": "Đứng vững trước thị phi bằng sự chính trực và đạo đức. Lời nói của bạn mang trọng lượng của sự thật, không chấp nhận những tin đồn vô căn cứ hay những lời lẽ độc địa.",
+        "reversed": "Những lời đàm tiếu được sử dụng để duy trì quyền lực, áp đặt đạo đức hoặc bài trừ những người không tuân theo chuẩn mực. Hoặc bạn đang bị phán xét bởi những lời lẽ đầy đạo đức giả."
+      },
+      "legal": {
+        "upright": "Các vấn đề pháp lý sẽ được giải quyết theo luật lệ, quy trình chuẩn mực và sự hướng dẫn của những người có thẩm quyền. Công lý được thực thi dựa trên những nguyên tắc đã được thiết lập.",
+        "reversed": "Những rắc rối pháp lý phát sinh do sự cứng nhắc của luật pháp, sự bảo thủ của hệ thống hoặc việc bạn đi ngược lại với các chuẩn mực xã hội, tôn giáo truyền thống."
+      },
+      "moving": {
+        "upright": "Một cuộc chuyển dời đến nơi chốn mang tính cộng đồng, nơi có những giá trị truyền thống hoặc tâm linh sâu sắc. Nơi an cư mới sẽ mang lại cảm giác thuộc về và sự ổn định về tinh thần.",
+        "reversed": "Sự rời bỏ những gốc rễ truyền thống, hoặc chuyển đến một nơi mà bạn cảm thấy lạc lõng, bị cô lập bởi những quy tắc cứng nhắc. Một cuộc di chuyển gây thách thức niềm tin cá nhân."
+      },
+      "pet": {
+        "upright": "Một thú cưng được nuôi dưỡng theo truyền thống gia đình, có thể là một giống loài mang ý nghĩa đặc biệt hoặc được chăm sóc theo những quy tắc lâu đời. Người bạn đồng hành mang lại sự an ủi tinh thần.",
+        "reversed": "Sự từ chối các phương pháp nuôi dạy thú cưng truyền thống hoặc một thú cưng phá vỡ mọi chuẩn mực. Cảm giác bị ràng buộc bởi trách nhiệm nuôi dưỡng theo định kiến."
+      },
+      "dream": {
+        "upright": "Giấc mơ về sự tìm kiếm tri thức, sự dẫn dắt tâm linh hoặc những lời khuyên từ các bậc thầy. Vũ trụ đang mời gọi bạn khám phá những giá trị truyền thống và ý nghĩa sâu xa của cuộc đời.",
+        "reversed": "Ác mộng về sự áp đặt giáo điều, sự giả tạo của tôn giáo hoặc nỗi sợ hãi bị mắc kẹt trong những niềm tin lỗi thời. Giấc mơ thúc đẩy bạn tìm kiếm chân lý của riêng mình."
+      },
+      "past_life": {
+        "upright": "Ở tiền kiếp, bạn có thể là một giáo sĩ, nhà hiền triết, người truyền bá tri thức hoặc người bảo vệ những giá trị tâm linh, truyền thống thiêng liêng. Linh hồn bạn mang trọng trách dẫn dắt.",
+        "reversed": "Tiền kiếp phải chịu đựng sự áp bức của giáo điều, sự giả dối của niềm tin hoặc đã từng phản kháng mạnh mẽ với các hệ thống truyền thống. Bài học về sự khoan dung và tự do tư tưởng."
+      },
+      "karma": {
+        "upright": "Nghiệp báo đang ban thưởng cho sự chính trực, lòng tin vào những giá trị cao đẹp và tinh thần truyền bá tri thức. Sự dẫn dắt chân thành của bạn sẽ được đền đáp bằng sự kính trọng và uy tín.",
+        "reversed": "Những hậu quả của sự đạo đức giả, giáo điều hoặc việc áp đặt niềm tin lên người khác đang đến hồi tính sổ. Karma buộc bạn phải đối diện với sự thật và học cách chấp nhận sự khác biệt."
+      },
+      "lost_item": {
+        "upright": "Món đồ thất lạc có thể nằm ở một nơi linh thiêng, một thư viện, một nơi thờ cúng hoặc một vị trí gắn liền với truyền thống, học hỏi hay lời khuyên từ người lớn tuổi.",
+        "reversed": "Vật bị mất do sự cố chấp không chịu thay đổi cách tìm kiếm, hoặc bị giấu ở một nơi không theo quy tắc nào, thể hiện sự phản kháng với những gì đã định sẵn."
       }
     },
     "advice": "Đôi khi con đường mòn lại là con đường an toàn nhất. Hãy lắng nghe lời khuyên từ những bậc tiền bối, nhưng đừng đánh mất đi tiếng nói của lương tri.",
@@ -1360,6 +1440,46 @@ window.TAROT_DB = [
       "general": {
         "upright": "Lá The Lovers báo hiệu một thời điểm của những lựa chọn quan trọng, đặc biệt liên quan đến các mối quan hệ và hệ thống giá trị của bạn. Hãy lắng nghe tiếng nói trái tim, đưa ra quyết định dựa trên sự chân thành và những gì bạn thực sự tin tưởng để tìm thấy sự hài hòa và hạnh phúc.",
         "reversed": "Bạn đang đối mặt với sự giằng xé nội tâm, thiếu quyết đoán hoặc bị cám dỗ bởi những lựa chọn không lành mạnh. Có thể có sự bất hòa trong các mối quan hệ hoặc xung đột với giá trị bản thân. Hãy cẩn trọng để không đưa ra những quyết định sai lầm, gây hối tiếc về sau."
+      },
+      "friendship": {
+        "upright": "Một tình bạn sâu sắc, gắn bó như tri kỷ, được xây dựng trên nền tảng của sự thấu hiểu, tôn trọng và những giá trị chung. Đây là một sự lựa chọn định mệnh cho một mối quan hệ chân thành.",
+        "reversed": "Sự rạn nứt, mâu thuẫn hoặc sự lựa chọn khó khăn trong tình bạn. Sự thiếu trung thực, hiểu lầm hoặc sự khác biệt về giá trị đang đẩy hai người ra xa nhau."
+      },
+      "pregnancy": {
+        "upright": "Một thai kỳ đến từ tình yêu chân thành và sự lựa chọn ý thức của cả hai. Sinh linh bé bỏng sẽ mang lại sự hòa hợp và gắn kết mạnh mẽ cho mối quan hệ.",
+        "reversed": "Một quyết định khó khăn liên quan đến việc mang thai, có thể là ngoài ý muốn hoặc gây ra mâu thuẫn sâu sắc trong mối quan hệ. Sự chia rẽ trong tư tưởng về gia đình."
+      },
+      "gossip": {
+        "upright": "Sự lựa chọn nói lên sự thật với lòng trắc ẩn và sự chính trực, không để những lời đồn thổi làm ảnh hưởng đến mối quan hệ. Đứng về phía sự thật và tình yêu thương.",
+        "reversed": "Những lời đàm tiếu gây chia rẽ, hiểu lầm trong tình yêu hoặc tình bạn. Sự thiếu trung thực, ghen tuông có thể là nguồn gốc của những tin đồn độc hại, phá hoại sự hòa hợp."
+      },
+      "legal": {
+        "upright": "Các vấn đề pháp lý liên quan đến hôn nhân, hợp đồng hoặc đối tác sẽ được giải quyết một cách hòa thuận, dựa trên sự đồng thuận và thấu hiểu. Một phán quyết công bằng, mang tính gắn kết.",
+        "reversed": "Những tranh chấp pháp lý xuất phát từ mâu thuẫn tình cảm, ly hôn hoặc sự phá vỡ hợp đồng. Một quyết định pháp lý đầy khó khăn, gây tổn thương sâu sắc đến mối quan hệ."
+      },
+      "moving": {
+        "upright": "Một cuộc chuyển nhà được quyết định bởi tình yêu và sự đồng thuận của cả hai. Nơi chốn mới sẽ là tổ ấm vun đắp tình cảm, mang lại sự hòa hợp và gắn kết sâu sắc.",
+        "reversed": "Sự bất đồng, mâu thuẫn về việc di chuyển hoặc một cuộc chuyển đi gây căng thẳng cho mối quan hệ. Quyết định vội vàng có thể dẫn đến sự chia rẽ và hối tiếc."
+      },
+      "pet": {
+        "upright": "Việc chọn nuôi một thú cưng là sự đồng thuận của cả hai, mang lại niềm vui và sự gắn kết cho gia đình. Một người bạn bốn chân được yêu thương, tạo nên sự hòa hợp.",
+        "reversed": "Những bất đồng trong việc chọn lựa hoặc chăm sóc thú cưng, gây ra mâu thuẫn trong mối quan hệ. Hoặc một quyết định khó khăn liên quan đến sức khỏe của thú cưng."
+      },
+      "dream": {
+        "upright": "Giấc mơ về tình yêu, sự hòa hợp, những lựa chọn quan trọng hoặc sự kết nối sâu sắc với người mình yêu. Vũ trụ đang mách bảo bạn hãy lắng nghe trái tim và đưa ra quyết định chân thật.",
+        "reversed": "Ác mộng về sự chia ly, phản bội, những quyết định sai lầm hoặc sự giằng xé nội tâm. Giấc mơ phản ánh những mâu thuẫn chưa được giải quyết trong tình yêu hoặc cuộc sống."
+      },
+      "past_life": {
+        "upright": "Ở tiền kiếp, bạn từng trải qua những mối tình định mệnh, những sự lựa chọn quan trọng đã định hình số phận. Linh hồn bạn mang theo những bài học về tình yêu và sự gắn kết chân thành.",
+        "reversed": "Tiền kiếp có thể đã trải qua sự phản bội, những mối quan hệ độc hại hoặc những quyết định sai lầm trong tình yêu. Bài học về sự hòa hợp và lựa chọn đúng đắn đang cần được hóa giải."
+      },
+      "karma": {
+        "upright": "Nghiệp báo đang ban thưởng cho những lựa chọn được thực hiện bằng tình yêu, sự chân thành và sự hòa hợp. Những gì bạn gieo bằng trái tim sẽ gặt hái được mối quan hệ bền chặt và hạnh phúc.",
+        "reversed": "Những hậu quả của sự thiếu trung thực, phản bội hoặc những quyết định ích kỷ trong tình yêu đang đến hồi tính sổ. Karma buộc bạn phải đối mặt với sự chia rẽ và học cách yêu thương thật lòng."
+      },
+      "lost_item": {
+        "upright": "Món đồ thất lạc có thể nằm ở một nơi gắn liền với tình yêu, kỷ niệm chung của hai người, hoặc ở nơi bạn thường đưa ra những quyết định quan trọng.",
+        "reversed": "Vật bị mất do sự bất đồng, mâu thuẫn hoặc sự thiếu tập trung trong một mối quan hệ. Có thể là một món quà bị lãng quên hoặc thất lạc trong lúc giận dỗi."
       }
     },
     "advice": "Dù đứng trước bất kỳ ngã rẽ nào, hãy để trái tim thuần khiết và sự trung thực tuyệt đối dẫn lối cho bạn.",
@@ -2146,6 +2266,46 @@ window.TAROT_DB = [
       "general": {
         "upright": "Một sự thay đổi lớn và tích cực đang đến, một bước ngoặt quan trọng trong cuộc đời bạn. Vận may đang mỉm cười, số phận đang dần hé lộ những điều tốt đẹp và chu kỳ mới đang bắt đầu.",
         "reversed": "Sự kháng cự đối với thay đổi, vận rủi hoặc cảm giác bị mắc kẹt trong một tình huống khó khăn. Các chu kỳ tiêu cực lặp lại hoặc các trở ngại bất ngờ đang cản trở sự tiến bộ của bạn."
+      },
+      "friendship": {
+        "upright": "Một vòng xoay nhân duyên đang chuyển động, mang đến những kết nối định mệnh hoặc một sự thay đổi diệu kỳ trong vòng tròn bạn bè. Những mối thâm giao xuất hiện đúng lúc, như lời thì thầm của số phận, mở ra chương mới đầy bất ngờ.",
+        "reversed": "Những mối giao tình đang chìm trong vòng lặp của sự xui rủi hoặc những bất đồng đến từ duyên nghiệp. Dù có cố gắng xoay chuyển, một vài kết nối vẫn bị cuốn đi bởi dòng chảy nghiệt ngã của thời gian, báo hiệu sự kết thúc không mong muốn."
+      },
+      "pregnancy": {
+        "upright": "Vận mệnh đang gõ cửa báo tin hỷ, một sinh linh định mệnh chuẩn bị hạ phàm, hoặc một bước ngoặt may mắn trong hành trình tìm con. Đây là thời điểm vạn sự hanh thông, đón chào một khởi đầu mới đầy ắp phước lành.",
+        "reversed": "Sự chậm trễ hoặc những trở ngại bất ngờ đang cản lối mong ước thiêng liêng. Đừng nản lòng, bởi đôi khi vòng xoay của số phận thử thách lòng kiên nhẫn, nhưng cũng có thể là dấu hiệu cần xem xét lại thời điểm và kế hoạch."
+      },
+      "gossip": {
+        "upright": "Những lời đồn đại đang lan truyền như một phần của dòng chảy định mệnh, có thể mang đến một sự thay đổi bất ngờ trong cách nhìn nhận của người khác. Hãy đón nhận nó như một phần của cuộc chơi số phận.",
+        "reversed": "Thị phi bỗng chốc xoay chiều, đẩy bạn vào vòng xoáy của những tin đồn sai lệch, khó kiểm soát. Cảm giác bị mắc kẹt trong những lời ra tiếng vào không mong muốn, như một trò đùa nghiệt ngã của số phận."
+      },
+      "legal": {
+        "upright": "Một bước ngoặt may mắn đang đến gần trong các vấn đề pháp lý. Vòng xoay công lý đang vận hành, mang lại kết quả thuận lợi hoặc một giải pháp bất ngờ cho những rắc rối dai dẳng.",
+        "reversed": "Những vấn đề pháp lý đang rơi vào bế tắc hoặc gặp phải những rủi ro không lường trước. Cảm giác bị mắc kẹt trong vòng lặp thủ tục, như thể số phận đang thử thách sự kiên nhẫn và niềm tin của bạn."
+      },
+      "moving": {
+        "upright": "Một cuộc dịch chuyển định mệnh đang vẫy gọi, mang đến cơ hội vàng để thay đổi không gian sống. Đây là một bước ngoặt quan trọng, mở ra một chương mới đầy hứa hẹn ở một vùng đất lạ.",
+        "reversed": "Những kế hoạch dời đổi đang gặp phải chướng ngại bất ngờ hoặc bị trì hoãn. Cảm giác bị ràng buộc, không thể thoát khỏi nơi chốn hiện tại, như thể bánh xe số phận đang quay ngược."
+      },
+      "pet": {
+        "upright": "Một người bạn bốn chân định mệnh sắp bước vào cuộc đời bạn, mang theo những thay đổi bất ngờ và niềm vui vỡ òa. Đây là một mối liên kết đặc biệt, được sắp đặt bởi vũ trụ.",
+        "reversed": "Những rắc rối hoặc sự cố bất ngờ liên quan đến thú cưng, như một vòng xoay xui rủi khó lường. Cần cẩn trọng và chú ý hơn đến sức khỏe cũng như môi trường sống của chúng."
+      },
+      "dream": {
+        "upright": "Những giấc mơ tiên tri đang hé lộ những bước ngoặt quan trọng trong cuộc đời, như những thông điệp từ vũ trụ. Hãy lắng nghe trực giác, vì chúng đang dẫn lối bạn đến với định mệnh.",
+        "reversed": "Ác mộng về sự mất kiểm soát hoặc những vòng lặp vô tận phản ánh nỗi lo sợ về số phận. Giấc mơ báo hiệu cần thay đổi góc nhìn, thoát khỏi chu kỳ tiêu cực để không bị cuốn vào vòng xoáy bất lợi."
+      },
+      "past_life": {
+        "upright": "Sợi dây định mệnh từ kiếp trước đang tác động mạnh mẽ đến hiện tại, giải thích những mối duyên kỳ lạ và những sự kiện trùng hợp. Bạn đang sống lại một phần của câu chuyện đã định.",
+        "reversed": "Những gánh nặng nghiệp chướng từ tiền kiếp đang tạo ra những trở ngại và thử thách ở kiếp này. Cần nhận diện và giải quyết những vòng lặp tiêu cực để phá vỡ xiềng xích của quá khứ."
+      },
+      "karma": {
+        "upright": "Luật nhân quả đang vận hành một cách rõ ràng, mang đến những phần thưởng xứng đáng cho những hành động thiện lương. Đây là thời điểm gặt hái quả ngọt, như một món quà từ vũ trụ.",
+        "reversed": "Những hệ quả không mong muốn từ hành động trong quá khứ đang quay trở lại, tạo ra những thử thách khó khăn. Lá bài nhắc nhở cần đối mặt với nghiệp chướng, nhận trách nhiệm để phá vỡ vòng lặp tiêu cực."
+      },
+      "lost_item": {
+        "upright": "Món đồ thất lạc có thể bất ngờ xuất hiện trở lại, như một sự may mắn ngẫu nhiên. Hãy tin vào sự sắp đặt của số phận, bởi đôi khi những gì mất đi lại tìm thấy trong khoảnh khắc không ngờ nhất.",
+        "reversed": "Món đồ đã mất dường như bị cuốn vào vòng xoáy không thể tìm thấy. Sự xui rủi đang cản trở việc thu hồi, báo hiệu rằng đôi khi cần chấp nhận mất mát như một phần của vòng xoay cuộc đời."
       }
     },
     "advice": "Dù bánh xe đưa bạn lên đỉnh vinh quang hay dìm xuống vực thẳm, hãy giữ tâm bất biến giữa dòng đời vạn biến. Mọi thứ rồi sẽ qua đi.",
@@ -6627,6 +6787,46 @@ window.TAROT_DB = [
         "rev": "Giải phóng bản thân khỏi các nghĩa vụ tự áp đặt.",
         "upright": "Tâm hồn đang rên rỉ dưới sức nặng của những giáo điều, định kiến hoặc cảm giác tội lỗi. Một hành trình tâm linh mang lại đau khổ hơn là sự khai sáng.",
         "reversed": "Sự rũ bỏ tuyệt vời những gánh nặng nghiệp quả hoặc những ảo tưởng tinh thần tốn sức. Bạn đang dần thanh lọc linh hồn để tìm về sự nhẹ nhõm nguyên thủy."
+      },
+      "friendship": {
+        "upright": "Một tình bạn đang trở thành gánh nặng oằn vai, bạn đang đơn độc gánh vác mọi trách nhiệm và lo toan cho mối quan hệ. Sức nặng của sự kỳ vọng và đòi hỏi đang bào mòn sự gắn kết.",
+        "reversed": "Đã đến lúc buông bỏ những gánh nặng không cần thiết trong tình bạn. Bạn đang học cách chia sẻ trách nhiệm hoặc nhận ra rằng không phải mọi mối quan hệ đều đáng để bạn hy sinh quá nhiều."
+      },
+      "pregnancy": {
+        "upright": "Hành trình thai kỳ đang trở nên quá sức, những trách nhiệm và lo toan đổ dồn khiến bạn cảm thấy kiệt sức. Sức nặng về cả thể chất lẫn tinh thần đang đè nặng lên đôi vai.",
+        "reversed": "Bạn đang tìm cách giải tỏa những gánh nặng của thai kỳ, có thể là nhờ sự hỗ trợ từ gia đình hoặc tìm kiếm giải pháp để giảm bớt áp lực. Gánh nặng đang dần được san sẻ, mang lại sự nhẹ nhõm."
+      },
+      "gossip": {
+        "upright": "Bạn đang gánh chịu sức nặng của những lời đồn thổi và thị phi. Cảm giác bị đè nén bởi những lời nói ác ý, phải chịu trách nhiệm giải thích hoặc bào chữa cho những điều không phải của mình.",
+        "reversed": "Bạn đang dần buông bỏ gánh nặng của thị phi, không còn để những lời đồn đại làm ảnh hưởng đến mình. Sự giải thoát đến từ việc nhận ra rằng bạn không cần phải gánh vác mọi lời phán xét của thế gian."
+      },
+      "legal": {
+        "upright": "Một vụ kiện tụng hoặc vấn đề pháp lý đang trở thành gánh nặng khổng lồ, đòi hỏi sự kiên trì và nỗ lực tột cùng. Bạn đang oằn mình gánh vác trách nhiệm và đối mặt với những thử thách cam go.",
+        "reversed": "Gánh nặng pháp lý đang dần được tháo gỡ hoặc bạn đang tìm được cách để san sẻ trách nhiệm. Một giải pháp đang đến, giúp bạn thoát khỏi áp lực và sự mệt mỏi kéo dài."
+      },
+      "moving": {
+        "upright": "Việc di chuyển hoặc thay đổi chỗ ở đang trở thành một gánh nặng to lớn, với vô vàn trách nhiệm và công việc phải gánh vác. Cảm giác mệt mỏi, kiệt sức vì phải lo liệu mọi thứ một mình.",
+        "reversed": "Bạn đang tìm cách giảm bớt gánh nặng khi di chuyển, có thể là nhờ sự giúp đỡ từ người khác hoặc sắp xếp công việc một cách hiệu quả hơn. Cuộc chuyển đổi đang trở nên nhẹ nhàng và dễ thở hơn."
+      },
+      "pet": {
+        "upright": "Việc chăm sóc thú cưng đang trở thành một gánh nặng lớn, đòi hỏi nhiều thời gian, công sức và cả tài chính. Bạn đang cảm thấy quá tải với những trách nhiệm đi kèm.",
+        "reversed": "Bạn đang tìm cách san sẻ hoặc giải quyết những gánh nặng liên quan đến thú cưng. Có thể là nhờ sự giúp đỡ, tìm kiếm giải pháp mới hoặc học cách quản lý tốt hơn để giảm bớt áp lực."
+      },
+      "dream": {
+        "upright": "Giấc mơ phản ánh sự mệt mỏi và gánh nặng trong tâm trí, bạn đang mang vác những trách nhiệm quá lớn ngay cả trong cõi vô thức. Cảm giác bị đè nén, không thể thoát ra khỏi áp lực.",
+        "reversed": "Giấc mơ báo hiệu sự giải thoát khỏi gánh nặng, cảm giác nhẹ nhõm và tự do. Bạn đang tìm cách buông bỏ những lo toan, cho phép tâm hồn được nghỉ ngơi và tái tạo năng lượng."
+      },
+      "past_life": {
+        "upright": "Bạn đang gánh vác một gánh nặng nghiệp chướng hoặc trách nhiệm từ kiếp trước, tạo nên những thử thách lớn lao ở hiện tại. Cảm giác như phải trả nợ hoặc hoàn thành một sứ mệnh đã định.",
+        "reversed": "Bạn đang dần tháo gỡ những gánh nặng nghiệp chướng từ tiền kiếp, giải phóng bản thân khỏi những ràng buộc cũ. Sự giải thoát này mang lại cảm giác nhẹ nhõm và tự do hơn trong cuộc sống hiện tại."
+      },
+      "karma": {
+        "upright": "Bạn đang đối mặt với những hệ quả nặng nề từ hành động trong quá khứ, gánh chịu toàn bộ trách nhiệm và hậu quả. Đây là thời điểm nhân quả đòi hỏi sự đối diện và chịu đựng.",
+        "reversed": "Gánh nặng nghiệp chướng đang dần được hóa giải, bạn đang tìm cách sửa chữa lỗi lầm hoặc nhận được sự tha thứ. Áp lực đang giảm bớt, mở ra cơ hội để bạn làm lại và tạo nghiệp mới tích cực hơn."
+      },
+      "lost_item": {
+        "upright": "Việc tìm kiếm món đồ thất lạc đang trở thành một gánh nặng, bạn cảm thấy kiệt sức và vô vọng. Có thể bạn đã bỏ ra quá nhiều công sức nhưng vẫn chưa thấy kết quả.",
+        "reversed": "Bạn đang buông bỏ gánh nặng tìm kiếm, chấp nhận mất mát hoặc bất ngờ tìm thấy món đồ khi không còn cố gắng. Sự giải thoát đến từ việc từ bỏ sự kiểm soát và để mọi thứ tự nhiên."
       }
     },
     "planet": "Sao Thổ",
@@ -6818,6 +7018,46 @@ window.TAROT_DB = [
       "general": {
         "upright": "Bức tranh của tạo hóa dang tay đón đợi bạn! Vũ trụ gửi gắm một lời thì thầm: Hãy khởi đầu, hãy bước tới vô định mà chẳng màng sợ hãi. Lăng kính nguyên thủy, đầy tươi mới của Kẻ Ngốc sẽ vén lên bức màn kỳ tích mà bạn hằng tìm kiếm.",
         "reversed": "Bầu trời có thể sáng chói nhưng sát sườn lại là khe sâu không đáy. Sự phớt lờ cảnh báo từ thực tại và chạy theo tiếng vãn lầm lỗi có thể là án tử cho chuyến đi chưa kịp rực rỡ đã tàn úa."
+      },
+      "friendship": {
+        "upright": "Một tình bạn mới đầy hứng khởi và phiêu lưu đang chớm nở, mang theo những ý tưởng táo bạo và năng lượng trẻ trung. Đây là một mối kết giao đầy tiềm năng, hứa hẹn nhiều trải nghiệm thú vị.",
+        "reversed": "Sự thiếu chín chắn hoặc thiếu trách nhiệm đang gây rắc rối trong một tình bạn. Có thể một người bạn đang hành xử bốc đồng, hoặc một tin tức về tình bạn không đáng tin cậy."
+      },
+      "pregnancy": {
+        "upright": "Tin tức về một khả năng mang thai hoặc một tia hy vọng mới trong kế hoạch gia đình. Năng lượng tràn đầy sự háo hức và tò mò về một khởi đầu mới mẻ, một sinh linh bé bỏng sắp đến.",
+        "reversed": "Sự chậm trễ hoặc thiếu nghiêm túc trong việc đón nhận thiên chức làm cha mẹ. Có thể là những thông tin sai lệch về thai kỳ, hoặc sự bốc đồng khiến kế hoạch gia đình gặp trở ngại."
+      },
+      "gossip": {
+        "upright": "Những tin đồn mới mẻ đang bắt đầu lan truyền, có thể là những thông tin thú vị hoặc những câu chuyện phiếm nhẹ nhàng. Sự tò mò đang thôi thúc mọi người bàn tán.",
+        "reversed": "Những lời đồn đại thiếu căn cứ hoặc được thêu dệt một cách trẻ con, gây ra những hiểu lầm không đáng có. Cẩn trọng với những tin tức không đáng tin, được phát tán bởi những người thiếu suy nghĩ."
+      },
+      "legal": {
+        "upright": "Bạn sắp nhận được một thông tin quan trọng hoặc một tin tức mới liên quan đến vấn đề pháp lý. Một tia sáng lóe lên, một ý tưởng táo bạo có thể mở ra hướng giải quyết mới.",
+        "reversed": "Những thông tin pháp lý không rõ ràng hoặc bị trì hoãn, gây ra sự bối rối và thiếu quyết đoán. Có thể có sự thiếu sót trong việc cung cấp bằng chứng hoặc sự thiếu chuyên nghiệp trong các thủ tục."
+      },
+      "moving": {
+        "upright": "Một ý tưởng hoặc cơ hội di chuyển mới mẻ đang đến, mang theo sự hứng khởi và khao khát khám phá. Đây là lúc để bạn suy nghĩ về một cuộc phiêu lưu ở một vùng đất mới.",
+        "reversed": "Kế hoạch di chuyển đang bị trì hoãn do sự thiếu quyết đoán hoặc thông tin không rõ ràng. Có thể bạn đang do dự hoặc chưa sẵn sàng cho một sự thay đổi lớn."
+      },
+      "pet": {
+        "upright": "Một người bạn nhỏ bé, đầy năng lượng và tinh nghịch sắp bước vào cuộc sống của bạn. Đây là một khởi đầu mới đầy thú vị, mang lại niềm vui và sự tươi mới.",
+        "reversed": "Thú cưng có thể trở nên khó bảo hoặc gây ra những rắc rối do sự tinh nghịch quá mức. Lá bài nhắc nhở cần có sự kiên nhẫn và phương pháp huấn luyện phù hợp."
+      },
+      "dream": {
+        "upright": "Những giấc mơ đầy cảm hứng và ý tưởng mới lạ đang nảy nở trong tâm trí bạn. Cõi vô thức đang mách bảo bạn hãy khám phá những điều chưa biết, dám mơ ước và hành động.",
+        "reversed": "Giấc mơ phản ánh sự thiếu quyết đoán hoặc những ý tưởng dang dở. Có thể bạn đang bỏ lỡ cơ hội hoặc không dám theo đuổi những khát vọng tiềm ẩn trong cõi vô thức."
+      },
+      "past_life": {
+        "upright": "Bạn đang khám phá một khía cạnh trẻ trung, phiêu lưu từ kiếp trước, có thể là một nhà thám hiểm hoặc người truyền tin. Những ký ức này đang thôi thúc bạn tìm kiếm sự mới mẻ và khám phá ở kiếp này.",
+        "reversed": "Những hành động thiếu suy nghĩ hoặc sự thiếu trách nhiệm từ kiếp trước đang tạo ra những bài học ở hiện tại. Bạn cần học cách trưởng thành và chịu trách nhiệm cho hành động của mình."
+      },
+      "karma": {
+        "upright": "Một khởi đầu mới trong chu kỳ nhân quả, mang đến cơ hội để gieo những hạt giống tốt đẹp. Bạn đang nhận được thông điệp về những hành động cần thực hiện để tạo ra nghiệp tốt.",
+        "reversed": "Sự thiếu chín chắn trong cách đối mặt với nhân quả, có thể là việc né tránh trách nhiệm hoặc không học được bài học từ những sai lầm. Cần cẩn trọng với những hành động bốc đồng có thể gây ra hậu quả không mong muốn."
+      },
+      "lost_item": {
+        "upright": "Bạn sẽ nhận được một gợi ý hoặc một tia sáng bất ngờ về nơi ở của món đồ thất lạc. Một ý tưởng mới hoặc sự tò mò sẽ dẫn lối bạn tìm thấy nó.",
+        "reversed": "Những thông tin sai lệch hoặc sự thiếu tập trung đang cản trở việc tìm kiếm. Món đồ có thể bị mất do sự bất cẩn hoặc thiếu quan tâm của bạn."
       }
     },
     "planet": "Sao Hỏa",
@@ -7009,6 +7249,46 @@ window.TAROT_DB = [
       "general": {
         "upright": "Lá bài báo hiệu một giai đoạn đầy năng lượng, nhiệt huyết và sự thay đổi. Hãy mạnh dạn hành động, dấn thân vào những cuộc phiêu lưu mới và tận dụng tối đa tinh thần tiên phong của mình để chinh phục mọi thử thách.",
         "reversed": "Cần cẩn trọng với sự hấp tấp, bốc đồng và thiếu kiên nhẫn. Những hành động vội vàng, thiếu suy nghĩ có thể dẫn đến rắc rối, thất vọng hoặc làm hỏng những cơ hội quý giá. Hãy chậm lại và cân nhắc kỹ lưỡng."
+      },
+      "friendship": {
+        "upright": "Một tình bằng hữu rực lửa bùng cháy, thôi thúc nhau dấn thân vào những cuộc phiêu lưu mới mẻ. Cả hai cùng là ngọn đuốc soi đường, truyền cảm hứng cho nhau trên hành trình khám phá thế giới và bản thân.",
+        "reversed": "Sự hồ hởi quá mức hoặc tính khí thất thường của một người bạn đang dẫn đến những bất đồng không đáng có. Một mối kết giao thiếu kiên nhẫn có thể dễ dàng đổ vỡ như pháo hoa rụng tàn. Bạn có thể bị kéo vào một rắc rối không mong muốn do sự bốc đồng của người khác."
+      },
+      "pregnancy": {
+        "upright": "Tin vui về một sinh linh sắp đến hoặc khát khao đón con đang bùng cháy mạnh mẽ, hứa hẹn một khởi đầu đầy năng lượng và niềm phấn khởi. Sự thụ thai diễn ra nhanh chóng, hoặc bạn sẽ có một thai kỳ đầy sức sống.",
+        "reversed": "Quyết định mang thai vội vã, thiếu suy nghĩ hoặc sự thiếu kiên nhẫn đang gây ra những trở ngại. Cần cẩn trọng với những hành động liều lĩnh có thể ảnh hưởng đến kế hoạch gia đình hoặc sức khỏe của mẹ và bé."
+      },
+      "gossip": {
+        "upright": "Những lời đàm tiếu có thể xuất hiện, nhưng bạn đủ nhanh nhẹn và tự tin để lướt qua như cơn gió. Bạn không ngần ngại đối mặt hoặc dứt khoát rời đi, không để thị phi làm vẩn đục tinh thần phiêu lưu của mình.",
+        "reversed": "Sự bốc đồng trong lời nói hoặc hành động thiếu cân nhắc của bạn đang trở thành mồi ngon cho những lời đồn thổi ác ý. Hãy cẩn trọng với những phát ngôn thiếu suy nghĩ, chúng có thể châm ngòi cho một cuộc chiến không đáng có."
+      },
+      "legal": {
+        "upright": "Một vụ kiện hoặc tranh chấp pháp lý đang được giải quyết nhanh chóng nhờ vào sự chủ động và tinh thần không ngại khó của bạn. Một hành trình pháp lý đầy cam go nhưng sẽ sớm tìm thấy lối thoát.",
+        "reversed": "Sự hấp tấp và liều lĩnh trong các vấn đề pháp lý đang dẫn đến những hậu quả khó lường. Đừng vội vàng ký kết hay đưa ra quyết định khi chưa tìm hiểu kỹ, kẻo vướng vào rắc rối do sự thiếu kiên nhẫn của bản thân."
+      },
+      "moving": {
+        "upright": "Một cuộc dịch chuyển đầy phấn khích đang chờ đợi, có thể là một chuyến đi xa hoặc thay đổi nơi ở đột ngột. Đây là thời điểm tuyệt vời để mở rộng chân trời, khám phá những vùng đất mới đầy hứa hẹn.",
+        "reversed": "Kế hoạch di chuyển bị trì hoãn do sự thiếu chuẩn bị hoặc quyết định vội vàng dẫn đến hối tiếc. Sự thiếu kiên nhẫn trong việc an cư có thể khiến bạn gặp phải những phiền phức không đáng có ở nơi ở mới."
+      },
+      "pet": {
+        "upright": "Một người bạn bốn chân tinh nghịch, tràn đầy năng lượng đang bước vào cuộc sống của bạn, mang đến niềm vui và sự sôi động. Thú cưng lúc này là nguồn cảm hứng cho những cuộc phiêu lưu nhỏ.",
+        "reversed": "Thú cưng có thể trở nên quá hiếu động, khó kiểm soát do thiếu sự huấn luyện hoặc sự thay đổi đột ngột trong môi trường sống. Cần kiên nhẫn và trách nhiệm hơn trong việc chăm sóc và dạy dỗ."
+      },
+      "dream": {
+        "upright": "Những giấc mơ rực rỡ về những chuyến đi xa, những cuộc phiêu lưu ngoạn mục hoặc những khởi đầu mới đầy nhiệt huyết. Vô thức đang thôi thúc bạn dũng cảm theo đuổi khát vọng cháy bỏng nhất.",
+        "reversed": "Ác mộng về sự bế tắc, bị truy đuổi trong vô vọng hoặc những chuyến đi không có điểm đến phản ánh sự thiếu kiên nhẫn và cảm giác bị mắc kẹt trong cuộc sống hiện tại. Nỗi sợ thất bại đang kìm hãm bạn."
+      },
+      "past_life": {
+        "upright": "Linh hồn bạn từng là một hiệp sĩ dũng mãnh, một nhà thám hiểm không ngừng nghỉ, hoặc một người tiên phong khai phá những vùng đất mới. Khí chất phiêu lưu ấy vẫn chảy trong huyết quản của bạn kiếp này.",
+        "reversed": "Trong tiền kiếp, sự bốc đồng và thiếu suy nghĩ đã dẫn đến những hậu quả nghiêm trọng. Kiếp này, bạn phải học bài học về sự kiên nhẫn, trách nhiệm và tránh những quyết định vội vàng để không lặp lại sai lầm cũ."
+      },
+      "karma": {
+        "upright": "Những hành động dũng cảm, sự nhiệt huyết và tinh thần tiên phong của bạn đang được vũ trụ ghi nhận. Bạn sẽ gặt hái được những thành quả xứng đáng từ những nỗ lực và sự chủ động của mình.",
+        "reversed": "Luật nhân quả đang tính sổ với những hành động thiếu suy nghĩ, sự vô trách nhiệm hoặc thái độ nóng nảy trong quá khứ. Hãy cẩn trọng với những gì bạn gieo, bởi chúng sẽ quay lại với bạn."
+      },
+      "lost_item": {
+        "upright": "Món đồ thất lạc có thể đã bị bỏ quên trong một khoảnh khắc vội vã hoặc trong một cuộc di chuyển. Hãy nhớ lại những hoạt động gần đây, bạn sẽ tìm thấy nó ở một nơi không ngờ đến, thường là dọc theo một tuyến đường hoặc trong một chiếc túi xách ngẫu nhiên.",
+        "reversed": "Vật thất lạc đã bị cuốn đi do sự cẩu thả hoặc thay đổi địa điểm quá nhanh chóng. Có thể nó đã bị bỏ lại ở một nơi xa hoặc bị hỏng hóc do sự thiếu cẩn trọng của bạn, việc tìm lại sẽ vô cùng khó khăn hoặc gần như không thể."
       }
     },
     "planet": "Sao Mộc",
@@ -7202,6 +7482,46 @@ window.TAROT_DB = [
       "general": {
         "upright": "Bức tranh của tạo hóa dang tay đón đợi bạn! Vũ trụ gửi gắm một lời thì thầm: Hãy khởi đầu, hãy bước tới vô định mà chẳng màng sợ hãi. Lăng kính nguyên thủy, đầy tươi mới của Kẻ Ngốc sẽ vén lên bức màn kỳ tích mà bạn hằng tìm kiếm.",
         "reversed": "Bầu trời có thể sáng chói nhưng sát sườn lại là khe sâu không đáy. Sự phớt lờ cảnh báo từ thực tại và chạy theo tiếng vãn lầm lỗi có thể là án tử cho chuyến đi chưa kịp rực rỡ đã tàn úa."
+      },
+      "friendship": {
+        "upright": "Một tình bạn rực rỡ, đầy nhiệt huyết và sự hỗ trợ chân thành. Bạn là người bạn truyền cảm hứng, luôn biết cách khích lệ và nâng đỡ tinh thần người khác bằng sự ấm áp và lòng trung thành.",
+        "reversed": "Sự ghen tuông, chiếm hữu hoặc tính khí thất thường đang làm rạn nứt một mối quan hệ bạn bè. Bạn có thể đang đòi hỏi quá nhiều sự chú ý hoặc đang bị một người bạn như vậy gây áp lực."
+      },
+      "pregnancy": {
+        "upright": "Một thai kỳ rạng rỡ, đầy tự tin và sức sống. Bạn tràn đầy năng lượng sáng tạo, sẵn sàng đón nhận vai trò làm mẹ với sự tự tin và tình yêu thương vô bờ bến. Khát khao xây dựng một gia đình ấm cúng đang bùng cháy.",
+        "reversed": "Sự thiếu tự tin về khả năng làm mẹ hoặc nỗi sợ hãi mất đi sự độc lập đang gây trở ngại. Có thể bạn đang cảm thấy ghen tị với người khác hoặc đang đối mặt với những khó khăn do tính cách đòi hỏi, khó chiều gây ra."
+      },
+      "gossip": {
+        "upright": "Bạn có đủ sự tự tin và khí chất để phớt lờ những lời đàm tiếu tầm thường. Với sự khéo léo và trí tuệ sắc bén, bạn dễ dàng chuyển hướng câu chuyện hoặc dùng sự duyên dáng để dập tắt mọi tin đồn.",
+        "reversed": "Sự ghen tị hoặc tính khí nóng nảy của bạn có thể khiến bạn trở thành tâm điểm của những lời đồn ác ý. Hoặc chính bạn đang sử dụng lời nói để thao túng, gây chia rẽ, tạo nên một môi trường độc hại."
+      },
+      "legal": {
+        "upright": "Sự tự tin và khả năng hùng biện sắc bén giúp bạn vượt qua mọi thử thách pháp lý. Bạn là người đứng vững trên lập trường của mình, bảo vệ lẽ phải bằng sự nhiệt huyết và niềm tin sắt đá vào công lý.",
+        "reversed": "Những vấn đề pháp lý phát sinh từ sự ghen tuông, thiếu kiềm chế hoặc hành động trả đũa. Sự nóng nảy và đòi hỏi quá đáng có thể khiến bạn mất đi lợi thế trong các vụ kiện tụng, dẫn đến những phán quyết bất lợi."
+      },
+      "moving": {
+        "upright": "Việc chuyển nhà hoặc thay đổi nơi ở diễn ra suôn sẻ, tràn đầy năng lượng tích cực. Bạn tự tin kiến tạo một không gian sống mới đầy ấm cúng và truyền cảm hứng, biến nơi ở thành một vương quốc của riêng mình.",
+        "reversed": "Sự do dự, thiếu quyết đoán hoặc nỗi sợ hãi mất đi sự an toàn đang cản trở việc di chuyển. Bạn có thể đang tạo ra những rắc rối không cần thiết xung quanh việc chuyển nhà do tính cách đòi hỏi hoặc sự bất an của mình."
+      },
+      "pet": {
+        "upright": "Một chú thú cưng trung thành, đầy tinh thần và được chăm sóc chu đáo, phản ánh năng lượng rực rỡ và tình yêu thương của chủ nhân. Thú cưng là người bạn đồng hành mang lại niềm vui và sự ấm áp.",
+        "reversed": "Thú cưng có thể trở nên khó bảo, hay phá phách do bị nuông chiều quá mức hoặc thiếu sự quan tâm đúng đắn từ chủ. Điều này phản ánh sự thiếu kiên nhẫn hoặc tính khí thất thường của người chủ."
+      },
+      "dream": {
+        "upright": "Những giấc mơ sống động, đầy màu sắc, phản ánh sự sáng tạo, niềm đam mê và sự tự tin của bạn. Đây là lúc những ý tưởng độc đáo bùng nổ, mang lại cảm hứng và nguồn năng lượng dồi dào.",
+        "reversed": "Ác mộng về việc bị lu mờ, mất đi tiếng nói hoặc bị mắc kẹt trong vòng xoáy ghen tị và bất an. Vô thức đang cảnh báo bạn về những cảm xúc tiêu cực đang kìm hãm sự phát triển của bản thân."
+      },
+      "past_life": {
+        "upright": "Ở một kiếp sống xa xưa, bạn từng là một nữ vương đầy quyền uy, một nghệ sĩ tài năng hoặc một nhà lãnh đạo có sức ảnh hưởng, được yêu mến bởi sự tự tin và lòng nhiệt huyết.",
+        "reversed": "Tiền kiếp của bạn có thể gắn liền với sự ghen tuông, thao túng hoặc tính khí nóng nảy đã gây ra nhiều đau khổ, cả cho bản thân và người khác. Kiếp này, bạn phải học cách kiểm soát cảm xúc và phát huy lòng trắc ẩn."
+      },
+      "karma": {
+        "upright": "Luật nhân quả đang đền đáp những hành động truyền cảm hứng, sự ấm áp và lòng nhiệt thành của bạn. Bạn sẽ gặt hái được những thành công xứng đáng, nhận lại sự yêu mến và hỗ trợ từ mọi người xung quanh.",
+        "reversed": "Những hậu quả từ sự ích kỷ, ghen tuông hoặc sử dụng quyền lực một cách sai trái trong quá khứ đang quay trở lại. Bạn cần đối mặt và sửa chữa những sai lầm để thanh lọc nghiệp chướng của mình."
+      },
+      "lost_item": {
+        "upright": "Vật thất lạc có thể nằm ở một nơi đầy cảm hứng hoặc bị bỏ quên trong lúc bạn đang say sưa với một dự án sáng tạo nào đó. Hãy thả lỏng tâm trí, bạn sẽ tìm thấy nó ở một góc quen thuộc trong không gian làm việc hoặc giải trí của mình.",
+        "reversed": "Món đồ đã mất do sự thiếu tổ chức, mất tập trung hoặc sự thờ ơ của bạn. Việc tìm kiếm sẽ khó khăn vì nó bị lẫn lộn trong sự lộn xộn hoặc bị bỏ quên do tính cách tự cho mình là trung tâm."
       }
     },
     "planet": "Sao Hỏa",
@@ -7394,6 +7714,46 @@ window.TAROT_DB = [
       "general": {
         "upright": "Bức tranh của tạo hóa dang tay đón đợi bạn! Vũ trụ gửi gắm một lời thì thầm: Hãy khởi đầu, hãy bước tới vô định mà chẳng màng sợ hãi. Lăng kính nguyên thủy, đầy tươi mới của Kẻ Ngốc sẽ vén lên bức màn kỳ tích mà bạn hằng tìm kiếm.",
         "reversed": "Bầu trời có thể sáng chói nhưng sát sườn lại là khe sâu không đáy. Sự phớt lờ cảnh báo từ thực tại và chạy theo tiếng vãn lầm lỗi có thể là án tử cho chuyến đi chưa kịp rực rỡ đã tàn úa."
+      },
+      "friendship": {
+        "upright": "Một tình bạn vững chắc, đầy cảm hứng và sự dẫn dắt. Bạn là người bạn đáng tin cậy, luôn đưa ra những lời khuyên sáng suốt và hỗ trợ mạnh mẽ, giúp đối phương phát triển và đạt được mục tiêu.",
+        "reversed": "Một mối quan hệ bạn bè trở nên độc đoán, đòi hỏi hoặc thiếu tôn trọng. Có thể bạn đang bị một người bạn như vậy kiểm soát hoặc chính bạn đang thể hiện sự nóng nảy, áp đặt lên bạn bè."
+      },
+      "pregnancy": {
+        "upright": "Khát khao mãnh liệt xây dựng một gia đình vững mạnh, một người cha/mẹ đầy tầm nhìn và sự bảo bọc. Bạn tự tin vào khả năng dẫn dắt và định hình tương lai cho con cái, tạo dựng một di sản đáng tự hào.",
+        "reversed": "Sự kiểm soát quá mức, nỗi sợ hãi mất đi quyền lực hoặc sự thiếu kiên nhẫn đang gây áp lực lên kế hoạch gia đình. Bạn có thể đang áp đặt ý muốn của mình lên người khác, gây ra căng thẳng trong việc đón nhận thiên chức làm cha/mẹ."
+      },
+      "gossip": {
+        "upright": "Với tầm nhìn và sự tự tin của một vị vua, bạn dễ dàng vượt lên trên những lời đàm tiếu vặt vãnh. Sự uy nghiêm và chính trực của bạn sẽ tự động dập tắt mọi tin đồn, không để chúng làm ảnh hưởng đến danh tiếng.",
+        "reversed": "Sự kiêu ngạo hoặc tính cách độc đoán của bạn có thể khiến bạn trở thành mục tiêu của những lời đồn ác ý. Hoặc chính bạn đang sử dụng quyền lực để thao túng thông tin, gây ra sự chia rẽ và bất mãn trong cộng đồng."
+      },
+      "legal": {
+        "upright": "Bạn sẽ là người dẫn dắt trong mọi vấn đề pháp lý, đưa ra những quyết định sáng suốt và đầy dũng khí. Với sự uy tín và tầm nhìn xa, bạn sẽ đạt được kết quả công bằng, thậm chí là chiến thắng vang dội.",
+        "reversed": "Sự lạm dụng quyền lực, tính cách độc đoán hoặc hành vi thiếu đạo đức đang dẫn đến những rắc rối pháp lý nghiêm trọng. Những quyết định nóng nảy, thiếu cân nhắc có thể gây ra hậu quả khôn lường."
+      },
+      "moving": {
+        "upright": "Một cuộc di chuyển được lên kế hoạch cẩn thận, mang tính chiến lược, hứa hẹn mang lại sự ổn định và thịnh vượng. Bạn là người dẫn dắt gia đình hoặc công việc đến một vùng đất mới đầy tiềm năng.",
+        "reversed": "Việc chuyển nhà bị trì hoãn do sự cứng đầu, bảo thủ hoặc áp đặt ý muốn lên người khác. Sự thiếu linh hoạt và không lắng nghe có thể gây ra xung đột và khó khăn trong quá trình an cư lạc nghiệp."
+      },
+      "pet": {
+        "upright": "Một chú thú cưng vương giả, được huấn luyện tốt và chăm sóc chu đáo, phản ánh sự lãnh đạo mạnh mẽ và tình yêu thương của chủ nhân. Thú cưng là biểu tượng của quyền uy và sự trung thành.",
+        "reversed": "Thú cưng trở nên khó bảo, hung hăng do sự độc đoán hoặc thiếu quan tâm đúng mực từ chủ. Điều này phản ánh sự mất kiểm soát hoặc tính cách nóng nảy của người chủ."
+      },
+      "dream": {
+        "upright": "Những giấc mơ vĩ đại về quyền lực, thành công, lãnh đạo và xây dựng những đế chế. Vô thức đang khẳng định tầm nhìn và khả năng biến ước mơ thành hiện thực của bạn, thôi thúc bạn tiến về phía trước.",
+        "reversed": "Ác mộng về việc mất quyền lực, bị phản bội hoặc thất bại trong vai trò lãnh đạo. Điều này phản ánh nỗi sợ hãi sâu sắc về sự mất kiểm soát hoặc những áp lực từ tính cách độc đoán của chính bạn."
+      },
+      "past_life": {
+        "upright": "Trong tiền kiếp, linh hồn bạn từng là một vị vua, một nhà lãnh đạo vĩ đại hoặc một người có tầm ảnh hưởng lớn, đã kiến tạo nên những giá trị bền vững và dẫn dắt cộng đồng đến sự thịnh vượng.",
+        "reversed": "Tiền kiếp của bạn có thể gắn liền với sự lạm dụng quyền lực, độc tài hoặc những quyết định sai lầm đã gây ra nhiều đau khổ cho người khác. Kiếp này, bạn cần học cách sử dụng quyền lực một cách khôn ngoan và có trách nhiệm."
+      },
+      "karma": {
+        "upright": "Những hành động lãnh đạo dũng cảm, sự chính trực và tầm nhìn xa của bạn đang được vũ trụ đền đáp. Bạn sẽ nhận được sự tôn trọng, thành công và khả năng truyền cảm hứng cho nhiều người khác.",
+        "reversed": "Luật nhân quả đang tính sổ với những hành động độc đoán, tự cao tự đại hoặc sử dụng quyền lực một cách tiêu cực. Bạn cần đối mặt với hậu quả từ những việc làm sai trái và học cách khiêm nhường, lắng nghe người khác."
+      },
+      "lost_item": {
+        "upright": "Món đồ bị thất lạc trong lúc bạn đang tập trung cao độ vào một dự án quan trọng hoặc trong một không gian làm việc có tổ chức. Hãy rà soát lại những nơi bạn thường ra lệnh hoặc kiểm soát, nó sẽ xuất hiện.",
+        "reversed": "Vật thất lạc do sự kiêu ngạo, bỏ bê hoặc cho rằng người khác sẽ lo liệu. Việc tìm kiếm sẽ khó khăn vì sự thiếu trách nhiệm cá nhân hoặc nó đã bị di chuyển khỏi tầm kiểm soát của bạn."
       }
     },
     "planet": "Mặt Trời",
@@ -8158,6 +8518,46 @@ window.TAROT_DB = [
       "general": {
         "upright": "Bạn đang ở giai đoạn của sự trì trệ, thờ ơ và có thể bỏ lỡ những cơ hội quan trọng đang đến. Hãy cẩn trọng với việc quá tập trung vào những điều tiêu cực mà không nhận ra những phước lành đang ở ngay trước mắt.",
         "reversed": "Sau giai đoạn uể oải, bạn đang bước vào thời kỳ của sự tái sinh và chủ động. Những cơ hội mới sẽ xuất hiện và bạn sẵn sàng đón nhận chúng với một tinh thần cởi mở và nhiệt huyết."
+      },
+      "friendship": {
+        "upright": "Tình bạn đang chìm trong sự thờ ơ, thiếu nhiệt huyết, hoặc một người bạn đang cảm thấy không được trân trọng. Có những lời mời gọi kết nối mới nhưng bạn lại ngần ngại đón nhận, bỏ lỡ cơ hội thắt chặt tình thân.",
+        "reversed": "Sự thức tỉnh trong các mối quan hệ. Bạn bắt đầu nhận ra giá trị của những người xung quanh và mở lòng đón nhận những kết nối mới. Tình bạn cũ được hâm nóng, những hiểu lầm được hóa giải."
+      },
+      "pregnancy": {
+        "upright": "Sự thiếu hứng thú hoặc hoài nghi về việc mang thai/sinh con. Có thể là một cơ hội đang đến nhưng bị bỏ qua, hoặc cảm giác không sẵn sàng về mặt cảm xúc, tâm lý cho hành trình này.",
+        "reversed": "Sự chấp nhận và niềm vui mới mẻ cho tin tức về một sinh linh. Hoặc sau một thời gian chán nản, bạn đã tìm lại được động lực và niềm hy vọng cho việc thụ thai hoặc chào đón con cái."
+      },
+      "gossip": {
+        "upright": "Bạn đang đứng ngoài lề những câu chuyện phiếm, có thể vì không quan tâm hoặc cảm thấy chán nản với những thị phi vô bổ. Tuy nhiên, sự thờ ơ này cũng có thể khiến bạn bỏ lỡ những thông tin quan trọng.",
+        "reversed": "Sau một thời gian chán nản với những lời đồn đại, bạn bắt đầu chủ động tham gia hoặc phản ứng lại. Có thể là việc bạn tìm cách làm rõ sự thật, hoặc đơn giản là không còn để những lời ong tiếng ve ảnh hưởng đến mình nữa."
+      },
+      "legal": {
+        "upright": "Một vụ việc pháp lý đang bị đình trệ, thiếu động lực hoặc sự quan tâm từ một phía. Có những giải pháp hoặc thỏa thuận đang được đưa ra nhưng bạn lại thờ ơ, không muốn đón nhận, dẫn đến bế tắc.",
+        "reversed": "Sự chủ động trở lại trong vấn đề pháp lý. Bạn bắt đầu xem xét lại các lựa chọn, chấp nhận những thỏa hiệp hoặc tìm kiếm hướng đi mới để giải quyết tranh chấp, thoát khỏi tình trạng trì trệ."
+      },
+      "moving": {
+        "upright": "Sự do dự, không chắc chắn về việc chuyển nhà hoặc thay đổi nơi ở. Dù có những cơ hội mới, bạn vẫn cảm thấy không hứng thú hoặc quá thoải mái với hiện tại để thực hiện sự thay đổi.",
+        "reversed": "Quyết định dứt khoát về việc di chuyển. Bạn đã vượt qua sự lưỡng lự và sẵn sàng đón nhận một môi trường sống mới, tìm kiếm những trải nghiệm khác biệt, hoặc đã tìm thấy động lực để chuyển đổi."
+      },
+      "pet": {
+        "upright": "Sự thiếu kết nối hoặc thờ ơ với thú cưng. Có thể bạn cảm thấy chán nản với trách nhiệm chăm sóc, hoặc thú cưng đang cảm thấy bị bỏ bê, thiếu sự quan tâm từ bạn.",
+        "reversed": "Tình cảm với thú cưng được hâm nóng trở lại. Bạn tìm thấy niềm vui mới trong việc chăm sóc và tương tác với chúng, hoặc thú cưng mang đến một sự kiện bất ngờ giúp bạn thoát khỏi sự buồn tẻ."
+      },
+      "dream": {
+        "upright": "Giấc mơ phản ánh sự buồn chán, thiếu động lực hoặc cảm giác bỏ lỡ cơ hội. Bạn có thể nằm mơ thấy mình từ chối những điều tốt đẹp hoặc không có khả năng đưa ra quyết định.",
+        "reversed": "Giấc mơ mang đến một thông điệp rõ ràng, đánh thức bạn khỏi sự thờ ơ. Đó có thể là một giấc mơ đầy cảm hứng, thúc đẩy bạn hành động hoặc mở lòng đón nhận những điều mới mẻ."
+      },
+      "past_life": {
+        "upright": "Ở kiếp trước, bạn có thể đã sống một cuộc đời đầy đủ nhưng lại thiếu đi sự thỏa mãn, luôn cảm thấy trống rỗng hoặc bỏ lỡ những cơ hội vàng. Dấu vết của sự thờ ơ đó vẫn còn ảnh hưởng đến kiếp này.",
+        "reversed": "Sự giải thoát khỏi những mô hình hành vi cũ từ tiền kiếp. Bạn đang dần nhận ra và vượt qua sự chán nản, vô cảm để tìm kiếm ý nghĩa và mục đích thực sự trong cuộc sống hiện tại."
+      },
+      "karma": {
+        "upright": "Nghiệp quả của sự thờ ơ, thiếu trân trọng những gì mình đang có. Vũ trụ đang thử thách bạn bằng cách rút lại những cơ hội, khiến bạn cảm thấy trống rỗng để học cách biết ơn và chủ động nắm bắt.",
+        "reversed": "Vòng luân hồi nghiệp quả đang chuyển mình theo hướng tích cực. Bạn đã nhận ra và khắc phục sự vô tâm, mở lòng đón nhận những điều tốt đẹp, và vũ trụ đang hồi đáp bằng những cơ hội mới."
+      },
+      "lost_item": {
+        "upright": "Vật thất lạc có thể ở một nơi quen thuộc nhưng bạn lại quá thờ ơ hoặc không chú ý để tìm thấy. Hoặc bạn đã bỏ qua những dấu hiệu quan trọng dẫn đến vị trí của nó.",
+        "reversed": "Vật đã mất sẽ được tìm thấy khi bạn chủ động thay đổi góc nhìn hoặc mở lòng đón nhận sự giúp đỡ. Sự tìm kiếm không còn trong vô vọng mà có hướng đi rõ ràng hơn."
       }
     },
     "planet": "Mặt Trăng",
@@ -8220,6 +8620,46 @@ window.TAROT_DB = [
         "rev": "Tự tha thứ, gột rửa tâm hồn.",
         "upright": "Khuất phục trước bóng tối nội tâm. Cảm giác bị trừng phạt, mặc cảm tội lỗi nặng nề đang giam cầm linh hồn trong ngục tù của sự dằn vặt vô tận.",
         "reversed": "Một sự giải thoát kỳ diệu. Bạn hiểu rằng mất mát là một phần tất yếu của quá trình tiến hóa tâm hồn. Bạn buông bỏ gánh nặng nghiệp lực và tiến về phía ánh sáng."
+      },
+      "friendship": {
+        "upright": "Một tình bạn đang trải qua giai đoạn đau buồn, đổ vỡ hoặc sự hối tiếc sâu sắc về những lời nói, hành động đã qua. Nỗi buồn che mờ đi những mối quan hệ tốt đẹp còn lại.",
+        "reversed": "Sự hàn gắn và tha thứ trong tình bạn. Bạn và người bạn đang dần chấp nhận quá khứ, buông bỏ sự hối tiếc để tìm lại sợi dây kết nối hoặc mở lòng cho những tình bạn mới."
+      },
+      "pregnancy": {
+        "upright": "Nỗi buồn sâu sắc liên quan đến việc mang thai hoặc sinh con, có thể là mất mát, hối tiếc về một quyết định, hoặc cảm giác thất vọng khi mọi thứ không như mong đợi.",
+        "reversed": "Sự chấp nhận và chữa lành sau một nỗi đau liên quan đến việc mang thai. Dù vết thương chưa lành hẳn, bạn đã tìm thấy sức mạnh để tiến về phía trước, mở lòng cho hy vọng mới."
+      },
+      "gossip": {
+        "upright": "Những lời đồn đại gây tổn thương sâu sắc, khiến bạn đau khổ và hối tiếc về những gì đã xảy ra. Bạn đang chìm đắm trong cảm giác bị phản bội hoặc hiểu lầm.",
+        "reversed": "Bạn đang học cách buông bỏ những lời thị phi độc hại và những tổn thương mà chúng gây ra. Sự tha thứ cho bản thân và người khác giúp bạn vượt qua nỗi buồn để tìm lại bình yên."
+      },
+      "legal": {
+        "upright": "Một vụ việc pháp lý đang mang lại sự thất vọng, mất mát hoặc kết quả không như mong đợi. Bạn đang chìm trong sự hối tiếc và cảm giác bất lực trước phán quyết.",
+        "reversed": "Sự chấp nhận kết quả pháp lý và bắt đầu quá trình chữa lành. Dù có thể không hoàn toàn hài lòng, bạn đã sẵn sàng buông bỏ sự oán giận để tiến về phía trước, tìm kiếm sự bình yên."
+      },
+      "moving": {
+        "upright": "Quyết định chuyển nhà hoặc rời xa một nơi đang mang lại nỗi buồn, sự hối tiếc về những kỷ niệm đã qua. Bạn cảm thấy mất mát khi phải từ bỏ những gì thân thuộc.",
+        "reversed": "Bạn đang dần chấp nhận sự thay đổi nơi ở và tìm thấy những khía cạnh tích cực trong môi trường mới. Nỗi buồn được xoa dịu, và bạn sẵn sàng xây dựng cuộc sống mới."
+      },
+      "pet": {
+        "upright": "Nỗi đau mất mát một người bạn bốn chân, hoặc sự hối tiếc về những gì chưa làm được cho thú cưng. Cảm giác buồn bã, trống trải khi thiếu vắng chúng.",
+        "reversed": "Sự chấp nhận nỗi đau khi mất đi thú cưng và bắt đầu quá trình chữa lành. Bạn tìm cách tưởng nhớ và trân trọng những kỷ niệm đẹp, mở lòng để yêu thương một sinh linh mới."
+      },
+      "dream": {
+        "upright": "Giấc mơ phản ánh nỗi buồn, sự hối tiếc hoặc cảm giác mất mát trong cuộc sống hiện tại. Bạn có thể mơ thấy những điều đã qua không thể quay lại, hoặc những cơ hội đã tuột mất.",
+        "reversed": "Giấc mơ mang thông điệp về sự chữa lành, tha thứ và buông bỏ. Bạn đang dần tìm thấy sự bình yên sau những tổn thương, và sẵn sàng đón nhận những điều tốt đẹp hơn."
+      },
+      "past_life": {
+        "upright": "Ở kiếp trước, bạn có thể đã trải qua một sự mất mát lớn, một nỗi đau không thể nguôi ngoai, hoặc sự hối tiếc sâu sắc về những quyết định sai lầm, điều này vẫn còn ảnh hưởng đến tâm trí bạn kiếp này.",
+        "reversed": "Dấu vết của nỗi đau tiền kiếp đang được chữa lành. Bạn đang học cách buông bỏ những gánh nặng từ quá khứ, tìm thấy sự tha thứ và bình an cho linh hồn mình."
+      },
+      "karma": {
+        "upright": "Nghiệp quả của sự hối tiếc và không thể buông bỏ quá khứ. Vũ trụ đang đưa bạn vào những tình huống để bạn đối mặt với nỗi đau, học cách chấp nhận mất mát và tiến về phía trước.",
+        "reversed": "Vòng luân hồi nghiệp quả đang hướng tới sự giải thoát. Bạn đang học cách tha thứ cho bản thân và người khác, buông bỏ những oán hận để tạo ra những hạt giống thiện lành cho tương lai."
+      },
+      "lost_item": {
+        "upright": "Vật thất lạc mang theo nhiều kỷ niệm hoặc giá trị tinh thần, khiến bạn cảm thấy buồn bã và hối tiếc khi mất nó. Sự tìm kiếm trở nên nặng nề hơn vì nỗi đau gắn liền với vật đó.",
+        "reversed": "Dù vật đã mất, bạn đã học cách chấp nhận và buông bỏ sự gắn kết với nó. Nỗi buồn dần tan biến, và bạn tìm thấy sự bình yên trong việc chấp nhận rằng mọi thứ đều có thể mất đi."
       }
     },
     "planet": "Sao Hỏa",
@@ -12287,6 +12727,46 @@ window.TAROT_DB = [
       "general": {
         "upright": "Kỵ Sĩ Kiếm đại diện cho một giai đoạn đầy hành động, quyết đoán và sự tiến bộ nhanh chóng. Bạn đang tràn đầy năng lượng để theo đuổi mục tiêu, vượt qua thử thách và thể hiện trí tuệ sắc bén của mình. Hãy mạnh dạn tiến về phía trước!",
         "reversed": "Lá bài đảo ngược cảnh báo về sự hấp tấp, bốc đồng, hung hăng hoặc thiếu suy nghĩ. Những hành động vội vàng có thể dẫn đến xung đột, thất bại và những hậu quả không mong muốn. Cần có sự kiềm chế và cân nhắc kỹ lưỡng."
+      },
+      "friendship": {
+        "upright": "Một tình bạn đầy nhiệt huyết, thẳng thắn nhưng đôi khi thiếu tế nhị, dễ gây tranh cãi do tính cách bộc trực, vội vàng. Cần sự cẩn trọng để không làm tổn thương nhau bằng lời nói.",
+        "reversed": "Tình bạn đang đối mặt với sự xung đột gay gắt, lời lẽ cay nghiệt hoặc sự phản bội. Một người bạn có thể quá hung hăng, thiếu kiểm soát, gây ra vết rạn nứt khó hàn gắn."
+      },
+      "pregnancy": {
+        "upright": "Sự háo hức, quyết tâm mãnh liệt trong việc thụ thai hoặc chuẩn bị chào đón con. Tuy nhiên, sự vội vàng, thiếu suy nghĩ kỹ lưỡng có thể dẫn đến những quyết định không lường trước.",
+        "reversed": "Những tranh cãi, căng thẳng hoặc xung đột gay gắt liên quan đến việc mang thai. Có thể là những quyết định vội vã, thiếu cân nhắc gây ra hậu quả không mong muốn."
+      },
+      "gossip": {
+        "upright": "Bạn là tâm điểm của những lời đồn thổi do sự thẳng thắn, bộc trực hoặc những hành động táo bạo của mình. Có thể bạn vô tình gây ra hiểu lầm do cách diễn đạt quá trực tiếp.",
+        "reversed": "Những lời thị phi độc địa, tấn công trực diện vào danh dự của bạn. Hoặc bạn chính là người đang lan truyền những tin đồn một cách hung hăng, thiếu kiểm soát, gây tổn hại nghiêm trọng."
+      },
+      "legal": {
+        "upright": "Một vụ kiện tụng gay cấn, đòi hỏi sự quyết đoán và thẳng thắn. Bạn cần chủ động, dũng cảm đối mặt nhưng cũng phải cẩn trọng với sự vội vàng, thiếu cân nhắc hậu quả.",
+        "reversed": "Những rắc rối pháp lý leo thang thành xung đột không kiểm soát. Sự hung hăng, thiếu suy nghĩ hoặc hành động liều lĩnh của một bên có thể dẫn đến hậu quả nghiêm trọng hơn."
+      },
+      "moving": {
+        "upright": "Quyết định chuyển nhà được thực hiện nhanh chóng, dứt khoát, có thể là do một cơ hội bất ngờ hoặc mong muốn thay đổi mạnh mẽ. Cần chuẩn bị kỹ lưỡng để tránh sự vội vàng.",
+        "reversed": "Sự di chuyển bị trì hoãn do xung đột, tranh cãi hoặc những quyết định vội vã dẫn đến rắc rối. Hoặc một sự thay đổi nơi ở đầy hung hăng, áp đặt."
+      },
+      "pet": {
+        "upright": "Một thú cưng năng động, tinh nghịch, đôi khi bộc trực và khó kiểm soát. Cần sự kiên nhẫn và huấn luyện để chúng không gây ra rắc rối do tính cách quá hiếu động.",
+        "reversed": "Thú cưng có thể trở nên hung hăng, khó bảo hoặc gây ra những vấn đề nghiêm trọng do sự thiếu kỷ luật hoặc huấn luyện sai cách."
+      },
+      "dream": {
+        "upright": "Giấc mơ về sự chiến đấu, chinh phục hoặc đối đầu trực diện. Đó là dấu hiệu của khao khát hành động, vượt qua thử thách, nhưng cũng cảnh báo về sự vội vàng, thiếu thận trọng.",
+        "reversed": "Ác mộng về sự tấn công, bị truy đuổi một cách hung hãn, hoặc cảm giác bất lực trước một thế lực mạnh mẽ. Phản ánh sự lo lắng về xung đột, bị áp đặt hoặc thiếu kiểm soát."
+      },
+      "past_life": {
+        "upright": "Ở kiếp trước, linh hồn bạn có thể là một chiến binh, người tiên phong dũng cảm nhưng đôi khi bốc đồng, thiếu suy nghĩ. Năng lượng này vẫn thôi thúc bạn hành động mạnh mẽ ở kiếp này.",
+        "reversed": "Dấu vết từ tiền kiếp về sự hung hăng, độc đoán hoặc gây ra tổn thương do hành động thiếu kiểm soát. Bài học kiếp này là học cách kiềm chế, suy nghĩ trước khi hành động."
+      },
+      "karma": {
+        "upright": "Nghiệp quả của sự dũng cảm, quyết đoán nhưng cũng mang theo hậu quả của sự vội vàng, thiếu cân nhắc. Những hành động trực diện của bạn sẽ nhận được phản hồi tương xứng.",
+        "reversed": "Nghiệp quả của sự hung hăng, gây hấn và thiếu kiểm soát. Những xung đột bạn gieo rắc sẽ quay trở lại, buộc bạn phải đối mặt với hậu quả của những lời nói và hành động nóng vội."
+      },
+      "lost_item": {
+        "upright": "Vật thất lạc có thể do bạn đã vội vàng cất giấu hoặc di chuyển nó một cách nhanh chóng mà không ghi nhớ. Cần sự tập trung và tái tạo lại hành động vội vã đó để tìm lại.",
+        "reversed": "Vật mất có thể là do bị cướp đoạt, hoặc bị thất lạc trong một cuộc tranh cãi, xung đột gay gắt. Việc tìm kiếm có thể gặp khó khăn do sự hỗn loạn hoặc hành vi tiêu cực liên quan."
       }
     },
     "planet": "Sao Thủy",
@@ -12482,6 +12962,46 @@ window.TAROT_DB = [
       "general": {
         "upright": "Nữ Hoàng Kiếm xuôi biểu thị sự minh mẫn tinh thần, trí tuệ sắc bén, sự độc lập và khả năng truyền đạt sự thật một cách chính xác. Lá bài khuyến khích bạn tiếp cận các tình huống bằng lý trí, sự trung thực và một tâm trí sáng suốt, đặt ra ranh giới rõ ràng và tìm kiếm sự thật khách quan.",
         "reversed": "Nữ Hoàng Kiếm ngược cảnh báo về sự chỉ trích quá mức, sự mỉa mai, lạnh nhạt về cảm xúc và sự kiêu ngạo trí tuệ. Nó cho thấy xu hướng sử dụng lời nói như vũ khí, hoặc quá phán xét, dẫn đến sự cô lập và xung đột. Hãy cẩn trọng cách bạn sử dụng trí tuệ sắc bén của mình."
+      },
+      "friendship": {
+        "upright": "Tình bạn được xây dựng trên nền tảng sự thật và minh bạch, nơi những lời khuyên sắc bén được trao đi không chút e dè, giúp nhau mài giũa trí tuệ. Bạn tìm thấy tri kỷ trong những tâm hồn độc lập, dám đối mặt với sự thật dù cay đắng.",
+        "reversed": "Cẩn trọng những mối quan hệ đầy tính toán, nơi lời nói sắc như dao găm dễ dàng đâm sau lưng hoặc sự lạnh lùng vô cảm khiến tình bạn trở nên khô cằn, thiếu đi sự ấm áp sẻ chia."
+      },
+      "pregnancy": {
+        "upright": "Quyết định mang thai được cân nhắc kỹ lưỡng bằng lý trí, không phải cảm xúc bồng bột. Sự chuẩn bị chu đáo, kiến thức vững vàng sẽ là nền tảng cho một hành trình làm mẹ đầy tự chủ và minh mẫn.",
+        "reversed": "Có thể là sự lạnh nhạt, thờ ơ với việc mang thai hoặc những phán xét khắc nghiệt về lựa chọn của người khác. Cũng có thể là lo lắng quá mức, phân tích mọi rủi ro đến mức đánh mất niềm vui tự nhiên."
+      },
+      "gossip": {
+        "upright": "Với trí tuệ sắc bén, bạn dễ dàng nhìn thấu bản chất của thị phi và chọn cách đứng ngoài cuộc, không để những lời đồn đại vô căn cứ làm vẩn đục tâm trí. Lời nói của bạn có sức mạnh dẹp tan những điều tiếng sai trái.",
+        "reversed": "Trở thành nạn nhân của những lời đồn thổi ác ý hoặc chính bạn là người dùng lời lẽ cay nghiệt để phán xét, buông lời thị phi, gây tổn thương cho người khác bằng sự sắc sảo của mình."
+      },
+      "legal": {
+        "upright": "Công lý được thực thi với sự khách quan và minh bạch. Đây là thời điểm thuận lợi cho các vấn đề pháp lý, nơi sự thật sẽ được phơi bày nhờ vào khả năng phân tích sắc sảo và lập luận vững chắc của bạn hoặc người đại diện.",
+        "reversed": "Sự bất công, phán quyết sai lầm hoặc những lời buộc tội vô căn cứ đang đe dọa. Có thể bạn đang đối mặt với một cuộc chiến pháp lý đầy gian truân, nơi sự thật bị bóp méo bởi những mưu đồ xảo quyệt."
+      },
+      "moving": {
+        "upright": "Một quyết định di chuyển được đưa ra dựa trên sự tính toán kỹ lưỡng, logic và mục tiêu rõ ràng. Bạn sẵn sàng cắt đứt những ràng buộc cũ để tìm kiếm một môi trường mới phù hợp hơn với trí tuệ và sự độc lập của mình.",
+        "reversed": "Sự lưỡng lự, phân tích quá mức đến mức tê liệt hành động, hoặc một quyết định di chuyển vội vã nhưng thiếu suy xét, khiến bạn mắc kẹt trong những rắc rối không đáng có ở nơi chốn mới."
+      },
+      "pet": {
+        "upright": "Thú cưng được chăm sóc với sự kỷ luật và hiểu biết khoa học, không phải cảm tính. Mối liên kết giữa bạn và chúng được xây dựng trên sự tôn trọng không gian riêng và trí tuệ thấu hiểu.",
+        "reversed": "Sự lạnh nhạt, thiếu kiên nhẫn với thú cưng hoặc sự kiểm soát quá mức, biến chúng thành vật sở hữu thay vì một người bạn. Cũng có thể là thú cưng gặp vấn đề sức khỏe cần sự chẩn đoán sắc bén."
+      },
+      "dream": {
+        "upright": "Giấc mơ mang thông điệp rõ ràng, sắc bén, giúp bạn nhìn thấu sự thật ẩn giấu trong tâm trí. Hãy dùng lý trí để giải mã những biểu tượng, tìm ra lời giải đáp cho những vấn đề đang bủa vây.",
+        "reversed": "Ác mộng phản ánh sự hỗn loạn trong tư duy, những lời nói cay nghiệt tự ám thị hoặc nỗi sợ hãi bị phán xét. Tâm trí đang bị vây hãm bởi những suy nghĩ tiêu cực, thiếu đi sự thanh lọc."
+      },
+      "past_life": {
+        "upright": "Ở một dòng thời gian xa xưa, linh hồn bạn từng là một nhà tư tưởng, một chiến lược gia hay một người phụ nữ quyền lực, luôn đấu tranh cho sự thật và công lý. Dấu ấn của sự minh mẫn và độc lập vẫn còn hiện hữu trong bạn kiếp này.",
+        "reversed": "Những vết sẹo từ kiếp trước có thể là sự cô độc, bị phản bội bởi lời nói hoặc đã từng dùng lời lẽ để làm tổn thương người khác, khiến bạn mang theo gánh nặng của sự lạnh lùng và hoài nghi."
+      },
+      "karma": {
+        "upright": "Nhân quả đang thúc đẩy bạn đối diện với sự thật, dù phũ phàng. Những quyết định công tâm, lời nói thẳng thắn sẽ gieo hạt giống của sự minh bạch và nhận lại sự tôn trọng, công bằng.",
+        "reversed": "Quả báo đến từ sự tàn nhẫn trong lời nói, sự phán xét vô tình hoặc việc sử dụng trí tuệ để thao túng, gây tổn thương. Giờ nay, bạn phải đối mặt với những hậu quả của sự lạnh lùng, thiếu thấu cảm."
+      },
+      "lost_item": {
+        "upright": "Món đồ thất lạc có thể được tìm thấy nhờ vào khả năng suy luận sắc bén và sự sắp xếp logic của bạn. Hãy rà soát lại những nơi bạn đã đặt đồ một cách có chủ đích, nơi cần sự ngăn nắp.",
+        "reversed": "Vật phẩm mất đi do sự bừa bộn, thiếu ngăn nắp hoặc do bị đánh cắp bởi một kẻ xảo quyệt. Sự thiếu cẩn trọng trong việc bảo quản đồ đạc đã dẫn đến hậu quả khó cứu vãn."
       }
     },
     "planet": "Sao Kim",
@@ -12677,6 +13197,46 @@ window.TAROT_DB = [
       "general": {
         "upright": "Vua Kiếm báo hiệu thời điểm cần tư duy rõ ràng, hành động quyết đoán và làm chủ trí tuệ. Hãy tiếp cận các tình huống bằng logic, sự trung thực và cam kết với sự thật. Sử dụng trí óc của bạn để vượt qua sự bối rối và đưa ra những phán đoán công bằng.",
         "reversed": "Cảnh báo về việc quá khắt khe, lạnh lùng hoặc thao túng. Lời nói của bạn có thể gây tổn thương, hoặc trí tuệ của bạn có thể bị sử dụng cho mục đích ích kỷ. Cẩn thận với sự cứng nhắc, hoài nghi và xa cách cảm xúc."
+      },
+      "friendship": {
+        "upright": "Tình bằng hữu được xây đắp trên nền tảng của sự chân thành, minh bạch và trí tuệ. Bạn có thể tìm thấy người bạn tri kỷ là một cố vấn đáng tin cậy, người luôn đưa ra lời khuyên sắc bén và công tâm.",
+        "reversed": "Cẩn trọng những mối quan hệ độc đoán, nơi một người bạn cố gắng kiểm soát hoặc áp đặt quan điểm lên bạn. Cũng có thể là sự lạnh lùng, thiếu thấu cảm khiến tình bạn trở nên xa cách."
+      },
+      "pregnancy": {
+        "upright": "Một quyết định mang thai được cân nhắc kỹ lưỡng, dựa trên lý trí và sự chuẩn bị vững vàng. Người cha thể hiện vai trò lãnh đạo, bảo vệ và mang lại sự ổn định, an toàn cho gia đình.",
+        "reversed": "Sự độc đoán, kiểm soát quá mức trong việc mang thai hoặc làm cha, gây áp lực lên người bạn đời. Cũng có thể là sự lạnh nhạt, thiếu trách nhiệm, khiến hành trình làm cha mẹ trở nên căng thẳng."
+      },
+      "gossip": {
+        "upright": "Bằng trí tuệ và sự công tâm, bạn dễ dàng dẹp tan mọi lời đồn thổi vô căn cứ, không để thị phi làm ảnh hưởng đến danh dự và uy tín của mình. Lời nói của bạn có trọng lượng, mang tính xác thực cao.",
+        "reversed": "Trở thành mục tiêu của những lời phán xét khắc nghiệt, buộc tội sai trái hoặc chính bạn là người dùng quyền lực, lời nói để thao túng, bôi nhọ danh tiếng của người khác."
+      },
+      "legal": {
+        "upright": "Công lý được thực thi một cách tuyệt đối, công bằng và không thiên vị. Đây là thời điểm lý tưởng để giải quyết các vấn đề pháp lý, nơi sự thật sẽ được phơi bày và những phán quyết sáng suốt sẽ được đưa ra.",
+        "reversed": "Sự bất công, lạm dụng quyền lực hoặc một phán quyết sai lầm gây ra hậu quả nghiêm trọng. Bạn có thể đối mặt với những rắc rối pháp lý phức tạp, nơi sự thật bị che đậy bởi mưu đồ và sự tham nhũng."
+      },
+      "moving": {
+        "upright": "Một quyết định di chuyển được đưa ra dựa trên sự tính toán chiến lược, mục tiêu rõ ràng và sự chuẩn bị kỹ lưỡng. Bạn đang tìm kiếm một môi trường mới mang lại sự phát triển trí tuệ và quyền lực.",
+        "reversed": "Sự trì hoãn do phân tích quá mức, hoặc một quyết định di chuyển vội vàng nhưng thiếu sự chuẩn bị, dẫn đến những rắc rối pháp lý hoặc sự bất ổn ở nơi chốn mới."
+      },
+      "pet": {
+        "upright": "Thú cưng được chăm sóc với sự kỷ luật, huấn luyện nghiêm khắc nhưng công bằng. Mối quan hệ giữa bạn và chúng được xây dựng trên sự tôn trọng lẫn nhau và sự hiểu biết rõ ràng về ranh giới.",
+        "reversed": "Sự độc đoán, kiểm soát quá mức đối với thú cưng, hoặc thiếu kiên nhẫn trong việc huấn luyện, khiến chúng trở nên sợ hãi hoặc phản kháng."
+      },
+      "dream": {
+        "upright": "Giấc mơ mang thông điệp rõ ràng, như một lời chỉ dẫn từ trí tuệ siêu việt. Hãy ghi nhớ và phân tích chúng một cách logic để tìm ra hướng đi đúng đắn cho các vấn đề trong cuộc sống.",
+        "reversed": "Ác mộng phản ánh sự hỗn loạn trong tư duy, nỗi sợ hãi mất kiểm soát hoặc cảm giác bị áp bức. Tâm trí đang bị vây hãm bởi những suy nghĩ độc đoán, thiếu đi sự tự do."
+      },
+      "past_life": {
+        "upright": "Ở một dòng thời gian xa xưa, linh hồn bạn từng là một vị vua, một thẩm phán, một nhà khoa học hay một triết gia, người đã dùng trí tuệ và quyền lực để thiết lập trật tự, công lý. Dấu ấn của sự minh triết và lãnh đạo vẫn còn hiện hữu.",
+        "reversed": "Những vết sẹo từ kiếp trước có thể là sự lạm dụng quyền lực, sự độc đoán hoặc đã từng gây ra những phán quyết bất công, khiến bạn mang theo gánh nặng của sự lạnh lùng và áp đặt."
+      },
+      "karma": {
+        "upright": "Nhân quả đang gieo hạt giống của sự công bằng và minh bạch. Những quyết định sáng suốt, hành động chính trực của bạn sẽ nhận lại sự tôn trọng, uy tín và quyền lực xứng đáng.",
+        "reversed": "Quả báo đến từ sự lạm dụng quyền lực, những phán xét độc đoán hoặc việc sử dụng trí tuệ để thao túng, gây tổn hại. Giờ nay, bạn phải đối mặt với hậu quả của sự bất công và sự cô lập."
+      },
+      "lost_item": {
+        "upright": "Món đồ thất lạc có thể được tìm thấy bằng cách áp dụng tư duy logic, hệ thống và sự tỉ mỉ. Hãy rà soát lại các khu vực một cách có tổ chức, nơi cần sự quản lý chặt chẽ.",
+        "reversed": "Vật phẩm mất đi do sự thiếu tổ chức, quản lý lỏng lẻo hoặc do bị đánh cắp bởi một người có mưu đồ. Sự chủ quan và thiếu cẩn trọng đã dẫn đến hậu quả khó cứu vãn."
       }
     },
     "planet": "Sao Thiên Vương",
@@ -12740,6 +13300,46 @@ window.TAROT_DB = [
         "rev": "Quá bám víu vào vật chất, bỏ quên sự phát triển tâm hồn.",
         "upright": "Tìm thấy sự kết nối tâm linh ngay trong thế giới vật chất (grounding). Sự biết ơn sâu sắc với những phước lành mà vũ trụ ban tặng, hiểu rằng cơ thể là đền thờ của linh hồn.",
         "reversed": "Mất đi sự kết nối với thiên nhiên và cơ thể. Linh hồn lạc lối giữa những khao khát vật chất phù phiếm, quên mất sự hiện diện của mình trong giây phút hiện tại."
+      },
+      "friendship": {
+        "upright": "Một tình bạn mới chớm nở, mang đến sự ổn định, đáng tin cậy và những cơ hội hợp tác thực tế. Mối quan hệ này có tiềm năng phát triển bền vững, gieo mầm cho những giá trị vật chất và tinh thần.",
+        "reversed": "Một cơ hội kết giao bạn bè bị bỏ lỡ hoặc một mối quan hệ mới mang đến sự thất vọng về vật chất, thiếu đi sự chân thành hoặc không có nền tảng vững chắc để phát triển lâu dài."
+      },
+      "pregnancy": {
+        "upright": "Điềm báo của một khởi đầu mới mẻ và vững chắc cho việc mang thai hoặc sinh con. Đây là thời điểm thuận lợi để gieo mầm sự sống, mang lại sự ổn định và sung túc cho gia đình.",
+        "reversed": "Những trì hoãn hoặc trở ngại trong kế hoạch mang thai. Có thể là sự thiếu chuẩn bị về tài chính, sức khỏe hoặc một cơ hội mang thai bị bỏ lỡ do sự thiếu thực tế."
+      },
+      "gossip": {
+        "upright": "Tin đồn không có căn cứ sẽ sớm tan biến, vì sự thật luôn vững vàng như đất. Hãy tập trung vào những giá trị thực tế và không để những lời ong tiếng ve làm xao nhãng mục tiêu của bạn.",
+        "reversed": "Những lời đồn đại có thể gây ra tổn thất về tài chính hoặc danh tiếng. Cẩn trọng với những thông tin sai lệch có chủ đích, chúng có thể phá hoại những thành quả vật chất mà bạn đã dày công gây dựng."
+      },
+      "legal": {
+        "upright": "Một khởi đầu thuận lợi cho các vấn đề pháp lý, mang lại sự ổn định và công bằng. Cơ hội để đạt được một thỏa thuận có lợi, một phán quyết công tâm, hoặc giải quyết tranh chấp một cách thực tế.",
+        "reversed": "Sự trì hoãn, thất bại trong các vấn đề pháp lý hoặc một thỏa thuận không như mong đợi. Có thể bạn đang đối mặt với những rắc rối liên quan đến tài chính hoặc tài sản, cần sự cẩn trọng cao độ."
+      },
+      "moving": {
+        "upright": "Một cơ hội tuyệt vời để chuyển đến một nơi ở mới, mang lại sự ổn định, an toàn và những tiềm năng phát triển vật chất. Đây là khởi đầu cho một cuộc sống vững chắc và thịnh vượng.",
+        "reversed": "Sự trì hoãn trong việc di chuyển hoặc một quyết định chuyển nhà thiếu thực tế, dẫn đến những khó khăn về tài chính, thiếu sự ổn định ở nơi chốn mới."
+      },
+      "pet": {
+        "upright": "Một khởi đầu mới với thú cưng, mang lại sự gắn kết bền chặt và niềm vui giản dị. Có thể là việc nhận nuôi một con vật mới, hoặc thú cưng của bạn mang đến sự ổn định, an lành cho ngôi nhà.",
+        "reversed": "Thú cưng có thể gặp vấn đề về sức khỏe hoặc bạn đang bỏ lỡ cơ hội chăm sóc chúng đúng cách. Cẩn trọng với những chi phí phát sinh không mong muốn liên quan đến vật nuôi."
+      },
+      "dream": {
+        "upright": "Giấc mơ báo hiệu những cơ hội vật chất đang đến gần, một khởi đầu mới đầy hứa hẹn về sự ổn định và thịnh vượng. Hãy lắng nghe trực giác để nắm bắt những dấu hiệu của sự may mắn.",
+        "reversed": "Ác mộng phản ánh nỗi sợ hãi mất mát, sự bất an về tài chính hoặc cảm giác bị mắc kẹt trong những vấn đề vật chất. Cần xem xét lại những kế hoạch và mục tiêu thực tế của bản thân."
+      },
+      "past_life": {
+        "upright": "Ở một dòng thời gian xa xưa, linh hồn bạn từng là một người nông dân, một thợ thủ công hoặc một nhà buôn, chuyên tâm xây dựng những giá trị vật chất bền vững. Dấu ấn của sự thực tế và kiên định vẫn còn hiện hữu.",
+        "reversed": "Những vết sẹo từ kiếp trước có thể là sự thiếu thốn, mất mát tài sản hoặc đã từng quá tham lam, coi trọng vật chất hơn tất cả, khiến bạn mang theo nỗi lo lắng về tiền bạc."
+      },
+      "karma": {
+        "upright": "Nhân quả đang gieo hạt giống của sự sung túc và ổn định. Những nỗ lực lao động chân chính, sự cống hiến thực tế của bạn sẽ nhận lại những thành quả xứng đáng, tạo dựng nền tảng vững chắc.",
+        "reversed": "Quả báo đến từ sự lãng phí, thiếu trách nhiệm với tài sản hoặc sự tham lam, bóc lột. Giờ nay, bạn phải đối mặt với hậu quả của sự thiếu thốn, mất mát hoặc những rắc rối về tài chính."
+      },
+      "lost_item": {
+        "upright": "Món đồ thất lạc có thể được tìm thấy ở những nơi quen thuộc, liên quan đến công việc hoặc tài chính của bạn. Hãy tìm kiếm ở những nơi bạn thường xuyên cất giữ đồ đạc có giá trị.",
+        "reversed": "Vật phẩm mất đi do sự bất cẩn, thiếu chú ý đến chi tiết hoặc do bị đánh cắp. Đây là lời nhắc nhở về việc cần phải cẩn trọng hơn trong việc bảo quản tài sản của mình."
       }
     },
     "planet": "Nguyên tố Đất",
@@ -12933,6 +13533,46 @@ window.TAROT_DB = [
       "general": {
         "upright": "Cuộc sống là một hành trình cần sự cân bằng, đòi hỏi khả năng thích nghi, linh hoạt và thái độ vui vẻ trước sự thay đổi. Bạn đang quản lý thành công nhiều khía cạnh cùng lúc.",
         "reversed": "Bạn đang cảm thấy quá tải, vật lộn với sự bất ổn, thiếu quyết đoán, phán đoán kém hoặc thiếu cân bằng trong các lĩnh vực khác nhau của cuộc sống."
+      },
+      "friendship": {
+        "upright": "Tình bạn lúc này như một điệu vũ uyển chuyển, đòi hỏi bạn phải khéo léo cân bằng giữa những mối quan hệ và trách nhiệm. Sự linh hoạt sẽ giúp bạn giữ vững sợi dây gắn kết dù cuộc sống có lắm thăng trầm.",
+        "reversed": "Sợi dây tình bạn đang chùng xuống vì sự mất cân bằng hoặc quá tải. Một bên có thể đang ôm đồm quá nhiều, hoặc sự thiếu quyết đoán trong việc ưu tiên khiến những mối thân tình dần phai nhạt."
+      },
+      "pregnancy": {
+        "upright": "Giai đoạn này đòi hỏi sự uyển chuyển và khéo léo để dung hòa giữa việc mang thai cùng những khía cạnh khác của cuộc sống. Hãy tin vào khả năng thích nghi của bạn để đón nhận thiên chức thiêng liêng này.",
+        "reversed": "Nỗi lo âu về việc không thể dung hòa giữa trách nhiệm làm mẹ và các bổn phận khác đang đè nặng. Sự thiếu quyết đoán hoặc quá tải có thể ảnh hưởng đến cả mẹ và bé, cần tìm lại sự cân bằng."
+      },
+      "gossip": {
+        "upright": "Bạn có khả năng lướt đi nhẹ nhàng qua những làn sóng thị phi, không để mình bị cuốn vào vòng xoáy đấu đá. Sự khéo léo trong giao tiếp giúp bạn giữ vững vị thế trung lập và không bị ảnh hưởng.",
+        "reversed": "Bạn đang bị cuốn vào vòng xoáy của lời đồn thổi, hoặc chính bạn đang khó khăn trong việc phân định thật giả. Sự thiếu cân nhắc có thể khiến bạn vô tình trở thành người gieo rắc thị phi."
+      },
+      "legal": {
+        "upright": "Các vấn đề pháp lý đòi hỏi sự linh hoạt và khả năng điều chỉnh liên tục. Hãy sẵn sàng cho những thay đổi bất ngờ và tìm cách cân bằng giữa các lựa chọn để đạt được kết quả tốt nhất.",
+        "reversed": "Sự thiếu quyết đoán hoặc không thể cân bằng giữa các phương án đang làm trì trệ tiến trình pháp lý. Cẩn trọng những rắc rối phát sinh từ việc ôm đồm quá nhiều hoặc không có chiến lược rõ ràng."
+      },
+      "moving": {
+        "upright": "Quyết định chuyển đổi nơi ở đòi hỏi sự cân nhắc linh hoạt giữa nhiều yếu tố. Hãy chuẩn bị tinh thần cho những thay đổi và tin rằng bạn có thể thích nghi với môi trường mới một cách dễ dàng.",
+        "reversed": "Sự do dự, không thể đưa ra quyết định cuối cùng về việc di chuyển đang tạo ra sự trì trệ. Hoặc việc chuyển đổi diễn ra trong hỗn loạn, thiếu sự cân bằng, gây ra nhiều phiền toái không đáng có."
+      },
+      "pet": {
+        "upright": "Việc chăm sóc thú cưng lúc này đòi hỏi sự linh hoạt và khả năng dung hòa giữa nhu cầu của chúng và lịch trình của bạn. Tình yêu thương và sự thích nghi sẽ tạo nên mối liên kết bền chặt.",
+        "reversed": "Bạn đang gặp khó khăn trong việc cân bằng giữa việc chăm sóc thú cưng và các trách nhiệm khác, dẫn đến sự xao nhãng hoặc cảm giác quá tải. Cần sắp xếp lại ưu tiên để tránh ảnh hưởng đến chúng."
+      },
+      "dream": {
+        "upright": "Giấc mơ phản ánh nhu cầu tìm kiếm sự cân bằng và linh hoạt trong cuộc sống. Vũ trụ đang nhắc nhở bạn hãy uyển chuyển đón nhận những thay đổi và tìm thấy niềm vui trong dòng chảy cuộc đời.",
+        "reversed": "Ác mộng về sự mất kiểm soát, rơi tự do hoặc cố gắng nắm giữ nhiều thứ cùng lúc cho thấy bạn đang quá tải. Đây là lời cảnh báo về việc cần buông bỏ bớt gánh nặng và tìm lại sự bình yên."
+      },
+      "past_life": {
+        "upright": "Trong tiền kiếp, bạn là người có khả năng thích ứng tuyệt vời, thường xuyên di chuyển và khéo léo trong việc cân bằng các mối quan hệ, công việc. Bài học về sự linh hoạt đã được khắc sâu vào linh hồn.",
+        "reversed": "Tiền kiếp của bạn có thể đã chìm trong sự do dự, mất cân bằng hoặc không thể thích nghi với hoàn cảnh, dẫn đến những bài học về sự ổn định và quyết đoán đang lặp lại ở kiếp này."
+      },
+      "karma": {
+        "upright": "Nhân quả đang mang đến những bài học về sự linh hoạt và khả năng thích nghi. Mọi nỗ lực cân bằng và điều chỉnh của bạn sẽ được đền đáp bằng sự ổn định và an lạc trong cuộc sống.",
+        "reversed": "Nghiệp chướng cũ liên quan đến sự thiếu cân nhắc, mất cân bằng hoặc không chịu trách nhiệm với những lựa chọn của mình đang quay trở lại. Hãy học cách đối mặt và điều chỉnh để hóa giải."
+      },
+      "lost_item": {
+        "upright": "Món đồ thất lạc không thực sự biến mất, nó chỉ đang lẫn lộn giữa nhiều vật dụng khác do sự sắp xếp vội vã. Hãy xem xét lại những nơi bạn thường xuyên đặt nhiều thứ cùng lúc.",
+        "reversed": "Vật phẩm đã mất đi do sự thiếu tổ chức hoặc ôm đồm quá nhiều thứ cùng lúc. Sự hỗn loạn trong tâm trí và môi trường sống đã khiến món đồ bị cuốn vào nơi khó tìm thấy."
       }
     },
     "planet": "Sao Mộc",
@@ -12997,6 +13637,46 @@ window.TAROT_DB = [
         "rev": "Cái tôi quá lớn, không chấp nhận sự khác biệt trong tư tưởng của người khác.",
         "upright": "Sự kết nối với một cộng đồng tâm linh mang lại sự hỗ trợ và phát triển sâu sắc. Bạn học hỏi được từ những người đi trước và đóng góp giá trị của mình vào sự tiến hóa chung.",
         "reversed": "Sự cô lập, từ chối việc chia sẻ và học hỏi. Bạn trở nên bảo thủ với những trải nghiệm tâm linh của mình, bỏ lỡ những góc nhìn sâu sắc từ cộng đồng."
+      },
+      "friendship": {
+        "upright": "Những mối thâm giao đang được vun đắp dựa trên sự hợp tác và mục tiêu chung. Đây là thời điểm tuyệt vời để cùng bạn bè kiến tạo điều gì đó ý nghĩa, học hỏi lẫn nhau và cùng tiến bộ.",
+        "reversed": "Sự bất đồng hoặc thiếu sự công nhận trong tình bạn đang gây rạn nứt. Cẩn trọng những mối quan hệ mà bạn cảm thấy mình đang cống hiến mà không được đáp lại, hoặc bị lợi dụng sức lực, ý tưởng."
+      },
+      "pregnancy": {
+        "upright": "Hành trình đón nhận thiên thần nhỏ đang diễn ra trong sự hợp tác và chuẩn bị kỹ lưỡng. Hãy tìm kiếm sự hỗ trợ từ người thân, chuyên gia để cùng nhau xây dựng nền tảng vững chắc cho gia đình.",
+        "reversed": "Sự thiếu đồng thuận hoặc không nhận được sự hỗ trợ cần thiết từ những người xung quanh đang gây khó khăn cho việc chuẩn bị đón bé. Cẩn trọng những lời khuyên thiếu chuyên môn hoặc sự can thiệp quá mức."
+      },
+      "gossip": {
+        "upright": "Lời đồn đoán có thể xuất phát từ môi trường làm việc nhóm hoặc các dự án hợp tác. Hãy tập trung vào mục tiêu chung và không để những lời bàn tán nhỏ nhặt làm ảnh hưởng đến hiệu quả công việc.",
+        "reversed": "Thị phi đang nổi lên từ sự thiếu chuyên nghiệp hoặc xung đột nội bộ trong một nhóm. Cẩn trọng những lời nói dèm pha, chia rẽ gây tổn hại đến danh tiếng và công sức chung."
+      },
+      "legal": {
+        "upright": "Các vấn đề pháp lý sẽ được giải quyết tốt nhất thông qua sự hợp tác chặt chẽ với luật sư và các bên liên quan. Hãy tin tưởng vào chuyên môn và cùng nhau xây dựng một chiến lược vững chắc.",
+        "reversed": "Sự thiếu hợp tác hoặc bất đồng quan điểm đang cản trở tiến trình pháp lý. Cẩn trọng những lời khuyên thiếu căn cứ hoặc sự can thiệp từ những người không có chuyên môn gây bất lợi cho bạn."
+      },
+      "moving": {
+        "upright": "Việc chuyển đổi nơi ở sẽ diễn ra suôn sẻ nhờ vào sự chung tay góp sức của gia đình, bạn bè hoặc các dịch vụ chuyên nghiệp. Cùng nhau, bạn sẽ kiến tạo một không gian sống mới đầy tiện nghi.",
+        "reversed": "Sự thiếu hỗ trợ hoặc mâu thuẫn trong quá trình di chuyển đang gây ra nhiều trở ngại. Có thể bạn đang cảm thấy đơn độc trong việc sắp xếp hoặc không hài lòng với dịch vụ đã thuê."
+      },
+      "pet": {
+        "upright": "Việc chăm sóc thú cưng lúc này cần sự hợp tác từ các thành viên trong gia đình hoặc sự tư vấn từ chuyên gia. Cùng nhau học hỏi và áp dụng những phương pháp tốt nhất để xây dựng mối quan hệ bền chặt.",
+        "reversed": "Sự bất đồng trong cách chăm sóc hoặc thiếu cam kết từ các thành viên đang gây ra vấn đề cho thú cưng. Cần có sự thống nhất và tìm kiếm lời khuyên từ những người có chuyên môn."
+      },
+      "dream": {
+        "upright": "Giấc mơ báo hiệu bạn đang ở ngưỡng cửa của một dự án hợp tác hoặc sắp nhận được sự công nhận cho tài năng của mình. Hãy tin tưởng vào khả năng của bản thân và sức mạnh của sự đoàn kết.",
+        "reversed": "Ác mộng về sự cô lập, bị bỏ rơi khỏi một nhóm hoặc không được công nhận tài năng. Đây là lời nhắc nhở bạn cần xem xét lại môi trường làm việc hoặc cách bạn tương tác với tập thể."
+      },
+      "past_life": {
+        "upright": "Kiếp trước, bạn là một nghệ nhân tài hoa, một người thợ lành nghề, hoặc một thành viên quan trọng trong một tập thể, nơi bạn đã cống hiến tài năng và nhận được sự tôn vinh xứng đáng.",
+        "reversed": "Trong tiền kiếp, tài năng của bạn có thể đã bị chôn vùi, không được công nhận hoặc bạn đã gặp khó khăn trong việc hòa nhập vào một cộng đồng, dẫn đến bài học về giá trị bản thân ở kiếp này."
+      },
+      "karma": {
+        "upright": "Nhân quả đang mỉm cười với những đóng góp chân thành và sự hợp tác của bạn. Mọi nỗ lực chung tay kiến tạo sẽ được đền đáp bằng thành công vang dội và sự tôn trọng từ cộng đồng.",
+        "reversed": "Nghiệp chướng cũ liên quan đến việc không hoàn thành trách nhiệm trong nhóm, lợi dụng công sức người khác hoặc không tôn trọng chuyên môn đang đòi hỏi bạn phải đối mặt và sửa chữa."
+      },
+      "lost_item": {
+        "upright": "Món đồ thất lạc có thể đang nằm lẫn trong khu vực làm việc chung hoặc liên quan đến một dự án tập thể. Hãy tìm kiếm ở những nơi mà nhiều người cùng sử dụng hoặc cùng làm việc.",
+        "reversed": "Vật phẩm đã mất đi do sự thiếu tổ chức trong một không gian chung hoặc do sự bất cẩn trong quá trình làm việc nhóm. Nó có thể đã bị bỏ quên trong sự hỗn loạn của một dự án dang dở."
       }
     },
     "planet": "Sao Hỏa",
@@ -13191,6 +13871,46 @@ window.TAROT_DB = [
       "general": {
         "upright": "Lá Bốn Tiền cho thấy bạn đang rất tập trung vào sự an toàn, ổn định và bảo vệ những gì mình có. Điều này có thể là tích cực, thể hiện sự trách nhiệm và nền tảng vững chắc. Tuy nhiên, nó cũng có thể biểu thị sự sở hữu, nỗi sợ hãi mất mát hoặc sự kháng cự thay đổi. Hãy tự hỏi bạn đang níu giữ điều gì và tại sao.",
         "reversed": "Lá Bốn Tiền đảo ngược báo hiệu sự buông bỏ kiểm soát, giải phóng khỏi vật chất hoặc thói quen cũ, và trở nên cởi mở, hào phóng hơn. Nó cũng có thể chỉ ra sự bất an, cô lập hoặc một cuộc đấu tranh để cân bằng giữa việc giữ và buông. Đây là lời kêu gọi bạn xem xét liệu bạn có đang níu giữ quá chặt hay không."
+      },
+      "friendship": {
+        "upright": "Những mối thân tình lúc này mang lại cảm giác an toàn và ổn định. Bạn đang trân trọng và bảo vệ những người bạn thân thiết, tạo dựng một vòng tròn an toàn đầy gắn kết và tin cậy.",
+        "reversed": "Tình bạn đang bị thử thách bởi sự cố chấp, kiểm soát hoặc nỗi sợ hãi mất mát. Sự giữ khư khư một mối quan hệ có thể khiến nó trở nên ngột ngạt, hoặc bạn đang quá keo kiệt trong việc sẻ chia tình cảm."
+      },
+      "pregnancy": {
+        "upright": "Đây là giai đoạn bạn tập trung vào việc kiến tạo một nền tảng vững chắc và an toàn cho gia đình. Mọi quyết định đều hướng đến sự ổn định tài chính và một môi trường bảo bọc cho thai nhi.",
+        "reversed": "Nỗi lo lắng thái quá về tài chính hoặc sự kiểm soát cứng nhắc đang gây áp lực lên hành trình mang thai. Sự bám víu vào những thứ cũ kỹ hoặc sợ hãi thay đổi có thể ảnh hưởng đến tâm lý mẹ bầu."
+      },
+      "gossip": {
+        "upright": "Bạn đang giữ vững lập trường và bảo vệ danh tiếng của mình trước những lời đồn thổi. Sự kín đáo và không tham gia vào thị phi giúp bạn duy trì sự thanh liêm và uy tín.",
+        "reversed": "Bạn đang trở thành mục tiêu của những lời đàm tiếu do sự cứng nhắc, keo kiệt hoặc thái độ quá kiểm soát. Hoặc bạn đang giữ những bí mật quá chặt chẽ, vô tình tạo ra sự tò mò và nghi ngờ."
+      },
+      "legal": {
+        "upright": "Các vấn đề pháp lý đang tập trung vào việc bảo vệ tài sản, quyền lợi và thiết lập ranh giới rõ ràng. Một chiến lược phòng thủ vững chắc sẽ giúp bạn giữ vững những gì mình đang có.",
+        "reversed": "Các rắc rối pháp lý phát sinh từ sự cố chấp, không chịu nhượng bộ hoặc bám víu vào những điều đã cũ. Sự cứng nhắc có thể khiến bạn mất đi nhiều hơn những gì bạn cố gắng giữ lại."
+      },
+      "moving": {
+        "upright": "Quyết định chuyển đổi nơi ở được thúc đẩy bởi mong muốn tìm kiếm sự ổn định và an toàn lâu dài. Bạn đang kiến tạo một tổ ấm vững chãi, nơi bạn có thể an tâm cắm rễ.",
+        "reversed": "Sự chần chừ, không muốn rời bỏ những gì quen thuộc hoặc nỗi sợ hãi mất mát đang cản trở việc di chuyển. Sự bám víu vào tài sản hoặc địa điểm cũ có thể khiến bạn bỏ lỡ cơ hội tốt hơn."
+      },
+      "pet": {
+        "upright": "Bạn đang cung cấp một môi trường sống an toàn, ổn định và đầy đủ cho thú cưng. Tình yêu thương được thể hiện qua việc bảo vệ và đảm bảo phúc lợi tối đa cho người bạn bốn chân.",
+        "reversed": "Bạn đang thể hiện sự kiểm soát thái quá hoặc quá bảo bọc thú cưng, khiến chúng mất đi sự tự do cần thiết. Hoặc sự keo kiệt trong việc chăm sóc có thể ảnh hưởng đến sức khỏe và tinh thần của chúng."
+      },
+      "dream": {
+        "upright": "Giấc mơ về sự an toàn, sở hữu hoặc xây dựng một nền tảng vững chắc phản ánh mong muốn kiểm soát và bảo vệ những gì bạn trân trọng trong cuộc sống hiện tại.",
+        "reversed": "Ác mộng về việc bị giam cầm, mất mát tài sản hoặc cảm giác ngột ngạt cho thấy bạn đang quá bám víu vào vật chất hoặc sợ hãi mất kiểm soát. Hãy học cách buông bỏ để tìm thấy sự tự do."
+      },
+      "past_life": {
+        "upright": "Trong tiền kiếp, bạn là người rất coi trọng sự an toàn, có thể là một chủ đất, một người tích trữ của cải, hoặc một người bảo vệ cộng đồng. Bài học về sự ổn định đã hình thành nên con người bạn.",
+        "reversed": "Tiền kiếp của bạn có thể đã bị ám ảnh bởi sự tham lam, tích trữ quá mức hoặc kiểm soát quyền lực, dẫn đến những bài học về sự buông bỏ và chia sẻ ở kiếp này."
+      },
+      "karma": {
+        "upright": "Nhân quả đang đền đáp cho sự thận trọng, có trách nhiệm và khả năng bảo vệ những gì mình có. Mọi nỗ lực xây dựng nền tảng vững chắc sẽ mang lại sự an toàn và thịnh vượng bền vững.",
+        "reversed": "Nghiệp chướng cũ liên quan đến sự ích kỷ, tham lam, cố chấp hoặc không chịu chia sẻ đang quay trở lại. Bạn cần học cách buông bỏ, tin tưởng và mở lòng để hóa giải những rào cản này."
+      },
+      "lost_item": {
+        "upright": "Món đồ thất lạc đang ở một nơi an toàn, có thể đã được cất giữ cẩn thận đến mức bạn quên mất. Hãy tìm kiếm ở những nơi bạn thường cất giữ những vật quý giá hoặc quan trọng.",
+        "reversed": "Vật phẩm đã mất đi do sự bám víu quá mức hoặc cố gắng giấu giếm nó quá kỹ. Sự biến mất này là một bài học về sự buông bỏ, cho thấy đôi khi việc giữ chặt quá mức lại dẫn đến mất mát."
       }
     },
     "planet": "Mặt Trời",
@@ -13255,6 +13975,46 @@ window.TAROT_DB = [
         "rev": "Tìm lại được đức tin, ánh sáng của hy vọng chiếu rọi tâm hồn.",
         "upright": "Một cuộc khủng hoảng đức tin tột độ. Bạn cảm thấy bị đấng tối cao bỏ rơi giữa cơn bão, linh hồn lạnh lẽo, tuyệt vọng và từ chối nhìn thấy những ánh sáng nhân đạo nhỏ bé xung quanh.",
         "reversed": "Sự trở về với ánh sáng thiêng liêng. Bạn nhận ra những thử thách này là bài học để trưởng thành sự thấu cảm. Lòng biết ơn trỗi dậy khi bạn đón nhận tình yêu thương vô điều kiện của vũ trụ."
+      },
+      "friendship": {
+        "upright": "Tình bằng hữu đang trải qua mùa đông khắc nghiệt, khi giá lạnh của thiếu thốn vật chất hay tinh thần bủa vây, khiến bạn cảm thấy lạc lõng giữa dòng người. Hãy nhìn sâu vào mắt những ai vẫn còn kề bên khi bão tố ập đến.",
+        "reversed": "Sau cơn bĩ cực, tình bạn được hàn gắn như những vết nứt tìm thấy ánh sáng. Những tri kỷ tưởng chừng đã quay lưng nay có thể trở lại, hoặc bạn tìm thấy những tâm hồn đồng điệu giữa gian nan."
+      },
+      "pregnancy": {
+        "upright": "Bóng mây lo âu về tài chính hay sức khỏe đang giăng lối trên hành trình thiêng liêng. Cảm giác cô độc, thiếu vắng vòng tay sẻ chia trong chặng đường đón chào sinh linh bé bỏng.",
+        "reversed": "Ánh sáng hy vọng lóe lên sau giai đoạn khó khăn. Sức khỏe dần hồi phục, nguồn lực bất ngờ xuất hiện, xua tan nỗi lo tài chính, mở đường cho một thai kỳ an lành hơn."
+      },
+      "gossip": {
+        "upright": "Bạn đang là tâm điểm của những lời đàm tiếu lạnh lùng, bị cộng đồng xa lánh hay phán xét vì hoàn cảnh ngặt nghèo. Cảm giác bị loại trừ khỏi vòng tròn xã hội bởi những lời thì thầm đầy ác ý.",
+        "reversed": "Cơn bão thị phi đã qua, bạn tìm thấy bình yên và không còn bận tâm đến những lời ra tiếng vào. Hoặc sự thật về hoàn cảnh của bạn được phơi bày, dập tắt ngọn lửa tin đồn."
+      },
+      "legal": {
+        "upright": "Một cuộc chiến pháp lý đầy gian nan, hao tổn cả tiền bạc lẫn tinh thần. Cảm giác bất công, bị bỏ rơi bởi cán cân công lý, hoặc không đủ khả năng để tìm kiếm lẽ phải.",
+        "reversed": "Một lối thoát bất ngờ hé mở cho những rắc rối pháp lý tưởng chừng bế tắc. Dấu hiệu của sự hỗ trợ pháp lý, hoặc một thỏa thuận công bằng hơn đang đến."
+      },
+      "moving": {
+        "upright": "Cuộc chuyển dời đầy ám ảnh bởi sự thiếu thốn, buộc phải rời bỏ chốn cũ vì gánh nặng mưu sinh. Cảm giác mất mát, không có nơi nương tựa vững chãi, lạc lõng giữa miền đất lạ.",
+        "reversed": "Sau chuỗi ngày lang bạt, một bến đỗ an yên hơn đang chờ đợi. Hoặc sự giúp đỡ từ những người xung quanh sẽ đưa bạn đến một mái ấm tốt đẹp hơn."
+      },
+      "pet": {
+        "upright": "Người bạn bốn chân đang gặp vấn đề sức khỏe nghiêm trọng, đòi hỏi sự hy sinh lớn về tài chính và tinh thần. Cảm giác bất lực khi không thể lo cho chúng đầy đủ trong cơn hoạn nạn.",
+        "reversed": "Tìm thấy phương thuốc diệu kỳ cho thú cưng, hoặc nhận được sự hỗ trợ từ cộng đồng yêu thương động vật. Tình hình tài chính cải thiện, giúp bạn gánh vác trách nhiệm chăm sóc tốt hơn."
+      },
+      "dream": {
+        "upright": "Giấc mộng chìm trong bóng tối của sự mất mát, nghèo đói và cô độc. Những hình ảnh lạnh lẽo, hoang tàn ám ảnh cõi vô thức, phản chiếu nỗi sợ hãi sâu thẳm trong lòng.",
+        "reversed": "Ánh sáng hy vọng rạng rỡ trong giấc mơ, báo hiệu hồi kết cho giai đoạn khó khăn. Hình ảnh được che chở, tìm thấy lối thoát, hoặc sự ấm áp trở lại sưởi ấm tâm hồn."
+      },
+      "past_life": {
+        "upright": "Ở một dòng thời gian xa xưa, linh hồn bạn từng trải qua kiếp sống đầy gian truân, bị xã hội ruồng bỏ. Dấu vết của sự cô đơn, mất mát từ tiền kiếp vẫn còn in hằn trong tâm thức hiện tại.",
+        "reversed": "Những bài học về sự kiên cường và khả năng vượt lên nghịch cảnh từ tiền kiếp đang trỗi dậy. Bạn đang chữa lành những vết thương cũ, tái tạo niềm tin và sức mạnh nội tại."
+      },
+      "karma": {
+        "upright": "Đây là lúc gánh chịu quả báo cho những hành động vô tâm, thiếu trách nhiệm trong quá khứ, đặc biệt là sự thờ ơ trước nỗi đau của người khác. Nghiệp quả đang đòi hỏi sự chuộc lỗi.",
+        "reversed": "Dòng chảy nghiệp quả đang chuyển mình theo hướng tích cực. Bằng cách dũng cảm đối mặt và vượt qua thử thách, bạn đang thanh tẩy món nợ cũ, mở ra cánh cửa cho lòng trắc ẩn và sự giúp đỡ."
+      },
+      "lost_item": {
+        "upright": "Món đồ quý giá đã thất lạc trong hoàn cảnh éo le, hoặc bạn không còn đủ sức lực để tìm kiếm. Cảm giác bất lực, không còn chút hy vọng nào để tìm lại vật đã mất.",
+        "reversed": "Một tia hy vọng nhỏ nhoi hé lộ, món đồ có thể được tìm thấy nhờ sự giúp đỡ của một người bất ngờ, hoặc một sự tình cờ may mắn. Hoặc bạn học cách chấp nhận và buông bỏ."
       }
     },
     "planet": "Sao Thủy",
@@ -13320,6 +14080,46 @@ window.TAROT_DB = [
         "rev": "Làm từ thiện chỉ để đánh bóng tên tuổi, khoe khoang hoặc mong cầu báo đáp.",
         "upright": "Thấu hiểu quy luật nhân quả (Karma) vĩ đại của vũ trụ: những gì bạn cho đi với trái tim thuần khiết sẽ quay trở lại nhân lên gấp bội. Sự giác ngộ thông qua lòng vị tha.",
         "reversed": "Sự ngạo mạn tâm linh, tự cho mình là người cứu rỗi kẻ khác. Việc làm từ thiện chỉ để thỏa mãn cái tôi và mua chuộc danh tiếng, chối bỏ bản chất thực sự của lòng từ bi."
+      },
+      "friendship": {
+        "upright": "Một tình bạn nở rộ trên nền đất của sự sẻ chia và lòng hào hiệp. Có thể bạn đang là bàn tay nâng đỡ, hoặc chính bạn đang đón nhận ân huệ chân thành từ một tri kỷ.",
+        "reversed": "Sự mất cân bằng đang gặm nhấm tình bằng hữu, khi cán cân cho và nhận nghiêng lệch. Hãy cảnh giác với những mối quan hệ lợi dụng, hoặc sự giúp đỡ mang theo điều kiện ngầm."
+      },
+      "pregnancy": {
+        "upright": "Hành trình mang thai được ban phước bởi sự hỗ trợ tài chính và tinh thần dồi dào. Có thể là vòng tay ấm áp của gia đình, bạn bè, hoặc sự che chở từ các tổ chức nhân ái.",
+        "reversed": "Sự thiếu thốn hỗ trợ đang đè nặng, hoặc cảm giác bị lợi dụng trong giai đoạn nhạy cảm này. Cần cẩn trọng với những lời hứa hẹn hão huyền hay sự giúp đỡ có ẩn ý."
+      },
+      "gossip": {
+        "upright": "Bạn đứng lên bảo vệ một tâm hồn đang bị bủa vây bởi thị phi, hoặc chính những hành động thiện lương của bạn đang tỏa sáng, dập tắt mọi lời đồn ác ý.",
+        "reversed": "Những nghĩa cử cao đẹp của bạn đang bị bóp méo, xuyên tạc thành động cơ vụ lợi. Hãy thận trọng khi chia sẻ thông tin, tránh trở thành nạn nhân của những kẻ thao túng."
+      },
+      "legal": {
+        "upright": "Cán cân công lý đang nghiêng về phía bạn, một phán quyết công bằng đang đến. Hoặc bạn nhận được sự hỗ trợ pháp lý cần thiết để giải quyết vấn đề, mang lại sự cân bằng.",
+        "reversed": "Sự bất công đang hiển hiện trong pháp luật, hoặc bạn đang bị lợi dụng trong một cuộc chiến pháp lý. Hãy soi xét kỹ lưỡng các điều khoản, tránh bị thao túng."
+      },
+      "moving": {
+        "upright": "Vũ trụ ban tặng sự hỗ trợ tài chính hoặc vật chất để bạn an cư lạc nghiệp. Có thể là một khoản vay ưu đãi, một người cho thuê nhà tốt bụng, hoặc vòng tay giúp đỡ từ những người thân yêu.",
+        "reversed": "Đối mặt với khó khăn tài chính khi di chuyển, hoặc bị lừa gạt trong các giao dịch nhà đất. Hãy cảnh giác với những lời đề nghị quá hấp dẫn, thiếu minh bạch."
+      },
+      "pet": {
+        "upright": "Bạn đang dang tay cứu giúp một sinh linh bé nhỏ bị bỏ rơi, hoặc nhận được sự hỗ trợ để chăm sóc người bạn bốn chân của mình. Đây là lá bài của lòng trắc ẩn và sự sẻ chia đối với vạn vật.",
+        "reversed": "Cẩn trọng khi nhận nuôi thú cưng mà chưa đủ điều kiện chăm sóc. Hoặc có thể bạn đang bị lợi dụng bởi những kẻ trục lợi từ lòng tốt của bạn dành cho động vật."
+      },
+      "dream": {
+        "upright": "Giấc mộng của sự ban phước, nhận được ân huệ hoặc quà tặng từ một bàn tay vô hình. Phản ánh khao khát được sẻ chia, hoặc lòng biết ơn sâu sắc với những gì mình đang có.",
+        "reversed": "Giấc mơ cảnh báo về sự mất cân bằng, cảm giác bị lợi dụng hoặc gánh nặng nợ nần. Có thể là nỗi sợ hãi không thể trả ơn, hoặc cảm thấy bị áp lực bởi sự giúp đỡ của người khác."
+      },
+      "past_life": {
+        "upright": "Ở kiếp trước, linh hồn bạn từng là một nhà hảo tâm, một người luôn dang tay giúp đỡ kẻ yếu thế. Nghiệp tốt từ tiền kiếp đang trổ hoa, mang lại sự hỗ trợ và phước lành trong kiếp này.",
+        "reversed": "Tiền kiếp có thể bạn đã từng lợi dụng người khác hoặc thiếu lòng biết ơn. Bài học về sự công bằng và lòng tri ân đang được lặp lại, để bạn học cách cho và nhận đúng đắn."
+      },
+      "karma": {
+        "upright": "Đây là thời điểm của sự cân bằng nghiệp quả, khi những hạt giống thiện lành gieo trồng trong quá khứ đang đơm hoa kết trái. Bạn đang gieo mầm cho một tương lai đầy phước lành bằng lòng từ bi.",
+        "reversed": "Nghiệp quả về sự thiếu công bằng hoặc hành động lợi dụng đang đến hồi tính sổ. Hãy nhìn lại cách bạn cho và nhận, đảm bảo không có sự thao túng hay tham lam ẩn giấu."
+      },
+      "lost_item": {
+        "upright": "Món đồ thất lạc có thể được tìm thấy nhờ sự giúp đỡ của người khác, hoặc được trả lại một cách bất ngờ. Hoặc bạn sẽ tìm thấy nó khi đang dang tay giúp đỡ một ai đó.",
+        "reversed": "Món đồ bị mất có thể liên quan đến một sự cho vay không rõ ràng, hoặc bị người khác giữ lại với ý đồ xấu. Hãy cẩn trọng với những thỏa thuận tài chính thiếu minh bạch."
       }
     },
     "planet": "Mặt Trăng",
@@ -13513,6 +14313,46 @@ window.TAROT_DB = [
       "general": {
         "upright": "Lá Bảy Tiền là lời nhắc nhở về sự kiên nhẫn, đầu tư và chờ đợi thành quả. Bạn đã gieo trồng những hạt giống, giờ là lúc nhìn lại quá trình, đánh giá những gì đã đạt được và kiên trì chờ đợi mùa gặt.",
         "reversed": "Lá Bảy Tiền ngược cho thấy sự nản lòng, thất vọng hoặc cảm giác lãng phí công sức. Có thể bạn đang thiếu kiên nhẫn, muốn bỏ cuộc quá sớm hoặc đã đầu tư sai chỗ."
+      },
+      "friendship": {
+        "upright": "Một tình bạn cần thời gian và sự kiên nhẫn để vun đắp, như người nông phu gieo hạt chờ mùa. Bạn đang đầu tư tâm huyết, chờ đợi quả ngọt của sự tin cậy và thấu hiểu sâu sắc.",
+        "reversed": "Sự thiếu kiên nhẫn đang làm phai nhạt một tình bạn tiềm năng. Hoặc bạn cảm thấy công sức đã đổ vào mối quan hệ không được đền đáp, dẫn đến sự thất vọng và muốn buông tay."
+      },
+      "pregnancy": {
+        "upright": "Hành trình mang thai hoặc cố gắng thụ thai là một cuộc đầu tư dài hạn, đòi hỏi sự kiên nhẫn vô bờ bến. Bạn đang chờ đợi kết quả của một quá trình gieo hạt đầy hy vọng.",
+        "reversed": "Sự sốt ruột, lo lắng đang bủa vây, khiến bạn muốn thúc đẩy quá trình. Cẩn trọng với những quyết định vội vàng có thể ảnh hưởng đến kết quả, hoặc cảm giác nản lòng khi chưa thấy thành quả."
+      },
+      "gossip": {
+        "upright": "Bạn đang chọn cách im lặng và kiên nhẫn trước những lời đồn đại, tin rằng thời gian sẽ là minh chứng cho sự thật. Đây là giai đoạn quan sát, đánh giá mà không vội vàng phản ứng.",
+        "reversed": "Sự thiếu kiên nhẫn khiến bạn vội vàng đáp trả tin đồn, làm tình hình trở nên phức tạp hơn. Hoặc cảm thấy kiệt sức vì những lời gièm pha kéo dài mà không thấy hồi kết."
+      },
+      "legal": {
+        "upright": "Một cuộc chiến pháp lý kéo dài như một vụ mùa, đòi hỏi sự kiên nhẫn và chuẩn bị kỹ lưỡng. Bạn đang đầu tư thời gian và công sức, chờ đợi một phán quyết công bằng sẽ đến vào đúng thời điểm.",
+        "reversed": "Sự nản lòng trước guồng quay pháp lý chậm chạp, hoặc muốn bỏ cuộc vì cảm thấy công sức đổ sông đổ bể. Cẩn trọng với những quyết định hấp tấp có thể gây thiệt hại lớn."
+      },
+      "moving": {
+        "upright": "Việc di chuyển hoặc mua nhà đang ở giai đoạn ươm mầm, đòi hỏi sự kiên nhẫn chờ đợi và đầu tư cẩn trọng. Bạn đang đánh giá từng lựa chọn để gặt hái một quyết định an cư bền vững.",
+        "reversed": "Sự sốt ruột muốn di chuyển ngay lập tức mà không tính toán kỹ lưỡng. Hoặc cảm thấy thất vọng vì quá trình bị trì hoãn, không đạt được kết quả như mong đợi."
+      },
+      "pet": {
+        "upright": "Việc huấn luyện hoặc chăm sóc thú cưng là một hành trình dài của sự kiên nhẫn và tận tâm. Bạn đang gieo mầm yêu thương, xây dựng mối quan hệ bền chặt với người bạn bốn chân.",
+        "reversed": "Sự thiếu kiên nhẫn trong việc huấn luyện hoặc chăm sóc thú cưng đang dẫn đến sự thất vọng, thậm chí bỏ bê. Cảm thấy công sức bỏ ra không được đền đáp xứng đáng."
+      },
+      "dream": {
+        "upright": "Giấc mộng về những hạt mầm đang cựa mình nảy nở, về một vụ mùa bội thu sau những tháng ngày chờ đợi. Phản ánh sự kiên nhẫn, hy vọng vào tương lai và niềm tin vào thành quả lao động.",
+        "reversed": "Giấc mơ của sự thất vọng, hình ảnh cây cối khô héo hoặc vụ mùa thất bát. Phản ánh sự nản lòng, cảm giác công sức đổ sông đổ bể, hoặc nỗi sợ hãi về một tương lai mờ mịt."
+      },
+      "past_life": {
+        "upright": "Ở một dòng thời gian xa xưa, linh hồn bạn từng là một nông phu cần mẫn, một nghệ nhân tinh xảo, đã dành cả đời để vun đắp nên một kiệt tác. Bài học về sự kiên trì và chờ đợi thành quả đang hiển lộ.",
+        "reversed": "Có thể ở tiền kiếp bạn đã từng bỏ cuộc giữa chừng, hoặc đầu tư sai chỗ. Bài học về sự kiên định và đánh giá đúng giá trị đang được mang lại để bạn học cách gieo trồng khôn ngoan."
+      },
+      "karma": {
+        "upright": "Đây là thời điểm gặt hái những quả ngọt từ những hạt giống thiện lương, kiên trì gieo trồng trong quá khứ. Nghiệp quả đang đền đáp sự cống hiến và lòng kiên nhẫn của bạn bằng những phước lành bất ngờ.",
+        "reversed": "Nghiệp quả đang nhắc nhở về những hành động thiếu kiên nhẫn, bỏ cuộc sớm hoặc đầu tư vào những điều không xứng đáng. Hãy nhìn lại những quyết định trong quá khứ để tránh lặp lại sai lầm."
+      },
+      "lost_item": {
+        "upright": "Món đồ thất lạc có thể được tìm thấy sau một thời gian dài tìm kiếm, hoặc xuất hiện trở lại khi bạn không còn mong đợi. Đòi hỏi sự kiên nhẫn và niềm tin không lay chuyển.",
+        "reversed": "Sự nản lòng khiến bạn từ bỏ việc tìm kiếm quá sớm. Hoặc món đồ đã bị mất do sự thiếu kiên nhẫn, không sắp xếp gọn gàng từ trước, nay khó lòng tìm lại được."
       }
     },
     "planet": "Sao Thổ",
