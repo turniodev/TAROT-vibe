@@ -78,6 +78,7 @@ $user_data = $stmt->fetch();
 // Đăng nhập free => 3/ngày
 // Gói trả phí => theo plan
 $is_anonymous = str_ends_with($user_email, '@tarot.local');
+// $max_draws = $is_anonymous ? 10 : 10;
 $max_draws = 999999; // Tạm thời mở không giới hạn theo yêu cầu
 
 if ($user_data && $user_data['plan_expiry_date'] && strtotime($user_data['plan_expiry_date']) > time()) {

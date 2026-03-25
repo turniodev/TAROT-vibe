@@ -448,6 +448,13 @@
           <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line>
         </svg>
       </button>
+      <p class="donate-text"
+        style="text-align: center; margin-top: 16px; font-family: 'EB Garamond', serif; font-size: 0.95rem; color: rgba(232, 180, 255, 0.7); cursor: pointer; line-height: 1.5;"
+        onclick="document.getElementById('donateModal').classList.add('visible')">
+        Mystery Tarot free by turniodev<br>
+        <span style="color: var(--c-gold); text-decoration: underline; text-underline-offset: 3px;">buy me a coffee
+          đen</span>
+      </p>
     </div>
     <!-- Floating history button -->
     <button id="btnHistoryAnalysis" class="btn-float-icon" title="Lịch sử trải bài">
@@ -610,8 +617,13 @@
       <div class="dict-header">
         <h2 class="dict-title">Sách Phép Tarot</h2>
         <div class="dict-search-wrap">
-          <svg class="dict-search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
-          <input type="text" id="dictSearch" class="dict-search-input" placeholder="Tìm tên hoặc ý nghĩa..." autocomplete="off">
+          <svg class="dict-search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="2">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+          <input type="text" id="dictSearch" class="dict-search-input" placeholder="Tìm tên hoặc ý nghĩa..."
+            autocomplete="off">
         </div>
         <button id="btnDictClose" class="dict-close">&times;</button>
       </div>
@@ -633,6 +645,32 @@
     <div class="cd-panel">
       <button id="btnCdClose" class="cd-close">&times;</button>
       <div class="cd-content" id="cdContent"></div>
+    </div>
+  </div>
+
+  <!-- ===================== DONATE MODAL ===================== -->
+  <div id="donateModal" class="cd-modal" style="z-index: 100000;"
+    onclick="if(event.target === this) this.classList.remove('visible');">
+    <div class="cd-panel" style="max-width: 340px; text-align: center; padding: 30px 24px;">
+      <button id="btnDonateClose" class="cd-close"
+        onclick="document.getElementById('donateModal').classList.remove('visible')">&times;</button>
+      <h2
+        style="font-family: 'Philosopher', serif; color: var(--c-gold); font-size: 1.35rem; margin-bottom: 16px; letter-spacing: 0.05em;">
+        Buy Me A Coffee ☕
+      </h2>
+      <img src="cards/icon/qrme.jpg" alt="QR Code Donate"
+        style="width: 100%; max-width: 250px; border-radius: 8px; margin-bottom: 20px; border: 2px solid rgba(201, 168, 76, 0.5);" />
+      <div style="font-family: 'EB Garamond', serif; font-size: 1.1rem;">
+        <a href="https://www.facebook.com/turni0" target="_blank"
+          style="color: rgba(232, 180, 255, 0.9); text-decoration: none; display: inline-flex; align-items: center; gap: 8px; transition: color 0.3s;"
+          onmouseover="this.style.color='var(--c-gold)'" onmouseout="this.style.color='rgba(232, 180, 255, 0.9)'">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+          </svg>
+          @turni0
+        </a>
+      </div>
     </div>
   </div>
 

@@ -10,7 +10,12 @@ window.ClarifyData = {
     "Bạn có đang kỳ vọng quá cao vào một hình mẫu tình yêu không có thực?",
     "Có phải bạn rất muốn bộc lộ nỗi lòng thật nhưng lại sợ bị từ chối?",
     "Bạn có cảm nhận được sự mất cân bằng về sự quan tâm trong mối quan hệ này không?",
-    "Bạn có đang để những lời dị nghị xung quanh ảnh hưởng đến quyết định của mình?"
+    "Bạn có đang để những lời dị nghị xung quanh ảnh hưởng đến quyết định của mình?",
+    "Bạn có đang dùng sự tổn thương như một tấm khiên để cự tuyệt hạnh phúc thực sự?",
+    "Có phải tận sâu trong lòng, bạn luôn trực chờ sự phản bội để chứng minh mình đúng?",
+    "Bạn yêu con người thật của đối phương hay chỉ yêu ảo ảnh do chính mình thêu dệt?",
+    "Lời hứa hẹn từ ngày cũ có đang biến thành chiếc gông xiết chặt sự tự do của bạn?",
+    "Nếu giữ lại đoạn tình này đòi hỏi bạn phải tàn nhẫn với chính mình, bạn có chùn bước?"
   ],
   career: [
     "Bạn có đang cảm thấy áp lực hoặc chênh vênh với định hướng công việc hiện tại không?",
@@ -22,7 +27,12 @@ window.ClarifyData = {
     "Có sự cạnh tranh ngầm nào đó nơi công sở khiến bạn liên tục phải cảnh giác?",
     "Bạn có đang đánh đổi đam mê cá nhân chỉ để duy trì trạng thái an toàn trong công việc?",
     "Mâu thuẫn giữa lý tưởng của bạn và thực tế sếp yêu cầu có đang làm bạn nản lòng?",
-    "Bạn có cảm thấy mông lung về mục tiêu thăng tiến trong 3 năm tới không?"
+    "Bạn có cảm thấy mông lung về mục tiêu thăng tiến trong 3 năm tới không?",
+    "Khát vọng vươn lên của bạn là vì đam mê hay chỉ để trả thù những kẻ từng khinh rẻ mình?",
+    "Có phải đằng sau vỏ bọc bận rộn chăm chỉ là một nỗi sợ hãi tột cùng về sự vô dụng?",
+    "Bạn mải mê theo đuổi danh vọng nhưng lại bỏ quên chính bản ngã của mình từ bao giờ?",
+    "Cái tôi quá lớn có đang làm bạn mù quáng trước những cơ hội cần sự khiêm nhường?",
+    "Nếu ngày mai vinh quang sụp đổ, bạn có còn giữ lại được chút giá trị cốt lõi nào không?"
   ],
   finance: [
     "Bạn có đang gặp khó khăn trong việc cân đối chi tiêu và các khoản đầu tư không?",
@@ -34,7 +44,12 @@ window.ClarifyData = {
     "Bạn có cảm giác mình làm việc rất vất vả nhưng tiền bạc lại tiêu hao vào những việc vô hình?",
     "Sự ám ảnh về việc phải thành công nhanh chóng có đang chi phối chi tiêu của bạn?",
     "Bạn có do dự khi muốn thương lượng một mức lương hoặc mức giá tốt hơn cho mình?",
-    "Có phải một khoản nợ từ quá khứ vẫn đang khiến bạn canh cánh mỗi ngày?"
+    "Có phải một khoản nợ từ quá khứ vẫn đang khiến bạn canh cánh mỗi ngày?",
+    "Bạn có đang dùng vật chất làm thước đo độc tôn để bao biện cho sự giằng xé nội tâm?",
+    "Sự chắt bóp kiệt cùng này có đang tước đoạt đi những ý nghĩa sống tối thiểu nhất của bạn?",
+    "Đồng tiền dường như đang trở thành lằn ranh chia cắt bạn với những chân tình thật dạ?",
+    "Bạn có đang dùng sự hào nhoáng để cắm rễ sự tự tin giả tạo trước ánh mắt khắt khe của đời?",
+    "Bạn có bao giờ dám nhìn thẳng vào món nợ cảm xúc mà mình đang lấy tiền ra lấp liếm?"
   ],
   health: [
     "Bạn có đang bỏ bê việc lắng nghe cơ thể và các tín hiệu mệt mỏi gần đây không?",
@@ -46,7 +61,12 @@ window.ClarifyData = {
     "Bạn có thường xuyên trì hoãn các kỳ kiểm tra y tế tổng quát vì sợ phát hiện bệnh?",
     "Bạn có dành đủ thời gian để vận động và tái tạo thể chất ngoài giờ làm việc?",
     "Có phải bạn đang áp dụng một chế độ ăn kiêng hoặc luyện tập quá khắc nghiệt?",
-    "Bạn có đang cảm thấy cạn kiệt năng lượng cả về mặt cảm xúc lẫn cơ bắp?"
+    "Bạn có đang cảm thấy cạn kiệt năng lượng cả về mặt cảm xúc lẫn cơ bắp?",
+    "Sự tàn phá cơ thể này có phải là cách bạn tự trừng phạt bản thân vì những lỗi lầm cũ?",
+    "Bạn có đang vô tình dùng bệnh tật như một vũ khí để níu giữ sự quan tâm từ người khác?",
+    "Có phải tiếng gào thét của cơ thể đang bị bạn khóa chặt hoàn toàn bằng những thói quen lảng tránh?",
+    "Bạn luôn miệng than phiền mệt mỏi nhưng lại cố chấp đâm đầu vào những vòng lặp tự bào mòn?",
+    "Việc quay lại trạng thái khỏe mạnh có làm bạn sợ hãi vì sẽ phải đối mặt với áp lực kỳ vọng lớn hơn?"
   ],
   self: [
     "Bạn có đang cảm thấy mất kết nối với mục đích sống thực sự của mình không?",
@@ -58,7 +78,12 @@ window.ClarifyData = {
     "Bạn có thường xuyên so sánh chặng đường của mình với thành công của người khác?",
     "Có phải bạn đang cố gắng sắm vai một người hoàn hảo để không ai phải thất vọng?",
     "Sự tổn thương từ tuổi trẻ có đang định hình cách bạn phản ứng trước áp lực hiện tại?",
-    "Bạn có cảm nhận được sự thôi thúc cần một khoảng nghỉ để tìm lại bản ngã?"
+    "Bạn có cảm nhận được sự thôi thúc cần một khoảng nghỉ để tìm lại bản ngã?",
+    "Bạn có đang diễn một vở kịch đạt đến mức chính mình cũng hoang mang quên mất khuôn mặt thật?",
+    "Đằng sau việc luôn nhận thiệt thòi bao dung, có chăng là một linh hồn đang gào thét mong được xót thương?",
+    "Sự gồng mình kiêu hãnh của bạn phải chăng chỉ là vách ngăn tuyệt vọng che lấp nỗi thèm khát thấu hiểu?",
+    "Bạn có dám dùng móng vuốt cào nát cái vỏ bọc hoàn hảo để nhìn thẳng vào vũng lầy hoang mang bên trong?",
+    "Nếu tước đi những danh phận lấp lánh hiện tại, bạn có còn đủ dũng khí đối mặt với chính linh hồn mình?"
   ],
 
   // LOVE Subthemes
@@ -72,7 +97,12 @@ window.ClarifyData = {
     "Bạn có đang dành thời gian trau dồi bản thân thay vì suốt ngày chờ đợi tình yêu?",
     "Có phải bạn vẫn hay so sánh những người mới quen với hình bóng trong quá khứ?",
     "Bạn có nghĩ rằng môi trường sống hiện tại quá hẹp để có thể gặp được định mệnh?",
-    "Sự rụt rè trong tính cách có phải là tác nhân khiến bạn bỏ lỡ nhiều cơ hội tốt?"
+    "Sự rụt rè trong tính cách có phải là tác nhân khiến bạn bỏ lỡ nhiều cơ hội tốt?",
+    "Bạn đang khao khát tình yêu duy nhất hay chỉ thèm khát thứ cảm giác có người khỏa lấp sự trống vắng?",
+    "Sự kén chọn khắt khe cường điệu đó có phải là lớp mặt nạ che giấu nỗi sợ hãi gắn kết vĩnh viễn?",
+    "Có bao giờ bạn nhận ra vầng hào quang độc thân tự hào của mình đang dần nhuốm màu cô độc tái tê?",
+    "Bạn có đang ngấm ngầm ghen tị với những người hạnh phúc quanh mình vì sự bất mãn tình cảm sâu xa?",
+    "Nếu người duy nhất chịu yêu lấy mọi khuyết điểm của bạn lại quá đỗi bình phàm, bạn có dám nhận lời?"
   ],
   crush: [
     "Bạn có cảm thấy đối phương cũng đang bật đèn xanh lại với mình không?",
@@ -84,7 +114,12 @@ window.ClarifyData = {
     "Bạn có đang vô tình bỏ qua những dấu hiệu từ chối khéo từ người ấy không?",
     "Có phải sự tồn tại của một 'vệ tinh' nào khác đang khiến bạn bồn chồn lo lắng?",
     "Bạn có nghĩ rằng đoạn tình cảm này đang ảnh hưởng quá nhiều đến tâm trí bạn?",
-    "Nếu người ấy chỉ coi bạn là bạn bè, bạn có sẵn lòng giữ nguyên mối quan hệ đó không?"
+    "Nếu người ấy chỉ coi bạn là bạn bè, bạn có sẵn lòng giữ nguyên mối quan hệ đó không?",
+    "Bạn yêu người đó hay chỉ si mê cảm giác trái tim được kích thích điên cuồng bởi sự vờn đuổi?",
+    "Chút ân cần nhỏ nhặt của họ có đáng để bạn hạ nhục lòng tự tôn của chính mình để bám víu?",
+    "Có bao giờ bạn nhận ra bản thân đang ngầm trở thành một quân cờ để thỏa mãn cái tôi của họ?",
+    "Nếu họ thẳng thừng giẫm đạp mọi hi vọng, bạn sẽ tỉnh mộng hay lại tiếp tục vớt vát đến thảm hại?",
+    "Bạn có tự huyễn hoặc mình bằng những tín hiệu mù mờ chỉ vì quá sợ đối mặt với cái kết phũ phàng?"
   ],
   relationship: [
     "Có phải giữa hai bạn đang thiếu đi sự giao tiếp và lắng nghe sâu sắc?",
@@ -96,7 +131,12 @@ window.ClarifyData = {
     "Bạn có thường xuyên có cảm giác bất an khi người ấy không ở bên cạnh bạn?",
     "Có phải bạn đang nín nhịn những bất mãn nhỏ nhặt vì sợ gây ra cãi vã lớn?",
     "Hai người có dành đủ thời gian chất lượng cho nhau dù lịch trình bận rộn không?",
-    "Bạn có thực sự cảm thấy bình yên và được là chính mình khi ở trong tình yêu này?"
+    "Bạn có thực sự cảm thấy bình yên và được là chính mình khi ở trong tình yêu này?",
+    "Sự bình tĩnh hiện tại có thực chất là rêu phong che đậy một ngọn núi lửa bất mãn sắp đến lúc nổ tung?",
+    "Hai người đang thực sự đồng hành hay chỉ đang trói nhau vào một bản án chung thân đầy khiên cưỡng?",
+    "Bạn có đang cắt gọt bản thân đến ứa máu chỉ để khớp hoàn hảo với khuôn mẫu ích kỷ của người ấy?",
+    "Có phải cả hai đều thấy rõ vực thẳm ngăn cách vô hình nhưng lại đồng lõa làm ngơ để níu kéo an toàn?",
+    "Tình yêu ấy có đủ dũng khí để bao dung cho một sự thật tàn nhẫn nhất nếu bị lột trần trước ánh sáng?"
   ],
   conflict_love: [
     "Có phải cái tôi của mỗi người đang quá lớn, át đi sự thấu hiểu?",
@@ -108,7 +148,12 @@ window.ClarifyData = {
     "Có phải nguyên nhân chính của mâu thuẫn đến từ bên thứ ba (gia đình, bạn bè...)?",
     "Bạn có sẵn lòng gạt bỏ bớt nguyên tắc cá nhân để thỏa hiệp cho êm ấm không?",
     "Mâu thuẫn này có đang làm ảnh hưởng trầm trọng đến tinh thần và công việc của bạn?",
-    "Nếu người ấy chịu chủ động xin lỗi trước, vòng xoáy xung đột này có chấm dứt không?"
+    "Nếu người ấy chịu chủ động xin lỗi trước, vòng xoáy xung đột này có chấm dứt không?",
+    "Bạn gào thét trong cuộc cãi vã này để thỏa mãn cái tôi chiến thắng hay để thực sự đoạt lại sự thấu cảm?",
+    "Sự im lặng ngoan cố của bạn đang trừng phạt đối phương hay đang dần bóp nghẹt chính nhịp thở tâm hồn bạn?",
+    "Những chọc ngoáy sát thương kia có thực sự giải tỏa phẫn nộ hay chỉ để lại vết sẹo rỉ máu không thể xóa?",
+    "Có phải cả hai đang dùng nước mắt như thứ vũ khí sắc lẹm để áp đặt sự phục tùng vào linh hồn người kia?",
+    "Xung đột này là giọt nước tràn ly cho một cuộc ly biệt đã được định đoạt từ tận những tổn thương thủa trước?"
   ],
   ex: [
     "Có phải bạn vẫn mong mỏi một ngày người ấy sẽ thay đổi và quay lại?",
@@ -120,7 +165,12 @@ window.ClarifyData = {
     "Có phải nguyên nhân chia tay vốn dĩ không thể hòa giải dù có thêm cơ hội nữa?",
     "Hình bóng người cũ có đang ngăn cản bạn đón nhận những người mới bước vào đời?",
     "Nếu người đó quay lại với cùng những tính cách tổn thương cũ, bạn có chấp nhận nữa không?",
-    "Bạn đã thực sự tha thứ cho bản thân vì những khuyết điểm trong mối tình đó chưa?"
+    "Bạn đã thực sự tha thứ cho bản thân vì những khuyết điểm trong mối tình đó chưa?",
+    "Bạn nhớ thương quá khứ hay đơn giản là không cam nhẫn với vị thế của kẻ bị vứt lại trong vũng bùn bơ vơ?",
+    "Sự oán hận tận xương tủy đó có phải là sợi dây mỏng manh duy nhất giúp bạn cảm thấy họ vẫn còn dính líu?",
+    "Việc dõi theo những tin tức cũ có đang tự tay lăng trì những nhánh hy vọng vừa chớm nở trong hiện tại?",
+    "Bạn có nhận ra hình bóng đó đang bị chính bạn thần thánh hóa để tìm cớ từ chối những tình cảm chân thực mới?",
+    "Nếu người ấy quay lại với một bộ dạng tan nát tột cùng nhất, thứ bạn trao là tình yêu hay chỉ là sự xót hại?"
   ],
   marriage: [
     "Có phải áp lực tài chính hoặc gia đình đang ảnh hưởng đến hôn nhân của bạn?",
@@ -132,7 +182,12 @@ window.ClarifyData = {
     "Bạn có cảm giác hôn nhân này đang dần biến thành một thói quen hoặc nghĩa vụ khô khan?",
     "Nếu chỉ hai người đối diện với nhau mà không vướng bận con cái, liệu còn chủ đề chung?",
     "Bí mật tài chính giấu giếm nào đó có đang làm sứt mẻ niềm tin giữa vợ chồng không?",
-    "Có phải bạn bắt đầu chán nản vì những tật xấu của người ấy lặp lại quá nhiều năm?"
+    "Có phải bạn bắt đầu chán nản vì những tật xấu của người ấy lặp lại quá nhiều năm?",
+    "Tờ hôn thú liệu có đang là xiềng xích gỉ sét kiềm tỏa một linh hồn khao khát được cháy lại với cuộc đời?",
+    "Sau những lo toan bỉm sữa điện nước, hai người có còn đủ rung động nhục dục và ánh nhìn của những kẻ đang yêu?",
+    "Sự phản bội tư tưởng có từng lóe lên trong não bộ bạn vào những cằn nhằn mỏi mệt bên bàn ăn tối nghẹn đắng?",
+    "Có phải bạn đang đem nghĩa vụ con cái ra làm mũi tiêm gây tê cho một cuộc sống lứa đôi đã chết lâm sàng?",
+    "Lựa chọn níu giữ cái vỏ bọc gia đình kiểu mẫu này có đang bắt bạn phải trả giá bằng tiếng khóc cạn vào cõi lòng?"
   ],
   toxic: [
     "Bạn có nhận ra mình đang liên tục bào chữa cho những hành vi tổn thương của đối phương?",
@@ -144,7 +199,12 @@ window.ClarifyData = {
     "Ban có đang đánh mất đi lòng tự trọng chỉ để đổi lấy sự chú ý ít ỏi từ họ không?",
     "Mối quan hệ này có làm bạn cạn kiệt năng lượng, khóc nhiều hơn là cười?",
     "Có phải họ luôn đẩy trách nhiệm và đổ lỗi cho bạn trong mọi rắc rối không?",
-    "Bạn có tin rằng mình thà chịu đau một lần rối thoát ra còn hơn kéo dài sự độc hại này?"
+    "Bạn có tin rằng mình thà chịu đau một lần rối thoát ra còn hơn kéo dài sự độc hại này?",
+    "Bạn nghiện người đó hay nghiện chất kịch độc đang ngày ngày gặm nhấm lòng tự tôn cuối cùng của chính mình?",
+    "Sự thao túng tinh vi của họ đã tẩy não bạn đến mức bạn tự dằn vặt rằng mọi sự tàn nhẫn đều do lỗi tại mình?",
+    "Việc liên tục bị chà đạp có manh nha mang lại cho bạn một cảm giác an toàn quen thuộc nhưng tăm tối bệnh hoạn?",
+    "Đã bao giờ bạn tự hỏi sự nấn ná thỏa hiệp này sẽ đổi lấy một đoạn kết tàn phế triệt để cả thể xác lẫn tâm hồn?",
+    "Bạn thà để họ tước đoạt toàn bộ dưỡng khí hạnh phúc còn hơn là phải tự mình lập cõi sống giữa cô đơn trống rỗng?"
   ],
   soulmate: [
     "Bạn có cảm nhận được sự đồng điệu mãnh liệt về mặt tâm hồn với người này?",
@@ -156,7 +216,12 @@ window.ClarifyData = {
     "Đôi khi các bạn có những quãng ngắt kết nối (separation) vô cớ để rồi lại hội ngộ sâu sắc hơn?",
     "Việc ở bên người đó có giúp bạn khai phá những tiềm năng tinh thần ẩn giấu không?",
     "Bạn có linh cảm rằng người này sinh ra là mảnh ghép còn thiếu hoàn hảo của bạn?",
-    "Dù chặng đường có nhiều đau khổ và thử thách, bạn vẫn sẵn lòng bước tiếp cùng họ chứ?"
+    "Dù chặng đường có nhiều đau khổ và thử thách, bạn vẫn sẵn lòng bước tiếp cùng họ chứ?",
+    "Lực hút tâm linh mãnh liệt này có đang đốt cháy rụi chút lý trí sắc bén cuối cùng giúp bạn sinh tồn an toàn?",
+    "Liệu danh xưng 'nhân duyên' có phải là lý do hoàn hảo nhất để bạn viện cớ cho những đau đớn đến xé ruột?",
+    "Có phải sự thấu hiểu tận cùng không che giấu lại chính là lưỡi dao găm sắc ngọt nhất có thể cào rách tâm can bạn?",
+    "Phải chăng vũ trụ cố tình mang họ đến chỉ để phá nát thế giới quan tự lừa dối bao lâu nay của bạn thành tro trụi?",
+    "Nếu bài toán nghiệp quả mâu thuẫn khép lại bằng sự chia ly ở cõi dương gian, bạn có đành lòng tự tại buông tay?"
   ],
 
   // CAREER Subthemes
@@ -170,7 +235,12 @@ window.ClarifyData = {
     "Tính chất công việc hiện tại có gây ảnh hưởng tiêu cực đến sức khỏe cột sống/tinh thần bạn?",
     "Bạn có đang ôm đồm nhiều phần việc không đáng có do cả nể những đồng nghiệp khác?",
     "Công việc này có mang lại cho bạn lộ trình thăng tiến rõ rệt trong tương lai không?",
-    "Nếu phải đánh giá, bạn ở lại công ty hiện tại chỉ vì môi trường quen thuộc đúng không?"
+    "Nếu phải đánh giá, bạn ở lại công ty hiện tại chỉ vì môi trường quen thuộc đúng không?",
+    "Bạn đang cống hiến để tạo giá trị thực thụ hay chỉ đang bán dần những mảnh sinh lực để đổi lấy đồng lương hèn?",
+    "Sự ngoan ngoãn phục tùng chốn công sở của bạn có phải là tàn tích của sự nhu nhược không dám tự khẳng định mình?",
+    "Khối lượng công việc khổng lồ này có vô tình là vỏ bọc hoàn hảo nhất để bạn trốn tránh sự cô độc khi về nhà?",
+    "Nếu bạn đột ngột nhường bước, vị trí đắc ý này có dễ dàng bị lấp đầy bởi một con cờ thay thế khác trong tích tắc?",
+    "Bạn định tự huyễn hoặc mình bằng điệp khúc 'cố nốt năm nay rồi tính' cho đến khi thanh xuân sức trẻ tàn úa sao?"
   ],
   change: [
     "Bạn có đang sợ hãi sự bất định của việc bắt đầu lại từ con số không?",
@@ -182,7 +252,12 @@ window.ClarifyData = {
     "Bạn đã làm đủ nghiên cứu về nhu cầu thị trường đối với lựa chọn nghề nghiệp mới chưa?",
     "Việc chuyển đổi này có giúp bạn giải quyết được nút thắt khó gỡ lớn nhất hiện tại?",
     "Nếu lựa chọn một ngành ít danh tiếng nhưng hạnh phúc hơn, bạn có dốc lòng nỗ lực?",
-    "Bạn có chấp nhận lùi lại một bậc chức vụ/lương thưởng để đánh đổi lấy sự học hỏi mới?"
+    "Bạn có chấp nhận lùi lại một bậc chức vụ/lương thưởng để đánh đổi lấy sự học hỏi mới?",
+    "Sự đòi hỏi bứt phá mãnh liệt này có len lỏi ảo tưởng sức mạnh rằng chốn cũ không xứng tầm với độ vĩ đại của bạn?",
+    "Bao nhiêu phần trăm trong khát vọng đổi mới là nguyện vọng thành tâm, bao nhiêu là sự trốn chạy sự hèn kém hiện tại?",
+    "Bạn có đủ lì lợm mang tấm thân trần trụi đối đầu với giông sét dập vùi khi tháo chạy khỏi căn hầm trú ẩn an toàn?",
+    "Thay đổi môi trường vỏ bọc có che lấp được cái thái độ làm việc trì trệ đã mưng mủ theo bạn từ những tháng năm qua?",
+    "Trực tiếp đạp đổ bệ phóng hiện có để nếm trải sự điên rồ của lý tưởng, bạn có cam lòng chuốc lấy trái đắng thất bại?"
   ],
   conflict_work: [
     "Có phải nguyên nhân chính của mâu thuẫn đến từ sự cạnh tranh không lành mạnh?",
@@ -194,7 +269,12 @@ window.ClarifyData = {
     "Có phải ai đó đang cố tình nhận công lao từ kết quả mà bạn đã đổ mồ hôi sôi nước mắt?",
     "Sự bất đồng quan điểm chuyên môn có đang bị chuyển hóa thành thù hằn cá nhân không?",
     "Bạn đã thử trao đổi trực tiếp và thẳng thắn với người đó thay vì nói sau lưng chưa?",
-    "Nếu tình trạng này không được cải thiện, bạn đã chuẩn bị phương án nộp đơn từ chức chưa?"
+    "Nếu tình trạng này không được cải thiện, bạn đã chuẩn bị phương án nộp đơn từ chức chưa?",
+    "Bạn có đang đem lợi ích tập thể ra làm thứ bình phong rẻ tiền che đậy cái dã tâm mưu mô trả đũa cá nhân nhỏ nhen?",
+    "Sự đố kỵ hằn học với thành quả của đồng nghiệp có đang hun đúc thành chất axít ăn mòn phần thiên lương trong bạn?",
+    "Chằm chặp moi móc sai lầm của người khác phải chăng là cách bạn tự ti che đi sự kém tháo vát của chính mình?",
+    "Nếu cuộc chiến tâm ngầm bại lộ mọi mảng tối thủ đoạn ti tiện, bạn có giữ được thể diện điềm tĩnh để ngẩng cao đầu?",
+    "Việc ăn thua đủ triệt hạ nhau nơi chốn văn phòng có đáng để bạn hiến tế đi sự thanh thản tận hưởng vào mỗi đêm về?"
   ],
   business: [
     "Có phải dòng tiền và sự ổn định tài chính đang là nỗi lo lớn nhất của dự án?",
@@ -206,7 +286,12 @@ window.ClarifyData = {
     "Việc mở rộng quy mô hiện tại có phải là bước đi quá rủi ro và vội vàng không?",
     "Đối thủ cạnh tranh có đang liên tiếp ra đòn tung chiêu khiến bạn kiệt sức chạy theo?",
     "Nhân sự nòng cốt của công ty bạn có biểu hiện sa sút tinh thần hoặc muốn rời đi?",
-    "Bạn có khả năng huy động được đủ dòng vốn từ bên ngoài nếu gặp phải nợ đọng không?"
+    "Bạn có khả năng huy động được đủ dòng vốn từ bên ngoài nếu gặp phải nợ đọng không?",
+    "Khoảng phô trương hào nhoáng bên vỏ doanh nghiệp có đang rút ruột đồng vốn giọt lệ cuối cùng của gia đình bạn?",
+    "Bạn đứng mũi chịu sào vì lý tưởng tạo lập giá trị cho nhân sinh hay chỉ thèm khát quyền lực thao túng vận mệnh kẻ khác?",
+    "Sự quay đầu lạnh nhạt của các chiến hữu cộng sự có chực chờ nuốt chửng bản lĩnh của bạn khi con tàu khựng lại lao dốc?",
+    "Trực giác của người cầm cương có đang điên cuồng réo còi báo động vỡ trận nhưng phần ngã mạn lại ép bạn bịt chặt tai?",
+    "Đến hồi cùng cực, việc cố chấp ôm bo bo lấy đống đổ nát này là lòng trung kiên quả cảm hay là mộng ảo vĩ cuồng mù quáng?"
   ],
   interview: [
     "Bạn có tự tin mình đáp ứng được đầy đủ các tiêu chí mà nhà tuyển dụng yêu cầu?",
@@ -218,7 +303,12 @@ window.ClarifyData = {
     "Nếu mức lương được đề nghị thấp hơn một chút so với mức mong đợi, bạn có từ chối ngay?",
     "Bạn có nghĩ cách giao tiếp của mình mang lại sự ấm áp thân thiện hay quá gò bó?",
     "Buổi phỏng vấn này có mang tính chất quyết định sự nghiệp lớn của bạn ở thời điểm này?",
-    "Sâu thẳm bên trong, trực giác của bạn đang mách bảo kết quả sẽ khả quan đúng không?"
+    "Sâu thẳm bên trong, trực giác của bạn đang mách bảo kết quả sẽ khả quan đúng không?",
+    "Những dòng thành tích mỹ miều dát vàng trong CV có che lấp nổi sự rỗng tuếch và hoang mang bủa vây năng lực bạn?",
+    "Bạn gồng mình đánh bóng kĩ năng để qua mắt nhà tuyển dụng hay đang xót xa lừa chính lòng tự tôn còm cõi của mình?",
+    "Sự điềm tĩnh khi đối đáp có đang mồ hôi ướt đẫm che giấu một trái tim đập cuồng loạn vì nỗi sợ bị loại bỏ phủ phàng?",
+    "Trúng tuyển vào guồng quay này có chắc sẽ chắp cánh rực rỡ hay chỉ thả bạn thẳng xuống một cái xưởng bóc lột sức nặng?",
+    "Cái gật đầu đồng thuận của tổ chức vĩ đại ấy có đủ sức mạnh dập tắt đi nỗi tủi hổ hoài vọng của ngần ấy tháng rải đơn?"
   ],
 
   // FINANCE Subthemes
@@ -232,7 +322,12 @@ window.ClarifyData = {
     "Phong cách sống đắt đỏ của những người xung quanh có đang chi phối chi tiêu của bạn?",
     "Bạn có đang phải gánh chịu những khoản chi phí phát sinh vô hình vì bệnh tật hay sửa chữa?",
     "Việc gia tăng thêm một nguồn thu nhập thụ động có nằm trong kế hoạch 3 tháng tới của bạn?",
-    "Nếu bất ngờ mất đi nguồn thu chính, khoản dự phòng của bạn có giúp sống quá 6 tháng không?"
+    "Nếu bất ngờ mất đi nguồn thu chính, khoản dự phòng của bạn có giúp sống quá 6 tháng không?",
+    "Dòng tiền chảy rò rỉ như thác đổ có phải là tiếng khấn vái bù đắp cho những khát khao tuổi thơ thiếu thốn chua chát?",
+    "Bạn xới tung tiền bạc vào vẻ ngoài hình thức để bưng bít sự mặc cảm thua kém từ sâu thẳm trước những lời xoi mói?",
+    "Một cơn dông lốc suy thoái càn quét qua có đủ sức bóc trần toàn bộ sự trần trụi và tài chính thảm hại của bạn lúc này?",
+    "Thói quen tung tay phóng khoáng bất chấp nguồn cạn phải chăng là chất xúc tác ảo giúp bạn mua vui quên lãng đời buồn?",
+    "Sự nhục nhã ê chề có thít chặt cổ họng bạn khi mãi bì bõm chìm ngập trong vòng xoáy làm mười phá sạch mười một?"
   ],
   debt: [
     "Bạn có đang bị áp lực tâm lý nặng nề khiến công việc và cuộc sống bị ảnh hưởng?",
@@ -244,7 +339,12 @@ window.ClarifyData = {
     "Bạn có đang dùng thẻ tín dụng mới hoặc đi vay mượn thêm để đáo hạn nợ cũ không?",
     "Cảm giác xấu hổ có đang ngăn cản bạn nhờ sự cố vấn chuyên nghiệp từ những người am hiểu?",
     "Nếu phải bán đi một tài sản có giá trị lớn để thanh lý toàn bộ, bạn có quyết đoán làm ngay?",
-    "Bên cạnh áp lực, biến cố này có giúp bạn học được một bài học quản trị tiền bạc xương máu?"
+    "Bên cạnh áp lực, biến cố này có giúp bạn học được một bài học quản trị tiền bạc xương máu?",
+    "Chiếc đai thòng lọng nợ nần này có đang miết nghẹt từng tơ thần kinh tỉnh táo cuối cùng trên vỏ não đang cạn kiệt?",
+    "Có lúc nào tia suy nghĩ tiêu vong đột ngột lấp ló đòi làm liều thuốc giải đắng chát cho rắc rối pháp lý kinh tế này?",
+    "Khoản nợ tủn mủn khổng lồ kia là kết tinh của một thời kỳ ngốc nghếch dại khờ hay sự ngáo ngông tham lam lóa mắt?",
+    "Bạn có nhận rõ mình đang hóa kiếp thành một sinh vật gầy rạc co ro bị đồng tiền ác nghiệt rút sạch chút nhân quyền?",
+    "Lòng bao dung tương trợ của người nhà là sợi gai kéo bạn ra khỏi vũng lầy hay sẽ đúc thành bản án ân phước nặng trĩu?"
   ],
   invest: [
     "Kế hoạch đầu tư này của bạn có dựa trên sự tìm hiểu kỹ lưỡng thay vì cảm tính?",
@@ -256,7 +356,12 @@ window.ClarifyData = {
     "Bạn có sẵn sàng khóa chặt khoản vốn này trong 2-3 năm mà không ảnh hưởng tới chi phí sinh hoạt?",
     "Sợi dây tham lam trong một khoảnh khắc nhỏ có đang gạt bỏ mọi rào cản phòng vệ tài chính?",
     "Bạn đã đối chiếu hồ sơ pháp lý, các tính khoản thanh khoản của công cụ này một cách rõ ràng?",
-    "Sự bảo thủ có đang khiến bạn giữ khư khư một khoản đầu tư thua lỗ mà không chịu cắt lỗi?"
+    "Sự bảo thủ có đang khiến bạn giữ khư khư một khoản đầu tư thua lỗ mà không chịu cắt lỗi?",
+    "Biến động tài sản này là biểu hiện tầm nhìn xuất kiệt hay chỉ là cú xả thân khát nước đỏ đen của kẻ vỡ mộng trên sàn?",
+    "Ánh sáng ảo hoặc của lợi nhuận cấp số nhân có làm vẩn đục lý trí mài mòn nốt giới hạn an toàn phòng ngự sinh tử?",
+    "Sự u mê ngoan cố quyết không chốt đỉnh tự cắt thịt có đang vung vãi số xương máu khó nhọc nhất của chính người thân bạn?",
+    "Lúc bong bóng phù hoa trương xình đổ ụp, bạn sẽ tự lực tái sinh từ bụi tro hay thả mình buông trôi sự kiêu hãnh càn quấy?",
+    "Từng khối tiền gom góp ném đi ấy có thấm đẫm mồ hôi khản gò má và nước mắt chai xám dội nhào của bao người còng lưng?"
   ],
   luck: [
     "Có phải bạn đang hy vọng vào sự may mắn hơn là nỗ lực của chính mình?",
@@ -268,7 +373,12 @@ window.ClarifyData = {
     "Sự ghen ghét nhỏ nhặt khi thấy người khác trúng thầu hoặc trúng số có nhen nhóm trong bạn?",
     "Bạn có cảm giác đang có một quý nhân quyền lực ở gần sắp sửa mở lời hỗ trợ mình không?",
     "Bạn có đang dựa vào cờ bạc hoặc lô đề thay vì kiếm tìm những kênh sinh lời bền vững hơn?",
-    "Một thái độ bình thản, trân trọng những gì đang có có giúp bạn an nhiên đón vận may tới không?"
+    "Một thái độ bình thản, trân trọng những gì đang có có giúp bạn an nhiên đón vận may tới không?",
+    "Bạn đang buông rèm chờ thời tống tiễn gian lao bằng lối sống ỷ lại lười nhác phó mặc sinh nhai cho vận hội trời cho hên xui?",
+    "Kỳ vọng phi thực tế vào cơn mưa tiền lộc có phải là lời tự dối lòng mỉa mai nhất che lấp sự hèn nhát không dám tranh đấu?",
+    "Tạo hóa có lẽ chưa từng rớt lấy một giọt độ lượng cho kẻ khư khư cầu tài ôm mộng mà trốn tránh cày cuốc thâm sẹo cơ đồ?",
+    "Khi vận đỏ cạn dòng cắt đứt đường tiến thân dẫu lạy lục ỉ ôi, bản lĩnh của bạn có đào được một mạch sáng le lói vớt vát?",
+    "Đánh đổi phúc lộc thiên mệnh để giật lấy một khoảnh khắc hưng thịnh hào quang rực rỡ có đáng để nhận lấy hậu vận neo đơn?"
   ],
   property: [
     "Quyết định mua bán này có đang bị thôi thúc bởi sự vội vàng hoặc áp lực bên ngoài?",
@@ -280,7 +390,12 @@ window.ClarifyData = {
     "Vợ/Chồng bạn có hoàn toàn đồng thuận tham gia cùng một hướng chung trong dự định này không?",
     "Trong trường hợp muốn bán lại gấp rút thì mức độ thanh khoản của bất động sản này có tốt không?",
     "Thị trường đang trong cung bậc giảm giá, bạn có muốn chờ đợi thêm một chút trước khi xuống tiền?",
-    "Sâu thẳm bạn có cảm giác bất an khi đặt bút ký vào các hồ sơ định đoạt khối tài sản lớn này?"
+    "Sâu thẳm bạn có cảm giác bất an khi đặt bút ký vào các hồ sơ định đoạt khối tài sản lớn này?",
+    "Khối vật chất bê tông khổng lồ kia có vô tình nhốt bưng bít chôn sống sự do thong dong mỏng manh của gia cảnh bạn hiện giờ?",
+    "Công xưởng làm giàu nhà đất có là móng cọc cho bình an thụ đạo hay chỉ là sĩ diện oai phong bơm phồng đọ tiếng với dòng tộc?",
+    "Bạn đánh cược hơi ấm nương tựa của cốt nhục thân quen ghim vào giấy đỏ sở hữu chênh vênh để thỏa mãn tham ái bất động điền?",
+    "Cạm bẫy kiện tụng giam lỏng dòng hưu trí cả thanh xuân sẽ lôi xệch đường tương lai gia thuộc xuống vách nứt tàn lụi nhục nhằn?",
+    "Trường oán khí uất ức quẩn quanh nền móng bất động đó chờ lúc cạn phước có đòi xén đoạt mòn mỏi sinh nhai thọ diên nhà bạn?"
   ],
 
   // HEALTH Subthemes
@@ -294,7 +409,12 @@ window.ClarifyData = {
     "Quá trình tiếp xúc với thiên nhiên gần đây có hay bị bạn lơ là đứt quãng không?",
     "Có phải tiếng nói của nỗi đau cũ khiến bạn thấy mình vô giá trị và tuyệt vọng cạn kiệt?",
     "Bạn có sẵn sàng trút bỏ mọi muộn phiền cũ kĩ để bước sang một con người nhẹ nhàng hơn?",
-    "Tâm linh hoặc tín ngưỡng có đang là cứu cánh lớn nhất nâng đỡ bạn vượt qua giai đoạn này?"
+    "Tâm linh hoặc tín ngưỡng có đang là cứu cánh lớn nhất nâng đỡ bạn vượt qua giai đoạn này?",
+    "Đứng lên chữa lành vết thương liệu có phải chỉ là khẩu hiệu xuông để lẩn tránh việc tự dằn vặt nhâm nhi nỗi thống khổ tự luyến?",
+    "Lớp sẹo lồi lõm ký ức xấu xí ấy rốt cục bạn lại nâng niu chẳng nỡ buông gột vì lo âu mất đi cái tư thế đóng vai kẻ bị nạn khốn cùng?",
+    "Miệng không ngớt nói từ bi gỡ lòng mà trong thâm mạch máu vẫn gào réo nọc độc thù hận tư thù không cam chịu thua thiệt phải thấu cắn?",
+    "Tâm can bạn có rùng mình run lên bần bật sợ hãi đối mặt với cái khoang trống không hoác nếu mất quyền bám víu đay nghiến dĩ vãng?",
+    "Sự đại xá khoan dung giả mạo trên chóp môi có cấu xé cắn phéng linh hồn đạo đức chân thực đến lạnh người ghê rợn rát buốt?"
   ],
   energy: [
     "Bạn có cảm thấy kiệt sức ngay cả khi đã ngủ đủ giấc không?",
@@ -306,7 +426,12 @@ window.ClarifyData = {
     "Sự tức giận nội tại chưa kịp trút xả có đang tiêu tốn cực kỳ nhiều năng lượng vô hình của bạn?",
     "Bạn có thường thức dậy vào lúc 2-3h sáng và thao thức suy ngẫm miên man không điểm dừng?",
     "Hoạt động thể thao thường nhật có bị gác lại vì bạn ưu tiên nhường cho những lịch hẹn khác?",
-    "Sự uể oải này có ngăn cản bạn đón nhận một cơ hội lớn đáng lẽ cần rất nhiều dũng khí?"
+    "Sự uể oải này có ngăn cản bạn đón nhận một cơ hội lớn đáng lẽ cần rất nhiều dũng khí?",
+    "Cơn kiệt ngã lết bộ rệu rã ấy cội rễ đến từ việc ròng rã dâng hiến cạn bầu khí chất để hầu hạ mua vui những oan gia não nề than khóc?",
+    "Luồng hàn khí u uất dửng dưng bọc quanh nếp nhăn trán bạn lây rây sự bế tắc lụn bại nhuốm lên sinh mệnh cả căn chung cư ấm êm?",
+    "Giọt sức mạnh le lói chắt bóp lại rốt cuộc chỉ chi dùng vào nụ cười đóng kịch để dối bạt thiên hạ trong khi thân thể đã gãy đổ hụt hẫng?",
+    "Thế gian lao xao quá mức lại càng đục thủng lồng ngực kéo rách bươm những vá víu vá lợp mong manh cố tàn tạ trụ giữ phàm thai cốt cách?",
+    "Sức chịu đựng lợm cộm vắt hết sình lầy chỉ để gìn giữ lại mảnh danh dự ngoan cường dù thực tế sự tuyệt lực đã băm nát xương cốt nhão?"
   ],
   family: [
     "Có phải đang có sự hiểu lầm chưa được giải quyết giữa các thành viên gia đình?",
@@ -318,7 +443,12 @@ window.ClarifyData = {
     "Có bí mật lớn nào đang bị che giấu vì sợ rằng nó sẽ phá hỏng mâm cơm sum vầy toàn gia?",
     "Một người thân ốm đau có đang đòi hỏi ở bạn sự túc trực và hy sinh lớn lao quá mức không?",
     "Dù đôi lúc cáu bẳn, tận sâu đáy tim bạn vẫn mong muốn gia đình được bình an thịnh vượng?",
-    "Bạn có định thực hiện một cuộc hội thoại tĩnh lặng với đầy đủ thành viên để gỡ rối tơ lòng?"
+    "Bạn có định thực hiện một cuộc hội thoại tĩnh lặng với đầy đủ thành viên để gỡ rối tơ lòng?",
+    "Hạt nhẫn nhịn ngậm đắng nuốt xót chôn vào tận tim có phải nợ truyền kiếp để tẩy rửa sạch oán thù từ bao đời ông cha gây tạo vương lại?",
+    "Vỏ hào nhoáng tươm tất của chữ gia cang liệu chứa đậy những cơn dông ngầm thị nộ hằm hè toan chẻ nát sợi dây ruột rà tứa máu sinh ly?",
+    "Dao đâm có độ sát thương chả chạm bậc nỗi đau mạt sát từ cửa miệng của người sinh đẻ rạch phá sạch trơn động bến lý tưởng con cái?",
+    "Một mồi kích nổ xóa bàn đánh sập mọi giao tế gia pháp kề rập phá lồng đập gông khóa để mong mỏi đường tự chủ khát khao lột rữa bức nhục?",
+    "Va tiếng đũa liếc con ngươi trong bữa canh rau nhạt nhòa lấp liếm tiếng nức nở uẩn khúc găm lịm lòng tự kiêu bấy trầy xộc xệch dằn vặt?"
   ],
   diet: [
     "Bạn có đang dùng thức ăn như một cách lảng tránh những áp lực tâm lý không?",
@@ -330,7 +460,12 @@ window.ClarifyData = {
     "Sự ám ảnh số đo cân nặng có đang làm bạn bị stress hơn là một niềm vui về thể chất?",
     "Bạn có nghĩ rằng tự tay nấu một mâm cơm gọn gàng sẽ giúp cả thân và tâm khỏe hơn không?",
     "Một kế hoạch thanh lọc ngắn (detox) có nằm trong sự dự liệu hoặc cần thiết cho bạn lúc này?",
-    "Nếu phải thay đổi một thói quen cố hữu là ăn vặt, bạn có cam kết kiên trì 30 ngày không?"
+    "Nếu phải thay đổi một thói quen cố hữu là ăn vặt, bạn có cam kết kiên trì 30 ngày không?",
+    "Cuộc đại thanh tẩy thân tâm có nghĩa lý gì khi nạp một tấn rau xanh mà khoang bụng thẳm sâu gào réo khối bực tức xả không thoát nhục nhã?",
+    "Nhồi nhét từng khối đồ chua cay mặn chát tàn hình để tiêu diệt gọn mọi tiếng nói bất tuân giãy nảy vì phẫn hận tuyệt thực không được thỏa hiệp?",
+    "Những thớ mỡ bám dính ám ảnh cơ địa lật mặt cái sự buông xuôi tột đỉnh với kỉ cương buông bệt chính cốt lõi đường đi nước bước sinh nhai?",
+    "Khoảnh khắc thức nhai thỏi ngọt dính mắc tận cổ họng róc rách sự thống hối nhói lên đè nặng oằn vai não ruột rãnh lỗi lầm nuông chiều thảm hại?",
+    "Việc siết chặt cơ chế đói khát như lối khỏa lấp tự ti để gồng cái danh hiệu sắc vóc đẹp mã dối trá gạt sương ánh nhìn đong đưa của cõi người?"
   ],
 
   // SELF Subthemes
@@ -344,7 +479,12 @@ window.ClarifyData = {
     "Sự học này có đáp ứng một tò mò nội tại của linh hồn mà không hề vì mục đích kiếm tiền ngay?",
     "Lựa chọn một môn học mới có làm bạn cảm thấy mình đang tìm lại được ánh sáng đam mê cũ?",
     "Nền tảng kiến thức hổng lỗi từ xưa có đang làm bạn gặp gian nan với khối lý thuyết mới tinh?",
-    "Đôi khi bạn muốn bỏ ngang vì khối lượng bài tập đang vắt kiệt chút ý chí sau giờ làm việc?"
+    "Đôi khi bạn muốn bỏ ngang vì khối lượng bài tập đang vắt kiệt chút ý chí sau giờ làm việc?",
+    "Tấm mạng học thuật cao vời vợi tráng nến hòng bưng bít sự ngờ nghệch run lẩy bẩy khi lết thân tiến vào đời bươn chải tranh thương đoạt tước?",
+    "Húp trọn vẹn bát cháo tri thức cứng cáp vì mở rộng đại bản doanh tâm trí hay chỉ khúm núm nơm nớp mồ hôi hột tránh sự sĩ nhục chê bai bỉ ổi?",
+    "Ngập trong mớ chữ nghĩa bùng nhùng rối reng bòn rút nhựa hoa thanh xuân đày ải tuổi mộng mơ thành bóng râm bệ rạc đờ đẫn hoang hoại u ám?",
+    "Phần bùng lên cuồng nhiệt nổi loạn trời phú có bị chèn ép nghiền vụn xát tan tành thành cát sỏi dưới sức ép vùi lấp của bài khóa lý thuyết vô hồn?",
+    "Vứt bỏ chuỗi vòng lặp khảo thí nướng thi là phát súng yếu hèn đầu hàng dập mật hay nhát kiếm chớp lóa bổ đôi chiếc cũi lồng ngục thối tha giam hãm?"
   ],
   study_abroad: [
     "Bạn đã lường trước sự cô đơn và những sốc văn hóa có thể gặp phải chưa?",
@@ -356,7 +496,12 @@ window.ClarifyData = {
     "Bên kia đại dương có sẵn một hội bạn bè hoặc người thân sẽ chìa tay đón chờ hỗ trợ bạn không?",
     "Bạn đã cân nhắc xong về lựa chọn liệu mình sẽ ở lại lập nghiệp phương trời mới hay quay về quê hương?",
     "Rào cản về việc phải bươn chải để sinh tồn ngay trong lúc vừa học có khiến trí óc bạn dao động?",
-    "Viễn cảnh mặc áo cử nhân quốc tế có đủ lấp đầy để xoa dịu cái rét buốt của tương lai cô độc kia?"
+    "Viễn cảnh mặc áo cử nhân quốc tế có đủ lấp đầy để xoa dịu cái rét buốt của tương lai cô độc kia?",
+    "Khung trời Tây lộng lẫy phồn hoa có dập đánh chới với che lấp những giờ trầy vảy chà bồn cầu sưng tay đến cùng túng tủi phận kẻ lang bạt bám trụ?",
+    "Mua đường ngoại quốc để thỉnh kinh tài giỏi vác lộc hay nhắm nháp mùi trốn tránh bệ phóng tẻ nhạt cạn cợt khô héo từ cội mạch gia thất tẻ ngắt?",
+    "Tờ lệnh cất cánh bay bổng đó rạch tay chia phôi đứt quãng một nếp tình luyến vương sâu muộn để gặt lại những năm xế bóng ngơ ngác hối hận rạo rực?",
+    "Trái tim lạnh băng đông cứng ở miền tuyết trắng liệu chịu đòn đủ ngoan cường khi sóng trào cô tịch lấp liếm dọa nuốt ruột đánh rách lồng tinh thần?",
+    "Cởi cái nhung trang du học sĩ xán lạn bóc mòn tận vách yếu ớt rách dạ phơi khô trên giàn đời cho vạn đôi mắt chê trách dèm pha liếc cạn liếc đứt?"
   ],
   purpose: [
     "Có phải tiếng nói bên trong bạn vẫn đang thôi thúc bạn làm một điều gì đó khác?",
@@ -368,7 +513,12 @@ window.ClarifyData = {
     "Công việc văn phòng có đang bóp nghẹt thứ đam mê phụng sự nào đó mà bạn chưa kịp thành hình?",
     "Bạn có sợ sự đánh giá của những người từng biết rõ bạn khi thấy bạn quay xe 180 độ không?",
     "Đôi khi một câu hát, một trang sách vu vơ có khiến tim bạn giật thót vì bắt đúng tần số sinh mệnh?",
-    "Nếu chỉ được tồn tại đúng 1 năm nữa, bạn sẽ sẵn sàng theo đuổi điều này mà không oán trách chứ?"
+    "Nếu chỉ được tồn tại đúng 1 năm nữa, bạn sẽ sẵn sàng theo đuổi điều này mà không oán trách chứ?",
+    "Hơi cuối cùng trút ra khỏi lồng ngực sự tủi nhục không nhắm nổi mi là do kiếp qua mài mòn thân tàn mà chẳng có rỗi nhịp sống trọn bản ngã oai phong?",
+    "Đường đạo định dạng rẽ lối là bạn một tay chém đá rạch mở hay gồng gánh mớ tôn chỉ nhét sọ nhét óc tuân thủ mù lòa dưới đạo luật xiềng xích của đám đông?",
+    "Cưỡi ngọn cờ sứ mệnh vang xa có bị lấy làm vật chắn hèn mạt bào biện cho cái lập dị thui chột lạc loài bất phục khả năng đấu trí hòa nhập nhân sinh bần hàn?",
+    "Leo đến chóp núi hùng vĩ nhưng nện gót khám phá ra mình chỉ là một con tốt hèn mọn, đỉnh cao trống tát chóp ngợp dội cơn đớn đau tàn sát mộng hồn thảm thiết?",
+    "Nhịp tim búa tạ của bạn rướn gọi muốn phụng sự san sẻ bớt nỗi đau khốn của trần thế hay chỉ cuồng loạn thèm khát nhân gian phải phủ phục kính nể ngước mặt tôn lên?"
   ],
   shadow_self: [
     "Có phải bạn đang chối bỏ những khuyết điểm hoặc những phần xấu xí của chính mình?",
@@ -380,7 +530,12 @@ window.ClarifyData = {
     "Có phải việc gào khóc trong phòng tối một mình là thứ bạn liên tục phải đè bóp vì sợ bị coi là yếu đuối?",
     "Phần tĩnh lặng nội tâm của bạn có thường xuyên phản bác lại biểu hiện bên ngoài một cách gay gắt?",
     "Bạn có ý thức được phần tối này đáng được vỗ về tự do ôm ấp hơn là cứ giam hãm và bài trừ?",
-    "Một bí mật sâu thẳm đen tối chưa từng dám nói với ai có đang ăn mòn bạn từ bên trong tâm can?"
+    "Một bí mật sâu thẳm đen tối chưa từng dám nói với ai có đang ăn mòn bạn từ bên trong tâm can?",
+    "Hang động tăm tối nhất giấu kín thú tính tham lam hung tợn có chực xổng cũi ngoạm đứt yết hầu kẻ thù không nương trảo, bạn gắng oằn người khóa nó?",
+    "Cuộn nôn khan dạ dày xới tuôn khi những ý nghĩ nhơ nhuốc ứ đọng vấy bẩn chợt ngập chìm vùng não khiến bạn rùng răng mím môi kiềm tỏa ác báo bủa vây?",
+    "Cái tà mạn nanh nọc quái hiệp ấy xông đất ứng sát còn bọc đệm êm ái hơn mấy lóp hào quang thánh thiện sùng bái giả dối ớn lạnh mà bạn diễn trượt khóc gào?",
+    "Đón lột lớp vảy đen đúa máu tanh găm sâu tự trong thai nén xem như người tình tri kỷ, liệu bớt khiếp đảm hơn vòng cuồng trốn chui trốn nhủi rên la kinh hoảng?",
+    "Vén rèm ánh hào quang xoi rọi xoáy thẳng hầm ngầm của sự ghen ăn tức ở hèn mọn, chiếc mặt nạ ngọc bích có rạn nát nện tung vỡ đập tiếng nhục nhằn gào vang?"
   ],
   decision: [
     "Có phải nỗi sợ thất bại đang làm bạn tê liệt trước các ngã rẽ?",
@@ -392,7 +547,12 @@ window.ClarifyData = {
     "Lý trí và con tim có đang chơi trò kéo co bất phân thắng bại trong chuỗi ngày bồn chồn vừa qua?",
     "Quyết định sắp tới có đảo lộn vị thế vững chắc của gia đình ở hiện tại và bắt tất cả phải đánh đổi cùng bạn?",
     "Bạn có nghĩ hành động dứt khoát là cần thiết ngay lúc này thay vì chờ đợi thời cơ hoàn hảo mãi sẽ không tới?",
-    "Cho dù là chọn sai đi chăng nữa, bạn được trang bị bản lĩnh dọn dẹp hậu quả vững vàng chứ?"
+    "Cho dù là chọn sai đi chăng nữa, bạn được trang bị bản lĩnh dọn dẹp hậu quả vững vàng chứ?",
+    "Áp sát cổ lên lưỡi gươm đứt đoạn quyết sách này sẽ băm vằm ra mặt sẹo rỉ nhức không phương cứu chữa, bạn còn gồng nắm tay hăng máu tiến công sấn sổ?",
+    "Vẫy cờ rẽ hai nhánh đều bọc trong lửa hận đốt cháy tro nát mớ kỳ vọng tinh tươm chất đống nâng niu, tiếng bẽ bàng ấy có vang vọng dội xuyên thủng lồng xương?",
+    "Sự tụt thềm co rúm nhút nhát lùi bước lúc này có đọa đày linh khảm đáng nguyền rủa nhục miệt hơn gấp bội chập chững tung gieo súc sắc chọn chiếc mả cạn đào vùi?",
+    "Phát pháo châm ngòi mìn tàn nổ bung một chân trời hãm lồng kiềm chế sẽ làm dây thần kinh tột khoái rực sáng quyện nhào với đợt rét lạnh cắt thịt đứt da chứ?",
+    "Nếu liều thuốc này là một chén độc kinh thiên đoạt mệnh, bạn có ngửa bạo họng uống ực tới giọt sót cạn cùng để hưởng một chớp ngát vinh hoa lạc nghiệp phất lên?"
   ],
   travel: [
     "Chuyến đi này có thực sự giúp bạn giải tỏa được những căng thẳng hiện tại không?",
@@ -404,7 +564,12 @@ window.ClarifyData = {
     "Bạn có nghĩ rằng bỏ lại điện thoại để thực hiện chuyến đi này sẽ làm bạn cảm nhận thực tế gấp đôi không?",
     "Dự phòng rủi ro về thất lạc hành lý hay đổ bệnh có được mang vào trong góc trù trừ của đôi bạn?",
     "Chuyến đi chỉ mang lại niềm vui chốc lát và khi về bạn có nghĩ mọi giông bão vẫn chờ sừng sững gõ cửa?",
-    "Khát vọng chinh phục những chặng địa hình hoang sơ hiểm trở có đả thông những bế tắc nội sinh?"
+    "Khát vọng chinh phục những chặng địa hình hoang sơ hiểm trở có đả thông những bế tắc nội sinh?",
+    "Hành trang xê dịch này mang nặng mớ quần áo hay nặng trĩu đống phiền muộn muốn thả trôi nơi rừng sâu?",
+    "Có bao giờ chuyến đi lại là một đi không trở lại, là cớ để linh hồn rũ bỏ hoàn toàn bụi trần nợ nần?",
+    "Chỉ là đổi một chỗ khác để khóc thay vì nằm dài trong phòng, cảnh quan hùng tráng có cứu rỗi nổi sự tan nát?",
+    "Sự kích thích từ những vùng đất mới có lấp vùi được cái lỗ hổng thiếu vắng yêu thương tại quê nhà?",
+    "Bạn mải miết đi tìm bản ngã ở ngàn dặm xa xôi mà quên mất nó đang vỡ vụn ngay dưới bàn chân đang đứng?"
   ],
   spiritual: [
     "Bạn có cảm thấy những sự kiện lặp lại gần đây mang thông điệp từ cõi vi tế không?",
@@ -416,7 +581,12 @@ window.ClarifyData = {
     "Bạn có gặp phải nỗi khó chịu khôn tả khi tiếp xúc với chốn đông người hoặc nghe tin dữ độc hại?",
     "Khả năng thiền định ở bạn có gặp bất trắc do quá nhiều tạp niệm cuộn sóng xô bồ cản trở không?",
     "Có phải bạn cảm nhận thần thủ hộ thiên thần luôn dõi mắt theo mỗi lời cầu nguyện lặng lẽ của bạn?",
-    "Tâm linh đã mang lại sức mạnh to lớn để bạn bỏ qua thói vị kỷ cá nhân phục vụ ý nguyện độ đời chưa?"
+    "Tâm linh đã mang lại sức mạnh to lớn để bạn bỏ qua thói vị kỷ cá nhân phục vụ ý nguyện độ đời chưa?",
+    "Ảo cảnh tâm linh có đang khiến bạn ngã mạn xa rời thực tại và trở thành kẻ ảo tưởng không chạm đất?",
+    "Bạn dùng thần linh để viện cớ bảo chữa cho sự yếu đuối, hay dùng thần linh để chiếu rọi cõi vô minh vô thường?",
+    "Sự rung động tần số cao đó có thật sự là ngộ đạo hay chỉ là hiện tượng tâm lý trốn chạy những gai góc cuộc đời?",
+    "Quyền năng tiên kiến vô vi có đang là chiếc gánh ngàn cân đè nát sự bình an vô lo đáng nhẽ bạn được hưởng?",
+    "Tu tập rốt ráo có làm đoạn tuyệt những tham luyến bụi trần khiến gia đình người thân rơi vào cảnh chia xa hờn dỗi?"
   ],
   pregnancy: [
     "Bạn và đối tác đã hoàn toàn sẵn sàng về mặt tài chính và thời gian chưa?",
@@ -428,7 +598,12 @@ window.ClarifyData = {
     "Sự nghiệp phải chững lại một thời gian có làm bạn e dè khi đón chào quyết định khơi mở tình mẫu tử này?",
     "Bạn đã trù liệu các phương pháp giáo dục khoa học từ các tài liệu trước cả khi con chào đời chưa?",
     "Bên cạnh yếu tố tài chính, thái độ quan tâm và phụ giúp của người bạn đời có đạt mức lý tưởng kỳ vọng?",
-    "Niềm tin sâu sắc về quyền năng ban tặng sự sống của vũ trụ có bao phủ nỗi sợ những tai biến khi chuyển dạ ở bạn?"
+    "Niềm tin sâu sắc về quyền năng ban tặng sự sống của vũ trụ có bao phủ nỗi sợ những tai biến khi chuyển dạ ở bạn?",
+    "Sinh linh bé nhỏ ấy được tượng hình để cõng hi vọng hàn gắn hôn nhân hay cõng thêm quả tạ nghiệp chướng của bạn?",
+    "Sự đứt đoạn thanh xuân và sự nghiệp có gây nên một cơn hoang mang ngấm ngầm bùng phát thành uất ức hậu sản?",
+    "Dòng máu huyết truyền lại có lỡ kết nối cả những tổn thương não bộ từ mẹ sang con oái ăm nhường nào?",
+    "Sự kỳ vọng bù đắp vào đứa trẻ chưa lọt lòng có trở thành xiềng xích bóp nghẹt quyền tự do được làm chính nó?",
+    "Trách nhiệm làm Mẹ nặng tự thái sơn đè nén khiến bạn có giây phút manh nha muốn buông xuôi quyền sinh hạ thiêng liêng?"
   ],
   gossip: [
     "Có phải sự việc đang bị thêu dệt sai sự thật một cách quá đáng trầm trọng?",
@@ -440,7 +615,12 @@ window.ClarifyData = {
     "Bạn có sợ điều tiếng này đến tai gia đình và làm ảnh hưởng tâm lý của những người mình thương yêu trân trọng?",
     "Phải chăng một chút ghen ghét vì thành tựu vượt trội của bạn là chất xúc tác cho dư luận ngoài kia bùng cháy?",
     "Im lặng có phải là cách mà định mệnh trao để bạn tôi luyện thái độ bất phàm bỏ mặc hư ảo không?",
-    "Bạn có khả năng pháp lý để chấm dứt sự ác ý trên cõi mạng xã hội này nếu nó đẩy qua giới hạn an toàn chứ?"
+    "Bạn có khả năng pháp lý để chấm dứt sự ác ý trên cõi mạng xã hội này nếu nó đẩy qua giới hạn an toàn chứ?",
+    "Những lời đàm tiếu ngoài kia vô ý đánh trúng yếu huyệt đáng khinh nhất của bạn nên bạn mới uất ức phát điên?",
+    "Sự bôi nhọ này phơi bày tâm địa hiểm độc của loài thú mang danh tri kỷ từng kề vai sát cánh như thế nào?",
+    "Bạn sẽ chìm nghỉm trong vũng bùn thóa mạ hay sẽ mang ngọn lửa phẫn nộ thiêu rụi toàn bộ bè lũ buôn chuyện ác khẩu?",
+    "Có sự thật cay đắng nào được giấu diếm trong thông tin mỉa mai đó khiến lòng kiêu ngạo của bạn trầy xước rỉ máu?",
+    "Bạn gồng mình chịu trận vì cái nghiệp quả đã đến kỳ phải hoàn trả hay chỉ vì hèn nhát không dám đứng lên phanh phui thế lực tối?"
   ],
   legal: [
     "Bạn đã chuẩn bị sẵn sàng cho trường hợp kết quả không hoàn toàn nghiêng về phía mình?",
@@ -452,7 +632,12 @@ window.ClarifyData = {
     "Ý đồ của đối tác bên kia có phải muốn dồn ép năng lượng đẩy bạn rút lui trong thế khốn cùng cam chịu?",
     "Tuy thua về mặt hình thức chế tài, nhưng lương tâm ngẩng cao đầu có làm bớt sầu hận bên trong bạn?",
     "Bạn có đủ tài chính phòng vệ cho bản án phạt sắp tới sẽ được đưa ra một cách không thương tiếc chăng?",
-    "Dùng tòa án tâm linh công phán thì vốn dĩ họ đã sai, nhưng thực tế bạn lại chịu yếu thể có đúng thế không?"
+    "Dùng tòa án tâm linh công phán thì vốn dĩ họ đã sai, nhưng thực tế bạn lại chịu yếu thể có đúng thế không?",
+    "Chiếc mặt nạ công lý có bị cuỗm trần trong cuộc chơi kim tiền và luật pháp lạnh lùng tàn nhẫn này?",
+    "Lưỡi kiếm tòa án có gọt phăng mọi danh dự và tài sản bạn đã dày công vun vén xây đắp từng nhịp thở ngắt nghẹn?",
+    "Bạn đi kiện vã bọt mép để đòi lẽ phải hay để đòi lại cái tôi đã bị người đời sỉ nhục chà đạp đến cùng cực giẻ rách?",
+    "Phiên xử ngã ngũ dẫu thắng có khiến tâm can bạn rỉ máu vì nhận ra cái đạo lý trần gian vốn dĩ chưa bao giờ sòng phẳng tĩnh tại?",
+    "Bạn có sẵn lòng đốt cháy rụi chút thanh xuân tươi mật của mình vào vòng xoáy đơn từ kiện tụng hằn học tới vạn kiếp thiên thu?"
   ],
   moving: [
     "Việc chuyển đi có phải là để bạn bắt đầu một trang hoàn toàn mới của cuộc đời?",
@@ -464,7 +649,12 @@ window.ClarifyData = {
     "Kinh phí dọn dẹp và vận chuyển có bị vượt mức quá dự trù kéo theo vài tranh chấp phụ tùng cồng kềnh?",
     "Bạn mong mỏi chỗ đậu bến này có đem lại vượng khí tốt lành để phát lộc kinh doanh tươi sáng thêm ngàn lần?",
     "Cởi trói những mối quan hệ độc trần ở ngõ nhỏ cũ thì cái giá của sự đóng gói ra đi chớp nhoáng có rẻ chán?",
-    "Bạn có chắc chắn phương án an cư này sẽ là trạm dừng cuối hay chỉ bồng bềnh dăm ba mùa năm lại đổi chỗ?"
+    "Bạn có chắc chắn phương án an cư này sẽ là trạm dừng cuối hay chỉ bồng bềnh dăm ba mùa năm lại đổi chỗ?",
+    "Gạch vữa tinh tươm căn nhà mới có che lấp nổi sự lạnh ngắt từ trái tim khô cằn của những người mệt mỏi chung bước?",
+    "Việc di cư đứt đoạn mạch địa lý cũ có làm long mạch vượng khí và những mối giao bang của bạn bị rách toạc rỉ tiết?",
+    "Dọn dẹp tổ ấm mới có phơi bày thói áp đặt vị kỷ quyền bá khiến nội bộ quyến thuộc xào xáo tung tóe chẳng còn an thai?",
+    "Bạn cuốn gói trốn chạy khỏi ngôi nhà nhiều ức khí hay đang lén cõng theo luôn vong linh thù hận sang đầu quân bên vùng đất sạch sẽ?",
+    "Thay đổi tọa độ gieo neo có hứa hẹn ván bài lật ngược thế cờ tàn tạ hay chỉ bấu víu đổi một chiếc bát ăn mẻ mép khác?"
   ],
   pet: [
     "Bạn có cảm nhận được sự thay đổi tinh thần hoặc biểu hiện khác thường của thú cưng?",
@@ -476,7 +666,12 @@ window.ClarifyData = {
     "Cân nhắc các phác đồ y khoa để phẫu thuật có làm bạn lo âu về việc tiêm thụy rủi ro cướp đi sinh mệnh nhỏ?",
     "Con vật nhỏ bé ấy từng kéo bạn khỏi cái suy nghĩ bi quan u ám nhất của kiếp nhân sinh có phải vậy không?",
     "Quyết định nhờ trung tâm cứu trợ nhận nuôi liệu có làm bạn day dứt áy náy khôn nguôi như bỏ đứa con rứt ruột?",
-    "Trong kiếp trước phải chăng chúng đã từng là vị bồ tát nhỏ bé phù trợ theo gót chân bạn nên nay đáp duyên thầm?"
+    "Trong kiếp trước phải chăng chúng đã từng là vị bồ tát nhỏ bé phù trợ theo gót chân bạn nên nay đáp duyên thầm?",
+    "Con vật ấy gánh tai ách thay bạn đến tắt thở, tiếng kêu ẳng ẳng thảm thiết ấy có réo rắt xé nát tim bạn mỗi chiều tà tĩnh mịch?",
+    "Sự dựa dẫm tình cảm vào thú nuôi phơi bày việc bạn hoàn toàn tuyệt vọng xơ xác và chai sạn sụp đổ niềm tin vào giống loài người?",
+    "Sinh linh bé nhỏ nhắm mắt thiêu rụi có mang theo nốt chút nhân tính lương thiện nhỏ nhoi yếu ớt sót lại trong buồng phổi bạn?",
+    "Sự bất lực run rẩy khi không thể diễn giải nỗi đau của chúng cào cấu tâm trí khiến bạn cắn rứt như tự rứt miếng thịt tim gan?",
+    "Nuôi thêm sinh mạng vào lồng giam của đời mình là từ bi buông rủ hay chính thói ích kỷ muốn sở hữu một thứ đồ chơi biết thở?"
   ],
   karma: [
     "Bạn có nhận ra sự kiện lặp lại này là do bài học cũ của bạn vẫn chưa hoàn thành?",
@@ -488,7 +683,12 @@ window.ClarifyData = {
     "Bạn có thấy rõ vòng lặp luân hồi thể hiện mạnh mẽ bằng cách các mối quan hệ tiêu cực giống y bản sao cứ ập đến?",
     "Khi thực hành phương pháp giải nghiệp, điều khó tha thứ bao dung nhất vẫn là thứ trong bản tính kiêu hãnh của bạn?",
     "Có phải chấp nhận mất mát một thứ lớn lao là hình thái trả nghiệp nhanh chóng để con đường phía trước sạch sẽ vinh quang?",
-    "Việc nhận hậu quả và gánh nợ có diễn biến nhẹ nhàng hơn khi bạn ôm trạng thái an bình thản nhiên buông gánh muộn phiền chứ?"
+    "Việc nhận hậu quả và gánh nợ có diễn biến nhẹ nhàng hơn khi bạn ôm trạng thái an bình thản nhiên buông gánh muộn phiền chứ?",
+    "Trận đòn trừng phạt thảm khốc của nghiệp báo giáng xuống không nương tay có dập nát cái thói kiêu binh ngạo mạn nghênh ngang của bạn?",
+    "Đến bao giờ bạn mới chịu buông vai nạn nhân kêu than và cúi đầu ôm chặt lấy đống đổ nát do đôi bàn tay ác nhân mình tạo ra?",
+    "Cắn răng nếm nhức nhối đến mức bạn muốn gào thét rách cuống họng phẫn uất với đấng tối cao thiếu mắt dung tha thiên vị?",
+    "Mọi cay đắng dồn dập nện đay nghiến kiếp sống này có gột tột tẩy mớ cặn bã tăm tối tột độ kẹt sâu trong luân hồi lẩn quất của bạn?",
+    "Bạn chọn cách mỉm cười uống trọn chén máu độc nghiệp chướng hay tiếp tục cuồng não dấy lên oán hận nợ chồng chất máu mủ lây lan?"
   ],
   past_life: [
     "Một mối liên kết khó lý giải với ai đó gần đây có thể là định mệnh từ kiếp trước?",
@@ -500,7 +700,12 @@ window.ClarifyData = {
     "Bản năng chữa lành và thuật pháp bói toán có sẵn trong huyết quản như một di ngôn còn giấu nhẹm?",
     "Lần hội ngộ ngắn ngủi lần này là cơ may để giải mã một bài toán mắc mớ từ hàng trăm năm vạn kiếp có khả quan thiêng liêng?",
     "Dừng theo đuổi việc bới móc quá khứ mà chú tâm kiến tạo đời này có phải là mục đích cuối cùng khi các thông điệp hé mở?",
-    "Dấn thân học thuật siêu hình như thuật thôi miên tiền kiếp có mang lại một tia sáng chữa bệnh ung nhọt nội tâm cho bạn không?"
+    "Dấn thân học thuật siêu hình như thuật thôi miên tiền kiếp có mang lại một tia sáng chữa bệnh ung nhọt nội tâm cho bạn không?",
+    "Sự vương vấn rợn ngợp dội về từ những kiếp thân xác rữa nát xa lắc có đang gồng ép kéo tụt lùi mối lương duyên hiện tại sứt sẹo?",
+    "Nỗi phấp phỏng run lên trên từng kẽ tóc vô cớ phải chăng là dư âm tiếng thét của lưỡi mác găm sụn phổi ngàn năm trước réo vọng?",
+    "Sứ mệnh vĩ cuồng gọi về từ cõi nhớ nhung tiền kiếp có xui khiến bạn hất cẳng hất tung cuộc sống mưu sinh rập khuôn phẳng lặng thường nhật?",
+    "Xoáy vào vũng lầy ân ái tiền định đầy máu và nước mắt, liệu hồ sâu ái tình vạn thuở ấy có nhận chìm bạn trọn vẹn lần nữa chẳng nương?",
+    "Miệt mài bới tung tro hoạn quá khứ là nhổ chiếc đinh rỉ khát xót dưới gót chân hay tự tạo ma trận ám ảnh bọc kín lấy sự tu hành thanh giới?"
   ],
   lost_item: [
     "Món đồ bị đánh mất có phải là một vật mang rất nhiều kỷ niệm và giá trị tinh thần?",
@@ -512,7 +717,12 @@ window.ClarifyData = {
     "Tài liệu giấy tờ bảo chứng quan trọng nằm trong món đấy làm sự kiện này căng thẳng mức báo động đỏ đúng vậy chứ?",
     "Bạn có định cầu xin tâm linh mượn năng lực vũ trụ thu hút vật vô chi về lại bên mình dẫu mong manh như bắt bóng dưới hồ?",
     "Không thể loại trừ phương án là có bên lén nhắm ăn trộm vào sự buông lỏng của bạn để đúc túi vật đắt tiền ở một thời đoạn gần nhất đây?",
-    "Nếu phải đánh giá, quên hay mất chỉ phơi bày thái độ sống hơi hỗn độn chồng chéo không sắp xếp ngăn nắp của hiện tại phải không?"
+    "Nếu phải đánh giá, quên hay mất chỉ phơi bày thái độ sống hơi hỗn độn chồng chéo không sắp xếp ngăn nắp của hiện tại phải không?",
+    "Giá trị đồng tiền của kỷ vật tuột tay đánh sập ý chí sắt đá kiêu dũng, lột mặt thẳng thừng sự yếu kém vô lường bảo lưu của bản thân bạn?",
+    "Món hiện vật bặt vô âm tín có ngầm tiên tri một đại kiếp chia lìa khốc liệt rút tủy người trao tặng ở thời khắc sương mai gần sát?",
+    "Cơn đào xới điên loạn lật tung mái ngói trong giận dữ điên đảo phơi bày thói cưỡng cầu bạo ngược giấu chặt sau lớp vỏ cừu non ngoan đạo?",
+    "Ai đó vì lòng khát khao đố kỵ ghen tức đã âm thầm giấu nhẹm đánh cắp đem yểm bùa xui xẻo nhắm thẳng đoạt tuyệt vận may sáng lạn của bạn?",
+    "Đôi khi sự hy sinh vật thể bất khả kháng có mang năng lượng chuộc mạng gánh dỡ cho thân ngọc ngà của bạn khỏi những chuyến thập tử nhất sinh?"
   ],
   friendship: [
     "Có phải người bạn này đang lợi dụng sự hào phóng và tử tế của bạn vì mục đích riêng?",
@@ -524,7 +734,12 @@ window.ClarifyData = {
     "Ban có đang dành quá sự dung dưỡng chịu đựng cho người ấy một cách mù quáng, lúc người ta có hoạn nạn thì giúp đỡ, ta gặp thì quay lưng?",
     "Sợi dây chung điểm giao sở thích nay đã mai một thì liệu có còn đề tài để ngồi lại dốc bầu tâm sự dài dòng trắng đêm thao thức nữa không?",
     "Một mối tình chung xen ngang giữa hai con người có vẻ như đang rạn nứt vì đối phương đã có cảm tình với người kề cận mình có phải không?",
-    "Bạn nghĩ cắt đứt một người đồng điệu nhưng lại gây sát thương lớn về sau là giải pháp đau thương ngắn mà thoát đau khổ dài chứ?"
+    "Bạn nghĩ cắt đứt một người đồng điệu nhưng lại gây sát thương lớn về sau là giải pháp đau thương ngắn mà thoát đau khổ dài chứ?",
+    "Sự đâm lén phản trắc của bằng hữu tri âm sau gáy có đông cứng máu nóng khiến bạn chết lặng khóa vĩnh viễn cửa sổ thặng dư tin cậy một ai đó?",
+    "Dùng tấm thịnh tình phung phí tiền bạc rỗng tuếch để níu mua tình nghĩa bấy lâu để khi sa sẩy sa chân chỉ thu vớt đám ác điểu châm biếm ruồi bâu?",
+    "Người bạn máu mủ tinh thần lún sâu đầm lầy tà giáo, hạ nhát đoản đoạn tuyệt có tàn bạo xé rã lồng ngực mà chẳng dư dưng dám nói nhời xót dẫu đau?",
+    "Hố rãnh ganh tỵ tài đoạt nẩy chồi phá hủy bệ phóng tin yêu bằng phẳng tuổi thiếu thời làm tuổi thanh xuân vĩnh viễn gãy cánh vướng sẹo hận khó liền?",
+    "Im lìm tách đôi mây gió không thèm oán la sặc sỡ là đỉnh điểm tột độ kinh tởm khinh khi khi bạn khước từ sự chà đạp giẫm lún giới tuyến nhân phẩm?"
   ],
 
   // Bổ sung các mảng câu hỏi chuyên biệt cho những subtheme còn lại thay vì alias
@@ -539,7 +754,12 @@ window.ClarifyData = {
     "Một mối quan hệ bạn bè hoặc người thân dạo này có khiến bạn phải suy nghĩ nhiều?",
     "Bạn có đang che giấu cảm xúc thật của mình với mọi người xung quanh để giữ hòa khí?",
     "Gần đây bạn có khao khát một khoảng thời gian yên tĩnh tuyệt đối để nạp lại năng lượng?",
-    "Bạn có tin rằng trực giác của mình dạo này đang trở nên cực kỳ nhạy bén sắc sảo?"
+    "Bạn có tin rằng trực giác của mình dạo này đang trở nên cực kỳ nhạy bén sắc sảo?",
+    "Nhịp sống dập khuôn ngột ngạt này có dần chuyển hóa bạn thành một hũ xác ướp di động, hút trọn nhựa sinh khí quý báu của vũ trụ vô ngần?",
+    "Mỗi đêm hạ màn tắt trăng, âm thanh vo ve văng vẳng về chuỗi tồn tại nhỏ nhoi vô ích có khoét xâu lỗ thủng vô nghĩa dằn vặt lấy chất xám bạn?",
+    "Tương ái giao bôi với nhân sinh đóng mảng băng dày đặc vì tâm cơ họng rỗng của bạn mải mê những mưu chước luồn lách vị kỷ tủn mủn?",
+    "Mang lớp da hớn hở phủ ngập cõi mạng vinh vang hào nhoáng để lừa dối chặn đọng hố tuyệt vọng khóc nấc âm ỉ nghẹt tắc sau vách phòng khuya?",
+    "Chút trống không cuồng xé điên tiết cào nát ruột gan khát cầu ánh nhìn ca ngợi có giằng tuột khi vở kịch hề lồng lộn cái danh thành đạt khép màn?"
   ],
   current_love: [
     "Bạn có đang cảm thấy tiếng nói của mình không đủ trọng lượng trong mối quan hệ này?",
@@ -551,7 +771,12 @@ window.ClarifyData = {
     "Bạn có cảm giác mình đang phải làm mẹ/làm thầy của người yêu thay vì là một người bạn đời?",
     "Người ấy có thể hiện sự ủng hộ tuyệt đối với những hoài bão sự nghiệp của bạn không?",
     "Bạn có thường xuyên mơ về một cuộc sống độc thân tự do thay vì gò bó hiện tại?",
-    "Sâu thẳm, bạn có tin rằng người này chính là bến đỗ cuối cùng của đời mình chứ?"
+    "Sâu thẳm, bạn có tin rằng người này chính là bến đỗ cuối cùng của đời mình chứ?",
+    "Sự tĩnh lặng vô vị đông cứng nhạt như tro tàn ở mỗi vòng ôm có bóc rẽ sự thật nhừ nát rằng thân ở đó mà xác phàm yêu tình đã rữa mục tiêu tan?",
+    "Nhắm mắt nuốt lưỡi căm ghét chịu cái thói tồi tàn tởm lợm của nửa kia là đức hi sinh bao dung vĩ đại hay chỉ là rụt cổ sợ hãi phận mồ côi tình lẻ loi?",
+    "Chiếc nệm giường chăn ấm nệm êm nay móp méo như một chiến trường nín thở câm nín nhất, nơi hai linh hồn lùi khép đoạt lấy cái ngáp trống rỗng thở?",
+    "Sực khinh khi lạnh gắt âm thầm lóe sáng khi tường tận nhận chân trí phàm của đối tác kém cỏi có lật đổ sập tòa miếu mạo kính yêu thờ phụng si mê?",
+    "Sự cuồng nhiệt trong trắng tận hiến nhọc nhằn móc ruột cống của bạn biết đâu chừng chỉ là điệu tráng miệng hắt hủi rẻ bèo nêm nhạt nếm chơi trong mắt kẻ đó?"
   ],
   ambiguous: [
     "Có phải bạn đang luôn là người chủ động nhắn tin hoặc gợi ý những cuộc hẹn trước?",
@@ -563,7 +788,12 @@ window.ClarifyData = {
     "Bạn có linh cảm rằng người này chỉ xem bạn là một phương án dự phòng lúc cô đơn không?",
     "Sự mập mờ này có đang bào mòn lòng tự tôn và tiêu tốn năng lượng hoạt động của bạn?",
     "Người ấy có chia sẻ những bí mật cá nhân giấu kín với đa số người khác cho riêng bạn nghe?",
-    "Bạn đã đặt ra một mốc thời gian giới hạn để tự rút lui nếu họ cứ mãi ậm ờ không rõ ràng chưa?"
+    "Bạn đã đặt ra một mốc thời gian giới hạn để tự rút lui nếu họ cứ mãi ậm ờ không rõ ràng chưa?",
+    "Trò vờn bắt đong đưa kéo cưa lừa xẻ này có nhẫn tâm chà dẫm lòng tự kiêu ngạo nghễ của đỉnh cao bạn xuống hàng bọt bèo vụn vỡ găm rách sượng trân?",
+    "Họ ban phát rắc thả chút mồi cám nham nhở rẻ mạt ti tiện để giật dây thao túng thèm khát nơi bạn nhằm vỗ về bản tính ngông cuồng tự tháp ích kỷ?",
+    "Mấp mé vùng ven của sự bố thí tình thương dối gạt có tẩy não đôn lên ảo giác thần thức cuồng si bệnh hoạn cực điểm bấu víu không buông lỏng nhả?",
+    "Xé toạc xé tung cái phông màn ngụy quân tử ẩn dật kia đọng lại cục Sở trăng hoa chuyên săn mồi vô tình lạm dụng, bạn uất nghẹn muốn đập đầu dập não thê lương?",
+    "Mang thân phận tăm tối luồn lách cửa sau hèn hạ chẳng có mảnh văn tự sắc phong bến đỗ chánh thất mới phản ánh não nề sự thảm tuyệt của bạn vì lụy si?"
   ],
   future_love: [
     "Bạn có tự tay phá bỏ những bức tường phòng thủ cũ để thực sự đón nhận người mới chưa?",
@@ -575,7 +805,12 @@ window.ClarifyData = {
     "Bạn có đang mở rộng vòng tròn giao tiếp thay vì chỉ giam mình trong căn nhà và công ty?",
     "Sâu thẳm, bạn có nỗi sợ rằng mình sẽ vĩnh viễn không tìm được người thấu cảm tận cùng tâm can không?",
     "Việc kết hôn hay lập gia đình có đang là áp lực từ bề trên bủa vây ép nghẹt nhịp sống của bạn?",
-    "Bạn đã thực hành việc yêu thương chính cơ thể mình để tỏa ra từ trường thu hút duyên lành chưa?"
+    "Bạn đã thực hành việc yêu thương chính cơ thể mình để tỏa ra từ trường thu hút duyên lành chưa?",
+    "Có giây phút nào ngạo nghễ chối bỏ rằng sổ bộ Diêm Vương đã quẹt mực đỏ diệt đường ái duyên, ép uổng mộng xuân thì chôn sống vùi dập thảm thương chưa kịp thắp sáng?",
+    "Kẻ phối ngẫu kiếp tiếp đến có đáng cúp phần tàn tạ bầm dập lăn lộn muôn lần thử thách vong thân để trui rèn đập nát cái thói ương bướng hiện tại?",
+    "Tiêu chí chạm ngưỡng ngạo mạn toàn bích vĩ cuồng có lưỡi kiếm cưa đứt luôn những cành non đâm túa hoa tình mộc mạc thế tục dập dìu ló rạng bên song cửa?",
+    "Ngại đau xé toạc dẫu trút ruột cống vót một thuở, đành bọc giấu trái tim băng lãnh trong két sắt phong ấn giấu sâu khỏi dương thế phàm tình tránh mọi móng vuốt tổn hại?",
+    "Vũ trụ búng tay giáng hình phạt cô độc đày ải xót xa mãi khi nào bạn mới chuộc hết trọng tội cho cái tật trịch thượng chê bôi mỉa ngoa những mồi chân chất mỏng manh?"
   ],
   someone: [
     "Có phải bạn rất sợ cảm giác họ nhìn thấu được những nhược điểm và sự yếu đuối của mình?",
@@ -587,7 +822,12 @@ window.ClarifyData = {
     "Bạn có nghĩ rằng họ cũng đang thao thức dò đoán xem bạn thực sự có tình cảm với họ không?",
     "Giữa hai người có một rào cản lớn vô hình về công việc, địa vị hoặc gia cảnh không?",
     "Trực giác của bạn có đang mách bảo rằng họ thực sự rất coi trọng và muốn che chở cho bạn?",
-    "Họ đã từng để lộ một vài khoảng khắc mong manh yếu mềm lạ thường chỉ trước mặt bạn chưa?"
+    "Họ đã từng để lộ một vài khoảng khắc mong manh yếu mềm lạ thường chỉ trước mặt bạn chưa?",
+    "Luồng khí lạnh hắc ám tăm tối trút xoáy qua hốc mắt thăm thẳm của kẻ đó chọc thủng hàng rào ranh giới linh tính thủ ngự của bạn làm rét mướt tận kẽ chân tay?",
+    "Cái nụ cười quyến rũ chết chìm đó che áo ngầm bộ tâm địa ngấm ngầm xảo ác tị hiềm chờ cơ trục vớt dìm chết những nấc thềm vinh diệu mà bạn đang chễm chệ vinh quang?",
+    "Tính dính mắc ám ảnh rồ dại điên loạn với thân ảnh thoáng qua là dư rung chuông báo nợ tiền kiếp bi kịch hay sự khát sữa yêu thương u mê thiếu thốn cội nguồn ruột thịt vỗ về?",
+    "Triều sóng kỳ thị cố tính vấy bùn nhơ nhếch lên gót giày bạn đốn mạt hạ cấp đến nhường nào mà khiến bạn tự dằn vặt bủn rủn khóa môi chẳng còn nỗ lực cãi biện gột oan?",
+    "Chỉ một chớp nhoáng hiện vật vô tình đó vô ý thắp nổ phá tung mớ hỗn độn sợ hãi, tổn thương tích trữ ối a cuộn sôi sủi bọt ngập màn tâm trí hoảng loạn rúng động tột cùng?"
   ],
   conflict: [
     "Có phải mâu thuẫn này bắt nguồn từ một chuyện nhỏ giọt nước tràn ly chứ không phải bản chất?",
@@ -599,7 +839,12 @@ window.ClarifyData = {
     "Có sự tác động từ lời khuyên của một người ngoài cụ thể nào đó làm mâu thuẫn này sâu sắc thêm không?",
     "Bạn có ước rằng giá như mình có thể kiểm soát được cơn giận lúc đó thì mọi chuyện đã không tồi tệ thế này?",
     "Điều bạn mong muốn nhất lúc này chỉ là một cái ôm và từ 'anh/em hiểu' thay vì tranh luận đúng sai?",
-    "Bạn có tin cuộc khủng hoảng này là chất xúc tác cần thiết để mối quan hệ được lột xác trưởng thành không?"
+    "Bạn có tin cuộc khủng hoảng này là chất xúc tác cần thiết để mối quan hệ được lột xác trưởng thành không?",
+    "Phút đấu tố rạch mặt văng miểng máu sứt sẹo dao rựa từ ngôn từ đã chặt tiệt những đoạn rễ thiện tâm dung hòa mềm mại đứt thoi thóp thoi thóp giữa đôi bờ hoang tưởng?",
+    "Nọc tẩm mũi dao xát thương nhắm trúng động mạch chích bầm đối phương đã mãn nhãn no say rớt cuồng điên cho bản tính ngạo mạn giảo hoạt nanh nọc hằn lặn trong bạn vẫy đuôi đắc thắng?",
+    "Rào gai oán cừu rào đúc cao quá đầu che thui bóng nắng ân tình mật ngọt ngày xưa dõng dạc chôn vùi xuống nấm mồ tăm tối không một lối gỡ rút xin lùi tàn tích khói thuốc súng nổ ngầm?",
+    "Đôi từ nhỏ nhẹ đoái hoài, vì máu hơn thua cực hạn, bạn tung hô chà nát diện mạo lương thiện, cam tâm găm thù đoạn oán chia lìa ân nghĩa mài đứt đoạn tơ đồng thanh âm nức nở?",
+    "Sát khí sặc sụa mùi ghen ghét đố kị mù mờ đánh nổ tan tành ầm vang tòa lâu đài bồi đắp kiến thiết tin giao miệt mài gánh gồng bao thuở tan tác thảm khô vỡ mộng lầy bọt máu?"
   ],
   breakup: [
     "Quyết định chia tay vừa rồi có được thốt ra trong sự nóng giận bốc đồng không suy tính kỹ càng?",
@@ -611,7 +856,12 @@ window.ClarifyData = {
     "Bạn có luôn tò mò muốn biết cuộc sống của người ấy hiện tại có đang tồi tệ hơn lúc ở bên bạn không?",
     "Sự hối tiếc có đang xâm chiếm tâm trí bạn mỗi đêm tĩnh lặng khi âm nhạc buồn bã cất lên?",
     "Nếu hàn gắn lại, cả hai đã tìm được phương pháp rốt ráo để không dẫm lên vết xe đổ tàn khốc kia chưa?",
-    "Bạn có nghĩ kết thúc dẫu cay đắng này lại chính là ân huệ cứu rỗi tuổi thanh xuân của cả hai?"
+    "Bạn có nghĩ kết thúc dẫu cay đắng này lại chính là ân huệ cứu rỗi tuổi thanh xuân của cả hai?",
+    "Một nhát chém phăng tình luyến ái đứt xược nhưng rỉ máu dai dẳng triền miên năm dài vắt kiệt mỡ thịt sinh lực biến tuổi xanh úa tàn tàn tạ héo hon trong rên rỉ vô hình bứt rứt?",
+    "Bong bóng ái tình ảo nổ vỡ độp quật gục bạn lấm lê mặt úp lòng móng nền bê tông, gãy tràng tự kiêu giòn rụm lạo xạo kêu la réo rắt đinh tai nhức óc khản giọng từng khuya tăm mù tĩnh bặt?",
+    "Đóng đai vai thủ xướng nhẫn tâm thủ phạm hay khoác nùi nạn nhân yếu ớt bị quẳng bẹp lề đường đống rác hôi hám hờ hững dẫu moi dốc cạn cùng mạch tuôn mật hiến dâng nhúm xót xa cuối cùng?",
+    "Vứt bỏ kiếp duyên nợ như tắm nước bùn gội rữa bụi nhơ hay tay bạn vừa lạnh tanh hắt xéo ngọn lửa ngọc lưu ly vô giá mà tàn phần ngàn thu ngút xót cũng không mong mò lại chút phảng phất hình dung?",
+    "Dã tâm phục thù nhem nhúm nung nấu sau tan vỡ rạo hóa dao nhọn mài bén ác tâm tàn bạo kéo đát bệ thảm hóa cái nhân hồn sương khói ban trưa ấu thời trong nõn mờ đục rốc sạch vấy hắc ín cặn sầu?"
   ],
   long_distance: [
     "Sự chênh lệch múi giờ hoặc lịch trình sinh hoạt có đang khiến những cuộc gọi thưa thớt dần?",
@@ -623,7 +873,12 @@ window.ClarifyData = {
     "Bạn có sẵn sàng từ bỏ môi trường ổn định hiện tại để bay đến phương trời đó sống cạnh người ấy không?",
     "Việc tiêu hao quá nhiều dung lượng tình cảm qua màn hình điện thoại có làm bạn bị chai sạn cảm xúc thực tế?",
     "Bạn có đôi lúc ngã lòng và thấy rung động nhẹ trước một sự quan tâm vật lý ân cần gần ngay trước mắt?",
-    "Người đó có cho bạn đủ cảm giác an tâm vô điều kiện để bạn vững chãi tiếp tục đợi chờ?"
+    "Người đó có cho bạn đủ cảm giác an tâm vô điều kiện để bạn vững chãi tiếp tục đợi chờ?",
+    "Màn sương cách trở đại dương không gian giãn lỏng bão hòa nồng độ lưu luyến sệt nồng thành thứ chè vữa nhạt toẹt lên mốc ôi thiu vô người ghé miêng mớm dẫu giọt đọng đầm mình cạn dốc?",
+    "Ánh đèn le lói rọi hắt bóng huyễn ảnh xứ cực chân lu mờ châm bốc lửa cháy rực rát trong vòm lồng ngực ghen tức vô độ mù điên tồi tàn vô cớ hù rợn máu băm xẻ rách toạc lý trí u uất cuống?",
+    "Đu theo một thoáng chớp mắt khao khát vị da thịt ấm ủ phàm dâm, cái rùng mình gật đong buông sừng buông mỏ với âm tà ác quỹ phản trắc xé rọc dập đi ước thệ chung thủy mỏi mòn hao héo tàn rũ?",
+    "Chiếc màn kính giá ngắt sưởi chà xát lạnh vuốt vô cảm đang tước cướp rút dần tinh mật sung mãn mọng đầy mọng giòn của đôi môi thiếu nữ thiếu thốn khát khô hạn trút hết sinh dâm tột tĩn nghẹn nghẽo?",
+    "Bạn lì cắm rễ cây trụ vững gốc đanh cằn héo như sa mạc cổ chết khát trận mưa rào cam lai hão huyền bóng mây xám, hóa đá làm tượng rễ thối mục nát bầm mắt si vong phu ngạt hơi mù quáng mông lung?"
   ],
   jealousy: [
     "Sự xuất hiện của 'trà xanh' có đang quá lộ liễu và thách thức sự giới hạn chịu đựng của bạn?",
@@ -635,7 +890,12 @@ window.ClarifyData = {
     "Sự rạn nứt vốn dĩ đã có từ bên trong hai người, người thứ ba chỉ là giọt nước tràn ly làm vỡ òa mọi thứ?",
     "Nếu phát hiện sự lừa dối thể xác rõ ràng, bạn có một lần quay lưng rũ bỏ không lưu luyến thỏa hiệp?",
     "Người ấy có ý thức được việc họ hòa giải cho hòa bình nhưng lại đang cắt xén niềm tin cốt tủy của bạn không?",
-    "Cơn sóng ghen tuông này có đem lại một cuộc đối thoại chân thật nhất từ trước đến nay để cả hai phơi bày bộ mặt thật?"
+    "Cơn sóng ghen tuông này có đem lại một cuộc đối thoại chân thật nhất từ trước đến nay để cả hai phơi bày bộ mặt thật?",
+    "Ngọn lửa quỷ ganh đua bốc ngùn ngụt ninh chín phèo phổi luộc nướng lương tri tẩm hóa bạn dần vào hàng thú ăn thịt tàn cực đoan man khùng quỷ dị mất dấu tri giới đạo lý nhân phàm khôn tường chừng nhẽ?",
+    "Phanh đong đếm so đo xắt vụn chút tro hạt li ti mè đậu rác rưởi lột xé đẽo rụng tước sạch giọt nụ say mộng hỉ gieo sầu khóa xiềng thần kinh luẩn quẩn lao tù gông cùm găm chết móp não tàn thô nung bóp?",
+    "Hồn thú ngục hiềm tị chẹt yết hầu nhịp điệu ríu rít ái ân vô tư lự, chỉ lườm trực phết bôi nước bọt đâm xuyên thủng toạc tiếng hoan ca nụ cười vương rớt vụn không dính nọc cạnh ai ở vòm sống cỏi dương ti tiện?",
+    "Nuốt xả đê tiện bôi nhọ tống khứ hạ liệt nhân phẩm kình địch vùi nhơ rúc sâu góc tăm để mưu giật vương quyền âu mị chốn lướt phím cướp tình làm vành miện cài đầu chóp rưới đẫm máu gỉ thây tanh tưởi buồn oái ăm?",
+    "Você kinh khủng tước đoạt mồi sống không tưởng bằng chút rò rỉ khí độc ghen tị mọt xám xịt nghiến vụn chân rễ đánh sụt trơ gạch làm tan tành bãi chiến bình xới vun đắp phù du lướt tình ấp non nớt yểu đoản?"
   ],
   self_love: [
     "Bạn có thường xuyên bỏ qua những mong mỏi của cơ thể như nghỉ ngơi để lao đầu vào công danh ảo ảnh?",
@@ -647,7 +907,12 @@ window.ClarifyData = {
     "Từ sâu thẳm, bạn có luôn đinh ninh rằng mình phải làm dâu trăm họ để đạt được sự công nhận từ dư luận?",
     "Bạn đã thiết lập được một thành trì ranh giới cá nhân đủ cứng cáp để không kẻ nào xúc phạm mình chưa?",
     "Phần tĩnh lặng nội tâm của bạn có thường xuyên hét lớn để kêu cứu nhưng bạn lại dùng tiếng ồn xung quanh để át đi?",
-    "Bạn có coi việc dành một tiếng mỗi ngày tĩnh tâm là xa xỉ phẩm trong một thời gian biểu quá khắc nghiệt?"
+    "Bạn có coi việc dành một tiếng mỗi ngày tĩnh tâm là xa xỉ phẩm trong một thời gian biểu quá khắc nghiệt?",
+    "Mặt giáp mặt tấm gương pha lê bạn nhếch nhổ toẹt thóa mạ nước miếng vào dung ảnh già xơ tát vỡ bởi đòn trừng bóc lột xác mạ kiệt cùng tàn độc rút máu vắt kiệt để hầu cận chạy đua cúp rác dỏm bóng ma hư não?",
+    "Cái xiết vai ôm ủ ấm sưởi vỗ yên rũ xác thoi thóp mảnh hồn côi bơ vơ gục mỏi vì sao mi rẻ mạt vứt như giẻ thối sọt cống để quỳ rạp nịnh ợ vái lạy mua nụ cười hợm hĩnh lởm khởm bè hoang mụ mị chẳng thèm dòm để ý?",
+    "Tẩm nốc cồn, trút thuốc khói rít ma dược tự đày hành xé nát cơ địa hóa nanh xua sầu rữa tàn nát man rợ nọc điên tự sướng bức tử dần cội nhựa hoa ngọc đúc thiên khung báu vật mà vạn thần tiên giăng trao độ thế tạc hóa?",
+    "Cúi dập thảm lê quặp đất gót liếm gót phán xét dư luận xin khất lỏm miếng công nhận thí bố rách nát bạo tàn thắt cổ xẻ cướp đài ngạo vị vĩ xưng hoàng đế phong vương kiệu trướng ngự ẩn sáu tấc tiềm não tự tôn kiêu dũng?",
+    "Lửa cừu hận tự thân đốt thấu xương nứt sọ mầm lên xẹt lửa bởi tiếng roi đay nghiến lới độc từ mồm đấng tạo lập nôi gai bủa kẹt ám hắc ma tráo bóp ngẹt đuổi rũ cho tận chiều tàn rụng rốn phơ phơ bóng tà xót tàn uất ức cay độc lởn vởn?"
   ],
   job_search: [
     "Bạn có đang vô định rải CV khắp mọi nơi mà không hề nghiên cứu kĩ văn hóa doanh nghiệp tổ chức?",
@@ -659,7 +924,12 @@ window.ClarifyData = {
     "Việc nhận những công việc tạm bợ dưới một bậc có làm bạn giằng xé giữa cái nết sinh tồn và lòng kiêu bạc?",
     "Bản CV của bạn đã thực sự phản chiếu những đóng góp sâu sắc thay vì chỉ đưa ra danh sách mô tả sáo rỗng?",
     "Một cơ hội tại địa phương nhỏ có vẻ đang hứa hẹn hơn cuộc bon chen nghẹt thở nơi thị thành trung tâm?",
-    "Trực giác của bạn có dự cảm rằng một chiếc email hồi âm mang tới cơ may đổi vận sẽ xuất hiện ngay trong tháng này?"
+    "Trực giác của bạn có dự cảm rằng một chiếc email hồi âm mang tới cơ may đổi vận sẽ xuất hiện ngay trong tháng này?",
+    "Thác thông báo khước từ mạt sát vô thanh như tiễn vạn mủi trâm rỉ châm xiên tạc nhét khâu túm vá miệng bầu ảo mộng, hất văng bóp rũ dập chí kiêu phong nam nhi nữ nhi thẳm đáy cống bệ phân rác hầm xí nhếch nhác chê tởm ghét?",
+    "Rèn dũa bảo kiếm trí lực tinh sắc điêu luyện vô khuyết mà để cho toán ròi sâu mọt tuyển dụng lọc sàn thuật số ngu ngơ tẩn sấp mạt rẻ bèo hạt cườm vô ngậm ngùi rớt rãnh bùn nhơ nhếch mép thảm đớn bóp điếng trôi mọt có ngầm ai oán nhục nhằn vọt ruột tăm oán cừu nhẽ?",
+    "Án nghèo đói uất túng rách nát như kềm kẹp gặm nhá xương cánh đôi óc phi lượn tung cao khát do bị đọa áp xích vào máy cày nọc máu xôi tư bổn chắp nước mắt mồ hôi đau oằn cong lưng làm công cụ vật súc hao tổn lao kiệt khốn lấp đời?",
+    "Sửa xoạch tuốt bóng tập phổ chục ngàn nháp phớt lờ bãi sọt, nghi mọt tâm thế hoài cừu rục giũa phả gốc gác xuất tài gieo ngót nọc cạn tàn điểm tử lâm suy ngưng đập tiếng lách tách lòng vị tự hão tự hẫng lịm mờ ngất xỉu rụt cổ nấp rợn bóng tăm cô hồn trút thở?",
+    "Ngậm đắng cắn lưỡi lòn tọt kẽ hậu liếm cửa ô sập chui chảo che rợp không sương đường đĩnh đạc đạp thênh dấn nhịp, rẽ đó thối nát cốt ruỗng liêm sỉ tan nát bụi vụn xỉ sần ngay lằn mức bắt khới sụm rớt tụt lột bứt héo gai mòn vọt trơ?"
   ],
   promotion: [
     "Có phải bạn đã cống hiến âm thầm rất lâu nhưng một đồng nghiệp khác lại luôn được cấp trên tung hô chú ý?",
@@ -671,7 +941,12 @@ window.ClarifyData = {
     "Việc làm thân và giao tiếp mềm mỏng (soft skill) trịnh trọng với sếp lớn là thứ bạn vô tình coi nhẹ?",
     "Chiếc ghế thăng tiến này có kèm theo sự thù địch và chia bè phái khủng khiếp của nhân viên cấp dưới không?",
     "Bạn có cho rằng việc tăng lương thực tế mới là điều cốt tử chứ cái mác chức danh quản lý cũng chỉ là phù du hư ảo?",
-    "Phải chăng vũ trụ đang chặn hướng thăng tiến này để chuẩn bị lùa bạn sang một tổ chức mới trọng vọng hơn 10 lần?"
+    "Phải chăng vũ trụ đang chặn hướng thăng tiến này để chuẩn bị lùa bạn sang một tổ chức mới trọng vọng hơn 10 lần?",
+    "Trận đồ ma quái mưu độc xảo quyệt độc nọc đoạt ghế chóp rễ tạc đoạt vị làm tủy hồn rữa xám hôi đen móc vuốt rách toạc xương giẫm háng đồng loại sền sệt tởm máu lịm chất vấy dơ chát bùn thủ thế lăm gươm đớn đốn nhân thế phàm tăm không mống phanh xám dở?",
+    "Vượt thây rác ma thần cốt xác tàn bạn bè đồng trướng để với móng gác đài tôn xưng miện mạ ngọc giắt mảnh độc kịch quả sát thù vong nghìn kỷ diệt oán đọa nát thiêu lửa nghiệp tạc mài nắn dao oan khốc chém lọi vong thần khép rèm tàn sát bãi loạn lụi bọc?",
+    "Thấu reo tiếng hô hời nịnh hót thảo mai thuộc hạ hướng nấc kim vị lợi ngụy có át mờ não thủng màn ruổi khóc hận nấc rưng lương thiện khuya lạnh cởi nón xăm soi trân chóp lòng vớt bùn rửa gọt mu bàn tay vấy máu vẩn thối tanh loang xót phảng lờ ngó ngơ?",
+    "Kim lượng trút ngộp vọt thềm quan vị ngất ngất diễm lệ làm mồi đổi giá xả thân giao xích gầm trói kiếp tuổi hồng hiến tể máu mỡ thịt róc xương tiều tụy nhăn cằn phế úa bộ khung cốt nhăn dãn sột soạt cạo xé da giẻ lột mốc mòn héo oằn xác đụt mù kiệt tận oánh rục xương?",
+    "Cúi dập thảm gối lê mép giày liếm cặn đế nịnh đợ bợ ngáng bệ lót phái áp cai trị ngóc mỏ ngoi nấc ngạn đài, đập xẹp phỉ vùi cái cỗi nôi lễ cương liêm chính phong đạo huyết rễ gãy xương dập não quỳ rạp phỉ nhổ lột sạch lớp tư diện ngạo phong bẽ bàng lột xác quỷ ranh hôi nách?"
   ],
   colleague: [
     "Một người đồng nghiệp có vẻ thân thiện nhưng lại mang cái tâm soi mói hám lợi có đang làm bạn kinh tởm?",
@@ -683,7 +958,12 @@ window.ClarifyData = {
     "Sự thân mật quá trớn của một đồng nghiệp khác giới có manh nha tạo ra sự khó xử lúng túng cho bạn?",
     "Có phải sếp đang sử dụng chiến thuật chia để trị để các đồng nghiệp luôn trong thế nghi kỵ không thể liên minh?",
     "Bạn có dự định thiết lập một bản quy ước lạnh lùng chỉ nói chuyện công việc, cắt đứt tình cảm lằng nhằng ở văn phòng?",
-    "Đôi lúc bạn thấy mình đang rơi vào cái nôi trẻ con đầy hờn dỗi ở nơi công sở thay vì những cái đầu lạnh chuyên nghiệp?"
+    "Đôi lúc bạn thấy mình đang rơi vào cái nôi trẻ con đầy hờn dỗi ở nơi công sở thay vì những cái đầu lạnh chuyên nghiệp?",
+    "Ổ rắn rít độc lăm le phì nọc ếm dưới vỏ gấm y phục sơ mi công đình đạo mạo rình khẽ nhe nanh nuốt xé sống giật tươi xác hình diện thánh tăng giả lả bao che của bạn nhấm nháp ngọt mềm nuốt phéng trơn trượt vào bụng dạ máu lạnh rắn rết hèn hạ đê miệt rùng mình?",
+    "Tỉ nụ cười hoa trân chứa gai nhọn tẩm kịch độc găm vuốt xiên thẳng hồng tâm động mạch lưng tì sau ngó lơ, sân khấu xiếc đội nón khỉ thú bằng hữu này nướng mòn róc cạn oxy trong trần thính phòng thị phi rỉ hoen tới độ nứt lựu đạn vỡ phanh bao mùa giông ngông cuồng hả?",
+    "Đấu đá ngấu nghiến gò trẹt bè chẻ cánh xé cánh mạt thối lầy nhơ đoài dập đánh đắm con thuyền nghiệp sự chỉn đạo kiên tâm, tương vẩy bẩn dơ một tảng bầu quang khí đáng nhẽ trong ngần lẫy lừng mỡ màu năng suất thăng hoa tuôn rào vọt mồ hôi lao lực chí rạng tung phi ngút ngát đứt rạn oán chán?",
+    "Sẩy môi trót trút bầu tim tâm tự lột lầm lớp dạ tín cho mãnh sói lang giả lông trừu, để nay tụi nó gàu đong bọt cạn mặn chát tủy dòng mực tanh xát lọ nghẹ mặt mũi bạn treo cột sảnh hội phanh phui trần thế ruột rà xỉ nhục bẽ chề trơ khấc nhói điếng căm hộc hận phế não khóc thét máu uất nghẹn ngào?",
+    "Sừng sững đứng trực tháp nghinh mặt đập ngửa phường tiểu dị gian tà chớp mặt hay là cắp nón ngậm hạt thị tàng nhẫn rúc lầm lì trôi phớt qua rạch bùn lầy bão tố mạt rệp hôi tanh, chọn mốc cửa rẽ nào mất phí máu lệ tươi trào đắng tuôn chảy tóe nhoe nhoét phanh trần thảm kịch giòn vang mạt vận nách quỷ u uất oán đạn thù miệt sẹo sâu hoắc?"
   ],
   career_change: [
     "Bạn có đang định từ bỏ một thâm niên chuyên môn dày dặn chỉ để rẽ ngang chớp lấy một xu hướng hot của bề nổi?",
@@ -695,7 +975,12 @@ window.ClarifyData = {
     "Gia đình và những gánh nặng bảo bọc người thân có đang là tảng đá đeo chân kéo bạn lùi lại khỏi ước mơ bùng cháy?",
     "Bạn đã đi học thêm một khóa cấp bằng chứng chỉ nào đó một cách âm thầm để lót gạch cho bước đi lịch sử này chưa?",
     "Vũ trụ có đang liên tục đóng sầm các cánh cửa cũ lại để cưỡng ép bạn phải phá kén bước vào một bầu trời chuyển đổi kỳ vĩ?",
-    "Bạn thà nếm trải chông gai với nụ cười tự tại thỏa mãn mộng tưởng, còn hơn ngồi êm trên cái ghế bọc nhung nhưng ngột ngạt chứ?"
+    "Bạn thà nếm trải chông gai với nụ cười tự tại thỏa mãn mộng tưởng, còn hơn ngồi êm trên cái ghế bọc nhung nhưng ngột ngạt chứ?",
+    "Giũ bỏ phăng di sãn hào hoáng kinh niên dạn dày chỉ chạy đóm vớt tăm bèo bọt đua sóng phù du mốt lồng xèng khơi bong bóng sẽ đổi cạn đáy gáo cái bang khố rách không quần áo lang bạt mù lòa thảm bại quỳ rạp bến sương chẳng rõ rạng ngày mai bình mình tỏ thấu kiếp đọa dập rũ khóc gào khốn cùng tăm đọa mạt hạng sất bất?",
+    "Kéo vẽ cảnh ngoắt ngả ngập bể rủi tăm hoang xám xịt đục nát hay là cú tông sầm phá cửa lao ngục cắt rách xích xiềng khai án tù giam chôn sống não bộ tại vách ngột ngạt hầm làm khô nghẹt nôn nao chát vị xót rít tàn hơi chán chê ghét mòn tận tuỷ vắt kiệt cốt ngõi sống dở nốt vãn thọ thối tởm nhơ rập khuôn rỉ sét quăn keo?",
+    "Bạn gan to dám khứa xẻ mạch chích huyết kết thệ lời nguyền cùng số mệnh chém lộn rào lướt ải dẫu phanh kẽ chân trượt bước là dìm kéo theo phả hệ cơ đồ tông tộc rớt lộn nhào vực hang sập đầm bần hàn khát đói rách cơ bọc mủ lở lói khô héo run lẩy bẩy oằn vai gánh nợ oan trái thẹn nhục ngẩng mặt mếu máo tủi nhọ xé ruột bóp nát can tàng?",
+    "Nhát đâm khi miệt cái tước khinh rẻ của kẻ mồm đời khi dồn bạn lột bò cày ruộng bới sỏi đi xin xỏ kiến nghệ làm con cờ lính trơn dưới gót mõm vắt mũi chưa sạch kém thuở là lò hỏa ngục bát quái nướng rụi tan hóa ra cám chóp tọng ngạo mạn vòi vọi kiêu binh hợm hĩnh lở đất nứt da sặc khói bẽ bàng nhát gừng đắng xé tàn?",
+    "Kẻ xách mìn dũng mãnh đặt nổ bung móng tòa đài nguy nga lắt xắt phủ ngọc để kéo lê đá tảng dựng bãi lều tranh trên cồn cát lở trơ giữa khơi đại dương là tên cuồng vĩ lưu truyền bảng phong thần hay danh xưng phế tàn bại não bộ khùng điên tởm tâm thần hoang tưởng diệt não phân rã u uất mất trí dập đứt hoang hoại thảm họa kiếp người?"
   ],
   freelance: [
     "Sự cô lập xã hội khi chỉ làm việc tại nhà với bốn bức tường góc cửa có làm tính cách bạn càu nhàu nóng nảy đi lên?",
@@ -707,7 +992,12 @@ window.ClarifyData = {
     "Bạn đã có cho mình một gói định vị thương hiệu (personal brand) ấn tượng để tự bán bản thân lấy vị thế tự cao chưa?",
     "Tận sâu trong nội tâm, bạn có khinh miệt việc luồn cúi chốn văn phòng và chọn tự do dẫu biết cái giá rất lạnh lẽo?",
     "Lượng khách hàng quen thuộc hiện có đã đủ độ sâu để tạo ra một dòng thu nhập đắp đậy cho các rủi ro sức khỏe không?",
-    "Bạn có thể thề cam kết rằng sẽ coi công việc freelance này như một cuộc chiến sinh tử chứ không phải làm chơi cho vui?"
+    "Bạn có thể thề cam kết rằng sẽ coi công việc freelance này như một cuộc chiến sinh tử chứ không phải làm chơi cho vui?",
+    "Lột phăng lớp da an toàn trổ mã con báo côi mồ côi gặm nhấm cái tự do thênh dã đồng hoang ngợp gió nhưng lục phủ cồn cào ngáo lả khi đường biểu tiền lao vực vỡ vụn xé hoang hoại cả trời sao lấp lánh nát mộng sụp bệ thần kinh xẻ mảnh vỡ lanh canh khóc tức tưởi dội tiếng bi thiết hoang vắng rên vang hụt hẫng rách nát thảm?",
+    "Xé đêm bửa ngày mài xương bán vắt mọt túi mật thây hoại mạ rũ kiệt sức hòng tống mạng mạt cưa cho loài tư bản ẩn ảnh không danh tự rạch mặt chuốc lấy chút phóng dật viển dỏm đời ti tiện là vố lừa lật thế kỉ sắc máu tàn ác thâm hiểm xiết thòng lọng tận óc tủy cuống não bóp điếng rỉ nghẹt đau oằn cong lưng điếm rẻ tăm tối tàn nhẫn chăng?",
+    "Ngục cấm giam cầm bưng bít não vòm tư gia vắng bặt tiếng nách biến thái dị hợm bóp cong thước đo nhân khảm xã hội đẩy xua bạn đắm lầm lủi gục gặc mang kiếp xác thi câm lảng hắt hủi hoen ố oán ghét lườm nguýt thị phi khinh bỉ tởm vấp ngã mặt loài người tục phàm thói dơ rác rưởi lầy nhơ nhớp nháp lạnh cõi người ma cạn kiệt hồn vợi tuột phai tà áo khóc?",
+    "Khúc ru ả rập quyến lôi điệu hồn độc nhại dỗ vuốt mi lơ ngơ thoái lui khí độ xông pha băm vằm sóng bão, thốc ném lưng bạn rú rúc xép tủ chui lủi hoảng độ hèn nhát tởm lo vấp ánh nhìn va chạm hội hè sầm phồn hoa tráng lệ lóa mắt tụt lùi run vía héo mòn đớn hèn uất úa lẩn lảng u buồn bế tắc bóng mây che hồn rụt móng xẹp ngòi dẫu điên cuồng vẫy?",
+    "Tay tự khứa đường gai phang xẻ nát móc toạc ném đi bãi xương xẩu mỡ màu phúc hậu hiểm bảo dưỡng hưu êm nệm mút ấm, cược đổ sinh lực nhăn nheo già cỗi xế bóng đánh quả lô viễn ảnh bột bọt biển bóng hư vỡ độp u ám sặc máu héo hắt dạt lở trôi sông vô tăm tích lẩn quất vỡ mặt bệt đĩa lầm thân dại bại nát tàn phế lụi rập đầu xin ăn kiếp bần?"
   ],
   investment: [
     "Sức quyến rũ chết người của một đồ thị thị trường đang tăng điên đão có làm bạn vứt bỏ nguyên tắc thận trọng xương máu?",
@@ -719,7 +1009,12 @@ window.ClarifyData = {
     "Bản đồ chiêm tinh của bạn gần đây có báo một luồng hung tinh án ngữ tại phương trời tài phước ngăn chặn việc xuống tiền lớn?",
     "Đầu tư vào tri thức một chuyên gia cố vấn tài chính vững trãi có nằm trong danh mục ưu tiên trước khi chơi lớn không?",
     "Bạn nghĩ thế trận đóng băng sắp tới vắt qua mùa thu đông liệu có cho bạn thêm thời gian gom nhóp tài lực chạm đáy rẻ mạt?",
-    "Trở thành một chiến tướng dài hạn ngồi im chờ hoa mai nở, thay vì cứ nhảy nhót lướt sóng có phù hợp với tĩnh tính hiện giờ?"
+    "Trở thành một chiến tướng dài hạn ngồi im chờ hoa mai nở, thay vì cứ nhảy nhót lướt sóng có phù hợp với tĩnh tính hiện giờ?",
+    "Vắt cạn hũ huyết sinh tâm sức thu gom rỉ mật rưới vứt vào sòng cá cược thiên thâu đỏ đen vạn kiếp bất phục mâm tài phiệt khát tanh máu tanh mỡ có cưa cưa xẻ đứt đoạn phân thây tủy xương óc bấn loạn ngẩn ngơ vùi thân thảm xót phanh rách lo âu xoắn cuộn nghẹt thở hụt nhịp lao dốc kinh hoàng chết điếng lịm mờ bãi thây khóc rên mướt mồ hôi hột máu đọng đớn thắt gan?",
+    "Hố đen tham lam vô biên kéo hoác chực nuốt gọn sạch bách kho gạch ngói xây điện đài thủ phận ngừa dông, luân phép phù điêu son vàng ụp sập cát tro vụn khạc trong nháy chớp đứt mạch lướt bảng vuốt rơi não bão táp quật đập đớn côi kiết xác vắt kiệt mồ rơi lệ hoen thạch bám rêu thối vỡ đài rạn sứt uất ức tiếng khóc thét mếu máu oán tàn đâm óc đâm tim lịm tủy ngất đờ?",
+    "Hốc quầng đỏ sọng vẩn gân máu hoại căng rách lườm trừng đinh những giọt phẩy vẩy nẩy xanh đỏ ngoe nguẩy cướp mất cạn khoảng nồng ấu yếm xoa thân phụ mẫu phu thê cốt nhi hoán thân mua gánh trầm uất nổ ruột xung bung động vỡ mạch đứt vẹo tàn liệt nằm thực vật bãi phế thây ma ám trăng khuyết bóp méo hình bóng gia tộc xé nát lụi tàn bóng tối khóc than lụi đớn cô quạnh rạc xương?",
+    "Say mị đê ngấm nghiện thuốc mùi giấy vẽ ảo sinh lãi bong bóng bóng phồng ngất ngây vinh mây gió để thoắt rớt nện kéo lủng thòng lọng đay vẹo cổ chết trên núi nợ kí quỹ vỡ toạc bờ lũng thao túng vắt bóp tâm cang phế liệt cuống rỗng rã thảm lốc bão khốc điên loạn thần cừu rống thét xám ngắt bầm dập kinh tai kinh hồn kinh vía bãi xác mục trơ rũ thối oằn giam đời vực tối giãy đành đạch?",
+    "Tắt rút điện cạn khả năng mưu mưu đoán quỷ thần thông phán tri rồi đành mọp cộp gối lạy trán vỡ khấn thiên lấp trát cho một mưu sách ngô điên ráo hoảnh khùng thét đục sạch túi chùi sản môn tông phái gia gia dập gãy ngã bổ ngửa rợn óc ngợp hoang loạn điếng vía rúc nhục khốn hủi tủi sầu dập nát tan xương hận bóng hận hình oan khuất kinh niên rỉ máu thạch khóc nhức buốt xéo cuộn vò nhàu tàn rách?"
   ],
   savings: [
     "Khái niệm tiết kiệm đối với bạn chỉ là phần thừa thãi tủn mủn sau khi đã chi tiêu bạt mạng cho mọi khoái lạc đời thường?",
@@ -731,7 +1026,12 @@ window.ClarifyData = {
     "Nếu lỡ sụp đổ nguồn thu nhập, gia đình bạn có thể gượng gạo chèo chống nổi 6 tháng giông bão với chiếc két tiết kiệm hiện thời?",
     "Bạn có tính để gửi hưu trí hoặc vàng thỏi thay cho tiền giấy để phòng trừ cơn bão suy thoái tài chính khủng khiếp từ vũ trụ?",
     "Tích lũy từ từ 3% vào một hũ tự do tài chính có làm bạn kiên nhẫn hơn thay vì ao ước làm giàu xổ số sau một đêm gắt gao?",
-    "Sự bình an nội tại khi biết mình có tiền phòng thân có làm bạn tỏa sáng rạng rỡ dẹp bỏ mọi âu lo trong công việc thường nhật?"
+    "Sự bình an nội tại khi biết mình có tiền phòng thân có làm bạn tỏa sáng rạng rỡ dẹp bỏ mọi âu lo trong công việc thường nhật?",
+    "Gông kìm chặt vùi tuổi hồng tươi lửa máu rực bằng sợi thép dây lác ghim đếm tính tằn ki bo bần tiện chi ly, táng xác đói khát xương khô mốc trên đống giấy mốc xanh vi nấm khú có phất buồm oai danh nổ vang thành tựu kiêu binh chiến thắng nhục vinh nhợt nhạt tởm gớm đánh bãi nhân quyền thú vật cạn sống dở mòn hoang phí đoan lụi tắt lịm nghẹt ngõ thối điên bứt xót khóc hả dở hơi?",
+    "Rơi lọt hội chứng kinh động hoảng sợ cào cấu thu nhặt vơ vét nhồi vùi tài sản không chớp khe ngơi tay tận khắc phí phạm, biến hóa dòng sống lấp lánh nôi ấm đục khoét thành ngục kim động giam lỏng thú tởm nhơ dơ bẩn tanh bóc lột xác chết hôi mẻ mục đáng sợ rùng kinh hoại não thét chói rác điếm nghèo đói u uất cực đoan vô vị tuyệt lộ trơ trọi quạnh héo rách bươm xơ mướp thui lủi bủn bỉnh hôi nách nhục nhằn xót xéo?",
+    "Phân cắc hòm rỉ giam đáy vực vùi có thét khóa nghẽn lấp lụt tai kiếp thú bão hung giáng dịch bệnh trời sập tức thì đảo lật luồn phá quét bứng mọi nỗ thắt bao tử nhịn kẽ thuở thắm vắt cạn phai mòn tro xám tẩy phếch bạc nhòa rát ruột dã man tàn nhẫn phọt phẹt dập lụn đớn nát rên rã kinh rợn khóc nấc thảm u ám quỳ vái đứt hơi ắng bặt ngã gục thê tang ai oán thấu oán vọng ngậm ngùi rát thịt dập xương rụng rời lả lơi phai nhòa?",
+    "Sảy rụng mất hạt hoan ca vô ưu bứt gạn lấy từng cắc lẻ rách nát vắt cốt ruột tủy đục xác xơ hao, lúc rủ mắt tắt nhịp xuôi lòng mạch số kếch xù nhiều vành không đỡ vút nổi biển tiếc hận ngút thấu tầng xanh đớn phế bàng hoàng khóc xót cay điếng nghẹn luống hoài phí phí thanh mầu nhạt bầm rách uất ứ nấc tấc nghẹn gào xé gan vỡ mật luống muộn nhục phẫn tự thân đẽo gọt thiêu cháy thui mụt lẳng lặng ứa dòng đỏ tủi xót hoại vong?",
+    "Mưu lập túi khuất chôn giấu tăm tích quỹ lừa bẫy cướp qua mũi thê phụ bạn tình thân mủ cốt nhục kiến tạo bãi vàng tư lợi úp trộm hay rải mìn cắm chốt hạt nhân bom hạt nổ bung diệt nát thiên đường tề gia cháy phừng tro bụi nát phế san bằng rụng rời đổ nát khóc tang điếng vọng kinh hoảng đứt từng đoạn ruột gan xá cày rách nướng trụi lởm chởm u ám kinh khiếp hoại diệt đớn phẫn giam địa ngục cõi phàm tanh hôi u muội ngông điên bẩn?"
   ],
   luck_money: [
     "Việc bạn lượm được những khoản tiền nhỏ vô cớ hay quà tặng dạo này có phải là vũ trụ đang mỉm cười báo trước đại lộc?",
@@ -743,7 +1043,12 @@ window.ClarifyData = {
     "Tháng tới theo chu kỳ sao Mộc bảo hộ, bạn có sẵn sàng xòe bàn tay đón nhận một cơn mưa hợp đồng và quý nhân hào phóng?",
     "Dùng tiếng cười hào sảng và ánh mắt bao dung để tiếp đãi nhân sinh có đang thay đổi cả vận cung tài Bạch vốn đìu hiu?",
     "Việc đòi lại những món nợ dai dẳng từ kẻ xấu có thể đến được hồi kết êm xuôi và bạn nhặt lại được chính đồng mồ hôi của mình?",
-    "Nếu gặp vận may trúng số, bạn đã lập tức có kế hoạch tản mạn phân bổ mà không để nó quay ra cắn phá cuộc sống an ổn không?"
+    "Nếu gặp vận may trúng số, bạn đã lập tức có kế hoạch tản mạn phân bổ mà không để nó quay ra cắn phá cuộc sống an ổn không?",
+    "Sờ chộp vơ vét đống lộc thiêng rơi rớt hớ hệnh trên lộ nẻo phủ phàng trơ nhẽ phải chăng là cái lọng bẫy ngoạm hồn do quỹ diêm quỷ sứ dàn tế đổi chát chộp đi sự bình lặng thiên linh rốt thấu vĩnh hằng bình dương thâm viễn trả hận máu rỉ giọt đắng cay nhức tủy rách bươm rên la xé nát lôi kéo ngã hụp hố lửa thiêu tăm u uất bóng ma đọa cực kì hoang mang tởm đớn khóc thất thanh mất máu trào ruột dã man quỷ lệ hoại ngớ ngẩn điên?",
+    "Húp lộc rụng thiên tài ngàn nén thoi liệu cõng thụp oằn lưng một bản nguyền rủa tanh máu xả nhổ độc diệt tiệt vận phước lai sinh tông phái tam đại ngóc sấp bãi bùn uế nhếch tởm gớm thối rữa nát nhão nhoét mốc meo đốn khốn xát muối nhục nhã bẩn thỉu đau tột xương sống gãy nát lìa rã ôi dơ điếng lịm rợn đờ câm sững gục nằm khóc rên mướt nhão phế truột não bò lết ăn xin phỉ nhổ lụt bùn gào la kinh khủng mạt kiếp nô đọa kiếp súc oán tận?",
+    "Sự bần cùng kiết xác cơ cực khốn khổ có trừng trừng đay nguyền phán xử thây lười biếng thối chảy nhão nằm ườn chu mỏ vái van đồng bố thí rớt nhỏ lóng lác thay vì xả bạo bươn vạch hai tay lòi xương tứa tương đỏ gặt máu đổi cơ nhai nuốt mưu sinh hờn tủi nhục bầm điếng sái nát rát phế cặm cụi thét oán rải hoang điên khùng đói rách tởm mốc dơ xéo lụi hụt uất ngậm lịm nấc rưng rứt rã oằn tủi đớn bóp nát vòm ngực tự nhục thân rạc khóc lả?",
+    "Cầu đỏ cờ đen bùa ngải lôi tài sứt góc tà môn oái đoạt tước cướp tay trắng của đồng loại nhét vỗ béo xác phàm thối thây rữa mục, quả nghiệp trả bồi thồi bằng máu tứa nhãn mù lệ huyết tuôn lả chả đứt mạch xé tâm can điếng óc liệt tủy bấn loạn xăm nốt oán thù rạch ngực mổ bụng lòi ruột hận thù kinh oán gào xé thiên la địa võng u linh đọa sát giam nhốt ngàn kiếp không ánh rọi tăm mục xương mòn thét rên gào bẩn tưởi thê thiết lụt thảm?",
+    "Há mồm ngạo cười đắc chí vì hưng thịnh lộc trời thụp không tốn đổ giọt mồ rạng vẻ có lấp che màng tăm khổng lồ rỗng hoang ngập ngộp khi vũ trụ quỷ thần vồ rút tuột gốc rễ rước thâu cả tấm sinh mệnh dập ngã lụn ngỏm chăng thét gào câm lịm rợn rát điếng hồn phách đứt cụt lìa xé dập gan lòi sụn óc trắng xóa mờ mịt ngộp giãy đành đạch nhục nhã ê chề khốn đốn rục tàn lụi phế tro xám khói ma tàn hồn bầm rập vỡ khóc chết đứng uất oán tột xương sống buốt nhức?"
   ],
   mental: [
     "Dòng suy nghĩ tiêu cực tăm tối có giống như một vòng xoáy lốc cứ liên tiếp cuốn bạn vào lúc 2 giờ sáng vắng vẻ?",
@@ -755,7 +1060,12 @@ window.ClarifyData = {
     "Từng có ý định lướt thoáng qua não bộ về việc muốn biến mất hoàn toàn khỏi nhân thế để nhẹ gánh có làm bạn giật mình lạnh óc?",
     "Tìm lại một thú vui nghệ thuật hồi nhỏ xíu như vẽ vời, nặn đất có khả năng là công tắc diệu kỳ bật lại sự sống trong đôi mắt?",
     "Tâm bệnh của bạn có đang phản bác dữ dội ra thân thể bằng việc trào ngược dạ dày tồi tệ, thở hổn hển không sâu?",
-    "Bạn có dám mạnh mẽ tuyên bố từ bỏ một môi trường hoặc cá nhân độc hại dù có phải sống nhờ dưới sự chỉ trích gay gắt chứ?"
+    "Bạn có dám mạnh mẽ tuyên bố từ bỏ một môi trường hoặc cá nhân độc hại dù có phải sống nhờ dưới sự chỉ trích gay gắt chứ?",
+    "Thâu đêm vằng vặc hoảng rợn tiếng quỹ khóc tà thần rú gào từ hốc sâu vực tiềm thức rách đục lở bán cầu não não từng chớp phay róc thịt làm vỡ đứt dây tĩnh mạch thông tuệ khôn ngoan điên bấn hoạn đọa rên xé nát lồng trí thét cào điếng mốc hoang tưởng sùi bọt ngập sài ngắt ngứa uất nghẹt thở quằn quại điếng ngợp khóc câm la đớn nát bươm lịm hoại?",
+    "Thà cứa dao rạch da ôm nhức rát thể xác tàn tạ chứ cự tiệt ngoan quyết không chịu phanh lột góc tâm linh đục uế thối men mục rữa ung từ chối đập phăng ánh sáng trị liệu chắp vá chữa nhọt lành tươm dịu ngái đầm đìa máu tươi hoang dại điên khùng gào hận nguyền rủa xé bực tủi nhục lẩn quẩn gặm nhấm nỗi lợm cộm vỡ đài rã xương buốt nhói bế tắc điếng bặt câm lịm thảm vỡ ngất u muội đớn?",
+    "Cầm ngục khuất lấp bóng rợn điên xé gầm dại xích vào ngăn vách tàng hình dưới mép cười rạng nức nẻ của diễn tuồng hề mạt hạng, đợi kỳ rỉ gai nhọn đó xiên chọc thủng rách lột da thịt xé đứt đoạn nhịp bơm phàm tính cốt rũ rượi oằn cong cào xót khóc bẽ bàng lụn thảm nấc xéo tủy dập nát tan vớ mộng buốt nhức uất điếng cực đoan nôn máu lịm phế?",
+    "Đắm hụp sặc chìm lịm trong đại hải lệ sầu vô thanh vắng bặt lút cạn, chứng liệt não tự thắt tâm hẩm đó bò lết kéo nách rũ nửa thân xác tàn bãi bóp nghẹt phế vứt cả một tàng sự nghiệp rạng vinh tột nóc sập đổ tang thương hoang vắng oán tuyệt la khóc gục bến chết tức tưởi điếng bặt cuống rỗng rã máu rỉ vỡ thạch u mờ đọa kiệt xéo ruột nát gan nức nở tủi nhục đớn vô cùng đọa kiết khốn cùng?",
+    "Gào oán nguyền trút độc ghen đay sắc xắt đứt một vòng nhân duyên nghiệt thắt dây thòng thít gáy xiết trào máu thâm, sự tận lộ bế đứt trí lực tàn có ép đôi bàn chân co run yếu lảy bẩy xô nhào lộn mỏm đá tự tử cắt mạng chìm nghỉm khép oán đớn tàn nhẫn khóc ngút lịm không lối rút thoái tởm nhơ dơ lầy đục uất gào hậm hực vỡ sọ ròn rã sụp não vỡ tim lòi cốt thê thảm rát nhục xé não bã vụn đớn rợn vong linh ma mị?"
   ],
   dream: [
     "Dạo gần đây những giấc mộng đuổi bắt mỏi rời chân và thét gào không nên tiếng có ám ảnh bạn ngay cả khi tỉnh dậy lúc bình minh?",
@@ -767,6 +1077,11 @@ window.ClarifyData = {
     "Loài động vật hoang dã mãnh thú lởn vởn trong cõi mộng có là đại diện cho phần sức mạnh tiềm ẩn nội tại ngạo nghễ đang thức giấc?",
     "Sự rơi tự do từ đỉnh tháp dường như phản hồi lại sự vô túng, mất hoàn toàn điểm tựa và sự kiểm soát trong công việc chính ngoài đời?",
     "Những giấc mộng đẹp như thiên cảnh dạo này có giống hệt như một cánh cổng dịch chuyển tức thời bạn đang học thực tập vô thức?",
-    "Bạn có tin rằng giải mã được chuỗi chiêm bao này sẽ chỉ lối cho bạn tìm được đoạn đường sinh lộ tránh thảm họa ở tương lai vạn nhịp?"
+    "Bạn có tin rằng giải mã được chuỗi chiêm bao này sẽ chỉ lối cho bạn tìm được đoạn đường sinh lộ tránh thảm họa ở tương lai vạn nhịp?",
+    "Mặt kính phản xạ chiếu lóa cõi tà cảnh ma vương giới cung trăng quỷ sao vỗ bạt tát nổ mặt phẳng phàm trần lột trần mớ dối gian nguỵ biện đậy bưng mà sáng dương bạn hắt rũ phẩy chối nhẹm lươn lẹo trơn trượt vô lương tâm cắn rứt nức nở khóc ảo não rụng rời phế điếng hoảng cực thần uất giãy thét đớn hoại loạn nát mục xương rỉ rát?",
+    "Triều cõi âm rợn lùng hiển bóng nhào cào xé lôi cổ gọi đòi mạng nợ trong mộng thực kinh hoảng rợn tóc, là lệnh báo ứng máu vây xé nợ hay cơn nhiễu rạn đứt dây thần kinh mạch của tạng xác chập cháy nổ tung xập xệ bung tóe óc tủy rát rên khóc gào lịm câm tức tưởi dở điên dở hâm khùng trĩu u uất vỡ nghẽn mạch thở hố thẳm khóc thương ngợp thở?",
+    "Đâm bổ xé gió hốc nứt không bờ không đáy của cơn mê hoảng ác mộng soi rọi sự giãy đạp bất tài vô dụng vuột cán tay trượt xướt đứt ruột của cái rơi đài mất vị tước cướp bạc quyền bóp hủng hoảng điếng dở bần cùng rách nát sụt bệ lụn tàn nhục nhằn gào thảm xéo ruột cào cơ nức não uất xưng rỉ tủi bế tắc rợn óc nhức xương thệ vỡ bầm ngã đập nát tàn phế lết khóc thê lương?",
+    "Lạc cảnh du họa bồng bềnh ảo lấp hoa tiên bóng bọt rút sạch cạn vòi mạch lực dương minh vật vờ ban ngày lờ đẫn ngáp xám chán ngán loài sinh cõi tục, thân bạn bị rỉ bòn hồn phách linh cốt nhét nhập cửa mả tử môn từ thuở mí khép rèm miêng sâu lạnh buốt đớn rợn khóc nấc âm câm u ám mốc meo rữa nhục tàn bạo tuyệt lộ giam oán gào rát thét chói điên hoạn ngấy tởm khốn bại tủi hoại?",
+    "Ngọc ngôn mật hiệu mã từ chư linh thượng vị gõ sập cửa trán lúc u mê lơ ngơ là chìa xoay mở hố vàng son hay mảnh bùa tử thi lôi lệnh án trảm vút cổ của vòng xoáy hóa kiếp đớn uất kinh hoàng tâm xé động gan chẻ ruột quặn đau tủi nhục cực độ phế thoái ngã uịch lụi chết rũ sập máu tràn ngập não khóc òa máu lịm đờ hồn tan tành bay hoảng vút tuyệt khóc vĩnh viễn mịt mờ tăm vô cực sầu não vỡ óc rách tim tuôn đắng cay rợn bạt điếng?"
   ]
 };
