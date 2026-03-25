@@ -189,15 +189,21 @@ window.AnalysisModule = (function () {
     btnSubmit.disabled = true;
 
     try {
-      // Fetch 3 questions locally from mapped data
-      let questions = window.ClarifyData?.[session.theme];
-      if (!questions || questions.length < 3) {
-        questions = [
+      // Fetch questions from mapped data and pick 3 at random
+      let allQuestions = window.ClarifyData?.[session.theme];
+      if (!allQuestions || allQuestions.length < 3) {
+        allQuestions = [
           "Bạn có đang vô tình bỏ qua những tín hiệu từ trực giác của chính mình không?",
           "Có phải một sự kiện trong quá khứ vẫn đang âm thầm cản trở bước tiến của bạn hiện tại?",
-          "Sâu thẳm bên trong, bạn đã tự biết câu trả lời cho vấn đề này rồi phải không?"
+          "Sâu thẳm bên trong, bạn đã tự biết câu trả lời cho vấn đề này rồi phải không?",
+          "Bạn có đang che giấu cảm xúc thật của mình với những người xung quanh không?",
+          "Có phải bạn đang lo sợ một sự thay đổi lớn sẽ làm đảo lộn cuộc sống hiện tại?"
         ];
       }
+
+      // Shuffle and pick 3 random questions
+      const shuffled = [...allQuestions].sort(() => 0.5 - Math.random());
+      let questions = shuffled.slice(0, 3);
 
       // Simulate a small delay for mystical effect
       await new Promise(r => setTimeout(r, 1500));
