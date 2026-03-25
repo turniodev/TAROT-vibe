@@ -3,195 +3,671 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Tarot Admin — Bảng Điều Khiển</title>
+  <title>Tarot Admin — Bảng Điều Khiển Huyền Bí</title>
   <link rel="icon" type="image/png" href="../cards/icon/tarot_favicon.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Cinzel:wght@600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Philosopher:wght@400;700&display=swap" rel="stylesheet" />
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
     :root {
-      --bg:       #050410;
-      --surface:  #0d0b1e;
-      --card:     #12102a;
+      --bg:       #04000e;
+      --surface:  #080014;
+      --card:     rgba(12, 0, 30, 0.85);
       --border:   rgba(155,48,255,0.2);
       --purple:   #9b30ff;
       --gold:     #c9a84c;
+      --gold-pale: rgba(255, 230, 130, 0.9);
       --text:     #e8e0ff;
-      --muted:    rgba(232,224,255,0.5);
+      --muted:    rgba(232,224,255,0.45);
       --danger:   #ff6060;
       --success:  #60ffa0;
+      --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
     }
-    body { background: var(--bg); color: var(--text); font-family: 'Inter', sans-serif; font-size: 14px; min-height: 100vh; }
 
-    /* ── Login Screen ─────────────────────────── */
+    html { scroll-behavior: smooth; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Philosopher', serif;
+      font-size: 14px;
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+
+    /* ── Stars / Particles Canvas ──────────────────── */
+    #adminCanvas {
+      position: fixed; inset: 0; pointer-events: none; z-index: 0;
+    }
+
+    /* ── Login Screen ─────────────────────────────── */
     #loginScreen {
+      position: relative; z-index: 10;
       display: flex; align-items: center; justify-content: center; height: 100vh;
-      background: radial-gradient(ellipse at 50% 40%, rgba(107,0,204,0.2) 0%, transparent 60%);
     }
+
+    @keyframes loginPulse {
+      0%, 100% { box-shadow: 0 0 40px rgba(107,0,204,0.25), 0 0 80px rgba(107,0,204,0.1); }
+      50%       { box-shadow: 0 0 60px rgba(155,48,255,0.45), 0 0 120px rgba(107,0,204,0.2); }
+    }
+
     .login-box {
-      background: var(--card); border: 1px solid var(--border); border-radius: 20px;
-      padding: 48px 40px; width: min(420px, 92vw); text-align: center;
-      box-shadow: 0 0 60px rgba(107,0,204,0.25);
+      background: linear-gradient(160deg, rgba(16,0,40,0.95), rgba(8,0,22,0.98));
+      border: 1px solid rgba(155,48,255,0.35);
+      border-radius: 24px;
+      padding: 52px 44px;
+      width: min(440px, 92vw);
+      text-align: center;
+      animation: loginPulse 4s ease-in-out infinite;
+      backdrop-filter: blur(20px);
+      position: relative;
+      overflow: hidden;
     }
-    .login-icon { font-size: 2.5rem; margin-bottom: 16px; }
-    .login-title { font-family: 'Cinzel', serif; font-size: 1.3rem; color: var(--gold); margin-bottom: 8px; }
-    .login-sub { color: var(--muted); font-size: 0.85rem; margin-bottom: 28px; }
+    .login-box::before {
+      content: '';
+      position: absolute; inset: 0;
+      background: radial-gradient(ellipse at 50% 0%, rgba(155,48,255,0.12) 0%, transparent 70%);
+      pointer-events: none;
+    }
+
+    .login-icon {
+      font-size: 2.8rem; margin-bottom: 16px;
+      animation: loginIconFloat 3s ease-in-out infinite alternate;
+    }
+    @keyframes loginIconFloat {
+      from { transform: translateY(0); }
+      to   { transform: translateY(-8px); filter: drop-shadow(0 0 16px rgba(201,168,76,0.6)); }
+    }
+
+    .login-title {
+      font-family: 'Cinzel', serif;
+      font-size: 1.5rem;
+      color: var(--gold);
+      margin-bottom: 6px;
+      letter-spacing: 0.08em;
+      text-shadow: 0 0 20px rgba(201,168,76,0.4);
+    }
+    .login-sub {
+      font-family: 'EB Garamond', serif;
+      font-style: italic;
+      color: var(--muted);
+      font-size: 0.95rem;
+      margin-bottom: 32px;
+    }
+
     .login-input {
-      width: 100%; background: rgba(255,255,255,0.06); border: 1px solid var(--border);
-      border-radius: 10px; padding: 13px 16px; color: #fff; font-size: 1rem;
-      outline: none; margin-bottom: 16px; transition: border-color 0.3s;
+      width: 100%;
+      background: rgba(155,48,255,0.07);
+      border: 1px solid rgba(155,48,255,0.3);
+      border-radius: 12px;
+      padding: 14px 18px;
+      color: #fff;
+      font-family: 'Philosopher', serif;
+      font-size: 1rem;
+      outline: none;
+      margin-bottom: 18px;
+      transition: border-color 0.3s, box-shadow 0.3s;
     }
-    .login-input:focus { border-color: var(--purple); box-shadow: 0 0 12px rgba(155,48,255,0.3); }
+    .login-input:focus {
+      border-color: var(--purple);
+      box-shadow: 0 0 20px rgba(155,48,255,0.25);
+    }
+    .login-input::placeholder { color: rgba(255,255,255,0.2); }
+
     .login-btn {
-      width: 100%; padding: 13px; background: linear-gradient(135deg, rgba(107,0,204,0.8), rgba(155,48,255,0.6));
-      border: 1px solid rgba(155,48,255,0.5); border-radius: 10px; color: var(--gold);
-      font-family: 'Cinzel', serif; font-size: 0.9rem; letter-spacing: 0.1em; cursor: pointer;
-      transition: all 0.3s;
+      width: 100%;
+      padding: 14px;
+      background: linear-gradient(135deg, rgba(107,0,204,0.85), rgba(155,48,255,0.65));
+      border: 1px solid rgba(200,121,255,0.5);
+      border-radius: 12px;
+      color: var(--gold-pale);
+      font-family: 'Cinzel', serif;
+      font-size: 0.9rem;
+      letter-spacing: 0.15em;
+      cursor: pointer;
+      transition: all 0.3s var(--ease-out);
     }
-    .login-btn:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(155,48,255,0.4); }
-    .login-error { color: var(--danger); font-size: 0.82rem; margin-top: 12px; }
+    .login-btn:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 12px 32px rgba(155,48,255,0.5);
+      border-color: var(--purple);
+    }
+    .login-error {
+      color: var(--danger);
+      font-size: 0.82rem;
+      margin-top: 14px;
+      font-family: 'EB Garamond', serif;
+      font-style: italic;
+    }
 
     /* ── App Layout ───────────────────────────── */
-    #app { display: none; }
+    #app { display: none; position: relative; z-index: 10; }
     .admin-layout { display: flex; min-height: 100vh; }
 
     /* Sidebar */
     .sidebar {
-      width: 220px; flex-shrink: 0; background: var(--surface); border-right: 1px solid var(--border);
-      display: flex; flex-direction: column; padding: 24px 0; position: sticky; top: 0; height: 100vh;
+      width: 230px;
+      flex-shrink: 0;
+      background: linear-gradient(180deg, rgba(10,0,28,0.98), rgba(6,0,18,0.99));
+      border-right: 1px solid var(--border);
+      display: flex;
+      flex-direction: column;
+      padding: 24px 0;
+      position: sticky;
+      top: 0;
+      height: 100vh;
+      backdrop-filter: blur(20px);
     }
-    .sidebar-logo { padding: 0 20px 24px; border-bottom: 1px solid var(--border); margin-bottom: 16px; }
-    .sidebar-logo-title { font-family: 'Cinzel', serif; color: var(--gold); font-size: 1rem; }
-    .sidebar-logo-sub { color: var(--muted); font-size: 0.7rem; margin-top: 2px; }
+
+    .sidebar-logo {
+      padding: 0 22px 24px;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 20px;
+    }
+    .sidebar-logo-icon {
+      font-size: 1.8rem;
+      margin-bottom: 8px;
+      animation: loginIconFloat 4s ease-in-out infinite alternate;
+      display: block;
+    }
+    .sidebar-logo-title {
+      font-family: 'Cinzel', serif;
+      color: var(--gold);
+      font-size: 1rem;
+      letter-spacing: 0.08em;
+      text-shadow: 0 0 12px rgba(201,168,76,0.3);
+    }
+    .sidebar-logo-sub {
+      font-family: 'EB Garamond', serif;
+      font-style: italic;
+      color: var(--muted);
+      font-size: 0.75rem;
+      margin-top: 3px;
+    }
+
     .nav-item {
-      display: flex; align-items: center; gap: 10px; padding: 10px 20px; cursor: pointer;
-      color: var(--muted); transition: all 0.2s; border-left: 3px solid transparent; font-size: 0.85rem;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 11px 22px;
+      cursor: pointer;
+      color: var(--muted);
+      transition: all 0.25s var(--ease-out);
+      border-left: 3px solid transparent;
+      font-size: 0.88rem;
+      letter-spacing: 0.03em;
+      position: relative;
     }
-    .nav-item:hover { background: rgba(155,48,255,0.08); color: var(--text); }
-    .nav-item.active { color: var(--purple); border-left-color: var(--purple); background: rgba(155,48,255,0.1); }
-    .nav-icon { font-size: 1rem; width: 20px; text-align: center; }
-    .sidebar-footer { margin-top: auto; padding: 16px 20px; border-top: 1px solid var(--border); }
+    .nav-item::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(90deg, rgba(155,48,255,0.12), transparent);
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+    .nav-item:hover { color: var(--text); }
+    .nav-item:hover::before { opacity: 1; }
+    .nav-item.active {
+      color: var(--gold-pale);
+      border-left-color: var(--gold);
+      text-shadow: 0 0 10px rgba(201,168,76,0.3);
+    }
+    .nav-item.active::before { opacity: 1; }
+    .nav-icon { font-size: 1.05rem; width: 22px; text-align: center; flex-shrink: 0; }
+
+    .sidebar-footer {
+      margin-top: auto;
+      padding: 18px 22px;
+      border-top: 1px solid var(--border);
+    }
     .logout-btn {
-      width: 100%; padding: 8px; background: rgba(255,96,96,0.1); border: 1px solid rgba(255,96,96,0.3);
-      border-radius: 8px; color: var(--danger); cursor: pointer; font-size: 0.82rem; transition: all 0.2s;
+      width: 100%;
+      padding: 9px;
+      background: rgba(255,96,96,0.08);
+      border: 1px solid rgba(255,96,96,0.25);
+      border-radius: 10px;
+      color: var(--danger);
+      cursor: pointer;
+      font-family: 'Philosopher', serif;
+      font-size: 0.82rem;
+      letter-spacing: 0.05em;
+      transition: all 0.2s;
     }
-    .logout-btn:hover { background: rgba(255,96,96,0.2); }
+    .logout-btn:hover { background: rgba(255,96,96,0.18); box-shadow: 0 4px 16px rgba(255,96,96,0.2); }
 
     /* Main */
     .main { flex: 1; overflow-x: hidden; }
+
     .topbar {
-      background: var(--surface); border-bottom: 1px solid var(--border); padding: 16px 28px;
-      display: flex; align-items: center; gap: 16px; position: sticky; top: 0; z-index: 10;
+      background: linear-gradient(90deg, rgba(10,0,28,0.97), rgba(8,0,20,0.95));
+      border-bottom: 1px solid var(--border);
+      padding: 16px 28px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      backdrop-filter: blur(16px);
     }
-    .topbar-title { font-family: 'Cinzel', serif; color: var(--gold); font-size: 1rem; flex: 1; }
+    .topbar-title {
+      font-family: 'Cinzel', serif;
+      color: var(--gold);
+      font-size: 1rem;
+      flex: 1;
+      letter-spacing: 0.1em;
+      text-shadow: 0 0 12px rgba(201,168,76,0.25);
+    }
     .search-input {
-      background: rgba(255,255,255,0.06); border: 1px solid var(--border); border-radius: 8px;
-      padding: 8px 14px; color: #fff; outline: none; width: 260px; font-size: 0.85rem; transition: border-color 0.3s;
+      background: rgba(155,48,255,0.07);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 9px 16px;
+      color: #fff;
+      font-family: 'Philosopher', serif;
+      outline: none;
+      width: 260px;
+      font-size: 0.85rem;
+      transition: border-color 0.3s, box-shadow 0.3s;
     }
-    .search-input:focus { border-color: var(--purple); }
+    .search-input:focus {
+      border-color: rgba(155,48,255,0.6);
+      box-shadow: 0 0 16px rgba(155,48,255,0.2);
+    }
+    .search-input::placeholder { color: rgba(255,255,255,0.2); }
     .content { padding: 24px 28px; }
 
     /* Stats cards */
-    .stats-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 16px; margin-bottom: 28px; }
-    .stat-card {
-      background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 20px;
-      transition: transform 0.2s, box-shadow 0.2s;
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 16px;
+      margin-bottom: 28px;
     }
-    .stat-card:hover { transform: translateY(-3px); box-shadow: 0 8px 24px rgba(107,0,204,0.25); }
-    .stat-label { color: var(--muted); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 8px; }
-    .stat-value { font-size: 2rem; font-weight: 700; color: var(--purple); }
-    .stat-sub { color: var(--muted); font-size: 0.75rem; margin-top: 4px; }
+
+    @keyframes cardGlow {
+      0%, 100% { box-shadow: 0 4px 20px rgba(107,0,204,0.2); }
+      50%       { box-shadow: 0 8px 30px rgba(155,48,255,0.35); }
+    }
+
+    .stat-card {
+      background: linear-gradient(145deg, rgba(16,0,40,0.9), rgba(10,0,24,0.95));
+      border: 1px solid rgba(155,48,255,0.25);
+      border-radius: 16px;
+      padding: 22px;
+      transition: transform 0.3s var(--ease-out), border-color 0.3s;
+      position: relative;
+      overflow: hidden;
+      animation: cardGlow 4s ease-in-out infinite;
+    }
+    .stat-card::after {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, rgba(155,48,255,0.5), transparent);
+    }
+    .stat-card:hover {
+      transform: translateY(-5px);
+      border-color: rgba(155,48,255,0.5);
+    }
+    .stat-label {
+      font-family: 'EB Garamond', serif;
+      color: var(--muted);
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      margin-bottom: 10px;
+    }
+    .stat-value {
+      font-family: 'Cinzel', serif;
+      font-size: 2.2rem;
+      font-weight: 700;
+      color: var(--purple);
+      text-shadow: 0 0 16px rgba(155,48,255,0.4);
+    }
+    .stat-sub {
+      color: var(--muted);
+      font-size: 0.75rem;
+      margin-top: 6px;
+      font-family: 'EB Garamond', serif;
+      font-style: italic;
+    }
 
     /* Table */
-    .table-wrap { background: var(--card); border: 1px solid var(--border); border-radius: 14px; overflow: hidden; }
-    .table-header { padding: 16px 20px; border-bottom: 1px solid var(--border); display: flex; align-items: center; gap: 12px; }
-    .table-title { font-weight: 600; font-size: 0.9rem; }
-    .badge { background: rgba(155,48,255,0.2); color: var(--purple); border-radius: 20px; padding: 2px 10px; font-size: 0.75rem; }
+    .table-wrap {
+      background: linear-gradient(160deg, rgba(14,0,36,0.9), rgba(8,0,20,0.95));
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      overflow: hidden;
+      position: relative;
+    }
+    .table-wrap::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, rgba(201,168,76,0.35), transparent);
+    }
+    .table-header {
+      padding: 18px 22px;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .table-title {
+      font-family: 'Cinzel', serif;
+      font-size: 0.88rem;
+      color: var(--gold-pale);
+      letter-spacing: 0.08em;
+      text-shadow: 0 0 10px rgba(201,168,76,0.2);
+    }
+    .badge {
+      background: rgba(155,48,255,0.18);
+      border: 1px solid rgba(155,48,255,0.3);
+      color: var(--purple);
+      border-radius: 20px;
+      padding: 3px 12px;
+      font-size: 0.72rem;
+      letter-spacing: 0.05em;
+    }
+
     table { width: 100%; border-collapse: collapse; }
-    th { background: rgba(155,48,255,0.08); color: var(--muted); font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.08em; padding: 10px 16px; text-align: left; }
-    td { padding: 12px 16px; border-bottom: 1px solid rgba(155,48,255,0.08); font-size: 0.83rem; vertical-align: middle; }
+    th {
+      background: rgba(155,48,255,0.06);
+      color: var(--muted);
+      font-family: 'Philosopher', serif;
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      padding: 11px 18px;
+      text-align: left;
+    }
+    td {
+      padding: 13px 18px;
+      border-bottom: 1px solid rgba(155,48,255,0.07);
+      font-size: 0.83rem;
+      vertical-align: middle;
+      transition: background 0.2s;
+    }
     tr:last-child td { border-bottom: none; }
-    tr:hover td { background: rgba(155,48,255,0.04); }
+    tr:hover td { background: rgba(155,48,255,0.05); }
+
     .td-muted { color: var(--muted); }
     .td-wrap { max-width: 280px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
     .theme-chip {
-      display: inline-block; background: rgba(201,168,76,0.15); border: 1px solid rgba(201,168,76,0.3);
-      color: var(--gold); border-radius: 20px; padding: 2px 10px; font-size: 0.72rem; white-space: nowrap;
+      display: inline-block;
+      background: rgba(201,168,76,0.12);
+      border: 1px solid rgba(201,168,76,0.3);
+      color: var(--gold);
+      border-radius: 20px;
+      padding: 3px 12px;
+      font-size: 0.72rem;
+      white-space: nowrap;
+      letter-spacing: 0.03em;
     }
     .plan-chip {
-      display: inline-block; border-radius: 20px; padding: 2px 10px; font-size: 0.72rem; white-space: nowrap;
-      background: rgba(96,255,160,0.1); border: 1px solid rgba(96,255,160,0.3); color: var(--success);
+      display: inline-block;
+      border-radius: 20px;
+      padding: 3px 12px;
+      font-size: 0.72rem;
+      white-space: nowrap;
+      background: rgba(96,255,160,0.1);
+      border: 1px solid rgba(96,255,160,0.3);
+      color: var(--success);
     }
-    .plan-chip.free { background: rgba(255,255,255,0.05); border-color: var(--border); color: var(--muted); }
+    .plan-chip.free {
+      background: rgba(255,255,255,0.04);
+      border-color: var(--border);
+      color: var(--muted);
+    }
     .action-btn {
-      background: rgba(155,48,255,0.15); border: 1px solid rgba(155,48,255,0.3); color: var(--purple);
-      border-radius: 6px; padding: 4px 12px; cursor: pointer; font-size: 0.78rem; transition: all 0.2s;
+      background: rgba(155,48,255,0.12);
+      border: 1px solid rgba(155,48,255,0.3);
+      color: rgba(200,150,255,0.9);
+      border-radius: 8px;
+      padding: 5px 14px;
+      cursor: pointer;
+      font-family: 'Philosopher', serif;
+      font-size: 0.78rem;
+      transition: all 0.25s var(--ease-out);
+      letter-spacing: 0.04em;
     }
-    .action-btn:hover { background: rgba(155,48,255,0.3); }
+    .action-btn:hover {
+      background: rgba(155,48,255,0.28);
+      border-color: var(--purple);
+      box-shadow: 0 4px 14px rgba(155,48,255,0.3);
+      transform: translateY(-1px);
+    }
 
     /* Pagination */
-    .pagination { display: flex; gap: 6px; padding: 16px 20px; border-top: 1px solid var(--border); justify-content: flex-end; }
-    .page-btn {
-      background: rgba(155,48,255,0.1); border: 1px solid var(--border); color: var(--muted);
-      border-radius: 6px; padding: 5px 12px; cursor: pointer; font-size: 0.8rem; transition: all 0.2s;
+    .pagination {
+      display: flex;
+      gap: 6px;
+      padding: 16px 20px;
+      border-top: 1px solid var(--border);
+      justify-content: flex-end;
     }
-    .page-btn:hover, .page-btn.active { background: rgba(155,48,255,0.3); color: var(--text); border-color: var(--purple); }
+    .page-btn {
+      background: rgba(155,48,255,0.08);
+      border: 1px solid var(--border);
+      color: var(--muted);
+      border-radius: 8px;
+      padding: 6px 13px;
+      cursor: pointer;
+      font-family: 'Philosopher', serif;
+      font-size: 0.8rem;
+      transition: all 0.2s;
+    }
+    .page-btn:hover, .page-btn.active {
+      background: rgba(155,48,255,0.28);
+      color: var(--text);
+      border-color: var(--purple);
+      box-shadow: 0 0 10px rgba(155,48,255,0.3);
+    }
     .page-btn:disabled { opacity: 0.3; cursor: default; }
+
+    /* Theme bars */
+    .theme-bars { display: flex; flex-direction: column; gap: 10px; padding: 18px 22px; }
+    .theme-bar-row { display: flex; align-items: center; gap: 12px; }
+    .theme-bar-label {
+      width: 190px;
+      font-size: 0.8rem;
+      color: var(--muted);
+      flex-shrink: 0;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      font-family: 'EB Garamond', serif;
+    }
+    .theme-bar-track {
+      flex: 1;
+      height: 7px;
+      background: rgba(255,255,255,0.05);
+      border-radius: 4px;
+      overflow: hidden;
+    }
+    .theme-bar-fill {
+      height: 100%;
+      background: linear-gradient(90deg, #9b30ff, rgba(201,168,76,0.7));
+      border-radius: 4px;
+      transition: width 0.8s var(--ease-out);
+    }
+    .theme-bar-cnt {
+      font-size: 0.75rem;
+      color: var(--gold);
+      width: 32px;
+      text-align: right;
+      flex-shrink: 0;
+    }
 
     /* Detail modal */
     .detail-overlay {
-      position: fixed; inset: 0; background: rgba(4,0,14,0.85); backdrop-filter: blur(8px);
-      z-index: 100; display: none; align-items: flex-start; justify-content: center; padding: 40px 20px; overflow-y: auto;
+      position: fixed; inset: 0;
+      background: rgba(4,0,14,0.88);
+      backdrop-filter: blur(12px);
+      z-index: 100;
+      display: none;
+      align-items: flex-start;
+      justify-content: center;
+      padding: 40px 20px;
+      overflow-y: auto;
+      transition: opacity 0.3s;
     }
     .detail-overlay.open { display: flex; }
-    .detail-box {
-      background: var(--card); border: 1px solid var(--border); border-radius: 18px;
-      width: min(800px, 100%); padding: 32px; position: relative;
-      box-shadow: 0 0 60px rgba(107,0,204,0.3);
-    }
-    .detail-close {
-      position: absolute; top: 16px; right: 16px; background: rgba(255,255,255,0.08); border: none;
-      color: #fff; width: 32px; height: 32px; border-radius: 50%; cursor: pointer; font-size: 1.1rem;
-      display: flex; align-items: center; justify-content: center; transition: background 0.2s;
-    }
-    .detail-close:hover { background: rgba(255,96,96,0.3); }
-    .detail-name { font-family: 'Cinzel', serif; color: var(--gold); font-size: 1.1rem; margin-bottom: 4px; }
-    .detail-meta { color: var(--muted); font-size: 0.82rem; margin-bottom: 20px; }
-    .detail-question { font-size: 1rem; color: var(--text); font-style: italic; padding: 12px 16px; background: rgba(155,48,255,0.08); border-radius: 10px; margin-bottom: 20px; border-left: 3px solid var(--purple); }
-    .cards-row { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 20px; }
-    .card-thumb { text-align: center; }
-    .card-thumb img { width: 60px; height: auto; border-radius: 6px; display: block; margin: 0 auto 4px; }
-    .card-thumb.rev img { transform: rotate(180deg); }
-    .card-thumb-name { font-size: 0.68rem; color: var(--muted); max-width: 70px; }
-    .card-thumb-pos { font-size: 0.62rem; color: var(--gold); margin-bottom: 2px; }
-    .analysis-box { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 16px; max-height: 400px; overflow-y: auto; }
-    .analysis-box pre { font-family: 'Inter', sans-serif; font-size: 0.83rem; line-height: 1.7; color: var(--text); white-space: pre-wrap; }
 
-    /* Theme chart */
-    .theme-bars { display: flex; flex-direction: column; gap: 8px; padding: 16px 20px; }
-    .theme-bar-row { display: flex; align-items: center; gap: 10px; }
-    .theme-bar-label { width: 180px; font-size: 0.78rem; color: var(--muted); flex-shrink: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-    .theme-bar-track { flex: 1; height: 8px; background: rgba(255,255,255,0.06); border-radius: 4px; overflow: hidden; }
-    .theme-bar-fill { height: 100%; background: linear-gradient(90deg, var(--purple), #6b00cc); border-radius: 4px; transition: width 0.5s; }
-    .theme-bar-cnt { font-size: 0.75rem; color: var(--muted); width: 30px; text-align: right; flex-shrink: 0; }
+    @keyframes detailIn {
+      from { opacity: 0; transform: translateY(24px) scale(0.96); }
+      to   { opacity: 1; transform: none; }
+    }
+
+    .detail-box {
+      background: linear-gradient(160deg, rgba(16,0,40,0.97), rgba(8,0,20,0.99));
+      border: 1px solid rgba(155,48,255,0.3);
+      border-radius: 20px;
+      width: min(820px, 100%);
+      padding: 36px;
+      position: relative;
+      box-shadow: 0 0 80px rgba(107,0,204,0.35), 0 40px 100px rgba(0,0,0,0.8);
+      animation: detailIn 0.4s var(--ease-out) both;
+    }
+    .detail-box::before {
+      content: '';
+      position: absolute; top: 0; left: 0; right: 0;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, rgba(201,168,76,0.4), transparent);
+    }
+
+    .detail-close {
+      position: absolute; top: 18px; right: 18px;
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(255,255,255,0.1);
+      color: var(--muted);
+      width: 33px; height: 33px;
+      border-radius: 50%;
+      cursor: pointer;
+      font-size: 1rem;
+      display: flex; align-items: center; justify-content: center;
+      transition: all 0.2s;
+    }
+    .detail-close:hover { background: rgba(255,96,96,0.2); color: var(--danger); border-color: rgba(255,96,96,0.4); }
+
+    .detail-name {
+      font-family: 'Cinzel', serif;
+      color: var(--gold);
+      font-size: 1.15rem;
+      margin-bottom: 5px;
+      text-shadow: 0 0 16px rgba(201,168,76,0.3);
+    }
+    .detail-meta {
+      color: var(--muted);
+      font-size: 0.82rem;
+      margin-bottom: 22px;
+      font-family: 'EB Garamond', serif;
+    }
+    .detail-question {
+      font-family: 'EB Garamond', serif;
+      font-style: italic;
+      font-size: 1.05rem;
+      color: var(--text);
+      padding: 13px 18px;
+      background: rgba(155,48,255,0.07);
+      border-radius: 12px;
+      margin-bottom: 22px;
+      border-left: 3px solid rgba(155,48,255,0.5);
+    }
+    .cards-row { display: flex; flex-wrap: wrap; gap: 14px; margin-bottom: 22px; }
+    .card-thumb {
+      text-align: center;
+      background: rgba(155,48,255,0.06);
+      border: 1px solid rgba(155,48,255,0.18);
+      border-radius: 10px;
+      padding: 8px;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .card-thumb:hover { transform: translateY(-3px); box-shadow: 0 6px 18px rgba(155,48,255,0.3); }
+    .card-thumb img { width: 62px; height: auto; border-radius: 5px; display: block; margin: 0 auto 5px; }
+    .card-thumb.rev img { transform: rotate(180deg); }
+    .card-thumb-name { font-size: 0.68rem; color: var(--muted); max-width: 74px; }
+    .card-thumb-pos { font-size: 0.62rem; color: var(--gold); margin-bottom: 3px; letter-spacing: 0.05em; }
+
+    .analysis-box {
+      background: rgba(155,48,255,0.04);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 18px;
+      max-height: 420px;
+      overflow-y: auto;
+    }
+    .analysis-box::-webkit-scrollbar { width: 5px; }
+    .analysis-box::-webkit-scrollbar-track { background: rgba(255,255,255,0.03); }
+    .analysis-box::-webkit-scrollbar-thumb { background: rgba(155,48,255,0.4); border-radius: 3px; }
+    .analysis-box pre {
+      font-family: 'EB Garamond', serif;
+      font-size: 0.9rem;
+      line-height: 1.75;
+      color: var(--text);
+      white-space: pre-wrap;
+    }
+    .analysis-section-label {
+      font-family: 'Philosopher', serif;
+      color: var(--muted);
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .analysis-section-label::before,
+    .analysis-section-label::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: linear-gradient(to right, transparent, rgba(201,168,76,0.3), transparent);
+    }
+
+    /* ── Scrollbar ──────────────── */
+    ::-webkit-scrollbar { width: 6px; }
+    ::-webkit-scrollbar-track { background: rgba(0,0,0,0.3); }
+    ::-webkit-scrollbar-thumb { background: rgba(155,48,255,0.35); border-radius: 3px; }
 
     @media (max-width: 768px) {
       .sidebar { display: none; }
       .search-input { width: 160px; }
       .content { padding: 16px; }
-      .detail-box { padding: 20px; }
+      .detail-box { padding: 22px; }
+    }
+
+    /* Loading skeleton */
+    .skeleton-line {
+      height: 14px;
+      background: linear-gradient(90deg, rgba(155,48,255,0.06) 25%, rgba(155,48,255,0.12) 50%, rgba(155,48,255,0.06) 75%);
+      background-size: 200% 100%;
+      border-radius: 7px;
+      animation: skeletonShimmer 1.6s infinite;
+    }
+    @keyframes skeletonShimmer {
+      from { background-position: 200% 0; }
+      to   { background-position: -200% 0; }
     }
   </style>
 </head>
 <body>
 
+<!-- Starfield Background -->
+<canvas id="adminCanvas"></canvas>
+
 <!-- Login -->
 <div id="loginScreen">
   <div class="login-box">
-    <div class="login-icon">🔮</div>
+    <span class="login-icon">🔮</span>
     <h1 class="login-title">Tarot Admin</h1>
-    <p class="login-sub">Bảng điều khiển quản trị viên huyền bí</p>
-    <input type="password" class="login-input" id="secretInput" placeholder="Nhập mật khẩu bí mật..." />
+    <p class="login-sub">Nhập mật khẩu để tiến vào cổng huyền bí</p>
+    <input type="password" class="login-input" id="secretInput" placeholder="✦  Mật khẩu bí mật..." />
     <button class="login-btn" onclick="doLogin()">✦ Tiến Vào ✦</button>
     <div class="login-error" id="loginError"></div>
   </div>
@@ -203,12 +679,13 @@
     <!-- Sidebar -->
     <aside class="sidebar">
       <div class="sidebar-logo">
-        <div class="sidebar-logo-title">✦ Tarot Admin</div>
+        <span class="sidebar-logo-icon">🔮</span>
+        <div class="sidebar-logo-title">Tarot Admin</div>
         <div class="sidebar-logo-sub">Bảng Điều Khiển Huyền Bí</div>
       </div>
       <nav>
         <div class="nav-item active" data-view="dashboard" onclick="switchView('dashboard', this)">
-          <span class="nav-icon">📊</span> Tổng Quan
+          <span class="nav-icon">✦</span> Tổng Quan
         </div>
         <div class="nav-item" data-view="readings" onclick="switchView('readings', this)">
           <span class="nav-icon">🃏</span> Lịch Sử Trải Bài
@@ -226,11 +703,10 @@
     <div class="main">
       <div class="topbar">
         <div class="topbar-title" id="viewTitle">Tổng Quan</div>
-        <input type="text" class="search-input" id="searchInput" placeholder="🔍  Tìm kiếm..." oninput="onSearch(this.value)" />
+        <input type="text" class="search-input" id="searchInput" placeholder="✦  Tìm kiếm..." oninput="onSearch(this.value)" />
       </div>
-
       <div class="content" id="viewContent">
-        <div style="color:var(--muted); text-align:center; padding:60px;">Đang tải...</div>
+        <div style="color:var(--muted); text-align:center; padding:80px; font-family:'EB Garamond',serif; font-style:italic;">Đang kết nối vũ trụ...</div>
       </div>
     </div>
   </div>
@@ -244,12 +720,108 @@
   </div>
 </div>
 
+<!-- Starfield Script -->
+<script>
+(function() {
+  const canvas = document.getElementById('adminCanvas');
+  const ctx = canvas.getContext('2d');
+  let stars = [], W, H;
+
+  function resize() {
+    W = canvas.width  = window.innerWidth;
+    H = canvas.height = window.innerHeight;
+  }
+
+  function initStars(n) {
+    stars = [];
+    for (let i = 0; i < n; i++) {
+      stars.push({
+        x: Math.random() * W,
+        y: Math.random() * H,
+        r: Math.random() * 1.2 + 0.2,
+        speed: Math.random() * 0.2 + 0.05,
+        alpha: Math.random(),
+        da: (Math.random() * 0.005 + 0.002) * (Math.random() < 0.5 ? 1 : -1)
+      });
+    }
+  }
+
+  function draw() {
+    ctx.clearRect(0, 0, W, H);
+
+    // Soft radial glow in center
+    const grad = ctx.createRadialGradient(W/2, H/2, 0, W/2, H/2, Math.max(W, H) * 0.6);
+    grad.addColorStop(0, 'rgba(107,0,204,0.06)');
+    grad.addColorStop(1, 'transparent');
+    ctx.fillStyle = grad;
+    ctx.fillRect(0, 0, W, H);
+
+    stars.forEach(s => {
+      s.alpha += s.da;
+      if (s.alpha >= 1 || s.alpha <= 0) s.da *= -1;
+      s.y += s.speed;
+      if (s.y > H) { s.y = 0; s.x = Math.random() * W; }
+
+      ctx.beginPath();
+      ctx.arc(s.x, s.y, s.r, 0, Math.PI*2);
+      ctx.fillStyle = `rgba(200,180,255,${Math.max(0, Math.min(1, s.alpha))})`;
+      ctx.fill();
+    });
+
+    requestAnimationFrame(draw);
+  }
+
+  window.addEventListener('resize', () => { resize(); initStars(180); });
+  resize();
+  initStars(180);
+  draw();
+})();
+</script>
+
 <script>
 const API = 'https://ka-en.com.vn/tarot_api/admin_api.php';
 let SECRET = sessionStorage.getItem('tarot_admin_secret') || '';
 let currentView = 'dashboard';
 let currentPage = 1;
 let searchTimer;
+
+// Filters
+let filterTheme = '';
+let filterStart = new Date(Date.now() - 7 * 86400000).toISOString().split('T')[0];
+let filterEnd = '';
+
+const THEME_MAP = {
+  love:'Tình Yêu', ex:'Người Yêu Cũ', current_love:'Người Yêu Hiện Tại',
+  ambiguous:'Mối Quan Hệ Mập Mờ', crush:'Crush', future_love:'Tình Duyên TL',
+  someone:'Người Ấy', marriage:'Hôn Nhân', conflict:'Xung Đột', breakup:'Chia Tay',
+  long_distance:'Yêu Xa', jealousy:'Người Thứ Ba', self_love:'Yêu Bản Thân',
+  career:'Sự Nghiệp', job_search:'Xin Việc', promotion:'Thăng Tiến',
+  business:'Kinh Doanh', colleague:'Đồng Nghiệp', career_change:'Chuyển Nghề',
+  freelance:'Freelance', interview:'Phỏng Vấn',
+  finance:'Tài Chính', investment:'Đầu Tư', debt:'Nợ Nần', savings:'Tiết Kiệm', luck_money:'Lộc Tài',
+  health:'Sức Khỏe', mental:'Tâm Thần', energy:'Năng Lượng', family:'Gia Đình', diet:'Chăm Sóc',
+  study:'Học Tập', study_abroad:'Du Học', self:'Bản Thân', purpose:'Mục Đích',
+  shadow_self:'Bóng Tối', decision:'Quyết Định', travel:'Du Lịch', spiritual:'Tâm Linh',
+  general:'Tổng Quát'
+};
+
+// ── Markdown Parser ───────────────────────────────────
+function markdownToHtml(md) {
+  if (!md) return '(Chưa có luận giải)';
+  return md
+    .replace(/^[-*_]{3,}$/gm, '<div class="analysis-section-label" style="margin:20px 0">✦</div>')
+    .replace(/^### (.+)$/gm, '<h3 style="color:var(--gold); font-family:Cinzel,serif; font-size:1.1rem; margin:20px 0 10px;">$1</h3>')
+    .replace(/^## (.+)$/gm, '<h2 style="color:var(--gold-pale); font-family:Cinzel,serif; font-size:1.2rem; margin:24px 0 12px; border-bottom:1px solid var(--border); padding-bottom:8px;">$1</h2>')
+    .replace(/^# (.+)$/gm, '<h2 style="color:var(--gold-pale); font-family:Cinzel,serif; font-size:1.4rem; margin:28px 0 16px;">$1</h2>')
+    .replace(/\*\*(.+?)\*\*/g, '<strong style="color:var(--gold-pale)">$1</strong>')
+    .replace(/\*(.+?)\*/g, '<em style="color:var(--muted)">$1</em>')
+    .replace(/^[-•] (.+)$/gm, '<li style="margin-left:20px; margin-bottom:8px;">$1</li>')
+    .replace(/(<li style=.*<\/li>\n?)+/gs, m => `<ul style="list-style-type:square; margin:10px 0; color:var(--text);">${m}</ul>`)
+    .replace(/^\d+\. (.+)$/gm, '<li style="margin-left:20px; margin-bottom:8px;">$1</li>')
+    .replace(/\n\n+/g, '</p><p style="margin-bottom:16px;">')
+    .replace(/^(?!<[hul])(.+)$/gm, (m) => m.trim() ? m : '')
+    .replace(/^([^<].+)$/gm, '<p style="margin-bottom:16px;">$1</p>');
+}
 
 // ── Auth ────────────────────────────────────────────
 function doLogin() {
@@ -261,7 +833,7 @@ function doLogin() {
     sessionStorage.setItem('tarot_admin_secret', SECRET);
     showApp();
   }).catch(() => {
-    document.getElementById('loginError').textContent = '❌ Mật khẩu không đúng!';
+    document.getElementById('loginError').textContent = '✕ Mật khẩu không đúng!';
     SECRET = '';
     sessionStorage.removeItem('tarot_admin_secret');
   });
@@ -297,8 +869,7 @@ async function apiFetch(action, params = {}) {
   Object.entries(params).forEach(([k, v]) => url.searchParams.set(k, v));
   const res = await fetch(url, { headers: { 'Authorization': `Bearer ${SECRET}` } });
   if (!res.ok) throw new Error(res.status);
-  const data = await res.json();
-  return data;
+  return await res.json();
 }
 
 // ── Routing ──────────────────────────────────────────
@@ -312,10 +883,14 @@ function switchView(view, el) {
 
 function loadView(view) {
   currentView = view;
-  const titles = { dashboard: 'Tổng Quan', readings: 'Lịch Sử Trải Bài', users: 'Người Dùng' };
+  const titles = { dashboard: '✦  Tổng Quan', readings: '🃏  Lịch Sử Trải Bài', users: '👥  Người Dùng' };
   document.getElementById('viewTitle').textContent = titles[view] || view;
-  document.getElementById('viewContent').innerHTML = '<div style="color:var(--muted); text-align:center; padding:60px;">Đang tải dữ liệu từ vũ trụ...</div>';
-
+  document.getElementById('viewContent').innerHTML = `
+    <div style="padding:60px; text-align:center;">
+      <div style="font-family:'EB Garamond',serif; font-style:italic; color:var(--muted); font-size:1.05rem; animation: loginIconFloat 2s ease-in-out infinite alternate;">
+        Đang kết nối vũ trụ...
+      </div>
+    </div>`;
   if (view === 'dashboard') renderDashboard();
   if (view === 'readings') renderReadings();
   if (view === 'users')    renderUsers();
@@ -365,12 +940,12 @@ async function renderDashboard() {
       </div>
       <div class="stat-card">
         <div class="stat-label">Hôm Nay</div>
-        <div class="stat-value" style="color:var(--gold)">${s.today_readings}</div>
+        <div class="stat-value" style="color:var(--gold);text-shadow:0 0 16px rgba(201,168,76,0.5)">${s.today_readings}</div>
         <div class="stat-sub">Lần trải bài</div>
       </div>
       <div class="stat-card">
         <div class="stat-label">7 Ngày Qua</div>
-        <div class="stat-value" style="color:var(--success)">${s.week_readings}</div>
+        <div class="stat-value" style="color:var(--success);text-shadow:0 0 16px rgba(96,255,160,0.4)">${s.week_readings}</div>
         <div class="stat-sub">Lần trải bài</div>
       </div>
     </div>
@@ -394,34 +969,57 @@ async function renderDashboard() {
 
 // ── Readings ─────────────────────────────────────────
 async function renderReadings(search = '') {
-  const d = await apiFetch('readings', { page: currentPage, q: search });
+  const d = await apiFetch('readings', {
+    page: currentPage,
+    q: search,
+    theme: filterTheme,
+    start_date: filterStart,
+    end_date: filterEnd
+  });
+
+  const themeOptions = Object.entries(THEME_MAP).map(([k, v]) => 
+    `<option value="${k}" ${k === filterTheme ? 'selected' : ''}>${v}</option>`
+  ).join('');
+
+  const filterHTML = `
+    <div style="display:flex; gap:12px; margin-bottom:20px; flex-wrap:wrap; align-items:center;">
+      <select class="search-input" style="width:auto;" onchange="filterTheme=this.value; currentPage=1; renderReadings(document.getElementById('searchInput').value)">
+        <option value="">✦  Tất cả chủ đề</option>
+        ${themeOptions}
+      </select>
+      <input type="date" class="search-input" style="width:auto;" title="Từ ngày" value="${filterStart}" onchange="filterStart=this.value; currentPage=1; renderReadings(document.getElementById('searchInput').value)">
+      <span style="color:var(--muted)">đến</span>
+      <input type="date" class="search-input" style="width:auto;" title="Đến ngày" value="${filterEnd}" onchange="filterEnd=this.value; currentPage=1; renderReadings(document.getElementById('searchInput').value)">
+    </div>
+  `;
+
   if (!d.readings?.length) {
-    document.getElementById('viewContent').innerHTML = '<div style="color:var(--muted); text-align:center; padding:60px;">Chưa có dữ liệu</div>';
+    document.getElementById('viewContent').innerHTML = filterHTML + '<div style="color:var(--muted); text-align:center; padding:80px; font-family:\'EB Garamond\',serif; font-style:italic;">Chưa có dữ liệu</div>';
     return;
   }
 
   const rows = d.readings.map(r => `
     <tr>
-      <td>${r.id}</td>
+      <td style="color:var(--muted); font-size:0.75rem">${r.id}</td>
       <td>
-        <div style="font-weight:500">${r.name}</div>
-        <div class="td-muted" style="font-size:0.75rem">${r.email}</div>
+        <div style="font-weight:600; font-family:'Philosopher',serif">${r.name}</div>
+        <div class="td-muted" style="font-size:0.73rem">${r.email}</div>
       </td>
-      <td><span class="theme-chip">${r.theme}</span></td>
-      <td class="td-wrap" title="${r.question}">${r.question}</td>
-      <td style="text-align:center">${r.spread_count} lá</td>
+      <td><span class="theme-chip">${THEME_MAP[r.theme] || r.theme}</span></td>
+      <td class="td-wrap" style="font-family:'EB Garamond',serif; font-style:italic" title="${r.question}">${r.question}</td>
+      <td style="text-align:center; color:var(--gold)">${r.spread_count} lá</td>
       <td>
         ${(r.cards || []).slice(0, 3).map(c =>
           `<span class="td-muted" style="font-size:0.72rem">${c.card_name_vi || c.card_name}${c.is_reversed ? '↓' : ''}</span>`
         ).join(', ')}
-        ${r.cards?.length > 3 ? `<span class="td-muted">...</span>` : ''}
+        ${r.cards?.length > 3 ? `<span class="td-muted"> ...</span>` : ''}
       </td>
-      <td class="td-muted" style="font-size:0.75rem">${r.created_at.slice(0,16).replace('T',' ')}</td>
+      <td class="td-muted" style="font-size:0.73rem">${r.created_at.slice(0,16).replace('T',' ')}</td>
       <td><button class="action-btn" onclick="showDetail(${r.id})">Xem chi tiết</button></td>
     </tr>
   `).join('');
 
-  document.getElementById('viewContent').innerHTML = `
+  document.getElementById('viewContent').innerHTML = filterHTML + `
     <div class="table-wrap">
       <div class="table-header">
         <div class="table-title">Lịch Sử Trải Bài</div>
@@ -445,25 +1043,25 @@ async function renderReadings(search = '') {
 async function renderUsers(search = '') {
   const d = await apiFetch('users', { page: currentPage, q: search });
   if (!d.users?.length) {
-    document.getElementById('viewContent').innerHTML = '<div style="color:var(--muted); text-align:center; padding:60px;">Chưa có người dùng</div>';
+    document.getElementById('viewContent').innerHTML = '<div style="color:var(--muted); text-align:center; padding:80px; font-family:\'EB Garamond\',serif; font-style:italic;">Chưa có người dùng</div>';
     return;
   }
 
   const rows = d.users.map(u => `
     <tr>
       <td>
-        <div style="font-weight:500">${u.name || '—'}</div>
-        <div class="td-muted" style="font-size:0.75rem">${u.email}</div>
+        <div style="font-weight:600; font-family:'Philosopher',serif">${u.name || '—'}</div>
+        <div class="td-muted" style="font-size:0.73rem">${u.email}</div>
       </td>
-      <td class="td-muted">${u.dob || '—'}</td>
+      <td class="td-muted" style="font-family:'EB Garamond',serif">${u.dob || '—'}</td>
       <td>
         <span class="plan-chip ${u.plan_type === 'free' ? 'free' : ''}">
           ${{ free: 'Miễn phí', guide: '⭐ Người Dẫn Đường', master: '👑 Bậc Thầy' }[u.plan_type] || u.plan_type}
         </span>
       </td>
       <td class="td-muted">${u.plan_expiry_date ? u.plan_expiry_date.slice(0,10) : '—'}</td>
-      <td style="text-align:center; color:var(--purple)">${u.reading_count}</td>
-      <td class="td-muted" style="font-size:0.75rem">${u.last_reading ? u.last_reading.slice(0,16).replace('T',' ') : '—'}</td>
+      <td style="text-align:center; color:var(--purple); font-family:'Cinzel',serif">${u.reading_count}</td>
+      <td class="td-muted" style="font-size:0.73rem">${u.last_reading ? u.last_reading.slice(0,16).replace('T',' ') : '—'}</td>
     </tr>
   `).join('');
 
@@ -475,7 +1073,7 @@ async function renderUsers(search = '') {
       </div>
       <table>
         <thead>
-          <tr><th>Tên / Email</th><th>Ngày sinh</th><th>Gói cước</th><th>Hết hạn</th><th>Số lần xem</th><th>Lần cuối</th></tr>
+          <tr><th>Tên / Email</th><th>Ngày sinh</th><th>Gói cước</th><th>Hết hạn</th><th>Số lần</th><th>Lần cuối</th></tr>
         </thead>
         <tbody>${rows}</tbody>
       </table>
@@ -487,14 +1085,14 @@ async function renderUsers(search = '') {
 // ── Detail modal ─────────────────────────────────────
 async function showDetail(id) {
   document.getElementById('detailOverlay').classList.add('open');
-  document.getElementById('detailContent').innerHTML = '<div style="color:var(--muted); padding:40px; text-align:center">Đang kết nối vũ trụ...</div>';
+  document.getElementById('detailContent').innerHTML = '<div style="color:var(--muted); padding:40px; text-align:center; font-family:\'EB Garamond\',serif; font-style:italic; font-size:1rem;">Đang kết nối vũ trụ...</div>';
   const d = await apiFetch('reading', { id });
   const r = d.reading;
   document.getElementById('detailContent').innerHTML = `
-    <div class="detail-name">${r.name} <span style="font-family:Inter; font-weight:400; font-size:0.85rem; color:var(--muted)">&lt;${r.email}&gt;</span></div>
+    <div class="detail-name">${r.name} <span style="font-family:'EB Garamond',serif;font-weight:400;font-size:0.85rem;color:var(--muted)">&lt;${r.email}&gt;</span></div>
     <div class="detail-meta">
       Sinh: ${r.dob || '—'} &nbsp;|&nbsp; 
-      Chủ đề: <span style="color:var(--gold)">${r.theme}</span> &nbsp;|&nbsp; 
+      Chủ đề: <span style="color:var(--gold)">${THEME_MAP[r.theme] || r.theme}</span> &nbsp;|&nbsp; 
       ${r.spread_count} lá &nbsp;|&nbsp; 
       ${r.created_at.slice(0,16).replace('T',' ')}
     </div>
@@ -509,9 +1107,8 @@ async function showDetail(id) {
         </div>
       `).join('')}
     </div>
-    <div style="color:var(--muted); font-size:0.78rem; margin-bottom:8px; text-transform:uppercase; letter-spacing:0.1em">✦ Luận Giải AI</div>
-    <div class="analysis-box">
-      <pre>${r.gemini_analysis || '(Chưa có luận giải)'}</pre>
+    <div class="analysis-box" style="font-family:'EB Garamond',serif; font-size:1.05rem; line-height:1.8; color:var(--text); white-space:normal;">
+      ${markdownToHtml(r.gemini_analysis)}
     </div>
   `;
 }
