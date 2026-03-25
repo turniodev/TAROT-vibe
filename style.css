@@ -1600,6 +1600,7 @@ body {
   text-align: center;
   font-family: 'EB Garamond', serif;
   font-size: 1.0rem;
+  font-style: italic;
   line-height: 1.5;
   color: var(--c-gold-pale);
   transition: opacity 0.3s var(--ease-out);
