@@ -6827,3 +6827,26 @@ body {
   display: inline-flex;
   align-items: center;
 }
+
+/* ── Privacy Note ──────────────────────── */
+.privacy-note {
+  font-family: 'EB Garamond', serif;
+  font-size: 0.88rem;
+  color: rgba(232, 180, 255, 0.45);
+  text-align: center;
+  margin-top: -12px;
+  margin-bottom: 22px;
+}
+
+.privacy-link {
+  color: var(--c-gold);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  cursor: pointer;
+  transition: color 0.2s, text-shadow 0.2s;
+}
+
+.privacy-link:hover {
+  color: #fff;
+  text-shadow: 0 0 8px rgba(201, 168, 76, 0.6);
+}

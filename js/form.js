@@ -726,6 +726,23 @@
   document.getElementById('tabCustomQ')?.addEventListener('click',  () => switchQTab('custom'));
   document.getElementById('tabPresetQ')?.addEventListener('click',  () => switchQTab('preset'));
 
+  /* ── Privacy Modal ────────────────────────────────────── */
+  const btnOpenPrivacy = document.getElementById('btnOpenPrivacy');
+  const btnPrivacyClose = document.getElementById('btnPrivacyClose');
+  const privacyModal = document.getElementById('privacyModal');
+
+  if (btnOpenPrivacy && privacyModal) {
+    btnOpenPrivacy.addEventListener('click', () => {
+      privacyModal.classList.add('open');
+    });
+    btnPrivacyClose?.addEventListener('click', () => {
+      privacyModal.classList.remove('open');
+    });
+    privacyModal.addEventListener('click', (e) => {
+      if (e.target === privacyModal) privacyModal.classList.remove('open');
+    });
+  }
+
   /* ── Public API ─────────────────────────────────────── */
   window.FormModule = {
     open:  openForm,
