@@ -32,38 +32,54 @@
 
     window.FormModule.close();
     
-    const particles = window.Particles;
-    const hasWarp = particles && particles.triggerWarp;
-
-    if (hasWarp) {
-      particles.triggerWarp(1400); // Trigger visual warp
-
-      const landingCenter = document.querySelector('.landing-center');
-      if (landingCenter) {
-        landingCenter.style.transition = 'transform 1.0s cubic-bezier(0.5, 0, 0.5, 1), opacity 0.8s';
-        landingCenter.style.transform = 'scale(1.4) translateY(-30px)';
-        landingCenter.style.opacity = '0';
-        landingCenter.style.pointerEvents = 'none';
-      }
-    }
-
-    setTimeout(() => {
-      if (window.triggerLightning) window.triggerLightning();
-      showPage('reading');
-      window.ReadingModule.init(data);
+    function executeWarpAndRead() {
+      const particles = window.Particles;
+      const hasWarp = particles && particles.triggerWarp;
 
       if (hasWarp) {
-        setTimeout(() => {
-          const landingCenter = document.querySelector('.landing-center');
-          if (landingCenter) {
-            landingCenter.style.transform = '';
-            landingCenter.style.opacity = '1';
-            landingCenter.style.transition = '';
-            landingCenter.style.pointerEvents = 'all';
-          }
-        }, 1000);
+        particles.triggerWarp(1400); // Trigger visual warp
+
+        const landingCenter = document.querySelector('.landing-center');
+        if (landingCenter) {
+          landingCenter.style.transition = 'transform 1.0s cubic-bezier(0.5, 0, 0.5, 1), opacity 0.8s';
+          landingCenter.style.transform = 'scale(1.4) translateY(-30px)';
+          landingCenter.style.opacity = '0';
+          landingCenter.style.pointerEvents = 'none';
+        }
       }
-    }, hasWarp ? 1200 : 300);
+
+      setTimeout(() => {
+        if (window.triggerLightning) window.triggerLightning();
+        showPage('reading');
+        window.ReadingModule.init(data);
+
+        if (hasWarp) {
+          setTimeout(() => {
+            const landingCenter = document.querySelector('.landing-center');
+            if (landingCenter) {
+              landingCenter.style.transform = '';
+              landingCenter.style.opacity = '1';
+              landingCenter.style.transition = '';
+              landingCenter.style.pointerEvents = 'all';
+            }
+          }, 1000);
+        }
+      }, hasWarp ? 1200 : 300);
+    }
+
+    const focusScreen = document.getElementById('focusScreen');
+    const focusText = document.getElementById('focusText');
+
+    if (focusScreen && focusText) {
+      focusText.innerHTML = `Hãy nghiêm túc và tập trung nghĩ về...<br><br><span style="color:var(--c-gold); font-size:1.4rem; font-style:italic">"${data.question}"</span><br><br><span style="font-size:0.85rem; opacity:0.5; font-family:'EB Garamond',serif">Chấp tâm trong khoảnh khắc, vũ trụ đang lắng nghe...</span>`;
+      focusScreen.classList.add('active');
+      setTimeout(() => {
+        focusScreen.classList.remove('active');
+        setTimeout(executeWarpAndRead, 1100); 
+      }, 5000);
+    } else {
+      executeWarpAndRead();
+    }
   });
 
   // ── Go to analysis ─────────────────────────────────

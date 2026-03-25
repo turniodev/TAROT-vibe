@@ -53,6 +53,7 @@ window.ReadingModule = (function () {
     deckArea.style.transform   = 'none';
     deckArea.style.pointerEvents = 'all';
     document.getElementById('pageReading')?.classList.remove('deck-hidden');
+    selectedArea.classList.remove('all-flipped');
 
     btnGoAnalysis.classList.add('hidden');
     btnGoAnalysis.classList.remove('auto-glow');
@@ -528,6 +529,7 @@ window.ReadingModule = (function () {
   function checkAllFlipped() {
     if (flippedCount >= session.spread) {
       instruction.textContent = 'Tất cả lá bài đã lên tiếng. Hãy đọc thông điệp của vũ trụ...';
+      selectedArea.classList.add('all-flipped');
       setTimeout(() => {
         btnGoAnalysis.style.opacity = '0';
         btnGoAnalysis.style.transition = 'none';

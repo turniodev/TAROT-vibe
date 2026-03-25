@@ -599,6 +599,44 @@ body {
   font-style: italic;
 }
 
+/* ============ FOCUS SCREEN ============ */
+.focus-screen {
+  position: fixed;
+  inset: 0;
+  background: #020008;
+  z-index: 10000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 1.5s ease-in-out;
+  padding: 30px;
+  text-align: center;
+}
+
+.focus-screen.active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.focus-text {
+  font-family: 'Philosopher', serif;
+  font-size: 1.15rem;
+  color: var(--c-pale);
+  max-width: 650px;
+  line-height: 1.7;
+  opacity: 0;
+  transform: translateY(15px);
+  transition: opacity 1.5s ease-out 0.8s, transform 1.5s ease-out 0.8s;
+}
+
+.focus-screen.active .focus-text {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 /* Entry card */
 .hist-entry {
   background: rgba(10, 0, 30, 0.7);
@@ -2072,6 +2110,25 @@ body {
 /* Flipped card hover aura same as face-down */
 .tarot-card.spread-card.flipped:hover::after {
   box-shadow: 0 0 28px rgba(155, 48, 255, 0.7), 0 0 60px rgba(155, 48, 255, 0.2);
+}
+
+/* All Cards Flipped Constant Glow */
+@keyframes allFlippedConstantGlow {
+  0%, 100% {
+    box-shadow: 0 0 15px rgba(155, 48, 255, 0.3), 0 0 35px rgba(107, 0, 204, 0.1);
+  }
+  50% {
+    box-shadow: 0 0 30px rgba(180, 100, 255, 0.5), 0 0 60px rgba(155, 48, 255, 0.3);
+  }
+}
+
+.selected-area.all-flipped .tarot-card.spread-card.flipped::after {
+  animation: allFlippedConstantGlow 3.5s ease-in-out infinite alternate;
+}
+
+.selected-area.all-flipped .tarot-card.spread-card.flipped:hover::after {
+  animation: none;
+  box-shadow: 0 0 40px rgba(200, 120, 255, 0.8), 0 0 80px rgba(155, 48, 255, 0.4) !important;
 }
 
 

@@ -23,6 +23,7 @@
       --danger:   #ff6060;
       --success:  #60ffa0;
       --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+      color-scheme: dark;
     }
 
     html { scroll-behavior: smooth; }
@@ -33,6 +34,21 @@
       font-size: 14px;
       min-height: 100vh;
       overflow-x: hidden;
+    }
+
+    /* Form elements baseline */
+    option {
+      background: var(--surface);
+      color: var(--text);
+      font-family: 'Philosopher', serif;
+    }
+    input[type="date"]::-webkit-calendar-picker-indicator {
+      cursor: pointer;
+      opacity: 0.6;
+      transition: opacity 0.2s;
+    }
+    input[type="date"]::-webkit-calendar-picker-indicator:hover {
+      opacity: 1;
     }
 
     /* ── Stars / Particles Canvas ──────────────────── */
@@ -270,7 +286,10 @@
       width: 260px;
       font-size: 0.85rem;
       transition: border-color 0.3s, box-shadow 0.3s;
+      cursor: pointer;
     }
+    input.search-input { cursor: text; }
+    input[type="date"].search-input { cursor: pointer; }
     .search-input:focus {
       border-color: rgba(155,48,255,0.6);
       box-shadow: 0 0 16px rgba(155,48,255,0.2);
@@ -982,14 +1001,14 @@ async function renderReadings(search = '') {
   ).join('');
 
   const filterHTML = `
-    <div style="display:flex; gap:12px; margin-bottom:20px; flex-wrap:wrap; align-items:center;">
-      <select class="search-input" style="width:auto;" onchange="filterTheme=this.value; currentPage=1; renderReadings(document.getElementById('searchInput').value)">
+    <div style="display:flex; gap:16px; margin-bottom:24px; flex-wrap:wrap; align-items:center;">
+      <select class="search-input" style="width:200px; padding:10px 16px; border-radius:12px; font-family:'EB Garamond',serif;" onchange="filterTheme=this.value; currentPage=1; renderReadings(document.getElementById('searchInput').value)">
         <option value="">✦  Tất cả chủ đề</option>
         ${themeOptions}
       </select>
-      <input type="date" class="search-input" style="width:auto;" title="Từ ngày" value="${filterStart}" onchange="filterStart=this.value; currentPage=1; renderReadings(document.getElementById('searchInput').value)">
-      <span style="color:var(--muted)">đến</span>
-      <input type="date" class="search-input" style="width:auto;" title="Đến ngày" value="${filterEnd}" onchange="filterEnd=this.value; currentPage=1; renderReadings(document.getElementById('searchInput').value)">
+      <input type="date" class="search-input" style="width:auto; padding:10px 16px; border-radius:12px; font-family:'EB Garamond',serif;" title="Từ ngày" value="${filterStart}" onchange="filterStart=this.value; currentPage=1; renderReadings(document.getElementById('searchInput').value)">
+      <span style="color:var(--muted); font-family:'EB Garamond',serif; font-style:italic;">đến</span>
+      <input type="date" class="search-input" style="width:auto; padding:10px 16px; border-radius:12px; font-family:'EB Garamond',serif;" title="Đến ngày" value="${filterEnd}" onchange="filterEnd=this.value; currentPage=1; renderReadings(document.getElementById('searchInput').value)">
     </div>
   `;
 
