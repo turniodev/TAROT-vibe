@@ -394,7 +394,9 @@
         </div>
 
         <!-- Spread Description Box -->
-        <div id="spreadDescriptionBox" class="spread-description-box">Bố cục quốc dân cung cấp cái nhìn bao quát về dòng chảy sự việc. Phù hợp nhất khi bạn gặp vướng mắc tâm lý và cần rà soát lại nguồn cơn vấn đề, tình trạng hiện tại, và xu hướng phát triển tiếp theo.</div>
+        <div id="spreadDescriptionBox" class="spread-description-box">Bố cục quốc dân cung cấp cái nhìn bao quát về dòng
+          chảy sự việc. Phù hợp nhất khi bạn gặp vướng mắc tâm lý và cần rà soát lại nguồn cơn vấn đề, tình trạng hiện
+          tại, và xu hướng phát triển tiếp theo.</div>
 
         <div class="step-nav">
           <button class="btn-prev" data-prev="3"><span class="nav-arrow"><svg width="14" height="14" viewBox="0 0 24 24"
@@ -465,6 +467,65 @@
     </button>
   </div>
 
+  <!-- ===================== CLARIFICATION MODAL ===================== -->
+  <div id="clarifyModal" class="clarify-screen">
+    <div class="clarify-container">
+      <div
+        style="font-size: 2.5rem; color: var(--c-gold); margin-bottom: 12px; animation: float 3s ease-in-out infinite;">
+        ✦</div>
+      <h2
+        style="font-family: 'Philosopher', serif; color: var(--c-gold); font-size: 1.6rem; margin-bottom: 12px; letter-spacing: 0.05em; text-transform: uppercase;">
+        Kết Nối Tâm Thức</h2>
+      <p id="clarifyDesc"
+        style="font-family: 'EB Garamond', serif; color: rgba(232, 180, 255, 0.9); font-size: 1.15rem; line-height: 1.6; margin-bottom: 32px; max-width: 600px; margin-left: auto; margin-right: auto;">
+        Vũ trụ cần bạn xác nhận 3 điều để thông điệp được giải mã chính xác nhất cho hoàn cảnh của bạn lúc này.</p>
+
+      <!-- Loading state within modal -->
+      <div id="clarifyLoading">
+        <div class="ai-loader" style="margin: 0 auto 20px;">
+          <div class="ai-orb"></div>
+          <div class="ai-ring"></div>
+        </div>
+        <div
+          style="font-family: 'EB Garamond', serif; color: var(--c-glow); font-size: 1.2rem; font-style: italic; animation: pulse 2s infinite;">
+          Đang lắng nghe tín hiệu...</div>
+      </div>
+
+      <!-- Questions container -->
+      <div id="clarifyQuestions" style="display: none; text-align: left; max-width: 600px; margin: 0 auto;">
+        <div class="cq-item" id="cq1">
+          <p class="cq-text">1. ...</p>
+          <div class="cq-btns">
+            <button class="cq-btn cq-yes" data-ans="yes">Có</button>
+            <button class="cq-btn cq-no" data-ans="no">Không</button>
+          </div>
+        </div>
+        <div class="cq-item" id="cq2">
+          <p class="cq-text">2. ...</p>
+          <div class="cq-btns">
+            <button class="cq-btn cq-yes" data-ans="yes">Có</button>
+            <button class="cq-btn cq-no" data-ans="no">Không</button>
+          </div>
+        </div>
+        <div class="cq-item" id="cq3">
+          <p class="cq-text">3. ...</p>
+          <div class="cq-btns">
+            <button class="cq-btn cq-yes" data-ans="yes">Có</button>
+            <button class="cq-btn cq-no" data-ans="no">Không</button>
+          </div>
+        </div>
+        <div style="text-align: center; margin-top: 32px;">
+          <button id="btnSubmitClarify" class="btn-begin btn-begin--analysis" style="width: 100%; max-width: 300px;"
+            disabled>
+            <span class="btn-begin__aura"></span><span class="btn-begin__ring"></span>
+            <span class="btn-begin__text">Tiếp Nhận Thông Điệp</span>
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
   <!-- ===================== HISTORY PANEL ===================== -->
   <div id="historyOverlay" class="history-overlay"></div>
   <div id="historyPanel" class="history-panel">
@@ -482,7 +543,7 @@
 
   <!-- ============ DAILY LIMIT — BLOCKED (1-card) ============ -->
   <div id="dlBlockedModal" class="dl-overlay">
-    <div class="dl-panel dl-blocked" style="max-width: 600px; text-align: center;">
+    <div class="dl-panel dl-blocked" style="max-width: 800px; text-align: center;">
       <div class="dl-sigil">✦</div>
       <h2 class="dl-title" style="margin-bottom: 8px;">Giới Hạn Năng Lượng</h2>
       <p class="dl-body" style="margin-bottom: 24px;">
@@ -512,7 +573,7 @@
           <ul class="pt-features">
             <li>✦ <strong>Không giới hạn</strong> lượt trải bài</li>
             <li>✦ Luận giải chuyên sâu và kết nối</li>
-            <li>✦ Ưu tiên phản hồi phân tích nhanh</li>
+            <li>✦ Ưu tiên phản hồi phân tích sâu</li>
           </ul>
           <button class="dl-btn dl-btn--gold" style="width:100%; margin-top: 20px;">Mở Khóa Ngay</button>
         </div>
@@ -605,6 +666,7 @@
   <script src="js/history.js"></script>
   <script src="js/form.js"></script>
   <script src="js/reading.js"></script>
+  <script src="js/clarify_data.js"></script>
   <script src="js/analysis.js"></script>
   <script src="js/dictionary.js"></script>
   <script src="js/app.js"></script>

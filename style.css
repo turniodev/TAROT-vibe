@@ -603,9 +603,9 @@ body {
 .focus-screen {
   position: fixed;
   inset: 0;
-  background: rgba(15, 0, 35, 0.45);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
+  background: rgba(15, 0, 35, 0.55);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   z-index: 10000;
   display: flex;
   flex-direction: column;
@@ -3307,6 +3307,7 @@ body {
 }
 
 .dl-blocked {
+  width: min(800px, 92vw);
   background: linear-gradient(160deg, rgba(20, 0, 50, 0.98), rgba(8, 0, 22, 0.99));
   border: 1px solid rgba(155, 48, 255, 0.4);
   box-shadow: 0 0 60px rgba(107, 0, 204, 0.3), 0 20px 60px rgba(0, 0, 0, 0.7);
@@ -6538,20 +6539,22 @@ body {
   font-size: 1.8rem;
   cursor: pointer;
   line-height: 1;
+  padding: 12px;
+  margin: -6px -12px;
   transition: all 0.3s;
 }
 
 .cd-close {
   position: absolute;
-  top: 15px;
-  right: 20px;
+  top: 10px;
+  right: 15px;
   z-index: 10;
 }
 
 .dict-close:hover,
 .cd-close:hover {
-  color: var(--c-glow);
-  transform: rotate(90deg);
+  color: var(--c-gold);
+  text-shadow: 0 0 10px var(--c-gold);
 }
 
 .dict-content {
@@ -6567,6 +6570,78 @@ body {
   margin-bottom: 20px;
   border-bottom: 1px dashed rgba(155, 48, 255, 0.3);
   padding-bottom: 8px;
+}
+
+/* ════════════════════════════════════════════════════
+   CLARIFICATION MODAL CHAT
+════════════════════════════════════════════════════ */
+.clarify-screen {
+  position: fixed;
+  inset: 0;
+  background: rgba(10, 0, 25, 0.85); /* Tối hơn một chút để tập trung */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  z-index: 100000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.4s ease, visibility 0.4s ease;
+}
+.clarify-screen.visible {
+  opacity: 1;
+  visibility: visible;
+}
+.clarify-container {
+  width: 100%;
+  max-width: 800px;
+  animation: modalFadeIn 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.cq-item {
+  margin-bottom: 20px;
+  padding: 16px;
+  background: rgba(107, 0, 204, 0.1);
+  border: 1px solid rgba(155, 48, 255, 0.2);
+  border-radius: 12px;
+}
+.cq-text {
+  font-family: 'EB Garamond', serif;
+  font-size: 1.15rem;
+  color: #fff;
+  margin: 0 0 12px 0;
+  line-height: 1.5;
+}
+.cq-btns {
+  display: flex;
+  gap: 12px;
+}
+.cq-btn {
+  flex: 1;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 50px;
+  color: var(--c-gold-pale);
+  font-family: 'Philosopher', serif;
+  font-size: 1.05rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.cq-btn:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.3);
+}
+.cq-btn.active {
+  background: rgba(201, 168, 76, 0.15);
+  border-color: var(--c-gold);
+  color: var(--c-gold);
+  box-shadow: 0 0 15px rgba(201, 168, 76, 0.4), inset 0 0 10px rgba(201, 168, 76, 0.2);
+  text-shadow: 0 0 5px rgba(201, 168, 76, 0.5);
 }
 
 .dict-group-sub {

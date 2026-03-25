@@ -112,6 +112,14 @@
   }
 
   document.getElementById('btnOpenForm').addEventListener('click', (e) => {
+    // Kích hoạt Fullscreen (F11) để tạo cảm giác nhập vai
+    const docEl = document.documentElement;
+    if (!document.fullscreenElement && !document.webkitFullscreenElement && !document.msFullscreenElement) {
+      if (docEl.requestFullscreen) docEl.requestFullscreen().catch(()=>{});
+      else if (docEl.webkitRequestFullscreen) docEl.webkitRequestFullscreen().catch(()=>{});
+      else if (docEl.msRequestFullscreen) docEl.msRequestFullscreen().catch(()=>{});
+    }
+
     window.FX?.ripple(e.currentTarget, e, 'rgba(200,121,255,0.35)');
     if (window.Particles && window.Particles.triggerWarp) {
       window.Particles.triggerWarp(1500);

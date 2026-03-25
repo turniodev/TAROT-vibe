@@ -95,54 +95,7 @@ window.AnalysisModule = (function () {
     // The save to history action is handled by app.js at the time of clicking "Go Analysis".
     // This prevents duplicate history items when re-viewing from history tab.
 
-    if (preloadedAnalysis) {
-      document.getElementById('aiLoading').style.display = 'none';
-      const contentEl = document.getElementById('aiContent');
-      contentEl.style.display = '';
-      contentEl.innerHTML = markdownToHtml(preloadedAnalysis);
-      const shareId = session.readingId || new URLSearchParams(window.location.search).get('share');
-      if (shareId && shareId !== 'null') {
-        document.getElementById('btnShareReading').dataset.id = shareId;
-      }
-    } else if (session.isHistoryReplay || window.location.search.includes('share=')) {
-      // Missing AI analysis on an old session - show button to request
-      document.getElementById('aiLoading').innerHTML = `
-        <div class="ai-login-gate" style="text-align: center;">
-          <p style="margin-bottom: 16px; opacity: 0.8;">Chưa có dữ liệu luận giải tổng hợp cho trải bài này.</p>
-          <button class="ai-login-btn" id="btnForceAi">
-            <span>✦</span> Nhận Thông Điệp Vũ Trụ
-          </button>
-        </div>`;
-      document.getElementById('btnForceAi')?.addEventListener('click', () => {
-        const showLoading = () => {
-          document.getElementById('aiLoading').innerHTML = `
-            <div class="ai-pulse" style="margin: 0 auto 16px;"></div>
-            <span>Đang kết nối với vũ trụ…</span>
-          `;
-        };
-        if (!window.AuthModule?.isLoggedIn()) {
-          window.AuthModule?.requireLogin(user => {
-            showLoading();
-            fetchGeminiAnalysis(cards, session, labels, themeLabel);
-          });
-        } else {
-          showLoading();
-          fetchGeminiAnalysis(cards, session, labels, themeLabel);
-        }
-        });
-    } else {
-      // Tất cả users (kể cả anonymous) đều được gọi AI.
-      // Backend sẽ kiểm tra quota: anonymous=1 lần/ngày, login=3 lần/ngày.
-      fetchGeminiAnalysis(cards, session, labels, themeLabel);
-    }
-  }
-
-  /* ── Call PHP proxy ──────────────────────────────────── */
-  async function fetchGeminiAnalysis(cards, session, labels, themeLabel) {
-    const loadEl = document.getElementById('aiLoading');
-    const contentEl = document.getElementById('aiContent');
-
-    const payload = {
+    const basePayload = {
       reading_id: session.readingId || null,
       created_at: session.dt || null,
       name: session.name,
@@ -173,6 +126,123 @@ window.AnalysisModule = (function () {
         };
       })
     };
+
+    if (preloadedAnalysis) {
+      document.getElementById('aiLoading').style.display = 'none';
+      const contentEl = document.getElementById('aiContent');
+      contentEl.style.display = '';
+      contentEl.innerHTML = markdownToHtml(preloadedAnalysis);
+      const shareId = session.readingId || new URLSearchParams(window.location.search).get('share');
+      if (shareId && shareId !== 'null') {
+        document.getElementById('btnShareReading').dataset.id = shareId;
+      }
+    } else if (session.isHistoryReplay || window.location.search.includes('share=')) {
+      document.getElementById('aiLoading').innerHTML = `
+        <div class="ai-login-gate" style="text-align: center;">
+          <p style="margin-bottom: 16px; opacity: 0.8;">Chưa có dữ liệu luận giải tổng hợp cho trải bài này.</p>
+          <button class="ai-login-btn" id="btnForceAi">
+            <span>✦</span> Nhận Thông Điệp Vũ Trụ
+          </button>
+        </div>`;
+      document.getElementById('btnForceAi')?.addEventListener('click', () => {
+        const showLoading = () => {
+          document.getElementById('aiLoading').innerHTML = `
+            <div class="ai-pulse" style="margin: 0 auto 16px;"></div>
+            <span>Đang kết nối với vũ trụ…</span>
+          `;
+        };
+        if (!window.AuthModule?.isLoggedIn()) {
+          window.AuthModule?.requireLogin(user => {
+            showLoading();
+            clarifyAndFetch(basePayload, cards, session, labels, themeLabel);
+          });
+        } else {
+          showLoading();
+          clarifyAndFetch(basePayload, cards, session, labels, themeLabel);
+        }
+      });
+    } else {
+      clarifyAndFetch(basePayload, cards, session, labels, themeLabel);
+    }
+  }
+
+  /* ── Interactive Clarification step ─────────────────────── */
+  async function clarifyAndFetch(payload, cards, session, labels, themeLabel) {
+    const modal = document.getElementById('clarifyModal');
+    const loading = document.getElementById('clarifyLoading');
+    const qList = document.getElementById('clarifyQuestions');
+    let btnSubmit = document.getElementById('btnSubmitClarify');
+    
+    // Nếu load lịch sử hoặc share thì ko làm rõ nữa, call luôn AI (vì lúc play history ko trả lời lại)
+    if (session.isHistoryReplay || window.location.search.includes('share=')) {
+      return fetchGeminiAnalysis(payload, cards, session, labels, themeLabel);
+    }
+
+    modal.classList.add('visible');
+    loading.style.display = 'block';
+    qList.style.display = 'none';
+    
+    // Clear old submit listener
+    const newSubmit = btnSubmit.cloneNode(true);
+    btnSubmit.parentNode.replaceChild(newSubmit, btnSubmit);
+    btnSubmit = newSubmit;
+    btnSubmit.disabled = true;
+
+    try {
+      // Fetch 3 questions locally from mapped data
+      let questions = window.ClarifyData?.[session.theme];
+      if (!questions || questions.length < 3) {
+        questions = [
+          "Bạn có đang vô tình bỏ qua những tín hiệu từ trực giác của chính mình không?",
+          "Có phải một sự kiện trong quá khứ vẫn đang âm thầm cản trở bước tiến của bạn hiện tại?",
+          "Sâu thẳm bên trong, bạn đã tự biết câu trả lời cho vấn đề này rồi phải không?"
+        ];
+      }
+
+      // Simulate a small delay for mystical effect
+      await new Promise(r => setTimeout(r, 1500));
+
+      loading.style.display = 'none';
+      qList.style.display = 'block';
+
+      const answers = [null, null, null];
+      const checkComplete = () => { btnSubmit.disabled = answers.includes(null); };
+
+      for (let i = 0; i < 3; i++) {
+        const item = document.getElementById(`cq${i+1}`);
+        item.querySelector('.cq-text').textContent = `${i+1}. ${questions[i]}`;
+        
+        item.querySelectorAll('.cq-btn').forEach(btn => {
+          const newBtn = btn.cloneNode(true);
+          newBtn.classList.remove('active');
+          btn.parentNode.replaceChild(newBtn, btn);
+          newBtn.addEventListener('click', () => {
+            item.querySelectorAll('.cq-btn').forEach(b => b.classList.remove('active'));
+            newBtn.classList.add('active');
+            answers[i] = { q: questions[i], a: newBtn.dataset.ans };
+            checkComplete();
+          });
+        });
+      }
+
+      btnSubmit.addEventListener('click', () => {
+        modal.classList.remove('visible');
+        payload.clarifications = answers;
+        document.getElementById('aiLoading').innerHTML = `<div class="ai-pulse" style="margin: 0 auto 16px;"></div><span>Đang tập hợp năng lượng...</span>`;
+        fetchGeminiAnalysis(payload, cards, session, labels, themeLabel);
+      });
+
+    } catch (e) {
+      // Bỏ qua nếu lỗi
+      modal.classList.remove('visible');
+      fetchGeminiAnalysis(payload, cards, session, labels, themeLabel);
+    }
+  }
+
+  /* ── Call PHP proxy ──────────────────────────────────── */
+  async function fetchGeminiAnalysis(payload, cards, session, labels, themeLabel) {
+    const loadEl = document.getElementById('aiLoading');
+    const contentEl = document.getElementById('aiContent');
 
     try {
       const res = await fetch(`${API_BASE}/gemini_proxy.php`, {
