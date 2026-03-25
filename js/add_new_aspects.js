@@ -100,7 +100,7 @@ async function main() {
 
         console.log(`Còn ${cardsToProcess.length} lá cần cập nhật 10 trường mới...`);
 
-        const BATCH_SIZE = 10;
+        const BATCH_SIZE = 3;
         for (let i = 0; i < cardsToProcess.length; i += BATCH_SIZE) {
             const batch = cardsToProcess.slice(i, i + BATCH_SIZE);
             console.log(`Đang xử lý batch từ ${i+1} đến ${i + batch.length}...`);

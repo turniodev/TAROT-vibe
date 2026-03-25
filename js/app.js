@@ -71,7 +71,7 @@
     const focusText = document.getElementById('focusText');
 
     if (focusScreen && focusText) {
-      focusText.innerHTML = `Hãy nghiêm túc và tập trung nghĩ và tự trả lời...<br><br><span style="color:var(--c-gold); font-size:1.4rem; font-style:italic">"${data.question}"</span><br><br><span style="font-size:0.85rem; opacity:0.5; font-family:'EB Garamond',serif">Chấp tâm trong khoảnh khắc, vũ trụ đang lắng nghe...</span>`;
+      focusText.innerHTML = `Hãy nghiêm túc tập trung suy nghĩ và tự trả lời...<br><br><span style="color:var(--c-gold); font-size:1.4rem; font-style:italic">"${data.question}"</span><br><br><span style="font-size:0.85rem; opacity:0.5; font-family:'EB Garamond',serif">Chấp tâm trong khoảnh khắc, vũ trụ đang lắng nghe...</span>`;
       focusScreen.classList.add('active');
       setTimeout(() => {
         focusScreen.classList.remove('active');

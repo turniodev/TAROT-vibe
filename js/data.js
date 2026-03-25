@@ -13707,6 +13707,46 @@ window.TAROT_DB = [
       "general": {
         "upright": "Lá bài Tám Tiền khuyến khích bạn tập trung vào công việc, học hỏi và hoàn thiện bản thân. Đây là giai đoạn của sự chăm chỉ, kiên trì và cống hiến để xây dựng một nền tảng vững chắc cho tương lai. Mỗi nỗ lực nhỏ đều mang lại giá trị lớn lao.",
         "reversed": "Lá bài đảo ngược cảnh báo về sự lười biếng, thiếu tập trung hoặc làm việc cẩu thả. Bạn có thể đang mắc kẹt trong sự lặp lại mà không có tiến bộ, hoặc quá ám ảnh với công việc mà bỏ bê những khía cạnh khác của cuộc sống. Cần xem xét lại thái độ và đầu tư đúng mức."
+      },
+      "friendship": {
+        "upright": "Một tình bạn được vun đắp từ sự chân thành, cùng nhau học hỏi và hỗ trợ nhau trên con đường sự nghiệp. Mối quan hệ này mang tính xây dựng, bền vững và đáng tin cậy như những viên gạch lát đường cho tương lai.",
+        "reversed": "Sự thờ ơ, thiếu trách nhiệm đang làm xói mòn nền móng tình bạn. Có thể một người bạn đang quá tập trung vào bản thân hoặc dựa dẫm, khiến mối quan hệ trở nên nặng nề và thiếu đi sự sẻ chia chân thật."
+      },
+      "pregnancy": {
+        "upright": "Thời điểm vàng để chuẩn bị kỹ lưỡng cho hành trình đón nhận sinh linh bé bỏng. Sự chăm sóc tỉ mỉ, học hỏi kiến thức làm cha mẹ sẽ gieo mầm hạnh phúc và thu hoạch quả ngọt bình an.",
+        "reversed": "Sự thiếu chuẩn bị, lo lắng thái quá hoặc bỏ bê việc chăm sóc sức khỏe trong thai kỳ đang giăng lối. Có thể là sự trì hoãn việc có con vì những lo toan công việc, hoặc sự hời hợt dẫn đến những rủi ro không đáng có."
+      },
+      "gossip": {
+        "upright": "Sự chuyên tâm vào công việc như một tấm khiên vững chắc, giúp bạn miễn nhiễm với mọi thị phi. Tiếng lành đồn xa về năng lực sẽ dập tắt mọi lời đàm tiếu, khẳng định giá trị thực của bạn.",
+        "reversed": "Tin đồn thất thiệt đang bủa vây, xuất phát từ sự thiếu chuyên nghiệp hoặc làm việc cẩu thả. Hãy cẩn trọng từng lời nói và hành động, vì sự sơ suất nhỏ cũng có thể trở thành mồi ngon cho bão thị phi."
+      },
+      "legal": {
+        "upright": "Một vụ việc pháp lý đòi hỏi sự kiên nhẫn, tỉ mỉ trong việc thu thập bằng chứng và tuân thủ quy trình. Chăm chỉ làm theo lời khuyên của luật sư sẽ mở lối cho kết quả khả quan, gỡ bỏ mọi nút thắt.",
+        "reversed": "Sự lơ là, thiếu sót trong các giấy tờ pháp lý đang đẩy bạn vào vòng rắc rối. Cần tránh các thỏa thuận vội vàng, thiếu minh bạch, bởi sự khinh suất có thể phải trả giá đắt trước vành móng ngựa."
+      },
+      "moving": {
+        "upright": "Việc chuyển nhà đòi hỏi sự chuẩn bị kỹ lưỡng, sắp xếp có kế hoạch, như một nghệ nhân tạo tác không gian sống. Đây là cơ hội để ổn định cuộc sống, tạo dựng nền móng vững chắc cho công việc và tương lai.",
+        "reversed": "Việc chuyển đi không có kế hoạch, thiếu sự chuẩn bị, hoặc chuyển đến một nơi không phù hợp với mục tiêu công việc, học tập đang báo hiệu những phiền toái. Sự trì hoãn vô cớ cũng có thể cản trở bước tiến của bạn."
+      },
+      "pet": {
+        "upright": "Thời điểm lý tưởng để huấn luyện thú cưng, dạy chúng những kỹ năng mới với sự kiên nhẫn và tình yêu thương. Sự chăm sóc đúng cách sẽ tạo nên một người bạn đồng hành tuyệt vời, gắn kết và thấu hiểu.",
+        "reversed": "Sự thiếu kiên nhẫn trong việc chăm sóc, huấn luyện thú cưng đang tạo ra những khoảng cách. Có thể là bỏ bê hoặc không đủ thời gian dành cho chúng, dẫn đến hành vi không mong muốn, khiến cả hai đều mệt mỏi."
+      },
+      "dream": {
+        "upright": "Cõi vô thức mách bảo bạn hãy chuyên tâm vào mục tiêu, theo đuổi ước mơ bằng sự nỗ lực không ngừng nghỉ, từng bước một như người thợ rèn mài giũa kỹ năng. Thành quả xứng đáng đang chờ đón.",
+        "reversed": "Ác mộng về sự thất bại, trì trệ trong công việc hoặc cảm giác bị mắc kẹt phản chiếu nỗi lo lắng sâu sắc. Đây là lời cảnh báo về sự chán nản với công việc hiện tại hoặc sự nghi ngờ khả năng của bản thân."
+      },
+      "past_life": {
+        "upright": "Ở một dòng thời gian xa xưa, linh hồn bạn từng là một nghệ nhân tài hoa, thợ thủ công cần mẫn hoặc người lao động tận tâm. Gen di truyền tâm linh ấy đang thôi thúc bạn tinh tế và kiên trì ở kiếp này.",
+        "reversed": "Oan ức tiền kiếp đến từ việc bỏ dở công việc, thiếu trách nhiệm hoặc làm việc cẩu thả. Ở kiếp này, số phận liên tục đẩy bạn vào các bài học về tính kỷ luật và sự hoàn thành đến cùng để hóa giải nghiệp cũ."
+      },
+      "karma": {
+        "upright": "Nhân quả tuần hoàn đang đền đáp cho sự chăm chỉ và nỗ lực không ngừng của bạn. Những hạt giống thiện lương bạn gieo bằng mồ hôi và công sức sẽ nở hoa thành thành quả xứng đáng, rạng rỡ và bền vững.",
+        "reversed": "Kẻ làm việc qua loa rồi sẽ bị số phận trêu đùa lại. Đây là nhịp tính sổ của luật nhân quả với những hành động lười biếng, gian lận hoặc thiếu trách nhiệm, đòi hỏi bạn phải nhìn nhận và sửa chữa sai lầm."
+      },
+      "lost_item": {
+        "upright": "Món đồ chưa hề biến mất bốc hơi, nó chỉ đang lạc trôi trong không gian làm việc của bạn. Hãy kiên nhẫn lục tìm từng ngóc ngách quen thuộc, trong đống đồ nghề, sách vở, chắc chắn sẽ tìm thấy.",
+        "reversed": "Có cố lật mòn nền nhà cũng vô vọng, sự bừa bộn và thói quen không ngăn nắp đã khiến vật thất lạc bị cuốn đi ra khỏi biên giới thu hồi. Hãy coi đây là phí đóng phạt cho sự thiếu ngăn nắp trầm trọng."
       }
     },
     "planet": "Mặt Trời",
@@ -13901,6 +13941,46 @@ window.TAROT_DB = [
       "general": {
         "upright": "Lá bài Chín Tiền cho thấy bạn đang ở một vị trí của sự độc lập, thành công và viên mãn. Hãy tận hưởng những thành quả mà bạn đã dày công gây dựng, trân trọng sự tự chủ và vẻ đẹp của cuộc sống.",
         "reversed": "Lá bài ngược cảnh báo về sự mất mát tài chính, sự cô đơn hoặc cảm giác bị mắc kẹt trong sự xa hoa. Cẩn thận với sự kiêu ngạo, lười biếng hoặc sự phụ thuộc không lành mạnh vào vật chất."
+      },
+      "friendship": {
+        "upright": "Tình bạn được xây dựng trên sự tôn trọng độc lập cá nhân, cho phép mỗi người có không gian riêng để phát triển bản thân. Một mối quan hệ tinh tế, không ràng buộc, quý trọng giá trị riêng của nhau.",
+        "reversed": "Sự cô lập đang len lỏi trong tình bạn, do bạn quá tập trung vào bản thân hoặc vật chất. Có thể là tình bạn dựa trên lợi ích, hoặc cảm giác cô đơn dù có nhiều người vây quanh, thiếu đi sự kết nối sâu sắc."
+      },
+      "pregnancy": {
+        "upright": "Một thai kỳ viên mãn, được chăm sóc kỹ lưỡng với đầy đủ tiện nghi và sự tự chủ. Niềm vui làm mẹ/cha đến từ sự sẵn sàng, tận hưởng từng khoảnh khắc quý giá của hành trình này.",
+        "reversed": "Sự lo lắng về tài chính hoặc cảm giác bị mất tự do khi mang thai đang đè nặng. Có thể là việc mang thai ngoài ý muốn làm xáo trộn cuộc sống độc lập, hoặc sự nuông chiều bản thân quá mức trong thai kỳ gây ra vấn đề."
+      },
+      "gossip": {
+        "upright": "Vị thế và sự tự tin của bạn như một tấm khiên vững chắc, giúp bạn đứng trên mọi thị phi. Bạn không bận tâm đến những chuyện vụn vặt, bởi giá trị của bạn đã được khẳng định bằng chính cuộc sống thịnh vượng.",
+        "reversed": "Tin đồn về sự phù phiếm, phô trương hoặc lối sống hưởng thụ quá đà của bạn đang lan truyền. Có thể là hậu quả của việc khoe khoang hoặc sự cô lập khiến bạn trở thành mục tiêu của những lời đàm tiếu."
+      },
+      "legal": {
+        "upright": "Một vụ kiện tụng có lợi cho bạn, đặc biệt liên quan đến tài sản, quyền thừa kế hoặc quyền sở hữu. Sự độc lập tài chính và vị thế vững chắc sẽ mang lại lợi thế lớn, giúp bạn giành chiến thắng.",
+        "reversed": "Các vấn đề pháp lý liên quan đến gian lận, trộm cắp, hoặc tranh chấp tài sản do sự tham lam đang bủa vây. Có thể là sự mất mát tài chính do thiếu thận trọng, hoặc bị cuốn vào vòng xoáy pháp luật vì những toan tính sai lầm."
+      },
+      "moving": {
+        "upright": "Chuyển đến một không gian sống sang trọng, tiện nghi, nơi bạn có thể tận hưởng sự riêng tư và thành quả lao động của mình. Một sự thay đổi mang lại sự thoải mái, đẳng cấp và an yên cho tâm hồn.",
+        "reversed": "Chuyển nhà vì lý do tài chính không ổn định hoặc phải rời bỏ một nơi chốn quen thuộc vì sự cố. Có thể là sự lãng phí khi chọn nơi ở hoặc cảm giác cô đơn, lạc lõng ở nơi mới, không tìm thấy sự bình yên."
+      },
+      "pet": {
+        "upright": "Nuôi thú cưng quý hiếm, được chăm sóc chu đáo, thể hiện đẳng cấp và sự tinh tế của chủ nhân. Thú cưng mang lại niềm vui tĩnh lặng và sự bầu bạn, tô điểm thêm cho cuộc sống xa hoa của bạn.",
+        "reversed": "Sự nuông chiều thú cưng quá mức dẫn đến hư hỏng, hoặc chi tiêu quá nhiều cho chúng để thể hiện bản thân. Có thể là thú cưng bị bỏ bê vì chủ nhân quá bận rộn với cuộc sống cá nhân, thiếu sự quan tâm chân thành."
+      },
+      "dream": {
+        "upright": "Cõi vô thức mách bảo bạn về sự giàu có, thành công và cuộc sống an nhàn. Giấc mơ này là lời khẳng định cho những nỗ lực bạn đã bỏ ra, một tương lai thịnh vượng đang chờ đón, đầy đủ và viên mãn.",
+        "reversed": "Ác mộng về sự mất mát tài sản, cô đơn hoặc bị lừa dối đang ám ảnh. Giấc mơ phản ánh nỗi sợ hãi về sự phù phiếm, hoặc cảm giác không xứng đáng với những gì đang có, một nội tâm bất an."
+      },
+      "past_life": {
+        "upright": "Ở một dòng thời gian xa xưa, linh hồn bạn từng là một người phụ nữ quyền quý, độc lập, hoặc một nhà tài phiệt đã tích lũy khối tài sản lớn. Bài học về sự tự chủ và tận hưởng thành quả vẫn còn hiện hữu.",
+        "reversed": "Oan ức tiền kiếp đến từ việc sống một cuộc đời xa hoa, lãng phí hoặc chiếm đoạt tài sản của người khác. Ở kiếp này, số phận liên tục đẩy bạn vào các bài học về cách trân trọng và chia sẻ để hóa giải nghiệp cũ."
+      },
+      "karma": {
+        "upright": "Nhân quả tuần hoàn đang mang đến cho bạn sự đủ đầy và an yên. Những hạt giống của sự độc lập, tự lực và sống có trách nhiệm đang đơm hoa kết trái, mang lại cuộc sống thịnh vượng và hạnh phúc.",
+        "reversed": "Kẻ sống phù phiếm, ích kỷ hoặc tham lam rồi sẽ bị số phận trêu đùa lại. Đây là nhịp tính sổ của luật nhân quả với những hành động sai trái, có thể là sự mất mát tài chính hoặc cảm giác cô đơn tột cùng."
+      },
+      "lost_item": {
+        "upright": "Món đồ thất lạc có giá trị, chưa hề biến mất bốc hơi. Nó có thể đang ở một nơi kín đáo, an toàn trong ngôi nhà bạn. Hãy tìm kiếm ở những nơi bạn cất giữ tài sản quý giá, chắc chắn sẽ tìm thấy.",
+        "reversed": "Có cố lật mòn nền nhà cũng vô vọng, món đồ bị mất do sự bất cẩn trong việc quản lý tài sản, hoặc có thể bị đánh cắp bởi kẻ gian. Hãy cẩn trọng với những thứ bạn coi là của riêng, vì chúng dễ bị tổn hại."
       }
     },
     "planet": "Sao Kim",
@@ -14094,6 +14174,46 @@ window.TAROT_DB = [
       "general": {
         "upright": "Lá bài Mười Tiền báo hiệu sự hoàn thành, ổn định và an toàn về mọi mặt trong cuộc sống. Đây là thời điểm để tận hưởng thành quả lao động, củng cố các mối quan hệ gia đình và xây dựng một di sản vững chắc cho tương lai.",
         "reversed": "Lá bài ngược cảnh báo về sự bất ổn, mất mát hoặc xung đột trong các lĩnh vực quan trọng như tài chính, gia đình hoặc công việc. Cần xem xét lại những nền tảng đang lung lay và tìm cách khắc phục trước khi quá muộn."
+      },
+      "friendship": {
+        "upright": "Tình bạn gắn kết như gia đình, bền chặt qua nhiều thế hệ, là nơi bạn có thể tìm thấy sự an toàn và tin cậy tuyệt đối. Đây là những người bạn mà bạn có thể cùng nhau xây dựng tương lai bền vững.",
+        "reversed": "Xích mích, mâu thuẫn đang làm rạn nứt tình bạn, xuất phát từ tranh chấp tài sản, lợi ích hoặc sự khác biệt về giá trị gia đình. Có thể là sự rạn nứt vì gánh nặng từ quá khứ hoặc những hiểu lầm sâu sắc."
+      },
+      "pregnancy": {
+        "upright": "Tin vui về sự ra đời của một thành viên mới, mang lại sự trọn vẹn và hạnh phúc cho cả gia đình, dòng họ. Một di sản tiếp nối, một gia đình đủ đầy, tràn ngập tiếng cười và niềm hân hoan.",
+        "reversed": "Sự lo lắng về việc mang thai do áp lực gia đình, hoặc các vấn đề sức khỏe di truyền đang ám ảnh. Có thể là sự tranh cãi về việc nuôi dạy con cái hoặc tài chính, khiến niềm vui bị che mờ bởi những gánh nặng."
+      },
+      "gossip": {
+        "upright": "Vị thế và danh tiếng của gia đình bạn như một tấm khiên vững chắc. Mọi lời đàm tiếu đều bị dập tắt bởi sự đoàn kết và uy tín của dòng họ, không một lời lẽ nào có thể xuyên thủng.",
+        "reversed": "Tin đồn về những rạn nứt, tranh chấp trong gia đình hoặc các vấn đề tài chính bí mật đang lan truyền. Có thể là sự tan vỡ của những giá trị truyền thống, khiến danh tiếng gia đình bị tổn hại nặng nề."
+      },
+      "legal": {
+        "upright": "Các vấn đề pháp lý liên quan đến thừa kế, tài sản gia đình hoặc quyền sở hữu đất đai sẽ được giải quyết ổn thỏa, mang lại sự ổn định lâu dài và bền vững cho cả dòng họ.",
+        "reversed": "Tranh chấp pháp lý gay gắt trong gia đình về tài sản, di chúc hoặc quyền thừa kế đang đẩy mọi thứ vào bế tắc. Có thể là sự tan rã của một khối tài sản chung, gây ra những hệ lụy đau lòng."
+      },
+      "moving": {
+        "upright": "Chuyển đến một ngôi nhà lớn, ổn định, nơi cả gia đình có thể sống hạnh phúc và xây dựng tương lai. Một sự thay đổi mang lại sự an cư lạc nghiệp, tạo dựng một nền móng vững chắc cho thế hệ sau.",
+        "reversed": "Buộc phải rời bỏ tổ ấm, hoặc chuyển đến một nơi không phù hợp với nhu cầu của gia đình đang là một gánh nặng. Có thể là sự rạn nứt trong gia đình dẫn đến việc chia ly, khiến mỗi người một ngả."
+      },
+      "pet": {
+        "upright": "Một tinh linh lắm lông đã gắn bó lâu năm với gia đình, là một phần không thể thiếu của tổ ấm. Thú cưng mang lại niềm vui và sự gắn kết cho mọi thành viên, như một sợi dây vô hình nối liền các thế hệ.",
+        "reversed": "Thú cưng gây ra những rắc rối, tranh cãi trong gia đình hoặc bị bỏ bê do các thành viên không thống nhất cách chăm sóc. Có thể là sự mất mát thú cưng thân thiết, để lại nỗi buồn sâu sắc cho cả nhà."
+      },
+      "dream": {
+        "upright": "Cõi vô thức mách bảo bạn về một gia đình hạnh phúc, thịnh vượng và cuộc sống an lành. Giấc mơ này là sự khẳng định về những giá trị truyền thống và sự kế thừa thành công, một di sản vĩ đại.",
+        "reversed": "Ác mộng về sự tan vỡ gia đình, mất mát tài sản hoặc sự cô độc đang ám ảnh. Giấc mơ phản ánh nỗi sợ hãi về việc không thể duy trì di sản hoặc các mâu thuẫn tiềm ẩn đang đe dọa sự bình yên."
+      },
+      "past_life": {
+        "upright": "Ở một dòng thời gian xa xưa, linh hồn bạn từng là người gánh vác trọng trách gia đình, xây dựng nên cơ nghiệp lớn. Bài học về sự gắn kết, truyền thống và sự kế thừa vẫn còn hiện hữu, dẫn lối bạn ở kiếp này.",
+        "reversed": "Oan ức tiền kiếp đến từ việc gây ra sự chia rẽ trong gia đình hoặc làm mất đi tài sản tổ tiên. Ở kiếp này, số phận liên tục đẩy bạn vào các bài học về cách hàn gắn và trân trọng giá trị gia đình để hóa giải nghiệp cũ."
+      },
+      "karma": {
+        "upright": "Nhân quả tuần hoàn đang đền đáp cho những nỗ lực xây dựng và duy trì gia đình, cộng đồng. Hạt giống của sự đoàn kết và sẻ chia sẽ mang lại sự thịnh vượng bền vững, không chỉ cho bạn mà còn cho thế hệ sau.",
+        "reversed": "Kẻ gây mâu thuẫn, tranh chấp nội bộ hoặc ích kỷ trong gia đình rồi sẽ bị số phận trêu đùa lại. Đây là nhịp tính sổ của luật nhân quả, đòi hỏi bạn phải hóa giải những xung đột để tìm lại sự bình yên."
+      },
+      "lost_item": {
+        "upright": "Món đồ thất lạc có ý nghĩa gia truyền, chưa hề biến mất bốc hơi. Nó có thể được cất giữ trong một nơi đặc biệt của gia đình. Hãy tìm kiếm ở những nơi cũ, quen thuộc trong nhà, chắc chắn sẽ tìm thấy.",
+        "reversed": "Có cố lật mòn nền nhà cũng vô vọng, món đồ bị mất do sự bất cẩn của một thành viên trong gia đình, hoặc bị thất lạc trong quá trình tranh chấp, chia tài sản. Rất khó để tìm lại được, như một phần ký ức đã mất."
       }
     },
     "planet": "Sao Thủy",
@@ -14289,6 +14409,46 @@ window.TAROT_DB = [
       "general": {
         "upright": "Đây là thời điểm của những khởi đầu mới, cơ hội học hỏi và áp dụng kiến thức vào thực tế. Lá bài khuyến khích bạn hãy kiên trì, thực tế và tập trung vào việc biến những ý tưởng thành hành động cụ thể để đạt được thành công bền vững.",
         "reversed": "Bạn có thể đang đối mặt với sự trì hoãn, thiếu tập trung hoặc bỏ lỡ những cơ hội quan trọng. Lá bài cảnh báo về sự thiếu chín chắn, thiếu thực tế hoặc quá chú trọng vật chất mà không có nền tảng vững chắc."
+      },
+      "friendship": {
+        "upright": "Một tình bạn mới chớm nở, chân thành và đầy hứa hẹn, như một hạt mầm đang ươm. Cùng nhau học hỏi, khám phá những sở thích chung về vật chất, công việc, tạo nên nền tảng vững chắc cho tương lai.",
+        "reversed": "Tình bạn thiếu sự nghiêm túc, dễ thay đổi hoặc chỉ dựa trên lợi ích vật chất đang dần phai nhạt. Có thể là sự lười biếng, thiếu trách nhiệm của một người bạn, khiến mối quan hệ trở nên hời hợt và không bền vững."
+      },
+      "pregnancy": {
+        "upright": "Tin vui về một khởi đầu mới, một em bé sắp chào đời, mang theo những cơ hội học hỏi và phát triển. Thời điểm tốt để học hỏi kiến thức về mang thai, sinh nở và chăm sóc con, chuẩn bị cho thiên chức thiêng liêng.",
+        "reversed": "Sự thiếu chuẩn bị, lo lắng về tài chính hoặc trách nhiệm khi mang thai đang giăng lối. Có thể là sự trì hoãn việc có con do chưa sẵn sàng, hoặc những bất cẩn nhỏ gây ra những phiền toái không đáng có."
+      },
+      "gossip": {
+        "upright": "Bạn đang là chủ đề của những câu chuyện về các dự án mới, ý tưởng thực tế hoặc sự chăm chỉ học hỏi. Những lời bàn tán mang tính tích cực, như những lời động viên cho hành trình phát triển của bạn.",
+        "reversed": "Tin đồn về sự thiếu kinh nghiệm, hời hợt trong công việc hoặc những kế hoạch chưa thành hiện thực đang lan truyền. Cần cẩn trọng để không bị đánh giá thấp, bởi sự non nớt có thể bị lợi dụng."
+      },
+      "legal": {
+        "upright": "Một vấn đề pháp lý mới phát sinh, đòi hỏi sự tìm hiểu kỹ lưỡng và thu thập thông tin cẩn thận từ những bước cơ bản nhất. Sự kiên trì và tỉ mỉ sẽ là chìa khóa để giải quyết mọi rắc rối.",
+        "reversed": "Các rắc rối pháp lý do thiếu hiểu biết, sự thiếu trách nhiệm hoặc bỏ qua các chi tiết quan trọng đang bủa vây. Cần tránh các thỏa thuận vội vàng, không rõ ràng, bởi sự ngây thơ có thể phải trả giá đắt."
+      },
+      "moving": {
+        "upright": "Một cơ hội chuyển đến nơi ở mới để học tập, làm việc hoặc bắt đầu một dự án mới, như một trang sách mới mở ra. Sự thay đổi này mang lại nền tảng vững chắc cho tương lai, đầy hứa hẹn.",
+        "reversed": "Sự trì hoãn việc chuyển đi, hoặc chuyển đến một nơi không phù hợp với mục tiêu phát triển cá nhân đang cản bước bạn. Có thể là sự thiếu quyết đoán hoặc chuẩn bị kém, khiến bạn bỏ lỡ những cơ hội quý giá."
+      },
+      "pet": {
+        "upright": "Một tinh linh lắm lông mới, đặc biệt là thú cưng nhỏ tuổi, mang lại niềm vui học hỏi và trách nhiệm chăm sóc. Thời điểm tốt để huấn luyện và gắn kết, tạo dựng một mối quan hệ bền chặt từ những ngày đầu.",
+        "reversed": "Sự thiếu kiên nhẫn, bỏ bê việc chăm sóc thú cưng mới đang tạo ra những rắc rối. Có thể là sự bất cẩn khiến thú cưng gặp vấn đề hoặc bị bệnh, đòi hỏi bạn phải học cách chịu trách nhiệm."
+      },
+      "dream": {
+        "upright": "Cõi vô thức mách bảo bạn về những cơ hội mới, sự học hỏi và phát triển bản thân. Lời nhắc nhở hãy theo đuổi ước mơ bằng sự kiên trì và thực tế, từng bước một để biến chúng thành hiện thực.",
+        "reversed": "Ác mộng về sự thất bại, trì trệ hoặc cảm giác không thể bắt đầu đang ám ảnh. Giấc mơ phản ánh nỗi sợ hãi về việc không đủ năng lực hoặc sự lười biếng, khiến bạn chùn bước trước thử thách."
+      },
+      "past_life": {
+        "upright": "Ở một dòng thời gian xa xưa, linh hồn bạn từng là một người học việc chăm chỉ, một học giả khao khát kiến thức. Bài học về sự kiên trì và thực tế vẫn còn hiện hữu, dẫn lối bạn trên con đường học tập.",
+        "reversed": "Oan ức tiền kiếp đến từ việc bỏ dở việc học, thiếu trách nhiệm hoặc không tận dụng cơ hội. Ở kiếp này, số phận liên tục đẩy bạn vào các bài học về cách kiên trì và hoàn thành mục tiêu để hóa giải nghiệp cũ."
+      },
+      "karma": {
+        "upright": "Nhân quả tuần hoàn đang mang đến những cơ hội mới để bạn học hỏi và phát triển. Hãy gieo hạt giống của sự chăm chỉ và trách nhiệm, bạn sẽ gặt hái thành quả xứng đáng, rạng rỡ và bền vững.",
+        "reversed": "Kẻ thiếu trách nhiệm, lười biếng hoặc bỏ qua cơ hội rồi sẽ bị số phận trêu đùa lại. Đây là nhịp tính sổ của luật nhân quả, đòi hỏi bạn phải học cách đối mặt và sửa chữa sai lầm, gánh chịu hậu quả."
+      },
+      "lost_item": {
+        "upright": "Món đồ chưa hề biến mất bốc hơi, nó chỉ đang lạc trôi trong không gian học tập của bạn. Hãy tìm kiếm ở nơi bạn thường xuyên học tập, làm việc, đó có thể là một tài liệu quan trọng hoặc một món quà nhỏ.",
+        "reversed": "Có cố lật mòn nền nhà cũng vô vọng, món đồ bị mất do sự bất cẩn, lơ đễnh hoặc do bạn đã đặt sai chỗ. Rất khó tìm lại được nếu không thay đổi thói quen bừa bộn, thiếu ngăn nắp."
       }
     },
     "planet": "Sao Kim",
@@ -14483,6 +14643,46 @@ window.TAROT_DB = [
       "general": {
         "upright": "Lá Knight of Pentacles biểu thị một giai đoạn của sự kiên trì, chăm chỉ và đáng tin cậy. Bạn được khuyến khích tập trung vào các mục tiêu thực tế, xây dựng nền tảng vững chắc và tiến bước một cách chậm rãi nhưng chắc chắn. Thành công sẽ đến từ sự bền bỉ và trách nhiệm.",
         "reversed": "Lá bài này cảnh báo về sự trì trệ, lười biếng và thiếu động lực. Bạn có thể đang mắc kẹt trong một lối mòn, từ chối thay đổi hoặc bỏ bê trách nhiệm của mình, dẫn đến việc bỏ lỡ cơ hội và không đạt được tiềm năng thực sự."
+      },
+      "friendship": {
+        "upright": "Một tình bạn bền vững, đáng tin cậy, được xây dựng trên sự trung thành và hỗ trợ lẫn nhau. Người bạn này như một pháo đài vững chắc, luôn ở bên khi bạn cần, không bao giờ bỏ rơi.",
+        "reversed": "Tình bạn trở nên trì trệ, nhàm chán hoặc thiếu sự đổi mới đang làm phai nhạt mối quan hệ. Có thể là một người bạn quá bảo thủ, chậm chạp hoặc không đáng tin cậy, khiến bạn cảm thấy mệt mỏi."
+      },
+      "pregnancy": {
+        "upright": "Một thai kỳ ổn định, được chuẩn bị kỹ lưỡng và theo dõi cẩn thận, như một kế hoạch được thực hiện tỉ mỉ. Sự kiên nhẫn và chăm sóc đều đặn sẽ mang lại kết quả tốt đẹp, một sinh linh khỏe mạnh.",
+        "reversed": "Sự trì hoãn việc có con do quá thận trọng hoặc lo lắng đang cản trở. Có thể là sự chậm trễ trong việc thụ thai hoặc thiếu sự linh hoạt trong kế hoạch gia đình, khiến niềm mong mỏi bị kéo dài."
+      },
+      "gossip": {
+        "upright": "Uy tín và sự đáng tin cậy của bạn như một tấm khiên vững chắc. Mọi lời đàm tiếu đều bị dập tắt bởi sự chuyên nghiệp và trách nhiệm của bạn, không một lời lẽ nào có thể xuyên thủng.",
+        "reversed": "Tin đồn về sự chậm chạp, trì trệ hoặc thiếu linh hoạt trong công việc đang lan truyền. Có thể là sự lười biếng hoặc quá bảo thủ khiến bạn bị đánh giá thấp, mất đi sự tín nhiệm."
+      },
+      "legal": {
+        "upright": "Một vụ việc pháp lý đòi hỏi sự kiên nhẫn, tuân thủ quy trình và thu thập bằng chứng tỉ mỉ. Sự cẩn trọng sẽ mang lại kết quả có lợi, gỡ bỏ mọi nút thắt một cách vững chắc.",
+        "reversed": "Các rắc rối pháp lý do sự chậm trễ, trì hoãn hoặc thiếu quyết đoán đang đẩy bạn vào thế khó. Có thể là sự bỏ lỡ thời hạn hoặc không hành động kịp thời, khiến bạn mất đi lợi thế."
+      },
+      "moving": {
+        "upright": "Chuyển nhà một cách cẩn trọng, có kế hoạch và từng bước một, như một hành trình được sắp đặt kỹ lưỡng. Sự thay đổi này mang lại sự ổn định và an toàn cho cuộc sống, tạo dựng nền móng bền vững.",
+        "reversed": "Sự trì hoãn việc chuyển đi, hoặc chuyển đến một nơi không phù hợp với mục tiêu dài hạn đang cản bước bạn. Có thể là sự lười biếng hoặc thiếu động lực, khiến bạn mãi mắc kẹt trong tình trạng cũ."
+      },
+      "pet": {
+        "upright": "Một tinh linh lắm lông trung thành, ổn định và dễ huấn luyện, như một người bạn đồng hành đáng tin cậy. Sự chăm sóc đều đặn và kiên nhẫn sẽ tạo nên mối quan hệ bền chặt, gắn bó sâu sắc.",
+        "reversed": "Thú cưng trở nên lười biếng, chậm chạp hoặc khó bảo đang gây ra những phiền toái. Có thể là sự thiếu kiên nhẫn trong việc huấn luyện hoặc bỏ bê chăm sóc, khiến mối quan hệ trở nên xa cách."
+      },
+      "dream": {
+        "upright": "Cõi vô thức mách bảo bạn về sự kiên trì, nỗ lực không ngừng và đạt được thành quả bền vững. Lời nhắc nhở hãy theo đuổi ước mơ bằng sự thực tế và quyết tâm, từng bước một chinh phục mục tiêu.",
+        "reversed": "Ác mộng về sự trì trệ, bế tắc hoặc cảm giác bị mắc kẹt đang ám ảnh. Giấc mơ phản ánh nỗi sợ hãi về việc không thể tiến lên hoặc sự lười biếng, khiến bạn chùn bước trước thử thách."
+      },
+      "past_life": {
+        "upright": "Ở một dòng thời gian xa xưa, linh hồn bạn từng là một người nông dân, thợ thủ công hoặc người lao động cần cù, kiên nhẫn. Bài học về sự bền bỉ và trách nhiệm vẫn còn hiện hữu, dẫn lối bạn ở kiếp này.",
+        "reversed": "Oan ức tiền kiếp đến từ việc sống một cuộc đời lười biếng, không có mục tiêu hoặc bỏ dở công việc. Ở kiếp này, số phận liên tục đẩy bạn vào các bài học về cách kiên trì và hoàn thành nhiệm vụ để hóa giải nghiệp cũ."
+      },
+      "karma": {
+        "upright": "Nhân quả tuần hoàn đang đền đáp cho sự kiên trì, trung thành và nỗ lực không ngừng của bạn. Hạt giống của sự chăm chỉ sẽ mang lại thành quả bền vững, rạng rỡ và xứng đáng.",
+        "reversed": "Kẻ lười biếng, trì hoãn hoặc thiếu trách nhiệm rồi sẽ bị số phận trêu đùa lại. Đây là nhịp tính sổ của luật nhân quả, đòi hỏi bạn phải đối mặt và sửa chữa sai lầm, gánh chịu hậu quả từ những hành động cũ."
+      },
+      "lost_item": {
+        "upright": "Món đồ chưa hề biến mất bốc hơi, nó chỉ đang lạc trôi trong không gian làm việc của bạn. Hãy kiên nhẫn lục tìm ở nơi bạn thường xuyên làm việc, hoặc ở một nơi an toàn, được cất giữ cẩn thận.",
+        "reversed": "Có cố lật mòn nền nhà cũng vô vọng, món đồ bị mất do sự bất cẩn, lơ đễnh hoặc do bạn đã để quên ở một nơi không đáng tin cậy. Rất khó tìm lại được nếu không thay đổi thói quen, vì nó đã trôi vào quên lãng."
       }
     },
     "planet": "Sao Thủy",
@@ -14678,6 +14878,46 @@ window.TAROT_DB = [
       "general": {
         "upright": "Đây là một giai đoạn của sự ổn định, thịnh vượng và phát triển bền vững. Bạn đang tận hưởng những thành quả từ sự chăm chỉ, biết cách chăm sóc bản thân và những người xung quanh, tạo dựng một cuộc sống đầy đủ và bình yên.",
         "reversed": "Bạn có thể đang đối mặt với sự bất ổn, lo lắng về tài chính hoặc cảm thấy bị kiểm soát. Cần xem xét lại cách bạn quản lý cuộc sống, cân bằng giữa vật chất và tinh thần để tìm lại sự bình yên và ổn định."
+      },
+      "friendship": {
+        "upright": "Một tình bạn ấm áp, đầy sự quan tâm và hỗ trợ, như một dòng suối mát lành. Người bạn này là chỗ dựa vững chắc, luôn lắng nghe và chăm sóc bạn như người thân, không một chút vụ lợi.",
+        "reversed": "Tình bạn trở nên quá phụ thuộc, hoặc một người bạn quá kiểm soát, hay lo lắng thái quá đang làm mối quan hệ trở nên ngột ngạt. Có thể là sự ghen tị hoặc thiếu sự tự lập, khiến tình bạn bị bóp nghẹt."
+      },
+      "pregnancy": {
+        "upright": "Một thai kỳ khỏe mạnh, được chăm sóc chu đáo với tình yêu thương vô bờ bến. Đây là thời điểm tuyệt vời để tận hưởng thiên chức làm mẹ/cha, đón nhận niềm hạnh phúc trọn vẹn.",
+        "reversed": "Sự lo lắng quá mức về thai kỳ, hoặc cảm giác bị quá tải với trách nhiệm đang đè nặng. Có thể là sự thiếu chăm sóc bản thân hoặc quá tập trung vào vật chất, khiến niềm vui bị che mờ."
+      },
+      "gossip": {
+        "upright": "Sự bao dung và lòng tốt của bạn như một tấm khiên vững chắc. Mọi lời đàm tiếu đều bị dập tắt bởi sự chân thành và uy tín của bạn, không một lời lẽ nào có thể xuyên thủng.",
+        "reversed": "Tin đồn về sự nuông chiều quá mức, hoặc sự thiếu thực tế trong cách đối nhân xử thế đang lan truyền. Có thể là sự ghen tị từ người khác do bạn quá nổi bật, khiến bạn trở thành mục tiêu của những lời dị nghị."
+      },
+      "legal": {
+        "upright": "Các vấn đề pháp lý liên quan đến gia đình, tài sản hoặc quyền nuôi con sẽ được giải quyết một cách nhân ái và thực tế, mang lại sự bình yên và công bằng cho mọi bên.",
+        "reversed": "Tranh chấp pháp lý liên quan đến tài sản, quyền nuôi con do sự kiểm soát quá mức hoặc thiếu thực tế đang đẩy mọi thứ vào bế tắc. Cần cẩn trọng với các thỏa thuận không rõ ràng, vì chúng dễ gây ra rắc rối."
+      },
+      "moving": {
+        "upright": "Chuyển đến một ngôi nhà ấm cúng, tiện nghi, nơi bạn có thể tạo dựng một tổ ấm hạnh phúc. Sự thay đổi này mang lại sự ổn định và an toàn, như một bến đỗ bình yên cho tâm hồn.",
+        "reversed": "Buộc phải rời bỏ tổ ấm, hoặc chuyển đến một nơi không mang lại cảm giác an toàn, thoải mái đang là một gánh nặng. Có thể là sự lo lắng về tài chính hoặc thiếu sự ổn định, khiến bạn lạc lõng."
+      },
+      "pet": {
+        "upright": "Nuôi một tinh linh lắm lông được chăm sóc chu đáo, yêu thương như một thành viên trong gia đình. Thú cưng mang lại sự ấm áp và niềm vui cho ngôi nhà, như một tia nắng sưởi ấm tâm hồn.",
+        "reversed": "Sự nuông chiều thú cưng quá mức, hoặc bỏ bê chúng do quá bận rộn với công việc đang gây ra những vấn đề. Có thể là thú cưng gặp vấn đề sức khỏe do thiếu chăm sóc đúng cách, đòi hỏi sự quan tâm chân thành."
+      },
+      "dream": {
+        "upright": "Cõi vô thức mách bảo bạn về một gia đình hạnh phúc, cuộc sống đủ đầy và sự an yên. Lời nhắc nhở hãy trân trọng những giá trị vật chất và tinh thần đang có, bởi chúng là nền tảng của hạnh phúc.",
+        "reversed": "Ác mộng về sự mất mát, thiếu thốn hoặc cảm giác bị bỏ rơi đang ám ảnh. Giấc mơ phản ánh nỗi sợ hãi về việc không thể chăm sóc người thân hoặc sự bất an về tài chính, khiến bạn chìm trong lo âu."
+      },
+      "past_life": {
+        "upright": "Ở một dòng thời gian xa xưa, linh hồn bạn từng là một người mẹ hiền, một người quản gia giỏi giang hoặc một nữ chủ nhân giàu lòng nhân ái. Bài học về sự chăm sóc và thực tế vẫn còn hiện hữu.",
+        "reversed": "Oan ức tiền kiếp đến từ việc quá kiểm soát, ích kỷ hoặc thiếu sự quan tâm đến người khác. Ở kiếp này, số phận liên tục đẩy bạn vào các bài học về cách yêu thương và chia sẻ để hóa giải nghiệp cũ."
+      },
+      "karma": {
+        "upright": "Nhân quả tuần hoàn đang đền đáp cho lòng tốt, sự chăm sóc và tình yêu thương của bạn. Hạt giống của sự sẻ chia sẽ mang lại sự đủ đầy và hạnh phúc, lan tỏa niềm vui đến mọi người xung quanh.",
+        "reversed": "Kẻ ích kỷ, kiểm soát hoặc thiếu quan tâm rồi sẽ bị số phận trêu đùa lại. Đây là nhịp tính sổ của luật nhân quả, đòi hỏi bạn phải học cách buông bỏ và tha thứ, tìm lại sự bình yên trong tâm hồn."
+      },
+      "lost_item": {
+        "upright": "Món đồ chưa hề biến mất bốc hơi, nó chỉ đang lạc trôi trong không gian ấm cúng của bạn. Hãy tìm kiếm ở những nơi bạn thường xuyên lui tới, những nơi có giá trị tinh thần, chắc chắn sẽ tìm thấy.",
+        "reversed": "Có cố lật mòn nền nhà cũng vô vọng, món đồ bị mất do sự bất cẩn, thiếu ngăn nắp hoặc do bạn đã cho mượn mà không nhớ. Rất khó tìm lại được nếu không thay đổi thói quen, vì nó đã trôi vào quên lãng."
       }
     },
     "planet": "Sao Thổ",
@@ -14871,6 +15111,46 @@ window.TAROT_DB = [
       "general": {
         "upright": "Đây là thời điểm của sự ổn định, thịnh vượng và thành công thực tế. Bạn đang xây dựng một nền tảng vững chắc cho tương lai và làm chủ thế giới vật chất của mình. Mọi thứ đang phát triển một cách bền vững.",
         "reversed": "Cảnh báo về sự bất ổn tài chính, lòng tham, chủ nghĩa vật chất, hoặc mất kiểm soát các nguồn lực của bạn. Hãy xem xét lại các ưu tiên và hành động của mình một cách khẩn cấp."
+      },
+      "friendship": {
+        "upright": "Tình bạn bền vững, đáng tin cậy, được xây dựng trên sự hỗ trợ tài chính và lời khuyên thực tế. Người bạn này như một chỗ dựa vững chắc, mang lại sự ổn định và an toàn cho cuộc sống của bạn.",
+        "reversed": "Tình bạn trở nên lợi dụng, dựa dẫm hoặc quá tập trung vào vật chất đang làm xói mòn mối quan hệ. Có thể là sự kiểm soát, độc đoán của một người bạn, khiến bạn cảm thấy bị gò bó."
+      },
+      "pregnancy": {
+        "upright": "Một thai kỳ ổn định, được đảm bảo về tài chính và chăm sóc y tế tốt nhất. Người cha/mẹ có trách nhiệm, mang lại sự an toàn và vững chắc cho đứa trẻ, không một chút lo toan.",
+        "reversed": "Sự lo lắng về tài chính khi mang thai, hoặc áp lực từ người cha/mẹ quá kiểm soát đang đè nặng. Có thể là sự thiếu thực tế trong việc chuẩn bị cho con cái, khiến niềm vui bị che mờ."
+      },
+      "gossip": {
+        "upright": "Vị thế và uy tín của bạn như một tấm khiên vững chắc. Mọi lời đàm tiếu đều bị dập tắt bởi sự thành công và khả năng lãnh đạo của bạn, không một lời lẽ nào có thể xuyên thủng.",
+        "reversed": "Tin đồn về sự tham lam, độc đoán hoặc những giao dịch mờ ám của bạn đang lan truyền. Cần cẩn trọng để không bị đánh mất danh tiếng, bởi sự kiêu căng có thể dẫn đến thất bại."
+      },
+      "legal": {
+        "upright": "Các vấn đề pháp lý liên quan đến kinh doanh, tài sản hoặc đầu tư sẽ được giải quyết một cách khôn ngoan và mang lại lợi ích lớn, củng cố thêm vị thế của bạn.",
+        "reversed": "Tranh chấp pháp lý do sự tham lam, lừa đảo hoặc quản lý tài chính kém cỏi đang đẩy bạn vào vòng xoáy rắc rối. Có thể là sự mất mát tài sản do thiếu thận trọng, khiến bạn phải trả giá đắt."
+      },
+      "moving": {
+        "upright": "Chuyển đến một ngôi nhà lớn, sang trọng, thể hiện sự thành công và địa vị của bạn. Sự thay đổi này mang lại sự ổn định và thịnh vượng, như một biểu tượng của quyền lực.",
+        "reversed": "Buộc phải rời bỏ nơi ở vì lý do tài chính, hoặc chuyển đến một nơi không xứng tầm với vị thế của bạn đang là một gánh nặng. Có thể là sự lãng phí hoặc đầu tư sai lầm, khiến bạn mất đi mọi thứ."
+      },
+      "pet": {
+        "upright": "Nuôi một tinh linh lắm lông quý hiếm, đắt tiền, được chăm sóc chu đáo, thể hiện đẳng cấp của chủ nhân. Thú cưng mang lại niềm vui và sự tự hào, tô điểm thêm cho cuộc sống xa hoa.",
+        "reversed": "Sự nuông chiều thú cưng quá mức dẫn đến hư hỏng, hoặc chi tiêu lãng phí cho chúng đang gây ra những vấn đề. Có thể là thú cưng bị bỏ bê vì chủ nhân quá bận rộn với công việc, thiếu sự quan tâm chân thành."
+      },
+      "dream": {
+        "upright": "Cõi vô thức mách bảo bạn về sự giàu có, quyền lực và thành công vang dội. Lời nhắc nhở hãy tiếp tục nỗ lực để duy trì và phát triển những gì đang có, kiến tạo một đế chế vững mạnh.",
+        "reversed": "Ác mộng về sự mất mát tài sản, phá sản hoặc bị lừa dối đang ám ảnh. Giấc mơ phản ánh nỗi sợ hãi về việc không thể duy trì vị thế hoặc sự tham lam, khiến bạn chìm trong lo âu."
+      },
+      "past_life": {
+        "upright": "Ở một dòng thời gian xa xưa, linh hồn bạn từng là một vị vua, một nhà tài phiệt hoặc một người lãnh đạo tài ba. Bài học về sự quản lý, thịnh vượng và trách nhiệm vẫn còn hiện hữu.",
+        "reversed": "Oan ức tiền kiếp đến từ việc sống một cuộc đời tham lam, độc đoán hoặc làm mất đi tài sản của người khác. Ở kiếp này, số phận liên tục đẩy bạn vào các bài học về cách chia sẻ và sống có đạo đức để hóa giải nghiệp cũ."
+      },
+      "karma": {
+        "upright": "Nhân quả tuần hoàn đang đền đáp cho sự khôn ngoan, quản lý tài chính tốt và lòng hào phóng của bạn. Hạt giống của sự thịnh vượng sẽ mang lại thành quả bền vững, không chỉ cho bạn mà còn cho cộng đồng.",
+        "reversed": "Kẻ tham lam, độc đoán hoặc lừa đảo rồi sẽ bị số phận trêu đùa lại. Đây là nhịp tính sổ của luật nhân quả, đòi hỏi bạn phải học cách buông bỏ và làm việc thiện, gánh chịu hậu quả từ những hành động cũ."
+      },
+      "lost_item": {
+        "upright": "Món đồ chưa hề biến mất bốc hơi, nó chỉ đang lạc trôi trong không gian của bạn. Hãy tìm kiếm ở những nơi an toàn, bí mật hoặc nơi bạn thường cất giữ tài sản, đó có thể là một vật phẩm sang trọng.",
+        "reversed": "Có cố lật mòn nền nhà cũng vô vọng, món đồ bị mất do sự bất cẩn trong quản lý tài chính, hoặc bị đánh cắp do sự phô trương. Rất khó tìm lại được nếu không thay đổi thói quen, vì nó đã trôi vào quên lãng."
       }
     },
     "planet": "Sao Kim",
