@@ -139,57 +139,81 @@
           <label for="inputName" class="mystical-label">Họ và tên người xem</label>
           <div class="input-glow-bar"></div>
         </div>
-        <!-- Custom DOB Picker -->
-        <div class="dob-picker-wrap" id="dobPickerWrap">
-          <div class="dob-label">Ngày Sinh</div>
-          <div class="dob-display" id="dobDisplay" tabindex="0" role="button" aria-label="Chọn ngày sinh">
-            <span class="dob-display__icon">✦</span>
-            <span class="dob-display__text" id="dobDisplayText">Chọn ngày tháng năm sinh</span>
-            <span class="dob-display__arrow">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"
-                stroke-linecap="round" stroke-linejoin="round">
-                <rect x="3" y="4" width="18" height="18" rx="3" />
-                <line x1="16" y1="2" x2="16" y2="6" />
-                <line x1="8" y1="2" x2="8" y2="6" />
-                <line x1="3" y1="10" x2="21" y2="10" />
-              </svg>
-            </span>
+        <!-- Row: DOB (70%) and Gender (30%) -->
+        <div style="display: flex; gap: 16px; margin-bottom: 24px; align-items: stretch; flex-wrap: wrap;">
+          <!-- Custom DOB Picker -->
+          <div class="dob-picker-wrap" id="dobPickerWrap" style="flex: 7; min-width: 200px; margin-bottom: 0;">
+            <div class="dob-label">Ngày Sinh</div>
+            <div class="dob-display" id="dobDisplay" tabindex="0" role="button" aria-label="Chọn ngày sinh">
+              <span class="dob-display__icon">✦</span>
+              <span class="dob-display__text" id="dobDisplayText">Chọn năm sinh</span>
+              <span class="dob-display__arrow">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="3" y="4" width="18" height="18" rx="3" />
+                  <line x1="16" y1="2" x2="16" y2="6" />
+                  <line x1="8" y1="2" x2="8" y2="6" />
+                  <line x1="3" y1="10" x2="21" y2="10" />
+                </svg>
+              </span>
+            </div>
+            <input type="hidden" id="inputDob" />
+            <!-- Dropdown Panel -->
+            <div class="dob-panel" id="dobPanel" aria-hidden="true">
+              <div class="dob-panel__header">
+                <span class="dob-panel__title">✦ Ngày Sinh ✦</span>
+              </div>
+              <div class="dob-drums">
+                <!-- Day drum -->
+                <div class="dob-drum-col">
+                  <div class="dob-drum-label">Ngày</div>
+                  <div class="dob-drum" id="drumDay" data-type="day">
+                    <div class="dob-drum__track" id="drumDayTrack"></div>
+                  </div>
+                </div>
+                <!-- Month drum -->
+                <div class="dob-drum-col">
+                  <div class="dob-drum-label">Tháng</div>
+                  <div class="dob-drum" id="drumMonth" data-type="month">
+                    <div class="dob-drum__track" id="drumMonthTrack"></div>
+                  </div>
+                </div>
+                <!-- Year drum -->
+                <div class="dob-drum-col">
+                  <div class="dob-drum-label">Năm</div>
+                  <div class="dob-drum" id="drumYear" data-type="year">
+                    <div class="dob-drum__track" id="drumYearTrack"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="dob-panel__footer">
+                <button class="dob-btn dob-btn--clear" id="dobBtnClear" type="button">Xóa</button>
+                <button class="dob-btn dob-btn--confirm" id="dobBtnConfirm" type="button">Xác Nhận ✦</button>
+              </div>
+            </div>
           </div>
-          <input type="hidden" id="inputDob" />
-          <!-- Dropdown Panel -->
-          <div class="dob-panel" id="dobPanel" aria-hidden="true">
-            <div class="dob-panel__header">
-              <span class="dob-panel__title">✦ Ngày Sinh ✦</span>
+
+          <!-- Gender Selection Dropdown -->
+          <div class="dob-picker-wrap" id="genderPickerWrap" style="flex: 3; min-width: 120px; margin-bottom: 0; position: relative;">
+            <div class="dob-label">Giới Tính</div>
+            <div class="dob-display" id="genderDisplay" tabindex="0" role="button" aria-label="Chọn giới tính">
+              <span class="dob-display__text" id="genderDisplayText" style="margin-left: 0;">Chọn</span>
+              <span class="dob-display__arrow">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </span>
             </div>
-            <div class="dob-drums">
-              <!-- Day drum -->
-              <div class="dob-drum-col">
-                <div class="dob-drum-label">Ngày</div>
-                <div class="dob-drum" id="drumDay" data-type="day">
-                  <div class="dob-drum__track" id="drumDayTrack"></div>
-                </div>
-              </div>
-              <!-- Month drum -->
-              <div class="dob-drum-col">
-                <div class="dob-drum-label">Tháng</div>
-                <div class="dob-drum" id="drumMonth" data-type="month">
-                  <div class="dob-drum__track" id="drumMonthTrack"></div>
-                </div>
-              </div>
-              <!-- Year drum -->
-              <div class="dob-drum-col">
-                <div class="dob-drum-label">Năm</div>
-                <div class="dob-drum" id="drumYear" data-type="year">
-                  <div class="dob-drum__track" id="drumYearTrack"></div>
-                </div>
-              </div>
-            </div>
-            <div class="dob-panel__footer">
-              <button class="dob-btn dob-btn--clear" id="dobBtnClear" type="button">Xóa</button>
-              <button class="dob-btn dob-btn--confirm" id="dobBtnConfirm" type="button">Xác Nhận ✦</button>
+            <input type="hidden" id="inputGender" name="gender" value="" />
+            
+            <div class="gender-dropdown" id="genderDropdown">
+              <div class="gender-opt" data-val="Nam"><span class="g-icon" style="color:var(--c-gold);">♂</span> Nam</div>
+              <div class="gender-opt" data-val="Nữ"><span class="g-icon" style="color:var(--c-gold);">♀</span> Nữ</div>
+              <div class="gender-opt" data-val="Khác"><span class="g-icon" style="color:var(--c-gold);">⚥</span> Khác</div>
             </div>
           </div>
         </div>
+
         <div class="step-nav">
           <button class="btn-next" data-next="2">Tiếp theo <span class="nav-arrow"><svg width="14" height="14"
                 viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
@@ -229,22 +253,22 @@
 
         <!-- Mode tabs -->
         <div class="q-mode-tabs">
-          <button class="q-tab active" id="tabCustomQ" type="button">Tự Nhập</button>
-          <button class="q-tab" id="tabPresetQ" type="button">Câu Hỏi Gợi Ý</button>
+          <button class="q-tab active" id="tabPresetQ" type="button">Câu Hỏi Gợi Ý</button>
+          <button class="q-tab" id="tabCustomQ" type="button">Tự Nhập</button>
         </div>
 
         <!-- Custom input panel -->
-        <div id="customQPanel">
+        <div id="customQPanel" class="hidden">
           <div class="field-wrap textarea-wrap">
             <textarea id="inputQuestion" class="mystical-input mystical-textarea" placeholder=" " rows="4"></textarea>
-            <label for="inputQuestion" class="mystical-label">Ðiều bạn muốn vũ trụ giải đáp...</label>
+            <label for="inputQuestion" class="mystical-label">Ðiều bạn muốn vũ trụ giải đáp... (Tùy chọn)</label>
             <div class="input-glow-bar"></div>
             <div class="char-count" id="charCount">0 / 200</div>
           </div>
         </div>
 
         <!-- Preset questions panel -->
-        <div id="presetQPanel" class="hidden">
+        <div id="presetQPanel">
           <div class="preset-q-grid" id="presetQGrid"></div>
         </div>
 

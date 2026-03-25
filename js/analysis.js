@@ -147,6 +147,7 @@ window.AnalysisModule = (function () {
       created_at: session.dt || null,
       name: session.name,
       dob: session.dob || '',
+      gender: session.gender || '',
       theme: session.theme,
       theme_label: themeLabel,
       question: session.question,

@@ -56,15 +56,37 @@
     const prev = window.ReadingModule?.getSession ? window.ReadingModule.getSession() : null;
     let savedName = prev?.name || '';
     let savedDob  = prev?.dob  || '';
-    if (!savedName || !savedDob) {
+    let savedGen  = prev?.gender || '';
+    if (!savedName || !savedDob || !savedGen) {
       try {
         const stored = JSON.parse(localStorage.getItem(USER_KEY) || '{}');
         if (!savedName) savedName = stored.name || '';
         if (!savedDob)  savedDob  = stored.dob  || '';
+        if (!savedGen)  savedGen  = stored.gender || '';
       } catch {}
     }
     if (savedName) document.getElementById('inputName').value = savedName;
     if (savedDob)  window.DobPicker?.setValue(savedDob);
+    if (savedGen) {
+      document.getElementById('inputGender').value = savedGen;
+      const textEl = document.getElementById('genderDisplayText');
+      if (textEl) textEl.textContent = savedGen;
+      const wrapEl = document.getElementById('genderPickerWrap');
+      if (wrapEl) wrapEl.classList.add('has-value');
+      
+      const opts = document.querySelectorAll('.gender-opt');
+      opts.forEach(o => {
+        o.classList.toggle('selected', o.dataset.val === savedGen);
+      });
+    } else {
+      document.getElementById('inputGender').value = '';
+      const textEl = document.getElementById('genderDisplayText');
+      if (textEl) textEl.textContent = 'Chọn';
+      const wrapEl = document.getElementById('genderPickerWrap');
+      if (wrapEl) wrapEl.classList.remove('has-value');
+      const opts = document.querySelectorAll('.gender-opt');
+      opts.forEach(o => o.classList.remove('selected'));
+    }
 
     const subEl  = document.getElementById('subThemePanel');
     const gridEl = document.getElementById('mainThemeGrid');
@@ -227,11 +249,58 @@
     goToStep(3, 'forward');
   });
 
+  /* ── Gender Dropdown Logic ────────────────────────── */
+  const genderWrap = document.getElementById('genderPickerWrap');
+  const genderDisplay = document.getElementById('genderDisplay');
+  const genderDropdown = document.getElementById('genderDropdown');
+  const inputGender = document.getElementById('inputGender');
+  const genderDisplayText = document.getElementById('genderDisplayText');
+
+  if (genderDisplay && genderDropdown) {
+    genderDisplay.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const isOpen = genderDropdown.classList.contains('open');
+      document.querySelectorAll('.gender-dropdown').forEach(p => p.classList.remove('open'));
+      // Close dob panel if it exists
+      if (window.DobPicker?.close) window.DobPicker.close();
+      
+      if (!isOpen) {
+        genderDropdown.classList.add('open');
+        genderDisplay.classList.add('active');
+      } else {
+        genderDisplay.classList.remove('active');
+      }
+    });
+
+    genderDropdown.querySelectorAll('.gender-opt').forEach(opt => {
+      opt.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const val = opt.dataset.val;
+        inputGender.value = val;
+        genderDisplayText.innerHTML = opt.innerHTML;
+        genderWrap.classList.add('has-value');
+        genderDropdown.classList.remove('open');
+        genderDisplay.classList.remove('active');
+        
+        genderDropdown.querySelectorAll('.gender-opt').forEach(o => o.classList.remove('selected'));
+        opt.classList.add('selected');
+      });
+    });
+
+    document.addEventListener('click', (e) => {
+      if (genderWrap && !genderWrap.contains(e.target)) {
+        genderDropdown.classList.remove('open');
+        genderDisplay.classList.remove('active');
+      }
+    });
+  }
+
   /* ── Validation ───────────────────────────────────── */
   function validateStep(n) {
     if (n === 1) {
       const name = document.getElementById('inputName');
       const dob  = document.getElementById('inputDob');
+      const gen  = document.getElementById('inputGender').value;
       let valid = true;
       if (!name.value.trim()) {
         window.FX?.shake(name); window.FX?.glowPulse(name, 'rgba(255,80,80,0.6)');
@@ -250,10 +319,23 @@
         }
         valid = false;
       }
+      if (!gen) {
+        const genDisplay = document.getElementById('genderDisplay');
+        if (genDisplay) {
+          window.FX?.shake(genDisplay);
+          genDisplay.style.borderColor = 'rgba(255,80,80,0.6)';
+          genDisplay.style.boxShadow = '0 0 0 3px rgba(255,80,80,0.15)';
+          setTimeout(() => {
+            genDisplay.style.borderColor = '';
+            genDisplay.style.boxShadow = '';
+          }, 1200);
+        }
+        valid = false;
+      }
       return valid;
     }
     if (n === 3) {
-      if (inputQ.value.trim().length < 5) {
+      if (inputQ.value.trim().length > 0 && inputQ.value.trim().length < 5) {
         window.FX?.shake(inputQ); window.FX?.glowPulse(inputQ, 'rgba(255,80,80,0.6)');
         return false;
       }
@@ -657,11 +739,12 @@
       const data = {
         name:     document.getElementById('inputName').value.trim(),
         dob:      document.getElementById('inputDob').value,
+        gender:   document.getElementById('inputGender').value,
         theme:    _selectedTheme,
         question: inputQ.value.trim(),
         spread:   parseInt(document.querySelector('input[name="spread"]:checked')?.value || '3')
       };
-      try { localStorage.setItem(USER_KEY, JSON.stringify({ name: data.name, dob: data.dob })); } catch {}
+      try { localStorage.setItem(USER_KEY, JSON.stringify({ name: data.name, dob: data.dob, gender: data.gender })); } catch {}
       return data;
     },
     setTheme(key) { _selectedTheme = key; }

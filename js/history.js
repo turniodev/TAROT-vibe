@@ -43,6 +43,7 @@
       id: Date.now(),
       n: session.name,
       dob: session.dob,
+      gd: session.gender,
       th: session.theme,
       q: (session.question || '').slice(0, 90),
       sp: session.spread,
@@ -144,7 +145,7 @@
             </div>
             <span class="hist-date">${date}</span>
           </div>
-          <div class="hist-name">${e.n}${e.dob ? ` (Sinh: ${e.dob})` : ''}</div>
+          <div class="hist-name">${e.n}${e.dob ? ` (Sinh: ${e.dob})` : ''}${e.gd ? ` - ${e.gd}` : ''}</div>
           <div class="hist-question">${qText}</div>
           <div class="hist-thumbs">${thumbs}</div>
           <div class="hist-actions">
@@ -160,7 +161,7 @@
         const e = window._histCache[parseInt(btn.dataset.idx)];
         if (!e) return;
         const cards = reconstruct(e.c || []);
-        const session = { name: e.n, dob: e.dob, theme: e.th, question: e.q, spread: e.sp, isHistoryReplay: true, readingId: e.id, dt: e.dt || null };
+        const session = { name: e.n, dob: e.dob, gender: e.gd, theme: e.th, question: e.q, spread: e.sp, isHistoryReplay: true, readingId: e.id, dt: e.dt || null };
         close();
         document.querySelectorAll('.page').forEach(p => p.classList.remove('page--active'));
         document.getElementById('pageAnalysis').classList.add('page--active');

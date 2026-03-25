@@ -1570,12 +1570,14 @@ body {
 }
 
 .q-tab {
+  flex: 1;
+  text-align: center;
   background: transparent;
   border: 1px solid rgba(155, 48, 255, 0.25);
   border-radius: 30px;
-  padding: 7px 22px;
+  padding: 10px 16px;
   font-family: 'Philosopher', serif;
-  font-size: 0.72rem;
+  font-size: 0.75rem;
   letter-spacing: 0.09em;
   color: rgba(232, 180, 255, 0.55);
   cursor: pointer;
@@ -6769,4 +6771,59 @@ body {
   .dict-grid {
     grid-template-columns: repeat(2, 1fr);
   }
+}
+
+/* ── Gender Custom Dropdown ─────────────────────────── */
+.gender-dropdown {
+  position: absolute;
+  bottom: calc(100% + 8px);
+  left: 0;
+  width: 100%;
+  background: linear-gradient(160deg, rgba(20, 0, 40, 0.98), rgba(10, 0, 20, 0.99));
+  border: 1px solid rgba(155, 48, 255, 0.35);
+  border-radius: 12px;
+  box-shadow: 0 -8px 32px rgba(0, 0, 0, 0.6), 0 0 0 1px rgba(155, 48, 255, 0.1);
+  overflow: hidden;
+  z-index: 100;
+  
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(10px);
+  transition: opacity 0.25s ease, transform 0.25s ease;
+}
+
+.gender-dropdown.open {
+  opacity: 1;
+  pointer-events: all;
+  transform: translateY(0);
+}
+
+.gender-opt {
+  padding: 12px 16px;
+  font-family: 'EB Garamond', serif;
+  font-size: 0.95rem;
+  color: var(--c-pale);
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  border-bottom: 1px solid rgba(155, 48, 255, 0.1);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.gender-opt:last-child {
+  border-bottom: none;
+}
+
+.gender-opt:hover, .gender-opt.selected {
+  background: rgba(155, 48, 255, 0.2);
+  color: #fff;
+}
+
+.g-icon {
+  font-size: 1.1rem;
+  font-family: Arial, sans-serif;
+  line-height: 0;
+  display: inline-flex;
+  align-items: center;
 }

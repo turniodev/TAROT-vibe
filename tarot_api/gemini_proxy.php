@@ -120,12 +120,19 @@ function build_prompt(array $d): string
 {
     $name = $d['name'] ?? 'Người dùng';
     $dob = $d['dob'] ?? '';
+    $gender = $d['gender'] ?? '';
     $theme = $d['theme_label'] ?? $d['theme'] ?? 'Tổng quát';
-    $question = $d['question'] ?? '';
+    $question = trim($d['question'] ?? '');
+    if (!$question) {
+        $question = ($theme === 'Tổng quát' || $theme === 'Thông Điệp Chung')
+            ? 'Xin thông điệp chung từ vũ trụ.'
+            : "Xin thông điệp chung về chủ đề {$theme}.";
+    }
     $spread = (int) ($d['spread'] ?? count($d['cards']));
     $cards = $d['cards'];
 
     $dob_str = $dob ? "Ngày sinh: **{$dob}**" : '';
+    $gender_str = $gender ? "- **Giới tính:** {$gender}" : '';
 
     // Build card details
     $card_lines = '';
@@ -164,10 +171,11 @@ TUYỆT ĐỐI KHÔNG chào hỏi (ví dụ: Chào bạn, Xin chào,...). KHÔNG
 ## Thông tin người trải bài
 - **Họ tên:** {$name}
 - {$dob_str}
+{$gender_str}
 - **Chủ đề:** {$theme}
 - **Câu hỏi:** {$question}
 
-YÊU CẦU ĐẶC BIỆT: Phải liên kết yếu tố chiêm tinh, nguyên tố của các lá bài với ngày sinh của {$name} (để tính Bản mệnh/Cung/Con số năng lượng) nhằm đưa ra các nhận định cực kỳ sâu sắc và cá nhân hóa. Sử dụng cả phần "Phân tích chuyên sâu" của các lá bài để đào sâu vào hoàn cảnh của {$name}.
+YÊU CẦU ĐẶC BIỆT: Hãy xưng hô và đưa ra lời khuyên phù hợp dựa trên giới tính ({$gender}) và ngày sinh của người xem ({$name}). Phải liên kết yếu tố chiêm tinh, nguyên tố của các lá bài với ngày sinh của {$name} (để tính Bản mệnh/Cung/Con số năng lượng) nhằm đưa ra các nhận định cực kỳ sâu sắc và cá nhân hóa. Sử dụng cả phần "Phân tích chuyên sâu" của các lá bài để đào sâu vào hoàn cảnh của {$name}.
 
 ## Các lá bài đã rút
 {$card_lines}
