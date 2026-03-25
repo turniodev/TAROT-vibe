@@ -70,6 +70,31 @@
     });
   }
 
+  // ── MOUSE TRAIL EFFECT ────────────────────
+  function spawnMouseParticle(mx, my) {
+    particles.push({
+      x: mx + (Math.random() - 0.5) * 12,
+      y: my + (Math.random() - 0.5) * 12,
+      vx: (Math.random() - 0.5) * 1.2,
+      vy: Math.random() * -1.5 - 0.2, // Drift up slightly
+      life: 1,
+      decay: Math.random() * 0.025 + 0.015, // Fast decay for trail
+      r: Math.random() * 2.5 + 0.8,
+      hue: Math.random() > 0.5 ? (Math.random() * 30 + 260) : (Math.random() * 20 + 40) // Purple or Gold
+    });
+  }
+
+  window.addEventListener('mousemove', (e) => {
+    // Spawn particles on mouse move with a random chance to avoid overcrowding
+    if (Math.random() < 0.7) {
+      spawnMouseParticle(e.clientX, e.clientY);
+      if (Math.random() < 0.4) {
+        spawnMouseParticle(e.clientX, e.clientY);
+      }
+    }
+  });
+  // ──────────────────────────────────────────
+
   function drawStars(t) {
     stars.forEach(s => {
       s.a = 0.4 + 0.5 * Math.sin(t * s.speed + s.phase);
