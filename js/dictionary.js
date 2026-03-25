@@ -45,6 +45,9 @@
     long_distance: { label: 'Yêu Xa',                     group: 'Tình Yêu' },
     jealousy:      { label: 'Người Thứ Ba / Ghen Tuông',  group: 'Tình Yêu' },
     self_love:     { label: 'Yêu Bản Thân',               group: 'Tình Yêu' },
+    friendship:    { label: 'Tình Bạn / Tri Kỷ',          group: 'Tình Yêu' },
+    pregnancy:     { label: 'Con Cái / Thai Kỳ',          group: 'Tình Yêu' },
+    gossip:        { label: 'Thị Phi / Đàm Tiếu',         group: 'Tình Yêu' },
     // Career
     career:        { label: 'Sự Nghiệp / Công Việc',      group: 'Sự Nghiệp' },
     job_search:    { label: 'Xin Việc Làm',                group: 'Sự Nghiệp' },
@@ -54,6 +57,8 @@
     career_change: { label: 'Chuyển Nghề',                 group: 'Sự Nghiệp' },
     freelance:     { label: 'Freelance / Tự Do',           group: 'Sự Nghiệp' },
     interview:     { label: 'Phỏng Vấn',                   group: 'Sự Nghiệp' },
+    legal:         { label: 'Pháp Lý / Giấy Tờ',           group: 'Sự Nghiệp' },
+    moving:        { label: 'Chuyển Chỗ / Xuất Ngoại',     group: 'Sự Nghiệp' },
     // Finance
     finance:       { label: 'Tài Chính Tổng Quát',         group: 'Tài Chính' },
     investment:    { label: 'Đầu Tư / Chứng Khoán',        group: 'Tài Chính' },
@@ -66,6 +71,7 @@
     energy:        { label: 'Năng Lượng & Chakra',          group: 'Sức Khỏe' },
     family:        { label: 'Gia Đình',                     group: 'Sức Khỏe' },
     diet:          { label: 'Điều Độ / Chăm Sóc Bản Thân', group: 'Sức Khỏe' },
+    pet:           { label: 'Thú Cưng',                     group: 'Sức Khỏe' },
     // Self
     study:         { label: 'Học Tập',                      group: 'Bản Thân' },
     study_abroad:  { label: 'Du Học',                       group: 'Bản Thân' },
@@ -75,6 +81,10 @@
     decision:      { label: 'Ra Quyết Định',                 group: 'Bản Thân' },
     travel:        { label: 'Du Lịch / Di Chuyển',          group: 'Bản Thân' },
     spiritual:     { label: 'Tâm Linh',                     group: 'Bản Thân' },
+    dream:         { label: 'Giải Mã Giấc Mơ',              group: 'Bản Thân' },
+    past_life:     { label: 'Tiền Kiếp',                    group: 'Bản Thân' },
+    karma:         { label: 'Nghiệp Quả (Karma)',           group: 'Bản Thân' },
+    lost_item:     { label: 'Tìm Đồ Thất Lạc',              group: 'Bản Thân' },
   };
 
   function showCardDetail(card) {

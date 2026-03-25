@@ -792,6 +792,96 @@
         'Tôi có năng khiếu tâm linh hay thấu cảm nào chưa khám phá?',
       ]
     }],
+    friendship: [{
+      group: 'Tình Bạn & Tri Kỷ', qs: [
+        'Mối quan hệ bạn bè của chúng tôi hiện tại ra sao?',
+        'Người bạn này có thực sự chân thành với tôi không?',
+        'Làm sao để chúng tôi gắn kết và hiểu nhau hơn?',
+        'Có xích mích nào đang ngầm tồn tại giữa chúng tôi không?',
+        'Tương lai của tình bạn này sẽ đi về đâu?',
+      ]
+    }],
+    pregnancy: [{
+      group: 'Con Cái & Thai Kỳ', qs: [
+        'Kế hoạch sinh con của tôi sắp tới có thuận lợi không?',
+        'Giai đoạn thai kỳ của tôi cần lưu ý điều gì về năng lượng?',
+        'Mối liên kết tâm linh giữa tôi và đứa trẻ sắp chào đời?',
+        'Làm sao để tôi chuẩn bị tốt nhất vai trò làm cha/mẹ?',
+        'Thông điệp vũ trụ dành cho kế hoạch gia đình của tôi?',
+      ]
+    }],
+    gossip: [{
+      group: 'Thị Phi & Đàm Tiếu', qs: [
+        'Ai là người đang gieo rắc tin đồn về tôi rắc rối này?',
+        'Tại sao thị phi này lại xuất hiện trong cuộc đời tôi?',
+        'Cách tốt nhất để tôi dập tắt ngọn lửa đàm tiếu này là gì?',
+        'Thị phi này có ảnh hưởng thực tế đến công việc của tôi không?',
+        'Bài học tôi nhận được sau biến cố danh tiếng này là gì?',
+      ]
+    }],
+    legal: [{
+      group: 'Pháp Lý & Giấy Tờ', qs: [
+        'Vấn đề pháp lý hiện tại của tôi có kết quả khả quan không?',
+        'Tôi cần chuẩn bị giấy tờ hoặc đối sách gì để xoay chuyển?',
+        'Người hỗ trợ pháp lý hoặc luật sư của tôi có đáng tin cậy không?',
+        'Vấn đề kiện tụng này kéo dài bao lâu nữa?',
+        'Vũ trụ khuyên tôi nên nhượng bộ hay chiến đấu đến cùng?',
+      ]
+    }],
+    moving: [{
+      group: 'Chuyển Chỗ & Định Cư', qs: [
+        'Việc chuyển nhà / xuất ngoại lúc này có mang lại tài lộc không?',
+        'Năng lượng phong thủy tại nơi ở mới có phù hợp với tôi?',
+        'Rào cản lớn nhất cản bước tôi định cư tại vùng đất mới là gì?',
+        'Quá trình di dời có thuận lợi không hay gặp trắc trở?',
+        'Cuộc sống của tôi sẽ thay đổi thế nào sau khi chuyển chỗ?',
+      ]
+    }],
+    pet: [{
+      group: 'Thú Cưng', qs: [
+        'Boss (thú cưng) của tôi đang cảm thấy thế nào?',
+        'Thú cưng có mang lại năng lượng chữa lành cho ngôi nhà không?',
+        'Vấn đề sức khỏe hiện tại của bé cưng có đáng lo ngại không?',
+        'Mối liên hệ tiền kiếp giữa tôi và thú cưng là gì?',
+        'Làm sao để tôi chăm sóc và kết nối tốt hơn với chúng?',
+      ]
+    }],
+    dream: [{
+      group: 'Giải Mã Giấc Mơ', qs: [
+        'Giấc mơ lặp đi lặp lại gần đây của tôi chứa thông điệp gì?',
+        'Hình ảnh đáng sợ trong mơ cảnh báo tôi điều gì từ tiềm thức?',
+        'Có điềm báo tương lai nào ẩn giấu trong giấc mộng đêm qua không?',
+        'Vũ trụ muốn nhắc nhở tôi giải quyết vấn đề gì qua giấc mơ?',
+        'Tôi nên hành động thế nào ở đời thực sau khi thấy điềm báo?',
+      ]
+    }],
+    past_life: [{
+      group: 'Tiền Kiếp', qs: [
+        'Tôi mang theo món nợ tiền kiếp nào ảnh hưởng đến hiện tại?',
+        'Mối liên hệ giữa tôi và người ấy trong tiền kiếp là gì?',
+        'Năng khiếu bẩm sinh hiện tại của tôi đến tử tiền kiếp nào?',
+        'Chấp niệm nào từ tiền kiếp vẫn còn đang cản bước tôi?',
+        'Tôi cần làm gì để giải thoát những nỗi đau từ quá khứ nhọc nhằn?',
+      ]
+    }],
+    karma: [{
+      group: 'Nghiệp Quả (Karma)', qs: [
+        'Khó khăn tôi đang chịu đựng có phải xuất phát từ nghiệp quả?',
+        'Bài học nhân quả (karma) lớn nhất mà tôi cần tốt nghiệp là gì?',
+        'Làm sao để tôi gieo những hạt giống thiện lành cho tương lai?',
+        'Có chướng nghiệp nào với gia đình dòng họ đang trói buộc tôi?',
+        'Tôi đã trả xong món nghiệp đối với người này hay chưa?',
+      ]
+    }],
+    lost_item: [{
+      group: 'Tìm Đồ Thất Lạc', qs: [
+        'Món đồ quý giá tôi làm rơi hiện đang nằm ở phương hướng nào?',
+        'Trạng thái hiện tại của món đồ (còn nguyên hay đã mất mát)?',
+        'Tôi nên tìm đồ vật này ở nơi ánh sáng hay trong góc khuất?',
+        'Sự thất lạc này có mang ý nghĩa cảnh báo tôi bất cẩn điều gì?',
+        'Tỷ lệ tôi tìm lại được đồ vật này là bao nhiêu phần trăm?',
+      ]
+    }],
     general: [{
       group: 'Thông Điệp Chung', qs: [
         'Thông điệp chung của vũ trụ cho tôi là gì?',

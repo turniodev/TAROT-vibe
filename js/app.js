@@ -1,8 +1,8 @@
 // js/app.js — Main application coordinator / page router
 (function () {
   const pages = {
-    landing:  document.getElementById('pageLanding'),
-    reading:  document.getElementById('pageReading'),
+    landing: document.getElementById('pageLanding'),
+    reading: document.getElementById('pageReading'),
     analysis: document.getElementById('pageAnalysis')
   };
 
@@ -31,7 +31,7 @@
     }
 
     window.FormModule.close(true);
-    
+
     function executeWarpAndRead() {
       const particles = window.Particles;
       const hasWarp = particles && particles.triggerWarp;
@@ -71,15 +71,12 @@
     const focusText = document.getElementById('focusText');
 
     if (focusScreen && focusText) {
-      const themeLabel = window.TarotHelper?.getThemeLabel(data.theme);
-      const targetText = (data.theme && data.theme !== 'general' && themeLabel) ? themeLabel : data.question;
-
-      focusText.innerHTML = `Hãy nghiêm túc và tập trung nghĩ về...<br><br><span style="color:var(--c-gold); font-size:1.4rem; font-style:italic">"${targetText}"</span><br><br><span style="font-size:0.85rem; opacity:0.5; font-family:'EB Garamond',serif">Chấp tâm trong khoảnh khắc, vũ trụ đang lắng nghe...</span>`;
+      focusText.innerHTML = `Hãy nghiêm túc và tập trung nghĩ và tự trả lời...<br><br><span style="color:var(--c-gold); font-size:1.4rem; font-style:italic">"${data.question}"</span><br><br><span style="font-size:0.85rem; opacity:0.5; font-family:'EB Garamond',serif">Chấp tâm trong khoảnh khắc, vũ trụ đang lắng nghe...</span>`;
       focusScreen.classList.add('active');
       setTimeout(() => {
         focusScreen.classList.remove('active');
-        setTimeout(executeWarpAndRead, 1100); 
-      }, 5000);
+        setTimeout(executeWarpAndRead, 1100);
+      }, 10000);
     } else {
       executeWarpAndRead();
     }
@@ -87,7 +84,7 @@
 
   // ── Go to analysis ─────────────────────────────────
   document.getElementById('btnGoAnalysis').addEventListener('click', () => {
-    const cards   = window.ReadingModule.getSelectedCards();
+    const cards = window.ReadingModule.getSelectedCards();
     const session = window.ReadingModule.getSession();
     // Record AFTER reading is complete
     window.DailyLimit?.record(session.theme, session.spread);
@@ -115,12 +112,12 @@
         <div class="ai-pulse"></div>
         <span>Đang tải thông điệp…</span>
       </div>`;
-    
+
     try {
       const res = await fetch(`https://ka-en.com.vn/tarot_api/get_reading.php?id=${id}`);
       if (!res.ok) throw new Error("Không tìm thấy kết quả hoặc kết nối lỗi.");
       const data = await res.json();
-      
+
       const session = {
         name: data.name,
         dob: data.dob,
@@ -130,7 +127,7 @@
         isSharedReplay: true,
         readingId: id
       };
-      
+
       // Map API cards to app format
       const cards = data.cards.map(c => {
         const fullCard = window.TAROT_DB ? window.TAROT_DB.find(db => db.id === c.id) : null;

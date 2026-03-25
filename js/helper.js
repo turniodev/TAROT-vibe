@@ -40,25 +40,20 @@ window.TarotHelper = (function () {
 
   /* ── Theme display labels ────────────────────────── */
   const THEME_LABELS = {
-    love:         'Tình Yêu',
-    ex:           'Người Yêu Cũ',
-    current_love: 'Người Yêu Hiện Tại',
-    ambiguous:    'Mối Quan Hệ Mập Mờ',
-    crush:        'Crush / Thầm Thích',
-    future_love:  'Tình Duyên Tương Lai',
-    someone:      'Người Ấy',
-    marriage:     'Hôn Nhân',
-    conflict:     'Giải Quyết Xung Đột',
-    career:       'Sự Nghiệp',
-    job_search:   'Xin Việc Làm',
-    finance:      'Tài Chính',
-    health:       'Sức Khỏe',
-    family:       'Gia Đình',
-    study:        'Học Tập',
-    study_abroad: 'Du Học',
-    self:         'Bản Thân',
-    general:      'Tổng Quát',
-    more:         'Tổng Quát',
+    love: 'Tình Yêu', ex: 'Người Yêu Cũ', current_love: 'Người Yêu Hiện Tại',
+    ambiguous: 'Mối Quan Hệ Mập Mờ', crush: 'Crush / Thầm Thích', future_love: 'Tình Duyên Tương Lai',
+    someone: 'Người Ấy', marriage: 'Hôn Nhân', conflict: 'Giải Quyết Xung Đột', breakup: 'Chia Tay & Hàn Gắn',
+    long_distance: 'Yêu Xa', jealousy: 'Người Thứ Ba / Ghen Tuông', self_love: 'Yêu Bản Thân',
+    friendship: 'Tình Bạn / Tri Kỷ', pregnancy: 'Con Cái / Thai Kỳ', gossip: 'Thị Phi / Đàm Tiếu',
+    career: 'Sự Nghiệp', job_search: 'Xin Việc Làm', promotion: 'Thăng Tiến', business: 'Kinh Doanh / Khởi Nghiệp',
+    colleague: 'Quan Hệ Đồng Nghiệp', career_change: 'Chuyển Nghề', freelance: 'Freelance / Tự Do',
+    interview: 'Phỏng Vấn', legal: 'Pháp Lý / Giấy Tờ', moving: 'Chuyển Chỗ / Xuất Ngoại',
+    finance: 'Tài Chính', investment: 'Đầu Tư', debt: 'Nợ Nần', savings: 'Tiết Kiệm', luck_money: 'Lộc Tài',
+    health: 'Sức Khỏe', mental: 'Tâm Thần', energy: 'Năng Lượng', family: 'Gia Đình', diet: 'Chăm Sóc Bản Thân', pet: 'Thú Cưng',
+    study: 'Học Tập', study_abroad: 'Du Học', self: 'Bản Thân', purpose: 'Mục Đích Sống', shadow_self: 'Bóng Tối Nội Tâm',
+    decision: 'Ra Quyết Định', travel: 'Du Lịch / Di Chuyển', spiritual: 'Tâm Linh', dream: 'Giải Mã Giấc Mơ',
+    past_life: 'Tiền Kiếp', karma: 'Nghiệp Quả (Karma)', lost_item: 'Tìm Đồ Thất Lạc',
+    general: 'Tổng Quát', more: 'Tổng Quát'
   };
 
   function getThemeLabel(key) {
