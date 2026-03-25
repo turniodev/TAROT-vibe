@@ -192,7 +192,7 @@ window.AnalysisModule = (function () {
 
     try {
       const numQuestions = cards.length >= 5 ? 5 : 3;
-      
+
       const descEl = document.getElementById('clarifyDesc');
       if (descEl) {
         descEl.textContent = `Vũ trụ cần bạn xác nhận ${numQuestions} điều để thông điệp được giải mã chính xác nhất cho hoàn cảnh của bạn lúc này.`;
@@ -244,9 +244,9 @@ window.AnalysisModule = (function () {
         setTimeout(() => {
           const current = document.getElementById(`cq${index + 1}`);
           const next = document.getElementById(`cq${index + 2}`);
-          
+
           if (current) current.style.opacity = '0';
-          
+
           setTimeout(() => {
             if (current) current.style.display = 'none';
             if (next) {
@@ -268,7 +268,7 @@ window.AnalysisModule = (function () {
         const item = document.getElementById(`cq${i + 1}`);
         item.querySelectorAll('.cq-btn').forEach(btn => {
           btn.addEventListener('click', () => {
-             // Prevent multi-click
+            // Prevent multi-click
             if (answers[i] !== null) return;
             item.querySelectorAll('.cq-btn').forEach(b => b.classList.remove('active'));
             btn.classList.add('active');
@@ -342,10 +342,16 @@ window.AnalysisModule = (function () {
     } catch (err) {
       contentEl.style.display = 'none';
       loadEl.style.display = '';
+
+      const isNetworkError = err.message.includes('400') || err.message.includes('502') || err.message.includes('500');
+      const errorMsg = isNetworkError
+        ? "Vũ trụ đang nhiễu loạn hoặc thông điệp quá mãnh liệt. Xin hãy thử lại."
+        : `Lỗi kết nối vũ trụ: ${err.message}`;
+
       loadEl.innerHTML = `
         <div class="ai-error-box" style="text-align: center;">
-          <p class="ai-error" style="margin-bottom:12px">⚠ Không thể kết nối AI: ${err.message}</p>
-          <button class="btn-primary" id="btnRetryAI" style="padding:8px 24px; font-size: 0.9rem; margin: 0 auto; display: inline-flex;">Thử lại ngay</button>
+          <p class="ai-error" style="margin-bottom:12px; color: var(--c-gold);">⚠ ${errorMsg}</p>
+          <button class="btn-primary" id="btnRetryAI" style="padding:8px 24px; font-size: 0.9rem; margin: 0 auto; display: inline-flex;">Kết nối lại</button>
         </div>
       `;
       document.getElementById('btnRetryAI').addEventListener('click', () => {
