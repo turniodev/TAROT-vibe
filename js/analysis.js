@@ -190,21 +190,31 @@ window.AnalysisModule = (function () {
     btnSubmit.disabled = true;
 
     try {
-      // Fetch questions from mapped data and pick 3 at random
+      const numQuestions = cards.length >= 5 ? 5 : 3;
+      
+      const descEl = document.getElementById('clarifyDesc');
+      if (descEl) {
+        descEl.textContent = `Vũ trụ cần bạn xác nhận ${numQuestions} điều để thông điệp được giải mã chính xác nhất cho hoàn cảnh của bạn lúc này.`;
+      }
+
+      // Fetch questions from mapped data and pick N at random
       let allQuestions = window.ClarifyData?.[session.theme];
-      if (!allQuestions || allQuestions.length < 3) {
+      if (!allQuestions || allQuestions.length < numQuestions) {
         allQuestions = [
           "Bạn có đang vô tình bỏ qua những tín hiệu từ trực giác của chính mình không?",
           "Có phải một sự kiện trong quá khứ vẫn đang âm thầm cản trở bước tiến của bạn hiện tại?",
           "Sâu thẳm bên trong, bạn đã tự biết câu trả lời cho vấn đề này rồi phải không?",
           "Bạn có đang che giấu cảm xúc thật của mình với những người xung quanh không?",
-          "Có phải bạn đang lo sợ một sự thay đổi lớn sẽ làm đảo lộn cuộc sống hiện tại?"
+          "Có phải bạn đang lo sợ một sự thay đổi lớn sẽ làm đảo lộn cuộc sống hiện tại?",
+          "Bạn có cảm thấy mệt mỏi vì cứ phải cố gắng trong đơn độc không?",
+          "Có phải bạn đang đặt kỳ vọng quá cao và tự tạo áp lực cho bản thân?",
+          "Gần đây bạn có hay mơ thấy những điềm báo lạ không?"
         ];
       }
 
-      // Shuffle and pick 3 random questions
+      // Shuffle and pick random questions
       const shuffled = [...allQuestions].sort(() => 0.5 - Math.random());
-      let questions = shuffled.slice(0, 3);
+      let questions = shuffled.slice(0, numQuestions);
 
       // Simulate a small delay for mystical effect
       await new Promise(r => setTimeout(r, 1500));
@@ -212,57 +222,56 @@ window.AnalysisModule = (function () {
       loading.style.display = 'none';
       qList.style.display = 'block';
 
-      const answers = [null, null, null];
-      
-      const cq1 = document.getElementById('cq1');
-      const cq2 = document.getElementById('cq2');
-      const cq3 = document.getElementById('cq3');
-      const cb_submit_wrap = btnSubmit.parentNode;
+      const answers = new Array(numQuestions).fill(null);
 
-      // Reset to show only Q1 and hide submit button
-      cq1.style.display = 'block';
-      cq2.style.display = 'none';
-      cq3.style.display = 'none';
-      cb_submit_wrap.style.display = 'none';
+      // Generate HTML dynamically
+      let html = '';
+      for (let i = 0; i < numQuestions; i++) {
+        html += `
+          <div class="cq-item" id="cq${i + 1}" style="display: ${i === 0 ? 'block' : 'none'}; opacity: ${i === 0 ? '1' : '0'}; transition: opacity 0.3s ease;">
+            <p class="cq-text"><span style="opacity:0.6; font-size: 0.9em;">Câu ${i + 1}/${numQuestions}:</span><br/>${questions[i]}</p>
+            <div class="cq-btns">
+              <button class="cq-btn cq-yes" data-ans="yes">Có</button>
+              <button class="cq-btn cq-no" data-ans="no">Không</button>
+            </div>
+          </div>
+        `;
+      }
+      qList.innerHTML = html;
 
       const checkCompleteAndNext = (index) => {
         setTimeout(() => {
-          if (index === 0) {
-            cq1.style.opacity = '0';
-            setTimeout(() => { cq1.style.display = 'none'; cq2.style.display = 'block'; cq2.style.opacity = '1'; }, 300);
-          } else if (index === 1) {
-            cq2.style.opacity = '0';
-            setTimeout(() => { cq2.style.display = 'none'; cq3.style.display = 'block'; cq3.style.opacity = '1'; }, 300);
-          } else if (index === 2) {
-            cq3.style.opacity = '0';
-            setTimeout(() => {
+          const current = document.getElementById(`cq${index + 1}`);
+          const next = document.getElementById(`cq${index + 2}`);
+          
+          if (current) current.style.opacity = '0';
+          
+          setTimeout(() => {
+            if (current) current.style.display = 'none';
+            if (next) {
+              next.style.display = 'block';
+              // Small delay to allow reflow before fading in
+              setTimeout(() => { next.style.opacity = '1'; }, 50);
+            } else {
+              // Final question answered
               modal.classList.remove('visible');
               payload.clarifications = answers;
               document.getElementById('aiLoading').innerHTML = `<div class="ai-pulse" style="margin: 0 auto 16px;"></div><span>Đang tập hợp năng lượng vui lòng kiên nhẫn và suy nghĩ về điều bạn mong chờ...</span>`;
               fetchGeminiAnalysis(payload, cards, session, labels, themeLabel);
-            }, 300);
-          }
+            }
+          }, 300);
         }, 400); // Wait 400ms after click (to show active state)
       };
 
-      for (let i = 0; i < 3; i++) {
+      for (let i = 0; i < numQuestions; i++) {
         const item = document.getElementById(`cq${i + 1}`);
-        item.style.transition = 'opacity 0.3s ease';
-        if (i > 0) item.style.opacity = '0'; // Only cq1 is opacity 1 at start
-        
-        item.querySelector('.cq-text').innerHTML = `<span style="opacity:0.6; font-size: 0.9em;">Câu ${i + 1}/3:</span><br/>${questions[i]}`;
-
         item.querySelectorAll('.cq-btn').forEach(btn => {
-          const newBtn = btn.cloneNode(true);
-          newBtn.classList.remove('active');
-          btn.parentNode.replaceChild(newBtn, btn);
-          
-          newBtn.addEventListener('click', () => {
+          btn.addEventListener('click', () => {
              // Prevent multi-click
             if (answers[i] !== null) return;
             item.querySelectorAll('.cq-btn').forEach(b => b.classList.remove('active'));
-            newBtn.classList.add('active');
-            answers[i] = { q: questions[i], a: newBtn.dataset.ans };
+            btn.classList.add('active');
+            answers[i] = { q: questions[i], a: btn.dataset.ans };
             checkCompleteAndNext(i);
           });
         });
