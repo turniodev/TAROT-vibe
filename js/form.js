@@ -733,13 +733,13 @@
 
   if (btnOpenPrivacy && privacyModal) {
     btnOpenPrivacy.addEventListener('click', () => {
-      privacyModal.classList.add('open');
+      privacyModal.classList.add('visible');
     });
     btnPrivacyClose?.addEventListener('click', () => {
-      privacyModal.classList.remove('open');
+      privacyModal.classList.remove('visible');
     });
     privacyModal.addEventListener('click', (e) => {
-      if (e.target === privacyModal) privacyModal.classList.remove('open');
+      if (e.target === privacyModal) privacyModal.classList.remove('visible');
     });
   }
 
