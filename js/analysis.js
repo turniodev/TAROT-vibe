@@ -46,7 +46,7 @@ window.AnalysisModule = (function () {
     /* Card blocks */
     cards.forEach((card, i) => {
       const isRev = card.isReversed;
-      const meaning = isRev ? card.reversed : card.upright;
+      const meaning = isRev ? (card.generalReversed || card.reversed) : (card.generalUpright || card.upright);
       const kws = (isRev ? card.keywordsRev : card.keywords) || [];
       const aspect = card.aspects?.[theme] || card.aspects?.love || null;
       let aspectText = aspect ? (isRev ? (aspect.reversed || aspect.rev) : (aspect.upright || aspect.up)) : null;
@@ -169,7 +169,7 @@ window.AnalysisModule = (function () {
           name_vi: c.nameVi,
           number: c.number || '',
           is_reversed: c.isReversed,
-          meaning: c.isReversed ? c.reversed : c.upright,
+          meaning: c.isReversed ? (c.generalReversed || c.reversed) : (c.generalUpright || c.upright),
           keywords: (c.isReversed ? c.keywordsRev : c.keywords) || [],
           planet: c.planet || null,
           zodiac: c.zodiac || null,

@@ -5553,14 +5553,14 @@ body {
 .ab-layout {
   display: grid;
   grid-template-columns: auto 1fr;
-  grid-template-areas: 
+  grid-template-areas:
     "img info"
     "img meaning"
     "body body";
   gap: 0 24px;
 }
 
-.ab-layout > .ab-card-img {
+.ab-layout>.ab-card-img {
   grid-area: img;
   width: 130px;
   height: 222px;
@@ -5605,18 +5605,18 @@ body {
 
 @media (max-width: 768px) {
   .ab-layout {
-    grid-template-areas: 
+    grid-template-areas:
       "img info"
       "meaning meaning"
       "body body";
     gap: 16px 13px;
   }
-  
-  .ab-layout > .ab-card-img {
+
+  .ab-layout>.ab-card-img {
     width: 86px !important;
     height: 147px !important;
   }
-  
+
   .ab-body {
     margin-top: 0;
   }
@@ -5722,6 +5722,7 @@ body {
   align-self: flex-end !important;
   width: 100% !important;
 }
+
 /* ════════════════════════════════════════════════════
    MODAL BORDER-RADIUS — ALL 4 corners rounded
    Reset any override that makes bottom corners sharp
@@ -5730,16 +5731,19 @@ body {
   border-radius: 24px !important;
   overflow: hidden !important;
 }
+
 /* The ::before accent bar only spans top */
 .meaning-modal-panel::before {
   border-radius: 24px 24px 0 0 !important;
 }
+
 /* Card image inside modal — needs own radius, not clipped */
 .mm-card-content,
 .mm-layout,
 .mm-header-row {
   overflow: visible !important;
 }
+
 .mm-header-row .mm-card-img {
   border-radius: 8px !important;
   overflow: hidden !important;
@@ -5772,6 +5776,7 @@ body {
     padding: 0 18px 16px !important;
     gap: 10px !important;
   }
+
   .btn-next,
   .btn-prev {
     padding: 10px 20px !important;
@@ -5788,7 +5793,8 @@ body {
 
 #pageReading.deck-hidden .reading-header,
 #pageReading.deck-hidden .reading-instruction {
-  align-self: center !important; /* Make sure it's centered in the flex column */
+  align-self: center !important;
+  /* Make sure it's centered in the flex column */
   text-align: center !important;
 }
 
@@ -5844,14 +5850,17 @@ body {
   #pageReading {
     display: flex;
     flex-direction: column;
-    align-items: center; /* keep centered on desktop */
+    align-items: center;
+    /* keep centered on desktop */
   }
+
   #selectedArea {
     order: 2;
     margin-top: 24px;
     width: 100%;
     justify-content: center;
   }
+
   #deckArea {
     order: 1;
     margin-top: 20px;
@@ -5860,14 +5869,20 @@ body {
 
 /* On mobile, keep selectedArea above deckArea */
 @media (max-width: 768px) {
-  #selectedArea { order: 1; }
-  #deckArea { order: 2; }
+  #selectedArea {
+    order: 1;
+  }
+
+  #deckArea {
+    order: 2;
+  }
 }
 
 /* Centering safety in deck-hidden */
 #pageReading.deck-hidden {
   align-items: center !important;
 }
+
 #pageReading.deck-hidden .selected-area {
   justify-content: center !important;
   align-self: center !important;
@@ -5882,8 +5897,12 @@ body {
   margin-bottom: 8px !important;
   color: var(--c-gold-pale);
 }
+
 @media (max-width: 768px) {
-  .slot-label { font-size: 0.82rem !important; margin-bottom: 6px !important; }
+  .slot-label {
+    font-size: 0.82rem !important;
+    margin-bottom: 6px !important;
+  }
 }
 
 /* 3. Modal Meaning Wider (desktop) */
@@ -5893,7 +5912,11 @@ body {
     width: 90vw !important;
   }
 }
-.ab-text, .ai-p { text-align: justify !important; }
+
+.ab-text,
+.ai-p {
+  text-align: justify !important;
+}
 
 /* 4. Button SVG vertical alignment */
 .btn-control {
@@ -5902,8 +5925,10 @@ body {
   justify-content: center !important;
   gap: 8px !important;
 }
+
 .btn-control svg {
-  margin-left: 0 !important; /* using gap instead */
+  margin-left: 0 !important;
+  /* using gap instead */
 }
 
 /* ════════════════════════════════════════════════════
@@ -5985,14 +6010,15 @@ body {
   content: '';
   flex: 1;
   height: 1px;
-  background: linear-gradient(to right, transparent, rgba(212,175,55,0.45), transparent);
+  background: linear-gradient(to right, transparent, rgba(212, 175, 55, 0.45), transparent);
   margin: 0 16px;
 }
 
 /* ════════════════════════════════════════════════════
    DICTIONARY MODAL
 ════════════════════════════════════════════════════ */
-.dict-modal, .cd-modal {
+.dict-modal,
+.cd-modal {
   position: fixed;
   inset: 0;
   z-index: 1000;
@@ -6015,7 +6041,8 @@ body {
   /* Tránh chồng double-blur khi cd-modal đè lên dict-modal */
 }
 
-.dict-modal.visible, .cd-modal.visible {
+.dict-modal.visible,
+.cd-modal.visible {
   opacity: 1;
   pointer-events: all;
 }
@@ -6030,41 +6057,49 @@ body {
   display: inline-block;
   margin-right: 12px;
 }
+
 .fan-card {
   position: absolute;
   width: 18px;
   height: auto;
   border-radius: 2px;
   border: 1px solid rgba(155, 48, 255, 0.5);
-  box-shadow: 0 4px 8px rgba(0,0,0,0.8);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
   transform-origin: bottom center;
   transition: transform 0.4s var(--ease-out);
   bottom: 0;
   left: 2px;
 }
+
 .fan-card-1 {
   transform: rotate(-20deg);
   z-index: 1;
 }
+
 .fan-card-2 {
   transform: rotate(0deg);
   z-index: 3;
 }
+
 .fan-card-3 {
   transform: rotate(20deg);
   z-index: 2;
 }
+
 .btn-dict:hover .fan-card-1 {
   transform: rotate(-35deg) translateY(-4px);
 }
+
 .btn-dict:hover .fan-card-2 {
   transform: translateY(-8px);
 }
+
 .btn-dict:hover .fan-card-3 {
   transform: rotate(35deg) translateY(-4px);
 }
 
-.dict-panel, .cd-panel {
+.dict-panel,
+.cd-panel {
   width: 100%;
   max-width: 900px;
   max-height: 90vh;
@@ -6080,7 +6115,8 @@ body {
   transition: transform 0.4s var(--ease-out);
 }
 
-.dict-modal.visible .dict-panel, .cd-modal.visible .cd-panel {
+.dict-modal.visible .dict-panel,
+.cd-modal.visible .cd-panel {
   transform: translateY(0) scale(1);
 }
 
@@ -6099,7 +6135,8 @@ body {
   margin: 0;
 }
 
-.dict-close, .cd-close {
+.dict-close,
+.cd-close {
   background: none;
   border: none;
   color: rgba(232, 180, 255, 0.5);
@@ -6108,6 +6145,7 @@ body {
   line-height: 1;
   transition: all 0.3s;
 }
+
 .cd-close {
   position: absolute;
   top: 15px;
@@ -6115,7 +6153,8 @@ body {
   z-index: 10;
 }
 
-.dict-close:hover, .cd-close:hover {
+.dict-close:hover,
+.cd-close:hover {
   color: var(--c-glow);
   transform: rotate(90deg);
 }
@@ -6155,6 +6194,7 @@ body {
   text-align: center;
   transition: transform 0.3s;
 }
+
 .dict-card:hover {
   transform: translateY(-5px);
 }
@@ -6185,6 +6225,7 @@ body {
   color: var(--c-gold);
   line-height: 1.2;
 }
+
 .dict-card-subtitle {
   font-family: 'Cinzel', serif;
   font-size: 0.7rem;
@@ -6217,7 +6258,7 @@ body {
 .cd-img {
   width: 100%;
   border-radius: 12px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
   border: 1px solid rgba(155, 48, 255, 0.4);
 }
 
@@ -6269,11 +6310,11 @@ body {
   padding: 24px;
   border-radius: 14px;
   border: 1px solid rgba(155, 48, 255, 0.15);
-  box-shadow: inset 0 0 20px rgba(0,0,0,0.5);
+  box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
 .cd-sec-title {
-  font-family: 'Cinzel', serif;
+  font-family: 'Philosopher', serif;
   font-size: 1rem;
   color: var(--c-gold);
   margin: 0 0 10px;
@@ -6293,6 +6334,7 @@ body {
   font-size: 0.9rem;
   color: var(--c-pale);
 }
+
 .cd-kws strong {
   color: var(--c-glow);
   font-weight: 400;
@@ -6302,19 +6344,37 @@ body {
   .cd-layout {
     flex-direction: column;
     align-items: center;
+    gap: 10px;
   }
+
   .cd-img-col {
-    width: 200px;
+    width: 100%;
+    position: static;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-bottom: 20px;
   }
+
+  .cd-img {
+    max-width: 260px;
+    width: 100%;
+  }
+
+  .cd-info-col {
+    width: 100%;
+  }
+
   .dict-grid {
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
   }
+
   .dict-card-img-wrap {
     margin-bottom: 6px;
   }
 }
+
 @media (max-width: 480px) {
   .dict-grid {
     grid-template-columns: repeat(2, 1fr);

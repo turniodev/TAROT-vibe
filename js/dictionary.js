@@ -78,13 +78,13 @@
         <div class="cd-info-col">
           <div class="cd-section">
             <h3 class="cd-sec-title">Ý Nghĩa Xuôi (Upright)</h3>
-            <p class="cd-desc">${card.upright || card.generalUpright}</p>
+            <p class="cd-desc">${card.generalUpright || card.upright}</p>
             ${keywordsStr ? `<div class="cd-kws"><strong>Từ khóa:</strong> ${keywordsStr}</div>` : ''}
           </div>
           
           <div class="cd-section" style="margin-top: 24px;">
             <h3 class="cd-sec-title">Ý Nghĩa Ngược (Reversed)</h3>
-            <p class="cd-desc">${card.reversed || card.generalReversed}</p>
+            <p class="cd-desc">${card.generalReversed || card.reversed}</p>
             ${keywordsRevStr ? `<div class="cd-kws"><strong>Từ khóa:</strong> ${keywordsRevStr}</div>` : ''}
           </div>
           
