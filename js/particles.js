@@ -2,7 +2,7 @@
 (function () {
   const canvas = document.getElementById('particleCanvas');
   const ctx = canvas.getContext('2d');
-  let W, H, particles = [], stars = [];
+  let W, H, particles = [], stars = [], shootingStars = [];
 
   function resize() {
     W = canvas.width  = window.innerWidth;
@@ -38,6 +38,21 @@
     });
   }
 
+  function spawnShootingStar() {
+    // start from random top or left edge
+    const isTop = Math.random() > 0.5;
+    shootingStars.push({
+      x: isTop ? Math.random() * W : -50,
+      y: isTop ? -50 : Math.random() * (H / 2),
+      length: Math.random() * 150 + 100,
+      vx: Math.random() * 5 + 6,    // moving right fast
+      vy: Math.random() * 3 + 3,    // moving down fast
+      life: 1.5,                    // longer life
+      decay: Math.random() * 0.015 + 0.008,
+      width: Math.random() * 1.5 + 1.2
+    });
+  }
+
   function drawStars(t) {
     stars.forEach(s => {
       s.a = 0.4 + 0.5 * Math.sin(t * s.speed + s.phase);
@@ -64,13 +79,46 @@
     });
   }
 
+  function drawShootingStars() {
+    shootingStars.forEach((s, i) => {
+      s.x += s.vx;
+      s.y += s.vy;
+      s.life -= s.decay;
+      if (s.life <= 0 || s.x > W || s.y > H) {
+        shootingStars.splice(i, 1);
+        return;
+      }
+      const endX = s.x - (s.vx * s.length * 0.1);
+      const endY = s.y - (s.vy * s.length * 0.1);
+      
+      const grad = ctx.createLinearGradient(s.x, s.y, endX, endY);
+      grad.addColorStop(0, `rgba(255, 255, 255, ${s.life})`);
+      grad.addColorStop(0.2, `rgba(200, 160, 255, ${s.life * 0.8})`);
+      grad.addColorStop(1, 'rgba(155, 48, 255, 0)');
+      
+      ctx.beginPath();
+      ctx.moveTo(s.x, s.y);
+      ctx.lineTo(endX, endY);
+      ctx.strokeStyle = grad;
+      ctx.lineWidth = s.width;
+      ctx.shadowBlur = 8;
+      ctx.shadowColor = `rgba(255, 255, 255, ${s.life * 0.6})`;
+      ctx.stroke();
+      ctx.shadowBlur = 0;
+    });
+  }
+
   let t = 0;
   function loop() {
     ctx.clearRect(0, 0, W, H);
     t += 0.016;
     drawStars(t);
     if (Math.random() < 0.15) spawnParticle();
+    if (Math.random() < 0.008) spawnShootingStar(); // visible shooting stars
+    
     drawParticles();
+    drawShootingStars();
+    
     requestAnimationFrame(loop);
   }
 

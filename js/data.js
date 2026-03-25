@@ -94,34 +94,164 @@ window.TAROT_DB = [
     "reversed": "Lá bài đảo ngược cảnh báo về sự lừa gạt, thao túng (từ người khác hoặc tự dối mình), hoặc bạn đang lãng phí tài năng vì thiếu sự tập trung và kỷ luật.",
     "aspects": {
       "love": {
-        "up": "Bạn hoặc đối tác đang làm chủ mối quan hệ, mang lại sự mới mẻ và cuốn hút. Nếu độc thân, bạn có sức hút mãnh liệt để thu hút người mới.",
-        "rev": "Cẩn thận với những lời hứa hão huyền, sự thao túng tâm lý (gaslighting) hoặc dối trá trong tình cảm.",
-        "upright": "Một lực hút nam châm vô hình đang kéo hai người lại gần nhau. Bạn hoặc người ấy đang nắm thế chủ động, dùng sự quyến rũ và tinh tế để kiến tạo nên một mối quan hệ lãng mạn đầy thăng hoa.",
-        "reversed": "Bóng đen của sự thao túng tâm lý (gaslighting) hoặc những lời hứa trăng hoa đang che phủ tình yêu. Cần cực kỳ tỉnh táo trước những ngôn từ đường mật nhưng thiếu vắng hành động chân thành."
+        "upright": "Tình yêu bừng sáng như một kiệt tác đang được kiến tạo bằng ý chí mãnh liệt. Lá bài này là lời nhắc nhở về khả năng vô hạn của bạn trong việc chủ động định hình mối quan hệ, thu hút những gì bạn khao khát bằng sự chân thành, khéo léo và sức hút khó cưỡng từ sâu thẳm tâm hồn.",
+        "reversed": "Mối quan hệ đang bị bao phủ bởi lớp màn sương của sự thao túng hoặc ảo ảnh tình yêu. Một trong hai người đang dùng lời đường mật để che đậy mục đích cá nhân, khiến tr��i tim đối phương lạc lối giữa mê cung của những lời hứa hão huyền."
+      },
+      "ex": {
+        "upright": "Người cũ giờ đây chỉ là bài học quý giá, là chất liệu để bạn tôi luyện sự khéo léo và trí tuệ trong các mối quan hệ tương lai. Bạn đang có khả năng biến những kinh nghiệm đau thương thành sức mạnh để kiến tạo một chương mới rực rỡ hơn cho tình yêu.",
+        "reversed": "Dòng chảy kí ức đang bị điều khiển bởi những toan tính ngầm. Có vẻ như người cũ đang dùng mọi cách để thao túng cảm xúc của bạn, hoặc bạn đang tự huyễn hoặc mình về một viễn cảnh không có thật, tự đẩy mình vào vòng lặp của sự tái diễn sai lầm."
+      },
+      "current_love": {
+        "upright": "Mối quan hệ của bạn đang ở giai đoạn đỉnh cao của sự hợp tác và kiến tạo. Cả hai đang cùng nhau dệt nên bức tranh tình yêu hoàn hảo bằng những ý định rõ ràng, lời nói chân thành và hành động dứt khoát. Đây là lúc để biến những ước mơ chung thành hiện thực.",
+        "reversed": "Cẩn trọng trước sự hiện diện của thao túng và thiếu trung thực trong mối quan hệ này. Lời nói không đi đôi với hành động, hoặc một người đang cố gắng kiểm soát người kia bằng những chiêu trò tinh vi, làm rạn nứt niềm tin và sự bình đẳng."
+      },
+      "ambiguous": {
+        "upright": "Đã đến lúc bạn nắm quyền chủ động để làm rõ mọi thứ. Bằng sự khéo léo trong giao tiếp và ý chí sắt đá, bạn hoàn toàn có thể biến sự mập mờ thành một mối quan hệ rõ ràng, hoặc dứt khoát buông bỏ để tìm kiếm điều xứng đáng hơn.",
+        "reversed": "Sự mập mờ này không hề vô tư mà ẩn chứa những ý đồ thao túng. Một người đang cố tình giữ mọi thứ trong trạng thái không rõ ràng để dễ bề lợi dụng hoặc né tránh trách nhiệm. Đừng để mình bị cuốn vào trò chơi cảm xúc đó."
+      },
+      "crush": {
+        "upright": "Hãy tự tin tiến tới bằng sự quyến rũ tự nhiên và khéo léo của bạn. Lá bài này thắp lên ngọn lửa cho thấy bạn có đủ khả năng để thu hút đối tư��ng mình thích, miễn là bạn hành động với sự chân thành và biết cách thể hiện giá trị của mình một cách tinh tế.",
+        "reversed": "Bạn có thể đang tiếp cận đối tượng một cách vụng về hoặc quá phô trương, thậm chí là thiếu chân thành. Nguy cơ bị từ chối hoặc bị đánh giá thấp là rất cao nếu bạn tiếp tục dùng chiêu trò thay vì để con tim dẫn lối."
+      },
+      "future_love": {
+        "upright": "Người tình trong mơ đang dần hiện hữu qua sự thu hút mãnh liệt mà bạn tự tạo ra. Bạn sắp gặp một người mạnh mẽ, tự tin và có khả năng kiến tạo tương lai. Đây là dấu hiệu bạn có thể chủ động lựa chọn và kiến tạo mối quan hệ mình mong muốn.",
+        "reversed": "Cảnh báo về một nhân duyên tiềm năng nhưng lại ẩn chứa sự nguy hiểm của thao túng và lừa dối. Người ấy có thể rất quyến rũ và khéo léo, nhưng lại dùng tài năng của mình để lợi dụng hoặc che giấu những ý định không trong sáng."
+      },
+      "someone": {
+        "upright": "Đối với người ấy, bạn là một hiện thân của sự tài năng, khéo léo và đầy sức hấp dẫn. Họ nhìn thấy ở bạn khả năng hiện thực hóa mọi điều, một người có thể biến những ý tưởng thành hiện thực và có một ý chí mạnh mẽ đáng ngưỡng mộ.",
+        "reversed": "Người ấy có thể đang nhìn nhận bạn như một người khôn lỏi, thao túng hoặc không đáng tin cậy. Họ cảm thấy bạn thiếu sự chân thành hoặc đang cố gắng điều khiển tình huống theo hướng có lợi cho riêng mình."
+      },
+      "marriage": {
+        "upright": "Cuộc hôn nhân của bạn được định hình bởi ý chí và sự hợp tác của cả hai. Đây là thời điểm tuyệt vời để cùng nhau lên kế hoạch, giao tiếp rõ ràng và biến những ước mơ chung thành hiện thực, củng cố nền móng của một tổ ấm vững chắc.",
+        "reversed": "Cột mốc hôn nhân đang đối mặt với những thử thách từ sự thiếu trung thực hoặc thao túng ngầm. Một trong hai người đang cố gắng kiểm soát hoặc che giấu sự thật, gây ra sự rạn nứt sâu sắc trong mối quan hệ thiêng liêng này."
+      },
+      "conflict": {
+        "upright": "Bằng trí tuệ sắc bén và khả năng giao tiếp tuyệt vời, bạn có thể biến mâu thuẫn thành cơ hội để thấu hiểu. Lá bài khuyên bạn hãy sử dụng lời nói một cách khôn ngoan để làm rõ vấn đề, tìm ra giải pháp sáng tạo và hàn gắn mọi rạn nứt.",
+        "reversed": "Xung đột đang leo thang do sự thao túng ngôn từ hoặc cố chấp của một bên. Lời nói sắc như dao găm, dùng để tấn công thay vì hóa giải, khiến mâu thuẫn trở nên phức tạp và khó có lối thoát."
+      },
+      "breakup": {
+        "upright": "Bạn đang nắm giữ quyền năng để định đoạt số phận của mình hậu chia tay. Thay vì chìm đắm trong đau khổ, bạn sẽ dùng ý chí để chữa lành, học hỏi và kiến tạo một tương lai tốt đẹp hơn, tự tin bước vào hành trình mới.",
+        "reversed": "Nỗi đau tan vỡ đang bị lợi dụng để thao túng cảm xúc hoặc níu kéo một mối quan hệ đã kết thúc. Hoặc bạn đang bị chính những suy nghĩ tiêu cực của mình điều khiển, không thể thoát ra khỏi vòng xoáy của sự dối trá."
+      },
+      "long_distance": {
+        "upright": "Khoảng cách không thể là rào cản khi hai trái tim biết cách giao tiếp và kiến tạo. Bằng sự khéo léo, sáng tạo và ý chí bền bỉ, bạn sẽ duy trì được ngọn lửa tình yêu, biến mỗi cuộc gặp gỡ thành khoảnh khắc đáng nhớ.",
+        "reversed": "Mối quan hệ xa cách đang bị thử thách bởi sự thiếu trung thực hoặc sự thao túng tinh vi từ một phía. Những lời hứa hẹn xa vời không đi kèm hành động cụ thể, tạo ra cảm giác hoài nghi và bất an."
+      },
+      "jealousy": {
+        "upright": "Sự ghen tuông cần được kiểm soát bằng lý trí và sự tự tin. Hãy dùng khả năng giao tiếp của mình để bày tỏ nỗi lòng, đồng thời tin tưởng vào sức mạnh của bản thân và mối quan hệ để xua tan những hoài nghi vô căn cứ.",
+        "reversed": "Cảm xúc ghen tuông đang bị lợi dụng như một công cụ thao túng hoặc bị thổi phồng bởi những ảo tưởng. Bạn có thể đang bị chính đối phương hoặc những kẻ tiểu nhân khác điều khiển cảm xúc, khiến bạn trở nên mù quáng và mất kiểm soát."
+      },
+      "self_love": {
+        "upright": "Yêu bản thân là một nghệ thuật mà bạn đang nắm giữ. Bạn biết cách khai thác tối đa tiềm năng, chăm sóc tâm hồn và thể xác bằng ý thức rõ ràng. Bạn là bậc thầy trong việc kiến tạo một phiên bản tự tin và rạng rỡ của chính mình.",
+        "reversed": "Bạn đang tự lừa dối bản thân hoặc cố gắng thao túng hình ảnh mình trong mắt người khác. Sâu thẳm bên trong là sự thiếu tự tin và cảm giác bất lực, khiến bạn không thể phát huy hết tiềm năng thực sự của mình."
       },
       "career": {
-        "up": "Đây là thời điểm tuyệt vời để khởi xướng các dự án. Bạn có kỹ năng và sức ảnh hưởng để vượt qua mọi thử thách.",
-        "rev": "Bạn có thể đang không phát huy hết khả năng, hoặc môi trường làm việc có sự mờ ám, lừa lọc.",
-        "upright": "Thảm đỏ đang trải dài cho con đường công danh của bạn. Với kỹ năng sắc bén và sự nhạy bén thiên bẩm, mọi dự án bạn chạm tay vào đều có khả năng hóa thành vàng. Hãy mạnh dạn khởi xướng!",
-        "reversed": "Bạn đang như một vị pháp sư đánh mất chiếc đũa thần—chơi vơi, thiếu định hướng hoặc không thể phô diễn hết thực lực. Cẩn trọng với những đồng nghiệp có tâm cơ hoặc những bản hợp đồng mập mờ."
+        "upright": "Con đường sự nghiệp rộng mở đang chào đón một kiến trúc sư tài ba – chính là bạn. Với kĩ năng sắc bén, ý chí kiên định và khả năng hiện thực hóa ý tưởng, bạn sẽ kiến tạo nên những thành công vang dội, đạt được mục tiêu bằng chính tài năng của mình.",
+        "reversed": "Sự nghiệp có thể đang bị ảnh hưởng bởi những toan tính thao túng hoặc sự thiếu trung thực. Bạn có thể đang lãng phí tài năng vào những việc vô bổ, hoặc bị mắc kẹt trong một môi trường làm việc đầy rẫy sự lừa dối và cạnh tranh không lành mạnh."
+      },
+      "job_search": {
+        "upright": "Bạn là người tự tin, linh hoạt và có khả năng thuyết phục tuyệt vời. Hãy dùng những kĩ năng này để tỏa sáng trong các buổi phỏng vấn, trình bày kinh nghiệm một cách khéo léo và chủ động tìm kiếm những cơ hội phù hợp với tài năng của mình.",
+        "reversed": "Việc tìm kiếm việc làm đang gặp trở ngại do sự thiếu tập trung, lười biếng hoặc thậm chí là sự thiếu trung thực trong hồ sơ. Bạn có thể đang tự đánh giá quá cao bản thân hoặc không biết cách khai thác tiềm năng của mình một cách hiệu quả."
+      },
+      "promotion": {
+        "upright": "Thăng tiến nằm trong tầm tay bạn. Bằng năng lực đã được chứng minh, khả năng lãnh đạo và sự khéo léo trong công việc, bạn hoàn toàn có thể đạt được vị trí cao hơn. Đây là thời điểm để bạn thể hiện tài năng và ý chí của mình.",
+        "reversed": "Cơ hội thăng tiến có thể bị cản trở bởi những mưu đồ thao túng hoặc sự thiếu minh bạch. Bạn có thể bị đánh giá thấp do những hiểu lầm hoặc do cách bạn thể hiện bản thân chưa đủ chân thật và tự tin."
+      },
+      "business": {
+        "upright": "Thương trường là nơi bạn tỏa sáng. Với khả năng lên kế hoạch xuất sắc, thực thi hiệu quả và sự nhạy bén trong đàm phán, bạn sẽ gặt hái được những thành công đáng kinh ngạc. Mọi ý tưởng kinh doanh đều có thể trở thành hiện thực dưới bàn tay của bạn.",
+        "reversed": "Cẩn trọng với những quyết định kinh doanh thiếu minh bạch hoặc những lời hứa hão huyền. Nguy cơ thua lỗ do sự lừa dối, thao túng tài chính hoặc đơn giản là sự thiếu khả năng thực thi đang hiện hữu, đe dọa sự ổn định của doanh nghiệp."
+      },
+      "colleague": {
+        "upright": "Bạn có một đồng nghiệp tài năng, khéo léo và biết cách tạo ra giá trị. Đây là người có thể cùng bạn hiện thực hóa những ý tưởng, giải quyết vấn đề một cách hiệu quả và cùng nhau gặt hái thành công trong công việc.",
+        "reversed": "Cảnh giác với những đồng nghiệp khôn lỏi, chuyên thao túng hoặc không trung thực. Họ có thể dùng tài năng của mình để lợi dụng người khác hoặc phá hoại công việc chung, gây ra sự bất hòa và làm chậm tiến độ."
+      },
+      "career_change": {
+        "upright": "Hãy dũng cảm kiến tạo con đường mới cho sự nghiệp của mình. Bạn có đầy đủ kĩ năng và ý chí để thực hiện một bước chuyển mình ngoạn mục, biến những điều tưởng chừng không thể thành hiện thực. Đây là lúc để bạn chủ động nắm giữ vận mệnh.",
+        "reversed": "Bạn đang đứng trước ngã rẽ sự nghiệp đầy hoang mang. Sự thiếu quyết đoán, những lời khuyên sai lệch hoặc nỗi sợ hãi về việc thay đổi có thể khiến bạn mắc kẹt trong tình trạng hiện tại, không thể phát huy hết tiềm năng của mình."
+      },
+      "freelance": {
+        "upright": "Sự nghiệp tự do đang nở rộ dưới bàn tay tài hoa của bạn. Bạn biết cách thu hút khách hàng, quản lý dự án hiệu quả và biến những ý tưởng sáng tạo thành sản phẩm cụ thể. Đây là thời điểm vàng để bạn phát triển thương hiệu cá nhân.",
+        "reversed": "Công việc freelance đang gặp trục trặc do sự thiếu kỷ luật, khả năng quản lý yếu kém hoặc những lời hứa hẹn không được thực hiện. Bạn có thể đang thiếu tập trung hoặc dùng chiêu trò để thu hút khách hàng, gây ảnh hưởng xấu đến uy tín."
+      },
+      "interview": {
+        "upright": "Bạn sẽ tỏa sáng trong buổi phỏng vấn bằng sự tự tin, kĩ năng giao tiếp sắc bén và khả năng trình bày vấn đề một cách thuyết phục. Hãy tận dụng tài năng của mình để tạo ấn tượng mạnh mẽ và thuyết phục nhà tuyển dụng.",
+        "reversed": "Buổi phỏng vấn có thể thất bại do sự thiếu chân thật, thái độ ngạo mạn hoặc những lời nói trống rỗng. Bạn có thể bị coi là người không đáng tin cậy hoặc thiếu năng lực thực sự, dẫn đến việc bỏ lỡ cơ hội."
       },
       "finance": {
-        "up": "Khả năng kiếm tiền tốt thông qua tài năng cá nhân và sự nhạy bén. Có thể có cơ hội gia tăng thu nhập đột phá.",
-        "rev": "Tránh những kế hoạch 'làm giàu nhanh' hoặc các khoản đầu tư rủi ro có dấu hiệu lừa đảo.",
-        "upright": "Dòng chảy tài lộc đang được khai thông. Sự thông tuệ và những chiến lược sắc sảo sẽ mang về cho bạn những khoản lợi nhuận đáng mơ ước. Cơ hội làm giàu đang nằm ngay trong tay bạn.",
-        "reversed": "Tránh xa những lời mời mọc đầu tư 'việc nhẹ lương cao' hoặc những ngón đòn tài chính rủi ro. Có những cái bẫy tinh vi đang được giăng ra để trục lợi từ sự tin người của bạn."
+        "upright": "Bạn là bậc thầy trong việc quản lý tài chính. Với sự khôn ngoan, nhạy bén và khả năng hiện thực hóa kế hoạch, bạn sẽ kiến tạo được sự thịnh vượng cho bản thân. Đây là thời điểm thuận lợi để bạn đầu tư và phát triển tài sản.",
+        "reversed": "Tình hình tài chính đang hỗn loạn do sự thiếu trách nhiệm, những quyết định sai lầm hoặc bị cuốn vào các kế hoạch làm giàu ảo tưởng. Nguy cơ bị thao túng tài chính hoặc mắc bẫy lừa đảo là rất cao nếu bạn không tỉnh táo."
+      },
+      "investment": {
+        "upright": "Những khoản đầu tư của bạn sẽ mang lại lợi nhuận đáng kể nhờ vào sự nghiên cứu kĩ lưỡng và khả năng đưa ra quyết định sắc bén. Bạn có khả năng nhìn thấy cơ hội và biến chúng thành tiền bạc một cách khéo léo và thông minh.",
+        "reversed": "Cảnh báo về những khoản đầu tư mạo hiểm, thiếu cơ sở hoặc bị thao túng bởi những thông tin sai lệch. Nguy cơ thua lỗ là rất cao nếu bạn tiếp tục đặt niềm tin vào những lời hứa hão huyền mà không có sự kiểm chứng."
+      },
+      "debt": {
+        "upright": "Bạn có đủ khả năng để giải quyết mọi khoản nợ một cách thông minh và hiệu quả. Bằng cách lập kế hoạch rõ ràng, hành động quyết liệt và sử dụng các nguồn lực sẵn có, bạn sẽ sớm thoát khỏi gánh nặng tài chính.",
+        "reversed": "Các khoản nợ đang chồng chất do sự thiếu trách nhiệm, lãng phí hoặc bị cuốn vào những lời hứa vay mượn thiếu thực tế. Bạn có thể đang tự lừa dối mình về tình hình tài chính hoặc bị người khác thao túng để vay tiền."
+      },
+      "savings": {
+        "upright": "Với sự kỉ luật và tầm nhìn xa, bạn đang kiến tạo một quỹ tiết kiệm vững chắc cho tương lai. Khả năng quản lý tiền bạc khéo léo sẽ giúp bạn đạt được mục tiêu tài chính, biến những kế hoạch dài hạn thành hiện thực.",
+        "reversed": "Kế hoạch tiết kiệm của bạn đang bị phá vỡ bởi sự thiếu tự chủ, chi tiêu bốc đồng hoặc bị lừa gạt. Tiền bạc cứ thế mà trôi đi không kiểm soát, khiến bạn khó lòng tích lũy được cho tương lai."
+      },
+      "luck_money": {
+        "upright": "Bạn là người tự kiến tạo may mắn cho mình. Với tài năng, ý chí và sự khéo léo, bạn sẽ thu hút những cơ hội tài chính bất ngờ và biến chúng thành hiện thực. Tiền bạc đến với bạn không phải do ngẫu nhiên mà là thành quả của sự nỗ lực.",
+        "reversed": "May mắn tài chính dường như đang lảng tránh bạn do sự thiếu trung thực, lười biếng hoặc tham gia vào các hoạt động có tính chất cờ bạc, lừa đảo. Tiền bạc kiếm được bằng cách không minh bạch sẽ nhanh chóng tan biến."
       },
       "health": {
-        "up": "Khả năng phục hồi nhanh chóng. Bạn có sức mạnh tự chữa lành nếu biết kết hợp cả thể chất lẫn tinh thần.",
-        "rev": "Có thể bạn đang chẩn đoán sai bệnh hoặc cần tìm kiếm ý kiến thứ hai (second opinion) từ chuyên gia đáng tin cậy.",
-        "upright": "Sức mạnh chữa lành nội tại đang được kích hoạt. Sự kết hợp hài hòa giữa ý chí tinh thần và việc rèn luyện thể chất sẽ mang lại cho bạn một cơ thể cường tráng và dẻo dai.",
-        "reversed": "Những triệu chứng mơ hồ đang làm phiền bạn. Đừng tự làm bác sĩ cho chính mình; hãy tìm kiếm sự chẩn đoán chuyên sâu từ những chuyên gia y tế uy tín để tránh chữa lợn lành thành lợn què."
+        "upright": "Sức khỏe của bạn đang được cải thiện rõ rệt nhờ vào ý chí mạnh mẽ và kế hoạch chăm sóc bản thân khoa học. Bạn biết cách lắng nghe cơ thể, lựa chọn phương pháp điều trị hiệu quả và chủ động kiến tạo một lối sống lành mạnh.",
+        "reversed": "Sức khỏe đang gặp vấn đề do sự chủ quan, thiếu chăm sóc hoặc bị mắc kẹt trong những phương pháp điều trị không hiệu quả. Bạn có thể đang tự lừa dối mình về tình trạng sức khỏe hoặc bị ảnh hưởng bởi những lời khuyên y tế sai lầm."
+      },
+      "mental": {
+        "upright": "Trí óc bạn sắc bén, tập trung và đầy sáng tạo. Bạn có khả năng kiểm soát suy nghĩ, biến những ý tưởng thành hành động và kiến tạo một trạng thái tinh thần mạnh mẽ, bình an. Đây là thời điểm lý tưởng để bạn phát triển trí tuệ.",
+        "reversed": "Tâm trí đang bị bao phủ bởi sự hỗn loạn, thiếu tập trung hoặc bị thao túng bởi những suy nghĩ tiêu cực. Bạn có thể đang tự lừa dối mình về thực tại hoặc bị ảnh hưởng bởi những lời nói dối, dẫn đến sự bất ổn tinh thần."
+      },
+      "energy": {
+        "upright": "Năng lượng của bạn đang dồi dào, tập trung và được định hướng rõ ràng. Bạn có khả năng điều khiển và sử dụng năng lượng một cách hiệu quả để hiện thực hóa mục tiêu. Mọi hành động của bạn đều mang tính chủ đích và mạnh mẽ.",
+        "reversed": "Năng lượng đang bị phân tán, lãng phí vào những việc vô bổ hoặc bị cạn kiệt do sự thiếu tập trung và ý chí yếu kém. Bạn có thể cảm thấy mệt mỏi, bất lực và không thể thực hiện được những điều mình mong muốn."
+      },
+      "family": {
+        "upright": "Bạn là người chủ động kiến tạo không khí hòa thuận và gắn kết trong gia đình. Bằng khả năng giao tiếp khéo léo, sự thấu hiểu và ý chí vun đắp, bạn sẽ xây dựng một tổ ấm hạnh phúc, nơi mọi thành viên đều được lắng nghe và tôn trọng.",
+        "reversed": "Mâu thuẫn gia đình đang bùng phát do sự thao túng, thiếu trung thực hoặc những lời nói dối. Một thành viên có thể đang cố gắng kiểm soát những người khác, gây ra sự bất hòa và làm rạn nứt mối quan hệ ruột thịt."
+      },
+      "diet": {
+        "upright": "Chế độ ăn uống của bạn đang được kiểm soát một cách khoa học và thông minh. Bạn biết cách lựa chọn thực phẩm phù hợp, lên kế hoạch dinh dưỡng hợp lý để kiến tạo một cơ thể khỏe mạnh và tràn đầy năng lượng.",
+        "reversed": "Chế độ ăn uống đang hỗn loạn do sự thiếu kỷ luật, ăn uống vô tội vạ hoặc bị cuốn vào những chế độ ăn kiêng không lành mạnh. Bạn có thể đang tự lừa dối mình về thói quen ăn uống, gây ảnh hưởng xấu đến sức khỏe."
+      },
+      "study": {
+        "upright": "Bạn có khả năng tiếp thu kiến thức nhanh chóng, tư duy sắc bén và khả năng vận dụng linh hoạt. Việc học tập đang diễn ra hiệu quả nhờ sự tập trung và ý chí kiên trì. Bạn là bậc thầy trong việc biến thông tin thành trí tuệ.",
+        "reversed": "Việc học tập đang gặp trở ngại do sự thiếu tập trung, lười biếng hoặc sử dụng những phương pháp học tập không hiệu quả. Bạn có thể đang cố gắng lừa dối bản thân về khả năng của mình hoặc bị phân tâm bởi những yếu tố bên ngoài."
+      },
+      "study_abroad": {
+        "upright": "Chuyến du học của bạn sẽ thành công rực rỡ nhờ vào khả năng thích nghi nhanh, kỹ năng giao tiếp tốt và ý chí học hỏi không ngừng. Bạn sẽ biến mọi thử thách thành cơ hội để phát triển bản thân và gặt hái thành công.",
+        "reversed": "Việc du học có thể gặp trục trặc do sự thiếu chuẩn bị, khó khăn trong giao tiếp hoặc bị lừa dối bởi những thông tin sai lệch. Bạn có thể cảm thấy lạc lõng, bất an và không thể hòa nhập được với môi trường mới."
+      },
+      "self": {
+        "upright": "Bạn là một cá thể độc đáo, tự tin và đầy quyền năng. Bạn biết rõ giá trị của mình, khả năng kiến tạo cuộc sống và ý chí để trở thành phiên bản tốt nhất của chính mình. Hãy sống đúng với bản ngã đích thực của bạn.",
+        "reversed": "Bạn đang tự lừa dối bản thân, cố gắng che giấu những khuyết điểm hoặc bị người khác thao túng danh tính. Cảm giác bất an và thiếu tự tin đang khiến bạn lạc lối, không thể phát huy hết tiềm năng thực sự của mình."
+      },
+      "purpose": {
+        "upright": "Mục đích sống của bạn rõ ràng như ánh mặt trời. Bạn biết cách vận dụng tài năng và ý chí để hiện thực hóa sứ mệnh của mình, mang lại giá trị cho cuộc đời. Hãy hành động một cách quyết đoán để biến lý tưởng thành hiện thực.",
+        "reversed": "Bạn đang lạc lối trong việc tìm kiếm mục đích sống. Những lời hứa hẹn hão huyền hoặc sự thiếu quyết đoán đang khiến bạn phân vân, không thể tập trung vào con đường mình cần đi. Hãy cẩn trọng với những ảo ảnh."
+      },
+      "shadow_self": {
+        "upright": "Bạn có khả năng đối diện và chấp nhận những khía cạnh tối tăm của bản thân. Bằng sự hiểu biết và ý chí, bạn sẽ biến những điểm yếu thành sức mạnh, hòa nhập chúng để tạo nên một con người toàn diện và mạnh mẽ hơn.",
+        "reversed": "Bạn đang cố gắng che giấu hoặc lảng tránh những góc khuất của mình. Sự thao túng, lừa dối bản thân sẽ chỉ khiến những khía cạnh này trở nên mạnh mẽ hơn, gây ra những vấn đề tiềm ẩn và làm mất đi sự cân bằng bên trong."
+      },
+      "decision": {
+        "upright": "Đây là thời điểm để bạn đưa ra quyết định một cách dứt khoát và tự tin. Bằng sự sáng suốt, tài năng và ý chí mạnh mẽ, bạn sẽ chọn được con đường đúng đắn và kiến tạo thành công cho tương lai của mình.",
+        "reversed": "Bạn đang đối mặt với sự do dự, thiếu quyết đoán hoặc những lựa chọn bị thao túng. Nguy cơ đưa ra quyết định sai lầm là rất cao nếu bạn không tỉnh táo, tin tưởng vào trực giác và dựa trên thông tin chính xác."
+      },
+      "travel": {
+        "upright": "Chuyến đi của bạn sẽ suôn sẻ và đầy thú vị nhờ vào sự chuẩn bị chu đáo, khả năng thích nghi và sự khéo léo trong việc xử lý tình huống. Bạn sẽ biến mỗi khoảnh khắc thành một trải nghiệm đáng nhớ.",
+        "reversed": "Chuyến du lịch có thể gặp trục trặc do sự thiếu cẩn trọng, mất tập trung hoặc bị lừa gạt. Những kế hoạch không rõ ràng hoặc thông tin sai lệch có thể khiến bạn lạc lối và gặp phải những rắc rối không mong muốn."
       },
       "spiritual": {
-        "up": "Kết nối sâu sắc giữa ý thức và vũ trụ ('Trên sao, dưới vậy'). Sức mạnh tâm linh đang ở mức cao.",
-        "rev": "Sử dụng sức mạnh tâm linh hoặc kiến thức cho những mục đích ích kỷ, hoặc đang mất kết nối với vũ trụ.",
-        "upright": "Khả năng thấu thị và kết nối với Vũ trụ đạt đến đỉnh cao ('Trên sao, dưới vậy'). Bạn nhận ra rằng tâm thức của mình chính là kiến trúc sư xây dựng nên thực tại xung quanh.",
-        "reversed": "Năng lượng tâm linh đang bị lợi dụng cho những mưu đồ ích kỷ. Sự ngạo mạn có thể cắt đứt sợi dây liên kết thiêng liêng giữa bạn và ánh sáng của Đấng Tối Cao."
+        "upright": "Hành trình tâm linh của bạn đang phát triển mạnh mẽ. Bạn có khả năng kết nối với nội tâm, khám phá những chân lý sâu sắc và hiện thực hóa những trải nghiệm tâm linh. Bạn là một người thầy của chính mình.",
+        "reversed": "Bạn có thể đang bị lạc lối trong những giáo phái giả tạo hoặc bị thao túng bởi những lời hứa hẹn tâm linh hão huyền. Nguy cơ bị lợi dụng hoặc mất phương hướng là rất cao nếu bạn không tỉnh táo và tìm kiếm sự thật từ bên trong."
+      },
+      "general": {
+        "upright": "Bạn là người kiến tạo thực tại của chính mình, nắm giữ chìa khóa của mọi tiềm năng. Với ý chí sắt đá, kĩ năng sắc bén và khả năng hiện thực hóa ý tưởng, bạn có thể biến mọi ước mơ thành hiện thực. Đây là thời điểm vàng để bạn hành động, chủ động định hình tương lai và tỏa sáng rực rỡ như một bậc thầy của cuộc sống.",
+        "reversed": "Cảnh báo về sự thao túng, ảo ảnh và những lời hứa hão huyền. B���n có thể đang bị lừa dối bởi người khác hoặc tự lừa dối chính mình, dẫn đến việc lãng phí tài năng và mất đi quyền năng vốn có. Hãy tỉnh táo, tập trung và tìm lại sự chân thật trong mọi hành động để thoát khỏi vòng xoáy của sự bế tắc."
       }
     },
     "advice": "Quyền năng sáng tạo nằm trong chính tư duy của bạn. Hãy tập trung ý chí như một tia laser và biến mọi khát vọng thành hiện thực.",
@@ -159,34 +289,164 @@ window.TAROT_DB = [
     "reversed": "Khi ngược, nó cho thấy bạn đang phớt lờ trực giác của mình, bị ảnh hưởng quá nhiều bởi ý kiến người ngoài hoặc có những bí mật đang bị che giấu gây hại.",
     "aspects": {
       "love": {
-        "up": "Tình yêu đang ở giai đoạn tĩnh lặng, kết nối sâu sắc về mặt tâm hồn. Có thể có một sự thu hút bí ẩn, hoặc bạn cần lắng nghe trực giác để hiểu đối phương.",
-        "rev": "Sự thiếu trung thực, những bí mật bị giấu giếm gây rạn nứt. Có thể bạn đang tự lừa dối bản thân về cảm xúc thật.",
-        "upright": "Một tình yêu nhuốm màu bí ẩn, lãng mạn và có sự gắn kết sâu sắc về mặt linh hồn. Đôi khi, nó khuyên bạn nên giữ kín tình cảm của mình, dùng sự thấu cảm tinh tế để cảm nhận đối phương thay vì dùng lời nói.",
-        "reversed": "Những dòng chảy ngầm của sự dối trá, che đậy đang bào mòn niềm tin. Cảm xúc bị đè nén quá lâu có thể tạo ra những rạn nứt vô hình nhưng sâu hoắm trong mối quan hệ."
+        "upright": "Tình yêu được dẫn lối bởi trực giác sâu sắc, nơi hai tâm hồn giao thoa trong sự thinh lặng đầy thấu hiểu. Đây là lúc lắng nghe tiếng thì thầm từ trái tim, tìm kiếm những kết nối vô hình vượt xa mọi lời nói.",
+        "reversed": "Màn sương của bí mật đang bao phủ mối quan hệ, che giấu sự thật hoặc cảm xúc chân thành. Có thể bạn đang bỏ qua trực giác mách bảo, hoặc một trong hai đang giữ lại những điều cốt yếu, tạo nên khoảng cách lạnh lùng."
+      },
+      "ex": {
+        "upright": "Vũ trụ khuyên bạn hãy lắng nghe tiếng nói bên trong để thấu hiểu sâu sắc nguyên nhân chia ly. Có những bài học ẩn giấu từ mối quan hệ cũ đang chờ bạn khai mở, giúp bạn tìm thấy sự bình yên và thông thái.",
+        "reversed": "Những bí mật chưa được tiết lộ, những cảm xúc bị kìm nén từ mối quan hệ cũ đang cản trở bạn tiến bước. Việc chối bỏ sự thật hoặc không chịu nhìn nhận trực giác về người cũ sẽ chỉ kéo dài nỗi đau."
+      },
+      "current_love": {
+        "upright": "Mối quan hệ hiện tại sở hữu chiều sâu tâm linh và trực giác mãnh liệt. Sự thinh lặng và thấu hiểu không lời sẽ củng cố tình yêu. Hãy tin vào tiếng nói bên trong để khám phá những tầng ý nghĩa sâu xa hơn của tình cảm này.",
+        "reversed": "Sự lạnh nhạt hoặc bí mật đang len lỏi vào mối quan hệ. Một trong hai người đang che giấu cảm xúc thật, hoặc bạn đang phớt lờ những tín hiệu trực giác về sự thiếu chân thành, dẫn đến sự xa cách và hiểu lầm."
+      },
+      "ambiguous": {
+        "upright": "Tình trạng mập mờ này ẩn chứa những tầng lớp ý nghĩa sâu sắc đang chờ được khai mở. Hãy kiên nhẫn và tin tưởng vào trực giác của bạn; thời gian sẽ vén bức màn bí mật, hé lộ sự thật mà đôi khi lời nói không thể diễn tả.",
+        "reversed": "Sự mập mờ hiện tại có thể là tấm màn che giấu sự lừa dối hoặc ý đồ không trong sáng. Đừng mù quáng phớt lờ trực giác. Hãy thận trọng trước những lời nói nửa vời, bởi sự thật đang bị bưng bít một cách cố ý."
+      },
+      "crush": {
+        "upright": "Một rung động sâu sắc, đầy bí ẩn đang nảy nở. Hãy lắng nghe tiếng lòng và quan sát thật kỹ, vì có thể người ấy sở hữu những phẩm chất sâu sắc hơn vẻ ngoài. Đừng vội vàng, hãy để trực giác dẫn lối.",
+        "reversed": "Sự mê đắm này có thể dựa trên ảo tưởng hoặc những điều chưa rõ ràng. Bạn đang bỏ qua những tín hiệu cảnh báo từ trực giác, hoặc có điều gì đó về người ấy mà bạn chưa hề biết, tiềm ẩn nguy cơ tổn thương."
+      },
+      "future_love": {
+        "upright": "Tình yêu sắp tới sẽ mang đến một mối liên kết sâu sắc, thiêng liêng và đầy bí ẩn. Người ấy sẽ là một tâm hồn thấu hiểu, mang lại sự bình yên và cảm hứng để bạn khai phá thế giới nội tâm. Hãy kiên nhẫn chờ đợi.",
+        "reversed": "Mối tình trong tương lai có thể đầy rẫy sự mập mờ, thiếu chân thật hoặc bí mật. Hãy cảnh giác với những cá nhân chỉ nhìn vào vẻ bề ngoài hoặc không sẵn lòng chia sẻ nội tâm, khiến bạn lạc lối trong sự mơ hồ."
+      },
+      "someone": {
+        "upright": "Trong mắt người ấy, bạn là một thực thể bí ẩn, quyến rũ và đầy trí tuệ. Họ bị thu hút bởi sự tĩnh lặng và chiều sâu trong tâm hồn bạn, cảm nhận được một nguồn năng lượng huyền bí và thông thái từ bạn.",
+        "reversed": "Người ấy có thể nhìn nhận bạn là một người kín đáo đến mức khó hiểu, thậm chí là giữ kẽ hoặc có phần lạnh lùng. Họ cảm thấy bạn đang che giấu điều gì đó, hoặc không thật sự tin tưởng h�� để mở lòng."
+      },
+      "marriage": {
+        "upright": "Hôn nhân được xây dựng trên nền tảng của sự thấu hiểu trực giác, lòng tin sâu sắc và sự tôn trọng dành cho thế giới nội tâm của nhau. Mối quan hệ này sẽ được củng cố bởi những kết nối vô hình và sự kiên nhẫn.",
+        "reversed": "Những bí mật chưa được tiết lộ, sự thiếu giao tiếp hoặc những cảm xúc bị kìm nén đang gây rạn nứt trong hôn nhân. Bạn có thể đang phớt lờ trực giác về những vấn đề sâu xa đang ăn mòn tình cảm vợ chồng."
+      },
+      "conflict": {
+        "upright": "Chìa khóa để giải quyết mâu thuẫn nằm ở việc lắng nghe và thấu hiểu những điều không lời. Hãy lùi lại, nhìn sâu vào gốc rễ vấn đề bằng trực giác, thay vì chỉ tập trung vào những bề mặt tranh cãi.",
+        "reversed": "Mâu thuẫn này bắt nguồn từ những bí mật, hiểu lầm hoặc sự thiếu minh bạch. Một trong hai người đang từ chối đối mặt với sự thật, hoặc cố tình che giấu thông tin, khiến vấn đề trở nên rối ren hơn."
+      },
+      "breakup": {
+        "upright": "Sự chia ly này là một lời mời gọi bạn quay về với thế giới nội tâm. Hãy tìm kiếm sự thấu hiểu sâu sắc về những bài học ẩn giấu, tin tưởng vào trực giác để chữa lành và tìm thấy con đường mới.",
+        "reversed": "Nỗi đau chia tay vẫn còn dai dẳng do những bí mật chưa được giải quyết, cảm xúc bị kìm nén hoặc bạn từ chối lắng nghe trực giác về nguyên nhân thật sự của sự tan vỡ, gây khó khăn trong việc buông bỏ."
+      },
+      "long_distance": {
+        "upright": "Mối quan hệ này được nuôi dưỡng bởi sự thấu hiểu trực giác và lòng tin sâu sắc, vượt qua mọi rào cản địa lý. Chính những kết nối tâm hồn vô hình sẽ giữ cho ngọn lửa tình yêu luôn cháy.",
+        "reversed": "Sự thiếu vắng sự thân mật thực sự hoặc những bí mật bị che giấu đang làm xói mòn lòng tin. Hãy cẩn trọng với những nghi ngờ tiềm ẩn, hoặc những điều chưa được nói rõ có thể gây tổn hại cho mối quan hệ."
+      },
+      "jealousy": {
+        "upright": "Hãy nhìn sâu vào nội tâm để hiểu rõ nguồn gốc của cảm xúc ghen tuông. Đây là thời điểm để lắng nghe trực giác, phân biệt giữa nỗi sợ hãi vô căn cứ và những tín hiệu cảnh báo có thật.",
+        "reversed": "Cảm giác ghen tuông đang bị thổi bùng bởi sự hoang tưởng, những thông tin không rõ ràng hoặc những bí mật đang bị che giấu. Đừng để cảm xúc lấn át lý trí và trực giác."
+      },
+      "self_love": {
+        "upright": "Yêu thương bản thân là hành trình kết nối sâu sắc với trí tuệ nội tại và trực giác của bạn. Hãy ôm ấp thế giới bí ẩn bên trong, tôn vinh sự tĩnh lặng và sức mạnh thiêng liêng của bản ngã.",
+        "reversed": "Bạn đang tự lừa dối bản thân, phớt lờ tiếng nói bên trong hoặc kìm nén những cảm xúc thật. Sự thiếu thấu hiểu bản thân này sẽ ngăn cản bạn trải nghiệm tình yêu đích thực và sự bình yên nội tại."
       },
       "career": {
-        "up": "Bạn nên học hỏi thêm thay vì cố gắng thể hiện. Lắng nghe trực giác trước các quyết định lớn. Thông tin quan trọng vẫn còn đang ẩn giấu.",
-        "rev": "Bạn đang bị che giấu thông tin trong công việc. Đừng vội vàng ký kết hoặc tham gia khi chưa biết rõ tình hình.",
-        "upright": "Đây không phải là lúc để hành động bốc đồng hay phô trương thanh thế. Hãy lùi lại phía sau cánh gà, quan sát tinh tế và âm thầm trau dồi tri thức. Có những thông tin quan trọng vẫn còn đang được giấu kín.",
-        "reversed": "Bạn đang bị che mắt hoặc bị đẩy ra khỏi luồng thông tin cốt lõi của công ty. Đừng vội đặt bút ký kết bất kỳ điều khoản nào khi trực giác của bạn đang rung lên hồi chuông cảnh báo."
+        "upright": "Con đường sự nghiệp đòi hỏi sự tinh tế, khả năng nghiên cứu sâu sắc và tin tưởng vào trực giác. Hãy tìm kiếm những lĩnh vực yêu cầu sự phân tích, tư vấn hoặc khám phá tri thức ẩn giấu.",
+        "reversed": "Sự thiếu minh bạch, những bí mật nơi công sở hoặc việc phớt lờ trực giác đang cản trở tiến bộ. Bạn có thể bị lạc lối trong những thông tin mơ hồ hoặc không nhìn nhận rõ ràng con đường phía trước."
+      },
+      "job_search": {
+        "upright": "Hãy tin tưởng vào trực giác khi tìm kiếm công việc. Có thể có một cơ hội ẩn giấu, một công việc phù hợp với bản chất sâu sắc của bạn mà không phải ai cũng nhìn thấy. Hãy tìm hiểu kỹ và lắng nghe tiếng lòng.",
+        "reversed": "Quá trình tìm việc đang gặp phải sự mơ hồ, thông tin sai lệch hoặc những lời hứa hão. Bạn có thể bỏ lỡ những cơ hội tốt vì không lắng nghe trực giác hoặc bị đánh lừa bởi vẻ bề ngoài."
+      },
+      "promotion": {
+        "upright": "Sự thăng tiến sẽ đến thông qua trí tuệ thầm lặng, khả năng nhìn thấu vấn đề và sự tận tâm của bạn. Những đóng góp không phô trương nhưng sâu sắc sẽ được công nhận, mở ra cánh cửa mới đầy tiềm năng.",
+        "reversed": "Cánh cửa thăng tiến đang bị cản trở bởi những bí mật nội bộ, sự thiếu minh bạch hoặc những lời nói dối. Đừng tin vào những hứa hẹn sáo rỗng và hãy cảnh giác với những kẻ giấu mặt cản đường bạn."
+      },
+      "business": {
+        "upright": "Doanh nghiệp của bạn sẽ phát triển mạnh mẽ nhờ vào trực giác nhạy bén, khả năng nghiên cứu thị trường sâu rộng và hiểu rõ những nhu cầu tiềm ẩn của khách hàng. Hãy hành động với sự khôn ngoan và kiên nhẫn.",
+        "reversed": "Các giao dịch kinh doanh có thể bị bao phủ bởi sự lừa dối, thiếu minh bạch hoặc thông tin sai lệch. Hãy cảnh giác với những hợp đồng mập mờ và đừng phớt lờ những dấu hiệu cảnh báo từ trực giác."
+      },
+      "colleague": {
+        "upright": "Một đồng nghiệp có thể trở thành người cố vấn thầm lặng, mang đến những cái nhìn sâu sắc và trí tuệ. Họ là người bạn có thể tin tưởng để chia sẻ những suy nghĩ sâu kín.",
+        "reversed": "Hãy cảnh giác với một đồng nghiệp có thể đang che giấu ý định thật sự hoặc lan truyền những tin đồn không đúng sự thật. Sự thiếu minh bạch từ người này có thể gây hại cho môi trường làm việc."
+      },
+      "career_change": {
+        "upright": "Tiếng gọi từ sâu thẳm linh hồn đang dẫn lối bạn đến một con đường sự nghiệp mới, phù hợp hơn với bản chất và trực giác của bạn. Hãy tin tưởng vào những dấu hiệu và lời mách bảo bên trong.",
+        "reversed": "Sự thay đổi nghề nghiệp có thể bị cản trở bởi sự hoang mang, thiếu rõ ràng hoặc bạn đang lắng nghe những lời khuyên từ bên ngoài mà bỏ qua tiếng lòng mình. Hãy tìm kiếm sự thật nội tại trước khi hành động."
+      },
+      "freelance": {
+        "upright": "Mô hình làm việc tự do là môi trường lý tưởng để bạn phát huy trực giác và sự sáng tạo. Bạn có thể tìm thấy sự thỏa mãn trong những dự án yêu cầu sự nghiên cứu sâu, tư duy độc lập và giải quyết vấn đề bằng trí tuệ.",
+        "reversed": "Bạn đang gặp khó khăn trong việc thiết lập kỷ luật, quản lý thời gian hoặc bị mắc kẹt trong sự thiếu rõ ràng về định hướng. Sự thiếu minh bạch với khách hàng cũng có thể gây ảnh hưởng uy tín."
+      },
+      "interview": {
+        "upright": "Hãy tiếp cận buổi phỏng vấn bằng sự điềm tĩnh và lắng nghe nhiều hơn nói. Khả năng thấu hiểu trực giác của bạn về môi trường và văn hóa công ty sẽ là điểm mạnh vô cùng ấn tượng.",
+        "reversed": "Bạn có thể cảm thấy không được thấu hiểu hoặc có những thông tin chưa được tiết lộ về vị trí. Cẩn thận đừng quá kín đáo hoặc thiếu tự tin, điều này có thể tạo ra hiểu lầm."
       },
       "finance": {
-        "up": "Giữ kín tình hình tài chính của mình. Chờ đợi thêm thông tin trước khi đưa ra quyết định đầu tư.",
-        "rev": "Có nguy cơ bị lừa đảo tài chính hoặc bạn đang thiếu minh bạch về tiền bạc với người khác.",
-        "upright": "Giữ kín chiếc ví và những kế hoạch tài chính của bạn trong bóng tối. Hãy kiên nhẫn chờ đợi, thu thập thêm dữ liệu trước khi quyết định rót vốn vào bất kỳ lĩnh vực nào.",
-        "reversed": "Nguy cơ bị cuốn vào những giao dịch mờ ám hoặc trở thành nạn nhân của một vụ lừa đảo tài chính tinh vi. Sự thiếu minh bạch đang đe dọa trực tiếp đến túi tiền của bạn."
+        "upright": "Các quyết định tài chính cần được dẫn lối bởi trực giác nhạy bén và sự nghiên cứu kỹ lưỡng. Những cơ hội tiềm ẩn hoặc thông tin giá trị có thể xuất hiện nếu bạn biết lắng nghe và quan sát.",
+        "reversed": "Tài chính đang đối mặt với những bí mật, sự thiếu minh bạch hoặc quyết định sai lầm do phớt lờ trực giác. Hãy cẩn trọng với những chi phí ẩn hoặc thông tin không rõ ràng."
+      },
+      "investment": {
+        "upright": "Hãy tin tưởng vào trực giác của bạn khi đầu tư. Nghiên cứu sâu sắc và kiên nhẫn sẽ giúp bạn khám phá những cơ hội mà người khác bỏ lỡ. Xem xét các kênh đầu tư ít truyền thống hơn.",
+        "reversed": "Đầu tư dựa trên tin đồn, thông tin mơ hồ hoặc phớt lờ trực giác có thể dẫn đến thua lỗ. Hãy cảnh giác với những rủi ro ẩn giấu và những lời hứa quá ngọt ngào."
+      },
+      "debt": {
+        "upright": "Giải pháp thoát nợ nằm ở việc nhìn sâu vào nguyên nhân gốc rễ và lắng nghe trực giác về các phương án tiềm năng. Có thể bạn sẽ tìm ra con đường giải quyết vấn đề từ những góc nhìn mới lạ.",
+        "reversed": "Nợ nần đang chồng chất do những chi tiêu bí mật, thiếu minh bạch hoặc từ chối đối mặt với sự thật về tình hình tài chính. Phớt lờ vấn đề sẽ chỉ làm mọi thứ tệ hơn."
+      },
+      "savings": {
+        "upright": "Đây là thời điểm để tiết kiệm một cách thầm lặng và kiên trì, có thể thông qua những kế hoạch tài chính riêng tư. Trực giác của bạn sẽ dẫn lối đến những phương pháp tích lũy hiệu quả.",
+        "reversed": "Tiền tiết kiệm đang bị thất thoát do những chi phí ẩn, những nhu cầu không được tiết lộ hoặc sự thiếu kỷ luật. Cảnh giác với những yếu tố bên ngoài làm ảnh hưởng đến kế hoạch tài chính của bạn."
+      },
+      "luck_money": {
+        "upright": "Tài lộc có thể đến từ những khám phá bất ngờ, những cơ hội ẩn giấu hoặc thông qua trực giác của bạn. Hãy chú ý đến những dấu hiệu tinh tế và lắng nghe tiếng nói bên trong để nắm bắt may mắn.",
+        "reversed": "May mắn tài chính đang bị cản trở bởi sự lừa dối, thông tin sai lệch hoặc việc phớt lờ những tín hiệu cảnh báo. Đừng chạy theo những giấc mơ hão huyền mà bỏ qua sự thật."
       },
       "health": {
-        "up": "Lắng nghe cơ thể mình. Nó đang cố gắng truyền đạt điều gì đó. Có thể cần chú ý đến vấn đề nội tiết, hormone.",
-        "rev": "Bỏ qua các triệu chứng cảnh báo. Cần đi khám để làm rõ những vấn đề tiềm ẩn.",
-        "upright": "Cơ thể bạn là một ngôi đền linh thiêng mang theo những thông điệp riêng. Hãy đặc biệt chú ý đến sức khỏe nội tiết tố, chu kỳ sinh học và chăm sóc đời sống tinh thần để giữ sự tĩnh tại.",
-        "reversed": "Việc phớt lờ những dấu hiệu cảnh báo nhỏ nhặt của cơ thể có thể dẫn đến những hệ lụy khó lường. Đã đến lúc bạn cần đối mặt và đi tìm căn nguyên thực sự của căn bệnh."
+        "upright": "Hãy lắng nghe sâu sắc những tín hiệu từ cơ thể. Sức khỏe sẽ được cải thiện nhờ vào sự kết nối giữa tâm trí và cơ thể, cùng những phương pháp trị liệu toàn diện, dựa trên trực giác của bạn.",
+        "reversed": "Sức khỏe đang gặp vấn đề do việc bỏ qua các triệu chứng, chẩn đoán sai hoặc những căng thẳng tinh thần bị kìm nén. Bạn đang phớt lờ tiếng nói của cơ thể, dẫn đến những hệ lụy tiềm ẩn."
+      },
+      "mental": {
+        "upright": "Đây là thời điểm tuyệt vời để đi sâu vào tiềm thức, khám phá những bí ẩn của tâm trí. Trực giác sẽ giúp bạn tìm thấy sự bình yên và sáng suốt, khai mở trí tuệ ẩn sâu bên trong.",
+        "reversed": "Tâm trí đang bị bao phủ bởi sự rối loạn, lo âu từ những suy nghĩ bị kìm nén hoặc khó khăn trong việc phân biệt thực tế và ảo tưởng. Bạn đang bỏ qua những cảnh báo từ trực giác."
+      },
+      "energy": {
+        "upright": "Năng lượng của bạn đang ổn định và sâu lắng, đến từ nguồn lực nội tại mạnh mẽ. Sức mạnh của bạn nằm ở sự tĩnh lặng, trực giác và khả năng kết nối với thế giới tâm linh.",
+        "reversed": "Năng lượng đang bị tắc nghẽn, cảm thấy cạn kiệt do những yếu tố bên ngoài gây nhiễu hoặc mất kết nối với nguồn sức mạnh nội tại. Sự phân tâm và thiếu tập trung làm suy yếu tinh thần của bạn."
+      },
+      "family": {
+        "upright": "Các mối quan hệ gia đình sẽ được củng cố bởi sự thấu hiểu ngầm, những truyền thống thiêng liêng hoặc một ảnh hưởng nữ tính mạnh mẽ. Trực giác đóng vai trò quan trọng trong việc duy trì hòa khí.",
+        "reversed": "Gia đình đang đối mặt với những bí mật, những bất đồng không được giải quyết hoặc sự thiếu giao tiếp. Sự xa cách về mặt cảm xúc có thể làm rạn nứt mối quan hệ giữa các thành viên."
+      },
+      "diet": {
+        "upright": "Hãy lắng nghe cơ thể để biết những gì nó thực sự cần. Ăn uống theo trực giác, hiểu rõ mối liên hệ sâu sắc giữa thực phẩm và sức khỏe sẽ giúp bạn duy trì một chế độ dinh dưỡng hài hòa.",
+        "reversed": "Bạn đang tuân theo các chế độ ăn kiêng mù quáng, bỏ qua tín hiệu của cơ thể hoặc ăn uống để che giấu cảm xúc. Sự thiếu ý thức này có thể gây hại đến sức khỏe về lâu dài."
+      },
+      "study": {
+        "upright": "Thời điểm lý tưởng để nghiên cứu sâu, tìm tòi những kiến thức bí truyền hoặc những môn học đòi hỏi trực giác nhạy bén. Học hỏi thông qua sự chiêm nghiệm và đọc vị những điều ẩn giấu.",
+        "reversed": "Bạn đang gặp khó khăn trong việc tập trung, hiểu sai khái niệm hoặc chỉ học một cách hời hợt. Sự kiêu ngạo trí thức có thể ngăn cản bạn đào sâu kiến thức."
+      },
+      "study_abroad": {
+        "upright": "Chuyến du học sẽ là một hành trình khám phá văn hóa sâu sắc và phát triển bản thân thông qua việc tìm hiểu những khía cạnh ẩn giấu của một nền văn hóa mới. Hãy tin vào trực giác để thích nghi.",
+        "reversed": "Bạn có thể gặp phải sốc văn hóa, cảm thấy bị cô lập hoặc khó hòa nhập do hiểu lầm các sắc thái văn hóa. Sự kín đáo quá mức cũng có thể tạo ra rào cản trong giao tiếp."
+      },
+      "self": {
+        "upright": "Đây là một hành trình khám phá bản thân sâu sắc, nơi bạn kết nối với trí tuệ bên trong và chấp nhận những khía cạnh bí ẩn của mình. Hãy tôn vinh sự độc đáo và trực giác của bạn.",
+        "reversed": "Bạn đang tự lừa dối bản thân, phớt lờ tiếng nói bên trong hoặc che giấu con người thật. Sự thiếu chân thật này sẽ ngăn cản bạn phát triển và sống đúng với bản ngã."
+      },
+      "purpose": {
+        "upright": "Mục đích sống của bạn liên quan đến việc khám phá và chia sẻ trí tuệ nội tại, dẫn dắt người khác đến với những sự thật ẩn giấu. Một con đường thầm lặng nhưng đầy ảnh hưởng và ý nghĩa tâm linh.",
+        "reversed": "Bạn đang lạc lối trong việc tìm kiếm mục đích sống, cảm thấy hoang mang và không có định hướng. Việc chạy theo những mục tiêu bên ngoài mà bỏ qua tiếng gọi từ bên trong sẽ không mang lại sự thỏa mãn."
+      },
+      "shadow_self": {
+        "upright": "Đây là cơ hội để dũng cảm đối mặt với những góc khuất, nỗi sợ hãi tiềm ẩn và ham muốn vô thức của bạn. Việc chấp nhận và hòa nhập những khía cạnh này sẽ mang lại sức mạnh nội tại to lớn.",
+        "reversed": "Bạn đang kìm nén hoặc chối bỏ những khía cạnh tối tăm của bản thân, khiến chúng âm thầm kiểm soát bạn. Sự tự lừa dối này sẽ ngăn cản quá trình trưởng thành và chữa lành vết thương lòng."
+      },
+      "decision": {
+        "upright": "Hãy tin tưởng tuyệt đối vào trực giác của bạn. Quyết định đúng đắn nhất sẽ đến từ sự tĩnh lặng nội tâm và lắng nghe những lời mách bảo tinh tế từ trí tuệ bên trong.",
+        "reversed": "Bạn đang đưa ra quyết định dựa trên thông tin không đầy đủ, bỏ qua trực giác hoặc bị ảnh hưởng bởi sự mơ hồ, dẫn đến sự hối tiếc và nhầm lẫn."
+      },
+      "travel": {
+        "upright": "Một chuyến đi mang ý nghĩa khám phá tâm linh, có thể đến những địa điểm linh thiêng hoặc những nơi yên tĩnh để chiêm nghiệm. Hành trình này sẽ giúp bạn hiểu sâu hơn về bản thân và th�� giới.",
+        "reversed": "Chuyến đi có thể gặp phải những rắc rối do sự hiểu lầm, chi phí ẩn hoặc cảm giác lạc lõng, mất phương hướng. Bạn đang bỏ qua sự chuẩn bị kỹ lưỡng và những cảnh báo trực giác."
       },
       "spiritual": {
-        "up": "Thời điểm hoàn hảo để thiền định, kết nối với tiềm thức và khai mở các khả năng tâm linh.",
-        "rev": "Mất kết nối với nội tâm, cảm thấy chênh vênh, trống rỗng vì chạy theo các giá trị vật chất.",
-        "upright": "Mở ra nhãn quan thứ ba để kết nối với cõi siêu thức. Đây là thời kỳ hoàng kim cho việc tu tập, thiền định và giải mã những giấc mơ mang tính tiên tri.",
-        "reversed": "Linh hồn trở nên khô cằn vì mải miết chạy theo những giá trị vật chất bề nổi. Bạn đang đánh mất đi chiếc la bàn nội tâm của chính mình."
+        "upright": "Bạn đang kết nối sâu sắc với thần tính nữ, khai mở trí tuệ cổ xưa và phát triển khả năng trực giác. Hãy đón nhận những bí ẩn của vũ trụ và tìm kiếm sự giác ngộ qua con đường nội tâm.",
+        "reversed": "Bạn đang bị lạc lối trong hành trình tâm linh, bám chấp vào những giáo điều cứng nhắc hoặc bị lừa dối bởi những người không đáng tin. Sự thiếu niềm tin vào trực giác đang cản trở sự phát triển của bạn."
+      },
+      "general": {
+        "upright": "Đây là thời điểm để quay về với thế giới nội tâm, lắng nghe tiếng nói trực giác và tìm kiếm những sự thật ẩn giấu. Vũ trụ mời gọi bạn khám phá chiều sâu của tâm hồn, tin tưởng vào sự hướng dẫn vô hình và kiên nhẫn chờ đợi những thông điệp thiêng liêng.",
+        "reversed": "Lá bài đảo ngược cảnh báo bạn đang bỏ qua trực giác, bị lừa dối bởi vẻ bề ngoài hoặc lạc lối trong sự hoang mang. Có những thông tin bị che giấu hoặc ảo ảnh đang ngăn cản bạn nhìn thấy sự thật, đòi hỏi sự tỉnh táo và cẩn trọng."
       }
     },
     "advice": "Đừng vội vàng hành động khi bức màn bí mật chưa được vén lên. Sự tĩnh lặng và trực giác nhạy bén chính là tấm khiên vững chắc nhất của bạn lúc này.",
@@ -225,34 +485,164 @@ window.TAROT_DB = [
     "reversed": "Bạn có thể đang bỏ bê việc chăm sóc bản thân, hoặc ngược lại, đang quá bao bọc/phụ thuộc vào người khác. Sự sáng tạo bị tắc nghẽn hoặc gặp khó khăn về tài chính.",
     "aspects": {
       "love": {
-        "up": "Một tình yêu ngọt ngào, thấu hiểu và lãng mạn. Rất tốt cho việc kết hôn hoặc có tin vui về đường con cái.",
-        "rev": "Cảm giác bị phụ thuộc quá mức vào đối phương, sự ghen tuông, hoặc thiếu đi sự chăm sóc cần thiết trong tình cảm.",
-        "upright": "Một khu vườn tình yêu ngập tràn mật ngọt và sự thấu cảm sâu sắc. Tình cảm đơm hoa kết trái, mang đến sự gắn kết nồng nàn và trọn vẹn. Rất thuận lợi cho những hứa hẹn thiêng liêng hoặc đón chào một sinh linh bé nhỏ.",
-        "reversed": "Sự phụ thuộc cảm xúc ngột ngạt hoặc những ghen tuông độc hại đang rút cạn nhựa sống của mối quan hệ. Đừng để tình yêu biến thành chiếc lồng giam lỏng."
+        "upright": "Tình yêu nở rộ như đóa hoa kiều diễm, ban tặng sự ngọt ngào, ấm áp và khả năng vun đắp một mối quan hệ đầy ắp tình thương. Đây là lúc nuôi dưỡng cảm xúc bằng sự dịu dàng và lòng trắc ẩn.",
+        "reversed": "Mối quan hệ như khu vườn thiếu chăm sóc, có thể đang khô héo vì sự thờ ơ hoặc thiếu đi sự vun vén. Cảnh giác với sự sở hữu, ghen tuông hoặc cảm giác bất an đang làm mất đi vẻ đẹp tự nhiên của tình yêu."
+      },
+      "ex": {
+        "upright": "Năng lượng hàn gắn mang theo sự trư���ng thành và vị tha. Nếu có cơ hội tái hợp, đó là để cùng nhau vun đắp một tình yêu chín muồi, sâu sắc hơn dựa trên nền tảng của sự thấu hiểu và sẻ chia.",
+        "reversed": "Sự quay lại với người cũ lúc này mang theo gánh nặng của quá khứ, có thể là sự lặp lại những khuôn mẫu cũ, thiếu sự thay đổi. Mối quan hệ có nguy cơ bị kiểm soát, bóp nghẹt bởi cảm xúc tiêu cực."
+      },
+      "current_love": {
+        "upright": "Mối duyên đang đơm hoa kết trái, ngập tràn sự ấm áp và sự gắn kết sâu sắc. Cả hai đang cùng nhau tạo dựng một không gian an toàn, tràn đầy yêu thương, nơi mọi cảm xúc được nuôi dưỡng và phát triển.",
+        "reversed": "Mối quan hệ đang thiếu đi sự vun đắp và quan tâm. Một trong hai có thể cảm thấy bị bỏ bê, thiếu thốn tình cảm hoặc cảm giác bị kiểm soát. Cần sự chân thành và nỗ lực để tránh sự đổ vỡ."
+      },
+      "ambiguous": {
+        "upright": "Tình trạng mập mờ này đang âm thầm ươm mầm cho một mối liên kết sâu sắc. Hãy để mọi thứ tự nhiên phát triển, tận hưởng sự dịu dàng và nuôi dưỡng cảm xúc bằng sự thấu hiểu mà không cần vội vàng định danh.",
+        "reversed": "Sự mập mờ đang che giấu một mối quan hệ thiếu chân thành hoặc một bên đang lợi dụng lòng tốt của bạn. Cần nhìn rõ sự thật, đừng để bản thân bị mắc kẹt trong một vòng xoáy cảm xúc không lối thoát."
+      },
+      "crush": {
+        "upright": "Nữ Hoàng khuyến khích bạn thể hiện tình cảm một cách dịu dàng, chân thành và tự nhiên. Hãy tự tin vào vẻ đẹp và sự duyên dáng của mình, vì bạn có sức hút mãnh liệt để thu hút đối phương.",
+        "reversed": "Cảm giác rung động này có thể xuất phát từ sự thiếu tự tin hoặc mong muốn được che chở. Đừng quá ám ảnh hay tìm cách kiểm soát đối phương, hãy để tình cảm phát triển một cách tự nhiên."
+      },
+      "future_love": {
+        "upright": "Một tình yêu đích thực, trưởng thành và đầy đủ sẽ sớm gõ cửa. Người ấy sẽ mang đến sự ổn định, quan tâm, và cùng bạn xây d���ng một tổ ấm bình yên, nơi bạn được nuôi dưỡng và là chính mình.",
+        "reversed": "Cảnh giác với những mối quan hệ có vẻ ngoài hào nhoáng nhưng thiếu chiều sâu. Người sắp đến có thể có xu hướng kiểm soát hoặc bạn sẽ cảm thấy bị phụ thuộc, không được trân trọng."
+      },
+      "someone": {
+        "upright": "Đối với người ấy, bạn là hiện thân của sự dịu dàng, ấm áp và khả năng vun đắp. Họ nhìn thấy ở bạn một tâm hồn giàu tình cảm, biết quan tâm và mang lại cảm giác bình yên, an toàn.",
+        "reversed": "Người ấy có thể cảm thấy bạn quá kiểm soát, đòi hỏi hoặc thiếu đi sự tinh tế trong giao tiếp. Họ cũng có thể nhìn nhận bạn như một người quá phụ thuộc hoặc không có chính kiến."
+      },
+      "marriage": {
+        "upright": "Hôn nhân của bạn là biểu tượng của sự sinh sôi, nảy nở và hạnh phúc vẹn tròn. Hai bạn đang cùng nhau vun đắp một gia đình ấm êm, nơi tình yêu được nuôi dưỡng và phát triển mạnh mẽ qua thời gian.",
+        "reversed": "Cột trụ hôn nhân đang lung lay vì sự thiếu vun đắp, hoặc một trong hai cảm thấy bị kiểm soát, ngột ngạt. Cần nhìn nhận lại những vấn đề sâu xa để tránh sự đổ vỡ không đáng có."
+      },
+      "conflict": {
+        "upright": "Nữ Hoàng khuyên bạn giải quyết mâu thuẫn bằng sự dịu dàng, lắng nghe và thấu hiểu. Hãy đặt mình vào vị trí của đối phương, tìm cách hàn gắn bằng tình yêu thương và lòng bao dung.",
+        "reversed": "Mâu thuẫn có thể leo thang vì sự cứng đầu, thiếu linh hoạt hoặc thái độ muốn kiểm soát. Việc không chịu nhượng bộ và nuôi dưỡng những cảm xúc tiêu cực sẽ chỉ khiến tình hình thêm tồi tệ."
+      },
+      "breakup": {
+        "upright": "Sự tan vỡ này là một quá trình cần thiết để bạn tái tạo và tìm lại giá trị bản thân. Hãy dành thời gian chăm sóc chính mình, chữa lành vết thương và chuẩn bị cho một chương mới đầy hứa hẹn.",
+        "reversed": "Sau chia tay, bạn có thể rơi vào trạng thái cô lập, đau khổ dai dẳng hoặc tìm cách kiểm soát đối phương. ��ừng để nỗi đau che mờ lý trí, hãy buông bỏ để tìm lại sự bình yên."
+      },
+      "long_distance": {
+        "upright": "Khoảng cách địa lý không làm vơi đi sự gắn kết, mà còn giúp tình yêu thêm sâu sắc và bền chặt. Cả hai cùng nhau vun đắp niềm tin và tạo ra những khoảnh khắc ấm áp dù xa cách.",
+        "reversed": "Mối quan hệ đường dài có thể trở nên mong manh vì sự thiếu thốn tình cảm và sự kiểm soát từ một phía. Cảm giác bất an và ghen tuông dễ nảy sinh, cần sự giao tiếp chân thành để vượt qua."
+      },
+      "jealousy": {
+        "upright": "Hãy tin tưởng vào tình yêu và sự gắn kết của hai bạn. Nữ Hoàng khuyến khích bạn nuôi dưỡng sự tự tin và lòng bao dung, gạt bỏ những nghi ngờ không đáng có để tình yêu được tự do phát triển.",
+        "reversed": "Cơn ghen tuông đang bùng lên như ngọn lửa thiêu rụi niềm tin. Sự ám ảnh, kiểm soát thái quá sẽ bóp nghẹt mối quan hệ. Cần nhìn lại nguyên nhân sâu xa của sự bất an này."
+      },
+      "self_love": {
+        "upright": "Yêu bản thân là một hành trình nuôi dưỡng và chăm sóc tâm hồn, thể chất. Hãy dành thời gian cho những điều khiến bạn hạnh phúc, ăn uống lành mạnh và kết nối với vẻ đẹp tự nhiên bên trong.",
+        "reversed": "Bạn đang bỏ bê bản thân, hoặc nuông chiều những thói quen xấu dưới danh nghĩa tự do. Thiếu sự chăm sóc đúng mực sẽ khiến năng lượng cạn kiệt và mất đi sự kết nối với chính mình."
       },
       "career": {
-        "up": "Dự án của bạn đang đơm hoa kết trái. Bạn có môi trường làm việc thoải mái, được đồng nghiệp hỗ trợ tốt.",
-        "rev": "Cạn kiệt ý tưởng, làm việc trong môi trường ngột ngạt hoặc bạn đang ôm đồm quá nhiều việc của người khác.",
-        "upright": "Sự nghiệp của bạn đang bước vào mùa màng bội thu. Những hạt giống ý tưởng đã đến lúc bung nở thành những dự án thành công. Một môi trường làm việc hài hòa, nơi sự sáng tạo được chắp cánh.",
-        "reversed": "Cảm hứng sáng tạo khô cằn, môi trường làm việc vắt kiệt sức lao động khiến bạn cảm thấy cạn kiệt ý tưởng và mất đi niềm vui cống hiến."
+        "upright": "Sự nghiệp đang bước vào giai đoạn phát triển rực rỡ, hứa hẹn sự thành công và ổn định. Năng lượng sáng tạo và khả năng nuôi dưỡng ý tưởng sẽ mang lại những thành quả ngọt ngào.",
+        "reversed": "Con đường công danh đang gặp phải những bế tắc, thiếu đi sự sáng tạo hoặc cảm giác bị đình trệ. Cẩn trọng với những quyết định vội vàng hoặc sự trì hoãn có thể ảnh hưởng đến tương lai."
+      },
+      "job_search": {
+        "upright": "Nữ Hoàng báo hiệu một công việc phù hợp với khả năng nuôi dưỡng, sáng tạo của bạn. Hãy tự tin thể hiện nh��ng giá trị độc đáo và khả năng vun đắp, bạn sẽ tìm thấy một vị trí vững chắc.",
+        "reversed": "Việc tìm kiếm việc làm có thể gặp khó khăn do thiếu sự chủ động, hoặc bạn đang kén chọn một cách thiếu thực tế. Cần xem xét lại kỳ vọng và chuẩn bị kỹ lưỡng hơn cho các cơ hội."
+      },
+      "promotion": {
+        "upright": "Sự cống hiến và khả năng vun đắp của bạn đã được công nhận. Một cơ hội thăng tiến đang đến, mang theo trách nhiệm lớn hơn nhưng cũng mở ra cánh cửa cho sự phát triển vượt bậc.",
+        "reversed": "Cơ hội thăng tiến đang bị trì hoãn hoặc gặp trở ngại do sự thiếu chủ động, hoặc bạn chưa thực sự sẵn sàng cho vị trí cao hơn. Cần trau dồi thêm kỹ năng và sự quyết đoán."
+      },
+      "business": {
+        "upright": "Doanh nghiệp đang trên đà phát triển mạnh mẽ, gặt hái thành công nhờ vào sự sáng tạo, khả năng quản lý và tầm nhìn xa. Đây là thời điểm lý tưởng để ươm mầm những ý tưởng mới.",
+        "reversed": "Công việc kinh doanh đang đối mặt với sự trì trệ hoặc thiếu hiệu quả. Cần xem xét lại chiến lược, có thể bạn đang thiếu đi sự sáng tạo hoặc quá tập trung vào lợi nhuận mà bỏ qua yếu tố con người."
+      },
+      "colleague": {
+        "upright": "Mối quan hệ với đồng nghiệp sẽ được vun đắp bởi sự thấu hiểu, tôn trọng và hỗ trợ lẫn nhau. Bạn sẽ tìm thấy sự hợp tác bền chặt và tạo ra một môi trường làm việc hài hòa.",
+        "reversed": "Cẩn trọng với những đồng nghiệp có xu hướng kiểm soát, ích kỷ hoặc thiếu hợp tác. Môi trường làm việc có thể trở nên căng thẳng do sự cạnh tranh không lành mạnh hoặc sự thiếu tôn trọng."
+      },
+      "career_change": {
+        "upright": "Đây là thời điểm lý tưởng để bạn khám phá một con đường sự nghiệp mới, nơi bạn có thể phát huy tối đa khả năng sáng tạo và nuôi dưỡng. Hãy lắng nghe trực giác và dũng cảm thay đổi.",
+        "reversed": "Sự thay đổi nghề nghiệp có thể đến từ sự bốc đồng hoặc thiếu kế hoạch. Cẩn trọng với nh���ng quyết định vội vàng, không có sự chuẩn bị kỹ lưỡng, có thể dẫn đến sự hối tiếc."
+      },
+      "freelance": {
+        "upright": "Năng lượng tự do của Freelance kết hợp với khả năng sáng tạo của bạn sẽ mang lại thành công rực rỡ. Hãy tự tin vào năng lực bản thân để tự tạo ra giá trị và sự thịnh vượng.",
+        "reversed": "Mô hình làm việc tự do có thể trở nên hỗn loạn nếu thiếu kỷ luật và kế hoạch. Cẩn trọng với sự trì hoãn, thiếu động lực hoặc không biết cách quản lý thời gian hiệu quả."
+      },
+      "interview": {
+        "upright": "Hãy tự tin thể hiện vẻ đẹp nội tại, sự duyên dáng và khả năng tư duy thực tế của bạn. Sự ấm áp và khả năng kết nối sẽ giúp bạn ghi điểm tuyệt đối trong mắt nhà tuyển dụng.",
+        "reversed": "Sự thiếu tự tin hoặc thái độ quá kiểm soát có thể khiến bạn mất điểm. Cần thể hiện sự linh hoạt, chân thành hơn thay vì cố gắng tỏ ra hoàn hảo."
       },
       "finance": {
-        "up": "Sự sung túc và ổn định. Đầu tư sinh lời tốt. Thời điểm tốt để tận hưởng thành quả từ tiền bạc.",
-        "rev": "Khó khăn tài chính do tiêu xài hoang phí, hoặc lo lắng quá mức về tiền bạc khiến bạn mất vui.",
-        "upright": "Một dòng chảy tài chính dồi dào và thịnh vượng đang hướng về bạn. Những khoản đầu tư bắt đầu sinh lời. Hãy cho phép bản thân tận hưởng những trái ngọt xứng đáng với công sức đã bỏ ra.",
-        "reversed": "Cảnh báo về sự phung phí quá đà để lấp đầy những khoảng trống tâm hồn, hoặc nỗi lo âu thái quá về tiền bạc khiến bạn mất đi sự bình yên nội tại."
+        "upright": "Tài chính đang bước vào giai đoạn thịnh vượng và ổn định. Nữ Hoàng khuyến khích bạn quản lý tiền bạc một cách khôn ngoan, đầu tư vào những giá trị bền vững và tận hưởng thành quả lao động.",
+        "reversed": "Tài chính có thể gặp khó khăn do sự chi tiêu bốc đồng, thiếu kiểm soát hoặc sự trì hoãn trong việc quản lý. Cần xem xét lại thói quen chi tiêu và thiết lập kế hoạch rõ ràng."
+      },
+      "investment": {
+        "upright": "Đây là thời điểm thuận lợi để đầu tư vào những lĩnh vực có tiềm năng phát triển bền vững. Hãy tin tưởng vào trực giác và khả năng thẩm định của mình để gặt hái những thành quả xứng đáng.",
+        "reversed": "Cẩn trọng với những quyết định đầu tư vội vàng hoặc thiếu nghiên cứu. Việc rót vốn vào những dự án không chắc chắn có thể dẫn đến thua lỗ đáng kể."
+      },
+      "debt": {
+        "upright": "Bạn đang tìm thấy giải pháp thực tế và hiệu quả để thoát khỏi nợ nần. Hãy bình tĩnh đối mặt, lập kế hoạch chi tiết và kiên trì thực hiện, bạn sẽ sớm lấy lại sự ổn định tài chính.",
+        "reversed": "Nợ nần có thể trở thành gánh nặng lớn do sự trì hoãn, thiếu trách nhiệm hoặc chi tiêu không kiểm soát. Cần đối mặt với thực tế và tìm kiếm sự giúp đỡ nếu cần."
+      },
+      "savings": {
+        "upright": "Việc tích lũy tài sản đang tiến triển tốt đẹp. Nữ Hoàng khuyến khích bạn tiếp tục kiên trì, tiết kiệm thông minh và đầu tư vào những kế hoạch dài hạn để đảm bảo tương lai vững chắc.",
+        "reversed": "Thói quen chi tiêu bốc đồng hoặc sự thiếu kỷ luật đang làm ảnh hưởng đến kế hoạch tiết kiệm. Cần thiết lập lại mục tiêu rõ ràng và nghiêm khắc hơn với bản thân."
+      },
+      "luck_money": {
+        "upright": "May mắn về tiền bạc đang đến từ những nỗ lực vun đắp và sự sáng tạo của bạn. Hãy mở lòng đón nhận những cơ hội tài chính bất ngờ nhưng xứng đáng với công sức bỏ ra.",
+        "reversed": "May mắn không tự nhiên đến nếu bạn thiếu sự chủ động và trách nhiệm. Cẩn trọng với những cơ hội làm giàu nhanh chóng không có căn cứ, có thể dẫn đến rủi ro."
       },
       "health": {
-        "up": "Sức khỏe dồi dào, khả năng sinh sản tốt. Khuyên bạn nên gần gũi với thiên nhiên để thư giãn.",
-        "rev": "Cảnh báo các vấn đề liên quan đến việc ăn uống kém điều độ, hoặc căng thẳng do lo toan quá nhiều cho gia đình.",
-        "upright": "Cơ thể căng tràn sức sống và vẻ đẹp rạng rỡ. Sự kết nối sâu sắc với thiên nhiên, đi dạo dưới bóng cây sẽ là liều thuốc chữa lành tuyệt vời nhất cho bạn lúc này.",
-        "reversed": "Sự cạn kiệt thể chất do lơ là chăm sóc bản thân. Hãy học cách yêu thương cơ thể mình, nuôi dưỡng nó bằng những thực phẩm và thói quen lành mạnh trước khi quá muộn."
+        "upright": "Sức khỏe đang ở trạng thái tốt đẹp, tràn đầy năng lượng và sự sống. Nữ Hoàng khuyến khích bạn duy trì lối sống lành mạnh, kết nối với thiên nhiên và chăm sóc bản thân toàn diện.",
+        "reversed": "Sức khỏe có thể gặp vấn đề do sự bỏ bê, thiếu chăm sóc hoặc lối sống không lành mạnh. Cần lắng nghe cơ thể và tìm cách cải thiện sức khỏe từ bên trong."
+      },
+      "mental": {
+        "upright": "Tâm hồn bạn đang tìm thấy sự bình yên và hài hòa. Hãy dành thời gian để thiền định, kết nối với thiên nhiên và nuôi dưỡng những suy nghĩ tích cực để duy trì trạng thái tinh thần ổn định.",
+        "reversed": "Tâm trí có thể đang bị rối loạn bởi những lo lắng, căng thẳng hoặc cảm giác bị áp lực. Cần tìm cách giải tỏa cảm xúc, tránh để bản thân bị mắc kẹt trong những suy nghĩ tiêu cực."
+      },
+      "energy": {
+        "upright": "Bạn đang tràn đầy năng lượng sáng tạo, dồi dào sức sống và khả năng vun đắp. Năng lượng này giúp bạn hoàn thành mọi công việc một cách hiệu quả và truyền cảm hứng cho người khác.",
+        "reversed": "Năng lượng đang bị cạn kiệt do sự căng thẳng, làm việc quá sức hoặc thiếu đi sự chăm sóc bản thân. Cần nghỉ ngơi, tái tạo năng lượng và tìm lại sự cân bằng."
+      },
+      "family": {
+        "upright": "Gia đình là nguồn cội của sự ấm áp, yêu thương và gắn kết. Nữ Hoàng khuyến khích bạn vun đắp mối quan hệ gia đình, tạo ra một tổ ấm bình yên và tràn đầy tiếng cười.",
+        "reversed": "Không khí gia đình có thể đang căng thẳng do sự kiểm soát, mâu thuẫn hoặc thiếu sự quan tâm. Cần có sự thấu hiểu và nhượng bộ để hàn gắn những rạn nứt."
+      },
+      "diet": {
+        "upright": "Nữ Hoàng khuyến khích bạn ăn uống một cách trực giác, lắng nghe cơ thể và chọn lựa những thực phẩm tự nhiên, bổ dưỡng. Một chế độ ăn uống lành mạnh sẽ nuôi dưỡng cả thể chất và tinh thần.",
+        "reversed": "Chế độ ăn uống đang thiếu cân bằng, có thể do sự bốc đồng, ăn quá nhiều hoặc quá kiêng khem. Cần tìm lại sự hài hòa và khoa học trong việc nạp năng lượng cho cơ thể."
+      },
+      "study": {
+        "upright": "Việc học tập đang tiến triển thuận lợi, bạn tiếp thu kiến thức một cách tự nhiên và sâu sắc. Nữ Hoàng khuyến khích bạn khám phá những lĩnh vực mới và áp dụng kiến thức vào thực tế.",
+        "reversed": "Việc học tập có thể gặp khó khăn do sự thiếu tập trung, lười biếng hoặc cảm giác bị áp lực. Cần tìm lại niềm hứng thú và phương pháp học hiệu quả hơn."
+      },
+      "study_abroad": {
+        "upright": "Chuyến du học của bạn sẽ thành công rực rỡ, mang lại nhiều kiến thức và trải nghiệm quý giá. Bạn sẽ dễ dàng hòa nhập, phát triển bản thân và gặt hái những thành quả xứng đáng.",
+        "reversed": "Chuyến du học có thể gặp khó khăn do sự thiếu chuẩn bị, nhớ nhà hoặc không thể hòa nhập. Cần trang bị kỹ năng sống và tinh thần độc lập để vượt qua thử thách."
+      },
+      "self": {
+        "upright": "Bạn đang sống đúng với bản chất tự nhiên, vẻ đẹp nội tại và sức mạnh sáng tạo của mình. Hãy tự tin vào giá trị bản thân và không ngừng nuôi dưỡng tâm hồn mình.",
+        "reversed": "Bạn đang cảm thấy mất kết nối với bản thân, thiếu tự tin hoặc bị ảnh hưởng bởi ý kiến của người khác. Cần tìm lại tiếng nói bên trong và khẳng định giá trị của mình."
+      },
+      "purpose": {
+        "upright": "Mục đích sống của bạn là nuôi dưỡng, kiến tạo và mang lại vẻ đẹp cho thế giới xung quanh. Hãy tin tưởng vào khả năng sáng tạo và lòng trắc ẩn của mình để thực hiện sứ mệnh này.",
+        "reversed": "Bạn đang cảm thấy lạc lối, không tìm thấy ý nghĩa trong cuộc sống hoặc bị phân tâm bởi những mục tiêu vật chất. Cần lắng nghe tiếng gọi từ trái tim để tìm lại phương hướng."
+      },
+      "shadow_self": {
+        "upright": "Hãy chấp nhận những phần yếu đuối, nhạy cảm bên trong bạn. Nữ Hoàng khuyến khích bạn nuôi dưỡng và chữa lành những vết thương lòng để chúng trở thành nguồn sức mạnh nội tại.",
+        "reversed": "Bạn đang trốn tránh hoặc phủ nhận những khía cạnh tiêu cực của bản thân. Việc không đối mặt với bóng tối sẽ khiến bạn mắc kẹt trong những khuôn mẫu cũ và khó lòng phát triển."
+      },
+      "decision": {
+        "upright": "Quyết định của bạn đang dựa trên sự khôn ngoan, trực giác và khả năng nhìn xa trông rộng. Hãy tin tưởng vào bản năng của mình để đưa ra lựa chọn mang lại sự thịnh vượng và hạnh phúc.",
+        "reversed": "Quyết định có thể bị ảnh hưởng bởi cảm xúc bốc đồng, thiếu suy nghĩ hoặc sự phụ thuộc vào người khác. Cần bình tĩnh, xem xét kỹ lưỡng và tìm lời khuyên từ những người đáng tin cậy."
+      },
+      "travel": {
+        "upright": "Chuyến đi sắp tới sẽ mang lại sự bình yên, thư giãn và cơ hội kết nối với thiên nhiên. Hãy tận hưởng vẻ đẹp của thế giới xung quanh và nạp lại năng lượng cho tâm hồn.",
+        "reversed": "Chuyến đi có thể gặp phải những rắc rối do sự thiếu chuẩn bị, sự cố bất ngờ hoặc cảm giác không thoải mái. Cần lên kế hoạch kỹ lưỡng và linh hoạt ứng phó với mọi tình huống."
       },
       "spiritual": {
-        "up": "Kết nối mạnh mẽ với Đất mẹ và thiên nhiên. Sự bình yên trong tâm hồn.",
-        "rev": "Bị cuốn vào vật chất, quên mất việc nuôi dưỡng tâm hồn và vẻ đẹp bên trong.",
-        "upright": "Tâm hồn bạn hòa nhịp đập cùng vũ trụ bao la. Cảm nhận sự bình yên sâu thẳm từ vạn vật xung quanh và dung dưỡng cội nguồn yêu thương bên trong bạn.",
-        "reversed": "Lạc mất mối liên kết thiêng liêng với Đất Mẹ, để cho những vật chất phù phiếm che mờ đôi mắt linh hồn. Đã đến lúc quay về chăm sóc khu vườn nội tâm."
+        "upright": "Nữ Hoàng kết nối bạn với năng lượng của Đất Mẹ, sự sinh sôi và vẻ đẹp của tạo hóa. Hãy tìm thấy sự giác ngộ trong thiên nhiên, nghệ thuật và khả năng sáng tạo của chính mình.",
+        "reversed": "Bạn đang cảm thấy mất kết nối với bản chất tâm linh, hoặc tìm kiếm sự giác ngộ ở những nơi không phù hợp. Cần quay về với nội tâm, lắng nghe trực giác để tìm lại con đường của mình."
+      },
+      "general": {
+        "upright": "Bức tranh cuộc đời bạn đang ngập tràn sự thịnh vượng, tình yêu và vẻ đẹp. Nữ Hoàng mời gọi bạn kết nối với sự sáng tạo bên trong, nuôi dưỡng những điều tốt đẹp và tận hưởng thành quả của mình.",
+        "reversed": "Cuộc sống có thể đang thiếu đi sự hài hòa, sáng tạo hoặc cảm giác bị đình trệ. Cần xem xét lại cách bạn đang nuôi dưỡng b���n thân và môi trường xung quanh để tìm lại sự cân bằng."
       }
     },
     "advice": "Hãy mở rộng vòng tay ôm lấy sự phong phú của vũ trụ, nhưng đừng quên tưới tắm cho khu vườn tâm hồn của chính mình. Tình yêu thương vĩ đại nhất bắt đầu từ việc yêu thương bản thân.",
@@ -357,34 +747,164 @@ window.TAROT_DB = [
     "reversed": "Khuyến khích bạn thoát khỏi tư duy lối mòn, thách thức những quy tắc lỗi thời hoặc từ chối đi theo đám đông. Đây là lúc tự tìm ra chân lý cho riêng mình.",
     "aspects": {
       "love": {
-        "up": "Mối quan hệ tiến tới cam kết vững chắc, truyền thống như hôn nhân, đính hôn. Tình yêu dựa trên sự chia sẻ chung về hệ giá trị và niềm tin.",
-        "rev": "Sự bất đồng về quan điểm sống, tôn giáo hoặc truyền thống gia đình. Muốn phá vỡ các ranh giới và định kiến trong tình yêu.",
-        "upright": "Tình yêu đang đơm hoa trên mảnh đất của những giá trị chung, sự thấu hiểu về đạo lý và văn hóa. Một lời cam kết sâu sắc, mang tính truyền thống như hôn nhân đang đến rất gần.",
-        "reversed": "Sự ngột ngạt vì những rào cản định kiến gia đình, tôn giáo. Bạn hoặc người ấy muốn phá vỡ khuôn mẫu, khao khát một tình yêu tự do không bị ai phán xét."
+        "upright": "Tình yêu gõ cửa mang theo hình hài của sự cam kết và những giá trị truyền thống vững bền. Lá bài soi sáng con đường đến một mối quan hệ sâu sắc, nơi hai tâm hồn cùng tìm thấy sự bình yên trong việc tuân thủ các nghi thức thiêng liêng và xây đắp một tương lai dựa trên niềm tin chung thủy.",
+        "reversed": "Một tiếng thì thầm nổi loạn vang lên trong cung điện tình ái; mối quan hệ đang thách thức những khuôn mẫu, hoặc một trong hai đang cảm thấy bị gò bó bởi những định kiến. Phải chăng đã đến lúc chất vấn lại những ràng buộc để tìm kiếm một bản giao hưởng tình yêu đích thực, không bị trói buộc bởi xiềng xích của quá khứ?"
+      },
+      "ex": {
+        "upright": "Giống như một nhà hiền triết tìm về giáo lý cũ, vũ trụ khuyên bạn hãy tìm kiếm sự hòa giải hoặc thấu hiểu qua việc chiêm nghiệm lại những giá trị cốt lõi từng gắn kết cả hai. Sự tha thứ và chấp nhận những gì đã qua theo một cách chín chắn sẽ mang lại sự bình yên.",
+        "reversed": "Hồi tưởng về người cũ lúc này mang theo năng lượng của sự gò bó, hoặc bạn đang cảm thấy bị mắc kẹt trong những mô hình cũ. Có thể người ấy tượng trưng cho một khuôn khổ mà bạn cần phải phá vỡ để tìm thấy tự do đích thực của trái tim."
+      },
+      "current_love": {
+        "upright": "Mối duyên của bạn đang khát khao một nền tảng vững chắc và sự cam kết thiêng liêng. Đã đến lúc cùng đối phương chiêm nghiệm lại những giá trị chung, hướng tới việc xây dựng một tình yêu bền vững, có thể là qua hôn nhân hoặc một lời thề nguyền vĩnh cửu.",
+        "reversed": "Lá bài chói lên hồi chuông cảnh báo về sự cứng nhắc, giáo điều hoặc một sự thiếu linh hoạt đang kìm hãm mối quan hệ. Một trong hai người đang cảm thấy bị kiểm soát bởi những kỳ vọng truyền thống, hoặc một giáo điều sai lầm đang làm lung lay tình cảm."
+      },
+      "ambiguous": {
+        "upright": "Tình trạng mập mờ đang thôi thúc bạn tìm kiếm sự rõ ràng và một cam kết có tính chất ràng buộc. Thay vì để cảm xúc trôi nổi, hãy tìm kiếm những lời khuyên từ người lớn tuổi hoặc bạn bè đáng tin cậy để định hình mối quan hệ theo một khuôn mẫu đáng tin cậy.",
+        "reversed": "Phía sau tấm màn sương mù của sự mập mờ ấy là nguy cơ của sự kìm kẹp hoặc một bên đang lợi dụng những khuôn mẫu để thao túng. Sự thiếu vắng cam kết lúc này có thể là do sự từ chối bị ràng buộc hoặc cảm giác muốn phá vỡ mọi quy tắc định danh."
+      },
+      "crush": {
+        "upright": "Năng l��ợng tôn kính của The Hierophant trao cho bạn dũng khí để tiếp cận đối tượng một cách chân thành, trang trọng. Hãy thể hiện sự nghiêm túc và những giá trị cốt lõi của bạn. Dù kết quả ra sao, linh hồn bạn cũng sẽ tìm thấy sự bình yên trong việc tuân thủ những nguyên tắc của lòng mình.",
+        "reversed": "Cảm giác rung động này dường như nhuốm màu của sự nổi loạn hoặc bị cấm đoán. Bạn đang đeo một lăng kính màu hồng để chiêm ngưỡng một hình bóng có thể thách thức mọi giá trị hoặc làm bạn phải phá vỡ các khuôn mẫu bạn từng tin tưởng."
+      },
+      "future_love": {
+        "upright": "Bức tranh tình duyên sắp tới sẽ là một mối liên kết sâu sắc, dựa trên sự tôn trọng, thấu hiểu và chia sẻ những giá trị đạo đức cao đẹp. Người ấy sẽ bước vào thế giới của bạn mang theo sự bình an, trí tuệ và có thể là một người thầy, một người dẫn lối tâm linh.",
+        "reversed": "Cảnh giác với những cuộc gặp gỡ nhuốm màu của sự giả tạo hoặc một mối quan hệ có thể kìm hãm sự phát triển cá nhân của bạn. Người ấy có thể mang năng lượng bảo thủ đến mức độc đoán, hoặc bạn sẽ cảm thấy bị phán xét bởi những định kiến cũ kỹ."
+      },
+      "someone": {
+        "upright": "Đối với người ấy, bạn là một cột trụ vững chắc, một người đáng tin cậy và có khả năng đưa ra những lời khuyên sâu sắc. Họ trân trọng sự ổn định, trí tuệ và sự kiên định của bạn.",
+        "reversed": "Ở góc độ tiêu cực, cách nhìn nhận của đối phương về bạn có phần cứng nhắc—họ e ngại bạn thiếu sự linh hoạt, quá bảo thủ hoặc có thể đang cố gắng áp đặt quan điểm lên họ."
+      },
+      "marriage": {
+        "upright": "Cam kết lứa đôi đang đứng trước bình minh của một lời thề nguyền thiêng liêng, được chứng giám bởi các giá trị truyền thống và sự ban phước của vũ trụ. Cuộc hôn nhân này sẽ là nền tảng vững chắc cho sự phát triển tinh thần và sự gắn kết sâu sắc.",
+        "reversed": "Cột trụ hôn nhân có thể đang lung lay vì lối sống cứng nhắc, sự áp đặt giáo điều hoặc một trong hai người cảm thấy bị trói buộc bởi những kỳ vọng không còn phù hợp. Đừng để sự bảo thủ phá nát sự thiêng liêng đắp xây bấy lâu."
+      },
+      "conflict": {
+        "upright": "Giữa vòng xoáy cãi vã, thi vị của sự thấu hiểu và lắng nghe những lời khuyên khôn ngoan chính là liều thuốc giải. Hãy tiếp cận mâu thuẫn bằng một trái tim tôn trọng nguyên tắc và một thái độ sẵn sàng học hỏi để cùng nhau tìm ra giải pháp dựa trên sự hòa hợp.",
+        "reversed": "Nhát dao vô hình được vung lên từ sự cố chấp mù quáng hoặc thái độ bảo thủ không muốn lắng nghe. Lòng tự ái mù quáng hoặc việc áp đặt quan điểm sẽ chỉ đẩy mâu thuẫn vào tột cùng của ngõ cụt."
+      },
+      "breakup": {
+        "upright": "Sự tan vỡ chỉ là tiếng pháo hiệu mở ra một hành trình chiêm nghiệm sâu sắc. Hãy tìm kiếm sự bình yên qua việc thấu hiểu những bài học đạo đức, tha thứ cho những gì đã qua, và tin tưởng vào kế hoạch thiêng liêng của vũ trụ.",
+        "reversed": "Bóng ma của sự gò bó hoặc giáo điều hậu chia tay đang quấn lấy đôi chân bạn. Việc cư xử thiếu lý trí hay buông lời cay đắng để trả đũa sẽ chỉ ghim chặt bạn lại trong vũng lầy của đớn đau, hoặc bạn đang nổi loạn một cách vô ích."
+      },
+      "long_distance": {
+        "upright": "Khoảng cách địa lý lúc này dường như bị thu bé lại bởi năng lượng của niềm tin son sắt và sự tôn trọng lẫn nhau. Mọi thử thách không gian chỉ là thứ gia vị làm đậm đà thêm chuyến hành trình của hai tâm hồn trung thành và kiên định.",
+        "reversed": "Đôi cánh tự do khi không có sự ràng buộc hiện hữu rất dễ sa đà vào sự cứng nhắc hoặc nghi ngờ. Cạm bẫy và cám dỗ từ xa đang chực chờ nuốt chửng sự chung thủy nếu một trong hai đánh mất đi nguyên tắc sống của mình, hoặc quá khắt khe với đối phương."
+      },
+      "jealousy": {
+        "upright": "Hoài nghi là đám mây mù giăng kín mặt trời rực rỡ. Sự tin tưởng vào giáo lý của tình yêu và sự hiểu biết sâu sắc về đối phương là lời khuyên vũ trụ dành cho bạn. Xóa bỏ rào cản đa nghi, tình yêu sẽ tự khắc thanh tịnh và vui tươi.",
+        "reversed": "Lá bài đảo ngược lật tẩy sự ghen tuông điên cuồng thiếu kiểm soát, hoặc tệ hơn, sự giáo điều quá mức đang bị đối phương qua mặt một cách đau đớn, hoặc bạn đang từ chối một cách tiêu cực mọi cam kết."
+      },
+      "self_love": {
+        "upright": "Hành trình yêu bản thân khởi nguồn từ việc đón nhận trí tuệ nội tại và tìm kiếm sự bình yên trong các giá trị đạo đức cao đẹp. Cho phép bản thân được kết nối với cộng đồng, học hỏi từ những người đi trước và sống theo một khuôn mẫu giúp bạn trưởng thành.",
+        "reversed": "Yêu bản thân không đồng nghĩa với việc từ chối mọi quy tắc hoặc sống một cách nổi loạn thiếu định hướng. Bạn đang có xu hướng nuông chiều những bốc đồng có hại, ngộ nhận sự thiếu kỉ luật là tự do, hoặc quá khắt khe với chính mình."
       },
       "career": {
-        "up": "Làm việc tốt trong môi trường có tổ chức, tuân thủ nội quy. Rất thuận lợi cho việc học tập, làm việc nhóm hoặc được một mentor (người hướng dẫn) dẫn dắt.",
-        "rev": "Cảm thấy ngột ngạt vì sự cứng nhắc của công ty. Bạn muốn làm việc độc lập hoặc áp dụng những phương pháp sáng tạo, phá cách hơn.",
-        "upright": "Hòa mình vào văn hóa doanh nghiệp, làm việc theo hệ thống và tôn trọng cấp trên sẽ mang lại cho bạn vị thế vững chắc. Cơ hội tuyệt vời để học hỏi từ một người Thầy (Mentor) xuất chúng.",
-        "reversed": "Cảm giác bị kìm kẹp trong một bộ máy hành chính rườm rà, cứng nhắc. Bạn muốn phá vỡ các quy tắc vận hành cũ kỹ để đưa ra những ý tưởng mang tính cách mạng."
+        "upright": "Con đường công danh đang mở ra một trang giấy của sự ổn định và phát triển trong các tổ chức có tính kỷ luật. Đừng e ngại việc dấn thân vào những lĩnh vực cần sự chuyên môn sâu sắc hoặc vai trò cố vấn. Tinh thần kỷ luật và tư duy có trách nhiệm sẽ kiến tạo nên những bước ngoặt thần kỳ.",
+        "reversed": "Một tiếng thở dài nhắc nhở về những sự cứng nhắc trên chốn thương trường. Làm việc tùy hứng, thiếu tính kỷ luật và thiếu chiến lược phòng bị sẽ đẩy sự nghiệp của bạn rơi tự do xuống vực sâu hoang mang, hoặc bạn đang bị kìm hãm bởi những quy tắc lỗi thời."
+      },
+      "job_search": {
+        "upright": "Ngọn gió thời cơ đang thổi về phía bạn một công việc trong các lĩnh vực truyền thống hoặc có yêu cầu cao về kiến thức. Sự cầu thị, sức cống hiến không mệt mỏi và lòng trung thành sẽ chinh phục những vị giám khảo khó tính nhất. Cứ mạnh dạn nộp hồ sơ vào các vị trí đòi hỏi kinh nghiệm.",
+        "reversed": "Những cánh cửa từ chối khép lại do sự hời hợt hoặc ảo vọng kiêu ngạo từ phía chính bạn. Khinh suất trong việc chuẩn bị kĩ năng sẽ khiến mọi nỗ lực tìm kiếm việc làm tựa dã tràng xe cát, hoặc bạn đang từ chối những cơ hội có tính truyền thống."
+      },
+      "promotion": {
+        "upright": "Bước lên nấc thang mới đòi hỏi ở bạn sự kiên trì, trung thành và khả năng tuân thủ các quy tắc hiện hành. Nhận một nhiệm vụ đòi hỏi sự trách nhiệm cao và khả năng cố vấn lại chính là chiếc khóa vạn năng cho cánh cửa thăng tiến.",
+        "reversed": "Thái độ ngông cuồng hoặc đánh giá quá cao giá trị bản thân là tảng đá ngáng đường sự nghiệp. Cấp trên hiện chưa nhìn thấy sự từng trải và trách nhiệm ở bạn để phó thác trọng trách, hoặc bạn đang bị kìm hãm bởi một hệ thống cứng nhắc."
+      },
+      "business": {
+        "upright": "Ngọn lửa khởi nghiệp đang bùng cháy trong tâm trí với tiềm năng vô tiền khoáng hậu, nhưng cần được xây dựng trên nền tảng đạo đức vững chắc. Dù hành trang chỉ là sự nhiệt huyết, đây là thời khắc vũ trụ ủng hộ bạn nhen nhóm những đốm lửa đầu tiên trên thương trường với sự tư vấn từ chuyên gia.",
+        "reversed": "Thương trường là chiến trường, không có chỗ cho thứ rủi ro đánh cược mù quáng. Rót vốn liều lĩnh mà bỏ qua lời cảnh báo của số liệu thực tế sẽ kéo theo sự sụp đổ gia sản đau đớn, hoặc doanh nghiệp của bạn đang bị cản trở bởi những quy tắc cũ kỹ."
+      },
+      "colleague": {
+        "upright": "Một sự hợp tác dựa trên sự tôn trọng, chuyên nghiệp và chia sẻ giá trị đạo đức chốn công sở. Những đối tác hoặc đồng nghiệp có tính tình vững chãi, có kinh nghiệm sẽ vô tình trở thành đòn bẩy tuyệt vời cho các ý tưởng của bạn.",
+        "reversed": "Cẩn trọng với những cá nhân lảng tránh trách nhiệm, thích đùn đẩy và hành xử trẻ con trong tập thể. Vô tư đến mức vô tâm sẽ gây rạn nứt lòng tin giữa các cộng sự, hoặc bạn đang bị kìm hãm bởi một đồng nghiệp quá bảo thủ."
+      },
+      "career_change": {
+        "upright": "Giọng nói thì thầm của linh hồn đang gào thét nhắc nhở bạn rẽ hướng đến một con đường có ý nghĩa hơn, nơi bạn có thể làm cố vấn hoặc chia sẻ tri thức. Đây là lời cổ vũ hoàn mỹ nhất để bạn cự tuyệt sự nhàm chán và chuyển mình mạnh mẽ sang ranh giới nghề nghiệp tràn ngập ánh sáng của sự phụng sự.",
+        "reversed": "Bồng bột từ bỏ chén cơm vì những bất mãn vụn vặt sẽ để lại hậu quả đắng ngắt. Đừng nhảy thuyền khi bầu trời đang giông bão mà bạn lại không trang bị nổi chiếc phao cứu sinh, hoặc bạn đang nổi loạn một cách vô ích chống lại hệ thống."
+      },
+      "freelance": {
+        "upright": "Luồng không khí tự do, phóng khoáng của ngọn xê dịch vô hình biến mô hình Freelance trở thành mảnh ghép hoàn mỹ cho bạn lúc này, nếu bạn có thể thiết lập những nguyên tắc làm việc chuyên nghiệp. Sự sáng tạo sẽ được khai phóng mãnh liệt nhất trong vòng tự do cá nhân có kỷ luật.",
+        "reversed": "Một tiếng thở đánh thót do sự thiếu ý thức về thời gian. Dòng chảy linh hoạt đang biến bạn trở nên vô kỷ luật, làm mai một uy tín chuyên môn do thói quen làm việc trễ nải, hoặc bạn đang gặp khó khăn trong việc tự đặt ra quy tắc cho bản thân."
+      },
+      "interview": {
+        "upright": "Bước chân vào căn phòng phỏng vấn với khí chất tự tin, chuyên nghiệp và có chiều sâu. Nét cá tính nguyên bản, sự tư duy mở và linh hoạt chính là ma lực hấp dẫn ánh nhìn của hội đồng tuyển dụng.",
+        "reversed": "Bị đánh trượt do những phát ngôn rỗng tuếch hoặc thái độ cợt nhả không lường trước. Tự do ngôn luận sai bối cảnh là nấm mồ chôn vùi cơ hội thành công của vòng thi này, hoặc bạn đang quá cứng nhắc và không thể hiện được bản thân."
       },
       "finance": {
-        "up": "Đầu tư an toàn, theo các kênh truyền thống và uy tín (như tiết kiệm ngân hàng, quỹ lâu đời). Tránh rủi ro lớn.",
-        "rev": "Bạn đang xem xét các phương pháp đầu tư mới lạ, phi truyền thống. Cần cẩn thận đừng mạo hiểm quá mức.",
-        "upright": "Hãy lựa chọn con đường an toàn. Tiền bạc nên được gửi gắm vào những tổ chức uy tín, những kênh đầu tư truyền thống đã được chứng minh qua các chu kỳ kinh tế.",
-        "reversed": "Cám dỗ từ những phương thức làm giàu phi truyền thống, phá cách. Cần cực kỳ tỉnh táo để không bị cuốn vào những rủi ro nằm ngoài tầm kiểm soát."
+        "upright": "Không gian tài chính bắt đầu mở khóa cho những vận hội tiềm năng bất chợt, nếu bạn biết lắng nghe lời khuyên từ các chuyên gia. Một tâm thái không sợ hãi sẽ mang đến cho bạn ý tưởng đột phá về tiền bạc; dĩ nhiên, nó đòi hỏi bạn bước đi với trực giác thanh khiết.",
+        "reversed": "Chiếc túi không đáy của sự chi tiêu phù phiếm đang kêu gào. Năng lượng The Fool ngược lên án kịch liệt chuỗi hành động xuất tiền theo cảm xúc và những giấc mộng làm giàu ảo ảnh, hoặc bạn đang quá cứng nhắc trong việc quản lý tài chính."
+      },
+      "investment": {
+        "upright": "Cánh cửa dẫn lối tới ranh giới đầu tư lạ kỳ đầy hứa hẹn. Số vốn trích từ tiền nhàn rỗi có thể thả trôi vào dòng nước mới, vì vũ trụ đang ngáng tay tạo ra mức rủi ro có thể chịu đựng nhưng mang về nhiều ngạc nhiên.",
+        "reversed": "Sa chân vào bùn lầy của sự ngu ngốc tài chính! Tin lời đường mật, phó mặc gia tài cho bầy sói trên thương trường là hậu quả báo trước của thái độ làm giàu dễ dãi và thiếu học hỏi, hoặc bạn đang bị kìm hãm bởi những lời khuyên đầu tư cũ kỹ."
+      },
+      "debt": {
+        "upright": "Phủi lớp bụi ảm đạm đi, đứng lên với tư duy dẹp tan mọi u ám. Việc áp dụng cách thoát nợ ngoài khuôn khổ truyền thống, lạc quan đối mặt là ánh sáng le lói cứu rỗi túi tiền.",
+        "reversed": "Chui đầu xuống cát đà điểu không làm số nợ biến mất. Việc phớt lờ thực tại ngân quỹ đang gióng lên hồi chuông báo động đỏ, kéo dài hơn những ngày tháng vay mượn, hoặc bạn đang quá cứng nhắc trong việc giải quyết nợ nần."
+      },
+      "savings": {
+        "upright": "Hành trình tích lũy tài nguyên vĩ đại khởi nguồn từ tâm niệm thanh khiết của một đốm sáng nhỏ bé. Không bao giờ là quá muộn để góp nhặt tài sản, miễn là bạn giữ được niềm tin hồn nhiên khi gieo trồng chúng.",
+        "reversed": "Thú vui bộc phát bóp nát mọi phòng tuyến tiết kiệm! Khao khát tận hưởng ngắn hạn đã nhẫn tâm đánh tráo tấm lá chắn bảo hộ cho tương lai của bạn, hoặc bạn đang quá cứng nhắc trong việc tiết kiệm."
+      },
+      "luck_money": {
+        "upright": "Mây xanh vén màn trao xuống những lộc rơi, lộc vãi giời ơi đất hỡi vô cùng duyên dáng. Hãy mở lòng hân hoan tiếp nhận ân sủng một cách tự nhiên, vì bản thân bạn hoàn toàn xứng đáng với món quà chớp nhoáng đó.",
+        "reversed": "Đồng tiền phù du không cứu cánh cho những lười nhác đời thường. Cơn khát đỏ đen mù quáng sẽ gặm nhấm hi vọng và để lại trái đắng thay vì túi vàng may mắn, hoặc bạn đang quá cứng nhắc trong việc quản lý tiền bạc."
       },
       "health": {
-        "up": "Theo đuổi các phương pháp điều trị truyền thống, y học hiện đại hoặc tuân thủ nghiêm ngặt phác đồ của bác sĩ.",
-        "rev": "Bạn có thể đang tìm kiếm các giải pháp chữa bệnh thay thế (alternative medicine) do các phương pháp cũ không hiệu quả.",
-        "upright": "Niềm tin vào y học hiện đại và những phác đồ điều trị bài bản. Hãy tuân thủ nghiêm ngặt lời khuyên của các chuyên gia y tế.",
-        "reversed": "Bạn đang có xu hướng tìm đến những phương pháp chữa trị thay thế (alternative medicine) hoặc các liệu pháp từ chối thuốc Tây y. Hãy cân nhắc kỹ lưỡng."
+        "upright": "Sự bừng sáng của vạn vật báo hiệu luồng sinh khí đang được bơm căng đầy trong lồng ngực. Một lộ trình trị liệu khác truyền thống hay một thói quen luyện tập đầy tính thử nghiệm sẽ giúp cơ thể lột xác tráng kiện.",
+        "reversed": "Những tai nạn nhỏ nhặt ngoài dự định rất dễ xuất hiện từ thói chủ quan cợt nhả. Mầm bệnh đang âm thầm mượn lớp vỏ bọc bình dị, yêu cầu thiết lập lại ranh giới về cách chăm sóc sức khỏe, hoặc bạn đang quá cứng nhắc trong việc chăm sóc sức khỏe."
+      },
+      "mental": {
+        "upright": "Viển vông thoát khỏi những chằng xích giam cầm tâm hồn! Bóng đêm lo âu chính thức bị đập vỡ, nhường ngôi vương cho một mảng trời cởi mở, vô ưu, cho trải nghiệm hít thở trọn vẹn từng sát na hiện tại.",
+        "reversed": "Việc cuộn tròn trong ảo cảnh (escapism) đang che đậy cho một hố đen tâm lí hoảng loạn. Ngó lơ sang một bề không phải là cách làm xói mòn tổn thương của những tâm hồn giấu kín, hoặc bạn đang quá cứng nhắc trong việc đối phó với sức khỏe tinh thần."
+      },
+      "energy": {
+        "upright": "Luân xa gốc rễ của bạn đang vỗ về theo điệu nhạc của sự phục sinh nguyên bản. Tràn trề một thứ ánh sáng thuần khiết, năng lượng bên trong hòa với vũ trụ để sẵn sàng chinh phục hành trình kế tiếp.",
+        "reversed": "Mất kết nối với Đất Mẹ và cội nguồn! Dòng năng lượng phung phí vào sự hỗn mang vô ý thức khiến trung tâm nhận thức trở nên lơ lửng, rời rạc và hoang tàn, hoặc bạn đang bị kìm hãm bởi những nguồn năng lượng tiêu cực."
+      },
+      "family": {
+        "upright": "Không khí gia tộc dấy lên bầu nhiệt huyết êm dịu. Có thể là lời chúc mừng đón chào sinh mệnh mới, hoặc năng lượng đoàn viên tự do phá vỡ những lề lói khắt khe gò bó từ thời tiền nhân.",
+        "reversed": "Thái độ ngông nghênh của một con cừu non cứng đầu đang gây chao đảo tính kỷ cương trong tổ ấm. Hãy cẩn trọng để ý các bước đi dại dột tạo vết thương sâu lên tổ ấm bình yên, hoặc gia đình bạn đang bị kìm hãm bởi những quy tắc cũ kỹ."
+      },
+      "diet": {
+        "upright": "Chấp nhận sự tự do trong việc nạp năng lượng! Gỡ bỏ những kíp nổ ép buộc về cân nặng, lắng nghe khẩu vị nguyên sơ của trực giác để nếm trải sự ngon lành bằng cả trí và lực.",
+        "reversed": "Tính bốc chốc, ăn theo phong trào thiếu bền vững kiến thiết nên một thể trạng bấp bênh. Kỉ luật lỏng lẻo đang đánh đổi năng lượng cho những đồ ăn độc hại kém vi chất, hoặc bạn đang quá cứng nhắc trong việc ăn uống."
+      },
+      "study": {
+        "upright": "Khai trí như một tờ giấy nguyên sơ. Bước chân khát khao tiến vào tòa lâu đài học thuật với một đôi mắt tròn xoe ngỡ ngàng sẽ giúp tri thức dễ dàng thẩm thấu vào tầng sâu nhận thức nhất.",
+        "reversed": "Tư tưởng lạc lõng, thiếu bền chí ngốn sạch sự thông tuệ của não bộ. Đây là dấu hiệu của việc cưỡi ngựa xem hoa trong học thuật mà không đâm chồi rễ vững chắc ở bộ môn cốt yếu, hoặc bạn đang bị kìm hãm bởi những phương pháp học cũ kỹ."
+      },
+      "study_abroad": {
+        "upright": "Hộ chiếu đã sẵn sàng trên tay! Phóng tầm nhìn về miền đất hứa, xé rào cản quốc giới. Môi trường dị biệt hoàn toàn là một khung cảnh trong mơ nuôi dưỡng ý chí sinh tồn hào hùng đang chảy trong máu.",
+        "reversed": "Hao hụt sự chu đáo là nhát dao cứa lòng đối với một chuyến di cư tri thức xa xôi. Bạn có thể bị sốc văn hóa và mất phương hướng dữ dội giữa biển người xa lạ nếu tiếp tục vô lo vô nghĩ, hoặc bạn đang quá cứng nhắc trong việc thích nghi với môi trường mới."
+      },
+      "self": {
+        "upright": "Hành trình bóc tách từng lớp vỏ bọc giả tạo. Không có gì uy nghiêm bằng việc nhìn thẳng vào nguyên bản cá thể tự đo, sống vô uý và rực sáng như chính bản ngã The Fool ngây dại nhưng thông tuệ.",
+        "reversed": "Chênh vênh đi tìm ngã giữa bôn ba đời. Lập trường đứt ngọn khiến bản ngã trở thành một lớp sương mù, trượt theo đám đông mà đánh mất thứ hào quang lấp lánh vốn dĩ của cá thể, hoặc bạn đang quá cứng nhắc trong việc định hình bản thân."
+      },
+      "purpose": {
+        "upright": "Lý tưởng của bạn sinh ra trên trái đất này là tưới mát những tâm hồn héo mòn bằng hạt mưa của niềm tin thuần khiết. Gieo rắc sự lạc quan là sứ mệnh tối cao dệt nên hạnh phúc và quả ngọt.",
+        "reversed": "Khao khát sống vĩ cuồng mịt mù phương thức. Đắn đo, lang bạt tìm mục đích trong vô vọng, thay vì đi bằng trái tim lại chạy đi kiếm ở ảo vật bên ngoài, hoặc bạn đang b��� kìm hãm bởi những mục đích cũ kỹ."
+      },
+      "shadow_self": {
+        "upright": "Ôm ấp góc tối yếu mềm, vụng dại (inner child). Những lầm lỗi trẻ dại từng mang, hãy nâng niu chúng vì rốt cục nó mới là chất liệu vẽ nên bức chân dung đa diện của sự sống sinh thành.",
+        "reversed": "Hội chứng Peter Pan gặm nhấm ý thức, ru ngủ bóng đêm trong chiếc nôi mang tên chối bỏ kỷ luật và trưởng thành. Ánh sáng không chiếu rọi được kẽ hở khi ta từ chối làm người lớn, hoặc bạn đang quá cứng nhắc trong việc đối diện với bóng tối bên trong."
+      },
+      "decision": {
+        "upright": "Giây phút rũ lòng bước vào cú ngã thiên thần (Leap of faith). Bạn đã ở bờ vực, trái tim tự khắc sẽ bung đôi cánh vô hình. Đừng do dự tung mình đón chiều gió để dệt thay định số.",
+        "reversed": "Ranh giới của lòng dũng cảm và sự xuẩn ngốc hiện rất đỗi mong manh. Lao đầu vào khi mắt vẫn còn nhắm nghiền chỉ đổi lại thương tích sâu kín, đừng manh động đưa bài vội, hoặc bạn đang quá cứng nhắc trong việc đưa ra quyết định."
+      },
+      "travel": {
+        "upright": "Lên đường mà chẳng cần la bàn hay điểm đến cụ thể. Chính sự lang thang vô định lại thắp sáng khao khát tự do, rửa trôi ưu phiền, đưa cõi lòng phiêu diêu đến vùng bình yên vô giá.",
+        "reversed": "Tâm hồn xao nhãng hoặc bất cẩn tạo ra sự xáo trộn bất bình thường trong hành trình. Sự cố lạc đồ, nhầm giờ sẽ làm hỏng bức ảnh du ca mộng mơ nếu bỏ quên kỉ cương xê dịch, hoặc bạn đang quá cứng nhắc trong việc lên kế hoạch du lịch."
       },
       "spiritual": {
-        "up": "Phát triển tâm linh thông qua việc tham gia một cộng đồng tôn giáo hoặc học hỏi các giáo lý truyền thống.",
-        "rev": "Giải phóng bản thân khỏi các niềm tin bị áp đặt. Tìm kiếm con đường tâm linh độc lập mang tính cá nhân cao.",
-        "upright": "Tìm thấy sự an lạc thông qua các nghi lễ, giáo lý truyền thống hoặc hòa mình vào một cộng đồng tâm linh có tổ chức.",
-        "reversed": "Hành trình tâm linh độc lập. Bạn tự tay dỡ bỏ những bức tượng thần cũ kỹ để tự xây đắp nên một hệ thống đức tin mang đậm dấu ấn cá nhân."
+        "upright": "Đôi tay rũ bỏ xiềng xích của cõi vật chất, ngẩng mặt hướng tâm hồn cất cánh vào cõi siêu nhiên. Đây là hồi chuông đầu tiên đánh thức sự giác ngộ vĩ đại nhất, đi tìm Chân - Thiện - Mỹ mà không lệ thuộc vào bất kỳ giáo phái gò bó nào.",
+        "reversed": "Mất phương vị trong dòng hải lưu tâm linh vô tận. Cố gắng cắm rễ đức tin vào những mảnh đất cằn cỗi bằng thứ lí thuyết hời hợt, để rồi hụt bước chơi vơi giữa vô luân, hoặc bạn đang quá cứng nhắc trong việc tìm kiếm sự thật tâm linh."
+      },
+      "general": {
+        "upright": "Bức tranh của tạo hóa dang tay đón đợi bạn! Vũ trụ gửi gắm một lời thì thầm: Hãy khởi đầu, hãy bước tới vô định mà chẳng màng sợ hãi. Lăng kính nguyên thủy, đầy tươi mới của Kẻ Ngốc sẽ vén lên bức màn kỳ tích mà bạn hằng tìm kiếm.",
+        "reversed": "Bầu trời có thể sáng chói nhưng sát sườn lại là khe sâu không đáy. Sự phớt lờ cảnh báo từ thực tại và chạy theo tiếng vãn lầm lỗi có thể là án tử cho chuyến đi chưa kịp rực rỡ đã tàn úa."
       }
     },
     "advice": "Đôi khi con đường mòn lại là con đường an toàn nhất. Hãy lắng nghe lời khuyên từ những bậc tiền bối, nhưng đừng đánh mất đi tiếng nói của lương tri.",
@@ -422,34 +942,164 @@ window.TAROT_DB = [
     "reversed": "Sự mất cân bằng, mâu thuẫn nội tâm, hoặc xung đột trong một mối quan hệ. Có thể bạn đang né tránh trách nhiệm về lựa chọn của mình hoặc có sự lừa dối từ cả hai phía.",
     "aspects": {
       "love": {
-        "up": "Một tình yêu lãng mạn, sâu sắc, đồng điệu về cả thể xác lẫn tâm hồn. Sự thu hút mãnh liệt giữa hai người. Một mối tình khắc cốt ghi tâm.",
-        "rev": "Cảnh báo mâu thuẫn, lạnh nhạt. Có thể có sự xen vào của người thứ ba, hoặc bạn đang phải đưa ra quyết định khó khăn trong tình cảm.",
-        "upright": "Một tình yêu đích thực, nơi hai linh hồn đồng điệu đến từng nhịp thở. Sự thu hút mãnh liệt và khát khao hòa làm một, dệt nên mối tình khắc cốt ghi tâm.",
-        "reversed": "Những rạn nứt đang âm thầm xuất hiện. Lời nói dối, sự lạnh nhạt hoặc bóng dáng người thứ ba đang thử thách niềm tin. Khúc vĩ cầm tình yêu đang chệch nhịp."
+        "upright": "Tình yêu đôi lứa thăng hoa, một sự kết nối tâm hồn sâu sắc vượt trên mọi ranh giới. Đây là thời khắc để trái tim lắng nghe tiếng gọi của định mệnh, đưa ra một lựa chọn thiêng liêng và cam kết trọn vẹn trong một mối quan hệ hòa hợp, nơi cả hai là mảnh ghép hoàn hảo của nhau.",
+        "reversed": "Cơn lốc của sự băn khoăn đang thổi bay đi sự hài hòa vốn có. Mối quan hệ đối mặt với những lựa chọn sai lầm, mâu thuẫn nội tâm hoặc sự thiếu cam kết, khiến tình yêu chao đ���o giữa ngã ba đường của sự chia ly và hàn gắn miễn cưỡng."
+      },
+      "ex": {
+        "upright": "Một cánh cửa đã khép lại, nhưng định mệnh vẫn đưa ra lời mời gọi về một sự hòa giải có điều kiện. Nếu cả hai quyết định hàn gắn, đó phải là một lựa chọn ý thức dựa trên sự thấu hiểu sâu sắc và cam kết đổi thay, chứ không phải sự níu kéo của hoài niệm.",
+        "reversed": "Bóng ma của quá khứ trở về với những vết thương chưa lành và những lựa chọn sai lầm lặp lại. Sự quay lại lúc này sẽ chỉ là một vòng lặp của mâu thuẫn, thiếu niềm tin và sự tổn thương từ những cam kết đã không được giữ trọn."
+      },
+      "current_love": {
+        "upright": "Mối duyên của bạn đang đứng trước ngưỡng cửa của một sự cam kết sâu sắc hoặc một quyết định quan trọng định hình tương lai. Đây là thời điểm để hai tâm hồn đồng điệu cùng nhau kiến tạo một nền tảng vững chắc, dựa trên tình yêu, sự tin tưởng và những giá trị chung.",
+        "reversed": "Mối quan hệ đang đối mặt với những thử thách lớn về niềm tin và sự hài hòa. Xung đột giá trị, sự thiếu trung thực hoặc một quyết định sai lầm của một trong hai có thể đẩy con thuyền tình yêu vào bờ vực của sự rạn nứt."
+      },
+      "ambiguous": {
+        "upright": "Tình trạng mập mờ này là một giai đoạn thử thách lòng thành và sự lựa chọn của trái tim. Hãy lắng nghe trực giác và cân nhắc kỹ lưỡng giá trị của bản thân để đưa ra một quyết định rõ ràng, thay vì để cảm xúc chơi vơi giữa vô vàn ngã rẽ.",
+        "reversed": "Đằng sau tấm màn sương mù mập mờ là sự thiếu dứt khoát hoặc một lựa chọn đầy toan tính. Sự mơ hồ kéo dài đang làm hao mòn cảm xúc và có thể dẫn đến sự thất vọng sâu sắc do thiếu đi một cam kết chân thành."
+      },
+      "crush": {
+        "upright": "Cảm xúc rung động này là một lời mời gọi đến từ định mệnh. Đã đến lúc bạn cân nhắc kỹ lưỡng những giá trị cốt lõi và lắng nghe trái tim để đưa ra một quyết định táo bạo. Mối liên kết có thể sâu sắc hơn bạn nghĩ.",
+        "reversed": "Sự say mê này có thể dựa trên những ảo ảnh hoặc sự thiếu thấu hiểu đối phương. Cẩn trọng với những lựa chọn vội vàng, vì sự hấp tấp có thể dẫn đến mối quan hệ không cân xứng hoặc những rắc rối về cảm xúc."
+      },
+      "future_love": {
+        "upright": "Tình duyên sắp tới sẽ là một mối liên kết định mệnh, đòi hỏi bạn phải đưa ra một lựa chọn quan trọng để chào đón. Người ấy sẽ đến mang theo sự hài hòa, đồng điệu về tâm hồn và những giá trị chung, kiến tạo nên một tương lai vững bền.",
+        "reversed": "Cảnh giác với những mối quan hệ đầy rẫy sự lựa chọn khó khăn hoặc những đối tượng không rõ ràng. Bạn có thể bị cuốn vào một vòng xoáy cảm xúc phức tạp, nơi sự thiếu cam kết và những giá trị trái ngược gây nên đau khổ."
+      },
+      "someone": {
+        "upright": "Trong mắt người ấy, bạn là hiện thân của sự hài hòa và sức hút mãnh liệt. Họ nhìn thấy ở bạn một mảnh ghép hoàn hảo, một đối tác tiềm năng cho một mối quan hệ nghiêm túc và bền vững, dựa trên sự đồng điệu tâm hồn.",
+        "reversed": "Đối với người ấy, bạn có thể là nguồn cơn của sự bối rối hoặc những mâu thuẫn nội tâm. Họ đang phải vật lộn với những lựa chọn khó khăn hoặc cảm thấy giá trị của bạn không hoàn toàn tương thích với họ."
+      },
+      "marriage": {
+        "upright": "Hôn nhân đang đứng trước một chương mới đầy hứa hẹn, nơi hai tâm hồn gắn kết sâu sắc bởi những giá trị chung và một lựa chọn định mệnh. Đây là thời điểm để tái khẳng định lời thề ước, xây đắp tổ ấm trên nền tảng của tình yêu và sự thấu hiểu.",
+        "reversed": "Cột trụ hôn nhân đang rung chuyển bởi những lựa chọn sai lầm, xung đột giá trị hoặc sự thiếu trung thực. Mối quan hệ có thể đứng trước nguy cơ ly hôn hoặc sự rạn nứt sâu sắc nếu không có sự đối mặt và hàn gắn kịp thời."
+      },
+      "conflict": {
+        "upright": "Mâu thuẫn là cơ hội để hai bên đối mặt với những giá trị và mong muốn cốt lõi của nhau. Hãy lắng nghe bằng trái tim rộng mở, đưa ra những lựa chọn thông thái để tìm kiếm sự hòa giải, củng cố mối liên kết thay vì phá vỡ nó.",
+        "reversed": "Xung đột trở nên gay gắt bởi sự thiếu lắng nghe, những lời nói dối hoặc sự không tương thích về giá trị. Việc không thể đưa ra một lựa chọn chung hoặc sự bướng bỉnh cố chấp sẽ chỉ đẩy mối quan hệ vào ngõ cụt."
+      },
+      "breakup": {
+        "upright": "Sự tan vỡ này không phải là kết thúc, mà là một lựa chọn đau đớn nhưng cần thiết để mỗi người tìm lại sự cân bằng và giá trị thật của mình. Đây là cơ hội để buông bỏ những gì không còn phù hợp, mở lòng đón nhận một tương lai mới.",
+        "reversed": "Chia tay trong cay đắng, đầy rẫy sự hối tiếc và những lựa chọn sai lầm dẫn đến sự đổ vỡ. Việc níu kéo hay đổ lỗi cho nhau chỉ làm vết thương thêm sâu, không thể buông bỏ một cách thanh thản."
+      },
+      "long_distance": {
+        "upright": "Khoảng cách địa lý đang là thử thách để củng cố niềm tin và sự cam kết. Để vượt qua, cả hai cần đưa ra những lựa chọn ý thức để duy trì sự kết nối, chia sẻ giá trị và hướng tới một tương lai đoàn tụ.",
+        "reversed": "Khoảng cách trở thành gánh nặng khi niềm tin lung lay, những lựa chọn sai lầm xuất hiện hoặc một trong hai không còn giữ vững cam kết. Nguy cơ của sự không chung thủy hoặc chia ly đang rình rập."
+      },
+      "jealousy": {
+        "upright": "Ghen tuông là tiếng chuông cảnh báo về những giá trị cần được nhìn lại trong mối quan hệ. Hãy đối mặt với nỗi sợ hãi, đưa ra lựa chọn tin tưởng hoặc cùng nhau tìm ra giải pháp để củng cố nền tảng tình yêu.",
+        "reversed": "Lửa ghen tuông bùng cháy dữ dội do thiếu tin tưởng, những lựa chọn đáng ngờ hoặc sự không thành thật của một trong hai. Sự kiểm soát thái quá có thể phá hủy hoàn toàn mối liên kết."
+      },
+      "self_love": {
+        "upright": "Yêu bản thân là một lựa chọn thiêng liêng, là việc chấp nhận những giá trị cốt lõi của chính mình và xây dựng mối quan hệ hài hòa với bản ngã. Đây là thời điểm để bạn ưu tiên hạnh phúc cá nhân, đưa ra những quyết định đúng đắn cho sức khỏe tinh thần và thể chất.",
+        "reversed": "Bạn đang phải vật lộn với sự thiếu tự tin hoặc những lựa chọn không lành mạnh cho bản thân. Có thể bạn đang đặt nhu cầu của người khác lên trên mình, đánh mất giá trị cá nhân hoặc sa vào những mối quan hệ độc hại."
       },
       "career": {
-        "up": "Quan hệ đối tác tốt đẹp trong công việc, đồng nghiệp hỗ trợ đắc lực. Có một ngã rẽ sự nghiệp buộc bạn phải chọn lựa hướng đi quan trọng.",
-        "rev": "Xung đột với sếp hoặc đối tác kinh doanh. Bạn có thể bị phân tâm bởi các vấn đề cá nhân khi làm việc.",
-        "upright": "Một cái bắt tay hợp tác mang tính bước ngoặt. Những cộng sự chung chí hướng sẽ cùng bạn chắp cánh dự án bay cao. Đã đến lúc đưa ra quyết định hệ trọng cho sự nghiệp.",
-        "reversed": "Môi trường công sở ngập ngụa drama và đối đầu ngầm. Bạn đang phân tâm, để cảm xúc cá nhân làm hoen ố tính chuyên nghiệp."
+        "upright": "Con đường sự nghiệp đang mở ra một ngã rẽ quan trọng, đòi hỏi bạn phải đưa ra một lựa chọn mang tính định hướng. Hãy lắng nghe tiếng gọi của đam mê và giá trị cá nhân để chọn hướng đi phù hợp, tạo ra sự hài hòa giữa công việc và cuộc sống.",
+        "reversed": "Sự nghiệp đối mặt với những quyết định khó khăn, mâu thuẫn nội bộ hoặc sự không hài lòng với con đường hiện tại. Có thể bạn đang cảm thấy lạc lõng, đứng giữa nhiều lựa chọn mà không biết đâu là đúng đắn nhất."
+      },
+      "job_search": {
+        "upright": "Cơ hội việc làm đang đến, đòi hỏi bạn phải đưa ra một lựa chọn sáng suốt giữa nhiều lời mời. Hãy cân nhắc kỹ lưỡng giá trị của công việc, môi trường và sự phù hợp với bản thân để tìm được nơi làm việc ưng ý, hài hòa.",
+        "reversed": "Việc tìm kiếm việc làm gặp khó khăn do sự thiếu quyết đoán, những lựa chọn sai lầm trong quá khứ hoặc việc bạn chấp nhận một công việc không phù hợp với giá trị cốt lõi của mình."
+      },
+      "promotion": {
+        "upright": "Một cơ hội thăng tiến đang đến, đòi hỏi bạn phải đưa ra một quyết định quan trọng. Hãy cân nhắc kỹ lưỡng liệu đây có phải là con đường phù hợp với mục tiêu và giá trị của bạn, để đảm bảo sự phát triển hài hòa.",
+        "reversed": "Việc thăng tiến bị cản trở bởi những mâu thuẫn nội bộ, sự thiếu đồng thuận từ đồng nghiệp hoặc cấp trên, hoặc có thể bạn đang phải vật lộn với một lựa chọn khó khăn liên quan đến đạo đức nghề nghiệp."
+      },
+      "business": {
+        "upright": "Hoạt động kinh doanh đang đứng trước những lựa chọn chiến lược quan trọng, đòi hỏi sự hợp tác và liên minh chặt chẽ. Quyết định đúng đắn dựa trên giá trị cốt lõi sẽ mang lại sự hài hòa và thịnh vượng bền vững.",
+        "reversed": "Doanh nghiệp đối mặt với sự bất hòa trong nội bộ, những lựa chọn kinh doanh sai lầm hoặc xung đột lợi ích. Các đối tác có thể đang đứng trước nguy cơ chia rẽ hoặc hợp đồng đổ vỡ."
+      },
+      "colleague": {
+        "upright": "Một mối quan hệ đồng nghiệp trở nên gắn kết sâu sắc, dựa trên sự tin tưởng và những giá trị chung. Đây là thời điểm để hợp tác, đưa ra những lựa chọn cùng có lợi và tạo dựng một môi trường làm việc hài hòa.",
+        "reversed": "Mối quan hệ với đồng nghiệp đang gặp trục trặc do những mâu thuẫn về quan điểm, sự thiếu trung thực hoặc những lựa chọn cá nhân gây ảnh hưởng đến tập thể."
+      },
+      "career_change": {
+        "upright": "Một sự chuyển đổi nghề nghiệp đang chờ đợi bạn, là kết quả của một lựa chọn có ý thức và sâu sắc. Hãy lắng nghe tiếng gọi của bản thân, theo đuổi con đường phù hợp với giá trị và đam mê để tìm thấy sự hài lòng thực sự.",
+        "reversed": "Sự lưỡng lự, mâu thuẫn nội tâm hoặc những lựa chọn thiếu cân nhắc đang cản trở việc thay đổi nghề nghiệp. Bạn có thể đang đứng giữa ngã ba đường mà không thể đưa ra một quyết định dứt khoát."
+      },
+      "freelance": {
+        "upright": "Con đường tự do đang mở ra những lựa chọn thú vị, đòi hỏi bạn phải cân bằng giữa sự độc lập và việc xây dựng các mối quan hệ hợp tác. Quyết định đúng đắn sẽ mang lại sự hài hòa và thành công trong công việc tự do.",
+        "reversed": "Mô hình freelance gặp khó khăn do sự thiếu quyết đoán trong các dự án, mâu thuẫn với khách hàng hoặc sự không hài lòng với những lựa chọn công việc đ�� đưa ra."
+      },
+      "interview": {
+        "upright": "Cuộc phỏng vấn này là cơ hội để bạn thể hiện sự phù hợp về giá trị và mục tiêu với công ty. Hãy tự tin bày tỏ quan điểm, thể hiện khả năng hợp tác và đưa ra những lựa chọn khôn ngoan để tạo ấn tượng tốt.",
+        "reversed": "Buổi phỏng vấn không thành công do sự thiếu nhất quán trong câu trả lời, mâu thuẫn trong quan điểm hoặc việc bạn đưa ra những lựa chọn không phù hợp với yêu cầu của nhà tuyển dụng."
       },
       "finance": {
-        "up": "Bạn đang đứng trước hai quyết định tài chính quan trọng và cần phải cân nhắc kỹ. Tài lộc đến từ việc kết hợp kinh doanh với người hợp ý.",
-        "rev": "Chi tiêu thiếu kiểm soát vì những lý do cá nhân. Đưa ra các quyết định đầu tư sai lầm do không suy nghĩ kỹ lưỡng.",
-        "upright": "Đứng trước ngã ba đường của các quyết định tài chính, trực giác và sự đồng lòng cùng đối tác sẽ là kim chỉ nam dẫn bạn đến bến bờ thịnh vượng.",
-        "reversed": "Những quyết định xuất tiền bồng bột mang tính cảm tính. Đừng để những lời đường mật rút cạn các khoản tiết kiệm của bạn."
+        "upright": "Quyết định tài chính quan trọng đang đến, đòi hỏi sự cân nhắc kỹ lưỡng và lựa chọn sáng suốt. Đây là thời điểm để bạn xem xét các giá trị ưu tiên và đưa ra kế hoạch tài chính hài hòa, bền vững.",
+        "reversed": "Tình hình tài chính gặp khó khăn do những lựa chọn sai lầm, quyết định bốc đồng hoặc sự thiếu hòa hợp trong quản lý tiền bạc với đối tác."
+      },
+      "investment": {
+        "upright": "Một cơ hội đầu tư đầy tiềm năng đang xuất hiện, nhưng đòi hỏi bạn phải đưa ra một quyết định cẩn trọng. Hãy cân nhắc kỹ rủi ro và lợi ích, lắng nghe trực giác để lựa chọn phương án đầu tư phù hợp với giá trị của bạn.",
+        "reversed": "Quyết định đầu tư sai lầm có thể dẫn đến thua lỗ hoặc những xung đột không đáng có. Thiếu sự tìm hiểu kỹ lưỡng và sự bốc đồng sẽ là con dao hai lưỡi."
+      },
+      "debt": {
+        "upright": "Gánh nặng nợ nần yêu cầu bạn phải đưa ra một lựa chọn khó khăn nhưng cần thiết để giải quyết triệt để. Hãy tìm kiếm sự tư vấn, lập kế hoạch rõ ràng và kiên định với quyết định của mình để thoát khỏi vòng xoáy này.",
+        "reversed": "Tình trạng nợ nần trở nên trầm trọng hơn do những lựa chọn sai lầm, sự chần chừ hoặc việc né tránh đối mặt với trách nhiệm tài chính."
+      },
+      "savings": {
+        "upright": "Việc tích lũy tiết kiệm đang diễn ra thuận lợi, nhưng vẫn cần những lựa chọn thông minh để tối ưu hóa. Hãy cân bằng giữa việc chi tiêu và tiết kiệm, đảm b��o kế hoạch tài chính hài hòa cho tương lai.",
+        "reversed": "Kế hoạch tiết kiệm bị phá vỡ bởi những lựa chọn chi tiêu bốc đồng, những khoản chi phí bất ngờ hoặc sự thiếu kỷ luật trong quản lý tài chính."
+      },
+      "luck_money": {
+        "upright": "May mắn tài chính đến từ những lựa chọn đúng đắn và sự hài hòa trong các mối quan hệ. Tiền bạc sẽ đến một cách tự nhiên khi bạn biết cân bằng giữa cho và nhận, cũng như đưa ra những quyết định mang tính đạo đức.",
+        "reversed": "May mắn quay lưng do những lựa chọn sai lầm, sự thiếu trung thực trong các giao dịch hoặc việc bạn đặt vật chất lên trên các giá trị đạo đức, khiến tiền bạc đến rồi đi như làn khói."
       },
       "health": {
-        "up": "Sự hòa hợp giữa cơ thể và tâm trí. Rất tốt nếu bạn có một người bạn đồng hành trong việc ăn kiêng hoặc luyện tập.",
-        "rev": "Sức khỏe kém do mâu thuẫn nội tâm, căng thẳng thần kinh hoặc không thể cân bằng công việc và nghỉ ngơi.",
-        "upright": "Sự cân bằng tuyệt mỹ giữa thể chất và tinh thần. Sức khỏe của bạn sẽ thăng hoa nếu có một người bạn đồng hành cùng chia sẻ giờ phút luyện tập.",
-        "reversed": "Cơ thể rệu rã vì những giằng xé trong tâm trí. Đừng để nỗi buồn phiền tình cảm biến thành liều thuốc độc ăn mòn sức khỏe."
+        "upright": "Sức khỏe thể chất và tinh thần đang ở trạng thái hài hòa, là kết quả của những lựa chọn lối sống lành mạnh. Hãy tiếp tục lắng nghe cơ thể và tâm trí, đưa ra các quyết định sáng suốt để duy trì sự cân bằng.",
+        "reversed": "Sức khỏe gặp vấn đề do những lựa chọn không lành mạnh, sự bỏ bê bản thân hoặc những xung đột nội tâm gây ảnh hưởng đến tinh thần và thể chất."
+      },
+      "mental": {
+        "upright": "Tâm trí đang tìm thấy sự bình yên và hài hòa, là kết quả của việc bạn đã đưa ra những lựa chọn đúng đắn để chăm sóc bản thân. Hãy tiếp tục nuôi dưỡng sự cân bằng nội tâm, thấu hiểu cảm xúc và giá trị của mình.",
+        "reversed": "Tinh thần đang ở trong trạng thái bất ổn, đầy rẫy mâu thuẫn nội tâm và sự bối rối. Bạn có thể đang vật lộn với những quyết định khó khăn hoặc cảm thấy mất phương hướng trong suy nghĩ."
+      },
+      "energy": {
+        "upright": "Năng lượng bên trong đang dồi dào và hài hòa, cho phép bạn đưa ra những lựa chọn sáng suốt và hành động một cách quyết đoán. Hãy sử dụng nguồn năng lượng này để kết nối với những điều tích cực và kiến tạo giá trị.",
+        "reversed": "Năng lượng bị phân tán, mâu thuẫn nội tại khiến bạn cảm thấy uể oải và khó đưa ra quyết định. Có thể bạn đang mất cân bằng giữa các nguồn năng lượng, cần phải tái thiết lập lại sự hài hòa."
+      },
+      "family": {
+        "upright": "Gia đình đang ở trạng thái hòa thuận, yêu thương, là kết quả của sự thấu hiểu và những lựa chọn chung. Đây là thời điểm để củng cố mối liên kết, cùng nhau xây đắp những giá trị bền vững cho tổ ấm.",
+        "reversed": "Gia đình đối mặt với mâu thuẫn, xung đột hoặc những lựa chọn sai lầm gây rạn nứt các mối quan hệ. Sự thiếu lắng nghe hoặc bất đồng quan điểm có thể dẫn đến sự chia ly."
+      },
+      "diet": {
+        "upright": "Chế độ ăn uống của bạn đang hài hòa và cân bằng, là kết quả của những lựa chọn thông thái cho sức khỏe. Hãy tiếp tục lắng nghe cơ thể, duy trì thói quen ăn uống lành mạnh và phù hợp với giá trị bản thân.",
+        "reversed": "Chế độ ăn uống không cân bằng, thiếu lành mạnh do những lựa chọn sai lầm hoặc sự không nhất quán. Có thể bạn đang đối mặt với những xung đột về việc ăn uống hoặc không thể kiên định với một kế hoạch dinh dưỡng."
+      },
+      "study": {
+        "upright": "Con đường học vấn đang mở ra những lựa chọn quan trọng, đòi hỏi bạn phải đưa ra quyết định sáng suốt về hướng đi. Hãy theo đuổi những lĩnh vực phù hợp với đam mê và giá trị cốt lõi để đạt được sự thành công.",
+        "reversed": "Việc học tập gặp khó khăn do sự thiếu quyết đoán, mâu thuẫn trong việc lựa chọn môn học hoặc ngành nghề. Sự mất tập trung có thể dẫn đến kết quả không như mong đợi."
+      },
+      "study_abroad": {
+        "upright": "Cơ hội du học đang đến, đòi hỏi một quyết định dũng cảm và cân nhắc kỹ lưỡng. Hãy lắng nghe trái tim, xem xét sự phù hợp với văn hóa mới và giá trị bản thân để đưa ra lựa chọn thay đổi cuộc đời.",
+        "reversed": "Kế hoạch du học có thể gặp trục trặc do những lựa chọn sai lầm, xung đột với gia đình hoặc sự thiếu hòa nhập với môi trường mới."
+      },
+      "self": {
+        "upright": "Bạn đang ở giai ��oạn thấu hiểu sâu sắc bản thân, đưa ra những lựa chọn phù hợp với giá trị và mục đích sống của mình. Đây là thời điểm để bạn kết nối với nội tâm, xây dựng một bản ngã hài hòa và chân thật.",
+        "reversed": "Bạn đang phải vật lộn với những mâu thuẫn nội tâm, sự thiếu định hướng hoặc những lựa chọn không phù hợp với con người thật của mình. Sự phân vân có thể khiến bạn đánh mất bản sắc."
+      },
+      "purpose": {
+        "upright": "Mục đích sống của bạn đang trở nên rõ ràng hơn bao giờ hết, là kết quả của những lựa chọn và trải nghiệm đã qua. Hãy tin tưởng vào con đường mình đã chọn, sống với những giá trị cốt lõi để kiến tạo ý nghĩa.",
+        "reversed": "Bạn đang cảm thấy lạc lối, không tìm thấy mục đích sống hoặc đang đối mặt với những lựa chọn khó khăn về tương lai. Sự bối rối này có thể gây ra cảm giác trống rỗng."
+      },
+      "shadow_self": {
+        "upright": "Đây là thời điểm để đối mặt với những góc khuất, nh���ng lựa chọn sai lầm trong quá khứ và chấp nhận chúng như một phần của bản thân. Sự hòa giải với bóng tối sẽ mang lại sự cân bằng và thấu hiểu sâu sắc hơn.",
+        "reversed": "Những góc tối đang bị chối bỏ hoặc những lựa chọn sai lầm trong quá khứ đang gây ra xung đột nội tâm. Việc không đối diện có thể dẫn đến sự tự hủy hoại hoặc những quyết định không lành mạnh."
+      },
+      "decision": {
+        "upright": "Bạn đang đứng trước một quyết định quan trọng, đòi hỏi sự cân nhắc kỹ lưỡng và lắng nghe trái tim. Hãy tin tưởng vào trực giác và lựa chọn con đường phù hợp nhất với giá trị và mục tiêu của mình.",
+        "reversed": "Sự lưỡng lự, mâu thuẫn nội tâm hoặc những lựa chọn sai lầm có thể dẫn đến hối tiếc. Bạn đang vật lộn để đưa ra một quyết định, và điều này có thể gây ra sự trì trệ."
+      },
+      "travel": {
+        "upright": "Một chuyến đi quan trọng đang chờ đợi, có thể là một chuyến đi lãng mạn hoặc một hành trình đưa bạn đến gần hơn với những giá trị cốt lõi. Hãy đưa ra những lựa chọn thông thái để trải nghiệm trọn vẹn và hài hòa.",
+        "reversed": "Chuyến đi có thể gặp phải những trục trặc do những lựa chọn sai lầm, sự bất hòa với người đồng hành hoặc những rắc rối không mong muốn."
       },
       "spiritual": {
-        "up": "Bạn học cách thấu hiểu và yêu thương bản thân trọn vẹn. Chấp nhận cả mặt tốt lẫn mặt xấu của mình (shadow work).",
-        "rev": "Sự giằng xé giữa các niềm tin tôn giáo hoặc tâm linh. Tránh xa ánh sáng bên trong vì cảm thấy không xứng đáng.",
-        "upright": "Hành trình thấu cảm và yêu thương trọn vẹn bản thân. Nhìn thấu bóng tối (shadow) và ánh sáng bên trong mình để đạt đến sự hợp nhất thiêng liêng.",
-        "reversed": "Tự dối mình, trốn tránh ánh sáng nội tại vì cảm thấy bản thân không xứng đáng được yêu thương và chở che."
+        "upright": "Hành trình tâm linh đang đưa bạn đến một điểm giao thoa quan trọng, nơi bạn phải đưa ra những lựa chọn sâu sắc về niềm tin và giá trị. Đây là thời điểm để kết nối với cái tôi cao hơn, tìm thấy sự hài hòa nội tại.",
+        "reversed": "Bạn đang vật lộn với những mâu thuẫn trong niềm tin, sự thiếu định hướng hoặc những lựa chọn tâm linh sai lầm. Có thể bạn đang cảm thấy lạc lõng hoặc không tìm thấy sự kết nối thiêng liêng."
+      },
+      "general": {
+        "upright": "Lá bài Tình Nhân xuất hiện báo hiệu một giai đoạn của những lựa chọn quan trọng và sự hài hòa đến từ các mối quan hệ. Hãy lắng nghe trái tim, tin tưởng vào trực giác và ��ưa ra những quyết định đúng đắn để kiến tạo một tương lai đầy tình yêu và sự kết nối.",
+        "reversed": "Một giai đoạn đầy rẫy những mâu thuẫn, lựa chọn sai lầm hoặc sự thiếu hài hòa trong cuộc sống. Cẩn trọng với những quyết định vội vàng, vì chúng có thể dẫn đến sự chia rẽ và hối tiếc."
       }
     },
     "advice": "Dù đứng trước bất kỳ ngã rẽ nào, hãy để trái tim thuần khiết và sự trung thực tuyệt đối dẫn lối cho bạn.",
@@ -622,34 +1272,164 @@ window.TAROT_DB = [
     "reversed": "Sự cô lập kéo dài, từ chối xã giao đến mức cực đoan, hoặc ngược lại là đang từ chối việc ở một mình để suy ngẫm vì sợ hãi sự trống rỗng bên trong.",
     "aspects": {
       "love": {
-        "up": "Nếu đang độc thân, bạn ưu tiên tự do và khám phá bản thân hơn. Nếu có đôi, có thể hai người cần không gian riêng để suy nghĩ về mối quan hệ.",
-        "rev": "Cảm thấy cô đơn ngay cả khi đang ở trong một mối quan hệ. Có sự rạn nứt vì cả hai rút lui vào thế giới riêng.",
-        "upright": "Tình yêu lùi lại nhường chỗ cho ưu tiên phát triển bản ngã. Bạn khao khát không gian riêng tư tĩnh lặng để chiêm nghiệm lại giá trị cốt lõi của tình cảm.",
-        "reversed": "Sự cô đơn buốt giá ngay cả khi đang có đôi có cặp. Cánh cửa trái tim đóng sập, từ chối mọi nỗ lực kết nối từ đối phương."
+        "upright": "Tình yêu gõ cửa đòi hỏi một khoảng lặng thiêng liêng để chiêm nghiệm, tìm thấy chiều sâu thực sự. Lá bài khuyên bạn hãy rút lui khỏi những ồn ào phù phiếm, lắng nghe tiếng lòng để hiểu rõ những khao khát nội tâm, từ đó xây đắp một kết nối chân thành và bền vững.",
+        "reversed": "Có một nhịp lỗi trong bản hòa ca tình cảm; mối quan hệ dường như đang chơi vơi giữa sự lạnh lẽo vì xa cách tâm hồn hoặc vì một trong hai người tự cô lập bản thân. Đừng tự giam mình trong bức tường cô độc hay chạy trốn khỏi sự gần gũi thực sự vì nỗi sợ hãi."
+      },
+      "ex": {
+        "upright": "Giống như Ẩn Sĩ lùi về hang động để chiêm nghiệm, vũ trụ khuyên bạn hãy mạnh dạn dành thời gian một mình để phân tích, học hỏi từ những sai lầm và trưởng thành từ đoạn tình cảm đã qua. Sự thật và bài học ẩn giấu sẽ soi sáng con đường phía trước.",
+        "reversed": "Hồi tưởng về người cũ lúc này mang theo năng lượng của sự cô lập và cố chấp. Cảm xúc bám víu vào quá khứ hoặc việc từ chối đối diện với sự thật sẽ chỉ kéo dài nỗi đau và cản trở bạn bước tiếp trên hành trình trưởng thành."
+      },
+      "current_love": {
+        "upright": "Mối duyên của bạn đang khát khao một khoảng lặng để chiêm nghiệm sâu sắc hơn về giá trị và định hướng chung. Đã đến lúc nắm tay đối phương cùng rút lui khỏi sự ồn ào, lắng nghe tiếng lòng mỗi người để làm giàu thêm tình yêu bằng chiều sâu tâm hồn và trí tuệ.",
+        "reversed": "Lá bài chói lên hồi chuông cảnh báo về sự xa cách trong tâm hồn, dù hai bạn có thể vẫn ở gần nhau. Lời nói thiếu chia sẻ hoặc hành động tự cô lập sẽ vô tình để lại vết xước khó lòng xóa nhòa, khiến mối quan hệ trở nên lạnh lẽo."
+      },
+      "ambiguous": {
+        "upright": "Tình trạng mập mờ vốn dĩ mang trong mình vẻ đẹp của sự chiêm nghiệm. Thay vì cố gắng định danh hay ép buộc tương lai, hãy rút lui vào nội tâm, tìm kiếm câu trả lời từ sâu thẳm bên trong. Sự tĩnh lặng sẽ tự nhiên đưa đường dẫn lối đến bến bờ rõ ràng.",
+        "reversed": "Phía sau tấm màn sương mù của sự mập mờ ấy là nguy cơ cô lập bản thân trong nỗi lo sợ. Sự thiếu vắng cam kết đang dần biến bạn thành một con rối bơ vơ. Đã đến lúc nhìn thấu sự thật thay vì tự dối lừa trái tim mình hay từ chối lời khuyên chân thành."
+      },
+      "crush": {
+        "upright": "Năng lượng rực rỡ của The Hermit trao cho bạn dũng khí để chiêm nghiệm trước khi hành động. Hãy dành thời gian một mình để t��� vấn, hiểu rõ cảm xúc của mình và tìm kiếm sự khôn ngoan trước khi tiến tới. Dù kết quả ra sao, linh hồn bạn cũng sẽ được giải phóng khỏi sự hồ nghi.",
+        "reversed": "Cảm giác rung động này dường như nhuốm màu ảo tưởng và sự cô lập. Bạn đang đeo một lăng kính màu hồng để chiêm ngưỡng một hình bóng không dành riêng cho bạn, hoặc đang tự nhốt mình trong sự rụt rè quá mức. Cẩn trọng với những quyết định bộc phát có thể gây tổn thương cho chính mình."
+      },
+      "future_love": {
+        "upright": "Bức tranh tình duyên sắp tới sẽ là một chuyến hành trình sâu sắc và trưởng thành. Người ấy sẽ bước vào thế giới của bạn mang theo năng lượng của trí tuệ, sự độc lập, gỡ bỏ mọi rào cản định kiến và cùng bạn khám phá chiều sâu tâm hồn.",
+        "reversed": "Cảnh giác với những cuộc gặp gỡ nhuốm màu cô độc, vì sắp tới bạn dễ chạm mặt một tâm hồn lảng tránh sự kết nối sâu sắc hoặc chỉ muốn được chiêm ngưỡng từ xa. Hãy giữ lý trí tỉnh táo trước khi trao đi hạt giống tình yêu cho nhầm mảnh đất."
+      },
+      "someone": {
+        "upright": "Đối với người ấy, bạn là một người thầy, một hiện diện sâu sắc và đầy ắp những lời khuyên đáng giá. Thế giới nội tâm của họ đang phản chiếu sự bình yên và tin cậy mỗi khi hình bóng bạn lướt qua.",
+        "reversed": "Ở góc độ tiêu cực, cách nhìn nhận của đối phương về bạn có phần xa cách—họ e ngại bạn quá khép kín, khó gần hoặc không đủ linh hoạt để gánh vác tương lai dài lâu."
+      },
+      "marriage": {
+        "upright": "Cam kết lứa đôi đang đứng trước bình minh của sự chiêm nghiệm sâu sắc. Dù là vợ chồng lâu năm hay tương lai gần cập bến đò, cuộc hôn nhân này sẽ được tắm mát bởi nguồn năng lượng trí tuệ, sẵn sàng cùng nhau rút lui để học hỏi và soi sáng con đường chung.",
+        "reversed": "Cột trụ hôn nhân có thể đang lung lay vì lối sống cô lập, phớt lờ nhu cầu của đối phương hoặc gánh nặng trách nhiệm khiến một ng��ời muốn bỏ chạy. Đừng để cảm xúc bốc đồng phá nát sự thiêng liêng đắp xây bấy lâu."
+      },
+      "conflict": {
+        "upright": "Giữa vòng xoáy cãi vã, thi vị của sự tĩnh lặng và suy xét chính là liều thuốc giải. Hãy tiếp cận mâu thuẫn bằng một trái tim khôn ngoan không mang theo hận thù, một tâm hồn kiên nhẫn gạt bỏ lỗi lầm để cùng nhau xoa dịu những rạn nứt.",
+        "reversed": "Nhát dao vô hình được vung lên từ những câu từ nóng giận chưa qua suy nghĩ. Lòng tự ái mù quáng hoặc thái độ cố chấp tự cô lập bản thân trong cơn giận dữ sẽ chỉ đẩy mâu thuẫn vào tột cùng của ngõ cụt."
+      },
+      "breakup": {
+        "upright": "Sự tan vỡ chỉ là tiếng pháo hiệu mở ra một hành trình chiêm nghiệm và chữa lành. Hãy tha thứ cho những gì đã qua, đeo balo lên với một đôi mắt vô ưu hướng về bình minh phía trước. Vũ trụ đã dọn đường cho bạn tự do lột xác và tìm thấy sự bình yên nội tại.",
+        "reversed": "Bóng ma của thù hận hoặc nỗi đau hậu chia tay đang quấn lấy đôi chân bạn. Việc cư xử thiếu lý trí hay buông lời cay đắng để trả đũa sẽ chỉ ghim chặt bạn lại trong vũng lầy của đớn đau, hoặc bạn đang tự cô lập mình trong nỗi cô đơn. "
+      },
+      "long_distance": {
+        "upright": "Khoảng cách địa lý lúc này dường như bị thu bé lại bởi năng lượng lãng mạn vô bờ và tinh thần chiêm nghiệm đáng ngưỡng mộ. Mọi thử thách không gian chỉ là thứ gia vị làm đậm đà thêm chuyến phiêu lưu tình ái của hai tâm hồn sâu sắc và tin tưởng vào nhau.",
+        "reversed": "Đôi cánh tự do khi không có sự ràng buộc hiện hữu rất dễ sa đà vào sự cô lập. Cạm bẫy và cám dỗ từ xa đang chực chờ nuốt chửng sự chung thủy nếu một trong hai đánh mất đi nguyên tắc sống của mình hoặc không chịu chia sẻ cảm xúc."
+      },
+      "jealousy": {
+        "upright": "Hoài nghi là đám mây mù giăng kín mặt trời rực rỡ. Sự chiêm nghiệm sâu sắc về những bất an nội tại và niềm tin toàn vẹn là lời khuyên vũ trụ dành cho bạn. Xóa bỏ rào cản đa nghi, tình yêu sẽ tự khắc thanh tịnh và vui tươi.",
+        "reversed": "Lá bài đảo ngược lật tẩy sự ghen tuông điên cuồng thiếu kiểm soát, hoặc tệ hơn, sự ngây ngô quá mức đang bị đối phương qua mặt một cách đau đớn. Đừng tự cô lập mình trong nỗi sợ hãi mà hãy tìm kiếm sự thật."
+      },
+      "self_love": {
+        "upright": "Hành trình yêu bản thân khởi nguồn từ việc đón nhận đứa trẻ bên trong bạn một cách toàn vẹn nhất. Cho phép bản thân được phép chiêm nghiệm, được phép làm sai và sống tự do ngoài khuôn miệng phán xét của thế gian. Bạn rực rỡ nhất khi là chính mình trong sự tĩnh lặng.",
+        "reversed": "Yêu bản thân không đồng nghĩa với buông thả hoặc trốn tránh trách nhiệm. Bạn đang có xu hướng nuông chiều những bốc đồng có hại, ngộ nhận sự thiếu kỉ luật là tự do, hoặc tự cô lập mình trong một thế giới ảo ảnh."
       },
       "career": {
-        "up": "Bạn đang đặt câu hỏi về định hướng nghề nghiệp của mình (liệu nó có phù hợp với mục tiêu sâu xa không). Cần thời gian tạm nghỉ để lên kế hoạch mới.",
-        "rev": "Tự cô lập mình khỏi đồng nghiệp, không hợp tác làm việc nhóm. Môi trường làm việc khiến bạn lạc lõng.",
-        "upright": "Dừng lại một nhịp để định vị la bàn sự nghiệp. Tự hỏi bản thân xem con đường hiện tại có thực sự phản chiếu khát vọng sâu thẳm nhất của linh hồn không.",
-        "reversed": "Tự tách mình ra khỏi tập thể, khước từ hợp tác. Cảm giác lạc lõng, bơ vơ giữa chốn công sở đông người."
+        "upright": "Con đường công danh đang mở ra một trang giấy trắng tinh khôi, chờ đợi bạn tự do chiêm nghi��m và định hình. Đừng e ngại việc dấn thân vào những lĩnh vực chưa từng chạm tới, miễn là bạn có sự nghiên cứu kỹ lưỡng. Tinh thần không sợ hãi và tư duy sâu sắc sẽ kiến tạo nên những bước ngoặt thần kỳ.",
+        "reversed": "Một tiếng thở dài nhắc nhở về những sự hấp tấp trên chốn thương trường. Làm việc tùy hứng, thiếu tính kỷ luật và thiếu chiến lược phòng bị sẽ đẩy sự nghiệp của bạn rơi tự do xuống vực sâu hoang mang, hoặc bạn đang tự cô lập mình khỏi những cơ hội kết nối giá trị."
+      },
+      "job_search": {
+        "upright": "Ngọn gió thời cơ đang thổi về phía bạn một công việc lạ lẫm đầy thú vị. Sự cầu thị hồn nhiên, sức chiêm nghiệm không mệt mỏi và lòng dũng cảm sẽ chinh phục những vị giám khảo khó tính nhất. Cứ mạnh dạn nộp hồ sơ sau khi đã tìm hiểu kỹ lưỡng!",
+        "reversed": "Những cánh cửa từ chối khép lại do sự hời hợt hoặc ảo vọng kiêu ngạo từ phía chính bạn. Khinh suất trong việc chuẩn bị kĩ năng sẽ khiến mọi nỗ lực tìm kiếm việc làm tựa dã tràng xe cát. Có thể bạn đang tự cô lập mình khỏi những nguồn thông tin quý giá."
+      },
+      "promotion": {
+        "upright": "Bước lên nấc thang mới đòi hỏi ở bạn sự liều lĩnh táo bạo thoát khỏi mọi mô-típ làm việc cũ kĩ. Nhận một nhiệm vụ khó nhằn mà bạn chưa dạn dày kinh nghiệm lại chính là chiếc khóa vạn năng cho cánh cửa thăng tiến, nhưng phải đi kèm với sự chiêm nghiệm và học hỏi không ngừng.",
+        "reversed": "Thái độ ngông cuồng hoặc đánh giá quá cao giá trị bản thân là tảng đá ngáng đường sự nghiệp. Cấp trên hiện chưa nhìn thấy sự từng trải và trách nhiệm ở bạn để phó thác trọng trách. Sự tự cô lập trong suy nghĩ cũng là một yếu tố cản trở."
+      },
+      "business": {
+        "upright": "Ngọn lửa khởi nghiệp đang bùng cháy trong tâm trí với tiềm năng vô tiền khoáng hậu. Dù hành trang chỉ là sự nhiệt huyết, đây là thời khắc vũ trụ ủng hộ bạn nhen nhóm những đốm lửa đầu tiên trên thương trường, miễn là bạn đã chiêm nghiệm kỹ lưỡng về chiến lược và rủi ro.",
+        "reversed": "Thương trường là chiến trường, không có chỗ cho thứ rủi ro đánh cược mù quáng. Rót vốn liều lĩnh mà bỏ qua lời cảnh báo của số liệu thực tế sẽ kéo theo sự sụp đổ gia sản đau đớn, hoặc bạn đang tự cô lập mình khỏi những lời khuyên hữu ích."
+      },
+      "colleague": {
+        "upright": "Một sự hợp tác bất ngờ, mang lại tiếng cười và cảm hứng đầy mới lạ chốn công sở. Những đối tác hoặc đồng nghiệp có tính tình phóng khoáng sẽ vô tình trở thành đòn bẩy tuyệt vời cho các ý tưởng của bạn, nhưng hãy dành không gian để mỗi người chiêm nghiệm và đóng góp tri thức sâu sắc.",
+        "reversed": "Cẩn trọng với những cá nhân lảng tránh trách nhiệm, thích đùn đẩy và hành xử trẻ con trong tập thể. Vô tư đến mức vô tâm sẽ gây rạn nứt lòng tin giữa các cộng sự, hoặc họ đang tự cô lập mình khỏi các hoạt động chung."
+      },
+      "career_change": {
+        "upright": "Giọng nói thì thầm của linh hồn đang gào thét nhắc nhở bạn rẽ hướng. Đây là lời cổ vũ hoàn mỹ nhất để bạn cự tuyệt sự nhàm chán và chuyển mình mạnh mẽ sang ranh giới nghề nghiệp vô định nhưng tràn ngập ánh sáng, miễn là bạn đã chiêm nghiệm kỹ lưỡng và chuẩn bị sẵn sàng.",
+        "reversed": "Bồng bột từ bỏ chén cơm vì những bất mãn vụn vặt sẽ để lại hậu quả đắng ngắt. Đừng nhảy thuyền khi bầu trời đang giông bão mà bạn lại không trang bị nổi chiếc phao cứu sinh, hoặc đang tự cô lập mình khỏi những nguồn tư vấn đáng tin cậy."
+      },
+      "freelance": {
+        "upright": "Luồng không khí tự do, phóng khoáng của ngọn xê dịch vô hình biến mô hình Freelance trở thành mảnh ghép hoàn mỹ cho bạn lúc này. Sự sáng tạo sẽ được khai phóng mãnh liệt nhất trong vòng tự do cá nhân, đi kèm với sự chiêm nghiệm và kỷ luật tự giác.",
+        "reversed": "Một tiếng thở đánh thót do sự thiếu ý thức về thời gian. Dòng chảy linh hoạt đang biến bạn trở nên vô kỷ luật, làm mai một uy tín chuyên môn do thói quen làm việc trễ nải, hoặc bạn đang tự cô lập mình khỏi các cơ hội hợp tác và học hỏi."
+      },
+      "interview": {
+        "upright": "Bước chân vào căn phòng phỏng vấn với khí chất tự tin pha chút ngây ngô trong trẻo. Nét cá tính nguyên bản, sự tư duy mở và linh hoạt chính là ma lực hấp dẫn ánh nhìn của hội đồng tuyển dụng, nhưng điều quan trọng nhất là khả năng chiêm nghiệm và trình bày có chiều sâu.",
+        "reversed": "Bị đánh trượt do những phát ngôn rỗng tuếch hoặc thái độ cợt nhả không lường trước. Tự do ngôn luận sai bối cảnh là nấm mồ chôn vùi cơ hội thành công của vòng thi này. Có thể bạn đã tự cô lập mình trong suy nghĩ mà không chuẩn bị kỹ lưỡng."
       },
       "finance": {
-        "up": "Lá bài không quan tâm đến vật chất. Khuyên bạn nên đánh giá lại các khoản chi tiêu xem điều gì mới thực sự mang lại hạnh phúc cho bạn.",
-        "rev": "Bạn có thể đang phớt lờ các lời khuyên đúng đắn về tài chính hoặc từ chối đối mặt với nợ nần.",
-        "upright": "Sự thông thái trong quản lý chi tiêu. Bạn nhận ra vật chất phù phiếm không thể lấp đầy khoảng trống tâm hồn, lựa chọn lối sống tối giản, thanh tịnh.",
-        "reversed": "Mắc kẹt trong rắc rối tài chính vì bỏ ngoài tai lời can ngăn từ người có kinh nghiệm. Cố chấp đâm đầu vào ngõ cụt."
+        "upright": "Không gian tài chính bắt đầu mở khóa cho những vận hội tiềm năng bất chợt. Một tâm thái không sợ hãi sẽ mang đến cho bạn ý tưởng đột phá về tiền bạc; dĩ nhiên, nó đòi hỏi bạn bước đi với trực giác thanh khiết và sự chiêm nghiệm sâu sắc.",
+        "reversed": "Chiếc túi không đáy của sự chi tiêu phù phiếm đang kêu gào. Năng lượng The Hermit ngược lên án kịch liệt chuỗi hành động xuất tiền theo cảm xúc và những giấc mộng làm giàu ảo ảnh, hoặc bạn đang tự cô lập mình khỏi những lời khuyên tài chính khôn ngoan."
+      },
+      "investment": {
+        "upright": "Cánh cửa dẫn lối tới ranh giới đầu tư lạ kỳ đầy hứa hẹn. Số vốn trích từ tiền nhàn rỗi có thể thả trôi vào dòng nước mới, vì vũ trụ đang ngáng tay tạo ra mức rủi ro có thể chịu đựng nhưng mang về nhiều ngạc nhiên, miễn là bạn đã chiêm nghiệm kỹ lưỡng và có tầm nhìn xa.",
+        "reversed": "Sa chân vào bùn lầy của sự ngu ngốc tài chính! Tin lời đường mật, phó mặc gia tài cho bầy sói trên thương trường là hậu quả báo trước của thái độ làm giàu dễ dãi và thiếu học hỏi. Hoặc bạn đang tự cô lập mình trong những quyết định đầu tư mạo hiểm."
+      },
+      "debt": {
+        "upright": "Phủi lớp bụi ảm đạm đi, đứng lên với tư duy dẹp tan mọi u ám. Việc áp dụng cách thoát nợ ngoài khuôn khổ truyền thống, lạc quan đối mặt là ánh sáng le lói cứu rỗi túi tiền, đi kèm với sự chiêm nghiệm kỹ lưỡng và lập kế hoạch rõ ràng.",
+        "reversed": "Chui đầu xuống cát đà điểu không làm số nợ biến mất. Việc phớt lờ thực tại ngân quỹ đang gióng lên hồi chuông báo động đỏ, kéo dài hơn những ngày tháng vay mượn. Hoặc bạn đang tự cô lập mình khỏi những giải pháp và lời khuyên hữu ích."
+      },
+      "savings": {
+        "upright": "Hành trình tích lũy tài nguyên vĩ đại khởi nguồn từ tâm niệm thanh khiết của một đốm sáng nhỏ bé. Không bao giờ là quá muộn để góp nhặt tài sản, miễn là bạn giữ được niềm tin hồn nhiên khi gieo trồng chúng, đi kèm với sự chiêm nghiệm và kỷ luật tài chính.",
+        "reversed": "Thú vui bộc phát bóp nát mọi phòng tuyến tiết kiệm! Khao khát tận hưởng ngắn hạn đã nhẫn tâm đánh tráo tấm l�� chắn bảo hộ cho tương lai của bạn. Hoặc bạn đang tự cô lập mình khỏi những mục tiêu tài chính dài hạn."
+      },
+      "luck_money": {
+        "upright": "Mây xanh vén màn trao xuống những lộc rơi, lộc vãi giời ơi đất hỡi vô cùng duyên dáng. Hãy mở lòng hân hoan tiếp nhận ân sủng một cách tự nhiên, vì bản thân bạn hoàn toàn xứng đáng với món quà chớp nhoáng đó, đi kèm với sự chiêm nghiệm về giá trị và mục đích sử dụng.",
+        "reversed": "Đồng tiền phù du không cứu cánh cho những lười nhác đời thường. Cơn khát đỏ đen mù quáng sẽ gặm nhấm hi vọng và để lại trái đắng thay vì túi vàng may mắn. Hoặc bạn đang tự cô lập mình trong những ảo tưởng về sự giàu có nhanh chóng."
       },
       "health": {
-        "up": "Thời gian tuyệt vời để nghỉ ngơi, phục hồi sức khỏe và thanh lọc cơ thể. Thiền định sẽ đem lại lợi ích lớn.",
-        "rev": "Các vấn đề tâm lý như trầm cảm, thu mình quá mức. Cần phải ra ngoài và tìm kiếm sự kết nối xã hội để tốt cho sức khỏe tinh thần.",
-        "upright": "Khoảng thời gian vàng để cơ thể được thanh lọc, chữa lành. Hãy tìm đến thiền định, yoga hoặc những chuyến đi ẩn tu để nạp lại sinh khí.",
-        "reversed": "Những đám mây mù trầm cảm, lo âu bao phủ. Cần bước ra khỏi vùng tối và tìm kiếm ánh sáng từ sự giúp đỡ cộng đồng."
+        "upright": "Sự bừng sáng của vạn vật báo hiệu luồng sinh khí đang được bơm căng đầy trong lồng ngực. Một lộ trình trị liệu khác truyền thống hay một thói quen luyện tập đầy tính thử nghiệm sẽ giúp cơ thể lột xác tráng kiện, đi kèm với sự chiêm nghiệm sâu sắc về nhu cầu của cơ thể.",
+        "reversed": "Những tai nạn nhỏ nhặt ngoài dự định rất dễ xuất hiện từ thói chủ quan cợt nhả. Mầm bệnh đang âm thầm mượn lớp vỏ bọc bình dị, yêu cầu thiết lập lại ranh giới về cách chăm sóc sức khỏe. Hoặc bạn đang tự cô lập mình khỏi những lời khuyên y tế chuyên nghiệp."
+      },
+      "mental": {
+        "upright": "Viển vông thoát khỏi những chằng xích giam cầm tâm hồn! Bóng đêm lo âu chính thức bị đập vỡ, nhường ngôi vương cho một mảng trời cởi mở, vô ưu, cho trải nghiệm hít thở trọn vẹn từng sát na hiện tại, nhờ sự chiêm nghiệm và thiền định sâu sắc.",
+        "reversed": "Việc cuộn tròn trong ảo cảnh (escapism) đang che đậy cho một hố đen tâm lí hoảng loạn. Ngó lơ sang một bề không phải là cách làm xói mòn tổn thương của những tâm hồn giấu kín. Hoặc bạn đang tự cô lập mình khỏi sự hỗ trợ tâm lý cần thiết."
+      },
+      "energy": {
+        "upright": "Luân xa gốc rễ của bạn đang vỗ về theo điệu nhạc của sự phục sinh nguyên bản. Tràn trề một thứ ánh sáng thuần khiết, năng lượng bên trong hòa với vũ trụ để sẵn sàng chinh phục hành trình kế tiếp, nhờ sự tĩnh lặng và chiêm nghiệm sâu sắc.",
+        "reversed": "Mất kết nối với Đất Mẹ và cội nguồn! Dòng năng lượng phung phí vào sự hỗn mang vô ý thức khiến trung tâm nhận thức trở nên lơ lửng, rời rạc và hoang tàn. Hoặc bạn đang tự cô lập mình khỏi những nguồn năng lượng tích cực từ cộng đồng."
+      },
+      "family": {
+        "upright": "Không khí gia tộc dấy lên bầu nhiệt huyết êm dịu. Có thể là lời chúc mừng đón chào sinh mệnh mới, hoặc năng lượng đoàn viên tự do phá vỡ những lề lói khắt khe gò bó từ thời tiền nhân, đi kèm với sự chiêm nghiệm về vai trò và trách nhiệm của mỗi thành viên.",
+        "reversed": "Thái độ ngông nghênh của một con cừu non cứng đầu đang gây chao đảo tính kỷ cương trong tổ ấm. Hãy cẩn trọng để ý các bước đi dại dột tạo vết thương sâu lên tổ ấm b��nh yên. Hoặc một thành viên đang tự cô lập mình khỏi sự gắn kết gia đình."
+      },
+      "diet": {
+        "upright": "Chấp nhận sự tự do trong việc nạp năng lượng! Gỡ bỏ những kíp nổ ép buộc về cân nặng, lắng nghe khẩu vị nguyên sơ của trực giác để nếm trải sự ngon lành bằng cả trí và lực, đi kèm với sự chiêm nghiệm kỹ lưỡng về cơ thể và nhu cầu dinh dưỡng.",
+        "reversed": "Tính bốc chốc, ăn theo phong trào thiếu bền vững kiến thiết nên một thể trạng bấp bênh. Kỉ luật lỏng lẻo đang đánh đổi năng lượng cho những đồ ăn độc hại kém vi chất. Hoặc bạn đang tự cô lập mình khỏi những kiến thức dinh dưỡng khoa học."
+      },
+      "study": {
+        "upright": "Khai trí như một tờ giấy nguyên sơ. Bước chân khát khao tiến vào tòa lâu đài học thuật với một đôi mắt tròn xoe ngỡ ngàng sẽ giúp tri thức dễ dàng thẩm thấu vào tầng sâu nhận thức nhất, nhờ sự tập trung cao độ và chiêm nghiệm sâu sắc.",
+        "reversed": "Tư tưởng lạc lõng, thiếu bền chí ngốn sạch sự thông tuệ của não bộ. Đây là dấu hiệu của việc cưỡi ngựa xem hoa trong học thuật mà không đâm chồi rễ vững chắc ở bộ môn cốt yếu. Hoặc bạn đang tự cô lập mình khỏi những cơ hội học hỏi và trao đổi."
+      },
+      "study_abroad": {
+        "upright": "Hộ chiếu đã sẵn sàng trên tay! Phóng tầm nhìn về miền đất hứa, xé rào cản quốc giới. Môi trường dị biệt hoàn toàn là một khung cảnh trong mơ nuôi dưỡng ý chí sinh tồn hào hùng đang chảy trong máu, đi kèm với sự chiêm nghiệm và chuẩn bị kỹ lưỡng về kiến thức, văn hóa.",
+        "reversed": "Hao hụt sự chu đáo là nhát dao cứa lòng đối với một chuyến di cư tri thức xa xôi. Bạn có thể bị sốc văn hóa và mất phương hướng dữ dội giữa biển người xa lạ nếu tiếp tục vô lo vô nghĩ, hoặc tự cô lập mình khỏi cộng đồng mới."
+      },
+      "self": {
+        "upright": "Hành trình bóc tách từng lớp vỏ bọc giả tạo. Không có gì uy nghiêm bằng việc nhìn thẳng vào nguyên bản cá thể tự do, sống vô u�� và rực sáng như chính bản ngã The Hermit sâu sắc và thông thái, nhờ sự chiêm nghiệm và tĩnh lặng nội tâm.",
+        "reversed": "Chênh vênh đi tìm ngã giữa bôn ba đời. Lập trường đứt ngọn khiến bản ngã trở thành một lớp sương mù, trượt theo đám đông mà đánh mất thứ hào quang lấp lánh vốn dĩ của cá thể. Hoặc bạn đang tự cô lập mình trong nỗi cô đơn và sự tự ti."
+      },
+      "purpose": {
+        "upright": "Lý tưởng của bạn sinh ra trên trái đất này là tưới mát những tâm hồn héo mòn bằng hạt mưa của niềm tin thuần khiết. Gieo rắc sự lạc quan là sứ mệnh tối cao dệt nên hạnh phúc và quả ngọt, nhưng điều đó đến từ sự chiêm nghiệm sâu sắc về mục đích sống của chính bạn.",
+        "reversed": "Khao khát sống vĩ cuồng mịt mù phương thức. Đắn đo, lang bạt tìm mục đích trong vô vọng, thay vì đi bằng trái tim lại chạy đi kiếm ở ảo vật bên ngoài. Hoặc bạn đang tự cô lập mình khỏi những nguồn cảm hứng và định hướng thực sự."
+      },
+      "shadow_self": {
+        "upright": "Ôm ấp góc tối yếu mềm, vụng dại (inner child). Những lầm lỗi trẻ dại từng mang, hãy nâng niu chúng vì rốt cục nó mới là chất liệu vẽ nên bức chân dung đa diện của sự sống sinh thành, thông qua sự chiêm nghiệm và chấp nhận sâu sắc.",
+        "reversed": "Hội chứng Peter Pan gặm nhấm ý thức, ru ngủ bóng đêm trong chiếc nôi mang tên chối bỏ kỷ luật và trưởng thành. Ánh sáng không chiếu rọi được kẽ hở khi ta từ chối làm người lớn. Hoặc bạn đang tự cô lập mình khỏi việc đối diện với những khuyết điểm."
+      },
+      "decision": {
+        "upright": "Giây phút rũ lòng bước vào cú ngã thiên thần (Leap of faith). Bạn đã ở bờ vực, trái tim tự khắc sẽ bung đôi cánh vô hình. Đừng do dự tung mình đón chiều gió để dệt thay định số, nhưng phải đi kèm với sự chiêm nghiệm kỹ lưỡng và lắng nghe trực giác.",
+        "reversed": "Ranh giới của lòng dũng cảm và sự xuẩn ngốc hiện rất đỗi mong manh. Lao đầu vào khi mắt vẫn còn nhắm nghiền ch��� đổi lại thương tích sâu kín, đừng manh động đưa bài vội. Hoặc bạn đang tự cô lập mình trong những quyết định thiếu suy xét."
+      },
+      "travel": {
+        "upright": "Lên đường mà chẳng cần la bàn hay điểm đến cụ thể. Chính sự lang thang vô định lại thắp sáng khao khát tự do, rửa trôi ưu phiền, đưa cõi lòng phiêu diêu đến vùng bình yên vô giá, nếu bạn biết cách chiêm nghiệm và học hỏi từ mỗi nơi mình đặt chân đến.",
+        "reversed": "Tâm hồn xao nhãng hoặc bất cẩn tạo ra sự xáo trộn bất bình thường trong hành trình. Sự cố lạc đồ, nhầm giờ sẽ làm hỏng bức ảnh du ca mộng mơ nếu bỏ quên kỉ cương xê dịch, hoặc bạn đang tự cô lập mình khỏi những trải nghiệm tương tác với địa phương."
       },
       "spiritual": {
-        "up": "Bạn là một người dẫn đường thực sự (cầm chiếc đèn lồng). Tìm thấy ánh sáng chân lý, sống chánh niệm.",
-        "rev": "Mắc kẹt trong bóng tối. Không tìm ra lối đi cho tâm trí, từ chối giúp đỡ của người khác.",
-        "upright": "Trở thành ngọn hải đăng cho chính mình và người lạc lối. Hành trình giác ngộ mở ra những chân trời nhận thức mới mẻ.",
-        "reversed": "Lạc lối trong bóng đêm vô minh. Khước từ sự cứu rỗi từ vũ trụ, để mặc linh hồn chìm nghỉm trong sự cô độc."
+        "upright": "Đôi tay rũ bỏ xiềng xích của cõi vật chất, ngẩng mặt hướng tâm hồn cất cánh vào cõi siêu nhiên. Đây là hồi chuông đầu tiên đánh thức sự giác ngộ vĩ đại nhất, đi tìm Chân - Thiện - Mỹ mà không lệ thuộc vào bất kỳ giáo phái gò bó nào, nhờ sự chiêm nghiệm và tĩnh lặng nội tâm sâu sắc.",
+        "reversed": "Mất phương vị trong dòng hải lưu tâm linh vô tận. Cố gắng cắm rễ đức tin vào những mảnh đất cằn cỗi bằng thứ lí thuyết hời hợt, để rồi hụt bước chơi vơi giữa vô luân. Hoặc bạn đang tự cô lập mình khỏi những nguồn hướng dẫn tâm linh đích thực."
+      },
+      "general": {
+        "upright": "Bức tranh của tạo hóa dang tay đón đợi bạn! Vũ trụ gửi gắm một lời thì thầm: Hãy khởi đầu, hãy bước tới vô định mà chẳng màng sợ hãi. Lăng kính nguyên thủy, đầy tươi mới của Kẻ Ngốc sẽ vén lên bức màn kỳ tích mà bạn hằng tìm kiếm.",
+        "reversed": "Bầu trời có thể sáng chói nhưng sát sườn lại là khe sâu không đáy. Sự phớt lờ cảnh báo từ thực tại và chạy theo tiếng vãn lầm lỗi có thể là án tử cho chuyến đi chưa kịp rực rỡ đã tàn úa."
       }
     },
     "advice": "Câu trả lời bạn mỏi mắt kiếm tìm không nằm ở thế giới ngoài kia, nó đang ngủ quên ngay trong sâu thẳm tâm hồn bạn.",
@@ -688,34 +1468,164 @@ window.TAROT_DB = [
     "reversed": "Sự đen đủi, một chuỗi sự kiện nằm ngoài tầm kiểm soát khiến bạn đi xuống. Tuy nhiên, nó cũng nhắc nhở bạn rằng điều tồi tệ này rồi cũng sẽ qua, vì bánh xe vẫn đang quay.",
     "aspects": {
       "love": {
-        "up": "Một thay đổi lớn trong chuyện tình cảm (gặp gỡ định mệnh, hoặc bước sang một giai đoạn mới của tình yêu). Cuộc sống tình cảm của bạn sẽ có những bất ngờ thú vị.",
-        "rev": "Rơi vào giai đoạn xui xẻo trong tình cảm, gặp trắc trở, hoặc mối quan hệ đang tụt dốc. Đừng cố chấp, hãy thuận theo tự nhiên.",
-        "upright": "Bàn tay vô hình của số phận dệt nên mối duyên tiền định. Những sự kiện ngẫu nhiên sẽ gắn kết hai linh hồn lại với nhau trong vũ điệu tình yêu bất ngờ, say đắm.",
-        "reversed": "Cuộc tình rơi vào khoảng lặng trầm buồn, trắc trở ngoài ý muốn cản bước hai người. Đừng cố cưỡng cầu, hãy để dòng chảy tự nhiên đưa đường dẫn lối."
+        "upright": "Bánh xe định mệnh xoay chuyển, mang đến một chương mới đầy bất ngờ và ý nghĩa cho tình yêu. Mối duyên tiền định có thể gõ cửa, hoặc mối quan hệ hiện tại sẽ trải qua một bước ngoặt tích cực, sâu sắc hơn. Hãy đón nhận sự thay đổi như một lẽ tất yếu.",
+        "reversed": "Vòng quay số phận đang thử thách trái tim bạn; tình yêu gặp phải những trở ngại không lường trước hoặc cảm giác bế tắc, lặp lại những sai lầm cũ. Hãy cảnh giác với sự bất ổn và khó khăn trong giao tiếp, đừng để mình bị cuốn vào vòng xoáy tiêu cực."
+      },
+      "ex": {
+        "upright": "Một vòng tròn khép lại nhưng cũng mở ra cơ hội bất ngờ: người cũ có thể trở lại với một diện mạo hoàn toàn mới, hoặc bạn sẽ tìm thấy sự giải thoát khỏi chu kỳ cũ, hướng tới tương lai tốt đẹp hơn. Định mệnh đang cho bạn một cơ hội để viết lại câu chuyện.",
+        "reversed": "Định mệnh dường như không muốn bạn quay đầu. Việc níu kéo quá khứ chỉ mang lại những chuỗi ngày luẩn quẩn, lặp lại tổn thương và cảm giác mắc kẹt. Hãy chấp nhận vận rủi đã qua và tìm kiếm bình yên trong hiện tại, thay vì chống lại vòng quay của số phận."
+      },
+      "current_love": {
+        "upright": "Tình yêu của bạn đang ở điểm xoay chuyển trọng đại. Một sự kiện bất ngờ sẽ đưa mối quan hệ lên tầm cao mới, củng cố thêm sợi dây gắn kết. Hãy đón nhận sự thay đổi với trái tim rộng mở, vì đây là lúc tình cảm thăng hoa theo một hướng mới lạ.",
+        "reversed": "Mối quan hệ đang đối mặt với những biến cố ngoài ý muốn, tạo ra cảm giác bất ổn hoặc trì trệ. Chu kỳ khó khăn cần sự kiên nhẫn và nỗ lực để vượt qua, tránh đổ lỗi cho số phận và tìm cách chủ động phá vỡ vòng lặp tiêu cực."
+      },
+      "ambiguous": {
+        "upright": "Màn sương mờ của sự mập mờ sắp được định mệnh vén lên. Một sự kiện bất ngờ sẽ làm rõ mối quan hệ này, đưa nó vào một chu kỳ mới, hoặc mang lại câu trả lời mà bạn chờ đợi. Hãy tin tưởng vào dòng chảy của số phận.",
+        "reversed": "Tình trạng không rõ ràng này đang kéo dài một cách vô vọng, như một vòng lặp không lối thoát. Những yếu tố bên ngoài hoặc sự chần chừ đang cản trở một quyết định rõ ràng, khiến bạn cảm thấy bị động và thiếu kiểm soát."
+      },
+      "crush": {
+        "upright": "Một cơ hội định mệnh để bạn tiến gần hơn tới người trong mộng. Vòng quay may mắn đang đến, hãy nắm bắt khoảnh khắc bất ngờ để tạo ấn tượng hoặc bày tỏ cảm xúc của mình. Duyên phận đang mỉm cười với bạn.",
+        "reversed": "Dường như duyên phận chưa tới hoặc đang bị cản trở bởi những yếu tố không lường trước. Đừng cố ép buộc; sự vội vàng có thể mang lại kết quả không mong muốn và cảm giác thất vọng. Hãy để mọi chuyện thuận theo tự nhiên."
+      },
+      "future_love": {
+        "upright": "Bánh xe định mệnh đang lăn, sắp sửa mang đến một nhân duyên bất ngờ, một cuộc gặp gỡ định mệnh thay đổi cuộc đời. Hãy chuẩn bị cho một chương mới đầy may mắn và sự thay đổi trong tình yêu, bởi vũ trụ đang có kế hoạch cho bạn.",
+        "reversed": "Cảnh giác với những mối quan hệ đến một cách ngẫu nhiên nhưng không ổn định, hoặc những chu kỳ lặp lại của sự thất vọng. Định mệnh có thể đang trì hoãn hoặc thử thách bạn, đừng vội vàng gieo mình vào những kết nối thiếu bền vững."
+      },
+      "someone": {
+        "upright": "Trong mắt người ấy, bạn là một phần của dòng chảy định mệnh. Họ cảm nhận được sự kết nối đ���c biệt, như thể số phận đã an bài cho sự xuất hiện của bạn trong cuộc đời họ, mang đến may mắn và sự thay đổi tích cực.",
+        "reversed": "Người ấy có thể nhìn nhận bạn như một yếu tố gây xáo trộn, hoặc là người mang đến sự bất ổn không mong muốn. Họ cảm thấy bị động trước sự ảnh hưởng của bạn, có thể là tiêu cực, và muốn tránh xa những biến động không lường trước."
+      },
+      "marriage": {
+        "upright": "Hôn nhân đang đứng trước một bước ngoặt quan trọng, có thể là sự kiện vui mừng như đón thành viên mới, hoặc một giai đoạn củng cố tình cảm sau những biến cố. Vòng quay của định mệnh đang ủng hộ sự phát triển, mang lại sự vững chắc và đổi mới.",
+        "reversed": "Cuộc hôn nhân đối mặt với những thách thức bất ngờ, sự trì trệ hoặc lặp lại những vấn đề cũ. Cảm giác bế tắc và thiếu kiểm soát có thể gây ra rạn nứt, như thể bị mắc kẹt trong một vòng lặp của sự bất hòa."
+      },
+      "conflict": {
+        "upright": "Bánh xe số phận đang xoay, mang đến cơ hội vàng để hóa giải mâu thuẫn một cách bất ngờ. Một sự kiện bên ngoài hoặc một cái nhìn mới sẽ giúp các bên tìm thấy tiếng nói chung và vượt qua trở ngại, mở ra một chu kỳ hòa giải.",
+        "reversed": "Xung đột đang trở thành một vòng lặp không lối thoát, lặp lại những sai lầm cũ và thiếu may mắn trong việc tìm kiếm giải pháp. Các yếu tố bên ngoài có thể làm tình hình thêm phức tạp, khiến mọi nỗ lực đều trở nên vô ích."
+      },
+      "breakup": {
+        "upright": "Dù đau buồn, sự tan vỡ này là một phần của chu kỳ định mệnh, mở ra cánh cửa cho những khởi đầu mới tốt đẹp hơn. Hãy tin rằng vũ trụ đang sắp đặt một tương lai khác, tươi sáng hơn, nơi bạn sẽ tìm thấy sự giải thoát và đổi mới.",
+        "reversed": "Sự chia ly này mang theo cảm giác bất công, không may mắn hoặc bị mắc kẹt trong vòng xoáy cảm xúc tiêu cực. Bạn có thể đang vật lộn để thoát khỏi chu kỳ đau khổ này, không thấy được lối ra và bị định mệnh trói buộc vào quá khứ."
+      },
+      "long_distance": {
+        "upright": "Khoảng cách địa lý dường như bị thu hẹp bởi vòng quay may mắn. Những sự kiện bất ngờ có thể mang lại cơ hội đoàn tụ, hoặc củng cố niềm tin vào định mệnh gắn kết hai trái tim, biến mọi thử thách thành gia vị tình yêu.",
+        "reversed": "Mối quan hệ xa cách gặp phải những trở ngại không lường trước hoặc cảm giác thiếu kiểm soát. Sự trì trệ và những yếu tố bên ngoài đang thử thách lòng tin và sự kiên nhẫn của cả hai, đẩy mối quan hệ vào vòng xoáy bất định."
+      },
+      "jealousy": {
+        "upright": "Bánh xe của sự thật đang xoay, có thể vén màn những nghi ngờ hoặc mang lại sự minh bạch bất ngờ. Đây là cơ hội để vượt qua vòng xoáy ghen tuông bằng cách chấp nhận những điều không thể thay đổi, và tin vào dòng chảy của định mệnh.",
+        "reversed": "Cảm giác ghen tuông đang bị chi phối bởi những yếu tố bên ngoài hoặc những chu kỳ suy nghĩ tiêu cực lặp đi lặp lại. Sự thiếu kiểm soát và bất an đang tạo ra những biến cố không mong muốn, khiến bạn mắc kẹt trong vòng xoáy của hoài nghi."
+      },
+      "self_love": {
+        "upright": "Một bước ngoặt tích cực trong hành trình yêu bản thân. Bánh xe định mệnh mang đến những trải nghiệm giúp bạn nhận ra giá trị cốt lõi của mình, hoặc phá vỡ những chuỗi suy nghĩ tự ti cũ kỹ, mở ra một chu kỳ tự chấp nhận và trân trọng.",
+        "reversed": "Bạn đang gặp khó khăn trong việc tìm thấy tình yêu bản thân, bị mắc kẹt trong những chu kỳ tự phê bình hoặc những sự kiện không mong muốn làm giảm sút lòng tự trọng. Cảm giác bị định mệnh trói buộc vào sự thiếu tự tin."
       },
       "career": {
-        "up": "Một cơ hội thăng tiến hoặc thay đổi công việc mang tính định mệnh. May mắn đang mỉm cười với bạn trên con đường sự nghiệp.",
-        "rev": "Biến động công việc không như ý (mất việc, thay đổi môi trường khó khăn). Bạn phải chờ đợi và cố gắng cho đến khi tình hình khá lên.",
-        "upright": "Cờ đến tay, hãy phất! Một cơ hội thăng tiến bất ngờ, một lời mời hợp tác rực rỡ từ trên trời rơi xuống. Thần may mắn mỉm cười với sự nghiệp của bạn.",
-        "reversed": "Sự nghiệp chững lại bởi yếu tố khách quan không thể chống đỡ. Công ty tái cơ cấu, mất việc hoặc dự án đình trệ. Hãy kiên nhẫn chờ qua cơn bĩ cực."
+        "upright": "Một sự thay đổi vận mệnh lớn trong sự nghiệp đang đến. Cơ hội thăng tiến bất ngờ, một dự án định mệnh hoặc một bước ngoặt nghề nghiệp mang lại thành công vang dội. Bánh xe đang xoay về phía bạn, mang theo những cơ hội không ngờ.",
+        "reversed": "Sự nghiệp đang gặp ph��i những trở ngại không lường trước, trì trệ hoặc cảm giác bị mắc kẹt trong một vòng lặp công việc không mong muốn. Cần phá vỡ chu kỳ này bằng cách chấp nhận rủi ro, nếu không bạn sẽ mãi luẩn quẩn trong bế tắc."
+      },
+      "job_search": {
+        "upright": "Vòng quay may mắn đang gõ cửa, mang đến một cơ hội việc làm bất ngờ hoặc một vị trí hoàn hảo như định mệnh sắp đặt. Hãy sẵn sàng nắm bắt những cuộc phỏng vấn không hẹn trước hoặc lời mời làm việc đột phá, vì đây là lúc vũ trụ ủng hộ bạn.",
+        "reversed": "Con đường tìm kiếm việc làm đang gặp phải những trở ngại không mong muốn, từ chối bất ngờ hoặc cảm giác bị mắc kẹt trong vòng lặp hồ sơ xin việc không hồi âm. Bạn đang chống lại dòng chảy của số phận hoặc bỏ lỡ những dấu hiệu quan trọng."
+      },
+      "promotion": {
+        "upright": "Một sự thăng tiến bất ngờ, như một phần thưởng của số phận cho những nỗ lực thầm lặng. Bánh xe vận may đã xoay chuyển, đưa bạn lên m��t vị trí cao hơn mà có thể bạn chưa từng nghĩ tới, mở ra một chương mới đầy vinh quang.",
+        "reversed": "Cảm giác bị bỏ lỡ cơ hội thăng tiến, hoặc sự trì hoãn không mong muốn. Dường như có những yếu tố bên ngoài đang cản trở con đường tiến thân của bạn, khiến bạn cảm thấy bất lực trước vòng quay của số phận."
+      },
+      "business": {
+        "upright": "Doanh nghiệp đang bước vào một chu kỳ thịnh vượng mới. Những cơ hội bất ngờ, đối tác định mệnh hoặc sự kiện may mắn sẽ thúc đẩy sự phát triển mạnh mẽ. Bánh xe tài lộc đang xoay về phía bạn, mang lại những thành công ngoài mong đợi.",
+        "reversed": "Doanh nghiệp đối mặt với những biến cố bất ngờ, suy thoái hoặc cảm giác mắc kẹt trong một chu kỳ khó khăn. Rủi ro không lường trước hoặc sự trì trệ đang thử thách khả năng thích ứng của bạn, đòi hỏi sự thay đổi để thoát khỏi vòng lặp."
+      },
+      "colleague": {
+        "upright": "Một mối quan hệ đồng nghiệp định mệnh xuất hiện, mang đến sự hỗ trợ bất ngờ hoặc một sự hợp tác ăn ý đến khó tin. Họ có thể là nhân tố quan trọng giúp bạn xoay chuyển tình thế và đạt được những thành tựu mới.",
+        "reversed": "Mối quan hệ với đồng nghiệp đang gặp phải những rắc rối không lường trước, hoặc cảm giác bị mắc kẹt trong vòng xoáy tranh chấp, mâu thuẫn lặp đi lặp lại. Cần cẩn trọng với những yếu tố bên ngoài có thể gây bất lợi."
+      },
+      "career_change": {
+        "upright": "Vũ trụ đang mở ra một cánh cửa định mệnh cho sự chuyển đổi nghề nghiệp. Đừng ngần ngại đón nhận cơ hội bất ngờ, vì đây có thể là bước ngoặt quan trọng mang lại sự hài lòng và thành công, đưa bạn vào một chu kỳ mới đầy hứng khởi.",
+        "reversed": "Sự thay đổi nghề nghiệp đang bị trì hoãn hoặc gặp phải những trở ngại không lường trước. Bạn có thể cảm thấy mắc kẹt trong công việc cũ, khó thoát khỏi chu kỳ quen thuộc, như thể bị định mệnh giữ chân."
+      },
+      "freelance": {
+        "upright": "Công việc tự do của bạn đang đón nhận một chu kỳ may mắn mới. Các dự án định mệnh, khách hàng bất ngờ sẽ giúp bạn phát triển vượt bậc. Bánh xe của sự độc lập tài chính đang xoay về phía bạn, mang lại sự ổn định và thành công.",
+        "reversed": "Công việc freelance gặp phải những biến động không lường trước, thiếu ổn định hoặc cảm giác mắc kẹt trong vòng lặp tìm kiếm khách hàng khó khăn. Sự thiếu kiểm soát đang cản trở bạn phát triển."
+      },
+      "interview": {
+        "upright": "Định mệnh đang mỉm cười với bạn. Một cuộc phỏng vấn sẽ diễn ra suôn sẻ bất ngờ, hoặc bạn sẽ nhận được một đề nghị làm việc như một sự an bài của số phận. Hãy tự tin và sẵn sàng cho những điều may mắn đang đến.",
+        "reversed": "Cuộc phỏng vấn có thể gặp phải những trục trặc bất ngờ, hoặc bạn sẽ đối mặt với sự từ chối không thể lý giải. Cảm giác không may mắn đang bao trùm, như thể định mệnh đang quay lưng với bạn."
       },
       "finance": {
-        "up": "Thời vận đến. Cơ hội làm giàu bất ngờ, trúng số hoặc các khoản đầu tư sinh lời vượt ngoài mong đợi.",
-        "rev": "Suy thoái tài chính, mất tiền do các yếu tố khách quan không lường trước được. Hãy thắt chặt chi tiêu trong giai đoạn này.",
-        "upright": "Tài vận hanh thông, những dòng tiền bất ngờ đổ về túi. Thời điểm thiên thời địa lợi nhân hòa để bạn thu hoạch những mẻ lưới đầy ắp lợi nhuận.",
-        "reversed": "Ví tiền cạn kiệt vì sự cố 'trời ơi đất hỡi'. Hãy thắt lưng buộc bụng và cẩn trọng bảo vệ tài sản qua giai đoạn giông bão này."
+        "upright": "Tài chính của bạn đang ở điểm xoay chuyển tích cực. Một vận may bất ngờ, một cơ hội đầu tư định mệnh sẽ mang lại sự dồi dào. Bánh xe tiền bạc đang quay về phía bạn, báo hiệu một chu kỳ thịnh vượng mới.",
+        "reversed": "Tài chính đang đối mặt với những biến động bất ngờ, thua lỗ hoặc cảm giác mắc kẹt trong một chu kỳ thiếu thốn. Hãy cảnh giác với những rủi ro không lường trước và tìm cách chủ động phá vỡ vòng lặp này."
+      },
+      "investment": {
+        "upright": "Đây là thời điểm vàng để đầu tư, khi bánh xe may mắn đang xoay chiều. Một quyết định bất ngờ có thể mang lại lợi nhuận ngoài mong đợi, như một sự an bài của định mệnh. Hãy tin vào trực giác và nắm bắt cơ hội.",
+        "reversed": "Cẩn trọng với những khoản đầu tư vội vàng hoặc thiếu cân nhắc. Rủi ro bất ngờ và sự thua lỗ có thể xảy ra, bạn đang bị mắc kẹt trong chu kỳ đầu tư không hiệu quả và thiếu may mắn."
+      },
+      "debt": {
+        "upright": "Một cơ h���i bất ngờ sẽ xuất hiện, giúp bạn thoát khỏi gánh nặng nợ nần. Vận may đang đến, mang theo giải pháp để chấm dứt chu kỳ tài chính khó khăn này, mở ra một con đường mới đầy hy vọng.",
+        "reversed": "Gánh nặng nợ nần đang trở thành một vòng lặp không lối thoát, hoặc những sự kiện bất ngờ làm tình hình tài chính thêm tệ. Cần có kế hoạch cụ thể để phá vỡ chu kỳ này, thay vì phó mặc cho số phận."
+      },
+      "savings": {
+        "upright": "Định mệnh đang ủng hộ việc tích lũy của bạn. Một sự kiện bất ngờ có thể giúp số tiền tiết kiệm của bạn gia tăng nhanh chóng, hoặc bạn sẽ tìm thấy một phương pháp quản lý tài chính hiệu quả, mở ra một chu kỳ thịnh vượng.",
+        "reversed": "Tiền tiết kiệm có thể bị ảnh hưởng bởi những sự kiện bất ngờ không mong muốn, hoặc bạn đang bị mắc kẹt trong vòng xoáy chi tiêu không kiểm soát. Cần chủ động kiểm soát tài chính để phá vỡ chu kỳ này."
+      },
+      "luck_money": {
+        "upright": "Thần Tài đang gõ c���a! Một khoản tiền bất ngờ, một cơ hội may mắn không báo trước sẽ đến với bạn. Đây là thời điểm để đón nhận những món quà của số phận, những vận may trời ban.",
+        "reversed": "Vận may dường như đang quay lưng. Những rủi ro bất ngờ hoặc các khoản chi không lường trước có thể làm tiêu tan tài lộc. Tránh các trò đỏ đen và quyết định vội vàng, vì bạn đang gặp phải chu kỳ kém may mắn."
       },
       "health": {
-        "up": "Sự thay đổi tích cực trong sức khỏe. Nếu đang ốm, đây là dấu hiệu phục hồi nhờ một phương pháp hoặc bác sĩ giỏi.",
-        "rev": "Một vài vấn đề sức khỏe bất ngờ hoặc tai nạn ngoài ý muốn. Cần đặc biệt lưu ý an toàn.",
-        "upright": "Phép màu chữa lành đang hiển hiện. Bệnh tật tiêu tan, cơ thể tìm lại nhịp đập sinh học vốn có nhờ sự can thiệp y tế hoặc thay đổi lối sống mang tính bước ngoặt.",
-        "reversed": "Sức khỏe chao đảo vì tai ương bất chợt. Lời nhắc nhở đanh thép về việc không được chủ quan trước những thay đổi nhỏ nhất của cơ thể."
+        "upright": "Sức khỏe của bạn đang bước vào một chu kỳ mới, tích cực hơn. Một phương pháp chữa bệnh hiệu quả bất ngờ hoặc sự thay đổi lối sống mang lại năng lượng tràn trề, giúp cơ thể bạn phục hồi và tươi mới.",
+        "reversed": "Sức khỏe đang gặp phải những biến cố bất ngờ, bệnh tật tái phát hoặc cảm giác trì trệ trong quá trình hồi phục. Cần cẩn trọng và không lơ là những dấu hiệu của cơ thể, vì định mệnh đang thử thách sức khỏe của bạn."
+      },
+      "mental": {
+        "upright": "Bánh xe tâm trí đang xoay chuyển về ph��a ánh sáng. Một sự kiện bất ngờ sẽ giúp bạn giải tỏa lo âu, hoặc tìm thấy bình yên nội tâm một cách diệu kỳ. Hãy đón nhận chu kỳ tích cực này, nơi tâm hồn bạn được chữa lành.",
+        "reversed": "Tâm trí đang bị mắc kẹt trong vòng xoáy tiêu cực, lo âu lặp đi lặp lại hoặc những sự kiện bất ngờ làm rối loạn tinh thần. Cần tìm cách phá vỡ chu kỳ này, đừng để mình bị cuốn vào vòng xoáy của sự bất an."
+      },
+      "energy": {
+        "upright": "Luồng năng lượng của bạn đang được tái tạo mạnh mẽ, như một chu kỳ mới của sự sống. Những nguồn cảm hứng bất ngờ sẽ đến, giúp bạn tràn đầy sinh lực và sẵn sàng cho những thử thách. Hãy tận hưởng dòng chảy của sức sống mới.",
+        "reversed": "Năng lượng đang cạn kiệt do những yếu tố bất ngờ hoặc cảm giác bị mắc kẹt trong vòng lặp mệt mỏi. Cần nghỉ ngơi và tìm cách phá vỡ chu kỳ hao tổn này, nếu không bạn sẽ kiệt quệ trước dòng chảy của số phận."
+      },
+      "family": {
+        "upright": "Gia đình đang trải qua một chu kỳ mới đầy tích cực. Có thể là một sự kiện trọng đại, một sự đoàn tụ bất ngờ hoặc việc hóa giải những mâu thuẫn cũ một cách diệu kỳ, mang lại sự gắn kết và niềm vui.",
+        "reversed": "Gia đình đối mặt với những biến cố bất ngờ, sự xáo trộn hoặc cảm giác bị mắc kẹt trong vòng lặp của những vấn đề không thể giải quyết. Cần tìm cách chủ động thay đổi để tránh bị cuốn vào vòng xoáy tiêu cực."
+      },
+      "diet": {
+        "upright": "Chế độ ăn uống của bạn đang có một bước ngoặt tích cực. Một khám phá bất ngờ về dinh dưỡng hoặc một thói quen ăn uống mới sẽ mang lại lợi ích sức khỏe đáng kể, mở ra một chu kỳ sống khỏe mạnh hơn.",
+        "reversed": "Chế độ ăn uống đang gặp phải những trở ngại bất ngờ, hoặc bạn đang bị mắc kẹt trong vòng lặp của những thói quen không lành mạnh. Cần phá vỡ chu kỳ này, nếu không sức khỏe sẽ bị ảnh hưởng bởi những yếu tố không mong muốn."
+      },
+      "study": {
+        "upright": "Con đường học vấn đang có một bước ngoặt may mắn. Một cơ hội học bổng bất ngờ, một khóa học định mệnh hoặc sự tiến bộ vượt bậc sẽ đến với bạn, đưa bạn vào một chu kỳ học tập đầy thành công.",
+        "reversed": "Việc học gặp phải những trở ngại bất ngờ, cảm giác trì trệ hoặc mắc kẹt trong vòng lặp của những kiến thức khó hiểu. Cần tìm cách tiếp cận mới để phá vỡ chu kỳ này, đừng để định mệnh cản bước bạn."
+      },
+      "study_abroad": {
+        "upright": "Chuyến du học của bạn đang được định mệnh dẫn lối. Một cơ hội bất ngờ, sự hỗ trợ từ những người bạn mới hoặc một sự kiện may mắn sẽ giúp bạn thành công rực rỡ, biến mọi khó khăn thành thử thách đáng giá.",
+        "reversed": "Chuyến đi có thể gặp phải những biến cố bất ngờ, khó khăn trong việc thích nghi hoặc cảm giác không may mắn. Các yếu tố bên ngoài đang cản trở trải nghiệm của bạn, khiến bạn cảm thấy bị động trước s��� phận."
+      },
+      "self": {
+        "upright": "Bạn đang ở một bước ngoặt quan trọng của sự phát triển bản thân. Một sự kiện bất ngờ sẽ giúp bạn khám phá ra những khía cạnh mới, hoặc vượt qua những giới hạn cũ, mở ra một chu kỳ tăng trưởng và giác ngộ sâu sắc.",
+        "reversed": "Bạn đang cảm thấy bế tắc, lặp lại những sai lầm cũ hoặc bị mắc kẹt trong những chu kỳ tự ti, không thể tiến lên. Cần chủ động phá vỡ vòng lặp này, đừng để mình bị cuốn vào sự bất lực của số phận."
+      },
+      "purpose": {
+        "upright": "Mục đích sống của bạn đang dần hé lộ qua những sự kiện bất ngờ. Định mệnh đang dẫn lối, giúp bạn tìm thấy ý nghĩa và hướng đi mới, như một phần của kế hoạch lớn hơn mà vũ trụ dành cho bạn.",
+        "reversed": "Bạn đang cảm thấy lạc lối, không tìm thấy mục đích sống và bị mắc kẹt trong vòng xoáy của sự hoang mang. Những yếu tố bên ngoài có thể làm bạn mất phương hướng, khiến bạn chống lại dòng chảy của định mệnh."
+      },
+      "shadow_self": {
+        "upright": "Một sự kiện bất ngờ sẽ đưa bạn đối mặt với mặt tối của bản thân, nhưng theo cách giúp bạn thấu hiểu và chấp nhận nó. Vòng quay định mệnh mang đến cơ hội để hòa giải và chữa lành những vết thương ẩn giấu.",
+        "reversed": "Mặt tối đang bị nhấn chìm hoặc lặp đi lặp lại những hành vi tự hủy hoại. Bạn cảm thấy bất lực trước những khía cạnh tiêu cực của bản thân, không thể thoát khỏi chu kỳ này, như thể bị định mệnh trói buộc."
+      },
+      "decision": {
+        "upright": "Bánh xe định mệnh đang xoay, mang đến một thời điểm vàng để đưa ra quyết định quan trọng. Hãy tin vào trực giác và đón nhận những thay đổi bất ngờ mà quyết định này mang lại, vì đây là lúc bạn kiến tạo số phận.",
+        "reversed": "Đang có sự trì hoãn hoặc cảm giác mắc kẹt trong vòng xoáy của sự lưỡng lự. Những yếu tố bên ngoài có thể gây áp lực hoặc làm bạn khó đưa ra lựa chọn đúng đắn, khiến bạn cảm thấy bất lực trước dòng chảy của sự kiện."
+      },
+      "travel": {
+        "upright": "Chuyến đi sắp tới sẽ mang theo những bất ngờ thú vị và những trải nghiệm định mệnh. Bánh xe du hành đang xoay, đưa bạn đến những vùng đất mới lạ và mang lại những kỷ niệm khó quên, như một món quà từ vũ trụ.",
+        "reversed": "Chuyến đi có thể gặp phải những trở ngại bất ngờ, sự trì hoãn hoặc cảm giác không may mắn. Các yếu tố bên ngoài đang làm hỏng kế hoạch du lịch của bạn, khiến bạn cảm thấy bị động trước mọi biến cố."
       },
       "spiritual": {
-        "up": "Nhận thức sâu sắc về nghiệp quả (Karma). Hiểu rằng mọi chuyện xảy ra trong đời đều có lý do của nó.",
-        "rev": "Cảm thấy ông trời bất công, bất mãn với số phận và không chịu chấp nhận bài học mà vũ trụ gửi đến.",
-        "upright": "Sự thấu ngộ sâu sắc về luật Nhân Quả (Karma). Bạn nhận ra mọi đau khổ hay vinh quang đều là sự sắp đặt hoàn hảo để mài giũa linh hồn.",
-        "reversed": "Oán trách số phận, cảm thấy vũ trụ quay lưng. Sự chối bỏ bài học luân hồi khiến linh hồn mãi lẩn quẩn trong vòng lặp khổ đau."
+        "upright": "Hành trình tâm linh của bạn đang bước vào một chu kỳ mới, đầy giác ngộ và những khám phá bất ngờ. Một sự kiện định mệnh sẽ mở rộng tầm nhìn của bạn, mang lại sự hiểu biết sâu sắc và kết nối thiêng liêng.",
+        "reversed": "Bạn đang cảm thấy lạc lối trong hành trình tâm linh, bị mắc kẹt trong vòng xoáy của những giáo điều cũ hoặc những nghi ngờ không thể giải đáp. Dòng chảy tâm linh của b��n đang bị cản trở bởi các yếu tố bên ngoài."
+      },
+      "general": {
+        "upright": "Bánh xe Số Phận đang xoay, báo hiệu một chu kỳ mới đầy thay đổi và cơ hội bất ngờ. Hãy sẵn sàng đón nhận những may mắn từ vũ trụ, những sự kiện định mệnh sẽ đưa cuộc đời bạn sang một trang mới đầy hứng khởi và thành công.",
+        "reversed": "Cuộc sống đang đối mặt với những biến cố bất ngờ, sự trì trệ hoặc cảm giác bị mắc kẹt trong vòng lặp của những điều không may mắn. Cần chủ động thay đổi để phá vỡ chu kỳ này, đừng phó mặc mình cho số phận nghiệt ngã."
       }
     },
     "advice": "Dù bánh xe đưa bạn lên đỉnh vinh quang hay dìm xuống vực thẳm, hãy giữ tâm bất biến giữa dòng đời vạn biến. Mọi thứ rồi sẽ qua đi.",
@@ -754,34 +1664,164 @@ window.TAROT_DB = [
     "reversed": "Sự bất công, dối trá, hoặc bạn đang cố gắng lẩn tránh hậu quả từ những sai lầm trong quá khứ. Nó cũng báo hiệu các rắc rối về pháp lý có kết quả bất lợi.",
     "aspects": {
       "love": {
-        "up": "Sự trung thực và sòng phẳng trong tình yêu. Nếu có mâu thuẫn, nó sẽ được giải quyết công bằng. Cũng có thể liên quan đến các hợp đồng hôn nhân.",
-        "rev": "Có sự lừa dối, không chung thủy hoặc bạn đang đối xử không công bằng với đối phương (hoặc ngược lại). Ly hôn/chia tay với nhiều tranh chấp.",
-        "upright": "Mối quan hệ xây dựng trên sự sòng phẳng, tôn trọng và minh bạch. Hợp đồng hôn nhân hoặc cam kết pháp lý mang lại bảo chứng vững chắc cho tình yêu.",
-        "reversed": "Sự mất cân bằng nghiêm trọng. Lừa dối, ngoại tình hoặc phán xét cay nghiệt. Nếu ly hôn, đó sẽ là cuộc chiến pháp lý mệt mỏi."
+        "upright": "Tình yêu được đặt lên bàn cân của sự thật và công bằng. Lá bài này soi rọi ánh sáng vào những mối quan hệ cần sự minh bạch, nơi hai trái tim nguyện ý sống thật, đối xử công tâm và cùng nhau kiến tạo một nền tảng bền vững dựa trên sự tôn trọng và lý lẽ.",
+        "reversed": "Mối quan hệ đang chông chênh bởi sự thiếu công bằng, lời nói dối vụn vặt hoặc trách nhiệm bị chối bỏ. Một bên có thể cảm thấy bị đối xử bất công, hoặc cả hai đang cố tình lảng tránh sự th���t để rồi đẩy tình yêu vào ngõ cụt phán xét."
+      },
+      "ex": {
+        "upright": "Giờ là lúc để nhìn lại đoạn tình cũ với con mắt khách quan, buông bỏ những oán hờn và nhận lấy phần trách nhiệm của riêng mình. Sự thanh thản đến từ việc chấp nhận sự thật, dù cay đắng, và tìm kiếm sự công bằng trong quá khứ để tâm hồn được giải thoát.",
+        "reversed": "Vết thương lòng từ người cũ vẫn còn nhức nhối bởi cảm giác bất công hoặc sự ám ảnh bởi những lời buộc tội sai trái. Việc ôm giữ hận thù hoặc trốn tránh sự thật về những gì đã qua sẽ chỉ kéo dài gánh nặng cảm xúc này."
+      },
+      "current_love": {
+        "upright": "Mối duyên hiện tại cần được đặt lên bàn đàm phán của sự thành thật. Mọi khúc mắc phải được soi rõ, mọi trách nhiệm phải được phân chia công bằng. Chỉ khi sự cân bằng được thiết lập, tình yêu mới có thể phát triển trong sự bình yên và minh bạch.",
+        "reversed": "Mối quan hệ đang nhuốm màu bất công, nơi sự thật bị bóp méo, lời hứa bị thất hứa hoặc một người gánh vác quá nhiều trong khi người kia né tránh. Sự mất cân bằng này đang bào mòn niềm tin và có thể dẫn đến rạn nứt sâu sắc."
+      },
+      "ambiguous": {
+        "upright": "Tình trạng mập mờ cần được nhìn thẳng vào sự thật. Đã đến lúc đối diện, phân tích mọi khía cạnh một cách lý trí để đưa ra một quyết định công bằng cho cả hai. Sự minh bạch sẽ là chìa khóa để định danh mối quan hệ này.",
+        "reversed": "Sự mập mờ kéo dài đang tạo ra cảm giác bất an và bị đối xử thiếu công bằng. Có thể có sự lừa dối ngầm hoặc một bên đang lợi dụng sự không rõ ràng để trốn tránh trách nhiệm, gây ra tổn thương không đáng có."
+      },
+      "crush": {
+        "upright": "Hãy tiếp cận mối tình đơn phương này bằng sự chân thật và lòng chính trực. Quan sát và đánh giá đối phương một cách công tâm, không tô hồng hay lý tưởng hóa. Sự rõ ràng sẽ giúp bạn đưa ra quyết định đúng đắn.",
+        "reversed": "Cảm xúc đang bị che mờ bởi sự phán xét vội vàng hoặc ảo tưởng không có căn cứ. Bạn có thể đang nhìn nhận người ấy một cách thiếu công bằng, hoặc có một sự thật phũ phàng về họ mà bạn chưa sẵn sàng đối mặt."
+      },
+      "future_love": {
+        "upright": "Bức tranh tình duyên sắp tới sẽ là một mối liên kết chân thành, được xây dựng trên sự tin tưởng tuyệt đối và tôn trọng lẫn nhau. Người ấy sẽ là một tâm hồn công bằng, minh bạch, cùng bạn gánh vác mọi trách nhiệm với sự sòng phẳng.",
+        "reversed": "Cẩn trọng với những cuộc gặp gỡ nhuốm màu lợi dụng hoặc thiếu trung thực. Người xuất hiện có thể mang theo năng lượng của sự bất công, dễ dàng lừa dối hoặc thiếu trách nhiệm, khiến trái tim bạn phải chịu tổn thương."
+      },
+      "someone": {
+        "upright": "Đối với người ấy, bạn là một biểu tượng của sự công bằng, lý trí và chính trực. Họ tin tưởng vào sự minh bạch trong lời nói và hành động của bạn, xem bạn là người có khả năng đưa ra những quyết định đúng đắn và sòng phẳng.",
+        "reversed": "Trong mắt người ấy, bạn có thể đang bị nhìn nhận là thiếu công bằng, hay đưa ra những phán xét vội vàng, hoặc thậm chí là một người có khuynh hướng che giấu sự thật. Sự thiếu minh bạch có thể đang làm suy giảm niềm tin từ họ."
+      },
+      "marriage": {
+        "upright": "Nền tảng hôn nhân được củng cố bởi sự cân bằng, công bằng và trách nhiệm được chia sẻ rõ ràng. Mọi vấn đề pháp lý (nếu có) sẽ được giải quyết một cách chính trực, mang lại sự ổn định và bình yên cho mái ấm.",
+        "reversed": "Cột trụ hôn nhân đang lung lay vì sự thiếu công bằng, sự lừa dối hoặc những tranh chấp pháp lý dai dẳng. Một bên có thể cảm thấy bị đối xử bất công, dẫn đến sự mất hòa khí và đổ vỡ niềm tin."
+      },
+      "conflict": {
+        "upright": "Giữa vòng xoáy cãi vã, tiếng chuông công lý vang lên nhắc nhở bạn tìm kiếm sự thật và một giải pháp công bằng. Hãy đối diện với mâu thuẫn bằng lý trí và sự minh bạch để cả hai có thể đạt được một thỏa thuận hợp tình, hợp lý.",
+        "reversed": "Mâu thuẫn đang bị đẩy xa bởi sự thiếu công bằng, lời buộc tội vô căn cứ hoặc sự chối bỏ trách nhiệm. Thay vì tìm kiếm sự hòa giải, các bên đang chìm đắm trong sự bất hòa, khiến tranh cãi trở nên khó lòng giải quyết."
+      },
+      "breakup": {
+        "upright": "Sự tan vỡ này, dù đau lòng, lại mang theo ý nghĩa của sự giải thoát công bằng. Cả hai sẽ tìm thấy cách để chấm dứt một cách lý trí, chấp nhận trách nhiệm của mình và tiến về phía trước với một tâm thế thanh thản hơn.",
+        "reversed": "Chia tay nhuốm màu cay đắng và bất công. Có thể có sự đổ lỗi qua lại, tranh chấp tài sản hoặc cảm giác bị phản bội, khiến quá trình hàn gắn trở nên khó khăn và kéo dài sự đau khổ."
+      },
+      "long_distance": {
+        "upright": "Khoảng cách địa lý được hóa giải bởi nền tảng của niềm tin và sự trung thực. Cả hai đều đối xử công bằng với nhau, minh bạch trong mọi tương tác và cùng nhau xây dựng sự tin tưởng vững chắc, vượt qua mọi thử thách không gian.",
+        "reversed": "Mối quan hệ đường dài đang đối mặt với sự mất cân bằng hoặc thiếu trung thực. Một bên có thể cảm thấy bị bỏ rơi hoặc bị đối xử thiếu công bằng, dấy lên nghi ngờ và sự mất niềm tin."
+      },
+      "jealousy": {
+        "upright": "Hãy đặt sự ghen tuông lên bàn cân của lý trí. Phân tích cẩn thận nguyên nhân, tìm kiếm sự thật và công bằng trong tình huống. Chỉ khi đối mặt với sự thật, bạn mới có thể hóa giải được cảm xúc tiêu cực này.",
+        "reversed": "Sự ghen tuông đang bị thổi bùng bởi những phán xét sai lệch, tin đồn thất thiệt hoặc sự thiếu trung thực từ một phía. Những buộc tội vô căn cứ đang làm tổn thương mối quan hệ và đẩy mọi thứ vào tình trạng bất công."
+      },
+      "self_love": {
+        "upright": "Yêu bản thân là hành trình của sự tự nhận thức công bằng. Hãy nhìn nhận chính mình với tất cả ưu và nhược điểm, chấp nh���n trách nhiệm với những lựa chọn đã qua và tìm kiếm sự cân bằng nội tại để đạt được bình yên.",
+        "reversed": "Bạn đang tự phán xét mình quá khắc nghiệt hoặc ngược lại, tự lừa dối bản thân về những khuyết điểm. Sự mất cân bằng trong cách nhìn nhận giá trị cá nhân đang cản trở bạn yêu thương chính mình một cách trọn vẹn và công bằng."
       },
       "career": {
-        "up": "Những nỗ lực của bạn sẽ được đền đáp xứng đáng. Cần chú ý kỹ các hợp đồng, giấy tờ pháp lý trong công việc.",
-        "rev": "Gặp phải sự thiên vị, đối xử bất công tại nơi làm việc. Hoặc bạn đang làm những việc mờ ám và có nguy cơ bị phát hiện.",
-        "upright": "Cây ngay không sợ chết đứng. Nỗ lực chân chính được đền đáp bằng phần thưởng xứng đáng. Cần cực kỳ tỉnh táo, minh bạch trong giấy tờ, hợp đồng.",
-        "reversed": "Môi trường công sở độc hại, nơi sự thiên vị và trò đâm sau lưng lên ngôi. Hoặc hành vi gian lận của bạn sắp phơi bày ra ánh sáng."
+        "upright": "Con đường công danh được soi sáng bởi sự chính trực, công bằng và những quyết định lý trí. Mọi thành quả sẽ đến từ nỗ lực chân chính và sự minh bạch trong công việc. Công lý sẽ lên tiếng cho những cống hiến xứng đáng.",
+        "reversed": "Sự nghiệp đang đối mặt với bất công, sự thiếu minh bạch hoặc những rắc rối pháp lý. Có thể có sự thiên vị, lừa dối trong môi trường làm việc hoặc bạn đang cảm thấy không được đánh giá đúng mức công sức của mình."
+      },
+      "job_search": {
+        "upright": "Hành trình tìm việc sẽ đòi hỏi sự trung thực và minh bạch trong hồ sơ và phỏng vấn. Cơ hội tốt đẹp sẽ đến từ những nơi có quy trình tuyển dụng công bằng, nơi bạn được đánh giá đúng năng lực mà không có sự thiên vị.",
+        "reversed": "Quá trình tìm việc đang gặp phải sự bất công, có thể là do sự phân biệt đối xử, những đánh giá sai lệch hoặc bạn đang thiếu sự trung thực trong cách thể hiện bản thân, dẫn đến những cơ hội bị bỏ lỡ."
+      },
+      "promotion": {
+        "upright": "Sự thăng tiến sẽ đến một cách xứng đáng, dựa trên năng lực và cống hiến thực sự của bạn. Đây là thời điểm công sức của bạn được ghi nhận một cách công bằng, minh bạch và có lý lẽ.",
+        "reversed": "Sự thăng tiến bị cản trở bởi sự thiếu công bằng, những quyết định không minh bạch hoặc sự thiên vị trong tổ chức. Bạn có thể cảm thấy những nỗ lực của mình không được đánh giá đúng mực hoặc bị người khác chiếm đoạt công lao."
+      },
+      "business": {
+        "upright": "Thương trường là nơi của sự công bằng và đạo đ���c kinh doanh. Hãy hành động với sự chính trực, minh bạch trong mọi giao dịch và tuân thủ pháp luật. Thành công bền vững sẽ đến từ uy tín và sự sòng phẳng.",
+        "reversed": "Hoạt động kinh doanh đang đối mặt với những rắc rối pháp lý, sự thiếu đạo đức hoặc những giao dịch không minh bạch. Sự bất công trong cạnh tranh hoặc lừa dối sẽ làm tổn hại danh tiếng và gây ra những hậu quả nặng nề."
+      },
+      "colleague": {
+        "upright": "Mối quan hệ với đồng nghiệp được xây dựng trên sự tôn trọng, công bằng và thẳng thắn. Sự hợp tác diễn ra suôn sẻ nhờ vào sự minh bạch trong công việc và khả năng giải quyết xung đột một cách lý trí.",
+        "reversed": "Mối quan hệ với đồng nghiệp đang bị ảnh hưởng bởi sự thiếu công bằng, tin đồn thất thiệt hoặc những lời phán xét vô căn cứ. Có thể có sự cạnh tranh không lành mạnh hoặc một người đang cảm thấy bị đối xử bất công."
+      },
+      "career_change": {
+        "upright": "Quyết định thay đổi nghề nghiệp được đưa ra một cách lý trí và công bằng, sau khi cân nhắc kỹ lưỡng mọi yếu tố. Bạn đang tìm kiếm một con đường phù hợp hơn với giá trị cá nhân, nơi bạn có thể cống hiến một cách chính trực.",
+        "reversed": "Việc thay đổi sự nghiệp lúc này có thể là một quyết định vội vàng, thiếu công bằng với bản thân hoặc bị thúc đẩy bởi những bất mãn cá nhân mà chưa suy xét kỹ lưỡng hậu quả. Có thể có sự trốn tránh trách nhiệm."
+      },
+      "freelance": {
+        "upright": "Công việc tự do đòi hỏi sự minh bạch trong hợp đồng và công bằng trong định giá. Bạn cần thiết lập ranh giới rõ ràng với khách hàng, đảm bảo quyền lợi của mình được tôn trọng và làm việc với sự chính trực.",
+        "reversed": "Lĩnh vực freelance đang gặp vấn đề về hợp đồng không minh bạch, thanh toán không công bằng hoặc những tranh chấp pháp lý. Sự thiếu rõ ràng trong công việc có thể dẫn đến việc bạn bị lợi dụng hoặc bị đánh giá thấp."
+      },
+      "interview": {
+        "upright": "Bước vào buổi phỏng vấn với tâm thế tự tin, trung thực và minh bạch về năng lực của mình. Hội đồng tuyển dụng sẽ đánh giá bạn một cách công bằng, dựa trên những gì bạn thể hiện và những giá trị bạn mang lại.",
+        "reversed": "Buổi phỏng vấn có thể diễn ra không công bằng, với những câu hỏi mang tính chất phân biệt đối xử hoặc sự thiếu minh bạch từ phía nhà tuyển dụng. Bạn có thể cảm thấy bị đánh giá sai hoặc không có cơ hội thể hiện hết mình."
       },
       "finance": {
-        "up": "Cân bằng thu chi. Giao dịch minh bạch. Tiền bạc kiếm được từ mồ hôi công sức chân chính.",
-        "rev": "Cảnh báo về gian lận tài chính, rắc rối với thuế, hoặc bạn đang bị ai đó lợi dụng tiền bạc một cách bất công.",
-        "upright": "Bức tranh tài chính rõ nét, cân bằng. Tài lộc đến từ mồ hôi công sức chân chính. Thời điểm thích hợp giải quyết các vấn đề liên quan đến thuế, phân chia tài sản.",
-        "reversed": "Cảnh báo đỏ về rắc rối pháp lý liên quan tiền bạc. Lừa đảo, tham nhũng hoặc những khoản nợ không sòng phẳng khiến bạn lao đao."
+        "upright": "Không gian tài chính đòi hỏi sự cân bằng và minh bạch. Hãy quản lý tiền bạc một cách lý trí, công bằng trong các giao dịch và tuân thủ pháp luật. Mọi quyết định tài chính cần được đưa ra sau khi cân nhắc kỹ lưỡng.",
+        "reversed": "Tài chính đang đối mặt với sự mất cân bằng, những khoản nợ không công bằng hoặc rắc rối pháp lý liên quan đến tiền bạc. Có thể có sự lừa dối trong giao dịch hoặc bạn đang đưa ra những quyết định tài chính thiếu sáng suốt."
+      },
+      "investment": {
+        "upright": "Cánh cửa đầu tư mở ra nhưng đòi hỏi sự nghiên cứu kỹ lưỡng và quyết định lý trí. Hãy đầu tư vào những kênh minh bạch, công bằng và có đạo đức. Thành quả sẽ đến từ sự hiểu biết và phán đoán khách quan.",
+        "reversed": "Sa chân vào những khoản đầu tư không minh bạch, gian lận hoặc thiếu đạo đức. Rủi ro tài chính cao do thiếu thông tin, phán đoán sai lầm hoặc bị lôi kéo vào những giao dịch bất công."
+      },
+      "debt": {
+        "upright": "Phủ lớp bụi ảm đạm đi, đứng lên với tư duy dẹp tan mọi u ám. Việc áp dụng cách thoát nợ ngoài khuôn khổ truyền thống, lạc quan đối mặt là ánh sáng le lói cứu rỗi túi tiền.",
+        "reversed": "Chui đầu xuống cát đà điểu không làm số nợ biến mất. Việc phớt lờ thực tại ngân quỹ đang gióng lên hồi chuông báo động đỏ, kéo dài hơn những ngày tháng vay mượn."
+      },
+      "savings": {
+        "upright": "Hành trình tích lũy tài sản đòi hỏi sự kỷ luật và cân bằng. Hãy lập kế hoạch tiết kiệm rõ ràng, công bằng với nhu cầu hiện tại và tương lai để xây dựng một nền tảng tài chính vững chắc, an toàn.",
+        "reversed": "Tiết kiệm đang bị ảnh hưởng bởi sự mất cân bằng chi tiêu, những khoản phí không công bằng hoặc bạn đang lãng phí tiền vào những thứ không đáng giá. Thiếu kỷ luật sẽ làm hao hụt tài sản đã tích lũy."
+      },
+      "luck_money": {
+        "upright": "Những cơ hội tài chính bất ngờ có thể đến như một phần thưởng xứng đáng cho những nỗ lực và sự chính trực của bạn. Đây là thời điểm karma tài chính lên tiếng, mang lại những điều công bằng.",
+        "reversed": "Tiền bạc có thể đến một cách không minh bạch hoặc thông qua những con đường phi pháp, dẫn đến hậu quả nặng nề. Cẩn trọng với những cám dỗ làm giàu nhanh chóng, thiếu công bằng và đạo đức."
       },
       "health": {
-        "up": "Sức khỏe đang ở trạng thái cân bằng. Lối sống lành mạnh mang lại cơ thể khỏe mạnh.",
-        "rev": "Sự mất cân bằng do lối sống buông thả (nhân quả của việc không chăm sóc cơ thể). Cần cẩn thận với các vấn đề sức khỏe mãn tính do thói quen xấu.",
-        "upright": "Sự cân bằng tuyệt mỹ của cơ thể học. Thói quen sinh hoạt điều độ đơm hoa kết trái thành một thể trạng khỏe mạnh rạng ngời.",
-        "reversed": "Luật nhân quả hiển hiện trên cơ thể. Thói quen độc hại, buông thả từ quá khứ nay đòi lại món nợ sức khỏe."
+        "upright": "Sức khỏe đòi hỏi sự cân bằng giữa thể chất và tinh thần. Hãy tìm kiếm những phương pháp điều trị công bằng, lắng nghe cơ thể mình một cách khách quan và đưa ra những quyết định sáng suốt cho sức khỏe.",
+        "reversed": "Sức khỏe đang gặp phải sự mất cân bằng, có thể là do chẩn đoán sai, điều trị không công bằng hoặc bạn đang tự bỏ bê bản thân một cách thiếu lý trí. Cần tìm kiếm sự minh bạch trong y tế."
+      },
+      "mental": {
+        "upright": "Việc tìm kiếm sự cân bằng và rõ ràng trong tư duy là điều cần thiết. Hãy đối mặt với những lo lắng một cách lý trí, giải quyết những xung đột nội tâm bằng sự thật và thiết lập lại trật tự tinh thần.",
+        "reversed": "Tâm trí đang rơi vào trạng thái mất cân bằng, với những suy nghĩ tiêu cực, phán xét sai lệch hoặc cảm giác bị đối xử bất công. Sự lo lắng có thể bị khuếch đại bởi sự thiếu minh bạch trong tư duy."
+      },
+      "energy": {
+        "upright": "Luân xa năng lượng cần được cân bằng và điều hòa. Hãy tìm cách sử dụng năng lượng một cách công bằng cho mọi khía cạnh của cuộc sống, tránh sự hao phí hoặc tập trung quá mức vào một điều gì đó.",
+        "reversed": "Năng lượng đang mất cân bằng, có thể do bạn đang bị hút cạn hoặc phân tán một cách không công bằng. Cảm giác mệt mỏi có thể xuất phát từ sự thiếu hài hòa trong cách bạn sử dụng sức lực của mình."
+      },
+      "family": {
+        "upright": "Không khí gia đình dấy lên lời nhắc nhở về sự công bằng và minh bạch. Mọi tranh chấp cần được giải quyết bằng lý lẽ, mọi thành viên cần được đối xử bình đẳng để duy trì sự hòa thuận và bình yên.",
+        "reversed": "Gia đình đang đối mặt với sự mất cân bằng, những phán xét thiếu công bằng hoặc những mâu thuẫn dai dẳng do thiếu minh bạch. Có thể có sự thiên vị hoặc một thành viên cảm thấy bị đối xử bất công."
+      },
+      "diet": {
+        "upright": "Chế độ ăn uống đòi hỏi sự cân bằng và lắng nghe cơ thể một cách khách quan. Hãy chọn những thực phẩm mang lại sự hài hòa, công bằng cho sức khỏe và phù hợp với nhu cầu cá nhân của bạn.",
+        "reversed": "Chế độ ăn uống đang mất cân bằng, có thể do những quy tắc quá hà khắc, sự thiếu khoa học hoặc bạn đang tiêu thụ những thực phẩm không có lợi cho sức khỏe. Sự thiếu lý trí đang dẫn đến tác động tiêu cực."
+      },
+      "study": {
+        "upright": "Con đường học thuật đòi hỏi sự chính trực và công bằng trong mọi bài kiểm tra, nghiên cứu. Tri thức sẽ được thẩm thấu khi bạn tiếp cận nó một cách lý trí, minh bạch và không thiên vị.",
+        "reversed": "Việc học đang gặp phải sự bất công, có thể là điểm số không phản ánh đúng năng lực, gian lận hoặc thiếu minh bạch trong môi trường giáo dục. Sự thiếu trung thực sẽ cản trở quá trình tiếp thu kiến thức."
+      },
+      "study_abroad": {
+        "upright": "Hành trình du học sẽ thành công khi bạn tiếp cận văn hóa mới với sự tôn trọng, công bằng và tuân thủ pháp luật. Mọi trải nghiệm sẽ mang lại sự hiểu biết sâu sắc và một góc nhìn khách quan về thế giới.",
+        "reversed": "Du học có thể gặp phải sự bất công, phân biệt đối xử hoặc những rắc rối pháp lý tại nước ngoài. Sự thiếu hiểu biết về văn hóa hoặc pháp luật có thể dẫn đến những tình huống khó khăn và cảm giác bị đối xử không công bằng."
+      },
+      "self": {
+        "upright": "Hành trình yêu bản thân khởi nguồn từ việc đón nhận đứa trẻ bên trong bạn một cách toàn vẹn nhất. Cho phép bản thân được phép ngốc nghếch, được phép làm sai và sống tự do ngoài khuôn miệng phán xét của thế gian. Bạn rực rỡ nhất khi là chính mình.",
+        "reversed": "Yêu bản thân không đồng nghĩa với buông thả hoặc trốn tránh trách nhiệm. Bạn đang có xu hướng nuông chiều những bốc đồng có hại, ngộ nhận sự thiếu kỉ luật là tự do."
+      },
+      "purpose": {
+        "upright": "Lý tưởng của bạn sinh ra trên trái đất này là tưới mát những tâm hồn héo mòn bằng hạt mưa của niềm tin thuần khiết. Gieo rắc sự lạc quan là sứ mệnh tối cao dệt nên hạnh phúc và quả ngọt.",
+        "reversed": "Khao khát sống vĩ cuồng mịt mù phư��ng thức. Đắn đo, lang bạt tìm mục đích trong vô vọng, thay vì đi bằng trái tim lại chạy đi kiếm ở ảo vật bên ngoài."
+      },
+      "shadow_self": {
+        "upright": "Ôm ấp góc tối yếu mềm, vụng dại (inner child). Những lầm lỗi trẻ dại từng mang, hãy nâng niu chúng vì rốt cục nó mới là chất liệu vẽ nên bức chân dung đa diện của sự sống sinh thành.",
+        "reversed": "Hội chứng Peter Pan gặm nhấm ý thức, ru ngủ bóng đêm trong chiếc nôi mang tên chối bỏ kỷ luật và trưởng thành. Ánh sáng không chiếu rọi được kẽ hở khi ta từ chối làm người lớn."
+      },
+      "decision": {
+        "upright": "Giây phút rũ lòng bước vào cú ngã thiên thần (Leap of faith). Bạn đã ở bờ vực, trái tim tự khắc sẽ bung đôi cánh vô hình. Đừng do dự tung mình đón chiều gió để dệt thay định số.",
+        "reversed": "Ranh giới của lòng dũng cảm và sự xuẩn ngốc hiện rất đỗi mong manh. Lao đầu vào khi mắt vẫn còn nhắm nghiền chỉ đổi lại thương tích sâu kín, đừng manh động đưa bài vội."
+      },
+      "travel": {
+        "upright": "Lên đường mà chẳng cần la bàn hay điểm đến cụ thể. Chính sự lang thang vô định lại thắp sáng khao khát tự do, rửa trôi ưu phiền, đưa cõi lòng phiêu diêu đến vùng bình yên vô giá.",
+        "reversed": "Tâm hồn xao nhãng hoặc bất cẩn tạo ra sự xáo trộn bất bình thường trong hành trình. Sự cố lạc đồ, nhầm giờ sẽ làm hỏng bức ảnh du ca mộng mơ nếu bỏ quên kỉ cương xê dịch."
       },
       "spiritual": {
-        "up": "Bài học về nghiệp (Karma). Nhận thức được mọi hành động, lời nói đều tạo ra quả báo.",
-        "rev": "Từ chối nhìn nhận sai lầm của bản thân, đổ lỗi cho hoàn cảnh thay vì chịu trách nhiệm.",
-        "upright": "Chấp nhận sự vận hành của luật Karma (Nghiệp). Hiểu rằng kết quả hôm nay là quả ngọt hay trái đắng của ngày hôm qua.",
-        "reversed": "Chối bỏ trách nhiệm tâm linh. Không thừa nhận sai lầm, mãi đóng vai nạn nhân đổ lỗi cho sự an bài của số phận."
+        "upright": "Đôi tay rũ bỏ xiềng xích của cõi vật chất, ngẩng mặt hướng tâm hồn cất cánh vào cõi siêu nhiên. Đây là hồi chuông đầu tiên đánh thức sự giác ngộ vĩ đại nhất, đi tìm Chân - Thiện - Mỹ mà không lệ thuộc vào bất kỳ giáo phái gò bó nào.",
+        "reversed": "Mất phương vị trong dòng hải lưu tâm linh vô tận. Cố gắng cắm rễ đức tin vào những mảnh đất cằn cỗi bằng thứ lí thuyết hời hợt, để rồi hụt bước chơi vơi giữa vô luân."
+      },
+      "general": {
+        "upright": "Bức tranh của tạo hóa dang tay đón đợi bạn! Vũ trụ g���i gắm một lời thì thầm: Hãy khởi đầu, hãy bước tới vô định mà chẳng màng sợ hãi. Lăng kính nguyên thủy, đầy tươi mới của Kẻ Ngốc sẽ vén lên bức màn kỳ tích mà bạn hằng tìm kiếm.",
+        "reversed": "Bầu trời có thể sáng chói nhưng sát sườn lại là khe sâu không đáy. Sự phớt lờ cảnh báo từ thực tại và chạy theo tiếng vãn lầm lỗi có thể là án tử cho chuyến đi chưa kịp rực rỡ đã tàn úa."
       }
     },
     "advice": "Sự thật là ánh sáng không thể bị che khuất. Hãy hành xử với trái tim ngay thẳng, và vũ trụ sẽ trao cho bạn sự công bằng.",
@@ -820,34 +1860,164 @@ window.TAROT_DB = [
     "reversed": "Sự trì hoãn không mang lại kết quả, từ chối thay đổi góc nhìn, bám víu vào quá khứ hoặc đóng vai nạn nhân mà không chịu giải quyết vấn đề.",
     "aspects": {
       "love": {
-        "up": "Mối quan hệ đang ở giai đoạn chững lại. Cả hai cần lùi lại, nhìn nhận vấn đề từ góc độ của người kia để tìm ra tiếng nói chung.",
-        "rev": "Mắc kẹt trong một mối quan hệ độc hại, hoặc bạn đang hy sinh quá nhiều vì tình yêu nhưng không được đền đáp.",
-        "upright": "Tình yêu cần một nhịp dừng tĩnh tại. Lùi lại một bước, đặt mình vào vị trí đối phương để thấu cảm góc khuất tâm hồn họ. Sự chờ đợi mang tính nuôi dưỡng.",
-        "reversed": "Mắc kẹt trong cuộc tình mòn mỏi. Bạn hy sinh bản thân vô ích cho người không xứng đáng, hoặc cố chấp níu kéo ảo mộng đã tàn."
+        "upright": "Tình yêu lúc này không phải là hành động vồ vập, mà là khoảnh khắc treo ngược trái tim để nhìn thấu những điều chưa từng thấy. Sự hy sinh thầm lặng, một góc nhìn mới mẻ sẽ vén màn bí ẩn cho tình yêu thăng hoa và sâu sắc hơn bao giờ hết.",
+        "reversed": "Mối quan hệ đang kẹt trong vòng lặp trì trệ; một trong hai đang cố chấp giữ chặt những tổn thương cũ hoặc hy sinh một cách vô nghĩa. Sự bế tắc này đòi hỏi phải từ bỏ cái tôi để tìm lối thoát, nếu không, tình yêu s�� mãi bị treo lơ lửng trong nỗi đau."
+      },
+      "ex": {
+        "upright": "Hãy tạm dừng mọi hồi ức, treo ngược quá khứ để nhìn lại mối quan hệ cũ từ một lăng kính hoàn toàn khác. Buông bỏ sự cố chấp, chấp nhận sự thật và tha thứ cho những gì đã qua sẽ giải phóng linh hồn bạn khỏi gánh nặng xưa cũ.",
+        "reversed": "Bạn đang mắc kẹt trong sự hoài niệm độc hại hoặc cảm giác tự thương hại về người cũ, từ chối buông bỏ sợi dây vô hình trói buộc. Việc khăng khăng níu giữ sẽ chỉ khiến bạn càng thêm đau khổ và trì trệ trên con đường phía trước."
+      },
+      "current_love": {
+        "upright": "Để tình yêu được thanh lọc và vươn tầm giác ngộ, cả hai cần một khoảng lặng để chiêm nghiệm, hy sinh những kỳ vọng cá nhân và nhìn nhận đối phương bằng con mắt từ bi. Sự buông bỏ sẽ mang lại kết nối sâu sắc và ý nghĩa hơn.",
+        "reversed": "Mối quan hệ đang rơi vào bế tắc do sự ngoan cố hoặc một trong hai người từ chối đối mặt với sự thật, tự bi���n mình thành kẻ bị treo ngược trong đau khổ. Sự trì hoãn sẽ chỉ làm cạn kiệt cảm xúc và dẫn đến sự xa cách không đáng có."
+      },
+      "ambiguous": {
+        "upright": "Tình trạng lấp lửng này là cơ hội vàng để bạn tạm dừng mọi phán xét, buông bỏ nhu cầu kiểm soát và để dòng chảy tự nhiên của cảm xúc dẫn lối. Sự kiên nhẫn sẽ hé lộ chân tướng và mang lại sự thấu hiểu tuyệt vời.",
+        "reversed": "Bạn đang mắc kẹt trong một vòng lặp không rõ ràng, có thể là do sự thiếu quyết đoán của bản thân hoặc đối phương đang lợi dụng sự chịu đựng của bạn. Đã đến lúc phải nhìn rõ sự thật, dù cay đắng đến đâu, để không bị treo ngược mãi."
+      },
+      "crush": {
+        "upright": "Đây không phải là lúc hành động vội vàng hay hấp tấp. Hãy tạm ngưng những khao khát mãnh liệt, quan sát đối tượng từ một góc nhìn khách quan và cho phép trái tim được chiêm nghiệm. Sự thấu hiểu sâu sắc sẽ đến theo thời gian.",
+        "reversed": "Sự say mê này đang biến thành nỗi ám ảnh hoặc bạn đang hy sinh quá nhiều cho một ảo ảnh. Hãy tỉnh táo nhìn nhận xem liệu tình cảm này có xứng đáng với sự chờ đợi vô vọng và những giới hạn bạn tự đặt ra không."
+      },
+      "future_love": {
+        "upright": "Tình yêu đích thực sẽ đến sau một giai đoạn tạm ngưng và chiêm nghiệm sâu sắc về giá trị bản thân. Hãy sẵn sàng buông bỏ những khuôn mẫu cũ, chấp nhận một tình yêu mang đến cái nhìn mới mẻ và giác ngộ.",
+        "reversed": "Một mối quan hệ tương lai có thể mang đến sự trì trệ hoặc yêu cầu những sự hy sinh không đáng có. Cẩn trọng với việc lao vào một tình yêu đầy gánh nặng, bế tắc mà không có lối thoát, tự treo mình trong mỏi mòn."
+      },
+      "someone": {
+        "upright": "Đối với người ấy, bạn là hiện thân của sự trầm tĩnh, trí tuệ và cái nhìn sâu sắc. Họ trân trọng khả năng buông bỏ và sự kiên nhẫn của bạn, coi đó là nguồn cảm hứng để nhìn mọi việc đa chiều và ý nghĩa hơn.",
+        "reversed": "Trong mắt họ, bạn có thể đang tỏ ra cứng đầu, cố chấp hoặc thiếu linh hoạt. Họ cảm thấy bạn đang tự trói buộc mình trong những lối mòn tư duy không cần thiết, mãi mãi bị treo ngược trong những quan điểm cũ."
+      },
+      "marriage": {
+        "upright": "Hôn nhân đang cần một sự tạm dừng để tái định nghĩa các giá trị cốt lõi. Hy sinh những kỳ vọng cá nhân, lắng nghe thấu đáo và chấp nhận những khác biệt sẽ dẫn lối đến sự hòa hợp sâu sắc và bền vững.",
+        "reversed": "Cột trụ hôn nhân đang chịu gánh nặng bởi sự trì hoãn, sự thiếu quyết đoán hoặc một bên cảm thấy mình đang hy sinh quá mức mà không được đền đáp. Mâu thuẫn dai dẳng do không ai chịu buông bỏ sẽ đẩy cuộc hôn nhân vào ngõ cụt."
+      },
+      "conflict": {
+        "upright": "Giữa bão tố mâu thuẫn, hãy tìm một điểm neo vững chãi của sự trầm tĩnh. Tạm dừng tranh cãi, chấp nhận nhìn sự việc từ góc độ đối phương sẽ mở ra con đường hòa giải bất ngờ và đưa mọi khúc mắc về nơi an yên.",
+        "reversed": "Mâu thuẫn kéo dài do sự ngoan cố, không ai chịu nhượng bộ hoặc cảm giác mình là nạn nhân. Sự trì hoãn giải quyết chỉ làm tổn thương thêm và đẩy vấn đề vào ngõ cụt của sự bế tắc, treo ngược các mối quan hệ."
+      },
+      "breakup": {
+        "upright": "Sự tan vỡ này là một sự hy sinh cần thiết để bạn có thể nhìn nhận lại cuộc đời từ một góc độ hoàn toàn mới. Hãy chấp nhận sự buông bỏ để giải phóng bản thân và chuẩn bị cho một chương mới đầy giác ngộ.",
+        "reversed": "Bạn đang mắc kẹt trong nỗi đau hậu chia tay, từ chối buông bỏ sự oán hận hoặc cảm giác tự thương hại. Việc cố chấp níu kéo những gì đã mất chỉ làm bạn thêm trì trệ và khổ sở, tự treo mình trong quá khứ."
+      },
+      "long_distance": {
+        "upright": "Khoảng cách địa lý là phép thử của sự kiên nhẫn và lòng tin. Hãy chấp nhận khoảng lặng này như một cơ hội để phát triển bản thân và vun đắp tình yêu bằng sự thấu hiểu sâu sắc từ xa.",
+        "reversed": "Mối quan hệ đường dài đang chịu áp lực từ sự trì hoãn, thiếu cam kết hoặc cảm giác bị bỏ rơi. Cả hai đang mắc kẹt trong sự chờ đợi vô vọng hoặc những hy sinh đơn phương không hồi kết."
+      },
+      "jealousy": {
+        "upright": "Để xua tan màn sương ghen tuông, hãy tạm gác lại những cảm xúc tiêu cực và tìm kiếm một góc nhìn khác. Sự thấu hiểu và tin tưởng sẽ chỉ đến khi bạn sẵn lòng buông bỏ những nghi ngờ cố hữu.",
+        "reversed": "Nỗi ghen tuông đang biến bạn thành một con người cố chấp, tự trói buộc mình trong những suy nghĩ độc hại. Sự trì hoãn đối mặt với nỗi sợ hãi sẽ chỉ làm bạn thêm đau khổ, bị treo ngược bởi chính bóng ma ngờ vực."
+      },
+      "self_love": {
+        "upright": "Yêu bản thân là một hành trình chiêm nghiệm sâu sắc, chấp nhận mọi khuyết điểm và buông bỏ áp lực phải hoàn hảo. Hãy dành thời gian tĩnh lặng để kết nối với bản ngã chân thật, từ đó tìm thấy sự bình yên.",
+        "reversed": "Bạn đang tự trói buộc mình trong sự chỉ trích, cảm giác không đủ tốt hoặc từ chối chấp nhận con người thật. Sự trì hoãn việc chăm sóc bản thân đang bào mòn tinh thần, tự treo mình trong vòng xoáy tự ti."
       },
       "career": {
-        "up": "Công việc đang bế tắc hoặc giậm chân tại chỗ. Đừng ép buộc sự thay đổi, hãy tận dụng thời gian này để lập kế hoạch dài hạn.",
-        "rev": "Cảm thấy bế tắc nhưng không chịu thay đổi hoặc buông bỏ công việc cũ. Lãng phí thời gian và công sức vào những dự án vô nghĩa.",
-        "upright": "Sự nghiệp tạm thời giậm chân tại chỗ. Đừng cố bơi ngược dòng nước xiết. Tận dụng thời gian này ấp ủ chiến lược dài hạn và thay đổi tư duy làm việc.",
-        "reversed": "Trì trệ, chán nản nhưng không dám dứt bỏ. Lãng phí thời gian thanh xuân vào công việc vô nghĩa chỉ vì sợ hãi sự thay đổi."
+        "upright": "Sự nghiệp đang đòi hỏi một khoảng dừng để tái định hướng và chiêm nghiệm sâu sắc. Hãy chấp nhận hy sinh những lợi ích ngắn hạn để có cái nhìn tổng thể hơn, mở ra cánh cửa cho một hướng đi mới đầy ý nghĩa và giác ngộ.",
+        "reversed": "Bạn đang cảm thấy bế tắc trong công việc, trì hoãn những quyết định quan trọng hoặc hy sinh quá nhiều mà không nhận lại được giá trị xứng đáng. Cần thoát khỏi vòng lặp này, đừng để mình mãi bị treo ngược."
+      },
+      "job_search": {
+        "upright": "Đây là thời điểm để tạm ngưng việc tìm kiếm ráo riết và chiêm nghiệm về những gì bạn thực sự muốn. Một góc nhìn mới, sự kiên nhẫn sẽ dẫn bạn đến cơ hội không ngờ và đúng đắn với bản thân.",
+        "reversed": "Việc tìm kiếm việc làm đang bị đình trệ do sự thiếu quyết đoán, trì hoãn hoặc bạn đang cố gắng theo đuổi một con đường không phù hợp. Cần thay đổi chiến lược, đừng để bản thân bị treo ngược trong sự vô vọng."
+      },
+      "promotion": {
+        "upright": "Để đạt được bước tiến mới, bạn cần một sự hy sinh hoặc một khoảng dừng để học hỏi, thích nghi với vai trò mới. Việc chấp nhận nhìn mọi việc từ vị trí cao hơn sẽ mang lại thành công bất ngờ.",
+        "reversed": "Cơ hội thăng tiến bị trì hoãn do sự thiếu linh hoạt, ngoan cố không chịu thay đổi hoặc bạn đang hy sinh quá nhiều mà không được công nhận. Cần thay đổi cách tiếp cận, đừng tự treo mình trong sự bế tắc."
+      },
+      "business": {
+        "upright": "Doanh nghiệp cần một khoảng thời gian tạm lắng để tái cấu trúc hoặc xem xét lại chiến lược. Sự hy sinh lợi nhuận ngắn hạn vì tầm nhìn dài hạn sẽ là chìa khóa thành công và mang lại sự phát triển bền vững.",
+        "reversed": "Công việc kinh doanh đang trì trệ, mắc kẹt trong những mô hình cũ hoặc đang yêu cầu những sự hy sinh vô nghĩa từ bạn. Đã đến lúc xem xét lại liệu có nên tiếp tục, đừng để doanh nghiệp bị treo ngược mãi."
+      },
+      "colleague": {
+        "upright": "Mối quan hệ với đồng nghiệp đang cần một sự buông bỏ định kiến và nhìn nhận nhau từ góc độ mới. Hãy chấp nhận sự khác biệt để tạo nên môi trường làm việc hòa hợp và hiệu quả.",
+        "reversed": "Sự cố chấp hoặc trì hoãn giải quyết mâu thuẫn với đồng nghiệp đang tạo ra căng thẳng. Có người đang tự biến mình thành nạn nhân hoặc không chịu hợp tác, tự treo mình trong những bất mãn cá nhân."
+      },
+      "career_change": {
+        "upright": "Đây là thời điểm tuyệt vời để tạm dừng và chiêm nghiệm về hướng đi mới. Sự thay đổi này đòi hỏi bạn phải hy sinh những điều quen thuộc để đổi lấy sự tự do và giác ngộ về con đường sự nghiệp đích thực.",
+        "reversed": "Bạn đang trì hoãn việc thay đổi nghề nghiệp vì sợ hãi, thiếu quyết đoán hoặc tự trói buộc mình trong những cam kết không còn phù hợp. Sự bế tắc này đang cản trở bạn, đừng để bản thân bị treo ngược trong lối mòn."
+      },
+      "freelance": {
+        "upright": "Cuộc sống tự do sẽ mang lại những góc nhìn độc đáo, nhưng đòi hỏi sự kiên nhẫn và khả năng tự điều chỉnh. Hãy chấp nhận những khoảng lặng để tái tạo năng lượng sáng tạo và tìm thấy nguồn cảm hứng mới.",
+        "reversed": "Bạn đang cảm thấy bị trì trệ trong công việc tự do, thiếu động lực hoặc đang hy sinh quá nhiều thời gian cá nhân mà không đạt được hiệu quả. Cần điều chỉnh lại, đừng tự treo mình trong sự kiệt sức."
+      },
+      "interview": {
+        "upright": "Buổi phỏng vấn không phải là cuộc chạy đua, mà là cơ hội để bạn thể hiện sự trầm tĩnh, khả năng phân tích sâu sắc và cái nhìn độc đáo. Hãy kiên nhẫn và chân thành, mọi thứ sẽ được nhìn nhận.",
+        "reversed": "Sự trì hoãn trong việc chuẩn bị, thiếu linh hoạt hoặc thái độ ngoan cố có thể khiến bạn bỏ lỡ cơ hội. Hãy cẩn trọng với việc tự trói buộc mình trong những lối mòn tư duy khi giao tiếp."
       },
       "finance": {
-        "up": "Sự tạm dừng trong vấn đề tiền bạc. Có thể bạn cần 'thắt lưng buộc bụng' (hy sinh chi tiêu) để dành tiền cho một mục đích lớn hơn.",
-        "rev": "Tiền bạc đình trệ do đầu tư sai chỗ, hoặc bạn đang quá sợ hãi việc mất tiền nên không dám hành động.",
-        "upright": "Thắt lưng buộc bụng. Bạn cần hy sinh niềm vui vật chất ngắn hạn để gom góp nguồn lực cho mục tiêu tài chính lớn lao hơn trong tương lai.",
-        "reversed": "Tê liệt trước quyết định tài chính. Sự chần chừ, tiếc rẻ khiến bạn bỏ lỡ cơ hội vàng tái cơ cấu dòng tiền của mình."
+        "upright": "Tài chính đang cần một khoảng lặng để bạn xem xét lại chi tiêu, đầu tư. Đôi khi, việc tạm ngưng chi tiêu hoặc chấp nhận hy sinh một khoản nhỏ sẽ mang lại lợi ích lớn về sau, tạo nền tảng vững chắc.",
+        "reversed": "Tình hình tài chính đang bế tắc do sự trì hoãn quyết định, ngoan cố không chịu thay đổi thói quen chi tiêu hoặc cảm giác bị mắc kẹt trong nợ nần. Đừng tự treo mình trong những gánh nặng này."
+      },
+      "investment": {
+        "upright": "Đây là thời điểm để tạm ngưng các giao dịch vội vã, chiêm nghiệm kỹ lưỡng về thị trường và có cái nhìn tổng thể. Sự kiên nhẫn và chiến lược dài hạn sẽ được đền đáp xứng đáng.",
+        "reversed": "Đầu tư đang gặp trì trệ do sự thiếu quyết đoán, ngoan cố giữ một khoản đầu tư thua lỗ hoặc bạn đang hy sinh quá nhiều mà không thu được lợi nhuận. Đừng tự treo mình trong những quyết định sai lầm."
+      },
+      "debt": {
+        "upright": "Để thoát khỏi gánh nặng nợ nần, bạn cần tạm dừng mọi chi tiêu không cần thiết và nhìn nhận lại tình hình tài chính một cách khách quan. Sự hy sinh và kiên nhẫn sẽ dẫn đến tự do tài chính.",
+        "reversed": "Bạn đang cảm thấy bị mắc kẹt trong nợ nần, trì hoãn việc giải quyết hoặc tự biến mình thành nạn nhân của hoàn cảnh. Cần thay đổi tư duy và hành động ngay lập tức, đừng để mình bị treo ngược mãi."
+      },
+      "savings": {
+        "upright": "Tiết kiệm lúc này đòi hỏi sự kiên nhẫn và một góc nhìn dài hạn. Hãy chấp nhận những hy sinh nhỏ nhặt trong hiện tại để xây dựng một tương lai tài chính vững vàng, mang lại bình an.",
+        "reversed": "Việc tiết kiệm đang bị đình trệ do sự thiếu quyết đoán, chi tiêu bốc đồng hoặc bạn đang cảm thấy bị áp lực phải hy sinh quá nhiều mà không thấy kết quả. Đừng tự treo mình trong những ham muốn nhất thời."
+      },
+      "luck_money": {
+        "upright": "May mắn tiền bạc không đến từ những cú nhảy vọt, mà từ sự kiên nhẫn, góc nhìn sâu sắc và khả năng buông bỏ những kỳ vọng không thực tế. Một sự bất ngờ có thể đến sau giai đoạn tĩnh lặng.",
+        "reversed": "Bạn đang bỏ lỡ cơ hội tài chính do sự trì hoãn, thiếu quyết đoán hoặc cố chấp giữ một quan điểm cũ kỹ. May mắn đang quay lưng vì bạn không chịu thay đổi, tự treo mình trong sự thiếu chủ động."
       },
       "health": {
-        "up": "Sức khỏe đang trong quá trình điều trị kéo dài, đòi hỏi sự kiên nhẫn và nghỉ ngơi tuyệt đối.",
-        "rev": "Bỏ qua các phương pháp chữa trị khác nhau vì sự cố chấp. Sức khỏe sa sút do tâm trạng tiêu cực kéo dài.",
-        "upright": "Báo hiệu giai đoạn buông bỏ hoàn toàn công việc để tịnh dưỡng. Cơ thể kêu gào đòi nghỉ ngơi vô điều kiện để tự chữa lành.",
-        "reversed": "Ngoan cố từ chối liệu pháp chữa trị, phớt lờ cảnh báo cơ thể. Tinh thần u uất kéo theo sự suy sụp không thể đảo ngược của thể chất."
+        "upright": "Sức khỏe đang cần một khoảng thời gian để phục hồi và tái tạo. Hãy lắng nghe cơ thể, chấp nhận tạm dừng những thói quen cũ và tìm kiếm một phương pháp chữa lành từ góc độ khác, khai mở sự khỏe mạnh mới.",
+        "reversed": "Tình trạng sức khỏe đang bị trì trệ do sự ngoan cố không chịu thay đổi thói quen xấu, trì hoãn việc thăm khám hoặc bạn đang tự biến mình thành nạn nhân của bệnh tật. Đừng tự treo mình trong sự ốm yếu."
+      },
+      "mental": {
+        "upright": "Tâm trí đang cần một sự tạm dừng khỏi những ồn ào bên ngoài đ��� tìm kiếm bình yên nội tại. Thiền định, chiêm nghiệm sẽ mang lại sự sáng tỏ và giải phóng khỏi gánh nặng tinh thần, đưa bạn đến sự giác ngộ.",
+        "reversed": "Bạn đang mắc kẹt trong vòng xoáy suy nghĩ tiêu cực, trì hoãn việc đối mặt với vấn đề hoặc từ chối tìm kiếm sự giúp đỡ. Sự bế tắc này đang bào mòn tinh thần bạn, tự treo mình trong bóng tối nội tâm."
+      },
+      "energy": {
+        "upright": "Dòng chảy năng lượng đang mời gọi bạn tạm dừng để tái kết nối với nguồn gốc. Sự trầm tĩnh và buông bỏ những áp lực sẽ giúp bạn nạp lại sinh lực và nhìn rõ mục đích, khai mở luân xa mới.",
+        "reversed": "Năng lượng bị đình trệ, bạn cảm thấy uể oải, mất động lực do sự trì hoãn, ngoan cố giữ chặt những thói quen cũ hoặc tự trói buộc mình vào những giới hạn. Đừng để mình bị treo ngược trong mỏi mệt."
+      },
+      "family": {
+        "upright": "Quan hệ gia đình đang cần một khoảng lặng để thấu hiểu và chấp nhận những khác biệt. Hãy hy sinh những cái tôi cá nhân để tạo không gian cho sự gắn kết và hòa thuận, vun đắp yêu thương.",
+        "reversed": "Mâu thuẫn gia đình kéo dài do sự ngoan cố, không ai chịu nhượng bộ hoặc một thành viên đang cảm thấy bị hy sinh quá nhiều mà không được công nhận. Đừng để sợi dây gia đình bị treo ngược trong sự căng thẳng."
+      },
+      "diet": {
+        "upright": "Chế độ ăn uống cần một sự tạm dừng để bạn chiêm nghiệm về nhu cầu thực sự của cơ thể. Buông bỏ những định kiến về ăn uống, lắng nghe trực giác sẽ mang lại sức khỏe tốt hơn và sự cân bằng.",
+        "reversed": "Bạn đang trì hoãn việc thay đổi thói quen ăn uống kém lành mạnh, hoặc đang tự trói buộc mình vào những chế độ ăn kiêng cực đoan mà không mang lại hiệu quả. Đừng tự treo mình trong vòng xoáy ăn uống độc hại."
+      },
+      "study": {
+        "upright": "Học tập lúc này không phải là nhồi nhét, mà là tạm dừng để chiêm nghiệm, thấu hiểu sâu sắc kiến thức. Một phương pháp học tập mới lạ sẽ mở ra cánh cửa giác ngộ, đưa bạn đến tầm cao tri thức.",
+        "reversed": "Việc học đang bị đình trệ do sự thiếu quyết đoán, trì hoãn hoặc bạn đang cố gắng học theo một phương pháp không phù hợp. Cần thay đổi cách tiếp cận, đừng để bản thân bị treo ngược trong sự thiếu tiến bộ."
+      },
+      "study_abroad": {
+        "upright": "Chuyến du học là một hành trình tự khám phá, đòi hỏi sự kiên nhẫn và khả năng thích nghi. Hãy chấp nhận những khó khăn ban đầu như một phần của quá trình trưởng thành và giác ngộ.",
+        "reversed": "Kế hoạch du học có thể bị trì hoãn do sự thiếu chuẩn bị, ngoan cố không chịu tìm hiểu văn hóa mới hoặc bạn đang cảm thấy bị mắc kẹt, không thể hòa nhập. Đừng để mình bị treo ngược giữa xứ người xa lạ."
+      },
+      "self": {
+        "upright": "Hành trình tự nhận thức đang mời gọi bạn tạm dừng, buông bỏ những định kiến về bản thân và nhìn nhận mình từ một góc độ hoàn toàn mới. Sự tĩnh lặng sẽ dẫn lối đến sự giác ngộ về bản ngã chân thật.",
+        "reversed": "Bạn đang mắc kẹt trong những niềm tin cũ, từ chối chấp nhận sự thật về bản thân hoặc trì hoãn việc phát triển cá nhân. Sự bế tắc này đang cản trở bạn trở thành con người thật, tự treo mình trong ảo ảnh."
+      },
+      "purpose": {
+        "upright": "Mục đích sống không phải là điều cần vồ vập tìm kiếm, mà là sự chiêm nghiệm sâu sắc sau những khoảng lặng. Hãy buông bỏ những áp lực và để trực giác dẫn lối đến ý nghĩa chân thật, đến sứ mệnh linh hồn.",
+        "reversed": "Bạn đang cảm thấy lạc lối, trì hoãn việc tìm kiếm mục đích hoặc tự trói buộc mình vào những kỳ vọng không thực tế. Sự bế tắc này đang ngăn cản bạn sống có ý nghĩa, tự treo mình trong sự vô định."
+      },
+      "shadow_self": {
+        "upright": "Đối mặt với bản ngã bóng tối đòi hỏi sự dũng cảm để tạm dừng phán xét, chấp nhận những khuyết điểm như một phần của con người mình. Chính sự buông bỏ này sẽ mang lại sự thanh tẩy và toàn vẹn.",
+        "reversed": "Bạn đang cố chấp chối bỏ hoặc trì hoãn việc đối mặt với những phần tối của bản thân. Điều này chỉ làm tăng thêm gánh nặng và ngăn cản quá trình chữa lành, tự treo mình trong bóng tối."
+      },
+      "decision": {
+        "upright": "Đây là lúc để tạm dừng mọi sự vội vã, treo ngược vấn đề để nhìn nhận từ nhiều góc độ. Một quyết định khôn ngoan sẽ xuất hiện sau khi bạn đã chiêm nghiệm và buông bỏ sự cố chấp.",
+        "reversed": "Bạn đang trì hoãn việc đưa ra quyết định quan trọng, cảm thấy bế tắc hoặc cố chấp giữ một lựa chọn không phù hợp. Sự thiếu quyết đoán này đang gây ra sự trì trệ, tự treo mình trong sự lưỡng lự."
+      },
+      "travel": {
+        "upright": "Chuyến đi này không phải để khám phá bên ngoài, mà để tìm về bên trong. Hãy chấp nhận những khoảng lặng, buông bỏ lịch trình cứng nhắc để chiêm nghiệm và thu nạp những trải nghiệm sâu sắc, mở rộng tầm nhìn.",
+        "reversed": "Hành trình đang gặp trì trệ do sự thiếu chuẩn bị, ngoan cố không chịu thay đổi kế hoạch hoặc bạn đang cảm thấy bị mắc kẹt, không thể tận hưởng chuyến đi. Đừng để mình bị treo ngược trong những rắc rối."
       },
       "spiritual": {
-        "up": "Sự khai sáng (halo quanh đầu). Buông bỏ cái tôi (Ego) và để dòng chảy vũ trụ dẫn dắt. Chấp nhận nghịch cảnh với sự bình thản.",
-        "rev": "Trống rỗng, mất kết nối tâm linh, từ chối bài học vũ trụ gửi đến và chìm đắm trong sự hối tiếc.",
-        "upright": "Hào quang của khai sáng rực rỡ quanh đầu. Sự buông bỏ bản ngã (Ego) hòa tan linh hồn vào dòng chảy thiêng liêng vũ trụ.",
-        "reversed": "Khước từ tiếng gọi Đấng Tối Cao. Mắc kẹt trong bóng tối vô minh vì không chịu vứt bỏ chấp niệm trần tục."
+        "upright": "Đây là thời điểm của sự giác ngộ sâu sắc, khi bạn sẵn sàng buông bỏ mọi định kiến và tạm dừng mọi hoạt động thế tục để kết nối với cõi tâm linh. Một cái nhìn hoàn toàn mới sẽ mở ra, soi sáng con đường.",
+        "reversed": "Hành trình tâm linh đang bị đình trệ do sự cố chấp, thiếu linh hoạt hoặc bạn đang cảm thấy bị mắc kẹt trong những giáo điều cũ kỹ mà không tìm thấy ý nghĩa thực sự. Đừng tự treo mình trong sự mù quáng."
+      },
+      "general": {
+        "upright": "Vũ trụ đang mời gọi bạn tạm dừng mọi bộn bề, treo ngược thế giới để chiêm ngưỡng một bức tranh vĩ đại hơn. Đây là thời khắc của sự hy sinh để giác ngộ, của sự buông bỏ để tìm thấy ý nghĩa sâu sắc và một góc nhìn mới mẻ.",
+        "reversed": "Bạn đang c���m thấy cuộc đời trì trệ, mắc kẹt trong vòng lặp bế tắc do sự cố chấp, thiếu linh hoạt hoặc từ chối buông bỏ những gì đã cũ. Sự chần chừ sẽ khiến bạn bỏ lỡ cơ hội quý giá để thay đổi, mãi bị treo ngược trong khổ đau."
       }
     },
     "advice": "Đôi khi, việc không làm gì cả lại là hành động mạnh mẽ nhất. Hãy buông tay để rơi tự do vào sự tĩnh lặng của sự giác ngộ.",
@@ -954,34 +2124,164 @@ window.TAROT_DB = [
     "reversed": "Sự mất cân bằng, sống quá vội vã, cực đoan hoặc hành động bốc đồng. Cảnh báo về sự dư thừa (ăn uống quá độ, chi tiêu vô tội vạ, yêu đương mù quáng).",
     "aspects": {
       "love": {
-        "up": "Mối quan hệ yên bình, hòa hợp. Hai bạn biết cách nhường nhịn, dung hòa những điểm khác biệt của nhau để duy trì tình cảm bền vững.",
-        "rev": "Sự bất đồng, mâu thuẫn gay gắt do cái tôi quá lớn hoặc không ai chịu nhường ai. Thiếu sự bao dung trong tình yêu.",
-        "upright": "Hòa hợp êm đềm như nước mùa thu. Hai trái tim biết nhường nhịn, lắng nghe và dung hòa khác biệt để dệt bản tình ca êm ái, bền bỉ với thời gian.",
-        "reversed": "Những trận cãi vã nảy lửa, sự ích kỷ và đòi hỏi cực đoan đang xé toạc mối quan hệ. Tình yêu thiếu vắng nhẫn nại và lòng bao dung."
+        "upright": "Tình yêu như dòng nước êm đềm hòa quyện hai dòng chảy khác biệt. Đây là thời khắc để lắng nghe, kiên nhẫn thấu hiểu và dung hòa những đối lập, kiến tạo nên một bản giao hưởng hài hòa giữa hai tâm hồn, nơi sự cân bằng là chìa khóa cho hạnh phúc vĩnh cửu.",
+        "reversed": "Mối quan hệ đang chông chênh trên bờ vực của sự mất cân bằng. Một bên có thể quá đòi hỏi, hoặc cả hai đang thiếu đi sự kiên nhẫn và khả năng điều hòa cảm xúc. Sự cố chấp và cực đoan sẽ phá v��� mọi nhịp điệu yêu thương."
+      },
+      "ex": {
+        "upright": "Việc hàn gắn với người cũ đòi hỏi sự tinh tế và kiên nhẫn vô hạn. Hãy tìm kiếm sự dung hòa giữa quá khứ và hiện tại, chấp nhận những khác biệt và cùng nhau xây đắp một nền tảng mới dựa trên sự thấu hiểu và cân bằng cảm xúc.",
+        "reversed": "Mọi nỗ lực quay lại chỉ thêm đổ vỡ vì sự thiếu kiên nhẫn và những kỳ vọng không thực tế. Cảm xúc cũ đang trỗi dậy một cách cực đoan, khiến cả hai không thể tìm thấy điểm chung để hòa giải, dẫn đến mâu thuẫn dai dẳng."
+      },
+      "current_love": {
+        "upright": "Mối tình của bạn đang trải qua giai đoạn hòa hợp sâu sắc. Cả hai đang học cách điều chỉnh, bổ sung cho nhau, tạo nên một dòng chảy năng lượng êm đềm và bền vững. Hãy tiếp tục vun đắp sự thấu hiểu và kiên nhẫn để tình yêu ngày càng thăng hoa.",
+        "reversed": "Sự mất cân bằng đang len lỏi vào mối quan hệ, có thể do một trong hai quá mức kiểm soát hoặc thiếu đi sự linh hoạt. Cảm xúc cực đoan và sự thiếu điều tiết đang tạo ra những rạn nứt khó lành, cần phải nhìn nhận và điều chỉnh ngay lập tức."
+      },
+      "ambiguous": {
+        "upright": "Tình trạng mập mờ này đang dẫn lối đến một sự rõ ràng thông qua sự kiên nhẫn và khả năng dung hòa. Hãy để thời gian tự nhiên hé lộ, trong lúc đó, tìm kiếm sự cân bằng trong cảm xúc của chính bạn mà không cần vội vàng định danh mối quan hệ.",
+        "reversed": "Sự không rõ ràng đang trở thành một cái bẫy của sự cực đoan hoặc thiếu kiên nhẫn. Một trong hai có thể đang thể hiện sự mâu thuẫn trong hành động, hoặc cả hai đều không sẵn lòng điều hòa để tìm ra một hướng đi chung rõ ràng hơn."
+      },
+      "crush": {
+        "upright": "Hãy tiếp cận mối quan hệ này bằng sự tinh tế và kiên nhẫn. Đừng vội vàng, mà hãy tìm cách hòa mình vào thế giới của họ một cách tự nhiên, tạo ra sự cân bằng và thấu hiểu lẫn nhau. Sự chân thành và điều độ sẽ tạo ấn tượng tốt đẹp.",
+        "reversed": "Sự vội vàng và thiếu kiên nhẫn đang làm hỏng cơ hội. Bạn có thể đang thể hiện sự cực đoan trong cảm xúc hoặc hành động, khiến đối phương cảm thấy khó chịu. Cần tiết chế và kiểm soát bản thân hơn."
+      },
+      "future_love": {
+        "upright": "Người ấy sẽ bước vào đời bạn mang theo sự bình yên và cân bằng. Mối duyên này sẽ phát triển chậm rãi nhưng chắc chắn, dựa trên sự thấu hiểu sâu sắc và khả năng dung hòa những khía cạnh đối lập. Đây là một tình yêu hòa hợp và bền vững.",
+        "reversed": "Hãy cẩn trọng với những mối quan hệ vội vàng hoặc thiếu cân nhắc. Người sắp tới có thể mang theo năng lượng của sự cực đoan, không kiên nhẫn hoặc không sẵn lòng điều hòa, khiến tình yêu trở nên hỗn loạn và khó duy trì."
+      },
+      "someone": {
+        "upright": "Đối với người ấy, bạn là hiện thân của sự điềm tĩnh và cân bằng. Họ nhìn thấy ở bạn khả năng hòa giải mọi xung đột, một tâm hồn kiên nhẫn và thấu hiểu, mang lại sự ổn định và bình yên cho cuộc sống của họ.",
+        "reversed": "Trong mắt người ấy, bạn có thể đang thể hiện sự thiếu kiên nhẫn, thiếu kiểm soát hoặc sự cực đoan trong cảm xúc. Họ cảm thấy bạn thiếu sự ổn định, gây ra sự bất an và khó hòa hợp."
+      },
+      "marriage": {
+        "upright": "Hôn nhân là một dòng chảy êm đềm của sự hòa hợp và thấu hiểu. Cả hai đã học được nghệ thuật dung hòa những khác biệt, tạo nên một nền tảng vững chắc và cân bằng cho tổ ấm. Sự kiên nhẫn và lòng vị tha là trụ cột của hạnh phúc này.",
+        "reversed": "Cột trụ hôn nhân đang lung lay vì sự thiếu cân bằng và những xung đột không được hóa giải. Sự thiếu kiên nhẫn, cực đoan trong lời nói hoặc hành động của một trong hai đang đẩy mối quan hệ vào ngõ cụt của sự đổ vỡ."
+      },
+      "conflict": {
+        "upright": "Giữa cơn bão mâu thuẫn, hãy tìm kiếm sự bình tĩnh và con đường dung hòa. Lá bài khuyên bạn hãy làm cầu nối, lắng nghe cả hai phía và kiên nhẫn tìm ra điểm chung để hóa giải căng thẳng, mang lại sự hòa hợp và thấu hiểu.",
+        "reversed": "Mâu thuẫn đang leo thang do sự thiếu kiên nhẫn, cố chấp và không sẵn lòng thỏa hiệp. Cảm xúc cực đoan đang che mờ lý trí, khiến mọi nỗ lực hòa giải đều trở nên vô nghĩa, đẩy tình hình vào bế tắc."
+      },
+      "breakup": {
+        "upright": "Dù đau buồn, sự tan vỡ này sẽ dẫn lối bạn đến một trạng thái cân bằng mới. Hãy chấp nhận quá trình chữa lành chậm rãi, tìm lại sự hài hòa trong nội tâm và nhìn nhận bài học từ mối quan hệ đã qua để tái tạo bản thân mạnh mẽ hơn.",
+        "reversed": "Hậu chia tay, bạn đang bị cuốn vào vòng xoáy của cảm xúc cực đoan và thiếu kiểm soát. Sự thiếu kiên nhẫn trong việc chữa lành hoặc cố chấp vào những điều đã qua chỉ khiến bạn mắc kẹt trong nỗi đau và sự mất cân bằng."
+      },
+      "long_distance": {
+        "upright": "Khoảng cách địa lý không thể làm phai nhạt tình yêu nếu có sự kiên nhẫn và thấu hiểu. Cả hai đang học cách điều hòa cảm xúc, giữ vững niềm tin và tạo ra sự cân bằng giữa tự do cá nhân và cam kết, để tình yêu vẫn bền vững.",
+        "reversed": "Sự thiếu kiên nhẫn và mất cân bằng đang là thử thách lớn cho mối quan hệ đường dài. Một trong hai có thể cảm thấy bị bỏ rơi, hoặc sự cực đoan trong suy nghĩ đang dẫn đến hiểu lầm và xung đột không đáng có."
+      },
+      "jealousy": {
+        "upright": "Sự ghen tuông cần được điều hòa bằng niềm tin và sự thấu hiểu. Hãy kiên nhẫn tìm hiểu nguyên nhân gốc rễ, trò chuyện cởi mở để hóa giải những hoài nghi, mang lại sự bình yên và cân bằng cho mối quan hệ.",
+        "reversed": "Cảm xúc ghen tuông đang vượt quá tầm kiểm soát, dẫn đến sự cực đoan và thiếu lý trí. Sự mất cân bằng trong niềm tin đang phá hủy sự hòa hợp, tạo ra những tổn thương sâu sắc khó lành."
+      },
+      "self_love": {
+        "upright": "Yêu bản thân là một hành trình tìm kiếm sự cân bằng giữa nhu cầu và trách nhiệm. Hãy kiên nhẫn lắng nghe cơ thể và tâm trí, điều hòa giữa việc nuông chiều bản thân và phát triển cá nhân, để đạt được sự hài hòa nội tại.",
+        "reversed": "Bạn đang rơi vào trạng thái mất cân bằng trong việc yêu bản thân, có thể là quá mức nuông chiều đến ích kỷ hoặc lại quá khắt khe với chính mình. Sự cực đoan này đang ngăn cản bạn tìm thấy sự bình yên và trưởng thành."
       },
       "career": {
-        "up": "Công việc tiến triển ổn định. Môi trường làm việc hài hòa, hợp tác nhóm tốt. Bạn đang cân bằng rất tốt giữa công việc và cuộc sống.",
-        "rev": "Căng thẳng do áp lực công việc, mâu thuẫn với đồng nghiệp hoặc bạn đang tham lam ôm đồm quá nhiều việc.",
-        "upright": "Một người dung hòa tuyệt vời nơi công sở. Cân bằng áp lực, gắn kết các thành viên và điều phối công việc với phong thái điềm tĩnh, chuyên nghiệp.",
-        "reversed": "Áp lực công việc đè bẹp tỉnh táo. Tham lam ôm đồm mọi thứ, làm việc vội vã, dẫn đến sai sót ngớ ngẩn và rạn nứt đồng nghiệp."
+        "upright": "Con đường sự nghiệp đang trải rộng với những cơ hội hợp tác và dung hòa. Đây là thời điểm lý tưởng để kết nối, tìm kiếm sự cân bằng giữa các ý tưởng đối lập, và kiên nhẫn thực hiện kế hoạch để đạt được thành công bền vững.",
+        "reversed": "Sự nghiệp đang đối mặt với những bất đồng và thiếu sự điều tiết. Các dự án có thể bị trì trệ do thiếu kiên nhẫn, hoặc sự cố chấp trong quan điểm đang phá vỡ mọi mối liên kết hợp tác, đẩy bạn vào trạng thái hỗn loạn."
+      },
+      "job_search": {
+        "upright": "Việc tìm kiếm công việc đòi hỏi sự kiên nhẫn và khả n��ng thích nghi. Hãy tìm kiếm sự cân bằng giữa mong muốn cá nhân và thực tế thị trường. Kỹ năng giao tiếp và khả năng dung hòa sẽ giúp bạn tạo ấn tượng tốt với nhà tuyển dụng.",
+        "reversed": "Bạn đang vấp phải khó khăn vì thiếu kiên nhẫn hoặc quá cực đoan trong lựa chọn. Sự thiếu linh hoạt và khả năng điều chỉnh sẽ khiến bạn bỏ lỡ những cơ hội phù hợp, kéo dài thời gian tìm việc."
+      },
+      "promotion": {
+        "upright": "Thăng tiến đòi hỏi sự kiên nhẫn, khả năng điều hòa và làm việc nhóm. Hãy thể hiện khả năng dung hòa các ý kiến khác biệt, cân bằng giữa tham vọng và thực tế, để chứng minh bạn xứng đáng với vị trí cao hơn.",
+        "reversed": "Cơ hội thăng tiến đang bị cản trở bởi sự thiếu kiên nhẫn hoặc thái độ cực đoan. Bạn có thể đang thiếu khả năng làm việc nhóm, không thể điều hòa các mối quan hệ, khiến cấp trên không nhìn thấy tiềm năng lãnh đạo ở bạn."
+      },
+      "business": {
+        "upright": "Kinh doanh đang ở giai đoạn cần sự cân bằng và kiên nhẫn. Hãy điều hòa các nguồn lực, hợp tác với đối tác để tạo ra sự cộng hưởng. Sự điềm tĩnh và khả năng thích nghi sẽ giúp bạn vượt qua mọi thử thách, tiến đến thành công bền vững.",
+        "reversed": "Thương trường đang gặp phải sự mất cân bằng nghiêm trọng. Các quyết định vội vàng, thiếu kiên nhẫn hoặc cực đoan đang dẫn đến những sai lầm lớn. Cần tiết chế và tìm cách hòa giải những xung đột nội bộ để tránh đổ vỡ."
+      },
+      "colleague": {
+        "upright": "Mối quan hệ với đồng nghiệp đang ở trạng thái hòa hợp. Bạn có khả năng dung hòa các tính cách khác biệt, tạo ra một môi trường làm việc cân bằng và hiệu quả. Sự kiên nhẫn và tinh thần hợp tác là chìa khóa cho sự thành công chung.",
+        "reversed": "Mối quan hệ với đồng nghiệp đang bị gián đoạn bởi sự thiếu kiên nhẫn hoặc những mâu thuẫn không được giải quyết. Sự cực đoan trong quan điểm hoặc thiếu khả năng điều hòa đang tạo ra một bầu không khí làm việc căng thẳng và kém hiệu quả."
+      },
+      "career_change": {
+        "upright": "Việc chuyển đổi sự nghiệp cần sự cân nhắc kỹ lưỡng và kiên nhẫn. Hãy tìm kiếm sự cân bằng giữa đam mê và thực tế, điều hòa giữa kinh nghiệm cũ và kiến thức mới để đưa ra quyết định sáng suốt nhất cho tương lai.",
+        "reversed": "Quyết định thay đổi nghề nghiệp có thể đang vội vàng và thiếu cân nhắc. Sự thiếu kiên nhẫn hoặc thái độ cực đoan đang đẩy bạn vào một lựa chọn không phù hợp, dẫn đến sự hối tiếc và mất cân bằng trong sự nghiệp."
+      },
+      "freelance": {
+        "upright": "Con đường tự do đang yêu cầu sự cân bằng giữa công việc và cuộc sống cá nhân. Hãy kiên nhẫn xây dựng quy trình làm việc, điều hòa giữa các dự án để duy trì sự ổn định và hài hòa. Tự do thực sự đến từ sự tự chủ có kỷ luật.",
+        "reversed": "Mô hình freelance đang gây ra sự mất cân bằng nghiêm trọng. Bạn có thể đang thiếu kiên nhẫn trong việc quản lý thời gian, dẫn đến quá tải hoặc làm việc cực đoan, làm mất đi sự tự do và hiệu quả mong muốn."
+      },
+      "interview": {
+        "upright": "Buổi phỏng vấn sẽ thành công nếu bạn thể hiện sự điềm tĩnh và khả năng cân bằng. Hãy dung hòa giữa sự tự tin và khiêm tốn, trả lời câu hỏi một cách thấu đáo và kiên nhẫn, để thể hiện sự chín chắn và phù hợp với vị trí.",
+        "reversed": "Buổi phỏng vấn có thể thất bại do sự thiếu kiên nhẫn hoặc thái độ cực đoan. Bạn có thể nói quá nhiều hoặc quá ít, không kiểm soát được cảm xúc, khiến nhà tuyển dụng thấy bạn thiếu sự ổn định và khả năng thích nghi."
       },
       "finance": {
-        "up": "Tài chính ổn định. Thu chi cân bằng, không có sự phung phí. Thời điểm tốt để tích lũy đều đặn.",
-        "rev": "Chi tiêu mất kiểm soát hoặc đầu tư cực đoan (tất tay) dễ dẫn đến thua lỗ nặng nề. Cần xem lại ngân sách.",
-        "upright": "Dòng chảy tài chính êm ả. Thu chi chừng mực, tiết kiệm hợp lý và đầu tư an toàn. Sự bình yên trong tâm hồn không bị dao động bởi sóng vật chất.",
-        "reversed": "Vung tay quá trán, mua sắm điên cuồng hoặc liều lĩnh ném tiền vào canh bạc rủi ro. Mất cân bằng tài chính đe dọa sự an toàn của bạn."
+        "upright": "Tình hình tài chính đang hướng đến sự ổn định và cân bằng. Đây là thời điểm tốt để xem xét lại ngân sách, kiên nhẫn lập kế hoạch và điều hòa giữa chi tiêu và tiết kiệm để tạo ra một dòng tiền vững chắc.",
+        "reversed": "Tài chính đang đối mặt với sự mất cân bằng. Các quyết định chi tiêu vội vàng, thiếu kiên nhẫn hoặc cực đoan đang đẩy bạn vào tình trạng khó khăn. Cần phải kiểm soát lại và tìm kiếm sự điều độ để tránh những rủi ro lớn hơn."
+      },
+      "investment": {
+        "upright": "Đầu tư lúc này cần sự kiên nhẫn và cân nhắc kỹ lưỡng. Hãy tìm kiếm sự cân bằng giữa rủi ro và lợi nhuận, điều hòa các danh mục đầu tư và không vội vàng trước những biến động thị trường để đạt được lợi nhuận bền vững.",
+        "reversed": "Các khoản đầu tư đang gặp rủi ro do sự thiếu kiên nhẫn hoặc quyết định cực đoan. Việc chạy theo lợi nhuận nhanh chóng mà bỏ qua các nguyên tắc cơ bản sẽ dẫn đến mất mát lớn và sự mất cân bằng tài chính."
+      },
+      "debt": {
+        "upright": "Để thoát khỏi gánh nặng nợ nần, bạn cần sự kiên nhẫn và một kế hoạch cân bằng. Hãy điều hòa các khoản chi tiêu, tìm cách thanh toán từng bước một và kiên trì thực hiện, bạn sẽ thấy con đường thoát nợ ngày càng rõ ràng.",
+        "reversed": "Gánh nặng nợ nần đang trở n��n trầm trọng hơn do sự thiếu kiên nhẫn hoặc thái độ cực đoan trong việc giải quyết. Việc cố gắng trả nợ quá nhanh hoặc phớt lờ hoàn toàn đều dẫn đến sự mất cân bằng và bế tắc."
+      },
+      "savings": {
+        "upright": "Tiết kiệm lúc này là một hành trình đòi hỏi sự kiên nhẫn và kỷ luật. Hãy cân bằng giữa việc hưởng thụ hiện tại và chuẩn bị cho tương lai, điều hòa các khoản chi để xây dựng một quỹ dự phòng vững chắc.",
+        "reversed": "Các khoản tiết kiệm đang bị tiêu hao do sự thiếu kiên nhẫn hoặc các quyết định chi tiêu cực đoan. Việc không kiểm soát được bản thân đang phá vỡ mọi kế hoạch tài chính, dẫn đến sự mất cân bằng và thiếu hụt."
+      },
+      "luck_money": {
+        "upright": "Tài lộc có thể đến thông qua sự cân bằng và kiên nhẫn. Thay vì mong đợi sự giàu có bất ngờ, hãy tập trung vào việc tạo ra giá trị, điều hòa các nguồn thu nhập để dòng chảy tài chính tự nhiên mà đến.",
+        "reversed": "May mắn tiền bạc đang quay lưng vì sự thiếu kiên nhẫn hoặc thái độ cực đoan trong việc kiếm tiền. Việc chạy theo các cơ hội nhanh chóng mà bỏ qua sự cân bằng sẽ dẫn đến thất bại và mất mát."
       },
       "health": {
-        "up": "Tình trạng sức khỏe tuyệt vời nhờ duy trì chế độ ăn uống, tập luyện và nghỉ ngơi điều độ. Thời điểm chữa lành lý tưởng.",
-        "rev": "Cảnh báo về thói quen ăn uống, sinh hoạt vô độ (thức khuya, nhậu nhẹt) gây suy giảm sức khỏe trầm trọng.",
-        "upright": "Sức khỏe phục hồi rực rỡ nhất. Sự điều độ trong ăn uống, ngủ nghỉ chính là thần dược chữa lành mọi tổn thương thể chất.",
-        "reversed": "Cảnh báo lối sống buông thả: thức khuya, lạm dụng chất kích thích, ăn uống vô độ. Sự cực đoan tàn phá hệ miễn dịch."
+        "upright": "Sức khỏe đang ở trạng thái cân bằng hoàn hảo. Bạn biết cách điều hòa giữa làm việc và nghỉ ngơi, dinh dưỡng và luyện tập. Hãy duy trì sự kiên nhẫn và lắng nghe cơ thể để giữ gìn nguồn năng lượng dồi dào này.",
+        "reversed": "Sức khỏe đang gặp vấn đề do sự mất cân bằng. Bạn có thể đang quá mức cực đoan trong chế độ ăn uống hoặc luyện tập, hoặc thiếu kiên nhẫn trong việc chăm sóc bản thân, dẫn đến sự suy kiệt và bệnh tật."
+      },
+      "mental": {
+        "upright": "Tâm trí bạn đang tìm thấy sự bình yên và cân bằng. Đây là thời điểm để điều hòa cảm xúc, kiên nhẫn đối diện với những suy nghĩ tiêu cực và tìm cách hóa giải chúng. Sự hài hòa nội tại sẽ mang lại sự thanh thản.",
+        "reversed": "Tâm trí bạn đang rơi vào trạng thái mất cân b���ng nghiêm trọng. Cảm xúc cực đoan, thiếu kiên nhẫn trong việc đối mặt với vấn đề đang khiến bạn chìm sâu vào lo âu và căng thẳng, phá vỡ sự bình yên nội tại."
+      },
+      "energy": {
+        "upright": "Dòng năng lượng trong bạn đang ở trạng thái cân bằng và hòa hợp. Bạn biết cách điều tiết và sử dụng năng lượng một cách hiệu quả, tạo ra sự ổn định và bền vững cho cả thể chất lẫn tinh thần.",
+        "reversed": "Năng lượng của bạn đang bị phân tán và mất cân bằng. Sự thiếu kiên nhẫn, hành động cực đoan hoặc không kiểm soát đang khiến bạn kiệt sức, mất đi sự kết nối với bản thân và vũ trụ."
+      },
+      "family": {
+        "upright": "Gia đình đang trải qua giai đoạn hòa thuận và gắn kết. Các thành viên biết cách dung hòa những khác biệt, kiên nhẫn lắng nghe và thấu hiểu lẫn nhau, tạo nên một tổ ấm bình yên và tràn đầy yêu thương.",
+        "reversed": "Mối quan hệ gia đình đang đối mặt với sự mất cân bằng và mâu thuẫn. Sự thiếu kiên nhẫn, cực đoan trong lời nói hoặc hành động của một thành viên đang gây rạn nứt, khiến không khí gia đình trở nên căng thẳng."
+      },
+      "diet": {
+        "upright": "Chế độ ăn uống của bạn đang hướng đến sự cân bằng và lành mạnh. Bạn biết cách điều hòa giữa các nhóm thực phẩm, lắng nghe cơ thể và kiên nhẫn thực hiện một lối sống dinh dưỡng khoa học.",
+        "reversed": "Chế độ ăn uống đang mất kiểm soát, có thể do sự thiếu kiên nhẫn hoặc thái độ cực đoan. Việc ăn uống thất thường, chạy theo các phương pháp không khoa học đang gây hại cho sức khỏe và mất cân bằng cơ thể."
+      },
+      "study": {
+        "upright": "Việc học tập đang tiến triển tốt nhờ sự kiên nhẫn và khả năng điều hòa. Bạn biết cách cân bằng giữa các môn học, tìm ra phương pháp phù hợp và kiên trì theo đuổi mục tiêu, giúp kiến thức thẩm thấu sâu sắc.",
+        "reversed": "Việc học tập đang gặp khó khăn do sự thiếu kiên nhẫn hoặc thái độ cực đoan. Bạn có thể đang quá tải hoặc bỏ bê, không tìm được sự cân bằng trong phương pháp học, dẫn đến kết quả kém hiệu quả."
+      },
+      "study_abroad": {
+        "upright": "Chuyến du học sẽ thành công nếu bạn giữ được sự kiên nhẫn và khả năng thích nghi. Hãy cân bằng giữa việc khám phá văn hóa mới và tập trung vào học tập, điều hòa giữa những khác biệt để hòa nhập và phát triển bản thân.",
+        "reversed": "Chuyến du học đang gặp trở ngại do sự thiếu kiên nhẫn hoặc không thể thích nghi. Sự cực đoan trong suy nghĩ, không chấp nhận sự khác biệt văn hóa đang khiến bạn mất phương hướng và không thể hòa nhập."
+      },
+      "self": {
+        "upright": "Bạn đang trên hành trình tìm kiếm sự cân bằng nội tại, thấu hiểu bản chất đa diện của mình. Hãy kiên nhẫn chấp nhận mọi khía cạnh, dung hòa giữa điểm mạnh và điểm yếu để tạo nên một con người toàn diện và hài hòa.",
+        "reversed": "Bản ngã của bạn đang mất đi sự cân bằng. Sự cực đoan trong suy nghĩ, thiếu kiên nhẫn trong việc chấp nhận bản thân ��ang khiến bạn cảm thấy lạc lõng, mâu thuẫn nội tâm và không tìm thấy sự bình yên."
+      },
+      "purpose": {
+        "upright": "Mục đích sống của bạn đang dần hé lộ thông qua sự kiên nhẫn và khả năng điều hòa. Hãy tìm kiếm sự cân bằng giữa lý tưởng cá nhân và lợi ích cộng đồng, từng bước thực hiện bằng sự điềm tĩnh để tạo ra ý nghĩa sâu sắc.",
+        "reversed": "Bạn đang lạc lối trong việc tìm kiếm mục đích sống do sự thiếu kiên nhẫn hoặc thái độ cực đoan. Việc vội vàng chạy theo những ảo ảnh hoặc bỏ qua giá trị cốt lõi đang khiến bạn cảm thấy trống rỗng và mất phương hướng."
+      },
+      "shadow_self": {
+        "upright": "Hãy kiên nhẫn đối diện và dung hòa những khía cạnh tối tăm của bản thân. Chấp nhận những sai lầm, những góc khuất chưa hoàn hảo, để chúng trở thành một phần của sự trưởng thành và cân bằng trong con người bạn.",
+        "reversed": "Bạn đang phủ nhận hoặc quá mức ám ảnh bởi góc tối của mình. Sự thiếu kiên nhẫn trong vi���c chấp nhận bản thân hoặc thái độ cực đoan trong việc tự trách đang tạo ra sự mất cân bằng, ngăn cản quá trình chữa lành."
+      },
+      "decision": {
+        "upright": "Thời điểm này đòi hỏi một quyết định cân nhắc kỹ lưỡng và kiên nhẫn. Hãy điều hòa các yếu tố, lắng nghe lý trí và trực giác để đưa ra lựa chọn sáng suốt nhất, mang lại sự ổn định và hài hòa cho tương lai.",
+        "reversed": "Bạn đang đứng trước một quyết định vội vàng, thiếu cân nhắc hoặc cực đoan. Sự thiếu kiên nhẫn có thể dẫn đến hậu quả không mong muốn, phá vỡ sự cân bằng hiện tại và gây ra những rắc rối không đáng có."
+      },
+      "travel": {
+        "upright": "Chuyến đi của bạn sẽ là một hành trình của sự cân bằng và khám phá nội tâm. Hãy kiên nhẫn thích nghi với môi trường mới, điều hòa giữa việc thư giãn và trải nghiệm để chuyến đi mang lại sự bình yên và thấu hiểu sâu sắc.",
+        "reversed": "Chuyến du lịch đang gặp trở ngại do sự thiếu kiên nhẫn hoặc không th��� thích nghi. Sự cực đoan trong kế hoạch hoặc không chấp nhận những thay đổi bất ngờ đang khiến bạn mất đi niềm vui và sự bình yên của chuyến đi."
       },
       "spiritual": {
-        "up": "Tìm thấy điểm trung dung (Middle Way) trong tâm hồn. Sự kết hợp hoàn hảo giữa ý thức và tiềm thức.",
-        "rev": "Mất cân bằng năng lượng, bị cuốn vào những cảm xúc tiêu cực mãnh liệt.",
-        "upright": "Đạt đến cảnh giới 'Trung Đạo' (Middle Way). Sự tĩnh tại tuyệt đối khi tiềm thức và ý thức hòa quyện làm một, tạo vầng hào quang nội tại rực rỡ.",
-        "reversed": "Năng lượng tâm linh rối loạn. Bị cuốn phăng bởi cảm xúc cực đoan, không thể tìm thấy tịnh tâm giữa giông bão cuộc đời."
+        "upright": "Hành trình tâm linh của bạn đang hướng đến sự cân bằng và hòa hợp. Đây là thời điểm để điều hòa giữa thế giới vật chất và tinh thần, kiên nhẫn tìm kiếm sự thật bên trong, không chạy theo giáo điều mà tìm thấy ánh sáng chân lý.",
+        "reversed": "Bạn đang mất phương hướng trong hành trình tâm linh do sự thiếu kiên nhẫn hoặc thái độ cực đoan. Việc cố chấp vào một giáo phái hoặc hoàn toàn từ chối mọi giá trị đang khiến bạn lạc lối và mất kết nối với bản ngã cao hơn."
+      },
+      "general": {
+        "upright": "Cuộc sống đang kêu gọi bạn tìm kiếm sự cân bằng và hòa hợp. Hãy kiên nhẫn điều hòa những yếu tố đối lập, học cách thích nghi và dung hòa mọi khía cạnh để tạo nên một dòng chảy êm đềm và bền vững. Sự điềm tĩnh sẽ dẫn lối đến bình yên.",
+        "reversed": "Bạn đang cảm thấy mất cân bằng và hỗn loạn trong cuộc sống. Sự thiếu kiên nhẫn, thái độ cực đoan hoặc không kiểm soát được bản thân đang đẩy bạn vào tình trạng khó khăn. Cần phải tiết chế và tìm cách điều hòa mọi khía cạnh để tái lập trật tự."
       }
     },
     "advice": "Đừng vội vã. Hãy là vị giả kim thuật của đời mình, từ từ pha trộn những mảnh ghép tìm ra điểm cân bằng hoàn hảo nhất.",
@@ -1020,34 +2320,164 @@ window.TAROT_DB = [
     "reversed": "Sự giải thoát. Bạn đang phá vỡ xiềng xích, từ bỏ thói quen xấu, thoát khỏi sự thao túng hoặc cắt đứt một mối quan hệ độc hại để giành lại tự do.",
     "aspects": {
       "love": {
-        "up": "Mối quan hệ dựa nhiều vào nhu cầu thể xác, vật chất hoặc sự kiểm soát, ghen tuông độc hại. Sự phụ thuộc quá mức vào đối phương.",
-        "rev": "Thoát khỏi một mối quan hệ bạo hành, lợi dụng. Bắt đầu nhận ra giá trị bản thân và không để ai thao túng tình cảm của mình nữa.",
-        "upright": "Mối tình bị thống trị bởi dục vọng, thao túng, ghen tuông độc hại hoặc phụ thuộc mù quáng. Tình yêu biến thành lồng vàng ngột ngạt.",
-        "reversed": "Giải thoát khỏi kẻ thao túng tình cảm hoặc bạo hành. Dũng cảm bước ra khỏi vũng lầy, lấy lại sự tự tôn và độc lập cho trái tim mình."
+        "upright": "Tình yêu chìm trong xiềng xích của ám ảnh và dục vọng, nơi đam mê trần trụi hóa thành gông cùm. Mối quan hệ có thể đang bị trói buộc bởi sự chiếm hữu, lạm dụng hoặc những ham muốn thấp kém, khiến cả hai lạc lối trong mê cung của sự phụ thuộc.",
+        "reversed": "Những sợi dây trói buộc vô hình trong tình yêu dần được nới lỏng. Lá bài này là tia sáng xuyên qua bóng đêm, báo hiệu sự phá vỡ khỏi mối quan hệ độc hại, hoặc một khoảnh khắc giác ngộ để giải thoát cả hai khỏi những gánh nặng phụ thuộc và ám ảnh."
+      },
+      "ex": {
+        "upright": "Bóng ma của mối quan hệ cũ vẫn đang quấn lấy bạn bằng những sợi dây vô hình của ám ảnh hoặc sự phụ thuộc. Dù là sự níu kéo đầy dục vọng hay cảm giác tội lỗi nặng nề, quá khứ vẫn như một chiếc lồng giam, cản bước bạn tiến lên.",
+        "reversed": "Cuối cùng, bạn đã tìm thấy lối thoát khỏi xiềng xích của quá khứ. Đây là thời điểm để cắt đứt mọi mối ràng buộc độc hại với người cũ, giải phóng bản thân khỏi những ám ảnh và cảm giác mắc kẹt để bắt đầu một chương mới tự do hơn."
+      },
+      "current_love": {
+        "upright": "Mối quan hệ hiện tại đang mắc kẹt trong vòng xoáy của sự phụ thuộc, ám ảnh hoặc những ham muốn thể xác quá mức. Cẩn trọng với quyền lực thao túng, ghen tuông mù quáng hoặc cảm giác mất tự do đang bào mòn tình yêu của bạn.",
+        "reversed": "Ánh sáng đã rọi chiếu vào những góc khuất tăm tối của mối quan hệ. Dù là nhận ra sự độc hại để tìm cách thay đổi hoặc dũng cảm buông tay, đây là dấu hiệu của sự giải thoát khỏi những xiềng xích vô hình đang trói buộc tình yêu của bạn."
+      },
+      "ambiguous": {
+        "upright": "Sự mập mờ này chính là cái bẫy tinh vi của dục vọng và sự thao túng. Một trong hai người đang lợi dụng tình thế để chiếm đoạt hoặc kiểm soát đối phương, khiến mối quan hệ trở thành một trò chơi quyền lực đầy đen tối.",
+        "reversed": "Chiếc mặt nạ đã rơi, sự thật về mối quan hệ mập mờ được phơi bày. Đây là lúc để phá vỡ ảo ảnh, nhận diện những chiêu trò thao túng hoặc sự phụ thuộc lẫn nhau, dũng cảm thoát ra khỏi tình cảnh mờ ám đầy độc hại này."
+      },
+      "crush": {
+        "upright": "Cảm xúc rung động này dễ bị lầm lẫn với sự ám ảnh hoặc ham muốn thấp kém. Đối tượng bạn thầm mến có thể mang theo năng lượng thao túng, hoặc bạn đang tự trói mình vào một ảo ảnh đầy dục vọng mà không nhìn rõ bản chất thật.",
+        "reversed": "Tấm màn ��o ảnh về người bạn crush đã được vén lên. Bạn bắt đầu nhìn rõ những khía cạnh đen tối hoặc sự thao túng tiềm ẩn. Đây là cơ hội để bạn giải phóng mình khỏi sự ám ảnh, tránh xa những cạm bẫy tình cảm độc hại."
+      },
+      "future_love": {
+        "upright": "Cẩn trọng với những mối duyên mới đầy cám dỗ nhưng lại ẩn chứa sự thao túng hoặc phụ thuộc. Người sắp đến có thể là một kẻ gây nghiện tình ái hoặc sẽ trói buộc bạn vào những ám ảnh vật chất, quyền lực.",
+        "reversed": "Những mối duyên trong tương lai sẽ mang theo cơ hội để bạn giải thoát khỏi các khuôn mẫu tình cảm độc hại cũ. Lá bài này khuyên bạn hãy tỉnh táo nhận diện và tránh xa những cám dỗ, để không rơi vào xiềng xích của dục vọng và thao túng."
+      },
+      "someone": {
+        "upright": "Trong mắt người ấy, bạn có thể đang bị nhìn nhận như một đối tượng để kiểm soát, thao túng hoặc là nguồn cung cấp cho những ham muốn thấp kém của họ. Họ có thể thấy bạn yếu đuối và dễ bị lợi dụng.",
+        "reversed": "Đối phương đang dần nhìn nhận bạn dưới một góc độ khác, có thể họ nhận ra xiềng xích mình đang tạo ra, hoặc bạn đang từng bước thoát khỏi sự kiểm soát của họ. Có một sự thay đổi trong cách họ đánh giá khả năng tự chủ của bạn."
+      },
+      "marriage": {
+        "upright": "Hôn nhân có thể đang bị bủa vây bởi những xiềng xích của sự chiếm hữu, lạm dụng (thể xác hoặc tinh thần), nghiện ngập hoặc ám ảnh vật chất. Cả hai đang cảm thấy mắc kẹt trong một mối quan hệ thiếu tự do và nặng nề.",
+        "reversed": "Ánh sáng hy vọng rọi vào mái ấm. Lá bài báo hiệu sự phá vỡ khỏi những xiềng xích độc hại trong hôn nhân, dù là qua quá trình trị liệu, tái thiết lập ranh giới, hoặc dũng cảm đưa ra quyết định giải thoát khỏi mối quan hệ bế tắc."
+      },
+      "conflict": {
+        "upright": "Mâu thuẫn bị đẩy đến đỉnh điểm bởi sự chiếm hữu, ghen tuông mù quáng hoặc dục vọng. Có thể có sự lạm dụng quyền lực hoặc thao túng cảm xúc, biến cuộc cãi vã thành chiến trường của sự kiểm soát và phụ thuộc.",
+        "reversed": "Sau những chuỗi ngày đối đầu căng thẳng, bạn bắt đầu nhìn ra gốc rễ của sự thao túng và phụ thuộc. Đây là cơ hội để chấm dứt vòng lặp độc hại, tìm kiếm sự tự do khỏi mâu thuẫn dai dẳng bằng cách đối mặt với sự thật trần trụi."
+      },
+      "breakup": {
+        "upright": "Cuộc chia tay này mang theo những sợi dây vô hình của sự ám ảnh, ghen tuông và hận thù. Cảm giác bị trói buộc vào người cũ dù đã chia xa, hoặc nỗi đau bị thao túng vẫn còn đeo bám dai dẳng.",
+        "reversed": "Tiếng chuông giải thoát đã ngân vang! Dù khó khăn đến mấy, bạn đang dần cắt đứt những sợi dây ràng buộc độc hại với người cũ, vượt qua nỗi ám ảnh và cảm giác bị thao túng để tìm lại sự tự do và bình yên cho tâm hồn."
+      },
+      "long_distance": {
+        "upright": "Khoảng cách địa lý đang trở thành mảnh đất màu mỡ cho sự nghi ngờ, ghen tuông mù quáng hoặc cám d�� dục vọng. Một trong hai có thể đang cảm thấy bị trói buộc, thiếu tự do, hoặc rơi vào vòng xoáy của sự phụ thuộc ảo ảnh.",
+        "reversed": "Những xiềng xích tâm lý và sự nghi ngờ trong mối quan hệ xa cách đang dần được phá vỡ. Lá bài này khuyên bạn hãy đối mặt với sự thật, giải phóng mình khỏi những ám ảnh vô cớ hoặc nhận diện những cám dỗ từ xa để bảo vệ tình yêu."
+      },
+      "jealousy": {
+        "upright": "Cơn ghen tuông đang hóa thành con quỷ dữ, trói buộc bạn vào vòng xoáy của ám ảnh và kiểm soát. Nó không chỉ làm tổn hại mối quan hệ mà còn đang giam hãm chính tâm hồn bạn trong sự độc đoán và tuyệt vọng.",
+        "reversed": "Cuối cùng, bạn đã có đủ dũng khí để đối mặt và phá vỡ xiềng xích của sự ghen tuông mù quáng. Đây là khoảnh khắc nhận ra sự độc hại, giải thoát bản thân khỏi cảm giác bị chiếm hữu và học cách tin tưởng một cách lành mạnh hơn."
+      },
+      "self_love": {
+        "upright": "Tình yêu bản thân đang bị méo mó bởi sự nghiện ngập, tự hủy hoại hoặc nuông chiều những ham muốn thấp kém. Bạn đang tự trói mình vào những thói quen độc hại, ảo tưởng về sự tự do trong khi đang là nạn nhân của chính bóng tối nội tâm.",
+        "reversed": "Hành trình giải thoát bản thân khỏi xiềng xích của thói quen độc hại và tự hủy hoại đã bắt đầu. Bạn đang đối mặt với những góc tối của mình, nhận diện sự phụ thuộc và tìm kiếm con đường chân chính để yêu thương và giải phóng bản ngã."
       },
       "career": {
-        "up": "Bị mắc kẹt trong một công việc bạn chán ghét nhưng không dám nghỉ vì tiền bạc hoặc sự ổn định. Môi trường làm việc độc hại, đấu đá thủ đoạn.",
-        "rev": "Bạn dũng cảm từ bỏ công việc không lành mạnh hoặc thoát khỏi sự chèn ép của cấp trên để tìm con đường mới tự do hơn.",
-        "upright": "Bán linh hồn cho công việc vì ma lực đồng tiền. Môi trường đầy thủ đoạn, lừa lọc hoặc bị bóc lột mà không phản kháng vì sợ mất ổn định.",
-        "reversed": "Rũ bỏ áp lực vô lý, từ chức khỏi nơi làm việc độc hại. Bạn thà chọn bình yên còn hơn làm nô lệ cho tham vọng phù phiếm."
+        "upright": "Con đường sự nghiệp đang bị kìm hãm bởi sự tham vọng mù quáng, môi trường làm việc độc hại, hoặc cảm giác bị trói buộc vào một công việc mình ghét bỏ chỉ vì vật chất. Cẩn trọng với những giao dịch mờ ám hoặc sự thao túng quyền lực.",
+        "reversed": "Ánh sáng hy vọng lóe lên cho sự nghiệp! Bạn đang dần phá vỡ xiềng xích của một môi trường độc hại, từ bỏ tham vọng vật chất mù quáng hoặc thoát khỏi sự thao túng. Đây là lúc để tìm lại sự tự do và mục đích chân chính trong công việc."
+      },
+      "job_search": {
+        "upright": "Cẩn trọng với những lời mời làm việc hấp dẫn nhưng lại ẩn chứa sự thao túng, điều kiện làm việc độc hại hoặc những cam kết trói buộc. Đừng để dục vọng về tiền bạc che mờ lý trí, khiến bạn rơi vào cái bẫy của sự phụ thuộc.",
+        "reversed": "Bạn đang dần nhìn thấu những cạm bẫy tiềm ẩn trong hành trình tìm việc. Có thể bạn đã từ chối một lời mời không lành mạnh hoặc nhận ra những dấu hiệu độc hại của một công ty. Đây là lúc để phá vỡ xiềng xích của sự vội vã, tìm kiếm một con đường chân chính hơn."
+      },
+      "promotion": {
+        "upright": "Sự thăng tiến này có thể đi kèm với cái giá phải trả rất đắt, đó là sự thao túng, đánh đổi đạo đức hoặc bị cuốn vào vòng xoáy quyền lực đen tối. Bạn có thể cảm thấy bị trói buộc vào những trách nhiệm nặng nề hoặc bị lợi dụng.",
+        "reversed": "Bạn đang có cơ hội thoát khỏi một sự thăng tiến đầy rẫy thao túng hoặc những gánh nặng không đáng có. Đây là lúc để từ chối những cám dỗ quyền lực, giải phóng mình khỏi áp lực phải 'trèo cao' bằng mọi giá, tìm kiếm sự phát triển bền vững hơn."
+      },
+      "business": {
+        "upright": "Hoạt động kinh doanh đang bị chi phối bởi lòng tham, những giao dịch mờ ám hoặc sự kiểm soát độc đoán. Cẩn trọng với các đối tác không minh bạch, những khoản nợ chồng chất hoặc việc sa đà vào con đường phi pháp.",
+        "reversed": "Đã đến lúc bạn nhìn thấu những cạm bẫy và phá vỡ xiềng xích trong kinh doanh. Đây là cơ hội để chấm dứt các mối làm ăn độc hại, thoát khỏi sự thao túng tài chính, hoặc giải phóng doanh nghiệp khỏi những gánh nặng nợ nần để bắt đầu lại một cách minh bạch."
+      },
+      "colleague": {
+        "upright": "Mối quan hệ với đồng nghiệp đang bị nhuốm màu ghen tỵ, cạnh tranh không lành mạnh hoặc sự thao túng quyền lực. Cẩn trọng với những kẻ có ý đồ xấu, lợi dụng bạn vì mục đích cá nhân hoặc kéo bạn vào những trò bẩn thỉu chốn công sở.",
+        "reversed": "Bạn đang có cơ hội thoát khỏi vòng xoáy của những mối quan hệ độc hại nơi công sở. Lá bài này khuyên bạn nên nhận diện và tránh xa những đồng nghiệp thao túng, hoặc dũng cảm đứng lên chống lại sự bất công để giải phóng mình khỏi môi trường tiêu cực."
+      },
+      "career_change": {
+        "upright": "Quyết định thay đổi nghề nghiệp có thể xuất phát từ sự tuyệt vọng, cảm giác bị mắc kẹt hoặc khao khát thoát ly mù quáng. Cẩn trọng, vì bạn có thể đang lao vào một cái bẫy khác, trói buộc mình vào những gánh nặng mới.",
+        "reversed": "Bạn đang tìm thấy ánh sáng để thoát khỏi sự nghiệp bế tắc, nhưng lần này là với sự tỉnh táo và ý chí mạnh mẽ. Lá bài cho thấy bạn sẵn sàng phá vỡ xiềng xích của công việc hiện tại, giải phóng bản thân khỏi sự phụ thuộc và tìm kiếm con đường mới tự do hơn."
+      },
+      "freelance": {
+        "upright": "Sự tự do của công việc t��� do đang bị bóp méo thành sự tùy tiện, thiếu kỷ luật hoặc thậm chí là sự phụ thuộc vào những nguồn thu nhập không ổn định, khiến bạn cảm thấy bị trói buộc vào vòng xoáy áp lực và lo lắng.",
+        "reversed": "Bạn đang dần nhận ra những cạm bẫy của công việc tự do và tìm cách thiết lập lại kỷ luật. Đây là cơ hội để phá vỡ thói quen trì hoãn, thoát khỏi sự phụ thuộc tài chính không lành mạnh, và thực sự làm chủ sự nghiệp của mình."
+      },
+      "interview": {
+        "upright": "Cuộc phỏng vấn có thể đang mang theo những cám dỗ về vật chất hoặc vị trí, nhưng cũng ẩn chứa sự thao túng hoặc kỳ vọng độc hại. Cẩn trọng với những câu hỏi gài bẫy, hoặc cảm giác bị ép buộc phải 'diễn' một vai không phải mình.",
+        "reversed": "Bạn đang có cơ hội nhìn thấu những cạm bẫy hoặc sự thao túng trong quá trình phỏng vấn. Đây là lúc để giữ vững lập trường, từ chối những thỏa hiệp không lành mạnh và giải phóng mình khỏi áp lực phải 'bán linh hồn' để có được vị trí mong muốn."
       },
       "finance": {
-        "up": "Lòng tham làm mờ mắt. Cảnh báo những giao dịch mờ ám, cờ bạc, nợ nần hoặc bị trói buộc bởi những khoản vay mượn nặng lãi.",
-        "rev": "Thanh toán dứt điểm nợ nần, thoát khỏi khủng hoảng tài chính và từ bỏ thói quen tiêu xài vô tội vạ.",
-        "upright": "Lòng tham không đáy và duy vật. Cảnh báo khoản vay nặng lãi, cờ bạc, tham nhũng hoặc bị mờ mắt bởi lợi ích tài chính bất chính.",
-        "reversed": "Thoát khỏi vũng lầy nợ nần. Nhận ra tiền bạc không phải là chúa tể, bắt đầu dọn dẹp đống tàn dư tài chính làm lại từ đầu."
+        "upright": "Tình hình tài chính đang bị trói buộc bởi nợ nần, lòng tham vô đáy hoặc những quyết định chi tiêu phù phiếm. Cẩn trọng với những cạm bẫy cờ bạc, đầu tư rủi ro hoặc việc bị thao túng bởi người khác về tiền bạc.",
+        "reversed": "Bạn đang ở ngã ba đường để phá vỡ xiềng xích tài chính. Đây là thời điểm để đối mặt với nợ nần, từ bỏ những thói quen chi tiêu độc hại hoặc giải phóng mình khỏi sự thao túng tiền bạc của người khác, tìm lại sự tự chủ về tài chính."
+      },
+      "investment": {
+        "upright": "Những khoản đầu tư đang bị chi phối bởi lòng tham mù quáng hoặc sự đánh đổi đạo đức. Cẩn trọng với những lời hứa hẹn lãi suất 'trên trời', các dự án mờ ám hoặc việc bạn đang tự trói mình vào những khoản nợ không lối thoát.",
+        "reversed": "Bạn đang có cơ hội rút chân ra khỏi những cạm bẫy đầu tư độc hại. Lá bài này khuyên bạn hãy tỉnh táo nhận diện những dấu hiệu lừa đảo, từ bỏ lòng tham vô độ và giải phóng mình khỏi những quyết định tài chính sai lầm để bảo toàn tài sản."
+      },
+      "debt": {
+        "upright": "Gánh nặng nợ nần đang trở thành xiềng xích trói buộc bạn, khiến bạn cảm thấy tuyệt vọng và bất lực. Có thể do những quyết định chi tiêu phù phiếm, cờ bạc hoặc bị thao túng tài chính, bạn đang chìm sâu trong vòng xoáy không lối thoát.",
+        "reversed": "Ánh sáng giải thoát khỏi nợ nần đã xuất hiện! Bạn đang tìm thấy con đường để đối mặt với gánh nặng tài chính, từ bỏ thói quen chi tiêu độc hại và từng bước phá vỡ xiềng xích nợ nần để lấy lại sự tự do và kiểm soát tài chính."
+      },
+      "savings": {
+        "upright": "Khoản tiết kiệm của bạn đang bị đe dọa bởi những ham muốn vật chất, thói quen chi tiêu phù phiếm hoặc lòng tham vô độ. Cẩn trọng với những cám dỗ 'mua sắm thả ga' hoặc việc bị dụ dỗ đầu tư vào các dự án rủi ro.",
+        "reversed": "Bạn đang dần nhận ra những thói quen chi tiêu độc hại và bắt đầu hành trình phá vỡ xiềng xích của sự phù phiếm. Đây là cơ hội để thiết lập lại kỷ luật tài chính, bảo vệ khoản tiết kiệm và giải phóng mình khỏi sự phụ thuộc vào vật chất."
+      },
+      "luck_money": {
+        "upright": "Tiền bạc đến có thể là một cám dỗ nguy hiểm, dẫn bạn vào con đường nghiện ngập, cờ bạc hoặc những giao dịch mờ ám. 'May mắn' này có thể là cái bẫy, trói buộc bạn vào vòng xoáy của lòng tham và sự mất kiểm soát.",
+        "reversed": "Bạn đang có cơ hội nhận diện và thoát khỏi những 'may mắn' độc hại liên quan đến tiền bạc. Đây là lúc để tỉnh táo trước những cám dỗ cờ bạc, từ chối các giao dịch mờ ám và giải phóng mình khỏi sự phụ thuộc vào những nguồn thu nhập không chính đáng."
       },
       "health": {
-        "up": "Cảnh báo nghiêm trọng về các chứng nghiện (rượu, thuốc, game...), lối sống hủy hoại cơ thể hoặc bệnh tâm lý (trầm cảm, ám ảnh).",
-        "rev": "Giai đoạn phục hồi sau nghiện ngập. Bạn đã nhận ra vấn đề và đang nỗ lực kiểm soát lại sức khỏe của mình.",
-        "upright": "Hồi chuông cảnh báo đỏ về sa đọa: nghiện ngập (rượu, thuốc, game), lối sống hủy hoại tế bào hoặc vấn đề tâm thần (trầm cảm, ám ảnh cưỡng chế).",
-        "reversed": "Hành trình cai nghiện thành công. Phục hồi sức khỏe sau thời gian dài chìm trong lối sống độc hại. Cơ thể đang được thanh lọc."
+        "upright": "Sức khỏe đang bị ảnh hưởng bởi những thói quen độc hại, nghiện ngập (thực phẩm, chất kích thích) hoặc sự bỏ bê bản thân do lối sống thiếu lành mạnh. Bạn đang cảm thấy bị trói buộc trong một cơ thể suy yếu và tâm trí mỏi mệt.",
+        "reversed": "Hành trình giải thoát khỏi xiềng xích của những thói quen độc hại đã bắt đầu. Bạn đang tìm cách đối mặt với nghiện ngập, thay đổi lối sống không lành mạnh và tìm lại sự tự do, năng lượng cho cơ thể và tâm trí."
+      },
+      "mental": {
+        "upright": "Tâm trí đang bị giam hãm trong xiềng xích của lo âu, ám ảnh, trầm cảm hoặc những suy nghĩ tiêu cực độc hại. Bạn cảm thấy bất lực, bị thao túng bởi chính bóng tối nội tâm hoặc những yếu tố bên ngoài.",
+        "reversed": "Ánh sáng đã chiếu rọi vào bóng đêm tâm trí! Bạn đang dần phá vỡ xiềng xích của lo âu, ám ảnh và những suy nghĩ độc hại. Đây là cơ hội để đối mặt với những góc tối, tìm kiếm sự giúp đỡ và giải phóng bản thân khỏi gánh nặng tinh thần."
+      },
+      "energy": {
+        "upright": "Năng lượng của bạn đang bị rút cạn bởi sự ám ảnh, những mối quan hệ độc hại hoặc cảm giác bị trói buộc vào một tình huống tiêu cực. Bạn cảm thấy kiệt sức, mất kiểm soát và không thể thoát ra.",
+        "reversed": "Bạn đang dần tìm thấy sức mạnh nội tại để phá vỡ xiềng xích của sự kiệt quệ năng lượng. Đây là thời điểm để cắt đứt các mối quan hệ độc hại, thoát khỏi những tình huống tiêu cực và lấy lại quyền kiểm soát nguồn năng lượng sống của mình."
+      },
+      "family": {
+        "upright": "Mối quan hệ gia đình có thể đang bị trói buộc bởi sự thao túng, kiểm soát độc đoán hoặc những khuôn mẫu độc hại truyền từ đời này sang đời khác. Cảm giác ngột ngạt, thiếu tự do đang bao trùm tổ ấm.",
+        "reversed": "Bạn đang có cơ hội để phá vỡ những xiềng xích và khuôn mẫu độc hại trong gia đình. Đây là lúc để đối mặt với sự thao túng, thiết lập ranh giới lành mạnh và giải phóng bản thân khỏi những gánh nặng tâm lý từ dòng họ."
+      },
+      "diet": {
+        "upright": "Chế độ ăn uống của bạn đang bị chi phối bởi những thói quen độc hại, nghiện ngập (đường, đồ ăn vặt) hoặc cảm giác bị trói buộc vào những chế độ ăn kiêng cực đoan, khiến cơ thể và tinh thần kiệt quệ.",
+        "reversed": "Bạn đang dần tìm thấy con đường giải thoát khỏi những thói quen ăn uống độc hại hoặc nghiện ngập. Đây là lúc để lắng nghe cơ thể, từ bỏ những chế độ ăn kiêng cực đoan và thiết lập một mối quan hệ lành mạnh hơn với thực phẩm."
+      },
+      "study": {
+        "upright": "Việc học tập đang bị cản trở bởi sự lười biếng, thiếu động lực, hoặc cảm giác bị ép buộc học những thứ mình không thích, chỉ vì điểm số hoặc kỳ vọng. Có thể có sự gian lận hoặc thiếu trung thực trong quá trình học.",
+        "reversed": "Bạn đang có cơ hội phá vỡ xiềng xích của sự chán nản và áp lực học tập. Đây là lúc để tìm lại niềm đam mê, từ bỏ những phương pháp học tập không hiệu quả hoặc thoát khỏi sự thao túng về điểm số, học hỏi một cách tự do hơn."
+      },
+      "study_abroad": {
+        "upright": "Chuyến du học có thể mang theo những cám dỗ về vật chất, lối sống sa đọa hoặc cảm giác bị cô lập, mắc kẹt trong môi trường xa lạ. Cẩn trọng với những thói quen nghiện ngập hoặc sự thao túng từ bạn bè xấu.",
+        "reversed": "Bạn đang dần nhận diện và thoát khỏi những cạm bẫy tiềm ẩn của việc du học. Đây là lúc để từ bỏ những thói quen độc hại, tìm kiếm sự giúp đỡ khi cô đơn và giải phóng mình khỏi những áp lực không đáng có để thực sự trải nghiệm và học hỏi."
+      },
+      "self": {
+        "upright": "Bản ngã đang bị giam hãm trong xiềng xích của bóng tối nội tâm, nghiện ngập, ham muốn thấp kém hoặc cảm giác bất lực. Bạn đang tự trói mình vào những niềm tin sai lệch, đánh mất tự do cá nhân và không thể là chính mình.",
+        "reversed": "Hành trình giải phóng bản thân khỏi xiềng xích của bóng tối nội tâm đã bắt đầu. Bạn đang đối mặt với những góc khuất, từ bỏ những thói quen độc hại và tìm lại quyền làm chủ cuộc đời mình, sống một cách chân thật và tự do hơn."
+      },
+      "purpose": {
+        "upright": "Mục đích sống của bạn đang bị che mờ bởi lòng tham, dục vọng hoặc cảm giác bị trói buộc vào những giá trị vật chất phù phiếm. Bạn có thể đang lạc lối, tìm kiếm ý nghĩa cuộc đời ở những nơi sai lầm.",
+        "reversed": "Bạn đang có cơ hội phá vỡ xiềng xích của những mục đích sống sai lệch. Đây là lúc để từ bỏ lòng tham, thoát khỏi sự phụ thuộc vào vật chất và tìm kiếm một ý nghĩa cuộc đời chân chính, giải phóng linh hồn khỏi những gánh nặng ảo ảnh."
+      },
+      "shadow_self": {
+        "upright": "Phần bóng tối đang trỗi dậy mạnh mẽ, trói buộc bạn vào những hành vi tự hủy hoại, nghiện ngập hoặc những ham muốn thấp kém. Đây là lúc bóng tối chiếm hữu và kiểm soát bạn hoàn toàn, khiến bạn mất đi tự chủ.",
+        "reversed": "Bạn đang có đủ dũng khí để đối mặt và phá vỡ xiềng xích của phần bóng tối. Đây là lúc để nhận diện những thói quen độc hại, từ bỏ sự nghiện ngập và từng bước giải phóng bản thân khỏi sự kiểm soát của cái tôi đen tối."
+      },
+      "decision": {
+        "upright": "Quyết định của bạn đang bị chi phối bởi dục vọng, lòng tham hoặc nỗi sợ hãi bị mắc kẹt. Bạn có thể đang đưa ra lựa chọn dưới áp lực, bị thao túng hoặc tự trói mình vào một cái bẫy mà không hề hay biết.",
+        "reversed": "Bạn đang có cơ hội phá vỡ xiềng xích của những quyết định sai lầm. Đây là lúc để nhìn thấu sự thật, từ chối những cám dỗ và đưa ra lựa chọn dựa trên lý trí và sự tự do, không còn bị thao túng bởi nỗi sợ hãi hay ham muốn."
+      },
+      "travel": {
+        "upright": "Chuyến đi này có thể mang theo những cám dỗ về vật chất, lối sống buông thả hoặc cảm giác bị mắc kẹt trong một tình huống không mong muốn. Cẩn trọng với những rủi ro về an toàn hoặc việc bị lợi dụng khi ở xa nhà.",
+        "reversed": "Bạn đang có cơ hội nhận diện và thoát khỏi những cạm bẫy tiềm ẩn trong hành trình. Đây là lúc để từ chối những cám dỗ độc hại, giữ vững đạo đức và giải phóng mình khỏi những tình huống rủi ro để có một chuyến đi an toàn và ý nghĩa."
       },
       "spiritual": {
-        "up": "Mất kết nối hoàn toàn với ánh sáng, chìm đắm trong chủ nghĩa duy vật và tuyệt vọng. Tránh né những góc khuất tâm hồn.",
-        "rev": "Đối mặt và vượt qua 'phần con' (bản năng tối) trong mình. Tái sinh linh hồn.",
-        "upright": "Đánh mất la bàn đạo đức. Chìm đắm trong hận thù, tăm tối và để bản ngã (Ego) khống chế hoàn toàn ánh sáng trực giác.",
-        "reversed": "Vượt qua đêm tối linh hồn. Dũng cảm nhìn thẳng vào những góc khuất xấu xí nhất của bản thân để gột rửa và tái sinh."
+        "upright": "Con đường tâm linh của bạn đang bị bóp méo bởi sự mê tín, sùng bái vật chất hoặc cảm giác bị trói buộc vào những giáo phái độc đoán. Bạn đang tìm kiếm ý nghĩa ở những nơi sai lầm, bị thao túng bởi những niềm tin mù quáng.",
+        "reversed": "Bạn đang dần phá vỡ xiềng xích của những niềm tin tâm linh độc hại hoặc sự mê tín. Đây là lúc để tìm kiếm một con đường chân chính, giải phóng bản thân khỏi sự thao túng và kết nối với bản ngã cao hơn một cách tự do."
+      },
+      "general": {
+        "upright": "Lá bài Ác Quỷ giáng xuống như một lời cảnh báo: bạn đang bị trói buộc bởi xiềng xích vô hình của tham lam, dục vọng, ám ảnh hoặc sự thao túng. Hãy nhìn thẳng vào bóng tối, nhận diện những gì đang giam hãm bạn, dù đó là bên trong hay bên ngoài.",
+        "reversed": "Một tia hy vọng sáng rọi qua bóng tối! Bạn đang trong quá trình phá vỡ xiềng xích của sự phụ thuộc, vượt qua cám dỗ và giải phóng bản thân khỏi những gì đã giam hãm bạn. Đây là thời điểm của sự giác ngộ và tái sinh đầy mạnh mẽ, dù con đường không hề dễ dàng."
       }
     },
     "advice": "Xiềng xích không nằm ở đôi tay, mà nằm trong tâm trí. Hãy nhìn thẳng vào bóng tối, nhận ra quyền năng của mình và tự do bước đi.",
@@ -1086,34 +2516,164 @@ window.TAROT_DB = [
     "reversed": "Bạn đang cố gắng né tránh sự thay đổi tất yếu, trì hoãn một 'cú sốc' đau đớn (chia tay, phá sản...). Hãy nhớ việc trì hoãn chỉ làm thảm họa đến muộn và tồi tệ hơn.",
     "aspects": {
       "love": {
-        "up": "Một cú sốc trong tình cảm, có thể là sự lừa dối bị phơi bày, chia tay đột ngột hoặc mâu thuẫn nảy lửa làm thay đổi hoàn toàn cục diện mối quan hệ.",
-        "rev": "Níu kéo một tình yêu đã mục nát, sợ phải ở một mình nên không dám chấm dứt, dù bạn biết rõ mối quan hệ này đang đầu độc cả hai.",
-        "upright": "Sự thật động trời bị phanh phui, phản bội, hoặc cuộc chia ly đột ngột tựa sấm sét. Nền tảng mối quan hệ vỡ vụn, để lại tổn thương sâu sắc.",
-        "reversed": "Dù biết tình yêu đã chết, vẫn cố chấp vá víu thảm hại vì sợ đối diện cô đơn. Nỗi đau dai dẳng không lối thoát."
+        "upright": "Tình yêu đang đứng trước một trận bão tố xé tan mọi lớp màn che đậy, phơi bày chân tướng trần trụi. Những nền móng mục ruỗng sẽ sụp đổ đột ngột, dù đau thương nhưng là cơ hội để giải phóng trái tim khỏi gông cùm ảo ảnh, tái sinh từ đống tro tàn.",
+        "reversed": "Bạn đang bám víu tuyệt vọng vào những tàn dư của một mối quan hệ đã không còn sức sống, trì hoãn đối mặt với sự thật hiển nhiên. Cơn bão đổi thay vẫn âm ỉ, nhưng nỗi sợ hãi mất mát đang giam cầm bạn trong vòng luẩn quẩn, hoặc bạn đang trải qua sự chuyển biến nội tâm sâu sắc không bận tâm đến thế giới bên ngoài."
+      },
+      "ex": {
+        "upright": "Dù đau đớn, sự tan vỡ với người cũ là một cột mốc không thể tránh khỏi, đạp đổ mọi ảo tưởng và lối mòn tư duy. Hãy coi đây là một cơn địa chấn giải phóng bạn khỏi xiềng xích của quá khứ, dọn đường cho một khởi đầu hoàn toàn mới, dù có chút hỗn loạn.",
+        "reversed": "Nỗi ám ảnh về người cũ đang trở thành gông cùm tinh thần, ngăn bạn buông bỏ và tiến lên. Bạn đang cố gắng tránh né một sự thật phũ phàng hoặc lảng tránh đối diện với vết thương lòng, khiến bản thân mắc kẹt trong chuỗi ngày hồi tưởng và đau khổ không lối thoát."
+      },
+      "current_love": {
+        "upright": "Mối quan hệ hiện tại đang trải qua một biến cố chấn động, có thể là một cuộc cãi vã lớn, một sự thật bị phơi bày, hoặc một cuộc khủng hoảng niềm tin. Dù đổ vỡ là khó tránh, nhưng đây là cơ hội đ��� xây dựng lại trên nền móng chân thật và vững chắc hơn, nếu cả hai dám đối mặt.",
+        "reversed": "Có một sự rạn nứt âm ỉ trong mối quan hệ, nhưng cả hai đang cố gắng phớt lờ hoặc né tránh. Sự thờ ơ và thiếu thành thật sẽ chỉ làm vết thương thêm sâu, khiến tòa tháp tình yêu vốn đã lung lay càng thêm nguy hiểm trước một biến cố nhỏ nhất."
+      },
+      "ambiguous": {
+        "upright": "Màn sương mờ của sự mập mờ đang bị xé tan bởi một sự kiện đột ngột, buộc bạn phải đối mặt với sự thật. Không còn chỗ cho những phỏng đoán hay ảo tưởng, chỉ có sự rõ ràng khắc nghiệt về vị trí của bạn trong mối quan hệ này.",
+        "reversed": "Bạn đang chìm đắm trong sự mập mờ, cố gắng kéo dài trạng thái không rõ ràng vì sợ hãi sự thật. Việc tránh né một cuộc đối thoại thẳng thắn hoặc một quyết định dứt khoát chỉ làm trì hoãn sự đau khổ, nhưng không thể thay đổi bản chất của vấn đề."
+      },
+      "crush": {
+        "upright": "Một sự thật bất ngờ về người trong mộng có thể sẽ khiến bạn vỡ mộng, hoặc một biến cố bất ngờ sẽ làm lộ rõ bản chất mối quan hệ này. Dù có là một cú sốc, đây là lúc để nhìn rõ ràng, phá bỏ những ảo tưởng đã tự xây dựng.",
+        "reversed": "Bạn đang níu giữ một ảo ảnh về người mình thầm yêu, dù trong lòng đã cảm thấy có điều gì đó không ổn. Việc từ chối nhìn nhận thực tế có thể dẫn đến sự thất vọng lớn hơn khi mọi thứ cuối cùng cũng vỡ lẽ."
+      },
+      "future_love": {
+        "upright": "Tình duyên sắp tới sẽ đến như một cú sét đánh, phá tan mọi kỳ vọng và định nghĩa cũ kỹ của bạn về tình yêu. Một người bước vào cuộc đời bạn mang theo sự hỗn loạn, nhưng cũng là ngọn gió lốc cần thiết để quét sạch những gì đã lỗi thời, mở ra một chương mới đầy bất ngờ.",
+        "reversed": "Bạn đang tự dựng lên bức tường phòng thủ vững chắc, cố gắng tránh né một mối quan hệ tiềm năng vì sợ hãi sự thay đổi hoặc tổn thương. Hoặc bạn sẽ gặp phải một người mang theo năng lượng hỗn loạn nhưng lại từ chối đối mặt với những biến cố đó."
+      },
+      "someone": {
+        "upright": "Đối với người ấy, bạn là một cơn bão dữ dội, một sự kiện thay đổi cuộc đời không thể lường trước. Sự xuất hiện của bạn đã phá vỡ mọi cấu trúc cũ kỹ trong tâm trí họ, dù có thể gây sốc nhưng cũng mang đến sự giải phóng cần thiết.",
+        "reversed": "Ở góc độ tiêu cực, họ cảm thấy bạn mang đến sự hỗn loạn hoặc khó kiểm soát. Hoặc họ đang cố gắng kìm nén cảm xúc dữ dội về bạn, vì sợ hãi những thay đổi mà bạn có thể mang lại cho cuộc sống của họ."
+      },
+      "marriage": {
+        "upright": "Cuộc hôn nhân đang đối mặt với một cuộc khủng hoảng nghiêm trọng, có thể là sự tan vỡ đột ngột của một niềm tin, một bí mật được phơi bày, hoặc một biến cố lớn. Đây là lúc để phá bỏ những khuôn khổ cũ kỹ, xây dựng lại sự chân thật hoặc chấp nhận kết thúc để giải phóng cả hai.",
+        "reversed": "Dù có những vết rạn nứt sâu sắc, cả hai đang cố gắng duy trì vỏ bọc của một cuộc hôn nhân hoàn hảo. Việc trì hoãn đối mặt với vấn đề sẽ chỉ làm tăng áp lực, biến cuộc sống hôn nhân thành một nhà tù không lối thoát, chờ ngày sụp đổ hoàn toàn."
+      },
+      "conflict": {
+        "upright": "Một cuộc xung đột bùng nổ không lường trước, phá tan mọi sự bình yên giả tạo. Đây là lúc để mọi sự thật được phơi bày, dù có gây đổ vỡ. Đừng cố gắng dập tắt ngọn lửa, hãy để nó thiêu rụi những lớp mặt nạ để chân lý được hiển lộ.",
+        "reversed": "Bạn đang né tránh một cuộc đối đầu không thể tránh khỏi, hoặc cố gắng kìm nén những bất đồng. Sự im lặng và che giấu vấn đề sẽ chỉ làm cho căng thẳng tích tụ, chờ ngày bùng phát dữ dội hơn, hoặc bạn đang trải qua những mâu thuẫn nội tại dữ dội."
+      },
+      "breakup": {
+        "upright": "Sự tan vỡ này không chỉ là một cái kết, mà là một sự kiện giải phóng mang tính bản chất. Nó phá tan mọi xiềng xích và ảo tưởng, dù đau đớn nhưng cần thiết để bạn thoát khỏi một mối quan hệ không còn phục vụ cho sự phát triển của mình, và tái sinh từ đống đổ nát.",
+        "reversed": "Dù đã có dấu hiệu của sự đổ vỡ, bạn đang cố gắng níu kéo hoặc trì hoãn việc kết thúc một mối quan hệ đã đến hồi kết. Nỗi sợ hãi sự cô đơn hoặc mất mát đang giam cầm bạn trong một tình cảnh đau khổ và không lối thoát."
+      },
+      "long_distance": {
+        "upright": "Mối quan hệ đường dài đang đối mặt với một cú sốc lớn, có thể là sự sụp đổ của niềm tin, một sự thật đau lòng bị phơi bày, hoặc một biến cố bất ngờ buộc cả hai phải thay đổi hoàn toàn cục diện. Đây là thời khắc quyết định sự tồn tại của mối liên kết này.",
+        "reversed": "Bạn đang cố gắng duy trì một mối quan hệ đường dài đã không còn bền vững, hoặc né tránh đối mặt với những vấn đề nghiêm trọng đang diễn ra. Việc che giấu sự thật hay trì hoãn một cuộc đối thoại quan trọng sẽ chỉ làm tăng nguy cơ đổ vỡ trong tương lai."
+      },
+      "jealousy": {
+        "upright": "Một sự thật phũ phàng về sự ghen tuông đang bị phơi bày, phá tan mọi lớp vỏ bọc. Đây có thể là một cuộc đối đầu trực diện hoặc một biến cố bất ngờ buộc bạn phải nhìn nhận lại cảm xúc của mình, và đối mặt với gốc rễ của sự bất an.",
+        "reversed": "Bạn đang kìm nén cảm xúc ghen tuông hoặc cố gắng phớt lờ những dấu hiệu cảnh báo. Sự im lặng này không làm vấn đề biến mất, mà chỉ khiến nó tích tụ và có thể bùng phát dữ dội hơn trong tương lai, hoặc bạn đang kháng cự một sự thay đổi cần thiết để giải phóng bản thân."
+      },
+      "self_love": {
+        "upright": "Hành trình yêu bản thân đang trải qua một cú sốc đột ngột, phá vỡ những quan niệm cũ kỹ về giá trị của chính bạn. Đây là một cuộc thanh trừng nội tâm, giúp bạn gạt bỏ những lớp vỏ bọc giả tạo, nhìn thẳng vào bản chất chân thật và tái tạo lòng tự trọng từ nền móng mới.",
+        "reversed": "Bạn đang chống lại những thay đổi cần thiết để phát triển bản thân, hoặc cố gắng bám víu vào những hình ảnh giả tạo về chính mình. Nỗi sợ hãi đối mặt với sự thật và từ bỏ những thói quen cũ đang cản trở bạn đạt được sự bình yên nội tâm."
       },
       "career": {
-        "up": "Mất việc đột ngột, công ty phá sản, dự án sụp đổ hoặc một sự thật động trời nơi làm việc bị tiết lộ. Sự nghiệp có biến động tiêu cực ngoài dự kiến.",
-        "rev": "Cố bám víu lấy một công việc tệ hại hoặc từ chối chấp nhận rằng con đường sự nghiệp hiện tại đã đi vào ngõ cụt.",
-        "upright": "Khủng hoảng công sở: sa thải bất ngờ, công ty phá sản, hoặc dự án đổ sụp phút chót. Mọi kế hoạch bị đảo lộn, buộc làm lại từ con số không.",
-        "reversed": "Môi trường làm việc như ngục tù nhưng từ chối thay đổi. Kháng cự trước biến động cần thiết khiến sự nghiệp chìm trong khủng hoảng ngầm."
+        "upright": "Con đường sự nghiệp đang trải qua một biến động lớn lao: một dự án sụp đổ, một vị trí bị loại bỏ, hoặc một ngành nghề lỗi thời bị thay thế. Dù đầy hỗn loạn, đây là một sự thanh trừng cần thiết để phá bỏ những giới hạn cũ, mở ra một con đường hoàn toàn mới, dù không hề dễ dàng.",
+        "reversed": "Bạn đang cố gắng chống lại một sự thay đổi nghề nghiệp không thể tránh khỏi, hoặc trì hoãn việc cải tổ một cơ cấu làm việc đã lỗi thời. Nỗi sợ hãi mất mát đang giam cầm bạn trong một vòng luẩn quẩn độc hại, khiến bạn bỏ lỡ cơ hội tái cấu trúc sự nghiệp."
+      },
+      "job_search": {
+        "upright": "Một cánh cửa cơ hội tưởng chừng vững chắc đang sụp đổ đột ngột, hoặc một cuộc phỏng vấn thất bại thảm hại. Đây là dấu hiệu cho thấy bạn cần phải phá bỏ mọi kỳ vọng cũ, xem xét lại toàn bộ chiến lược tìm việc và sẵn sàng cho một hướng đi hoàn toàn mới.",
+        "reversed": "Bạn đang trì hoãn việc đối mặt với thực tế khó khăn của thị trường lao động, hoặc cố gắng bám víu vào những phương pháp tìm việc không hiệu quả. Sự kháng cự thay đổi sẽ chỉ làm kéo dài thêm thời gian thất nghiệp và mất phương hướng."
+      },
+      "promotion": {
+        "upright": "Một cơ hội thăng tiến đang đứng trước nguy cơ sụp đổ, hoặc một vị trí mới yêu cầu bạn phải phá bỏ mọi lối tư duy và cách làm việc cũ kỹ. Đây là lúc để chấp nhận sự thật rằng con đường cũ không còn phù hợp, và bạn cần tái định hình hoàn toàn bản thân để tiến lên.",
+        "reversed": "Bạn đang né tránh một sự thay đổi lớn trong vai trò hoặc tr��ch nhiệm, hoặc từ chối chấp nhận những thách thức mới. Việc bám víu vào vùng an toàn sẽ khiến bạn bỏ lỡ cơ hội thăng tiến, và có thể dẫn đến sự thất vọng về sau."
+      },
+      "business": {
+        "upright": "Dự án kinh doanh đang đối mặt với một cú sốc lớn, có thể là sự sụp đổ tài chính, một đối tác phá sản, hoặc một thị trường thay đổi đột ngột. Đây là một sự thanh lọc tàn khốc nhưng cần thiết để phá bỏ những cấu trúc yếu kém, mở ra cơ hội xây dựng lại trên nền móng vững chắc hơn.",
+        "reversed": "Bạn đang cố gắng duy trì một mô hình kinh doanh đã lỗi thời hoặc đang trên bờ vực sụp đổ. Việc trì hoãn cải tổ hoặc từ chối đối mặt với những vấn đề nghiêm trọng sẽ chỉ dẫn đến hậu quả tồi tệ hơn, hoặc bạn đang gặp khó khăn trong việc thực hiện thay đổi nội bộ."
+      },
+      "colleague": {
+        "upright": "Mối quan hệ với đồng nghiệp đang trải qua một biến cố lớn, có thể là một cuộc cãi vã bùng nổ, một sự thật phơi bày, hoặc một sự thay đổi nhân sự đột ngột. Dù có gây hỗn loạn, đây là lúc để gạt bỏ những hiểu lầm, nhìn rõ bản chất để xây dựng lại sự hợp tác chân thành hơn.",
+        "reversed": "Bạn đang cố gắng né tránh một cuộc đối đầu với đồng nghiệp, hoặc phớt lờ những bất đồng đang âm ỉ. Sự im lặng và lảng tránh sẽ chỉ làm tình hình thêm căng thẳng, chờ ngày bùng nổ, hoặc bạn đang cố kìm nén sự tức giận với ai đó."
+      },
+      "career_change": {
+        "upright": "Một sự kiện chấn động đang buộc bạn phải thay đổi định hướng nghề nghiệp một cách đột ngột. Dù có là một cú sốc, đây là lời cảnh tỉnh từ vũ trụ để bạn phá bỏ xiềng xích của sự an toàn giả tạo, dấn thân vào một con đường hoàn toàn mới mẻ và đầy thử thách.",
+        "reversed": "Bạn đang lưỡng lự, cố gắng trì hoãn việc thay đổi nghề nghiệp dù biết rằng đã đến lúc. Nỗi sợ hãi sự không chắc chắn đang giam cầm bạn trong một công việc không còn phù hợp, hoặc bạn đang từ chối đối mặt với những hậu quả nếu cứ tiếp tục."
+      },
+      "freelance": {
+        "upright": "Dự án freelance của bạn đang đối mặt với một sự cố bất ngờ, có thể là khách hàng hủy hợp đồng, một trục trặc kỹ thuật lớn, hoặc một sự thay đổi đột ngột trong thị trường. Hãy coi đây là lời cảnh báo để bạn tái cấu trúc cách làm việc, chuẩn bị cho những kịch bản xấu nhất.",
+        "reversed": "Bạn đang cố gắng duy trì một phương pháp làm việc freelance đã không còn hiệu quả, hoặc trì hoãn việc nâng cấp kỹ năng. Sự kháng cự thay đổi và thiếu linh hoạt sẽ làm suy yếu vị thế của bạn trên thị trường tự do, hoặc bạn đang chống lại sự giải phóng bản thân khỏi những áp lực không cần thiết."
+      },
+      "interview": {
+        "upright": "Một cuộc phỏng vấn có thể diễn ra không như mong đợi, thậm chí là một thất bại hoàn toàn. Đây là một bài học đắt giá, buộc bạn phải nhìn nhận lại năng lực và cách tiếp cận của mình, phá bỏ những giả định sai lầm để chuẩn bị tốt hơn cho cơ hội tiếp theo.",
+        "reversed": "Bạn đang cố gắng che giấu những điểm yếu trong hồ sơ hoặc kinh nghiệm của mình, hoặc né tránh đối mặt với sự thật về năng lực bản thân. Việc từ chối đối mặt với thực tế sẽ chỉ dẫn đến những thất bại tiếp theo và sự thất vọng."
       },
       "finance": {
-        "up": "Khủng hoảng tài chính trầm trọng, mất tiền, nợ nần bất ngờ hoặc sự thật về tài sản bị che giấu bấy lâu bị phơi bày. Cần cẩn thận đầu tư.",
-        "rev": "Tránh được rủi ro tài chính trong gang tấc nhưng bạn vẫn chưa rút ra bài học. Không chịu thay đổi kế hoạch tiền bạc lỏng lẻo.",
-        "upright": "Đòn giáng mạnh vào tài chính. Phá sản, thua lỗ đầu tư trầm trọng hoặc tai nạn tước đi phần lớn tài sản. Cần can đảm phi thường để đứng dậy.",
-        "reversed": "Trốn tránh nợ nần, phủ nhận thực trạng tồi tệ của túi tiền. Cố che đậy quả bom tài chính đang chờ chực phát nổ."
+        "upright": "Tình hình tài chính đang trải qua một cú sốc lớn: một khoản đầu tư thất bại, một chi phí bất ngờ, hoặc một nguồn thu nhập bị cắt. Dù có gây hỗn loạn, đây là một sự thanh lọc cần thiết để bạn phá bỏ những thói quen chi tiêu yếu kém, tái cấu trúc lại toàn bộ kế hoạch tài chính.",
+        "reversed": "Bạn đang cố gắng trì hoãn việc đối mặt với những vấn đề tài chính nghiêm trọng, hoặc né tránh một quyết định khó khăn. Sự chần chừ này sẽ chỉ làm cho tình hình thêm tồi tệ, hoặc bạn đang cố kìm nén sự lo lắng về tiền bạc và tương lai."
+      },
+      "investment": {
+        "upright": "Một khoản đầu tư đang đứng trước nguy cơ sụp đổ hoàn toàn hoặc một sự kiện thị trường bất ngờ gây thua lỗ nặng nề. Đây là một bài học đau đớn nhưng cần thiết để phá bỏ những kỳ vọng ảo tưởng và học cách đánh giá rủi ro một cách thực tế hơn.",
+        "reversed": "Bạn đang cố gắng bám víu vào một khoản đầu tư đã không còn khả quan, hoặc né tránh việc cắt lỗ. Nỗi sợ hãi mất mát đang giam cầm bạn trong một quyết định sai lầm, hoặc bạn đang chống lại những bài học đắt giá mà thị trường mang lại."
+      },
+      "debt": {
+        "upright": "Tình hình nợ nần đang bùng phát một cách dữ dội, buộc bạn phải đối mặt với thực tế phũ phàng. Đây là một cú sốc cần thiết để bạn phá bỏ những lối thoát hiểm cũ, tái cấu trúc lại toàn bộ kế hoạch tài chính và tìm ra giải pháp triệt để, dù có đau đớn.",
+        "reversed": "Bạn đang cố gắng trì hoãn việc giải quyết các khoản nợ, hoặc né tránh đối mặt với trách nhi��m tài chính của mình. Sự thờ ơ và chần chừ sẽ chỉ làm cho gánh nặng thêm chồng chất, hoặc bạn đang cố giấu giếm tình hình nợ nần với người thân."
+      },
+      "savings": {
+        "upright": "Một sự kiện bất ngờ đang buộc bạn phải phá vỡ khoản tiết kiệm đã dày công vun đắp. Dù có gây hụt hẫng, đây là một sự hy sinh cần thiết để đối phó với một tình huống khẩn cấp, hoặc để tái cấu trúc lại kế hoạch tài chính trên nền tảng vững chắc hơn.",
+        "reversed": "Bạn đang cố gắng giữ lại khoản tiết kiệm dù biết rằng cần phải dùng đến nó để giải quyết một vấn đề cấp bách. Nỗi sợ hãi mất mát đang cản trở bạn đưa ra một quyết định hợp lý, hoặc bạn đang lảng tránh những sự kiện buộc phải dùng đến tiền tiết kiệm."
+      },
+      "luck_money": {
+        "upright": "Một sự kiện bất ngờ có thể khiến bạn mất mát tiền bạc hoặc đối mặt với một cú sốc tài chính không mong muốn. Đừng coi đây là vận rủi, mà là một lời cảnh tỉnh đ��� bạn xem xét lại cách quản lý tiền bạc và phá bỏ những niềm tin sai lầm về may mắn.",
+        "reversed": "Bạn đang né tránh đối mặt với một sự thật phũ phàng về tình hình tài chính, hoặc cố gắng bám víu vào những hy vọng hão huyền về tiền bạc. Việc từ chối chấp nhận thực tế sẽ chỉ kéo dài thêm chuỗi ngày khó khăn."
       },
       "health": {
-        "up": "Sức khỏe đột ngột có vấn đề lớn (tai nạn, bệnh cấp tính) do bỏ qua các cảnh báo trước đó. Cơ thể bạn đang bắt buộc bạn phải dừng lại.",
-        "rev": "Bỏ qua các triệu chứng bệnh, sợ hãi không dám đi khám. Đừng để bệnh tật tích tụ đến mức sụp đổ hoàn toàn.",
-        "upright": "Bệnh tật ập đến không báo trước, tai nạn, khủng hoảng sức khỏe nghiêm trọng buộc nhập viện và thay đổi triệt để lối sống.",
-        "reversed": "Phớt lờ triệu chứng cảnh báo, trốn tránh đi khám bệnh. Sự ngoan cố đẩy cơ thể đến sát bờ vực sụp đổ hoàn toàn."
+        "upright": "Sức khỏe đang đối mặt với một cú sốc lớn: một căn bệnh bất ngờ, một tai nạn, hoặc một sự thay đổi đột ngột trong thể trạng. Dù có gây đau đớn và hỗn loạn, đây là lời cảnh tỉnh để bạn phá bỏ những thói quen xấu, tái cấu trúc lại toàn bộ lối sống và chăm sóc bản thân một cách nghiêm túc hơn.",
+        "reversed": "Bạn đang cố gắng trì hoãn việc thăm khám hoặc điều trị một vấn đề sức khỏe đang âm ỉ. Sự thờ ơ và né tránh sẽ chỉ làm tình hình thêm trầm trọng, hoặc bạn đang chống lại một sự thay đổi lối sống cần thiết để cải thiện sức khỏe."
+      },
+      "mental": {
+        "upright": "Tâm trí đang trải qua một cuộc khủng hoảng sâu sắc, những niềm tin cũ kỹ bị phá vỡ, những ảo tưởng tan tành. Dù có gây hoang mang và đau khổ, đây là một quá trình thanh lọc cần thiết để bạn nhìn rõ sự thật, tái cấu trúc lại tư duy và tìm thấy sự bình yên từ bên trong.",
+        "reversed": "Bạn đang cố gắng kìm nén những cảm xúc tiêu cực hoặc né tránh đối mặt với một vấn đề tâm lý nghiêm trọng. Việc xây dựng một lớp vỏ bọc bên ngoài sẽ chỉ làm vết thương bên trong thêm nặng, hoặc bạn đang chống lại một sự thật cần được chấp nhận để chữa lành."
+      },
+      "energy": {
+        "upright": "Dòng năng lượng bên trong đang bị xáo trộn dữ dội bởi một sự kiện đột ngột, có thể là sự kiệt sức, một cú sốc tinh thần, hoặc một sự thức tỉnh mạnh mẽ. Đây là lúc để bạn nhìn nhận lại cách mình sử dụng năng lượng, phá bỏ những giới hạn cũ và tái tạo bản thân.",
+        "reversed": "Bạn đang cố gắng kìm nén sự hỗn loạn năng lượng bên trong, hoặc né tránh những dấu hiệu kiệt sức. Việc phớt lờ các cảnh báo sẽ chỉ dẫn đến sự suy sụp hoàn toàn, hoặc bạn đang chống lại một sự giải phóng năng lượng cần thiết để tái tạo bản thân."
+      },
+      "family": {
+        "upright": "Mối quan hệ gia đình đang đối mặt với một cuộc khủng hoảng lớn, có thể là một cuộc cãi vã bùng nổ, một bí mật được phơi bày, hoặc một sự thay đổi đột ngột trong cấu trúc gia đình. Dù có gây đau đớn, đây là cơ hội để phá bỏ những khuôn mẫu cũ, tái thiết lại sự gắn kết trên nền tảng chân thật hơn.",
+        "reversed": "Gia đình đang cố gắng duy trì vẻ ngoài bình yên, dù bên trong có những vết rạn nứt sâu sắc. Việc né tránh đối mặt với vấn đề sẽ chỉ làm tăng áp lực, biến tổ ấm thành một nhà tù của sự im lặng, hoặc bạn đang chống lại sự thay đổi cần thiết trong gia đình."
+      },
+      "diet": {
+        "upright": "Một sự kiện đột ngột đang buộc bạn phải thay đổi hoàn toàn chế đ��� ăn uống, có thể do vấn đề sức khỏe hoặc một sự thật được phơi bày về thói quen ăn uống của bạn. Dù có là một cú sốc, đây là lúc để phá bỏ những thói quen xấu và xây dựng lại nền tảng dinh dưỡng lành mạnh.",
+        "reversed": "Bạn đang cố gắng duy trì một chế độ ăn uống không lành mạnh hoặc né tránh đối mặt với những vấn đề sức khỏe liên quan. Sự thờ ơ này sẽ chỉ dẫn đến những hậu quả nghiêm trọng hơn trong tương lai, hoặc bạn đang từ chối một sự thay đổi tốt cho cơ thể."
+      },
+      "study": {
+        "upright": "Quá trình học tập đang trải qua một cú sốc lớn: một kỳ thi thất bại, một dự án nghiên cứu sụp đổ, hoặc một sự thật phũ phàng về hướng đi giáo dục của bạn. Dù có gây thất vọng, đây là lúc để phá bỏ những phương pháp cũ, tái cấu trúc lại cách học và tìm kiếm con đường tri thức chân thật hơn.",
+        "reversed": "Bạn đang cố gắng bám víu vào một phương pháp học tập không hiệu quả hoặc né tránh ��ối mặt với những khó khăn trong học hành. Sự chần chừ và thiếu linh hoạt sẽ chỉ làm bạn mất phương hướng, hoặc bạn đang chống lại một sự thay đổi cần thiết trong con đường học vấn."
+      },
+      "study_abroad": {
+        "upright": "Kế hoạch du học đang đứng trước một biến cố lớn: một trường hợp bị từ chối đột ngột, một vấn đề tài chính không lường trước, hoặc một cú sốc văn hóa mạnh mẽ. Dù có gây hỗn loạn, đây là một sự thanh lọc cần thiết để bạn tái cấu trúc lại kỳ vọng và chuẩn bị cho những thách thức lớn hơn.",
+        "reversed": "Bạn đang cố gắng duy trì một kế hoạch du học không thực tế hoặc né tránh đối mặt với những khó khăn tiềm ẩn. Việc phớt lờ các cảnh báo sẽ chỉ dẫn đến sự thất vọng lớn khi bạn thực sự đặt chân đến miền đất lạ, hoặc bạn đang cố kìm nén nỗi sợ hãi về sự thay đổi."
+      },
+      "self": {
+        "upright": "Bản ngã đang trải qua một cuộc thanh lọc đau đớn, những lớp vỏ bọc giả t��o và niềm tin sai lầm bị phá tan. Dù có gây hỗn loạn và tổn thương, đây là cơ hội để bạn nhìn thẳng vào bản chất chân thật của mình, tái sinh từ đống đổ nát và định hình lại con người thật.",
+        "reversed": "Bạn đang cố gắng bám víu vào một hình ảnh giả tạo về bản thân, hoặc né tránh đối mặt với những khía cạnh yếu kém của mình. Sự từ chối chấp nhận sự thật sẽ chỉ làm bạn mắc kẹt trong một vòng luẩn quẩn của sự tự lừa dối, hoặc bạn đang cố kìm nén một sự thay đổi nội tâm quan trọng."
+      },
+      "purpose": {
+        "upright": "Mục đích sống của bạn đang bị lung lay dữ dội bởi một sự kiện bất ngờ, buộc bạn phải xem xét lại toàn bộ ý nghĩa cuộc đời. Dù có gây hoang mang, đây là cơ hội để phá bỏ những định nghĩa cũ, tái cấu trúc lại lý tưởng và tìm thấy một mục đích chân thật, vững chắc hơn.",
+        "reversed": "Bạn đang cố gắng bám víu vào một mục đích sống đã không còn phù hợp, hoặc né tránh đối m��t với sự thật rằng con đường bạn đang đi không còn ý nghĩa. Sự chần chừ này sẽ chỉ làm kéo dài thêm chuỗi ngày lạc lối và bất mãn."
+      },
+      "shadow_self": {
+        "upright": "Những góc khuất đen tối nhất của bản thân đang bị phơi bày đột ngột, có thể là qua một sự kiện chấn động hoặc một cuộc đối đầu trực diện. Dù có gây đau đớn và xấu hổ, đây là cơ hội để bạn nhìn nhận, chấp nhận và bắt đầu quá trình chữa lành những vết thương sâu kín nhất.",
+        "reversed": "Bạn đang cố gắng che giấu hoặc kìm nén những khía cạnh tiêu cực của bản thân, tránh né đối mặt với bóng tối bên trong. Sự từ chối này sẽ chỉ khiến chúng tích tụ và bùng phát mạnh mẽ hơn trong tương lai, hoặc bạn đang chống lại một quá trình tự đối mặt cần thiết để phát triển."
+      },
+      "decision": {
+        "upright": "Một quyết định quan trọng đang đứng trước một ngã rẽ đầy biến động, buộc bạn phải phá bỏ mọi kế hoạch cũ và đưa ra lựa chọn đột ng��t. Dù có gây hỗn loạn, đây là lúc để tin vào bản năng, chấp nhận sự thật và tái định hình con đường phía trước.",
+        "reversed": "Bạn đang cố gắng trì hoãn một quyết định khó khăn, hoặc né tránh đối mặt với hậu quả của nó. Sự chần chừ này sẽ chỉ làm cho tình hình thêm tồi tệ, hoặc bạn đang cố kìm nén một sự thay đổi quan trọng mà bạn biết là cần thiết."
+      },
+      "travel": {
+        "upright": "Một chuyến đi đang đối mặt với những trục trặc lớn, có thể là việc hủy chuyến đột ngột, mất mát hành lý, hoặc một sự kiện không lường trước làm thay đổi toàn bộ kế hoạch. Dù có gây thất vọng, đây là cơ hội để bạn học cách thích nghi, phá bỏ những kỳ vọng cũ và trải nghiệm hành trình theo một cách khác.",
+        "reversed": "Bạn đang cố gắng giữ lại một kế hoạch du lịch đã không còn khả thi, hoặc né tránh đối mặt với những khó khăn khi đi xa. Sự bám víu vào những kỳ vọng cũ sẽ chỉ làm chuyến đi thêm căng thẳng, hoặc bạn đang chống lại những bài học mà hành trình mang lại."
       },
       "spiritual": {
-        "up": "Sự thức tỉnh tâm linh đau đớn. Những niềm tin cũ, giáo điều giả dối mà bạn từng theo đuổi bị phá vỡ hoàn toàn.",
-        "rev": "Bám víu vào các ảo tưởng tôn giáo hoặc triết học sai lầm vì sợ hãi sự thật phũ phàng.",
-        "upright": "Thức tỉnh tâm linh đau đớn tột cùng (Ego death). Mọi niềm tin, giáo điều sùng bái vỡ vụn, để lại linh hồn trần trụi nhưng được khai sáng.",
-        "reversed": "Bịt tai che mắt trước chân lý mới. Sợ thay đổi, cố bám víu tín ngưỡng sai lệch để tìm sự an ủi giả tạo."
+        "upright": "Hành trình tâm linh đang trải qua một cuộc khủng hoảng sâu sắc, những niềm tin cũ bị phá vỡ, những giáo điều tan tành. Dù có gây hoang mang, đây là cơ hội để bạn giải phóng khỏi xiềng xích của những tín ngưỡng lỗi thời, tái cấu trúc lại đức tin và tìm thấy một con đường tâm linh chân thật hơn.",
+        "reversed": "Bạn đang cố gắng bám víu vào những niềm tin tâm linh đã không còn phục vụ cho sự phát triển của mình, hoặc né tránh đối mặt với sự thật về chúng. Sự chần chừ này sẽ chỉ làm bạn mắc kẹt trong một vòng luẩn quẩn, hoặc bạn đang cố kìm nén một sự thức tỉnh quan trọng."
+      },
+      "general": {
+        "upright": "Bầu trời đang rung chuyển, một cơn bão dữ dội sắp quét qua cuộc đời bạn. Mọi cấu trúc cũ kỹ, mọi ảo tưởng sẽ bị phá tan tành, dù đau đớn nhưng là một sự thanh lọc cần thiết. Hãy đứng vững, chấp nhận sự thật trần trụi và sẵn sàng tái sinh từ đống đổ nát, vì sau cơn bão là bình minh của một khởi đầu mới.",
+        "reversed": "Bạn đang cảm thấy một sự thay đổi lớn đang đến, nhưng lại cố gắng chống lại nó, bám víu vào những điều đã cũ. Việc trì hoãn đối mặt với sự thật chỉ làm kéo dài thêm chuỗi ngày đau khổ và mất mát, hoặc bạn đang trải qua những biến động nội tâm sâu sắc nhưng không thể hiện ra bên ngoài."
       }
     },
     "advice": "Đừng khóc than cho một nền móng đã thối nát. Hãy đón nhận cơn bão, quét sạch tàn dư và kiêu hãnh xây lại một lâu đài kiên cố hơn.",
@@ -1153,34 +2713,164 @@ window.TAROT_DB = [
     "reversed": "Sự bi quan, đánh mất niềm tin vào bản thân và cuộc sống. Bạn đang tập trung quá nhiều vào những mặt tiêu cực, không nhìn thấy ánh sáng phía cuối con đường hầm.",
     "aspects": {
       "love": {
-        "up": "Mối quan hệ yên bình, chân thành và thấu hiểu. Rất tốt cho những ai đang hàn gắn vết thương cũ, hoặc báo hiệu một tình yêu mới trong sáng sắp đến.",
-        "rev": "Bạn đang đóng cửa trái tim vì sợ tổn thương lại. Hoặc tình yêu hiện tại thiếu niềm tin, chứa đầy sự bi quan và nghi ngờ lẫn nhau.",
-        "upright": "Tình yêu tái sinh từ vụn vỡ. Sự kết nối thanh khiết, chân thành và rực rỡ niềm tin. Lúc hai tâm hồn cùng nhau chữa lành và hướng về tương lai ngập tràn ánh sáng.",
-        "reversed": "Trái tim hóa đá sau tổn thương. Hoài nghi, bi quan và sợ hãi lặp lại nỗi đau cũ khiến bạn đóng sập cửa tình yêu, tự cô lập mình."
+        "upright": "Sau bão tố, tình yêu tìm thấy dòng chảy thanh khiết, được chữa lành và soi sáng bởi ánh sao hy vọng. Đây là thời khắc hai tâm hồn kết nối sâu sắc, lan tỏa sự bình yên và thấu hiểu, dệt nên một bản tình ca diệu kỳ của định mệnh.",
+        "reversed": "Ánh sao tình yêu bị che mờ bởi đám mây ngờ vực, để lại sự trống rỗng và thiếu niềm tin. Mối quan hệ dường như đang chìm trong sự tuyệt vọng hoặc đánh mất đi sợi dây kết nối linh thiêng, cần một phép màu để thắp lại ánh sáng dẫn lối."
+      },
+      "ex": {
+        "upright": "Dòng chảy ký ức về người cũ nay dịu dàng như suối nguồn được gột rửa. Bạn đã tìm thấy sự bình yên nội tại để tha thứ và buông bỏ, sẵn sàng mở lòng đón nhận những điều tươi sáng hơn mà không còn vương vấn bóng hình đã cũ.",
+        "reversed": "Bóng đêm u ám của đoạn tình cũ vẫn bủa vây, ngăn cản bạn tìm thấy sự bình yên. Có lẽ bạn đang chìm trong sự thất vọng tột cùng hoặc cố chấp níu giữ một ảo ảnh đã tan vỡ, không cho phép vết thương được lành và tâm hồn được giải thoát."
+      },
+      "current_love": {
+        "upright": "Mối duyên hiện tại đang tắm mình trong ánh sáng của niềm hy vọng và sự chữa lành. Cả hai sẽ tìm thấy sự kết nối sâu sắc, những chia sẻ chân thành giúp vun đắp tình cảm bền vững và rạng rỡ như vì sao trên bầu trời đêm.",
+        "reversed": "Sợi dây kết nối trong mối quan hệ đang mờ nhạt dần, thiếu đi ánh sáng dẫn lối của sự thấu hiểu. Cả hai có thể đang cảm thấy xa cách, lạc lõng trong chính tình yêu của mình, cần một phép màu để thắp lại hy vọng và sự bình yên."
+      },
+      "ambiguous": {
+        "upright": "Màn sương mờ của sự mập mờ đang dần tan biến, nhường chỗ cho ánh sáng của sự thật và hy vọng. Hãy tin vào trực giác, bởi vũ trụ đang soi sáng con đường để mối quan hệ này tìm thấy sự bình yên và rõ ràng hơn, như ngôi sao dẫn lối đêm tối.",
+        "reversed": "Tình trạng mập mờ kéo dài đang bào mòn niềm tin và hy vọng. Bạn cảm thấy lạc lối trong màn đêm vô định, thiếu đi ánh sáng dẫn lối để định hình mối quan hệ, chỉ còn lại sự trống rỗng và thất vọng sâu sắc."
+      },
+      "crush": {
+        "upright": "Cảm xúc rung động này được thắp sáng bởi ánh sao hy vọng, mang theo sự trong trẻo và chân thành. Hãy tin vào trực giác mách bảo, mạnh dạn trao đi tấm lòng thuần khiết, biết đâu một tình duyên đẹp đẽ sẽ nở hoa và mang lại bình yên.",
+        "reversed": "Niềm hy vọng về người ấy đang phai tàn, thay vào đó là cảm giác bất lực hoặc sợ hãi. Có lẽ bạn đang chìm trong ảo tưởng hoặc e ngại không dám đối mặt, để mặc trái tim chìm trong màn đêm của sự thất vọng và ngờ vực."
+      },
+      "future_love": {
+        "upright": "Tương lai đang trải ra một bức tranh tình yêu ngập tràn ánh sao hy vọng và sự chữa lành. Người ấy sẽ bước vào đời bạn như một suối nguồn an ủi, mang đến sự bình yên, thấu hiểu và kết nối tâm hồn sâu sắc, như một phép màu diệu kỳ.",
+        "reversed": "Bầu trời tình duyên tương lai bị bao phủ bởi mây mù của sự ngờ vực và thất vọng. Bạn có thể gặp phải những mối quan hệ thiếu vắng sự kết nối sâu sắc, hoặc vẫn bị kìm hãm bởi những vết thương lòng cũ, khó tìm thấy bình yên."
+      },
+      "someone": {
+        "upright": "Trong mắt người ấy, bạn là vì sao dẫn lối, là nguồn cảm hứng thanh khiết và sự bình yên vô giá. Họ cảm nhận được sự trong trẻo và hy vọng mỗi khi bạn hiện diện, như được chữa lành và soi sáng tâm hồn u tối.",
+        "reversed": "Người ấy nhìn thấy ở bạn sự thiếu vắng niềm tin hoặc năng lượng u ám. Họ có thể cảm nhận được sự xa cách hoặc thiếu đi sự kết nối sâu sắc từ phía bạn, khiến hình ảnh bạn trong họ phần nào mờ nhạt và kém phần rạng rỡ."
+      },
+      "marriage": {
+        "upright": "Cuộc hôn nhân đang bước vào giai đoạn tái sinh rực rỡ, được tắm mình trong ánh sao của niềm hy vọng và sự chữa lành. Cả hai sẽ tìm thấy sự bình yên, thấu hiểu và vun đắp một tổ ấm vững chãi dựa trên kết nối tâm hồn sâu sắc.",
+        "reversed": "Ánh sao hy vọng trong hôn nhân đang bị che khuất bởi bóng đêm của sự thất vọng hoặc xa cách. Cả hai có thể đang đối mặt với những vết nứt sâu sắc, thiếu đi sự kết nối tâm hồn và niềm tin vào một tương lai chung rạng rỡ."
+      },
+      "conflict": {
+        "upright": "Giữa những luồng sóng mâu thuẫn, ánh sao hy vọng xuất hiện soi đường cho sự hòa giải. Hãy giữ tâm hồn bình an để tìm thấy tiếng nói chung, chữa lành những rạn nứt bằng sự thấu hiểu và lòng bao dung, mở ra một chương mới cho mối quan hệ.",
+        "reversed": "Mâu thuẫn đang kéo dài và chìm sâu trong sự tuyệt vọng, thiếu đi ánh sáng của sự hòa giải. Cả hai đều cảm thấy kiệt sức, mất kết nối và không tìm thấy niềm tin vào khả năng hàn gắn, chỉ còn lại sự xa cách và tổn thương triền miên."
+      },
+      "breakup": {
+        "upright": "Sự tan vỡ này không phải là dấu chấm hết, mà là cánh cửa mở ra một hành trình chữa lành và tái tạo. Hãy đón nhận sự bình yên, tin vào ánh sao hy vọng dẫn lối để tìm thấy chính mình, mạnh mẽ và rạng rỡ hơn sau bão giông.",
+        "reversed": "Vết thương hậu chia tay vẫn còn nhức nhối, kéo bạn chìm sâu vào hố đen của sự tuyệt vọng. Bạn khó lòng buông bỏ quá khứ, không tìm thấy ánh sáng hy vọng để chữa lành và bước tiếp, chỉ còn lại nỗi đau và sự mất mát bao trùm."
+      },
+      "long_distance": {
+        "upright": "Khoảng cách địa lý không thể ngăn cản ánh sáng của tình yêu và niềm tin. Hai tâm hồn v���n kết nối sâu sắc, cùng nhau nuôi dưỡng hy vọng và nguồn cảm hứng, để mối tình xa vẫn vững bền và rạng rỡ như những vì sao trên bầu trời.",
+        "reversed": "Khoảng cách vô hình đang kéo hai bạn ra xa, đánh mất đi sự kết nối và niềm tin. Mối tình xa đang đối mặt với sự tuyệt vọng, thiếu đi ánh sáng dẫn lối và nguồn cảm hứng để duy trì, chỉ còn lại sự cô đơn và hoài nghi."
+      },
+      "jealousy": {
+        "upright": "Ánh sao bình yên soi rọi tâm hồn, xua tan bóng đêm ghen tuông. Hãy tin tưởng vào sự kết nối thiêng liêng và giá trị của bản thân, để sự nghi ngờ tan biến, nhường chỗ cho tình yêu trong sáng và thấu hiểu, mang lại bình an.",
+        "reversed": "Ngọn lửa ghen tuông đang bùng cháy dữ dội, thiêu rụi niềm tin và sự bình yên. Bạn chìm sâu vào nỗi ám ảnh và ngờ vực, không tìm thấy lối thoát để chữa lành vết thương lòng, chỉ còn lại sự bất an và tuyệt vọng."
+      },
+      "self_love": {
+        "upright": "Yêu bản thân là hành trình chữa lành và tái tạo tâm hồn. Hãy đón nhận con người thật của bạn với sự bình yên và lòng trắc ẩn, tin vào giá trị nội tại để ánh sao hy vọng dẫn lối bạn đến sự chấp nhận và yêu thương trọn vẹn.",
+        "reversed": "Bạn đang lạc lối trong bóng đêm của sự tự ti và ngờ vực. Niềm tin vào bản thân bị lung lay, không tìm thấy ánh sáng để chữa lành những vết thương lòng, chỉ còn lại sự trống rỗng và cảm giác không xứng đáng, cần được soi sáng."
       },
       "career": {
-        "up": "Môi trường làm việc lý tưởng, tràn đầy cảm hứng sáng tạo. Bạn cảm thấy được đánh giá cao, công việc phát triển thuận lợi và đầy hứa hẹn.",
-        "rev": "Mất cảm hứng với công việc, cảm thấy như thể mọi nỗ lực đều vô ích. Sự bi quan làm bạn không dám nắm bắt cơ hội mới.",
-        "upright": "Sự nghiệp thăng hoa trong nguồn cảm hứng dồi dào. Môi trường làm việc lý tưởng, nơi tài năng tỏa sáng rực rỡ và được công nhận xứng đáng. Định hướng mới đầy hứa hẹn.",
-        "reversed": "Đánh mất đam mê và động lực làm việc. Chán nản, bi quan bao trùm khiến nỗ lực trở nên sáo rỗng, vuột mất những cơ hội quý giá."
+        "upright": "Con đường sự nghiệp đang được thắp sáng bởi ánh sao hy vọng, mang đến nguồn cảm hứng và cơ hội mới mẻ. Đây là lúc để bạn tin tưởng vào trực giác, theo đuổi đam mê, kiến tạo một tương lai rạng rỡ và đầy ý nghĩa, đúng với định hướng tâm hồn.",
+        "reversed": "Con đường công danh đang chìm trong màn đêm của sự thất vọng và thiếu định hướng. Bạn cảm thấy mất kết nối với mục tiêu, thiếu đi nguồn cảm hứng để phát triển, chỉ còn lại sự trì trệ và vô vọng bao trùm."
+      },
+      "job_search": {
+        "upright": "Ánh sao may mắn đang soi sáng con đường tìm việc, mang đến những cơ hội phù hợp và nguồn cảm hứng bất tận. Hãy giữ vững niềm tin, bởi một công việc không chỉ mang lại thu nhập mà còn là nơi tâm hồn bạn được chữa lành và phát triển.",
+        "reversed": "Hành trình tìm việc đang chìm trong sự tuyệt vọng và những lời từ chối liên tiếp. Bạn cảm thấy kiệt sức, mất niềm tin vào khả năng của bản thân, thiếu đi ánh sáng dẫn lối để tìm thấy một bến đỗ phù hợp, như một con thuyền lạc hướng."
+      },
+      "promotion": {
+        "upright": "Cánh cửa thăng tiến đang mở ra, được soi sáng bởi ánh sao công nhận và hy vọng. Đây là thành quả xứng đáng cho những cống hiến của bạn, hãy đón nhận bằng tâm thế bình an và nguồn cảm hứng mới để tỏa sáng hơn nữa trên chặng đường sắp tới.",
+        "reversed": "Cơ hội thăng tiến dường như bị che khuất bởi bóng đêm của sự thất vọng hoặc thiếu công nhận. Bạn cảm thấy bị bỏ lại phía sau, không tìm thấy niềm tin vào sự phát triển của bản thân, chỉ còn lại sự trì trệ và hoài nghi."
+      },
+      "business": {
+        "upright": "Sự nghiệp kinh doanh đang được thắp sáng bởi những ý tưởng đột phá và nguồn cảm hứng dồi dào. Hãy tin vào trực giác mách bảo, mạnh dạn gieo trồng hạt giống hy vọng, bởi vũ trụ đang ủng hộ bạn kiến tạo một đế chế thịnh vượng và bền vững.",
+        "reversed": "Con thuyền kinh doanh đang lạc lối giữa biển khơi của sự tuyệt vọng và thiếu định hướng. Thiếu đi nguồn cảm hứng và tầm nhìn, doanh nghiệp có thể chìm vào bóng tối của sự trì trệ hoặc thua lỗ, cần một phép màu để vực dậy."
+      },
+      "colleague": {
+        "upright": "Mối quan hệ với đồng nghiệp được tắm mát bởi ánh sao của sự hòa hợp và thấu hiểu. Cả nhóm sẽ tìm thấy nguồn cảm hứng chung, cùng nhau vun đắp một môi trường làm việc bình yên, đoàn kết và phát triển, như một gia đình thứ hai.",
+        "reversed": "Mối quan hệ với đ��ng nghiệp đang chìm trong sự xa cách và thiếu tin tưởng. Thiếu đi ánh sáng của sự thấu hiểu, môi trường làm việc trở nên ngột ngạt, chỉ còn lại sự mất kết nối và những tiếng thở dài nặng nề."
+      },
+      "career_change": {
+        "upright": "Linh hồn đang mách bảo bạn rẽ lối sang một con đường sự nghiệp mới, được thắp sáng bởi ánh sao hy vọng và niềm đam mê. Đây là cơ hội để chữa lành những vết thương lòng cũ, tìm thấy sự bình yên và phát triển trọn vẹn bản thân.",
+        "reversed": "Bạn đang lạc lối trong mê cung của sự nghiệp, thiếu đi ánh sáng dẫn lối để đưa ra quyết định thay đổi. Nỗi sợ hãi và sự tuyệt vọng đang kìm hãm bạn, không cho phép bản thân dũng cảm bước ra khỏi vùng an toàn, để rồi mắc kẹt."
+      },
+      "freelance": {
+        "upright": "Mô hình Freelance đang mở ra một không gian tự do, nơi nguồn cảm hứng được thắp sáng như những vì sao. Đây là cơ hội để bạn chữa lành những vết thương từ sự gò bó cũ, tìm thấy bình yên trong sự chủ động và tự do sáng tạo vô tận.",
+        "reversed": "Sự tự do trong công việc Freelance đang biến thành gánh nặng, kéo bạn chìm sâu vào sự mất định hướng và tuyệt vọng. Thiếu đi kỷ luật và nguồn cảm hứng, bạn có thể lạc lối giữa biển cả cơ hội, đánh mất đi sự bình yên nội tại."
+      },
+      "interview": {
+        "upright": "Bước vào cuộc phỏng vấn với tâm thế bình an, tự tin và tràn đầy hy vọng. Sự chân thành và nguồn cảm hứng từ bạn sẽ tỏa sáng, để lại ấn tượng sâu sắc, như một vì sao lấp lánh giữa bầu trời đêm, thu hút mọi ánh nhìn.",
+        "reversed": "Bạn bước vào vòng phỏng vấn với tâm trạng lo lắng, thiếu tự tin và mất kết nối. Sự tuyệt vọng hoặc thiếu nguồn cảm hứng có thể khiến bạn bỏ lỡ cơ hội, để lại ấn tượng mờ nhạt và kém phần rạng rỡ trong mắt nhà tuyển dụng."
       },
       "finance": {
-        "up": "Niềm tin vào sự ổn định tài chính. Mọi khoản đầu tư sẽ bắt đầu sinh lời nhờ sự kiên nhẫn. Bạn không còn lo lắng về tiền bạc.",
-        "rev": "Cảm thấy thiếu thốn dù thực tế không đến mức tồi tệ. Hãy cẩn thận thái độ tiêu cực về tiền bạc (scarcity mindset) sẽ cản trở tài lộc.",
-        "upright": "Niềm tin vào sự sung túc đang thu hút dòng chảy tài lộc về phía bạn. Các khoản đầu tư bắt đầu đơm hoa, mang lại bức tranh tài chính ổn định và vô cùng lạc quan.",
-        "reversed": "Tâm lý thiếu thốn (scarcity mindset) cản bước dòng tiền. Lo âu thái quá về nghèo đói dù thực tại không bi đát, khiến bạn mệt mỏi vô ích."
+        "upright": "Tài chính đang được tắm mát bởi ánh sao của sự tái tạo và hy vọng. Những nguồn thu bất ngờ có thể xuất hiện, hoặc bạn sẽ tìm thấy những ý tưởng đột phá để chữa lành các vấn đề tiền bạc, mang lại sự bình yên và thịnh vượng bền vững.",
+        "reversed": "Bức tranh tài chính đang chìm trong bóng đêm của sự tuyệt vọng và khó khăn. Bạn cảm thấy mất kiểm soát, không tìm thấy lối thoát cho những vấn đề tiền bạc, chỉ còn lại sự trống rỗng và những gánh nặng không tên."
+      },
+      "investment": {
+        "upright": "Các khoản đầu tư của bạn đang được soi sáng bởi ánh sao của sự khôn ngoan và may mắn. Hãy tin vào trực giác, bởi những quyết định được đưa ra trong tâm thế bình an sẽ mang lại lợi nhuận bất ngờ và bền vững, như một món quà từ vũ trụ.",
+        "reversed": "Cánh cửa đầu tư đang chìm trong bóng đêm của sự tuyệt vọng và thua lỗ. Những quyết định vội vàng hoặc thiếu tầm nhìn có thể khiến bạn mất mát, cần một phép màu để vực dậy niềm tin và tài chính đã hao hụt."
+      },
+      "debt": {
+        "upright": "Gánh nặng nợ nần đang được thắp sáng bởi ánh sao hy vọng và những giải pháp sáng tạo. Hãy tin vào khả năng của bản thân, bởi bạn sẽ tìm thấy con đường thoát khỏi vòng xoáy tài chính, mang lại sự bình yên và tự do cho tâm hồn.",
+        "reversed": "Bóng ma nợ nần vẫn bủa vây, kéo bạn chìm sâu vào sự tuyệt vọng và bế tắc. Thiếu đi ánh sáng dẫn lối, bạn cảm thấy mất kiểm soát và không tìm thấy lối thoát, chỉ còn lại sự nặng nề và những lo âu triền miên."
+      },
+      "savings": {
+        "upright": "Quỹ tiết kiệm đang được nuôi dưỡng bởi ánh sao hy vọng và sự bình yên. Mỗi hạt giống nhỏ bé bạn gieo trồng sẽ nảy mầm thịnh vượng, kiến tạo một tương lai tài chính vững vàng và rạng rỡ, như một kho báu được cất giữ.",
+        "reversed": "Quỹ tiết kiệm đang cạn kiệt, kéo theo sự tuyệt vọng và bất an về tương lai tài chính. Thiếu đi kỷ luật và nguồn cảm hứng, bạn có thể đánh mất đi sự bình yên, chìm sâu vào vòng xoáy của sự thiếu hụt và hoang mang."
+      },
+      "luck_money": {
+        "upright": "Ánh sao may mắn đang ban phát những ân sủng bất ngờ cho tài chính của bạn. Hãy mở lòng đón nhận những cơ hội vàng, bởi vũ trụ đang gửi gắm những món quà quý giá, mang lại sự thịnh vượng và bình yên một cách tự nhiên.",
+        "reversed": "Vận may tài chính đang bị che mờ bởi đám mây xui xẻo và sự thất vọng. Bạn có thể đối mặt với những mất mát bất ngờ, cảm thấy bất lực và không tìm thấy ánh sáng hy vọng để vực dậy, chỉ còn lại sự đen đủi bao trùm."
       },
       "health": {
-        "up": "Quá trình hồi phục sức khỏe tuyệt vời. Thể chất và tinh thần hòa quyện làm một. Các phương pháp trị liệu đang đi đúng hướng.",
-        "rev": "Sự suy kiệt về sức khỏe thường bắt nguồn từ tâm lý tuyệt vọng hoặc lo âu quá độ. Cần nuôi dưỡng tinh thần lạc quan trước tiên.",
-        "upright": "Phép màu phục hồi. Sinh lực tuôn chảy, thể chất và tinh thần thanh lọc, chữa lành tận gốc rễ. Nguồn năng lượng an bình ôm trọn lấy cơ thể bạn.",
-        "reversed": "Bệnh tật kéo dài do u uất tinh thần. Việc thiếu niềm tin vào quá trình điều trị đang tự tay triệt tiêu khả năng tự chữa lành của cơ thể."
+        "upright": "Sức khỏe của bạn đang được tắm mát bởi ánh sao chữa lành và tái tạo. Đây là thời điểm tuyệt vời để tìm thấy sự bình yên trong tâm hồn, giúp cơ thể phục hồi, tràn đầy năng lượng và sức sống mới mẻ, như được ban phước lành.",
+        "reversed": "Sức khỏe đang chìm trong bóng đêm của sự suy yếu và tuyệt vọng. Bạn cảm thấy kiệt sức, mất niềm tin vào khả năng phục hồi, thiếu đi ánh sáng dẫn lối để chữa lành và tìm lại sự bình an cho cơ thể."
+      },
+      "mental": {
+        "upright": "Tâm hồn bạn đang được gột rửa bởi ánh sao bình yên và sự thấu hiểu. Mọi lo âu, phiền muộn dần tan biến, nhường chỗ cho sự trong trẻo, nguồn cảm hứng và niềm tin vào một tương lai tươi sáng, như mặt trời sau cơn mưa.",
+        "reversed": "Tâm trí đang chìm sâu vào bóng tối của sự tuyệt vọng và lo âu. Bạn cảm thấy mất kết nối với chính mình, thiếu đi ánh sáng dẫn lối để tìm thấy sự bình yên, chỉ còn lại sự trống rỗng và những suy nghĩ tiêu cực vây bủa."
+      },
+      "energy": {
+        "upright": "Dòng năng lượng thanh khiết đang được tái tạo, giúp bạn tràn đầy sức sống và nguồn cảm hứng bất tận. Hãy đón nhận ánh sao bình yên dẫn lối, để tâm hồn và thể chất cùng hòa quyện, rạng rỡ như một vì sao trên bầu trời đêm.",
+        "reversed": "Nguồn năng lượng bên trong đang cạn kiệt, kéo bạn chìm sâu vào sự mệt mỏi và tuyệt vọng. Bạn cảm thấy mất kết nối với bản thân, thiếu đi ánh sáng dẫn lối để vực dậy, chỉ còn lại sự trống rỗng và kiệt sức triền miên."
+      },
+      "family": {
+        "upright": "Không khí gia đình đang được tắm mát bởi ánh sao hòa hợp và sự thấu hiểu. Đây là thời điểm để hàn gắn những rạn nứt, cùng nhau vun đắp một tổ ấm bình yên, tràn đầy yêu thương và niềm tin vào tương lai, như một khu vườn xanh mát.",
+        "reversed": "Không khí gia đình đang chìm trong sự xa cách và những mâu thuẫn dai dẳng. Thiếu đi ánh sáng của sự thấu hiểu, các thành viên cảm thấy mất kết nối, chỉ còn lại sự trống rỗng và những gánh nặng vô hình đè nén."
+      },
+      "diet": {
+        "upright": "Chế độ ăn uống đang được soi sáng bởi ánh sao của sự cân bằng và trực giác. Hãy lắng nghe cơ thể mình, chọn lựa những thực phẩm nuôi dưỡng cả thể chất lẫn tinh thần, để tìm thấy sự bình yên và khỏe mạnh trọn vẹn, như một dòng suối mát lành.",
+        "reversed": "Chế độ ăn uống đang chìm trong sự mất kiểm soát và tuyệt vọng. Bạn có thể đang đối mặt với những thói quen ăn uống không lành mạnh, thiếu đi ánh sáng dẫn lối để tìm thấy sự cân bằng và sức khỏe bền vững, cần được chấn chỉnh."
+      },
+      "study": {
+        "upright": "Hành trình học vấn đang được thắp sáng bởi ánh sao tri thức và nguồn cảm hứng bất tận. Hãy đón nhận kiến thức với tâm thế bình an, tin vào khả năng của bản thân, bởi mỗi bước tiến đều đưa bạn đến gần hơn với sự giác ngộ và thấu hiểu.",
+        "reversed": "Học tập đang chìm trong sự mất định hướng và tuyệt vọng. Bạn cảm thấy thiếu động lực, không tìm thấy nguồn cảm hứng để tiếp thu kiến thức, chỉ còn lại sự trống rỗng và những áp lực không tên đè nặng lên tâm trí."
+      },
+      "study_abroad": {
+        "upright": "Chuyến du học đang được thắp sáng bởi ánh sao hy vọng và những trải nghiệm khai sáng. Bạn sẽ tìm thấy sự bình yên và nguồn cảm hứng bất tận, để mỗi bước chân trên miền đất lạ đều là hành trình phát triển tâm hồn và trí tuệ.",
+        "reversed": "Hành trình du học đang chìm trong bóng đêm của sự cô đơn và tuyệt vọng. Bạn có thể đối mặt với cú sốc văn hóa, cảm thấy mất kết nối và không tìm thấy ánh sáng dẫn lối để thích nghi, chỉ còn lại sự trống rỗng và nỗi nhớ nhà triền miên."
+      },
+      "self": {
+        "upright": "Hành trình khám phá bản thân đang được soi sáng bởi ánh sao của sự thật và bình yên. Hãy lắng nghe tiếng nói bên trong, kết nối với linh hồn, để bạn tìm thấy chính mình, một phiên bản rạng rỡ và tràn đầy hy vọng, đúng với bản chất thuần khiết.",
+        "reversed": "Bạn đang lạc lối trong mê cung của bản thân, thiếu đi ánh sáng dẫn lối để tìm thấy mục đích sống. Sự hoài nghi và tuyệt vọng đang kéo bạn chìm sâu, không cho phép bản thân kết nối với con người thật của mình, cần được soi rọi."
+      },
+      "purpose": {
+        "upright": "Mục đích sống của bạn đang được thắp sáng bởi ánh sao định mệnh, mang đến sự rõ ràng và nguồn cảm hứng bất tận. Hãy tin vào trực giác, bởi linh hồn bạn đang dẫn lối đến con đường phụng sự và kiến tạo ý nghĩa, mang lại bình yên nội tại.",
+        "reversed": "Mục đích sống đang chìm trong bóng đêm của sự tuyệt vọng và lạc lối. Bạn cảm thấy trống rỗng, không tìm thấy ánh sáng dẫn lối để định hình con đường của mình, chỉ còn lại sự vô nghĩa và những câu hỏi không lời đáp."
+      },
+      "shadow_self": {
+        "upright": "Chấp nhận những góc khuất, những vết sẹo trong tâm hồn chính là hành trình chữa lành. Ánh sao bình yên soi rọi, giúp bạn hòa giải với bóng tối, để tất cả những phần của bản thân đều được yêu thương và chấp nhận, tìm thấy sự toàn vẹn.",
+        "reversed": "Bóng tối nội tâm đang ám ảnh, kéo bạn chìm sâu vào sự tuyệt vọng và chối bỏ. Bạn cố gắng che giấu những vết thương lòng, không cho phép bản thân đối diện và chữa lành, chỉ còn lại sự dằn vặt và xa cách với chính mình."
+      },
+      "decision": {
+        "upright": "Trước ngưỡng cửa quyết định, ánh sao hy vọng đang soi sáng con đường. Hãy lắng nghe trực giác, tin vào sự bình an trong tâm hồn, bởi những lựa chọn được đưa ra với sự rõ ràng sẽ dẫn lối bạn đến bến bờ thành công và niềm vui.",
+        "reversed": "Bạn đang lạc lối giữa ngã ba đường của những quyết định, chìm trong sự tuyệt vọng và bất an. Thiếu đi ánh sáng dẫn lối, bạn cảm thấy bế tắc, không tìm thấy niềm tin để đưa ra lựa chọn, chỉ còn lại sự hoài nghi và hối tiếc."
+      },
+      "travel": {
+        "upright": "Chuyến du hành này không chỉ là khám phá địa lý, mà còn là hành trình chữa lành tâm hồn. Ánh sao hy vọng dẫn lối, mang đến sự bình yên, nguồn cảm hứng và những trải nghiệm sâu sắc, giúp bạn tái tạo năng lượng và mở rộng tầm nhìn.",
+        "reversed": "Chuyến đi đang chìm trong sự mệt mỏi và tuyệt vọng. Bạn có thể gặp phải những rắc rối, cảm thấy mất kết nối với mục đích ban đầu, thiếu đi ánh sáng dẫn lối để tận hưởng và tìm thấy sự bình yên, chỉ còn l��i sự chán nản."
       },
       "spiritual": {
-        "up": "Kết nối sâu sắc với vũ trụ. Sự trần trụi của người phụ nữ trong lá bài thể hiện tâm hồn bạn đã gột rửa mọi dối trá, thuần khiết và chân thực.",
-        "rev": "Mất niềm tin vào Đấng Tối Cao hoặc Vũ Trụ. Cảm giác bị bỏ rơi và lạc lõng trong tâm linh.",
-        "upright": "Giao hòa trọn vẹn vũ trụ bao la. Trút bỏ muộn phiền thế tục để linh hồn tự do tắm mình trong ánh sáng giác ngộ và bình yên vĩnh cửu.",
-        "reversed": "Cảm giác bị Đấng Tối Cao bỏ rơi. Lạc lối giữa cõi trần, không tìm thấy mục đích sống và ý nghĩa của linh hồn."
+        "upright": "Linh hồn đang cất cánh vào cõi siêu nhiên, được tắm mát bởi ánh sao của sự giác ngộ và bình yên. Đây là thời khắc bạn kết nối sâu sắc với vũ trụ, tìm thấy niềm tin và nguồn cảm hứng thiêng liêng để soi sáng con đường mình đi.",
+        "reversed": "Linh hồn đang chìm trong bóng đêm của sự mất kết nối và tuyệt vọng. Bạn cảm thấy xa rời cội nguồn tâm linh, thiếu đi ánh sáng dẫn lối để tìm thấy niềm tin, chỉ còn lại sự trống rỗng và những câu hỏi không lời đáp, cần được giải tỏa."
+      },
+      "general": {
+        "upright": "Sau cơn bão táp, bầu trời tâm hồn bạn trong xanh trở lại, được thắp sáng bởi ánh sao hy vọng và sự chữa lành. Vũ trụ đang ban phát những phước lành, mang đến sự bình yên, nguồn cảm hứng để bạn kiến tạo một tương lai rạng rỡ và an lành.",
+        "reversed": "Bầu trời của bạn đang bị bao phủ bởi mây mù của sự tuyệt vọng và thiếu niềm tin. Mặc dù ánh sáng vẫn ở đó, b���n lại không thể nhìn thấy, chỉ còn lại sự trống rỗng, mất kết nối và những gánh nặng vô hình. Hãy tìm cách xua tan màn đêm u ám."
       }
     },
     "advice": "Hãy trút bỏ mọi muộn phiền, mở rộng trái tim và đón nhận dòng suối chữa lành. Vũ trụ luôn yêu thương và bảo bọc bạn.",
@@ -1219,34 +2909,164 @@ window.TAROT_DB = [
     "reversed": "Sương mù đang tan dần. Những bí mật đen tối, sự dối trá hay ảo tưởng đang dần bị phơi bày ra ánh sáng. Bạn bắt đầu vượt qua được sự nhầm lẫn và lo âu.",
     "aspects": {
       "love": {
-        "up": "Sự hiểu lầm, ghen tuông vô cớ do sự lo âu, tự ti của bản thân. Hoặc báo hiệu một mối quan hệ thiếu rõ ràng, mập mờ, có sự dối trá che đậy.",
-        "rev": "Sự lừa dối trong tình cảm bị phát hiện. Hai người bắt đầu nói chuyện thẳng thắn, giải quyết những hiểu lầm để nhìn rõ sự thật về nhau.",
-        "upright": "Tình yêu nhuốm màu mập mờ, thiếu minh bạch. Ghen tuông vô cớ, bất an và những bí mật bị che giấu dệt nên bức tranh tình cảm hoang mang, nghi kỵ.",
-        "reversed": "Mặt nạ rơi xuống, sự thật về sự phản bội hay lừa dối bị bóc trần. Dù đau đớn, nhưng sự minh bạch giúp giải thoát khỏi cuộc tình dối trá."
+        "upright": "Tình yêu lúc này tựa như màn sương đêm huyền ảo, che giấu những cảm xúc chân thật nhất. Có thể có sự lầm lạc, hiểu lầm hoặc cảm giác bất an đang len lỏi. Hãy lắng nghe tiếng nói sâu thẳm của trái tim, thay vì để ảo ảnh chi phối.",
+        "reversed": "Sợi dây cảm xúc rối ren cuối cùng đã được tháo gỡ. Bạn nhìn rõ hơn những điều từng che giấu, sự thật về mối quan hệ dần hé lộ, mở đường cho sự chân thành và hiểu biết sâu sắc hơn."
+      },
+      "ex": {
+        "upright": "Bóng đêm quá kh��� với người cũ đang giăng mắc, mang theo những nỗi sợ hãi và kỷ niệm ám ảnh. Có lẽ bạn đang bị cuốn vào ảo tưởng về một tình yêu đã qua, hay những điều chưa nói rõ ràng đang gây bất an.",
+        "reversed": "Màn sương mù bao phủ người cũ đã tan, cho phép bạn nhìn nhận lại mọi thứ với cái nhìn rõ ràng hơn. Sự thật, dù đôi khi phũ phàng, sẽ giúp bạn buông bỏ gánh nặng và tiến về phía trước."
+      },
+      "current_love": {
+        "upright": "Mối quan hệ hiện tại đang chìm trong sự mơ hồ, với những cảm xúc không rõ ràng hoặc những điều chưa được bày tỏ. Có thể có sự thiếu tin tưởng, lừa dối hoặc một bí mật đang tồn tại, tạo nên cảm giác bất an.",
+        "reversed": "Ánh trăng soi rọi vào những ngóc ngách tối tăm nhất của mối quan hệ, giúp hai bạn giải tỏa những hiểu lầm, đối mặt với sự thật và xua tan những nỗi sợ hãi vô hình, từ đó tìm lại sự tin tưởng và gắn kết."
+      },
+      "ambiguous": {
+        "upright": "Tình trạng mập mờ này như một mê cung cảm xúc, khiến bạn lạc lối giữa những phỏng đoán và sự không chắc chắn. Đừng để nỗi sợ hãi về tương lai hoặc những ảo tưởng chi phối, hãy tìm kiếm sự rõ ràng từ sâu bên trong.",
+        "reversed": "Màn sương của sự không chắc chắn cuối cùng cũng tan biến, mang lại sự minh bạch. Bạn sẵn sàng đối mặt với sự thật, dù nó có thể khó khăn, để đưa ra quyết định dứt khoát và thoát khỏi vòng luẩn quẩn."
+      },
+      "crush": {
+        "upright": "Cảm xúc dành cho người ấy nhuốm màu huyền ảo, có thể là sự lý tưởng hóa hoặc những phỏng đoán sai lệch. Nỗi sợ hãi và sự tự ti đang giăng mắc, khiến bạn không dám bày tỏ, hoặc cảm thấy mối quan hệ này không có thật.",
+        "reversed": "Tiếng nói từ trái tim bạn đang trở nên rõ ràng hơn, giúp bạn nhận ra bản chất thực sự của cảm xúc này. Sự tự tin dần trở lại, cho phép bạn buông bỏ những ảo tưởng và đối mặt với thực tế, dù là tích cực hay tiêu cực."
+      },
+      "future_love": {
+        "upright": "Chuyện tình duyên sắp tới được bao phủ bởi màn sương bí ẩn. Bạn có thể cảm thấy lo lắng, mơ hồ về những gì sắp đến, hoặc có những mối quan hệ mới mang tính chất lừa dối, không rõ ràng.",
+        "reversed": "Tấm màn che mờ tương lai tình yêu dần vén lên. Bạn sẽ tìm thấy sự rõ ràng trong cảm xúc và ý định, nhận diện được những người không chân thành và mở lòng đón nhận một mối quan hệ dựa trên sự thật và tin tưởng."
+      },
+      "someone": {
+        "upright": "Trong mắt người ấy, bạn là một bí ẩn khó lường, hoặc có thể họ đang cảm nhận sự không trung thực, lừa dối từ phía bạn. Họ đang nhìn bạn qua lăng kính của sự lo âu, hoặc bị những ấn tượng sai lệch che mắt.",
+        "reversed": "Người ấy đang dần nhìn thấu con người thật của bạn, xua tan đi những hiểu lầm và định kiến. Sự thật được phơi bày, giúp mối quan hệ giữa hai người trở nên chân thật và sâu sắc hơn."
+      },
+      "marriage": {
+        "upright": "Hôn nhân đang đứng trước giai đoạn ẩn chứa nhiều bí mật, sự không chắc chắn hoặc những nỗi sợ hãi thầm kín. Có thể có sự thiếu tin tưởng, những lời nói dối nhỏ hoặc cảm giác bị lừa dối đang ăn mòn mối quan hệ.",
+        "reversed": "Ánh sáng của sự thật đang chiếu rọi vào mọi góc khuất của hôn nhân. Hai bạn sẽ cùng nhau đối mặt với những vấn đề chưa được giải quyết, những bí mật được phơi bày để xây dựng lại một nền tảng vững chắc và chân thật hơn."
+      },
+      "conflict": {
+        "upright": "Mâu thuẫn hiện tại bị bao phủ bởi sự hiểu lầm sâu sắc, những lời nói dối hoặc sự che đậy cảm xúc. Cảm giác bất an và sợ hãi khiến cả hai khó lòng nhìn rõ vấn đề thực sự, dẫn đến việc xung đột kéo dài trong mơ hồ.",
+        "reversed": "Sự thật về mâu thuẫn đang dần được hé lộ, giúp bạn và đối phương nhìn rõ nguyên nhân gốc rễ. Bằng cách đối mặt với sự thật, dù khó khăn, cả hai có thể tìm ra giải pháp, xua tan hiểu lầm và hàn gắn."
+      },
+      "breakup": {
+        "upright": "S��� tan vỡ này mang theo cảm giác bị lừa dối, hoang mang và những nỗi sợ hãi ám ảnh về tương lai. Bạn có thể đang lạc lối trong những suy nghĩ tiêu cực, không nhìn thấy lối thoát hoặc cảm thấy mọi thứ quá mơ hồ.",
+        "reversed": "Nỗi đau chia ly giờ đây được nhìn nhận rõ ràng hơn, không còn bị che mờ bởi ảo ảnh hay sự hối tiếc vô căn cứ. Bạn bắt đầu tìm thấy sự bình yên, buông bỏ những nỗi sợ hãi và chấp nhận sự thật để tiến lên."
+      },
+      "long_distance": {
+        "upright": "Mối quan hệ đường dài đang đối mặt với những thử thách của sự nghi ngờ, lo âu và ảo tưởng. Khoảng cách vật lý có thể làm nảy sinh những hiểu lầm, cảm giác bị bỏ rơi hoặc sự thiếu tin tưởng ngấm ngầm.",
+        "reversed": "Những nỗi sợ hãi và hiểu lầm về mối quan hệ xa cách dần được giải tỏa. Hai bạn sẽ có cơ hội giao tiếp chân thành hơn, làm sáng tỏ mọi nghi ngờ và củng cố niềm tin, giúp tình yêu vượt qua khoảng cách."
+      },
+      "jealousy": {
+        "upright": "Lòng ghen tuông đang bùng lên từ những nỗi sợ hãi vô căn cứ, sự thiếu tin tưởng hoặc những ảo ảnh do chính bạn tạo ra. Cảm giác bất an nội tại đang khiến bạn nhìn mọi thứ qua lăng kính méo mó.",
+        "reversed": "Ánh sáng của lý trí đang xuyên qua màn sương mù của ghen tuông. Bạn bắt đầu nhìn nhận vấn đề một cách rõ ràng, đối mặt với gốc rễ của sự bất an và tìm cách giải tỏa chúng, thay vì để cảm xúc tiêu cực chi phối."
+      },
+      "self_love": {
+        "upright": "Tình yêu bản thân đang bị che mờ bởi những nỗi sợ hãi, sự tự ti hoặc những ảo tưởng về sự hoàn hảo. Bạn đang lạc lối trong việc hiểu rõ giá trị của mình, dễ dàng bị ảnh hưởng bởi những ý kiến tiêu cực.",
+        "reversed": "Bạn bắt đầu nhìn nhận bản thân một cách chân thật, chấp nhận những khuyết điểm và buông bỏ những nỗi sợ hãi vô hình. Đây là thời điểm để kết nối lại với trực giác, tin tưởng vào giá trị cốt lõi của mình mà không cần sự chứng nhận từ bên ngoài."
       },
       "career": {
-        "up": "Môi trường làm việc đầy rẫy tin đồn thất thiệt, thiếu minh bạch. Có người đâm sau lưng, hoặc bạn đang làm những công việc liên quan đến bí mật, nghệ thuật.",
-        "rev": "Sự minh bạch trở lại. Các quyết định kinh doanh mờ ám được làm rõ. Bạn không còn bị ảo tưởng về một công việc hoàn hảo.",
-        "upright": "Môi trường làm việc như màn kịch với lời đồn thất thiệt, đâm sau lưng và thông tin nhiễu loạn. Hãy cẩn trọng từng bước đi, đừng tin ai ngoài trực giác.",
-        "reversed": "Những khuất tất chốn công sở cuối cùng lộ diện. Nhìn thấu bản chất vấn đề, giải tỏa hiểu lầm và thoát khỏi bầu không khí độc hại."
+        "upright": "Con đường sự nghiệp đang bị bao phủ bởi sự không chắc chắn, những quyết định mơ hồ hoặc cảm giác lạc lối. Có thể có những bí mật, sự lừa dối trong môi trường làm việc, hoặc bạn đang cảm thấy bất an về tương lai nghề nghiệp.",
+        "reversed": "Tấm màn che phủ sự nghiệp dần được vén lên, mang lại sự rõ ràng về hướng đi và mục tiêu. Bạn sẽ nhìn thấu những vấn đề tiềm ẩn, đối mặt với sự thật và đưa ra những quyết định sáng suốt để phát triển."
+      },
+      "job_search": {
+        "upright": "Việc tìm kiếm việc làm đang gặp phải những thách thức của sự mơ hồ, những lời hứa hẹn không rõ ràng hoặc cảm giác bị lừa dối. Bạn có thể đang lạc lối trong nhiều lựa chọn hoặc cảm thấy bất an về năng lực của mình.",
+        "reversed": "Sự thật về thị trường lao động và năng lực của bạn đang được làm rõ. Bạn sẽ nhận ra những cơ hội thực sự, tránh xa những ảo tưởng và đưa ra quyết định tìm việc dựa trên sự minh bạch và hiểu biết sâu sắc."
+      },
+      "promotion": {
+        "upright": "Cơ hội thăng tiến đang ẩn chứa nhiều yếu tố bất ngờ, sự không chắc chắn hoặc những thông tin chưa rõ ràng. Có thể có sự cạnh tranh ngầm, những lời hứa hẹn hão huyền hoặc cảm giác bạn không xứng đáng với vị trí này.",
+        "reversed": "Những mơ hồ xung quanh việc thăng chức dần tan biến, mang lại sự rõ ràng về con đường bạn cần đi. Bạn sẽ nhìn thấy những thách thức thực sự và chuẩn bị sẵn sàng để nắm bắt cơ hội một cách tự tin."
+      },
+      "business": {
+        "upright": "Hoạt động kinh doanh đang đối mặt với những rủi ro tiềm ẩn, sự không chắc chắn hoặc những đối tác không minh bạch. Có thể có sự lừa dối, những kế hoạch mập mờ hoặc cảm giác bất an về hướng đi của dự án.",
+        "reversed": "Những vấn đề tiềm ẩn trong kinh doanh được phơi bày, giúp bạn nhìn rõ bức tranh toàn cảnh. Đây là lúc để đối mặt với sự thật, giải quyết những hiểu lầm và xây dựng chiến lược dựa trên sự minh bạch và tin cậy."
+      },
+      "colleague": {
+        "upright": "Mối quan hệ với đồng nghiệp đang bị bao phủ bởi sự nghi ngờ, những lời đồn thổi hoặc sự thiếu tin tưởng. Có thể có những bí mật được giữ kín, những ý đồ không rõ ràng hoặc cảm giác bạn đang bị thao túng.",
+        "reversed": "Những hiểu lầm và sự nghi ngờ với đồng nghiệp dần được gỡ bỏ. Sự thật về ý định và hành động của họ được làm rõ, giúp bạn xây dựng mối quan hệ dựa trên sự chân thành và tin tưởng hơn."
+      },
+      "career_change": {
+        "upright": "Quyết định thay đổi nghề nghiệp đang bị bao trùm bởi sự sợ hãi, lo lắng và cảm giác không chắc chắn về tương lai. Bạn có thể đang lạc lối trong những lựa chọn, hoặc bị những ảo tưởng về một công việc hoàn hảo che mắt.",
+        "reversed": "Màn sương mù về sự nghiệp mới đã tan, mang lại sự rõ ràng về con đường bạn muốn đi. Bạn sẽ đối mặt với những nỗi sợ hãi, đánh giá thực tế hơn về khả năng của mình và đưa ra quyết định dựa trên sự hiểu biết sâu sắc."
+      },
+      "freelance": {
+        "upright": "Con đường tự do này đang đối mặt với những thách thức của sự không chắc chắn về thu nhập, những khách hàng khó lường hoặc cảm giác bị lạc lõng. Có thể có những nỗi sợ hãi về sự ổn định hoặc khả năng tự quản lý.",
+        "reversed": "Những mơ hồ về công việc freelance dần được sáng tỏ. Bạn sẽ tìm thấy sự ổn định hơn, nhìn rõ những rủi ro và cơ hội, đồng thời phát triển khả năng tự chủ và quản lý để vững vàng trên con đường này."
+      },
+      "interview": {
+        "upright": "Cuộc phỏng vấn này mang theo cảm giác lo lắng tột độ, những câu hỏi mơ hồ hoặc cảm giác bạn đang bị đánh giá sai. Có thể có những thông tin chưa rõ ràng, hoặc bạn đang tự nghi ngờ khả năng của mình.",
+        "reversed": "Màn sương mù của sự lo lắng và không chắc chắn trong phỏng vấn tan biến. Bạn sẽ thể hiện bản thân một cách rõ ràng và chân thật hơn, giải tỏa những hiểu lầm và gây ấn tượng bằng sự tự tin và kiến thức thực tế."
       },
       "finance": {
-        "up": "Đây không phải lúc ký hợp đồng hay đầu tư lớn vì bạn chưa nắm đủ thông tin (cẩn thận bị lừa đảo). Cảnh giác với những phi vụ làm ăn 'bánh vẽ'.",
-        "rev": "Bạn nhận ra sai lầm tài chính trước khi quá muộn. Vạch trần được sự gian lận hoặc thoát khỏi một vụ lừa đảo tinh vi.",
-        "upright": "Nguy cơ sa lưới lừa đảo, những bản hợp đồng mập mờ, 'bánh vẽ'. Tuyệt đối không rót vốn đầu tư khi mọi thông tin vẫn đang nằm trong bóng tối.",
-        "reversed": "Kịp thời phanh phui vụ lừa đảo tài chính hoặc nhận ra sai lầm trước khi vỡ lở. Bức tranh tiền bạc trở lại minh bạch, rõ ràng."
+        "upright": "Tình hình tài chính đang chìm trong sự mơ hồ, những khoản chi không rõ ràng hoặc cảm giác bất an về tương lai tiền bạc. Có thể có những khoản nợ ẩn, những lời hứa hẹn đầu tư không thực tế.",
+        "reversed": "Ánh sáng của sự thật đang chiếu rọi vào tình hình tài chính của bạn. Những khoản chi không rõ ràng được làm sáng tỏ, những rủi ro được nhận diện, giúp bạn đưa ra quyết định tài chính minh bạch và sáng suốt hơn."
+      },
+      "investment": {
+        "upright": "Quyết định đầu tư lúc này ẩn chứa nhiều rủi ro tiềm ẩn, những thông tin không rõ ràng hoặc lời hứa hẹn quá mỹ miều. Hãy cẩn trọng với những dự án mang tính ảo tưởng, dễ gây thua lỗ.",
+        "reversed": "Màn sương mù về các khoản đầu tư đã tan, giúp bạn nhìn rõ bản chất thực sự của chúng. Đây là lúc để từ bỏ những dự án rủi ro, t��m kiếm sự minh bạch và đưa ra quyết định dựa trên thông tin chính xác."
+      },
+      "debt": {
+        "upright": "Các khoản nợ đang là một gánh nặng tâm lý, tạo ra cảm giác lo âu, tội lỗi và sự không chắc chắn về khả năng chi trả. Bạn có thể đang cố gắng che giấu tình hình tài chính thực sự hoặc cảm thấy bế tắc.",
+        "reversed": "Sự thật về các khoản nợ được phơi bày, giúp bạn đối mặt với thực tế mà không còn trốn tránh. Bằng cách nhìn rõ vấn đề, bạn sẽ tìm được hướng đi để giải quyết, giảm bớt gánh nặng tâm lý và tài chính."
+      },
+      "savings": {
+        "upright": "Việc tiết kiệm đang bị ảnh hưởng bởi sự không chắc chắn về tương lai, những chi tiêu bất ngờ hoặc cảm giác không đủ khả năng để tích lũy. Có thể bạn đang cảm thấy lo lắng về việc giữ tiền.",
+        "reversed": "Những nỗi sợ hãi và hiểu lầm về việc tiết kiệm đã được làm rõ. Bạn sẽ tìm thấy sự ổn định hơn trong việc quản lý tiền bạc, nhìn nhận giá trị thực s��� của việc tích lũy và xây dựng kế hoạch tài chính vững chắc."
+      },
+      "luck_money": {
+        "upright": "Vận may tiền bạc lúc này rất khó đoán định, có thể là những khoản lợi nhuận bất ngờ nhưng cũng dễ mất đi, hoặc những cơ hội mang tính rủi ro, không rõ ràng.",
+        "reversed": "Những ảo tưởng về vận may đã được gỡ bỏ, giúp bạn nhìn nhận thực tế một cách rõ ràng hơn. Đây là lúc để dựa vào sự nỗ lực và lý trí, thay vì chờ đợi những cơ hội may rủi mơ hồ."
       },
       "health": {
-        "up": "Sức khỏe tâm lý bị ảnh hưởng bởi rối loạn lo âu, trầm cảm, mất ngủ hoặc những cơn ác mộng dai dẳng (liên quan đến bóng tối tiềm thức).",
-        "rev": "Tình trạng tâm lý chuyển biến tốt. Bạn tìm ra được căn nguyên của nỗi sợ hãi và bắt đầu đối mặt chữa trị nó.",
-        "upright": "Những bóng ma tâm lý giày vò. Chứng mất ngủ, rối loạn lo âu, trầm cảm hoặc những cơn ác mộng dai dẳng vắt kiệt sự tỉnh táo và sinh lực của bạn.",
-        "reversed": "Bình minh của tâm trí. Tìm ra gốc rễ những căn bệnh tâm lý, bắt đầu quá trình trị liệu và dần đẩy lùi nỗi sợ hãi hoang tưởng."
+        "upright": "Sức khỏe đang đối mặt với những vấn đề khó chẩn đoán, những triệu chứng mơ hồ hoặc nỗi sợ hãi về bệnh tật. Có thể có những thông tin sai lệch về điều trị hoặc bạn đang không tin tưởng vào bản thân.",
+        "reversed": "Những bí ẩn về sức khỏe dần được hé lộ, giúp bạn tìm ra nguyên nhân thực sự của các vấn đề. Bằng cách đối mặt với sự thật, bạn có thể tìm kiếm phương pháp chữa trị phù hợp và cải thiện tình trạng của mình."
+      },
+      "mental": {
+        "upright": "Tinh thần đang chìm trong sự lo âu, sợ hãi vô căn cứ, những ám ảnh hoặc cảm giác bị lạc lối trong suy nghĩ. Bạn có thể đang đối mặt với trầm cảm, rối loạn lo âu hoặc những giấc mơ đáng sợ.",
+        "reversed": "Màn sương mù của lo âu và sợ hãi tinh thần dần tan biến. Bạn bắt đầu tìm thấy sự rõ ràng trong suy nghĩ, đối mặt với những vấn đề tâm lý và tìm kiếm sự giúp đỡ để lấy lại sự bình an nội tại."
+      },
+      "energy": {
+        "upright": "Năng lượng bên trong bạn đang bị che mờ bởi những nỗi sợ hãi, sự uể oải không rõ nguyên nhân hoặc cảm giác bị rút cạn. Có thể có những yếu tố tiêu cực từ môi trường xung quanh đang ảnh hưởng đến bạn.",
+        "reversed": "Dòng năng lượng tắc nghẽn đã được giải tỏa, mang lại sự trong trẻo và sinh lực mới. Bạn sẽ nhận ra những nguồn năng lượng tiêu cực, buông bỏ chúng để kết nối lại với sức mạnh nội tại của mình."
+      },
+      "family": {
+        "upright": "Mối quan hệ gia đình đang đối mặt với những bí mật, sự hiểu lầm sâu sắc hoặc những nỗi sợ hãi thầm kín. Có thể có sự thiếu tin tưởng, những lời nói dối hoặc cảm giác bị xa lánh trong gia đình.",
+        "reversed": "Những hiểu lầm và bí mật trong gia đình dần được phơi bày. Bằng cách đối mặt với sự thật, các thành viên có thể hàn gắn, xây dựng lại niềm tin và tạo ra một không gian gia đình chân thật hơn."
+      },
+      "diet": {
+        "upright": "Chế độ ăn uống hiện tại đang bị ảnh hưởng bởi những thông tin sai lệch, những nỗi sợ hãi về cân nặng hoặc những ảo tưởng về các phương pháp giảm cân thần tốc.",
+        "reversed": "Bạn bắt đầu nhìn nhận chế độ ăn uống một cách thực tế và lành mạnh hơn. Những thông tin sai lệch được gạt bỏ, giúp bạn đưa ra những lựa chọn dinh dưỡng sáng suốt, lắng nghe cơ thể mình."
+      },
+      "study": {
+        "upright": "Việc học tập đang bị cản trở bởi sự mơ hồ, thiếu tập trung hoặc những nỗi sợ hãi về kết quả. Bạn có thể đang lạc lối trong kiến thức, không hiểu rõ mục tiêu hoặc cảm thấy bị áp lực.",
+        "reversed": "Màn sương mù trong học tập đã tan, mang lại sự rõ ràng về phương pháp và mục tiêu. Bạn sẽ tìm thấy sự tập trung, giải tỏa những lo lắng và tiếp thu kiến thức một cách hiệu quả hơn."
+      },
+      "study_abroad": {
+        "upright": "Chuyến du học đang đối mặt với những thách thức của sự bất an, nỗi sợ hãi về môi trường mới hoặc cảm giác lạc lõng. Có thể có những thông tin chưa rõ ràng, những hiểu lầm về văn hóa.",
+        "reversed": "Những nỗi sợ hãi và hiểu lầm về du học đã được gỡ bỏ. Bạn sẽ tìm thấy sự tự tin, thích nghi tốt hơn với môi trường mới và đón nhận những trải nghiệm học tập quý giá."
+      },
+      "self": {
+        "upright": "Bản thân bạn đang chìm trong sự mơ hồ, những nỗi sợ hãi về việc là ai hoặc cảm giác mất phương hướng. Bạn có thể đang đối mặt với khủng hoảng danh tính, không hiểu rõ giá trị của mình.",
+        "reversed": "Ánh sáng của sự thật đang chiếu rọi vào bản ngã của bạn. Bạn bắt đầu nhìn nhận bản thân một cách chân thật, chấp nhận những khuyết điểm và tìm thấy sự rõ ràng về con người mình."
+      },
+      "purpose": {
+        "upright": "Mục đích sống đang bị bao phủ bởi sự không chắc chắn, những ảo tưởng về thành công hoặc nỗi sợ hãi không đạt được điều mình muốn. Bạn có thể đang lạc lối, không nhìn thấy ý nghĩa thực sự của cuộc đời.",
+        "reversed": "Màn sương mù về mục đích sống đã tan, mang lại sự rõ ràng về con đường bạn muốn đi. Bạn sẽ tìm thấy ý nghĩa thực sự, đối mặt với những nỗi sợ hãi và sống một cuộc đời có định hướng."
+      },
+      "shadow_self": {
+        "upright": "Những góc khuất, nỗi sợ hãi và bí mật sâu thẳm trong tiềm thức đang trỗi dậy, đòi hỏi bạn phải đối mặt. Có thể bạn đang chối bỏ một phần nào đó của bản thân, tạo ra sự xung đột nội tâm.",
+        "reversed": "Bạn đã sẵn sàng đối mặt với những góc tối của bản thân, chấp nhận chúng và hòa nhập vào cái tôi toàn vẹn. Sự thật về bản chất bên trong được phơi bày, giúp bạn đạt được sự bình yên."
+      },
+      "decision": {
+        "upright": "Một quyết định quan trọng đang bị bao phủ bởi sự mơ hồ, nỗi sợ hãi và cảm giác không chắc chắn. Bạn có thể đang lạc lối trong nhiều lựa chọn, hoặc bị những thông tin sai lệch làm lung lay.",
+        "reversed": "Sự thật về quyết định cần đưa ra dần được hé lộ, giúp bạn nhìn rõ hậu quả và tiềm năng. Bạn sẽ có đủ sự minh mẫn để đưa ra lựa chọn sáng suốt, không còn bị chi phối bởi sợ hãi hay ảo tưởng."
+      },
+      "travel": {
+        "upright": "Chuyến đi sắp tới ẩn chứa nhiều điều bất ngờ, những kế hoạch không rõ ràng hoặc cảm giác lo âu về những điều chưa biết. Cẩn trọng với những rủi ro tiềm ẩn hoặc sự hiểu lầm khi di chuyển.",
+        "reversed": "Những nỗi sợ hãi và hiểu lầm về chuyến đi đã được gỡ bỏ. Bạn sẽ tìm thấy sự rõ ràng trong kế hoạch, đối mặt với những thách thức và tận hưởng hành trình một cách trọn vẹn."
       },
       "spiritual": {
-        "up": "Đi sâu vào tiềm thức, cẩn thận kẻo bị lạc trong những bóng ma quá khứ (con tôm hùm bò lên từ đầm lầy).",
-        "rev": "Vượt qua đêm tối của linh hồn (Dark night of the soul). Đón nhận sự thật dù đau đớn để trưởng thành.",
-        "upright": "Bị lạc trong mê cung tiềm thức, đối diện góc khuất u ám nhất (shadow). Ranh giới giữa thực tại và ảo ảnh tâm linh trở nên mong manh.",
-        "reversed": "Xuyên qua đêm tối, linh hồn tìm thấy lối ra. Thấu suốt những ảo mộng, chạm đến sự giác ngộ chân thực."
+        "upright": "Hành trình tâm linh đang chìm trong sự mơ hồ, những ảo ảnh về giác ngộ hoặc nỗi sợ hãi về những điều siêu nhiên. Bạn có thể đang lạc lối trong các giáo phái, hoặc không tin tưởng vào trực giác của mình.",
+        "reversed": "Màn sương mù của sự mơ hồ tâm linh đã tan, mang lại sự rõ ràng về con đường bạn cần đi. Bạn sẽ tìm thấy sự kết nối chân thật với bản thân và vũ trụ, không còn bị chi phối bởi những ảo ảnh."
+      },
+      "general": {
+        "upright": "Bức tranh cuộc sống hiện tại đang được bao phủ bởi màn sương bí ẩn, nơi những điều chưa biết, nỗi sợ hãi và ảo ảnh đan xen. Bạn có thể cảm thấy lạc lối, không chắc chắn về tương lai, hoặc có những bí mật đang tồn tại. Hãy tin vào trực giác của mình.",
+        "reversed": "Ánh sáng của sự thật đang chiếu rọi vào mọi ngóc ngách cuộc sống của bạn. Những hiểu lầm, bí mật và nỗi sợ hãi dần được hé lộ, giúp bạn nhìn nhận mọi thứ một cách rõ ràng và đưa ra những quyết định sáng suốt để vượt qua giai đoạn này."
       }
     },
     "advice": "Khi mắt trần không thể nhìn xuyên qua màn sương, hãy nhắm mắt lại và để ánh sáng của trực giác dẫn lối.",
@@ -1286,34 +3106,164 @@ window.TAROT_DB = [
     "reversed": "Sự tiêu cực tạm thời. Mặc dù kết quả cuối cùng vẫn tốt đẹp, nhưng bạn có thể cảm thấy khó khăn trong việc đón nhận niềm vui, hoặc sự thành công đến muộn hơn dự kiến. Tránh kiêu ngạo quá mức.",
     "aspects": {
       "love": {
-        "up": "Một tình yêu tràn ngập tiếng cười, sự chân thành và hạnh phúc rạng ngời. Rất thuận lợi cho những ai mong muốn tiến tới hôn nhân hoặc có con cái.",
-        "rev": "Có chút buồn bã hoặc cãi vã nhỏ, nhưng sẽ nhanh chóng làm hòa. Hoặc bạn đang quá ích kỷ, trẻ con trong việc yêu cầu đối phương chiều chuộng.",
-        "upright": "Câu chuyện tình đẹp như cổ tích, ngập tràn tiếng cười, sự chân thành và hạnh phúc rạng ngời. Báo hiệu sự đơm hoa kết trái, lễ cưới viên mãn hay sự ra đời sinh linh bé nhỏ.",
-        "reversed": "Những hờn dỗi trẻ con, sự ích kỷ hoặc đòi hỏi đối phương chiều chuộng quá mức làm giảm phần nào sự lãng mạn. Tuy nhiên, giận hờn này sẽ qua rất nhanh."
+        "upright": "Tình yêu bừng sáng như mặt trời ban trưa, tưới tắm linh hồn bằng niềm hân hoan tột đỉnh. Lá bài mời gọi bạn thả mình vào vũ điệu của hạnh phúc, nơi mỗi nhịp đập con tim là một lời ca tụng sự ấm áp và thấu hiểu trọn vẹn.",
+        "reversed": "Một tầng mây mỏng manh đang lướt qua che khuất vầng thái dương tình ái. Phải chăng sự hời hợt, hoặc một sự thật còn né tránh đang kìm hãm mối quan hệ khỏi ngưỡng thăng hoa? Đừng cố khoác tấm áo hạnh phúc khi tâm hồn vẫn khao kh��t chân thật."
+      },
+      "ex": {
+        "upright": "Giống như vầng dương tẩy sạch màn sương đêm, vũ trụ khuyến khích bạn tha thứ cho những lầm lỡ đã qua, giải phóng tâm hồn khỏi gánh nặng của dĩ vãng. Mọi ký ức, dù đẹp hay buồn, nay hóa thành tia nắng dẫn lối, không còn là xiềng xích ràng buộc.",
+        "reversed": "Bóng ma người cũ vẫn còn ám ảnh, nhuốm màu ảo vọng lên chiếc kính ký ức của bạn. Có lẽ bạn đang tự dối lòng về những vệt sẹo xưa cũ, hay cái tôi quá lớn đang cản đường đến chân lý của sự buông bỏ."
+      },
+      "current_love": {
+        "upright": "Mối duyên của bạn đang tắm mình trong ánh hào quang rực rỡ của bình minh, tràn đầy niềm vui, lạc quan và nguồn năng lượng dồi dào. Hai tâm hồn đang dệt nên một bức tranh tương lai tươi sáng, nơi hạnh phúc và thấu hiểu là nền móng vĩnh cửu.",
+        "reversed": "Ánh rạng rỡ của mối quan hệ dường như đang tắt dần. Hồi chuông cảnh báo vang lên từ sự thiếu nhiệt thành, những kỳ vọng xa vời hoặc cái t��i lấn át, đang mải miết nuốt chửng đi sự ấm áp ban sơ."
+      },
+      "ambiguous": {
+        "upright": "Tình trạng mập mờ sẽ sớm được vầng thái dương soi rọi, mang đến sự rõ ràng như pha lê và một kết quả ngập tràn hứa hẹn. Năng lượng vũ trụ đang dẫn lối đến lời khẳng định ngọt ngào, nơi mọi nghi ngờ tan biến, nhường chỗ cho niềm vui khôn tả.",
+        "reversed": "Màn sương mù mập mờ nay dày đặc hơn, có thể là do một trong hai người đang cố tình chôn giấu cảm xúc thật, hoặc né tránh đối mặt với sự thật trần trụi. Sự thiếu minh bạch này đang gieo rắc hạt giống thất vọng và kéo dài những nỗi lo vô cớ."
+      },
+      "crush": {
+        "upright": "Ánh sáng rực rỡ của Mặt Trời trao bạn dũng khí bộc lộ trọn vẹn sự chân thành. Đây là thời khắc vũ trụ ủng hộ để bạn mạnh dạn tiến tới, vì nhiệt huyết và sự tươi sáng của bạn sẽ dễ dàng chạm đến trái tim người ấy, vẽ nên một kết quả ngập tràn hạnh phúc.",
+        "reversed": "Cảm xúc rung động n��y dường như đang bị che mờ bởi đám mây tự ti, hoặc những suy nghĩ tiêu cực giăng lối. Phải chăng bạn đang chiêm ngưỡng một hình bóng qua lăng kính ảm đạm, hay cố kìm nén sự thật? Đừng để nỗi sợ hãi tước đi cơ hội rực rỡ."
+      },
+      "future_love": {
+        "upright": "Bức tranh tình duyên tương lai rạng rỡ như ánh nắng ban mai, hứa hẹn một mối quan hệ tràn đầy niềm vui, tiếng cười và sự lạc quan không biên giới. Người ấy sẽ bước vào thế giới bạn, mang theo luồng năng lượng tích cực, giúp bạn chiêm nghiệm cuộc sống bằng con mắt tươi mới và cùng nhau khám phá hạnh phúc đích thực.",
+        "reversed": "Cẩn trọng với những mối quan hệ có vẻ ngoài hào nhoáng nhưng lại thiếu chiều sâu tâm hồn. Có thể bạn sẽ chạm mặt một tâm hồn với cái tôi quá lớn, chỉ mải miết tìm kiếm lạc thú nhất thời mà lảng tránh sợi dây cam kết, khiến bạn hụt hẫng và thất vọng."
+      },
+      "someone": {
+        "upright": "Đối với người ấy, bạn là hiện thân của vầng thái dương, nguồn vui và sự lạc quan bất tận. Sự hiện diện của bạn mang đến cho họ cảm giác được truyền cảm hứng, sự ấm áp và khao khát được ở kề bên, đắm mình trong nguồn năng lượng tích cực này.",
+        "reversed": "Ở góc độ tiêu cực, đối phương có thể nhìn nhận bạn là một kẻ bay bổng, quá lạc quan đến mức ngây thơ, hoặc đôi khi có phần tự mãn. Họ có thể e ngại bạn thiếu chiều sâu, khó lòng thấu hiểu những góc khuất trong tâm hồn họ."
+      },
+      "marriage": {
+        "upright": "Hôn nhân của bạn đang tắm mình trong ánh nắng rạng rỡ của hạnh phúc viên mãn. Đây là giai đoạn của sự hòa hợp tuyệt đối, sẻ chia mọi niềm vui và cùng nhau vun đắp những giá trị tốt đẹp. Mọi sóng gió đều hóa thành gió mát, nhường chỗ cho sự ấm áp và thấu hiểu trọn vẹn.",
+        "reversed": "Ánh nắng hôn nhân dường như đang bị che mờ bởi những kỳ vọng viển vông, hoặc sự thiếu nhiệt huyết âm ỉ. Có thể những mâu thuẫn nhỏ đang tích tụ, hoặc một trong hai đang cảm thấy bị bỏ rơi, không được trân trọng. Đừng để những điều vụn vặt làm mất đi sự ấm áp của tổ ấm."
+      },
+      "conflict": {
+        "upright": "Giữa vòng xoáy của mâu thuẫn, ánh sáng Mặt Trời mang đến sự minh bạch và khả năng hóa giải mọi hiểu lầm. Hãy tiếp cận bằng sự lạc quan, chân thành và tinh thần sẵn sàng tha thứ. Mọi khúc mắc sẽ được giải quyết êm đẹp, thậm chí còn hàn gắn và củng cố thêm mối quan hệ.",
+        "reversed": "Mâu thuẫn đang bị kéo dài bởi bức màn thiếu minh bạch hoặc cái tôi quá lớn của một trong hai bên. Sự phủ nhận vấn đề, hoặc thái độ cố chấp không chịu nhìn nhận sự thật, sẽ chỉ đẩy căng thẳng leo thang và đánh mất sự hòa hợp."
+      },
+      "breakup": {
+        "upright": "Sự tan vỡ này không phải là dấu chấm hết nghiệt ngã, mà là bình minh của một khởi đầu mới đầy tươi sáng. Ánh sáng Mặt Trời dẫn lối bạn chấp nhận sự thật, buông bỏ dĩ vãng và hướng tới tương lai với niềm tin và sự lạc quan vô bờ. Đây là cơ hội để bạn tái sinh và tìm thấy hạnh phúc đích thực.",
+        "reversed": "Bạn đang tự chìm đắm trong vũng lầy của nỗi buồn và sự bi quan hậu chia tay, hoặc cố gắng phủ nhận sự thật về mối quan hệ đã kết thúc. Việc níu kéo những ảo ảnh, hoặc không chịu đối mặt với thực tế, sẽ chỉ kéo dài thêm sự đớn đau và kìm hãm bước chân bạn."
+      },
+      "long_distance": {
+        "upright": "Khoảng cách địa lý lúc này dường như bị thiêu rụi bởi ánh nắng tình yêu rực rỡ của hai bạn. Với sự lạc quan, niềm tin tuyệt đối và nỗ lực vun đắp không ngừng, mối quan hệ xa cách này sẽ trở nên mạnh mẽ và tràn đầy niềm vui, minh chứng cho tình yêu đích thực không hề e ngại thử thách.",
+        "reversed": "Khoảng cách đang giăng lên những bóng tối của sự nghi ngờ hoặc thiếu tin tưởng. Một trong hai có thể đang cảm thấy thiếu thốn sự ấm áp, dễ bị ảnh hưởng bởi những suy nghĩ tiêu cực, hoặc thiếu đi sự chân thành, làm phai nhạt đi đóm lửa tình cảm."
+      },
+      "jealousy": {
+        "upright": "Ánh sáng rực rỡ của sự tự tin và niềm tin toàn vẹn sẽ xua tan mọi đám mây ghen tuông. Vũ trụ nhắc nhở bạn hãy nhìn thẳng vào sự thật, giải phóng bản thân khỏi những suy nghĩ tiêu cực và đặt trọn niềm tin vào tình yêu. Hạnh phúc sẽ bừng nở khi bạn buông bỏ nỗi sợ hãi.",
+        "reversed": "Sự ghen tuông đang bị che đậy bởi vẻ ngoài hạnh phúc giả tạo, hoặc nó đang bùng phát một cách tiêu cực, gieo rắc sự khó chịu và đánh mất niềm tin. Có thể bạn đang tự dối lừa mình về cảm xúc thật, hoặc không muốn đối mặt với nỗi bất an sâu thẳm ẩn khuất bên trong."
+      },
+      "self_love": {
+        "upright": "Yêu bản thân lúc này là việc chấp nhận và tôn vinh mọi khía cạnh của chính mình, từ ánh sáng tới bóng tối, với một trái tim tràn đầy niềm vui và sự biết ơn. Hãy tỏa sáng theo cách riêng, sống trọn vẹn từng khoảnh khắc và cho phép mình được hạnh phúc một cách rực rỡ.",
+        "reversed": "Bạn đang có xu hướng che giấu những điểm yếu của mình bằng một vẻ ngoài tự tin thái quá, hoặc đang chật vật nhìn nhận giá trị bản thân. Sự bi quan hoặc cái tôi lấn át có thể đang kìm hãm bạn khỏi việc yêu thương chính mình một cách chân thật."
       },
       "career": {
-        "up": "Sự nghiệp thăng hoa tột đỉnh. Bạn được tỏa sáng, công nhận năng lực, đạt được mọi mục tiêu dự án. Một môi trường làm việc cực kỳ tích cực.",
-        "rev": "Thành công trong công việc bị trì hoãn một chút. Hoặc cái tôi (Ego) của bạn quá lớn, dẫn đến tự mãn và bỏ qua những lời góp ý của đồng nghiệp.",
-        "upright": "Sự nghiệp thăng hoa rực rỡ, đứng trên bục vinh quang được tán dương. Tỏa sáng như một mặt trời chốn công sở, mang lại năng lượng tích cực và thành công vang dội.",
-        "reversed": "Thành tựu bị trì hoãn phút chót, hoặc sự tự cao tự đại (Ego) khiến bạn phớt lờ ý kiến đồng nghiệp. Đừng ngủ quên trên chiến thắng đánh mất đi khiêm tốn."
+        "upright": "Con đường sự nghiệp của bạn đang được Mặt Trời soi chiếu, mang đến sự thành công rực rỡ và những cơ hội thăng tiến vượt bậc. Đây là giai đoạn của sự công nhận, niềm vui và sự thỏa mãn tuyệt đối. Hãy tự tin tỏa sáng với tài năng và nhiệt huyết của mình.",
+        "reversed": "Con đường sự nghiệp có thể đang gặp phải những trở ngại nhỏ, hoặc một cảm giác thiếu hứng thú âm ỉ. Có thể bạn đang tự đánh giá thấp bản thân, hoặc ôm ấp những kỳ vọng viển vông, khiến bạn cảm thấy bị lu mờ hoặc thiếu đi động lực vươn lên."
+      },
+      "job_search": {
+        "upright": "Ánh sáng Mặt Trời đang chiếu rọi vào hành trình tìm kiếm việc làm của bạn, báo hiệu những cơ hội tuyệt vời và sự thành công vang dội. Với sự tự tin, lạc quan và năng lượng tích cực, bạn sẽ dễ dàng chinh phục mọi nhà tuyển dụng và tìm thấy công việc trong mơ.",
+        "reversed": "Việc tìm kiếm việc làm có thể đang bị trì hoãn bởi sự thiếu nhiệt huyết, hoặc cảm giác bi quan nặng nề. Có thể bạn đang bỏ qua những cơ hội tiềm năng, hoặc tự ti về khả năng của mình, khiến quá trình trở nên khó khăn và kéo dài hơn dự kiến."
+      },
+      "promotion": {
+        "upright": "Sự thăng tiến đang gõ cửa như một món quà từ vũ trụ, minh chứng cho nỗ lực và tài năng không ngừng nghỉ của bạn. Hãy đón nhận với niềm vui và sự tự tin, vì đây là lúc bạn được công nhận và có cơ hội tỏa sáng rực rỡ trên đỉnh cao sự nghiệp.",
+        "reversed": "Cơ hội thăng tiến có thể đang bị trì hoãn do một số yếu tố ngoại cảnh, hoặc do bạn đang tự đánh giá thấp khả năng của mình. Đừng để sự bi quan làm mất đi động lực. Hãy nhìn nhận lại vấn đề và tìm cách vượt qua những rào cản tạm thời này."
+      },
+      "business": {
+        "upright": "Doanh nghiệp của bạn đang bước vào giai đoạn hoàng kim, phát triển thịnh vượng và gặt hái những thành công rực rỡ. Ánh sáng Mặt Trời mang đến sự may mắn, nguồn năng lượng dồi dào và khả năng mở rộng không giới hạn. Hãy tự tin tiến bước và gặt hái thành quả.",
+        "reversed": "Hoạt động kinh doanh có thể đang gặp phải những trở ngại nhỏ hoặc chậm trễ. Có thể là do sự thiếu nhiệt tình, những kỳ vọng không thực tế, hoặc một chiến lược chưa rõ ràng. Cần nhìn nhận lại để tìm ra giải pháp, tránh để tình hình tệ hơn."
+      },
+      "colleague": {
+        "upright": "Mối quan hệ với đồng nghiệp đang tràn ngập sự hòa hợp, tinh thần hợp tác và sự hỗ trợ lẫn nhau. Ánh sáng của Mặt Trời mang đến không khí làm việc vui vẻ, tích cực, nơi mọi người cùng nhau tỏa sáng và đạt được mục tiêu chung.",
+        "reversed": "Mối quan hệ với đồng nghiệp có thể đang gặp phải sự thiếu hòa hợp hoặc một số hiểu lầm nhỏ. Có thể có một cái tôi quá lớn, hoặc sự thiếu nhiệt tình trong công việc nhóm, gây ảnh hưởng đến không khí chung và hiệu suất làm việc."
+      },
+      "career_change": {
+        "upright": "Thay đổi sự nghiệp lúc này là một quyết định sáng suốt, mở ra một chương mới tràn đầy niềm vui, sự thỏa mãn và thành công. Ánh sáng Mặt Trời chỉ lối cho bạn đến với con đường phù hợp nhất, nơi bạn có thể phát huy tối đa tiềm năng của mình.",
+        "reversed": "Quyết định thay đổi sự nghiệp có thể đang bị trì hoãn do sự thiếu tự tin, hoặc những lo lắng không đáng có. Đừng để những nỗi sợ hãi làm bạn chùn bước. Cần nhìn nhận lại động lực thực sự và tìm cách vượt qua những rào cản tâm lý này."
+      },
+      "freelance": {
+        "upright": "Con đường tự do của công việc Freelance đang được Mặt Trời ban phước, mang đến sự độc lập, sáng tạo và thành công tài chính. Bạn sẽ tìm thấy niềm vui trong việc tự chủ công việc và đạt được những thành quả rực rỡ từ chính năng lực của mình.",
+        "reversed": "Công việc Freelance có thể đang gặp phải những thách thức nhỏ, hoặc cảm giác thiếu ổn định. Có thể bạn đang đánh giá thấp mức độ kỷ luật cần thiết, hoặc gặp phải những khó khăn trong việc quản lý thời gian, dẫn đến sự trì trệ và thiếu hiệu quả."
+      },
+      "interview": {
+        "upright": "Bước chân vào căn phòng phỏng vấn với khí chất tự tin, rạng rỡ và tràn đầy năng lượng tích cực. Sự chân thành, nhiệt huyết và khả năng truyền cảm hứng của bạn sẽ chinh phục hoàn toàn hội đồng tuyển dụng, mang lại kết quả thành công mỹ mãn.",
+        "reversed": "Buổi phỏng vấn có thể gặp trục trặc do sự thiếu tự tin, hoặc bạn đang cố gắng thể hiện một hình ảnh không phải là chính mình. Sự thiếu chân thật hoặc bi quan sẽ làm giảm đi ấn tượng ban đầu, khiến bạn bỏ lỡ cơ hội đáng giá."
       },
       "finance": {
-        "up": "Sự sung túc tài chính. Tiền bạc dồi dào, thu nhập tăng trưởng mạnh. Đầu tư đâu trúng đó, lộc lá đủ đầy.",
-        "rev": "Tài lộc có tới nhưng không nhiều như mong đợi. Hoặc bạn đang chi tiêu quá trớn cho những thú vui nhất thời.",
-        "upright": "Tài lộc dồi dào, ví tiền rủng rỉnh. Mọi khoản đầu tư đều sinh lời rực rỡ. Thời kỳ thịnh vượng, tự do tài chính và những phần thưởng vật chất vô cùng xứng đáng.",
-        "reversed": "Chi tiêu hơi hoang phí cho những cuộc vui ngắn hạn hoặc tự tin thái quá dẫn đến đánh giá sai lợi nhuận đầu tư. Tiền bạc vẫn ổn nhưng cần bớt phô trương."
+        "upright": "Không gian tài chính của bạn b���t đầu bừng sáng như mặt trời ban trưa, báo hiệu sự thịnh vượng, dồi dào và may mắn bất ngờ. Đây là lúc để tận hưởng thành quả lao động và tự tin mở rộng các kênh đầu tư, vì vũ trụ đang ban phước cho bạn.",
+        "reversed": "Tài chính có thể đang gặp phải những trở ngại nhỏ, hoặc cảm giác thiếu ổn định. Có thể bạn đang chi tiêu quá mức, có những kỳ vọng không thực tế về tiền bạc, hoặc bỏ qua những cảnh báo quan trọng, dẫn đến sự hao hụt không đáng có."
+      },
+      "investment": {
+        "upright": "Các khoản đầu tư của bạn đang được Mặt Trời soi chiếu, hứa hẹn sự tăng trưởng vượt bậc và lợi nhuận đáng kể. Với tầm nhìn sáng suốt và sự tự tin, bạn sẽ đưa ra những quyết định đúng đắn, mang về thành quả ngọt ngào và sự thịnh vượng lâu dài.",
+        "reversed": "Cẩn trọng với những quyết định đầu tư mang tính rủi ro, hoặc dựa trên sự lạc quan thái quá. Có thể có những thông tin chưa rõ ràng, hoặc bạn đang bỏ qua các yếu tố rủi ro, dẫn đến nguy cơ thua lỗ nếu không có sự cân nhắc kỹ lưỡng."
+      },
+      "debt": {
+        "upright": "Ánh sáng Mặt Trời mang đến sự rõ ràng và nguồn năng lượng tích cực để bạn giải quyết mọi khoản nợ một cách hiệu quả. Với sự tự tin và kế hoạch rõ ràng, bạn sẽ tìm thấy con đường thoát nợ, tái thiết lại tài chính và hướng tới sự tự do.",
+        "reversed": "Gánh nặng nợ nần đang bị che đậy bởi sự phủ nhận hoặc thiếu trách nhiệm. Có thể bạn đang cố gắng trốn tránh vấn đề, hoặc không muốn đối mặt với thực tế tài chính, khiến tình hình trở nên phức tạp và khó giải quyết hơn."
+      },
+      "savings": {
+        "upright": "Tài khoản tiết kiệm của bạn đang phát triển mạnh mẽ dưới ánh nắng thịnh vượng của Mặt Trời. Đây là thời điểm lý tưởng để tích lũy và xây dựng nền tảng tài chính vững chắc, mang lại cảm giác an toàn và sự tự do về tiền bạc cho tương lai.",
+        "reversed": "Việc tiết kiệm có thể đang gặp phải nh���ng trở ngại do chi tiêu bốc đồng hoặc sự thiếu kỷ luật. Có thể bạn đang có những kỳ vọng không thực tế về số tiền có được, hoặc thiếu đi sự cam kết, dẫn đến sự hao hụt không đáng có."
+      },
+      "luck_money": {
+        "upright": "Vận may về tiền bạc đang bừng sáng rực rỡ, mang đến những cơ hội bất ngờ và những khoản thu nhập không tưởng. Hãy mở lòng hân hoan tiếp nhận ân sủng một cách tự nhiên, vì bạn hoàn toàn xứng đáng với món quà chớp nhoáng đó.",
+        "reversed": "Cẩn trọng với những kỳ vọng quá lớn vào vận may, hoặc những cơ hội dễ dàng. Tiền bạc phù du có thể đến rồi đi một cách nhanh chóng nếu bạn thiếu sự trân trọng và quản lý không khôn ngoan, để lại sự thất vọng và hụt hẫng."
       },
       "health": {
-        "up": "Cơ thể khỏe mạnh, sinh lực tràn trề. Cực kỳ thuận lợi nếu đang điều trị bệnh hoặc mong muốn mang thai.",
-        "rev": "Sức khỏe không gặp vấn đề nghiêm trọng, chỉ là bạn hơi uể oải, mệt mỏi hoặc thiếu vitamin D (thiếu nắng). Cần giữ tinh thần tích cực.",
-        "upright": "Cơ thể cường tráng, sinh lực thanh xuân dồi dào và tinh thần sảng khoái. Ánh nắng mặt trời đang truyền cho bạn khả năng phục hồi và sức sống vô tận.",
-        "reversed": "Sự mệt mỏi nhẹ hoặc uể oải do làm việc quá sức dưới nắng. Đôi khi chỉ là những bệnh vặt không đáng lo, hãy giữ tinh thần lạc quan để mau chóng bình phục."
+        "upright": "Sức khỏe của bạn đang ở trạng thái tốt nhất, tràn đầy năng lượng và sự sống động. Ánh sáng Mặt Trời mang đến sự phục hồi nhanh chóng, tinh thần lạc quan và một cơ thể tráng kiện. Hãy tận hưởng cu���c sống một cách trọn vẹn và tích cực.",
+        "reversed": "Sức khỏe có thể đang gặp phải những vấn đề nhỏ, hoặc cảm giác mệt mỏi tạm thời. Có thể bạn đang bỏ qua những dấu hiệu cảnh báo, hoặc thiếu đi sự chăm sóc cần thiết, dẫn đến sự suy giảm năng lượng và tinh thần."
+      },
+      "mental": {
+        "upright": "Tâm trí bạn đang bừng sáng với sự rõ ràng, lạc quan và niềm vui sống. Mọi lo âu tan biến, nhường ngôi vương cho sự bình yên nội tâm và khả năng nhìn nhận mọi vấn đề một cách tích cực. Đây là thời điểm để tâm hồn bạn được tự do và hạnh phúc.",
+        "reversed": "Tâm trí có thể đang bị bao phủ bởi những suy nghĩ tiêu cực hoặc cảm giác bi quan. Có thể bạn đang cố gắng che giấu nỗi buồn bằng một vẻ ngoài hạnh phúc giả tạo, hoặc không muốn đối mặt với những vấn đề đang tồn tại sâu thẳm trong tâm hồn mình."
+      },
+      "energy": {
+        "upright": "Nguồn năng lượng của bạn đang tràn trề, rực rỡ như Mặt Trời ban trưa, sẵn sàng cho mọi thử thách và hoạt động. Hãy sử dụng năng lượng này để lan tỏa niềm vui, sự tích cực và hoàn thành mọi mục tiêu đã đề ra.",
+        "reversed": "Nguồn năng lượng của bạn có thể đang bị suy giảm, hoặc cảm thấy mệt mỏi. Có thể là do bạn đang cố gắng quá sức, thiếu đi sự nghỉ ngơi cần thiết, hoặc để những suy nghĩ tiêu cực làm cạn kiệt ánh sáng nội tại."
+      },
+      "family": {
+        "upright": "Không khí gia tộc dấy lên bầu nhiệt huyết êm dịu, tràn ngập ánh nắng hòa thuận và tiếng cười. Đây là khoảnh khắc của sự đoàn viên, thấu hiểu và những kỷ niệm hạnh phúc đáng nhớ. Hãy cùng nhau vun đắp tình thân và chia sẻ niềm vui.",
+        "reversed": "Mối quan hệ gia đình có thể đang gặp phải những hiểu lầm nhỏ, hoặc sự thiếu hòa hợp âm ỉ. Có thể có một thành viên đang cảm thấy bị bỏ rơi, hoặc ôm ấp những kỳ vọng viển vông, gây ra sự căng thẳng và làm mất đi không khí ấm cúng."
+      },
+      "diet": {
+        "upright": "Chế độ ăn uống của bạn đang được Mặt Trời soi chiếu, mang đến sự cân bằng, sức khỏe và nguồn năng lượng dồi dào. Hãy lắng nghe trực giác cơ thể mình, lựa chọn những thực phẩm tươi ngon để nuôi dưỡng cả thể chất lẫn tinh thần.",
+        "reversed": "Chế độ ăn uống có thể đang bị ảnh hưởng bởi những lựa chọn không lành mạnh, hoặc sự thiếu kỷ luật. Có thể bạn đang bỏ qua những tín hiệu từ cơ thể, hoặc có những kỳ vọng không thực tế về kết quả, dẫn đến sự suy giảm sức khỏe và năng lượng."
+      },
+      "study": {
+        "upright": "Hành trình học tập của bạn đang bừng sáng với sự rõ ràng, hứng thú và khả năng tiếp thu tuyệt vời. Mọi kiến thức đều được thẩm thấu một cách dễ dàng, mang lại niềm vui khám phá và thành công rực rỡ trong học vấn.",
+        "reversed": "Việc học tập có thể đang gặp phải sự thiếu hứng thú, hoặc cảm giác bi quan giăng lối. Có thể bạn đang tự đánh giá thấp khả năng của mình, hoặc gặp phải những khó khăn nhỏ, khi��n bạn mất đi động lực và sự tập trung cần thiết."
+      },
+      "study_abroad": {
+        "upright": "Chuyến đi du học của bạn được Mặt Trời ban phước, hứa hẹn một trải nghiệm tuyệt vời, đầy ắp niềm vui, khám phá và thành công. Bạn sẽ dễ dàng thích nghi, học hỏi được nhiều điều mới mẻ và có những kỷ niệm đáng giá.",
+        "reversed": "Chuyến du học có thể gặp phải những trở ngại nhỏ, hoặc cảm giác cô đơn, khó hòa nhập. Có thể bạn đang có những kỳ vọng không thực tế, hoặc thiếu đi sự chuẩn bị kỹ lưỡng, dẫn đến sự thất vọng và khó khăn ban đầu."
+      },
+      "self": {
+        "upright": "Bạn đang tỏa sáng rực rỡ nhất khi là chính mình, tràn đầy sự tự tin, lạc quan và niềm vui sống. Hãy chấp nhận và tôn vinh mọi khía cạnh của bản thân, vì bạn là một ánh sáng độc đáo và không thể thay thế trong vũ trụ này.",
+        "reversed": "Bạn có thể đang che giấu con người thật của mình bằng một vẻ ngoài giả tạo, hoặc cảm thấy khó khăn trong việc thể hiện bản thân. Sự thiếu tự tin hoặc cái tôi quá lớn có thể đang kìm hãm bạn khỏi việc tỏa sáng theo cách riêng."
+      },
+      "purpose": {
+        "upright": "Lý tưởng của bạn sinh ra trên trái đất này là tưới mát những tâm hồn héo mòn bằng ánh sáng của niềm hy vọng và sự lạc quan. Gieo rắc niềm vui và ý nghĩa sống là sứ mệnh tối cao dệt nên hạnh phúc và quả ngọt.",
+        "reversed": "Bạn có thể đang cảm thấy mất phương hướng, hoặc không tìm thấy ý nghĩa trong cuộc sống. Sự bi quan hoặc những kỳ vọng không thực tế có thể đang làm lu mờ đi mục đích thực sự của bạn, khiến bạn lạc lối trong chính hành trình của mình."
+      },
+      "shadow_self": {
+        "upright": "Ngay cả những góc khuất yếu mềm nhất trong tâm hồn bạn cũng được Mặt Trời soi chiếu, giúp bạn chấp nhận và tích hợp chúng một cách lành mạnh. Hãy nhìn nhận bóng tối của mình với sự thấu hiểu và lòng trắc ẩn, biến những điểm yếu thành nguồn sức mạnh.",
+        "reversed": "Bạn đang có xu hướng phủ nhận, hoặc che giấu những khía cạnh tiêu cực của bản thân. Sự trốn tránh này sẽ chỉ làm tăng thêm áp lực và kìm hãm sự phát triển. Cần dũng cảm đối mặt với bóng tối để tìm thấy sự thật."
+      },
+      "decision": {
+        "upright": "Giây phút Mặt Trời hé lộ chân lý. Bạn đang đứng trước ngưỡng cửa của những quyết định sáng suốt, trái tim sẽ tự khắc mách bảo con đường đúng đắn. Đừng do dự tung mình đón nhận vận may, để dệt nên định số huy hoàng.",
+        "reversed": "Quyết định của bạn có thể đang bị ảnh hưởng bởi sự thiếu minh bạch, hoặc những lo lắng không đáng có. Đừng để sự bi quan, hoặc những kỳ vọng không thực tế làm bạn chùn bước. Cần nhìn nhận lại vấn đề một cách khách quan trước khi hành động."
+      },
+      "travel": {
+        "upright": "Lên đường với trái tim tràn đầy niềm vui và khao khát khám phá. Mỗi chuyến đi là một bức tranh ngập tràn ánh nắng, mang lại sự sảng khoái, nguồn năng lượng tích cực và những khoảnh khắc vô giá, rửa trôi mọi ưu phiền.",
+        "reversed": "Chuyến đi có thể gặp phải những trở ngại nhỏ, hoặc cảm giác thất vọng. Có thể bạn đang có những kỳ vọng không thực tế, hoặc thiếu đi sự chuẩn bị kỹ lưỡng, dẫn đến sự bất tiện và làm giảm đi niềm vui của hành trình."
       },
       "spiritual": {
-        "up": "Sự thấu hiểu tâm linh rực rỡ nhất. Đứa trẻ cưỡi ngựa trắng biểu thị cho một tâm hồn tự do, thuần khiết và hạnh phúc trọn vẹn.",
-        "rev": "Để bản ngã (Ego) che mờ ánh sáng tâm linh đích thực. Tự lừa mình dối người bằng những niềm vui hời hợt bề ngoài.",
-        "upright": "Linh hồn hoàn toàn tự do, thuần khiết như đứa trẻ. Đạt đến cảnh giới hân hoan, giác ngộ và thấu hiểu trọn vẹn vẻ đẹp của sự tồn tại.",
-        "reversed": "Niềm vui tâm linh hời hợt bề ngoài, che đậy một cái tôi (Ego) còn nhiều trói buộc. Cần gọt rửa thêm để ánh sáng nội tại được trong trẻo nhất."
+        "upright": "Hành trình tâm linh của bạn đang bừng sáng với sự giác ngộ, niềm tin và sự kết nối sâu sắc với vũ trụ. Ánh sáng Mặt Trời dẫn lối bạn đến sự thật tối thượng, mang lại bình yên nội tâm và niềm vui sống đích thực, vượt lên mọi ràng buộc giáo điều.",
+        "reversed": "Hành trình tâm linh có thể đang bị bao phủ bởi sự nghi ngờ, hoặc cảm giác mất phương hướng. Cố gắng tìm kiếm sự thật ở những nơi không phù hợp, hoặc che giấu những câu hỏi sâu thẳm trong tâm hồn sẽ chỉ khiến bạn lạc lối giữa biển đời."
+      },
+      "general": {
+        "upright": "Bức tranh cuộc đời bạn đang bừng sáng như vầng thái dương rực rỡ nhất! Vũ trụ gửi gắm một lời thì thầm: Hãy sống trọn vẹn, hãy tỏa sáng bằng niềm tin nguyên sơ nhất. Lăng kính lạc quan, đầy tươi mới của Mặt Trời sẽ vén lên bức màn kỳ tích mà bạn hằng tìm kiếm.",
+        "reversed": "Một cảm giác u ám, hoặc những trở ngại nhỏ có thể đang tạm thời che khuất ánh nắng rực rỡ của bạn. Đừng để sự bi quan hay những kỳ vọng không thực tế làm mất đi niềm vui. Hãy nhìn nhận lại vấn đề và tìm cách vượt qua những thử thách này, vì mặt trời sẽ luôn tỏa sáng trở lại."
       }
     },
     "advice": "Hãy bung nở rực rỡ như đóa hướng dương đón nắng. Bạn hoàn toàn xứng đáng với những đặc ân rực rỡ nhất mà vũ trụ ban tặng.",

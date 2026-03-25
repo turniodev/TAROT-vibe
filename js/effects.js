@@ -23,26 +23,27 @@ window.FX = (function () {
   }
 
   /* ── Particle burst at position ────────────────────── */
-  function burst(x, y, count = 12, color = '#c9a84c') {
+  function burst(x, y, count = 16, color = '#c9a84c') {
+    const colors = ['#c9a84c', '#9b30ff', '#ffffff', '#e8b4ff'];
     for (let i = 0; i < count; i++) {
       const p = document.createElement('div');
-      const angle = (360 / count) * i;
-      const dist  = 40 + Math.random() * 60;
-      const size  = 3 + Math.random() * 4;
-      const rad   = (angle * Math.PI) / 180;
-      const tx    = Math.cos(rad) * dist;
-      const ty    = Math.sin(rad) * dist;
+      const angle = Math.random() * Math.PI * 2;
+      const dist  = 30 + Math.random() * 70;
+      const size  = 2 + Math.random() * 4;
+      const c = colors[Math.floor(Math.random() * colors.length)];
+      const tx    = Math.cos(angle) * dist;
+      const ty    = Math.sin(angle) * dist - (Math.random() * 20); // slight float up
       p.style.cssText = `
         position:fixed; border-radius:50%; pointer-events:none; z-index:9999;
         width:${size}px; height:${size}px;
         left:${x - size/2}px; top:${y - size/2}px;
-        background:${color};
-        box-shadow: 0 0 ${size*2}px ${color};
-        animation: fxBurst 0.7s cubic-bezier(0.22,1,0.36,1) forwards;
+        background:${c};
+        box-shadow: 0 0 ${size*2}px ${c};
+        animation: fxBurst 0.8s cubic-bezier(0.22,1,0.36,1) forwards;
         --tx:${tx}px; --ty:${ty}px;
       `;
       document.body.appendChild(p);
-      setTimeout(() => p.remove(), 800);
+      setTimeout(() => p.remove(), 900);
     }
   }
 
@@ -165,25 +166,25 @@ window.FX = (function () {
   /* ── Button hover particle trail ────────────────────── */
   function attachBtnHover(btn) {
     btn.addEventListener('mousemove', (e) => {
-      if (Math.random() > 0.7) {
-        const rect = btn.getBoundingClientRect();
+      if (Math.random() > 0.8) {
         const p = document.createElement('div');
-        const size = 3 + Math.random() * 4;
+        const size = 2 + Math.random() * 3;
         p.style.cssText = `
           position:fixed; border-radius:50%; pointer-events:none; z-index:9999;
           width:${size}px; height:${size}px;
           left:${e.clientX}px; top:${e.clientY}px;
           background:rgba(200,121,255,0.7);
           box-shadow:0 0 8px rgba(200,121,255,0.5);
-          animation:fxBtnTrail 0.6s ease forwards;
+          animation:fxBtnTrail 0.7s ease forwards;
         `;
         document.body.appendChild(p);
-        setTimeout(() => p.remove(), 650);
+        setTimeout(() => p.remove(), 750);
       }
     });
 
     btn.addEventListener('click', (e) => {
       ripple(btn, e, 'rgba(200,121,255,0.4)');
+      burst(e.clientX, e.clientY, 8);
     });
   }
 
@@ -213,6 +214,18 @@ window.FX = (function () {
       0%   { transform: translate(-50%,-50%) scale(1); opacity: 0.8; }
       100% { transform: translate(-50%,-150%) scale(0); opacity: 0; }
     }
+    #fxMagicalAura {
+      position: fixed;
+      top: 0; left: 0;
+      width: 450px; height: 450px;
+      margin-top: -225px; margin-left: -225px;
+      background: radial-gradient(circle, rgba(155, 48, 255, 0.12) 0%, rgba(201, 168, 76, 0.05) 35%, transparent 70%);
+      border-radius: 50%;
+      pointer-events: none;
+      z-index: 9998; 
+      mix-blend-mode: screen;
+      will-change: transform;
+    }
     @keyframes fxOverlayIn {
       from { opacity:0; backdrop-filter: blur(0px); }
       to   { opacity:1; backdrop-filter: blur(10px); }
@@ -223,10 +236,31 @@ window.FX = (function () {
   `;
   document.head.appendChild(style);
 
-  /* ── Init btn hover effects ─────────────────────────── */
+  /* ── Init btn hover effects & Aura ─────────────────────────── */
   document.addEventListener('DOMContentLoaded', () => {
     document.querySelectorAll('.btn-begin, .btn-next, .btn-prev, .btn-begin-reading, .btn-control')
       .forEach(attachBtnHover);
+      
+    /* Spawn Global Magic Aura */
+    const aura = document.createElement('div');
+    aura.id = 'fxMagicalAura';
+    document.body.appendChild(aura);
+    
+    let auraX = window.innerWidth / 2, auraY = window.innerHeight / 2;
+    let mouseX = auraX, mouseY = auraY;
+    
+    document.addEventListener('mousemove', (e) => {
+      mouseX = e.clientX;
+      mouseY = e.clientY;
+    });
+    
+    function animateAura() {
+      auraX += (mouseX - auraX) * 0.08;
+      auraY += (mouseY - auraY) * 0.08;
+      aura.style.transform = `translate(${auraX}px, ${auraY}px)`;
+      requestAnimationFrame(animateAura);
+    }
+    requestAnimationFrame(animateAura);
   });
 
   // Also attach after any dynamic renders

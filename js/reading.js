@@ -237,6 +237,7 @@ window.ReadingModule = (function () {
   function flipCard(cardEl, card, slotIdx, e) {
     cardEl.classList.add('flipped');
     window.FX?.ripple(cardEl, e, 'rgba(201,168,76,0.4)');
+    if (e && e.clientX) window.FX?.burst(e.clientX, e.clientY, 25);
     if (window.triggerLightning) window.triggerLightning();
     flippedCount++;
 
@@ -277,6 +278,7 @@ window.ReadingModule = (function () {
     }
     openMeaningCarousel(revealCursor, true);
     window.FX?.ripple(cardEl, e, 'rgba(155,48,255,0.3)');
+    if (e && e.clientX) window.FX?.burst(e.clientX, e.clientY, 15);
   }
 
   /* ══════════════════════════════════════════════════
