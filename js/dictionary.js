@@ -11,6 +11,8 @@
     window.TAROT_DB.forEach(card => {
       const cardEl = document.createElement('div');
       cardEl.className = 'dict-card';
+      const searchTerms = [card.name, card.nameVi, card.number, ...(card.keywords || []), ...(card.keywordsRev || [])].join(' ').toLowerCase();
+      cardEl.dataset.search = searchTerms;
       cardEl.innerHTML = `
         <div class="dict-card-img-wrap">
           <img src="${card.image}" alt="${card.name}" loading="lazy" />
@@ -251,6 +253,34 @@
     if (cdModal) {
       cdModal.addEventListener('click', (e) => {
         if (e.target === cdModal) cdModal.classList.remove('visible');
+      });
+    }
+
+    // Search input listener
+    const searchInput = document.getElementById('dictSearch');
+    if (searchInput) {
+      searchInput.addEventListener('input', (e) => {
+        const query = e.target.value.toLowerCase().trim();
+        const cards = document.querySelectorAll('.dict-card');
+        cards.forEach(card => {
+          if (card.dataset.search && card.dataset.search.includes(query)) {
+            card.style.display = '';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+        
+        // Hide/show group titles if empty
+        ['dictMajor', 'dictMinor'].forEach(id => {
+          const grid = document.getElementById(id);
+          if (grid) {
+            const hasVisible = Array.from(grid.querySelectorAll('.dict-card')).some(c => c.style.display !== 'none');
+            const group = grid.closest('.dict-group');
+            if (group) {
+              group.style.display = hasVisible ? '' : 'none';
+            }
+          }
+        });
       });
     }
   });

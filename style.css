@@ -6519,6 +6519,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
 }
 
 .dict-title {
@@ -6526,7 +6528,49 @@ body {
   font-size: 1.5rem;
   color: var(--c-gold);
   margin: 0;
+  flex: 1;
 }
+
+.dict-search-wrap {
+  position: relative;
+  flex: 2;
+  min-width: 200px;
+  max-width: 350px;
+  display: flex;
+  align-items: center;
+}
+
+.dict-search-icon {
+  position: absolute;
+  left: 14px;
+  color: rgba(232, 180, 255, 0.4);
+  pointer-events: none;
+}
+
+.dict-search-input {
+  width: 100%;
+  background: rgba(14, 0, 36, 0.4);
+  border: 1px solid rgba(155, 48, 255, 0.3);
+  border-radius: 50px;
+  padding: 10px 16px 10px 40px;
+  font-family: 'Philosopher', serif;
+  font-size: 1rem;
+  color: var(--c-glow);
+  outline: none;
+  transition: all 0.3s var(--ease-out);
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.dict-search-input:focus {
+  border-color: var(--c-gold);
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5), 0 0 15px rgba(201, 168, 76, 0.2);
+  background: rgba(14, 0, 36, 0.6);
+}
+
+.dict-search-input::placeholder {
+  color: rgba(232, 180, 255, 0.4);
+}
+
 
 .dict-close,
 .cd-close {
