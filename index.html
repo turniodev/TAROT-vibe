@@ -437,25 +437,25 @@
   <div id="pageAnalysis" class="page">
     <div id="analysisContent" class="analysis-content"></div>
     <div class="analysis-footer">
-      <button id="btnShareReading" class="btn-control btn-control--primary">
-        Chia Sẻ Kết Quả
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
-          stroke-linecap="round" stroke-linejoin="round" style="margin-left: 8px;">
-          <circle cx="18" cy="5" r="3"></circle>
-          <circle cx="6" cy="12" r="3"></circle>
-          <circle cx="18" cy="19" r="3"></circle>
-          <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line>
-          <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line>
-        </svg>
-      </button>
       <p class="donate-text"
         style="text-align: center; margin-top: 16px; font-family: 'EB Garamond', serif; font-size: 0.95rem; color: rgba(232, 180, 255, 0.7); cursor: pointer; line-height: 1.5;"
         onclick="document.getElementById('donateModal').classList.add('visible')">
-        Mystery Tarot free by turniodev<br>
-        <span style="color: var(--c-gold); text-decoration: underline; text-underline-offset: 3px;">buy me a coffee
-          đen</span>
+        Mystery Tarot free by TurnioDev<br>
+        <span style="color: var(--c-gold); text-decoration: underline; text-underline-offset: 3px;">Buy Me A Coffee
+          ☕</span>
       </p>
     </div>
+    <!-- Floating share button -->
+    <button id="btnShareReading" class="btn-float-icon btn-float-icon--share" title="Chia sẻ kết quả">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="18" cy="5" r="3"></circle>
+        <circle cx="6" cy="12" r="3"></circle>
+        <circle cx="18" cy="19" r="3"></circle>
+        <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line>
+        <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line>
+      </svg>
+    </button>
     <!-- Floating history button -->
     <button id="btnHistoryAnalysis" class="btn-float-icon" title="Lịch sử trải bài">
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -651,13 +651,16 @@
   <!-- ===================== DONATE MODAL ===================== -->
   <div id="donateModal" class="cd-modal" style="z-index: 100000;"
     onclick="if(event.target === this) this.classList.remove('visible');">
-    <div class="cd-panel" style="max-width: 320px; text-align: center; padding: 40px 24px 30px; box-sizing: border-box;">
+    <div class="cd-panel"
+      style="max-width: 320px; text-align: center; padding: 40px 24px 30px; box-sizing: border-box;">
       <button id="btnDonateClose" class="cd-close"
         onclick="document.getElementById('donateModal').classList.remove('visible')">&times;</button>
-      <h2 style="font-family: 'Philosopher', serif; color: var(--c-gold); font-size: 1.35rem; margin-bottom: 20px; letter-spacing: 0.05em; padding-top: 5px;">
+      <h2
+        style="font-family: 'Philosopher', serif; color: var(--c-gold); font-size: 1.35rem; margin-bottom: 20px; letter-spacing: 0.05em; padding-top: 5px;">
         Buy Me A Coffee ☕
       </h2>
-      <img src="cards/icon/qrme.jpg" alt="QR Code Donate" style="display: block; margin: 0 auto 24px auto; width: 100%; max-width: 220px; border-radius: 8px; border: 2px solid rgba(201, 168, 76, 0.5);" />
+      <img src="cards/icon/qrme.jpg" alt="QR Code Donate"
+        style="display: block; margin: 0 auto 24px auto; width: 100%; max-width: 220px; border-radius: 8px; border: 2px solid rgba(201, 168, 76, 0.5);" />
       <div style="font-family: 'EB Garamond', serif; font-size: 1.15rem; display: flex; justify-content: center;">
         <a href="https://www.facebook.com/turni0" target="_blank"
           style="color: rgba(232, 180, 255, 0.9); text-decoration: none; display: inline-flex; align-items: center; gap: 8px; transition: color 0.3s;"

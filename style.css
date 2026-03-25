@@ -5368,6 +5368,11 @@ body {
   bottom: 86px;
 }
 
+/* Share icon — bottom: 148px (above home) */
+.btn-float-icon--share {
+  bottom: 148px;
+}
+
 /* Hidden when not on analysis page */
 .btn-float-icon {
   display: none;
@@ -5468,6 +5473,10 @@ body {
 
   .btn-float-icon--home {
     bottom: 74px;
+  }
+
+  .btn-float-icon--share {
+    bottom: 130px;
   }
 }
 
