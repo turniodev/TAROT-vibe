@@ -603,7 +603,7 @@ body {
 .focus-screen {
   position: fixed;
   inset: 0;
-  background: rgba(15, 0, 35, 0.35);
+  background: rgba(15, 0, 35, 0.45);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
   z-index: 10000;
@@ -946,9 +946,20 @@ body {
 
 /* Auto Glow Pulse when ready */
 @keyframes btnAutoGlowPulse {
-  0% { box-shadow: 0 0 15px rgba(200, 121, 255, 0.4); transform: scale(1); }
-  50% { box-shadow: 0 0 35px rgba(200, 121, 255, 1), 0 0 15px rgba(201, 168, 76, 0.6); transform: scale(1.04); }
-  100% { box-shadow: 0 0 15px rgba(200, 121, 255, 0.4); transform: scale(1); }
+  0% {
+    box-shadow: 0 0 15px rgba(200, 121, 255, 0.4);
+    transform: scale(1);
+  }
+
+  50% {
+    box-shadow: 0 0 35px rgba(200, 121, 255, 1), 0 0 15px rgba(201, 168, 76, 0.6);
+    transform: scale(1.04);
+  }
+
+  100% {
+    box-shadow: 0 0 15px rgba(200, 121, 255, 0.4);
+    transform: scale(1);
+  }
 }
 
 .btn-begin.auto-glow {
@@ -969,8 +980,13 @@ body {
 }
 
 @keyframes arrowBounce {
-  from { transform: translateX(0); }
-  to { transform: translateX(6px); }
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(6px);
+  }
 }
 
 .landing-hint {
@@ -2116,9 +2132,12 @@ body {
 
 /* All Cards Flipped Constant Glow */
 @keyframes allFlippedConstantGlow {
-  0%, 100% {
+
+  0%,
+  100% {
     box-shadow: 0 0 15px rgba(155, 48, 255, 0.3), 0 0 35px rgba(107, 0, 204, 0.1);
   }
+
   50% {
     box-shadow: 0 0 30px rgba(180, 100, 255, 0.5), 0 0 60px rgba(155, 48, 255, 0.3);
   }
