@@ -527,3 +527,32 @@ window.ClarifyData = {
     "Bạn nghĩ cắt đứt một người đồng điệu nhưng lại gây sát thương lớn về sau là giải pháp đau thương ngắn mà thoát đau khổ dài chứ?"
   ]
 };
+
+// Map generated keys to actual SUB_THEMES keys from form.js
+Object.assign(window.ClarifyData, {
+  general: window.ClarifyData.self,
+  current_love: window.ClarifyData.relationship,
+  ambiguous: window.ClarifyData.toxic || window.ClarifyData.crush,
+  future_love: window.ClarifyData.single,
+  someone: window.ClarifyData.crush,
+  conflict: window.ClarifyData.conflict_love,
+  breakup: window.ClarifyData.ex,
+  long_distance: window.ClarifyData.relationship,
+  jealousy: window.ClarifyData.toxic,
+  self_love: window.ClarifyData.healing || window.ClarifyData.self,
+  
+  job_search: window.ClarifyData.interview || window.ClarifyData.job,
+  promotion: window.ClarifyData.job,
+  colleague: window.ClarifyData.conflict_work,
+  career_change: window.ClarifyData.change,
+  freelance: window.ClarifyData.business,
+  
+  investment: window.ClarifyData.invest,
+  savings: window.ClarifyData.cashflow,
+  luck_money: window.ClarifyData.luck,
+  
+  mental: window.ClarifyData.healing,
+  
+  dream: window.ClarifyData.spiritual
+});
+
