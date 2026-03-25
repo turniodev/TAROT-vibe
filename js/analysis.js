@@ -137,7 +137,7 @@ window.AnalysisModule = (function () {
       if (shareId && shareId !== 'null') {
         document.getElementById('btnShareReading').dataset.id = shareId;
       }
-    } else if (session.isHistoryReplay || window.location.search.includes('share=')) {
+    } else if (window.location.search.includes('share=')) {
       document.getElementById('aiLoading').innerHTML = `
         <div class="ai-login-gate" style="text-align: center;">
           <p style="margin-bottom: 16px; opacity: 0.8;">Chưa có dữ liệu luận giải tổng hợp cho trải bài này.</p>
@@ -163,6 +163,7 @@ window.AnalysisModule = (function () {
         }
       });
     } else {
+      // Nếu là History Replay chưa có giải luận, hoặc xem bài bình thường -> bung modal hỏi clarify
       clarifyAndFetch(basePayload, cards, session, labels, themeLabel);
     }
   }
