@@ -29,164 +29,204 @@ window.TAROT_DB = [
     "reversed": "Khi đảo ngược, lá bài là lời cảnh tỉnh dịu dàng về sự liều lĩnh bốc đồng và những quyết định thiếu vắng sự suy xét. Đừng để sự ngây thơ biến thành tấm rèm che mắt bạn trước những rủi ro đang chực chờ; hãy dừng lại một nhịp để quan sát trước khi gieo mình xuống thung lũng.",
     "aspects": {
       "love": {
-        "upright": "Tình yêu gõ cửa mang trọn vẹn luồng sinh khí thanh khiết của mùa xuân. Lá bài khuyên bạn hãy gỡ bỏ tấm màn phòng vệ sắt đá, can đảm trao đi niềm tin nguyên sơ nhất để hai tâm hồn có thể nắm tay nhau nhảy múa một vũ điệu tự do và diệu kỳ của tình yêu.",
-        "reversed": "Có một nhịp lỗi trong bản hòa ca tình cảm; mối quan hệ dường như đang chơi vơi giữa sự hời hợt hoặc thiếu đi sợi dây cam kết vững vàng. Phải chăng bạn đang mù quáng mộng mơ về một ảo ảnh không có thực, để mặc trái tim trôi dạt vô định?"
+        "upright": "Tình yêu chớm nở, một cuộc phiêu lưu cảm xúc không ràng buộc, sự tự do khám phá và tin tưởng vào dòng chảy của trái tim.",
+        "reversed": "Tình yêu mù quáng, sự bốc đồng gây tổn thương hoặc nỗi sợ hãi ngăn cản bước tiến, thiếu trách nhiệm trong mối quan hệ."
       },
       "ex": {
-        "upright": "Giống như Kẻ Ngốc hồn nhiên cất nốt bước chân vứt bỏ hành trang đã cũ, vũ trụ khuyên bạn hãy mạnh dạn rũ bỏ đoạn tình cảm này. Nếu có sự hàn gắn, cả hai phải chấp nhận đập đi xây lại từ vạch xuất phát, với tâm thế tinh khôi chưa từng tổn thương.",
-        "reversed": "Hồi tưởng về người cũ lúc này mang theo năng lượng của sự mù quáng. Cảm xúc bốc đồng đang che mờ đi lý trí, khiến bạn gạt đi những góc khuất từng làm cả hai tan vỡ. Đừng dại dột quay đầu nhìn về chiếc bóng đã nhòa."
+        "upright": "Buông bỏ quá khứ, sẵn sàng cho những khởi đầu mới mà không vướng bận, giải phóng bản thân khỏi những ràng buộc cũ.",
+        "reversed": "Sự lặp lại sai lầm cũ, nỗi sợ hãi hoặc sự bốc đồng khiến bạn quay lại với điều đã qua, thiếu sự trưởng thành."
       },
       "current_love": {
-        "upright": "Mối duyên của bạn đang khát khao một làn gió mới mẻ để cuốn trôi đi sự tẻ nhạt thường nhật. Đã đến lúc nắm tay đối phương tham gia vào những chuyến phiêu lưu tự phát đầy hứng khởi để khơi gợi lại những rung cảm nguyên sơ ngày đầu yêu.",
-        "reversed": "Lá bài chói lên hồi chuông cảnh báo về sự vô tâm hoặc lối hành xử trẻ con của một trong hai người. Lời nói thiếu suy nghĩ hoặc hành động bồng bột có thể vô tình để lại vết xước khó lòng xóa nhòa trong mối quan hệ này."
+        "upright": "Mối quan hệ tràn đầy sự tươi mới, khám phá và niềm vui tự phát, cùng nhau dấn thân vào những trải nghiệm mới lạ.",
+        "reversed": "Mối quan hệ có dấu hiệu thiếu chín chắn, sự vô tâm hoặc hành động bốc đồng gây bất ổn, cần sự nghiêm túc hơn."
       },
       "ambiguous": {
-        "upright": "Tình trạng mập mờ vốn dĩ mang trong mình vẻ đẹp của sự tự do. Thay vì cố gắng định danh hay ép buộc tương lai, hãy để cảm xúc chảy trôi một cách nguyên thủy và rực rỡ nhất. Sự vô tư sẽ tự nhiên đưa đường dẫn lối đến bến bờ hạnh phúc.",
-        "reversed": "Phía sau tấm màn sương mù của sự mập mờ ấy là nguy cơ lợi dụng niềm tin ngây dại. Sự thiếu vắng cam kết đang dần biến bạn thành một con rối bơ vơ. Đã đến lúc nhìn thấu sự thật thay vì tự dối lừa trái tim mình."
+        "upright": "Chấp nhận sự không chắc chắn, để mọi thứ tự nhiên diễn ra, không cần vội vàng định nghĩa.",
+        "reversed": "Sự bối rối, thiếu quyết đoán khiến mọi thứ trì trệ, hoặc hành động thiếu suy nghĩ làm tình hình thêm phức tạp."
       },
       "crush": {
-        "upright": "Năng lượng rực rỡ của The Fool trao cho bạn dũng khí để thực hiện một 'cú nhảy niềm tin' (leap of faith). Hãy mạnh dạn tiến tới bằng sự chân thật và vụng về đáng yêu nhất của bạn. Dù kết quả ra sao, linh hồn bạn cũng sẽ được giải phóng.",
-        "reversed": "Cảm giác rung động này dường như nhuốm màu ảo tưởng. Bạn đang đeo một lăng kính màu hồng để chiêm ngưỡng một hình bóng không dành riêng cho bạn. Cẩn trọng với những quyết định bộc phát có thể gây tổn thương cho chính mình."
+        "upright": "Một sự rung động hồn nhiên, táo bạo bày tỏ hoặc sẵn sàng đón nhận điều bất ngờ từ đối phương.",
+        "reversed": "Sự ngây thơ quá mức dẫn đến bị lợi dụng, hoặc nỗi sợ hãi khiến bạn không dám tiến tới."
       },
       "future_love": {
-        "upright": "Bức tranh tình duyên sắp tới sẽ là một chuyến phiêu lưu không thể đoán định nhưng ngập tràn tiếng cười. Người ấy sẽ bước vào thế giới của bạn mang theo năng lượng trẻ trung, phóng khoáng, gỡ bỏ mọi rào cản định kiến bạn từng xây đắp.",
-        "reversed": "Cảnh giác với những cuộc gặp gỡ nhuốm màu phù phiếm, vì sắp tới bạn dễ chạm mặt một tâm hồn rong chơi, lảng tránh trách nhiệm. Hãy giữ lý trí tỉnh táo trước khi trao đi hạt giống tình yêu cho nhầm mảnh đất."
+        "upright": "Tương lai tình yêu rộng mở, đầy hứa hẹn với những cuộc gặp gỡ định mệnh và trải nghiệm mới mẻ.",
+        "reversed": "Sự thiếu định hướng hoặc sự bốc đồng có thể dẫn đến những lựa chọn sai lầm trong tình yêu."
       },
       "someone": {
-        "upright": "Đối với người ấy, bạn là một làn gió tươi mát, một hiện diện tự do và đầy ắp những thú vị bất ngờ. Thế giới nội tâm của họ đang phản chiếu sự nhẹ nhõm và hứng khởi mỗi khi hình bóng bạn lướt qua.",
-        "reversed": "Ở góc độ tiêu cực, cách nhìn nhận của đối phương về bạn có phần thiển cận—họ e ngại bạn thiếu chiều sâu hoặc không đủ vững trãi để gánh vác tương lai dài lâu."
+        "upright": "Một người mới xuất hiện, mang theo năng lượng tươi sáng, lạc quan và sẵn sàng cho những điều chưa biết.",
+        "reversed": "Một người thiếu chín chắn, vô trách nhiệm hoặc mang lại sự hỗn loạn cho cuộc sống của bạn."
       },
       "marriage": {
-        "upright": "Cam kết lứa đôi đang đứng trước bình minh của sự tái tạo sức sống. Dù là vợ chồng lâu năm hay tương lai gần cập bến đò, cuộc hôn nhân này sẽ được tắm mát bởi nguồn năng lượng thuần khiết, vui vẻ, sẵn sàng đón nhận mọi điều mới mẻ cùng nhau.",
-        "reversed": "Cột trụ hôn nhân có thể đang lung lay vì lối sống ích kỷ, phớt lờ trách nhiệm hoặc gánh nặng cam kết khiến một người muốn bỏ chạy. Đừng để cảm xúc bốc đồng phá nát sự thiêng liêng đắp xây bấy lâu."
+        "upright": "Một khởi đầu mới mẻ cho hôn nhân, niềm tin vào một hành trình chung đầy bất ngờ và tự do.",
+        "reversed": "Sự thiếu cân nhắc, vội vàng trong quyết định hôn nhân hoặc sự vô tâm có thể gây rạn nứt."
       },
       "conflict": {
-        "upright": "Giữa vòng xoáy cãi vã, thi vị của sự buông bỏ cái tôi chính là liều thuốc giải. Hãy tiếp cận mâu thuẫn bằng một trái tim ngây thơ không mang theo thù hận, một nụ cười sảng khoái gạt bỏ lỗi lầm để cùng nhau xoa dịu những rạn nứt.",
-        "reversed": "Nhát dao vô hình được vung lên từ những câu từ nóng giận chưa qua suy nghĩ. Lòng tự ái mù quáng hoặc thái độ cố chấp trẻ con sẽ chỉ đẩy mâu thuẫn vào tột cùng của ngõ cụt."
+        "upright": "Tiếp cận xung đột với tinh thần cởi mở, sẵn sàng tha thứ và tìm kiếm giải pháp mới mẻ.",
+        "reversed": "Xung đột bùng nổ do sự thiếu suy nghĩ, bốc đồng hoặc sự né tránh trách nhiệm."
       },
       "breakup": {
-        "upright": "Sự tan vỡ chỉ là tiếng pháo hiệu mở ra một hành trình mới mẻ đáng mong chờ. Hãy tha thứ cho những gì đã qua, đeo balo lên với một đôi mắt vô ưu hướng về bình minh phía trước. Vũ trụ đã dọn đường cho bạn tự do lột xác.",
-        "reversed": "Bóng ma của thù hận hoặc nỗi đau hậu chia tay đang quấn lấy đôi chân bạn. Việc cư xử thiếu lý trí hay buông lời cay đắng để trả đũa sẽ chỉ ghim chặt bạn lại trong vũng lầy của đớn đau."
+        "upright": "Giải thoát khỏi xiềng xích, một khởi đầu mới đầy tự do và cơ hội để tái định nghĩa bản thân.",
+        "reversed": "Sự bốc đồng dẫn đến chia ly hối tiếc, hoặc nỗi sợ hãi không dám buông bỏ một mối quan hệ độc hại."
       },
       "long_distance": {
-        "upright": "Khoảng cách địa lý lúc này dường như bị thu bé lại bởi năng lượng lãng mạn vô bờ và tinh thần lạc quan đáng ngưỡng mộ. Mọi thử thách không gian chỉ là thứ gia vị làm đậm đà thêm chuyến phiêu lưu tình ái của hai tâm hồn tự do.",
-        "reversed": "Đôi cánh tự do khi không có sự ràng buộc hiện hữu rất dễ sa đà vào sự tùy tiện. Cạm bẫy và cám dỗ từ xa đang chực chờ nuốt chửng sự chung thủy nếu một trong hai đánh mất đi nguyên tắc sống của mình."
+        "upright": "Niềm tin vào tình yêu vượt qua khoảng cách, sẵn sàng khám phá những cách mới để duy trì kết nối.",
+        "reversed": "Sự thiếu kiên nhẫn, bốc đồng có thể phá vỡ mối quan hệ từ xa, hoặc nỗi sợ hãi về sự không chắc chắn."
       },
       "jealousy": {
-        "upright": "Hoài nghi là đám mây mù giăng kín mặt trời rực rỡ. Đầu óc trong sạch và niềm tin toàn vẹn là lời khuyên vũ trụ dành cho bạn. Xóa bỏ rào cản đa nghi, tình yêu sẽ tự khắc thanh tịnh và vui tươi.",
-        "reversed": "Lá bài đảo ngược lật tẩy sự ghen tuông điên cuồng thiếu kiểm soát, hoặc tệ hơn, sự ngây ngô quá mức đang bị đối phương qua mặt một cách đau đớn."
+        "upright": "Vượt qua sự ghen tuông bằng niềm tin và sự tự do, không để cảm xúc tiêu cực kiểm soát.",
+        "reversed": "Ghen tuông mù quáng, hành động thiếu suy nghĩ do cảm xúc bốc đồng, gây tổn hại mối quan hệ."
       },
       "self_love": {
-        "upright": "Hành trình yêu bản thân khởi nguồn từ việc đón nhận đứa trẻ bên trong bạn một cách toàn vẹn nhất. Cho phép bản thân được phép ngốc nghếch, được phép làm sai và sống tự do ngoài khuôn miệng phán xét của thế gian. Bạn rực rỡ nhất khi là chính mình.",
-        "reversed": "Yêu bản thân không đồng nghĩa với buông thả hoặc trốn tránh trách nhiệm. Bạn đang có xu hướng nuông chiều những bốc đồng có hại, ngộ nhận sự thiếu kỉ luật là tự do."
+        "upright": "Yêu thương bản thân một cách chân thật, chấp nhận mọi khía cạnh và sẵn sàng khám phá tiềm năng vô hạn.",
+        "reversed": "Tự yêu bản thân một cách ích kỷ, thiếu trách nhiệm hoặc tự hủy hoại do sự vô tâm."
       },
       "career": {
-        "upright": "Con đường công danh đang mở ra một trang giấy trắng tinh khôi, chờ đợi bạn tự do vung bút. Đừng e ngại việc dấn thân vào những lĩnh vực chưa từng chạm tới. Tinh thần không sợ hãi và tư duy đổi mới sẽ kiến tạo nên những bước ngoặt thần kỳ.",
-        "reversed": "Một tiếng thở dài nhắc nhở về những sự hấp tấp trên chốn thương trường. Làm việc tùy hứng, thiếu tính kỷ luật và thiếu chiến lược phòng bị sẽ đẩy sự nghiệp của bạn rơi tự do xuống vực sâu hoang mang."
+        "upright": "Một khởi đầu sự nghiệp mới mẻ, dũng cảm theo đuổi đam mê, khám phá những con đường chưa từng có.",
+        "reversed": "Sự nghiệp bế tắc do thiếu định hướng, hành động bốc đồng hoặc sợ hãi không dám thay đổi."
       },
       "job_search": {
-        "upright": "Ngọn gió thời cơ đang thổi về phía bạn một công việc lạ lẫm đầy thú vị. Sự cầu thị hồn nhiên, sức cống hiến không mệt mỏi và lòng dũng cảm sẽ chinh phục những vị giám khảo khó tính nhất. Cứ mạnh dạn nộp hồ sơ!",
-        "reversed": "Những cánh cửa từ chối khép lại do sự hời hợt hoặc ảo vọng kiêu ngạo từ phía chính bạn. Khinh suất trong việc chuẩn bị kĩ năng sẽ khiến mọi nỗ lực tìm kiếm việc làm tựa dã tràng xe cát."
+        "upright": "Cơ hội việc làm mới mẻ, sẵn sàng bước vào một lĩnh vực chưa từng thử, tin tưởng vào bản thân.",
+        "reversed": "Sự thiếu nghiêm túc trong tìm kiếm, hoặc sự bốc đồng chấp nhận công việc không phù hợp."
       },
       "promotion": {
-        "upright": "Bước lên nấc thang mới đòi hỏi ở bạn sự liều lĩnh táo bạo thoát khỏi mọi mô-típ làm việc cũ kĩ. Nhận một nhiệm vụ khó nhằn mà bạn chưa dạn dày kinh nghiệm lại chính là chiếc khóa vạn năng cho cánh cửa thăng tiến.",
-        "reversed": "Thái độ ngông cuồng hoặc đánh giá quá cao giá trị bản thân là tảng đá ngáng đường sự nghiệp. Cấp trên hiện chưa nhìn thấy sự từng trải và trách nhiệm ở bạn để phó thác trọng trách."
+        "upright": "Một bước nhảy vọt bất ngờ, cơ hội để thể hiện khả năng lãnh đạo mới mẻ và tư duy đột phá.",
+        "reversed": "Thăng tiến không bền vững do thiếu kinh nghiệm, hoặc sự thiếu chín chắn trong vai trò mới."
       },
       "business": {
-        "upright": "Ngọn lửa khởi nghiệp đang bùng cháy trong tâm trí với tiềm năng vô tiền khoáng hậu. Dù hành trang chỉ là sự nhiệt huyết, đây là thời khắc vũ trụ ủng hộ bạn nhen nhóm những đốm lửa đầu tiên trên thương trường.",
-        "reversed": "Thương trường là chiến trường, không có chỗ cho thứ rủi ro đánh cược mù quáng. Rót vốn liều lĩnh mà bỏ qua lời cảnh báo của số liệu thực tế sẽ kéo theo sự sụp đổ gia sản đau đớn."
+        "upright": "Khởi nghiệp táo bạo, ý tưởng độc đáo và sẵn sàng chấp nhận rủi ro để theo đuổi tầm nhìn.",
+        "reversed": "Kinh doanh mạo hiểm, thiếu kế hoạch hoặc sự bốc đồng dẫn đến thất bại không đáng có."
       },
       "colleague": {
-        "upright": "Một sự hợp tác bất ngờ, mang lại tiếng cười và cảm hứng đầy mới lạ chốn công sở. Những đối tác hoặc đồng nghiệp có tính tình phóng khoáng sẽ vô tình trở thành đòn bẩy tuyệt vời cho các ý tưởng của bạn.",
-        "reversed": "Cẩn trọng với những cá nhân lảng tránh trách nhiệm, thích đùn đẩy và hành xử trẻ con trong tập thể. Vô tư đến mức vô tâm sẽ gây rạn nứt lòng tin giữa các cộng sự."
+        "upright": "Đồng nghiệp mới mang đến năng lượng tươi mới, tinh thần hợp tác cởi mở và không ngại thử nghiệm.",
+        "reversed": "Đồng nghiệp thiếu trách nhiệm, gây ra rắc rối do sự bốc đồng hoặc thiếu suy nghĩ."
       },
       "career_change": {
-        "upright": "Giọng nói thì thầm của linh hồn đang gào thét nhắc nhở bạn rẽ hướng. Đây là lời cổ vũ hoàn mỹ nhất để bạn cự tuyệt sự nhàm chán và chuyển mình mạnh mẽ sang ranh giới nghề nghiệp vô định nhưng tràn ngập ánh sáng.",
-        "reversed": "Bồng bột từ bỏ chén cơm vì những bất mãn vụn vặt sẽ để lại hậu quả đắng ngắt. Đừng nhảy thuyền khi bầu trời đang giông bão mà bạn lại không trang bị nổi chiếc phao cứu sinh."
+        "upright": "Thay đổi nghề nghiệp đầy dũng cảm, tin tưởng vào trực giác và mở ra cánh cửa mới cho bản thân.",
+        "reversed": "Thay đổi nghề nghiệp do bốc đồng, thiếu cân nhắc hoặc sợ hãi đối mặt với thách thức hiện tại."
       },
       "freelance": {
-        "upright": "Luồng không khí tự do, phóng khoáng của ngọn xê dịch vô hình biến mô hình Freelance trở thành mảnh ghép hoàn mỹ cho bạn lúc này. Sự sáng tạo sẽ được khai phóng mãnh liệt nhất trong vòng tự do cá nhân.",
-        "reversed": "Một tiếng thở đánh thót do sự thiếu ý thức về thời gian. Dòng chảy linh hoạt đang biến bạn trở nên vô kỷ luật, làm mai một uy tín chuyên môn do thói quen làm việc trễ nải."
+        "upright": "Tự do khám phá con đường riêng, tin tưởng vào khả năng tự chủ và chấp nhận những thử thách mới.",
+        "reversed": "Thiếu kỷ luật, sự bốc đồng trong công việc tự do dẫn đến không ổn định hoặc bỏ lỡ cơ hội."
       },
       "interview": {
-        "upright": "Bước chân vào căn phòng phỏng vấn với khí chất tự tin pha chút ngây ngô trong trẻo. Nét cá tính nguyên bản, sự tư duy mở và linh hoạt chính là ma lực hấp dẫn ánh nhìn của hội đồng tuyển dụng.",
-        "reversed": "Bị đánh trượt do những phát ngôn rỗng tuếch hoặc thái độ cợt nhả không lường trước. Tự do ngôn luận sai bối cảnh là nấm mồ chôn vùi cơ hội thành công của vòng thi này."
+        "upright": "Tự tin thể hiện bản thân một cách chân thật, mang đến năng lượng tươi mới và sự độc đáo.",
+        "reversed": "Thiếu nghiêm túc, bốc đồng trong cách trả lời hoặc thể hiện sự thiếu chín chắn."
       },
       "finance": {
-        "upright": "Không gian tài chính bắt đầu mở khóa cho những vận hội tiềm năng bất chợt. Một tâm thái không sợ hãi sẽ mang đến cho bạn ý tưởng đột phá về tiền bạc; dĩ nhiên, nó đòi hỏi bạn bước đi với trực giác thanh khiết.",
-        "reversed": "Chiếc túi không đáy của sự chi tiêu phù phiếm đang kêu gào. Năng lượng The Fool ngược lên án kịch liệt chuỗi hành động xuất tiền theo cảm xúc và những giấc mộng làm giàu ảo ảnh."
+        "upright": "Khởi đầu mới về tài chính, sẵn sàng chấp nhận rủi ro có tính toán để đầu tư vào tương lai.",
+        "reversed": "Quản lý tài chính thiếu thận trọng, chi tiêu bốc đồng hoặc đầu tư mạo hiểm không suy nghĩ."
       },
       "investment": {
-        "upright": "Cánh cửa dẫn lối tới ranh giới đầu tư lạ kỳ đầy hứa hẹn. Số vốn trích từ tiền nhàn rỗi có thể thả trôi vào dòng nước mới, vì vũ trụ đang ngáng tay tạo ra mức rủi ro có thể chịu đựng nhưng mang về nhiều ngạc nhiên.",
-        "reversed": "Sa chân vào bùn lầy của sự ngu ngốc tài chính! Tin lời đường mật, phó mặc gia tài cho bầy sói trên thương trường là hậu quả báo trước của thái độ làm giàu dễ dãi và thiếu học hỏi."
+        "upright": "Cơ hội đầu tư mới mẻ, táo bạo, có thể mang lại lợi nhuận bất ngờ nếu có niềm tin.",
+        "reversed": "Đầu tư rủi ro cao do thiếu hiểu biết, bốc đồng hoặc sự ngây thơ bị lợi dụng."
       },
       "debt": {
-        "upright": "Phủi lớp bụi ảm đạm đi, đứng lên với tư duy dẹp tan mọi u ám. Việc áp dụng cách thoát nợ ngoài khuôn khổ truyền thống, lạc quan đối mặt là ánh sáng le lói cứu rỗi túi tiền.",
-        "reversed": "Chui đầu xuống cát đà điểu không làm số nợ biến mất. Việc phớt lờ thực tại ngân quỹ đang gióng lên hồi chuông báo động đỏ, kéo dài hơn những ngày tháng vay mượn."
+        "upright": "Một khởi đầu để thoát khỏi nợ nần, tìm kiếm những giải pháp mới mẻ và táo bạo.",
+        "reversed": "Nợ nần chồng chất do chi tiêu vô tội vạ, thiếu trách nhiệm hoặc không đối mặt với thực tế."
       },
       "savings": {
-        "upright": "Hành trình tích lũy tài nguyên vĩ đại khởi nguồn từ tâm niệm thanh khiết của một đốm sáng nhỏ bé. Không bao giờ là quá muộn để góp nhặt tài sản, miễn là bạn giữ được niềm tin hồn nhiên khi gieo trồng chúng.",
-        "reversed": "Thú vui bộc phát bóp nát mọi phòng tuyến tiết kiệm! Khao khát tận hưởng ngắn hạn đã nhẫn tâm đánh tráo tấm lá chắn bảo hộ cho tương lai của bạn."
+        "upright": "Bắt đầu một kế hoạch tiết kiệm mới, với tinh thần lạc quan và hướng tới tương lai.",
+        "reversed": "Phá vỡ kế hoạch tiết kiệm do chi tiêu bốc đồng, thiếu kiên nhẫn hoặc không lường trước hậu quả."
       },
       "luck_money": {
-        "upright": "Mây xanh vén màn trao xuống những lộc rơi, lộc vãi giời ơi đất hỡi vô cùng duyên dáng. Hãy mở lòng hân hoan tiếp nhận ân sủng một cách tự nhiên, vì bản thân bạn hoàn toàn xứng đáng với món quà chớp nhoáng đó.",
-        "reversed": "Đồng tiền phù du không cứu cánh cho những lười nhác đời thường. Cơn khát đỏ đen mù quáng sẽ gặm nhấm hi vọng và để lại trái đắng thay vì túi vàng may mắn."
+        "upright": "May mắn bất ngờ đến từ những hành động táo bạo, sự tin tưởng vào dòng chảy của vũ trụ.",
+        "reversed": "May mắn bị bỏ lỡ do thiếu quyết đoán, hoặc sự bốc đồng dẫn đến mất mát tài sản."
       },
       "health": {
-        "upright": "Sự bừng sáng của vạn vật báo hiệu luồng sinh khí đang được bơm căng đầy trong lồng ngực. Một lộ trình trị liệu khác truyền thống hay một thói quen luyện tập đầy tính thử nghiệm sẽ giúp cơ thể lột xác tráng kiện.",
-        "reversed": "Những tai nạn nhỏ nhặt ngoài dự định rất dễ xuất hiện từ thói chủ quan cợt nhả. Mầm bệnh đang âm thầm mượn lớp vỏ bọc bình dị, yêu cầu thiết lập lại ranh giới về cách chăm sóc sức khỏe."
+        "upright": "Một khởi đầu mới cho sức khỏe, áp dụng phương pháp điều trị độc đáo hoặc thay đổi lối sống tích cực.",
+        "reversed": "Sức khỏe sa sút do lối sống vô kỷ luật, hành động bốc đồng hoặc bỏ qua các dấu hiệu cảnh báo."
       },
       "mental": {
-        "upright": "Viển vông thoát khỏi những chằng xích giam cầm tâm hồn! Bóng đêm lo âu chính thức bị đập vỡ, nhường ngôi vương cho một mảng trời cởi mở, vô ưu, cho trải nghiệm hít thở trọn vẹn từng sát na hiện tại.",
-        "reversed": "Việc cuộn tròn trong ảo cảnh (escapism) đang che đậy cho một hố đen tâm lí hoảng loạn. Ngó lơ sang một bề không phải là cách làm xói mòn tổn thương của những tâm hồn giấu kín."
+        "upright": "Tinh thần cởi mở, sẵn sàng khám phá những khía cạnh mới của bản thân, giải phóng những lo âu.",
+        "reversed": "Tâm trí hỗn loạn, lo lắng không căn cứ, hoặc sự bốc đồng trong suy nghĩ dẫn đến hành vi thiếu kiểm soát."
       },
       "energy": {
-        "upright": "Luân xa gốc rễ của bạn đang vỗ về theo điệu nhạc của sự phục sinh nguyên bản. Tràn trề một thứ ánh sáng thuần khiết, năng lượng bên trong hòa với vũ trụ để sẵn sàng chinh phục hành trình kế tiếp.",
-        "reversed": "Mất kết nối với Đất Mẹ và cội nguồn! Dòng năng lượng phung phí vào sự hỗn mang vô ý thức khiến trung tâm nhận thức trở nên lơ lửng, rời rạc và hoang tàn."
+        "upright": "Năng lượng tràn đầy, sự tươi mới và khao khát được dấn thân vào những cuộc phiêu lưu mới.",
+        "reversed": "Năng lượng bị phân tán, lãng phí vào những việc vô bổ hoặc sự thiếu định hướng."
       },
       "family": {
-        "upright": "Không khí gia tộc dấy lên bầu nhiệt huyết êm dịu. Có thể là lời chúc mừng đón chào sinh mệnh mới, hoặc năng lượng đoàn viên tự do phá vỡ những lề lói khắt khe gò bó từ thời tiền nhân.",
-        "reversed": "Thái độ ngông nghênh của một con cừu non cứng đầu đang gây chao đảo tính kỷ cương trong tổ ấm. Hãy cẩn trọng để ý các bước đi dại dột tạo vết thương sâu lên tổ ấm bình yên."
+        "upright": "Một khởi đầu mới trong mối quan hệ gia đình, sự tha thứ và chấp nhận những điều khác biệt.",
+        "reversed": "Mâu thuẫn gia đình do sự thiếu chín chắn, bốc đồng hoặc không chịu trách nhiệm về hành động của mình."
       },
       "diet": {
-        "upright": "Chấp nhận sự tự do trong việc nạp năng lượng! Gỡ bỏ những kíp nổ ép buộc về cân nặng, lắng nghe khẩu vị nguyên sơ của trực giác để nếm trải sự ngon lành bằng cả trí và lực.",
-        "reversed": "Tính bốc chốc, ăn theo phong trào thiếu bền vững kiến thiết nên một thể trạng bấp bênh. Kỉ luật lỏng lẻo đang đánh đổi năng lượng cho những đồ ăn độc hại kém vi chất."
+        "upright": "Bắt đầu một chế độ ăn uống mới mẻ, thử nghiệm những phương pháp độc đáo để cải thiện sức khỏe.",
+        "reversed": "Chế độ ăn uống thất thường, thiếu kiểm soát hoặc sự bốc đồng trong việc lựa chọn thực phẩm."
       },
       "study": {
-        "upright": "Khai trí như một tờ giấy nguyên sơ. Bước chân khát khao tiến vào tòa lâu đài học thuật với một đôi mắt tròn xoe ngỡ ngàng sẽ giúp tri thức dễ dàng thẩm thấu vào tầng sâu nhận thức nhất.",
-        "reversed": "Tư tưởng lạc lõng, thiếu bền chí ngốn sạch sự thông tuệ của não bộ. Đây là dấu hiệu của việc cưỡi ngựa xem hoa trong học thuật mà không đâm chồi rễ vững chắc ở bộ môn cốt yếu."
+        "upright": "Khởi đầu một môn học mới, sự tò mò và khao khát khám phá kiến thức mà không sợ hãi.",
+        "reversed": "Thiếu tập trung, học hành lơ là do sự bốc đồng hoặc không có mục tiêu rõ ràng."
       },
       "study_abroad": {
-        "upright": "Hộ chiếu đã sẵn sàng trên tay! Phóng tầm nhìn về miền đất hứa, xé rào cản quốc giới. Môi trường dị biệt hoàn toàn là một khung cảnh trong mơ nuôi dưỡng ý chí sinh tồn hào hùng đang chảy trong máu.",
-        "reversed": "Hao hụt sự chu đáo là nhát dao cứa lòng đối với một chuyến di cư tri thức xa xôi. Bạn có thể bị sốc văn hóa và mất phương hướng dữ dội giữa biển người xa lạ nếu tiếp tục vô lo vô nghĩ."
+        "upright": "Một cuộc phiêu lưu học tập ở nước ngoài, đầy hứng khởi và sẵn sàng đón nhận những trải nghiệm mới.",
+        "reversed": "Quyết định du học thiếu cân nhắc, bốc đồng hoặc không lường trước những khó khăn."
       },
       "self": {
-        "upright": "Hành trình bóc tách từng lớp vỏ bọc giả tạo. Không có gì uy nghiêm bằng việc nhìn thẳng vào nguyên bản cá thể tự đo, sống vô uý và rực sáng như chính bản ngã The Fool ngây dại nhưng thông tuệ.",
-        "reversed": "Chênh vênh đi tìm ngã giữa bôn ba đời. Lập trường đứt ngọn khiến bản ngã trở thành một lớp sương mù, trượt theo đám đông mà đánh mất thứ hào quang lấp lánh vốn dĩ của cá thể."
+        "upright": "Khám phá bản thân không giới hạn, chấp nhận mọi khía cạnh và tin tưởng vào hành trình phát triển cá nhân.",
+        "reversed": "Mất phương hướng, thiếu tự nhận thức hoặc hành động vô trách nhiệm với chính mình."
       },
       "purpose": {
-        "upright": "Lý tưởng của bạn sinh ra trên trái đất này là tưới mát những tâm hồn héo mòn bằng hạt mưa của niềm tin thuần khiết. Gieo rắc sự lạc quan là sứ mệnh tối cao dệt nên hạnh phúc và quả ngọt.",
-        "reversed": "Khao khát sống vĩ cuồng mịt mù phương thức. Đắn đo, lang bạt tìm mục đích trong vô vọng, thay vì đi bằng trái tim lại chạy đi kiếm ở ảo vật bên ngoài."
+        "upright": "Tìm thấy mục đích sống qua những trải nghiệm mới, sự khám phá và tin tưởng vào con đường mình chọn.",
+        "reversed": "Mất đi mục đích, lang thang vô định hoặc theo đuổi những điều phù phiếm."
       },
       "shadow_self": {
-        "upright": "Ôm ấp góc tối yếu mềm, vụng dại (inner child). Những lầm lỗi trẻ dại từng mang, hãy nâng niu chúng vì rốt cục nó mới là chất liệu vẽ nên bức chân dung đa diện của sự sống sinh thành.",
-        "reversed": "Hội chứng Peter Pan gặm nhấm ý thức, ru ngủ bóng đêm trong chiếc nôi mang tên chối bỏ kỷ luật và trưởng thành. Ánh sáng không chiếu rọi được kẽ hở khi ta từ chối làm người lớn."
+        "upright": "Dũng cảm đối mặt với những khía cạnh chưa được chấp nhận, hòa nhập chúng vào bản thể toàn vẹn.",
+        "reversed": "Lảng tránh bóng tối của bản thân, hoặc để những khía cạnh tiêu cực bộc phát một cách vô thức."
       },
       "decision": {
-        "upright": "Giây phút rũ lòng bước vào cú ngã thiên thần (Leap of faith). Bạn đã ở bờ vực, trái tim tự khắc sẽ bung đôi cánh vô hình. Đừng do dự tung mình đón chiều gió để dệt thay định số.",
-        "reversed": "Ranh giới của lòng dũng cảm và sự xuẩn ngốc hiện rất đỗi mong manh. Lao đầu vào khi mắt vẫn còn nhắm nghiền chỉ đổi lại thương tích sâu kín, đừng manh động đưa bài vội."
+        "upright": "Ra quyết định táo bạo, tin tưởng vào trực giác và sẵn sàng chấp nhận những điều chưa biết.",
+        "reversed": "Thiếu quyết đoán, trì hoãn hoặc đưa ra quyết định bốc đồng, thiếu cân nhắc."
       },
       "travel": {
-        "upright": "Lên đường mà chẳng cần la bàn hay điểm đến cụ thể. Chính sự lang thang vô định lại thắp sáng khao khát tự do, rửa trôi ưu phiền, đưa cõi lòng phiêu diêu đến vùng bình yên vô giá.",
-        "reversed": "Tâm hồn xao nhãng hoặc bất cẩn tạo ra sự xáo trộn bất bình thường trong hành trình. Sự cố lạc đồ, nhầm giờ sẽ làm hỏng bức ảnh du ca mộng mơ nếu bỏ quên kỉ cương xê dịch."
+        "upright": "Một chuyến đi đầy ngẫu hứng, phiêu lưu và khám phá những vùng đất mới lạ.",
+        "reversed": "Du lịch thiếu kế hoạch, gặp rắc rối do sự bất cẩn hoặc bỏ lỡ cơ hội khám phá."
       },
       "spiritual": {
-        "upright": "Đôi tay rũ bỏ xiềng xích của cõi vật chất, ngẩng mặt hướng tâm hồn cất cánh vào cõi siêu nhiên. Đây là hồi chuông đầu tiên đánh thức sự giác ngộ vĩ đại nhất, đi tìm Chân - Thiện - Mỹ mà không lệ thuộc vào bất kỳ giáo phái gò bó nào.",
-        "reversed": "Mất phương vị trong dòng hải lưu tâm linh vô tận. Cố gắng cắm rễ đức tin vào những mảnh đất cằn cỗi bằng thứ lí thuyết hời hợt, để rồi hụt bước chơi vơi giữa vô luân."
+        "upright": "Khởi đầu một hành trình tâm linh mới mẻ, khám phá những niềm tin độc đáo và mở rộng ý thức.",
+        "reversed": "Mất phương hướng tâm linh, đi lạc lối hoặc theo đuổi những giáo lý mù quáng."
       },
       "general": {
-        "upright": "Bức tranh của tạo hóa dang tay đón đợi bạn! Vũ trụ gửi gắm một lời thì thầm: Hãy khởi đầu, hãy bước tới vô định mà chẳng màng sợ hãi. Lăng kính nguyên thủy, đầy tươi mới của Kẻ Ngốc sẽ vén lên bức màn kỳ tích mà bạn hằng tìm kiếm.",
-        "reversed": "Bầu trời có thể sáng chói nhưng sát sườn lại là khe sâu không đáy. Sự phớt lờ cảnh báo từ thực tại và chạy theo tiếng vãn lầm lỗi có thể là án tử cho chuyến đi chưa kịp rực rỡ đã tàn úa."
+        "upright": "Một khởi đầu mới đầy tiềm năng, sự tự do, lạc quan và niềm tin vào cuộc hành trình phía trước.",
+        "reversed": "Sự thiếu thận trọng, bốc đồng hoặc nỗi sợ hãi ngăn cản bạn bước tới, dẫn đến rắc rối."
+      },
+      "friendship": {
+        "upright": "Tình bạn mới chớm nở, sự chân thành và sẵn sàng cùng nhau trải nghiệm những điều chưa biết.",
+        "reversed": "Tình bạn thiếu bền vững do sự vô tâm, bốc đồng hoặc sự ngây thơ bị lợi dụng."
+      },
+      "pregnancy": {
+        "upright": "Một khởi đầu mới cho hành trình làm mẹ, niềm vui hồn nhiên và sự tin tưởng vào tương lai.",
+        "reversed": "Sự lo lắng, bối rối về việc mang thai hoặc thiếu trách nhiệm trong việc chuẩn bị."
+      },
+      "gossip": {
+        "upright": "Phớt lờ những lời đàm tiếu, giữ vững sự trong sáng và không để ý kiến người khác ảnh hưởng.",
+        "reversed": "Vô tình trở thành nạn nhân hoặc người lan truyền tin đồn do sự thiếu suy nghĩ."
+      },
+      "legal": {
+        "upright": "Tiếp cận vấn đề pháp lý với tinh thần cởi mở, tìm kiếm giải pháp mới mẻ và công bằng.",
+        "reversed": "Rắc rối pháp lý do hành động thiếu thận trọng, bốc đồng hoặc sự ngây thơ bị lợi dụng."
+      },
+      "moving": {
+        "upright": "Một cuộc di chuyển đầy hứng khởi, khởi đầu mới ở một nơi xa lạ, chấp nhận những điều chưa biết.",
+        "reversed": "Di chuyển thiếu kế hoạch, gặp rắc rối do sự bất cẩn hoặc sợ hãi thay đổi."
+      },
+      "pet": {
+        "upright": "Một người bạn bốn chân mới, niềm vui hồn nhiên và sự gắn kết không điều kiện.",
+        "reversed": "Nuôi thú cưng thiếu trách nhiệm, không chăm sóc đúng mực hoặc bỏ bê."
+      },
+      "dream": {
+        "upright": "Những giấc mơ táo bạo, khao khát theo đuổi lý tưởng mà không sợ hãi, tin tưởng vào tiềm năng vô hạn.",
+        "reversed": "Mơ mộng hão huyền, thiếu thực tế hoặc nỗi sợ hãi ngăn cản bạn biến ước mơ thành hiện thực."
+      },
+      "past_life": {
+        "upright": "Khám phá những bài học từ kiếp trước, giải phóng bản thân khỏi những ràng buộc cũ để bắt đầu hành trình mới.",
+        "reversed": "Lặp lại sai lầm từ kiếp trước do sự thiếu nhận thức, hoặc bị ám ảnh bởi quá khứ."
+      },
+      "karma": {
+        "upright": "Chu kỳ nghiệp mới bắt đầu, gieo những hạt giống thiện lành với tinh thần vô tư, tin vào luật nhân quả.",
+        "reversed": "Nghiệp quả xấu đến do hành động thiếu suy nghĩ, bốc đồng hoặc vô trách nhiệm."
+      },
+      "lost_item": {
+        "upright": "Buông bỏ sự chấp niệm, tin rằng vật đã mất sẽ trở lại hoặc một điều mới mẻ sẽ thay thế.",
+        "reversed": "Mất đồ do sự bất cẩn, lơ đễnh hoặc không chú ý đến những chi tiết nhỏ."
       }
     },
     "advice": "Hãy dũng cảm dang rộng đôi cánh để đón gió, nhưng đừng quên cúi nhìn mặt đất dưới chân. Sự tự do đích thực luôn đi kèm với ý thức trách nhiệm.",
@@ -5873,74 +5913,204 @@ window.TAROT_DB = [
     "reversed": "Những bất đồng trong gia đình hoặc sự kiện ăn mừng bị hủy/trì hoãn.",
     "aspects": {
       "love": {
-        "up": "Lễ cưới, đính hôn hoặc giai đoạn hạnh phúc viên mãn.",
-        "rev": "Căng thẳng trong gia đình, hoãn cưới.",
-        "upright": "Một bản tình ca ngọt ngào và viên mãn. Sự gắn kết đạt đến độ thăng hoa, có thể dẫn đến một đám cưới, một cam kết trọn đời hoặc cảm giác thuộc về nhau sâu sắc như đã tìm thấy 'nhà' nơi đối phương.",
-        "reversed": "Sự căng thẳng len lỏi vào tổ ấm tình yêu. Cảm giác thiếu cam kết, những xung đột nhỏ nhặt gia đình hoặc những rào cản ngăn cản hai người tiến tới một nấc thang ổn định hơn."
+        "upright": "Một khúc ca tình yêu vẹn tròn, báo hiệu sự gắn kết sâu sắc, lễ kỷ niệm và một mái ấm chan hòa hạnh phúc, nơi hai trái tim tìm thấy bến đỗ an yên.",
+        "reversed": "Mối tình đang trải qua giai đoạn lung lay, thiếu vắng sự cam kết hoặc những kỳ vọng chưa được đáp ứng, khiến niềm vui còn dang dở và mái ấm chưa thực sự vẹn toàn."
       },
       "career": {
-        "up": "Ăn mừng thành công dự án, môi trường làm việc tốt.",
-        "rev": "Môi trường làm việc thiếu đoàn kết.",
-        "upright": "Không khí tại nơi làm việc ngập tràn sự hài hòa và tinh thần đồng đội. Một thành tựu đáng tự hào đã đạt được, tạo nền móng vững chắc cho những chặng đường phía trước.",
-        "reversed": "Những mâu thuẫn nội bộ hoặc cảm giác không thuộc về tập thể đang làm giảm đi năng suất. Thiếu đi sự công nhận xứng đáng khiến bạn cảm thấy nỗ lực của mình bị bỏ ngỏ."
+        "upright": "Sự nghiệp đang trên đà ổn định, đạt được những cột mốc quan trọng và tạo dựng một môi trường làm việc tích cực, mang lại cảm giác an toàn và hài lòng.",
+        "reversed": "Sự nghiệp đang gặp phải giai đoạn trì trệ hoặc bất ổn, môi trường làm việc có thể trở nên căng thẳng, khiến bạn cảm thấy không chắc chắn về tương lai."
       },
       "finance": {
-        "up": "Tài chính ổn định, có thể mua sắm cho gia đình.",
-        "rev": "Chi tiêu quá mức cho tiệc tùng, lễ hội.",
-        "upright": "Sự sung túc tài chính và ổn định dài hạn. Bạn có thể sử dụng sự an toàn này để tự thưởng cho bản thân hoặc xây dựng tổ ấm vững chắc.",
-        "reversed": "Những chi phí phát sinh liên quan đến nhà cửa gia đình hoặc sự bất an về nền tảng tài chính. Tài lộc đang có dấu hiệu bất ổn, đòi hỏi sự kiểm soát chặt chẽ."
+        "upright": "Tài chính đang ở trạng thái ổn định, mang lại cảm giác an toàn và khả năng tận hưởng những thành quả lao động của mình.",
+        "reversed": "Tình hình tài chính đang gặp phải sự bất ổn, những chi phí phát sinh bất ngờ hoặc sự lo lắng về tương lai tài chính."
       },
       "health": {
-        "up": "Sức khỏe tốt, tinh thần vui vẻ.",
-        "rev": "Mệt mỏi do tiệc tùng quá đà.",
-        "upright": "Cơ thể và tinh thần đang ở trong trạng thái cân bằng hoàn hảo. Niềm vui và sự tĩnh tại mang đến một sức khỏe dồi dào, rạng rỡ.",
-        "reversed": "Sự mệt mỏi tinh thần do những bất ổn gia đình hoặc thiếu đi một môi trường sống yên bình. Cần tái thiết lập không gian sống để bảo vệ năng lượng cá nhân."
+        "upright": "Sức khỏe đang ở trạng thái tốt, tràn đầy năng lượng và sự ổn định, cho phép bạn tận hưởng cuộc sống một cách trọn vẹn.",
+        "reversed": "Sức khỏe đang gặp phải những vấn đề nhỏ, cảm giác mệt mỏi hoặc thiếu cân bằng, cần được quan tâm và chăm sóc."
       },
       "spiritual": {
-        "up": "Hòa hợp tâm linh với cộng đồng.",
-        "rev": "Cảm thấy lạc lõng trong cộng đồng của mình.",
-        "upright": "Cảm giác tìm thấy 'ngôi nhà linh hồn' đích thực. Sự bình yên nội tâm đạt đến đỉnh cao, giúp bạn kết nối sâu sắc với cộng đồng và những giá trị nhân văn cao đẹp.",
-        "reversed": "Cảm giác lưu lạc và thiếu đi một nền tảng tâm linh vững chắc. Bạn đang khao khát một chốn nương tựa cho linh hồn nhưng lại chưa thể tìm thấy sự bình yên thực sự."
+        "upright": "Bạn đang trải nghiệm sự hài hòa và kết nối sâu sắc về mặt tâm linh, cảm thấy bình yên và vững vàng trong đức tin của mình.",
+        "reversed": "Sự bồn chồn, cảm giác mất kết nối với bản thân hoặc thế giới tâm linh, khiến bạn cảm thấy bất an và lạc lõng."
       },
       "friendship": {
-        "upright": "Một tình bạn bền vững, ổn định và đầy niềm vui. Đây là lúc để kỷ niệm những khoảnh khắc đẹp, xây dựng nền tảng vững chắc và tận hưởng sự hòa hợp trong mối quan hệ.",
-        "reversed": "Một tình bạn đang trải qua giai đoạn chuyển tiếp hoặc có những bất ổn. Có thể là sự thiếu kết nối hoặc cảm giác không thuộc về."
+        "upright": "Những tình bạn bền chặt, hỗ trợ lẫn nhau và cùng nhau chia sẻ những khoảnh khắc vui vẻ, tạo nên một mạng lưới gắn kết vững chắc.",
+        "reversed": "Những hiểu lầm nhỏ, sự rạn nứt tạm thời trong tình bạn, khiến mối quan hệ trở nên mong manh và thiếu sự hài hòa."
       },
       "pregnancy": {
-        "upright": "Tin vui về sự ổn định và niềm vui trong gia đình, có thể là sự chào đón một thành viên mới, mang lại sự bình yên và hạnh phúc. Đây là lúc để ăn mừng và vun đắp tổ ấm.",
-        "reversed": "Sự thiếu ổn định trong kế hoạch gia đình hoặc những bất ổn về cảm xúc. Có thể là những lo lắng về tương lai hoặc cảm giác chưa thực sự sẵn sàng."
+        "upright": "Tin vui về sự mang thai, báo hiệu một môi trường ổn định và yêu thương cho sự phát triển của một sinh linh mới, tràn đầy hy vọng và niềm vui.",
+        "reversed": "Những lo lắng về sự ổn định trong giai đoạn mang thai, hoặc những biến động nhỏ, đòi hỏi sự quan tâm và chăm sóc đặc biệt."
       },
       "gossip": {
-        "upright": "Bạn đang ở trong một môi trường an toàn, được bảo vệ khỏi những lời đồn đại. Danh tiếng của bạn được củng cố bởi sự ổn định và niềm tin từ cộng đồng.",
-        "reversed": "Những lời đồn đại đang gây ra sự bất ổn hoặc phá vỡ sự bình yên trong cuộc sống. Cần phải cẩn trọng và tìm cách bảo vệ không gian riêng tư của mình."
+        "upright": "Bạn vượt lên trên những lời đàm tiếu, tập trung vào những mối quan hệ tích cực và sự bình yên của bản thân, không để chúng ảnh hưởng đến mình.",
+        "reversed": "Những lời đồn đại đang gây ra sự bất hòa, làm xáo trộn sự bình yên và làm lung lay niềm tin trong các mối quan hệ."
       },
       "legal": {
-        "upright": "Một vấn đề pháp lý đang đi đến hồi kết với sự ổn định và công bằng. Đây là lúc để ăn mừng sự thành công và thiết lập một nền tảng vững chắc cho tương lai.",
-        "reversed": "Các vấn đề pháp lý đang gặp phải sự bất ổn hoặc chưa tìm được giải pháp bền vững. Cần phải cẩn trọng và tìm kiếm sự ổn định trong các quyết định."
+        "upright": "Những vấn đề pháp lý sẽ được giải quyết một cách thuận lợi, mang lại sự công bằng và bình yên trở lại, củng cố vị thế của bạn.",
+        "reversed": "Những vấn đề pháp lý đang gặp phải sự trì hoãn, những tranh chấp chưa được giải quyết, gây ra sự bất ổn và căng thẳng."
       },
       "moving": {
-        "upright": "Một cuộc di chuyển thành công, bạn đã tìm được chốn an cư lý tưởng, mang lại cảm giác bình yên và thuộc về. Đây là lúc để tận hưởng tổ ấm mới và xây dựng nền tảng vững chắc.",
-        "reversed": "Sự bất ổn trong kế hoạch di chuyển, hoặc cảm giác không thực sự 'an cư lạc nghiệp'. Có thể là những vấn đề về nhà cửa hoặc sự thiếu kết nối với môi trường mới."
+        "upright": "Một cuộc di chuyển thành công, bạn nhanh chóng tạo dựng được một mái ấm mới đầy hạnh phúc và ổn định, hòa nhập tốt với môi trường mới.",
+        "reversed": "Quá trình chuyển nhà gặp phải sự chậm trễ, cảm giác bất an hoặc không thoải mái ở nơi ở mới, khiến bạn khó thích nghi."
       },
       "pet": {
-        "upright": "Một mối quan hệ bền vững và hạnh phúc với thú cưng, mang lại sự ổn định và niềm vui cho gia đình. Thú cưng là một thành viên quan trọng, mang đến sự bình yên.",
-        "reversed": "Mối quan hệ với thú cưng đang gặp phải sự bất ổn, có thể là do sự thay đổi môi trường hoặc cảm giác không được chăm sóc đầy đủ."
+        "upright": "Một người bạn bốn chân mang lại niềm vui, sự ổn định và tình yêu thương vô điều kiện cho mái ấm của bạn, là thành viên đáng yêu của gia đình.",
+        "reversed": "Những lo lắng liên quan đến thú cưng, hoặc những xáo trộn nhỏ trong gia đình do chúng gây ra, làm ảnh hưởng đến sự bình yên."
       },
       "dream": {
-        "upright": "Giấc mơ về sự bình yên, ổn định và hạnh phúc gia đình. Đây là dấu hiệu của sự hài lòng và cảm giác an toàn, thôi thúc bạn xây dựng một nền tảng vững chắc.",
-        "reversed": "Giấc mơ về sự bất ổn, cảm giác không an toàn hoặc bị mất đi sự bình yên. Có thể là nỗi sợ hãi về sự thay đổi hoặc sự thiếu kết nối."
+        "upright": "Những giấc mơ về sự ăn mừng, mái ấm và sự an toàn đang đến, mang lại cảm giác bình yên và những thông điệp tích cực từ tiềm thức.",
+        "reversed": "Những giấc mơ bất an, nỗi sợ hãi về sự mất mát hoặc bất ổn, phản ánh những lo lắng trong cuộc sống thực của bạn."
       },
       "past_life": {
-        "upright": "Từ kiếp trước, linh hồn bạn khao khát sự ổn định, bình yên và tổ ấm. Bạn mang theo khả năng xây dựng những nền tảng vững chắc và tạo ra sự hài hòa trong cuộc sống.",
-        "reversed": "Những bài học về sự bất ổn hoặc thiếu sự kết nối từ kiếp trước đang ảnh hưởng đến hiện tại. Cần học cách xây dựng sự ổn định và tìm thấy sự bình yên nội tâm."
+        "upright": "Những kết nối từ kiếp trước đang mang lại sự an ủi và cảm giác quen thuộc, củng cố nền tảng tinh thần và sự thuộc về của bạn.",
+        "reversed": "Những ảnh hưởng từ kiếp trước đang gây ra sự bất ổn hoặc bồn chồn trong cuộc sống hiện tại, đòi hỏi sự thấu hiểu và giải thoát."
       },
       "karma": {
-        "upright": "Những hành động thiện lành của bạn đã tạo nên một nền tảng vững chắc cho hạnh phúc và sự ổn định. Nghiệp quả tốt đẹp đang đến, mang lại sự bình yên và niềm vui cho cuộc sống.",
-        "reversed": "Những hành động thiếu suy nghĩ hoặc sự thiếu trách nhiệm đang gây ra sự bất ổn. Cần xem xét lại cách bạn gieo nhân để xây dựng một nền tảng vững chắc hơn."
+        "upright": "Nghiệp quả tốt đang nở hoa, mang lại niềm vui, sự ổn định và những phần thưởng xứng đáng cho những hành động thiện lành của bạn.",
+        "reversed": "Những bài học nghiệp quả đang đến dưới dạng sự chậm trễ hoặc thử thách, đòi hỏi bạn phải đối mặt và giải quyết để tìm lại sự hài hòa."
       },
       "lost_item": {
-        "upright": "Món đồ thất lạc có thể được tìm thấy ở trong nhà, ở một nơi quen thuộc hoặc liên quan đến gia đình. Hãy tìm kiếm ở những nơi bạn cảm thấy an toàn và bình yên.",
-        "reversed": "Món đồ có thể bị mất do sự xáo trộn trong nhà hoặc sự thiếu ngăn nắp. Cần phải sắp xếp lại không gian sống để tìm thấy những vật đã mất."
+        "upright": "Vật phẩm bị mất sẽ được tìm thấy ở một nơi quen thuộc, mang lại cảm giác nhẹ nhõm và khôi phục sự bình yên trong tâm trí.",
+        "reversed": "Vật phẩm vẫn còn thất lạc, gây ra sự bất tiện nhỏ hoặc cảm giác lo lắng, làm gián đoạn sự ổn định trong cuộc sống hàng ngày."
+      },
+      "ex": {
+        "upright": "Những ký ức về người cũ nay đã lắng đọng thành bình yên, không còn vướng bận, cho phép trái tim hướng về tương lai với sự thanh thản và hy vọng.",
+        "reversed": "Dù đã chia tay, những vết thương cũ vẫn âm ỉ, gây ra sự bất ổn trong tâm hồn hoặc những vấn đề chưa được giải quyết triệt để, cản trở sự chữa lành hoàn toàn."
+      },
+      "current_love": {
+        "upright": "Tình yêu hiện tại đang nở rộ trong sự ổn định và niềm vui, đánh dấu những cột mốc quan trọng, một nền tảng vững chắc cho tương lai chung đôi.",
+        "reversed": "Mối quan hệ đang đối mặt với sự bất hòa, cảm giác thiếu an toàn hoặc những lời hứa chưa được thực hiện, khiến niềm vui chung bị gián đoạn."
+      },
+      "ambiguous": {
+        "upright": "Sự mơ hồ dần tan biến, nhường chỗ cho những tín hiệu rõ ràng về một cam kết hoặc một mối quan hệ ổn định, mang lại sự yên tâm và định hướng.",
+        "reversed": "Tình trạng không rõ ràng kéo dài, gây ra sự bối rối và thiếu quyết đoán, trì hoãn việc xây dựng một nền tảng vững chắc cho mối quan hệ."
+      },
+      "crush": {
+        "upright": "Tình cảm đơn phương có thể phát triển thành một mối quan hệ ổn định và chân thành, hứa hẹn những khoảnh khắc vui vẻ và sự kết nối sâu sắc.",
+        "reversed": "Sự e dè, thiếu tự tin hoặc những rào cản từ bên ngoài đang ngăn cản mối quan hệ tiến triển, khiến tình cảm vẫn ở trạng thái chông chênh."
+      },
+      "future_love": {
+        "upright": "Tương lai mở ra một tình yêu mang lại sự ổn định, an toàn và niềm hạnh phúc trọn vẹn, nơi bạn tìm thấy sự thuộc về và bình yên trong tâm hồn.",
+        "reversed": "Con đường tình duyên phía trước có thể gặp phải những thử thách về sự ổn định, đòi hỏi sự kiên nhẫn và nỗ lực để xây dựng một mối quan hệ bền vững."
+      },
+      "someone": {
+        "upright": "Một người đặc biệt sẽ xuất hiện hoặc đã có mặt, mang đến niềm vui, sự hỗ trợ và cảm giác an toàn, là điểm tựa vững chãi trong cuộc sống của bạn.",
+        "reversed": "Một cá nhân có thể gây ra sự xáo trộn, bất hòa hoặc cảm giác không an toàn, khiến không gian cá nhân của bạn trở nên bất ổn."
+      },
+      "marriage": {
+        "upright": "Một lễ cưới hạnh phúc đang đến gần, báo hiệu sự khởi đầu của một mái ấm vững chắc, tràn ngập tình yêu và những khoảnh khắc kỷ niệm đáng nhớ.",
+        "reversed": "Hôn nhân có thể bị trì hoãn hoặc đang đối mặt với những bất hòa, sự thiếu ổn định trong mối quan hệ, khiến niềm vui chung chưa trọn vẹn."
+      },
+      "conflict": {
+        "upright": "Mọi xung đột sẽ được hóa giải một cách êm đẹp, mang lại sự bình yên và hòa hợp trở lại, củng cố nền tảng của các mối quan hệ.",
+        "reversed": "Những mâu thuẫn vẫn còn âm ỉ, chưa được giải quyết triệt để, có thể gây ra sự bất ổn và căng thẳng kéo dài trong môi trường gia đình hoặc cá nhân."
+      },
+      "breakup": {
+        "upright": "Sự chia ly diễn ra trong hòa bình, mang lại cảm giác nhẹ nhõm và sự chấp nhận, mở ra cánh cửa cho một khởi đầu mới đầy thanh thản.",
+        "reversed": "Cuộc chia tay diễn ra hỗn loạn, để lại những vết sẹo sâu sắc và sự bất ổn trong cảm xúc, khó khăn trong việc tìm lại sự cân bằng."
+      },
+      "long_distance": {
+        "upright": "Khoảng cách địa lý không là rào cản, mối quan hệ vẫn phát triển mạnh mẽ và bền vững, hứa hẹn những cuộc đoàn tụ đầy niềm vui và hạnh phúc.",
+        "reversed": "Mối quan hệ đường dài đang gặp phải những thách thức, cảm giác xa cách và thiếu sự kết nối, khiến tình cảm trở nên mong manh và dễ lung lay."
+      },
+      "jealousy": {
+        "upright": "Sự tự tin và niềm vui chung giúp bạn vượt qua những cảm xúc ghen tuông, củng cố niềm tin vào mối quan hệ và sự gắn kết.",
+        "reversed": "Cảm giác ghen tuông đang làm xói mòn sự hòa hợp, gây ra sự bất ổn và rạn nứt trong các mối quan hệ, làm mất đi sự bình yên."
+      },
+      "self_love": {
+        "upright": "Bạn đang trân trọng bản thân, ăn mừng những thành tựu cá nhân và tìm thấy sự bình yên nội tại, tạo dựng một nền tảng vững chắc cho hạnh phúc.",
+        "reversed": "Sự nghi ngờ bản thân và cảm giác không xứng đáng đang làm lung lay nền tảng của tình yêu bản thân, khiến bạn khó lòng tìm thấy niềm vui trọn vẹn."
+      },
+      "job_search": {
+        "upright": "Bạn sẽ tìm được một công việc ổn định, phù hợp và mang lại niềm vui, nơi bạn có thể phát triển và đóng góp giá trị của mình.",
+        "reversed": "Quá trình tìm việc bị trì hoãn, hoặc những lời đề nghị không ổn định, khiến bạn cảm thấy lo lắng và thiếu định hướng trong sự nghiệp."
+      },
+      "promotion": {
+        "upright": "Một sự thăng tiến xứng đáng đang đến, mang lại sự công nhận và cơ hội phát triển mới, củng cố vị thế của bạn trong công việc.",
+        "reversed": "Sự thăng tiến có thể bị chậm trễ hoặc không mang lại niềm vui như mong đợi, khiến bạn cảm thấy không hài lòng với vị trí hiện tại."
+      },
+      "business": {
+        "upright": "Công việc kinh doanh đang phát triển ổn định, đạt được những thành công đáng kể và xây dựng được mối quan hệ đối tác vững chắc.",
+        "reversed": "Doanh nghiệp đang đối mặt với sự bất ổn, những mâu thuẫn nội bộ hoặc sự trì trệ trong tăng trưởng, đòi hỏi sự điều chỉnh kịp thời."
+      },
+      "colleague": {
+        "upright": "Mối quan hệ với đồng nghiệp hài hòa, tạo nên một môi trường làm việc hợp tác và hỗ trợ, mang lại niềm vui và hiệu quả cao.",
+        "reversed": "Sự xích mích hoặc thiếu sự hợp tác trong công việc đang gây ra sự căng thẳng, làm giảm đi niềm vui và hiệu suất làm việc."
+      },
+      "career_change": {
+        "upright": "Một sự thay đổi nghề nghiệp thành công, dẫn đến một con đường mới đầy hứa hẹn, ổn định và mang lại sự thỏa mãn cao hơn.",
+        "reversed": "Sự thay đổi nghề nghiệp đang gặp phải những trở ngại, cảm giác không chắc chắn hoặc thiếu sự ổn định trong hướng đi mới."
+      },
+      "freelance": {
+        "upright": "Công việc tự do đang phát triển ổn định, có được lượng khách hàng vững chắc và những dự án thành công, mang lại sự độc lập và niềm vui.",
+        "reversed": "Công việc tự do đang gặp phải sự không ổn định về tài chính, thiếu sự nhất quán trong các dự án, gây ra lo lắng và bất an."
+      },
+      "interview": {
+        "upright": "Cuộc phỏng vấn diễn ra thành công, hứa hẹn một cơ hội việc làm ổn định và phù hợp, mở ra một chương mới trong sự nghiệp của bạn.",
+        "reversed": "Buổi phỏng vấn có thể bị trì hoãn hoặc kết quả không như mong đợi, khiến bạn cảm thấy bất an về cơ hội việc làm."
+      },
+      "investment": {
+        "upright": "Những khoản đầu tư sáng suốt đang mang lại lợi nhuận ổn định, củng cố nền tảng tài chính và sự an toàn trong tương lai.",
+        "reversed": "Các khoản đầu tư đang gặp rủi ro, hoặc sự thiếu ổn định trong thị trường, gây ra lo lắng và bất an về tài chính."
+      },
+      "debt": {
+        "upright": "Bạn đang trên đà kiểm soát nợ nần một cách hiệu quả, hướng tới sự tự do tài chính và cảm giác nhẹ nhõm.",
+        "reversed": "Những khoản nợ đang gây ra áp lực lớn, cảm giác bị mắc kẹt và thiếu sự ổn định tài chính, đòi hỏi sự quản lý cẩn trọng."
+      },
+      "savings": {
+        "upright": "Khoản tiết kiệm đang tăng trưởng đều đặn, mang lại sự an toàn tài chính và khả năng thực hiện những dự định lớn trong tương lai.",
+        "reversed": "Những sự kiện bất ngờ đang làm hao hụt khoản tiết kiệm, gây ra sự bất ổn và lo lắng về an ninh tài chính của bạn."
+      },
+      "luck_money": {
+        "upright": "May mắn về tiền bạc đang đến, mang lại những cơ hội tài chính ổn định và những thành quả đáng mừng, củng cố vị thế của bạn.",
+        "reversed": "Cơ hội tài chính có thể bị bỏ lỡ, hoặc những khoản chi tiêu nhỏ không mong muốn, gây ra sự bất ổn tạm thời về tiền bạc."
+      },
+      "mental": {
+        "upright": "Tâm trí đang ở trạng thái bình an và ổn định, cảm xúc hài hòa, mang lại sự thanh thản và khả năng đối mặt với mọi thử thách.",
+        "reversed": "Tâm trạng bất ổn, lo lắng hoặc căng thẳng về môi trường sống và sự an toàn, khiến tâm hồn khó tìm được sự bình yên."
+      },
+      "energy": {
+        "upright": "Bạn đang tràn đầy năng lượng, cảm thấy vững vàng và rạng rỡ, sẵn sàng cho những hoạt động vui vẻ và có ý nghĩa.",
+        "reversed": "Năng lượng bị phân tán, cảm giác bồn chồn hoặc kiệt sức, khiến bạn khó tập trung và tận hưởng cuộc sống."
+      },
+      "family": {
+        "upright": "Gia đình đang trải qua những khoảnh khắc hạnh phúc, gắn kết và hòa thuận, tạo nên một mái ấm vững chắc và tràn ngập yêu thương.",
+        "reversed": "Những bất đồng trong gia đình, cảm giác bị bỏ rơi hoặc thiếu sự kết nối, khiến không khí gia đình trở nên căng thẳng."
+      },
+      "diet": {
+        "upright": "Chế độ ăn uống cân bằng đang góp phần vào sức khỏe và sự ổn định của cơ thể, mang lại cảm giác khỏe khoắn và tràn đầy năng lượng.",
+        "reversed": "Khó khăn trong việc duy trì chế độ ăn uống lành mạnh, thói quen ăn uống không ổn định, ảnh hưởng đến sức khỏe và tinh thần."
+      },
+      "study": {
+        "upright": "Học tập đang tiến triển thuận lợi, đạt được những thành tích đáng mừng và tạo dựng một môi trường học tập ổn định.",
+        "reversed": "Quá trình học tập đang gặp phải sự gián đoạn, cảm giác mất tập trung hoặc thiếu động lực, gây ra sự bất ổn trong kết quả."
+      },
+      "study_abroad": {
+        "upright": "Trải nghiệm du học thành công và đầy niềm vui, bạn tìm thấy cảm giác như ở nhà dù đang ở nơi xa lạ, hòa nhập tốt với môi trường mới.",
+        "reversed": "Những thách thức trong việc thích nghi với môi trường mới, cảm giác cô lập hoặc bất an khi du học, khiến trải nghiệm chưa trọn vẹn."
+      },
+      "self": {
+        "upright": "Bạn đang tìm thấy cảm giác thuộc về, bình yên nội tại và tự ăn mừng những giá trị của bản thân, tạo nên một cái tôi vững chắc.",
+        "reversed": "Cảm giác bất an, không ổn định về bản thân hoặc mâu thuẫn nội tâm, khiến bạn khó tìm thấy sự bình yên và tự chấp nhận."
+      },
+      "purpose": {
+        "upright": "Bạn đang có một mục đích rõ ràng, hướng tới những mục tiêu ổn định và ý nghĩa, mang lại sự thỏa mãn và định hướng trong cuộc sống.",
+        "reversed": "Sự không chắc chắn về mục đích sống, cảm giác lạc lõng hoặc thiếu định hướng, khiến bạn cảm thấy bất an về tương lai."
+      },
+      "shadow_self": {
+        "upright": "Bạn đang chấp nhận và hòa nhập những khía cạnh tiềm ẩn của bản thân, tạo nên sự toàn vẹn và ổn định trong tâm hồn.",
+        "reversed": "Sự kháng cự lại những khía cạnh tối của bản thân, nỗi sợ hãi về sự bất ổn nội tại, gây ra sự mâu thuẫn và căng thẳng."
+      },
+      "decision": {
+        "upright": "Những quyết định bạn đưa ra đang dẫn đến sự ổn định, niềm vui và những kết quả tích cực, củng cố niềm tin vào lựa chọn của mình.",
+        "reversed": "Sự do dự, thiếu quyết đoán đang dẫn đến sự trì trệ hoặc bất ổn, khiến bạn khó lòng tiến về phía trước một cách vững vàng."
+      },
+      "travel": {
+        "upright": "Một chuyến đi vui vẻ và an toàn, mang lại cảm giác như ở nhà dù đang ở nơi xa, tận hưởng những trải nghiệm đáng nhớ.",
+        "reversed": "Chuyến đi có thể gặp phải sự chậm trễ, cảm giác lạc lõng hoặc không thoải mái, khiến trải nghiệm du lịch bị ảnh hưởng."
+      },
+      "general": {
+        "upright": "Một giai đoạn của sự ăn mừng, ổn định và niềm vui, nơi những nỗ lực được đền đáp và bạn tìm thấy sự an toàn, hạnh phúc trong cuộc sống.",
+        "reversed": "Sự chậm trễ trong niềm vui, cảm giác bất an hoặc những xáo trộn nhỏ đang làm gián đoạn sự bình yên và ổn định của bạn."
       }
     },
     "planet": "Sao Kim",
@@ -5974,74 +6144,204 @@ window.TAROT_DB = [
     "reversed": "Bạn đang né tránh mâu thuẫn hoặc cuối cùng đã tìm ra giải pháp thỏa hiệp để chấm dứt xung đột.",
     "aspects": {
       "love": {
-        "up": "Những cuộc cãi vã nhỏ, cái tôi quá lớn trong tình yêu.",
-        "rev": "Làm hòa sau cãi vã, đồng thuận.",
-        "upright": "Mối quan hệ đang rực lửa bởi những trận cãi vã, ghen tuông hoặc cái tôi quá lớn. Sự xung khắc trong quan điểm đang đẩy cả hai vào những cuộc chiến không có hồi kết.",
-        "reversed": "Cố gắng né tránh mâu thuẫn chỉ khiến khoảng cách ngày càng xa. Một trong hai người đang chịu đựng sự ấm ức, kìm nén cảm xúc để duy trì một nền hòa bình giả tạo."
+        "upright": "Tình yêu đôi khi là một sàn đấu sôi nổi, nơi những tranh cãi nhỏ nhen và bất đồng quan điểm lại thổi bùng ngọn lửa đam mê, thử thách sự kiên nhẫn và gắn kết hai tâm hồn.",
+        "reversed": "Sự mệt mỏi từ những cuộc cãi vã không hồi kết, hoặc một bầu không khí im lặng đầy căng thẳng khi cả hai né tránh đối đầu, khiến tình yêu chìm vào sự bế tắc và thiếu chân thật."
       },
       "career": {
-        "up": "Cạnh tranh gay gắt tại nơi làm việc, mâu thuẫn nhóm.",
-        "rev": "Hợp tác trở lại, tránh né drama công sở.",
-        "upright": "Môi trường công sở đầy tính cạnh tranh khốc liệt, đấu đá nội bộ hoặc sự đối đầu gay gắt giữa các phòng ban. Bạn phải chiến đấu hết mình để bảo vệ quan điểm và vị thế.",
-        "reversed": "Bạn cảm thấy mệt mỏi và muốn rút lui khỏi vòng xoáy cạnh tranh độc hại. Sự nhượng bộ vì muốn yên thân có thể khiến bạn đánh mất cơ hội thăng tiến."
+        "upright": "Môi trường công việc cạnh tranh khốc liệt, đầy rẫy những cuộc tranh luận gay gắt và những thử thách đòi hỏi bạn phải chứng tỏ năng lực và bản lĩnh.",
+        "reversed": "Sự mệt mỏi với những mâu thuẫn không ngừng, sự thiếu hợp tác hoặc những xung đột nội bộ không được giải quyết, gây cản trở sự phát triển nghề nghiệp."
       },
       "finance": {
-        "up": "Đấu tranh tài chính, tranh chấp tiền bạc.",
-        "rev": "Giải quyết xong các tranh chấp tài chính.",
-        "upright": "Sự giằng co trong các quyết định tài chính. Bạn đang phải chật vật xoay xở giữa nhiều nguồn chi phí hoặc đối mặt với sự cạnh tranh khốc liệt trong kinh doanh.",
-        "reversed": "Những tranh chấp tiền bạc đang dần được xoa dịu hoặc bạn chọn cách buông bỏ lợi ích nhỏ để đổi lấy sự bình yên tâm trí."
+        "upright": "Tình hình tài chính đang gặp phải những thách thức, có thể là những tranh chấp về tiền bạc, những khoản chi phí bất ngờ hoặc sự cạnh tranh trong đầu tư.",
+        "reversed": "Sự hỗn loạn trong quản lý tài chính, những khoản nợ chồng chất do thiếu kiểm soát, hoặc sự mệt mỏi khi phải liên tục giải quyết các vấn đề tiền bạc."
       },
       "health": {
-        "up": "Căng thẳng, stress do môi trường xung quanh.",
-        "rev": "Giảm bớt căng thẳng, tìm thấy sự bình yên.",
-        "upright": "Cơ thể căng cứng vì stress, adrenaline luôn ở mức cao do phải đối phó với áp lực liên tục. Sự suy giảm miễn dịch do tình trạng căng thẳng kéo dài.",
-        "reversed": "Những tổn thương thể chất hoặc tinh thần bị dồn nén do né tránh các vấn đề sức khỏe gốc rễ. Hãy đối mặt để giải quyết triệt để cơn đau."
+        "upright": "Sức khỏe có thể gặp phải những vấn đề nhỏ nhưng dai dẳng, đòi hỏi bạn phải chú ý và tìm cách giải quyết từ gốc rễ, có thể là những xung đột nội tại trong cơ thể.",
+        "reversed": "Sự mệt mỏi kéo dài, những vấn đề sức khỏe bị bỏ qua hoặc những mâu thuẫn trong cách điều trị, khiến cơ thể suy yếu và khó hồi phục."
       },
       "spiritual": {
-        "up": "Xung đột nội tâm về niềm tin.",
-        "rev": "Chấp nhận sự khác biệt về niềm tin.",
-        "upright": "Sự đấu tranh nội tâm gay gắt giữa những hệ tư tưởng hoặc những khát vọng trái ngược. Một cuộc khủng hoảng đức tin khi những niềm tin cũ và mới đang giao tranh.",
-        "reversed": "Khao khát mãnh liệt một sự tĩnh lặng nội tâm. Đã đến lúc buông bỏ những tranh cãi vô bổ bên ngoài để tìm về sự tĩnh lặng ở cốt lõi linh hồn."
+        "upright": "Hành trình tâm linh đang trải qua giai đoạn thử thách với những câu hỏi khó, những cuộc đấu tranh nội tâm về đức tin hoặc những mâu thuẫn trong quan điểm.",
+        "reversed": "Sự hoang mang trong tâm linh, những xung đột nội tại về giá trị hoặc việc từ bỏ con đường tìm kiếm ý nghĩa sâu sắc."
       },
       "friendship": {
-        "upright": "Tình bạn đang trải qua những thử thách hoặc bất đồng quan điểm. Đây là cơ hội để cùng nhau vượt qua khó khăn, học cách giải quyết mâu thuẫn và củng cố mối quan hệ.",
-        "reversed": "Một tình bạn đang bị chia rẽ bởi những mâu thuẫn chưa được giải quyết, hoặc sự cạnh tranh không lành mạnh. Cần phải tìm cách hòa giải để tránh những rạn nứt sâu sắc hơn."
+        "upright": "Tình bạn đang trải qua những bất đồng, những cuộc tranh luận về quan điểm, nhưng nếu được giải quyết, chúng sẽ làm sâu sắc thêm mối quan hệ.",
+        "reversed": "Những mâu thuẫn trong tình bạn bị dồn nén, sự thiếu tin tưởng hoặc những cuộc cãi vã không được hóa giải, dẫn đến sự rạn nứt."
       },
       "pregnancy": {
-        "upright": "Những thách thức hoặc khó khăn trong hành trình mang thai, có thể là về sức khỏe hoặc những bất đồng trong gia đình. Đây là lúc cần sự kiên cường và tinh thần hợp tác.",
-        "reversed": "Những mâu thuẫn hoặc tranh cãi lớn liên quan đến việc mang thai, gây ra sự căng thẳng và áp lực. Cần phải tìm cách giải quyết để tạo ra môi trường bình yên."
+        "upright": "Giai đoạn mang thai có thể gặp phải những lo lắng, những ý kiến trái chiều từ gia đình hoặc những bất đồng về cách chăm sóc, đòi hỏi sự kiên nhẫn.",
+        "reversed": "Những mâu thuẫn nội tại về việc mang thai, sự lo âu quá mức hoặc những xung đột gia đình không được giải quyết, gây ảnh hưởng đến sức khỏe mẹ và bé."
       },
       "gossip": {
-        "upright": "Bạn đang đối mặt với những lời đồn đại và thị phi, nhưng đây là cơ hội để bạn chứng tỏ bản lĩnh và bảo vệ danh tiếng của mình.",
-        "reversed": "Những lời đồn đại đang gây ra sự chia rẽ và mâu thuẫn nghiêm trọng, khiến bạn cảm thấy bị tấn công hoặc cô lập. Cần phải tìm cách dập tắt ngọn lửa này."
+        "upright": "Tin đồn và những lời bàn tán đang gây ra xung đột, những cuộc tranh cãi hoặc hiểu lầm trong các mối quan hệ, đòi hỏi sự minh bạch và đối diện.",
+        "reversed": "Những tin đồn bị dồn nén, sự im lặng đồng lõa hoặc sự mệt mỏi khi phải đối mặt với những thị phi không đáng có."
       },
       "legal": {
-        "upright": "Một vụ kiện tụng hoặc vấn đề pháp lý đang gặp phải sự cạnh tranh gay gắt. Đây là lúc cần sự kiên cường, chiến lược và tinh thần chiến đấu để bảo vệ quyền lợi.",
-        "reversed": "Các vấn đề pháp lý đang bị phức tạp hóa bởi những mâu thuẫn nội bộ hoặc sự cạnh tranh không lành mạnh. Cần phải tìm cách hòa giải để đạt được sự đồng thuận."
+        "upright": "Vấn đề pháp lý đang ở trong giai đoạn tranh chấp, những cuộc đối đầu tại tòa án hoặc những cuộc đàm phán gay gắt, đòi hỏi sự chuẩn bị kỹ lưỡng.",
+        "reversed": "Sự bế tắc trong các tranh chấp pháp lý, những mâu thuẫn không thể giải quyết hoặc việc từ bỏ cuộc chiến, chấp nhận thua thiệt."
       },
       "moving": {
-        "upright": "Những thách thức hoặc khó khăn trong quá trình di chuyển, có thể là về việc tìm nhà, sắp xếp đồ đạc hoặc thích nghi với môi trường mới.",
-        "reversed": "Sự xung đột hoặc tranh cãi liên quan đến việc di chuyển, gây ra sự căng thẳng và cản trở kế hoạch. Cần phải tìm cách giải quyết để tiến lên."
+        "upright": "Việc chuyển nhà đang gặp phải những trục trặc, những bất đồng với người thân hoặc những khó khăn trong việc sắp xếp, đòi hỏi sự kiên nhẫn.",
+        "reversed": "Kế hoạch chuyển nhà bị trì hoãn do những mâu thuẫn, sự mệt mỏi khi phải đối mặt với những rắc rối hoặc sự thiếu hòa thuận trong gia đình."
       },
       "pet": {
-        "upright": "Mối quan hệ với thú cưng đang trải qua những thử thách, có thể là do sự nghịch ngợm, huấn luyện khó khăn hoặc những vấn đề về sức khỏe.",
-        "reversed": "Sự xung đột hoặc mâu thuẫn trong việc chăm sóc thú cưng, có thể là giữa các thành viên trong gia đình hoặc với thú cưng khác."
+        "upright": "Có thể có những xung đột nhỏ liên quan đến thú cưng, như cách chăm sóc, huấn luyện hoặc những bất đồng ý kiến giữa các thành viên trong gia đình.",
+        "reversed": "Sự bỏ bê thú cưng do những mâu thuẫn gia đình, hoặc những vấn đề về hành vi của thú cưng không được giải quyết, gây ra sự khó chịu."
       },
       "dream": {
-        "upright": "Giấc mơ về sự cạnh tranh, thử thách và mâu thuẫn. Đây là dấu hiệu của những cuộc đấu tranh nội tâm hoặc những thách thức trong cuộc sống, thôi thúc bạn đối mặt và vượt qua.",
-        "reversed": "Giấc mơ về sự bế tắc, không thể giải quyết mâu thuẫn hoặc cảm giác bị mắc kẹt trong cuộc chiến. Có thể là nỗi sợ hãi về sự thất bại hoặc sự thiếu khả năng đối phó."
+        "upright": "Giấc mơ phản ánh những xung đột nội tâm, những cuộc đấu tranh giữa các mong muốn hoặc những thử thách mà bạn đang phải đối mặt trong tiềm thức.",
+        "reversed": "Giấc mơ bị ám ảnh bởi những mâu thuẫn không được giải quyết, sự lo âu kéo dài hoặc cảm giác bất lực trước những vấn đề trong cuộc sống."
       },
       "past_life": {
-        "upright": "Từ kiếp trước, linh hồn bạn đã trải qua nhiều cuộc đấu tranh và thử thách. Bạn mang theo khả năng đối mặt với khó khăn, cạnh tranh và vượt qua mọi trở ngại.",
-        "reversed": "Những bài học về sự thiếu khả năng giải quyết mâu thuẫn hoặc sự sợ hãi trước những cuộc đấu tranh từ kiếp trước đang ảnh hưởng đến hiện tại. Cần học cách đối mặt và tìm kiếm sự hòa giải."
+        "upright": "Những xung đột hoặc bài học từ kiếp trước đang tái diễn trong cuộc sống hiện tại, đòi hỏi bạn phải đối diện và hóa giải để tìm thấy sự bình yên.",
+        "reversed": "Những mâu thuẫn từ kiếp trước vẫn còn âm ỉ, gây ra sự bất ổn hoặc những vấn đề không thể giải thích trong cuộc sống hiện tại."
       },
       "karma": {
-        "upright": "Những thử thách và mâu thuẫn bạn đang gặp phải là cơ hội để bạn học hỏi và phát triển. Đây là lúc gieo những hạt giống của sự kiên cường, công bằng và khả năng giải quyết vấn đề.",
-        "reversed": "Những hành động gây hấn hoặc sự thiếu công bằng từ quá khứ đang tạo ra những xung đột. Cần xem xét lại cách bạn đối xử với người khác để tránh gieo nghiệp xấu."
+        "upright": "Bạn đang phải đối mặt với những hệ quả từ hành động trong quá khứ, một cuộc đấu tranh để sửa chữa lỗi lầm và học hỏi từ những trải nghiệm.",
+        "reversed": "Những xung đột nghiệp quả bị dồn nén, không được hóa giải, khiến bạn cảm thấy mắc kẹt trong những vòng lặp tiêu cực."
       },
       "lost_item": {
-        "upright": "Món đồ thất lạc có thể nằm ở một nơi lộn xộn, hoặc bị che giấu trong một đống đồ đạc. Hãy tìm kiếm ở những nơi có nhiều sự xáo trộn hoặc cạnh tranh.",
-        "reversed": "Món đồ có thể bị mất do sự bất cẩn trong lúc tranh cãi hoặc bị giấu đi bởi người khác. Cần phải bình tĩnh và suy nghĩ lại những tình huống gây mâu thuẫn."
+        "upright": "Việc tìm kiếm đồ vật bị mất đang gặp phải những khó khăn, những manh mối mâu thuẫn hoặc sự phân tâm, đòi hỏi sự kiên nhẫn và tập trung.",
+        "reversed": "Sự từ bỏ việc tìm kiếm đồ vật bị mất do cảm thấy quá sức, hoặc sự hỗn loạn trong việc sắp xếp đồ đạc, khiến việc tìm kiếm trở nên vô vọng."
+      },
+      "ex": {
+        "upright": "Mối quan hệ với người cũ vẫn còn những vướng mắc, những cuộc tranh cãi cũ có thể bùng phát lại, hoặc những hiểu lầm chưa được hóa giải tạo nên sự giằng xé.",
+        "reversed": "Nỗ lực hòa giải hoặc tìm kiếm sự bình yên sau những sóng gió đã qua, nhưng cũng có thể là sự né tránh hoàn toàn, không muốn đối mặt với những xung đột còn sót lại."
+      },
+      "current_love": {
+        "upright": "Tình yêu hiện tại đang trải qua giai đoạn thử thách với những bất đồng quan điểm, những cuộc tranh luận nảy lửa, nhưng đây cũng là cơ hội để hai người hiểu và chấp nhận sự khác biệt của nhau.",
+        "reversed": "Mối quan hệ gặp bế tắc do sự mâu thuẫn nội tại hoặc sự từ chối đối diện với vấn đề, khiến tình cảm dần phai nhạt trong sự im lặng hoặc những xung đột không được giải quyết triệt để."
+      },
+      "ambiguous": {
+        "upright": "Mối quan hệ lấp lửng này đầy rẫy những tín hiệu mâu thuẫn, những lời nói úp mở và những hành động khó hiểu, tạo ra một cuộc đấu tranh nội tâm giữa hy vọng và nghi ngờ.",
+        "reversed": "Sự chán nản trước những mâu thuẫn không hồi kết, hoặc một quyết định từ bỏ cuộc chiến không rõ ràng, tìm kiếm sự bình yên dù phải chấp nhận sự không rõ ràng."
+      },
+      "crush": {
+        "upright": "Cảm xúc dành cho người trong mộng đang gặp phải sự cạnh tranh từ những đối thủ khác, hoặc những hiểu lầm nhỏ nhặt khiến bạn phải nỗ lực hơn để thu hút sự chú ý.",
+        "reversed": "Sự e ngại đối diện với tình cảm của mình hoặc rút lui khỏi cuộc cạnh tranh, có thể vì cảm thấy không đủ sức hoặc không muốn gây ra thêm rắc rối."
+      },
+      "future_love": {
+        "upright": "Tình yêu tương lai sẽ đến trong bối cảnh đầy thử thách, có thể là qua những cuộc tranh luận nảy lửa hoặc những tình huống cạnh tranh, nơi bạn tìm thấy người phù hợp thông qua sự đối đầu.",
+        "reversed": "Một tình yêu bình yên đến sau những sóng gió, hoặc một mối quan hệ mà bạn phải học cách tránh xa những mâu thuẫn không cần thiết để duy trì sự hòa hợp."
+      },
+      "someone": {
+        "upright": "Người này có thể là nguồn gốc của những cuộc tranh cãi hoặc là người luôn thách thức bạn, nhưng cũng chính là người giúp bạn mài giũa bản thân qua những va chạm.",
+        "reversed": "Một người đang cố gắng tránh né xung đột, hoặc là người mang đến sự hỗn loạn và mâu thuẫn nội bộ mà bạn khó lòng giải quyết."
+      },
+      "marriage": {
+        "upright": "Hôn nhân đang trải qua giai đoạn thử thách với những bất đồng quan điểm, những cuộc tranh luận về trách nhiệm và quyền lợi, đòi hỏi sự kiên nhẫn và khả năng thỏa hiệp từ cả hai.",
+        "reversed": "Sự mệt mỏi từ những mâu thuẫn kéo dài, hoặc sự né tránh đối đầu trong hôn nhân, có thể dẫn đến sự xa cách hoặc những vấn đề không được giải quyết triệt để."
+      },
+      "conflict": {
+        "upright": "Xung đột đang ở đỉnh điểm, là những cuộc tranh luận sôi nổi, những va chạm ý kiến mạnh mẽ, nhưng chúng lại là động lực để nhìn nhận vấn đề từ nhiều góc độ.",
+        "reversed": "Xung đột bị dồn nén, âm ỉ bên trong hoặc được giải quyết một cách miễn cưỡng, tạo ra sự ngột ngạt và không thực sự hóa giải được gốc rễ vấn đề."
+      },
+      "breakup": {
+        "upright": "Cuộc chia tay đầy kịch tính với những lời qua tiếng lại, những tranh cãi nảy lửa, một trận chiến cảm xúc để giải tỏa những uất ức và bất đồng.",
+        "reversed": "Chia tay trong sự mệt mỏi vì những mâu thuẫn kéo dài không lối thoát, hoặc một sự từ bỏ cuộc chiến, chấp nhận kết thúc để tìm kiếm sự bình yên."
+      },
+      "long_distance": {
+        "upright": "Mối quan hệ yêu xa đầy thử thách với những hiểu lầm qua khoảng cách, những bất đồng do thiếu giao tiếp trực tiếp, đòi hỏi sự kiên nhẫn và nỗ lực rất lớn.",
+        "reversed": "Sự mệt mỏi vì những xung đột không thể giải quyết qua khoảng cách, hoặc một bên từ bỏ nỗ lực duy trì mối quan hệ do cảm thấy quá sức."
+      },
+      "jealousy": {
+        "upright": "Ghen tuông bùng phát thành những cuộc tranh cãi, những lời buộc tội và chất vấn, là biểu hiện của sự bất an và khao khát khẳng định vị trí.",
+        "reversed": "Ghen tuông âm ỉ, bị dồn nén hoặc được che giấu, tạo ra sự căng thẳng nội tại và những xung đột ngầm không được giải tỏa."
+      },
+      "self_love": {
+        "upright": "Một cuộc đấu tranh nội tâm để chấp nhận những khuyết điểm, đối diện với những góc khuất của bản thân, là quá trình đầy thách thức nhưng cần thiết để trưởng thành.",
+        "reversed": "Sự tự ti, né tránh đối diện với những vấn đề của bản thân, hoặc sự mệt mỏi trong việc yêu thương chính mình, dẫn đến sự bất an và thiếu tự tin."
+      },
+      "job_search": {
+        "upright": "Quá trình tìm việc đầy cạnh tranh, bạn phải đối mặt với nhiều ứng viên tài năng và những buổi phỏng vấn đầy thử thách, đòi hỏi sự chuẩn bị kỹ lưỡng.",
+        "reversed": "Sự nản lòng trước những thất bại, hoặc cảm thấy quá sức trước sự cạnh tranh, dẫn đến việc từ bỏ hoặc không dám đối mặt với những thử thách mới."
+      },
+      "promotion": {
+        "upright": "Để đạt được thăng chức, bạn phải trải qua một cuộc cạnh tranh gay gắt, chứng minh giá trị bản thân trong một môi trường đầy thách thức.",
+        "reversed": "Sự mệt mỏi với những cuộc đấu đá nội bộ, hoặc việc từ bỏ cơ hội thăng tiến vì không muốn dấn thân vào những xung đột không đáng có."
+      },
+      "business": {
+        "upright": "Giai đoạn kinh doanh đầy cạnh tranh, có thể có những tranh chấp với đối tác, đối thủ hoặc những bất đồng ý kiến nội bộ, đòi hỏi sự linh hoạt và khả năng giải quyết vấn đề.",
+        "reversed": "Sự hỗn loạn trong quản lý, những mâu thuẫn nội bộ không được giải quyết, hoặc sự chán nản trước những cuộc chiến không hồi kết, có thể dẫn đến thất bại."
+      },
+      "colleague": {
+        "upright": "Mối quan hệ với đồng nghiệp có thể căng thẳng, với những bất đồng quan điểm và những cuộc tranh luận nảy lửa, nhưng cũng là cơ hội để học hỏi và phát triển.",
+        "reversed": "Mâu thuẫn với đồng nghiệp bị dồn nén, tạo ra bầu không khí làm việc ngột ngạt, hoặc sự thiếu hợp tác do những bất đồng không được giải quyết."
+      },
+      "career_change": {
+        "upright": "Quyết định thay đổi sự nghiệp đang gặp phải những trở ngại, những lời khuyên trái chiều hoặc những cuộc đấu tranh nội tâm về con đường phía trước.",
+        "reversed": "Sự do dự, trì hoãn việc thay đổi nghề nghiệp vì sợ hãi những xung đột tiềm tàng hoặc sự mệt mỏi khi phải đối mặt với những thách thức mới."
+      },
+      "freelance": {
+        "upright": "Công việc tự do đầy cạnh tranh, bạn phải đấu tranh để giành được dự án, đối mặt với những khách hàng khó tính và những bất đồng về ý tưởng.",
+        "reversed": "Sự hỗn loạn trong quản lý thời gian, những mâu thuẫn với khách hàng không được giải quyết, hoặc sự chán nản vì phải liên tục đấu tranh để tồn tại."
+      },
+      "interview": {
+        "upright": "Buổi phỏng vấn sẽ là một cuộc đối đầu trực diện, bạn phải thể hiện bản thân một cách mạnh mẽ và tự tin để vượt qua những ứng viên khác.",
+        "reversed": "Sự thiếu tự tin, rụt rè trong buổi phỏng vấn, hoặc cảm thấy bị áp đảo bởi những câu hỏi khó, dẫn đến kết quả không như mong đợi."
+      },
+      "investment": {
+        "upright": "Quyết định đầu tư đang gặp phải những luồng ý kiến trái chiều, có thể có những cuộc tranh luận về chiến lược hoặc những rủi ro tiềm ẩn cần được cân nhắc kỹ lưỡng.",
+        "reversed": "Sự chán nản trước những thua lỗ, hoặc việc tránh né đối mặt với rủi ro, dẫn đến sự trì trệ trong việc đưa ra quyết định đầu tư."
+      },
+      "debt": {
+        "upright": "Cuộc đấu tranh để thoát khỏi nợ nần đang diễn ra gay gắt, bạn phải đối mặt với những áp lực tài chính và tìm kiếm giải pháp để trả nợ.",
+        "reversed": "Sự tuyệt vọng trước gánh nặng nợ nần, hoặc việc né tránh đối mặt với thực tế, khiến tình hình tài chính trở nên tồi tệ hơn."
+      },
+      "savings": {
+        "upright": "Việc tiết kiệm đang gặp phải những trở ngại, có thể là những khoản chi bất ngờ hoặc những cám dỗ khiến bạn khó lòng giữ được kỷ luật.",
+        "reversed": "Sự thiếu kỷ luật trong việc tiết kiệm, những mục tiêu tài chính bị lung lay, hoặc sự mệt mỏi khi phải liên tục chống lại những cám dỗ chi tiêu."
+      },
+      "luck_money": {
+        "upright": "May mắn về tiền bạc đến từ những cuộc đấu tranh và cạnh tranh, bạn phải nỗ lực hết mình để giành lấy cơ hội.",
+        "reversed": "Sự thiếu may mắn do những mâu thuẫn nội tại hoặc sự từ bỏ cơ hội, khiến tài lộc không thể đến."
+      },
+      "mental": {
+        "upright": "Tâm trí đang ở trong trạng thái hỗn loạn với những suy nghĩ mâu thuẫn, những cuộc đấu tranh nội tâm, nhưng đây cũng là cơ hội để sắp xếp lại tư tưởng.",
+        "reversed": "Sự kiệt sức về tinh thần do những xung đột nội tại không được giải quyết, sự lo âu kéo dài hoặc việc né tránh đối diện với những vấn đề tâm lý."
+      },
+      "energy": {
+        "upright": "Năng lượng tràn đầy nhưng có phần hỗn loạn, có thể dẫn đến những xung đột hoặc sự phân tán, đòi hỏi bạn phải học cách điều hướng và tập trung.",
+        "reversed": "Sự kiệt sức, năng lượng bị phân tán hoặc bị mắc kẹt trong những mâu thuẫn không lối thoát, khiến bạn cảm thấy uể oải và thiếu động lực."
+      },
+      "family": {
+        "upright": "Gia đình đang trải qua giai đoạn có những bất đồng, những cuộc tranh cãi nhỏ nhặt giữa các thành viên, nhưng đây là cơ hội để thấu hiểu và gắn kết hơn.",
+        "reversed": "Những mâu thuẫn gia đình bị dồn nén, sự thiếu hòa thuận hoặc những cuộc cãi vã không hồi kết, khiến không khí gia đình trở nên nặng nề."
+      },
+      "diet": {
+        "upright": "Việc ăn kiêng đang gặp phải những thử thách, những cám dỗ từ thực phẩm hoặc những cuộc đấu tranh nội tâm để duy trì chế độ ăn uống lành mạnh.",
+        "reversed": "Sự thiếu kỷ luật trong ăn uống, việc từ bỏ chế độ ăn kiêng vì quá mệt mỏi hoặc những mâu thuẫn trong việc lựa chọn thực phẩm."
+      },
+      "study": {
+        "upright": "Quá trình học tập đầy cạnh tranh, bạn phải đối mặt với những bài kiểm tra khó khăn, những cuộc tranh luận học thuật hoặc những áp lực từ bạn bè.",
+        "reversed": "Sự chán nản trong học tập do những mâu thuẫn nội tại hoặc sự thiếu động lực, dẫn đến việc bỏ bê hoặc không đạt được kết quả mong muốn."
+      },
+      "study_abroad": {
+        "upright": "Du học sẽ là một trải nghiệm đầy thử thách với những khác biệt văn hóa, những khó khăn trong giao tiếp và những cuộc đấu tranh để hòa nhập.",
+        "reversed": "Sự cô lập, khó khăn trong việc thích nghi với môi trường mới hoặc những mâu thuẫn không thể giải quyết, khiến trải nghiệm du học trở nên nặng nề."
+      },
+      "self": {
+        "upright": "Bản thân đang ở trong một cuộc đấu tranh để định hình danh tính, đối mặt với những mâu thuẫn nội tại và những thử thách để trưởng thành.",
+        "reversed": "Sự bất ổn về bản sắc, những xung đột nội tâm bị dồn nén hoặc sự từ bỏ việc tìm kiếm chính mình, dẫn đến sự hoang mang và mất phương hướng."
+      },
+      "purpose": {
+        "upright": "Việc tìm kiếm mục đích sống đang gặp phải những trở ngại, những ý kiến trái chiều hoặc những cuộc đấu tranh nội tâm để xác định con đường đúng đắn.",
+        "reversed": "Sự mơ hồ về mục đích sống, những mâu thuẫn giữa mong muốn và thực tế, hoặc sự từ bỏ việc tìm kiếm ý nghĩa cuộc đời."
+      },
+      "shadow_self": {
+        "upright": "Đối mặt trực diện với những góc khuất, những khuyết điểm của bản thân, một cuộc chiến nội tâm để chấp nhận và hóa giải những phần chưa được khai phá.",
+        "reversed": "Sự né tránh, chối bỏ những mặt tối của bản thân, khiến chúng âm ỉ và gây ra những xung đột nội tại không được giải quyết."
+      },
+      "decision": {
+        "upright": "Việc đưa ra quyết định đang gặp phải những luồng ý kiến trái chiều, những cuộc tranh luận nội bộ hoặc sự đấu tranh giữa các lựa chọn, đòi hỏi sự cân nhắc kỹ lưỡng.",
+        "reversed": "Sự do dự kéo dài, không thể đưa ra quyết định do quá nhiều mâu thuẫn hoặc sự từ bỏ trách nhiệm, dẫn đến trì trệ và bỏ lỡ cơ hội."
+      },
+      "travel": {
+        "upright": "Chuyến đi có thể gặp phải những trục trặc nhỏ, những bất đồng với bạn đồng hành hoặc những tình huống bất ngờ đòi hỏi sự linh hoạt và khả năng giải quyết vấn đề.",
+        "reversed": "Kế hoạch du lịch bị hủy bỏ do những mâu thuẫn, sự mệt mỏi khi phải đối mặt với những rắc rối không đáng có, hoặc sự thiếu hòa thuận trong nhóm."
+      },
+      "general": {
+        "upright": "Cuộc sống đang ở trong giai đoạn đầy thử thách và cạnh tranh, nơi những va chạm và bất đồng là điều không thể tránh khỏi, nhưng chúng lại là động lực để phát triển.",
+        "reversed": "Sự mệt mỏi trước những mâu thuẫn không hồi kết, sự hỗn loạn hoặc sự từ bỏ cuộc chiến, khiến mọi thứ trở nên bế tắc và thiếu định hướng."
       }
     },
     "planet": "Sao Thổ",
@@ -6999,74 +7299,204 @@ window.TAROT_DB = [
     "reversed": "Đã đến lúc buông bỏ những gánh nặng không cần thiết, hoặc bạn đang bị sụp đổ dưới áp lực.",
     "aspects": {
       "love": {
-        "up": "Cảm thấy mối quan hệ là một gánh nặng, thiếu sự san sẻ.",
-        "rev": "Buông bỏ một mối quan hệ mệt mỏi.",
-        "upright": "Bạn đang gánh vác toàn bộ trách nhiệm hoặc những nỗi đau trong mối quan hệ. Tình yêu hiện tại mang lại cảm giác ngột ngạt, nặng nề như một nghĩa vụ hơn là niềm hạnh phúc sẻ chia.",
-        "reversed": "Sự bùng nổ của những dồn nén cảm xúc. Hoặc bạn quyết định buông bỏ những gánh nặng không đáng có để giải thoát bản thân, hoặc mối quan hệ tan vỡ vì áp lực quá lớn."
+        "upright": "Tình yêu hóa gánh nặng, một mối quan hệ đầy trách nhiệm và nghĩa vụ đè nặng, khiến trái tim mệt mỏi vì phải gánh vác mọi thứ.",
+        "reversed": "Giải thoát khỏi gánh nặng tình cảm, buông bỏ những kỳ vọng quá sức, hoặc dấu hiệu một mối quan hệ sụp đổ vì không ai còn muốn gánh vác."
       },
       "career": {
-        "up": "Làm việc quá sức, ôm đồm việc của người khác.",
-        "rev": "Biết cách ủy quyền (delegate) công việc cho người khác.",
-        "upright": "Quá tải, kiệt sức vì công việc. Việc ôm đồm quá nhiều dự án, không biết cách ủy quyền đang khiến bạn trở thành nô lệ cho chính những tham vọng và vị trí của mình.",
-        "reversed": "Thời khắc giới hạn đã đến, bạn buộc phải buông tay. Bắt đầu từ bỏ những dự án không hiệu quả, tìm kiếm sự giúp đỡ hoặc chấp nhận thất bại để cứu vãn sức khỏe tinh thần."
+        "upright": "Sự nghiệp đang ở giai đoạn gánh vác trọng trách lớn, áp lực công việc chồng chất, bạn đang kiệt sức nhưng thành công đã cận kề.",
+        "reversed": "Giải thoát khỏi gánh nặng công việc, từ chối nhận thêm trách nhiệm, hoặc sự nghiệp đình trệ, sụp đổ do không thể chịu đựng thêm áp lực."
       },
       "finance": {
-        "up": "Gánh nặng nợ nần, áp lực tài chính nặng nề.",
-        "rev": "Thoát khỏi nợ nần hoặc tuyên bố phá sản để giải thoát.",
-        "upright": "Áp lực tài chính đè nặng lên vai, những khoản nợ, trách nhiệm chi trả đang vắt kiệt nguồn lực của bạn. Bạn đang cố gắng gồng gánh nhưng sự căng thẳng là rất lớn.",
-        "reversed": "Sự sụp đổ tài chính do gánh nặng nợ nần vượt quá khả năng chi trả. Tuy nhiên, nó cũng có thể là khoảnh khắc bạn quyết định tái cấu trúc lại mọi thứ để tìm lối thoát."
+        "upright": "Tình hình tài chính đang là gánh nặng lớn, áp lực chi tiêu, nợ nần hoặc trách nhiệm tài chính đè nặng lên bạn.",
+        "reversed": "Tìm cách giải tỏa gánh nặng tài chính, tìm giải pháp hoặc buông bỏ những khoản chi không cần thiết, hoặc tài chính sụp đổ vì quá sức chịu đựng."
       },
       "health": {
-        "up": "Đau lưng, vai gáy do stress và làm việc quá độ.",
-        "rev": "Bắt đầu nghỉ ngơi và trút bỏ áp lực.",
-        "upright": "Những vấn đề sức khỏe nghiêm trọng như đau lưng, căng cơ và kiệt quệ thần kinh do làm việc quá sức và gánh vác quá nhiều áp lực.",
-        "reversed": "Một sự gục ngã thể chất mang tính cảnh báo mạnh mẽ. Cơ thể đình công, ép buộc bạn phải dừng lại và tìm kiếm sự điều trị ngay lập tức."
+        "upright": "Sức khỏe đang suy giảm do căng thẳng, gánh nặng tâm lý và thể chất, cần nghỉ ngơi cấp bách để tránh kiệt sức hoàn toàn.",
+        "reversed": "Bắt đầu buông bỏ căng thẳng để hồi phục sức khỏe, tìm lại sự cân bằng, hoặc hoàn toàn kiệt quệ, đổ bệnh vì không chịu nổi áp lực."
       },
       "spiritual": {
-        "up": "Cảm thấy nghĩa vụ tâm linh quá nặng nề.",
-        "rev": "Giải phóng bản thân khỏi các nghĩa vụ tự áp đặt.",
-        "upright": "Tâm hồn đang rên rỉ dưới sức nặng của những giáo điều, định kiến hoặc cảm giác tội lỗi. Một hành trình tâm linh mang lại đau khổ hơn là sự khai sáng.",
-        "reversed": "Sự rũ bỏ tuyệt vời những gánh nặng nghiệp quả hoặc những ảo tưởng tinh thần tốn sức. Bạn đang dần thanh lọc linh hồn để tìm về sự nhẹ nhõm nguyên thủy."
+        "upright": "Hành trình tâm linh đang là một gánh nặng, bạn cảm thấy áp lực phải đạt được giác ngộ hoặc tuân thủ các nguyên tắc nghiêm ngặt.",
+        "reversed": "Buông bỏ gánh nặng của sự tìm kiếm tâm linh, tìm thấy bình yên trong sự đơn giản, hoặc bạn đang từ chối con đường tâm linh."
       },
       "friendship": {
-        "upright": "Một tình bạn đang trở thành gánh nặng oằn vai, bạn đang đơn độc gánh vác mọi trách nhiệm và lo toan cho mối quan hệ. Sức nặng của sự kỳ vọng và đòi hỏi đang bào mòn sự gắn kết.",
-        "reversed": "Đã đến lúc buông bỏ những gánh nặng không cần thiết trong tình bạn. Bạn đang học cách chia sẻ trách nhiệm hoặc nhận ra rằng không phải mọi mối quan hệ đều đáng để bạn hy sinh quá nhiều."
+        "upright": "Tình bạn đang trở thành gánh nặng, một người bạn đang đòi hỏi quá nhiều hoặc bạn cảm thấy kiệt sức vì phải duy trì mối quan hệ.",
+        "reversed": "Buông bỏ gánh nặng trong tình bạn, đặt ra ranh giới, hoặc tình bạn có nguy cơ tan vỡ vì không ai muốn gánh vác thêm."
       },
       "pregnancy": {
-        "upright": "Hành trình thai kỳ đang trở nên quá sức, những trách nhiệm và lo toan đổ dồn khiến bạn cảm thấy kiệt sức. Sức nặng về cả thể chất lẫn tinh thần đang đè nặng lên đôi vai.",
-        "reversed": "Bạn đang tìm cách giải tỏa những gánh nặng của thai kỳ, có thể là nhờ sự hỗ trợ từ gia đình hoặc tìm kiếm giải pháp để giảm bớt áp lực. Gánh nặng đang dần được san sẻ, mang lại sự nhẹ nhõm."
+        "upright": "Mang thai là một gánh nặng lớn, cả về thể chất, tinh thần và trách nhiệm chuẩn bị cho tương lai.",
+        "reversed": "Tìm cách giảm bớt gánh nặng khi mang thai, chia sẻ trách nhiệm, hoặc bạn đang từ chối đối mặt với những thách thức của việc làm mẹ."
       },
       "gossip": {
-        "upright": "Bạn đang gánh chịu sức nặng của những lời đồn thổi và thị phi. Cảm giác bị đè nén bởi những lời nói ác ý, phải chịu trách nhiệm giải thích hoặc bào chữa cho những điều không phải của mình.",
-        "reversed": "Bạn đang dần buông bỏ gánh nặng của thị phi, không còn để những lời đồn đại làm ảnh hưởng đến mình. Sự giải thoát đến từ việc nhận ra rằng bạn không cần phải gánh vác mọi lời phán xét của thế gian."
+        "upright": "Những lời đồn thổi, thị phi trở thành gánh nặng tinh thần, bạn cảm thấy bị đè nén bởi những áp lực từ dư luận.",
+        "reversed": "Buông bỏ gánh nặng từ tin đồn, không để chúng ảnh hưởng đến mình, hoặc bạn đang trốn tránh đối mặt với sự thật."
       },
       "legal": {
-        "upright": "Một vụ kiện tụng hoặc vấn đề pháp lý đang trở thành gánh nặng khổng lồ, đòi hỏi sự kiên trì và nỗ lực tột cùng. Bạn đang oằn mình gánh vác trách nhiệm và đối mặt với những thử thách cam go.",
-        "reversed": "Gánh nặng pháp lý đang dần được tháo gỡ hoặc bạn đang tìm được cách để san sẻ trách nhiệm. Một giải pháp đang đến, giúp bạn thoát khỏi áp lực và sự mệt mỏi kéo dài."
+        "upright": "Vấn đề pháp lý đang là một gánh nặng lớn, áp lực từ các thủ tục, chi phí và sự chờ đợi khiến bạn kiệt sức.",
+        "reversed": "Tìm cách giải tỏa gánh nặng pháp lý, tìm kiếm sự giúp đỡ chuyên nghiệp, hoặc bạn đang từ bỏ cuộc chiến pháp lý vì quá mệt mỏi."
       },
       "moving": {
-        "upright": "Việc di chuyển hoặc thay đổi chỗ ở đang trở thành một gánh nặng to lớn, với vô vàn trách nhiệm và công việc phải gánh vác. Cảm giác mệt mỏi, kiệt sức vì phải lo liệu mọi thứ một mình.",
-        "reversed": "Bạn đang tìm cách giảm bớt gánh nặng khi di chuyển, có thể là nhờ sự giúp đỡ từ người khác hoặc sắp xếp công việc một cách hiệu quả hơn. Cuộc chuyển đổi đang trở nên nhẹ nhàng và dễ thở hơn."
+        "upright": "Việc chuyển nhà là một gánh nặng lớn, áp lực từ việc đóng gói, vận chuyển và thích nghi với môi trường mới.",
+        "reversed": "Tìm cách giảm bớt gánh nặng khi chuyển nhà, nhờ sự giúp đỡ hoặc ủy thác, hoặc bạn đang từ bỏ kế hoạch chuyển nhà."
       },
       "pet": {
-        "upright": "Việc chăm sóc thú cưng đang trở thành một gánh nặng lớn, đòi hỏi nhiều thời gian, công sức và cả tài chính. Bạn đang cảm thấy quá tải với những trách nhiệm đi kèm.",
-        "reversed": "Bạn đang tìm cách san sẻ hoặc giải quyết những gánh nặng liên quan đến thú cưng. Có thể là nhờ sự giúp đỡ, tìm kiếm giải pháp mới hoặc học cách quản lý tốt hơn để giảm bớt áp lực."
+        "upright": "Việc chăm sóc thú cưng trở thành gánh nặng, trách nhiệm quá lớn hoặc chi phí phát sinh khiến bạn mệt mỏi.",
+        "reversed": "Tìm cách giảm bớt gánh nặng chăm sóc thú cưng, tìm sự hỗ trợ, hoặc bạn đang xem xét việc không thể tiếp tục chăm sóc chúng."
       },
       "dream": {
-        "upright": "Giấc mơ phản ánh sự mệt mỏi và gánh nặng trong tâm trí, bạn đang mang vác những trách nhiệm quá lớn ngay cả trong cõi vô thức. Cảm giác bị đè nén, không thể thoát ra khỏi áp lực.",
-        "reversed": "Giấc mơ báo hiệu sự giải thoát khỏi gánh nặng, cảm giác nhẹ nhõm và tự do. Bạn đang tìm cách buông bỏ những lo toan, cho phép tâm hồn được nghỉ ngơi và tái tạo năng lượng."
+        "upright": "Giấc mơ trở thành gánh nặng, áp lực phải đạt được mục tiêu khiến bạn kiệt sức, hoặc bạn đang vác một gánh nặng từ giấc mơ.",
+        "reversed": "Buông bỏ gánh nặng của những giấc mơ không thực tế, tìm kiếm sự nhẹ nhõm, hoặc bạn đang từ bỏ ước mơ vì quá mệt mỏi."
       },
       "past_life": {
-        "upright": "Bạn đang gánh vác một gánh nặng nghiệp chướng hoặc trách nhiệm từ kiếp trước, tạo nên những thử thách lớn lao ở hiện tại. Cảm giác như phải trả nợ hoặc hoàn thành một sứ mệnh đã định.",
-        "reversed": "Bạn đang dần tháo gỡ những gánh nặng nghiệp chướng từ tiền kiếp, giải phóng bản thân khỏi những ràng buộc cũ. Sự giải thoát này mang lại cảm giác nhẹ nhõm và tự do hơn trong cuộc sống hiện tại."
+        "upright": "Những gánh nặng, nghiệp chướng từ kiếp trước vẫn còn đeo bám, ảnh hưởng đến cuộc sống hiện tại của bạn.",
+        "reversed": "Bắt đầu buông bỏ gánh nặng từ kiếp trước, giải phóng nghiệp chướng, hoặc bạn đang trốn tránh đối mặt với những bài học cũ."
       },
       "karma": {
-        "upright": "Bạn đang đối mặt với những hệ quả nặng nề từ hành động trong quá khứ, gánh chịu toàn bộ trách nhiệm và hậu quả. Đây là thời điểm nhân quả đòi hỏi sự đối diện và chịu đựng.",
-        "reversed": "Gánh nặng nghiệp chướng đang dần được hóa giải, bạn đang tìm cách sửa chữa lỗi lầm hoặc nhận được sự tha thứ. Áp lực đang giảm bớt, mở ra cơ hội để bạn làm lại và tạo nghiệp mới tích cực hơn."
+        "upright": "Bạn đang gánh chịu hậu quả từ những hành động trong quá khứ, một gánh nặng nghiệp quả cần được đối mặt và giải quyết.",
+        "reversed": "Tìm cách giải tỏa gánh nặng nghiệp quả, học hỏi từ sai lầm, hoặc bạn đang từ chối đối mặt với nghiệp của mình."
       },
       "lost_item": {
-        "upright": "Việc tìm kiếm món đồ thất lạc đang trở thành một gánh nặng, bạn cảm thấy kiệt sức và vô vọng. Có thể bạn đã bỏ ra quá nhiều công sức nhưng vẫn chưa thấy kết quả.",
-        "reversed": "Bạn đang buông bỏ gánh nặng tìm kiếm, chấp nhận mất mát hoặc bất ngờ tìm thấy món đồ khi không còn cố gắng. Sự giải thoát đến từ việc từ bỏ sự kiểm soát và để mọi thứ tự nhiên."
+        "upright": "Việc tìm kiếm món đồ thất lạc trở thành gánh nặng, sự lo lắng và nỗ lực không ngừng khiến bạn kiệt sức.",
+        "reversed": "Buông bỏ gánh nặng tìm kiếm, chấp nhận mất mát, hoặc món đồ được tìm thấy khi bạn không còn cố gắng quá sức."
+      },
+      "ex": {
+        "upright": "Mối quan hệ cũ vẫn là một gánh nặng tâm lý, những trách nhiệm chưa dứt khoát hoặc cảm giác day dứt vẫn đeo bám.",
+        "reversed": "Cuối cùng cũng buông bỏ được gánh nặng từ người yêu cũ, tìm thấy sự nhẹ nhõm, hoặc nhận ra mình đã trốn tránh trách nhiệm với quá khứ."
+      },
+      "current_love": {
+        "upright": "Mối tình hiện tại đang chịu áp lực lớn, một trong hai hoặc cả hai đang gánh vác quá nhiều, cảm thấy kiệt sức vì mối quan hệ.",
+        "reversed": "Tìm cách giải tỏa áp lực cho mối quan hệ, phân chia gánh nặng công bằng hơn, hoặc mối tình này có nguy cơ tan vỡ vì quá sức chịu đựng."
+      },
+      "ambiguous": {
+        "upright": "Mối quan hệ mập mờ trở thành gánh nặng tinh thần, sự không rõ ràng khiến bạn kiệt sức vì phải suy nghĩ và chờ đợi.",
+        "reversed": "Buông bỏ sự mập mờ, từ chối gánh vác thêm sự không chắc chắn, hoặc mối quan hệ này tan vỡ vì không ai muốn chịu trách nhiệm."
+      },
+      "crush": {
+        "upright": "Tình cảm đơn phương trở thành gánh nặng, sự kỳ vọng và hy vọng khiến bạn mệt mỏi, như đang vác một gánh nặng vô hình.",
+        "reversed": "Giải thoát khỏi gánh nặng của tình cảm đơn phương, buông bỏ sự theo đuổi vô vọng, hoặc nhận ra mình đang trốn tránh đối mặt với cảm xúc thật."
+      },
+      "future_love": {
+        "upright": "Tình yêu tương lai có thể mang theo nhiều trách nhiệm hoặc thử thách lớn, đòi hỏi sự kiên trì và gánh vác.",
+        "reversed": "Tình yêu tương lai sẽ đến khi bạn buông bỏ gánh nặng cũ, hoặc bạn có thể từ chối một mối quan hệ tiềm năng vì sợ trách nhiệm."
+      },
+      "someone": {
+        "upright": "Người này đang gánh vác một trọng trách lớn, hoặc họ đang trở thành gánh nặng cho bạn, khiến bạn kiệt sức.",
+        "reversed": "Người này đang tìm cách thoát khỏi gánh nặng, hoặc họ đang từ chối trách nhiệm, khiến tình hình trở nên khó khăn hơn."
+      },
+      "marriage": {
+        "upright": "Hôn nhân đang trở thành một gánh nặng, áp lực từ trách nhiệm gia đình, tài chính hoặc kỳ vọng đang đè nén.",
+        "reversed": "Tìm cách giải tỏa áp lực trong hôn nhân, phân chia gánh nặng công bằng hơn, hoặc hôn nhân có nguy cơ tan vỡ vì quá sức chịu đựng."
+      },
+      "conflict": {
+        "upright": "Xung đột kéo dài trở thành gánh nặng, bạn cảm thấy kiệt sức vì phải đối mặt và giải quyết những mâu thuẫn chồng chất.",
+        "reversed": "Tìm cách buông bỏ xung đột, từ chối tiếp tục gánh vác sự căng thẳng, hoặc xung đột trở nên tồi tệ hơn vì không ai chịu trách nhiệm."
+      },
+      "breakup": {
+        "upright": "Sự chia ly là một gánh nặng tinh thần và cảm xúc, bạn phải gánh chịu nỗi đau, trách nhiệm và hệ quả của nó.",
+        "reversed": "Giải thoát khỏi gánh nặng của cuộc chia ly, tìm thấy sự nhẹ nhõm sau bão tố, hoặc bạn đang trốn tránh đối mặt với sự thật."
+      },
+      "long_distance": {
+        "upright": "Mối quan hệ đường dài trở thành gánh nặng, áp lực về khoảng cách, sự tin tưởng và nỗ lực duy trì khiến bạn kiệt sức.",
+        "reversed": "Tìm cách giải tỏa áp lực cho mối quan hệ đường dài, hoặc nhận ra rằng gánh nặng này quá lớn và cần phải buông bỏ."
+      },
+      "jealousy": {
+        "upright": "Sự ghen tuông trở thành gánh nặng tinh thần, cảm giác bị đè nén bởi những nghi ngờ và bất an không ngừng.",
+        "reversed": "Buông bỏ gánh nặng của sự ghen tuông, tìm lại sự bình yên, hoặc sự ghen tuông bùng nổ vì không thể chịu đựng thêm."
+      },
+      "self_love": {
+        "upright": "Tình yêu bản thân bị lu mờ bởi gánh nặng trách nhiệm và áp lực, bạn đang bỏ bê chính mình vì phải gánh vác quá nhiều.",
+        "reversed": "Bắt đầu buông bỏ gánh nặng để dành thời gian cho bản thân, hoặc bạn đang trốn tránh việc chăm sóc và yêu thương chính mình."
+      },
+      "job_search": {
+        "upright": "Quá trình tìm việc đầy áp lực và gánh nặng, sự mệt mỏi từ việc nộp hồ sơ, phỏng vấn và chờ đợi kéo dài.",
+        "reversed": "Buông bỏ áp lực tìm việc, tìm thấy hướng đi mới nhẹ nhàng hơn, hoặc bạn đang từ bỏ việc tìm kiếm vì quá sức."
+      },
+      "promotion": {
+        "upright": "Sự thăng tiến đi kèm với gánh nặng trách nhiệm lớn hơn, bạn phải gánh vác nhiều hơn để chứng tỏ bản thân.",
+        "reversed": "Từ chối thăng tiến vì sợ gánh nặng, hoặc bạn đang tìm cách chia sẻ gánh nặng trách nhiệm mới để không bị quá tải."
+      },
+      "business": {
+        "upright": "Công việc kinh doanh đang ở giai đoạn khó khăn, bạn phải gánh vác mọi thứ, áp lực tài chính và vận hành đè nặng.",
+        "reversed": "Tìm cách giải tỏa gánh nặng cho doanh nghiệp, ủy quyền hoặc tái cấu trúc, hoặc doanh nghiệp có nguy cơ sụp đổ vì quá tải."
+      },
+      "colleague": {
+        "upright": "Đồng nghiệp đang gánh vác quá nhiều trách nhiệm, hoặc họ đang trở thành gánh nặng cho bạn và đội nhóm.",
+        "reversed": "Đồng nghiệp tìm cách buông bỏ gánh nặng, hoặc họ đang từ chối trách nhiệm, gây ra sự mất cân bằng trong công việc."
+      },
+      "career_change": {
+        "upright": "Quyết định thay đổi sự nghiệp là một gánh nặng lớn, đòi hỏi nhiều nỗ lực, hy sinh và vượt qua áp lực.",
+        "reversed": "Buông bỏ gánh nặng của việc thay đổi sự nghiệp, tìm thấy con đường nhẹ nhàng hơn, hoặc bạn đang trốn tránh sự thay đổi cần thiết."
+      },
+      "freelance": {
+        "upright": "Công việc tự do đang trở thành gánh nặng, bạn phải gánh vác mọi khía cạnh từ tìm kiếm khách hàng đến hoàn thành dự án, kiệt sức.",
+        "reversed": "Tìm cách giải tỏa gánh nặng công việc tự do, học cách ủy thác hoặc quản lý thời gian tốt hơn, hoặc bạn đang từ bỏ con đường này."
+      },
+      "interview": {
+        "upright": "Buổi phỏng vấn gây áp lực lớn, bạn cảm thấy gánh nặng của sự kỳ vọng và cần phải thể hiện tốt nhất.",
+        "reversed": "Buông bỏ áp lực phỏng vấn, thể hiện tự nhiên hơn, hoặc bạn đang trốn tránh những buổi phỏng vấn quan trọng."
+      },
+      "investment": {
+        "upright": "Khoản đầu tư đang mang lại gánh nặng lớn, áp lực phải theo dõi, quản lý và lo lắng về rủi ro.",
+        "reversed": "Buông bỏ gánh nặng của khoản đầu tư, có thể là rút lui hoặc tìm cách ủy thác, hoặc đầu tư thất bại vì không chịu nổi áp lực."
+      },
+      "debt": {
+        "upright": "Nợ nần trở thành một gánh nặng khổng lồ, áp lực phải trả nợ và những lo lắng liên quan đè nặng lên cuộc sống.",
+        "reversed": "Tìm cách giải quyết gánh nặng nợ nần, lên kế hoạch trả nợ hiệu quả, hoặc bạn đang trốn tránh đối mặt với khoản nợ của mình."
+      },
+      "savings": {
+        "upright": "Việc tiết kiệm đang là một gánh nặng, bạn phải hy sinh nhiều thứ để đạt được mục tiêu, cảm thấy mệt mỏi.",
+        "reversed": "Buông bỏ áp lực tiết kiệm quá mức, tìm sự cân bằng giữa chi tiêu và tiết kiệm, hoặc bạn đang từ bỏ mục tiêu tiết kiệm."
+      },
+      "luck_money": {
+        "upright": "Tiền bạc đến nhưng đi kèm với gánh nặng trách nhiệm hoặc áp lực quản lý, không thực sự mang lại sự nhẹ nhõm.",
+        "reversed": "Buông bỏ gánh nặng liên quan đến tiền bạc, tìm cách sử dụng tiền một cách khôn ngoan hơn, hoặc may mắn tài chính bị bỏ lỡ vì không muốn gánh vác."
+      },
+      "mental": {
+        "upright": "Tâm trí đang gánh chịu một áp lực khổng lồ, căng thẳng, lo âu và những suy nghĩ đè nặng khiến bạn kiệt sức tinh thần.",
+        "reversed": "Tìm cách giải tỏa gánh nặng tâm lý, buông bỏ những suy nghĩ tiêu cực, hoặc tâm trí sụp đổ vì không thể chịu đựng thêm."
+      },
+      "energy": {
+        "upright": "Năng lượng cạn kiệt, bạn đang cảm thấy mệt mỏi, uể oải vì phải gánh vác quá nhiều, cần được nạp lại năng lượng khẩn cấp.",
+        "reversed": "Giải phóng năng lượng bị kìm nén, tìm cách khôi phục sức sống, hoặc hoàn toàn mất năng lượng, buông xuôi mọi thứ."
+      },
+      "family": {
+        "upright": "Gia đình đang là một gánh nặng, trách nhiệm chăm sóc, giải quyết mâu thuẫn hoặc áp lực từ người thân đè nặng lên bạn.",
+        "reversed": "Tìm cách chia sẻ gánh nặng gia đình, đặt ranh giới lành mạnh, hoặc mối quan hệ gia đình trở nên căng thẳng vì không ai muốn gánh vác."
+      },
+      "diet": {
+        "upright": "Chế độ ăn kiêng trở thành gánh nặng, áp lực phải tuân thủ nghiêm ngặt khiến bạn mệt mỏi và dễ nản lòng.",
+        "reversed": "Buông bỏ áp lực của chế độ ăn kiêng khắc nghiệt, tìm phương pháp lành mạnh và bền vững hơn, hoặc bạn đang từ bỏ mục tiêu sức khỏe."
+      },
+      "study": {
+        "upright": "Việc học hành là một gánh nặng lớn, áp lực thi cử, bài vở chồng chất khiến bạn kiệt sức và quá tải.",
+        "reversed": "Tìm cách giải tỏa áp lực học tập, chia nhỏ mục tiêu, hoặc bạn đang từ bỏ việc học vì không thể chịu đựng thêm."
+      },
+      "study_abroad": {
+        "upright": "Du học mang theo gánh nặng kép: áp lực học tập và nỗi nhớ nhà, sự cô đơn, đòi hỏi bạn phải gánh vác rất nhiều.",
+        "reversed": "Tìm cách thích nghi, chia sẻ gánh nặng với người khác, hoặc bạn đang xem xét việc từ bỏ kế hoạch du học vì quá sức."
+      },
+      "self": {
+        "upright": "Bạn đang tự gánh vác quá nhiều trách nhiệm lên vai mình, cảm thấy kiệt sức và cần phải học cách buông bỏ.",
+        "reversed": "Bạn đang học cách buông bỏ gánh nặng cá nhân, tìm lại sự nhẹ nhõm, hoặc bạn đang trốn tránh đối mặt với trách nhiệm của mình."
+      },
+      "purpose": {
+        "upright": "Mục đích sống trở thành gánh nặng, bạn cảm thấy áp lực phải hoàn thành một sứ mệnh lớn, kiệt sức vì sự theo đuổi không ngừng.",
+        "reversed": "Buông bỏ áp lực về mục đích sống, tìm thấy ý nghĩa trong những điều nhỏ bé, hoặc bạn đang từ bỏ mục đích của mình vì quá mệt mỏi."
+      },
+      "shadow_self": {
+        "upright": "Những khía cạnh tối của bản thân đang là gánh nặng lớn, bạn đang cố gắng kìm nén hoặc chống lại chúng, gây ra sự kiệt sức nội tâm.",
+        "reversed": "Bắt đầu chấp nhận và buông bỏ gánh nặng của 'bóng tối', tìm cách hòa nhập, hoặc bạn đang từ chối đối mặt với chúng, khiến gánh nặng tăng lên."
+      },
+      "decision": {
+        "upright": "Việc đưa ra quyết định là một gánh nặng lớn, bạn cảm thấy quá tải với các lựa chọn và hậu quả tiềm ẩn.",
+        "reversed": "Buông bỏ gánh nặng của việc quyết định, tìm kiếm sự giúp đỡ hoặc ủy quyền, hoặc bạn đang trốn tránh việc đưa ra quyết định quan trọng."
+      },
+      "travel": {
+        "upright": "Chuyến đi đang trở thành gánh nặng hơn là niềm vui, áp lực về lịch trình, hành lý hoặc trách nhiệm khiến bạn mệt mỏi.",
+        "reversed": "Tìm cách buông bỏ áp lực khi đi du lịch, tìm kiếm sự tự do và nhẹ nhõm, hoặc bạn đang từ bỏ kế hoạch du lịch vì quá rắc rối."
+      },
+      "general": {
+        "upright": "Bạn đang gánh vác quá nhiều trách nhiệm, cảm thấy kiệt sức và quá tải, nhưng đã gần đến đích. Cần nghỉ ngơi và buông bỏ.",
+        "reversed": "Tìm cách giải tỏa gánh nặng, học cách ủy thác và từ chối, hoặc bạn đang từ bỏ mọi thứ vì không thể chịu đựng thêm áp lực."
       }
     },
     "planet": "Sao Thổ",
@@ -8952,74 +9382,204 @@ window.TAROT_DB = [
     "reversed": "Sự chữa lành đã bắt đầu. Bạn đã chấp nhận quá khứ, tha thứ và sẵn sàng tiến về phía trước.",
     "aspects": {
       "love": {
-        "up": "Đau buồn vì chia tay, không thể quên được người cũ.",
-        "rev": "Vượt qua nỗi đau, học cách tha thứ và bước tiếp.",
-        "upright": "Sự đổ vỡ tình cảm, nỗi đau chia ly hoặc sự phản bội để lại một vết thương khó lành. Bạn gặm nhấm nỗi đau, không thể buông bỏ hình bóng cũ và đắm chìm trong sự tự trách.",
-        "reversed": "Quá trình chữa lành vết thương lòng bắt đầu. Chấp nhận sự thật, tha thứ cho người cũ và cho chính mình, mở ra một tia hy vọng mỏng manh nhưng kiên định vào tương lai tình cảm."
+        "upright": "Bóng ma của những tổn thương cũ phủ mờ hiện tại, khiến trái tim e dè khép lại trước những cơ hội mới, đắm chìm trong nỗi buồn mất mát hơn là trân trọng những gì còn lại.",
+        "reversed": "Sau cơn mưa nước mắt, bình minh của sự chấp nhận hé rạng, mở lối cho trái tim tha thứ và tìm thấy sự an ủi, sẵn sàng đón nhận tình yêu mới với một tâm hồn được chữa lành."
       },
       "career": {
-        "up": "Thất vọng tràn trề vì dự án thất bại hoặc mất việc.",
-        "rev": "Chấp nhận sự thật, tìm kiếm một công việc mới tốt hơn.",
-        "upright": "Sự thất bại, mất việc hoặc một dự án tâm huyết đổ vỡ. Bạn cảm thấy sụp đổ, chìm đắm trong cảm giác thua cuộc và hối hận về những quyết định sai lầm trong quá khứ.",
-        "reversed": "Đứng lên từ đống tro tàn của thất bại. Rút ra bài học xương máu, nhìn nhận những nguồn lực còn lại (kỹ năng, kinh nghiệm, đồng nghiệp tốt) để bắt đầu một chặng đường mới."
+        "upright": "Sự thất vọng hoặc cảm giác mất mát trong công việc, có thể do một dự án thất bại, một cơ hội bị bỏ lỡ, khiến bạn đắm chìm trong nỗi buồn và sự hối tiếc.",
+        "reversed": "Sau một giai đoạn khó khăn, bạn tìm thấy sự chấp nhận và học hỏi từ những sai lầm, sẵn sàng đứng dậy và tìm kiếm những cơ hội mới với tinh thần tích cực hơn."
       },
       "finance": {
-        "up": "Mất mát tài sản, đầu tư thua lỗ gây hối hận.",
-        "rev": "Khôi phục lại nguồn vốn, học được bài học quản lý rủi ro.",
-        "upright": "Một mất mát tài chính đau đớn, phá sản hoặc đầu tư thua lỗ. Sự ám ảnh về số tiền đã mất khiến bạn tê liệt, không thể tìm cách vãn hồi cục diện.",
-        "reversed": "Sự phục hồi tài chính chậm rãi nhưng chắc chắn. Bạn chấp nhận việc cắt lỗ, tập trung vào số vốn ít ỏi còn lại để tái thiết nền tảng kinh tế."
+        "upright": "Một khoản mất mát tài chính đáng kể, sự tiếc nuối về những quyết định sai lầm hoặc cảm giác thiếu thốn, khiến bạn đắm chìm trong lo âu.",
+        "reversed": "Dù trải qua khó khăn tài chính, bạn dần tìm thấy cách để phục hồi, chấp nhận tình hình và đưa ra những quyết định sáng suốt hơn cho tương lai."
       },
       "health": {
-        "up": "Đau buồn ảnh hưởng nghiêm trọng đến sức khỏe (trầm cảm).",
-        "rev": "Ra khỏi vùng đen tối, bắt đầu chăm sóc bản thân.",
-        "upright": "Những nỗi đau tâm lý sâu sắc gây tổn hại nghiêm trọng đến thể chất. Sự mất ngủ, các vấn đề về tiêu hóa do sự u sầu và những giọt nước mắt kìm nén.",
-        "reversed": "Sự bình phục tâm lý mang lại hiệu quả chữa lành thần kỳ cho cơ thể. Bạn đang học cách yêu thương bản thân trở lại sau giông bão."
+        "upright": "Nỗi buồn hoặc sự thất vọng về tình trạng sức khỏe, có thể do một căn bệnh mãn tính hoặc sự mất mát thể lực, khiến bạn cảm thấy suy sụp.",
+        "reversed": "Bạn bắt đầu chấp nhận tình trạng sức khỏe và tìm cách điều trị, học cách sống chung với bệnh tật hoặc phục hồi sức khỏe với tinh thần lạc quan."
       },
       "spiritual": {
-        "up": "Mắc kẹt trong bóng tối nội tâm.",
-        "rev": "Tự tha thứ, gột rửa tâm hồn.",
-        "upright": "Khuất phục trước bóng tối nội tâm. Cảm giác bị trừng phạt, mặc cảm tội lỗi nặng nề đang giam cầm linh hồn trong ngục tù của sự dằn vặt vô tận.",
-        "reversed": "Một sự giải thoát kỳ diệu. Bạn hiểu rằng mất mát là một phần tất yếu của quá trình tiến hóa tâm hồn. Bạn buông bỏ gánh nặng nghiệp lực và tiến về phía ánh sáng."
+        "upright": "Giai đoạn khủng hoảng tâm linh, cảm giác mất mát niềm tin hoặc sự kết nối, đắm chìm trong nỗi buồn và sự hoài nghi về ý nghĩa cuộc sống.",
+        "reversed": "Sau một giai đoạn thử thách, bạn tìm thấy sự chấp nhận và làm mới niềm tin, kết nối lại với bản thân và vũ trụ theo một cách sâu sắc hơn."
       },
       "friendship": {
-        "upright": "Một tình bạn đang trải qua giai đoạn đau buồn, đổ vỡ hoặc sự hối tiếc sâu sắc về những lời nói, hành động đã qua. Nỗi buồn che mờ đi những mối quan hệ tốt đẹp còn lại.",
-        "reversed": "Sự hàn gắn và tha thứ trong tình bạn. Bạn và người bạn đang dần chấp nhận quá khứ, buông bỏ sự hối tiếc để tìm lại sợi dây kết nối hoặc mở lòng cho những tình bạn mới."
+        "upright": "Một tình bạn rạn nứt hoặc mất đi, gây ra nỗi buồn sâu sắc và sự tiếc nuối, cảm giác cô đơn và bị bỏ rơi.",
+        "reversed": "Sau những hiểu lầm hoặc rạn nứt, bạn và người bạn tìm cách hòa giải, tha thứ cho nhau và hàn gắn lại tình bạn, hoặc chấp nhận sự kết thúc một cách bình yên."
       },
       "pregnancy": {
-        "upright": "Nỗi buồn sâu sắc liên quan đến việc mang thai hoặc sinh con, có thể là mất mát, hối tiếc về một quyết định, hoặc cảm giác thất vọng khi mọi thứ không như mong đợi.",
-        "reversed": "Sự chấp nhận và chữa lành sau một nỗi đau liên quan đến việc mang thai. Dù vết thương chưa lành hẳn, bạn đã tìm thấy sức mạnh để tiến về phía trước, mở lòng cho hy vọng mới."
+        "upright": "Nỗi buồn hoặc sự thất vọng liên quan đến thai kỳ, có thể là tin tức không như mong đợi, hoặc cảm giác mất mát trong quá trình mang thai.",
+        "reversed": "Sau một giai đoạn khó khăn, bạn chấp nhận tình hình, tìm thấy sự bình yên và hy vọng, chuẩn bị cho tương lai với một tinh thần kiên cường."
       },
       "gossip": {
-        "upright": "Những lời đồn đại gây tổn thương sâu sắc, khiến bạn đau khổ và hối tiếc về những gì đã xảy ra. Bạn đang chìm đắm trong cảm giác bị phản bội hoặc hiểu lầm.",
-        "reversed": "Bạn đang học cách buông bỏ những lời thị phi độc hại và những tổn thương mà chúng gây ra. Sự tha thứ cho bản thân và người khác giúp bạn vượt qua nỗi buồn để tìm lại bình yên."
+        "upright": "Nỗi buồn khi là nạn nhân của tin đồn thất thiệt, hoặc sự hối tiếc khi đã tham gia vào những chuyện thị phi gây tổn thương.",
+        "reversed": "Bạn chấp nhận sự thật về những lời đồn, buông bỏ sự tức giận và tìm cách vượt qua, không để những lời nói tiêu cực ảnh hưởng đến mình."
       },
       "legal": {
-        "upright": "Một vụ việc pháp lý đang mang lại sự thất vọng, mất mát hoặc kết quả không như mong đợi. Bạn đang chìm trong sự hối tiếc và cảm giác bất lực trước phán quyết.",
-        "reversed": "Sự chấp nhận kết quả pháp lý và bắt đầu quá trình chữa lành. Dù có thể không hoàn toàn hài lòng, bạn đã sẵn sàng buông bỏ sự oán giận để tiến về phía trước, tìm kiếm sự bình yên."
+        "upright": "Nỗi thất vọng hoặc sự thua thiệt trong một vụ kiện tụng, cảm giác mất mát và hối tiếc về những gì đã xảy ra.",
+        "reversed": "Dù kết quả không hoàn hảo, bạn chấp nhận và tìm cách giải quyết hậu quả, buông bỏ sự tức giận và tìm kiếm sự bình yên sau những rắc rối pháp lý."
       },
       "moving": {
-        "upright": "Quyết định chuyển nhà hoặc rời xa một nơi đang mang lại nỗi buồn, sự hối tiếc về những kỷ niệm đã qua. Bạn cảm thấy mất mát khi phải từ bỏ những gì thân thuộc.",
-        "reversed": "Bạn đang dần chấp nhận sự thay đổi nơi ở và tìm thấy những khía cạnh tích cực trong môi trường mới. Nỗi buồn được xoa dịu, và bạn sẵn sàng xây dựng cuộc sống mới."
+        "upright": "Nỗi buồn khi phải rời xa nơi quen thuộc, cảm giác mất mát và tiếc nuối về những kỷ niệm đã qua, khó lòng thích nghi với nơi ở mới.",
+        "reversed": "Bạn chấp nhận sự thay đổi, buông bỏ những tiếc nuối về quá khứ và tìm thấy niềm vui, cơ hội mới ở nơi ở mới, dần thích nghi và xây dựng cuộc sống."
       },
       "pet": {
-        "upright": "Nỗi đau mất mát một người bạn bốn chân, hoặc sự hối tiếc về những gì chưa làm được cho thú cưng. Cảm giác buồn bã, trống trải khi thiếu vắng chúng.",
-        "reversed": "Sự chấp nhận nỗi đau khi mất đi thú cưng và bắt đầu quá trình chữa lành. Bạn tìm cách tưởng nhớ và trân trọng những kỷ niệm đẹp, mở lòng để yêu thương một sinh linh mới."
+        "upright": "Nỗi đau buồn sâu sắc khi mất đi thú cưng yêu quý, cảm giác trống rỗng và tiếc nuối những khoảnh khắc đã qua.",
+        "reversed": "Dù nỗi đau vẫn còn, bạn bắt đầu chấp nhận sự mất mát và tìm thấy sự bình yên, trân trọng những kỷ niệm đẹp và buông bỏ sự tự trách."
       },
       "dream": {
-        "upright": "Giấc mơ phản ánh nỗi buồn, sự hối tiếc hoặc cảm giác mất mát trong cuộc sống hiện tại. Bạn có thể mơ thấy những điều đã qua không thể quay lại, hoặc những cơ hội đã tuột mất.",
-        "reversed": "Giấc mơ mang thông điệp về sự chữa lành, tha thứ và buông bỏ. Bạn đang dần tìm thấy sự bình yên sau những tổn thương, và sẵn sàng đón nhận những điều tốt đẹp hơn."
+        "upright": "Giấc mơ mang theo nỗi buồn, sự tiếc nuối về một điều đã mất hoặc một cơ hội đã bỏ lỡ, phản ánh sự thất vọng trong tiềm thức.",
+        "reversed": "Giấc mơ báo hiệu sự chấp nhận và chữa lành, bạn đang dần buông bỏ những gánh nặng quá khứ và tìm thấy sự bình yên trong tâm hồn."
       },
       "past_life": {
-        "upright": "Ở kiếp trước, bạn có thể đã trải qua một sự mất mát lớn, một nỗi đau không thể nguôi ngoai, hoặc sự hối tiếc sâu sắc về những quyết định sai lầm, điều này vẫn còn ảnh hưởng đến tâm trí bạn kiếp này.",
-        "reversed": "Dấu vết của nỗi đau tiền kiếp đang được chữa lành. Bạn đang học cách buông bỏ những gánh nặng từ quá khứ, tìm thấy sự tha thứ và bình an cho linh hồn mình."
+        "upright": "Dấu vết của những mất mát và đau khổ từ kiếp trước vẫn còn ảnh hưởng, gây ra cảm giác tiếc nuối hoặc nỗi buồn khó giải thích ở hiện tại.",
+        "reversed": "Bạn đang dần hóa giải những nghiệp chướng và chữa lành những vết thương từ kiếp trước, tìm thấy sự giải thoát và bình an trong dòng thời gian."
       },
       "karma": {
-        "upright": "Nghiệp quả của sự hối tiếc và không thể buông bỏ quá khứ. Vũ trụ đang đưa bạn vào những tình huống để bạn đối mặt với nỗi đau, học cách chấp nhận mất mát và tiến về phía trước.",
-        "reversed": "Vòng luân hồi nghiệp quả đang hướng tới sự giải thoát. Bạn đang học cách tha thứ cho bản thân và người khác, buông bỏ những oán hận để tạo ra những hạt giống thiện lành cho tương lai."
+        "upright": "Đối mặt với hậu quả từ những hành động sai lầm trong quá khứ, gây ra nỗi buồn, sự hối tiếc và cảm giác mất mát.",
+        "reversed": "Bạn đang trong quá trình chuộc lại lỗi lầm, chấp nhận nghiệp quả và tìm cách sửa chữa, hướng tới sự cân bằng và bình yên."
       },
       "lost_item": {
-        "upright": "Vật thất lạc mang theo nhiều kỷ niệm hoặc giá trị tinh thần, khiến bạn cảm thấy buồn bã và hối tiếc khi mất nó. Sự tìm kiếm trở nên nặng nề hơn vì nỗi đau gắn liền với vật đó.",
-        "reversed": "Dù vật đã mất, bạn đã học cách chấp nhận và buông bỏ sự gắn kết với nó. Nỗi buồn dần tan biến, và bạn tìm thấy sự bình yên trong việc chấp nhận rằng mọi thứ đều có thể mất đi."
+        "upright": "Nỗi buồn và sự thất vọng khi mất đi một vật có giá trị hoặc ý nghĩa, cảm giác tiếc nuối và tìm kiếm vô vọng.",
+        "reversed": "Bạn chấp nhận sự mất mát, buông bỏ sự tiếc nuối và tìm thấy sự bình yên, có thể là vật đó sẽ xuất hiện lại khi bạn không còn tìm kiếm."
+      },
+      "ex": {
+        "upright": "Nỗi tiếc nuối và ám ảnh về mối tình đã qua vẫn còn vương vấn, khiến bạn không ngừng nhìn lại những đổ vỡ và những gì đã mất, khó lòng buông bỏ quá khứ.",
+        "reversed": "Dấu vết của người cũ dần phai mờ, bạn tìm thấy sự giải thoát và học cách tha thứ, không còn để bóng hình xưa cũ ngăn cản bước chân tiến về phía trước."
+      },
+      "current_love": {
+        "upright": "Một sự thất vọng âm ỉ hoặc cảm giác thiếu hụt trong mối quan hệ hiện tại, có thể do một sự kiện đau lòng hoặc việc bạn cứ mãi so sánh với những gì đã mất.",
+        "reversed": "Vượt qua được giai đoạn khó khăn, hai bạn cùng nhau chữa lành vết thương, nhìn nhận lại giá trị của mối quan hệ và tìm thấy sự gắn kết sâu sắc hơn."
+      },
+      "ambiguous": {
+        "upright": "Cảm giác hụt hẫng khi kỳ vọng không được đáp ứng, sự mơ hồ này mang lại nỗi thất vọng hơn là hy vọng, khiến bạn cứ mãi đắm chìm trong sự không chắc chắn.",
+        "reversed": "Cuối cùng cũng nhìn rõ được bức tranh toàn cảnh, bạn chấp nhận sự thật và tìm thấy sự bình yên, dù kết quả có ra sao cũng không còn nuối tiếc."
+      },
+      "crush": {
+        "upright": "Nỗi buồn khi tình cảm đơn phương không được hồi đáp, hoặc một sự hiểu lầm khiến bạn cảm thấy thất vọng và rút lui, chỉ nhìn thấy những điều tiêu cực.",
+        "reversed": "Buông bỏ những kỳ vọng không thực tế, bạn chấp nhận tình hình và tìm thấy sự giải thoát, có thể là từ bỏ tình cảm này hoặc tìm một hướng đi mới."
+      },
+      "future_love": {
+        "upright": "Tương lai tình yêu bị bao phủ bởi sự bi quan từ những vết thương quá khứ, khiến bạn khó lòng tin tưởng và mở lòng cho những mối quan hệ mới.",
+        "reversed": "Sau khi chữa lành những vết sẹo cũ, cánh cửa tình yêu tương lai sẽ mở ra với hy vọng mới, bạn sẵn sàng đón nhận và xây dựng một mối quan hệ lành mạnh hơn."
+      },
+      "someone": {
+        "upright": "Có thể là một người đang trải qua nỗi đau mất mát hoặc sự thất vọng, cần sự an ủi và thấu hiểu, nhưng lại đang tự cô lập mình trong nỗi buồn.",
+        "reversed": "Một người đang dần vượt qua nỗi đau, tìm thấy sự tha thứ và chấp nhận, sẵn sàng hòa nhập trở lại và nhìn về phía trước với tinh thần lạc quan hơn."
+      },
+      "marriage": {
+        "upright": "Nỗi buồn sâu sắc hoặc sự thất vọng trong hôn nhân, có thể do một lời hứa không được giữ hoặc sự mất mát niềm tin, khiến cả hai nhìn vào những đổ vỡ.",
+        "reversed": "Sau một giai đoạn khó khăn, hai vợ chồng tìm cách hàn gắn, tha thứ cho nhau và cùng nhau chữa lành những vết thương, củng cố lại nền tảng hôn nhân."
+      },
+      "conflict": {
+        "upright": "Xung đột gây ra sự tổn thương và tiếc nuối, cả hai bên đều tập trung vào những gì đã mất hoặc những lời nói làm tổn thương, khó tìm được tiếng nói chung.",
+        "reversed": "Sau một cuộc tranh cãi, cả hai bên dần nguôi ngoai và tìm cách tha thứ, chấp nhận những thiếu sót và tìm kiếm một giải pháp hòa bình."
+      },
+      "breakup": {
+        "upright": "Nỗi đau chia ly sâu sắc, sự tiếc nuối và cảm giác mất mát bao trùm, bạn đắm chìm trong sự đau khổ và khó lòng nhìn thấy lối thoát.",
+        "reversed": "Dù vẫn còn đau lòng, bạn bắt đầu chấp nhận sự thật và tìm cách buông bỏ, những vết thương dần lành và bạn sẵn sàng hướng về tương lai."
+      },
+      "long_distance": {
+        "upright": "Nỗi buồn và sự thất vọng khi khoảng cách gây ra những hiểu lầm hoặc cảm giác bị bỏ rơi, khiến bạn chỉ nhìn thấy những khía cạnh tiêu cực của mối quan hệ.",
+        "reversed": "Hai bạn tìm cách vượt qua khó khăn, củng cố niềm tin và tìm thấy những cách thức mới để duy trì sự kết nối, chấp nhận những thử thách."
+      },
+      "jealousy": {
+        "upright": "Ghen tuông xuất phát từ sự mất mát hoặc nỗi sợ bị bỏ rơi, khiến bạn đắm chìm trong sự so sánh và những cảm xúc tiêu cực, không nhìn thấy giá trị của mình.",
+        "reversed": "Bạn dần nhận ra và buông bỏ sự ghen tuông, tìm thấy sự an toàn trong chính mình và tin tưởng vào mối quan hệ, giải phóng bản thân khỏi gánh nặng cảm xúc."
+      },
+      "self_love": {
+        "upright": "Thiếu tự tin và đắm chìm trong những sai lầm hoặc tiếc nuối về bản thân, không nhìn thấy giá trị và những điều tốt đẹp mình đang có.",
+        "reversed": "Bắt đầu quá trình tự chữa lành, chấp nhận những khuyết điểm và tha thứ cho bản thân, bạn tìm thấy sự bình yên và bắt đầu yêu thương chính mình."
+      },
+      "job_search": {
+        "upright": "Sự nản lòng và thất vọng khi không tìm được công việc ưng ý, hoặc bị từ chối nhiều lần, khiến bạn chỉ nhìn thấy những cánh cửa đóng sầm lại.",
+        "reversed": "Dù trải qua nhiều thất bại, bạn không bỏ cuộc mà rút ra bài học, điều chỉnh chiến lược và tìm thấy hy vọng mới, sẵn sàng cho những cơ hội sắp tới."
+      },
+      "promotion": {
+        "upright": "Nỗi buồn khi không được thăng chức, cảm giác bị bỏ lại phía sau hoặc thất vọng vì công sức không được công nhận, khiến bạn đắm chìm trong sự tiêu cực.",
+        "reversed": "Chấp nhận sự thật, bạn học cách nhìn nhận lại bản thân và con đường sự nghiệp, có thể tìm thấy một hướng đi mới hoặc một cơ hội tốt hơn sau này."
+      },
+      "business": {
+        "upright": "Một khoản thua lỗ đáng kể hoặc một thất bại trong kinh doanh, khiến bạn cảm thấy chán nản, tiếc nuối những gì đã mất và khó lòng nhìn thấy cơ hội mới.",
+        "reversed": "Sau cú vấp ngã, bạn học được những bài học quý giá, chấp nhận rủi ro và tìm cách vực dậy, có thể là thay đổi chiến lược hoặc tìm kiếm đối tác mới."
+      },
+      "colleague": {
+        "upright": "Mối quan hệ đồng nghiệp gặp trục trặc, có thể do hiểu lầm hoặc một sự kiện gây tổn thương, khiến bạn cảm thấy thất vọng và cô lập.",
+        "reversed": "Sau những bất đồng, hai bên tìm cách hòa giải, tha thứ cho nhau và xây dựng lại mối quan hệ, tìm thấy sự tôn trọng và hợp tác."
+      },
+      "career_change": {
+        "upright": "Nỗi buồn và sự hối tiếc khi rời bỏ công việc cũ, hoặc thất vọng với hướng đi mới, cảm giác mất mát nhiều hơn là đạt được.",
+        "reversed": "Bạn chấp nhận sự thay đổi, buông bỏ những tiếc nuối và tìm thấy sự bình yên trong quyết định của mình, sẵn sàng khám phá những tiềm năng mới."
+      },
+      "freelance": {
+        "upright": "Sự thất vọng khi dự án không như ý, mất khách hàng hoặc gặp khó khăn tài chính, khiến bạn cảm thấy bất an và hối tiếc những lựa chọn.",
+        "reversed": "Vượt qua giai đoạn khó khăn, bạn học cách thích nghi, tìm kiếm giải pháp và dần lấy lại sự tự tin, nhìn thấy những cơ hội tiềm ẩn trong công việc tự do."
+      },
+      "interview": {
+        "upright": "Cảm giác thất vọng nặng nề sau một buổi phỏng vấn không thành công, hoặc ám ảnh bởi những sai sót đã mắc phải, khó lòng nhìn thấy cơ hội khác.",
+        "reversed": "Dù có thể không đạt được kết quả như mong muốn, bạn chấp nhận và rút ra bài học kinh nghiệm, chuẩn bị tốt hơn cho lần sau với tinh thần lạc quan."
+      },
+      "investment": {
+        "upright": "Thất bại trong đầu tư, mất mát tài sản, khiến bạn tiếc nuối và hối hận về những lựa chọn đã qua, khó lòng nhìn thấy cơ hội mới.",
+        "reversed": "Chấp nhận rủi ro và thua lỗ, bạn học được bài học đắt giá, tìm cách phục hồi và đưa ra những chiến lược đầu tư thận trọng hơn trong tương lai."
+      },
+      "debt": {
+        "upright": "Nỗi buồn và sự nặng nề khi phải đối mặt với nợ nần, cảm giác bất lực và hối tiếc về những quyết định tài chính trong quá khứ.",
+        "reversed": "Bạn bắt đầu tìm cách giải quyết nợ nần, chấp nhận trách nhiệm và từng bước thoát khỏi gánh nặng tài chính, tìm thấy sự giải thoát."
+      },
+      "savings": {
+        "upright": "Sự thất vọng khi tiền tiết kiệm bị mất đi hoặc phải sử dụng cho những việc không mong muốn, cảm giác hụt hẫng và lo lắng về tương lai.",
+        "reversed": "Dù có thể đã mất một phần, bạn chấp nhận và bắt đầu xây dựng lại quỹ tiết kiệm, học cách quản lý tài chính cẩn thận hơn."
+      },
+      "luck_money": {
+        "upright": "May mắn đã quay lưng, hoặc cảm giác vận đen đeo bám khiến bạn mất đi một khoản tiền, gây ra sự thất vọng và bi quan.",
+        "reversed": "Sau một giai đoạn đen đủi, bạn bắt đầu chấp nhận và tìm thấy những cơ hội mới, may mắn dần mỉm cười trở lại khi bạn buông bỏ sự tiếc nuối."
+      },
+      "mental": {
+        "upright": "Đắm chìm trong nỗi buồn, lo âu và sự hối tiếc, tâm trí bị bao phủ bởi những suy nghĩ tiêu cực về quá khứ và những mất mát.",
+        "reversed": "Quá trình chữa lành tâm lý bắt đầu, bạn tìm thấy sự chấp nhận, tha thứ và buông bỏ những gánh nặng, hướng tới sự bình yên nội tâm."
+      },
+      "energy": {
+        "upright": "Năng lượng cạn kiệt do nỗi buồn và sự thất vọng, cảm giác mệt mỏi và không muốn làm gì, chỉ muốn đắm chìm trong sự bi quan.",
+        "reversed": "Sau một giai đoạn suy sụp, năng lượng dần được phục hồi khi bạn chấp nhận và buông bỏ, tìm thấy động lực mới để tiến lên."
+      },
+      "family": {
+        "upright": "Một sự rạn nứt hoặc mất mát trong gia đình, gây ra nỗi buồn sâu sắc và sự hối tiếc, khiến các thành viên khó lòng hàn gắn.",
+        "reversed": "Dù có những vết rạn, gia đình tìm cách hàn gắn, tha thứ cho nhau và cùng nhau vượt qua khó khăn, củng cố lại tình cảm."
+      },
+      "diet": {
+        "upright": "Nỗi thất vọng khi không đạt được mục tiêu ăn kiêng, hoặc cảm giác nuối tiếc về những thói quen ăn uống không lành mạnh đã qua.",
+        "reversed": "Buông bỏ sự tự trách móc, bạn chấp nhận những sai lầm và bắt đầu lại với một tinh thần tích cực hơn, tìm kiếm phương pháp ăn uống phù hợp."
+      },
+      "study": {
+        "upright": "Sự thất vọng về kết quả học tập, cảm giác hối tiếc vì không cố gắng hơn hoặc mất hứng thú với việc học, chỉ nhìn vào những điểm yếu.",
+        "reversed": "Sau những thất bại, bạn chấp nhận và rút ra kinh nghiệm, tìm lại động lực và phương pháp học tập hiệu quả hơn, hướng tới thành công."
+      },
+      "study_abroad": {
+        "upright": "Nỗi buồn và sự cô đơn khi phải xa nhà, cảm giác hụt hẫng và tiếc nuối về những gì đã bỏ lại phía sau, khó hòa nhập với môi trường mới.",
+        "reversed": "Vượt qua giai đoạn khó khăn, bạn chấp nhận sự thay đổi, tìm thấy niềm vui và cơ hội trong môi trường mới, dần hòa nhập và phát triển bản thân."
+      },
+      "self": {
+        "upright": "Đắm chìm trong sự tự trách móc và hối tiếc về những sai lầm trong quá khứ, không nhìn thấy giá trị và tiềm năng của bản thân ở hiện tại.",
+        "reversed": "Quá trình tự chấp nhận và tha thứ cho bản thân, bạn học cách buông bỏ quá khứ và tìm thấy sự bình yên, tự tin hơn vào chính mình."
+      },
+      "purpose": {
+        "upright": "Cảm giác mất phương hướng hoặc lạc lối, nỗi buồn khi mục đích sống không được như kỳ vọng, khiến bạn hoài nghi về ý nghĩa tồn tại.",
+        "reversed": "Sau một giai đoạn tìm kiếm, bạn dần chấp nhận những thay đổi và tìm thấy một mục đích mới, hoặc nhìn nhận lại giá trị của những gì mình đang làm."
+      },
+      "shadow_self": {
+        "upright": "Đối mặt với những phần tối trong bản thân, những nỗi sợ hãi, hối tiếc và sự tự ti bị che giấu, khiến bạn cảm thấy nặng nề và khó chịu.",
+        "reversed": "Bạn bắt đầu chấp nhận và hòa giải với những phần bóng tối của mình, học cách tha thứ và biến những khuyết điểm thành động lực phát triển."
+      },
+      "decision": {
+        "upright": "Nỗi buồn và sự hối tiếc về một quyết định đã qua, cảm giác giá như mình đã chọn khác, khiến bạn khó lòng tiến lên.",
+        "reversed": "Bạn chấp nhận hệ quả của quyết định, dù tốt hay xấu, và tìm thấy sự bình yên, rút ra bài học để đưa ra những lựa chọn tốt hơn trong tương lai."
+      },
+      "travel": {
+        "upright": "Chuyến đi không như mong đợi, gặp phải sự cố hoặc cảm giác cô đơn, khiến bạn thất vọng và nhớ về những gì đã bỏ lại.",
+        "reversed": "Dù có những trục trặc, bạn chấp nhận và tận hưởng những trải nghiệm mới, tìm thấy niềm vui và sự học hỏi từ chuyến đi, dù không hoàn hảo."
+      },
+      "general": {
+        "upright": "Giai đoạn của sự mất mát, tiếc nuối và tập trung vào những gì đã qua, bỏ lỡ những cơ hội và nguồn lực đang hiện hữu. Nỗi buồn bao trùm.",
+        "reversed": "Quá trình chữa lành bắt đầu, bạn buông bỏ quá khứ, chấp nhận thực tại và tìm thấy hy vọng, mở lòng đón nhận những điều tốt đẹp sắp đến."
       }
     },
     "planet": "Sao Hỏa",
@@ -9285,74 +9845,204 @@ window.TAROT_DB = [
     "reversed": "Sự tỉnh táo. Lớp sương mù ảo mộng tan đi, giúp bạn đưa ra được một lựa chọn dứt khoát và thực tế.",
     "aspects": {
       "love": {
-        "up": "Có nhiều người theo đuổi nhưng không biết chọn ai, hoặc đang lý tưởng hóa đối phương.",
-        "rev": "Nhìn rõ bản chất của một người và thoát khỏi ảo tưởng tình yêu.",
-        "upright": "Bạn đang mù quáng, lý tưởng hóa đối phương một cách phi thực tế, hoặc đang đứng giữa quá nhiều lựa chọn tình cảm nhưng không ai thực sự chân thành. Sự ảo tưởng về một tình yêu hoàn hảo không tì vết.",
-        "reversed": "Thức tỉnh khỏi một mối quan hệ đầy lừa dối hoặc ảo mộng. Lớp mặt nạ rơi xuống, bạn nhận ra sự thật đau lòng nhưng lại tìm thấy sự giải thoát và một cái nhìn thực tế hơn về tình yêu."
+        "upright": "Một mê cung của những ảo mộng tình ái, nơi trái tim lạc lối giữa vô vàn hình bóng lý tưởng mà không chạm đến thực tại. Tình yêu hiện hữu như một giấc mơ đẹp, nhưng thiếu sự rõ ràng và hành động.",
+        "reversed": "Sau màn sương mờ ảo, tình yêu hiện rõ với bản chất chân thật. Bạn sẵn sàng buông bỏ những kỳ vọng viển vông để đón nhận một mối quan hệ thực tế và có giá trị."
       },
       "career": {
-        "up": "Nhiều lời mời chào việc làm nhưng cần cẩn thận bánh vẽ.",
-        "rev": "Đưa ra quyết định nghề nghiệp chắc chắn, thực tế.",
-        "upright": "Đứng trước vô vàn ngã rẽ sự nghiệp, bạn bị mờ mắt bởi những lời hứa hẹn hào nhoáng nhưng sáo rỗng. Cẩn thận với những dự án bánh vẽ thiếu cơ sở thực tiễn.",
-        "reversed": "Loại bỏ những kế hoạch viển vông, tập trung toàn lực vào một mục tiêu khả thi duy nhất. Sự tỉnh táo trong công việc giúp bạn vạch ra một lộ trình thực tế vững chắc."
+        "upright": "Sự nghiệp như một biển cả của những cơ hội và con đường tiềm năng, khiến bạn bối rối không biết nên chọn hướng đi nào, dễ lạc lối trong những lựa chọn phù phiếm.",
+        "reversed": "Bạn đã nhìn rõ con đường sự nghiệp của mình, gạt bỏ những lựa chọn không thực tế để tập trung vào mục tiêu cụ thể, hành động có định hướng."
       },
       "finance": {
-        "up": "Cẩn thận với các dự án 'làm giàu nhanh' đầy cám dỗ.",
-        "rev": "Tránh được cạm bẫy lừa đảo nhờ sự tỉnh táo.",
-        "upright": "Những cạm bẫy 'làm giàu nhanh chóng' đang mời gọi bằng những lời đường mật. Sự thiếu tỉnh táo trước các quyết định đầu tư có thể dẫn đến hậu quả khôn lường.",
-        "reversed": "Từ bỏ những mộng tưởng làm giàu không tưởng. Bắt đầu thiết lập những nguyên tắc tài chính thực tế và cẩn trọng với các cam kết tài chính dài hạn."
+        "upright": "Tài chính đang ở trong tình trạng có nhiều lựa chọn chi tiêu hoặc đầu tư, nhưng thiếu sự rõ ràng, dễ bị cuốn vào những kế hoạch không thực tế hoặc quá mạo hiểm.",
+        "reversed": "Bạn đã nhìn rõ tình hình tài chính của mình, đưa ra những quyết định thực tế về chi tiêu và đầu tư, thoát khỏi những ảo tưởng về tiền bạc."
       },
       "health": {
-        "up": "Mệt mỏi vì mộng du, mất ngủ hoặc ám ảnh sức khỏe.",
-        "rev": "Sự thật về tình trạng sức khỏe được làm rõ qua xét nghiệm.",
-        "upright": "Sự lạm dụng chất kích thích, thuốc an thần hoặc rượu chè để trốn tránh hiện thực. Những ảo giác hoặc rối loạn giấc ngủ do tâm trí quá mệt mỏi với những hoang tưởng.",
-        "reversed": "Sự cải thiện sức khỏe tâm thần đáng kể khi bạn ngừng trốn chạy. Việc đối mặt với thực tại giúp giải tỏa những căng thẳng vô hình."
+        "upright": "Sức khỏe đang bị ảnh hưởng bởi những lo lắng không có cơ sở, những phương pháp chữa bệnh kỳ lạ hoặc sự thiếu rõ ràng trong việc chẩn đoán.",
+        "reversed": "Bạn đã nhìn rõ tình trạng sức khỏe của mình, buông bỏ những lo lắng không cần thiết và tìm kiếm phương pháp điều trị thực tế, hiệu quả."
       },
       "spiritual": {
-        "up": "Ảo tưởng tâm linh, sống mộng mơ xa rời thực tại.",
-        "rev": "Quay về thực tại chánh niệm (mindfulness).",
-        "upright": "Sự ảo tưởng tâm linh (spiritual bypassing). Bạn đắm chìm trong những trải nghiệm siêu nhiên hời hợt hoặc bị mê hoặc bởi những đạo sư giả tạo thay vì đối mặt với bóng tối nội tâm.",
-        "reversed": "Sự giác ngộ thực sự. Bạn nhận ra chân lý ẩn giấu đằng sau những phù phiếm bề ngoài, cam kết với một con đường tu tập vững vàng và bám rễ sâu vào hiện thực."
+        "upright": "Trên con đường tâm linh, bạn đang bị cuốn hút bởi nhiều giáo phái, phương pháp khác nhau, dễ lạc lối trong những ảo ảnh và không tìm thấy chân lý thực sự.",
+        "reversed": "Bạn đã tìm thấy sự rõ ràng trong hành trình tâm linh, buông bỏ những ảo tưởng và tập trung vào con đường chân chính của mình."
       },
       "friendship": {
-        "upright": "Tình bạn đang đứng trước muôn vàn lựa chọn, những mối quan hệ mới đầy hứa hẹn nhưng cũng tiềm ẩn ảo ảnh. Cần tỉnh táo phân định đâu là tri kỷ thật lòng, đâu là những mối giao du phù phiếm, như sương khói mờ ảo.",
-        "reversed": "Vỡ mộng về một tình bạn lý tưởng, nhận ra sự thật phũ phàng đằng sau những lời hứa hão huyền. Hoặc bạn đang thoát ly khỏi thực tại, trốn tránh trách nhiệm trong mối quan hệ, lạc lối trong mê cung ảo ảnh."
+        "upright": "Tình bạn đang bị bao phủ bởi những hiểu lầm, những kỳ vọng không rõ ràng hoặc những tin đồn, khiến bạn khó đánh giá đúng bản chất của mối quan hệ.",
+        "reversed": "Bạn đã nhìn rõ bản chất của tình bạn, buông bỏ những ảo tưởng và đối mặt với thực tế, xây dựng mối quan hệ dựa trên sự chân thành."
       },
       "pregnancy": {
-        "upright": "Khao khát mãnh liệt về việc có con, nhưng đó có thể là những hình dung không thực tế về thiên chức làm cha mẹ. Cần đối mặt với thực tế và chuẩn bị kỹ lưỡng hơn là chỉ mơ mộng hão huyền về một tương lai hồng.",
-        "reversed": "Sự nhầm lẫn, hiểu lầm về việc mang thai hoặc các lựa chọn liên quan đến sức khỏe sinh sản. Có thể là sự thất vọng khi đối mặt với thực tế khác xa mong đợi, như giấc mộng tan vỡ."
+        "upright": "Viễn cảnh mang thai như một giấc mơ đẹp với nhiều hy vọng và hình dung, nhưng cũng tiềm ẩn những lo lắng không có cơ sở hoặc sự thiếu rõ ràng về kế hoạch.",
+        "reversed": "Bạn đã đối mặt với thực tế của việc mang thai, buông bỏ những lo lắng không cần thiết và đưa ra những quyết định thực tế cho tương lai."
       },
       "gossip": {
-        "upright": "Lời đồn thổi lan truyền như một câu chuyện cổ tích, khó phân định thật giả. Có quá nhiều phiên bản, quá nhiều suy đoán khiến sự thật bị che mờ bởi những ảo ảnh, như màn sương che phủ.",
-        "reversed": "Nhận ra bản chất thật của những lời đàm tiếu, thoát khỏi sự mê hoặc của tin đồn. Hoặc sự thật bị bóp méo đến mức không thể nhận ra, như hình ảnh phản chiếu méo mó trong gương."
+        "upright": "Những lời đồn thổi lan truyền như ảo ảnh, khiến bạn bị cuốn vào vòng xoáy của thông tin sai lệch và khó phân biệt thật giả.",
+        "reversed": "Bạn đã nhìn rõ bản chất của những lời đồn, không còn bị ảnh hưởng bởi ảo tưởng mà đối mặt với sự thật, tìm kiếm thông tin xác thực."
       },
       "legal": {
-        "upright": "Vụ án phức tạp với nhiều tình tiết mơ hồ, lời khai mâu thuẫn, như một mê cung không lối thoát. Cần hết sức cẩn trọng trước những lời đề nghị hấp dẫn nhưng thiếu thực tế, ẩn chứa cạm bẫy.",
-        "reversed": "Sự thật được phơi bày, những ảo ảnh pháp lý tan biến, mang lại sự tỉnh ngộ cay đắng. Có thể là sự thất vọng khi nhận ra mình đã bị lừa dối, lạc lối trong vòng xoáy của sự thật."
+        "upright": "Vấn đề pháp lý phức tạp bởi những thông tin mơ hồ, những lời hứa hão huyền hoặc những kịch bản không thực tế, gây ra sự bối rối và khó khăn trong việc đưa ra quyết định.",
+        "reversed": "Bạn đã nhìn rõ bản chất của vấn đề pháp lý, buông bỏ những ảo tưởng và đưa ra những quyết định thực tế, đối mặt với sự thật."
       },
       "moving": {
-        "upright": "Nhiều lựa chọn về nơi ở mới, nhưng mỗi nơi đều có vẻ hấp dẫn và khó quyết định, như đứng trước ngã ba đường. Cần cân nhắc kỹ lưỡng giữa mong muốn và khả năng thực tế để tránh hối tiếc.",
-        "reversed": "Vỡ mộng về một nơi ở lý tưởng, nhận ra thực tế khác xa tưởng tượng, như lâu đài cát sụp đổ. Hoặc sự trì hoãn trong việc chuyển đi do không thể đưa ra quyết định, mắc kẹt trong sự lưỡng lự."
+        "upright": "Kế hoạch chuyển nhà được lấp đầy bởi những giấc mơ về một khởi đầu mới, nhưng có thể thiếu sự chuẩn bị thực tế và những tính toán rõ ràng.",
+        "reversed": "Bạn đã đối mặt với thực tế của việc chuyển nhà, không còn chìm đắm trong ảo tưởng mà bắt đầu chuẩn bị kỹ lưỡng và thực tế cho hành trình này."
       },
       "pet": {
-        "upright": "Khao khát có một thú cưng hoàn hảo, nhưng có thể là những hình dung không thực tế về trách nhiệm nuôi dưỡng. Cần tỉnh táo trước vẻ ngoài đáng yêu mà quên đi bản chất của chúng, như bị mê hoặc bởi vẻ đẹp phù phiếm.",
-        "reversed": "Nhận ra sự thật về một thú cưng không như mong đợi, hoặc sự thất vọng khi đối mặt với những vấn đề không lường trước. Ảo ảnh về người bạn bốn chân tan biến, nhường chỗ cho thực tế."
+        "upright": "Mối quan hệ với thú cưng có thể được tô vẽ bằng những kỳ vọng lý tưởng, nhưng thiếu sự rõ ràng về trách nhiệm hoặc những vấn đề sức khỏe tiềm ẩn.",
+        "reversed": "Bạn đã nhìn rõ thực tế về việc chăm sóc thú cưng, buông bỏ những ảo tưởng và đối mặt với trách nhiệm, chăm sóc chúng một cách thực tế."
       },
       "dream": {
-        "upright": "Giấc mơ đầy màu sắc, phong phú nhưng cũng rất lộn xộn và khó hiểu, như một bức tranh trừu tượng. Tiềm thức đang cho bạn thấy nhiều khả năng nhưng cũng cảnh báo về sự mơ hồ, ảo tưởng đang vây quanh.",
-        "reversed": "Vỡ mộng, tỉnh giấc khỏi những ảo ảnh, đối mặt với thực tại phũ phàng. Giấc mơ có thể trở thành ác mộng khi bạn nhận ra sự thật cay đắng, như chiếc gương vỡ tan."
+        "upright": "Những giấc mơ của bạn đang bay bổng trong thế giới của sự tưởng tượng và khả năng vô hạn, nhưng có thể thiếu nền tảng thực tế để hiện thực hóa.",
+        "reversed": "Bạn đã nhìn rõ bản chất của những giấc mơ, buông bỏ những ảo tưởng và bắt đầu biến chúng thành hiện thực bằng hành động cụ thể."
       },
       "past_life": {
-        "upright": "Linh hồn bạn từng bị lạc lối trong những ảo ảnh, theo đuổi những điều phù phiếm, như người lữ hành lạc bước trong sa mạc mộng mị. Có thể là một kiếp sống đầy mộng mơ nhưng thiếu thực tế, không chạm đến chân giá trị.",
-        "reversed": "Kiếp trước bạn đã học được bài học về sự tỉnh táo, thoát khỏi vòng xoáy của ảo ảnh. Hoặc những ảo tưởng từ kiếp trước vẫn còn ảnh hưởng đến bạn, tạo ra những lựa chọn khó khăn ở hiện tại."
+        "upright": "Những ký ức về kiếp trước hiện về như những hình ảnh mờ ảo, những câu chuyện huyền bí, khiến bạn bị cuốn vào thế giới tâm linh mà thiếu sự kết nối với hiện tại.",
+        "reversed": "Bạn đã nhìn rõ những bài học từ kiếp trước, không còn chìm đắm trong ảo tưởng mà áp dụng chúng vào cuộc sống hiện tại một cách thực tế."
       },
       "karma": {
-        "upright": "Nghiệp quả đến từ việc tạo ra hoặc tin vào những ảo ảnh, lừa dối người khác hoặc tự lừa dối chính mình. Bạn đang phải đối mặt với những lựa chọn khó khăn và sự mơ hồ, như lạc lối trong màn sương mù dày đặc.",
-        "reversed": "Vòng xoáy nghiệp quả của sự ảo tưởng đã kết thúc. Bạn đang học cách đối mặt với sự thật, dù phũ phàng, để tìm thấy con đường giải thoát và sự minh triết."
+        "upright": "Nghiệp quả hiện hữu dưới nhiều dạng thức, những lựa chọn và hành động trong quá khứ tạo ra một mê cung của những hệ quả khó lường, khiến bạn bối rối.",
+        "reversed": "Bạn đã nhìn rõ luật nhân quả, buông bỏ những ảo tưởng và đối mặt với hậu quả của hành động, sẵn sàng sửa đổi và tạo ra nghiệp tốt."
       },
       "lost_item": {
-        "upright": "Món đồ thất lạc có thể ở đâu đó trong trí tưởng tượng của bạn, hoặc bạn đang tìm kiếm một thứ không thực sự tồn tại. Quá nhiều khả năng khiến việc tìm kiếm trở nên mông lung, như mò kim đáy bể.",
-        "reversed": "Nhận ra món đồ đã mất không quan trọng như bạn nghĩ, hoặc bạn đã tìm thấy nó sau khi loại bỏ những suy nghĩ sai lệch. Ảo ảnh về giá trị của vật phẩm tan biến, trả lại sự thật."
+        "upright": "Vật phẩm bị mất dường như đang ẩn mình trong một mê cung của những suy đoán và những nơi có thể tìm thấy, khiến bạn lạc lối trong quá trình tìm kiếm.",
+        "reversed": "Sau màn sương mờ ảo, bạn đã có một manh mối rõ ràng hoặc đã tìm thấy vật phẩm bị mất, thoát khỏi sự bối rối và hoang mang."
+      },
+      "ex": {
+        "upright": "Những ký ức về người cũ hiện về như những chiếc cốc chứa đầy ảo ảnh, khiến bạn bâng khuâng giữa tiếc nuối và hoài niệm, khó dứt khoát với quá khứ đã qua.",
+        "reversed": "Bạn đã nhìn thấu bản chất của mối quan hệ cũ, buông bỏ những ảo tưởng về người yêu cũ để tiến về phía trước với sự rõ ràng và dứt khoát."
+      },
+      "current_love": {
+        "upright": "Mối quan hệ hiện tại như một biển cả của những lựa chọn và mong muốn, khiến bạn bối rối không biết đâu là điều thực sự mình cần hay chỉ là những ảo ảnh lấp lánh.",
+        "reversed": "Sự thật về mối quan hệ hiện tại được phơi bày. Bạn và đối phương đối mặt với thực tế, sẵn sàng đưa ra những quyết định quan trọng để xây dựng nền tảng vững chắc."
+      },
+      "ambiguous": {
+        "upright": "Một tình huống mập mờ, nơi mọi thứ đều có thể xảy ra nhưng không có gì chắc chắn. Bạn đang bị cuốn vào vòng xoáy của những suy đoán và hy vọng hão huyền.",
+        "reversed": "Màn sương mờ ảo tan biến, sự thật được hé lộ. Bạn nhận ra bản chất của sự mập mờ và sẵn sàng đối diện, đưa ra lựa chọn dứt khoát."
+      },
+      "crush": {
+        "upright": "Tình cảm đơn phương như một bộ sưu tập những giấc mơ và viễn cảnh lãng mạn, bạn đắm chìm trong việc tưởng tượng về người ấy mà quên đi thực tại.",
+        "reversed": "Bạn đã nhìn rõ người mình thầm thương, không còn chìm đắm trong ảo mộng mà bắt đầu đánh giá thực tế về mối quan hệ này."
+      },
+      "future_love": {
+        "upright": "Tương lai tình yêu là một bức tranh đầy màu sắc với vô vàn khả năng và đối tượng tiềm năng, khiến bạn choáng ngợp và khó đưa ra lựa chọn định hướng.",
+        "reversed": "Bạn đã định hình được mong muốn thực sự cho tình yêu tương lai, sẵn sàng gạt bỏ những lựa chọn không phù hợp để tập trung vào điều mình khao khát."
+      },
+      "someone": {
+        "upright": "Người này mang đến nhiều lựa chọn và ý tưởng, nhưng cũng có thể là nguồn gốc của sự bối rối, khiến bạn khó lòng nhìn rõ bản chất thực sự của họ.",
+        "reversed": "Bạn đã nhìn thấu con người này, không còn bị mê hoặc bởi vẻ ngoài hay những lời hứa hão huyền, mà đánh giá họ dựa trên thực tế."
+      },
+      "marriage": {
+        "upright": "Ý định hôn nhân như một vườn hoa rực rỡ nhưng đầy ảo ảnh, bạn đang mơ mộng về một đám cưới hoàn hảo mà quên đi những khía cạnh thực tế của cuộc sống vợ chồng.",
+        "reversed": "Bạn đã nhìn rõ thực tế của hôn nhân, sẵn sàng đối mặt với những thử thách và đưa ra quyết định dựa trên nền tảng vững chắc, không còn chìm đắm trong ảo mộng."
+      },
+      "conflict": {
+        "upright": "Xung đột bùng nổ từ sự hiểu lầm và những kỳ vọng không rõ ràng, tạo ra một mớ bòng bong của những cảm xúc tiêu cực và ảo tưởng về nguyên nhân.",
+        "reversed": "Bạn đã nhìn rõ nguồn gốc của xung đột, sẵn sàng đối mặt với sự thật và đưa ra giải pháp thực tế để hóa giải mâu thuẫn."
+      },
+      "breakup": {
+        "upright": "Sau chia tay, bạn chìm đắm trong vô vàn suy nghĩ về nguyên nhân, những kịch bản 'nếu như' và những ảo ảnh về việc hàn gắn, khiến bạn khó chấp nhận thực tại.",
+        "reversed": "Bạn đã đối diện với sự thật của cuộc chia tay, buông bỏ những ảo tưởng và bắt đầu quá trình chữa lành, tìm lại sự rõ ràng cho bản thân."
+      },
+      "long_distance": {
+        "upright": "Mối quan hệ xa cách được tô vẽ bằng những giấc mơ và kỳ vọng lý tưởng, nhưng cũng tiềm ẩn nhiều ảo ảnh và sự thiếu rõ ràng về tương lai.",
+        "reversed": "Bạn và đối phương cùng nhau đối mặt với thực tế của mối quan hệ xa cách, đưa ra những quyết định thực tế để duy trì hoặc định hình lại tình cảm."
+      },
+      "jealousy": {
+        "upright": "Ganh tỵ nảy sinh từ những nỗi sợ hãi không có thật và những so sánh ảo tưởng, khiến bạn chìm đắm trong cảm xúc tiêu cực mà không có cơ sở vững chắc.",
+        "reversed": "Bạn đã nhìn rõ nguồn gốc của sự ganh tỵ, buông bỏ những ảo tưởng và bắt đầu xây dựng lòng tin, đối mặt với cảm xúc một cách thực tế."
+      },
+      "self_love": {
+        "upright": "Tình yêu bản thân bị che mờ bởi những tiêu chuẩn lý tưởng, những ảo ảnh về sự hoàn hảo, khiến bạn khó chấp nhận con người thật của mình.",
+        "reversed": "Bạn đã vượt qua những ảo tưởng về bản thân, chấp nhận và yêu thương con người thật của mình với mọi khuyết điểm, tìm thấy sự tự tin chân chính."
+      },
+      "job_search": {
+        "upright": "Trong quá trình tìm việc, bạn bị cuốn hút bởi vô vàn lời mời hấp dẫn, những công việc mơ ước, dễ bị phân tâm bởi những lựa chọn không thực tế hoặc quá sức.",
+        "reversed": "Bạn đã xác định rõ mục tiêu tìm việc, buông bỏ những kỳ vọng hão huyền và tập trung vào những cơ hội phù hợp, đưa ra quyết định thực tế."
+      },
+      "promotion": {
+        "upright": "Viễn cảnh thăng tiến như một giấc mơ đẹp với nhiều hứa hẹn, nhưng cũng chứa đựng những kỳ vọng không thực tế và sự mơ hồ về trách nhiệm đi kèm.",
+        "reversed": "Bạn đã nhìn rõ thực tế của sự thăng tiến, sẵn sàng đối mặt với những thách thức và đưa ra quyết định dựa trên khả năng và mục tiêu cụ thể."
+      },
+      "business": {
+        "upright": "Dự án kinh doanh đang ở giai đoạn nhiều ý tưởng và kế hoạch táo bạo, nhưng thiếu sự tập trung và khả năng hiện thực hóa, dễ dẫn đến thất bại vì quá nhiều lựa chọn.",
+        "reversed": "Bạn đã vượt qua giai đoạn mơ mộng, đưa ra những quyết định kinh doanh thực tế, tập trung vào các kế hoạch khả thi và hành động dứt khoát."
+      },
+      "colleague": {
+        "upright": "Mối quan hệ với đồng nghiệp phức tạp bởi những hiểu lầm, những tin đồn hoặc những kỳ vọng không rõ ràng, khiến bạn khó lòng đánh giá đúng bản chất của họ.",
+        "reversed": "Bạn đã nhìn rõ bản chất của đồng nghiệp, không còn bị ảnh hưởng bởi những ảo tưởng hay định kiến, xây dựng mối quan hệ dựa trên sự thật."
+      },
+      "career_change": {
+        "upright": "Ý định thay đổi sự nghiệp đang bùng nổ với vô vàn lựa chọn, những con đường mới mẻ đầy hứa hẹn, nhưng cũng tiềm ẩn sự bối rối và thiếu định hướng rõ ràng.",
+        "reversed": "Bạn đã xác định rõ hướng đi cho sự nghiệp mới, buông bỏ những lựa chọn không thực tế và tập trung vào một con đường cụ thể, hành động quyết đoán."
+      },
+      "freelance": {
+        "upright": "Lĩnh vực tự do mở ra vô vàn cơ hội và dự án hấp dẫn, nhưng cũng khiến bạn choáng ngợp, khó tập trung vào một hướng đi cụ thể, dễ bị phân tán nguồn lực.",
+        "reversed": "Bạn đã sắp xếp lại các dự án tự do, buông bỏ những cơ hội không phù hợp để tập trung vào những công việc mang lại giá trị thực, đưa ra quyết định khôn ngoan."
+      },
+      "interview": {
+        "upright": "Bạn đang chuẩn bị cho một buổi phỏng vấn với nhiều kỳ vọng và hình dung về công việc mơ ước, nhưng có thể bỏ qua những chi tiết thực tế hoặc không rõ ràng về vai trò.",
+        "reversed": "Bạn đã có sự chuẩn bị thực tế và rõ ràng cho buổi phỏng vấn, không còn bị ảnh hưởng bởi những kỳ vọng hão huyền, sẵn sàng đối mặt với thực tế."
+      },
+      "investment": {
+        "upright": "Nhiều cơ hội đầu tư hấp dẫn xuất hiện, nhưng chúng có thể là những lời hứa hão huyền hoặc quá rủi ro, khiến bạn bối rối và khó đưa ra lựa chọn sáng suốt.",
+        "reversed": "Bạn đã nhìn rõ bản chất của các khoản đầu tư, buông bỏ những lời mời gọi không thực tế và đưa ra quyết định dựa trên sự phân tích kỹ lưỡng."
+      },
+      "debt": {
+        "upright": "Bạn đang bị choáng ngợp bởi gánh nặng nợ nần, mơ hồ về cách giải quyết hoặc chìm đắm trong những kế hoạch trả nợ không khả thi.",
+        "reversed": "Bạn đã đối mặt với thực tế nợ nần, không còn chìm đắm trong ảo tưởng mà đưa ra những kế hoạch trả nợ cụ thể và khả thi."
+      },
+      "savings": {
+        "upright": "Bạn có nhiều kế hoạch tiết kiệm nhưng lại thiếu sự tập trung, dễ bị phân tâm bởi những khoản chi tiêu không cần thiết hoặc những mục tiêu mơ hồ.",
+        "reversed": "Bạn đã định hình rõ ràng mục tiêu tiết kiệm, buông bỏ những khoản chi không cần thiết và tập trung vào việc tích lũy một cách có kế hoạch."
+      },
+      "luck_money": {
+        "upright": "Tài lộc đến dưới dạng những cơ hội bất ngờ nhưng cũng mơ hồ, dễ khiến bạn ảo tưởng về sự giàu có mà không có nền tảng thực tế.",
+        "reversed": "Bạn đã nhận ra rằng may mắn tài chính cần đi đôi với hành động thực tế, không còn phụ thuộc vào những ảo tưởng mà chủ động tạo ra cơ hội."
+      },
+      "mental": {
+        "upright": "Tâm trí đang chìm trong vô vàn suy nghĩ, những giấc mơ và những nỗi sợ hãi không có thật, gây ra sự bối rối và mất phương hướng.",
+        "reversed": "Bạn đã tìm thấy sự rõ ràng trong tâm trí, buông bỏ những suy nghĩ tiêu cực và đối mặt với thực tế, tìm lại sự bình yên nội tại."
+      },
+      "energy": {
+        "upright": "Năng lượng bị phân tán bởi quá nhiều lựa chọn và ý tưởng, khiến bạn cảm thấy kiệt sức, thiếu tập trung và không đạt được hiệu quả.",
+        "reversed": "Bạn đã tập trung lại năng lượng, gạt bỏ những điều không cần thiết để dồn sức vào những mục tiêu quan trọng, đạt được hiệu quả cao."
+      },
+      "family": {
+        "upright": "Mối quan hệ gia đình phức tạp bởi những kỳ vọng không thực tế, những hiểu lầm hoặc những ảo tưởng về vai trò của mỗi người.",
+        "reversed": "Bạn đã nhìn rõ bản chất của mối quan hệ gia đình, buông bỏ những ảo tưởng và đối mặt với thực tế để xây dựng sự hòa hợp."
+      },
+      "diet": {
+        "upright": "Bạn đang bị cuốn hút bởi vô vàn chế độ ăn kiêng hứa hẹn hiệu quả thần kỳ, nhưng thiếu sự rõ ràng và không phù hợp với cơ thể.",
+        "reversed": "Bạn đã tìm thấy chế độ ăn uống phù hợp với mình, buông bỏ những lời quảng cáo hão huyền và tập trung vào sức khỏe thực sự."
+      },
+      "study": {
+        "upright": "Việc học bị phân tâm bởi quá nhiều chủ đề, tài liệu hoặc phương pháp học không rõ ràng, khiến bạn khó tập trung và đạt hiệu quả.",
+        "reversed": "Bạn đã xác định rõ mục tiêu học tập, buông bỏ những yếu tố gây phân tâm và tập trung vào những kiến thức cốt lõi, đạt được tiến bộ."
+      },
+      "study_abroad": {
+        "upright": "Giấc mơ du học được tô vẽ bằng những hình ảnh lãng mạn, nhưng bạn có thể chưa nhìn rõ những thách thức thực tế và sự chuẩn bị cần thiết.",
+        "reversed": "Bạn đã nhìn rõ thực tế của việc du học, không còn chìm đắm trong ảo tưởng mà bắt đầu chuẩn bị kỹ lưỡng và thực tế cho hành trình này."
+      },
+      "self": {
+        "upright": "Bản thân đang bị lạc lối giữa vô vàn hình ảnh lý tưởng, những mong muốn không rõ ràng, khiến bạn khó nhận ra giá trị thực sự của mình.",
+        "reversed": "Bạn đã tìm thấy sự rõ ràng về bản thân, buông bỏ những ảo tưởng và chấp nhận con người thật, tìm lại định hướng và mục đích sống."
+      },
+      "purpose": {
+        "upright": "Mục đích sống bị che mờ bởi vô vàn lựa chọn, những ý tưởng mơ hồ, khiến bạn bối rối không biết đâu là con đường thực sự của mình.",
+        "reversed": "Bạn đã tìm thấy sự rõ ràng về mục đích sống, buông bỏ những lựa chọn không phù hợp và tập trung vào con đường chân chính của mình."
+      },
+      "shadow_self": {
+        "upright": "Những khía cạnh tối tăm của bản thân hiện ra dưới nhiều hình hài, những nỗi sợ hãi, ảo tưởng, khiến bạn khó đối diện và chấp nhận.",
+        "reversed": "Bạn đã đối mặt với những khía cạnh tối tăm của bản thân, buông bỏ những ảo tưởng và chấp nhận chúng như một phần của con người mình."
+      },
+      "decision": {
+        "upright": "Bạn đang đứng trước vô vàn lựa chọn, mỗi lựa chọn đều có vẻ hấp dẫn nhưng lại thiếu sự rõ ràng, gây ra sự do dự và khó khăn trong việc đưa ra quyết định.",
+        "reversed": "Bạn đã vượt qua sự bối rối, đưa ra một quyết định rõ ràng và dứt khoát sau khi đã nhìn thấu bản chất của các lựa chọn."
+      },
+      "travel": {
+        "upright": "Hành trình du lịch được lấp đầy bởi những giấc mơ về những miền đất lạ, những trải nghiệm lý tưởng, nhưng có thể thiếu sự chuẩn bị thực tế.",
+        "reversed": "Bạn đã nhìn rõ thực tế của chuyến đi, không còn chìm đắm trong ảo tưởng mà bắt đầu chuẩn bị kỹ lưỡng và thực tế cho hành trình này."
+      },
+      "general": {
+        "upright": "Một giai đoạn của sự lựa chọn phong phú nhưng cũng đầy bối rối, nơi những giấc mơ và thực tại hòa quyện, đòi hỏi sự tỉnh táo để không lạc lối.",
+        "reversed": "Sau màn sương mờ ảo, mọi thứ trở nên rõ ràng. Bạn đã sẵn sàng đưa ra quyết định, đối mặt với thực tế và hành động một cách dứt khoát."
       }
     },
     "planet": "Sao Kim",
@@ -10082,74 +10772,204 @@ window.TAROT_DB = [
     "reversed": "Sự bồng bột trong cảm xúc, hờn dỗi trẻ con, mộng mơ quá mức hoặc những tin đồn nhảm nhí.",
     "aspects": {
       "love": {
-        "up": "Một lời tỏ tình dễ thương, một thông điệp tình cảm tươi mới.",
-        "rev": "Người yêu cư xử trẻ con, ghen tuông vớ vẩn.",
-        "upright": "Một lời tỏ tình lãng mạn bất ngờ, một tin nhắn ngập tràn yêu thương hoặc sự bắt đầu của một tình cảm thuần khiết. Mối quan hệ nhẹ nhàng, chữa lành và đầy tính thơ.",
-        "reversed": "Sự thất vọng vì tình cảm không được đáp lại, hoặc một người quá yếu đuối, bi lụy và phụ thuộc vào đối phương. Tính khí trẻ con, hờn ghen vô cớ đang phá hoại tình yêu."
+        "upright": "Tín hiệu của một tình yêu mới chớm nở, sự ngây thơ và khao khát khám phá cảm xúc. Có thể là một lời tỏ tình nhẹ nhàng, một cử chỉ lãng mạn bất ngờ, hoặc sự mở lòng đón nhận tình cảm với trái tim trong sáng.",
+        "reversed": "Sự thiếu trưởng thành trong tình yêu, dễ bị tổn thương hoặc quá mơ mộng, không thực tế. Có thể là những cảm xúc bị kìm nén, sự ngại ngùng không dám bày tỏ, hoặc những tin tức tình cảm gây bối rối, không rõ ràng."
       },
       "career": {
-        "up": "Có cảm hứng nghệ thuật, ý tưởng thiết kế/sáng tạo tuyệt vời.",
-        "rev": "Mơ mộng giữa giờ làm, thiếu kỹ năng thực tế.",
-        "upright": "Một cơ hội tuyệt vời trong lĩnh vực nghệ thuật, sáng tạo hoặc một môi trường làm việc coi trọng cảm xúc con người. Sự nhạy bén giúp bạn đưa ra những ý tưởng độc đáo.",
-        "reversed": "Thiếu sự chuyên nghiệp, làm việc theo cảm hứng thất thường, bỏ dở công việc khi gặp áp lực. Một tin đồn thị phi hoặc sự thiếu hòa đồng đang cô lập bạn tại công sở."
+        "upright": "Một cơ hội mới đầy sáng tạo, một dự án nghệ thuật hoặc một lời đề nghị bất ngờ mang lại niềm vui và sự hứng khởi. Khuyến khích sự tò mò và học hỏi những điều mới mẻ.",
+        "reversed": "Thiếu động lực, sự trì hoãn hoặc những ý tưởng không thực tế. Có thể là sự thiếu tập trung, nhạy cảm với phê bình hoặc những tin tức công việc gây bối rối, không rõ ràng."
       },
       "finance": {
-        "up": "Một tin tức tài chính nhỏ bé nhưng làm bạn vui vẻ.",
-        "rev": "Ném tiền vào những thú vui không đâu vào đâu.",
-        "upright": "Những quyết định tài chính dựa trên trực giác mang lại kết quả khả quan. Nhận được một món quà vật chất nhỏ mang ý nghĩa tinh thần lớn lao.",
-        "reversed": "Chi tiêu bốc đồng để bù đắp cho sự trống rỗng cảm xúc. Sự thiếu thực tế và tính toán sơ sài khiến bạn dễ bị lừa gạt trong các quyết định tiền bạc."
+        "upright": "Một khoản tiền bất ngờ, một cơ hội đầu tư nhỏ đầy hứa hẹn hoặc tin tức tài chính tốt lành. Khuyến khích sự tò mò và khám phá các nguồn thu nhập mới.",
+        "reversed": "Những quyết định tài chính bốc đồng, thiếu suy nghĩ hoặc những rủi ro không lường trước. Cảnh báo về những tin tức tài chính gây bối rối hoặc sự lừa dối nhỏ."
       },
       "health": {
-        "up": "Năng lượng nhẹ nhàng, rất tốt để học cách yêu thương bản thân.",
-        "rev": "Tâm lý nhạy cảm quá mức, buồn rầu không rõ lý do.",
-        "upright": "Sự nhẹ nhõm về tâm lý mang lại một cơ thể linh hoạt, tràn trề sinh khí non trẻ. Thời điểm tuyệt vời cho các phương pháp trị liệu bằng nghệ thuật, âm nhạc.",
-        "reversed": "Sự nhạy cảm thái quá dẫn đến trầm cảm nhẹ, rối loạn cảm xúc hoặc những căn bệnh liên quan đến hệ thống tuyến giáp, thần kinh do không biết cách tự giải tỏa."
+        "upright": "Một khởi đầu mới cho việc chăm sóc sức khỏe, có thể là một chế độ ăn uống mới, một bài tập nhẹ nhàng hoặc phương pháp chữa bệnh sáng tạo. Lắng nghe trực giác về cơ thể.",
+        "reversed": "Sức khỏe bị ảnh hưởng bởi căng thẳng cảm xúc, sự nhạy cảm thái quá hoặc bỏ bê bản thân. Có thể là những triệu chứng mơ hồ, khó chẩn đoán hoặc sự thiếu kỷ luật trong việc điều trị."
       },
       "spiritual": {
-        "up": "Bắt đầu khám phá trực giác, giải mã giấc mơ.",
-        "rev": "Phớt lờ các thông điệp trực giác vì nghĩ nó là sự trùng hợp.",
-        "upright": "Trực giác hoạt động nhạy bén lạ thường. Những giấc mơ tiên tri, thông điệp tâm linh đến thông qua sự đồng cảm sâu sắc. Bạn dễ dàng kết nối với năng lượng thanh khiết.",
-        "reversed": "Ảo tưởng tâm linh, tự lừa dối bản thân. Bạn đóng cửa linh hồn, chối bỏ trực giác thực sự vì sợ hãi những thông điệp mà tiềm thức đang cố gắng truyền đạt."
+        "upright": "Khám phá thế giới tâm linh qua trực giác, giấc mơ và những trải nghiệm cảm xúc sâu sắc. Một khởi đầu mới cho hành trình tìm kiếm ý nghĩa và kết nối với bản ngã cao hơn.",
+        "reversed": "Sự nhạy cảm thái quá với năng lượng xung quanh, dễ bị ảnh hưởng bởi những ý tưởng tâm linh không rõ ràng hoặc thiếu nền tảng. Có thể là sự mơ mộng hão huyền, không thực tế."
       },
       "friendship": {
-        "upright": "Một tình bạn mới chớm nở, đầy ngây thơ và cảm xúc thuần khiết, như giọt sương buổi sớm. Có thể là một người bạn trẻ tuổi, hoặc một mối quan hệ mang lại nguồn cảm hứng sáng tạo và sự tươi mới.",
-        "reversed": "Tình bạn hời hợt, thiếu chân thành, như bọt nước tan nhanh. Hoặc một người bạn trẻ tuổi thiếu chín chắn, gây ra rắc rối vì sự nhạy cảm thái quá và thiếu suy nghĩ."
+        "upright": "Một tình bạn mới chớm nở, sự kết nối chân thành và những trải nghiệm vui vẻ, hồn nhiên. Có thể là một lời mời bất ngờ từ một người bạn mới.",
+        "reversed": "Những hiểu lầm nhỏ trong tình bạn, sự nhạy cảm thái quá hoặc sự thiếu trung thực. Có thể là những tin đồn thất thiệt hoặc một người bạn thiếu trưởng thành, gây rắc rối."
       },
       "pregnancy": {
-        "upright": "Tin vui về việc mang thai, hoặc một khởi đầu đầy cảm xúc và sự sáng tạo trong việc nuôi dạy con cái. Một linh hồn trẻ thơ đang đến, mang theo sự tò mò và niềm vui khám phá thế giới.",
-        "reversed": "Sự thiếu trưởng thành trong việc đón nhận trách nhiệm làm cha mẹ, hoặc những vấn đề cảm xúc liên quan đến thai kỳ. Cảm xúc bất ổn, như con sóng vỗ bờ không ngừng."
+        "upright": "Tin vui về một sự khởi đầu mới, có thể là mang thai hoặc một dự án \"con cưng\" sắp ra đời. Mang ý nghĩa của sự sáng tạo, nuôi dưỡng và những cảm xúc dịu dàng.",
+        "reversed": "Sự lo lắng, bối rối về việc mang thai hoặc những khó khăn nhỏ trong việc nuôi dưỡng một dự án mới. Có thể là những cảm xúc bất ổn hoặc sự thiếu chuẩn bị."
       },
       "gossip": {
-        "upright": "Những tin tức mới mẻ, có thể là những lời đồn thổi vô hại, mang tính chất tò mò hơn là ác ý. Hoặc bạn nhận được thông tin qua trực giác, như một tiếng nói thì thầm từ bên trong.",
-        "reversed": "Lời đồn thổi trẻ con, thiếu căn cứ, gây ra những hiểu lầm không đáng có. Hoặc bạn bị tổn thương bởi những lời nói thiếu suy nghĩ của người khác, như vết kim châm vào tim."
+        "upright": "Thông tin mới mẻ, có thể là những tin đồn không quá nghiêm trọng, mang tính chất tò mò hơn là gây hại.",
+        "reversed": "Những tin đồn thất thiệt, gây tổn thương do sự nhạy cảm thái quá hoặc thiếu suy nghĩ. Có thể là những lời nói bốc đồng hoặc sự thao túng thông tin."
       },
       "legal": {
-        "upright": "Một vấn đề pháp lý mới phát sinh, đòi hỏi sự tiếp cận sáng tạo và trực giác. Có thể là lời khuyên từ một người trẻ tuổi hoặc một giải pháp bất ngờ, mang tính đột phá.",
-        "reversed": "Sự thiếu kinh nghiệm hoặc thiếu chín chắn trong việc giải quyết vấn đề pháp lý. Hoặc những rắc rối do tin tưởng lời khuyên sai lầm, như con thuyền lạc lối trên biển cả."
+        "upright": "Một tin tức pháp lý bất ngờ, có thể là một lời đề nghị hòa giải hoặc một hướng đi mới cho vụ việc. Cần sự cẩn trọng nhưng cũng mở lòng đón nhận.",
+        "reversed": "Những rắc rối pháp lý do sự thiếu hiểu biết, những quyết định bốc đồng hoặc thông tin sai lệch. Có thể là những hiểu lầm không đáng có, gây khó khăn."
       },
       "moving": {
-        "upright": "Một khởi đầu mới đầy cảm xúc ở một nơi ở mới, có thể là một thành phố ven biển hoặc một nơi truyền cảm hứng nghệ thuật. Một hành trình khám phá bản thân và thế giới xung quanh.",
-        "reversed": "Sự do dự, thiếu quyết đoán trong việc chuyển nhà, bị níu kéo bởi cảm xúc. Hoặc sự thất vọng khi nơi ở mới không như mong đợi, như một giấc mơ không thành."
+        "upright": "Một cơ hội chuyển nhà bất ngờ, đến một nơi mới mẻ, đầy hứng khởi. Một khởi đầu mới cho cuộc sống và những trải nghiệm cảm xúc.",
+        "reversed": "Sự do dự trong việc chuyển nhà, những rắc rối nhỏ trong quá trình di chuyển hoặc sự thất vọng về nơi ở mới. Có thể là sự nhạy cảm thái quá với môi trường xung quanh."
       },
       "pet": {
-        "upright": "Một thú cưng mới, đặc biệt là những loài vật nhỏ, đáng yêu, mang lại niềm vui và sự ngây thơ. Hoặc một thông điệp trực giác về thú cưng của bạn, kết nối bạn với chúng một cách sâu sắc.",
-        "reversed": "Thú cưng có vấn đề về cảm xúc hoặc sức khỏe, đòi hỏi sự quan tâm đặc biệt. Hoặc sự thiếu kinh nghiệm trong việc chăm sóc thú cưng, dẫn đến những sai lầm đáng tiếc."
+        "upright": "Tin vui về một thú cưng mới, một mối liên kết cảm xúc sâu sắc với động vật. Thú cưng mang lại niềm vui, sự hồn nhiên và tình yêu vô điều kiện.",
+        "reversed": "Những vấn đề nhỏ với thú cưng do sự thiếu chăm sóc, những cảm xúc bốc đồng hoặc sự nhạy cảm thái quá. Có thể là những hiểu lầm trong việc giao tiếp với chúng."
       },
       "dream": {
-        "upright": "Giấc mơ sống động, đầy màu sắc, mang tính biểu tượng và truyền cảm hứng. Tiềm thức đang gửi gắm những thông điệp quan trọng qua cảm xúc, như một bức thư từ thế giới nội tâm.",
-        "reversed": "Ác mộng về sự thất vọng, sự thiếu hụt cảm xúc. Hoặc những giấc mơ không rõ ràng, gây hoang mang, như những mảnh ghép rời rạc không thể kết nối."
+        "upright": "Những giấc mơ sống động, đầy màu sắc và mang tính biểu tượng, mở ra cánh cửa đến thế giới nội tâm và trực giác. Hãy lắng nghe thông điệp từ tiềm thức.",
+        "reversed": "Những giấc mơ hỗn loạn, khó hiểu hoặc những cơn ác mộng phản ánh sự bất ổn cảm xúc. Có thể là sự nhạy cảm thái quá với thế giới bên ngoài ảnh hưởng đến giấc ngủ."
       },
       "past_life": {
-        "upright": "Linh hồn bạn từng là một nghệ sĩ, một nhà thơ, hoặc một người có trực giác mạnh mẽ. Một kiếp sống của sự sáng tạo và cảm xúc, của việc khám phá vẻ đẹp tiềm ẩn trong thế giới.",
-        "reversed": "Kiếp trước bạn đã không thể thể hiện cảm xúc của mình, hoặc bị tổn thương bởi sự nhạy cảm quá mức. Những vết sẹo cảm xúc từ kiếp trước vẫn còn đeo bám, gây ra sự bất ổn."
+        "upright": "Một sự gợi nhớ bất ngờ từ kiếp trước, có thể là qua giấc mơ, cảm xúc hoặc một trải nghiệm nghệ thuật. Khám phá những kết nối tâm linh sâu sắc.",
+        "reversed": "Những cảm xúc khó hiểu, những nỗi sợ hãi vô cớ có thể bắt nguồn từ kiếp trước, nhưng đang bị kìm nén hoặc gây ra sự bối rối trong hiện tại."
       },
       "karma": {
-        "upright": "Nghiệp quả của sự sáng tạo, của việc lắng nghe trực giác và thể hiện cảm xúc chân thật. Bạn đang nhận được những cơ hội mới mẻ và đầy cảm hứng, như một món quà từ vũ trụ.",
-        "reversed": "Nghiệp quả từ sự thiếu chân thành, thiếu chín chắn trong cảm xúc. Bạn đang đối mặt với những vấn đề do sự nhạy cảm thái quá hoặc sự vô tâm, gây ra những tổn thương không đáng có."
+        "upright": "Một hành động tốt đẹp được đền đáp bất ngờ, hoặc một cơ hội để sửa chữa lỗi lầm trong quá khứ bằng sự chân thành và lòng trắc ẩn.",
+        "reversed": "Những hậu quả không mong muốn từ hành động bốc đồng, thiếu suy nghĩ trong quá khứ. Có thể là những bài học cần học hỏi từ sự nhạy cảm thái quá hoặc sự thiếu trưởng thành."
       },
       "lost_item": {
-        "upright": "Món đồ thất lạc có thể là một vật kỷ niệm, một món quà từ ai đó. Hãy lắng nghe trực giác để tìm ra nó, như một tiếng gọi thầm thì từ quá khứ.",
-        "reversed": "Món đồ bị mất do sự bất cẩn, thiếu chú ý. Hoặc nó đã bị hỏng hóc do sự thiếu cẩn thận, như một lỗi lầm trẻ con không thể sửa chữa."
+        "upright": "Có thể tìm thấy vật bị mất ở một nơi bất ngờ hoặc nhận được tin tức về nó. Hãy tin vào trực giác của mình.",
+        "reversed": "Vật bị mất do sự bất cẩn, thiếu chú ý hoặc những hiểu lầm nhỏ. Khó khăn trong việc tìm kiếm do sự thiếu tập trung hoặc cảm xúc bối rối."
+      },
+      "ex": {
+        "upright": "Một thông điệp bất ngờ từ người cũ, có thể là lời xin lỗi, mong muốn hàn gắn, hoặc một lời đề nghị cho một khởi đầu mới, mang theo sự ngây thơ và hối lỗi chân thành.",
+        "reversed": "Sự tái xuất của người cũ mang theo những cảm xúc hỗn độn, những lời hứa hão huyền hoặc hành động bốc đồng. Có thể là sự thao túng cảm xúc hoặc sự thiếu rõ ràng về ý định của họ, khiến bạn tổn thương."
+      },
+      "current_love": {
+        "upright": "Mối quan hệ đang được làm mới bởi sự lãng mạn, những bất ngờ ngọt ngào và sự khám phá cảm xúc lẫn nhau. Một giai đoạn của sự hồn nhiên, vui tươi và kết nối sâu sắc qua trái tim.",
+        "reversed": "Sự thiếu giao tiếp chân thành, cảm xúc bị kìm nén hoặc những hiểu lầm do sự nhạy cảm thái quá. Có thể là sự bốc đồng, những trò đùa vô tâm hoặc sự thiếu trưởng thành trong cách thể hiện tình cảm, gây rạn nứt."
+      },
+      "ambiguous": {
+        "upright": "Một tín hiệu nhẹ nhàng, một lời mời gọi chưa rõ ràng nhưng đầy hứa hẹn, gợi lên sự tò mò và khám phá. Cảm xúc đang ở giai đoạn hình thành, cần thời gian để bộc lộ.",
+        "reversed": "Tình huống mơ hồ do sự thiếu rõ ràng trong cảm xúc hoặc lời nói. Có thể là sự né tránh, những tin đồn thất thiệt hoặc sự thao túng tinh vi, khiến bạn lạc lối trong mớ bòng bong cảm xúc."
+      },
+      "crush": {
+        "upright": "Cảm xúc rung động đầu đời, sự ngưỡng mộ thuần khiết và những giấc mơ lãng mạn về người mình thích. Có thể là một tin nhắn bất ngờ hoặc một cử chỉ nhỏ bé từ họ, thắp lên hy vọng.",
+        "reversed": "Cảm xúc đơn phương bị kìm nén, sự nhút nhát không dám bày tỏ, hoặc ảo tưởng về người mình thích. Có thể là những hành động bốc đồng, gây hiểu lầm hoặc sự thất vọng vì không được đáp lại như mong đợi."
+      },
+      "future_love": {
+        "upright": "Báo hiệu một tình yêu mới đầy bất ngờ và lãng mạn sẽ đến, có thể là một người trẻ tuổi, nhạy cảm và giàu trí tưởng tượng. Tình yêu này sẽ mang lại niềm vui và sự khám phá cảm xúc mới mẻ.",
+        "reversed": "Tình yêu tương lai có thể bị trì hoãn bởi sự thiếu trưởng thành cảm xúc của bản thân hoặc người khác. Cảnh báo về những mối quan hệ hời hợt, dễ tan vỡ hoặc những người chỉ mang đến sự bối rối, không rõ ràng."
+      },
+      "someone": {
+        "upright": "Một người trẻ tuổi, có tâm hồn nghệ sĩ, nhạy cảm và giàu trí tưởng tượng, thường mang đến tin tức hoặc một lời đề nghị bất ngờ. Họ có thể là nguồn cảm hứng hoặc một người bạn tâm giao.",
+        "reversed": "Một người thiếu trưởng thành, nhạy cảm thái quá, dễ bị tổn thương hoặc bốc đồng. Họ có thể mang đến những thông tin sai lệch, gây rối hoặc là nguyên nhân của những mâu thuẫn cảm xúc."
+      },
+      "marriage": {
+        "upright": "Có thể là một lời cầu hôn lãng mạn, đầy bất ngờ, hoặc tin vui về sự cam kết mới mẻ. Một khởi đầu đầy hứa hẹn cho một cuộc sống hôn nhân với nhiều cảm xúc tươi mới.",
+        "reversed": "Sự thiếu chuẩn bị cho hôn nhân, những kỳ vọng không thực tế hoặc sự bốc đồng trong quyết định. Có thể là những hiểu lầm, tranh cãi do sự nhạy cảm thái quá hoặc thiếu trưởng thành trong mối quan hệ."
+      },
+      "conflict": {
+        "upright": "Xung đột được giải quyết bằng sự thấu hiểu, lòng trắc ẩn và giao tiếp chân thành. Có thể là một lời xin lỗi từ trái tim hoặc một sự hòa giải bất ngờ, mang lại cảm giác nhẹ nhõm.",
+        "reversed": "Xung đột leo thang do sự nhạy cảm thái quá, những lời nói bốc đồng hoặc sự thiếu khả năng kiểm soát cảm xúc. Có thể là những hiểu lầm sâu sắc, những lời trách móc vô căn cứ, gây rạn nứt."
+      },
+      "breakup": {
+        "upright": "Dù là chia tay, nhưng vẫn có sự dịu dàng, thấu hiểu và chấp nhận. Có thể là một lời chia tay nhẹ nhàng, không quá đau khổ, hoặc một cơ hội để cả hai trưởng thành từ kinh nghiệm.",
+        "reversed": "Chia tay do sự thiếu trưởng thành, những cảm xúc bị kìm nén bùng nổ hoặc những lời nói bốc đồng. Có thể là sự đau khổ kéo dài, những hiểu lầm không được hóa giải, hoặc cảm giác bị lừa dối."
+      },
+      "long_distance": {
+        "upright": "Những tin nhắn ngọt ngào, những cuộc gọi bất ngờ mang đến cảm giác gần gũi và lãng mạn. Tình yêu được nuôi dưỡng bằng sự sáng tạo và trí tưởng tượng, duy trì kết nối cảm xúc.",
+        "reversed": "Sự khó khăn trong việc duy trì kết nối cảm xúc do khoảng cách, dễ bị hiểu lầm hoặc cảm thấy cô đơn. Có thể là những cảm xúc bốc đồng, ghen tuông vô cớ hoặc sự thiếu tin tưởng gây rạn nứt."
+      },
+      "jealousy": {
+        "upright": "Cảm giác ghen tuông nhẹ nhàng, mang tính chất tò mò hơn là tiêu cực, có thể được giải quyết bằng giao tiếp chân thành và sự thấu hiểu.",
+        "reversed": "Ghen tuông bùng phát do sự nhạy cảm thái quá, thiếu tự tin hoặc bị thao túng cảm xúc. Có thể dẫn đến những hành động bốc đồng, gây tổn thương và phá hoại mối quan hệ."
+      },
+      "self_love": {
+        "upright": "Khám phá sự dịu dàng bên trong, học cách yêu thương bản thân một cách chân thành và chấp nhận những khuyết điểm. Nuôi dưỡng tâm hồn bằng nghệ thuật, sáng tạo và sự tự tin từ bên trong.",
+        "reversed": "Thiếu tự tin, tự ti, nhạy cảm thái quá với lời phê bình. Có thể là sự tự hủy hoại, kìm nén cảm xúc thật, hoặc tìm kiếm sự công nhận từ bên ngoài một cách tuyệt vọng."
+      },
+      "job_search": {
+        "upright": "Có thể nhận được một lời mời phỏng vấn bất ngờ hoặc một cơ hội nghề nghiệp trong lĩnh vực sáng tạo, nghệ thuật. Hãy mở lòng đón nhận những trải nghiệm mới và thể hiện sự nhiệt huyết.",
+        "reversed": "Sự thất vọng trong tìm kiếm việc làm, những lời hứa hão huyền hoặc sự thiếu tự tin khi phỏng vấn. Có thể là những thông tin tuyển dụng sai lệch hoặc sự bốc đồng trong việc chọn lựa công việc."
+      },
+      "promotion": {
+        "upright": "Một sự công nhận bất ngờ, một cơ hội để phát triển kỹ năng mới hoặc đảm nhận một vai trò mang tính sáng tạo hơn. Sự thăng tiến đến từ sự nhiệt huyết và khả năng học hỏi.",
+        "reversed": "Sự thăng tiến bị trì hoãn do thiếu kinh nghiệm, sự nhạy cảm thái quá hoặc những hiểu lầm không đáng có. Có thể là sự ghen tỵ từ đồng nghiệp hoặc những lời phê bình không công bằng."
+      },
+      "business": {
+        "upright": "Khởi đầu một dự án kinh doanh mới đầy sáng tạo, tập trung vào nghệ thuật, giải trí hoặc các lĩnh vực đòi hỏi sự nhạy cảm và trực giác. Một cơ hội để hiện thực hóa những ý tưởng độc đáo.",
+        "reversed": "Thiếu kinh nghiệm, sự thiếu thực tế trong kế hoạch kinh doanh hoặc những quyết định bốc đồng. Cảnh báo về những đối tác không đáng tin cậy hoặc sự lừa dối trong giao dịch."
+      },
+      "colleague": {
+        "upright": "Một đồng nghiệp trẻ tuổi, nhiệt tình, sẵn sàng học hỏi và mang đến những ý tưởng mới mẻ. Họ có thể là nguồn cảm hứng hoặc một người bạn tốt trong công việc.",
+        "reversed": "Một đồng nghiệp thiếu trưởng thành, nhạy cảm thái quá, dễ bị tổn thương hoặc gây ra những vấn đề nhỏ nhặt. Có thể là người hay than vãn, thiếu trách nhiệm hoặc gây ra những tin đồn thất thiệt."
+      },
+      "career_change": {
+        "upright": "Một cơ hội thay đổi nghề nghiệp đầy bất ngờ, hướng tới những lĩnh vực sáng tạo, nghệ thuật hoặc nơi bạn có thể thể hiện sự nhạy cảm và trực giác của mình. Một khởi đầu mới đầy hứa hẹn.",
+        "reversed": "Sự do dự, thiếu quyết đoán trong việc thay đổi nghề nghiệp, hoặc những ý tưởng không thực tế. Có thể là sự sợ hãi thay đổi, thiếu tự tin hoặc bị ảnh hưởng bởi những lời khuyên sai lầm."
+      },
+      "freelance": {
+        "upright": "Những cơ hội làm việc tự do bất ngờ, đặc biệt trong lĩnh vực sáng tạo, nghệ thuật. Sự tự do để thể hiện bản thân và khám phá những khả năng mới.",
+        "reversed": "Thiếu kỷ luật, sự trì hoãn hoặc những dự án không rõ ràng, gây khó khăn tài chính. Có thể là sự nhạy cảm quá mức với phản hồi của khách hàng hoặc sự thiếu chuyên nghiệp."
+      },
+      "interview": {
+        "upright": "Một cuộc phỏng vấn diễn ra suôn sẻ với sự nhiệt tình, chân thật và khả năng thể hiện ý tưởng sáng tạo. Tạo ấn tượng tốt bằng sự ngây thơ và khao khát học hỏi.",
+        "reversed": "Thiếu tự tin, sự nhạy cảm thái quá trước câu hỏi khó hoặc những lời nói bốc đồng, thiếu suy nghĩ. Có thể là những hiểu lầm nhỏ khiến bạn mất điểm trong mắt nhà tuyển dụng."
+      },
+      "investment": {
+        "upright": "Một cơ hội đầu tư nhỏ, mang tính thử nghiệm, đặc biệt vào các lĩnh vực mới mẻ hoặc liên quan đến nghệ thuật, sáng tạo. Cần sự thận trọng nhưng cũng mở lòng đón nhận.",
+        "reversed": "Đầu tư dựa trên cảm xúc nhất thời, thiếu nghiên cứu hoặc bị lôi kéo bởi những lời mời chào không đáng tin cậy. Cảnh báo về những rủi ro tiềm ẩn và sự mất mát nhỏ."
+      },
+      "debt": {
+        "upright": "Có thể nhận được một lời khuyên bất ngờ về cách quản lý nợ, hoặc một cơ hội để bắt đầu trả nợ từng chút một. Sự lạc quan và tinh thần học hỏi sẽ giúp bạn vượt qua.",
+        "reversed": "Những quyết định vay mượn bốc đồng, không suy nghĩ kỹ càng, hoặc sự chần chừ trong việc đối mặt với nợ nần. Có thể là những khoản nợ nhỏ phát sinh do sự thiếu cẩn trọng."
+      },
+      "savings": {
+        "upright": "Một khởi đầu mới cho thói quen tiết kiệm, những khoản tiền nhỏ được tích lũy một cách đều đặn. Khuyến khích sự kiên nhẫn và tầm nhìn dài hạn.",
+        "reversed": "Tiêu xài hoang phí, những quyết định mua sắm bốc đồng hoặc sự thiếu kỷ luật trong việc tiết kiệm. Có thể là những khoản chi bất ngờ làm hao hụt tiền tiết kiệm."
+      },
+      "luck_money": {
+        "upright": "Một khoản tiền bất ngờ, một món quà nhỏ hoặc một cơ hội tài chính may mắn đến từ sự sáng tạo hoặc trực giác.",
+        "reversed": "May mắn về tiền bạc bị cản trở bởi sự thiếu thực tế, những quyết định bốc đồng hoặc những kỳ vọng không có cơ sở. Có thể là những mất mát nhỏ do sự thiếu cẩn trọng."
+      },
+      "mental": {
+        "upright": "Sự tò mò về thế giới nội tâm, khám phá cảm xúc và phát triển trực giác. Một giai đoạn của sự hồn nhiên, lạc quan và khao khát học hỏi về bản thân.",
+        "reversed": "Cảm xúc bất ổn, sự nhạy cảm thái quá, dễ bị tổn thương hoặc có xu hướng trốn tránh thực tại. Có thể là những suy nghĩ mơ hồ, khó kiểm soát hoặc sự thiếu trưởng thành trong việc đối mặt với vấn đề."
+      },
+      "energy": {
+        "upright": "Năng lượng tươi mới, tràn đầy sự tò mò, sáng tạo và nhiệt huyết. Cảm giác nhẹ nhõm, vui vẻ và sẵn sàng đón nhận những trải nghiệm mới.",
+        "reversed": "Năng lượng thấp, thiếu động lực, dễ bị phân tâm hoặc cảm thấy bối rối. Có thể là sự dao động cảm xúc, mệt mỏi do suy nghĩ quá nhiều hoặc sự nhạy cảm quá mức với môi trường xung quanh."
+      },
+      "family": {
+        "upright": "Tin tức vui vẻ từ gia đình, sự đoàn tụ ấm áp hoặc một thành viên trẻ tuổi mang đến niềm vui, sự hồn nhiên. Khuyến khích sự kết nối cảm xúc và lòng trắc ẩn.",
+        "reversed": "Những hiểu lầm nhỏ trong gia đình, sự nhạy cảm thái quá của một thành viên hoặc những lời nói bốc đồng gây tổn thương. Có thể là sự thiếu giao tiếp hoặc những tin đồn không hay."
+      },
+      "diet": {
+        "upright": "Một chế độ ăn uống mới mẻ, thử nghiệm các món ăn lành mạnh hoặc lắng nghe trực giác của cơ thể về dinh dưỡng. Khám phá niềm vui trong việc ăn uống.",
+        "reversed": "Chế độ ăn uống không khoa học, thói quen ăn uống bốc đồng hoặc sự nhạy cảm thái quá với thực phẩm. Có thể là sự thiếu kỷ luật hoặc thông tin sai lệch về dinh dưỡng."
+      },
+      "study": {
+        "upright": "Hứng thú với việc học hỏi kiến thức mới, đặc biệt trong các lĩnh vực nghệ thuật, tâm linh hoặc những môn học đòi hỏi sự sáng tạo. Giai đoạn tò mò và khám phá.",
+        "reversed": "Thiếu tập trung, dễ bị phân tâm trong học tập hoặc sự nhạy cảm thái quá với áp lực. Có thể là những thông tin học tập gây bối rối hoặc sự trì hoãn trong việc hoàn thành bài tập."
+      },
+      "study_abroad": {
+        "upright": "Một cơ hội du học bất ngờ, một lời mời từ trường học nước ngoài hoặc sự háo hức khám phá nền văn hóa mới. Một khởi đầu đầy hứa hẹn cho hành trình học tập và trải nghiệm.",
+        "reversed": "Sự do dự, sợ hãi trước những điều mới mẻ hoặc những hiểu lầm về quy trình du học. Có thể là sự thiếu chuẩn bị hoặc những khó khăn nhỏ trong việc thích nghi với môi trường mới."
+      },
+      "self": {
+        "upright": "Khám phá bản thân qua sự sáng tạo, trực giác và cảm xúc. Một tâm hồn trẻ thơ, cởi mở đón nhận mọi trải nghiệm và học hỏi từ thế giới xung quanh.",
+        "reversed": "Sự thiếu trưởng thành cảm xúc, nhạy cảm thái quá, dễ bị tổn thương hoặc kìm nén bản thân. Có thể là sự hoang mang về danh tính hoặc sự phụ thuộc vào ý kiến người khác."
+      },
+      "purpose": {
+        "upright": "Một tia sáng mới về mục đích sống, có thể liên quan đến nghệ thuật, giúp đỡ người khác hoặc khám phá thế giới nội tâm. Một lời mời gọi từ trực giác để theo đuổi đam mê.",
+        "reversed": "Sự mơ hồ về mục đích sống, thiếu định hướng hoặc bị lạc lối bởi những cảm xúc nhất thời. Có thể là sự trì hoãn trong việc hành động hoặc sự thiếu tự tin vào khả năng của bản thân."
+      },
+      "shadow_self": {
+        "upright": "Nhận diện và chấp nhận những khía cạnh nhạy cảm, dễ tổn thương của bản thân. Học cách yêu thương và chữa lành đứa trẻ bên trong, biến sự yếu đuối thành sức mạnh.",
+        "reversed": "Kìm nén những cảm xúc tiêu cực, sự nhạy cảm thái quá dẫn đến những phản ứng bốc đồng hoặc sự thao túng cảm xúc. Có thể là những hành vi thiếu trưởng thành, gây tổn hại cho bản thân và người khác."
+      },
+      "decision": {
+        "upright": "Một quyết định được đưa ra dựa trên trực giác và cảm xúc chân thật, mặc dù có vẻ ngây thơ nhưng lại đầy tiềm năng. Khuyến khích sự dũng cảm để thử những điều mới.",
+        "reversed": "Sự do dự, thiếu quyết đoán do cảm xúc bất ổn hoặc sợ hãi. Có thể là những quyết định bốc đồng, không suy nghĩ kỹ càng, dẫn đến hối tiếc."
+      },
+      "travel": {
+        "upright": "Một chuyến đi bất ngờ, đầy hứng khởi và khám phá, đặc biệt đến những nơi có vẻ đẹp nghệ thuật hoặc mang lại trải nghiệm cảm xúc sâu sắc.",
+        "reversed": "Kế hoạch du lịch bị trì hoãn, những rắc rối nhỏ trên đường đi hoặc sự thất vọng vì không được như mong đợi. Có thể là sự nhạy cảm quá mức với môi trường mới hoặc những hiểu lầm văn hóa."
+      },
+      "general": {
+        "upright": "Một thông điệp bất ngờ, một cơ hội mới hoặc một khởi đầu tươi sáng. Mang theo sự ngây thơ, tò mò và khao khát khám phá cảm xúc, thế giới xung quanh.",
+        "reversed": "Những thông tin gây bối rối, sự thiếu trưởng thành trong hành động hoặc cảm xúc bất ổn. Có thể là sự nhạy cảm thái quá, sự trì hoãn hoặc những quyết định bốc đồng."
       }
     },
     "planet": "Mặt Trăng",
@@ -10417,74 +11237,204 @@ window.TAROT_DB = [
     "reversed": "Sự phụ thuộc cảm xúc (lụy tình), lấy nước mắt làm vũ khí thao túng, hoặc kiệt sức vì lo lắng cho người khác quá nhiều.",
     "aspects": {
       "love": {
-        "up": "Sự bao dung, chia sẻ sâu sắc. Bạn là bến đỗ bình yên cho người ấy.",
-        "rev": "Lụy tình, ghen tuông mù quáng, lúc nào cũng đóng vai nạn nhân.",
-        "upright": "Một tình yêu thiêng liêng, vị tha và sâu sắc đến mức tâm giao. Người phụ nữ trong mối quan hệ này bao dung, thấu cảm và luôn là bến đỗ bình yên cho đối phương.",
-        "reversed": "Sự thao túng tinh vi bằng cảm giác tội lỗi. Tính bi lụy, bám víu và sự thiếu an toàn tột độ khiến mối quan hệ trở nên ngột ngạt. Tình yêu biến thành sự trói buộc nghẹt thở."
+        "upright": "Tình yêu chan chứa sự thấu hiểu, lòng trắc ẩn và trực giác sâu sắc. Một tình yêu cho đi không vụ lợi, nơi tâm hồn được kết nối chân thành và dịu dàng.",
+        "reversed": "Tình yêu bị vướng mắc bởi sự bất an, đòi hỏi cảm xúc quá mức hoặc sự thao túng vô thức. Có thể là một mối quan hệ đầy biến động, thiếu ổn định về mặt cảm xúc."
       },
       "career": {
-        "up": "Làm việc tốt trong lĩnh vực chăm sóc y tế, tham vấn tâm lý, nghệ thuật.",
-        "rev": "Để tình cảm xen vào công việc, giải quyết vấn đề bằng cảm tính.",
-        "upright": "Một nhà lãnh đạo đầy lòng trắc ẩn, thấu hiểu nhân viên. Khả năng giải quyết mâu thuẫn khéo léo và trực giác xuất sắc giúp bạn vượt qua những khó khăn công sở một cách êm ái.",
-        "reversed": "Sự thiếu ranh giới trong công việc dẫn đến kiệt sức vì ôm đồm cảm xúc của người khác. Sự thiên vị dựa trên tình cảm cá nhân gây ra bất mãn nội bộ."
+        "upright": "Sự nghiệp thăng hoa nhờ trực giác nhạy bén, khả năng đồng cảm và sự sáng tạo. Thành công trong các lĩnh vực cần sự chăm sóc, nghệ thuật hoặc cố vấn tâm lý.",
+        "reversed": "Sự nghiệp bị cản trở bởi cảm xúc cá nhân, thiếu quyết đoán hoặc sự nhạy cảm quá mức trong môi trường làm việc. Có thể là môi trường độc hại về cảm xúc."
       },
       "finance": {
-        "up": "Tài chính bình ổn. Bạn thích dùng tiền chăm lo cho gia đình hơn là tích lũy.",
-        "rev": "Hy sinh tài sản của mình cho một kẻ lợi dụng tình cảm.",
-        "upright": "Sự ổn định tài chính đạt được nhờ sự tĩnh tâm, không tham lam bốc đồng. Khả năng thấu cảm giúp bạn thu hút được những đối tác tài chính trung thành, tử tế.",
-        "reversed": "Sự nhẹ dạ cả tin khiến bạn dễ dàng bị lợi dụng lòng tốt trong các vấn đề vay mượn. Những quyết định tiền bạc mù quáng do bị chi phối bởi tình cảm."
+        "upright": "Quản lý tài chính bằng trực giác và sự thận trọng. Dòng tiền ổn định nhờ các quyết định khôn ngoan, dựa trên sự cảm nhận và thấu hiểu giá trị thực sự.",
+        "reversed": "Tình hình tài chính bất ổn do các quyết định cảm tính, chi tiêu không kiểm soát hoặc sự lo lắng quá mức về tiền bạc. Cần kiểm soát cảm xúc khi quản lý tài chính."
       },
       "health": {
-        "up": "Cần chú ý thư giãn tinh thần, sức khỏe rất tốt nếu tâm trạng tốt.",
-        "rev": "Sức khỏe suy sụp hoàn toàn vì những cú sốc tình cảm.",
-        "upright": "Sức khỏe tinh thần tuyệt hảo, tỏa ra năng lượng chữa lành mạnh mẽ cho chính mình và người xung quanh. Sự kết nối sâu sắc giữa thân và tâm.",
-        "reversed": "Sự kiệt quệ trầm trọng, hội chứng 'burnout' của những người chăm sóc (khi cho đi quá nhiều mà quên mất bản thân). Những căn bệnh nội khoa liên quan đến sự kìm nén uất ức kéo dài."
+        "upright": "Sức khỏe thể chất được cải thiện nhờ sự chăm sóc bản thân, lắng nghe cơ thể và trực giác. Chữa lành từ bên trong, cân bằng cảm xúc để cơ thể khỏe mạnh.",
+        "reversed": "Sức khỏe thể chất bị ảnh hưởng bởi sự căng thẳng, lo lắng hoặc cảm xúc tiêu cực. Cần chú ý đến mối liên hệ giữa tâm trí và cơ thể để tìm cách chữa lành."
       },
       "spiritual": {
-        "up": "Trực giác sắc bén như nhà ngoại cảm, kết nối thần giao cách cảm.",
-        "rev": "Bị năng lượng tiêu cực của người khác hút cạn (empath burnout).",
-        "upright": "Một vị nữ tu thực sự của linh hồn. Khả năng kết nối tâm linh, thấu thị và truyền đạt thông điệp của vũ trụ thông qua những giấc mơ và trực giác vô ngần.",
-        "reversed": "Sự chìm đắm vào tà thuật, hoặc ảo tưởng sức mạnh tâm linh để thao túng người khác. Lạc lối trong cõi âm, mất đi sự kết nối với ánh sáng của lòng trắc ẩn thuần khiết."
+        "upright": "Phát triển tâm linh sâu sắc thông qua trực giác, thiền định và sự kết nối với thế giới vô hình. Một hành trình tìm kiếm sự bình yên và giác ngộ.",
+        "reversed": "Khó khăn trong việc kết nối tâm linh, cảm thấy mất phương hướng hoặc bị chi phối bởi cảm xúc tiêu cực trong hành trình tìm kiếm ý nghĩa."
       },
       "friendship": {
-        "upright": "Một người bạn đầy lòng trắc ẩn, thấu hiểu và luôn lắng nghe, như dòng suối mát lành. Tình bạn sâu sắc, mang lại sự chữa lành và hỗ trợ tinh thần, là nơi bạn có thể gửi gắm tâm tư.",
-        "reversed": "Một người bạn quá nhạy cảm, dễ bị tổn thương, hoặc lạm dụng lòng tốt của bạn. Cảm xúc bị thao túng, khiến tình bạn trở nên mệt mỏi và thiếu chân thành."
+        "upright": "Tình bạn chân thành, sâu sắc, dựa trên sự thấu hiểu và lòng trắc ẩn. Một người bạn luôn lắng nghe, chia sẻ và hỗ trợ bạn bằng cả trái tim.",
+        "reversed": "Tình bạn gặp trục trặc do sự nhạy cảm quá mức, hiểu lầm hoặc cảm xúc tiêu cực. Có thể có sự phụ thuộc hoặc thao túng trong mối quan hệ bạn bè."
       },
       "pregnancy": {
-        "upright": "Thiên chức làm mẹ được thể hiện rõ nét, sự thấu hiểu sâu sắc về cảm xúc của con. Một người mẹ đầy yêu thương và trực giác, như nữ thần bảo hộ cho sinh linh bé bỏng.",
-        "reversed": "Khó khăn trong việc kết nối cảm xúc với con, hoặc sự mất cân bằng cảm xúc trong thai kỳ. Nỗi lo lắng, bất an bao trùm, khiến tâm hồn mẹ chao đảo."
+        "upright": "Một thai kỳ tràn đầy yêu thương, sự kết nối sâu sắc giữa mẹ và con. Trực giác mách bảo về quá trình làm mẹ, mang lại sự bình yên và hạnh phúc.",
+        "reversed": "Thai kỳ gặp khó khăn về cảm xúc, lo lắng hoặc bất an. Có thể có sự lo lắng quá mức hoặc cảm giác bị cô lập trong giai đoạn này."
       },
       "gossip": {
-        "upright": "Bạn có khả năng cảm nhận được sự thật đằng sau những lời đồn thổi, không bị lung lay bởi thị phi. Lời khuyên của bạn mang tính chữa lành, giúp xoa dịu những vết thương.",
-        "reversed": "Bị tổn thương bởi những lời đàm tiếu, hoặc bạn quá nhạy cảm với những gì người khác nói. Cảm xúc bị ảnh hưởng nặng nề, như chiếc lá rơi trước gió."
+        "upright": "Trực giác giúp bạn nhận diện và tránh xa những thị phi, không để cảm xúc tiêu cực ảnh hưởng đến bản thân. Giữ vững sự bình yên nội tâm.",
+        "reversed": "Bị cuốn vào vòng xoáy thị phi, cảm xúc bị tổn thương hoặc có xu hướng tham gia vào những câu chuyện tiêu cực. Cần bảo vệ bản thân khỏi những tác động này."
       },
       "legal": {
-        "upright": "Một vụ án đòi hỏi sự thấu hiểu, lòng trắc ẩn và trực giác sắc bén. Có thể là một luật sư nữ giới đầy kinh nghiệm và trực giác, mang lại sự công bằng từ trái tim.",
-        "reversed": "Vấn đề pháp lý bị ảnh hưởng bởi cảm xúc cá nhân, thiếu khách quan. Hoặc sự thao túng cảm xúc trong quá trình tố tụng, bóp méo sự thật bằng nước mắt."
+        "upright": "Giải quyết vấn đề pháp lý bằng sự bình tĩnh, trực giác và khả năng thấu hiểu các bên liên quan. Tìm kiếm giải pháp hòa giải và công bằng.",
+        "reversed": "Vấn đề pháp lý trở nên phức tạp do cảm xúc cá nhân, sự bất an hoặc thiếu khả năng giao tiếp hiệu quả. Có thể dẫn đến sự căng thẳng và tổn thương."
       },
       "moving": {
-        "upright": "Chuyển đến một ngôi nhà mang lại sự bình yên, ấm áp và cảm giác được che chở. Một không gian sống đầy tình yêu thương, nơi tâm hồn tìm thấy sự an ủi và chữa lành.",
-        "reversed": "Khó khăn trong việc tìm thấy sự bình yên ở nơi ở mới, hoặc cảm giác cô đơn, thiếu sự hỗ trợ. Nơi ở mới trở thành một gánh nặng cảm xúc."
+        "upright": "Chuyển nhà mang lại sự bình yên và cảm giác được làm mới. Tạo ra một không gian sống nuôi dưỡng tâm hồn, tràn đầy sự ấm áp và sáng tạo.",
+        "reversed": "Chuyển nhà gặp khó khăn về cảm xúc, cảm giác lạc lõng, bất an hoặc khó thích nghi với môi trường mới. Cần thời gian để thích nghi và chữa lành."
       },
       "pet": {
-        "upright": "Một người chủ thú cưng đầy lòng trắc ẩn, luôn thấu hiểu và chăm sóc chúng bằng cả trái tim. Mối quan hệ gắn bó sâu sắc, như tình mẹ con, đầy yêu thương và bao dung.",
-        "reversed": "Sự thiếu nhạy cảm trong việc chăm sóc thú cưng, hoặc thú cưng bị bỏ bê về mặt cảm xúc. Chúng trở thành nạn nhân của sự vô tâm, thiếu thấu hiểu."
+        "upright": "Mối quan hệ sâu sắc và đầy yêu thương với thú cưng. Thú cưng mang lại sự bình yên, chữa lành và kết nối cảm xúc mạnh mẽ.",
+        "reversed": "Mối quan hệ với thú cưng gặp vấn đề do sự lo lắng, bất an hoặc cảm xúc tiêu cực. Có thể là dấu hiệu thú cưng cũng đang gặp vấn đề về cảm xúc."
       },
       "dream": {
-        "upright": "Giấc mơ về sự chữa lành, sự thấu hiểu và kết nối tâm linh. Tiềm thức đang mách bảo bạn hãy lắng nghe trực giác và cảm xúc của mình, như một lời dẫn lối từ vũ trụ.",
-        "reversed": "Ác mộng về sự cô đơn, bị bỏ rơi, hoặc cảm giác bị tổn thương sâu sắc. Nỗi đau tinh thần hiện hữu, đòi hỏi sự chữa lành từ bên trong."
+        "upright": "Giấc mơ mang thông điệp sâu sắc từ tiềm thức, chứa đựng trực giác và sự hướng dẫn. Dành thời gian giải mã để thấu hiểu bản thân và con đường phía trước.",
+        "reversed": "Giấc mơ bị xáo trộn, đầy lo lắng hoặc cảm xúc tiêu cực. Có thể là dấu hiệu của sự bất ổn tinh thần hoặc những nỗi sợ hãi chưa được giải quyết."
       },
       "past_life": {
-        "upright": "Linh hồn bạn từng là một người chữa lành, một bà mẹ vĩ đại, hoặc một người có trực giác mạnh mẽ. Một kiếp sống của sự cống hiến và yêu thương, mang lại ánh sáng cho thế giới.",
-        "reversed": "Kiếp trước bạn đã bị tổn thương về mặt cảm xúc, hoặc không thể thể hiện lòng trắc ẩn của mình. Những vết thương cũ vẫn còn đeo bám, gây ra sự bất ổn trong cảm xúc hiện tại."
+        "upright": "Kết nối với những ký ức tiền kiếp thông qua trực giác và cảm xúc sâu sắc. Hiểu được những bài học từ quá khứ để chữa lành và phát triển ở hiện tại.",
+        "reversed": "Những ký ức tiền kiếp gây ra sự bất an, lo lắng hoặc cảm xúc tiêu cực ở hiện tại. Cần chữa lành những vết thương từ quá khứ để tiến về phía trước."
       },
       "karma": {
-        "upright": "Nghiệp quả của lòng trắc ẩn, sự thấu hiểu và tình yêu thương vô điều kiện. Bạn đang nhận được sự chữa lành và hỗ trợ từ vũ trụ, như một dòng chảy ân sủng không ngừng.",
-        "reversed": "Nghiệp quả từ sự lạnh lùng, thiếu lòng trắc ẩn, hoặc lạm dụng cảm xúc của người khác. Bạn đang đối mặt với sự cô đơn và tổn thương, như một cái giá phải trả cho sự vô tâm."
+        "upright": "Nghiệp quả mang lại sự thấu hiểu, lòng trắc ẩn và cơ hội để chữa lành. Nhận diện những bài học từ quá khứ và sống một cuộc đời ý nghĩa hơn.",
+        "reversed": "Nghiệp quả gây ra sự bất an, lo lắng hoặc cảm xúc tiêu cực. Cần đối diện với những hệ quả từ hành động trong quá khứ và tìm cách hóa giải."
       },
       "lost_item": {
-        "upright": "Món đồ thất lạc có thể là một vật kỷ niệm, một món quà từ người thân. Hãy lắng nghe trực giác để tìm ra nó, như một tiếng gọi từ trái tim mách bảo.",
-        "reversed": "Món đồ bị mất do sự thiếu chú ý, hoặc nó đã bị bỏ quên do cảm xúc tiêu cực. Sự mất mát này gợi nhắc về những nỗi buồn bị chôn giấu."
+        "upright": "Trực giác mách bảo về vị trí của vật bị mất, hãy lắng nghe cảm nhận bên trong. Vật bị mất có thể liên quan đến giá trị tình cảm hoặc kỷ niệm.",
+        "reversed": "Vật bị mất khó tìm thấy do sự bối rối, lo lắng hoặc cảm xúc tiêu cực. Có thể là dấu hiệu của sự mất mát cảm xúc hoặc thiếu tập trung."
+      },
+      "ex": {
+        "upright": "Sự tha thứ và thấu hiểu cho quá khứ, chấp nhận những bài học từ mối quan hệ cũ. Có thể là cơ hội để hàn gắn dựa trên sự trưởng thành và lòng trắc ẩn.",
+        "reversed": "Cảm xúc tiêu cực còn vương vấn từ người cũ, sự oán giận hoặc khó khăn trong việc buông bỏ. Có thể là sự tái diễn của những khuôn mẫu cảm xúc độc hại."
+      },
+      "current_love": {
+        "upright": "Mối quan hệ hiện tại tràn đầy sự đồng cảm, chăm sóc và hỗ trợ lẫn nhau. Một tình yêu nuôi dưỡng tâm hồn, nơi cả hai cùng lắng nghe và chia sẻ cảm xúc sâu sắc.",
+        "reversed": "Mối quan hệ hiện tại đang đối mặt với sự bất ổn cảm xúc, sự phụ thuộc hoặc thiếu giao tiếp chân thành. Có thể có sự hiểu lầm hoặc cảm xúc bị kìm nén."
+      },
+      "ambiguous": {
+        "upright": "Trực giác mách bảo về bản chất thực sự của mối quan hệ, cần sự kiên nhẫn và thấu hiểu để làm rõ. Cảm nhận được dòng chảy ngầm của cảm xúc.",
+        "reversed": "Sự bối rối và bất an về tình trạng mối quan hệ, cảm xúc lẫn lộn và khó khăn trong việc định nghĩa. Có thể có sự thao túng hoặc thiếu rõ ràng từ một phía."
+      },
+      "crush": {
+        "upright": "Cảm xúc thuần khiết, lãng mạn và đầy mơ mộng. Có thể là dấu hiệu của một kết nối tâm hồn tiềm năng, dựa trên sự rung động và thấu cảm.",
+        "reversed": "Cảm xúc đơn phương, sự lý tưởng hóa quá mức hoặc nỗi sợ hãi bị từ chối. Có thể là sự ám ảnh cảm xúc không lành mạnh."
+      },
+      "future_love": {
+        "upright": "Tình yêu trong tương lai sẽ đến với sự sâu sắc, trưởng thành và kết nối tâm linh. Một mối quan hệ nuôi dưỡng và chữa lành, mang lại sự bình yên cho tâm hồn.",
+        "reversed": "Tình yêu tương lai có thể gặp phải những thử thách về cảm xúc, sự thiếu ổn định hoặc những người gây ra sự bất an. Cần cẩn trọng và học cách bảo vệ trái tim."
+      },
+      "someone": {
+        "upright": "Một người phụ nữ có trực giác nhạy bén, lòng trắc ẩn sâu sắc, tinh thần nghệ sĩ hoặc một người mẹ, người cố vấn đầy yêu thương. Họ mang lại sự bình yên và thấu hiểu.",
+        "reversed": "Một người đang gặp khó khăn về cảm xúc, có thể là người quá nhạy cảm, dễ tổn thương, hoặc có xu hướng thao túng, phụ thuộc vào cảm xúc của người khác."
+      },
+      "marriage": {
+        "upright": "Hôn nhân dựa trên tình yêu sâu sắc, sự thấu hiểu và lòng trắc ẩn. Một tổ ấm bình yên, nơi cảm xúc được nuôi dưỡng và sự gắn kết tâm hồn được đề cao.",
+        "reversed": "Hôn nhân đối mặt với sự bất ổn cảm xúc, thiếu sự đồng cảm hoặc sự phụ thuộc lẫn nhau một cách không lành mạnh. Có thể có sự hiểu lầm và tổn thương âm ỉ."
+      },
+      "conflict": {
+        "upright": "Giải quyết mâu thuẫn bằng sự bình tĩnh, thấu hiểu và lắng nghe trực giác. Tìm kiếm giải pháp dựa trên lòng trắc ẩn và sự hòa giải, không gây tổn thương thêm.",
+        "reversed": "Mâu thuẫn bị đẩy lên cao do cảm xúc cá nhân, sự nhạy cảm quá mức hoặc thiếu khả năng giao tiếp hiệu quả. Có thể là xung đột đầy kịch tính và tổn thương."
+      },
+      "breakup": {
+        "upright": "Chia tay trong sự chấp nhận, tha thứ và thấu hiểu những bài học đã qua. Buông bỏ với lòng trắc ẩn, cho phép bản thân và đối phương được chữa lành.",
+        "reversed": "Chia tay đầy đau khổ, sự bất an và cảm xúc tiêu cực. Khó khăn trong việc chấp nhận, có thể dẫn đến sự oán giận hoặc nỗi đau kéo dài."
+      },
+      "long_distance": {
+        "upright": "Mối quan hệ đường dài được duy trì bằng sự tin tưởng, thấu hiểu và kết nối cảm xúc sâu sắc. Trực giác giúp bạn cảm nhận sự hiện diện của đối phương dù xa cách.",
+        "reversed": "Mối quan hệ đường dài bị ảnh hưởng bởi sự bất an, cô đơn và cảm xúc tiêu cực. Thiếu sự kết nối thực tế có thể dẫn đến hiểu lầm và sự xa cách tinh thần."
+      },
+      "jealousy": {
+        "upright": "Nhận diện và hóa giải cảm xúc ghen tuông bằng sự tự tin, lòng trắc ẩn và thấu hiểu nguyên nhân sâu xa. Chuyển hóa năng lượng tiêu cực thành sự tin tưởng.",
+        "reversed": "Cảm xúc ghen tuông bùng phát mạnh mẽ, xuất phát từ sự bất an và thiếu tự tin. Có thể dẫn đến hành vi kiểm soát, thao túng hoặc gây tổn thương cho mối quan hệ."
+      },
+      "self_love": {
+        "upright": "Tình yêu bản thân sâu sắc, sự chấp nhận mọi khía cạnh của chính mình. Nuôi dưỡng tâm hồn bằng sự tự trắc ẩn, lắng nghe trực giác và chăm sóc cảm xúc.",
+        "reversed": "Thiếu tình yêu bản thân, sự bất an và tự chỉ trích. Cảm xúc tiêu cực về bản thân có thể dẫn đến sự phụ thuộc vào người khác hoặc tự hủy hoại."
+      },
+      "job_search": {
+        "upright": "Tìm kiếm công việc phù hợp với trực giác và đam mê. Các cơ hội đến từ sự kết nối cảm xúc hoặc trong lĩnh vực sáng tạo, chăm sóc, tư vấn.",
+        "reversed": "Khó khăn trong việc tìm việc do thiếu tự tin, cảm xúc bất ổn hoặc sự nhạy cảm quá mức khi đối diện với áp lực phỏng vấn và cạnh tranh."
+      },
+      "promotion": {
+        "upright": "Thăng tiến nhờ khả năng lãnh đạo bằng trái tim, sự đồng cảm và trực giác. Được công nhận vì sự khéo léo trong giao tiếp và khả năng kết nối đội nhóm.",
+        "reversed": "Cơ hội thăng tiến bị bỏ lỡ do cảm xúc cá nhân chi phối, thiếu quyết đoán hoặc sự nhạy cảm quá mức khiến bạn không thể hiện được năng lực."
+      },
+      "business": {
+        "upright": "Kinh doanh phát triển dựa trên sự thấu hiểu khách hàng, trực giác nhạy bén và đạo đức kinh doanh. Tạo ra giá trị bằng sự sáng tạo và lòng trắc ẩn.",
+        "reversed": "Kinh doanh gặp khó khăn do cảm xúc chi phối các quyết định, thiếu tính thực tế hoặc sự nhạy cảm quá mức trước áp lực thị trường. Có thể dẫn đến sự bất ổn."
+      },
+      "colleague": {
+        "upright": "Mối quan hệ đồng nghiệp hòa hợp, hỗ trợ lẫn nhau bằng sự thấu hiểu và đồng cảm. Một người đồng nghiệp đáng tin cậy, luôn lắng nghe và đưa ra lời khuyên chân thành.",
+        "reversed": "Mối quan hệ đồng nghiệp căng thẳng do sự nhạy cảm quá mức, cảm xúc cá nhân hoặc sự thiếu tin tưởng. Có thể có sự hiểu lầm và xung đột ngầm."
+      },
+      "career_change": {
+        "upright": "Thay đổi sự nghiệp theo tiếng gọi của trực giác và đam mê, tìm kiếm một con đường mang lại ý nghĩa sâu sắc và sự thỏa mãn về cảm xúc.",
+        "reversed": "Sự do dự, bất an và sợ hãi khi đứng trước quyết định thay đổi sự nghiệp. Cảm xúc tiêu cực có thể cản trở bạn bước ra khỏi vùng an toàn."
+      },
+      "freelance": {
+        "upright": "Sự nghiệp tự do thăng hoa nhờ khả năng kết nối khách hàng bằng trái tim, sự sáng tạo và trực giác. Tận hưởng sự tự do để thể hiện bản thân.",
+        "reversed": "Sự nghiệp tự do gặp khó khăn do thiếu kỷ luật cảm xúc, sự bất an về tài chính hoặc sự nhạy cảm quá mức trước những lời phê bình."
+      },
+      "interview": {
+        "upright": "Phỏng vấn thành công nhờ sự bình tĩnh, tự tin và khả năng kết nối cảm xúc với nhà tuyển dụng. Thể hiện được sự chân thành và trực giác nhạy bén.",
+        "reversed": "Phỏng vấn không như ý do sự lo lắng, thiếu tự tin hoặc cảm xúc bất ổn. Có thể gây ra ấn tượng không tốt hoặc khó khăn trong việc thể hiện bản thân."
+      },
+      "investment": {
+        "upright": "Đầu tư khôn ngoan dựa trên trực giác và sự nghiên cứu kỹ lưỡng. Cảm nhận được tiềm năng của các cơ hội, mang lại lợi nhuận bền vững và an toàn.",
+        "reversed": "Đầu tư mạo hiểm hoặc thiếu cân nhắc do cảm xúc chi phối, sự bất an hoặc thiếu hiểu biết. Có thể dẫn đến thua lỗ và sự hối tiếc."
+      },
+      "debt": {
+        "upright": "Tìm ra giải pháp trả nợ bằng sự bình tĩnh, trực giác và kế hoạch tài chính rõ ràng. Nhận diện nguyên nhân gốc rễ và học cách quản lý tốt hơn.",
+        "reversed": "Nợ nần chồng chất do các quyết định cảm tính, chi tiêu không kiểm soát hoặc sự bất an về tài chính. Cảm xúc tiêu cực có thể làm tình hình tồi tệ hơn."
+      },
+      "savings": {
+        "upright": "Tiết kiệm đều đặn, dựa trên sự thận trọng và mục tiêu rõ ràng. Xây dựng quỹ dự phòng vững chắc, mang lại sự an tâm và bình yên cho tương lai.",
+        "reversed": "Khó khăn trong việc tiết kiệm do chi tiêu cảm tính, thiếu kỷ luật hoặc sự bất an về tài chính. Cần kiểm soát cảm xúc để đạt được mục tiêu tiết kiệm."
+      },
+      "luck_money": {
+        "upright": "Tiền bạc đến từ sự may mắn hoặc các cơ hội bất ngờ, thường liên quan đến sự sáng tạo, trực giác hoặc lòng trắc ẩn. May mắn đến từ sự rộng lượng và cho đi.",
+        "reversed": "Tiền bạc đến rồi đi nhanh chóng, hoặc các cơ hội may mắn bị bỏ lỡ do sự thiếu quyết đoán, bất an hoặc cảm xúc tiêu cực chi phối."
+      },
+      "mental": {
+        "upright": "Sức khỏe tinh thần ổn định, bình yên và tràn đầy sự thấu hiểu bản thân. Khả năng đối diện và chữa lành những vết thương lòng bằng lòng trắc ẩn.",
+        "reversed": "Sức khỏe tinh thần bất ổn, lo âu, trầm cảm hoặc cảm xúc tiêu cực chi phối. Cần tìm kiếm sự hỗ trợ để đối diện và vượt qua những khó khăn về tâm lý."
+      },
+      "energy": {
+        "upright": "Năng lượng dồi dào, cân bằng và hài hòa. Khả năng hấp thụ và lan tỏa năng lượng tích cực, chữa lành cho bản thân và những người xung quanh.",
+        "reversed": "Năng lượng bị hao hụt, cảm thấy mệt mỏi, kiệt sức do cảm xúc tiêu cực hoặc sự nhạy cảm quá mức. Cần bảo vệ năng lượng của bản thân."
+      },
+      "family": {
+        "upright": "Mối quan hệ gia đình chan hòa yêu thương, sự thấu hiểu và lòng trắc ẩn. Một tổ ấm bình yên, nơi mọi người được lắng nghe và hỗ trợ lẫn nhau.",
+        "reversed": "Mối quan hệ gia đình căng thẳng do cảm xúc cá nhân, sự bất an hoặc thiếu giao tiếp. Có thể có sự hiểu lầm và tổn thương ngầm trong gia đình."
+      },
+      "diet": {
+        "upright": "Chế độ ăn uống cân bằng, lành mạnh, lắng nghe nhu cầu của cơ thể và trực giác. Ăn uống để nuôi dưỡng cả thể chất lẫn tinh thần.",
+        "reversed": "Chế độ ăn uống không lành mạnh, ăn uống theo cảm xúc hoặc thiếu kiểm soát. Có thể dẫn đến các vấn đề sức khỏe do thói quen ăn uống không điều độ."
+      },
+      "study": {
+        "upright": "Học tập hiệu quả nhờ sự tập trung, trực giác nhạy bén và khả năng thấu hiểu sâu sắc. Tiếp thu kiến thức bằng sự cảm nhận và đam mê.",
+        "reversed": "Học tập gặp khó khăn do thiếu tập trung, cảm xúc chi phối hoặc sự nhạy cảm quá mức trước áp lực. Cần kiểm soát cảm xúc để đạt kết quả tốt hơn."
+      },
+      "study_abroad": {
+        "upright": "Trải nghiệm du học thành công, hòa nhập tốt nhờ khả năng thích nghi, trực giác và sự cởi mở trong giao tiếp. Học hỏi và trưởng thành qua những trải nghiệm mới.",
+        "reversed": "Trải nghiệm du học gặp khó khăn do cảm giác cô đơn, nhớ nhà hoặc sự bất an trong môi trường mới. Cần tìm cách vượt qua những thử thách về cảm xúc."
+      },
+      "self": {
+        "upright": "Một con người giàu lòng trắc ẩn, trực giác nhạy bén, sâu sắc và đầy cảm xúc. Tự chấp nhận và yêu thương bản thân một cách chân thành.",
+        "reversed": "Một con người dễ bị tổn thương, bất an, cảm xúc thất thường hoặc có xu hướng thao túng. Cần học cách cân bằng cảm xúc và tự chủ hơn."
+      },
+      "purpose": {
+        "upright": "Tìm thấy mục đích sống thông qua sự thấu hiểu bản thân, trực giác và mong muốn giúp đỡ người khác. Một cuộc sống ý nghĩa, tràn đầy sự cho đi và lòng trắc ẩn.",
+        "reversed": "Sự bối rối, thiếu định hướng và cảm giác trống rỗng về mục đích sống. Cảm xúc tiêu cực có thể cản trở bạn tìm thấy con đường của mình."
+      },
+      "shadow_self": {
+        "upright": "Đối diện và chấp nhận những khía cạnh tối tăm của bản thân bằng lòng trắc ẩn. Chuyển hóa những nỗi sợ hãi, bất an thành sức mạnh và sự chữa lành.",
+        "reversed": "Những khía cạnh bóng tối của bản thân bị kìm nén, gây ra sự bất an, cảm xúc tiêu cực hoặc hành vi thao túng. Cần đối diện và chữa lành những vết thương lòng."
+      },
+      "decision": {
+        "upright": "Quyết định được đưa ra dựa trên trực giác nhạy bén, sự thấu hiểu tình huống và lòng trắc ẩn. Một quyết định khôn ngoan, mang lại sự bình yên và hài hòa.",
+        "reversed": "Quyết định bị chi phối bởi cảm xúc nhất thời, sự bất an hoặc thiếu cân nhắc. Có thể dẫn đến hối tiếc hoặc những hậu quả không mong muốn."
+      },
+      "travel": {
+        "upright": "Chuyến đi mang lại sự thư thái, khám phá những giá trị văn hóa và kết nối cảm xúc với những con người mới. Một hành trình của sự chiêm nghiệm và chữa lành.",
+        "reversed": "Chuyến đi gặp khó khăn do cảm xúc bất ổn, sự lo lắng hoặc những trải nghiệm không như ý. Có thể cảm thấy cô đơn hoặc khó hòa nhập."
+      },
+      "general": {
+        "upright": "Một giai đoạn của sự thấu hiểu, lòng trắc ẩn và trực giác nhạy bén. Thời điểm để nuôi dưỡng tâm hồn, chữa lành và kết nối sâu sắc với cảm xúc.",
+        "reversed": "Một giai đoạn của sự bất ổn cảm xúc, sự nhạy cảm quá mức hoặc cảm giác bị tổn thương. Cần tìm cách cân bằng và bảo vệ trái tim."
       }
     },
     "planet": "Mặt Trăng",
@@ -11450,74 +12400,204 @@ window.TAROT_DB = [
     "reversed": "Cảnh báo về tình trạng kiệt quệ hoàn toàn (burnout) do bạn cố chấp không chịu nghỉ ngơi. Hoặc sự trở lại với nhịp sống hối hả sau thời gian tịnh dưỡng.",
     "aspects": {
       "love": {
-        "up": "Tạm dừng liên lạc một thời gian để cả hai cùng suy nghĩ lại.",
-        "rev": "Bị kiệt sức vì mối quan hệ quá drama mà không có lúc nào nghỉ ngơi.",
-        "upright": "Một khoảng thời gian tạm xa nhau hoặc ngừng giao tiếp để cả hai có không gian riêng suy ngẫm. Sự tĩnh lặng cần thiết để làm dịu đi những căng thẳng, tránh những cuộc tranh cãi không hồi kết.",
-        "reversed": "Khoảng thời gian nghỉ ngơi đã kết thúc, mối quan hệ bắt đầu tái kết nối. Nếu không được giải quyết, sự xa cách này có thể biến thành sự bế tắc mãn tính hoặc kết thúc vĩnh viễn."
+        "upright": "Tạm ngừng các cuộc đấu tranh, tìm sự bình yên trong mối quan hệ, hoặc cần một khoảng lặng để suy ngẫm về tình yêu. Giai đoạn nghỉ ngơi để chữa lành vết thương lòng, chuẩn bị cho một chương mới.",
+        "reversed": "Sự bồn chồn trong tình yêu, khao khát thoát khỏi sự cô lập hoặc trì trệ. Có thể là sự vội vàng quay lại cuộc tình khi chưa thực sự sẵn sàng, dẫn đến kiệt sức hoặc mâu thuẫn dai dẳng."
       },
       "career": {
-        "up": "Nghỉ phép, đi du lịch chữa lành hoặc tạm lánh xa drama công sở.",
-        "rev": "Làm việc quá sức đến mức ngất xỉu hoặc không thể tập trung.",
-        "upright": "Một kỳ nghỉ phép, sự tạm dừng các dự án do quá tải hoặc môi trường công sở căng thẳng. Bạn cần một khoảng lặng để nạp lại năng lượng thay vì cố gắng sức.",
-        "reversed": "Sự trở lại đầy mạnh mẽ với công việc. Tuy nhiên, nếu bạn quay lại quá sớm khi chưa thực sự bình phục, bạn có thể đối mặt với sự kiệt sức (burnout) tồi tệ hơn."
+        "upright": "Giai đoạn tạm dừng, nghỉ ngơi sau một dự án căng thẳng, hoặc cần thời gian để suy ngẫm về định hướng nghề nghiệp. Chuẩn bị cho một kế hoạch mới sau khi đã phục hồi.",
+        "reversed": "Cảm giác trì trệ, bế tắc trong công việc, muốn thay đổi nhưng lại thiếu động lực hoặc quá vội vàng. Có thể là sự kiệt sức do làm việc quá sức mà không nghỉ ngơi đủ."
       },
       "finance": {
-        "up": "Ngừng đầu tư, giữ tiền an toàn và đánh giá lại ngân sách.",
-        "rev": "Bắt đầu hành động trở lại với các dự án tài chính đang ngủ đông.",
-        "upright": "Tình hình tài chính đang chững lại, một sự ổn định tạm thời. Đây không phải là lúc để đưa ra các quyết định đầu tư lớn, hãy bảo toàn lực lượng.",
-        "reversed": "Sự biến động tài chính bắt đầu quay trở lại sau một thời gian đóng băng. Cần sự cảnh giác và sẵn sàng hành động để đối phó với những thách thức mới."
+        "upright": "Giai đoạn cần thiết để tạm dừng mọi giao dịch lớn, suy ngẫm về tình hình tài chính. Cần sự bình yên để lập kế hoạch chi tiêu, tiết kiệm và phục hồi sau một giai đoạn khó khăn.",
+        "reversed": "Sự bồn chồn, lo lắng về tiền bạc, dẫn đến những quyết định tài chính vội vàng, thiếu suy nghĩ. Có thể là sự kiệt sức vì áp lực tài chính."
       },
       "health": {
-        "up": "Rất cần ngủ sâu, thư giãn và nằm viện tĩnh dưỡng.",
-        "rev": "Hồi phục sức khỏe sau bạo bệnh, chuẩn bị quay lại cuộc sống.",
-        "upright": "Sự tĩnh dưỡng tuyệt đối. Những liệu pháp thiền định, giấc ngủ chất lượng và sự cách ly khỏi tiếng ồn là liều thuốc chữa lành tốt nhất cho cơ thể và tâm trí lúc này.",
-        "reversed": "Sự bình phục hoàn toàn hoặc nguy cơ nhập viện khẩn cấp do phớt lờ các dấu hiệu cảnh báo của cơ thể. Đừng đánh giá thấp tầm quan trọng của việc nghỉ ngơi."
+        "upright": "Thời gian cần thiết để nghỉ ngơi, phục hồi sức khỏe sau bệnh tật hoặc căng thẳng. Cần sự tĩnh dưỡng và chăm sóc bản thân để hồi phục hoàn toàn.",
+        "reversed": "Sự bồn chồn, không chịu nghỉ ngơi đầy đủ, dẫn đến bệnh tật tái phát hoặc tình trạng sức khỏe xấu đi. Cố gắng quay lại cuộc sống quá sớm khi chưa thực sự khỏe mạnh."
       },
       "spiritual": {
-        "up": "Thiền định, tĩnh tâm, đi retreat.",
-        "rev": "Từ chối những cảnh báo của cơ thể, ép bản thân tu tập quá mức.",
-        "upright": "Sự ẩn cư tâm linh, một kỳ thiền định Vipassana hoặc khoảng thời gian cô lập bản thân để lắng nghe tiếng nói nội tâm. Sự thanh lọc tâm trí khỏi những tạp niệm.",
-        "reversed": "Trở lại với cuộc sống thường nhật sau một thời gian ẩn tu. Linh hồn bạn đã được chữa lành và sẵn sàng áp dụng những bài học tâm linh vào thế giới thực."
+        "upright": "Giai đoạn cần thiết để rút lui, thiền định và kết nối sâu sắc với thế giới nội tâm. Tìm kiếm sự bình yên, tĩnh lặng để phát triển tâm linh.",
+        "reversed": "Sự bồn chồn, lo lắng trong hành trình tâm linh, cố gắng tìm kiếm sự giác ngộ một cách vội vàng. Cảm giác bế tắc, không thể tìm thấy sự bình yên trong tâm hồn."
       },
       "friendship": {
-        "upright": "Một tình bạn cần thời gian để nghỉ ngơi, tĩnh lặng sau một biến cố hoặc xung đột. Đây là lúc để mỗi người tự chiêm nghiệm, không nên vội vàng hàn gắn.",
-        "reversed": "Sự từ chối nghỉ ngơi hoặc cố gắng vội vàng quay lại với tình bạn mà chưa thực sự chữa lành. Hoặc là sự cô lập quá mức, từ chối mọi sự kết nối."
+        "upright": "Cần một khoảng lặng trong mối quan hệ bạn bè, tạm gác lại những xung đột hoặc áp lực. Dành thời gian cho bản thân để phục hồi, sau đó sẽ kết nối lại mạnh mẽ hơn.",
+        "reversed": "Sự bồn chồn, lo lắng về tình bạn, cố gắng duy trì mối quan hệ khi chưa thực sự sẵn sàng. Có thể là sự kiệt sức do các vấn đề trong tình bạn không được giải quyết."
       },
       "pregnancy": {
-        "upright": "Cần nghỉ ngơi tuyệt đối hoặc dành thời gian tĩnh dưỡng cho thai kỳ. Đây là giai đoạn quan trọng để cơ thể và tinh thần được phục hồi, chuẩn bị cho những thay đổi sắp tới.",
-        "reversed": "Sự từ chối nghỉ ngơi, làm việc quá sức trong thai kỳ, có thể gây ảnh hưởng xấu. Hoặc là sự trì hoãn quá lâu, bỏ lỡ thời điểm quan trọng để hành động."
+        "upright": "Cần nghỉ ngơi, tĩnh dưỡng và chăm sóc bản thân trong giai đoạn này. Dành thời gian suy ngẫm, chuẩn bị tinh thần cho việc làm mẹ/làm cha.",
+        "reversed": "Sự bồn chồn, lo lắng về thai kỳ, không thể nghỉ ngơi đầy đủ. Có thể là cố gắng làm quá nhiều việc khi mang thai, dẫn đến kiệt sức."
       },
       "gossip": {
-        "upright": "Cách tốt nhất để đối phó với thị phi lúc này là rút lui, giữ im lặng và không tham gia vào cuộc khẩu chiến. Hãy dành thời gian để tĩnh tâm, tránh xa ồn ào.",
-        "reversed": "Sự cố gắng tham gia vào thị phi khi tâm trí còn mệt mỏi, hoặc sự cô lập bản thân quá mức khiến bạn bị bỏ lại phía sau."
+        "upright": "Rút lui khỏi những câu chuyện thị phi, không tham gia vào sự ồn ào của dư luận. Dành thời gian cho sự bình yên và suy ngẫm thay vì nghe ngóng chuyện người khác.",
+        "reversed": "Sự bồn chồn, lo lắng về những lời đồn đại, không thể thoát ra khỏi vòng xoáy của thị phi. Có thể là sự vội vàng phản ứng lại tin đồn mà không suy nghĩ kỹ."
       },
       "legal": {
-        "upright": "Một vụ án cần thời gian để tạm lắng, hoặc bạn cần rút lui để suy nghĩ kỹ về chiến lược pháp lý. Đây là lúc để thu thập thông tin và chuẩn bị kỹ lưỡng.",
-        "reversed": "Sự vội vàng hành động pháp lý khi chưa có sự chuẩn bị kỹ lưỡng, hoặc sự từ chối nghỉ ngơi, dẫn đến kiệt sức trong cuộc chiến pháp lý."
+        "upright": "Tạm dừng các tranh chấp pháp lý, tìm kiếm sự bình yên và giải pháp hòa giải. Cần thời gian để suy ngẫm kỹ lưỡng về chiến lược hoặc chờ đợi phán quyết.",
+        "reversed": "Sự bồn chồn, lo lắng về vấn đề pháp lý, cố gắng giải quyết một cách vội vàng mà không có sự chuẩn bị. Dẫn đến kiệt sức và kết quả không mong muốn."
       },
       "moving": {
-        "upright": "Cần tạm hoãn việc di chuyển để nghỉ ngơi, phục hồi sức khỏe hoặc tinh thần. Hoặc là một giai đoạn chuyển tiếp yên tĩnh trước khi bắt đầu hành trình mới.",
-        "reversed": "Sự từ chối nghỉ ngơi, cố gắng di chuyển khi chưa sẵn sàng, dẫn đến kiệt sức hoặc sự trì hoãn kéo dài không cần thiết."
+        "upright": "Cần một khoảng thời gian nghỉ ngơi sau quá trình chuyển nhà vất vả, hoặc dành thời gian suy ngẫm kỹ lưỡng trước khi quyết định chuyển đi.",
+        "reversed": "Sự bồn chồn, vội vàng chuyển nhà khi chưa thực sự sẵn sàng, dẫn đến những rắc rối không đáng có. Cảm giác kiệt sức, mệt mỏi vì quá trình di chuyển."
       },
       "pet": {
-        "upright": "Thú cưng cần được nghỉ ngơi, tĩnh dưỡng sau một sự kiện căng thẳng hoặc bệnh tật. Hoặc là bạn cần dành thời gian yên tĩnh bên thú cưng để phục hồi năng lượng.",
-        "reversed": "Sự bỏ bê nhu cầu nghỉ ngơi của thú cưng, hoặc sự cố gắng ép buộc chúng hoạt động khi chưa hồi phục hoàn toàn."
+        "upright": "Thú cưng cần được nghỉ ngơi, tĩnh dưỡng để phục hồi sức khỏe. Hoặc bạn cần dành thời gian bình yên bên thú cưng để tìm sự an ủi.",
+        "reversed": "Thú cưng đang bồn chồn, lo lắng hoặc bạn đang kiệt sức vì chăm sóc thú cưng. Có thể là sự vội vàng trong việc huấn luyện hoặc điều trị bệnh cho thú cưng."
       },
       "dream": {
-        "upright": "Giấc mơ về sự bình yên, tĩnh lặng, hoặc cảm giác được nghỉ ngơi sau một thời gian dài căng thẳng. Vô thức đang kêu gọi bạn dành thời gian cho bản thân.",
-        "reversed": "Ác mộng về sự bất an, không thể nghỉ ngơi, hoặc cảm giác bị mắc kẹt, không thể thoát khỏi tình trạng mệt mỏi."
+        "upright": "Dành thời gian suy ngẫm về những giấc mơ, tìm kiếm thông điệp từ tiềm thức. Cần sự bình yên và tĩnh lặng để giải mã những ý nghĩa sâu xa.",
+        "reversed": "Sự bồn chồn, lo lắng về những giấc mơ, cố gắng giải mã một cách vội vàng hoặc bị ám ảnh bởi chúng. Cảm thấy kiệt sức do những giấc mơ gây xáo trộn."
       },
       "past_life": {
-        "upright": "Ở tiền kiếp, bạn có thể là một người tu sĩ, ẩn sĩ, hoặc đã trải qua một giai đoạn dài của sự chiêm nghiệm, tìm kiếm nội tâm.",
-        "reversed": "Nghiệp quả tiền kiếp liên quan đến việc từ chối nghỉ ngơi, làm việc quá sức hoặc sự cô lập bản thân một cách tiêu cực."
+        "upright": "Giai đoạn cần thiết để rút lui, thiền định và suy ngẫm về những bài học từ kiếp trước. Tìm kiếm sự bình yên để kết nối với trí tuệ cổ xưa.",
+        "reversed": "Sự bồn chồn, lo lắng về những ảnh hưởng từ kiếp trước, cố gắng tìm hiểu một cách vội vã. Cảm thấy bế tắc, bị ám ảnh bởi những ký ức hoặc năng lượng từ kiếp trước."
       },
       "karma": {
-        "upright": "Nhân quả đang mang đến cho bạn cơ hội để nghỉ ngơi, chữa lành và chiêm nghiệm lại cuộc sống. Hãy tận dụng thời gian này để thanh lọc tâm hồn.",
-        "reversed": "Sự từ chối chấp nhận bài học nhân quả về sự nghỉ ngơi, hoặc sự cố gắng chống lại dòng chảy tự nhiên của sự phục hồi."
+        "upright": "Rút lui để suy ngẫm về những hành động và hậu quả của chúng. Giai đoạn cần thiết để tìm kiếm sự bình yên, học hỏi từ nghiệp quả và thay đổi hướng đi.",
+        "reversed": "Sự bồn chồn, lo lắng về nghiệp quả, cố gắng thay đổi một cách vội vàng mà không có sự suy ngẫm sâu sắc. Cảm thấy bế tắc, bị mắc kẹt trong vòng lặp của nghiệp."
       },
       "lost_item": {
-        "upright": "Món đồ thất lạc có thể đang ở một nơi ít người qua lại, một nơi bạn thường dùng để nghỉ ngơi hoặc tĩnh tâm. Hãy tìm kiếm ở những góc khuất, yên tĩnh.",
-        "reversed": "Sự mệt mỏi trong việc tìm kiếm khiến bạn bỏ cuộc, hoặc món đồ bị mất do sự lơ là trong lúc nghỉ ngơi, không chú ý đến vật xung quanh."
+        "upright": "Dừng lại mọi cuộc tìm kiếm vội vã, bình tĩnh suy ngẫm về nơi đã đặt đồ. Cần sự tĩnh lặng để nhớ lại hoặc chờ đợi món đồ tự xuất hiện.",
+        "reversed": "Sự bồn chồn, lo lắng về vật bị mất, tìm kiếm một cách vội vàng, vô vọng. Dẫn đến kiệt sức mà vẫn không tìm thấy đồ vật, hoặc bỏ qua những dấu hiệu quan trọng."
+      },
+      "ex": {
+        "upright": "Một khoảng thời gian cần thiết để chữa lành sau chia tay, không liên lạc hoặc né tránh để phục hồi tinh thần. Dành thời gian suy ngẫm về mối quan hệ cũ một cách bình tĩnh.",
+        "reversed": "Ám ảnh bởi người cũ, không thể buông bỏ hoặc liên tục tìm cách liên lạc dù chưa sẵn sàng. Có thể là sự tái diễn của những vấn đề cũ do chưa thực sự nghỉ ngơi và suy ngẫm đủ."
+      },
+      "current_love": {
+        "upright": "Cần một khoảng lặng trong mối quan hệ, tạm gác lại những tranh cãi hoặc áp lực. Dành thời gian riêng tư cho nhau để phục hồi năng lượng, hoặc mỗi người cần không gian riêng để suy nghĩ.",
+        "reversed": "Cảm giác ngột ngạt, bế tắc trong mối quan hệ, cần hành động nhưng lại sợ hãi. Có thể là sự thiếu giao tiếp do một hoặc cả hai bên chưa sẵn sàng đối mặt."
+      },
+      "ambiguous": {
+        "upright": "Dừng lại để quan sát và suy ngẫm về mối quan hệ không rõ ràng này. Không nên vội vàng đưa ra quyết định mà hãy chờ đợi sự rõ ràng hơn, hoặc tự mình tìm kiếm sự bình yên trong sự không chắc chắn.",
+        "reversed": "Sự bồn chồn, muốn nhanh chóng định nghĩa mối quan hệ nhưng lại thiếu sự chuẩn bị. Có thể là sự lo lắng, kiệt sức vì sự không rõ ràng, thúc đẩy hành động vội vã."
+      },
+      "crush": {
+        "upright": "Dành thời gian quan sát đối tượng, suy nghĩ kỹ về cảm xúc của mình trước khi hành động. Một giai đoạn 'án binh bất động' để hiểu rõ hơn về bản thân và người kia.",
+        "reversed": "Sự thôi thúc hành động một cách vội vàng, bộc lộ cảm xúc khi chưa thực sự sẵn sàng. Có thể là sự lo lắng, mệt mỏi vì phải giữ bí mật tình cảm."
+      },
+      "future_love": {
+        "upright": "Giai đoạn cần thiết để chữa lành và chuẩn bị cho một tình yêu mới. Tình yêu sẽ đến khi bạn đã thực sự bình tâm và sẵn sàng đón nhận.",
+        "reversed": "Vội vàng tìm kiếm tình yêu mới khi chưa thực sự hồi phục, dễ mắc phải sai lầm cũ. Hoặc cảm thấy bế tắc, không thấy lối thoát trong việc tìm kiếm tình yêu."
+      },
+      "someone": {
+        "upright": "Người đó đang cần một khoảng lặng, sự nghỉ ngơi. Hoặc họ đang trong giai đoạn suy ngẫm, phục hồi tinh thần sau một thử thách. Hãy để họ có không gian riêng.",
+        "reversed": "Người đó đang cảm thấy bồn chồn, kiệt sức hoặc cố gắng thoát ra khỏi sự trì trệ. Họ có thể đang vội vàng quay lại cuộc sống mà chưa thực sự sẵn sàng."
+      },
+      "marriage": {
+        "upright": "Cần một khoảng thời gian nghỉ ngơi, suy ngẫm về hôn nhân. Có thể là tạm gác lại những căng thẳng, tìm kiếm sự bình yên để hàn gắn hoặc đưa ra quyết định quan trọng.",
+        "reversed": "Hôn nhân đang gặp bế tắc, sự trì trệ hoặc một trong hai bên cảm thấy ngột ngạt, muốn thoát ra nhưng chưa tìm được lối đi. Có thể là sự vội vàng đưa ra quyết định mà chưa suy nghĩ thấu đáo."
+      },
+      "conflict": {
+        "upright": "Tạm dừng mọi xung đột, tìm kiếm sự bình yên và hòa giải. Đây là thời điểm để rút lui, suy ngẫm về nguyên nhân và tìm kiếm giải pháp một cách bình tĩnh.",
+        "reversed": "Xung đột tiếp diễn do sự bồn chồn, không chịu lùi bước hoặc cố gắng giải quyết khi chưa thực sự sẵn sàng. Dễ dẫn đến kiệt sức và mâu thuẫn dai dẳng."
+      },
+      "breakup": {
+        "upright": "Giai đoạn cần thiết để chữa lành vết thương lòng, rút lui khỏi mọi thứ để phục hồi tinh thần. Không nên vội vàng quay lại các mối quan hệ hay đưa ra quyết định lớn.",
+        "reversed": "Sự bồn chồn sau chia tay, không thể chấp nhận sự nghỉ ngơi, vội vàng tìm kiếm sự an ủi từ bên ngoài. Dẫn đến sự kiệt sức tinh thần và chậm trễ trong quá trình hồi phục."
+      },
+      "long_distance": {
+        "upright": "Cần sự kiên nhẫn và bình yên để duy trì mối quan hệ. Giai đoạn này đòi hỏi sự tin tưởng, mỗi người cần không gian riêng để phát triển và suy ngẫm.",
+        "reversed": "Cảm giác cô lập, bồn chồn và mệt mỏi vì khoảng cách. Có thể là sự vội vàng muốn rút ngắn khoảng cách khi chưa thực sự sẵn sàng hoặc thiếu sự kiên nhẫn."
+      },
+      "jealousy": {
+        "upright": "Rút lui để suy ngẫm về nguồn gốc của sự ghen tuông, tìm kiếm sự bình yên nội tâm. Đây là thời điểm để đối diện với nỗi sợ hãi và chữa lành.",
+        "reversed": "Sự ghen tuông bùng phát do không chịu nghỉ ngơi, không thể kiểm soát cảm xúc. Có thể là sự bồn chồn, ám ảnh và không tìm được lối thoát khỏi cảm xúc tiêu cực."
+      },
+      "self_love": {
+        "upright": "Thời gian cần thiết để chăm sóc bản thân, phục hồi năng lượng và kết nối lại với chính mình. Dành cho bản thân sự bình yên, tĩnh lặng để chữa lành và tái tạo.",
+        "reversed": "Bỏ bê bản thân, không cho phép mình nghỉ ngơi, dẫn đến kiệt sức. Cảm thấy bồn chồn, không thể chấp nhận sự tĩnh lặng và tự chăm sóc."
+      },
+      "job_search": {
+        "upright": "Tạm gác lại việc tìm kiếm, dành thời gian nghỉ ngơi để phục hồi năng lượng và suy ngẫm về mục tiêu. Chuẩn bị kỹ lưỡng trước khi tái khởi động.",
+        "reversed": "Sự vội vàng, bồn chồn trong việc tìm việc, dẫn đến sự thiếu chuẩn bị hoặc chọn lựa sai lầm. Cảm giác kiệt sức, nản lòng vì không tìm được việc."
+      },
+      "promotion": {
+        "upright": "Cần một khoảng lặng để chuẩn bị, suy ngẫm về trách nhiệm mới. Có thể là tạm dừng để tích lũy kinh nghiệm, chờ đợi thời cơ chín muồi.",
+        "reversed": "Sự nóng vội muốn thăng tiến khi chưa thực sự sẵn sàng, dẫn đến áp lực và kiệt sức. Hoặc cảm thấy bế tắc, không có cơ hội thăng tiến."
+      },
+      "business": {
+        "upright": "Giai đoạn cần thiết để tạm dừng, xem xét lại chiến lược kinh doanh. Rút lui để phục hồi, lập kế hoạch chi tiết trước khi tái khởi động một cách mạnh mẽ hơn.",
+        "reversed": "Cảm giác trì trệ, bế tắc trong kinh doanh, muốn thay đổi nhưng lại thiếu hướng đi. Hoặc vội vàng đưa ra quyết định khi chưa suy nghĩ kỹ, dẫn đến rủi ro."
+      },
+      "colleague": {
+        "upright": "Đồng nghiệp cần không gian riêng để nghỉ ngơi, suy ngẫm. Hoặc bạn cần tạm gác lại những mâu thuẫn với đồng nghiệp để tìm sự bình yên.",
+        "reversed": "Đồng nghiệp đang bồn chồn, kiệt sức hoặc cố gắng thoát khỏi sự trì trệ. Có thể là sự thiếu hợp tác do một trong hai bên chưa sẵn sàng đối mặt."
+      },
+      "career_change": {
+        "upright": "Thời điểm lý tưởng để tạm gác lại mọi thứ, suy ngẫm kỹ lưỡng về hướng đi mới. Cần sự bình yên và tĩnh lặng để đưa ra quyết định quan trọng này.",
+        "reversed": "Sự vội vàng thay đổi nghề nghiệp khi chưa thực sự sẵn sàng, dẫn đến sự hối tiếc hoặc kiệt sức. Cảm thấy bế tắc, không tìm được lối thoát trong sự nghiệp."
+      },
+      "freelance": {
+        "upright": "Cần một khoảng thời gian nghỉ ngơi giữa các dự án, tránh làm việc quá sức. Dành thời gian để tái tạo năng lượng và lên kế hoạch cho công việc tiếp theo.",
+        "reversed": "Sự kiệt sức do làm việc tự do quá độ, không có thời gian nghỉ ngơi. Cảm thấy bồn chồn, lo lắng về công việc và thu nhập, không thể tìm thấy sự bình yên."
+      },
+      "interview": {
+        "upright": "Dành thời gian chuẩn bị kỹ lưỡng, giữ tâm trạng bình tĩnh trước phỏng vấn. Cần sự nghỉ ngơi và tập trung cao độ để thể hiện tốt nhất.",
+        "reversed": "Sự lo lắng, bồn chồn khiến bạn thiếu sự chuẩn bị hoặc thể hiện không tốt trong phỏng vấn. Có thể là sự vội vàng tìm kiếm cơ hội mà không suy nghĩ kỹ."
+      },
+      "investment": {
+        "upright": "Tạm dừng mọi quyết định đầu tư, dành thời gian nghiên cứu và suy ngẫm kỹ lưỡng. Chờ đợi thời cơ thích hợp, không nên vội vàng.",
+        "reversed": "Sự vội vàng đầu tư khi chưa tìm hiểu kỹ, dẫn đến rủi ro thua lỗ. Cảm giác bồn chồn, lo lắng muốn nhanh chóng thu lợi nhuận."
+      },
+      "debt": {
+        "upright": "Rút lui để bình tĩnh suy xét về tình hình nợ nần, lập kế hoạch trả nợ một cách cẩn trọng. Cần sự tĩnh lặng để tìm ra giải pháp.",
+        "reversed": "Sự bồn chồn, lo lắng về nợ nần khiến bạn đưa ra những quyết định vội vàng, không hiệu quả. Cảm thấy kiệt sức, bế tắc vì gánh nặng nợ."
+      },
+      "savings": {
+        "upright": "Giai đoạn cần thiết để tạm ngừng chi tiêu không cần thiết, tập trung tiết kiệm. Cần sự kỷ luật và bình yên để đạt được mục tiêu tài chính.",
+        "reversed": "Sự bồn chồn, không thể kiên nhẫn tiết kiệm, dễ bị cám dỗ chi tiêu. Cảm giác lo lắng về tài chính, không thể tìm thấy sự ổn định."
+      },
+      "luck_money": {
+        "upright": "May mắn đến từ sự bình tĩnh, suy ngẫm và chuẩn bị kỹ lưỡng. Không nên vội vàng mà hãy chờ đợi thời cơ chín muồi.",
+        "reversed": "Vội vàng tìm kiếm may mắn, dễ đưa ra quyết định sai lầm. Sự bồn chồn, thiếu kiên nhẫn có thể làm mất đi cơ hội tốt."
+      },
+      "mental": {
+        "upright": "Rất cần thiết để tạm dừng, rút lui khỏi áp lực để phục hồi tinh thần. Thiền định, suy ngẫm, tìm kiếm sự bình yên nội tâm là chìa khóa.",
+        "reversed": "Tinh thần bồn chồn, lo lắng, không thể tìm thấy sự bình yên. Cố gắng chống chọi với căng thẳng mà không cho phép bản thân nghỉ ngơi, dẫn đến kiệt sức."
+      },
+      "energy": {
+        "upright": "Năng lượng đang trong giai đoạn phục hồi, cần được bảo tồn và tái tạo. Dành thời gian nghỉ ngơi để lấy lại sức sống.",
+        "reversed": "Năng lượng cạn kiệt do làm việc quá sức hoặc không chịu nghỉ ngơi. Cảm thấy mệt mỏi, uể oải và thiếu sức sống."
+      },
+      "family": {
+        "upright": "Cần một khoảng lặng trong các mối quan hệ gia đình, tạm gác lại những xung đột để tìm sự bình yên. Hoặc một thành viên trong gia đình cần không gian riêng để phục hồi.",
+        "reversed": "Mâu thuẫn gia đình kéo dài do sự bồn chồn, không chịu nhường nhịn. Cảm giác ngột ngạt, muốn thoát khỏi áp lực gia đình nhưng chưa tìm được lối đi."
+      },
+      "diet": {
+        "upright": "Giai đoạn cần thiết để tạm dừng, suy ngẫm về chế độ ăn uống hiện tại. Lập kế hoạch ăn uống lành mạnh một cách cẩn trọng, không nên vội vàng.",
+        "reversed": "Sự bồn chồn, vội vàng thay đổi chế độ ăn uống một cách cực đoan, dẫn đến kiệt sức hoặc không bền vững. Thiếu kiên nhẫn trong việc duy trì lối sống lành mạnh."
+      },
+      "study": {
+        "upright": "Cần một khoảng nghỉ ngơi sau thời gian học tập căng thẳng, hoặc tạm dừng để củng cố kiến thức. Dành thời gian suy ngẫm, chuẩn bị kỹ lưỡng cho giai đoạn học tập tiếp theo.",
+        "reversed": "Sự bồn chồn, lo lắng về việc học, không thể tập trung nghỉ ngơi. Cố gắng học quá sức mà không có thời gian phục hồi, dẫn đến kiệt sức và giảm hiệu quả."
+      },
+      "study_abroad": {
+        "upright": "Dành thời gian suy ngẫm kỹ lưỡng về quyết định du học, chuẩn bị tinh thần và tài chính. Cần sự bình yên để lên kế hoạch chi tiết.",
+        "reversed": "Sự vội vàng quyết định du học khi chưa thực sự sẵn sàng, dẫn đến những khó khăn không lường trước. Cảm giác bồn chồn, lo lắng về tương lai ở một đất nước xa lạ."
+      },
+      "self": {
+        "upright": "Rút lui khỏi thế giới bên ngoài để kết nối với bản thân, tìm kiếm sự bình yên nội tâm. Giai đoạn chữa lành, suy ngẫm và tái tạo năng lượng cho tâm hồn.",
+        "reversed": "Cảm giác bồn chồn, không thể ở yên một mình, luôn tìm kiếm sự phân tâm từ bên ngoài. Thiếu sự kết nối với bản thân, dẫn đến kiệt sức và lo lắng dai dẳng."
+      },
+      "purpose": {
+        "upright": "Dành thời gian tĩnh lặng để suy ngẫm về mục đích sống, tìm kiếm sự rõ ràng trong tâm hồn. Không nên vội vàng mà hãy để câu trả lời tự hiện ra.",
+        "reversed": "Sự bồn chồn, lo lắng về mục đích sống, cố gắng tìm kiếm một cách vội vã mà không có sự suy ngẫm sâu sắc. Cảm thấy bế tắc, không tìm thấy ý nghĩa cuộc đời."
+      },
+      "shadow_self": {
+        "upright": "Rút lui để đối diện với những khía cạnh tối tăm của bản thân một cách bình tĩnh. Giai đoạn cần thiết để suy ngẫm, chấp nhận và chữa lành những vết thương ẩn giấu.",
+        "reversed": "Cố gắng né tránh hoặc vội vàng đối mặt với bóng tối bên trong khi chưa thực sự sẵn sàng. Dẫn đến sự bồn chồn, lo lắng và không thể hòa giải được với bản thân."
+      },
+      "decision": {
+        "upright": "Cần một khoảng lặng để suy ngẫm kỹ lưỡng trước khi đưa ra quyết định quan trọng. Không nên vội vàng mà hãy chờ đợi sự rõ ràng từ bên trong.",
+        "reversed": "Sự bồn chồn, vội vàng đưa ra quyết định khi chưa suy nghĩ thấu đáo, dẫn đến hối tiếc. Cảm giác bế tắc, không thể đưa ra quyết định do quá tải."
+      },
+      "travel": {
+        "upright": "Cần một chuyến đi để nghỉ ngơi, phục hồi tinh thần. Hoặc tạm gác lại kế hoạch du lịch để chuẩn bị kỹ lưỡng hơn.",
+        "reversed": "Sự bồn chồn, vội vàng muốn đi du lịch khi chưa thực sự sẵn sàng, dẫn đến những trải nghiệm không như ý. Có thể là sự kiệt sức do di chuyển quá nhiều mà không có thời gian nghỉ ngơi."
+      },
+      "general": {
+        "upright": "Giai đoạn nghỉ ngơi, phục hồi, suy ngẫm và chuẩn bị. Cần rút lui khỏi sự ồn ào để tìm lại sự bình yên và tái tạo năng lượng.",
+        "reversed": "Sự bồn chồn, kiệt sức, không thể nghỉ ngơi. Cố gắng quay lại cuộc sống quá sớm hoặc cảm thấy bế tắc, trì trệ trong mọi khía cạnh."
       }
     },
     "planet": "Sao Mộc",
@@ -11786,74 +12866,204 @@ window.TAROT_DB = [
     "reversed": "Cảm thấy mắc kẹt trong quá khứ, mang theo gánh nặng cảm xúc. Không thể thoát khỏi rắc rối, hoặc một chuyến đi bị hủy bỏ.",
     "aspects": {
       "love": {
-        "up": "Cả hai cùng vượt qua khó khăn để đến bến bờ hạnh phúc, hoặc bạn quyết định rời bỏ một tình yêu cay đắng.",
-        "rev": "Không thể quên người cũ, mang theo tổn thương vào mối quan hệ mới.",
-        "upright": "Rời xa một mối quan hệ độc hại hoặc cùng nhau vượt qua một giai đoạn khủng hoảng. Bạn chấp nhận rời bỏ những tổn thương quá khứ để tìm kiếm sự bình yên và thấu hiểu hơn trong tình yêu.",
-        "reversed": "Sự miễn cưỡng buông bỏ. Bạn không thể quên đi nỗi đau cũ, mang theo gánh nặng oán hận vào mối quan hệ hiện tại, khiến mọi nỗ lực hàn gắn đều chìm trong tuyệt vọng."
+        "upright": "Chuyện tình cảm đang bước vào giai đoạn chuyển mình, rời xa những mâu thuẫn để tìm kiếm sự bình yên, hoặc một mối quan hệ mới mang lại sự thanh thản sau giông bão.",
+        "reversed": "Sự lưỡng lự trong tình yêu, nỗi sợ hãi không dám buông bỏ quá khứ đau buồn, hoặc mối quan hệ đang mắc kẹt trong vòng luẩn quẩn của vấn đề cũ."
       },
       "career": {
-        "up": "Đổi việc sang một môi trường tốt hơn, hoặc đi công tác xa có kết quả tốt.",
-        "rev": "Công việc bế tắc, không thể nghỉ việc vì hoàn cảnh.",
-        "upright": "Một sự thay đổi môi trường làm việc, chuyển đổi công việc hoặc phòng ban mang lại sự bình yên sau thời gian dài căng thẳng. Công việc đi vào quỹ đạo ổn định, êm đềm hơn.",
-        "reversed": "Mắc kẹt trong một công việc ngột ngạt mà không thể thoát ra. Sự thiếu dũng khí để thay đổi môi trường khiến bạn tiếp tục chịu đựng sự căng thẳng triền miên."
+        "upright": "Sự nghiệp đang bước vào giai đoạn chuyển đổi quan trọng, rời xa công việc cũ để tìm kiếm một môi trường mới phù hợp và ít áp lực hơn.",
+        "reversed": "Cảm giác bị mắc kẹt trong công việc hiện tại, khó khăn trong việc đưa ra quyết định thay đổi hoặc né tránh đối mặt với vấn đề trong sự nghiệp."
       },
       "finance": {
-        "up": "Khủng hoảng tài chính dần qua đi, bắt đầu vào quỹ đạo ổn định.",
-        "rev": "Cố trốn nợ nhưng không thoát, hoặc từ chối đối mặt với nợ nần.",
-        "upright": "Giai đoạn khó khăn tài chính đã qua, mọi thứ dần ổn định và có thể kiểm soát được. Những chuyến đi xa hoặc việc di chuyển mang lại những cơ hội tài chính mới.",
-        "reversed": "Sự lo âu tài chính kéo dài do không giải quyết triệt để các khoản nợ cũ. Bạn đang mang theo những rắc rối tiền bạc từ quá khứ vào hiện tại."
+        "upright": "Tình hình tài chính đang dần ổn định hơn sau một giai đoạn khó khăn, bạn đang tìm cách rời xa nợ nần để hướng tới sự an toàn tài chính.",
+        "reversed": "Những vấn đề tài chính cũ tái diễn, hoặc bạn đang mắc kẹt trong nợ nần, khó khăn trong việc tìm ra lối thoát."
       },
       "health": {
-        "up": "Phục hồi từ từ sau chuỗi ngày mệt mỏi, stress.",
-        "rev": "Quá trình chữa trị bị gián đoạn, bệnh cũ dai dẳng.",
-        "upright": "Quá trình phục hồi sức khỏe chậm rãi nhưng tích cực. Sự thay đổi không khí, những chuyến đi nghỉ dưỡng sẽ mang lại hiệu quả chữa lành thần kỳ cho cơ thể và tâm trí.",
-        "reversed": "Sự sa sút sức khỏe do từ chối thay đổi lối sống. Tâm lý trầm uất, kẹt lại với nỗi đau khiến cơ thể không thể phục hồi trọn vẹn."
+        "upright": "Sức khỏe đang phục hồi sau một giai đoạn bệnh tật, bạn đang trên hành trình rời xa những thói quen xấu để hướng tới một lối sống lành mạnh hơn.",
+        "reversed": "Bệnh cũ tái phát hoặc bạn đang né tránh đối mặt với vấn đề sức khỏe, khiến tình trạng không được cải thiện."
       },
       "spiritual": {
-        "up": "Sự tĩnh lặng nội tâm sau cơn bão giông.",
-        "rev": "Sợ hãi tương lai, không dám buông tay quá khứ.",
-        "upright": "Sự chuyển hóa tâm thức nhẹ nhàng. Bạn đang để lại đằng sau những giáo lý cũ kỹ, hành hương về một trạng thái nhận thức cao hơn, tĩnh lặng và thanh bình hơn.",
-        "reversed": "Sự kháng cự lại sự tiến hóa tâm linh. Linh hồn bạn vùng vẫy trong vũng bùn của những thói quen cũ, sợ hãi trước những thay đổi mang tính cốt lõi."
+        "upright": "Hành trình tâm linh đang bước vào giai đoạn chuyển giao, rời bỏ những tín ngưỡng cũ để tìm kiếm một con đường mới mang lại sự giác ngộ và bình an.",
+        "reversed": "Sự bế tắc trong hành trình tâm linh, cảm giác lạc lối hoặc quay trở lại với những nghi ngờ cũ."
       },
       "friendship": {
-        "upright": "Một tình bạn đang trong giai đoạn chuyển tiếp, có thể là một người bạn sắp rời đi hoặc cả hai đang cùng nhau vượt qua một giai đoạn khó khăn. Hướng tới sự bình yên hơn.",
-        "reversed": "Sự trì hoãn việc rời đi khỏi một tình bạn độc hại, hoặc sự khó khăn trong việc buông bỏ quá khứ, khiến quá trình chuyển đổi bị cản trở."
+        "upright": "Mối quan hệ bạn bè đang thay đổi, có thể là sự rời đi của một người hoặc bạn đang tìm cách buông bỏ những mối quan hệ độc hại để hướng tới sự bình yên.",
+        "reversed": "Những mâu thuẫn cũ trong tình bạn tái diễn, hoặc cảm giác bị mắc kẹt trong một mối quan hệ bạn bè không mấy thoải mái."
       },
       "pregnancy": {
-        "upright": "Hành trình thai sản đang tiến triển, vượt qua những khó khăn ban đầu để hướng tới một giai đoạn ổn định hơn. Hoặc là một chuyến đi cần thiết để tìm kiếm sự hỗ trợ y tế.",
-        "reversed": "Sự trì hoãn việc tìm kiếm sự giúp đỡ, hoặc cảm giác bị mắc kẹt trong một tình huống khó khăn liên quan đến thai sản, không thể di chuyển."
+        "upright": "Một giai đoạn chuyển đổi trong thai kỳ, có thể là sự chuẩn bị cho việc sinh nở hoặc một quyết định quan trọng liên quan đến tương lai của em bé.",
+        "reversed": "Sự lo lắng, bế tắc hoặc những vấn đề sức khỏe cũ liên quan đến thai kỳ đang tái diễn."
       },
       "gossip": {
-        "upright": "Bạn đang cố gắng rời xa những thị phi, tìm cách thoát khỏi những lời đồn đại để tìm kiếm sự bình yên cho bản thân.",
-        "reversed": "Sự khó khăn trong việc thoát khỏi vòng xoáy thị phi, hoặc bị kéo lại vào những cuộc tranh cãi cũ."
+        "upright": "Bạn đang cố gắng rời xa những thị phi và lời đồn đại, tìm kiếm sự bình yên và không để những lời nói tiêu cực ảnh hưởng đến mình.",
+        "reversed": "Những lời đồn đại cũ tái diễn, hoặc bạn đang bị mắc kẹt trong vòng xoáy của thị phi, khó lòng thoát ra."
       },
       "legal": {
-        "upright": "Một vụ án đang dần đi đến hồi kết, hoặc bạn đang rời xa một vấn đề pháp lý phức tạp để tìm kiếm giải pháp đơn giản hơn.",
-        "reversed": "Sự trì hoãn trong việc giải quyết vấn đề pháp lý, hoặc cảm giác bị mắc kẹt trong vòng xoáy kiện tụng không lối thoát."
+        "upright": "Vấn đề pháp lý đang dần được giải quyết, bạn đang trên hành trình rời xa những rắc rối để tìm kiếm sự công bằng và bình yên.",
+        "reversed": "Vấn đề pháp lý cũ tái diễn, hoặc bạn đang mắc kẹt trong một vụ kiện tụng không có hồi kết."
       },
       "moving": {
-        "upright": "Một cuộc di chuyển cần thiết để thoát khỏi một tình huống khó khăn, hướng tới một tương lai tốt đẹp hơn. Đây là một hành trình chữa lành.",
-        "reversed": "Sự trì hoãn việc di chuyển, hoặc cảm giác bị mắc kẹt, không thể rời khỏi nơi ở hiện tại dù nó không còn phù hợp."
+        "upright": "Một cuộc chuyển nhà là cần thiết để bạn rời xa môi trường cũ, tìm kiếm một không gian sống mới bình yên và phù hợp hơn.",
+        "reversed": "Kế hoạch chuyển nhà bị trì hoãn, hoặc bạn đang gặp khó khăn trong việc thích nghi với môi trường mới, muốn quay lại nơi ở cũ."
       },
       "pet": {
-        "upright": "Thú cưng đang trải qua một giai đoạn chuyển tiếp, có thể là hồi phục sau bệnh tật, hoặc bạn đang đưa chúng đến một môi trường sống tốt hơn.",
-        "reversed": "Sự khó khăn trong việc giúp thú cưng vượt qua giai đoạn chuyển tiếp, hoặc cảm giác tội lỗi khi phải rời xa chúng."
+        "upright": "Một sự thay đổi liên quan đến thú cưng, có thể là việc nhận nuôi một con vật mới hoặc sự ra đi của một người bạn bốn chân, mang lại sự bình yên sau nỗi buồn.",
+        "reversed": "Những vấn đề sức khỏe cũ của thú cưng tái diễn, hoặc bạn đang gặp khó khăn trong việc chăm sóc chúng."
       },
       "dream": {
-        "upright": "Giấc mơ về việc di chuyển, vượt qua chướng ngại vật, hoặc tìm thấy sự bình yên sau một hành trình dài. Phản ánh quá trình chữa lành trong vô thức.",
-        "reversed": "Ác mộng về việc bị mắc kẹt, không thể di chuyển, hoặc cảm giác bị bỏ lại phía sau trong một cuộc hành trình."
+        "upright": "Giấc mơ đang dẫn lối bạn rời xa những suy nghĩ cũ, hướng tới một tầm nhìn mới mẻ và ý nghĩa hơn cho tương lai.",
+        "reversed": "Những giấc mơ cũ, những khát vọng chưa thành hiện thực vẫn còn ám ảnh, khiến bạn khó lòng tiến lên."
       },
       "past_life": {
-        "upright": "Tiền kiếp của bạn có thể liên quan đến một cuộc di cư, một cuộc trốn chạy hoặc một hành trình tìm kiếm sự bình yên sau biến cố lớn.",
-        "reversed": "Nghiệp quả tiền kiếp liên quan đến việc từ chối thay đổi, hoặc sự mắc kẹt trong một tình huống khó khăn mà không dám buông bỏ."
+        "upright": "Những bài học từ kiếp trước đang dẫn dắt bạn rời xa những sai lầm cũ, hướng tới một con đường tiến hóa tâm linh sâu sắc hơn.",
+        "reversed": "Những vấn đề chưa được giải quyết từ kiếp trước vẫn còn ám ảnh, kìm hãm sự phát triển của bạn ở hiện tại."
       },
       "karma": {
-        "upright": "Nhân quả đang dẫn dắt bạn rời xa những gánh nặng cũ, hướng tới một tương lai bình yên hơn. Đây là lúc để buông bỏ và tha thứ.",
-        "reversed": "Sự từ chối chấp nhận bài học nhân quả về sự thay đổi, hoặc cố gắng bám víu vào quá khứ, khiến quá trình chữa lành bị cản trở."
+        "upright": "Bạn đang dần vượt qua nghiệp quả xấu, rời bỏ những chuỗi hành động cũ để tạo dựng một tương lai tốt đẹp hơn.",
+        "reversed": "Nghiệp quả xấu tái diễn, hoặc bạn đang mắc kẹt trong vòng luẩn quẩn của những hành động tiêu cực."
       },
       "lost_item": {
-        "upright": "Món đồ thất lạc có thể đã bị cuốn đi trong một chuyến đi, hoặc nó đang ở một nơi xa xôi mà bạn đã từng ghé qua.",
-        "reversed": "Sự khó khăn trong việc tìm kiếm món đồ do nó đã bị di chuyển quá xa, hoặc cảm giác bất lực khi không thể lấy lại được vật đã mất."
+        "upright": "Vật phẩm bị mất có thể được tìm thấy khi bạn rời xa những địa điểm cũ, hoặc bạn chấp nhận buông bỏ để tìm kiếm một vật thay thế.",
+        "reversed": "Vật phẩm bị mất vẫn còn bặt vô âm tín, hoặc bạn đang quay lại tìm kiếm ở những nơi đã kiểm tra, nhưng không có kết quả."
+      },
+      "ex": {
+        "upright": "Cuộc chia ly đã qua là một bước cần thiết để cả hai tìm thấy sự bình yên riêng, chấp nhận rời xa để chữa lành vết thương lòng.",
+        "reversed": "Ám ảnh về người yêu cũ vẫn bám riết, hoặc sự quay trở lại của những vấn đề cũ từ mối quan hệ trước, khiến bạn khó lòng tiến bước."
+      },
+      "current_love": {
+        "upright": "Mối quan hệ hiện tại đang cùng nhau vượt qua khó khăn, hướng tới một bến bờ bình yên và ổn định hơn, hoặc một giai đoạn mới của sự thấu hiểu.",
+        "reversed": "Sự bế tắc trong mối quan hệ, một trong hai người hoặc cả hai đang né tránh đối mặt với vấn đề, hoặc cảm giác bị mắc kẹt, khó lòng thoát ra."
+      },
+      "ambiguous": {
+        "upright": "Tình trạng không rõ ràng đang dần được làm sáng tỏ khi bạn quyết định bước ra khỏi sự mơ hồ, tìm kiếm câu trả lời rõ ràng hơn.",
+        "reversed": "Bạn đang chìm đắm trong sự mơ hồ, không dám đối diện với sự thật và không thể đưa ra quyết định để thoát khỏi tình trạng lấp lửng."
+      },
+      "crush": {
+        "upright": "Cảm xúc với người bạn thầm thương đang dần thay đổi, có thể là bạn sẽ tiến tới hoặc chấp nhận buông bỏ để tìm kiếm một đối tượng phù hợp hơn.",
+        "reversed": "Nỗi ám ảnh dai dẳng về người trong mộng, không thể thoát ra khỏi suy nghĩ về họ dù biết rõ điều đó không mang lại kết quả."
+      },
+      "future_love": {
+        "upright": "Tình yêu trong tương lai sẽ đến sau khi bạn đã chữa lành và sẵn sàng rời bỏ quá khứ, một mối quan hệ mới hứa hẹn sự bình yên và ổn định.",
+        "reversed": "Nỗi sợ hãi và vết thương lòng từ quá khứ đang cản trở bạn đón nhận tình yêu mới, khiến bạn cứ mãi lẩn quẩn trong vòng tròn cũ."
+      },
+      "someone": {
+        "upright": "Một người quan trọng đang rời đi hoặc giúp bạn vượt qua giai đoạn khó khăn, hướng tới một tương lai thanh bình hơn.",
+        "reversed": "Một người nào đó đang kìm hãm bạn, hoặc bạn đang bị mắc kẹt trong mối quan hệ với họ, không thể tiến lên."
+      },
+      "marriage": {
+        "upright": "Cuộc hôn nhân đang chuyển mình sau những sóng gió, hướng tới sự hòa hợp và bình yên mới, hoặc là quyết định rời bỏ một cuộc hôn nhân không hạnh phúc.",
+        "reversed": "Hôn nhân đang gặp bế tắc, cả hai không thể thoát khỏi những mâu thuẫn cũ, hoặc sự chần chừ không muốn đối mặt với sự thật phũ phàng."
+      },
+      "conflict": {
+        "upright": "Xung đột đang dần lắng xuống, bạn đang trên hành trình rời xa những rắc rối để tìm kiếm sự hòa giải và bình yên.",
+        "reversed": "Mâu thuẫn cũ tái diễn, hoặc bạn đang né tránh đối mặt với xung đột, khiến vấn đề không được giải quyết triệt để và cứ mãi lẩn quẩn."
+      },
+      "breakup": {
+        "upright": "Cuộc chia tay là một sự giải thoát cần thiết, giúp bạn và đối phương tìm thấy con đường riêng để chữa lành và tiến về phía trước.",
+        "reversed": "Nỗi đau chia ly vẫn còn dai dẳng, bạn không thể buông bỏ hoặc đang quay lại với những vấn đề cũ của mối quan hệ đã kết thúc."
+      },
+      "long_distance": {
+        "upright": "Mối quan hệ đường dài đang tìm cách vượt qua khoảng cách, có thể là một chuyến đi để rút ngắn địa lý hoặc cùng nhau lên kế hoạch cho một tương lai chung.",
+        "reversed": "Sự bế tắc trong mối quan hệ đường dài, cảm giác bị mắc kẹt bởi khoảng cách và không thể tìm ra lối thoát."
+      },
+      "jealousy": {
+        "upright": "Bạn đang cố gắng vượt qua cảm giác ghen tuông, tìm cách buông bỏ sự bất an để hướng tới một tâm hồn thanh thản hơn.",
+        "reversed": "Nỗi ghen tuông dai dẳng ám ảnh, bạn không thể thoát ra khỏi vòng xoáy của sự nghi ngờ và bất an."
+      },
+      "self_love": {
+        "upright": "Bạn đang trên hành trình rời bỏ những suy nghĩ tiêu cực về bản thân, tìm kiếm sự bình yên và chấp nhận chính mình.",
+        "reversed": "Sự tự ti và những vết thương lòng cũ vẫn còn kìm hãm, khiến bạn khó lòng yêu thương và chấp nhận bản thân."
+      },
+      "job_search": {
+        "upright": "Bạn đang trong quá trình tìm kiếm công việc mới, rời bỏ những lựa chọn không phù hợp để hướng tới một vị trí mang lại sự ổn định và hài lòng hơn.",
+        "reversed": "Khó khăn trong việc tìm kiếm việc làm, có thể là sự lưỡng lự không biết nên đi đâu hoặc quay lại với những lựa chọn cũ không mấy khả quan."
+      },
+      "promotion": {
+        "upright": "Sự thăng tiến đến sau một giai đoạn chuyển giao hoặc thay đổi vị trí, đòi hỏi bạn phải rời bỏ một số thói quen cũ để thích nghi với vai trò mới.",
+        "reversed": "Sự thăng tiến bị trì hoãn do bạn không muốn hoặc không thể buông bỏ những phương pháp làm việc cũ, hoặc cảm thấy bị mắc kẹt ở vị trí hiện tại."
+      },
+      "business": {
+        "upright": "Doanh nghiệp đang trải qua một giai đoạn chuyển đổi, rời xa những chiến lược cũ để tìm kiếm hướng đi mới, hứa hẹn sự ổn định và phát triển.",
+        "reversed": "Doanh nghiệp đang mắc kẹt trong một vòng luẩn quẩn, khó khăn trong việc đổi mới hoặc né tránh đối mặt với những vấn đề cốt lõi."
+      },
+      "colleague": {
+        "upright": "Mối quan hệ với đồng nghiệp đang thay đổi, có thể là sự rời đi của một người hoặc sự chuyển giao trách nhiệm giúp môi trường làm việc trở nên hòa thuận hơn.",
+        "reversed": "Những mâu thuẫn cũ với đồng nghiệp tái diễn, hoặc cảm giác bị mắc kẹt trong một môi trường làm việc không mấy thoải mái."
+      },
+      "career_change": {
+        "upright": "Đây là thời điểm thích hợp để bạn thực hiện một sự thay đổi nghề nghiệp, rời bỏ con đường cũ để tìm kiếm một hướng đi mới đầy tiềm năng.",
+        "reversed": "Sự lưỡng lự và nỗi sợ hãi đang cản trở bạn thay đổi nghề nghiệp, khiến bạn mắc kẹt trong con đường cũ không mấy hài lòng."
+      },
+      "freelance": {
+        "upright": "Bạn đang cân nhắc chuyển sang làm việc tự do, rời xa môi trường công sở truyền thống để tìm kiếm sự độc lập và linh hoạt hơn.",
+        "reversed": "Những vấn đề cũ trong công việc tự do tái diễn, hoặc bạn đang gặp khó khăn trong việc thích nghi với sự thay đổi, muốn quay lại với công việc ổn định."
+      },
+      "interview": {
+        "upright": "Buổi phỏng vấn là một bước đệm để bạn rời xa công việc cũ, hướng tới một cơ hội mới phù hợp hơn, dù có thể mang theo chút nuối tiếc.",
+        "reversed": "Cảm giác không tự tin hoặc mắc kẹt trong những suy nghĩ tiêu cực từ các buổi phỏng vấn trước, khiến bạn khó thể hiện hết năng lực."
+      },
+      "investment": {
+        "upright": "Quyết định chuyển đổi danh mục đầu tư, rời bỏ những khoản đầu tư không hiệu quả để tìm kiếm cơ hội mới an toàn và sinh lời hơn.",
+        "reversed": "Sự lưỡng lự trong đầu tư, không dám thay đổi hoặc quay lại với những lựa chọn không mấy khả quan, khiến tài sản bị đình trệ."
+      },
+      "debt": {
+        "upright": "Bạn đang trên con đường thoát khỏi nợ nần, tìm kiếm giải pháp để thanh toán và hướng tới một tương lai tài chính vững vàng hơn.",
+        "reversed": "Nợ nần cũ tái diễn hoặc bạn đang mắc kẹt trong vòng xoáy của các khoản nợ, khó lòng tìm được lối thoát."
+      },
+      "savings": {
+        "upright": "Bạn đang chuyển đổi cách quản lý tiền tiết kiệm, có thể là rời xa thói quen chi tiêu cũ để tăng cường tích lũy, hướng tới mục tiêu tài chính mới.",
+        "reversed": "Khó khăn trong việc tiết kiệm, những vấn đề chi tiêu cũ tái diễn khiến bạn không thể tích lũy được như mong muốn."
+      },
+      "luck_money": {
+        "upright": "Vận may tiền bạc đến sau một giai đoạn khó khăn, khi bạn đã quyết định buông bỏ những gánh nặng cũ để đón nhận cơ hội mới.",
+        "reversed": "Vận may bị trì hoãn do bạn không dám thay đổi hoặc vẫn còn bám víu vào những phương pháp cũ không hiệu quả."
+      },
+      "mental": {
+        "upright": "Tâm trí đang dần bình yên hơn sau những lo âu, bạn đang tìm cách rời bỏ những suy nghĩ tiêu cực để hướng tới sự thanh thản.",
+        "reversed": "Nỗi lo âu cũ tái diễn, hoặc bạn đang mắc kẹt trong vòng xoáy của những suy nghĩ tiêu cực, khó lòng tìm được lối thoát."
+      },
+      "energy": {
+        "upright": "Bạn đang tìm cách rời xa những nguồn năng lượng tiêu cực, hướng tới một môi trường hoặc hoạt động mang lại sự tươi mới và tích cực.",
+        "reversed": "Cảm giác kiệt sức, năng lượng bị trì trệ do bạn không thể buông bỏ những gánh nặng cũ hoặc bị mắc kẹt trong môi trường độc hại."
+      },
+      "family": {
+        "upright": "Gia đình đang trải qua một sự chuyển đổi, có thể là một thành viên rời đi hoặc thay đổi nơi ở, mang lại sự bình yên sau những bất hòa.",
+        "reversed": "Những mâu thuẫn gia đình cũ tái diễn, hoặc cảm giác bị mắc kẹt trong các vấn đề gia đình không thể giải quyết."
+      },
+      "diet": {
+        "upright": "Bạn đang chuyển đổi chế độ ăn uống, rời bỏ những thói quen không lành mạnh để hướng tới một lối sống khoa học và tốt cho sức khỏe hơn.",
+        "reversed": "Khó khăn trong việc duy trì chế độ ăn uống lành mạnh, những thói quen cũ tái diễn khiến bạn không thể đạt được mục tiêu."
+      },
+      "study": {
+        "upright": "Bạn đang chuyển sang một phương pháp học tập mới hoặc rời bỏ một môn học không phù hợp, hướng tới kiến thức mang lại sự hứng thú và tiến bộ.",
+        "reversed": "Cảm giác bị mắc kẹt trong việc học, khó khăn trong việc tiếp thu hoặc không thể buông bỏ những cách học cũ không hiệu quả."
+      },
+      "study_abroad": {
+        "upright": "Quyết định đi du học là một bước chuyển mình lớn, rời xa quê hương để tìm kiếm tri thức và trải nghiệm mới ở một vùng đất xa lạ.",
+        "reversed": "Sự lưỡng lự, nỗi sợ hãi hoặc những rắc rối liên quan đến việc du học đang trì hoãn kế hoạch của bạn."
+      },
+      "self": {
+        "upright": "Bạn đang trên hành trình khám phá và thay đổi bản thân, rời bỏ những khía cạnh cũ để trở thành một phiên bản tốt hơn, bình yên hơn.",
+        "reversed": "Sự trì trệ trong phát triển bản thân, những vấn đề nội tâm cũ tái diễn khiến bạn khó lòng tiến lên."
+      },
+      "purpose": {
+        "upright": "Bạn đang trên hành trình tìm kiếm mục đích sống mới, rời bỏ những giá trị cũ để khám phá ý nghĩa sâu sắc hơn cho cuộc đời mình.",
+        "reversed": "Cảm giác lạc lối, không tìm thấy mục đích sống, hoặc bị mắc kẹt trong những hoài nghi về bản thân."
+      },
+      "shadow_self": {
+        "upright": "Bạn đang đối diện và chấp nhận những khía cạnh tối tăm của bản thân, dần rời bỏ sự chối bỏ để tìm kiếm sự hòa hợp nội tâm.",
+        "reversed": "Né tránh đối mặt với bóng tối bên trong, những vấn đề cũ từ tiềm thức vẫn còn ám ảnh và kìm hãm bạn."
+      },
+      "decision": {
+        "upright": "Quyết định được đưa ra là một bước cần thiết để bạn rời xa tình trạng bế tắc, hướng tới một con đường rõ ràng và bình yên hơn.",
+        "reversed": "Sự chần chừ, lưỡng lự không thể đưa ra quyết định, hoặc quay lại với những lựa chọn cũ không mấy khả quan."
+      },
+      "travel": {
+        "upright": "Một chuyến đi là cần thiết để bạn rời xa những rắc rối hiện tại, tìm kiếm sự bình yên, thay đổi không khí và chữa lành tâm hồn.",
+        "reversed": "Kế hoạch du lịch bị trì hoãn, hoặc bạn đang mắc kẹt trong những rắc rối khiến không thể thực hiện chuyến đi mong muốn."
+      },
+      "general": {
+        "upright": "Một giai đoạn chuyển giao cần thiết, rời bỏ những gánh nặng để tìm kiếm sự bình yên và ổn định mới.",
+        "reversed": "Sự trì trệ, không thể thoát khỏi tình trạng khó khăn hiện tại, hoặc quay trở lại với những vấn đề đã qua."
       }
     },
     "planet": "Sao Thủy",
@@ -11891,74 +13101,204 @@ window.TAROT_DB = [
     "reversed": "Sự thật bị phơi bày, kẻ lừa dối bị bắt quả tang. Hoặc bạn hối hận và muốn thú nhận những sai lầm đã qua.",
     "aspects": {
       "love": {
-        "up": "Bắt cá hai tay, ngoại tình, giấu giếm bí mật hoặc lừa dối tình cảm.",
-        "rev": "Những bí mật ngoại tình bị lộ, hai người buộc phải đối chất.",
-        "upright": "Sự lừa dối ngấm ngầm, ngoại tình, giữ bí mật hoặc trốn tránh trách nhiệm. Một trong hai đang che giấu sự thật hoặc âm thầm chuẩn bị cho một sự ra đi không lời từ biệt.",
-        "reversed": "Lời thú nhận đau lòng nhưng cần thiết. Những bí mật đen tối bị bóc trần, mang lại một cuộc khủng hoảng nhưng lại mở ra cơ hội xây dựng lại trên nền tảng sự thật."
+        "upright": "Tình yêu ẩn chứa bóng ma của sự lừa dối, nơi một trái tim đang khéo léo che giấu những bí mật, hoặc né tránh cam kết chân thành như một kẻ trộm đêm.",
+        "reversed": "Bức màn lừa dối trong tình yêu được vén lên, sự thật trần trụi phơi bày, mở lối cho sự tha thứ hoặc sự dứt khoát trung thực."
       },
       "career": {
-        "up": "Bị cướp công, ăn cắp ý tưởng. Đồng nghiệp hai mặt hoặc bạn đang làm trò mờ ám.",
-        "rev": "Sự gian lận trong công việc bị bại lộ, nguy cơ bị sa thải.",
-        "upright": "Sự đạo nhái, ăn cắp ý tưởng hoặc môi trường làm việc đầy sự dối trá, cạnh tranh không lành mạnh. Hoặc, bạn đang sử dụng sự mưu trí, lách luật để đạt được lợi thế vượt trội.",
-        "reversed": "Những hành vi gian lận tại công sở bị phát hiện. Sự kết thúc của những trò chơi khăm, hoặc sự can đảm đối mặt với những vấn đề thay vì chạy trốn."
+        "upright": "Trong sự nghiệp, có thể tồn tại sự gian lận, trốn tránh trách nhiệm, hoặc dùng mưu mẹo để leo lên nấc thang danh vọng.",
+        "reversed": "Sự thật về hành vi nghề nghiệp bị phơi bày, hoặc bạn quyết định hành động trung thực và đối mặt với mọi hậu quả."
       },
       "finance": {
-        "up": "Nguy cơ bị trộm cắp tài sản, lừa đảo tiền bạc. Phải cực kỳ cẩn thận các hợp đồng.",
-        "rev": "Tìm lại được tài sản bị mất, vạch mặt kẻ lừa đảo.",
-        "upright": "Cảnh báo về sự lừa đảo, mất cắp hoặc các hợp đồng mập mờ, bòn rút tài sản. Hãy cẩn trọng tối đa với các giao dịch tài chính mang tính rủi ro cao.",
-        "reversed": "Thoát khỏi một trò lừa đảo ngoạn mục, hoặc việc trả lại những khoản tiền mờ ám. Một sự minh bạch tài chính được lập lại."
+        "upright": "Tình hình tài chính có sự gian lận, trốn tránh nghĩa vụ, hoặc chi tiêu một cách bí mật như một dòng chảy ngầm.",
+        "reversed": "Sự thật về tài chính được phơi bày, buộc bạn phải đối mặt với nợ nần hoặc nguồn gốc không rõ ràng của tiền bạc."
       },
       "health": {
-        "up": "Bác sĩ chẩn đoán qua loa, giấu giếm tình trạng bệnh.",
-        "rev": "Nhận được sự thật về sức khỏe để điều trị đúng hướng.",
-        "upright": "Làm ngơ trước các triệu chứng bệnh hoặc lừa dối bác sĩ, gia đình về tình trạng sức khỏe thực sự của mình. Tâm lý hoang tưởng, nghi ngờ mọi người xung quanh.",
-        "reversed": "Chấp nhận sự thật về tình trạng sức khỏe và bắt đầu tuân thủ phác đồ điều trị. Giải phóng gánh nặng tâm lý do phải che giấu bệnh tật."
+        "upright": "Che giấu vấn đề sức khỏe, không đối mặt với bệnh tật, hoặc tìm cách 'lách' việc điều trị như một kẻ trốn chạy.",
+        "reversed": "Đối mặt với sự thật về sức khỏe, tìm kiếm sự giúp đỡ một cách trung thực và chấp nhận quá trình chữa lành."
       },
       "spiritual": {
-        "up": "Sử dụng tâm linh vì lợi ích cá nhân, sống đạo đức giả.",
-        "rev": "Gột rửa tội lỗi, thú nhận và tìm kiếm sự thanh thản.",
-        "upright": "Sử dụng các vỏ bọc tâm linh để che giấu ý đồ thao túng. Sự dối trá nội tâm, bạn đang tự lừa dối chính linh hồn mình để trốn tránh bóng tối bên trong.",
-        "reversed": "Một sự thanh tẩy lương tâm. Sự đối diện dũng cảm với những góc khuất tăm tối nhất của bản ngã để tìm lại sự thuần khiết nguyên thủy."
+        "upright": "Thực hành tâm linh có yếu tố tự lừa dối, hoặc bạn đang cố gắng 'đánh lừa' bản thân về sự tiến bộ, như một ảo ảnh.",
+        "reversed": "Đối mặt với sự thật trong hành trình tâm linh, từ bỏ ảo tưởng và tìm kiếm sự giác ngộ chân thật."
       },
       "friendship": {
-        "upright": "Một tình bạn có thể đang tồn tại sự lừa dối, gian lận hoặc một người bạn đang cố gắng lợi dụng bạn một cách khôn khéo. Cần cảnh giác với những ý đồ ẩn giấu.",
-        "reversed": "Sự bịa đặt bị phơi bày, hoặc bạn đang cố gắng đối mặt với sự lừa dối trong tình bạn. Hoặc là sự hối hận sau khi đã lừa dối một người bạn."
+        "upright": "Tình bạn có sự lừa dối, bí mật, hoặc một người bạn đang cố gắng lợi dụng bạn một cách tinh vi như một kẻ trộm niềm tin.",
+        "reversed": "Sự thật trong tình bạn được làm rõ, cần đối mặt với sự không trung thực để hàn gắn hoặc kết thúc một cách dứt khoát."
       },
       "pregnancy": {
-        "upright": "Có thể có sự che giấu thông tin liên quan đến thai sản, hoặc ai đó đang cố gắng lén lút làm điều gì đó không trung thực. Cần cẩn trọng với những bí mật.",
-        "reversed": "Sự thật về việc mang thai bị phơi bày, hoặc bạn đang cố gắng lấy lại sự trung thực sau một giai đoạn lừa dối."
+        "upright": "Có thể có sự che giấu thông tin về thai kỳ, hoặc một bí mật liên quan đến việc mang thai, như một tin tức được giữ kín.",
+        "reversed": "Sự thật về thai kỳ được tiết lộ, yêu cầu sự minh bạch và đối mặt với thực tế, dù khó khăn đến đâu."
       },
       "gossip": {
-        "upright": "Bạn đang là nạn nhân của những lời đồn thổi sai sự thật, hoặc đang bị lôi kéo vào một cuộc chiến thị phi đầy thủ đoạn. Cần cẩn trọng với những kẻ hai mặt.",
-        "reversed": "Sự thật về thị phi bị phơi bày, hoặc bạn đang cố gắng minh oan cho bản thân sau khi bị vu khống."
+        "upright": "Lan truyền tin đồn, thông tin sai lệch, hoặc cố gắng thao túng dư luận bằng lời nói như một kẻ thêu dệt chuyện.",
+        "reversed": "Sự thật về tin đồn được làm rõ, hoặc bạn nhận ra hậu quả của việc buôn chuyện, mang lại sự hối lỗi."
       },
       "legal": {
-        "upright": "Một vụ án có thể liên quan đến sự gian lận, trộm cắp, hoặc bạn đang phải đối mặt với một đối thủ đầy thủ đoạn. Cần cẩn trọng với những mánh khóe pháp lý.",
-        "reversed": "Sự thật về gian lận bị phơi bày trước tòa, hoặc bạn đang cố gắng lấy lại công lý sau khi bị lừa dối."
+        "upright": "Vấn đề pháp lý có liên quan đến gian lận, lừa dối, hoặc cố gắng 'lách luật' để thoát tội, như một cuộc chiến tinh vi.",
+        "reversed": "Sự thật trong vụ kiện được phơi bày, cần đối mặt với công lý và chấp nhận mọi hậu quả của hành vi."
       },
       "moving": {
-        "upright": "Việc di chuyển có thể liên quan đến sự lén lút, trốn tránh, hoặc bạn đang cố gắng rời đi một cách không minh bạch.",
-        "reversed": "Sự thật về việc di chuyển bị phơi bày, hoặc bạn đang hối hận về một quyết định di chuyển không trung thực."
+        "upright": "Chuyển nhà để trốn tránh vấn đề, hoặc có yếu tố bí mật trong việc di chuyển, như một cuộc bỏ trốn khỏi hiện thực.",
+        "reversed": "Chuyển nhà một cách trung thực, đối mặt với những gì đã bỏ lại phía sau và bắt đầu một cách minh bạch."
       },
       "pet": {
-        "upright": "Thú cưng có thể đang có hành vi lén lút, trộm cắp, hoặc có ai đó đang cố gắng lợi dụng thú cưng của bạn.",
-        "reversed": "Hành vi lén lút của thú cưng bị phát hiện, hoặc bạn đang cố gắng giải quyết vấn đề liên quan đến sự lừa dối trong việc chăm sóc chúng."
+        "upright": "Có thể có sự che giấu về sức khỏe của thú cưng, hoặc một bí mật liên quan đến việc nuôi dưỡng chúng, như một sự thờ ơ.",
+        "reversed": "Sự thật về thú cưng được tiết lộ, yêu cầu sự quan tâm chân thật và minh bạch trong việc chăm sóc chúng."
       },
       "dream": {
-        "upright": "Giấc mơ về sự lừa dối, trộm cắp, hoặc cảm giác bị phản bội. Phản ánh những nỗi sợ hãi về sự không trung thực trong cuộc sống.",
-        "reversed": "Ác mộng về việc bị lộ bí mật, hoặc cảm giác tội lỗi sau khi đã làm điều gì đó sai trái."
+        "upright": "Giấc mơ mang thông điệp về sự lừa dối, bí mật, hoặc bạn đang cố gắng trốn tránh một sự thật trong tiềm thức.",
+        "reversed": "Giấc mơ giúp bạn đối mặt với sự thật, tiết lộ những điều đã bị che giấu trong tiềm thức, mang lại sự giác ngộ."
       },
       "past_life": {
-        "upright": "Tiền kiếp của bạn có thể là một kẻ trộm, một điệp viên, hoặc một người thường xuyên phải dùng đến mưu mẹo, sự lén lút để tồn tại.",
-        "reversed": "Nghiệp quả tiền kiếp liên quan đến việc lừa dối người khác, hoặc sự từ chối đối mặt với sự thật, nay cần được hóa giải."
+        "upright": "Trong kiếp trước, bạn có thể đã từng là người lừa dối, hoặc bị lừa dối, tạo ra những bài học về sự trung thực cho kiếp này.",
+        "reversed": "Sự thật về kiếp trước được làm rõ, giúp bạn hiểu và chữa lành những vết thương từ sự lừa dối, tìm thấy sự bình an."
       },
       "karma": {
-        "upright": "Nhân quả đang đòi bạn đối mặt với những hệ quả của sự không trung thực, lừa dối. Bạn có thể là nạn nhân hoặc người gây ra những hành động này.",
-        "reversed": "Sự từ chối chấp nhận bài học nhân quả về sự trung thực, hoặc cố gắng tiếp tục lừa dối, khiến bạn phải trả giá đắt hơn."
+        "upright": "Nghiệp quả liên quan đến sự lừa dối, gian lận, hoặc việc bạn đã từng 'đánh cắp' điều gì đó từ người khác, như một gánh nặng.",
+        "reversed": "Nghiệp quả được hóa giải khi bạn đối mặt với sự thật, thú nhận hành vi và sửa chữa lỗi lầm, tìm thấy sự giải thoát."
       },
       "lost_item": {
-        "upright": "Món đồ thất lạc có thể đã bị đánh cắp, hoặc bạn đã sơ suất để mất nó trong một tình huống lén lút, không trung thực.",
-        "reversed": "Tìm thấy món đồ nhưng đi kèm với sự nghi ngờ, hoặc sự thật về việc mất đồ bị phơi bày, có thể liên quan đến hành vi trộm cắp."
+        "upright": "Vật phẩm bị mất do bị đánh cắp, hoặc bạn đang cố gắng tìm kiếm nó một cách không trung thực, như một cuộc săn lùng.",
+        "reversed": "Vật phẩm bị mất được tìm thấy sau khi sự thật được phơi bày, hoặc bạn nhận ra nơi nó thực sự ở, mang lại sự nhẹ nhõm."
+      },
+      "ex": {
+        "upright": "Bóng hình người yêu cũ lẩn khuất, có thể đang tìm cách thao túng hoặc lén lút quay về, như một hồn ma chưa chịu siêu thoát.",
+        "reversed": "Người yêu cũ đối mặt với nghiệp quả của sự gian dối, hoặc sự thật về mối quan hệ xưa được sáng tỏ, mang lại sự giải thoát."
+      },
+      "current_love": {
+        "upright": "Mối tình hiện tại thiếu đi ánh sáng của minh bạch, chứa đựng những bí mật, sự lẩn tránh, hoặc một bên đang 'đánh cắp' sự bình yên của đối phương.",
+        "reversed": "Sự trung thực được phục hồi trong mối quan hệ, hoặc buộc phải đối mặt với những sự thật khó chấp nhận, nhưng cần thiết để chữa lành."
+      },
+      "ambiguous": {
+        "upright": "Tình huống mập mờ như sương khói, nơi sự thật bị che giấu, động cơ u tối và có sự thao túng ngầm như một màn kịch không lời.",
+        "reversed": "Màn sương mập mờ tan biến, sự thật được hé lộ rõ ràng, buộc bạn phải đối mặt với thực tế trần trụi."
+      },
+      "crush": {
+        "upright": "Bạn đang tiếp cận đối tượng một cách tinh ranh, hoặc người ấy bí ẩn, khó nắm bắt, ẩn chứa điều gì đó không hoàn toàn trung thực.",
+        "reversed": "Sự thật về người bạn thầm thương được tiết lộ, có thể không như bạn tưởng, hoặc bạn quyết định thành thật với trái tim mình."
+      },
+      "future_love": {
+        "upright": "Tình yêu tương lai có thể chớm nở từ sự không rõ ràng, đòi hỏi sự cẩn trọng với những kẻ xuất hiện một cách 'khéo léo' nhưng ẩn ý.",
+        "reversed": "Tình yêu chân thật sẽ đến sau khi bạn dũng cảm vượt qua những rào cản của sự lừa dối, hoặc chấp nhận sự thật về chính mình."
+      },
+      "someone": {
+        "upright": "Một bóng hình đang hành động lén lút, mang theo ý đồ riêng, hoặc đang cố gắng 'đánh cắp' điều gì đó từ bạn một cách tinh vi.",
+        "reversed": "Bóng hình đó bị phơi bày, hoặc họ quyết định thú nhận hành vi của mình, mang lại sự rõ ràng."
+      },
+      "marriage": {
+        "upright": "Hôn nhân có thể bị đe dọa bởi sự lừa dối, những bí mật chất chồng, hoặc một bên đang âm thầm tìm cách thoát ly trách nhiệm.",
+        "reversed": "Những sự thật trần trụi trong hôn nhân được phơi bày, yêu cầu sự đối mặt để hàn gắn hoặc chấp nhận sự giải thoát cay đắng."
+      },
+      "conflict": {
+        "upright": "Xung đột được giải quyết bằng cách lẩn tránh, thao túng, hoặc một bên rút lui bí mật mà không dám đối mặt trực diện.",
+        "reversed": "Sự thật về nguyên nhân xung đột được làm rõ, buộc bạn phải đối mặt một cách trung thực và chấp nhận mọi hậu quả."
+      },
+      "breakup": {
+        "upright": "Chia tay đến từ sự lừa dối, phản bội, hoặc một bên âm thầm bỏ đi mà không một lời giải thích, để lại vết sẹo sâu.",
+        "reversed": "Sự thật đằng sau cuộc chia tay được tiết lộ, mở ra cánh cửa cho sự chữa lành chân thật hoặc một sự kết thúc dứt khoát."
+      },
+      "long_distance": {
+        "upright": "Trong tình yêu xa, có thể có sự không trung thực, những bí mật ẩn giấu, hoặc một bên đang lợi dụng khoảng cách địa lý.",
+        "reversed": "Sự thật được phơi bày, hoặc yêu cầu sự thành thật tuyệt đối như ánh sáng rọi chiếu để duy trì mối quan hệ mong manh."
+      },
+      "jealousy": {
+        "upright": "Ghen tuông bùng lên từ sự nghi ngờ, cảm giác bị lừa dối, hoặc một bên đang cố gắng thao túng tình cảm bằng sự bí ẩn.",
+        "reversed": "Sự thật về sự ghen tuông được làm rõ, có thể là sự hiểu lầm hoặc cần đối mặt với hành vi không trung thực của ai đó."
+      },
+      "self_love": {
+        "upright": "Bạn đang tự lừa dối bản thân về giá trị thực, né tránh đối mặt với những khuyết điểm như một kẻ trốn chạy khỏi chính mình.",
+        "reversed": "Dũng cảm đối mặt với sự thật về bản thân, chấp nhận những phần 'bóng tối' và bắt đầu hành trình yêu thương mình một cách chân thật."
+      },
+      "job_search": {
+        "upright": "Bạn đang tìm kiếm việc làm bằng cách che giấu thông tin, nói dối trong hồ sơ, hoặc cố gắng 'đánh cắp' cơ hội của người khác.",
+        "reversed": "Bạn quyết định trung thực với khả năng của mình, hoặc sự thật về quá khứ công việc được tiết lộ, mang lại sự thanh thản."
+      },
+      "promotion": {
+        "upright": "Sự thăng chức đạt được bằng cách không minh bạch, thao túng, hoặc 'cướp' công lao của người khác một cách tinh vi.",
+        "reversed": "Sự thật về việc thăng chức được làm rõ, có thể là sự không xứng đáng hoặc cần phải đối mặt với hành vi gian lận."
+      },
+      "business": {
+        "upright": "Hoạt động kinh doanh có yếu tố lừa đảo, gian lận, hoặc chiến lược cạnh tranh không lành mạnh, tinh ranh như một con cáo.",
+        "reversed": "Sự thật trong kinh doanh được phơi bày, yêu cầu sự minh bạch và trung thực để vượt qua mọi thử thách."
+      },
+      "colleague": {
+        "upright": "Đồng nghiệp có thể đang lén lút chống lại bạn, hoặc mang theo ý đồ không trong sáng, lừa dối như một cái bóng.",
+        "reversed": "Sự thật về đồng nghiệp được tiết lộ, hoặc bạn cần dũng cảm đối mặt với hành vi không trung thực của họ."
+      },
+      "career_change": {
+        "upright": "Thay đổi nghề nghiệp để trốn tránh vấn đề cũ, hoặc đang tìm cách 'lách luật' để có một khởi đầu mới mẻ nhưng không thật.",
+        "reversed": "Quyết định thay đổi nghề nghiệp một cách trung thực, đối mặt với những gì đã bỏ lại phía sau, tìm kiếm sự bình yên."
+      },
+      "freelance": {
+        "upright": "Công việc tự do có thể liên quan đến việc 'lách luật' hoặc không hoàn toàn minh bạch với khách hàng, như một giao kèo bí mật.",
+        "reversed": "Cần sự trung thực và minh bạch tuyệt đối trong công việc tự do để xây dựng uy tín vững chắc và lâu dài."
+      },
+      "interview": {
+        "upright": "Buổi phỏng vấn với sự che đậy thông tin, nói quá về bản thân, hoặc cố gắng 'đánh lừa' nhà tuyển dụng bằng lời lẽ hoa mỹ.",
+        "reversed": "Quyết định thành thật trong phỏng vấn, hoặc sự thật về khả năng của bạn được bộc lộ, dù tốt hay xấu."
+      },
+      "investment": {
+        "upright": "Khoản đầu tư tiềm ẩn rủi ro lừa đảo, hoặc bạn đang cố gắng 'đánh cắp' thông tin nội bộ để trục lợi bất chính.",
+        "reversed": "Sự thật về khoản đầu tư được tiết lộ, yêu cầu sự minh bạch để tránh những tổn thất không đáng có."
+      },
+      "debt": {
+        "upright": "Trốn tránh nghĩa vụ trả nợ, hoặc nợ nần phát sinh từ những hành vi không trung thực, như một gánh nặng đeo bám.",
+        "reversed": "Dũng cảm đối mặt với nợ nần, quyết định trả nợ hoặc tìm kiếm giải pháp trung thực, mang lại sự thanh thản."
+      },
+      "savings": {
+        "upright": "Tiền tiết kiệm được tạo ra từ những nguồn không minh bạch, hoặc bạn đang cố gắng che giấu số tiền đó một cách khéo léo.",
+        "reversed": "Sự thật về nguồn gốc tiền tiết kiệm được phơi bày, hoặc bạn quyết định minh bạch về tài chính cá nhân."
+      },
+      "luck_money": {
+        "upright": "Tiền bạc đến từ những con đường không chính đáng, hoặc may mắn có được do sự gian lận, mưu mẹo, như một món hời bất chính.",
+        "reversed": "May mắn tiền bạc đến sau khi bạn đối mặt với những hành vi không trung thực, hoặc sự thật về nguồn tiền được tiết lộ."
+      },
+      "mental": {
+        "upright": "Tự lừa dối bản thân về tình trạng tinh thần, né tránh cảm xúc tiêu cực, hoặc có những suy nghĩ 'mưu mô' trong tâm trí.",
+        "reversed": "Dũng cảm đối mặt với sự thật về sức khỏe tinh thần, chấp nhận những cảm xúc khó khăn và tìm kiếm sự hỗ trợ chân thành."
+      },
+      "energy": {
+        "upright": "Năng lượng bị rút cạn do sự lừa dối, cảm giác bị lợi dụng, hoặc bạn đang dùng năng lượng vào những việc không chính đáng.",
+        "reversed": "Năng lượng được phục hồi khi sự thật được phơi bày, hoặc bạn từ bỏ những hành vi tiêu hao năng lượng một cách vô ích."
+      },
+      "family": {
+        "upright": "Trong gia đình có những bí mật được che giấu, sự lừa dối, hoặc một thành viên đang cố gắng thao túng tình hình một cách khéo léo.",
+        "reversed": "Sự thật trong gia đình được phơi bày, yêu cầu sự đối mặt với những vấn đề đã bị che giấu để hàn gắn hoặc chấp nhận."
+      },
+      "diet": {
+        "upright": "Gian lận trong chế độ ăn uống, ăn uống một cách lén lút, hoặc tự lừa dối bản thân về thói quen ăn uống của mình.",
+        "reversed": "Đối mặt với sự thật về thói quen ăn uống, quyết định thay đổi một cách trung thực và lành mạnh để cải thiện sức khỏe."
+      },
+      "study": {
+        "upright": "Gian lận trong học tập, đạo văn, hoặc trốn tránh trách nhiệm học hành như một kẻ lười biếng nhưng tinh ranh.",
+        "reversed": "Đối mặt với kết quả học tập, quyết định học hỏi một cách trung thực và nghiêm túc để đạt được tri thức thực sự."
+      },
+      "study_abroad": {
+        "upright": "Du học với mục đích không rõ ràng, có thể liên quan đến việc 'lách luật' hoặc trốn tránh trách nhiệm ở quê nhà.",
+        "reversed": "Du học với mục đích chân chính, dũng cảm đối mặt với những thách thức và học hỏi một cách trung thực."
+      },
+      "self": {
+        "upright": "Bạn đang tự lừa dối bản thân, né tránh sự thật về con người mình, hoặc có xu hướng hành động một cách mưu mô.",
+        "reversed": "Dũng cảm đối mặt với con người thật của bạn, chấp nhận những khuyết điểm và sống một cách chân thật hơn."
+      },
+      "purpose": {
+        "upright": "Mục đích sống bị che mờ bởi sự lừa dối, bạn đang theo đuổi những điều không chân thật, hoặc né tránh sứ mệnh thực sự.",
+        "reversed": "Sự thật về mục đích sống được tiết lộ, bạn tìm thấy con đường chân chính sau khi đối mặt với những ảo tưởng."
+      },
+      "shadow_self": {
+        "upright": "Phần bóng tối của bản thân đang hành động một cách lén lút, thao túng, hoặc bạn đang cố gắng che giấu nó khỏi ánh sáng.",
+        "reversed": "Dũng cảm đối mặt với phần bóng tối của bản thân, chấp nhận nó và học cách tích hợp nó một cách lành mạnh."
+      },
+      "decision": {
+        "upright": "Quyết định được đưa ra dựa trên sự lừa dối, thông tin không đầy đủ, hoặc có yếu tố mưu mẹo như một ván cờ.",
+        "reversed": "Quyết định được đưa ra sau khi sự thật được phơi bày, dựa trên sự trung thực và minh bạch, mang lại sự vững chắc."
+      },
+      "travel": {
+        "upright": "Chuyến đi có thể có động cơ ngầm, hoặc bạn đang cố gắng 'trốn' khỏi một điều gì đó, như một cuộc chạy trốn.",
+        "reversed": "Chuyến đi mang lại sự thật, hoặc bạn cần đối mặt với lý do thực sự của việc đi lại, tìm kiếm sự bình yên."
+      },
+      "general": {
+        "upright": "Một tình huống cần sự cẩn trọng, có thể có sự lừa dối, bí mật, hoặc ai đó đang cố gắng 'lách luật' để đạt được mục tiêu riêng.",
+        "reversed": "Sự thật được phơi bày, yêu cầu sự trung thực và minh bạch để giải quyết vấn đề một cách dứt khoát."
       }
     },
     "planet": "Mặt Trăng",
@@ -13632,74 +14972,204 @@ window.TAROT_DB = [
     "reversed": "Một cơ hội tài chính bị bỏ lỡ, hoặc một dự án khởi đầu tồi tệ do thiếu nguồn vốn và kế hoạch thực tế.",
     "aspects": {
       "love": {
-        "up": "Một mối quan hệ mới mang lại sự ổn định và hỗ trợ vật chất lẫn nhau.",
-        "rev": "Tình cảm rạn nứt vì áp lực tiền bạc hoặc sự thực dụng quá mức.",
-        "upright": "Một tình yêu thực tế, an toàn và có nền tảng vững chắc. Mối quan hệ được xây dựng trên sự cam kết dài lâu, sự chăm sóc chu đáo từ những điều nhỏ nhặt nhất trong cuộc sống thường nhật.",
-        "reversed": "Sự thiếu hụt nền tảng trong tình cảm. Tình yêu bị chi phối quá nhiều bởi áp lực kinh tế hoặc sự thực dụng, tính toán. Cảm giác không an toàn và thiếu một định hướng chung cho tương lai."
+        "upright": "Một hạt mầm tình yêu mới chớm nở, hứa hẹn sự ổn định và phát triển bền vững. Cơ hội cho một khởi đầu chân thật, hữu hình.",
+        "reversed": "Sự trì hoãn trong việc đón nhận tình yêu mới, hoặc một cơ hội tình cảm bị bỏ lỡ. Có thể là sự thiếu nền tảng vững chắc, hoặc đặt nặng vật chất."
       },
       "career": {
-        "up": "Một lời mời làm việc lương cao, một khoản đầu tư hoặc dự án kinh doanh mới.",
-        "rev": "Bị từ chối công việc, hoặc dự án bị đình trệ vì thiếu ngân sách.",
-        "upright": "Một cơ hội việc làm tuyệt vời, một dự án mang lại lợi nhuận bền vững hoặc sự khởi đầu của một công việc kinh doanh có tính thực tiễn cao. Nền móng sự nghiệp đang được đặt những viên gạch đầu tiên.",
-        "reversed": "Sự chậm trễ trong việc thăng tiến hoặc một lời mời làm việc không như kỳ vọng. Kế hoạch kinh doanh thiếu thực tế, rủi ro cao hoặc bạn đang chần chừ không dám nắm bắt cơ hội."
+        "upright": "Một cơ hội nghề nghiệp mới đầy hứa hẹn, một khởi đầu vững chắc mang lại sự ổn định và tiềm năng phát triển lâu dài.",
+        "reversed": "Cơ hội nghề nghiệp bị bỏ lỡ, sự trì trệ trong công việc, hoặc thiếu sự chuẩn bị để nắm bắt những khởi đầu mới."
       },
       "finance": {
-        "up": "Nhận được một khoản tiền bất ngờ, lợi nhuận đầu tư, hoặc tăng lương.",
-        "rev": "Trì hoãn thanh toán, mất mát tài chính nhỏ, hoặc chi tiêu quá khả năng.",
-        "upright": "Một nguồn thu nhập mới, một khoản đầu tư sinh lời hoặc một món quà tài sản bất ngờ. Giai đoạn tuyệt vời để bắt đầu tiết kiệm hoặc thiết lập một kế hoạch tài chính dài hạn.",
-        "reversed": "Sự rò rỉ tài chính hoặc một khoản đầu tư thất bại ngay từ bước đầu do tính toán sai lầm. Bạn có thể đang chi tiêu quá mức vào những thứ không mang lại giá trị thực tế."
+        "upright": "Một khởi đầu tài chính mới đầy hứa hẹn, một cơ hội để xây dựng sự ổn định và thịnh vượng.",
+        "reversed": "Các cơ hội tài chính bị bỏ lỡ, sự trì trệ trong việc quản lý tiền bạc, hoặc thiếu sự thực tế về tài chính."
       },
       "health": {
-        "up": "Sức khỏe dồi dào, bắt đầu một chế độ ăn uống hoặc tập luyện mới rất tốt cho cơ thể.",
-        "rev": "Lơ là chăm sóc bản thân, bắt đầu các thói quen xấu ảnh hưởng sức khỏe.",
-        "upright": "Sinh khí dồi dào, cơ thể khỏe mạnh và tràn trề năng lượng đất mẹ. Thời điểm lý tưởng để bắt đầu một chế độ ăn uống, tập luyện mới hoặc các phương pháp chữa lành tự nhiên.",
-        "reversed": "Sự lơ là trong việc chăm sóc cơ thể dẫn đến các vấn đề sức khỏe. Sự căng thẳng tài chính đang tác động tiêu cực đến thể trạng của bạn, gây ra sự mệt mỏi."
+        "upright": "Một khởi đầu mới cho sức khỏe, cơ hội để thiết lập thói quen lành mạnh và xây dựng nền tảng thể chất vững chắc.",
+        "reversed": "Sự trì hoãn trong việc chăm sóc sức khỏe, hoặc bỏ lỡ các cơ hội để cải thiện thể trạng."
       },
       "spiritual": {
-        "up": "Sự kết nối mạnh mẽ với thế giới tự nhiên và Đất mẹ.",
-        "rev": "Quá bám víu vào vật chất, bỏ quên sự phát triển tâm hồn.",
-        "upright": "Tìm thấy sự kết nối tâm linh ngay trong thế giới vật chất (grounding). Sự biết ơn sâu sắc với những phước lành mà vũ trụ ban tặng, hiểu rằng cơ thể là đền thờ của linh hồn.",
-        "reversed": "Mất đi sự kết nối với thiên nhiên và cơ thể. Linh hồn lạc lối giữa những khao khát vật chất phù phiếm, quên mất sự hiện diện của mình trong giây phút hiện tại."
+        "upright": "Khởi đầu một hành trình tâm linh mới, đặt nền móng cho sự kết nối sâu sắc và nhận thức về thế giới vật chất.",
+        "reversed": "Các cơ hội phát triển tâm linh bị bỏ lỡ, hoặc sự trì hoãn trong việc tìm kiếm ý nghĩa sâu xa."
       },
       "friendship": {
-        "upright": "Một tình bạn mới chớm nở, mang đến sự ổn định, đáng tin cậy và những cơ hội hợp tác thực tế. Mối quan hệ này có tiềm năng phát triển bền vững, gieo mầm cho những giá trị vật chất và tinh thần.",
-        "reversed": "Một cơ hội kết giao bạn bè bị bỏ lỡ hoặc một mối quan hệ mới mang đến sự thất vọng về vật chất, thiếu đi sự chân thành hoặc không có nền tảng vững chắc để phát triển lâu dài."
+        "upright": "Một tình bạn mới chớm nở, hứa hẹn sự gắn kết bền chặt và những giá trị thực tế.",
+        "reversed": "Các cơ hội để kết nối bạn bè bị bỏ lỡ, hoặc sự trì hoãn trong việc vun đắp tình bạn."
       },
       "pregnancy": {
-        "upright": "Điềm báo của một khởi đầu mới mẻ và vững chắc cho việc mang thai hoặc sinh con. Đây là thời điểm thuận lợi để gieo mầm sự sống, mang lại sự ổn định và sung túc cho gia đình.",
-        "reversed": "Những trì hoãn hoặc trở ngại trong kế hoạch mang thai. Có thể là sự thiếu chuẩn bị về tài chính, sức khỏe hoặc một cơ hội mang thai bị bỏ lỡ do sự thiếu thực tế."
+        "upright": "Một tin tức tốt lành về sự mang thai, một khởi đầu mới đầy hứa hẹn cho gia đình.",
+        "reversed": "Sự trì hoãn trong việc mang thai, hoặc các cơ hội liên quan đến sinh sản không như mong đợi."
       },
       "gossip": {
-        "upright": "Tin đồn không có căn cứ sẽ sớm tan biến, vì sự thật luôn vững vàng như đất. Hãy tập trung vào những giá trị thực tế và không để những lời ong tiếng ve làm xao nhãng mục tiêu của bạn.",
-        "reversed": "Những lời đồn đại có thể gây ra tổn thất về tài chính hoặc danh tiếng. Cẩn trọng với những thông tin sai lệch có chủ đích, chúng có thể phá hoại những thành quả vật chất mà bạn đã dày công gây dựng."
+        "upright": "Cơ hội để dập tắt tin đồn bằng sự thật hiển nhiên, đặt nền móng cho sự minh bạch và ổn định.",
+        "reversed": "Tin đồn lan rộng do thiếu sự chủ động giải quyết, hoặc bỏ lỡ cơ hội để bảo vệ danh tiếng."
       },
       "legal": {
-        "upright": "Một khởi đầu thuận lợi cho các vấn đề pháp lý, mang lại sự ổn định và công bằng. Cơ hội để đạt được một thỏa thuận có lợi, một phán quyết công tâm, hoặc giải quyết tranh chấp một cách thực tế.",
-        "reversed": "Sự trì hoãn, thất bại trong các vấn đề pháp lý hoặc một thỏa thuận không như mong đợi. Có thể bạn đang đối mặt với những rắc rối liên quan đến tài chính hoặc tài sản, cần sự cẩn trọng cao độ."
+        "upright": "Một khởi đầu thuận lợi trong vấn đề pháp lý, cơ hội để đạt được kết quả công bằng và ổn định.",
+        "reversed": "Vấn đề pháp lý bị trì hoãn, hoặc các cơ hội giải quyết bị bỏ lỡ do thiếu sự chuẩn bị."
       },
       "moving": {
-        "upright": "Một cơ hội tuyệt vời để chuyển đến một nơi ở mới, mang lại sự ổn định, an toàn và những tiềm năng phát triển vật chất. Đây là khởi đầu cho một cuộc sống vững chắc và thịnh vượng.",
-        "reversed": "Sự trì hoãn trong việc di chuyển hoặc một quyết định chuyển nhà thiếu thực tế, dẫn đến những khó khăn về tài chính, thiếu sự ổn định ở nơi chốn mới."
+        "upright": "Một khởi đầu mới ở nơi ở mới, hứa hẹn sự ổn định và những cơ hội tốt lành.",
+        "reversed": "Kế hoạch chuyển nhà bị trì hoãn, hoặc bỏ lỡ cơ hội tìm được nơi ở lý tưởng."
       },
       "pet": {
-        "upright": "Một khởi đầu mới với thú cưng, mang lại sự gắn kết bền chặt và niềm vui giản dị. Có thể là việc nhận nuôi một con vật mới, hoặc thú cưng của bạn mang đến sự ổn định, an lành cho ngôi nhà.",
-        "reversed": "Thú cưng có thể gặp vấn đề về sức khỏe hoặc bạn đang bỏ lỡ cơ hội chăm sóc chúng đúng cách. Cẩn trọng với những chi phí phát sinh không mong muốn liên quan đến vật nuôi."
+        "upright": "Một thành viên mới là thú cưng trong gia đình, mang lại niềm vui và sự gắn kết.",
+        "reversed": "Các cơ hội để có thú cưng bị bỏ lỡ, hoặc sự trì hoãn trong việc chăm sóc vật nuôi."
       },
       "dream": {
-        "upright": "Giấc mơ báo hiệu những cơ hội vật chất đang đến gần, một khởi đầu mới đầy hứa hẹn về sự ổn định và thịnh vượng. Hãy lắng nghe trực giác để nắm bắt những dấu hiệu của sự may mắn.",
-        "reversed": "Ác mộng phản ánh nỗi sợ hãi mất mát, sự bất an về tài chính hoặc cảm giác bị mắc kẹt trong những vấn đề vật chất. Cần xem xét lại những kế hoạch và mục tiêu thực tế của bản thân."
+        "upright": "Một giấc mơ có thể trở thành hiện thực, một cơ hội để bắt đầu biến ước mơ thành kế hoạch cụ thể.",
+        "reversed": "Giấc mơ bị bỏ quên, hoặc các cơ hội để hiện thực hóa ước mơ bị bỏ lỡ."
       },
       "past_life": {
-        "upright": "Ở một dòng thời gian xa xưa, linh hồn bạn từng là một người nông dân, một thợ thủ công hoặc một nhà buôn, chuyên tâm xây dựng những giá trị vật chất bền vững. Dấu ấn của sự thực tế và kiên định vẫn còn hiện hữu.",
-        "reversed": "Những vết sẹo từ kiếp trước có thể là sự thiếu thốn, mất mát tài sản hoặc đã từng quá tham lam, coi trọng vật chất hơn tất cả, khiến bạn mang theo nỗi lo lắng về tiền bạc."
+        "upright": "Một sự thức tỉnh về bài học từ kiếp trước, mang lại cơ hội để đặt nền móng cho sự phát triển hiện tại.",
+        "reversed": "Các bài học từ kiếp trước bị bỏ lỡ, hoặc sự trì hoãn trong việc nhận ra ảnh hưởng từ quá khứ."
       },
       "karma": {
-        "upright": "Nhân quả đang gieo hạt giống của sự sung túc và ổn định. Những nỗ lực lao động chân chính, sự cống hiến thực tế của bạn sẽ nhận lại những thành quả xứng đáng, tạo dựng nền tảng vững chắc.",
-        "reversed": "Quả báo đến từ sự lãng phí, thiếu trách nhiệm với tài sản hoặc sự tham lam, bóc lột. Giờ nay, bạn phải đối mặt với hậu quả của sự thiếu thốn, mất mát hoặc những rắc rối về tài chính."
+        "upright": "Khởi đầu một chu kỳ nhân quả tích cực, cơ hội để gieo những hạt mầm tốt lành và gặt hái thành quả xứng đáng.",
+        "reversed": "Nhân quả tiêu cực có thể kéo dài do bỏ lỡ cơ hội sửa chữa sai lầm, hoặc sự trì hoãn trong việc hành động thiện lương."
       },
       "lost_item": {
-        "upright": "Món đồ thất lạc có thể được tìm thấy ở những nơi quen thuộc, liên quan đến công việc hoặc tài chính của bạn. Hãy tìm kiếm ở những nơi bạn thường xuyên cất giữ đồ đạc có giá trị.",
-        "reversed": "Vật phẩm mất đi do sự bất cẩn, thiếu chú ý đến chi tiết hoặc do bị đánh cắp. Đây là lời nhắc nhở về việc cần phải cẩn trọng hơn trong việc bảo quản tài sản của mình."
+        "upright": "Một cơ hội để tìm thấy vật đã mất, hoặc nhận ra giá trị thực sự của những gì đang có.",
+        "reversed": "Vật phẩm bị mất khó tìm lại, hoặc bỏ lỡ cơ hội để bảo quản tài sản."
+      },
+      "ex": {
+        "upright": "Cơ hội hiếm hoi cho một khởi đầu mới mẻ và thực tế với người cũ, nếu cả hai sẵn lòng xây dựng lại từ nền tảng vững chắc.",
+        "reversed": "Một cơ hội tái hợp không thành, hoặc sự thất vọng khi cố gắng xây dựng lại mối quan hệ đã đổ vỡ. Có thể là sự lãng phí năng lượng vào điều không còn tiềm năng."
+      },
+      "current_love": {
+        "upright": "Mối quan hệ hiện tại đang bước vào một giai đoạn mới với nền tảng vững chắc, hứa hẹn sự phát triển ổn định và những thành quả cụ thể.",
+        "reversed": "Sự đình trệ hoặc thiếu động lực trong mối quan hệ, có thể do thiếu cam kết hoặc không nhìn thấy được tiềm năng phát triển."
+      },
+      "ambiguous": {
+        "upright": "Một tín hiệu rõ ràng, một cơ hội để định hình mối quan hệ theo hướng cụ thể, đặt nền móng cho sự ổn định.",
+        "reversed": "Sự mơ hồ kéo dài, các cơ hội làm rõ mối quan hệ bị bỏ lỡ, hoặc sự thiếu thực tế trong mong đợi."
+      },
+      "crush": {
+        "upright": "Một cơ hội vàng để biến tình cảm đơn phương thành hiện thực, một khởi đầu có tiềm năng phát triển thành mối quan hệ nghiêm túc.",
+        "reversed": "Cơ hội tiếp cận người mình thầm yêu bị bỏ lỡ, hoặc sự trì hoãn khiến tình cảm không thể tiến xa hơn."
+      },
+      "future_love": {
+        "upright": "Tình yêu tương lai sẽ đến với bạn một cách chân thực và vững chắc, mang theo sự ổn định và tiềm năng phát triển lâu dài.",
+        "reversed": "Sự chậm trễ trong việc tìm thấy tình yêu đích thực, hoặc những cơ hội tình cảm tốt đẹp bị bỏ lỡ do thiếu nhận thức."
+      },
+      "someone": {
+        "upright": "Một người mới đầy tiềm năng xuất hiện, mang theo sự ổn định và những giá trị thực tế vào cuộc sống của bạn.",
+        "reversed": "Một người có vẻ hứa hẹn nhưng lại thiếu thực tế, hoặc một cơ hội kết nối bị bỏ lỡ do sự chậm chạp."
+      },
+      "marriage": {
+        "upright": "Một lời cầu hôn sắp đến, hoặc sự khởi đầu một cuộc hôn nhân với nền tảng vững chắc, hứa hẹn sự thịnh vượng và ổn định.",
+        "reversed": "Sự trì hoãn trong kế hoạch hôn nhân, hoặc một lời cầu hôn không thành hiện thực do thiếu sự chuẩn bị hoặc cam kết."
+      },
+      "conflict": {
+        "upright": "Cơ hội để giải quyết xung đột một cách thực tế, đặt nền móng cho sự hòa giải và ổn định lâu dài.",
+        "reversed": "Xung đột kéo dài do thiếu sự chủ động giải quyết, hoặc bỏ lỡ cơ hội để hòa giải một cách có lợi."
+      },
+      "breakup": {
+        "upright": "Một sự chia ly có thể là khởi đầu cho một chương mới, mang lại sự ổn định và cơ hội phát triển cá nhân.",
+        "reversed": "Sự chia ly để lại cảm giác mất mát, thiếu ổn định, hoặc sự hối tiếc về những cơ hội không được nắm bắt để hàn gắn."
+      },
+      "long_distance": {
+        "upright": "Cơ hội để củng cố mối quan hệ từ xa bằng những cam kết thực tế, xây dựng nền tảng vững chắc cho tương lai.",
+        "reversed": "Khoảng cách trở thành rào cản, các cơ hội để duy trì kết nối bị bỏ lỡ, hoặc sự thiếu thực tế trong việc vun đắp."
+      },
+      "jealousy": {
+        "upright": "Một cơ hội để xây dựng lòng tin và sự an toàn, xóa bỏ những hạt mầm ghen tuông bằng nền tảng vững chắc.",
+        "reversed": "Sự ghen tuông nảy sinh từ cảm giác bất an, thiếu nền tảng vững chắc, hoặc bỏ lỡ cơ hội để giải quyết gốc rễ vấn đề."
+      },
+      "self_love": {
+        "upright": "Khởi đầu một hành trình yêu thương bản thân một cách thực tế, xây dựng nền tảng vững chắc cho sự tự trọng và giá trị cá nhân.",
+        "reversed": "Bỏ lỡ cơ hội để nuôi dưỡng tình yêu bản thân, hoặc thiếu sự cam kết trong việc phát triển giá trị nội tại."
+      },
+      "job_search": {
+        "upright": "Một lời mời làm việc mới, hoặc một cơ hội tuyệt vời để bắt đầu sự nghiệp với nền tảng vững chắc và tiềm năng phát triển.",
+        "reversed": "Sự thất vọng trong tìm kiếm việc làm, các cơ hội tốt bị bỏ lỡ, hoặc sự thiếu thực tế trong kỳ vọng về công việc."
+      },
+      "promotion": {
+        "upright": "Một cơ hội thăng tiến rõ ràng, mang lại sự công nhận và tăng trưởng tài chính, đặt nền móng cho vị trí cao hơn.",
+        "reversed": "Cơ hội thăng tiến bị trì hoãn hoặc bỏ lỡ, có thể do thiếu sự chuẩn bị hoặc nhận thức về giá trị bản thân."
+      },
+      "business": {
+        "upright": "Sự khởi đầu của một dự án kinh doanh đầy tiềm năng, hứa hẹn sự thịnh vượng và nền tảng tài chính vững chắc.",
+        "reversed": "Dự án kinh doanh bị đình trệ, các cơ hội đầu tư bị bỏ lỡ, hoặc sự thiếu sót trong kế hoạch kinh doanh."
+      },
+      "colleague": {
+        "upright": "Một mối quan hệ đồng nghiệp mới đầy hứa hẹn, mang lại sự hợp tác hiệu quả và những cơ hội chung.",
+        "reversed": "Mối quan hệ đồng nghiệp không phát triển, hoặc bỏ lỡ cơ hội để xây dựng sự hợp tác vững chắc."
+      },
+      "career_change": {
+        "upright": "Một khởi đầu mới đầy tiềm năng trong lĩnh vực khác, mang lại sự ổn định và cơ hội phát triển nghề nghiệp thực tế.",
+        "reversed": "Sự trì hoãn trong việc thay đổi nghề nghiệp, hoặc bỏ lỡ những cơ hội vàng để chuyển đổi thành công."
+      },
+      "freelance": {
+        "upright": "Một dự án tự do mới đầy hứa hẹn, mang lại nguồn thu nhập ổn định và cơ hội xây dựng sự nghiệp độc lập.",
+        "reversed": "Dự án tự do bị đình trệ, hoặc các cơ hội kiếm tiền bị bỏ lỡ do thiếu sự chủ động."
+      },
+      "interview": {
+        "upright": "Một cuộc phỏng vấn thành công, mở ra cánh cửa cho một vị trí mới đầy tiềm năng và sự ổn định.",
+        "reversed": "Cuộc phỏng vấn không như ý, hoặc bỏ lỡ cơ hội gây ấn tượng do thiếu sự chuẩn bị."
+      },
+      "investment": {
+        "upright": "Một cơ hội đầu tư mới đầy tiềm năng, hứa hẹn lợi nhuận vững chắc và an toàn tài chính.",
+        "reversed": "Quyết định đầu tư sai lầm, hoặc bỏ lỡ các cơ hội đầu tư tốt do thiếu nghiên cứu hoặc sự chần chừ."
+      },
+      "debt": {
+        "upright": "Một cơ hội để bắt đầu kế hoạch trả nợ hiệu quả, đặt nền móng cho sự tự do tài chính.",
+        "reversed": "Các cơ hội thoát nợ bị bỏ lỡ, hoặc sự trì hoãn trong việc đối mặt với các khoản nợ."
+      },
+      "savings": {
+        "upright": "Khởi đầu một kế hoạch tiết kiệm mới, xây dựng nền tảng vững chắc cho tương lai tài chính.",
+        "reversed": "Kế hoạch tiết kiệm bị đình trệ, hoặc bỏ lỡ cơ hội để tích lũy tài sản."
+      },
+      "luck_money": {
+        "upright": "Một cơ hội tài lộc bất ngờ, mang lại sự may mắn hữu hình và một khởi đầu thuận lợi về tiền bạc.",
+        "reversed": "Các cơ hội tài lộc bị bỏ lỡ, hoặc sự may mắn đến nhưng không được nhận ra và tận dụng."
+      },
+      "mental": {
+        "upright": "Khởi đầu một hành trình mới để cải thiện sức khỏe tinh thần, đặt nền móng cho sự bình an và ổn định nội tâm.",
+        "reversed": "Các cơ hội để chữa lành tinh thần bị bỏ lỡ, hoặc sự trì hoãn trong việc tìm kiếm sự hỗ trợ."
+      },
+      "energy": {
+        "upright": "Một luồng năng lượng mới tràn đầy, mang lại sức sống và động lực để bắt đầu những dự án mới.",
+        "reversed": "Năng lượng bị trì trệ, cảm giác uể oải, hoặc bỏ lỡ cơ hội để tái tạo năng lượng."
+      },
+      "family": {
+        "upright": "Một khởi đầu mới trong mối quan hệ gia đình, mang lại sự hòa thuận và xây dựng nền tảng vững chắc.",
+        "reversed": "Các cơ hội để gắn kết gia đình bị bỏ lỡ, hoặc sự trì hoãn trong việc giải quyết các vấn đề gia đình."
+      },
+      "diet": {
+        "upright": "Khởi đầu một chế độ ăn uống lành mạnh mới, xây dựng nền tảng cho sức khỏe thể chất lâu dài.",
+        "reversed": "Kế hoạch ăn kiêng bị đình trệ, hoặc bỏ lỡ cơ hội để cải thiện thói quen ăn uống."
+      },
+      "study": {
+        "upright": "Một khởi đầu mới trong học tập, cơ hội để đạt được những thành tựu cụ thể và xây dựng nền tảng kiến thức vững chắc.",
+        "reversed": "Các cơ hội học tập bị bỏ lỡ, hoặc sự trì hoãn trong việc theo đuổi kiến thức."
+      },
+      "study_abroad": {
+        "upright": "Một cơ hội vàng để bắt đầu hành trình du học, hứa hẹn những trải nghiệm thực tế và nền tảng kiến thức vững chắc.",
+        "reversed": "Kế hoạch du học bị trì hoãn, hoặc bỏ lỡ cơ hội quý giá để học tập ở nước ngoài."
+      },
+      "self": {
+        "upright": "Khởi đầu một giai đoạn phát triển bản thân mạnh mẽ, đặt nền móng cho sự trưởng thành và khám phá tiềm năng.",
+        "reversed": "Các cơ hội phát triển bản thân bị bỏ lỡ, hoặc sự trì trệ trong việc nhận ra giá trị thực của mình."
+      },
+      "purpose": {
+        "upright": "Một sự thức tỉnh về mục đích sống, một khởi đầu rõ ràng để theo đuổi con đường ý nghĩa và cụ thể.",
+        "reversed": "Sự mơ hồ về mục đích, các cơ hội để tìm thấy ý nghĩa cuộc đời bị bỏ lỡ, hoặc thiếu sự cam kết."
+      },
+      "shadow_self": {
+        "upright": "Một cơ hội để đối diện với phần bóng tối, bắt đầu hành trình tích hợp và hiểu rõ hơn về bản thân.",
+        "reversed": "Sự từ chối đối diện với phần bóng tối, các cơ hội để chữa lành bị bỏ lỡ, hoặc sự trì hoãn trong việc chấp nhận con người thật."
+      },
+      "decision": {
+        "upright": "Một quyết định quan trọng được đưa ra, mở ra một khởi đầu mới đầy tiềm năng và sự ổn định.",
+        "reversed": "Sự chần chừ, bỏ lỡ cơ hội đưa ra quyết định kịp thời, hoặc quyết định thiếu thực tế."
+      },
+      "travel": {
+        "upright": "Một cơ hội du lịch mới đầy hứa hẹn, mang lại những trải nghiệm thực tế và sự khám phá.",
+        "reversed": "Kế hoạch du lịch bị trì hoãn, hoặc bỏ lỡ các cơ hội để trải nghiệm thế giới."
+      },
+      "general": {
+        "upright": "Một khởi đầu mới đầy hứa hẹn, mang lại những cơ hội cụ thể và nền tảng vững chắc cho sự thịnh vượng và ổn định.",
+        "reversed": "Các cơ hội quan trọng bị bỏ lỡ, sự trì trệ trong mọi mặt cuộc sống, hoặc thiếu sự chuẩn bị cho tương lai."
       }
     },
     "planet": "Nguyên tố Đất",
@@ -13969,74 +15439,204 @@ window.TAROT_DB = [
     "reversed": "Sự thiếu hợp tác, mâu thuẫn trong nhóm làm việc hoặc thiếu kinh nghiệm dẫn đến chất lượng công việc tồi tệ.",
     "aspects": {
       "love": {
-        "up": "Cả hai cùng chung tay xây dựng tổ ấm, hợp tác giải quyết vấn đề. Tình yêu như những người đồng đội.",
-        "rev": "Không có sự hỗ trợ lẫn nhau, mạnh ai nấy sống, cãi vã vì phân chia việc nhà.",
-        "upright": "Hai người cùng nhau xây dựng một tương lai vững chắc, có thể là mua nhà, lập kế hoạch tài chính dài hạn hoặc hợp tác trong kinh doanh. Sự tôn trọng lẫn nhau tạo nên một nền tảng tình yêu bền vững.",
-        "reversed": "Sự thiếu hợp tác trong mối quan hệ. Một người cảm thấy phải gánh vác mọi trách nhiệm, hoặc cả hai liên tục tranh cãi về các vấn đề tài chính, định hướng tương lai mà không tìm được tiếng nói chung."
+        "upright": "Tình yêu nở rộ từ sự hợp tác và xây dựng chung, nơi hai tâm hồn cùng đắp bồi một tương lai vững chắc, học hỏi và trân trọng những đóng góp của nhau.",
+        "reversed": "Mối quan hệ thiếu sự đồng điệu, mỗi người một hướng, hoặc sự thiếu tôn trọng công sức của đối phương khiến tình yêu trở nên mong manh, thiếu nền tảng."
       },
       "career": {
-        "up": "Một dự án nhóm thành công. Sự tôn trọng lẫn nhau giữa đồng nghiệp và cấp trên.",
-        "rev": "Xung đột công sở, không ai chịu lắng nghe ai, đùn đẩy trách nhiệm.",
-        "upright": "Một dự án nhóm thành công rực rỡ nhờ sự phân công lao động rõ ràng. Kỹ năng của bạn được cấp trên và đồng nghiệp ghi nhận, đánh giá cao. Một môi trường làm việc chuyên nghiệp, học hỏi lẫn nhau.",
-        "reversed": "Sự đố kỵ, thiếu năng lực hoặc mâu thuẫn gay gắt trong làm việc nhóm. Cảm giác không được công nhận hoặc bạn đang phải gánh thay phần việc của những đồng nghiệp thiếu trách nhiệm."
+        "upright": "Sự nghiệp thăng hoa nhờ tinh thần hợp tác, học hỏi không ngừng từ đồng nghiệp và chuyên gia, đặt nền móng vững chắc cho những thành công vang dội.",
+        "reversed": "Bế tắc trong công việc do thiếu sự phối hợp, bỏ qua lời khuyên quý báu, hoặc chất lượng công việc không đạt chuẩn, khiến sự nghiệp trì trệ."
       },
       "finance": {
-        "up": "Hợp tác kinh doanh sinh lời. Được trả công xứng đáng với chuyên môn.",
-        "rev": "Tranh chấp tài chính trong nội bộ công ty/nhóm làm ăn.",
-        "upright": "Sự hợp tác tài chính mang lại lợi nhuận bền vững. Đây có thể là thời điểm tốt để tham khảo ý kiến chuyên gia (kế toán, cố vấn tài chính) nhằm tối ưu hóa các khoản đầu tư của bạn.",
-        "reversed": "Những sai lầm tài chính do không lắng nghe lời khuyên từ những người có kinh nghiệm. Sự thất thoát tiền bạc do các hợp đồng hợp tác không rõ ràng hoặc đối tác làm ăn thiếu minh bạch."
+        "upright": "Tài chính ổn định nhờ việc lập kế hoạch chi tiêu rõ ràng, học hỏi cách quản lý tiền bạc và có thể tìm kiếm lời khuyên từ các chuyên gia tài chính.",
+        "reversed": "Tài chính bất ổn do thiếu sự quản lý, chi tiêu không có kế hoạch hoặc bỏ qua những lời khuyên hữu ích, dẫn đến những quyết định tài chính sai lầm."
       },
       "health": {
-        "up": "Tham gia các lớp thể dục nhóm hoặc tìm được một bác sĩ/PT giỏi hỗ trợ.",
-        "rev": "Không tuân thủ lời khuyên y tế của chuyên gia, tự ý chữa bệnh sai cách.",
-        "upright": "Một kế hoạch chăm sóc sức khỏe có sự hướng dẫn chuyên môn (huấn luyện viên, bác sĩ) sẽ mang lại kết quả tuyệt vời. Sự kiên trì và kỷ luật giúp xây dựng lại nền tảng thể chất.",
-        "reversed": "Sự thiếu cam kết trong việc cải thiện sức khỏe. Từ chối lắng nghe lời khuyên y tế, tự ý điều trị sai cách dẫn đến những hậu quả không đáng có."
+        "upright": "Sức khỏe được cải thiện nhờ một kế hoạch chăm sóc tổng thể, bao gồm chế độ ăn uống, tập luyện và lắng nghe lời khuyên từ các chuyên gia y tế, xây dựng nền tảng vững chắc.",
+        "reversed": "Sức khỏe suy yếu do thiếu sự quan tâm đúng mức, bỏ qua lời khuyên của bác sĩ hoặc không có kế hoạch chăm sóc bản thân một cách khoa học, dẫn đến tình trạng xấu đi."
       },
       "spiritual": {
-        "up": "Học hỏi và phát triển tâm linh cùng với một nhóm hoặc cộng đồng.",
-        "rev": "Cái tôi quá lớn, không chấp nhận sự khác biệt trong tư tưởng của người khác.",
-        "upright": "Sự kết nối với một cộng đồng tâm linh mang lại sự hỗ trợ và phát triển sâu sắc. Bạn học hỏi được từ những người đi trước và đóng góp giá trị của mình vào sự tiến hóa chung.",
-        "reversed": "Sự cô lập, từ chối việc chia sẻ và học hỏi. Bạn trở nên bảo thủ với những trải nghiệm tâm linh của mình, bỏ lỡ những góc nhìn sâu sắc từ cộng đồng."
+        "upright": "Hành trình tâm linh của bạn đang được củng cố thông qua việc học hỏi từ những bậc thầy, tham gia vào các cộng đồng có cùng niềm tin và thực hành để xây dựng nền tảng vững chắc.",
+        "reversed": "Sự phát triển tâm linh bị đình trệ do thiếu sự hướng dẫn, không chịu học hỏi từ những trải nghiệm hoặc cảm thấy cô lập trong hành trình tìm kiếm ý nghĩa."
       },
       "friendship": {
-        "upright": "Những mối thâm giao đang được vun đắp dựa trên sự hợp tác và mục tiêu chung. Đây là thời điểm tuyệt vời để cùng bạn bè kiến tạo điều gì đó ý nghĩa, học hỏi lẫn nhau và cùng tiến bộ.",
-        "reversed": "Sự bất đồng hoặc thiếu sự công nhận trong tình bạn đang gây rạn nứt. Cẩn trọng những mối quan hệ mà bạn cảm thấy mình đang cống hiến mà không được đáp lại, hoặc bị lợi dụng sức lực, ý tưởng."
+        "upright": "Tình bạn được củng cố khi các bạn cùng nhau xây dựng những kỷ niệm, hỗ trợ nhau trong công việc và học hỏi từ những trải nghiệm chung, tạo nên sự gắn kết bền chặt.",
+        "reversed": "Tình bạn có thể rạn nứt do thiếu sự quan tâm, không chịu hợp tác hoặc một bên cảm thấy không được công nhận những đóng góp của mình."
       },
       "pregnancy": {
-        "upright": "Hành trình đón nhận thiên thần nhỏ đang diễn ra trong sự hợp tác và chuẩn bị kỹ lưỡng. Hãy tìm kiếm sự hỗ trợ từ người thân, chuyên gia để cùng nhau xây dựng nền tảng vững chắc cho gia đình.",
-        "reversed": "Sự thiếu đồng thuận hoặc không nhận được sự hỗ trợ cần thiết từ những người xung quanh đang gây khó khăn cho việc chuẩn bị đón bé. Cẩn trọng những lời khuyên thiếu chuyên môn hoặc sự can thiệp quá mức."
+        "upright": "Thời kỳ thai nghén là quá trình xây dựng một sinh linh mới, cần sự hợp tác của cả cha mẹ, tìm kiếm lời khuyên từ chuyên gia và chuẩn bị kỹ lưỡng cho tương lai.",
+        "reversed": "Quá trình mang thai có thể gặp khó khăn do thiếu sự chuẩn bị, thiếu sự hỗ trợ từ người thân hoặc bỏ qua những lời khuyên y tế quan trọng."
       },
       "gossip": {
-        "upright": "Lời đồn đoán có thể xuất phát từ môi trường làm việc nhóm hoặc các dự án hợp tác. Hãy tập trung vào mục tiêu chung và không để những lời bàn tán nhỏ nhặt làm ảnh hưởng đến hiệu quả công việc.",
-        "reversed": "Thị phi đang nổi lên từ sự thiếu chuyên nghiệp hoặc xung đột nội bộ trong một nhóm. Cẩn trọng những lời nói dèm pha, chia rẽ gây tổn hại đến danh tiếng và công sức chung."
+        "upright": "Để đối phó với tin đồn, hãy tập trung vào việc xây dựng uy tín bằng những hành động cụ thể và chất lượng công việc, chứng minh giá trị của bản thân một cách rõ ràng.",
+        "reversed": "Tin đồn có thể gây tổn hại nghiêm trọng nếu bạn không có nền tảng vững chắc để chống đỡ, hoặc thiếu khả năng hợp tác với người khác để làm rõ sự thật."
       },
       "legal": {
-        "upright": "Các vấn đề pháp lý sẽ được giải quyết tốt nhất thông qua sự hợp tác chặt chẽ với luật sư và các bên liên quan. Hãy tin tưởng vào chuyên môn và cùng nhau xây dựng một chiến lược vững chắc.",
-        "reversed": "Sự thiếu hợp tác hoặc bất đồng quan điểm đang cản trở tiến trình pháp lý. Cẩn trọng những lời khuyên thiếu căn cứ hoặc sự can thiệp từ những người không có chuyên môn gây bất lợi cho bạn."
+        "upright": "Vấn đề pháp lý sẽ được giải quyết tốt đẹp thông qua việc hợp tác với luật sư, thu thập bằng chứng kỹ lưỡng và xây dựng một chiến lược bào chữa vững chắc.",
+        "reversed": "Vấn đề pháp lý trở nên phức tạp do thiếu sự chuẩn bị, không chịu hợp tác với luật sư hoặc bỏ qua những chi tiết quan trọng, dẫn đến kết quả bất lợi."
       },
       "moving": {
-        "upright": "Việc chuyển đổi nơi ở sẽ diễn ra suôn sẻ nhờ vào sự chung tay góp sức của gia đình, bạn bè hoặc các dịch vụ chuyên nghiệp. Cùng nhau, bạn sẽ kiến tạo một không gian sống mới đầy tiện nghi.",
-        "reversed": "Sự thiếu hỗ trợ hoặc mâu thuẫn trong quá trình di chuyển đang gây ra nhiều trở ngại. Có thể bạn đang cảm thấy đơn độc trong việc sắp xếp hoặc không hài lòng với dịch vụ đã thuê."
+        "upright": "Việc chuyển nhà diễn ra suôn sẻ nhờ sự chuẩn bị kỹ lưỡng, hợp tác với gia đình hoặc bạn bè và xây dựng kế hoạch chi tiết cho việc sắp xếp cuộc sống mới.",
+        "reversed": "Việc chuyển nhà gặp khó khăn do thiếu sự chuẩn bị, không có sự giúp đỡ hoặc kế hoạch sắp xếp cuộc sống mới không rõ ràng, gây ra nhiều rắc rối."
       },
       "pet": {
-        "upright": "Việc chăm sóc thú cưng lúc này cần sự hợp tác từ các thành viên trong gia đình hoặc sự tư vấn từ chuyên gia. Cùng nhau học hỏi và áp dụng những phương pháp tốt nhất để xây dựng mối quan hệ bền chặt.",
-        "reversed": "Sự bất đồng trong cách chăm sóc hoặc thiếu cam kết từ các thành viên đang gây ra vấn đề cho thú cưng. Cần có sự thống nhất và tìm kiếm lời khuyên từ những người có chuyên môn."
+        "upright": "Mối quan hệ với thú cưng được xây dựng dựa trên sự chăm sóc chu đáo, huấn luyện bài bản và sự gắn kết qua thời gian, tạo nên một tình bạn đặc biệt.",
+        "reversed": "Mối quan hệ với thú cưng có thể gặp vấn đề do thiếu sự quan tâm, huấn luyện không đúng cách hoặc không dành đủ thời gian để xây dựng sự gắn kết."
       },
       "dream": {
-        "upright": "Giấc mơ báo hiệu bạn đang ở ngưỡng cửa của một dự án hợp tác hoặc sắp nhận được sự công nhận cho tài năng của mình. Hãy tin tưởng vào khả năng của bản thân và sức mạnh của sự đoàn kết.",
-        "reversed": "Ác mộng về sự cô lập, bị bỏ rơi khỏi một nhóm hoặc không được công nhận tài năng. Đây là lời nhắc nhở bạn cần xem xét lại môi trường làm việc hoặc cách bạn tương tác với tập thể."
+        "upright": "Giấc mơ mang đến thông điệp về sự cần thiết của hợp tác, xây dựng và học hỏi. Hãy chú ý đến những chi tiết liên quan đến công việc, kỹ năng hoặc cộng đồng.",
+        "reversed": "Giấc mơ phản ánh sự bế tắc, thiếu sự công nhận hoặc cảm giác không được hỗ trợ trong những nỗ lực xây dựng một điều gì đó trong cuộc sống thực."
       },
       "past_life": {
-        "upright": "Kiếp trước, bạn là một nghệ nhân tài hoa, một người thợ lành nghề, hoặc một thành viên quan trọng trong một tập thể, nơi bạn đã cống hiến tài năng và nhận được sự tôn vinh xứng đáng.",
-        "reversed": "Trong tiền kiếp, tài năng của bạn có thể đã bị chôn vùi, không được công nhận hoặc bạn đã gặp khó khăn trong việc hòa nhập vào một cộng đồng, dẫn đến bài học về giá trị bản thân ở kiếp này."
+        "upright": "Từ kiếp trước, bạn có thể đã là một người thợ thủ công, một kiến trúc sư hoặc một thành viên quan trọng trong một cộng đồng, giỏi trong việc xây dựng và hợp tác.",
+        "reversed": "Kiếp trước có thể bạn đã gặp khó khăn trong việc hợp tác, hoặc những nỗ lực xây dựng của bạn không được công nhận, dẫn đến cảm giác thiếu tự tin trong kiếp này."
       },
       "karma": {
-        "upright": "Nhân quả đang mỉm cười với những đóng góp chân thành và sự hợp tác của bạn. Mọi nỗ lực chung tay kiến tạo sẽ được đền đáp bằng thành công vang dội và sự tôn trọng từ cộng đồng.",
-        "reversed": "Nghiệp chướng cũ liên quan đến việc không hoàn thành trách nhiệm trong nhóm, lợi dụng công sức người khác hoặc không tôn trọng chuyên môn đang đòi hỏi bạn phải đối mặt và sửa chữa."
+        "upright": "Nghiệp quả tốt lành đến từ những nỗ lực hợp tác chân thành, sự cống hiến cho cộng đồng và việc bạn đã giúp đỡ người khác xây dựng cuộc sống của họ.",
+        "reversed": "Nghiệp quả xấu có thể xuất phát từ việc bạn đã thiếu hợp tác, không công nhận công sức của người khác hoặc xây dựng những điều không bền vững, gây hại cho cộng đồng."
       },
       "lost_item": {
-        "upright": "Món đồ thất lạc có thể đang nằm lẫn trong khu vực làm việc chung hoặc liên quan đến một dự án tập thể. Hãy tìm kiếm ở những nơi mà nhiều người cùng sử dụng hoặc cùng làm việc.",
-        "reversed": "Vật phẩm đã mất đi do sự thiếu tổ chức trong một không gian chung hoặc do sự bất cẩn trong quá trình làm việc nhóm. Nó có thể đã bị bỏ quên trong sự hỗn loạn của một dự án dang dở."
+        "upright": "Vật phẩm bị mất có thể được tìm thấy ở nơi bạn từng hợp tác, làm việc hoặc nơi có liên quan đến một dự án xây dựng. Hãy thử hỏi những người đã cùng bạn tham gia.",
+        "reversed": "Vật phẩm bị mất khó tìm thấy do sự lộn xộn, thiếu tổ chức hoặc không có sự giúp đỡ từ người khác, khiến bạn cảm thấy bế tắc trong việc tìm kiếm."
+      },
+      "ex": {
+        "upright": "Mối quan hệ với người cũ có thể tìm thấy sự hàn gắn hoặc thấu hiểu thông qua việc cùng nhau giải quyết một vấn đề chung, học hỏi từ những sai lầm cũ để xây dựng lại.",
+        "reversed": "Sự thiếu hợp tác hoặc những bất đồng dai dẳng khiến việc kết nối lại với người cũ trở nên khó khăn, hoặc nhận ra rằng nỗ lực hàn gắn chỉ mang lại sự thất vọng vì thiếu nền tảng chung."
+      },
+      "current_love": {
+        "upright": "Tình yêu hiện tại được củng cố bởi sự nỗ lực chung, cùng nhau hoàn thiện và xây dựng những giá trị bền vững, mỗi người đều đóng góp tài năng và tâm huyết.",
+        "reversed": "Mối tình đang đứng trước thử thách vì thiếu sự phối hợp, một bên làm việc quá sức trong khi bên kia thờ ơ, hoặc sự thiếu tôn trọng những đóng góp của nhau dẫn đến rạn nứt."
+      },
+      "ambiguous": {
+        "upright": "Mối quan hệ mơ hồ này cần sự rõ ràng thông qua việc cùng nhau tạo ra một dự án hoặc mục tiêu chung, từ đó khám phá ra sự phù hợp và tiềm năng gắn kết.",
+        "reversed": "Sự mơ hồ kéo dài do không ai chịu bắt tay vào xây dựng, thiếu sự cam kết hoặc không có nền tảng chung để phát triển, khiến mối quan hệ mãi mắc kẹt trong sự không chắc chắn."
+      },
+      "crush": {
+        "upright": "Để tình cảm đơn phương này có cơ hội, hãy tìm cách hợp tác hoặc cùng người ấy tham gia một hoạt động chung, thể hiện năng lực và sự nhiệt huyết của bạn.",
+        "reversed": "Tình cảm đơn phương khó lòng tiến triển vì bạn chưa tìm được cách kết nối hoặc thể hiện mình một cách hiệu quả, có thể do thiếu tự tin hoặc sự thiếu tương tác thực tế."
+      },
+      "future_love": {
+        "upright": "Tình yêu tương lai sẽ đến từ môi trường làm việc, học tập hoặc những nơi bạn cùng người khác xây dựng một điều gì đó, nơi sự hợp tác tạo nên sự gắn kết sâu sắc.",
+        "reversed": "Tình duyên tương lai có thể bị trì hoãn nếu bạn giữ mình quá khép kín, không chịu hợp tác hoặc học hỏi từ những mối quan hệ xã hội, bỏ lỡ cơ hội gặp gỡ người phù hợp."
+      },
+      "someone": {
+        "upright": "Người ấy là một cộng sự tuyệt vời, một cá nhân có kỹ năng và tâm huyết, sẵn lòng cùng bạn xây dựng và hoàn thiện những mục tiêu chung, mang lại sự công nhận xứng đáng.",
+        "reversed": "Người ấy có thể thiếu kinh nghiệm, thiếu sự tập trung hoặc không có tinh thần hợp tác, khiến mọi nỗ lực chung trở nên khó khăn và không đạt được kết quả mong muốn."
+      },
+      "marriage": {
+        "upright": "Hôn nhân là một công trình chung vĩ đại, nơi cả hai cùng nhau xây dựng tổ ấm, học hỏi và hoàn thiện bản thân, được cộng đồng và gia đình công nhận và chúc phúc.",
+        "reversed": "Hôn nhân gặp trở ngại do thiếu sự đồng lòng, mỗi người một ý, hoặc không ai chịu vun đắp, khiến nền tảng gia đình trở nên lỏng lẻo và dễ đổ vỡ."
+      },
+      "conflict": {
+        "upright": "Xung đột được giải quyết thông qua việc cùng nhau tìm ra giải pháp, lắng nghe và tôn trọng ý kiến của nhau, hướng tới một mục tiêu chung để hàn gắn.",
+        "reversed": "Xung đột leo thang vì thiếu sự hợp tác, mỗi người cố chấp bảo vệ quan điểm riêng mà không chịu lắng nghe, dẫn đến sự đổ vỡ trong giao tiếp và mối quan hệ."
+      },
+      "breakup": {
+        "upright": "Sự chia ly, dù đau đớn, cũng là cơ hội để mỗi người nhìn nhận lại và học hỏi từ những gì đã xây dựng (hoặc chưa xây dựng) được trong mối quan hệ, chuẩn bị cho nền tảng mới.",
+        "reversed": "Sự chia ly diễn ra trong hỗn loạn và thiếu tôn trọng, không ai chịu trách nhiệm cho phần mình, khiến vết thương khó lành và không học được bài học nào từ mối quan hệ đã qua."
+      },
+      "long_distance": {
+        "upright": "Mối quan hệ đường dài được duy trì bởi sự tin tưởng, nỗ lực giao tiếp và cùng nhau xây dựng những kế hoạch tương lai, dù xa cách vẫn hướng về một mục tiêu chung.",
+        "reversed": "Mối quan hệ đường dài trở nên mong manh vì thiếu sự kết nối thực tế, không ai chịu vun đắp hoặc thiếu tin tưởng vào khả năng cùng nhau xây dựng một tương lai chung."
+      },
+      "jealousy": {
+        "upright": "Sự ghen tuông có thể được hóa giải khi bạn và đối phương cùng nhau xây dựng sự tin tưởng, minh bạch và củng cố nền tảng mối quan hệ bằng những hành động cụ thể.",
+        "reversed": "Sự ghen tuông bùng phát do thiếu sự chắc chắn, cảm giác không được công nhận hoặc nghi ngờ về những nỗ lực xây dựng mối quan hệ, dẫn đến sự bất an và đổ vỡ niềm tin."
+      },
+      "self_love": {
+        "upright": "Yêu thương bản thân là quá trình bạn tự mình xây dựng những giá trị cốt lõi, học hỏi từ kinh nghiệm và phát triển kỹ năng, biết trân trọng những nỗ lực của chính mình.",
+        "reversed": "Thiếu tình yêu bản thân xuất phát từ việc không nhận ra giá trị của chính mình, thiếu nỗ lực hoàn thiện bản thân hoặc luôn so sánh với người khác mà không công nhận thành quả của mình."
+      },
+      "job_search": {
+        "upright": "Tìm kiếm việc làm thành công nhờ việc xây dựng mạng lưới quan hệ, học hỏi từ những người đi trước và thể hiện rõ ràng kỹ năng, kinh nghiệm của bạn.",
+        "reversed": "Việc tìm kiếm việc làm gặp khó khăn do thiếu kỹ năng cần thiết, không biết cách thể hiện bản thân hoặc thiếu sự chuẩn bị kỹ lưỡng cho các cơ hội."
+      },
+      "promotion": {
+        "upright": "Thăng chức đến với bạn nhờ những đóng góp xuất sắc trong công việc nhóm, kỹ năng được công nhận và khả năng xây dựng, hoàn thiện các dự án quan trọng.",
+        "reversed": "Cơ hội thăng tiến bị bỏ lỡ do thiếu tinh thần hợp tác, không thể hiện được năng lực hoặc chất lượng công việc chưa đạt đến tầm cần thiết cho vị trí cao hơn."
+      },
+      "business": {
+        "upright": "Doanh nghiệp phát triển mạnh mẽ nhờ sự hợp tác hiệu quả của đội ngũ, xây dựng nền tảng vững chắc và không ngừng học hỏi, cải tiến sản phẩm, dịch vụ.",
+        "reversed": "Công việc kinh doanh gặp trục trặc do thiếu sự phối hợp nội bộ, sản phẩm hoặc dịch vụ kém chất lượng, hoặc không biết lắng nghe ý kiến từ khách hàng và đối tác."
+      },
+      "colleague": {
+        "upright": "Mối quan hệ với đồng nghiệp là sự hỗ trợ lẫn nhau, cùng nhau hoàn thành mục tiêu, học hỏi từ chuyên môn của mỗi người để tạo nên một đội ngũ vững mạnh.",
+        "reversed": "Mâu thuẫn hoặc sự thiếu hợp tác với đồng nghiệp cản trở công việc chung, tạo ra môi trường làm việc căng thẳng và kém hiệu quả, không ai muốn hỗ trợ ai."
+      },
+      "career_change": {
+        "upright": "Thay đổi nghề nghiệp là một bước đi khôn ngoan nếu bạn dành thời gian học hỏi kỹ năng mới, tìm kiếm cố vấn và xây dựng mạng lưới trong lĩnh vực mới.",
+        "reversed": "Việc thay đổi nghề nghiệp có thể thất bại nếu bạn thiếu sự chuẩn bị, không chịu học hỏi hoặc không có sự hỗ trợ cần thiết từ những người có kinh nghiệm."
+      },
+      "freelance": {
+        "upright": "Sự nghiệp tự do phát triển nhờ khả năng xây dựng mối quan hệ với khách hàng, không ngừng trau dồi kỹ năng và tạo ra những sản phẩm, dịch vụ chất lượng cao.",
+        "reversed": "Công việc tự do gặp khó khăn do thiếu kỹ năng chuyên môn, không biết cách hợp tác với khách hàng hoặc thiếu sự uy tín trong việc hoàn thành dự án."
+      },
+      "interview": {
+        "upright": "Buổi phỏng vấn thành công khi bạn thể hiện được khả năng làm việc nhóm, kỹ năng chuyên môn và sự nhiệt huyết muốn đóng góp vào mục tiêu chung của công ty.",
+        "reversed": "Buổi phỏng vấn không suôn sẻ do bạn chưa thể hiện được kỹ năng, thiếu tự tin hoặc không truyền tải được mong muốn hợp tác và cống hiến cho công việc."
+      },
+      "investment": {
+        "upright": "Đầu tư khôn ngoan đòi hỏi sự nghiên cứu kỹ lưỡng, học hỏi từ các chuyên gia và xây dựng chiến lược dài hạn, đặt nền móng cho sự phát triển bền vững.",
+        "reversed": "Đầu tư rủi ro do thiếu hiểu biết, vội vàng ra quyết định mà không tham khảo ý kiến chuyên gia, hoặc không có kế hoạch rõ ràng, dễ dẫn đến thua lỗ."
+      },
+      "debt": {
+        "upright": "Nợ nần có thể được kiểm soát thông qua việc lập kế hoạch trả nợ chi tiết, tìm kiếm lời khuyên từ chuyên gia và kiên trì thực hiện các bước để thoát khỏi gánh nặng.",
+        "reversed": "Gánh nặng nợ nần chồng chất do thiếu sự quản lý, không chịu đối mặt hoặc không tìm cách học hỏi từ những sai lầm trong quá khứ, khiến tình hình thêm tồi tệ."
+      },
+      "savings": {
+        "upright": "Tiết kiệm thành công khi bạn xây dựng được thói quen kỷ luật, đặt ra mục tiêu rõ ràng và kiên trì thực hiện, có thể học hỏi các phương pháp quản lý tiền bạc hiệu quả.",
+        "reversed": "Việc tiết kiệm khó khăn do thiếu kế hoạch, chi tiêu bốc đồng hoặc không có mục tiêu rõ ràng, khiến tiền bạc cứ thế trôi đi mà không tích lũy được gì."
+      },
+      "luck_money": {
+        "upright": "May mắn về tiền bạc đến từ những nỗ lực bền bỉ, sự hợp tác hiệu quả và việc bạn biết cách tận dụng kỹ năng của mình để tạo ra giá trị, được công nhận xứng đáng.",
+        "reversed": "May mắn về tiền bạc dường như lẩn tránh do thiếu sự chuẩn bị, bỏ qua cơ hội hợp tác hoặc không biết cách phát huy năng lực của bản thân, khiến tài lộc khó đến."
+      },
+      "mental": {
+        "upright": "Sức khỏe tinh thần ổn định khi bạn biết cách xây dựng một môi trường tích cực, tìm kiếm sự hỗ trợ từ cộng đồng hoặc chuyên gia và không ngừng học hỏi cách quản lý cảm xúc.",
+        "reversed": "Sức khỏe tinh thần bất ổn do sự cô lập, không chịu tìm kiếm sự giúp đỡ hoặc thiếu khả năng tự xây dựng những thói quen tốt để duy trì sự cân bằng nội tâm."
+      },
+      "energy": {
+        "upright": "Năng lượng dồi dào nhờ việc bạn biết cách phân bổ sức lực hợp lý, hợp tác với người khác để chia sẻ gánh nặng và không ngừng học hỏi các phương pháp phục hồi hiệu quả.",
+        "reversed": "Năng lượng cạn kiệt do làm việc quá sức một mình, thiếu sự hỗ trợ hoặc không biết cách tái tạo năng lượng, dẫn đến tình trạng kiệt sức và mất động lực."
+      },
+      "family": {
+        "upright": "Gia đình là nơi mọi thành viên cùng nhau xây dựng tổ ấm, chia sẻ trách nhiệm và học hỏi từ những kinh nghiệm sống của nhau, tạo nên sự gắn kết bền chặt.",
+        "reversed": "Gia đình gặp mâu thuẫn do thiếu sự đồng lòng, mỗi người một ý hoặc không ai chịu vun đắp, khiến mối quan hệ gia đình trở nên lỏng lẻo và thiếu hòa thuận."
+      },
+      "diet": {
+        "upright": "Chế độ ăn uống lành mạnh được xây dựng dựa trên sự hiểu biết khoa học, tham khảo ý kiến chuyên gia dinh dưỡng và kiên trì thực hiện để đạt được kết quả tốt nhất.",
+        "reversed": "Chế độ ăn uống thiếu khoa học do thiếu kiến thức, không chịu tìm hiểu hoặc bỏ qua lời khuyên từ các chuyên gia, dẫn đến ảnh hưởng tiêu cực đến sức khỏe."
+      },
+      "study": {
+        "upright": "Học tập hiệu quả nhờ sự chăm chỉ, hợp tác với bạn bè trong các dự án nhóm và tìm kiếm sự hướng dẫn từ thầy cô, đặt nền móng vững chắc cho kiến thức.",
+        "reversed": "Việc học tập gặp khó khăn do thiếu sự tập trung, không chịu hợp tác hoặc bỏ qua những lời khuyên quý báu, khiến kiến thức không được củng cố và dễ bị hổng."
+      },
+      "study_abroad": {
+        "upright": "Du học thành công đòi hỏi sự chuẩn bị kỹ lưỡng về kiến thức, kỹ năng sống và khả năng hòa nhập, học hỏi từ môi trường mới, xây dựng mạng lưới bạn bè quốc tế.",
+        "reversed": "Việc du học gặp trở ngại do thiếu sự chuẩn bị, khó hòa nhập với văn hóa mới hoặc không biết cách tận dụng cơ hội học hỏi từ môi trường quốc tế."
+      },
+      "self": {
+        "upright": "Bản thân bạn đang trong quá trình hoàn thiện, không ngừng học hỏi, phát triển kỹ năng và xây dựng nền tảng vững chắc cho tương lai, được công nhận xứng đáng.",
+        "reversed": "Bạn đang cảm thấy thiếu tự tin, không nhận ra giá trị của bản thân hoặc chưa có định hướng rõ ràng để phát triển, bỏ lỡ cơ hội hoàn thiện mình."
+      },
+      "purpose": {
+        "upright": "Mục đích sống của bạn đang dần được định hình thông qua những hoạt động hợp tác, cống hiến và xây dựng giá trị chung, nơi tài năng của bạn được phát huy tối đa.",
+        "reversed": "Bạn đang lạc lối, chưa tìm thấy mục đích sống rõ ràng vì thiếu sự kết nối với cộng đồng, không chịu học hỏi hoặc không biết cách tận dụng tài năng của mình."
+      },
+      "shadow_self": {
+        "upright": "Đối mặt với phần bóng tối của bản thân đòi hỏi sự tự vấn, học hỏi từ những sai lầm và xây dựng lại niềm tin, chấp nhận những khía cạnh chưa hoàn hảo để trưởng thành.",
+        "reversed": "Phần bóng tối đang kiểm soát bạn do sự từ chối đối mặt, không chịu học hỏi từ những khuyết điểm hoặc thiếu sự hỗ trợ để vượt qua những khó khăn nội tâm."
+      },
+      "decision": {
+        "upright": "Quyết định sáng suốt đến từ việc bạn thu thập đủ thông tin, tham khảo ý kiến của những người có kinh nghiệm và cân nhắc kỹ lưỡng các yếu tố để xây dựng phương án tốt nhất.",
+        "reversed": "Quyết định sai lầm do sự vội vàng, thiếu thông tin hoặc bỏ qua những lời khuyên quan trọng, dẫn đến kết quả không như mong đợi và cần phải sửa chữa."
+      },
+      "travel": {
+        "upright": "Chuyến đi sẽ mang lại nhiều trải nghiệm học hỏi, gặp gỡ những người mới và khám phá văn hóa địa phương, có thể là cơ hội để bạn tham gia vào một dự án cộng đồng.",
+        "reversed": "Chuyến đi có thể gặp trục trặc do thiếu sự chuẩn bị, không chịu tìm hiểu về văn hóa địa phương hoặc gặp khó khăn trong việc giao tiếp và hòa nhập với môi trường mới."
+      },
+      "general": {
+        "upright": "Đây là thời điểm để hợp tác, xây dựng và học hỏi. Những nỗ lực của bạn sẽ được công nhận, đặt nền móng vững chắc cho những thành công lớn lao trong tương lai.",
+        "reversed": "Có thể có sự thiếu hụt trong hợp tác, chất lượng công việc chưa đạt chuẩn hoặc thiếu sự công nhận. Cần xem xét lại cách bạn tương tác và xây dựng."
       }
     },
     "planet": "Sao Hỏa",
@@ -14307,74 +15907,204 @@ window.TAROT_DB = [
     "reversed": "Kết thúc giai đoạn tăm tối. Sự phục hồi tài chính hoặc sức khỏe đang diễn ra. Bạn cuối cùng đã mở lòng đón nhận sự giúp đỡ từ người khác.",
     "aspects": {
       "love": {
-        "up": "Bị người yêu ruồng bỏ trong lúc khó khăn nhất, cảm giác cô đơn tột cùng. Hoặc cả hai cùng chật vật vì tiền bạc.",
-        "rev": "Cùng nhau vượt qua sóng gió nghèo khó, mối quan hệ dần được hàn gắn.",
-        "upright": "Sự lạnh nhạt, chia ly hoặc cảm giác bị đối phương bỏ rơi. Mối quan hệ đang trải qua giai đoạn khủng hoảng trầm trọng vì những gánh nặng tài chính, bệnh tật hoặc sự từ chối sự giúp đỡ từ nhau.",
-        "reversed": "Sự hàn gắn sau những sóng gió lớn. Vượt qua giai đoạn khó khăn tài chính hoặc bệnh tật giúp hai người gắn kết sâu sắc hơn. Người độc thân đang dần mở lòng trở lại sau thời gian dài cô lập."
+        "upright": "Tình yêu chìm trong lạnh lẽo, cảm giác bị bỏ rơi, cô đơn giữa cuộc tình, hoặc mối quan hệ đang trải qua giai đoạn khó khăn, thiếu thốn về cảm xúc hay vật chất. Có thể là cảm giác không xứng đáng được yêu.",
+        "reversed": "Ánh sáng le lói cuối đường hầm tình ái, tìm thấy sự an ủi sau giông bão, hàn gắn vết thương lòng, hoặc chấp nhận sự giúp đỡ để vun đắp lại mối quan hệ. Đôi khi là việc thoát khỏi một tình yêu đầy đau khổ."
       },
       "career": {
-        "up": "Mất việc, thất nghiệp kéo dài, công ty phá sản. Bị tẩy chay tại nơi làm việc.",
-        "rev": "Tìm được công việc mới sau thời gian dài thất nghiệp, kinh tế gia đình ổn định lại.",
-        "upright": "Sự mất việc, phá sản hoặc môi trường làm việc cô lập, xa lánh. Bạn cảm thấy bị bỏ rơi, không ai hỗ trợ và tương lai nghề nghiệp mịt mù, đầy ắp sự bất an.",
-        "reversed": "Sự trở lại với công việc sau thời gian thất nghiệp. Dần dần xây dựng lại uy tín và tìm được một môi trường mới chào đón bạn nồng nhiệt hơn. Mọi khó khăn đang lùi lại phía sau."
+        "upright": "Sự nghiệp gặp khó khăn, cảm giác bế tắc, thiếu thốn cơ hội hoặc bị bỏ rơi trong môi trường làm việc. Có thể là bạn đang đối mặt với thất nghiệp hoặc sự không ổn định.",
+        "reversed": "Dần thoát khỏi tình cảnh khó khăn, tìm thấy lối đi mới hoặc nhận được sự hỗ trợ để vượt qua thử thách. Sự nghiệp đang trên đà phục hồi và cải thiện."
       },
       "finance": {
-        "up": "Khủng hoảng tài chính nghiêm trọng, vỡ nợ, mất nhà cửa hoặc tài sản.",
-        "rev": "Trả được nợ, tìm ra lối thoát cho các khó khăn tiền bạc.",
-        "upright": "Khủng hoảng tài chính trầm trọng, nợ nần, mất mát tài sản hoặc sự thiếu thốn cùng cực. Cảm giác tuyệt vọng vì không có lối thoát và tự cách ly mình khỏi sự giúp đỡ của người khác.",
-        "reversed": "Sự trả được nợ nần, những khoản viện trợ hoặc một công việc mới giúp vực dậy nền tảng kinh tế. Khủng hoảng tài chính dần qua đi, mang lại cảm giác an tâm hơn."
+        "upright": "Tình hình tài chính eo hẹp, thiếu thốn tiền bạc, cảm giác lo lắng và bất an về tương lai. Có thể là bạn đang đối mặt với nợ nần hoặc mất mát tài sản.",
+        "reversed": "Dần thoát khỏi khó khăn tài chính, tìm thấy giải pháp cho nợ nần hoặc nhận được sự giúp đỡ. Tình hình tiền bạc đang có dấu hiệu cải thiện."
       },
       "health": {
-        "up": "Bệnh tật kéo dài, sức đề kháng kém do thiếu thốn vật chất hoặc căng thẳng quá độ.",
-        "rev": "Sức khỏe cải thiện rõ rệt, tìm được phương pháp điều trị hoặc bác sĩ tốt.",
-        "upright": "Bệnh tật dai dẳng, sự kiệt quệ thể chất do thiếu dinh dưỡng hoặc môi trường sống khắc nghiệt. Sự trầm cảm nặng nề, cảm giác đơn độc đang phá hủy hệ miễn dịch.",
-        "reversed": "Sự hồi phục thần kỳ sau một cơn bạo bệnh. Bạn đã tìm được phương pháp điều trị đúng đắn hoặc sự hỗ trợ từ các chuyên gia y tế, mang lại năng lượng sống mới."
+        "upright": "Sức khỏe suy yếu, cảm giác mệt mỏi, thiếu năng lượng hoặc đối mặt với bệnh tật. Cần sự chăm sóc và quan tâm đặc biệt.",
+        "reversed": "Sức khỏe đang dần hồi phục, tìm thấy phương pháp chữa trị phù hợp hoặc nhận được sự hỗ trợ để cải thiện thể trạng."
       },
       "spiritual": {
-        "up": "Cảm thấy bị thế giới và tâm linh ruồng bỏ. Bóng tối bao trùm.",
-        "rev": "Tìm lại được đức tin, ánh sáng của hy vọng chiếu rọi tâm hồn.",
-        "upright": "Một cuộc khủng hoảng đức tin tột độ. Bạn cảm thấy bị đấng tối cao bỏ rơi giữa cơn bão, linh hồn lạnh lẽo, tuyệt vọng và từ chối nhìn thấy những ánh sáng nhân đạo nhỏ bé xung quanh.",
-        "reversed": "Sự trở về với ánh sáng thiêng liêng. Bạn nhận ra những thử thách này là bài học để trưởng thành sự thấu cảm. Lòng biết ơn trỗi dậy khi bạn đón nhận tình yêu thương vô điều kiện của vũ trụ."
+        "upright": "Giai đoạn khủng hoảng tâm linh, cảm giác bị bỏ rơi bởi vũ trụ, thiếu thốn niềm tin hoặc lạc lối trong hành trình tìm kiếm ý nghĩa.",
+        "reversed": "Dần tìm thấy ánh sáng tâm linh, kết nối lại với bản ngã cao hơn hoặc nhận được sự khai sáng sau giai đoạn khó khăn."
       },
       "friendship": {
-        "upright": "Tình bằng hữu đang trải qua mùa đông khắc nghiệt, khi giá lạnh của thiếu thốn vật chất hay tinh thần bủa vây, khiến bạn cảm thấy lạc lõng giữa dòng người. Hãy nhìn sâu vào mắt những ai vẫn còn kề bên khi bão tố ập đến.",
-        "reversed": "Sau cơn bĩ cực, tình bạn được hàn gắn như những vết nứt tìm thấy ánh sáng. Những tri kỷ tưởng chừng đã quay lưng nay có thể trở lại, hoặc bạn tìm thấy những tâm hồn đồng điệu giữa gian nan."
+        "upright": "Tình bạn đang gặp sóng gió, cảm giác bị bỏ rơi hoặc thiếu thốn sự thấu hiểu từ bạn bè. Có thể là sự cô độc trong các mối quan hệ xã hội.",
+        "reversed": "Dần hàn gắn lại tình bạn, nhận được sự hỗ trợ từ bạn bè hoặc tìm thấy những mối quan hệ mới mang lại sự an ủi."
       },
       "pregnancy": {
-        "upright": "Bóng mây lo âu về tài chính hay sức khỏe đang giăng lối trên hành trình thiêng liêng. Cảm giác cô độc, thiếu vắng vòng tay sẻ chia trong chặng đường đón chào sinh linh bé bỏng.",
-        "reversed": "Ánh sáng hy vọng lóe lên sau giai đoạn khó khăn. Sức khỏe dần hồi phục, nguồn lực bất ngờ xuất hiện, xua tan nỗi lo tài chính, mở đường cho một thai kỳ an lành hơn."
+        "upright": "Giai đoạn mang thai có thể đối mặt với những lo lắng về tài chính, sức khỏe hoặc cảm giác cô đơn, thiếu thốn sự hỗ trợ.",
+        "reversed": "Dần vượt qua những khó khăn khi mang thai, nhận được sự hỗ trợ từ gia đình, bạn bè hoặc tìm thấy sự bình yên trong hành trình làm mẹ."
       },
       "gossip": {
-        "upright": "Bạn đang là tâm điểm của những lời đàm tiếu lạnh lùng, bị cộng đồng xa lánh hay phán xét vì hoàn cảnh ngặt nghèo. Cảm giác bị loại trừ khỏi vòng tròn xã hội bởi những lời thì thầm đầy ác ý.",
-        "reversed": "Cơn bão thị phi đã qua, bạn tìm thấy bình yên và không còn bận tâm đến những lời ra tiếng vào. Hoặc sự thật về hoàn cảnh của bạn được phơi bày, dập tắt ngọn lửa tin đồn."
+        "upright": "Bị cô lập hoặc cảm thấy bị tổn thương bởi những lời đồn đại, thiếu thốn sự tin tưởng và cảm giác bị bỏ rơi.",
+        "reversed": "Dần thoát khỏi ảnh hưởng của thị phi, tìm thấy sự thật hoặc nhận được sự hỗ trợ để vượt qua giai đoạn khó khăn này."
       },
       "legal": {
-        "upright": "Một cuộc chiến pháp lý đầy gian nan, hao tổn cả tiền bạc lẫn tinh thần. Cảm giác bất công, bị bỏ rơi bởi cán cân công lý, hoặc không đủ khả năng để tìm kiếm lẽ phải.",
-        "reversed": "Một lối thoát bất ngờ hé mở cho những rắc rối pháp lý tưởng chừng bế tắc. Dấu hiệu của sự hỗ trợ pháp lý, hoặc một thỏa thuận công bằng hơn đang đến."
+        "upright": "Vấn đề pháp lý gây ra khó khăn tài chính, cảm giác tuyệt vọng và cô độc khi phải đối mặt với hệ thống.",
+        "reversed": "Dần tìm thấy giải pháp cho vấn đề pháp lý, nhận được sự hỗ trợ từ luật sư hoặc tìm ra con đường thoát khỏi rắc rối."
       },
       "moving": {
-        "upright": "Cuộc chuyển dời đầy ám ảnh bởi sự thiếu thốn, buộc phải rời bỏ chốn cũ vì gánh nặng mưu sinh. Cảm giác mất mát, không có nơi nương tựa vững chãi, lạc lõng giữa miền đất lạ.",
-        "reversed": "Sau chuỗi ngày lang bạt, một bến đỗ an yên hơn đang chờ đợi. Hoặc sự giúp đỡ từ những người xung quanh sẽ đưa bạn đến một mái ấm tốt đẹp hơn."
+        "upright": "Chuyển nhà mang lại cảm giác bất an, thiếu thốn sự ổn định hoặc cảm giác lạc lõng ở nơi ở mới.",
+        "reversed": "Dần thích nghi với môi trường mới, tìm thấy sự hỗ trợ từ hàng xóm hoặc nhận được sự giúp đỡ để ổn định cuộc sống."
       },
       "pet": {
-        "upright": "Người bạn bốn chân đang gặp vấn đề sức khỏe nghiêm trọng, đòi hỏi sự hy sinh lớn về tài chính và tinh thần. Cảm giác bất lực khi không thể lo cho chúng đầy đủ trong cơn hoạn nạn.",
-        "reversed": "Tìm thấy phương thuốc diệu kỳ cho thú cưng, hoặc nhận được sự hỗ trợ từ cộng đồng yêu thương động vật. Tình hình tài chính cải thiện, giúp bạn gánh vác trách nhiệm chăm sóc tốt hơn."
+        "upright": "Thú cưng có thể gặp vấn đề về sức khỏe, hoặc bạn đang gặp khó khăn trong việc chăm sóc chúng do thiếu thốn tài chính.",
+        "reversed": "Thú cưng đang dần hồi phục sức khỏe, hoặc bạn tìm được cách để chăm sóc chúng tốt hơn sau giai đoạn khó khăn."
       },
       "dream": {
-        "upright": "Giấc mộng chìm trong bóng tối của sự mất mát, nghèo đói và cô độc. Những hình ảnh lạnh lẽo, hoang tàn ám ảnh cõi vô thức, phản chiếu nỗi sợ hãi sâu thẳm trong lòng.",
-        "reversed": "Ánh sáng hy vọng rạng rỡ trong giấc mơ, báo hiệu hồi kết cho giai đoạn khó khăn. Hình ảnh được che chở, tìm thấy lối thoát, hoặc sự ấm áp trở lại sưởi ấm tâm hồn."
+        "upright": "Giấc mơ phản ánh nỗi sợ hãi về sự thiếu thốn, cô đơn hoặc cảm giác bị bỏ rơi trong cuộc sống hiện tại.",
+        "reversed": "Giấc mơ mang đến thông điệp về sự phục hồi, tìm thấy lối thoát hoặc nhận được sự hỗ trợ để vượt qua khó khăn."
       },
       "past_life": {
-        "upright": "Ở một dòng thời gian xa xưa, linh hồn bạn từng trải qua kiếp sống đầy gian truân, bị xã hội ruồng bỏ. Dấu vết của sự cô đơn, mất mát từ tiền kiếp vẫn còn in hằn trong tâm thức hiện tại.",
-        "reversed": "Những bài học về sự kiên cường và khả năng vượt lên nghịch cảnh từ tiền kiếp đang trỗi dậy. Bạn đang chữa lành những vết thương cũ, tái tạo niềm tin và sức mạnh nội tại."
+        "upright": "Dấu ấn từ kiếp trước mang đến cảm giác thiếu thốn, cô đơn hoặc những bài học về sự mất mát vẫn còn ảnh hưởng đến hiện tại.",
+        "reversed": "Dần giải mã và chữa lành những vết thương từ kiếp trước, tìm thấy sự bình yên và thoát khỏi những gánh nặng cũ."
       },
       "karma": {
-        "upright": "Đây là lúc gánh chịu quả báo cho những hành động vô tâm, thiếu trách nhiệm trong quá khứ, đặc biệt là sự thờ ơ trước nỗi đau của người khác. Nghiệp quả đang đòi hỏi sự chuộc lỗi.",
-        "reversed": "Dòng chảy nghiệp quả đang chuyển mình theo hướng tích cực. Bằng cách dũng cảm đối mặt và vượt qua thử thách, bạn đang thanh tẩy món nợ cũ, mở ra cánh cửa cho lòng trắc ẩn và sự giúp đỡ."
+        "upright": "Nghiệp quả đang mang đến những thử thách về sự thiếu thốn, mất mát hoặc cảm giác bị bỏ rơi để bạn học hỏi.",
+        "reversed": "Dần vượt qua nghiệp quả, tìm thấy sự chuộc lỗi hoặc nhận được sự hỗ trợ để cân bằng lại năng lượng."
       },
       "lost_item": {
-        "upright": "Món đồ quý giá đã thất lạc trong hoàn cảnh éo le, hoặc bạn không còn đủ sức lực để tìm kiếm. Cảm giác bất lực, không còn chút hy vọng nào để tìm lại vật đã mất.",
-        "reversed": "Một tia hy vọng nhỏ nhoi hé lộ, món đồ có thể được tìm thấy nhờ sự giúp đỡ của một người bất ngờ, hoặc một sự tình cờ may mắn. Hoặc bạn học cách chấp nhận và buông bỏ."
+        "upright": "Vật phẩm bị mất gây ra cảm giác thiếu thốn, bất an và khó khăn trong việc tìm lại.",
+        "reversed": "Vật phẩm có thể được tìm thấy sau một thời gian dài, hoặc bạn sẽ chấp nhận mất mát và tìm thấy sự bình yên."
+      },
+      "ex": {
+        "upright": "Bóng ma của quá khứ vẫn còn đeo bám, nỗi đau chia ly vẫn hiện hữu, cảm giác mất mát và hối tiếc về một tình yêu đã qua. Có thể là sự thiếu thốn tình cảm từ mối quan hệ cũ vẫn ảnh hưởng đến hiện tại.",
+        "reversed": "Buông bỏ gánh nặng từ mối tình cũ, tìm thấy sự bình yên và chấp nhận. Có thể là cơ hội hàn gắn nếu cả hai cùng nỗ lực, hoặc dứt khoát chấm dứt để tiến về phía trước."
+      },
+      "current_love": {
+        "upright": "Mối quan hệ hiện tại đang đối mặt với thử thách khắc nghiệt, thiếu thốn sự ấm áp, cảm giác lạc lõng hoặc một trong hai người đang cảm thấy cô đơn, bị bỏ rơi ngay trong chính tình yêu của mình. Có thể là sự thiếu hụt về tài chính gây áp lực.",
+        "reversed": "Dấu hiệu của sự phục hồi, cùng nhau vượt qua khó khăn. Tìm thấy sự hỗ trợ và thấu hiểu lẫn nhau sau giông bão. Mối quan hệ có thể được củng cố sau khi đối mặt với thử thách."
+      },
+      "ambiguous": {
+        "upright": "Mối quan hệ mập mờ mang đến cảm giác bất an, thiếu thốn sự rõ ràng và cam kết, khiến bạn cảm thấy lạc lõng và không được trân trọng.",
+        "reversed": "Dần tìm thấy lối thoát khỏi sự mập mờ, có thể là bạn sẽ dũng cảm đối diện để tìm câu trả lời, hoặc chấp nhận thực tế để buông bỏ. Một sự rõ ràng, dù đau đớn, đang đến."
+      },
+      "crush": {
+        "upright": "Nỗi lòng thầm kín đầy cô đơn, cảm giác không đủ tự tin để bày tỏ, hoặc tin rằng tình cảm của mình sẽ không được đáp lại. Có thể là sự tự ti khiến bạn không dám tiến tới.",
+        "reversed": "Dũng cảm bước ra khỏi vỏ bọc, tìm kiếm cơ hội để kết nối, hoặc chấp nhận rằng đây không phải là thời điểm phù hợp và tìm cách vượt qua. Có thể là bạn sẽ nhận ra giá trị của mình."
+      },
+      "future_love": {
+        "upright": "Tương lai tình yêu có vẻ ảm đạm, cảm giác cô đơn và lo lắng về việc tìm được một nửa của mình. Có thể là một giai đoạn mà bạn cần tập trung vào việc chữa lành bản thân trước khi tình yêu đến.",
+        "reversed": "Dấu hiệu của sự hồi phục và hy vọng mới. Sau một giai đoạn khó khăn, tình yêu đích thực có thể xuất hiện khi bạn đã sẵn sàng mở lòng và chấp nhận sự giúp đỡ từ vũ trụ."
+      },
+      "someone": {
+        "upright": "Người này đang trải qua giai đoạn khó khăn, cảm thấy bị bỏ rơi hoặc gặp phải thiếu thốn về mặt vật chất/tinh thần. Họ có thể đang cần sự giúp đỡ nhưng không biết cách tìm kiếm.",
+        "reversed": "Người này đang dần thoát khỏi khó khăn, tìm thấy sự hỗ trợ hoặc tự mình tìm ra giải pháp. Họ đang trên con đường hồi phục và xây dựng lại cuộc sống."
+      },
+      "marriage": {
+        "upright": "Hôn nhân đang trải qua thử thách nghiệt ngã, thiếu thốn sự thấu hiểu, tài chính eo hẹp hoặc cảm giác cô đơn ngay trong chính tổ ấm của mình. Cần sự nỗ lực lớn để vượt qua.",
+        "reversed": "Dấu hiệu của sự hàn gắn, cùng nhau vượt qua khủng hoảng. Tìm thấy giải pháp cho những vấn đề tồn đọng, hoặc chấp nhận sự giúp đỡ từ bên ngoài để cứu vãn mối quan hệ."
+      },
+      "conflict": {
+        "upright": "Xung đột đẩy bạn vào tình cảnh cô độc, cảm giác bị cô lập và không tìm thấy lối thoát. Vấn đề có thể liên quan đến sự thiếu thốn tài chính hoặc cảm xúc.",
+        "reversed": "Dần tìm thấy con đường giải quyết xung đột, chấp nhận đối thoại hoặc tìm kiếm sự hòa giải. Có thể là bạn sẽ thoát khỏi vòng xoáy mâu thuẫn nhờ sự giúp đỡ."
+      },
+      "breakup": {
+        "upright": "Chia tay mang đến nỗi đau sâu sắc, cảm giác mất mát, thiếu thốn và bị bỏ rơi hoàn toàn. Một giai đoạn u ám, cần thời gian dài để chữa lành.",
+        "reversed": "Dần hồi phục sau chia tay, chấp nhận thực tế và tìm cách vượt qua nỗi đau. Có thể là bạn sẽ tìm thấy sự hỗ trợ từ bạn bè, gia đình để hàn gắn vết thương lòng."
+      },
+      "long_distance": {
+        "upright": "Mối quan hệ xa cách mang lại cảm giác cô đơn, thiếu thốn sự gần gũi và sự hỗ trợ, dễ rơi vào trạng thái hoài nghi và bất an.",
+        "reversed": "Tìm thấy cách để kết nối và duy trì mối quan hệ dù xa cách, chấp nhận thực tại và tìm ra những giải pháp sáng tạo để vượt qua khó khăn."
+      },
+      "jealousy": {
+        "upright": "Ghen tuông nảy sinh từ sự bất an sâu sắc, cảm giác thiếu thốn tình cảm hoặc sự tự ti, đẩy bạn vào trạng thái cô độc và nghi ngờ.",
+        "reversed": "Dần thoát khỏi vòng xoáy ghen tuông, tìm thấy sự tự tin và chấp nhận bản thân. Có thể là bạn sẽ tìm thấy sự hỗ trợ để giải quyết gốc rễ của sự bất an."
+      },
+      "self_love": {
+        "upright": "Thiếu thốn tình yêu bản thân, cảm giác không xứng đáng, tự ti và cô độc ngay trong chính tâm hồn mình. Một giai đoạn cần sự thấu hiểu và chữa lành sâu sắc.",
+        "reversed": "Dần tìm lại giá trị bản thân, chấp nhận những khuyết điểm và bắt đầu hành trình yêu thương chính mình. Có thể là bạn sẽ tìm kiếm sự giúp đỡ để vượt qua những tổn thương."
+      },
+      "job_search": {
+        "upright": "Quá trình tìm việc đầy gian nan, cảm giác bị từ chối, thiếu thốn cơ hội và sự tuyệt vọng. Có thể là bạn đang cảm thấy lạc lõng và không tìm thấy hướng đi.",
+        "reversed": "Dấu hiệu của sự hồi phục, tìm thấy cơ hội việc làm sau một thời gian dài khó khăn. Chấp nhận những lời khuyên hữu ích để có được vị trí phù hợp."
+      },
+      "promotion": {
+        "upright": "Cơ hội thăng tiến xa vời, cảm giác bị bỏ qua hoặc không được công nhận. Có thể là bạn đang trải qua giai đoạn khó khăn và không có đủ nguồn lực để cạnh tranh.",
+        "reversed": "Sau một thời gian khó khăn, cơ hội thăng tiến có thể đến khi bạn đã chứng minh được năng lực và nhận được sự hỗ trợ cần thiết."
+      },
+      "business": {
+        "upright": "Doanh nghiệp đang đối mặt với khủng hoảng, thiếu hụt tài chính, hoặc cảm giác cô độc trong việc gồng gánh trách nhiệm. Cần sự nỗ lực phi thường để vượt qua.",
+        "reversed": "Dần tìm thấy lối thoát cho doanh nghiệp, nhận được sự hỗ trợ tài chính hoặc tìm ra giải pháp sáng tạo để phục hồi. Một giai đoạn cải thiện đang đến."
+      },
+      "colleague": {
+        "upright": "Mối quan hệ với đồng nghiệp lạnh nhạt, cảm giác bị cô lập hoặc không nhận được sự giúp đỡ khi cần. Có thể là bạn đang cảm thấy lạc lõng trong môi trường làm việc.",
+        "reversed": "Dần tìm thấy sự kết nối và hỗ trợ từ đồng nghiệp, hòa nhập hơn vào tập thể. Có thể là bạn sẽ nhận được sự giúp đỡ bất ngờ từ những người xung quanh."
+      },
+      "career_change": {
+        "upright": "Quyết định thay đổi sự nghiệp đầy rẫy bất an, cảm giác thiếu thốn định hướng và lo sợ về tương lai không chắc chắn.",
+        "reversed": "Tìm thấy con đường mới sau giai đoạn khó khăn, nhận được sự hỗ trợ để chuyển đổi sự nghiệp. Dần vượt qua nỗi sợ hãi và tìm thấy hướng đi phù hợp."
+      },
+      "freelance": {
+        "upright": "Công việc tự do gặp khó khăn, thiếu thốn nguồn thu nhập ổn định, cảm giác cô độc và bất an về tương lai.",
+        "reversed": "Dần tìm thấy sự ổn định trong công việc tự do, nhận được sự hỗ trợ hoặc tìm ra những dự án mới mang lại thu nhập tốt hơn."
+      },
+      "interview": {
+        "upright": "Buổi phỏng vấn mang lại cảm giác lo lắng, thiếu tự tin và có thể là sự thất vọng về kết quả không như mong đợi.",
+        "reversed": "Sau những nỗ lực, bạn có thể nhận được cơ hội việc làm sau buổi phỏng vấn. Dần lấy lại sự tự tin và thể hiện tốt hơn."
+      },
+      "investment": {
+        "upright": "Đầu tư gặp rủi ro, thua lỗ hoặc không mang lại kết quả như mong đợi, gây ra cảm giác lo lắng và thiếu thốn.",
+        "reversed": "Dần tìm thấy lối thoát cho các khoản đầu tư, có thể là bạn sẽ cắt lỗ hoặc tìm được cơ hội phục hồi sau giai đoạn khó khăn."
+      },
+      "debt": {
+        "upright": "Nợ nần chồng chất, cảm giác bị gánh nặng đè nén, thiếu thốn khả năng chi trả và sự tuyệt vọng.",
+        "reversed": "Dần tìm thấy cách giải quyết nợ nần, nhận được sự hỗ trợ hoặc tìm ra kế hoạch trả nợ hiệu quả. Gánh nặng đang dần được tháo gỡ."
+      },
+      "savings": {
+        "upright": "Tiền tiết kiệm hao hụt, cảm giác bất an về tài chính và lo lắng về tương lai không ổn định.",
+        "reversed": "Dần phục hồi lại khoản tiết kiệm, tìm thấy cách để quản lý tài chính hiệu quả hơn hoặc nhận được nguồn thu nhập bất ngờ."
+      },
+      "luck_money": {
+        "upright": "Vận may tiền bạc đang ở mức thấp, cảm giác thiếu thốn và khó khăn trong việc thu hút tài lộc.",
+        "reversed": "Vận may tiền bạc đang dần trở lại, tìm thấy cơ hội để cải thiện tài chính sau giai đoạn khó khăn."
+      },
+      "mental": {
+        "upright": "Sức khỏe tinh thần bất ổn, cảm giác cô đơn, trầm cảm, lo âu hoặc bị bỏ rơi trong chính tâm hồn mình. Cần sự thấu hiểu và giúp đỡ chuyên nghiệp.",
+        "reversed": "Dần thoát khỏi trạng thái tinh thần tiêu cực, tìm thấy sự bình yên và nhận được sự hỗ trợ để chữa lành tâm hồn."
+      },
+      "energy": {
+        "upright": "Năng lượng cạn kiệt, cảm giác uể oải, thiếu động lực và khó khăn trong việc duy trì hoạt động hàng ngày.",
+        "reversed": "Năng lượng đang dần hồi phục, tìm thấy nguồn cảm hứng mới và có thể nhận được sự hỗ trợ để tái tạo sức lực."
+      },
+      "family": {
+        "upright": "Gia đình đang trải qua giai đoạn khó khăn, thiếu thốn sự kết nối, hoặc cảm giác cô đơn ngay trong chính tổ ấm. Có thể là sự chia ly hoặc mâu thuẫn.",
+        "reversed": "Dần tìm thấy sự hòa hợp và kết nối lại trong gia đình, cùng nhau vượt qua khó khăn. Có thể nhận được sự hỗ trợ từ người thân để hàn gắn."
+      },
+      "diet": {
+        "upright": "Chế độ ăn uống thiếu khoa học, cơ thể thiếu chất dinh dưỡng, hoặc cảm giác mệt mỏi do ăn uống không điều độ.",
+        "reversed": "Dần tìm thấy chế độ ăn uống phù hợp, cải thiện sức khỏe thông qua dinh dưỡng hoặc nhận được lời khuyên hữu ích về chế độ ăn."
+      },
+      "study": {
+        "upright": "Việc học gặp khó khăn, cảm giác bế tắc, thiếu động lực hoặc không nhận được sự hỗ trợ cần thiết.",
+        "reversed": "Dần tìm thấy phương pháp học tập hiệu quả, nhận được sự giúp đỡ từ thầy cô, bạn bè để vượt qua thử thách."
+      },
+      "study_abroad": {
+        "upright": "Du học mang lại cảm giác cô đơn, nhớ nhà, thiếu thốn sự hỗ trợ và khó khăn trong việc hòa nhập.",
+        "reversed": "Dần thích nghi với môi trường mới, tìm thấy sự hỗ trợ từ bạn bè quốc tế hoặc nhận được sự giúp đỡ để vượt qua khó khăn ban đầu."
+      },
+      "self": {
+        "upright": "Bản thân đang ở trong tình trạng thiếu thốn, cảm giác không đủ đầy, tự ti và cô độc. Cần sự tự vấn và chữa lành sâu sắc.",
+        "reversed": "Dần tìm lại giá trị bản thân, chấp nhận những khuyết điểm và bắt đầu hành trình yêu thương chính mình. Tìm thấy sự hỗ trợ để phát triển bản thân."
+      },
+      "purpose": {
+        "upright": "Cảm giác lạc lối, thiếu thốn mục đích sống, không tìm thấy ý nghĩa trong những gì mình đang làm.",
+        "reversed": "Dần tìm thấy hướng đi mới, khám phá lại mục đích sống hoặc nhận được sự khai sáng để định hình lại con đường."
+      },
+      "shadow_self": {
+        "upright": "Đối mặt với những khía cạnh đen tối, cảm giác bị bỏ rơi bởi chính bản thân, hoặc những thiếu sót đang gây ra đau khổ.",
+        "reversed": "Dần chấp nhận và tích hợp những khía cạnh bóng tối của bản thân, tìm thấy sự chữa lành và chuyển hóa sau khi đối diện với chúng."
+      },
+      "decision": {
+        "upright": "Quyết định trong tình cảnh khó khăn, thiếu thốn thông tin hoặc cảm giác cô độc khi phải tự mình đưa ra lựa chọn.",
+        "reversed": "Dần tìm thấy sự rõ ràng, nhận được lời khuyên hữu ích để đưa ra quyết định hoặc thoát khỏi tình trạng bế tắc."
+      },
+      "travel": {
+        "upright": "Chuyến đi có thể gặp khó khăn, thiếu thốn tài chính hoặc cảm giác cô đơn, lạc lõng ở nơi xa lạ.",
+        "reversed": "Dần vượt qua những trở ngại trong chuyến đi, tìm thấy sự giúp đỡ bất ngờ hoặc có những trải nghiệm đáng giá sau khó khăn."
+      },
+      "general": {
+        "upright": "Một giai đoạn đầy thử thách, cảm giác thiếu thốn, cô đơn và bị bỏ rơi. Có thể là những khó khăn về vật chất hoặc tinh thần đang bao trùm.",
+        "reversed": "Dần thoát khỏi khó khăn, tìm thấy sự giúp đỡ và ánh sáng cuối đường hầm. Một giai đoạn phục hồi và cải thiện đang đến."
       }
     },
     "planet": "Sao Thủy",
@@ -14412,74 +16142,204 @@ window.TAROT_DB = [
     "reversed": "Sự bất bình đẳng về tài chính. Một bên đang lợi dụng lòng tốt của bên kia, hoặc các khoản nợ không được hoàn trả. Sự keo kiệt hoặc giúp đỡ có điều kiện.",
     "aspects": {
       "love": {
-        "up": "Một mối quan hệ cân bằng, hai bên cùng chăm sóc và hỗ trợ lẫn nhau. Một người có thể chu cấp tài chính cho người kia một cách vui vẻ.",
-        "rev": "Tình yêu dựa trên sự lợi dụng vật chất (đào mỏ), hoặc sự bất bình đẳng quyền lực trong nhà.",
-        "upright": "Một mối quan hệ cân bằng tuyệt vời, nơi cả hai cùng san sẻ trách nhiệm, tài chính và tình cảm một cách công bằng. Sự hỗ trợ lẫn nhau vô điều kiện giúp tình yêu ngày càng đơm hoa kết trái.",
-        "reversed": "Sự mất cân bằng quyền lực. Một người chi trả mọi thứ và trở thành kẻ kiểm soát, hoặc một kẻ bòn rút tình cảm và vật chất của đối phương. Một tình yêu vụ lợi, thiếu sự tôn trọng bình đẳng."
+        "upright": "Tình yêu được vun đắp từ sự sẻ chia chân thành và lòng nhân ái, nơi cả hai biết cho đi và nhận lại một cách cân bằng, tạo nên một mối quan hệ đầy ắp sự hỗ trợ và lòng biết ơn.",
+        "reversed": "Tình yêu mất đi sự cân bằng, một bên cho quá nhiều, một bên nhận quá ít, hoặc sự hào phóng bị lợi dụng, dẫn đến cảm giác bất công và sự oán giận âm ỉ."
       },
       "career": {
-        "up": "Được sếp thưởng, tăng lương hoặc nhận được sự hướng dẫn tận tình từ cấp trên. Môi trường công bằng.",
-        "rev": "Bị bóc lột sức lao động, trả lương không xứng đáng. Từ chối giúp đỡ đồng nghiệp.",
-        "upright": "Môi trường làm việc được đền đáp xứng đáng, được tăng lương, thưởng hoặc nhận được sự bảo trợ từ một cấp trên tốt bụng. Bạn có thể là người hướng dẫn, chia sẻ kiến thức cho nhân viên mới.",
-        "reversed": "Sự bóc lột sức lao động, làm việc vất vả nhưng không được trả công xứng đáng. Sự thiên vị, bất công trong công sở hoặc việc bạn bị đồng nghiệp lợi dụng lòng tốt."
+        "upright": "Sự nghiệp thăng tiến nhờ tinh thần hợp tác, sự hỗ trợ từ đồng nghiệp hoặc cấp trên, và khả năng chia sẻ kiến thức, kỹ năng một cách hào phóng.",
+        "reversed": "Sự nghiệp gặp trở ngại do môi trường làm việc bất công, cảm giác bị lợi dụng công sức, hoặc sự keo kiệt trong việc chia sẻ thông tin, gây ra sự chia rẽ."
       },
       "finance": {
-        "up": "Nhận được khoản vay ngân hàng, học bổng hoặc tiền thưởng. Sự thịnh vượng được san sẻ.",
-        "rev": "Cho bạn bè vay tiền và bị quỵt, hoặc bạn đang gặp khó khăn nhưng không ai giúp đỡ.",
-        "upright": "Sự dồi dào tài chính cho phép bạn hào phóng chia sẻ, đóng góp từ thiện. Hoặc bạn đang nhận được một khoản vay, một sự giúp đỡ tài chính kịp thời để giải quyết khó khăn.",
-        "reversed": "Những khoản nợ khó đòi, các vấn đề rắc rối liên quan đến vay mượn. Sự từ chối giúp đỡ tài chính hoặc những trò lừa đảo ngụy trang dưới danh nghĩa từ thiện."
+        "upright": "Tình hình tài chính ổn định nhờ sự quản lý khôn ngoan, có thể nhận được sự hỗ trợ tài chính hoặc bạn đang giúp đỡ người khác về tiền bạc.",
+        "reversed": "Tình hình tài chính bất ổn, có thể do chi tiêu quá đà, bị lợi dụng tiền bạc, hoặc sự keo kiệt gây cản trở các cơ hội tài chính."
       },
       "health": {
-        "up": "Nhận được sự chăm sóc y tế tuyệt vời, có thể là được hỗ trợ viện phí.",
-        "rev": "Không đủ tiền chi trả các dịch vụ chăm sóc sức khỏe tốt.",
-        "upright": "Việc tìm kiếm sự giúp đỡ từ các chuyên gia y tế hoặc những người có kinh nghiệm sẽ mang lại kết quả tuyệt vời. Sự chia sẻ những kiến thức sức khỏe giúp ích cho cả cộng đồng.",
-        "reversed": "Sự phớt lờ các lời khuyên y tế, hoặc sự tốn kém tài chính vào những phương pháp chữa bệnh lừa đảo. Cần cân nhắc lại cách bạn đang đầu tư cho sức khỏe của mình."
+        "upright": "Sức khỏe được cải thiện nhờ sự chăm sóc cân bằng, có thể bạn đang nhận được sự hỗ trợ từ chuyên gia hoặc bạn đang chia sẻ kinh nghiệm sống khỏe với người khác.",
+        "reversed": "Sức khỏe suy giảm do thiếu sự quan tâm đúng mức, cảm giác bị bỏ bê hoặc do sự keo kiệt trong việc đầu tư cho bản thân."
       },
       "spiritual": {
-        "up": "Sự cho đi vô điều kiện. Nhận ra luật nhân quả của tiền bạc (cho đi sẽ nhận lại).",
-        "rev": "Làm từ thiện chỉ để đánh bóng tên tuổi, khoe khoang hoặc mong cầu báo đáp.",
-        "upright": "Thấu hiểu quy luật nhân quả (Karma) vĩ đại của vũ trụ: những gì bạn cho đi với trái tim thuần khiết sẽ quay trở lại nhân lên gấp bội. Sự giác ngộ thông qua lòng vị tha.",
-        "reversed": "Sự ngạo mạn tâm linh, tự cho mình là người cứu rỗi kẻ khác. Việc làm từ thiện chỉ để thỏa mãn cái tôi và mua chuộc danh tiếng, chối bỏ bản chất thực sự của lòng từ bi."
+        "upright": "Con đường tâm linh được soi sáng bởi lòng nhân ái, sự sẻ chia và lòng biết ơn, bạn tìm thấy ý nghĩa trong việc giúp đỡ người khác.",
+        "reversed": "Con đường tâm linh bị cản trở bởi sự ích kỷ, tham lam, hoặc cảm giác bị lợi dụng trong các mối quan hệ tâm linh, mất đi sự chân thật."
       },
       "friendship": {
-        "upright": "Một tình bạn nở rộ trên nền đất của sự sẻ chia và lòng hào hiệp. Có thể bạn đang là bàn tay nâng đỡ, hoặc chính bạn đang đón nhận ân huệ chân thành từ một tri kỷ.",
-        "reversed": "Sự mất cân bằng đang gặm nhấm tình bằng hữu, khi cán cân cho và nhận nghiêng lệch. Hãy cảnh giác với những mối quan hệ lợi dụng, hoặc sự giúp đỡ mang theo điều kiện ngầm."
+        "upright": "Tình bạn bền vững nhờ sự hỗ trợ lẫn nhau, sự sẻ chia chân thành và lòng biết ơn, nơi cả hai cùng vun đắp bằng tình cảm và sự thấu hiểu.",
+        "reversed": "Tình bạn rạn nứt do sự bất công, một bên cảm thấy bị lợi dụng hoặc sự keo kiệt trong việc chia sẻ, gây ra sự xa cách."
       },
       "pregnancy": {
-        "upright": "Hành trình mang thai được ban phước bởi sự hỗ trợ tài chính và tinh thần dồi dào. Có thể là vòng tay ấm áp của gia đình, bạn bè, hoặc sự che chở từ các tổ chức nhân ái.",
-        "reversed": "Sự thiếu thốn hỗ trợ đang đè nặng, hoặc cảm giác bị lợi dụng trong giai đoạn nhạy cảm này. Cần cẩn trọng với những lời hứa hẹn hão huyền hay sự giúp đỡ có ẩn ý."
+        "upright": "Tin vui mang thai được đón nhận với sự hỗ trợ từ gia đình, bạn bè, hoặc bạn đang nhận được sự chăm sóc chu đáo từ người thân yêu.",
+        "reversed": "Mang thai có thể gặp khó khăn do thiếu sự hỗ trợ, cảm giác bị bỏ rơi hoặc phải gánh vác quá nhiều gánh nặng một mình."
       },
       "gossip": {
-        "upright": "Bạn đứng lên bảo vệ một tâm hồn đang bị bủa vây bởi thị phi, hoặc chính những hành động thiện lương của bạn đang tỏa sáng, dập tắt mọi lời đồn ác ý.",
-        "reversed": "Những nghĩa cử cao đẹp của bạn đang bị bóp méo, xuyên tạc thành động cơ vụ lợi. Hãy thận trọng khi chia sẻ thông tin, tránh trở thành nạn nhân của những kẻ thao túng."
+        "upright": "Có thể bạn đang là người giúp đỡ dàn xếp một hiểu lầm, hoặc bạn nhận được sự hỗ trợ để vượt qua tin đồn không hay bằng sự minh bạch.",
+        "reversed": "Tin đồn lan truyền do sự ích kỷ, ghen tị hoặc cố ý bôi nhọ danh dự người khác, gây ra sự bất công và tổn thương."
       },
       "legal": {
-        "upright": "Cán cân công lý đang nghiêng về phía bạn, một phán quyết công bằng đang đến. Hoặc bạn nhận được sự hỗ trợ pháp lý cần thiết để giải quyết vấn đề, mang lại sự cân bằng.",
-        "reversed": "Sự bất công đang hiển hiện trong pháp luật, hoặc bạn đang bị lợi dụng trong một cuộc chiến pháp lý. Hãy soi xét kỹ lưỡng các điều khoản, tránh bị thao túng."
+        "upright": "Vấn đề pháp lý được giải quyết một cách công bằng, có thể có sự hỗ trợ từ luật sư hoặc một thỏa thuận hợp lý giữa các bên.",
+        "reversed": "Vấn đề pháp lý phức tạp do sự bất công, cảm giác bị lợi dụng hoặc một bên cố gắng chiếm đoạt lợi ích không chính đáng."
       },
       "moving": {
-        "upright": "Vũ trụ ban tặng sự hỗ trợ tài chính hoặc vật chất để bạn an cư lạc nghiệp. Có thể là một khoản vay ưu đãi, một người cho thuê nhà tốt bụng, hoặc vòng tay giúp đỡ từ những người thân yêu.",
-        "reversed": "Đối mặt với khó khăn tài chính khi di chuyển, hoặc bị lừa gạt trong các giao dịch nhà đất. Hãy cảnh giác với những lời đề nghị quá hấp dẫn, thiếu minh bạch."
+        "upright": "Việc chuyển nhà diễn ra suôn sẻ nhờ sự giúp đỡ của bạn bè, người thân, hoặc bạn nhận được sự hỗ trợ tài chính để ổn định nơi ở mới.",
+        "reversed": "Việc chuyển nhà gặp khó khăn do thiếu sự hỗ trợ, cảm giác bị bỏ rơi hoặc phải gánh vác quá nhiều gánh nặng một mình."
       },
       "pet": {
-        "upright": "Bạn đang dang tay cứu giúp một sinh linh bé nhỏ bị bỏ rơi, hoặc nhận được sự hỗ trợ để chăm sóc người bạn bốn chân của mình. Đây là lá bài của lòng trắc ẩn và sự sẻ chia đối với vạn vật.",
-        "reversed": "Cẩn trọng khi nhận nuôi thú cưng mà chưa đủ điều kiện chăm sóc. Hoặc có thể bạn đang bị lợi dụng bởi những kẻ trục lợi từ lòng tốt của bạn dành cho động vật."
+        "upright": "Mối quan hệ với thú cưng đầy ắp tình yêu thương và sự chăm sóc chu đáo, bạn đang cho đi và nhận lại sự gắn kết chân thành.",
+        "reversed": "Mối quan hệ với thú cưng có thể gặp vấn đề do thiếu sự quan tâm, bỏ bê, hoặc cảm giác bị lợi dụng từ việc nuôi dưỡng."
       },
       "dream": {
-        "upright": "Giấc mộng của sự ban phước, nhận được ân huệ hoặc quà tặng từ một bàn tay vô hình. Phản ánh khao khát được sẻ chia, hoặc lòng biết ơn sâu sắc với những gì mình đang có.",
-        "reversed": "Giấc mơ cảnh báo về sự mất cân bằng, cảm giác bị lợi dụng hoặc gánh nặng nợ nần. Có thể là nỗi sợ hãi không thể trả ơn, hoặc cảm thấy bị áp lực bởi sự giúp đỡ của người khác."
+        "upright": "Giấc mơ mang thông điệp về sự sẻ chia, lòng nhân ái, hoặc bạn đang được hướng dẫn để giúp đỡ người khác hoặc đón nhận sự giúp đỡ.",
+        "reversed": "Giấc mơ phản ánh sự bất công, cảm giác bị lợi dụng, hoặc sự keo kiệt trong việc theo đuổi ước mơ, khiến bạn mất đi động lực."
       },
       "past_life": {
-        "upright": "Ở kiếp trước, linh hồn bạn từng là một nhà hảo tâm, một người luôn dang tay giúp đỡ kẻ yếu thế. Nghiệp tốt từ tiền kiếp đang trổ hoa, mang lại sự hỗ trợ và phước lành trong kiếp này.",
-        "reversed": "Tiền kiếp có thể bạn đã từng lợi dụng người khác hoặc thiếu lòng biết ơn. Bài học về sự công bằng và lòng tri ân đang được lặp lại, để bạn học cách cho và nhận đúng đắn."
+        "upright": "Dấu ấn từ kiếp trước về việc bạn từng là người hào phóng, nhà hảo tâm, hoặc từng nhận được sự giúp đỡ quan trọng từ người khác.",
+        "reversed": "Dấu ấn từ kiếp trước về việc bạn từng bị lợi dụng, bị đối xử bất công, hoặc bạn từng là người keo kiệt, ích kỷ."
       },
       "karma": {
-        "upright": "Đây là thời điểm của sự cân bằng nghiệp quả, khi những hạt giống thiện lành gieo trồng trong quá khứ đang đơm hoa kết trái. Bạn đang gieo mầm cho một tương lai đầy phước lành bằng lòng từ bi.",
-        "reversed": "Nghiệp quả về sự thiếu công bằng hoặc hành động lợi dụng đang đến hồi tính sổ. Hãy nhìn lại cách bạn cho và nhận, đảm bảo không có sự thao túng hay tham lam ẩn giấu."
+        "upright": "Nghiệp quả tốt đẹp từ những hành động hào phóng, lòng nhân ái và sự sẻ chia mà bạn đã gieo trồng, giờ là lúc gặt hái thành quả xứng đáng.",
+        "reversed": "Nghiệp quả xấu từ những hành động ích kỷ, bất công hoặc việc lợi dụng người khác, giờ là lúc đối mặt với hậu quả và học bài học."
       },
       "lost_item": {
-        "upright": "Món đồ thất lạc có thể được tìm thấy nhờ sự giúp đỡ của người khác, hoặc được trả lại một cách bất ngờ. Hoặc bạn sẽ tìm thấy nó khi đang dang tay giúp đỡ một ai đó.",
-        "reversed": "Món đồ bị mất có thể liên quan đến một sự cho vay không rõ ràng, hoặc bị người khác giữ lại với ý đồ xấu. Hãy cẩn trọng với những thỏa thuận tài chính thiếu minh bạch."
+        "upright": "Có thể bạn sẽ nhận được sự giúp đỡ từ người khác để tìm lại món đồ bị mất, hoặc bạn sẽ tìm thấy nó ở một nơi bất ngờ.",
+        "reversed": "Món đồ bị mất có thể do sự bất cẩn, hoặc bị người khác cố tình chiếm đoạt, hoặc bạn sẽ gặp khó khăn trong việc tìm lại nó."
+      },
+      "ex": {
+        "upright": "Có thể là thời điểm hóa giải những món nợ tình cảm cũ, hoặc một trong hai bên chủ động hỗ trợ người kia vượt qua khó khăn sau chia tay bằng sự tử tế và thấu hiểu.",
+        "reversed": "Những tàn dư của sự bất công trong quá khứ nổi lên, cảm giác bị lợi dụng hoặc không được đền đáp xứng đáng vẫn còn ám ảnh, khó lòng buông bỏ."
+      },
+      "current_love": {
+        "upright": "Mối quan hệ hiện tại đang thăng hoa nhờ sự trao đổi công bằng, sự quan tâm chu đáo và những cử chỉ hào phóng, tạo nên nền tảng vững chắc của sự tin cậy và sẻ chia.",
+        "reversed": "Sự mất cân bằng rõ rệt trong việc cho và nhận, một bên cảm thấy bị vắt kiệt sức lực hoặc tình cảm, hoặc sự hào phóng che đậy ý đồ kiểm soát, gây nên sự rạn nứt."
+      },
+      "ambiguous": {
+        "upright": "Một tình huống cần sự rõ ràng trong việc cho và nhận, có thể ai đó đang ngầm hỗ trợ bạn hoặc bạn cần mở lòng để đón nhận sự giúp đỡ một cách minh bạch.",
+        "reversed": "Sự mập mờ có thể xuất phát từ việc một bên đang cho đi có điều kiện, hoặc sự giúp đỡ không đúng lúc, gây ra sự khó xử và nghi ngờ về động cơ thực sự."
+      },
+      "crush": {
+        "upright": "Có thể bạn đang nhận được sự quan tâm đặc biệt hoặc những cử chỉ hào phóng từ người ấy, hoặc bạn đang tìm cách thể hiện sự quan tâm của mình một cách chân thành.",
+        "reversed": "Sự quan tâm có thể bị hiểu lầm là sự ban ơn, hoặc bạn cảm thấy mình đang bị lợi dụng lòng tốt, dẫn đến sự thất vọng và mất niềm tin."
+      },
+      "future_love": {
+        "upright": "Một mối quan hệ tương lai hứa hẹn sự cân bằng, hỗ trợ lẫn nhau và lòng nhân ái, nơi cả hai cùng nhau vun đắp bằng sự sẻ chia và lòng biết ơn sâu sắc.",
+        "reversed": "Tình yêu sắp tới có thể mang theo gánh nặng của sự phụ thuộc, hoặc một bên sẽ phải gánh vác quá nhiều, tạo nên một sự mất cân bằng khó hàn gắn."
+      },
+      "someone": {
+        "upright": "Một người hào phóng, sẵn lòng giúp đỡ hoặc một người đang cần sự hỗ trợ từ bạn. Họ có thể là một nhà hảo tâm, một người bạn đáng tin cậy.",
+        "reversed": "Một người có thể đang lợi dụng lòng tốt của bạn, hoặc họ là người keo kiệt, chỉ biết nhận mà không biết cho đi, hoặc sự giúp đỡ của họ có điều kiện."
+      },
+      "marriage": {
+        "upright": "Hôn nhân được xây dựng trên nền tảng của sự hỗ trợ lẫn nhau, sự sẻ chia công bằng và lòng biết ơn, nơi hai tâm hồn cùng vun đắp bằng tình yêu và sự thấu hiểu.",
+        "reversed": "Hôn nhân đang đứng trước nguy cơ đổ vỡ do sự mất cân bằng trong việc cho và nhận, cảm giác bị lợi dụng, hoặc sự keo kiệt làm xói mòn tình cảm."
+      },
+      "conflict": {
+        "upright": "Xung đột có thể được giải quyết thông qua sự nhượng bộ, thấu hiểu và lòng nhân ái, nơi các bên tìm cách hỗ trợ lẫn nhau để đạt được sự hòa giải công bằng.",
+        "reversed": "Xung đột trở nên gay gắt hơn do cảm giác bất công, sự keo kiệt trong việc tha thứ, hoặc một bên cố gắng lợi dụng tình thế để giành phần thắng tuyệt đối."
+      },
+      "breakup": {
+        "upright": "Chia tay trong sự tôn trọng, có thể một trong hai bên vẫn giữ lòng nhân ái và sẵn sàng hỗ trợ người kia vượt qua giai đoạn khó khăn nếu cần thiết.",
+        "reversed": "Chia tay do sự bất công kéo dài, cảm giác bị lợi dụng hoặc sự keo kiệt về tình cảm, để lại những vết sẹo sâu sắc và khó chữa lành."
+      },
+      "long_distance": {
+        "upright": "Mối quan hệ đường dài được duy trì nhờ sự tin tưởng, hỗ trợ tinh thần và những cử chỉ quan tâm chân thành, dù không ở gần nhưng vẫn cảm thấy được sẻ chia.",
+        "reversed": "Khoảng cách địa lý làm lộ rõ sự mất cân bằng, một bên cảm thấy bị bỏ rơi hoặc phải gánh vác quá nhiều, dẫn đến sự cô đơn và cảm giác bị lợi dụng."
+      },
+      "jealousy": {
+        "upright": "Ghen tuông có thể xuất phát từ sự thiếu tự tin, cần được trấn an bằng sự quan tâm và sẻ chia chân thành để tái lập sự cân bằng trong mối quan hệ.",
+        "reversed": "Ghen tuông bùng phát do cảm giác bị đối xử bất công, sự ưu ái không đồng đều, hoặc một bên cảm thấy bị tước đoạt những gì lẽ ra mình phải nhận được."
+      },
+      "self_love": {
+        "upright": "Thực hành lòng tự ái thông qua việc biết cách cho đi và nhận lại một cách cân bằng, chăm sóc bản thân và cho phép mình đón nhận sự giúp đỡ khi cần.",
+        "reversed": "Thiếu lòng tự trọng, cho phép người khác lợi dụng hoặc tự mình từ chối sự giúp đỡ cần thiết, dẫn đến sự kiệt quệ về tinh thần và thể chất."
+      },
+      "job_search": {
+        "upright": "Cơ hội việc làm đến từ sự giới thiệu, sự giúp đỡ của người quen, hoặc bạn nhận được sự hỗ trợ tài chính để theo đuổi con đường mới.",
+        "reversed": "Khó khăn trong việc tìm việc do thiếu sự hỗ trợ, cảm giác bị từ chối hoặc bị đối xử bất công trong quá trình tuyển dụng."
+      },
+      "promotion": {
+        "upright": "Sự thăng tiến đến từ việc bạn đã đóng góp tích cực cho tập thể, biết chia sẻ thành công và nhận được sự công nhận xứng đáng từ cấp trên.",
+        "reversed": "Mất cơ hội thăng tiến do sự thiên vị, cảm giác bị lợi dụng công sức mà không được đền đáp, hoặc sự keo kiệt trong việc chia sẻ quyền lợi."
+      },
+      "business": {
+        "upright": "Doanh nghiệp phát triển mạnh mẽ nhờ các mối quan hệ đối tác bền vững, sự hỗ trợ tài chính từ nhà đầu tư, và chính sách phúc lợi công bằng cho nhân viên.",
+        "reversed": "Doanh nghiệp gặp khó khăn do quản lý tài chính kém, sự bất công trong giao dịch, hoặc việc lợi dụng đối tác, khách hàng, gây mất uy tín."
+      },
+      "colleague": {
+        "upright": "Mối quan hệ đồng nghiệp được xây dựng trên sự hỗ trợ lẫn nhau, tinh thần hợp tác và sự sẻ chia kiến thức, tạo nên một môi trường làm việc tích cực.",
+        "reversed": "Mối quan hệ đồng nghiệp căng thẳng do sự cạnh tranh không lành mạnh, cảm giác bị lợi dụng hoặc sự keo kiệt trong việc chia sẻ thông tin."
+      },
+      "career_change": {
+        "upright": "Quyết định thay đổi sự nghiệp được hỗ trợ bởi người thân, bạn bè hoặc một nguồn tài chính, giúp bạn tự tin bước vào con đường mới.",
+        "reversed": "Khó khăn trong việc thay đổi sự nghiệp do thiếu sự hỗ trợ, cảm giác bị cô lập hoặc phải gánh vác quá nhiều gánh nặng tài chính."
+      },
+      "freelance": {
+        "upright": "Công việc tự do phát triển nhờ các hợp đồng công bằng, sự hỗ trợ từ cộng đồng khách hàng và khả năng cân bằng giữa việc cho đi giá trị và nhận lại thù lao xứng đáng.",
+        "reversed": "Công việc tự do gặp khó khăn do khách hàng keo kiệt, hợp đồng bất công, hoặc cảm giác bị lợi dụng sức lao động mà không được đền đáp xứng đáng."
+      },
+      "interview": {
+        "upright": "Cuộc phỏng vấn diễn ra suôn sẻ, bạn nhận được sự đánh giá công bằng và có thể nhận được lời đề nghị với đãi ngộ xứng đáng.",
+        "reversed": "Cuộc phỏng vấn không thành công do sự thiếu minh bạch, cảm giác bị đối xử bất công hoặc nhận được một lời đề nghị không xứng đáng với năng lực."
+      },
+      "investment": {
+        "upright": "Đầu tư mang lại lợi nhuận công bằng, có thể là thời điểm tốt để chia sẻ lợi nhuận hoặc đầu tư vào các dự án có tính cộng đồng.",
+        "reversed": "Đầu tư rủi ro, có thể bị thua lỗ do thiếu minh bạch, cảm giác bị lợi dụng hoặc do sự tham lam dẫn đến quyết định sai lầm."
+      },
+      "debt": {
+        "upright": "Thời điểm để trả nợ một cách có trách nhiệm hoặc nhận được sự hỗ trợ để thoát khỏi gánh nặng nợ nần, thiết lập lại sự cân bằng tài chính.",
+        "reversed": "Nợ nần chồng chất do quản lý kém, cảm giác bị lừa dối hoặc bị lợi dụng, hoặc sự keo kiệt trong việc giải quyết các khoản nợ."
+      },
+      "savings": {
+        "upright": "Tiết kiệm được vun đắp đều đặn, có thể bạn đang cân nhắc việc chia sẻ một phần tài sản để giúp đỡ người khác hoặc đầu tư vào những mục tiêu ý nghĩa.",
+        "reversed": "Tiết kiệm bị hao hụt do chi tiêu không kiểm soát, bị lợi dụng hoặc do sự keo kiệt quá mức khiến bạn bỏ lỡ cơ hội đầu tư sinh lời."
+      },
+      "luck_money": {
+        "upright": "Tiền bạc đến từ những cơ hội bất ngờ, sự giúp đỡ của người khác hoặc những khoản thu nhập công bằng, mang lại sự ổn định và niềm vui sẻ chia.",
+        "reversed": "Vận may tiền bạc bị cản trở bởi sự tham lam, cảm giác bị lừa dối hoặc do sự keo kiệt khiến bạn không dám nắm bắt cơ hội."
+      },
+      "mental": {
+        "upright": "Tâm trí bình an nhờ sự cân bằng giữa cho và nhận, biết cách đón nhận sự hỗ trợ tinh thần và chia sẻ gánh nặng với người khác.",
+        "reversed": "Tâm lý bất ổn, cảm giác bị lợi dụng, bị đối xử bất công, hoặc sự cô lập do không dám chia sẻ gánh nặng trong lòng."
+      },
+      "energy": {
+        "upright": "Năng lượng dồi dào, cân bằng, bạn biết cách tái tạo năng lượng và chia sẻ nguồn năng lượng tích cực này với những người xung quanh.",
+        "reversed": "Năng lượng cạn kiệt, cảm giác bị vắt kiệt sức lực, hoặc sự mất cân bằng trong việc cho đi và nhận lại, dẫn đến sự mệt mỏi và kiệt sức."
+      },
+      "family": {
+        "upright": "Gia đình là nơi của sự sẻ chia, hỗ trợ lẫn nhau và lòng nhân ái, mọi thành viên đều biết cách cho đi và nhận lại một cách công bằng.",
+        "reversed": "Gia đình có thể đang gặp mâu thuẫn do sự bất công trong việc phân chia tài sản, sự thiên vị, hoặc cảm giác bị lợi dụng lẫn nhau."
+      },
+      "diet": {
+        "upright": "Chế độ ăn uống cân bằng, biết lắng nghe cơ thể và cung cấp đủ dinh dưỡng, có thể bạn đang chia sẻ bí quyết ăn uống lành mạnh với người khác.",
+        "reversed": "Chế độ ăn uống mất cân bằng, có thể do ăn uống quá độ hoặc kiêng khem quá mức, hoặc bạn đang bị ảnh hưởng bởi những lời khuyên thiếu khoa học."
+      },
+      "study": {
+        "upright": "Học tập tiến bộ nhờ sự hỗ trợ từ thầy cô, bạn bè, hoặc bạn đang chia sẻ kiến thức của mình với người khác, tạo nên môi trường học tập tích cực.",
+        "reversed": "Học tập gặp khó khăn do thiếu sự hỗ trợ, cảm giác bị bất công trong đánh giá, hoặc sự keo kiệt trong việc chia sẻ tài liệu, kiến thức."
+      },
+      "study_abroad": {
+        "upright": "Cơ hội du học đến từ sự hỗ trợ tài chính, học bổng hoặc sự giúp đỡ từ người thân, giúp bạn mở rộng chân trời tri thức.",
+        "reversed": "Kế hoạch du học gặp trở ngại do thiếu sự hỗ trợ tài chính, cảm giác bị từ chối hoặc bị đối xử bất công trong quá trình xét tuyển."
+      },
+      "self": {
+        "upright": "Bạn là người có lòng nhân ái, biết cách cân bằng giữa việc cho đi và nhận lại, sống có trách nhiệm và luôn sẵn lòng giúp đỡ người khác.",
+        "reversed": "Bạn có thể đang cảm thấy bị lợi dụng, hoặc bản thân bạn đang trở nên keo kiệt, ích kỷ, mất đi sự cân bằng trong cách đối xử với người khác."
+      },
+      "purpose": {
+        "upright": "Mục đích sống của bạn liên quan đến việc phục vụ cộng đồng, chia sẻ tài năng và giúp đỡ những người kém may mắn, mang lại ý nghĩa sâu sắc.",
+        "reversed": "Mục đích sống bị lu mờ bởi sự tham lam, ích kỷ, hoặc cảm giác bị lợi dụng, khiến bạn mất đi phương hướng và động lực."
+      },
+      "shadow_self": {
+        "upright": "Sự sẵn lòng đối mặt với những khía cạnh ít đẹp của bản thân, chấp nhận sự giúp đỡ để chữa lành và học cách tha thứ cho chính mình.",
+        "reversed": "Sự từ chối nhìn nhận những thiếu sót, xu hướng lợi dụng người khác hoặc tự mình chìm đắm trong sự keo kiệt, bất công."
+      },
+      "decision": {
+        "upright": "Quyết định được đưa ra dựa trên sự công bằng, lòng nhân ái và sự cân nhắc kỹ lưỡng về lợi ích của tất cả các bên liên quan.",
+        "reversed": "Quyết định mang tính ích kỷ, bất công, hoặc dựa trên sự lợi dụng, có thể gây ra những hậu quả tiêu cực và sự oán giận."
+      },
+      "travel": {
+        "upright": "Chuyến đi thuận lợi nhờ sự giúp đỡ của người bản xứ, hoặc bạn đang có cơ hội chia sẻ trải nghiệm du lịch với bạn bè.",
+        "reversed": "Chuyến đi gặp khó khăn do chi phí không minh bạch, cảm giác bị lợi dụng hoặc sự keo kiệt trong việc chi tiêu làm giảm trải nghiệm."
+      },
+      "general": {
+        "upright": "Thời điểm của sự hào phóng, lòng nhân ái và sự cân bằng trong việc cho đi và nhận lại. Bạn có thể là người giúp đỡ hoặc được giúp đỡ.",
+        "reversed": "Sự mất cân bằng rõ rệt, có thể là sự keo kiệt, ích kỷ, hoặc cảm giác bị lợi dụng, bất công trong các mối quan hệ và giao dịch."
       }
     },
     "planet": "Mặt Trăng",
