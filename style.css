@@ -850,12 +850,10 @@ body {
   transform: translateY(0) scale(0.98);
 }
 
-/* ── Unified breath: shadow + lift + border + ring all in sync ── */
+/* ── Unified breath: shadow + border + ring all in sync (no transform to prevent jitter on mobile) ── */
 @keyframes btnBreath {
-
   0%,
   100% {
-    transform: translateY(0px) scale(1);
     border-color: rgba(155, 48, 255, 0.45);
     box-shadow:
       0 0 14px rgba(155, 48, 255, 0.25),
@@ -863,7 +861,6 @@ body {
   }
 
   50% {
-    transform: translateY(-4px) scale(1.025);
     border-color: rgba(200, 121, 255, 0.85);
     box-shadow:
       0 0 40px rgba(155, 48, 255, 0.75),

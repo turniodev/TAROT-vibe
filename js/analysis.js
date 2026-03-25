@@ -8,7 +8,7 @@ window.AnalysisModule = (function () {
     container.innerHTML = '';
     const shareBtn = document.getElementById('btnShareReading');
     if (shareBtn) delete shareBtn.dataset.id;
-    
+
     const theme = session.theme;
     const labels = TarotHelper.getSpreadLabels(cards.length);
     const themeLabel = TarotHelper.getThemeLabel(theme);
@@ -40,7 +40,7 @@ window.AnalysisModule = (function () {
       </div>
       <div class="ai-loading" id="aiLoading">
         <div class="ai-pulse"></div>
-        <span>Đang kết nối với vũ trụ…</span>
+        <span>Vui lòng đợi kết nối với vũ trụ…</span>
       </div>
       <div class="ai-content" id="aiContent" style="display:none"></div>
     `;
@@ -172,7 +172,7 @@ window.AnalysisModule = (function () {
     const loading = document.getElementById('clarifyLoading');
     const qList = document.getElementById('clarifyQuestions');
     let btnSubmit = document.getElementById('btnSubmitClarify');
-    
+
     // Nếu load lịch sử hoặc share thì ko làm rõ nữa, call luôn AI (vì lúc play history ko trả lời lại)
     if (session.isHistoryReplay || window.location.search.includes('share=')) {
       return fetchGeminiAnalysis(payload, cards, session, labels, themeLabel);
@@ -181,7 +181,7 @@ window.AnalysisModule = (function () {
     modal.classList.add('visible');
     loading.style.display = 'block';
     qList.style.display = 'none';
-    
+
     // Clear old submit listener
     const newSubmit = btnSubmit.cloneNode(true);
     btnSubmit.parentNode.replaceChild(newSubmit, btnSubmit);
@@ -209,9 +209,9 @@ window.AnalysisModule = (function () {
       const checkComplete = () => { btnSubmit.disabled = answers.includes(null); };
 
       for (let i = 0; i < 3; i++) {
-        const item = document.getElementById(`cq${i+1}`);
-        item.querySelector('.cq-text').textContent = `${i+1}. ${questions[i]}`;
-        
+        const item = document.getElementById(`cq${i + 1}`);
+        item.querySelector('.cq-text').textContent = `${i + 1}. ${questions[i]}`;
+
         item.querySelectorAll('.cq-btn').forEach(btn => {
           const newBtn = btn.cloneNode(true);
           newBtn.classList.remove('active');
@@ -273,13 +273,13 @@ window.AnalysisModule = (function () {
       }
       const data = await res.json();
       const md = data.analysis || '';
-      
+
       // Store ID for sharing
       if (data.reading_id) {
         document.getElementById('btnShareReading').dataset.id = data.reading_id;
       }
-      
-      
+
+
       // Save analysis to history to prevent re-fetching later
       const idToUpdate = session.readingId || session.localId;
       if (idToUpdate) {
@@ -335,7 +335,7 @@ window.AnalysisModule = (function () {
   }
 
   // Bind Share button
-  document.getElementById('btnShareReading')?.addEventListener('click', function() {
+  document.getElementById('btnShareReading')?.addEventListener('click', function () {
     const id = this.dataset.id;
     if (!id) {
       if (!window.AuthModule?.isLoggedIn()) {
