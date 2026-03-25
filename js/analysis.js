@@ -234,7 +234,7 @@ window.AnalysisModule = (function () {
       btnSubmit.addEventListener('click', () => {
         modal.classList.remove('visible');
         payload.clarifications = answers;
-        document.getElementById('aiLoading').innerHTML = `<div class="ai-pulse" style="margin: 0 auto 16px;"></div><span>Đang tập hợp năng lượng...</span>`;
+        document.getElementById('aiLoading').innerHTML = `<div class="ai-pulse" style="margin: 0 auto 16px;"></div><span>Đang tập hợp năng lượng vui lòng kiến nhẫn và suy nghĩ về điều bạn mong chờ...</span>`;
         fetchGeminiAnalysis(payload, cards, session, labels, themeLabel);
       });
 
