@@ -242,15 +242,19 @@ window.ReadingModule = (function () {
     flippedCount++;
 
     setTimeout(() => {
-      revealQueue.push({ card, slotIdx });
-      revealCursor = revealQueue.length - 1;
+      // Find if already in queue (to avoid duplicates if called multiple times)
+      const exists = revealQueue.some(r => r.slotIdx === slotIdx);
+      if (!exists) {
+        revealQueue.push({ card, slotIdx });
+        // Sort revealQueue by slotIdx to ensure the carousel order matches the UI
+        revealQueue.sort((a, b) => a.slotIdx - b.slotIdx);
+      }
+      
+      revealCursor = revealQueue.findIndex(r => r.slotIdx === slotIdx);
 
       const modalOpen = !!document.getElementById('meaningModal');
-      if (!modalOpen) {
-        // First flip: open with animation
-        openMeaningCarousel(revealCursor, true);
-      } else {
-        // Subsequent flips while modal open: silently update dots only
+      if (modalOpen) {
+        // Only update dots if modal is already open (e.g. from a previous explicit click)
         updateCarouselDotsOnly();
       }
 
@@ -264,7 +268,7 @@ window.ReadingModule = (function () {
     if (!slotWrap || slotWrap.querySelector('.tap-hint')) return;
     const hint = document.createElement('div');
     hint.className   = 'tap-hint';
-    hint.textContent = 'Bấm để xem ý nghĩa';
+    hint.textContent = 'Xem ý nghĩa';
     slotWrap.appendChild(hint);
   }
 
@@ -484,8 +488,23 @@ window.ReadingModule = (function () {
   ══════════════════════════════════════════════════ */
   function flipAll() {
     const cards = selectedArea.querySelectorAll('.spread-card:not(.flipped)');
-    cards.forEach((c, i) => { setTimeout(() => c.click(), i * 350); });
+    if (cards.length === 0) return;
+    
     btnFlipAll.classList.add('hidden');
+    
+    cards.forEach((c, i) => { 
+      setTimeout(() => c.click(), i * 350); 
+    });
+
+    // Wait for all animations to settle + the user's requested 2s delay
+    // Last card clicks at (cards.length - 1) * 350.
+    // flipCard has a 700ms internal delay. 
+    // Total wait before 2s start: ((cards.length-1)*350) + 700.
+    const baseWait = (cards.length - 1) * 350 + 800; 
+    setTimeout(() => {
+      revealCursor = 0; // Start at the first card
+      openMeaningCarousel(revealCursor, true);
+    }, baseWait + 2000);
   }
 
   function checkAllFlipped() {

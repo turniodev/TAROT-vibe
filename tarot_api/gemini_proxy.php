@@ -58,8 +58,8 @@ if ($id_token) {
 
 // Anonymous fallback: use name + dob as synthetic identifier
 if (!$user_email) {
-    $anon_name  = strtolower(trim(preg_replace('/\s+/', '_', $body['name'] ?? 'guest')));
-    $anon_dob   = preg_replace('/[^0-9\-]/', '', $body['dob'] ?? '0000-00-00');
+    $anon_name = strtolower(trim(preg_replace('/\s+/', '_', $body['name'] ?? 'guest')));
+    $anon_dob = preg_replace('/[^0-9\-]/', '', $body['dob'] ?? '0000-00-00');
     $user_email = 'anon_' . $anon_name . '_' . $anon_dob . '@tarot.local';
 }
 
@@ -81,19 +81,21 @@ $is_anonymous = str_ends_with($user_email, '@tarot.local');
 $max_draws = $is_anonymous ? 1 : 3;
 
 if ($user_data && $user_data['plan_expiry_date'] && strtotime($user_data['plan_expiry_date']) > time()) {
-    if ($user_data['plan_type'] === 'guide')  $max_draws = 5;
-    if ($user_data['plan_type'] === 'master') $max_draws = 999999;
+    if ($user_data['plan_type'] === 'guide')
+        $max_draws = 5;
+    if ($user_data['plan_type'] === 'master')
+        $max_draws = 999999;
 }
-$draws_today = $user_data ? (int)$user_data['draws_today'] : 0;
+$draws_today = $user_data ? (int) $user_data['draws_today'] : 0;
 
 if ($draws_today >= $max_draws) {
     // Trả về thêm thông tin để frontend hiện đúng modal
     http_response_code(403);
     echo json_encode([
-        'status'      => 'error',
-        'message'     => 'QUOTA_EXCEEDED',
-        'is_anonymous'=> $is_anonymous,
-        'max_draws'   => $max_draws,
+        'status' => 'error',
+        'message' => 'QUOTA_EXCEEDED',
+        'is_anonymous' => $is_anonymous,
+        'max_draws' => $max_draws,
     ], JSON_UNESCAPED_UNICODE);
     exit;
 }
@@ -130,14 +132,18 @@ function build_prompt(array $d): string
     foreach ($cards as $i => $c) {
         $orient = $c['is_reversed'] ? 'Ngược' : 'Xuôi';
         $kws = implode(', ', $c['keywords'] ?? []);
-        
+
         $aspect_str = !empty($c['aspect_meaning']) ? "- **Phân tích chuyên sâu ({$theme}):** {$c['aspect_meaning']}\n" : "";
-        
+
         $astro_str = [];
-        if (!empty($c['planet'])) $astro_str[] = "Hành tinh: " . $c['planet'];
-        if (!empty($c['zodiac'])) $astro_str[] = "Cung: " . $c['zodiac'];
-        if (!empty($c['element'])) $astro_str[] = "Nguyên tố: " . $c['element'];
-        if (!empty($c['numerology'])) $astro_str[] = "Thần số: " . $c['numerology'];
+        if (!empty($c['planet']))
+            $astro_str[] = "Hành tinh: " . $c['planet'];
+        if (!empty($c['zodiac']))
+            $astro_str[] = "Cung: " . $c['zodiac'];
+        if (!empty($c['element']))
+            $astro_str[] = "Nguyên tố: " . $c['element'];
+        if (!empty($c['numerology']))
+            $astro_str[] = "Thần số: " . $c['numerology'];
         $astro_line = !empty($astro_str) ? "- **Chiêm tinh & Năng lượng:** " . implode(' | ', $astro_str) . "\n" : "";
 
         $card_lines .= <<<CARD
@@ -170,7 +176,7 @@ YÊU CẦU ĐẶC BIỆT: Phải liên kết yếu tố chiêm tinh, nguyên t�
 
 Hãy viết luận giải XÚC TÍCH (tối đa 3-4 đoạn ngắn). Bắt buộc phải sử dụng tiêu đề H3 (###) và vạch kẻ (---) như cú pháp mẫu sau:
 
-### 1. Vào thẳng vấn đề
+### 1. Giải đáp vấn đề
 [Trả lời trực tiếp câu hỏi "{$question}" dựa trên kết hợp của các lá bài]
 
 ---
@@ -233,17 +239,17 @@ function save_reading(array $d, string $analysis, string $email): int
 
     // Upsert user by Email
     $name = trim($d['name'] ?? '');
-    $dob  = $d['dob'] ?: null;
-    
+    $dob = $d['dob'] ?: null;
+
     $pdo->prepare('INSERT INTO users (email, name, dob) VALUES (?, ?, ?) ON DUPLICATE KEY UPDATE name = VALUES(name), dob = IFNULL(VALUES(dob), dob), last_seen = NOW()')
         ->execute([$email, $name, $dob]);
-        
+
     $user_id = $pdo->query('SELECT id FROM users WHERE email = ' . $pdo->quote($email) . ' LIMIT 1')
         ->fetchColumn();
 
     // If reading_id is provided, check if it belongs to this user. If yes, just update the analysis and return.
     if (!empty($d['reading_id'])) {
-        $reading_id = (int)$d['reading_id'];
+        $reading_id = (int) $d['reading_id'];
         // LocalStorage timestamp IDs are huge numbers, DB IDs are small.
         if ($reading_id < 1000000000000) {
             $check = $pdo->prepare('SELECT id FROM readings WHERE id = ? AND user_id = ?');

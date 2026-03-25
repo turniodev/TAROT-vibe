@@ -6,6 +6,9 @@ window.AnalysisModule = (function () {
   /* ── Main render ────────────────────────────────────── */
   function render(cards, session, preloadedAnalysis = null) {
     container.innerHTML = '';
+    const shareBtn = document.getElementById('btnShareReading');
+    if (shareBtn) delete shareBtn.dataset.id;
+    
     const theme = session.theme;
     const labels = TarotHelper.getSpreadLabels(cards.length);
     const themeLabel = TarotHelper.getThemeLabel(theme);
@@ -97,7 +100,10 @@ window.AnalysisModule = (function () {
       const contentEl = document.getElementById('aiContent');
       contentEl.style.display = '';
       contentEl.innerHTML = markdownToHtml(preloadedAnalysis);
-      document.getElementById('btnShareReading').dataset.id = new URLSearchParams(window.location.search).get('share');
+      const shareId = session.readingId || new URLSearchParams(window.location.search).get('share');
+      if (shareId && shareId !== 'null') {
+        document.getElementById('btnShareReading').dataset.id = shareId;
+      }
     } else if (session.isHistoryReplay || window.location.search.includes('share=')) {
       // Missing AI analysis on an old session - show button to request
       document.getElementById('aiLoading').innerHTML = `
