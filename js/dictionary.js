@@ -178,6 +178,12 @@
             ${keywordsRevHtml}
           </div>
           
+          ${card.advice ? `
+          <div class="cd-section" style="margin-top: 24px;">
+            <h3 class="cd-sec-title">Lời Khuyên Từ Vũ Trụ</h3>
+            <p class="cd-desc" style="font-style: italic; color: rgba(200, 180, 255, 0.95);">${card.advice}</p>
+          </div>` : ''}
+          
           ${aspectsHtml}
           
         </div>
