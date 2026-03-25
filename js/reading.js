@@ -62,9 +62,32 @@ window.ReadingModule = (function () {
   }
 
   /* ══════════════════════════════════════════════════
+     SFX
+  ══════════════════════════════════════════════════ */
+  const sfx = {
+    chiaBai: new Audio('bg_music/chia_bai.mp3'),
+    chonThe: new Audio('bg_music/chon-the.mp3'),
+    latBai:  new Audio('bg_music/lat_bai.mp3')
+  };
+
+  // Preload all SFX immediately
+  Object.values(sfx).forEach(a => {
+    a.preload = 'auto';
+    a.load();
+  });
+
+  function playSFX(key) {
+    if (!sfx[key]) return;
+    const a = sfx[key].cloneNode();
+    a.volume = 0.6;
+    a.play().catch(() => {});
+  }
+
+  /* ══════════════════════════════════════════════════
      DECK RENDERING
   ══════════════════════════════════════════════════ */
   function renderDeck() {
+    playSFX('chiaBai');
     fullDeck.forEach((card, i) => {
       const el = buildBackCard(i);
       el.style.animationDelay = (i * 35) + 'ms';
@@ -97,6 +120,9 @@ window.ReadingModule = (function () {
   function onDeckClick(el, card, e) {
     if (selectedCards.length >= session.spread) return;
     if (el.classList.contains('picking')) return;
+    
+    playSFX('chonThe');
+    
     el.classList.add('picking');
     window.FX?.ripple(el, e, 'rgba(201,168,76,0.5)');
     window.FX?.glowPulse(el, 'rgba(201,168,76,0.6)');
@@ -273,6 +299,7 @@ window.ReadingModule = (function () {
      FLIP SINGLE CARD
   /* ══ FLIP SINGLE CARD ════════════════════════════════ */
   function flipCard(cardEl, card, slotIdx, e) {
+    playSFX('latBai');
     // Add flipping class for slow cubic-bezier transition on inner
     const inner = cardEl.querySelector('.card-inner');
     cardEl.classList.add('flipping');
