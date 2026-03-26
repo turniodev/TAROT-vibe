@@ -369,7 +369,7 @@ body {
   bottom: 0;
   z-index: 91;
   width: min(560px, 96vw);
-  background: linear-gradient(160deg, rgba(14, 0, 36, 0.99), rgba(8, 0, 22, 1));
+  background: linear-gradient(160deg, rgba(14, 0, 36, 0.8), rgba(8, 0, 22, 95));
   border-left: 1px solid rgba(155, 48, 255, 0.3);
   box-shadow: -20px 0 60px rgba(0, 0, 0, 0.7), 0 0 40px rgba(107, 0, 204, 0.15);
   display: flex;
@@ -614,7 +614,7 @@ body {
 .focus-screen {
   position: fixed;
   inset: 0;
-  background: rgba(15, 0, 35, 0.55);
+  background: rgba(15, 0, 35, 0.75);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   z-index: 10000;
@@ -6444,7 +6444,7 @@ body {
 }
 
 .cd-modal {
-  background: rgba(20, 5, 30, 0.05);
+  background: rgba(20, 5, 30, 0.5);
   /* Tránh chồng double-blur khi cd-modal đè lên dict-modal */
 }
 
@@ -6510,7 +6510,7 @@ body {
   width: 100%;
   max-width: 900px;
   max-height: 90vh;
-  background: rgba(8, 0, 22, 0.88);
+  background: rgba(8, 0, 22, 0.99);
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
   border: 1px solid rgba(155, 48, 255, 0.25);
@@ -6659,7 +6659,7 @@ body {
 .clarify-screen {
   position: fixed;
   inset: 0;
-  background: rgba(10, 0, 25, 0.9);
+  background: rgba(10, 0, 25, 0.95);
   /* Tối hơn một chút để tập trung */
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
@@ -6946,7 +6946,7 @@ body {
 
 .cd-section {
   margin-bottom: 24px;
-  background: rgba(14, 0, 36, 0.4);
+  background: rgba(14, 0, 36, 0.75);
   padding: 24px;
   border-radius: 14px;
   border: 1px solid rgba(155, 48, 255, 0.15);
@@ -7497,7 +7497,7 @@ body {
 }
 
 .daily-draw-panel {
-  background: linear-gradient(180deg, rgba(30, 15, 50, 0.9) 0%, rgba(15, 5, 25, 0.95) 100%);
+  background: linear-gradient(180deg, rgba(30, 15, 50, 0.95) 0%, rgba(15, 5, 25, 0.95) 100%);
   border: 1px solid rgba(201, 168, 76, 0.5);
   border-radius: 16px;
   padding: 40px 30px;
@@ -7735,13 +7735,12 @@ body {
 }
 
 /* ============================================
-   IN-APP BROWSER: Disable backdrop-filter
-   Fixes glitch/flicker on Zalo, Facebook,
-   Instagram in-app WebViews
+   GLOBAL: Disable all backdrop-filter blur
+   Improves performance on all devices
    ============================================ */
-body.no-backdrop-blur *,
-body.no-backdrop-blur *::before,
-body.no-backdrop-blur *::after {
+*,
+*::before,
+*::after {
   backdrop-filter: none !important;
   -webkit-backdrop-filter: none !important;
 }

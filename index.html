@@ -826,22 +826,6 @@
   <script src="js/analysis.js?v=3"></script>
   <script src="js/dictionary.js?v=3"></script>
   <script src="js/app.js?v=2"></script>
-
-  <!-- In-app browser detection: disable backdrop-filter to fix glitch/flicker -->
-  <script>
-    (function () {
-      var ua = navigator.userAgent || '';
-      var isInApp =
-        /ZaloApp/i.test(ua) ||
-        /FBAN|FBAV/i.test(ua) ||
-        /Instagram/i.test(ua) ||
-        /\bLine\b/i.test(ua) ||
-        /Twitter/i.test(ua);
-      if (isInApp) {
-        document.body.classList.add('no-backdrop-blur');
-      }
-    })();
-  </script>
 </body>
 
 </html>
