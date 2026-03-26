@@ -98,6 +98,12 @@
     if (inputQ) { inputQ.value = ''; if (charCount) charCount.textContent = '0 / 200'; }
     const oldHint = document.getElementById('_step3Hint');
     if (oldHint) oldHint.remove();
+
+    // Reset step 2 title
+    const stTitle = document.querySelector('#step2 .step-title');
+    const stDesc = document.querySelector('#step2 .step-desc');
+    if (stTitle) stTitle.textContent = 'Chọn Lĩnh Vực';
+    if (stDesc) stDesc.style.display = 'block';
   }
   function closeForm(skipRestore = false) {
     if (window.FX?.modalClose) window.FX.modalClose(overlay, panel);
@@ -282,14 +288,13 @@
       subs = (SUB_THEMES[mainKey] || []).map(s => ({ ...s, _group: '' }));
     }
 
+    const step2Title = document.querySelector('#step2 .step-title');
+    const step2Desc = document.querySelector('#step2 .step-desc');
+    if (step2Title) step2Title.textContent = mainKey === 'more' ? 'Lĩnh Vực Khác' : `Lĩnh Vực ${mainLabel}`;
+    if (step2Desc) step2Desc.style.display = 'none';
+
     subEl.innerHTML = `
-      <div class="sub-back">
-        <button class="sub-back-btn" type="button">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
-          ${mainLabel}
-        </button>
-      </div>
-      <div class="sub-theme-search" style="padding: 0 16px 12px;">
+      <div class="sub-theme-search" style="padding: 0 0 12px 0;">
         <div style="position: relative;">
           <input type="text" id="subThemeSearch" placeholder="Tìm kiếm nhanh chủ đề..." autocomplete="off" style="width: 100%; padding: 10px 16px 10px 38px; border-radius: 20px; border: 1px solid rgba(201,168,76,0.3); background: rgba(20,9,30,0.5); color: var(--c-gold); font-family: 'Philosopher', sans-serif; font-size: 0.95rem; outline: none; transition: all 0.3s; box-shadow: inset 0 2px 4px rgba(0,0,0,0.2);" onfocus="this.style.borderColor='rgba(201,168,76,0.8)'; this.style.boxShadow='0 0 10px rgba(201,168,76,0.2), inset 0 2px 4px rgba(0,0,0,0.2)';" onblur="this.style.borderColor='rgba(201,168,76,0.3)'; this.style.boxShadow='inset 0 2px 4px rgba(0,0,0,0.2)';"/>
           <svg style="position: absolute; left: 12px; top: 11px; color: rgba(201,168,76,0.6);" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
@@ -341,10 +346,7 @@
       });
     }
 
-    subEl.querySelector('.sub-back-btn').addEventListener('click', () => {
-      subEl.classList.add('hidden');
-      gridEl.classList.remove('hidden');
-    });
+    // Removed sub-back-btn event listener as per instruction
 
     subEl.querySelectorAll('.sub-theme-item').forEach(item => {
       item.addEventListener('click', (e) => {
@@ -547,12 +549,21 @@
       if (currentStep === 2 && subPanel && !subPanel.classList.contains('hidden')) {
         subPanel.classList.add('hidden');
         if (gridPanel) gridPanel.classList.remove('hidden');
+        
+        const stTitle = document.querySelector('#step2 .step-title');
+        const stDesc = document.querySelector('#step2 .step-desc');
+        if (stTitle) stTitle.textContent = 'Chọn Lĩnh Vực';
+        if (stDesc) stDesc.style.display = 'block';
         return; // Do not go back to step 1
       }
 
       if (prev === 1) {
         subPanel?.classList.add('hidden');
         gridPanel?.classList.remove('hidden');
+        const stTitle = document.querySelector('#step2 .step-title');
+        const stDesc = document.querySelector('#step2 .step-desc');
+        if (stTitle) stTitle.textContent = 'Chọn Lĩnh Vực';
+        if (stDesc) stDesc.style.display = 'block';
       }
       setTimeout(() => goToStep(prev, 'backward'), 60);
     }
