@@ -122,6 +122,34 @@
         <line x1="6" y1="20" x2="6" y2="14"></line>
       </svg>
     </button>
+
+    <!-- Daily Draw Floating Widget (Compact) -->
+    <button id="dailyDrawWidget" class="btn-float-action" aria-label="Lá Bài Trong Ngày" title="Lá Bài Trong Ngày">
+      <div class="daily-draw__ring-mini"></div>
+      <img src="cards/back.png" alt="Daily" id="dailyWidgetThumb" />
+    </button>
+
+    <!-- Daily Draw Modal -->
+    <div id="dailyDrawModal" class="daily-draw-overlay">
+      <div class="daily-draw-panel">
+        <button id="btnDailyClose" class="daily-close">&times;</button>
+        <h2 id="dailyTitle" class="daily-title">Thông Điệp Ngày Mới</h2>
+        
+        <div class="daily-card-wrap" id="dailyCardWrap">
+          <div class="daily-card-inner">
+            <div class="daily-card-front"><img src="cards/back.png" alt="Rút bài" /></div>
+            <div class="daily-card-back"><img id="dailyCardImage" src="" alt="Lá bài" /></div>
+          </div>
+        </div>
+
+        <div id="dailyResult" class="daily-result">
+          <h3 id="dailyCardName" class="daily-name"></h3>
+          <p id="dailyCardMessage" class="daily-desc"></p>
+        </div>
+        
+        <p class="daily-hint" id="dailyHint">Chạm vào lá bài để đón nhận thông điệp vũ trụ</p>
+      </div>
+    </div>
   </div>
 
   <!-- ===================== FORM OVERLAY ===================== -->
@@ -780,6 +808,8 @@
   <script src="js/auth.js?v=2"></script>
   <script src="js/daily_limit.js?v=2"></script>
   <script src="js/history.js?v=2"></script>
+  <script src="js/daily_messages.js?v=1"></script>
+  <script src="js/daily.js?v=5"></script>
   <script src="js/form.js?v=2"></script>
   <script src="js/reading.js?v=4"></script>
   <script src="js/clarify_data.js?v=2"></script>

@@ -122,6 +122,12 @@ json_ok(['analysis' => $analysis, 'reading_id' => $reading_id]);
 
 function build_prompt(array $d): string
 {
+    if (!empty($d['is_daily_draw']) && !empty($d['cards'][0])) {
+        $c = $d['cards'][0];
+        $orient = !empty($c['is_reversed']) ? 'Ngược' : 'Xuôi';
+        return "Bạn là một đại tư tế Tarot đầy thông tuệ. Hôm nay người dùng đã bốc lá bài \"{$c['name']}\" ({$c['name_vi']}, chiều {$orient}).\nYÊU CẦU BẮT BUỘC: Viết một đoạn văn thật NGẮN GỌN (từ 3 đến 4 câu) mang đậm chất thơ và tâm linh để truyền thông điệp hoặc lời khuyên tổng quan cho ngày mới dựa trên lá bài này. KHÔNG dùng tiêu đề, KHÔNG trình bày gạch đầu dòng, KHÔNG chào hỏi. Viết thành một đoạn văn duy nhất truyền cảm hứng sâu sắc.";
+    }
+
     $name = $d['name'] ?? 'Người dùng';
     $dob = $d['dob'] ?? '';
     $gender = $d['gender'] ?? '';
@@ -266,8 +272,9 @@ function call_gemini(string $prompt): string
         if ($http_code === 200) {
             $data = json_decode($resp, true);
             $text = $data['candidates'][0]['content']['parts'][0]['text'] ?? null;
-            if ($text) return $text;
-            
+            if ($text)
+                return $text;
+
             // If it is 200 but no text (e.g. content blocked by Google despite thresholding)
             json_error('Vũ trụ tạm thời không thể tiếp nhận tín hiệu chứa năng lượng này. Vui lòng thử lại với tâm thế khác.', 502);
         }
