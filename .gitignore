@@ -1,0 +1,7 @@
+# Tarot Data Security
+js/data_source.js
+build_db.js
+
+# OS generated files
+.DS_Store
+Thumbs.db

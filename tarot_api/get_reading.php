@@ -24,6 +24,14 @@ $reading = $stmt->fetch();
 
 if (!$reading) json_error("Reading not found or private", 404);
 
+// Obscure Data of Birth for privacy on public links (e.g. 1990-01-15 -> 1990-**-**)
+if (!empty($reading['dob'])) {
+    $parts = explode('-', $reading['dob']);
+    if (count($parts) >= 1) {
+        $reading['dob'] = $parts[0] . '-**-**';
+    }
+}
+
 // Get cards using internal id
 $internal_id = $reading['id'];
 

@@ -418,13 +418,14 @@ window.AnalysisModule = (function () {
 
   // Bind Share button
   document.getElementById('btnShareReading')?.addEventListener('click', async function () {
+    if (!window.AuthModule?.isLoggedIn()) {
+      window.showMysticalAlert("Yêu Cầu Đăng Nhập", "Vui lòng đăng nhập tài khoản để lưu trữ và chia sẻ trải bài công khai nhé!", "ĐÃ HIỂU");
+      return;
+    }
+
     const id = this.dataset.id;
     if (!id) {
-      if (!window.AuthModule?.isLoggedIn()) {
-        window.showMysticalAlert("Yêu Cầu Đăng Nhập", "Vui lòng đăng nhập ở phần luận giải phía trên để nhận thông điệp đầy đủ và chia sẻ nhé!", "ĐĂNG NHẬP");
-      } else {
-        window.showMysticalAlert("Chờ Hồi Đáp", "Đang chờ vũ trụ hồi đáp, bạn vui lòng chờ chốc lát nhé!", "THỬ LẠI");
-      }
+      window.showMysticalAlert("Chờ Hồi Đáp", "Đang chờ vũ trụ sinh ra liên kết vĩnh cửu, bạn vui lòng chờ chốc lát nhé!", "THỬ LẠI");
       return;
     }
     
@@ -432,8 +433,10 @@ window.AnalysisModule = (function () {
       const origText = this.innerHTML;
       this.innerHTML = '<div class="ai-pulse" style="width:16px;height:16px;display:inline-block;margin-right:8px;vertical-align:middle;"></div> Đang tạo link...';
       
-      const res = await fetch(`${API_BASE}/make_public.php?id=${id}`);
-      if (!res.ok) throw new Error('Không thể cấp quyền chia sẻ');
+      const res = await fetch(`${API_BASE}/make_public.php?id=${id}`, {
+        headers: { 'Authorization': `Bearer ${window.AuthModule.getToken()}` }
+      });
+      if (!res.ok) throw new Error('Không thể cấp quyền chia sẻ (Cần đăng nhập chính chủ)');
       const data = await res.json();
       const shareIdV2 = data.share_id || id;
       
