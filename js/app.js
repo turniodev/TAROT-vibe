@@ -154,8 +154,16 @@
       window.AnalysisModule.render(cards, session, data.gemini_analysis);
 
     } catch (err) {
-      alert(err.message);
+      console.error("Lỗi tải share:", err);
+      document.getElementById('analysisContent').innerHTML = '';
       showPage('landing');
+      window.showMysticalAlert(
+        "Thông điệp bị ẩn",
+        "Vũ trụ không tìm thấy tín hiệu hoặc thông điệp này đã được ẩn đi. Xin hãy trở lại nơi bắt đầu.",
+        "Quay Về",
+        null,
+        3000
+      );
     }
   }
 
@@ -204,32 +212,32 @@
       try {
         const res = await fetch('https://ka-en.com.vn/tarot_api/get_top_topics.php');
         const json = await res.json();
-        
+
         if (json.status === 'success') {
           topTopicsLoading.style.display = 'none';
           topicsChartCanvas.style.display = 'block';
-          
+
           let getLabel = (t) => t;
           if (window.TarotHelper && window.TarotHelper.getThemeLabel) {
-             getLabel = window.TarotHelper.getThemeLabel;
+            getLabel = window.TarotHelper.getThemeLabel;
           } else {
-             getLabel = (t) => THEME_LABEL[t] || t;
+            getLabel = (t) => THEME_LABEL[t] || t;
           }
-          
+
           const labels = json.data.map(d => getLabel(d.theme));
           const counts = json.data.map(d => parseInt(d.count, 10));
           const totalCount = counts.reduce((sum, val) => sum + val, 0);
           const percentages = counts.map(count => ((count / totalCount) * 100).toFixed(1));
-          
+
           if (topTopicsChartInstance) {
             topTopicsChartInstance.destroy();
           }
-          
+
           Chart.defaults.color = 'rgba(232, 180, 255, 0.7)';
           Chart.defaults.font.family = "'EB Garamond', serif";
-          
+
           const ctx = topicsChartCanvas.getContext('2d');
-          
+
           // Trì hoãn một chút để CSS transition (fade-in) của modal chạy xong 
           // thì mới tạo chart, giúp hiệu ứng chạy từ 0 lên hiển thị trọn vẹn
           setTimeout(() => {
@@ -269,16 +277,16 @@
                     padding: 10,
                     displayColors: false,
                     callbacks: {
-                       label: (ctx) => `${ctx.raw}%`
+                      label: (ctx) => `${ctx.raw}%`
                     }
                   }
                 },
                 scales: {
                   x: {
                     beginAtZero: true,
-                    ticks: { 
-                       precision: 0,
-                       callback: function(value) { return value + "%"; }
+                    ticks: {
+                      precision: 0,
+                      callback: function (value) { return value + "%"; }
                     },
                     grid: { color: 'rgba(155, 48, 255, 0.1)' }
                   },

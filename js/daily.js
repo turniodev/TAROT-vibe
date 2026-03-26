@@ -71,10 +71,26 @@
         cardImg.src = saved.card.image;
         cardImg.style.transform = saved.card.isReversed ? 'rotate(180deg)' : 'none';
         
-        nameEl.innerText = saved.card.name + (saved.card.isReversed ? ' (Ngược)' : '');
+        nameEl.innerText = saved.card.name;
+        const statusEl = document.getElementById('dailyCardStatus');
+        if (statusEl) {
+          statusEl.innerHTML = `<span class="mm-orient ${saved.card.isReversed ? 'rev' : 'up'}">${saved.card.isReversed ? 'Ngược (Reversed)' : 'Xuôi (Upright)'}</span>`;
+          statusEl.style.textAlign = 'center';
+          statusEl.style.marginTop = '4px';
+          statusEl.style.marginBottom = '12px';
+        }
+
         msgEl.innerHTML = saved.message;
         resultBox.classList.add('visible');
         hintEl.style.display = 'none';
+
+        // Click to open dictionary
+        cardImg.onclick = () => {
+          if (window.showCardDetail) {
+            modal.classList.remove('open');
+            window.showCardDetail(saved.card);
+          }
+        };
       } else {
         // Ready to draw
         cardWrap.classList.remove('flipped');
@@ -144,8 +160,7 @@
         // Click to open dictionary
         cardImg.onclick = () => {
           if (window.showCardDetail) {
-            const dModal = document.getElementById('dailyDrawModal');
-            if (dModal) dModal.classList.remove('visible');
+            modal.classList.remove('open');
             window.showCardDetail(drawnCard);
           }
         };
