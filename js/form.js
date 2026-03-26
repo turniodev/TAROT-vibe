@@ -94,6 +94,10 @@
     if (gridEl) gridEl.classList.remove('hidden');
     if (window.FX?.modalOpen) window.FX.modalOpen(overlay, panel);
     else overlay.classList.add('visible');
+    // Reset câu hỏi mỗi lần mở form mới
+    if (inputQ) { inputQ.value = ''; if (charCount) charCount.textContent = '0 / 200'; }
+    const oldHint = document.getElementById('_step3Hint');
+    if (oldHint) oldHint.remove();
   }
   function closeForm(skipRestore = false) {
     if (window.FX?.modalClose) window.FX.modalClose(overlay, panel);
@@ -407,13 +411,67 @@
       return valid;
     }
     if (n === 3) {
-      if (inputQ.value.trim().length > 0 && inputQ.value.trim().length < 5) {
-        window.FX?.shake(inputQ); window.FX?.glowPulse(inputQ, 'rgba(255,80,80,0.6)');
+      const q = inputQ.value.trim();
+      const isCustomTab = !document.getElementById('customQPanel')?.classList.contains('hidden');
+
+      function showInputError(msg) {
+        window.FX?.shake(inputQ);
+        window.FX?.glowPulse(inputQ, 'rgba(255,80,80,0.6)');
+        inputQ.placeholder = msg;
+        setTimeout(() => { inputQ.placeholder = ' '; }, 3000);
+      }
+
+      function isSpam(s) {
+        const clean = s.replace(/\s/g, '');
+        if (!clean.length) return false;
+        // 5+ consecutive identical chars: aaaaaa, #####, 111111
+        if (/(.)\1{4,}/.test(clean)) return true;
+        // Single char frequency > 50%
+        const freq = {};
+        for (const c of clean) freq[c] = (freq[c] || 0) + 1;
+        const maxF = Math.max(...Object.values(freq));
+        if (maxF / clean.length > 0.5) return true;
+        // Very few unique chars (< 25% of length, min 4 unique needed for long strings)
+        const unique = Object.keys(freq).length;
+        if (clean.length >= 10 && unique / clean.length < 0.25) return true;
+        // Only digits or only symbols (no letters at all)
+        if (/^[\d\W_]+$/.test(clean)) return true;
         return false;
+      }
+
+      if (!q) {
+        if (isCustomTab) {
+          showInputError('Bạn cần nhập câu hỏi để tiếp tục...');
+        } else {
+          const grid = document.getElementById('presetQGrid');
+          if (grid) window.FX?.shake(grid);
+          let hint = document.getElementById('_step3Hint');
+          if (!hint) {
+            hint = document.createElement('div');
+            hint.id = '_step3Hint';
+            hint.style.cssText = 'color:rgba(255,110,110,0.9);font-family:"EB Garamond",serif;font-size:0.9rem;text-align:center;margin-top:8px;transition:opacity 0.4s;';
+            grid.parentElement?.appendChild(hint);
+          }
+          hint.textContent = '✦ Vui lòng chọn một câu hỏi để tiếp tục';
+          hint.style.opacity = '1';
+          setTimeout(() => { hint.style.opacity = '0'; }, 2500);
+        }
+        return false;
+      }
+      if (isCustomTab) {
+        if (q.length < 30) {
+          showInputError(`Câu hỏi cần ít nhất 30 ký tự (hiện ${q.length}/30)...`);
+          return false;
+        }
+        if (isSpam(q)) {
+          showInputError('Câu hỏi không hợp lệ – vui lòng đặt câu hỏi thực sự...');
+          return false;
+        }
       }
     }
     return true;
   }
+
 
   /* ── Spread option ripple ─────────────────────────── */
   document.querySelectorAll('.spread-card-opt').forEach(opt => {
@@ -462,9 +520,16 @@
       const len = Math.min(inputQ.value.length, 200);
       if (inputQ.value.length > 200) inputQ.value = inputQ.value.slice(0, 200);
       charCount.textContent = `${len} / 200`;
-      charCount.style.color = len > 180 ? 'rgba(255,160,80,0.8)' : 'rgba(255,255,255,0.25)';
+      if (len < 30) {
+        charCount.style.color = 'rgba(255,100,100,0.8)';
+      } else if (len > 180) {
+        charCount.style.color = 'rgba(255,160,80,0.8)';
+      } else {
+        charCount.style.color = 'rgba(255,255,255,0.25)';
+      }
     });
   }
+
 
   /* ── Input focus sparkle ──────────────────────────── */
   document.querySelectorAll('.mystical-input').forEach(inp => {
@@ -1169,8 +1234,16 @@
     }
   }
 
-  document.getElementById('tabCustomQ')?.addEventListener('click', () => switchQTab('custom'));
-  document.getElementById('tabPresetQ')?.addEventListener('click', () => switchQTab('preset'));
+  document.getElementById('tabCustomQ')?.addEventListener('click', () => {
+    switchQTab('custom');
+    const hint = document.getElementById('_step3Hint');
+    if (hint) hint.style.opacity = '0';
+  });
+  document.getElementById('tabPresetQ')?.addEventListener('click', () => {
+    switchQTab('preset');
+    const hint = document.getElementById('_step3Hint');
+    if (hint) hint.style.opacity = '0';
+  });
 
   /* ── Privacy Modal ────────────────────────────────────── */
   const btnOpenPrivacy = document.getElementById('btnOpenPrivacy');
