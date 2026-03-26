@@ -25,6 +25,17 @@
     const data = window.FormModule.getData();
     if (!data.name || !data.theme || !data.question) return;
 
+    // Duplicate question check (3 months)
+    if (window.HistoryModule && window.HistoryModule.checkDuplicateQuestion) {
+      if (window.HistoryModule.checkDuplicateQuestion(data.question)) {
+        const proceed = await window.DailyLimit.showWarning(
+          data.theme,
+          `Bạn đã hỏi vũ trụ câu hỏi này gần đây. Việc hỏi lại cùng một vấn đề khi chưa có sự thay đổi thực tế sẽ làm <em>nhiễu loạn</em> năng lượng.<br><br>Vũ trụ khuyên bạn nên chờ ít nhất <strong>3 tháng</strong> để tình hình biến chuyển rồi mới xem lại.`
+        );
+        if (!proceed) return;
+      }
+    }
+
     // Daily limit check
     const limitResult = window.DailyLimit?.check(data.theme, data.spread);
     if (limitResult === 'blocked') {

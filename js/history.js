@@ -485,5 +485,20 @@
     });
   }
 
-  window.HistoryModule = { save, open, close, renderPanel, updateAnalysis };
+  function checkDuplicateQuestion(question) {
+    if (!question) return false;
+    const hist = load();
+    const q1 = question.trim().toLowerCase();
+    const threeMonthsAgo = new Date();
+    threeMonthsAgo.setMonth(threeMonthsAgo.getMonth() - 3);
+
+    return hist.some(e => {
+      if (!e.q) return false;
+      const q2 = e.q.trim().toLowerCase();
+      const itemDate = new Date(e.dt);
+      return q1 === q2 && itemDate >= threeMonthsAgo;
+    });
+  }
+
+  window.HistoryModule = { save, open, close, renderPanel, updateAnalysis, checkDuplicateQuestion };
 })();

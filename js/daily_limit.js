@@ -73,9 +73,16 @@
 
   /* ── Show warning modal, return a Promise<bool> ────── */
   // Resolves true = user wants to continue anyway
-  function showWarning(theme) {
+  function showWarning(theme, customMessage) {
     return new Promise(resolve => {
       const el = document.getElementById('dlWarnModal');
+      const bodyEl = el.querySelector('.dl-body');
+
+      if (!el.dataset.origMsg) {
+        el.dataset.origMsg = bodyEl.innerHTML;
+      }
+      bodyEl.innerHTML = customMessage || el.dataset.origMsg;
+
       el.classList.add('visible');
 
       const btnContinue = el.querySelector('#dlwBtnContinue');

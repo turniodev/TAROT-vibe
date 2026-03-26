@@ -176,10 +176,10 @@
     love: [
       { key: 'ex', label: 'Người Yêu Cũ', desc: 'Mối quan hệ đã qua' },
       { key: 'current_love', label: 'Người Yêu Hiện Tại', desc: 'Tình cảm đang có' },
+      { key: 'future_love', label: 'Người Yêu Tương Lai', desc: 'Tình duyên sắp tới' },
       { key: 'ambiguous', label: 'Mối Quan Hệ Mập Mờ', desc: 'Chưa rõ ràng' },
       { key: 'crush', label: 'Crush / Thầm Thích', desc: 'Người tôi thích' },
       { key: 'secret_admirer', label: 'Người Thương Bạn', desc: 'Ai đang để ý bạn' },
-      { key: 'future_love', label: 'Người Yêu Tương Lai', desc: 'Tình duyên sắp tới' },
       { key: 'someone', label: 'Người Ấy', desc: 'Người đang nghĩ đến' },
       { key: 'marriage', label: 'Hôn Nhân', desc: 'Vợ chồng & hôn nhân' },
       { key: 'conflict', label: 'Giải Quyết Xung Đột', desc: 'Hóa giải mâu thuẫn' },
@@ -422,11 +422,41 @@
       const name = document.getElementById('inputName');
       const dob = document.getElementById('inputDob');
       const gen = document.getElementById('inputGender').value;
+
       let valid = true;
-      if (!name.value.trim()) {
+      let nameVal = name.value.trim();
+
+      // Format Name: capitalize first letters
+      if (nameVal) {
+        nameVal = nameVal.replace(/\s+/g, ' ').split(' ').map(w => w.charAt(0).toUpperCase() + w.slice(1).toLowerCase()).join(' ');
+        name.value = nameVal;
+      }
+
+      // nameRegex allows purely Vietnamese letters and spaces, nothing else
+      const nameRegex = /^[a-zA-ZÀÁÂÃÈÉÊÌÍÒÓÔÕÙÚĂĐĨŨƠàáâãèéêìíòóôõùúăđĩũơƯĂẠẢẤẦẨẪẬẮẰẲẴẶẸẺẼỀỀỂưăạảấầẩẫậắằẳẵặẹẻẽềềểỄỆỈỊỌỎỐỒỔỖỘỚỜỞỠỢỤỦỨỪễệỉịọỏốồổỗộớờởỡợụủứừỮỰỲỴÝỶỸửữựỳỵỷỹ\s]{2,50}$/;
+      const isSpamName = (s) => {
+        const clean = s.replace(/\s/g, '');
+        if (!clean.length) return false;
+        if (/(.)\1{4,}/.test(clean)) return true; // e.g. aaaaa
+        return false;
+      };
+
+      if (!nameVal) {
+        name.placeholder = 'Vui lòng nhập tên của bạn...';
+        window.FX?.shake(name); window.FX?.glowPulse(name, 'rgba(255,80,80,0.6)');
+        valid = false;
+      } else if (!nameRegex.test(nameVal)) {
+        name.value = '';
+        name.placeholder = 'Chỉ nhập chữ cái, không chứa số/kí tự/emoji...';
+        window.FX?.shake(name); window.FX?.glowPulse(name, 'rgba(255,80,80,0.6)');
+        valid = false;
+      } else if (isSpamName(nameVal)) {
+        name.value = '';
+        name.placeholder = 'Tên chưa hợp lệ, vui lòng nhập tên thật...';
         window.FX?.shake(name); window.FX?.glowPulse(name, 'rgba(255,80,80,0.6)');
         valid = false;
       }
+
       if (!dob.value) {
         const dobDisplay = document.getElementById('dobDisplay');
         if (dobDisplay) {
@@ -549,7 +579,7 @@
       if (currentStep === 2 && subPanel && !subPanel.classList.contains('hidden')) {
         subPanel.classList.add('hidden');
         if (gridPanel) gridPanel.classList.remove('hidden');
-        
+
         const stTitle = document.querySelector('#step2 .step-title');
         const stDesc = document.querySelector('#step2 .step-desc');
         if (stTitle) stTitle.textContent = 'Chọn Lĩnh Vực';
@@ -1266,10 +1296,40 @@
   function refreshPresetQ() {
     const grid = document.getElementById('presetQGrid');
     const groups = PRESET_Q[_selectedTheme] || PRESET_Q.general;
+    const gender = document.getElementById('inputGender')?.value || '';
+
+    function formatQ(q) {
+      if (gender === 'Nam' || gender === 'Nữ') {
+        let newQ = q.replace(/chồng\/vợ|vợ\/chồng/gi, match => {
+          const isUpper = match.charAt(0) === match.charAt(0).toUpperCase();
+          const repl = gender === 'Nam' ? 'vợ' : 'chồng';
+          return isUpper ? repl.charAt(0).toUpperCase() + repl.slice(1) : repl;
+        });
+
+        newQ = newQ.replace(/người yêu tương lai/gi, match => {
+          const isFirstUpper = match.charAt(0) === 'N';
+          const isSecondUpper = match.charAt(6) === 'Y';
+
+          if (gender === 'Nam') {
+            if (isFirstUpper && isSecondUpper) return 'Bạn Gái Tương Lai';
+            if (isFirstUpper) return 'Bạn gái tương lai';
+            return 'bạn gái tương lai';
+          } else {
+            if (isFirstUpper && isSecondUpper) return 'Bạn Trai Tương Lai';
+            if (isFirstUpper) return 'Bạn trai tương lai';
+            return 'bạn trai tương lai';
+          }
+        });
+
+        return newQ;
+      }
+      return q;
+    }
+
     grid.innerHTML = groups.map(g => `
       <div class="preset-q-group">
-        <div class="preset-q-group-header">${g.group}</div>
-        ${g.qs.map(q => `<button class="preset-q-btn" type="button">${q}</button>`).join('')}
+        <div class="preset-q-group-header">${formatQ(g.group)}</div>
+        ${g.qs.map(q => `<button class="preset-q-btn" type="button">${formatQ(q)}</button>`).join('')}
       </div>`).join('');
     grid.querySelectorAll('.preset-q-btn').forEach(btn => {
       btn.addEventListener('click', () => {
