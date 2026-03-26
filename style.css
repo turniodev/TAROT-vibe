@@ -7733,3 +7733,15 @@ body {
   cursor: pointer;
   filter: drop-shadow(0 0 15px rgba(255, 215, 0, 0.6)) brightness(1.1);
 }
+
+/* ============================================
+   IN-APP BROWSER: Disable backdrop-filter
+   Fixes glitch/flicker on Zalo, Facebook,
+   Instagram in-app WebViews
+   ============================================ */
+body.no-backdrop-blur *,
+body.no-backdrop-blur *::before,
+body.no-backdrop-blur *::after {
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+}
