@@ -14,6 +14,8 @@
     href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400;600;700&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=EB+Garamond:ital,wght@0,400;0,500;1,400;1,500&display=swap"
     rel="stylesheet" />
   <link rel="stylesheet" href="style.css?v=3" />
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <!-- Google Identity Services -->
   <script src="https://accounts.google.com/gsi/client" async defer></script>
 </head>
@@ -108,6 +110,15 @@
         </span>
         <span>Ý nghĩa các lá bài</span>
       </p>
+
+      <!-- Top Topics Chart Button -->
+      <button id="btnTopTopics" class="btn-float-icon btn-float-icon--chart reveal-item" style="--di:4.5; position: fixed; bottom: 20px; right: 20px; z-index: 100;" title="Thống kê chủ đề">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="20" x2="18" y2="10"></line>
+          <line x1="12" y1="20" x2="12" y2="4"></line>
+          <line x1="6" y1="20" x2="6" y2="14"></line>
+        </svg>
+      </button>
     </div>
   </div>
 
@@ -692,6 +703,23 @@
         Họ tên, ngày sinh và giới tính chỉ được sử dụng để tính toán hệ tọa độ chiêm tinh, cung hoàng đạo và thần số học
         nhằm giúp thông điệp Tarot được giải mã cá nhân hóa và chính xác nhất cho riêng bạn.
       </p>
+    </div>
+  </div>
+
+  <!-- ===================== TOP TOPICS MODAL ===================== -->
+  <div id="topTopicsModal" class="cd-modal" style="z-index: 100000;" onclick="if(event.target === this) this.classList.remove('visible');">
+    <div class="cd-panel" style="max-width: 600px; padding: 30px 24px; text-align: center;">
+      <button id="btnTopTopicsClose" class="cd-close" onclick="document.getElementById('topTopicsModal').classList.remove('visible')">&times;</button>
+      <div style="font-size: 2rem; color: var(--c-gold); margin-bottom: 8px;">✦</div>
+      <h2 style="font-family: 'Philosopher', serif; color: var(--c-gold); font-size: 1.4rem; margin-bottom: 24px; letter-spacing: 0.05em; text-transform: uppercase;">
+        Thống Kê Chủ Đề
+      </h2>
+      <div id="topTopicsLoading" class="ai-loader" style="margin: 0 auto; display: none;">
+        <div class="ai-orb"></div><div class="ai-ring"></div>
+      </div>
+      <div style="position: relative; width: 100%; height: 350px;">
+        <canvas id="topicsChart"></canvas>
+      </div>
     </div>
   </div>
 
