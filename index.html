@@ -113,8 +113,10 @@
     </div>
 
     <!-- Top Topics Chart Button -->
-    <button id="btnTopTopics" class="btn-float-icon btn-float-icon--chart" style="position: fixed; bottom: 20px; right: 20px; z-index: 100;" title="Thống kê chủ đề">
-      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <button id="btnTopTopics" class="btn-float-icon btn-float-icon--chart"
+      style="position: fixed; bottom: 20px; right: 20px; z-index: 100;" title="Thống kê chủ đề">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round">
         <line x1="18" y1="20" x2="18" y2="10"></line>
         <line x1="12" y1="20" x2="12" y2="4"></line>
         <line x1="6" y1="20" x2="6" y2="14"></line>
@@ -707,15 +709,20 @@
   </div>
 
   <!-- ===================== TOP TOPICS MODAL ===================== -->
-  <div id="topTopicsModal" class="cd-modal" style="z-index: 100000;" onclick="if(event.target === this) this.classList.remove('visible');">
-    <div class="cd-panel" style="max-width: 800px; padding: 30px 24px; text-align: center; background: rgba(14, 0, 36, 0.75); backdrop-filter: blur(12px); border: 1px solid rgba(155, 48, 255, 0.4);">
-      <button id="btnTopTopicsClose" class="cd-close" onclick="document.getElementById('topTopicsModal').classList.remove('visible')">&times;</button>
+  <div id="topTopicsModal" class="cd-modal" style="z-index: 100000;"
+    onclick="if(event.target === this) this.classList.remove('visible');">
+    <div class="cd-panel"
+      style="max-width: 800px; padding: 30px 24px; text-align: center; background: rgba(14, 0, 36, 0.75); backdrop-filter: blur(12px); border: 1px solid rgba(155, 48, 255, 0.4);">
+      <button id="btnTopTopicsClose" class="cd-close"
+        onclick="document.getElementById('topTopicsModal').classList.remove('visible')">&times;</button>
       <div style="font-size: 2rem; color: var(--c-gold); margin-bottom: 8px;">✦</div>
-      <h2 style="font-family: 'Philosopher', serif; color: var(--c-gold); font-size: 1.4rem; margin-bottom: 24px; letter-spacing: 0.05em; text-transform: uppercase;">
-        Thống Kê Chủ Đề
+      <h2
+        style="font-family: 'Philosopher', serif; color: var(--c-gold); font-size: 1.4rem; margin-bottom: 24px; letter-spacing: 0.05em; text-transform: uppercase;">
+        Mọi người đang lo lắng về điều gì?
       </h2>
       <div id="topTopicsLoading" class="ai-loader" style="margin: 0 auto; display: none;">
-        <div class="ai-orb"></div><div class="ai-ring"></div>
+        <div class="ai-orb"></div>
+        <div class="ai-ring"></div>
       </div>
       <div style="position: relative; width: 100%; height: 450px;">
         <canvas id="topicsChart"></canvas>

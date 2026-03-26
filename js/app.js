@@ -218,6 +218,8 @@
           
           const labels = json.data.map(d => getLabel(d.theme));
           const counts = json.data.map(d => parseInt(d.count, 10));
+          const totalCount = counts.reduce((sum, val) => sum + val, 0);
+          const percentages = counts.map(count => ((count / totalCount) * 100).toFixed(1));
           
           if (topTopicsChartInstance) {
             topTopicsChartInstance.destroy();
@@ -232,8 +234,8 @@
             data: {
               labels: labels,
               datasets: [{
-                label: 'Số lượt trải bài',
-                data: counts,
+                label: 'Tỷ lệ %',
+                data: percentages,
                 backgroundColor: 'rgba(201, 168, 76, 0.6)',
                 borderColor: 'rgba(201, 168, 76, 1)',
                 borderWidth: 1,
@@ -255,13 +257,16 @@
                   padding: 10,
                   displayColors: false,
                   callbacks: {
-                     label: (ctx) => `${ctx.raw} lượt`
+                     label: (ctx) => `${ctx.raw}%`
                   }
                 }
               },
               scales: {
                 x: {
-                  ticks: { precision: 0 },
+                  ticks: { 
+                     precision: 0,
+                     callback: function(value) { return value + "%"; }
+                  },
                   grid: { color: 'rgba(155, 48, 255, 0.1)' }
                 },
                 y: {
