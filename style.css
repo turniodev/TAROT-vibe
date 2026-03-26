@@ -1089,6 +1089,7 @@ body {
   justify-content: center;
   gap: 0;
   margin-bottom: 36px;
+  pointer-events: none;
 }
 
 .step-dot {
@@ -4535,11 +4536,12 @@ body {
   .form-footer {
     position: sticky;
     bottom: 0;
-    background: rgba(11, 0, 32, 0.97);
+    /* background: rgba(11, 0, 32, 0.97); */
     border-top: 1px solid rgba(155, 48, 255, 0.2);
     padding: 10px 18px;
     display: flex;
     gap: 10px;
+    padding-bottom: 10px !important;
     flex-shrink: 0;
     z-index: 5;
   }
@@ -6160,9 +6162,11 @@ body {
 
 @media (max-width: 768px) {
   .step-nav {
-    padding: 0 18px 16px !important;
+    /* padding: 0 18px 16px !important; */
     gap: 10px !important;
   }
+
+
 
   .btn-next,
   .btn-prev {
