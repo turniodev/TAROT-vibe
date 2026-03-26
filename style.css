@@ -226,8 +226,13 @@ body {
 }
 
 @keyframes centerFloat {
-  0% { transform: translateY(0px); }
-  100% { transform: translateY(-12px); }
+  0% {
+    transform: translateY(0px);
+  }
+
+  100% {
+    transform: translateY(-12px);
+  }
 }
 
 /* Sigil */
@@ -858,6 +863,7 @@ body {
 
 /* ── Unified breath: shadow + border + ring all in sync ── */
 @keyframes btnBreath {
+
   0%,
   100% {
     border-color: rgba(155, 48, 255, 0.6);
@@ -1953,7 +1959,7 @@ body {
   height: var(--card-h);
   cursor: pointer;
   position: relative;
-  perspective: 800px;
+  overflow: visible;
   transition: transform 0.4s var(--ease-out);
   flex-shrink: 0;
 }
@@ -1972,6 +1978,7 @@ body {
   width: 100%;
   height: 100%;
   position: relative;
+  perspective: 800px;
   transform-style: preserve-3d;
   transition: transform 0.4s var(--ease-out);
 }
@@ -2994,7 +3001,7 @@ body {
   align-items: center;
   justify-content: center;
   padding: 20px;
-  background: rgba(4, 0, 14, 0.75);
+  background: rgba(4, 0, 14, 0.35);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
 }
@@ -6077,7 +6084,8 @@ body {
 #pageReading.deck-hidden {
   justify-content: center !important;
   align-items: center !important;
-  overflow: visible !important; /* allow 3D tilt to escape bounds */
+  overflow: visible !important;
+  /* allow 3D tilt to escape bounds */
 }
 
 #pageReading.deck-hidden .selected-area {
@@ -6221,6 +6229,7 @@ body {
 #pageReading.deck-hidden .spread-card {
   animation: magicalFloat 4s ease-in-out infinite;
   animation-delay: calc(var(--slot-idx, 0) * 0.4s);
+  overflow: visible !important;
 }
 
 @keyframes magicalFloat {
@@ -6535,8 +6544,13 @@ body {
 }
 
 @keyframes bgGradientRunning {
-  0% { background-position: 200% 0; }
-  100% { background-position: -200% 0; }
+  0% {
+    background-position: 200% 0;
+  }
+
+  100% {
+    background-position: -200% 0;
+  }
 }
 
 .dict-header {
@@ -6645,7 +6659,8 @@ body {
 .clarify-screen {
   position: fixed;
   inset: 0;
-  background: rgba(10, 0, 25, 0.75); /* Tối hơn một chút để tập trung */
+  background: rgba(10, 0, 25, 0.75);
+  /* Tối hơn một chút để tập trung */
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   z-index: 100000;
@@ -6659,10 +6674,12 @@ body {
   visibility: hidden;
   transition: opacity 0.4s ease, visibility 0.4s ease;
 }
+
 .clarify-screen.visible {
   opacity: 1;
   visibility: visible;
 }
+
 .clarify-container {
   width: 100%;
   max-width: 800px;
@@ -6702,6 +6719,7 @@ body {
   -webkit-backdrop-filter: blur(12px);
   text-align: center;
 }
+
 .cq-text {
   font-family: 'EB Garamond', serif;
   font-size: 1.3rem;
@@ -6709,12 +6727,14 @@ body {
   margin: 0 0 32px 0;
   line-height: 1.6;
 }
+
 .cq-btns {
   display: flex;
   justify-content: center;
   gap: 12px;
   align-items: stretch;
 }
+
 .cq-btn {
   padding: 12px 0;
   background: transparent;
@@ -6728,15 +6748,19 @@ body {
   position: relative;
   overflow: hidden;
 }
-.cq-yes, .cq-no {
+
+.cq-yes,
+.cq-no {
   flex: 0 0 calc(40% - 6px);
   max-width: calc(40% - 6px);
 }
+
 .cq-skip {
   flex: 0 0 calc(20% - 6px);
   max-width: calc(20% - 6px);
   font-size: 0.9rem;
 }
+
 .cq-btn:hover {
   background: rgba(201, 168, 76, 0.1);
   border-color: rgba(201, 168, 76, 0.6);
@@ -6744,6 +6768,7 @@ body {
   transform: translateY(-2px);
   color: var(--c-gold);
 }
+
 .cq-btn.active {
   background: rgba(201, 168, 76, 0.25);
   border-color: var(--c-gold);
@@ -6771,11 +6796,6 @@ body {
 .dict-card {
   cursor: pointer;
   text-align: center;
-  transition: transform 0.3s;
-}
-
-.dict-card:hover {
-  transform: translateY(-5px);
 }
 
 .dict-card-img-wrap {
@@ -7222,6 +7242,7 @@ body {
   margin-top: 10px;
   border-top: 1px solid rgba(201, 168, 76, 0.2);
 }
+
 .hist-page-btn {
   background: rgba(30, 15, 50, 0.8);
   border: 1px solid rgba(155, 48, 255, 0.4);
@@ -7233,17 +7254,20 @@ body {
   font-size: 0.95rem;
   transition: all 0.3s ease;
 }
+
 .hist-page-btn:hover:not(:disabled) {
   background: rgba(155, 48, 255, 0.3);
   color: var(--c-gold);
   border-color: var(--c-gold);
 }
+
 .hist-page-btn.active {
   background: rgba(201, 168, 76, 0.2);
   color: var(--c-gold);
   border-color: var(--c-gold);
   font-weight: bold;
 }
+
 .hist-page-btn:disabled {
   opacity: 0.3;
   cursor: not-allowed;
@@ -7266,11 +7290,13 @@ body {
   gap: 6px;
   margin-right: 15px;
 }
+
 .hist-date-btn:hover {
   background: rgba(201, 168, 76, 0.15);
   border-color: var(--c-gold);
   color: var(--c-gold);
 }
+
 .hist-date-btn.active {
   background: rgba(201, 168, 76, 0.25);
   border: 1px solid var(--c-gold);
@@ -7289,22 +7315,25 @@ body {
   border-radius: 8px;
   padding: 20px;
   width: 280px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.8), 0 0 20px rgba(155, 48, 255, 0.2);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8), 0 0 20px rgba(155, 48, 255, 0.2);
   z-index: 1000;
   opacity: 0;
   pointer-events: none;
   transform: translateX(-50%) translateY(-10px);
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
+
 .hist-date-modal.visible {
   opacity: 1;
   pointer-events: all;
   transform: translateX(-50%) translateY(0);
 }
+
 .hist-date-field {
   margin-bottom: 15px;
   text-align: left;
 }
+
 .hist-date-field label {
   display: block;
   font-family: 'Philosopher', serif;
@@ -7312,6 +7341,7 @@ body {
   margin-bottom: 5px;
   font-size: 0.9rem;
 }
+
 .hist-date-field input[type="date"] {
   width: 100%;
   box-sizing: border-box;
@@ -7326,14 +7356,17 @@ body {
   outline: none;
   transition: border-color 0.3s;
 }
+
 .hist-date-field input[type="date"]:focus {
   border-color: var(--c-gold);
 }
+
 .hist-date-actions {
   display: flex;
   gap: 10px;
   margin-top: 20px;
 }
+
 .hist-date-actions button {
   flex: 1;
   padding: 8px;
@@ -7344,19 +7377,23 @@ body {
   border: 1px solid transparent;
   transition: all 0.3s;
 }
+
 .btn-date-apply {
   background: rgba(201, 168, 76, 0.2);
   color: var(--c-gold);
   border-color: rgba(201, 168, 76, 0.5) !important;
 }
+
 .btn-date-apply:hover {
   background: rgba(201, 168, 76, 0.4);
 }
+
 .btn-date-clear {
   background: rgba(255, 107, 107, 0.1);
   color: #ff6b6b;
   border-color: rgba(255, 107, 107, 0.3) !important;
 }
+
 .btn-date-clear:hover {
   background: rgba(255, 107, 107, 0.2);
 }
@@ -7376,18 +7413,21 @@ body {
   padding: 10px 15px;
   border-radius: 40px;
   cursor: pointer;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.6), 0 0 10px rgba(155, 48, 255, 0.2);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6), 0 0 10px rgba(155, 48, 255, 0.2);
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
+
 .daily-draw-widget:hover {
   transform: translateY(-2px);
   border-color: var(--c-gold);
-  box-shadow: 0 6px 20px rgba(0,0,0,0.8), 0 0 15px rgba(201, 168, 76, 0.4);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.8), 0 0 15px rgba(201, 168, 76, 0.4);
 }
+
 .daily-draw__ring {
   position: absolute;
   top: 50%;
-  left: 25px; /* Center of icon */
+  left: 25px;
+  /* Center of icon */
   width: 44px;
   height: 44px;
   transform: translate(-50%, -50%);
@@ -7396,31 +7436,36 @@ body {
   animation: slowPulse 3s infinite alternate;
   pointer-events: none;
 }
+
 .daily-draw__icon {
   width: 32px;
   height: 48px;
   border-radius: 4px;
   overflow: hidden;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.8);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
   position: relative;
   z-index: 2;
 }
+
 .daily-draw__icon img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   transition: opacity 0.3s;
 }
+
 .daily-draw__text {
   display: flex;
   flex-direction: column;
 }
+
 .daily-draw__text span {
   font-family: 'Philosopher', serif;
   font-size: 0.95rem;
   color: var(--c-gold);
   letter-spacing: 0.05em;
 }
+
 .daily-draw__text small {
   font-family: 'EB Garamond', serif;
   font-size: 0.75rem;
@@ -7431,7 +7476,10 @@ body {
 /* Modal Overlay */
 .daily-draw-overlay {
   position: fixed;
-  top: 0; left: 0; width: 100vw; height: 100vh;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
   background: rgba(10, 2, 18, 0.5);
   backdrop-filter: blur(8px);
   z-index: 2000;
@@ -7442,12 +7490,14 @@ body {
   pointer-events: none;
   transition: opacity 0.4s ease;
 }
+
 .daily-draw-overlay.open {
   opacity: 1;
   pointer-events: all;
 }
+
 .daily-draw-panel {
-  background: linear-gradient(180deg, rgba(30,15,50,0.9) 0%, rgba(15,5,25,0.95) 100%);
+  background: linear-gradient(180deg, rgba(30, 15, 50, 0.9) 0%, rgba(15, 5, 25, 0.95) 100%);
   border: 1px solid rgba(201, 168, 76, 0.5);
   border-radius: 16px;
   padding: 40px 30px;
@@ -7455,16 +7505,19 @@ body {
   max-width: 550px;
   text-align: center;
   position: relative;
-  box-shadow: 0 10px 40px rgba(0,0,0,0.8), inset 0 0 20px rgba(155,48,255,0.1);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.8), inset 0 0 20px rgba(155, 48, 255, 0.1);
   transform: translateY(20px) scale(0.95);
   transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
+
 .daily-draw-overlay.open .daily-draw-panel {
   transform: translateY(0) scale(1);
 }
+
 .daily-close {
   position: absolute;
-  top: 15px; right: 15px;
+  top: 15px;
+  right: 15px;
   background: transparent;
   border: none;
   color: rgba(201, 168, 76, 0.6);
@@ -7473,10 +7526,12 @@ body {
   line-height: 1;
   transition: transform 0.3s, color 0.3s;
 }
+
 .daily-close:hover {
   color: var(--c-gold);
   transform: scale(1.1) rotate(90deg);
 }
+
 .daily-title {
   font-family: 'Philosopher', serif;
   color: var(--c-gold-bright);
@@ -7495,6 +7550,7 @@ body {
   cursor: pointer;
   position: relative;
 }
+
 .daily-card-inner {
   position: relative;
   width: 100%;
@@ -7503,13 +7559,16 @@ body {
   transition: transform 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   transform-style: preserve-3d;
   border-radius: 8px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
 }
+
 .daily-card-wrap.flipped .daily-card-inner {
   transform: rotateY(180deg) scale(1.1);
-  box-shadow: 0 15px 35px rgba(0,0,0,0.6), 0 0 25px rgba(201, 168, 76, 0.4);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.6), 0 0 25px rgba(201, 168, 76, 0.4);
 }
-.daily-card-front, .daily-card-back {
+
+.daily-card-front,
+.daily-card-back {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -7518,15 +7577,20 @@ body {
   overflow: hidden;
   border: 2px solid transparent;
 }
+
 .daily-card-front {
   border-color: rgba(201, 168, 76, 0.6);
-  pointer-events: none; /* Just for glow effect */
+  pointer-events: none;
+  /* Just for glow effect */
 }
-.daily-card-front img, .daily-card-back img {
+
+.daily-card-front img,
+.daily-card-back img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
+
 .daily-card-back {
   transform: rotateY(180deg);
   border-color: var(--c-gold);
@@ -7547,11 +7611,13 @@ body {
   overflow: hidden;
   transition: all 0.6s ease;
 }
+
 .daily-result.visible {
   opacity: 1;
   max-height: 500px;
   margin-top: 20px;
 }
+
 .daily-name {
   font-family: 'Philosopher', serif;
   color: #fff;
@@ -7559,6 +7625,7 @@ body {
   margin-bottom: 10px;
   text-shadow: 0 0 8px rgba(155, 48, 255, 0.6);
 }
+
 .daily-desc {
   font-family: 'EB Garamond', serif;
   color: rgba(255, 255, 255, 0.9);
@@ -7566,6 +7633,7 @@ body {
   line-height: 1.6;
   text-align: justify;
 }
+
 /* Shimmer during fetch */
 .shimmer-text {
   background: linear-gradient(90deg, rgba(232, 180, 255, 0.7) 0%, #fff 50%, rgba(232, 180, 255, 0.7) 100%);
@@ -7578,14 +7646,17 @@ body {
   font-family: 'EB Garamond', serif;
   font-style: italic;
 }
+
 @keyframes shine {
-  to { background-position: 200% center; }
+  to {
+    background-position: 200% center;
+  }
 }
 
 /* Compact Daily Widget */
 .btn-float-action {
   position: fixed;
-  bottom: 80px; 
+  bottom: 80px;
   right: 20px;
   width: 50px;
   height: 50px;
@@ -7593,7 +7664,7 @@ body {
   background: rgba(15, 5, 25, 0.85);
   backdrop-filter: blur(8px);
   border: 1px solid rgba(201, 168, 76, 0.5);
-  box-shadow: 0 4px 15px rgba(0,0,0,0.6), 0 0 10px rgba(155, 48, 255, 0.3);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6), 0 0 10px rgba(155, 48, 255, 0.3);
   display: flex !important;
   justify-content: center;
   align-items: center;
@@ -7603,11 +7674,13 @@ body {
   padding: 0;
   outline: none;
 }
+
 .btn-float-action:hover {
   transform: translateY(-3px) scale(1.05);
   border-color: var(--c-gold);
-  box-shadow: 0 6px 20px rgba(0,0,0,0.8), 0 0 20px rgba(201, 168, 76, 0.6);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.8), 0 0 20px rgba(201, 168, 76, 0.6);
 }
+
 .btn-float-action img {
   width: 20px;
   height: 34px;
@@ -7616,10 +7689,13 @@ body {
   transition: transform 0.3s;
   object-fit: contain;
 }
+
 .daily-draw__ring-mini {
   position: absolute;
-  top: 50%; left: 50%;
-  width: 100%; height: 100%;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
   transform: translate(-50%, -50%);
   border-radius: 50%;
   border: 1px solid rgba(201, 168, 76, 0.6);

@@ -260,6 +260,7 @@ window.ReadingModule = (function () {
         c.style.transition = 'width 1.2s cubic-bezier(0.22,1,0.36,1), height 1.2s cubic-bezier(0.22,1,0.36,1), transform 0.4s var(--ease-out), box-shadow 0.4s var(--ease-out)';
         c.style.width  = w + 'px';
         c.style.height = h + 'px';
+        c.style.overflow = 'visible'; // 3D tilt must escape bounds
       }, i * 150);
     });
   }
@@ -291,6 +292,7 @@ window.ReadingModule = (function () {
     wrap.style.setProperty('--slot-idx', slotIdx);
     wrap.style.width  = getSmallW() + 'px';
     wrap.style.height = getSmallH() + 'px';
+    wrap.style.overflow = 'visible'; // prevent VanillaTilt from clipping 3D
 
     const tiltWrap = document.createElement('div');
     tiltWrap.className = 'tilt-wrapper';
@@ -557,6 +559,27 @@ window.ReadingModule = (function () {
       const p = modal.querySelector('.meaning-modal-panel');
       p.style.transform = 'scale(0.88) translateY(20px)'; p.style.opacity = '0';
       if (window.triggerLightning) window.triggerLightning();
+
+      // 3D tilt on modal card image
+      if (window.VanillaTilt) {
+        const cardImg = modal.querySelector('.mm-card-img');
+        if (cardImg && !cardImg.parentElement.classList.contains('mm-tilt-wrap')) {
+          const tiltDiv = document.createElement('div');
+          tiltDiv.className = 'mm-tilt-wrap';
+          tiltDiv.style.cssText = 'position:relative;display:inline-block;';
+          const glareWrap = document.createElement('div');
+          glareWrap.className = 'js-tilt-glare';
+          glareWrap.style.cssText = 'position:absolute;inset:0;border-radius:12px;overflow:hidden;pointer-events:none;z-index:10;';
+          const glareInner = document.createElement('div');
+          glareInner.className = 'js-tilt-glare-inner';
+          glareWrap.appendChild(glareInner);
+          cardImg.parentNode.insertBefore(tiltDiv, cardImg);
+          tiltDiv.appendChild(cardImg);
+          tiltDiv.appendChild(glareWrap);
+          VanillaTilt.init(tiltDiv, { max: 10, speed: 400, glare: true, 'max-glare': 0.2, 'glare-prerender': true });
+          tiltDiv.style.overflow = 'visible';
+        }
+      }
       requestAnimationFrame(() => requestAnimationFrame(() => {
         modal.style.transition = 'opacity 0.35s'; modal.style.opacity = '1';
         p.style.transition = 'transform 0.45s cubic-bezier(0.22,1,0.36,1), opacity 0.45s';

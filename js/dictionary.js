@@ -213,7 +213,28 @@
 
     cdModal.classList.add('visible');
 
-    // ── Accordion toggle logic ──────────────────────────
+    // 3D tilt on detail card image
+    if (window.VanillaTilt) {
+      const cdImg = cdContent.querySelector('.cd-img');
+      if (cdImg && !cdImg.parentElement.classList.contains('cd-tilt-wrap')) {
+        const tiltDiv = document.createElement('div');
+        tiltDiv.className = 'cd-tilt-wrap';
+        tiltDiv.style.cssText = 'position:relative;display:block;';
+        const glareWrap = document.createElement('div');
+        glareWrap.className = 'js-tilt-glare';
+        glareWrap.style.cssText = 'position:absolute;inset:0;border-radius:12px;overflow:hidden;pointer-events:none;z-index:10;';
+        const glareInner = document.createElement('div');
+        glareInner.className = 'js-tilt-glare-inner';
+        glareWrap.appendChild(glareInner);
+        cdImg.parentNode.insertBefore(tiltDiv, cdImg);
+        tiltDiv.appendChild(cdImg);
+        tiltDiv.appendChild(glareWrap);
+        VanillaTilt.init(tiltDiv, { max: 10, speed: 500, glare: true, 'max-glare': 0.2, 'glare-prerender': true });
+        tiltDiv.style.overflow = 'visible';
+      }
+    }
+
+    // Accordion toggle logic
     cdContent.querySelectorAll('.cda-group-btn').forEach(btn => {
       btn.addEventListener('click', () => {
         const group = btn.closest('.cda-group');
