@@ -344,7 +344,6 @@
     #app {
       display: none;
       position: relative;
-      z-index: 10;
     }
 
     .admin-layout {
@@ -1838,30 +1837,98 @@
     let filterEnd = new Date().toISOString().split('T')[0];
     let filterSortUser = '';
 
-    /* —— Mobile sidebar —— */
+    /* —— Mobile sidebar (pure JS, no media-query dependency) —— */
+    function isMobile() { return window.innerWidth <= 768; }
+
+    function initSidebar() {
+      const sb = document.getElementById('sidebar');
+      if (!sb) return;
+      if (isMobile()) {
+        // Force fixed position + hide off-screen
+        Object.assign(sb.style, {
+          position: 'fixed',
+          left: '0', top: '0', bottom: '0',
+          width: '280px',
+          height: '100%',
+          transform: sb.dataset.open === '1' ? 'translateX(0)' : 'translateX(-100%)',
+          visibility: sb.dataset.open === '1' ? 'visible' : 'hidden',
+          zIndex: '9999',
+          transition: 'transform 0.35s cubic-bezier(0.16,1,0.3,1), visibility 0.35s',
+          background: 'linear-gradient(180deg, rgba(16,0,40,0.98), rgba(8,0,20,0.99))',
+          borderRight: '1px solid rgba(155,48,255,0.25)',
+          boxShadow: '4px 0 30px rgba(0,0,0,0.8)'
+        });
+      } else {
+        // Reset inline styles for desktop
+        sb.removeAttribute('style');
+        sb.dataset.open = '0';
+        document.getElementById('sidebarOverlay').classList.remove('open');
+        document.body.style.overflow = '';
+      }
+    }
+
     function toggleSidebar() {
       const sb = document.getElementById('sidebar');
       const ov = document.getElementById('sidebarOverlay');
+      if (!sb) return;
       const isOpen = sb.dataset.open === '1';
       if (isOpen) {
         closeSidebar();
       } else {
         sb.dataset.open = '1';
-        sb.style.transform = 'translateX(0)';
-        sb.style.visibility = 'visible';
+        // Always re-apply ALL styles to ensure correct dimensions
+        Object.assign(sb.style, {
+          position: 'fixed',
+          left: '0', top: '0', bottom: '0',
+          width: '280px',
+          height: '100vh',
+          transform: 'translateX(0)',
+          visibility: 'visible',
+          zIndex: '9999',
+          transition: 'transform 0.35s cubic-bezier(0.16,1,0.3,1)',
+          background: 'linear-gradient(180deg, rgba(16,0,40,0.98), rgba(8,0,20,0.99))',
+          borderRight: '1px solid rgba(155,48,255,0.25)',
+          boxShadow: '4px 0 30px rgba(0,0,0,0.8)',
+          display: 'flex', flexDirection: 'column',
+          overflowY: 'auto'
+        });
         ov.classList.add('open');
         document.body.style.overflow = 'hidden';
+
+        // DEBUG LOG
+        requestAnimationFrame(() => {
+          const rect = sb.getBoundingClientRect();
+          const cs = getComputedStyle(sb);
+          console.log('=== SIDEBAR DEBUG ===');
+          console.log('rect:', JSON.stringify({top:rect.top,left:rect.left,width:rect.width,height:rect.height}));
+          console.log('position:', cs.position);
+          console.log('transform:', cs.transform);
+          console.log('visibility:', cs.visibility);
+          console.log('zIndex:', cs.zIndex);
+          console.log('inlineTransform:', sb.style.transform);
+          console.log('isMobile():', isMobile(), '| innerWidth:', window.innerWidth);
+        });
       }
     }
+
     function closeSidebar() {
       const sb = document.getElementById('sidebar');
       const ov = document.getElementById('sidebarOverlay');
+      if (!sb) return;
       sb.dataset.open = '0';
-      sb.style.transform = '';
-      sb.style.visibility = '';
+      if (isMobile()) {
+        Object.assign(sb.style, {
+          transform: 'translateX(-100%)',
+          visibility: 'hidden'
+        });
+      }
       ov.classList.remove('open');
       document.body.style.overflow = '';
     }
+
+    window.addEventListener('DOMContentLoaded', initSidebar);
+    window.addEventListener('resize', initSidebar);
+
 
     const THEME_MAP = {
       love: 'Tình Yêu', ex: 'Người Yêu Cũ', current_love: 'Người Yêu Hiện Tại',
