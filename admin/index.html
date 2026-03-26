@@ -1,33 +1,45 @@
 <!DOCTYPE html>
 <html lang="vi">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Tarot Admin — Bảng Điều Khiển Huyền Bí</title>
   <link rel="icon" type="image/png" href="../cards/icon/tarot_favicon.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Philosopher:wght@400;700&display=swap" rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Philosopher:wght@400;700&display=swap"
+    rel="stylesheet" />
   <style>
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
 
     :root {
-      --bg:       #04000e;
-      --surface:  #080014;
-      --card:     rgba(12, 0, 30, 0.85);
-      --border:   rgba(155,48,255,0.2);
-      --purple:   #9b30ff;
-      --gold:     #c9a84c;
+      --bg: #04000e;
+      --surface: #080014;
+      --card: rgba(12, 0, 30, 0.85);
+      --border: rgba(155, 48, 255, 0.2);
+      --purple: #9b30ff;
+      --gold: #c9a84c;
       --gold-pale: rgba(255, 230, 130, 0.9);
-      --text:     #e8e0ff;
-      --muted:    rgba(232,224,255,0.45);
-      --danger:   #ff6060;
-      --success:  #60ffa0;
-      --warning:  #ffb860;
+      --text: #e8e0ff;
+      --muted: rgba(232, 224, 255, 0.45);
+      --danger: #ff6060;
+      --success: #60ffa0;
+      --warning: #ffb860;
       --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
       color-scheme: dark;
     }
 
-    html { scroll-behavior: smooth; }
+    html {
+      scroll-behavior: smooth;
+    }
+
     body {
       background: var(--bg);
       color: var(--text);
@@ -39,7 +51,10 @@
 
     /* ── Nebula & Vignette Backgrounds ──────────────────── */
     .bg-nebula {
-      position: fixed; inset: 0; z-index: -2; pointer-events: none;
+      position: fixed;
+      inset: 0;
+      z-index: -2;
+      pointer-events: none;
       background:
         radial-gradient(circle at 15% 30%, rgba(107, 0, 204, 0.15), transparent 45%),
         radial-gradient(circle at 85% 70%, rgba(155, 48, 255, 0.1), transparent 50%),
@@ -47,24 +62,54 @@
       mix-blend-mode: screen;
       animation: drift 25s ease-in-out infinite alternate;
     }
+
     @keyframes drift {
-      from { transform: scale(1) translate(0, 0); }
-      to { transform: scale(1.05) translate(2%, 2%); }
+      from {
+        transform: scale(1) translate(0, 0);
+      }
+
+      to {
+        transform: scale(1.05) translate(2%, 2%);
+      }
     }
+
     .bg-vignette {
-      position: fixed; inset: 0; z-index: -1; pointer-events: none;
+      position: fixed;
+      inset: 0;
+      z-index: -1;
+      pointer-events: none;
       background: radial-gradient(circle at center, transparent 30%, rgba(4, 0, 14, 0.75) 100%);
     }
+
     .bg-sigil-wrap {
-      position: fixed; top: 50%; left: 50%; width: 120vh; height: 120vh;
-      transform: translate(-50%, -50%); z-index: -2; pointer-events: none; opacity: 0.15;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      width: 120vh;
+      height: 120vh;
+      transform: translate(-50%, -50%);
+      z-index: -2;
+      pointer-events: none;
+      opacity: 0.15;
       animation: spinSigil 180s linear infinite;
     }
+
     @keyframes spinSigil {
-      from { transform: translate(-50%, -50%) rotate(0deg); }
-      to { transform: translate(-50%, -50%) rotate(360deg); }
+      from {
+        transform: translate(-50%, -50%) rotate(0deg);
+      }
+
+      to {
+        transform: translate(-50%, -50%) rotate(360deg);
+      }
     }
-    .bg-sigil-svg { width: 100%; height: 100%; display: block; opacity: 0.8; }
+
+    .bg-sigil-svg {
+      width: 100%;
+      height: 100%;
+      display: block;
+      opacity: 0.8;
+    }
 
 
     /* Form elements baseline */
@@ -73,42 +118,75 @@
       color: var(--text);
       font-family: 'Philosopher', serif;
     }
+
     input[type="date"]::-webkit-calendar-picker-indicator {
       cursor: pointer;
       opacity: 0.6;
       transition: opacity 0.2s;
     }
+
     input[type="date"]::-webkit-calendar-picker-indicator:hover {
       opacity: 1;
     }
 
     /* ── Stars / Particles Canvas ──────────────────── */
-    #particleCanvas, #lightningCanvas {
-      position: fixed; top: 0; left: 0; width: 100%; height: 100%;
-      pointer-events: none; z-index: 0; opacity: 1;
+    #particleCanvas,
+    #lightningCanvas {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      z-index: 0;
+      opacity: 1;
     }
 
     /* ── Floating Cards ───────────────────────────── */
-    .floating-cards-layer { position: fixed; inset: 0; pointer-events: none; z-index: -1; overflow: hidden; }
-    .float-card {
-      position: absolute; top: 0; left: 0;
-      background: none !important; border-radius: 7px;
-      box-shadow: 0 4px 24px rgba(107,0,204,0.35); pointer-events: none;
-      will-change: transform, opacity; z-index: -1;
+    .floating-cards-layer {
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: -1;
+      overflow: hidden;
     }
+
+    .float-card {
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: none !important;
+      border-radius: 7px;
+      box-shadow: 0 4px 24px rgba(107, 0, 204, 0.35);
+      pointer-events: none;
+      will-change: transform, opacity;
+      z-index: -1;
+    }
+
     #loginScreen {
-      position: relative; z-index: 10;
-      display: flex; align-items: center; justify-content: center; height: 100vh;
+      position: relative;
+      z-index: 10;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
     }
 
     @keyframes loginPulse {
-      0%, 100% { box-shadow: 0 0 40px rgba(107,0,204,0.25), 0 0 80px rgba(107,0,204,0.1); }
-      50%       { box-shadow: 0 0 60px rgba(155,48,255,0.45), 0 0 120px rgba(107,0,204,0.2); }
+
+      0%,
+      100% {
+        box-shadow: 0 0 40px rgba(107, 0, 204, 0.25), 0 0 80px rgba(107, 0, 204, 0.1);
+      }
+
+      50% {
+        box-shadow: 0 0 60px rgba(155, 48, 255, 0.45), 0 0 120px rgba(107, 0, 204, 0.2);
+      }
     }
 
     .login-box {
-      background: linear-gradient(160deg, rgba(16,0,40,0.95), rgba(8,0,22,0.98));
-      border: 1px solid rgba(155,48,255,0.35);
+      background: linear-gradient(160deg, rgba(16, 0, 40, 0.95), rgba(8, 0, 22, 0.98));
+      border: 1px solid rgba(155, 48, 255, 0.35);
       border-radius: 24px;
       padding: 52px 44px;
       width: min(440px, 92vw);
@@ -118,44 +196,80 @@
       position: relative;
       overflow: hidden;
     }
+
     .login-box::before {
       content: '';
-      position: absolute; inset: 0;
-      background: radial-gradient(ellipse at 50% 0%, rgba(155,48,255,0.12) 0%, transparent 70%);
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse at 50% 0%, rgba(155, 48, 255, 0.12) 0%, transparent 70%);
       pointer-events: none;
     }
 
     .login-icon {
-      font-size: 2.8rem; margin-bottom: 16px;
+      font-size: 2.8rem;
+      margin-bottom: 16px;
       animation: loginIconFloat 3s ease-in-out infinite alternate;
     }
+
     @keyframes loginIconFloat {
-      from { transform: translateY(0); }
-      to   { transform: translateY(-8px); filter: drop-shadow(0 0 16px rgba(201,168,76,0.6)); }
+      from {
+        transform: translateY(0);
+      }
+
+      to {
+        transform: translateY(-8px);
+        filter: drop-shadow(0 0 16px rgba(201, 168, 76, 0.6));
+      }
     }
 
     /* ── Sigil Login Icon ───────────────────────── */
     .sigil-wrap {
-      width: 130px; height: 130px;
-      margin: 0 auto 16px; position: relative;
+      width: 130px;
+      height: 130px;
+      margin: 0 auto 16px;
+      position: relative;
     }
+
     .sigil-svg {
-      width: 100%; height: 100%; display: block;
+      width: 100%;
+      height: 100%;
+      display: block;
       animation: spinSigilIcon 24s linear infinite;
     }
+
     @keyframes spinSigilIcon {
-      from { transform: rotate(0deg); } to { transform: rotate(360deg); }
+      from {
+        transform: rotate(0deg);
+      }
+
+      to {
+        transform: rotate(360deg);
+      }
     }
+
     .sigil-glow {
-      position: absolute; top: 50%; left: 50%; width: 100%; height: 100%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 100%;
+      height: 100%;
       transform: translate(-50%, -50%);
-      background: radial-gradient(circle, rgba(155,48,255,0.3) 0%, transparent 60%);
-      pointer-events: none; filter: blur(10px);
+      background: radial-gradient(circle, rgba(155, 48, 255, 0.3) 0%, transparent 60%);
+      pointer-events: none;
+      filter: blur(10px);
       animation: pulseSigil 3s ease-in-out infinite alternate;
     }
+
     @keyframes pulseSigil {
-      from { transform: translate(-50%, -50%) scale(0.9); opacity: 0.6; }
-      to { transform: translate(-50%, -50%) scale(1.1); opacity: 1; }
+      from {
+        transform: translate(-50%, -50%) scale(0.9);
+        opacity: 0.6;
+      }
+
+      to {
+        transform: translate(-50%, -50%) scale(1.1);
+        opacity: 1;
+      }
     }
 
     .login-title {
@@ -164,8 +278,9 @@
       color: var(--gold);
       margin-bottom: 6px;
       letter-spacing: 0.08em;
-      text-shadow: 0 0 20px rgba(201,168,76,0.4);
+      text-shadow: 0 0 20px rgba(201, 168, 76, 0.4);
     }
+
     .login-sub {
       font-family: 'EB Garamond', serif;
       font-style: italic;
@@ -176,8 +291,8 @@
 
     .login-input {
       width: 100%;
-      background: rgba(155,48,255,0.07);
-      border: 1px solid rgba(155,48,255,0.3);
+      background: rgba(155, 48, 255, 0.07);
+      border: 1px solid rgba(155, 48, 255, 0.3);
       border-radius: 12px;
       padding: 14px 18px;
       color: #fff;
@@ -187,17 +302,21 @@
       margin-bottom: 18px;
       transition: border-color 0.3s, box-shadow 0.3s;
     }
+
     .login-input:focus {
       border-color: var(--purple);
-      box-shadow: 0 0 20px rgba(155,48,255,0.25);
+      box-shadow: 0 0 20px rgba(155, 48, 255, 0.25);
     }
-    .login-input::placeholder { color: rgba(255,255,255,0.2); }
+
+    .login-input::placeholder {
+      color: rgba(255, 255, 255, 0.2);
+    }
 
     .login-btn {
       width: 100%;
       padding: 14px;
-      background: linear-gradient(135deg, rgba(107,0,204,0.85), rgba(155,48,255,0.65));
-      border: 1px solid rgba(200,121,255,0.5);
+      background: linear-gradient(135deg, rgba(107, 0, 204, 0.85), rgba(155, 48, 255, 0.65));
+      border: 1px solid rgba(200, 121, 255, 0.5);
       border-radius: 12px;
       color: var(--gold-pale);
       font-family: 'Cinzel', serif;
@@ -206,11 +325,13 @@
       cursor: pointer;
       transition: all 0.3s var(--ease-out);
     }
+
     .login-btn:hover {
       transform: translateY(-3px);
-      box-shadow: 0 12px 32px rgba(155,48,255,0.5);
+      box-shadow: 0 12px 32px rgba(155, 48, 255, 0.5);
       border-color: var(--purple);
     }
+
     .login-error {
       color: var(--danger);
       font-size: 0.82rem;
@@ -220,16 +341,24 @@
     }
 
     /* ── App Layout ───────────────────────────── */
-    #app { display: none; position: relative; z-index: 10; }
-    .admin-layout { display: flex; min-height: 100vh; }
+    #app {
+      display: none;
+      position: relative;
+      z-index: 10;
+    }
+
+    .admin-layout {
+      display: flex;
+      min-height: 100vh;
+    }
 
     /* Sidebar */
     .sidebar {
       width: 260px;
       flex-shrink: 0;
-      background: linear-gradient(180deg, rgba(16,0,40,0.35), rgba(8,0,20,0.6));
-      border-right: 1px solid rgba(155,48,255,0.25);
-      box-shadow: 4px 0 30px rgba(0,0,0,0.6);
+      background: linear-gradient(180deg, rgba(16, 0, 40, 0.35), rgba(8, 0, 20, 0.6));
+      border-right: 1px solid rgba(155, 48, 255, 0.25);
+      box-shadow: 4px 0 30px rgba(0, 0, 0, 0.6);
       display: flex;
       flex-direction: column;
       padding: 32px 0;
@@ -242,23 +371,26 @@
 
     .sidebar-logo {
       padding: 0 28px 32px;
-      border-bottom: 1px solid rgba(155,48,255,0.15);
+      border-bottom: 1px solid rgba(155, 48, 255, 0.15);
       margin-bottom: 24px;
       text-align: center;
     }
+
     .sidebar-logo-icon {
       font-size: 1.8rem;
       margin-bottom: 8px;
       animation: loginIconFloat 4s ease-in-out infinite alternate;
       display: block;
     }
+
     .sidebar-logo-title {
       font-family: 'Cinzel', serif;
       color: var(--gold);
       font-size: 1rem;
       letter-spacing: 0.08em;
-      text-shadow: 0 0 12px rgba(201,168,76,0.3);
+      text-shadow: 0 0 12px rgba(201, 168, 76, 0.3);
     }
+
     .sidebar-logo-sub {
       font-family: 'EB Garamond', serif;
       font-style: italic;
@@ -281,35 +413,54 @@
       position: relative;
       margin-bottom: 4px;
     }
+
     .nav-item::before {
       content: '';
       position: absolute;
       inset: 0;
-      background: linear-gradient(90deg, rgba(155,48,255,0.15), transparent);
+      background: linear-gradient(90deg, rgba(155, 48, 255, 0.15), transparent);
       opacity: 0;
       transition: opacity 0.3s;
     }
-    .nav-item:hover { color: var(--text); transform: translateX(4px); }
-    .nav-item:hover::before { opacity: 1; }
+
+    .nav-item:hover {
+      color: var(--text);
+      transform: translateX(4px);
+    }
+
+    .nav-item:hover::before {
+      opacity: 1;
+    }
+
     .nav-item.active {
       color: var(--gold-pale);
       border-left-color: var(--gold);
-      background: linear-gradient(90deg, rgba(201,168,76,0.1), transparent);
-      text-shadow: 0 0 10px rgba(201,168,76,0.4);
+      background: linear-gradient(90deg, rgba(201, 168, 76, 0.1), transparent);
+      text-shadow: 0 0 10px rgba(201, 168, 76, 0.4);
     }
-    .nav-item.active::before { opacity: 0; }
-    .nav-icon { font-size: 1.05rem; width: 22px; text-align: center; flex-shrink: 0; }
+
+    .nav-item.active::before {
+      opacity: 0;
+    }
+
+    .nav-icon {
+      font-size: 1.05rem;
+      width: 22px;
+      text-align: center;
+      flex-shrink: 0;
+    }
 
     .sidebar-footer {
       margin-top: auto;
       padding: 18px 22px;
       border-top: 1px solid var(--border);
     }
+
     .logout-btn {
       width: 100%;
       padding: 9px;
-      background: rgba(255,96,96,0.08);
-      border: 1px solid rgba(255,96,96,0.25);
+      background: rgba(255, 96, 96, 0.08);
+      border: 1px solid rgba(255, 96, 96, 0.25);
       border-radius: 10px;
       color: var(--danger);
       cursor: pointer;
@@ -318,13 +469,20 @@
       letter-spacing: 0.05em;
       transition: all 0.2s;
     }
-    .logout-btn:hover { background: rgba(255,96,96,0.18); box-shadow: 0 4px 16px rgba(255,96,96,0.2); }
+
+    .logout-btn:hover {
+      background: rgba(255, 96, 96, 0.18);
+      box-shadow: 0 4px 16px rgba(255, 96, 96, 0.2);
+    }
 
     /* Main */
-    .main { flex: 1; overflow-x: hidden; }
+    .main {
+      flex: 1;
+      overflow-x: hidden;
+    }
 
     .topbar {
-      background: linear-gradient(90deg, rgba(10,0,28,0.97), rgba(8,0,20,0.95));
+      background: linear-gradient(90deg, rgba(10, 0, 28, 0.97), rgba(8, 0, 20, 0.95));
       border-bottom: 1px solid var(--border);
       padding: 16px 28px;
       display: flex;
@@ -335,16 +493,18 @@
       z-index: 10;
       backdrop-filter: blur(16px);
     }
+
     .topbar-title {
       font-family: 'Cinzel', serif;
       color: var(--gold);
       font-size: 1rem;
       flex: 1;
       letter-spacing: 0.1em;
-      text-shadow: 0 0 12px rgba(201,168,76,0.25);
+      text-shadow: 0 0 12px rgba(201, 168, 76, 0.25);
     }
+
     .search-input {
-      background: rgba(155,48,255,0.07);
+      background: rgba(155, 48, 255, 0.07);
       border: 1px solid var(--border);
       border-radius: 10px;
       padding: 9px 16px;
@@ -356,14 +516,27 @@
       transition: border-color 0.3s, box-shadow 0.3s;
       cursor: pointer;
     }
-    input.search-input { cursor: text; }
-    input[type="date"].search-input { cursor: pointer; }
-    .search-input:focus {
-      border-color: rgba(155,48,255,0.6);
-      box-shadow: 0 0 16px rgba(155,48,255,0.2);
+
+    input.search-input {
+      cursor: text;
     }
-    .search-input::placeholder { color: rgba(255,255,255,0.2); }
-    .content { padding: 24px 28px; }
+
+    input[type="date"].search-input {
+      cursor: pointer;
+    }
+
+    .search-input:focus {
+      border-color: rgba(155, 48, 255, 0.6);
+      box-shadow: 0 0 16px rgba(155, 48, 255, 0.2);
+    }
+
+    .search-input::placeholder {
+      color: rgba(255, 255, 255, 0.2);
+    }
+
+    .content {
+      padding: 24px 28px;
+    }
 
     /* Stats cards */
     .stats-grid {
@@ -374,13 +547,20 @@
     }
 
     @keyframes cardGlow {
-      0%, 100% { box-shadow: 0 4px 20px rgba(107,0,204,0.2); }
-      50%       { box-shadow: 0 8px 30px rgba(155,48,255,0.35); }
+
+      0%,
+      100% {
+        box-shadow: 0 4px 20px rgba(107, 0, 204, 0.2);
+      }
+
+      50% {
+        box-shadow: 0 8px 30px rgba(155, 48, 255, 0.35);
+      }
     }
 
     .stat-card {
-      background: linear-gradient(145deg, rgba(16,0,40,0.9), rgba(10,0,24,0.95));
-      border: 1px solid rgba(155,48,255,0.25);
+      background: linear-gradient(145deg, rgba(16, 0, 40, 0.9), rgba(10, 0, 24, 0.95));
+      border: 1px solid rgba(155, 48, 255, 0.25);
       border-radius: 16px;
       padding: 22px;
       transition: transform 0.3s var(--ease-out), border-color 0.3s;
@@ -388,17 +568,22 @@
       overflow: hidden;
       animation: cardGlow 4s ease-in-out infinite;
     }
+
     .stat-card::after {
       content: '';
       position: absolute;
-      top: 0; left: 0; right: 0;
+      top: 0;
+      left: 0;
+      right: 0;
       height: 1px;
-      background: linear-gradient(90deg, transparent, rgba(155,48,255,0.5), transparent);
+      background: linear-gradient(90deg, transparent, rgba(155, 48, 255, 0.5), transparent);
     }
+
     .stat-card:hover {
       transform: translateY(-5px);
-      border-color: rgba(155,48,255,0.5);
+      border-color: rgba(155, 48, 255, 0.5);
     }
+
     .stat-label {
       font-family: 'EB Garamond', serif;
       color: var(--muted);
@@ -407,13 +592,15 @@
       letter-spacing: 0.12em;
       margin-bottom: 10px;
     }
+
     .stat-value {
       font-family: 'Cinzel', serif;
       font-size: 2.2rem;
       font-weight: 700;
       color: var(--purple);
-      text-shadow: 0 0 16px rgba(155,48,255,0.4);
+      text-shadow: 0 0 16px rgba(155, 48, 255, 0.4);
     }
+
     .stat-sub {
       color: var(--muted);
       font-size: 0.75rem;
@@ -424,19 +611,23 @@
 
     /* Table */
     .table-wrap {
-      background: linear-gradient(160deg, rgba(14,0,36,0.9), rgba(8,0,20,0.95));
+      background: linear-gradient(160deg, rgba(14, 0, 36, 0.9), rgba(8, 0, 20, 0.95));
       border: 1px solid var(--border);
       border-radius: 16px;
       overflow: hidden;
       position: relative;
     }
+
     .table-wrap::before {
       content: '';
       position: absolute;
-      top: 0; left: 0; right: 0;
+      top: 0;
+      left: 0;
+      right: 0;
       height: 1px;
-      background: linear-gradient(90deg, transparent, rgba(201,168,76,0.35), transparent);
+      background: linear-gradient(90deg, transparent, rgba(201, 168, 76, 0.35), transparent);
     }
+
     .table-header {
       padding: 18px 22px;
       border-bottom: 1px solid var(--border);
@@ -444,16 +635,18 @@
       align-items: center;
       gap: 12px;
     }
+
     .table-title {
       font-family: 'Cinzel', serif;
       font-size: 0.88rem;
       color: var(--gold-pale);
       letter-spacing: 0.08em;
-      text-shadow: 0 0 10px rgba(201,168,76,0.2);
+      text-shadow: 0 0 10px rgba(201, 168, 76, 0.2);
     }
+
     .badge {
-      background: rgba(155,48,255,0.18);
-      border: 1px solid rgba(155,48,255,0.3);
+      background: rgba(155, 48, 255, 0.18);
+      border: 1px solid rgba(155, 48, 255, 0.3);
       color: var(--purple);
       border-radius: 20px;
       padding: 3px 12px;
@@ -461,9 +654,13 @@
       letter-spacing: 0.05em;
     }
 
-    table { width: 100%; border-collapse: collapse; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
     th {
-      background: rgba(155,48,255,0.06);
+      background: rgba(155, 48, 255, 0.06);
       color: var(--muted);
       font-family: 'Philosopher', serif;
       font-size: 0.7rem;
@@ -472,22 +669,38 @@
       padding: 11px 18px;
       text-align: left;
     }
+
     td {
       padding: 13px 18px;
-      border-bottom: 1px solid rgba(155,48,255,0.07);
+      border-bottom: 1px solid rgba(155, 48, 255, 0.07);
       font-size: 0.83rem;
       vertical-align: middle;
       transition: background 0.2s;
     }
-    tr:last-child td { border-bottom: none; }
-    tr:hover td { background: rgba(155,48,255,0.05); }
 
-    .td-muted { color: var(--muted); }
-    .td-wrap { max-width: 280px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    tr:hover td {
+      background: rgba(155, 48, 255, 0.05);
+    }
+
+    .td-muted {
+      color: var(--muted);
+    }
+
+    .td-wrap {
+      max-width: 280px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
     .theme-chip {
       display: inline-block;
-      background: rgba(201,168,76,0.12);
-      border: 1px solid rgba(201,168,76,0.3);
+      background: rgba(201, 168, 76, 0.12);
+      border: 1px solid rgba(201, 168, 76, 0.3);
       color: var(--gold);
       border-radius: 20px;
       padding: 3px 12px;
@@ -495,24 +708,27 @@
       white-space: nowrap;
       letter-spacing: 0.03em;
     }
+
     .plan-chip {
       display: inline-block;
       border-radius: 20px;
       padding: 3px 12px;
       font-size: 0.72rem;
       white-space: nowrap;
-      background: rgba(96,255,160,0.1);
-      border: 1px solid rgba(96,255,160,0.3);
+      background: rgba(96, 255, 160, 0.1);
+      border: 1px solid rgba(96, 255, 160, 0.3);
       color: var(--success);
     }
+
     .plan-chip.free {
-      background: rgba(255,255,255,0.04);
+      background: rgba(255, 255, 255, 0.04);
       border-color: var(--border);
       color: var(--muted);
     }
+
     .plan-select {
-      background: rgba(155,48,255,0.06);
-      border: 1px solid rgba(155,48,255,0.3);
+      background: rgba(155, 48, 255, 0.06);
+      border: 1px solid rgba(155, 48, 255, 0.3);
       color: var(--gold-pale);
       border-radius: 8px;
       padding: 3px 8px;
@@ -522,8 +738,11 @@
       cursor: pointer;
       transition: all 0.2s;
     }
-    .plan-select:focus { border-color: var(--gold); }
-    
+
+    .plan-select:focus {
+      border-color: var(--gold);
+    }
+
     .status-chip {
       display: inline-block;
       border-radius: 20px;
@@ -532,15 +751,30 @@
       white-space: nowrap;
       text-transform: capitalize;
     }
-    .status-chip.active { background: rgba(96,255,160,0.1); border: 1px solid rgba(96,255,160,0.3); color: var(--success); }
-    .status-chip.warned { background: rgba(255,184,96,0.1); border: 1px solid rgba(255,184,96,0.3); color: var(--warning); }
-    .status-chip.banned { background: rgba(255,96,96,0.1); border: 1px solid rgba(255,96,96,0.3); color: var(--danger); }
+
+    .status-chip.active {
+      background: rgba(96, 255, 160, 0.1);
+      border: 1px solid rgba(96, 255, 160, 0.3);
+      color: var(--success);
+    }
+
+    .status-chip.warned {
+      background: rgba(255, 184, 96, 0.1);
+      border: 1px solid rgba(255, 184, 96, 0.3);
+      color: var(--warning);
+    }
+
+    .status-chip.banned {
+      background: rgba(255, 96, 96, 0.1);
+      border: 1px solid rgba(255, 96, 96, 0.3);
+      color: var(--danger);
+    }
 
     /* ── Action Dropdown & Buttons ──────────────────── */
     .action-btn {
-      background: rgba(155,48,255,0.12);
-      border: 1px solid rgba(155,48,255,0.3);
-      color: rgba(200,150,255,0.9);
+      background: rgba(155, 48, 255, 0.12);
+      border: 1px solid rgba(155, 48, 255, 0.3);
+      color: rgba(200, 150, 255, 0.9);
       border-radius: 8px;
       padding: 5px 14px;
       cursor: pointer;
@@ -549,10 +783,11 @@
       transition: all 0.25s var(--ease-out);
       letter-spacing: 0.04em;
     }
+
     .action-btn:hover {
-      background: rgba(155,48,255,0.28);
+      background: rgba(155, 48, 255, 0.28);
       border-color: var(--purple);
-      box-shadow: 0 4px 14px rgba(155,48,255,0.3);
+      box-shadow: 0 4px 14px rgba(155, 48, 255, 0.3);
       transform: translateY(-1px);
     }
 
@@ -560,27 +795,39 @@
       position: relative;
       display: inline-block;
     }
+
     .dropdown-content {
       display: none;
       position: absolute;
-      right: 0; top: 110%;
+      right: 0;
+      top: 110%;
       background: rgba(12, 0, 30, 0.95);
       min-width: 140px;
-      border: 1px solid rgba(155,48,255,0.4);
+      border: 1px solid rgba(155, 48, 255, 0.4);
       border-radius: 8px;
-      box-shadow: 0 8px 32px rgba(4,0,14,0.8);
+      box-shadow: 0 8px 32px rgba(4, 0, 14, 0.8);
       z-index: 50;
       backdrop-filter: blur(10px);
       padding: 6px 0;
     }
+
     .dropdown-content.show {
       display: block;
       animation: fadeInDown 0.2s ease-out;
     }
+
     @keyframes fadeInDown {
-      from { opacity: 0; transform: translateY(-10px); }
-      to { opacity: 1; transform: none; }
+      from {
+        opacity: 0;
+        transform: translateY(-10px);
+      }
+
+      to {
+        opacity: 1;
+        transform: none;
+      }
     }
+
     .dropdown-item {
       padding: 10px 16px;
       cursor: pointer;
@@ -596,20 +843,31 @@
       gap: 8px;
       font-family: 'Philosopher', serif;
     }
+
     .dropdown-item:hover {
-      background: rgba(155,48,255,0.15);
+      background: rgba(155, 48, 255, 0.15);
     }
-    .dropdown-item.text-warn { color: var(--warning); }
-    .dropdown-item.text-ban { color: var(--danger); }
-    .dropdown-item.text-success { color: var(--success); }
+
+    .dropdown-item.text-warn {
+      color: var(--warning);
+    }
+
+    .dropdown-item.text-ban {
+      color: var(--danger);
+    }
+
+    .dropdown-item.text-success {
+      color: var(--success);
+    }
 
     /* Custom Input Dropdowns */
     .filter-dropdown {
       position: relative;
     }
+
     .filter-btn {
-      background: rgba(15,0,30,0.6);
-      border: 1px solid rgba(155,48,255,0.3);
+      background: rgba(15, 0, 30, 0.6);
+      border: 1px solid rgba(155, 48, 255, 0.3);
       color: var(--text);
       border-radius: 12px;
       padding: 10px 18px;
@@ -624,34 +882,48 @@
       min-width: 180px;
       backdrop-filter: blur(8px);
     }
+
     .filter-btn:hover {
       border-color: var(--gold);
-      box-shadow: 0 0 16px rgba(201,168,76,0.15);
+      box-shadow: 0 0 16px rgba(201, 168, 76, 0.15);
     }
+
     .filter-menu {
       position: absolute;
-      top: 100%; left: 0;
+      top: 100%;
+      left: 0;
       margin-top: 8px;
-      background: rgba(12,0,30,0.95);
-      border: 1px solid rgba(155,48,255,0.4);
+      background: rgba(12, 0, 30, 0.95);
+      border: 1px solid rgba(155, 48, 255, 0.4);
       border-radius: 12px;
       min-width: 100%;
       padding: 8px 0;
-      box-shadow: 0 8px 32px rgba(0,0,0,0.8);
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.8);
       z-index: 60;
       backdrop-filter: blur(12px);
       display: none;
       max-height: 300px;
       overflow-y: auto;
     }
+
     .filter-menu.show {
       display: block;
       animation: fadeInDown 0.2s ease-out;
     }
-    .filter-menu::-webkit-scrollbar { width: 4px; }
-    .filter-menu::-webkit-scrollbar-track { background: transparent; }
-    .filter-menu::-webkit-scrollbar-thumb { background: rgba(155,48,255,0.4); border-radius: 4px; }
-    
+
+    .filter-menu::-webkit-scrollbar {
+      width: 4px;
+    }
+
+    .filter-menu::-webkit-scrollbar-track {
+      background: transparent;
+    }
+
+    .filter-menu::-webkit-scrollbar-thumb {
+      background: rgba(155, 48, 255, 0.4);
+      border-radius: 4px;
+    }
+
     .filter-item {
       padding: 10px 18px;
       color: var(--muted);
@@ -659,19 +931,31 @@
       font-family: 'EB Garamond', serif;
       font-size: 0.95rem;
       transition: all 0.2s;
-      display: flex; align-items: center; gap: 8px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
     }
-    .filter-item:hover { background: rgba(155,48,255,0.15); color: var(--gold-pale); }
-    .filter-item.active { background: rgba(201,168,76,0.1); color: var(--gold); border-left: 2px solid var(--gold); }
-    
+
+    .filter-item:hover {
+      background: rgba(155, 48, 255, 0.15);
+      color: var(--gold-pale);
+    }
+
+    .filter-item.active {
+      background: rgba(201, 168, 76, 0.1);
+      color: var(--gold);
+      border-left: 2px solid var(--gold);
+    }
+
     /* Plan Dropdown within Table */
     .plan-custom-select {
       position: relative;
       display: inline-block;
     }
+
     .plan-btn {
-      background: rgba(155,48,255,0.06);
-      border: 1px solid rgba(155,48,255,0.3);
+      background: rgba(155, 48, 255, 0.06);
+      border: 1px solid rgba(155, 48, 255, 0.3);
       color: var(--text);
       border-radius: 8px;
       padding: 5px 12px;
@@ -679,25 +963,58 @@
       font-size: 0.75rem;
       cursor: pointer;
       min-width: 120px;
-      display: flex; justify-content: space-between; align-items: center;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
       transition: all 0.2s;
     }
-    .plan-btn:hover { border-color: var(--gold); }
-    .plan-btn[data-val="guide"] { color: var(--gold); }
-    .plan-btn[data-val="master"] { color: #ff6060; }
-    
+
+    .plan-btn:hover {
+      border-color: var(--gold);
+    }
+
+    .plan-btn[data-val="guide"] {
+      color: var(--gold);
+    }
+
+    .plan-btn[data-val="master"] {
+      color: #ff6060;
+    }
+
     .plan-menu {
-      position: absolute; top: 100%; left: 0; margin-top: 4px;
-      background: rgba(12,0,30,0.98); border: 1px solid rgba(155,48,255,0.4);
-      border-radius: 8px; padding: 4px 0; z-index: 60; display: none; min-width: 100%;
-      box-shadow: 0 4px 24px rgba(0,0,0,0.8);
+      position: absolute;
+      top: 100%;
+      left: 0;
+      margin-top: 4px;
+      background: rgba(12, 0, 30, 0.98);
+      border: 1px solid rgba(155, 48, 255, 0.4);
+      border-radius: 8px;
+      padding: 4px 0;
+      z-index: 60;
+      display: none;
+      min-width: 100%;
+      box-shadow: 0 4px 24px rgba(0, 0, 0, 0.8);
     }
-    .plan-menu.show { display: block; animation: fadeInDown 0.2s; }
+
+    .plan-menu.show {
+      display: block;
+      animation: fadeInDown 0.2s;
+    }
+
     .plan-item {
-      padding: 8px 12px; font-size: 0.75rem; color: var(--muted); cursor: pointer;
-      transition: all 0.2s; font-family: 'Philosopher', serif; white-space: nowrap;
+      padding: 8px 12px;
+      font-size: 0.75rem;
+      color: var(--muted);
+      cursor: pointer;
+      transition: all 0.2s;
+      font-family: 'Philosopher', serif;
+      white-space: nowrap;
     }
-    .plan-item:hover { background: rgba(155,48,255,0.2); color: #fff; }
+
+    .plan-item:hover {
+      background: rgba(155, 48, 255, 0.2);
+      color: #fff;
+    }
 
     /* Pagination */
     .pagination {
@@ -707,8 +1024,9 @@
       border-top: 1px solid var(--border);
       justify-content: flex-end;
     }
+
     .page-btn {
-      background: rgba(155,48,255,0.08);
+      background: rgba(155, 48, 255, 0.08);
       border: 1px solid var(--border);
       color: var(--muted);
       border-radius: 8px;
@@ -718,17 +1036,34 @@
       font-size: 0.8rem;
       transition: all 0.2s;
     }
-    .page-btn:hover, .page-btn.active {
-      background: rgba(155,48,255,0.28);
+
+    .page-btn:hover,
+    .page-btn.active {
+      background: rgba(155, 48, 255, 0.28);
       color: var(--text);
       border-color: var(--purple);
-      box-shadow: 0 0 10px rgba(155,48,255,0.3);
+      box-shadow: 0 0 10px rgba(155, 48, 255, 0.3);
     }
-    .page-btn:disabled { opacity: 0.3; cursor: default; }
+
+    .page-btn:disabled {
+      opacity: 0.3;
+      cursor: default;
+    }
 
     /* Theme bars */
-    .theme-bars { display: flex; flex-direction: column; gap: 10px; padding: 18px 22px; }
-    .theme-bar-row { display: flex; align-items: center; gap: 12px; }
+    .theme-bars {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      padding: 18px 22px;
+    }
+
+    .theme-bar-row {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
     .theme-bar-label {
       width: 190px;
       font-size: 0.8rem;
@@ -739,19 +1074,22 @@
       text-overflow: ellipsis;
       font-family: 'EB Garamond', serif;
     }
+
     .theme-bar-track {
       flex: 1;
       height: 7px;
-      background: rgba(255,255,255,0.05);
+      background: rgba(255, 255, 255, 0.05);
       border-radius: 4px;
       overflow: hidden;
     }
+
     .theme-bar-fill {
       height: 100%;
-      background: linear-gradient(90deg, #9b30ff, rgba(201,168,76,0.7));
+      background: linear-gradient(90deg, #9b30ff, rgba(201, 168, 76, 0.7));
       border-radius: 4px;
       transition: width 0.8s var(--ease-out);
     }
+
     .theme-bar-cnt {
       font-size: 0.75rem;
       color: var(--gold);
@@ -762,8 +1100,9 @@
 
     /* Detail modal */
     .detail-overlay {
-      position: fixed; inset: 0;
-      background: rgba(4,0,14,0.88);
+      position: fixed;
+      inset: 0;
+      background: rgba(4, 0, 14, 0.88);
       backdrop-filter: blur(12px);
       z-index: 100;
       display: none;
@@ -773,140 +1112,330 @@
       overflow-y: auto;
       transition: opacity 0.3s;
     }
-    .detail-overlay.open { display: flex; }
+
+    .detail-overlay.open {
+      display: flex;
+    }
 
     @keyframes detailIn {
-      from { opacity: 0; transform: translateY(24px) scale(0.96); }
-      to   { opacity: 1; transform: none; }
+      from {
+        opacity: 0;
+        transform: translateY(24px) scale(0.96);
+      }
+
+      to {
+        opacity: 1;
+        transform: none;
+      }
     }
 
     /* Reading Detail Modal (Fullscreen Product Clone) */
     .detail-box {
-      background: linear-gradient(160deg, rgba(8,0,20,0.98), rgba(4,0,10,0.99));
-      border: 1px solid rgba(155,48,255,0.4);
+      background: linear-gradient(160deg, rgba(8, 0, 20, 0.98), rgba(4, 0, 10, 0.99));
+      border: 1px solid rgba(155, 48, 255, 0.4);
       border-radius: 20px;
-      width: 100%; max-width: 900px;
-      padding: 40px; position: relative;
-      box-shadow: 0 20px 80px rgba(0,0,0,0.9), 0 0 40px rgba(155,48,255,0.15);
+      width: 100%;
+      max-width: 900px;
+      padding: 40px;
+      position: relative;
+      box-shadow: 0 20px 80px rgba(0, 0, 0, 0.9), 0 0 40px rgba(155, 48, 255, 0.15);
       animation: detailIn 0.4s cubic-bezier(0.16, 1, 0.3, 1);
       margin: auto;
     }
+
     .detail-close {
-      position: absolute; top: 20px; right: 20px;
-      background: rgba(255,255,255,0.05); border: none; color: var(--muted);
-      width: 32px; height: 32px; border-radius: 50%;
-      cursor: pointer; font-size: 1.2rem; line-height: 1; transition: all 0.2s;
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      background: rgba(255, 255, 255, 0.05);
+      border: none;
+      color: var(--muted);
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      cursor: pointer;
+      font-size: 1.2rem;
+      line-height: 1;
+      transition: all 0.2s;
     }
-    .detail-close:hover { background: rgba(255,96,96,0.2); color: #fff; }
+
+    .detail-close:hover {
+      background: rgba(255, 96, 96, 0.2);
+      color: #fff;
+    }
 
     /* Analysis View Parity */
-    .analysis-title-block { text-align: center; margin-bottom: 32px; }
-    .analysis-main-title { font-family: 'Cinzel', serif; font-size: 1.8rem; color: #e8e0ff; font-weight: 500; letter-spacing: 0.05em; margin-bottom: 8px;}
-    .analysis-meta-line { font-family: 'EB Garamond', serif; color: var(--gold); font-size: 0.95rem; margin-bottom: 20px; }
-    .analysis-question-hero { font-family: 'Philosopher', serif; font-size: 1.15rem; font-style: italic; color: #e8e0ff; padding: 16px; background: rgba(155,48,255,0.08); border: 1px solid rgba(155,48,255,0.2); border-radius: 8px; max-width: 600px; margin: 0 auto; line-height: 1.6;}
+    .analysis-title-block {
+      text-align: center;
+      margin-bottom: 32px;
+    }
+
+    .analysis-main-title {
+      font-family: 'Cinzel', serif;
+      font-size: 1.8rem;
+      color: #e8e0ff;
+      font-weight: 500;
+      letter-spacing: 0.05em;
+      margin-bottom: 8px;
+    }
+
+    .analysis-meta-line {
+      font-family: 'EB Garamond', serif;
+      color: var(--gold);
+      font-size: 0.95rem;
+      margin-bottom: 20px;
+    }
+
+    .analysis-question-hero {
+      font-family: 'Philosopher', serif;
+      font-size: 1.15rem;
+      font-style: italic;
+      color: #e8e0ff;
+      padding: 16px;
+      background: rgba(155, 48, 255, 0.08);
+      border: 1px solid rgba(155, 48, 255, 0.2);
+      border-radius: 8px;
+      max-width: 600px;
+      margin: 0 auto;
+      line-height: 1.6;
+    }
 
     .ai-analysis-box {
       background: rgba(12, 0, 30, 0.4);
-      border: 1px solid rgba(155,48,255,0.25);
+      border: 1px solid rgba(155, 48, 255, 0.25);
       border-radius: 12px;
       padding: 32px;
       margin-top: 32px;
     }
-    .ai-label { color: var(--gold); font-family: 'Cinzel', serif; font-size: 1.1rem; text-align: center; display: block; margin-bottom: 24px; }
-    .ai-h3 { color: var(--gold); font-size: 1.15rem; font-family: 'Cinzel', serif; margin: 28px 0 14px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.03em;}
-    .ai-p { font-family: 'EB Garamond', serif; font-size: 1.05rem; line-height: 1.8; margin-bottom: 16px; text-align: justify; color: rgba(232,224,255,0.9); }
-    .ai-list { padding-left: 20px; margin-bottom: 16px; }
-    .ai-list li { font-family: 'EB Garamond', serif; font-size: 1.05rem; line-height: 1.8; margin-bottom: 8px; color: rgba(232,224,255,0.9); }
-    .ai-divider { text-align: center; color: var(--gold); opacity: 0.5; margin: 32px 0; font-size: 1.2rem; }
 
-    .cards-row { display: flex; gap: 24px; overflow-x: auto; padding: 12px 0; justify-content: center; flex-wrap: wrap;}
-    .card-thumb { text-align: center; width: 110px; }
-    .card-thumb-pos { font-size: 0.75rem; color: var(--muted); margin-bottom: 8px; font-family: 'EB Garamond', serif; }
-    .ab-card-img { width: 100%; border-radius: 8px; border: 1px solid rgba(155,48,255,0.4); box-shadow: 0 4px 16px rgba(107,0,204,0.4); }
-    .ab-card-img--rev { transform: rotate(180deg); }
-    .card-thumb-name { font-size: 0.8rem; color: var(--gold-pale); margin-top: 10px; font-family: 'Philosopher', serif; }
-    
+    .ai-label {
+      color: var(--gold);
+      font-family: 'Cinzel', serif;
+      font-size: 1.1rem;
+      text-align: center;
+      display: block;
+      margin-bottom: 24px;
+    }
+
+    .ai-h3 {
+      color: var(--gold);
+      font-size: 1.15rem;
+      font-family: 'Cinzel', serif;
+      margin: 28px 0 14px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+    }
+
+    .ai-p {
+      font-family: 'EB Garamond', serif;
+      font-size: 1.05rem;
+      line-height: 1.8;
+      margin-bottom: 16px;
+      text-align: justify;
+      color: rgba(232, 224, 255, 0.9);
+    }
+
+    .ai-list {
+      padding-left: 20px;
+      margin-bottom: 16px;
+    }
+
+    .ai-list li {
+      font-family: 'EB Garamond', serif;
+      font-size: 1.05rem;
+      line-height: 1.8;
+      margin-bottom: 8px;
+      color: rgba(232, 224, 255, 0.9);
+    }
+
+    .ai-divider {
+      text-align: center;
+      color: var(--gold);
+      opacity: 0.5;
+      margin: 32px 0;
+      font-size: 1.2rem;
+    }
+
+    .cards-row {
+      display: flex;
+      gap: 24px;
+      overflow-x: auto;
+      padding: 12px 0;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .card-thumb {
+      text-align: center;
+      width: 110px;
+    }
+
+    .card-thumb-pos {
+      font-size: 0.75rem;
+      color: var(--muted);
+      margin-bottom: 8px;
+      font-family: 'EB Garamond', serif;
+    }
+
+    .ab-card-img {
+      width: 100%;
+      border-radius: 8px;
+      border: 1px solid rgba(155, 48, 255, 0.4);
+      box-shadow: 0 4px 16px rgba(107, 0, 204, 0.4);
+    }
+
+    .ab-card-img--rev {
+      transform: rotate(180deg);
+    }
+
+    .card-thumb-name {
+      font-size: 0.8rem;
+      color: var(--gold-pale);
+      margin-top: 10px;
+      font-family: 'Philosopher', serif;
+    }
+
     .detail-box {
-      background: linear-gradient(160deg, rgba(16,0,40,0.97), rgba(8,0,20,0.99));
-      border: 1px solid rgba(155,48,255,0.3);
+      background: linear-gradient(160deg, rgba(16, 0, 40, 0.97), rgba(8, 0, 20, 0.99));
+      border: 1px solid rgba(155, 48, 255, 0.3);
       border-radius: 20px;
       width: min(820px, 100%);
       padding: 36px;
       position: relative;
-      box-shadow: 0 0 80px rgba(107,0,204,0.35), 0 40px 100px rgba(0,0,0,0.8);
+      box-shadow: 0 0 80px rgba(107, 0, 204, 0.35), 0 40px 100px rgba(0, 0, 0, 0.8);
       animation: detailIn 0.4s var(--ease-out) both;
     }
+
     .detail-box::before {
       content: '';
-      position: absolute; top: 0; left: 0; right: 0;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
       height: 1px;
-      background: linear-gradient(90deg, transparent, rgba(201,168,76,0.4), transparent);
+      background: linear-gradient(90deg, transparent, rgba(201, 168, 76, 0.4), transparent);
     }
 
     .detail-close {
-      position: absolute; top: 18px; right: 18px;
-      background: rgba(255,255,255,0.06);
-      border: 1px solid rgba(255,255,255,0.1);
+      position: absolute;
+      top: 18px;
+      right: 18px;
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(255, 255, 255, 0.1);
       color: var(--muted);
-      width: 33px; height: 33px;
+      width: 33px;
+      height: 33px;
       border-radius: 50%;
       cursor: pointer;
       font-size: 1rem;
-      display: flex; align-items: center; justify-content: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       transition: all 0.2s;
     }
-    .detail-close:hover { background: rgba(255,96,96,0.2); color: var(--danger); border-color: rgba(255,96,96,0.4); }
+
+    .detail-close:hover {
+      background: rgba(255, 96, 96, 0.2);
+      color: var(--danger);
+      border-color: rgba(255, 96, 96, 0.4);
+    }
 
     .detail-name {
       font-family: 'Cinzel', serif;
       color: var(--gold);
       font-size: 1.15rem;
       margin-bottom: 5px;
-      text-shadow: 0 0 16px rgba(201,168,76,0.3);
+      text-shadow: 0 0 16px rgba(201, 168, 76, 0.3);
     }
+
     .detail-meta {
       color: var(--muted);
       font-size: 0.82rem;
       margin-bottom: 22px;
       font-family: 'EB Garamond', serif;
     }
+
     .detail-question {
       font-family: 'EB Garamond', serif;
       font-style: italic;
       font-size: 1.05rem;
       color: var(--text);
       padding: 13px 18px;
-      background: rgba(155,48,255,0.07);
+      background: rgba(155, 48, 255, 0.07);
       border-radius: 12px;
       margin-bottom: 22px;
-      border-left: 3px solid rgba(155,48,255,0.5);
+      border-left: 3px solid rgba(155, 48, 255, 0.5);
     }
-    .cards-row { display: flex; flex-wrap: wrap; gap: 14px; margin-bottom: 22px; }
+
+    .cards-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin-bottom: 22px;
+    }
+
     .card-thumb {
       text-align: center;
-      background: rgba(155,48,255,0.06);
-      border: 1px solid rgba(155,48,255,0.18);
+      background: rgba(155, 48, 255, 0.06);
+      border: 1px solid rgba(155, 48, 255, 0.18);
       border-radius: 10px;
       padding: 8px;
       transition: transform 0.2s, box-shadow 0.2s;
     }
-    .card-thumb:hover { transform: translateY(-3px); box-shadow: 0 6px 18px rgba(155,48,255,0.3); }
-    .card-thumb img { width: 62px; height: auto; border-radius: 5px; display: block; margin: 0 auto 5px; }
-    .card-thumb.rev img { transform: rotate(180deg); }
-    .card-thumb-name { font-size: 0.68rem; color: var(--muted); max-width: 74px; }
-    .card-thumb-pos { font-size: 0.62rem; color: var(--gold); margin-bottom: 3px; letter-spacing: 0.05em; }
+
+    .card-thumb:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 6px 18px rgba(155, 48, 255, 0.3);
+    }
+
+    .card-thumb img {
+      width: 62px;
+      height: auto;
+      border-radius: 5px;
+      display: block;
+      margin: 0 auto 5px;
+    }
+
+    .card-thumb.rev img {
+      transform: rotate(180deg);
+    }
+
+    .card-thumb-name {
+      font-size: 0.68rem;
+      color: var(--muted);
+      max-width: 74px;
+    }
+
+    .card-thumb-pos {
+      font-size: 0.62rem;
+      color: var(--gold);
+      margin-bottom: 3px;
+      letter-spacing: 0.05em;
+    }
 
     .analysis-box {
-      background: rgba(155,48,255,0.04);
+      background: rgba(155, 48, 255, 0.04);
       border: 1px solid var(--border);
       border-radius: 12px;
       padding: 18px;
       max-height: 420px;
       overflow-y: auto;
     }
-    .analysis-box::-webkit-scrollbar { width: 5px; }
-    .analysis-box::-webkit-scrollbar-track { background: rgba(255,255,255,0.03); }
-    .analysis-box::-webkit-scrollbar-thumb { background: rgba(155,48,255,0.4); border-radius: 3px; }
+
+    .analysis-box::-webkit-scrollbar {
+      width: 5px;
+    }
+
+    .analysis-box::-webkit-scrollbar-track {
+      background: rgba(255, 255, 255, 0.03);
+    }
+
+    .analysis-box::-webkit-scrollbar-thumb {
+      background: rgba(155, 48, 255, 0.4);
+      border-radius: 3px;
+    }
+
     .analysis-box pre {
       font-family: 'EB Garamond', serif;
       font-size: 0.9rem;
@@ -914,6 +1443,7 @@
       color: var(--text);
       white-space: pre-wrap;
     }
+
     .analysis-section-label {
       font-family: 'Philosopher', serif;
       color: var(--muted);
@@ -925,360 +1455,392 @@
       align-items: center;
       gap: 8px;
     }
+
     .analysis-section-label::before,
     .analysis-section-label::after {
       content: '';
       flex: 1;
       height: 1px;
-      background: linear-gradient(to right, transparent, rgba(201,168,76,0.3), transparent);
+      background: linear-gradient(to right, transparent, rgba(201, 168, 76, 0.3), transparent);
     }
 
     /* ── Scrollbar ──────────────── */
-    ::-webkit-scrollbar { width: 6px; }
-    ::-webkit-scrollbar-track { background: rgba(0,0,0,0.3); }
-    ::-webkit-scrollbar-thumb { background: rgba(155,48,255,0.35); border-radius: 3px; }
+    ::-webkit-scrollbar {
+      width: 6px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: rgba(0, 0, 0, 0.3);
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: rgba(155, 48, 255, 0.35);
+      border-radius: 3px;
+    }
 
     @media (max-width: 768px) {
-      .sidebar { display: none; }
-      .search-input { width: 160px; }
-      .content { padding: 16px; }
-      .detail-box { padding: 22px; }
+      .sidebar {
+        display: none;
+      }
+
+      .search-input {
+        width: 160px;
+      }
+
+      .content {
+        padding: 16px;
+      }
+
+      .detail-box {
+        padding: 22px;
+      }
     }
 
     /* Loading skeleton */
     .skeleton-line {
       height: 14px;
-      background: linear-gradient(90deg, rgba(155,48,255,0.06) 25%, rgba(155,48,255,0.12) 50%, rgba(155,48,255,0.06) 75%);
+      background: linear-gradient(90deg, rgba(155, 48, 255, 0.06) 25%, rgba(155, 48, 255, 0.12) 50%, rgba(155, 48, 255, 0.06) 75%);
       background-size: 200% 100%;
       border-radius: 7px;
       animation: skeletonShimmer 1.6s infinite;
     }
+
     @keyframes skeletonShimmer {
-      from { background-position: 200% 0; }
-      to   { background-position: -200% 0; }
+      from {
+        background-position: 200% 0;
+      }
+
+      to {
+        background-position: -200% 0;
+      }
     }
   </style>
 </head>
+
 <body>
 
-<!-- Canvas layers -->
-<canvas id="particleCanvas"></canvas>
-<canvas id="lightningCanvas"></canvas>
+  <!-- Canvas layers -->
+  <canvas id="particleCanvas"></canvas>
+  <canvas id="lightningCanvas"></canvas>
 
-<!-- Floating cards layer -->
-<div id="floatingCards" class="floating-cards-layer"></div>
+  <!-- Floating cards layer -->
+  <div id="floatingCards" class="floating-cards-layer"></div>
 
-<!-- Background -->
-<div class="bg-nebula"></div>
-<div class="bg-vignette"></div>
-<div class="bg-sigil-wrap" aria-hidden="true">
-  <svg class="bg-sigil-svg" viewBox="0 0 400 400">
-    <circle cx="200" cy="200" r="188" fill="none" stroke="rgba(155,48,255,0.07)" stroke-width="1.2" />
-    <circle cx="200" cy="200" r="150" fill="none" stroke="rgba(201,168,76,0.06)" stroke-width="0.9" />
-    <circle cx="200" cy="200" r="112" fill="none" stroke="rgba(155,48,255,0.08)" stroke-width="0.8" />
-    <circle cx="200" cy="200" r="70" fill="none" stroke="rgba(201,168,76,0.05)" stroke-width="0.6" />
-    <polygon points="200,40 238,150 350,150 260,210 295,320 200,255 105,320 140,210 50,150 162,150" fill="none" stroke="rgba(201,168,76,0.03)" stroke-width="0.8" />
-  </svg>
-</div>
-
-<!-- Login -->
-<div id="loginScreen">
-  <div class="login-box">
-    <div class="sigil-wrap">
-      <svg class="sigil-svg" viewBox="0 0 200 200">
-        <circle cx="100" cy="100" r="90" fill="none" stroke="rgba(155,48,255,0.4)" stroke-width="0.8" />
-        <circle cx="100" cy="100" r="70" fill="none" stroke="rgba(201,168,76,0.3)" stroke-width="0.6" />
-        <circle cx="100" cy="100" r="50" fill="none" stroke="rgba(155,48,255,0.6)" stroke-width="0.8" />
-        <polygon points="100,20 118,80 180,80 130,115 150,175 100,140 50,175 70,115 20,80 82,80" fill="none"
-          stroke="rgba(201,168,76,0.25)" stroke-width="0.6" />
-        <circle cx="100" cy="100" r="6" fill="rgba(155,48,255,0.8)" />
-      </svg>
-      <div class="sigil-glow"></div>
-    </div>
-    <h1 class="login-title">Tarot Admin</h1>
-    <p class="login-sub">Nhập mật khẩu để tiến vào cổng huyền bí</p>
-    <input type="password" class="login-input" id="secretInput" placeholder="✦  Mật khẩu bí mật..." />
-    <button class="login-btn" onclick="doLogin()">✦ Tiến Vào ✦</button>
-    <div class="login-error" id="loginError"></div>
+  <!-- Background -->
+  <div class="bg-nebula"></div>
+  <div class="bg-vignette"></div>
+  <div class="bg-sigil-wrap" aria-hidden="true">
+    <svg class="bg-sigil-svg" viewBox="0 0 400 400">
+      <circle cx="200" cy="200" r="188" fill="none" stroke="rgba(155,48,255,0.07)" stroke-width="1.2" />
+      <circle cx="200" cy="200" r="150" fill="none" stroke="rgba(201,168,76,0.06)" stroke-width="0.9" />
+      <circle cx="200" cy="200" r="112" fill="none" stroke="rgba(155,48,255,0.08)" stroke-width="0.8" />
+      <circle cx="200" cy="200" r="70" fill="none" stroke="rgba(201,168,76,0.05)" stroke-width="0.6" />
+      <polygon points="200,40 238,150 350,150 260,210 295,320 200,255 105,320 140,210 50,150 162,150" fill="none"
+        stroke="rgba(201,168,76,0.03)" stroke-width="0.8" />
+    </svg>
   </div>
-</div>
 
-<!-- App -->
-<div id="app">
-  <div class="admin-layout">
-    <!-- Sidebar -->
-    <aside class="sidebar">
-      <div class="sidebar-logo">
-        <span class="sidebar-logo-icon">🔮</span>
-        <div class="sidebar-logo-title">Tarot Admin</div>
-        <div class="sidebar-logo-sub">Bảng Điều Khiển Huyền Bí</div>
+  <!-- Login -->
+  <div id="loginScreen">
+    <div class="login-box">
+      <div class="sigil-wrap">
+        <svg class="sigil-svg" viewBox="0 0 200 200">
+          <circle cx="100" cy="100" r="90" fill="none" stroke="rgba(155,48,255,0.4)" stroke-width="0.8" />
+          <circle cx="100" cy="100" r="70" fill="none" stroke="rgba(201,168,76,0.3)" stroke-width="0.6" />
+          <circle cx="100" cy="100" r="50" fill="none" stroke="rgba(155,48,255,0.6)" stroke-width="0.8" />
+          <polygon points="100,20 118,80 180,80 130,115 150,175 100,140 50,175 70,115 20,80 82,80" fill="none"
+            stroke="rgba(201,168,76,0.25)" stroke-width="0.6" />
+          <circle cx="100" cy="100" r="6" fill="rgba(155,48,255,0.8)" />
+        </svg>
+        <div class="sigil-glow"></div>
       </div>
-      <nav>
-        <div class="nav-item active" data-view="dashboard" onclick="switchView('dashboard', this)">
-          <span class="nav-icon">✦</span> Tổng Quan
-        </div>
-        <div class="nav-item" data-view="readings" onclick="switchView('readings', this)">
-          <span class="nav-icon">🃏</span> Lịch Sử Trải Bài
-        </div>
-        <div class="nav-item" data-view="users" onclick="switchView('users', this)">
-          <span class="nav-icon">👥</span> Người Dùng
-        </div>
-      </nav>
-      <div class="sidebar-footer">
-        <button class="logout-btn" onclick="logout()">↩ Đăng Xuất</button>
-      </div>
-    </aside>
-
-    <!-- Main -->
-    <div class="main">
-      <div class="topbar">
-        <div class="topbar-title" id="viewTitle">Tổng Quan</div>
-        <input type="text" class="search-input" id="searchInput" placeholder="✦  Tìm kiếm..." oninput="onSearch(this.value)" />
-      </div>
-      <div class="content" id="viewContent">
-        <div style="color:var(--muted); text-align:center; padding:80px; font-family:'EB Garamond',serif; font-style:italic;">Đang kết nối vũ trụ...</div>
-      </div>
+      <h1 class="login-title">Tarot Admin</h1>
+      <p class="login-sub">Nhập mật khẩu để tiến vào cổng huyền bí</p>
+      <input type="password" class="login-input" id="secretInput" placeholder="✦  Mật khẩu bí mật..." />
+      <button class="login-btn" onclick="doLogin()">✦ Tiến Vào ✦</button>
+      <div class="login-error" id="loginError"></div>
     </div>
   </div>
-</div>
 
-<!-- Detail modal -->
-<div class="detail-overlay" id="detailOverlay">
-  <div class="detail-box" id="detailBox">
-    <button class="detail-close" onclick="closeDetail()">✕</button>
-    <div id="detailContent">Đang tải...</div>
+  <!-- App -->
+  <div id="app">
+    <div class="admin-layout">
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <div class="sidebar-logo">
+          <span class="sidebar-logo-icon">🔮</span>
+          <div class="sidebar-logo-title">Tarot Admin</div>
+          <div class="sidebar-logo-sub">Bảng Điều Khiển Huyền Bí</div>
+        </div>
+        <nav>
+          <div class="nav-item active" data-view="dashboard" onclick="switchView('dashboard', this)">
+            <span class="nav-icon">✦</span> Tổng Quan
+          </div>
+          <div class="nav-item" data-view="readings" onclick="switchView('readings', this)">
+            <span class="nav-icon">🃏</span> Lịch Sử Trải Bài
+          </div>
+          <div class="nav-item" data-view="users" onclick="switchView('users', this)">
+            <span class="nav-icon">👥</span> Người Dùng
+          </div>
+        </nav>
+        <div class="sidebar-footer">
+          <button class="logout-btn" onclick="logout()">↩ Đăng Xuất</button>
+        </div>
+      </aside>
+
+      <!-- Main -->
+      <div class="main">
+        <div class="topbar">
+          <div class="topbar-title" id="viewTitle">Tổng Quan</div>
+          <input type="text" class="search-input" id="searchInput" placeholder="✦  Tìm kiếm..."
+            oninput="onSearch(this.value)" />
+        </div>
+        <div class="content" id="viewContent">
+          <div
+            style="color:var(--muted); text-align:center; padding:80px; font-family:'EB Garamond',serif; font-style:italic;">
+            Đang kết nối vũ trụ...</div>
+        </div>
+      </div>
+    </div>
   </div>
-</div>
 
-<!-- Starfield Script -->
-<script>
-(function() {
-  const canvas = document.getElementById('adminCanvas');
-  const ctx = canvas.getContext('2d');
-  let stars = [], W, H;
+  <!-- Detail modal -->
+  <div class="detail-overlay" id="detailOverlay">
+    <div class="detail-box" id="detailBox">
+      <button class="detail-close" onclick="closeDetail()">✕</button>
+      <div id="detailContent">Đang tải...</div>
+    </div>
+  </div>
 
-  function resize() {
-    W = canvas.width  = window.innerWidth;
-    H = canvas.height = window.innerHeight;
-  }
+  <!-- Starfield Script -->
+  <script>
+    (function () {
+      const canvas = document.getElementById('adminCanvas');
+      const ctx = canvas.getContext('2d');
+      let stars = [], W, H;
 
-  function initStars(n) {
-    stars = [];
-    for (let i = 0; i < n; i++) {
-      stars.push({
-        x: Math.random() * W,
-        y: Math.random() * H,
-        r: Math.random() * 1.2 + 0.2,
-        speed: Math.random() * 0.2 + 0.05,
-        alpha: Math.random(),
-        da: (Math.random() * 0.005 + 0.002) * (Math.random() < 0.5 ? 1 : -1)
+      function resize() {
+        W = canvas.width = window.innerWidth;
+        H = canvas.height = window.innerHeight;
+      }
+
+      function initStars(n) {
+        stars = [];
+        for (let i = 0; i < n; i++) {
+          stars.push({
+            x: Math.random() * W,
+            y: Math.random() * H,
+            r: Math.random() * 1.2 + 0.2,
+            speed: Math.random() * 0.2 + 0.05,
+            alpha: Math.random(),
+            da: (Math.random() * 0.005 + 0.002) * (Math.random() < 0.5 ? 1 : -1)
+          });
+        }
+      }
+
+      function draw() {
+        ctx.clearRect(0, 0, W, H);
+
+        // Soft radial glow in center
+        const grad = ctx.createRadialGradient(W / 2, H / 2, 0, W / 2, H / 2, Math.max(W, H) * 0.6);
+        grad.addColorStop(0, 'rgba(107,0,204,0.06)');
+        grad.addColorStop(1, 'transparent');
+        ctx.fillStyle = grad;
+        ctx.fillRect(0, 0, W, H);
+
+        stars.forEach(s => {
+          s.alpha += s.da;
+          if (s.alpha >= 1 || s.alpha <= 0) s.da *= -1;
+          s.y += s.speed;
+          if (s.y > H) { s.y = 0; s.x = Math.random() * W; }
+
+          ctx.beginPath();
+          ctx.arc(s.x, s.y, s.r, 0, Math.PI * 2);
+          ctx.fillStyle = `rgba(200,180,255,${Math.max(0, Math.min(1, s.alpha))})`;
+          ctx.fill();
+        });
+
+        requestAnimationFrame(draw);
+      }
+
+      window.addEventListener('resize', () => { resize(); initStars(180); });
+      resize();
+      initStars(180);
+      draw();
+    })();
+  </script>
+
+  <script>
+    const API = 'https://ka-en.com.vn/tarot_api/admin_api.php';
+    let SECRET = sessionStorage.getItem('tarot_admin_secret') || '';
+    let currentView = 'dashboard';
+    let currentPage = 1;
+    let searchTimer;
+
+    // Filters
+    let filterTheme = '';
+    let filterStart = new Date(Date.now() - 7 * 86400000).toISOString().split('T')[0];
+    let filterEnd = new Date().toISOString().split('T')[0];
+
+    const THEME_MAP = {
+      love: 'Tình Yêu', ex: 'Người Yêu Cũ', current_love: 'Người Yêu Hiện Tại',
+      ambiguous: 'Mối Quan Hệ Mập Mờ', crush: 'Crush', future_love: 'Tình Duyên TL',
+      someone: 'Người Ấy', marriage: 'Hôn Nhân', conflict: 'Xung Đột', breakup: 'Chia Tay',
+      long_distance: 'Yêu Xa', jealousy: 'Người Thứ Ba', self_love: 'Yêu Bản Thân',
+      toxic_relationship: 'Q/hệ Độc Hại', soulmate: 'Tri Kỷ / Soulmate', reconciliation: 'Gương Vỡ Lại Lành', secret_admirer: 'Người Thầm Thương',
+      friendship: 'Tình Bạn', pregnancy: 'Con Cái', gossip: 'Thị Phi',
+
+      career: 'Sự Nghiệp', job_search: 'Xin Việc', promotion: 'Thăng Tiến',
+      business: 'Kinh Doanh', colleague: 'Đồng Nghiệp', career_change: 'Chuyển Nghề',
+      freelance: 'Freelance', interview: 'Phỏng Vấn', legal: 'Pháp Lý', moving: 'Định Cư',
+      burnout: 'Kiệt Sức', startup: 'Khởi Nghiệp', workplace_politics: 'Thị Phi Công Sở', side_hustle: 'Nghề Tay Trái',
+
+      finance: 'Tài Chính', investment: 'Đầu Tư', debt: 'Nợ Nần', savings: 'Tiết Kiệm', luck_money: 'Lộc Tài',
+      real_estate: 'Bất Động Sản', financial_loss: 'Thua Lỗ', sudden_wealth: 'Vận May Bất Ngờ',
+
+      health: 'Sức Khỏe', mental: 'Tâm Thần', energy: 'Năng Lượng', family: 'Gia Đình', diet: 'Chăm Sóc', pet: 'Thú Cưng',
+      healing: 'Chữa Lành', stress: 'Căng Thẳng', trauma: 'Tổn Thương',
+
+      study: 'Học Tập', study_abroad: 'Du Học', self: 'Bản Thân', purpose: 'Mục Đích',
+      shadow_self: 'Bóng Tối', decision: 'Quyết Định', travel: 'Du Lịch', spiritual: 'Tâm Linh',
+      dream: 'Giải Mộng', past_life: 'Tiền Kiếp', karma: 'Nghiệp Quả', lost_item: 'Tìm Đồ',
+      exams: 'Thi Cử', scholarship: 'Học Bổng', talent: 'Năng Khiếu', spirit_guide: 'Thần Hộ Mệnh',
+      general: 'Tổng Quát'
+    };
+
+    // ── Markdown Parser ───────────────────────────────────
+    function markdownToHtml(md) {
+      if (!md) return '(Chưa có luận giải)';
+      return md
+        .replace(/^[-*_]{3,}$/gm, '<div class="analysis-section-label" style="margin:20px 0">✦</div>')
+        .replace(/^### (.+)$/gm, '<h3 style="color:var(--gold); font-family:Cinzel,serif; font-size:1.1rem; margin:20px 0 10px;">$1</h3>')
+        .replace(/^## (.+)$/gm, '<h2 style="color:var(--gold-pale); font-family:Cinzel,serif; font-size:1.2rem; margin:24px 0 12px; border-bottom:1px solid var(--border); padding-bottom:8px;">$1</h2>')
+        .replace(/^# (.+)$/gm, '<h2 style="color:var(--gold-pale); font-family:Cinzel,serif; font-size:1.4rem; margin:28px 0 16px;">$1</h2>')
+        .replace(/\*\*(.+?)\*\*/g, '<strong style="color:var(--gold-pale)">$1</strong>')
+        .replace(/\*(.+?)\*/g, '<em style="color:var(--muted)">$1</em>')
+        .replace(/^[-•] (.+)$/gm, '<li style="margin-left:20px; margin-bottom:8px;">$1</li>')
+        .replace(/(<li style=.*<\/li>\n?)+/gs, m => `<ul style="list-style-type:square; margin:10px 0; color:var(--text);">${m}</ul>`)
+        .replace(/^\d+\. (.+)$/gm, '<li style="margin-left:20px; margin-bottom:8px;">$1</li>')
+        .replace(/\n\n+/g, '</p><p style="margin-bottom:16px;">')
+        .replace(/^(?!<[hul])(.+)$/gm, (m) => m.trim() ? m : '')
+        .replace(/^([^<].+)$/gm, '<p style="margin-bottom:16px;">$1</p>');
+    }
+
+    // ── Auth ────────────────────────────────────────────
+    function doLogin() {
+      const s = document.getElementById('secretInput').value.trim();
+      if (!s) return;
+      SECRET = s;
+      document.getElementById('loginError').textContent = '';
+      apiFetch('stats').then(() => {
+        sessionStorage.setItem('tarot_admin_secret', SECRET);
+        showApp();
+      }).catch(() => {
+        document.getElementById('loginError').textContent = '✕ Mật khẩu không đúng!';
+        SECRET = '';
+        sessionStorage.removeItem('tarot_admin_secret');
       });
     }
-  }
+    document.getElementById('secretInput').addEventListener('keydown', e => { if (e.key === 'Enter') doLogin(); });
 
-  function draw() {
-    ctx.clearRect(0, 0, W, H);
+    function logout() {
+      SECRET = '';
+      sessionStorage.removeItem('tarot_admin_secret');
+      document.getElementById('loginScreen').style.display = 'flex';
+      document.getElementById('app').style.display = 'none';
+      document.getElementById('secretInput').value = '';
+    }
 
-    // Soft radial glow in center
-    const grad = ctx.createRadialGradient(W/2, H/2, 0, W/2, H/2, Math.max(W, H) * 0.6);
-    grad.addColorStop(0, 'rgba(107,0,204,0.06)');
-    grad.addColorStop(1, 'transparent');
-    ctx.fillStyle = grad;
-    ctx.fillRect(0, 0, W, H);
+    function showApp() {
+      document.getElementById('loginScreen').style.display = 'none';
+      document.getElementById('app').style.display = 'block';
+      loadView('dashboard');
+    }
 
-    stars.forEach(s => {
-      s.alpha += s.da;
-      if (s.alpha >= 1 || s.alpha <= 0) s.da *= -1;
-      s.y += s.speed;
-      if (s.y > H) { s.y = 0; s.x = Math.random() * W; }
+    // Auto-login if secret saved
+    if (SECRET) {
+      apiFetch('stats').then(() => showApp()).catch(() => {
+        SECRET = '';
+        sessionStorage.removeItem('tarot_admin_secret');
+      });
+    }
 
-      ctx.beginPath();
-      ctx.arc(s.x, s.y, s.r, 0, Math.PI*2);
-      ctx.fillStyle = `rgba(200,180,255,${Math.max(0, Math.min(1, s.alpha))})`;
-      ctx.fill();
-    });
+    // ── API ──────────────────────────────────────────────
+    async function apiFetch(action, params = {}) {
+      const url = new URL(API);
+      url.searchParams.set('action', action);
+      Object.entries(params).forEach(([k, v]) => url.searchParams.set(k, v));
+      const res = await fetch(url, { headers: { 'Authorization': `Bearer ${SECRET}` } });
+      if (!res.ok) throw new Error(res.status);
+      return await res.json();
+    }
 
-    requestAnimationFrame(draw);
-  }
+    // ── Routing ──────────────────────────────────────────
+    function switchView(view, el) {
+      document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
+      el.classList.add('active');
+      currentPage = 1;
+      document.getElementById('searchInput').value = '';
+      loadView(view);
+    }
 
-  window.addEventListener('resize', () => { resize(); initStars(180); });
-  resize();
-  initStars(180);
-  draw();
-})();
-</script>
-
-<script>
-const API = 'https://ka-en.com.vn/tarot_api/admin_api.php';
-let SECRET = sessionStorage.getItem('tarot_admin_secret') || '';
-let currentView = 'dashboard';
-let currentPage = 1;
-let searchTimer;
-
-// Filters
-let filterTheme = '';
-let filterStart = new Date(Date.now() - 7 * 86400000).toISOString().split('T')[0];
-let filterEnd = new Date().toISOString().split('T')[0];
-
-const THEME_MAP = {
-  love:'Tình Yêu', ex:'Người Yêu Cũ', current_love:'Người Yêu Hiện Tại',
-  ambiguous:'Mối Quan Hệ Mập Mờ', crush:'Crush', future_love:'Tình Duyên TL',
-  someone:'Người Ấy', marriage:'Hôn Nhân', conflict:'Xung Đột', breakup:'Chia Tay',
-  long_distance:'Yêu Xa', jealousy:'Người Thứ Ba', self_love:'Yêu Bản Thân',
-  toxic_relationship:'Q/hệ Độc Hại', soulmate:'Tri Kỷ / Soulmate', reconciliation:'Gương Vỡ Lại Lành', secret_admirer:'Người Thầm Thương',
-  friendship:'Tình Bạn', pregnancy:'Con Cái', gossip:'Thị Phi',
-
-  career:'Sự Nghiệp', job_search:'Xin Việc', promotion:'Thăng Tiến',
-  business:'Kinh Doanh', colleague:'Đồng Nghiệp', career_change:'Chuyển Nghề',
-  freelance:'Freelance', interview:'Phỏng Vấn', legal:'Pháp Lý', moving:'Định Cư',
-  burnout:'Kiệt Sức', startup:'Khởi Nghiệp', workplace_politics:'Thị Phi Công Sở', side_hustle:'Nghề Tay Trái',
-
-  finance:'Tài Chính', investment:'Đầu Tư', debt:'Nợ Nần', savings:'Tiết Kiệm', luck_money:'Lộc Tài',
-  real_estate:'Bất Động Sản', financial_loss:'Thua Lỗ', sudden_wealth:'Vận May Bất Ngờ',
-
-  health:'Sức Khỏe', mental:'Tâm Thần', energy:'Năng Lượng', family:'Gia Đình', diet:'Chăm Sóc', pet:'Thú Cưng',
-  healing:'Chữa Lành', stress:'Căng Thẳng', trauma:'Tổn Thương',
-
-  study:'Học Tập', study_abroad:'Du Học', self:'Bản Thân', purpose:'Mục Đích',
-  shadow_self:'Bóng Tối', decision:'Quyết Định', travel:'Du Lịch', spiritual:'Tâm Linh',
-  dream:'Giải Mộng', past_life:'Tiền Kiếp', karma:'Nghiệp Quả', lost_item:'Tìm Đồ',
-  exams:'Thi Cử', scholarship:'Học Bổng', talent:'Năng Khiếu', spirit_guide:'Thần Hộ Mệnh',
-  general:'Tổng Quát'
-};
-
-// ── Markdown Parser ───────────────────────────────────
-function markdownToHtml(md) {
-  if (!md) return '(Chưa có luận giải)';
-  return md
-    .replace(/^[-*_]{3,}$/gm, '<div class="analysis-section-label" style="margin:20px 0">✦</div>')
-    .replace(/^### (.+)$/gm, '<h3 style="color:var(--gold); font-family:Cinzel,serif; font-size:1.1rem; margin:20px 0 10px;">$1</h3>')
-    .replace(/^## (.+)$/gm, '<h2 style="color:var(--gold-pale); font-family:Cinzel,serif; font-size:1.2rem; margin:24px 0 12px; border-bottom:1px solid var(--border); padding-bottom:8px;">$1</h2>')
-    .replace(/^# (.+)$/gm, '<h2 style="color:var(--gold-pale); font-family:Cinzel,serif; font-size:1.4rem; margin:28px 0 16px;">$1</h2>')
-    .replace(/\*\*(.+?)\*\*/g, '<strong style="color:var(--gold-pale)">$1</strong>')
-    .replace(/\*(.+?)\*/g, '<em style="color:var(--muted)">$1</em>')
-    .replace(/^[-•] (.+)$/gm, '<li style="margin-left:20px; margin-bottom:8px;">$1</li>')
-    .replace(/(<li style=.*<\/li>\n?)+/gs, m => `<ul style="list-style-type:square; margin:10px 0; color:var(--text);">${m}</ul>`)
-    .replace(/^\d+\. (.+)$/gm, '<li style="margin-left:20px; margin-bottom:8px;">$1</li>')
-    .replace(/\n\n+/g, '</p><p style="margin-bottom:16px;">')
-    .replace(/^(?!<[hul])(.+)$/gm, (m) => m.trim() ? m : '')
-    .replace(/^([^<].+)$/gm, '<p style="margin-bottom:16px;">$1</p>');
-}
-
-// ── Auth ────────────────────────────────────────────
-function doLogin() {
-  const s = document.getElementById('secretInput').value.trim();
-  if (!s) return;
-  SECRET = s;
-  document.getElementById('loginError').textContent = '';
-  apiFetch('stats').then(() => {
-    sessionStorage.setItem('tarot_admin_secret', SECRET);
-    showApp();
-  }).catch(() => {
-    document.getElementById('loginError').textContent = '✕ Mật khẩu không đúng!';
-    SECRET = '';
-    sessionStorage.removeItem('tarot_admin_secret');
-  });
-}
-document.getElementById('secretInput').addEventListener('keydown', e => { if (e.key === 'Enter') doLogin(); });
-
-function logout() {
-  SECRET = '';
-  sessionStorage.removeItem('tarot_admin_secret');
-  document.getElementById('loginScreen').style.display = 'flex';
-  document.getElementById('app').style.display = 'none';
-  document.getElementById('secretInput').value = '';
-}
-
-function showApp() {
-  document.getElementById('loginScreen').style.display = 'none';
-  document.getElementById('app').style.display = 'block';
-  loadView('dashboard');
-}
-
-// Auto-login if secret saved
-if (SECRET) {
-  apiFetch('stats').then(() => showApp()).catch(() => {
-    SECRET = '';
-    sessionStorage.removeItem('tarot_admin_secret');
-  });
-}
-
-// ── API ──────────────────────────────────────────────
-async function apiFetch(action, params = {}) {
-  const url = new URL(API);
-  url.searchParams.set('action', action);
-  Object.entries(params).forEach(([k, v]) => url.searchParams.set(k, v));
-  const res = await fetch(url, { headers: { 'Authorization': `Bearer ${SECRET}` } });
-  if (!res.ok) throw new Error(res.status);
-  return await res.json();
-}
-
-// ── Routing ──────────────────────────────────────────
-function switchView(view, el) {
-  document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
-  el.classList.add('active');
-  currentPage = 1;
-  document.getElementById('searchInput').value = '';
-  loadView(view);
-}
-
-function loadView(view) {
-  currentView = view;
-  const titles = { dashboard: '✦  Tổng Quan', readings: '🃏  Lịch Sử Trải Bài', users: '👥  Người Dùng' };
-  document.getElementById('viewTitle').textContent = titles[view] || view;
-  document.getElementById('viewContent').innerHTML = `
+    function loadView(view) {
+      currentView = view;
+      const titles = { dashboard: '✦  Tổng Quan', readings: '🃏  Lịch Sử Trải Bài', users: '👥  Người Dùng' };
+      document.getElementById('viewTitle').textContent = titles[view] || view;
+      document.getElementById('viewContent').innerHTML = `
     <div style="padding:60px; text-align:center;">
       <div style="font-family:'EB Garamond',serif; font-style:italic; color:var(--muted); font-size:1.05rem; animation: loginIconFloat 2s ease-in-out infinite alternate;">
         Đang kết nối vũ trụ...
       </div>
     </div>`;
-  if (view === 'dashboard') renderDashboard();
-  if (view === 'readings') renderReadings();
-  if (view === 'users')    renderUsers();
-}
+      if (view === 'dashboard') renderDashboard();
+      if (view === 'readings') renderReadings();
+      if (view === 'users') renderUsers();
+    }
 
-function onSearch(val) {
-  clearTimeout(searchTimer);
-  searchTimer = setTimeout(() => {
-    currentPage = 1;
-    if (currentView === 'readings') renderReadings(val);
-    if (currentView === 'users')    renderUsers(val);
-  }, 400);
-}
+    function onSearch(val) {
+      clearTimeout(searchTimer);
+      searchTimer = setTimeout(() => {
+        currentPage = 1;
+        if (currentView === 'readings') renderReadings(val);
+        if (currentView === 'users') renderUsers(val);
+      }, 400);
+    }
 
-// ── Dashboard ────────────────────────────────────────
-async function renderDashboard() {
-  const d = await apiFetch('stats');
-  const s = d.stats;
-  const maxCnt = Math.max(...(d.theme_breakdown.map(t => t.cnt)), 1);
+    // ── Dashboard ────────────────────────────────────────
+    async function renderDashboard() {
+      const d = await apiFetch('stats');
+      const s = d.stats;
+      const maxCnt = Math.max(...(d.theme_breakdown.map(t => t.cnt)), 1);
 
-  const THEME_MAP = {
-    love:'Tình Yêu', ex:'Người Yêu Cũ', current_love:'Người Yêu Hiện Tại',
-    ambiguous:'Mối Quan Hệ Mập Mờ', crush:'Crush / Thầm Thích', future_love:'Tình Duyên TL',
-    someone:'Người Ấy', marriage:'Hôn Nhân', conflict:'Xung Đột', breakup:'Chia Tay',
-    long_distance:'Yêu Xa', jealousy:'Người Thứ Ba', self_love:'Yêu Bản Thân',
-    toxic_relationship:'Q/hệ Độc Hại', soulmate:'Tri Kỷ / Soulmate', reconciliation:'Gương Vỡ Lại Lành', secret_admirer:'Người Thầm Thương',
-    friendship:'Tình Bạn', pregnancy:'Con Cái', gossip:'Thị Phi',
+      const THEME_MAP = {
+        love: 'Tình Yêu', ex: 'Người Yêu Cũ', current_love: 'Người Yêu Hiện Tại',
+        ambiguous: 'Mối Quan Hệ Mập Mờ', crush: 'Crush / Thầm Thích', future_love: 'Tình Duyên TL',
+        someone: 'Người Ấy', marriage: 'Hôn Nhân', conflict: 'Xung Đột', breakup: 'Chia Tay',
+        long_distance: 'Yêu Xa', jealousy: 'Người Thứ Ba', self_love: 'Yêu Bản Thân',
+        toxic_relationship: 'Q/hệ Độc Hại', soulmate: 'Tri Kỷ / Soulmate', reconciliation: 'Gương Vỡ Lại Lành', secret_admirer: 'Người Thầm Thương',
+        friendship: 'Tình Bạn', pregnancy: 'Con Cái', gossip: 'Thị Phi',
 
-    career:'Sự Nghiệp', job_search:'Xin Việc', promotion:'Thăng Tiến',
-    business:'Kinh Doanh', colleague:'Đồng Nghiệp', career_change:'Chuyển Nghề',
-    freelance:'Freelance', interview:'Phỏng Vấn', legal:'Pháp Lý', moving:'Định Cư',
-    burnout:'Kiệt Sức', startup:'Khởi Nghiệp', workplace_politics:'Thị Phi Công Sở', side_hustle:'Nghề Tay Trái',
+        career: 'Sự Nghiệp', job_search: 'Xin Việc', promotion: 'Thăng Tiến',
+        business: 'Kinh Doanh', colleague: 'Đồng Nghiệp', career_change: 'Chuyển Nghề',
+        freelance: 'Freelance', interview: 'Phỏng Vấn', legal: 'Pháp Lý', moving: 'Định Cư',
+        burnout: 'Kiệt Sức', startup: 'Khởi Nghiệp', workplace_politics: 'Thị Phi Công Sở', side_hustle: 'Nghề Tay Trái',
 
-    finance:'Tài Chính', investment:'Đầu Tư', debt:'Nợ Nần', savings:'Tiết Kiệm', luck_money:'Lộc Tài',
-    real_estate:'Bất Động Sản', financial_loss:'Thua Lỗ', sudden_wealth:'Vận May Bất Ngờ',
+        finance: 'Tài Chính', investment: 'Đầu Tư', debt: 'Nợ Nần', savings: 'Tiết Kiệm', luck_money: 'Lộc Tài',
+        real_estate: 'Bất Động Sản', financial_loss: 'Thua Lỗ', sudden_wealth: 'Vận May Bất Ngờ',
 
-    health:'Sức Khỏe', mental:'Tâm Thần', energy:'Năng Lượng', family:'Gia Đình', diet:'Chăm Sóc', pet:'Thú Cưng',
-    healing:'Chữa Lành', stress:'Căng Thẳng', trauma:'Tổn Thương',
+        health: 'Sức Khỏe', mental: 'Tâm Thần', energy: 'Năng Lượng', family: 'Gia Đình', diet: 'Chăm Sóc', pet: 'Thú Cưng',
+        healing: 'Chữa Lành', stress: 'Căng Thẳng', trauma: 'Tổn Thương',
 
-    study:'Học Tập', study_abroad:'Du Học', self:'Bản Thân', purpose:'Mục Đích',
-    shadow_self:'Bóng Tối', decision:'Quyết Định', travel:'Du Lịch', spiritual:'Tâm Linh',
-    dream:'Giải Mộng', past_life:'Tiền Kiếp', karma:'Nghiệp Quả', lost_item:'Tìm Đồ',
-    exams:'Thi Cử', scholarship:'Học Bổng', talent:'Năng Khiếu', spirit_guide:'Thần Hộ Mệnh',
-    general:'Tổng Quát'
-  };
+        study: 'Học Tập', study_abroad: 'Du Học', self: 'Bản Thân', purpose: 'Mục Đích',
+        shadow_self: 'Bóng Tối', decision: 'Quyết Định', travel: 'Du Lịch', spiritual: 'Tâm Linh',
+        dream: 'Giải Mộng', past_life: 'Tiền Kiếp', karma: 'Nghiệp Quả', lost_item: 'Tìm Đồ',
+        exams: 'Thi Cử', scholarship: 'Học Bổng', talent: 'Năng Khiếu', spirit_guide: 'Thần Hộ Mệnh',
+        general: 'Tổng Quát'
+      };
 
-  document.getElementById('viewContent').innerHTML = `
+      document.getElementById('viewContent').innerHTML = `
     <div class="stats-grid">
       <div class="stat-card">
         <div class="stat-label">Tổng Người Dùng</div>
@@ -1310,45 +1872,45 @@ async function renderDashboard() {
         ${d.theme_breakdown.map(t => `
           <div class="theme-bar-row">
             <div class="theme-bar-label">${THEME_MAP[t.theme] || t.theme}</div>
-            <div class="theme-bar-track"><div class="theme-bar-fill" style="width:${(t.cnt/maxCnt*100).toFixed(1)}%"></div></div>
+            <div class="theme-bar-track"><div class="theme-bar-fill" style="width:${(t.cnt / maxCnt * 100).toFixed(1)}%"></div></div>
             <div class="theme-bar-cnt">${t.cnt}</div>
           </div>
         `).join('')}
       </div>
     </div>
   `;
-}
+    }
 
-// ── Readings ─────────────────────────────────────────
-async function renderReadings(search = '') {
-  const d = await apiFetch('readings', {
-    page: currentPage,
-    q: search,
-    theme: filterTheme,
-    start_date: filterStart,
-    end_date: filterEnd
-  });
+    // ── Readings ─────────────────────────────────────────
+    async function renderReadings(search = '') {
+      const d = await apiFetch('readings', {
+        page: currentPage,
+        q: search,
+        theme: filterTheme,
+        start_date: filterStart,
+        end_date: filterEnd
+      });
 
-  const themeOptions = Object.entries(THEME_MAP).map(([k, v]) => 
-    `<div class="filter-item ${k === filterTheme ? 'active' : ''}" onclick="selectTheme('${k}')">${v}</div>`
-  ).join('');
+      const themeOptions = Object.entries(THEME_MAP).map(([k, v]) =>
+        `<div class="filter-item ${k === filterTheme ? 'active' : ''}" onclick="selectTheme('${k}')">${v}</div>`
+      ).join('');
 
-  let dateLabel = 'Tùy chỉnh...';
-  const todayStr = new Date().toISOString().split('T')[0];
-  const yesterdayStr = new Date(Date.now() - 86400000).toISOString().split('T')[0];
-  const weekAgoStr = new Date(Date.now() - 7 * 86400000).toISOString().split('T')[0];
-  const monthAgoStr = new Date(Date.now() - 30 * 86400000).toISOString().split('T')[0];
+      let dateLabel = 'Tùy chỉnh...';
+      const todayStr = new Date().toISOString().split('T')[0];
+      const yesterdayStr = new Date(Date.now() - 86400000).toISOString().split('T')[0];
+      const weekAgoStr = new Date(Date.now() - 7 * 86400000).toISOString().split('T')[0];
+      const monthAgoStr = new Date(Date.now() - 30 * 86400000).toISOString().split('T')[0];
 
-  if (filterStart === todayStr && filterEnd === todayStr) dateLabel = 'Hôm nay';
-  else if (filterStart === yesterdayStr && filterEnd === yesterdayStr) dateLabel = 'Hôm qua';
-  else if (filterStart === weekAgoStr && filterEnd === todayStr) dateLabel = '7 ngày gần đây';
-  else if (filterStart === monthAgoStr && filterEnd === todayStr) dateLabel = '30 ngày gần đây';
-  else if (!filterStart && !filterEnd) dateLabel = 'Toàn thời gian';
-  else if (filterStart && filterEnd) dateLabel = `${filterStart} ➝ ${filterEnd}`;
-  else if (filterStart) dateLabel = `Từ ${filterStart}`;
-  else if (filterEnd) dateLabel = `Đến ${filterEnd}`;
+      if (filterStart === todayStr && filterEnd === todayStr) dateLabel = 'Hôm nay';
+      else if (filterStart === yesterdayStr && filterEnd === yesterdayStr) dateLabel = 'Hôm qua';
+      else if (filterStart === weekAgoStr && filterEnd === todayStr) dateLabel = '7 ngày gần đây';
+      else if (filterStart === monthAgoStr && filterEnd === todayStr) dateLabel = '30 ngày gần đây';
+      else if (!filterStart && !filterEnd) dateLabel = 'Toàn thời gian';
+      else if (filterStart && filterEnd) dateLabel = `${filterStart} ➝ ${filterEnd}`;
+      else if (filterStart) dateLabel = `Từ ${filterStart}`;
+      else if (filterEnd) dateLabel = `Đến ${filterEnd}`;
 
-  const filterHTML = `
+      const filterHTML = `
     <div style="display:flex; gap:16px; margin-bottom:24px; flex-wrap:wrap; align-items:center;">
       
       <div class="filter-dropdown" id="themeDropdown">
@@ -1387,12 +1949,12 @@ async function renderReadings(search = '') {
     </div>
   `;
 
-  if (!d.readings?.length) {
-    document.getElementById('viewContent').innerHTML = filterHTML + '<div style="color:var(--muted); text-align:center; padding:80px; font-family:\'EB Garamond\',serif; font-style:italic;">Chưa có dữ liệu</div>';
-    return;
-  }
+      if (!d.readings?.length) {
+        document.getElementById('viewContent').innerHTML = filterHTML + '<div style="color:var(--muted); text-align:center; padding:80px; font-family:\'EB Garamond\',serif; font-style:italic;">Chưa có dữ liệu</div>';
+        return;
+      }
 
-  const rows = d.readings.map(r => `
+      const rows = d.readings.map(r => `
     <tr>
       <td style="color:var(--muted); font-size:0.75rem">${r.id}</td>
       <td>
@@ -1404,16 +1966,16 @@ async function renderReadings(search = '') {
       <td style="text-align:center; color:var(--gold)">${r.spread_count} lá</td>
       <td>
         ${(r.cards || []).slice(0, 3).map(c =>
-          `<span class="td-muted" style="font-size:0.72rem">${c.card_name_vi || c.card_name}${c.is_reversed ? '↓' : ''}</span>`
-        ).join(', ')}
+        `<span class="td-muted" style="font-size:0.72rem">${c.card_name_vi || c.card_name}${c.is_reversed ? '↓' : ''}</span>`
+      ).join(', ')}
         ${r.cards?.length > 3 ? `<span class="td-muted"> ...</span>` : ''}
       </td>
-      <td class="td-muted" style="font-size:0.73rem">${r.created_at.slice(0,16).replace('T',' ')}</td>
+      <td class="td-muted" style="font-size:0.73rem">${r.created_at.slice(0, 16).replace('T', ' ')}</td>
       <td><button class="action-btn" onclick="showDetail(${r.id})">Xem chi tiết</button></td>
     </tr>
   `).join('');
 
-  document.getElementById('viewContent').innerHTML = filterHTML + `
+      document.getElementById('viewContent').innerHTML = filterHTML + `
     <div class="table-wrap">
       <div class="table-header">
         <div class="table-title">Lịch Sử Trải Bài</div>
@@ -1431,27 +1993,28 @@ async function renderReadings(search = '') {
       <div class="pagination">${renderPagination(d.page, d.pages)}</div>
     </div>
   `;
-}
+    }
 
-// ── Users ────────────────────────────────────────────
-async function renderUsers(search = '') {
-  const d = await apiFetch('users', { page: currentPage, q: search });
-  if (!d.users?.length) {
-    document.getElementById('viewContent').innerHTML = '<div style="color:var(--muted); text-align:center; padding:80px; font-family:\'EB Garamond\',serif; font-style:italic;">Chưa có người dùng</div>';
-    return;
-  }
+    // ── Users ────────────────────────────────────────────
+    async function renderUsers(search = '') {
+      const d = await apiFetch('users', { page: currentPage, q: search });
+      if (!d.users?.length) {
+        document.getElementById('viewContent').innerHTML = '<div style="color:var(--muted); text-align:center; padding:80px; font-family:\'EB Garamond\',serif; font-style:italic;">Chưa có người dùng</div>';
+        return;
+      }
 
-  const rows = d.users.map(u => {
-    const status = u.status || 'active';
-    const statusLabel = status === 'banned' ? 'Cấm' : (status === 'warned' ? 'Cảnh cáo' : 'Hoạt động');
-    const isFree = u.plan_type === 'free';
-    return `
+      const rows = d.users.map(u => {
+        const status = u.status || 'active';
+        const statusLabel = status === 'banned' ? 'Cấm' : (status === 'warned' ? 'Cảnh cáo' : 'Hoạt động');
+        const isFree = u.plan_type === 'free';
+        return `
     <tr>
       <td>
         <div style="font-weight:600; font-family:'Philosopher',serif">${u.name || '—'}</div>
         <div class="td-muted" style="font-size:0.73rem">${u.email}</div>
       </td>
       <td class="td-muted" style="font-family:'EB Garamond',serif">${u.dob || '—'}</td>
+      <td style="color:var(--gold); font-weight:600; text-align:center;">${u.reading_count || 0}</td>
       <td>
         <div class="plan-custom-select" id="plan-${u.id}">
           <button class="plan-btn" data-val="${u.plan_type}" onclick="toggleFilterMenu(event, 'planMenu-${u.id}')">
@@ -1465,7 +2028,7 @@ async function renderUsers(search = '') {
           </div>
         </div>
       </td>
-      <td class="td-muted">${u.plan_expiry_date ? u.plan_expiry_date.slice(0,10) : '—'}</td>
+      <td class="td-muted">${u.plan_expiry_date ? u.plan_expiry_date.slice(0, 10) : '—'}</td>
       <td>
         <span class="status-chip ${status}">${statusLabel}</span>
       </td>
@@ -1484,7 +2047,7 @@ async function renderUsers(search = '') {
     </tr>
   `}).join('');
 
-  document.getElementById('viewContent').innerHTML = `
+      document.getElementById('viewContent').innerHTML = `
     <div class="table-wrap">
       <div class="table-header">
         <div class="table-title">Danh Sách Người Dùng</div>
@@ -1493,89 +2056,89 @@ async function renderUsers(search = '') {
       <div style="overflow-x: auto;">
         <table>
           <thead>
-            <tr><th>Tên / Email</th><th>Ngày sinh</th><th>Gói cước</th><th>Hết hạn</th><th>Trạng thái</th><th>Hành động</th></tr>
+            <tr><th>Tên / Email</th><th>Ngày sinh</th><th>Số lần hỏi</th><th>Gói cước</th><th>Hết hạn</th><th>Trạng thái</th><th>Hành động</th></tr>
           </thead>
           <tbody>${rows}</tbody>
         </table>
       </div>
-      <div class="pagination">${renderPagination(d.page, Math.ceil(d.total/20))}</div>
+      <div class="pagination">${renderPagination(d.page, Math.ceil(d.total / 20))}</div>
     </div>
   `;
-}
+    }
 
-// ── User Management Actions ──────────────────────────
-async function updateUserPlan(id, newPlan, currentStatus) {
-  try {
-    const res = await fetch(API + '?action=update_user', {
-      method: 'POST',
-      headers: { 'Authorization': `Bearer \${SECRET}`, 'Content-Type': 'application/json' },
-      body: JSON.stringify({ id, plan_type: newPlan, status: currentStatus })
-    });
-    if (!res.ok) throw new Error();
-  } catch(e) {
-    alert("Lỗi khi cập nhật gói cước.");
-    renderUsers(document.getElementById('searchInput').value);
-  }
-}
+    // ── User Management Actions ──────────────────────────
+    async function updateUserPlan(id, newPlan, currentStatus) {
+      try {
+        const res = await fetch(API + '?action=update_user', {
+          method: 'POST',
+          headers: { 'Authorization': `Bearer \${SECRET}`, 'Content-Type': 'application/json' },
+          body: JSON.stringify({ id, plan_type: newPlan, status: currentStatus })
+        });
+        if (!res.ok) throw new Error();
+      } catch (e) {
+        alert("Lỗi khi cập nhật gói cước.");
+        renderUsers(document.getElementById('searchInput').value);
+      }
+    }
 
-async function toggleStatus(id, currentStatus, newStatus, currentPlan) {
-  if (currentStatus === newStatus) return;
-  try {
-    const res = await fetch(API + '?action=update_user', {
-      method: 'POST',
-      headers: { 'Authorization': `Bearer \${SECRET}`, 'Content-Type': 'application/json' },
-      body: JSON.stringify({ id, plan_type: currentPlan, status: newStatus })
-    });
-    if (!res.ok) throw new Error();
-    renderUsers(document.getElementById('searchInput').value);
-  } catch(e) {
-    alert("Lỗi khi cập nhật trạng thái.");
-  }
-}
+    async function toggleStatus(id, currentStatus, newStatus, currentPlan) {
+      if (currentStatus === newStatus) return;
+      try {
+        const res = await fetch(API + '?action=update_user', {
+          method: 'POST',
+          headers: { 'Authorization': `Bearer \${SECRET}`, 'Content-Type': 'application/json' },
+          body: JSON.stringify({ id, plan_type: currentPlan, status: newStatus })
+        });
+        if (!res.ok) throw new Error();
+        renderUsers(document.getElementById('searchInput').value);
+      } catch (e) {
+        alert("Lỗi khi cập nhật trạng thái.");
+      }
+    }
 
-async function executeDeleteUser(id) {
-  try {
-    const res = await fetch(API + '?action=delete_user', {
-      method: 'POST',
-      headers: { 'Authorization': `Bearer \${SECRET}`, 'Content-Type': 'application/json' },
-      body: JSON.stringify({ id })
-    });
-    if (!res.ok) throw new Error();
-    renderUsers(document.getElementById('searchInput').value);
-  } catch(e) {
-    alert("Lỗi khi xóa người dùng.");
-  }
-}
+    async function executeDeleteUser(id) {
+      try {
+        const res = await fetch(API + '?action=delete_user', {
+          method: 'POST',
+          headers: { 'Authorization': `Bearer \${SECRET}`, 'Content-Type': 'application/json' },
+          body: JSON.stringify({ id })
+        });
+        if (!res.ok) throw new Error();
+        renderUsers(document.getElementById('searchInput').value);
+      } catch (e) {
+        alert("Lỗi khi xóa người dùng.");
+      }
+    }
 
-/* ── Lightweight Markdown → HTML ─────────────────────── */
-function markdownToHtml(md) {
-  if (!md) return '';
-  return md
-    .replace(/^[-*_]{3,}$/gm, '<div class="ai-divider"><span>✦</span></div>')
-    .replace(/^### (.+)$/gm, '<h3 class="ai-h3">$1</h3>')
-    .replace(/^## (.+)$/gm, '<h3 class="ai-h3">$1</h3>')
-    .replace(/^# (.+)$/gm, '<h3 class="ai-h3">$1</h3>')
-    .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
-    .replace(/\*(.+?)\*/g, '<em>$1</em>')
-    .replace(/^[-•] (.+)$/gm, '<li>$1</li>')
-    .replace(/(<li>.*<\/li>\n?)+/gs, m => `<ul class="ai-list">${m}</ul>`)
-    .replace(/^\d+\. (.+)$/gm, '<li>$1</li>')
-    .replace(/\n\n+/g, '</p><p class="ai-p">')
-    .replace(/^(?!<[hul])(.+)$/gm, (m) => m.trim() ? m : '')
-    .replace(/^([^<].+)$/gm, '<p class="ai-p">$1</p>');
-}
+    /* ── Lightweight Markdown → HTML ─────────────────────── */
+    function markdownToHtml(md) {
+      if (!md) return '';
+      return md
+        .replace(/^[-*_]{3,}$/gm, '<div class="ai-divider"><span>✦</span></div>')
+        .replace(/^### (.+)$/gm, '<h3 class="ai-h3">$1</h3>')
+        .replace(/^## (.+)$/gm, '<h3 class="ai-h3">$1</h3>')
+        .replace(/^# (.+)$/gm, '<h3 class="ai-h3">$1</h3>')
+        .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+        .replace(/\*(.+?)\*/g, '<em>$1</em>')
+        .replace(/^[-•] (.+)$/gm, '<li>$1</li>')
+        .replace(/(<li>.*<\/li>\n?)+/gs, m => `<ul class="ai-list">${m}</ul>`)
+        .replace(/^\d+\. (.+)$/gm, '<li>$1</li>')
+        .replace(/\n\n+/g, '</p><p class="ai-p">')
+        .replace(/^(?!<[hul])(.+)$/gm, (m) => m.trim() ? m : '')
+        .replace(/^([^<].+)$/gm, '<p class="ai-p">$1</p>');
+    }
 
-// ── Detail modal ─────────────────────────────────────
-async function showDetail(id) {
-  document.getElementById('detailOverlay').classList.add('open');
-  document.getElementById('detailContent').innerHTML = '<div style="color:var(--muted); padding:40px; text-align:center; font-family:\'EB Garamond\',serif; font-style:italic; font-size:1rem;">Đang kết nối vũ trụ...</div>';
-  const d = await apiFetch('reading', { id });
-  const r = d.reading;
-  
-  const formattedDate = r.created_at.slice(0,16).replace('T',' ');
-  const dobText = r.dob ? `${r.dob} — ` : '';
+    // ── Detail modal ─────────────────────────────────────
+    async function showDetail(id) {
+      document.getElementById('detailOverlay').classList.add('open');
+      document.getElementById('detailContent').innerHTML = '<div style="color:var(--muted); padding:40px; text-align:center; font-family:\'EB Garamond\',serif; font-style:italic; font-size:1rem;">Đang kết nối vũ trụ...</div>';
+      const d = await apiFetch('reading', { id });
+      const r = d.reading;
 
-  document.getElementById('detailContent').innerHTML = `
+      const formattedDate = r.created_at.slice(0, 16).replace('T', ' ');
+      const dobText = r.dob ? `${r.dob} — ` : '';
+
+      document.getElementById('detailContent').innerHTML = `
     <div class="analysis-title-block">
       <h1 class="analysis-main-title">Thông Điệp Từ Vũ Trụ</h1>
       <p class="analysis-meta-line">${r.name} ✧ ${dobText}${THEME_MAP[r.theme] || r.theme}</p>
@@ -1599,150 +2162,151 @@ async function showDetail(id) {
     </div>
 
     <div class="ai-analysis-box">
-      <span class="ai-label">✦ Luận Giải Tổng Hợp</span>
+      <span class="ai-label">✦ Luận Giải Cuối Cùng</span>
       ${markdownToHtml(r.gemini_analysis)}
     </div>
   `;
-}
-
-function closeDetail() {
-  document.getElementById('detailOverlay').classList.remove('open');
-}
-document.getElementById('detailOverlay').addEventListener('click', e => {
-  if (e.target === document.getElementById('detailOverlay')) closeDetail();
-});
-
-// ── Pagination ────────────────────────────────────────
-function renderPagination(current, total) {
-  if (total <= 1) return '';
-  let html = '';
-  html += `<button class="page-btn" onclick="goPage(${current-1})" ${current <= 1 ? 'disabled' : ''}>‹</button>`;
-  for (let i = 1; i <= total; i++) {
-    if (i === 1 || i === total || Math.abs(i - current) <= 2) {
-      html += `<button class="page-btn ${i===current?'active':''}" onclick="goPage(${i})">${i}</button>`;
-    } else if (Math.abs(i - current) === 3) {
-      html += `<span class="page-btn" style="pointer-events:none">…</span>`;
     }
-  }
-  html += `<button class="page-btn" onclick="goPage(${current+1})" ${current >= total ? 'disabled' : ''}>›</button>`;
-  return html;
-}
 
-function goPage(p) {
-  currentPage = p;
-  loadView(currentView);
-}
+    function closeDetail() {
+      document.getElementById('detailOverlay').classList.remove('open');
+    }
+    document.getElementById('detailOverlay').addEventListener('click', e => {
+      if (e.target === document.getElementById('detailOverlay')) closeDetail();
+    });
 
-// ── Action Dropdown & Confirm Modals ────────────────
-let activeDropdown = null;
-let activeFilterMenu = null;
-let pendingActionCallback = null;
+    // ── Pagination ────────────────────────────────────────
+    function renderPagination(current, total) {
+      if (total <= 1) return '';
+      let html = '';
+      html += `<button class="page-btn" onclick="goPage(${current - 1})" ${current <= 1 ? 'disabled' : ''}>‹</button>`;
+      for (let i = 1; i <= total; i++) {
+        if (i === 1 || i === total || Math.abs(i - current) <= 2) {
+          html += `<button class="page-btn ${i === current ? 'active' : ''}" onclick="goPage(${i})">${i}</button>`;
+        } else if (Math.abs(i - current) === 3) {
+          html += `<span class="page-btn" style="pointer-events:none">…</span>`;
+        }
+      }
+      html += `<button class="page-btn" onclick="goPage(${current + 1})" ${current >= total ? 'disabled' : ''}>›</button>`;
+      return html;
+    }
 
-function toggleDropdown(event, userId) {
-  event.stopPropagation();
-  const dropdown = document.getElementById(`dropdown-${userId}`);
-  if (activeDropdown && activeDropdown !== dropdown) {
-    activeDropdown.classList.remove('show');
-  }
-  dropdown.classList.toggle('show');
-  activeDropdown = dropdown.classList.contains('show') ? dropdown : null;
-}
+    function goPage(p) {
+      currentPage = p;
+      loadView(currentView);
+    }
 
-function toggleFilterMenu(event, menuId) {
-  event.stopPropagation();
-  const menu = document.getElementById(menuId);
-  if (activeFilterMenu && activeFilterMenu !== menu) {
-    activeFilterMenu.classList.remove('show');
-  }
-  menu.classList.toggle('show');
-  activeFilterMenu = menu.classList.contains('show') ? menu : null;
-}
+    // ── Action Dropdown & Confirm Modals ────────────────
+    let activeDropdown = null;
+    let activeFilterMenu = null;
+    let pendingActionCallback = null;
 
-function selectTheme(val) {
-  filterTheme = val;
-  if (activeFilterMenu) activeFilterMenu.classList.remove('show');
-  currentPage = 1;
-  renderReadings(document.getElementById('searchInput').value);
-}
+    function toggleDropdown(event, userId) {
+      event.stopPropagation();
+      const dropdown = document.getElementById(`dropdown-${userId}`);
+      if (activeDropdown && activeDropdown !== dropdown) {
+        activeDropdown.classList.remove('show');
+      }
+      dropdown.classList.toggle('show');
+      activeDropdown = dropdown.classList.contains('show') ? dropdown : null;
+    }
 
-function selectDatePreset(preset) {
-  const today = new Date();
-  const todayStr = today.toISOString().split('T')[0];
-  
-  if (preset === 'today') {
-    filterStart = todayStr; filterEnd = todayStr;
-  } else if (preset === 'yesterday') {
-    const yest = new Date(today.getTime() - 86400000).toISOString().split('T')[0];
-    filterStart = yest; filterEnd = yest;
-  } else if (preset === '7days') {
-    filterStart = new Date(today.getTime() - 7 * 86400000).toISOString().split('T')[0];
-    filterEnd = todayStr;
-  } else if (preset === '30days') {
-    filterStart = new Date(today.getTime() - 30 * 86400000).toISOString().split('T')[0];
-    filterEnd = todayStr;
-  } else if (preset === 'all') {
-    filterStart = ''; filterEnd = '';
-  }
-  
-  if (activeFilterMenu) activeFilterMenu.classList.remove('show');
-  currentPage = 1;
-  renderReadings(document.getElementById('searchInput').value);
-}
+    function toggleFilterMenu(event, menuId) {
+      event.stopPropagation();
+      const menu = document.getElementById(menuId);
+      if (activeFilterMenu && activeFilterMenu !== menu) {
+        activeFilterMenu.classList.remove('show');
+      }
+      menu.classList.toggle('show');
+      activeFilterMenu = menu.classList.contains('show') ? menu : null;
+    }
 
-function updateCustomDate() {
-  currentPage = 1;
-  renderReadings(document.getElementById('searchInput').value);
-}
+    function selectTheme(val) {
+      filterTheme = val;
+      if (activeFilterMenu) activeFilterMenu.classList.remove('show');
+      currentPage = 1;
+      renderReadings(document.getElementById('searchInput').value);
+    }
 
-document.addEventListener('click', () => {
-  if (activeDropdown) {
-    activeDropdown.classList.remove('show');
-    activeDropdown = null;
-  }
-  if (activeFilterMenu) {
-    activeFilterMenu.classList.remove('show');
-    activeFilterMenu = null;
-  }
-});
+    function selectDatePreset(preset) {
+      const today = new Date();
+      const todayStr = today.toISOString().split('T')[0];
 
-function confirmAction(title, desc, confirmBtnText, btnClass, callback) {
-  document.getElementById('modalTitle').textContent = title;
-  document.getElementById('modalDesc').textContent = desc;
-  const btn = document.getElementById('modalConfirmBtn');
-  btn.textContent = confirmBtnText;
-  btn.className = `btn-modal ${btnClass}`;
-  pendingActionCallback = callback;
-  document.getElementById('modalOverlay').classList.add('open');
-}
+      if (preset === 'today') {
+        filterStart = todayStr; filterEnd = todayStr;
+      } else if (preset === 'yesterday') {
+        const yest = new Date(today.getTime() - 86400000).toISOString().split('T')[0];
+        filterStart = yest; filterEnd = yest;
+      } else if (preset === '7days') {
+        filterStart = new Date(today.getTime() - 7 * 86400000).toISOString().split('T')[0];
+        filterEnd = todayStr;
+      } else if (preset === '30days') {
+        filterStart = new Date(today.getTime() - 30 * 86400000).toISOString().split('T')[0];
+        filterEnd = todayStr;
+      } else if (preset === 'all') {
+        filterStart = ''; filterEnd = '';
+      }
 
-function closeModal() {
-  document.getElementById('modalOverlay').classList.remove('open');
-  pendingActionCallback = null;
-}
-document.getElementById('modalConfirmBtn').addEventListener('click', () => {
-  if (pendingActionCallback) pendingActionCallback();
-  closeModal();
-});
+      if (activeFilterMenu) activeFilterMenu.classList.remove('show');
+      currentPage = 1;
+      renderReadings(document.getElementById('searchInput').value);
+    }
 
-</script>
+    function updateCustomDate() {
+      currentPage = 1;
+      renderReadings(document.getElementById('searchInput').value);
+    }
 
-<!-- Generic Modals overlay -->
-<div id="modalOverlay" class="detail-overlay" onclick="closeModal()">
-  <div class="modal-box" onclick="event.stopPropagation()">
-    <h2 class="modal-title" id="modalTitle">Xác nhận</h2>
-    <p class="modal-desc" id="modalDesc">Bạn có chắc chắn muốn thực hiện hành động này?</p>
-    <div class="modal-actions">
-      <button class="btn-modal" onclick="closeModal()">Hủy</button>
-      <button class="btn-modal primary" id="modalConfirmBtn">Đồng ý</button>
+    document.addEventListener('click', () => {
+      if (activeDropdown) {
+        activeDropdown.classList.remove('show');
+        activeDropdown = null;
+      }
+      if (activeFilterMenu) {
+        activeFilterMenu.classList.remove('show');
+        activeFilterMenu = null;
+      }
+    });
+
+    function confirmAction(title, desc, confirmBtnText, btnClass, callback) {
+      document.getElementById('modalTitle').textContent = title;
+      document.getElementById('modalDesc').textContent = desc;
+      const btn = document.getElementById('modalConfirmBtn');
+      btn.textContent = confirmBtnText;
+      btn.className = `btn-modal ${btnClass}`;
+      pendingActionCallback = callback;
+      document.getElementById('modalOverlay').classList.add('open');
+    }
+
+    function closeModal() {
+      document.getElementById('modalOverlay').classList.remove('open');
+      pendingActionCallback = null;
+    }
+    document.getElementById('modalConfirmBtn').addEventListener('click', () => {
+      if (pendingActionCallback) pendingActionCallback();
+      closeModal();
+    });
+
+  </script>
+
+  <!-- Generic Modals overlay -->
+  <div id="modalOverlay" class="detail-overlay" onclick="closeModal()">
+    <div class="modal-box" onclick="event.stopPropagation()">
+      <h2 class="modal-title" id="modalTitle">Xác nhận</h2>
+      <p class="modal-desc" id="modalDesc">Bạn có chắc chắn muốn thực hiện hành động này?</p>
+      <div class="modal-actions">
+        <button class="btn-modal" onclick="closeModal()">Hủy</button>
+        <button class="btn-modal primary" id="modalConfirmBtn">Đồng ý</button>
+      </div>
     </div>
   </div>
-</div>
 
-<!-- Background Effects -->
-<script src="../js/data.js?v=2"></script>
-<script src="../js/particles.js?v=2"></script>
-<script src="../js/lightning.js?v=2"></script>
-<script src="../js/float-cards.js?v=2"></script>
+  <!-- Background Effects -->
+  <script src="../js/data.js?v=2"></script>
+  <script src="../js/particles.js?v=2"></script>
+  <script src="../js/lightning.js?v=2"></script>
+  <script src="../js/float-cards.js?v=2"></script>
 
 </body>
+
 </html>

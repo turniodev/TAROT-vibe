@@ -45,7 +45,7 @@ window.TarotHelper = (function () {
     long_distance: 'Yêu Xa', jealousy: 'Người Thứ Ba / Ghen Tuông', self_love: 'Yêu Bản Thân',
     finding_love: 'Tìm Kiếm Tình Yêu', compatibility: 'Độ Tương Hợp',
     toxic_relationship: 'Q/hệ Độc Hại', soulmate: 'Tri Kỷ / Soulmate', reconciliation: 'Gương Vỡ Lại Lành', secret_admirer: 'Người Thầm Thương',
-    friendship: 'Tình Bạn / Tri Kỷ', pregnancy: 'Con Cái / Thai Kỳ', gossip: 'Thị Phi / Đàm Tiếu',
+    friendship: 'Tình Bạn / Tri Kỷ', pregnancy: 'Con Cái / Thai Kỳ', gossip: 'Thị Phi / Đàm Tiếu', family: 'Gia Đình',
 
     career: 'Sự Nghiệp', job_search: 'Xin Việc Làm', promotion: 'Thăng Tiến', business: 'Kinh Doanh / Khởi Nghiệp',
     colleague: 'Quan Hệ Đồng Nghiệp', career_change: 'Chuyển Nghề', freelance: 'Freelance / Tự Do',
@@ -55,7 +55,7 @@ window.TarotHelper = (function () {
     finance: 'Tài Chính', investment: 'Đầu Tư', debt: 'Nợ Nần', savings: 'Tiết Kiệm', luck_money: 'Lộc Tài',
     real_estate: 'Bất Động Sản', financial_loss: 'Thua Lỗ', sudden_wealth: 'Vận May Bất Ngờ',
 
-    health: 'Sức Khỏe', mental: 'Tâm Thần', energy: 'Năng Lượng', family: 'Gia Đình', diet: 'Chăm Sóc Bản Thân', pet: 'Thú Cưng',
+    health: 'Sức Khỏe', mental: 'Tâm Thần', energy: 'Năng Lượng', diet: 'Chăm Sóc Bản Thân', pet: 'Thú Cưng',
     healing: 'Chữa Lành Tâm Hồn', stress: 'Căng Thẳng', trauma: 'Tổn Thương Quá Khứ',
 
     study: 'Học Tập', study_abroad: 'Du Học', self: 'Bản Thân', purpose: 'Mục Đích Sống', shadow_self: 'Bóng Tối Nội Tâm',
