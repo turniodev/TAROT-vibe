@@ -251,7 +251,7 @@ window.AnalysisModule = (function () {
           const next = document.getElementById(`cq${index + 2}`);
 
           if (current) current.style.opacity = '0';
-          
+
           const progressPercent = ((index + 1) / numQuestions) * 100;
           const progressBar = document.getElementById('clarifyProgressBar');
           if (progressBar) progressBar.style.width = `${progressPercent}%`;
@@ -418,8 +418,16 @@ window.AnalysisModule = (function () {
 
   // Bind Share button
   document.getElementById('btnShareReading')?.addEventListener('click', async function () {
+    const btnShare = this;
     if (!window.AuthModule?.isLoggedIn()) {
-      window.showMysticalAlert("Yêu Cầu Đăng Nhập", "Vui lòng đăng nhập tài khoản để lưu trữ và chia sẻ trải bài công khai nhé!", "ĐÃ HIỂU");
+      window.showMysticalAlert("Yêu Cầu Đăng Nhập", "Vui lòng đăng nhập tài khoản để lưu trữ và chia sẻ trải bài công khai nhé!", "Đăng nhập bằng Google", () => {
+        window.AuthModule?.requireLogin((user) => {
+          if (user) {
+            // Tự động nhấn lại nút Share sau khi login thành công
+            setTimeout(() => { btnShare.click(); }, 300);
+          }
+        });
+      });
       return;
     }
 
@@ -428,18 +436,18 @@ window.AnalysisModule = (function () {
       window.showMysticalAlert("Chờ Hồi Đáp", "Đang chờ vũ trụ sinh ra liên kết vĩnh cửu, bạn vui lòng chờ chốc lát nhé!", "THỬ LẠI");
       return;
     }
-    
+
     try {
       const origText = this.innerHTML;
       this.innerHTML = '<div class="ai-pulse" style="width:16px;height:16px;display:inline-block;margin-right:8px;vertical-align:middle;"></div> Đang tạo link...';
-      
+
       const res = await fetch(`${API_BASE}/make_public.php?id=${id}`, {
         headers: { 'Authorization': `Bearer ${window.AuthModule.getToken()}` }
       });
       if (!res.ok) throw new Error('Không thể cấp quyền chia sẻ (Cần đăng nhập chính chủ)');
       const data = await res.json();
       const shareIdV2 = data.share_id || id;
-      
+
       const shareUrl = window.location.origin + window.location.pathname + '?share=' + shareIdV2;
       if (navigator.clipboard) {
         await navigator.clipboard.writeText(shareUrl);
