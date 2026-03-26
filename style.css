@@ -614,7 +614,7 @@ body {
 .focus-screen {
   position: fixed;
   inset: 0;
-  background: rgba(15, 0, 35, 0.75);
+  background: rgba(15, 0, 35, 0.9);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   z-index: 10000;
@@ -7635,7 +7635,7 @@ body {
   color: rgba(255, 255, 255, 0.9);
   font-size: 1.05rem;
   line-height: 1.6;
-  text-align: justify;
+  text-align: center;
 }
 
 /* Shimmer during fetch */

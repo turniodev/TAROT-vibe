@@ -81,7 +81,8 @@
         nameEl.innerText = saved.card.name;
         const statusEl = document.getElementById('dailyCardStatus');
         if (statusEl) {
-          statusEl.innerHTML = `<span class="mm-orient ${saved.card.isReversed ? 'rev' : 'up'}">${saved.card.isReversed ? 'Ngược' : 'Xuôi'}</span>`;
+          statusEl.innerHTML = `<span class="mm-orient ${saved.card.isReversed ? 'rev' : 'up'}">${saved.card.isReversed ? 'Ngược' : 'Xuôi'}</span>
+          <div style="font-size: 0.85rem; color: rgba(201, 168, 76, 0.8); margin-top: 12px; font-family: 'Philosopher', sans-serif; letter-spacing: 0.5px;">✦ Chạm vào lá bài để xem ý nghĩa ✦</div>`;
           statusEl.style.textAlign = 'center';
           statusEl.style.marginTop = '4px';
           statusEl.style.marginBottom = '12px';
@@ -153,7 +154,8 @@
         nameEl.innerText = drawnCard.name;
         const statusEl = document.getElementById('dailyCardStatus');
         if (statusEl) {
-          statusEl.innerHTML = `<span class="mm-orient ${isReversed ? 'rev' : 'up'}">${isReversed ? 'Ngược' : 'Xuôi'}</span>`;
+          statusEl.innerHTML = `<span class="mm-orient ${isReversed ? 'rev' : 'up'}">${isReversed ? 'Ngược' : 'Xuôi'}</span>
+          <div style="font-size: 0.85rem; color: rgba(201, 168, 76, 0.8); margin-top: 12px; font-family: 'Philosopher', sans-serif; letter-spacing: 0.5px;">✦ Chạm vào lá bài để xem ý nghĩa ✦</div>`;
           statusEl.style.textAlign = 'center';
           statusEl.style.marginTop = '4px';
           statusEl.style.marginBottom = '12px';
