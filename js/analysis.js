@@ -370,15 +370,33 @@ window.AnalysisModule = (function () {
       contentEl.style.display = 'none';
       loadEl.style.display = '';
 
-      const isNetworkError = err.message.includes('400') || err.message.includes('502') || err.message.includes('500');
-      const errorMsg = isNetworkError
-        ? "Vũ trụ đang nhiễu loạn hoặc thông điệp quá mãnh liệt. Xin hãy thử lại."
-        : `Lỗi kết nối vũ trụ: ${err.message}`;
+      const errorMsg = "Năng lượng vũ trụ đang cạn dần, vui lòng thử lại sau vài giây.";
 
       loadEl.innerHTML = `
-        <div class="ai-error-box" style="text-align: center;">
-          <p class="ai-error" style="margin-bottom:12px; color: var(--c-gold);">⚠ ${errorMsg}</p>
-          <button class="btn-primary" id="btnRetryAI" style="padding:8px 24px; font-size: 0.9rem; margin: 0 auto; display: inline-flex;">Kết nối lại</button>
+        <div class="ai-error-box" style="text-align: center; padding: 20px; background: rgba(20,9,30,0.6); border: 1px solid rgba(201,168,76,0.3); border-radius: 12px; margin-top: 20px;">
+          <div style="font-size: 24px; margin-bottom: 8px; color: var(--c-gold);">✧</div>
+          <p class="ai-error" style="margin-bottom:16px; color: var(--c-gold); font-family: 'Philosopher', sans-serif; font-size: 1.1rem; line-height: 1.5;">${errorMsg}</p>
+          <button id="btnRetryAI" style="
+            background: linear-gradient(135deg, rgba(201,168,76,0.1), rgba(155,48,255,0.2));
+            border: 1px solid rgba(201,168,76,0.6);
+            color: var(--c-gold);
+            padding: 10px 24px;
+            border-radius: 50px;
+            font-family: 'Cinzel', serif;
+            font-size: 0.9rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 0 15px rgba(155,48,255,0.2);
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            letter-spacing: 1px;
+          " onmouseover="this.style.background='rgba(201,168,76,0.2)'; this.style.boxShadow='0 0 20px rgba(201,168,76,0.4)'" onmouseout="this.style.background='linear-gradient(135deg, rgba(201,168,76,0.1), rgba(155,48,255,0.2))'; this.style.boxShadow='0 0 15px rgba(155,48,255,0.2)'">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21.5 2v6h-6M2.13 15.57a10 10 0 1 0 3.43-11.44l-4.43 4.43"/>
+            </svg>
+            KẾT NỐI LẠI
+          </button>
         </div>
       `;
       document.getElementById('btnRetryAI').addEventListener('click', () => {
@@ -386,7 +404,7 @@ window.AnalysisModule = (function () {
           <div class="ai-pulse"></div>
           <span>Đang kết nối lại với vũ trụ…</span>
         `;
-        fetchGeminiAnalysis(cards, session, labels, themeLabel);
+        fetchGeminiAnalysis(payload, cards, session, labels, themeLabel);
       });
     }
   }

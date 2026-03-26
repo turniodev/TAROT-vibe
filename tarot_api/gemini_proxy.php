@@ -312,6 +312,21 @@ function save_reading(array $d, string $analysis, string $email): int
     $user_id = $pdo->query('SELECT id FROM users WHERE email = ' . $pdo->quote($email) . ' LIMIT 1')
         ->fetchColumn();
 
+    // MERGE ANONYMOUS HISTORY
+    if (!str_ends_with($email, '@tarot.local')) {
+        $anon_name = strtolower(trim(preg_replace('/\s+/', '_', $name)));
+        $anon_dob = preg_replace('/[^0-9\-]/', '', $dob ?? '0000-00-00');
+        $old_email = 'anon_' . $anon_name . '_' . $anon_dob . '@tarot.local';
+        
+        $old_user_id = $pdo->query('SELECT id FROM users WHERE email = ' . $pdo->quote($old_email) . ' LIMIT 1')->fetchColumn();
+        if ($old_user_id && $old_user_id != $user_id) {
+            // Chuyển toàn bộ lịch sử sang tài khoản mới
+            $pdo->prepare('UPDATE readings SET user_id = ? WHERE user_id = ?')->execute([$user_id, $old_user_id]);
+            // Xóa tài khoản ảo rác để dọn dẹp DB
+            $pdo->prepare('DELETE FROM users WHERE id = ?')->execute([$old_user_id]);
+        }
+    }
+
     // If reading_id is provided, check if it belongs to this user. If yes, just update the analysis and return.
     if (!empty($d['reading_id'])) {
         $reading_id = (int) $d['reading_id'];
