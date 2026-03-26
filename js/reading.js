@@ -124,9 +124,9 @@ window.ReadingModule = (function () {
     glareWrap.appendChild(glareInner);
 
     inner.appendChild(back);
-    inner.appendChild(glareWrap);
     
     tiltWrap.appendChild(inner);
+    tiltWrap.appendChild(glareWrap); // OUTSIDE card-inner to avoid preserve-3d clipping
     wrap.appendChild(tiltWrap);
     
     if (window.VanillaTilt) {
@@ -137,6 +137,8 @@ window.ReadingModule = (function () {
         "max-glare": 0.25,
         "glare-prerender": true
       });
+      // VanillaTilt injects overflow:hidden — force visible so 3D transform isn't clipped
+      tiltWrap.style.overflow = 'visible';
     }
     
     return wrap;
@@ -332,9 +334,9 @@ window.ReadingModule = (function () {
 
     inner.appendChild(back);
     inner.appendChild(face);
-    inner.appendChild(glareWrap);
     
     tiltWrap.appendChild(inner);
+    tiltWrap.appendChild(glareWrap); // OUTSIDE card-inner to avoid preserve-3d clipping
     wrap.appendChild(tiltWrap);
     
     if (window.VanillaTilt) {
@@ -345,6 +347,8 @@ window.ReadingModule = (function () {
         "max-glare": 0.35,
         "glare-prerender": true
       });
+      // VanillaTilt injects overflow:hidden — force visible so 3D transform isn't clipped
+      tiltWrap.style.overflow = 'visible';
     }
 
     wrap.addEventListener('click', (e) => {
