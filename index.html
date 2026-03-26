@@ -556,9 +556,41 @@
   <div id="historyOverlay" class="history-overlay"></div>
   <div id="historyPanel" class="history-panel">
     <div class="history-panel__header">
-      <div>
-        <div class="history-panel__title">Lịch Sử Trải Bài</div>
-        <div class="history-panel__sub">Lưu lại tín hiệu vũ trụ</div>
+      <div style="flex: 1;">
+        <div class="history-panel__title">Hồi tưởng thông điệp</div>
+        <div class="history-panel__sub">Nhắc lại tín hiệu vũ trụ
+          <div style="margin-top: 8px; position: relative;">
+            <button id="btnHistDateFilter" class="hist-date-btn">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                <line x1="16" y1="2" x2="16" y2="6"></line>
+                <line x1="8" y1="2" x2="8" y2="6"></line>
+                <line x1="3" y1="10" x2="21" y2="10"></line>
+              </svg>
+              Hồi tưởng
+            </button>
+            <span id="btnHistoryClearAll"
+              style="float: right; font-size: 0.85rem; color: #ff6b6b; cursor: pointer; border-bottom: 1px dotted rgba(255, 107, 107, 0.6); margin-top: 5px; transition: opacity 0.3s;"
+              onmouseover="this.style.opacity=0.7" onmouseout="this.style.opacity=1">Thanh tẩy tất cả</span>
+
+            <!-- Date Modal -->
+            <div id="histDateModal" class="hist-date-modal">
+              <div class="hist-date-field">
+                <label for="histDateStart">Từ ngày</label>
+                <input type="date" id="histDateStart" />
+              </div>
+              <div class="hist-date-field">
+                <label for="histDateEnd">Đến ngày</label>
+                <input type="date" id="histDateEnd" />
+              </div>
+              <div class="hist-date-actions">
+                <button id="btnHistDateClear" class="btn-date-clear">Bỏ Lọc</button>
+                <button id="btnHistDateApply" class="btn-date-apply">Áp Dụng</button>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <button id="btnHistoryClose" class="history-close-btn">&times;</button>
     </div>
