@@ -37,7 +37,7 @@ window.AnalysisModule = (function () {
     aiBlock.className = 'overall-box ai-analysis-box';
     aiBlock.innerHTML = `
       <div class="overall-title">
-        <span class="ai-label">✦ Luận Giải Tổng Hợp</span>
+        <span class="ai-label">✦ Luận Giải Cuối Cùng</span>
       </div>
       <div class="ai-loading" id="aiLoading">
         <div class="ai-pulse"></div>
@@ -272,12 +272,12 @@ window.AnalysisModule = (function () {
           btn.addEventListener('click', () => {
             // Prevent multi-click
             if (answers[i] !== null) return;
-            
+
             if (btn.dataset.ans === 'skip') {
               if (replacementQuestions.length > 0) {
                 const newQ = replacementQuestions.pop();
                 questions[i] = newQ;
-                
+
                 const pText = item.querySelector('.cq-qtext-inner');
                 pText.style.opacity = '0';
                 setTimeout(() => {
