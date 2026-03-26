@@ -28,6 +28,7 @@
 require_once __DIR__ . '/config.php';
 require_once __DIR__ . '/db_connect.php';
 require_once __DIR__ . '/helpers.php';
+require_once __DIR__ . '/gemini_service.php';
 
 cors_headers();
 
@@ -79,7 +80,6 @@ $user_data = $stmt->fetch();
 // Gói trả phí => theo plan
 $is_anonymous = str_ends_with($user_email, '@tarot.local');
 $max_draws = 999999; // Tạm thời mở không giới hạn theo yêu cầu
-// $max_draws = $is_anonymous ? 10 : 10;
 
 if ($user_data && $user_data['plan_expiry_date'] && strtotime($user_data['plan_expiry_date']) > time()) {
     if ($user_data['plan_type'] === 'guide')
@@ -102,10 +102,10 @@ if ($draws_today >= $max_draws) {
 }
 
 // ── 1. Build Gemini prompt ─────────────────────────────────────
-$prompt = build_prompt($body);
+$prompt = build_clarify_prompt($body);
 
 // ── 2. Call Gemini ─────────────────────────────────────────────
-$response_text = call_gemini($prompt);
+$response_text = call_gemini_clarify($prompt);
 
 // Lọc lấy JSON từ response:
 $json_str = '';
@@ -127,122 +127,4 @@ if (!$questions || !is_array($questions)) {
 
 // ── 4. Respond ─────────────────────────────────────────────────
 json_ok(['questions' => array_slice($questions, 0, 3)]);
-
-
-
-/* ── Helpers ──────────────────────────────────────────────────── */
-
-function build_prompt(array $d): string
-{
-    $name = $d['name'] ?? 'Người dùng';
-    $dob = $d['dob'] ?? '';
-    $gender = $d['gender'] ?? '';
-    $theme = $d['theme_label'] ?? $d['theme'] ?? 'Tổng quát';
-    $question = trim($d['question'] ?? '');
-    if (!$question) {
-        $question = ($theme === 'Tổng quát' || $theme === 'Thông Điệp Chung')
-            ? 'Xin thông điệp chung từ vũ trụ.'
-            : "Xin thông điệp chung về chủ đề {$theme}.";
-    }
-    $spread = (int) ($d['spread'] ?? count($d['cards']));
-    $cards = $d['cards'];
-
-    $dob_str = $dob ? "Ngày sinh: **{$dob}**" : '';
-    $gender_str = $gender ? "- **Giới tính:** {$gender}" : '';
-
-    // Build card details
-    $card_lines = '';
-    foreach ($cards as $i => $c) {
-        $orient = $c['is_reversed'] ? 'Ngược' : 'Xuôi';
-        $kws = implode(', ', $c['keywords'] ?? []);
-
-        $aspect_str = !empty($c['aspect_meaning']) ? "- **Phân tích chuyên sâu ({$theme}):** {$c['aspect_meaning']}\n" : "";
-
-        $astro_str = [];
-        if (!empty($c['planet']))
-            $astro_str[] = "Hành tinh: " . $c['planet'];
-        if (!empty($c['zodiac']))
-            $astro_str[] = "Cung: " . $c['zodiac'];
-        if (!empty($c['element']))
-            $astro_str[] = "Nguyên tố: " . $c['element'];
-        if (!empty($c['numerology']))
-            $astro_str[] = "Thần số: " . $c['numerology'];
-        $astro_line = !empty($astro_str) ? "- **Chiêm tinh & Năng lượng:** " . implode(' | ', $astro_str) . "\n" : "";
-
-        $card_lines .= <<<CARD
-
-### Vị trí {$i}: {$c['position_label']}
-- **Lá bài:** {$c['name']} ({$c['name_vi']}) — {$c['number']}
-- **Chiều:** {$orient}
-{$astro_line}{$aspect_str}- **Ý nghĩa gốc:** {$c['meaning']}
-- **Từ khóa:** {$kws}
-
-CARD;
-    }
-
-    return <<<PROMPT
-Bạn là một chuyên gia Tarot. Để luận giải chính xác và cá nhân hóa nhất, bạn cần hỏi thêm người xem 3 câu hỏi Đúng/Sai (Yes/No) NGẮN GỌN để làm rõ hoàn cảnh của họ.
-TUYỆT ĐỐI KHÔNG chào hỏi. KHÔNG giải thích. Bắt buộc phải trả về DUY NHẤT một mảng JSON chứa 3 câu hỏi bằng tiếng Việt, dạng mảng chuỗi (["Câu 1?", "Câu 2?", "Câu 3?"]).
-
-## Thông tin người trải bài
-- **Họ tên:** {$name}
-- {$dob_str}
-{$gender_str}
-- **Chủ đề:** {$theme}
-- **Câu hỏi của họ:** {$question}
-
-YÊU CẦU: Dựa vào sự kết hợp của dàn bài sau đây, hãy suy đoán 3 ẩn khúc lớn nhất trong lòng {$name} và đặt 3 câu hỏi ĐÚNG/SAI sắc bén để xác nhận.
-
-## Các lá bài đã rút
-{$card_lines}
-
-ĐẦU RA BẮT BUỘC LÀ ĐỊNH DẠNG JSON MẢNG GỒM 3 CHUỖI. VÍ DỤ:
-[
-  "Gần đây bạn có đưa ra quyết định từ bỏ một mối quan hệ lâu năm phải không?",
-  "Có phải bạn đang gặp rào cản tài chính làm chậm trễ kế hoạch hiện tại?",
-  "Bạn có đang nghi ngờ sự trung thực của một người thân thiết không?"
-]
-Vì câu trả lời chỉ là Yes/No, câu hỏi phải bắt đầu bằng "Có phải", "Bạn có đang", v.v.
-Chỉ trả về JSON.
-PROMPT;
-}
-
-function call_gemini(string $prompt): string
-{
-    $payload = json_encode([
-        'contents' => [
-            [
-                'parts' => [['text' => $prompt]]
-            ]
-        ],
-        'generationConfig' => [
-            'temperature' => 1.5,
-            'maxOutputTokens' => 12048,
-            'topP' => 0.95,
-        ]
-    ], JSON_UNESCAPED_UNICODE);
-
-    $ch = curl_init(GEMINI_ENDPOINT);
-    curl_setopt_array($ch, [
-        CURLOPT_RETURNTRANSFER => true,
-        CURLOPT_POST => true,
-        CURLOPT_POSTFIELDS => $payload,
-        CURLOPT_HTTPHEADER => ['Content-Type: application/json'],
-        CURLOPT_TIMEOUT => 60,
-    ]);
-
-    $resp = curl_exec($ch);
-    $err = curl_error($ch);
-    curl_close($ch);
-
-    if ($err)
-        json_error('Gemini connection error: ' . $err, 502);
-
-    $data = json_decode($resp, true);
-    $text = $data['candidates'][0]['content']['parts'][0]['text'] ?? null;
-    if (!$text)
-        json_error('Gemini returned empty response: ' . $resp, 502);
-
-    return $text;
-}
 
