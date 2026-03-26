@@ -250,7 +250,11 @@
                 indexAxis: 'y',
                 animation: {
                   duration: 2000,
-                  easing: 'easeOutQuart'
+                  delay: 200,   // Thêm nhẹ delay để chắc chắn modal đã bung hết cỡ
+                  easing: 'easeOutCubic',
+                  x: {
+                    from: 0
+                  }
                 },
                 responsive: true,
                 maintainAspectRatio: false,
@@ -265,7 +269,7 @@
                     padding: 10,
                     displayColors: false,
                     callbacks: {
-                       label: (ctx) => `\${ctx.raw}%`
+                       label: (ctx) => `${ctx.raw}%`
                     }
                   }
                 },
