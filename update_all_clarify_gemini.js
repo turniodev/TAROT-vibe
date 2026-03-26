@@ -2,7 +2,7 @@ const fs = require('fs');
 const https = require('https');
 
 const DATA_PATH = 'e:\\TAROT\\js\\clarify_data.js';
-const API_KEY = process.env.GEMINI_API_KEY || 'AIzaSyAdsyNguqHmReQ8cX_upLYRAkVDN-wCA58';
+const API_KEY = process.env.GEMINI_API_KEY;
 
 // Từ điển ánh xạ Key -> Nghĩa Tiếng Việt để Prompt AI chính xác
 const LABELS = {
@@ -142,11 +142,11 @@ async function callGemini(key, label) {
 async function start() {
   console.log('Đọc file clarify_data.js...');
   let rawContent = fs.readFileSync(DATA_PATH, 'utf-8');
-  
+
   // Loại bỏ "window.ClarifyData = " để có thể parse JSON
   let jsonStr = rawContent.replace('window.ClarifyData = ', '').trim();
   if (jsonStr.endsWith(';')) jsonStr = jsonStr.slice(0, -1);
-  
+
   let db;
   try {
     // Ép kiểu bằng json parse nếu cấu trúc ok (nếu có key ko quote thì phải parse cẩn thận)
@@ -200,7 +200,7 @@ async function start() {
     console.log("Đã cập nhật file clarify_data.js an toàn. Đợi 3s...");
     await new Promise(r => setTimeout(r, 3000));
   }
-  
+
   console.log("\\nHOÀN THÀNH TẠO DỮ LIỆU CLARIFY 1000 CÂU HỎI TẬN TÂM CAN!");
 }
 

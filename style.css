@@ -6659,7 +6659,7 @@ body {
 .clarify-screen {
   position: fixed;
   inset: 0;
-  background: rgba(10, 0, 25, 0.75);
+  background: rgba(10, 0, 25, 0.9);
   /* Tối hơn một chút để tập trung */
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);

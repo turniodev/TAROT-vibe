@@ -2,7 +2,7 @@ const fs = require('fs');
 const https = require('https');
 
 const DATA_PATH = 'e:\\\\TAROT\\\\js\\\\data.js';
-const API_KEY = process.env.GEMINI_API_KEY || 'AIzaSyAdsyNguqHmReQ8cX_upLYRAkVDN-wCA58';
+const API_KEY = process.env.GEMINI_API_KEY;
 
 const NEW_ASPECTS = [
   'toxic_relationship', 'soulmate', 'reconciliation', 'secret_admirer',
