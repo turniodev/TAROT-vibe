@@ -202,14 +202,14 @@ window.AnalysisModule = (function () {
       let allQuestions = window.ClarifyData?.[session.theme];
       if (!allQuestions || allQuestions.length < numQuestions) {
         allQuestions = [
-          "Bạn có đang vô tình bỏ qua những tín hiệu từ trực giác của chính mình không?",
-          "Có phải một sự kiện trong quá khứ vẫn đang âm thầm cản trở bước tiến của bạn hiện tại?",
-          "Sâu thẳm bên trong, bạn đã tự biết câu trả lời cho vấn đề này rồi phải không?",
-          "Bạn có đang che giấu cảm xúc thật của mình với những người xung quanh không?",
-          "Có phải bạn đang lo sợ một sự thay đổi lớn sẽ làm đảo lộn cuộc sống hiện tại?",
-          "Bạn có cảm thấy mệt mỏi vì cứ phải cố gắng trong đơn độc không?",
-          "Có phải bạn đang đặt kỳ vọng quá cao và tự tạo áp lực cho bản thân?",
-          "Gần đây bạn có hay mơ thấy những điềm báo lạ không?"
+          "Gần đây bạn có hay thức giấc vào khoảng 1-3h sáng trằn trọc suy nghĩ về một vấn đề chưa được giải quyết?",
+          "Bạn có đang liên tục bào chữa cho một hành vi gây tổn thương lặp đi lặp lại của người khác trong tháng vừa qua?",
+          "Trong 3 ngày gần đây, bạn có cố tình trì hoãn một cuộc gọi/tin nhắn quan trọng vì sợ hãi phản ứng của đối phương?",
+          "Có phải bạn đang dành hơn 2 tiếng mỗi ngày lướt mạng xã hội vô thức chỉ để trốn tránh việc phải đưa ra quyết định?",
+          "Gần đây bạn có cảm thấy kiệt sức tức thời hoặc đau mỏi vai gáy mỗi khi nghĩ đến một người/một công việc cụ thể?",
+          "Bạn có đang che giấu tình trạng tài chính thực sự của mình với những người thân thiết nhất?",
+          "Trong tuần qua, bạn có chọn cách im lặng và bỏ đi thay vì ngồi lại giải quyết mâu thuẫn khi có xung đột?",
+          "Bạn có đang ngầm so sánh cuộc sống của mình với người khác trên mạng và cảm thấy bản thân kém cỏi mỗi ngày?"
         ];
       }
 
