@@ -289,14 +289,57 @@
           ${mainLabel}
         </button>
       </div>
+      <div class="sub-theme-search" style="padding: 0 16px 12px;">
+        <div style="position: relative;">
+          <input type="text" id="subThemeSearch" placeholder="Tìm kiếm nhanh chủ đề..." autocomplete="off" style="width: 100%; padding: 10px 16px 10px 38px; border-radius: 20px; border: 1px solid rgba(201,168,76,0.3); background: rgba(20,9,30,0.5); color: var(--c-gold); font-family: 'Philosopher', sans-serif; font-size: 0.95rem; outline: none; transition: all 0.3s; box-shadow: inset 0 2px 4px rgba(0,0,0,0.2);" onfocus="this.style.borderColor='rgba(201,168,76,0.8)'; this.style.boxShadow='0 0 10px rgba(201,168,76,0.2), inset 0 2px 4px rgba(0,0,0,0.2)';" onblur="this.style.borderColor='rgba(201,168,76,0.3)'; this.style.boxShadow='inset 0 2px 4px rgba(0,0,0,0.2)';"/>
+          <svg style="position: absolute; left: 12px; top: 11px; color: rgba(201,168,76,0.6);" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+        </div>
+      </div>
       <div class="sub-theme-list">
         ${subs.map(s => `
-          <button class="sub-theme-item" data-value="${s.key}" type="button">
+          <button class="sub-theme-item" data-value="${s.key}" data-search="${(s.label + ' ' + s.desc).toLowerCase()}" type="button">
             <span class="sti-label">${s.label}</span>
             <span class="sti-desc">${s._group ? s._group + ' · ' : ''}${s.desc}</span>
             <span class="sti-arrow"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg></span>
           </button>`).join('')}
       </div>`;
+
+    const searchInput = subEl.querySelector('#subThemeSearch');
+    if (searchInput) {
+      const removeTones = (str) => str.normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/đ/g, 'd').replace(/Đ/g, 'D');
+      searchInput.addEventListener('input', (e) => {
+        const val = e.target.value.toLowerCase().trim();
+        const valNoTones = removeTones(val);
+        const items = subEl.querySelectorAll('.sub-theme-item');
+        let hasMatch = false;
+
+        items.forEach(item => {
+          const text = item.dataset.search || '';
+          const match = text.includes(val) || removeTones(text).includes(valNoTones);
+          if (match) {
+            item.style.display = 'flex';
+            hasMatch = true;
+          } else {
+            item.style.display = 'none';
+          }
+        });
+
+        let emptyMsg = subEl.querySelector('.sub-theme-empty');
+        if (!hasMatch) {
+          if (!emptyMsg) {
+            emptyMsg = document.createElement('div');
+            emptyMsg.className = 'sub-theme-empty';
+            emptyMsg.style.cssText = "text-align: center; color: rgba(232, 224, 255, 0.5); padding: 20px 0; font-family: 'Philosopher', serif; font-size: 0.95rem; font-style: italic;";
+            emptyMsg.innerHTML = "Không tìm thấy chủ đề phù hợp ✧";
+            subEl.querySelector('.sub-theme-list').appendChild(emptyMsg);
+          } else {
+            emptyMsg.style.display = 'block';
+          }
+        } else if (emptyMsg) {
+          emptyMsg.style.display = 'none';
+        }
+      });
+    }
 
     subEl.querySelector('.sub-back-btn').addEventListener('click', () => {
       subEl.classList.add('hidden');
@@ -496,9 +539,20 @@
     if (prevBtn && prevBtn.closest('#formOverlay')) {
       const prev = parseInt(prevBtn.dataset.prev);
       window.FX?.ripple(prevBtn, e, 'rgba(155,48,255,0.3)');
+
+      const subPanel = document.getElementById('subThemePanel');
+      const gridPanel = document.getElementById('mainThemeGrid');
+
+      // Intercept back button if currently viewing sub-themes inside step 2
+      if (currentStep === 2 && subPanel && !subPanel.classList.contains('hidden')) {
+        subPanel.classList.add('hidden');
+        if (gridPanel) gridPanel.classList.remove('hidden');
+        return; // Do not go back to step 1
+      }
+
       if (prev === 1) {
-        document.getElementById('subThemePanel')?.classList.add('hidden');
-        document.getElementById('mainThemeGrid')?.classList.remove('hidden');
+        subPanel?.classList.add('hidden');
+        gridPanel?.classList.remove('hidden');
       }
       setTimeout(() => goToStep(prev, 'backward'), 60);
     }
