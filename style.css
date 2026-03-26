@@ -1035,7 +1035,8 @@ body {
 .form-panel {
   width: 100%;
   max-width: 780px;
-  background: linear-gradient(160deg, rgba(16, 0, 40, 0.98), rgba(8, 0, 22, 0.99));
+  background: linear-gradient(160deg, rgba(16, 0, 40, 0.75), rgba(8, 0, 22, 0.85));
+  backdrop-filter: blur(16px);
   border: 1px solid rgba(155, 48, 255, 0.35);
   border-radius: 28px;
   padding: 56px 56px 48px;
@@ -6684,8 +6685,8 @@ body {
   gap: 20px;
 }
 .cq-btn {
-  flex: 1;
-  max-width: 140px;
+  flex: 2;
+  max-width: 160px;
   padding: 12px 0;
   background: transparent;
   border: 1px solid rgba(201, 168, 76, 0.3);
@@ -6697,6 +6698,10 @@ body {
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
   position: relative;
   overflow: hidden;
+}
+.cq-skip {
+  flex: 1;
+  max-width: 100px;
 }
 .cq-btn:hover {
   background: rgba(201, 168, 76, 0.1);
