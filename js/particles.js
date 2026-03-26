@@ -28,18 +28,19 @@
 
   function createWisps() {
     wisps = [];
-    const count = Math.max(3, Math.floor(W / 350));
+    // Tăng số lượng wisp mây mờ
+    const count = Math.max(5, Math.floor(W / 200));
     for (let i = 0; i < count; i++) {
       wisps.push({
         x: Math.random() * W,
         y: Math.random() * H,
-        r: Math.random() * 300 + 200, 
-        vx: (Math.random() - 0.5) * 0.2,
-        vy: (Math.random() - 0.5) * 0.2,
-        hue: Math.random() > 0.5 ? 275 : 255, 
-        baseAlpha: Math.random() * 0.04 + 0.02,
+        r: Math.random() * 400 + 250, 
+        vx: (Math.random() - 0.5) * 0.3,
+        vy: (Math.random() - 0.5) * 0.3,
+        hue: Math.random() > 0.4 ? (Math.random() * 20 + 265) : (Math.random() * 40 + 30), // Deep Purple or Gold
+        baseAlpha: Math.random() * 0.05 + 0.03, // Tăng opacity nền
         phase: Math.random() * Math.PI * 2,
-        pulseSpeed: Math.random() * 0.01 + 0.005
+        pulseSpeed: Math.random() * 0.012 + 0.008
       });
     }
   }
@@ -97,30 +98,30 @@
     fireflies.push({
       x: Math.random() * W,
       y: H + 10,
-      vx: (Math.random() - 0.5) * 0.4,
-      vy: -Math.random() * 1.2 - 0.3,
-      size: Math.random() * 2.5 + 1.2,
+      vx: (Math.random() - 0.5) * 0.6,
+      vy: -Math.random() * 1.5 - 0.4, // Bay lượn nhanh hơn xíu
+      size: Math.random() * 3.5 + 1.5, // To hơn, sáng hơn
       life: 0,
-      maxLife: Math.random() * 300 + 200,
+      maxLife: Math.random() * 400 + 200, // Sống lâu hơn
       swayCenter: Math.random() * W,
       swayPhase: Math.random() * Math.PI * 2,
-      swaySpeed: Math.random() * 0.015 + 0.005,
-      swayAmp: Math.random() * 40 + 15,
-      color: Math.random() > 0.7 ? '201, 168, 76' : '155, 48, 255'
+      swaySpeed: Math.random() * 0.02 + 0.005,
+      swayAmp: Math.random() * 50 + 20,
+      color: Math.random() > 0.6 ? '220, 180, 90' : '180, 80, 255' // Rực rỡ hơn
     });
   }
 
   // ── MOUSE TRAIL EFFECT ────────────────────
   function spawnMouseParticle(mx, my) {
     particles.push({
-      x: mx + (Math.random() - 0.5) * 12,
-      y: my + (Math.random() - 0.5) * 12,
-      vx: (Math.random() - 0.5) * 1.2,
-      vy: Math.random() * -1.5 - 0.2, // Drift up slightly
-      life: 1,
-      decay: Math.random() * 0.025 + 0.015, // Fast decay for trail
-      r: Math.random() * 2.5 + 0.8,
-      hue: Math.random() > 0.5 ? (Math.random() * 30 + 260) : (Math.random() * 20 + 40) // Purple or Gold
+      x: mx + (Math.random() - 0.5) * 16,
+      y: my + (Math.random() - 0.5) * 16,
+      vx: (Math.random() - 0.5) * 1.5,
+      vy: Math.random() * -2.0 - 0.4, // Bay lên cao hơn
+      life: 1.2, // Tồn tại lâu hơn
+      decay: Math.random() * 0.015 + 0.01, // Lâu tàn hơn
+      r: Math.random() * 3.5 + 1.0, // To hơn
+      hue: Math.random() > 0.5 ? (Math.random() * 30 + 270) : (Math.random() * 30 + 40) // Bright Purple or Bright Gold
     });
   }
 
@@ -282,9 +283,10 @@
     t += 0.016;
     drawWisps(t);
     drawStars(t);
-    if (Math.random() < 0.15) spawnParticle();
-    if (Math.random() < 0.008) spawnShootingStar();
-    if (Math.random() < 0.02) spawnFirefly(); // ~1 per second
+    // Tăng cường mật độ các hạt
+    if (Math.random() < 0.25) spawnParticle();
+    if (Math.random() < 0.01) spawnShootingStar();
+    if (Math.random() < 0.05) spawnFirefly(); // Xuất hiện nhiều đom đóm hơn (~2.5/s)
     
     drawParticles();
     drawFireflies();
