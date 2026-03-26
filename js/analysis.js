@@ -216,6 +216,7 @@ window.AnalysisModule = (function () {
       // Shuffle and pick random questions
       const shuffled = [...allQuestions].sort(() => 0.5 - Math.random());
       let questions = shuffled.slice(0, numQuestions);
+      let replacementQuestions = shuffled.slice(numQuestions);
 
       // Simulate a small delay for mystical effect
       await new Promise(r => setTimeout(r, 1500));
@@ -230,10 +231,11 @@ window.AnalysisModule = (function () {
       for (let i = 0; i < numQuestions; i++) {
         html += `
           <div class="cq-item" id="cq${i + 1}" style="display: ${i === 0 ? 'block' : 'none'}; opacity: ${i === 0 ? '1' : '0'}; transition: opacity 0.3s ease;">
-            <p class="cq-text"><span style="opacity:0.6; font-size: 0.9em;">Câu ${i + 1}/${numQuestions}:</span><br/>${questions[i]}</p>
+            <p class="cq-text"><span style="opacity:0.6; font-size: 0.9em;">Câu ${i + 1}/${numQuestions}:</span><br/><span class="cq-qtext-inner" style="transition: opacity 0.3s ease;">${questions[i]}</span></p>
             <div class="cq-btns">
               <button class="cq-btn cq-yes" data-ans="yes">Có</button>
               <button class="cq-btn cq-no" data-ans="no">Không</button>
+              <button class="cq-btn cq-skip" data-ans="skip">Bỏ qua</button>
             </div>
           </div>
         `;
@@ -270,6 +272,24 @@ window.AnalysisModule = (function () {
           btn.addEventListener('click', () => {
             // Prevent multi-click
             if (answers[i] !== null) return;
+            
+            if (btn.dataset.ans === 'skip') {
+              if (replacementQuestions.length > 0) {
+                const newQ = replacementQuestions.pop();
+                questions[i] = newQ;
+                
+                const pText = item.querySelector('.cq-qtext-inner');
+                pText.style.opacity = '0';
+                setTimeout(() => {
+                  pText.innerText = newQ;
+                  pText.style.opacity = '1';
+                }, 300);
+              } else {
+                alert("Vũ trụ không còn câu hỏi nào khác để thay thế nha!");
+              }
+              return; // Do not proceed to next question
+            }
+
             item.querySelectorAll('.cq-btn').forEach(b => b.classList.remove('active'));
             btn.classList.add('active');
             answers[i] = { q: questions[i], a: btn.dataset.ans };
