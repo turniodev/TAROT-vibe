@@ -14,8 +14,15 @@
     href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400;600;700&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=EB+Garamond:ital,wght@0,400;0,500;1,400;1,500&display=swap"
     rel="stylesheet" />
   <link rel="stylesheet" href="style.css?v=3" />
-  <!-- Chart.js -->
-  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <!-- Preload critical local scripts -->
+  <link rel="preload" href="js/data.js?v=2" as="script" />
+  <link rel="preload" href="js/effects.js?v=2" as="script" />
+  <link rel="preload" href="js/helper.js?v=2" as="script" />
+  <link rel="preload" href="js/app.js?v=2" as="script" />
+  <link rel="preload" href="js/form.js?v=2" as="script" />
+  <link rel="preload" href="js/analysis.js?v=3" as="script" />
+  <!-- Chart.js: async vì chỉ dùng khi mở modal -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js" async></script>
   <!-- Google Identity Services -->
   <script src="https://accounts.google.com/gsi/client" async defer></script>
 </head>
@@ -808,26 +815,26 @@
     </div>
   </div>
 
-  <!-- Scripts -->
-  <script src="js/data.js?v=2"></script>
-  <script src="js/particles.js?v=2"></script>
-  <script src="js/lightning.js?v=2"></script>
-  <script src="js/float-cards.js?v=2"></script>
-  <script src="js/effects.js?v=2"></script>
-  <script src="js/dob-picker.js?v=2"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js"></script>
-  <script src="js/helper.js?v=2"></script>
-  <script src="js/auth.js?v=2"></script>
-  <script src="js/daily_limit.js?v=2"></script>
-  <script src="js/history.js?v=2"></script>
-  <script src="js/daily_messages.js?v=1"></script>
-  <script src="js/daily.js?v=5"></script>
-  <script src="js/form.js?v=2"></script>
-  <script src="js/reading.js?v=4"></script>
-  <script src="js/clarify_data.js?v=2"></script>
-  <script src="js/analysis.js?v=3"></script>
-  <script src="js/dictionary.js?v=3"></script>
-  <script src="js/app.js?v=2"></script>
+  <!-- Scripts: defer = tải song song, chạy sau khi HTML parse xong -->
+  <script src="js/data.js?v=2" defer></script>
+  <script src="js/particles.js?v=2" defer></script>
+  <script src="js/lightning.js?v=2" defer></script>
+  <script src="js/float-cards.js?v=2" defer></script>
+  <script src="js/effects.js?v=2" defer></script>
+  <script src="js/dob-picker.js?v=2" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js" async></script>
+  <script src="js/helper.js?v=2" defer></script>
+  <script src="js/auth.js?v=2" defer></script>
+  <script src="js/daily_limit.js?v=2" defer></script>
+  <script src="js/history.js?v=2" defer></script>
+  <script src="js/daily_messages.js?v=1" defer></script>
+  <script src="js/daily.js?v=5" defer></script>
+  <script src="js/form.js?v=2" defer></script>
+  <script src="js/reading.js?v=4" defer></script>
+  <script src="js/clarify_data.js?v=2" defer></script>
+  <script src="js/analysis.js?v=3" defer></script>
+  <script src="js/dictionary.js?v=3" defer></script>
+  <script src="js/app.js?v=2" defer></script>
 </body>
 
 </html>
