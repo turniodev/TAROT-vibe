@@ -234,7 +234,7 @@ window.AnalysisModule = (function () {
       for (let i = 0; i < numQuestions; i++) {
         html += `
           <div class="cq-item" id="cq${i + 1}" style="display: ${i === 0 ? 'block' : 'none'}; opacity: ${i === 0 ? '1' : '0'}; transition: opacity 0.3s ease;">
-            <p class="cq-text"><span style="opacity:0.6; font-size: 0.9em;">Câu ${i + 1}/${numQuestions}:</span><br/><span class="cq-qtext-inner" style="transition: opacity 0.3s ease;">${questions[i]}</span></p>
+            <p class="cq-text"><span class="cq-qtext-inner" style="transition: opacity 0.3s ease;">${questions[i]}</span></p>
             <div class="cq-btns">
               <button class="cq-btn cq-yes" data-ans="yes">Có</button>
               <button class="cq-btn cq-no" data-ans="no">Không</button>

@@ -34,77 +34,77 @@
   // Full label map – mirrors form.js SUB_THEMES
   const ASPECT_LABELS = {
     // Love
-    love:          { label: 'Tình Yêu Tổng Quát',       group: 'Tình Yêu' },
-    ex:            { label: 'Người Yêu Cũ',              group: 'Tình Yêu' },
-    current_love:  { label: 'Người Yêu Hiện Tại',        group: 'Tình Yêu' },
-    ambiguous:     { label: 'Mối Quan Hệ Mập Mờ',        group: 'Tình Yêu' },
-    crush:         { label: 'Crush / Thầm Thích',         group: 'Tình Yêu' },
-    future_love:   { label: 'Người Yêu Tương Lai',        group: 'Tình Yêu' },
-    someone:       { label: 'Người Ấy Nghĩ Gì Về Bạn',   group: 'Tình Yêu' },
-    marriage:      { label: 'Hôn Nhân',                   group: 'Tình Yêu' },
-    conflict:      { label: 'Giải Quyết Xung Đột',        group: 'Tình Yêu' },
-    breakup:       { label: 'Chia Tay & Hàn Gắn',         group: 'Tình Yêu' },
-    long_distance: { label: 'Yêu Xa',                     group: 'Tình Yêu' },
-    jealousy:      { label: 'Người Thứ Ba / Ghen Tuông',  group: 'Tình Yêu' },
-    self_love:     { label: 'Yêu Bản Thân',               group: 'Tình Yêu' },
-    friendship:    { label: 'Tình Bạn / Tri Kỷ',          group: 'Tình Yêu' },
-    pregnancy:     { label: 'Con Cái / Thai Kỳ',          group: 'Tình Yêu' },
-    gossip:        { label: 'Thị Phi / Đàm Tiếu',         group: 'Tình Yêu' },
-    toxic_relationship: { label: 'Mối Quan Hệ Độc Hại',   group: 'Tình Yêu' },
-    soulmate:      { label: 'Tri Kỷ / Soulmate',          group: 'Tình Yêu' },
-    reconciliation:{ label: 'Gương Vỡ Lại Lành',          group: 'Tình Yêu' },
-    secret_admirer:{ label: 'Người Thầm Thương',          group: 'Tình Yêu' },
-    family:        { label: 'Gia Đình',                   group: 'Tình Yêu' },
+    love: { label: 'Tình Yêu Tổng Quát', group: 'Tình Yêu' },
+    ex: { label: 'Người Yêu Cũ', group: 'Tình Yêu' },
+    current_love: { label: 'Người Yêu Hiện Tại', group: 'Tình Yêu' },
+    ambiguous: { label: 'Mối Quan Hệ Mập Mờ', group: 'Tình Yêu' },
+    crush: { label: 'Crush / Thầm Thích', group: 'Tình Yêu' },
+    future_love: { label: 'Người Yêu Tương Lai', group: 'Tình Yêu' },
+    someone: { label: 'Người Ấy Nghĩ Gì Về Bạn', group: 'Tình Yêu' },
+    marriage: { label: 'Hôn Nhân', group: 'Tình Yêu' },
+    conflict: { label: 'Giải Quyết Xung Đột', group: 'Tình Yêu' },
+    breakup: { label: 'Chia Tay & Hàn Gắn', group: 'Tình Yêu' },
+    long_distance: { label: 'Yêu Xa', group: 'Tình Yêu' },
+    jealousy: { label: 'Người Thứ Ba / Ghen Tuông', group: 'Tình Yêu' },
+    self_love: { label: 'Yêu Bản Thân', group: 'Tình Yêu' },
+    friendship: { label: 'Tình Bạn / Tri Kỷ', group: 'Tình Yêu' },
+    pregnancy: { label: 'Con Cái / Thai Kỳ', group: 'Tình Yêu' },
+    gossip: { label: 'Thị Phi / Đàm Tiếu', group: 'Tình Yêu' },
+    toxic_relationship: { label: 'Mối Quan Hệ Độc Hại', group: 'Tình Yêu' },
+    soulmate: { label: 'Tri Kỷ / Soulmate', group: 'Tình Yêu' },
+    reconciliation: { label: 'Gương Vỡ Lại Lành', group: 'Tình Yêu' },
+    secret_admirer: { label: 'Người Thầm Thương', group: 'Tình Yêu' },
+    family: { label: 'Gia Đình', group: 'Tình Yêu' },
     // Career
-    career:        { label: 'Sự Nghiệp / Công Việc',      group: 'Sự Nghiệp' },
-    job_search:    { label: 'Xin Việc Làm',                group: 'Sự Nghiệp' },
-    promotion:     { label: 'Thăng Tiến',                  group: 'Sự Nghiệp' },
-    business:      { label: 'Kinh Doanh / Khởi Nghiệp',   group: 'Sự Nghiệp' },
-    colleague:     { label: 'Quan Hệ Đồng Nghiệp',         group: 'Sự Nghiệp' },
-    career_change: { label: 'Chuyển Nghề',                 group: 'Sự Nghiệp' },
-    freelance:     { label: 'Freelance / Tự Do',           group: 'Sự Nghiệp' },
-    interview:     { label: 'Phỏng Vấn',                   group: 'Sự Nghiệp' },
-    legal:         { label: 'Pháp Lý / Giấy Tờ',           group: 'Sự Nghiệp' },
-    moving:        { label: 'Chuyển Chỗ / Xuất Ngoại',     group: 'Sự Nghiệp' },
-    burnout:       { label: 'Kiệt Sức / Áp Lực',          group: 'Sự Nghiệp' },
-    startup:       { label: 'Khởi Nghiệp',                 group: 'Sự Nghiệp' },
-    workplace_politics: { label: 'Thị Phi Công Sở',          group: 'Sự Nghiệp' },
-    side_hustle:   { label: 'Nghề Tay Trái',               group: 'Sự Nghiệp' },
+    career: { label: 'Sự Nghiệp / Công Việc', group: 'Sự Nghiệp' },
+    job_search: { label: 'Xin Việc Làm', group: 'Sự Nghiệp' },
+    promotion: { label: 'Thăng Tiến', group: 'Sự Nghiệp' },
+    business: { label: 'Kinh Doanh / Khởi Nghiệp', group: 'Sự Nghiệp' },
+    colleague: { label: 'Quan Hệ Đồng Nghiệp', group: 'Sự Nghiệp' },
+    career_change: { label: 'Chuyển Nghề', group: 'Sự Nghiệp' },
+    freelance: { label: 'Freelance / Tự Do', group: 'Sự Nghiệp' },
+    interview: { label: 'Phỏng Vấn', group: 'Sự Nghiệp' },
+    legal: { label: 'Pháp Lý / Giấy Tờ', group: 'Sự Nghiệp' },
+    moving: { label: 'Chuyển Chỗ / Xuất Ngoại', group: 'Sự Nghiệp' },
+    burnout: { label: 'Kiệt Sức / Áp Lực', group: 'Sự Nghiệp' },
+    startup: { label: 'Khởi Nghiệp', group: 'Sự Nghiệp' },
+    workplace_politics: { label: 'Thị Phi Công Sở', group: 'Sự Nghiệp' },
+    side_hustle: { label: 'Nghề Tay Trái', group: 'Sự Nghiệp' },
     // Finance
-    finance:       { label: 'Tài Chính Tổng Quát',         group: 'Tài Chính' },
-    investment:    { label: 'Đầu Tư / Chứng Khoán',        group: 'Tài Chính' },
-    debt:          { label: 'Nợ Nần / Vay Mượn',           group: 'Tài Chính' },
-    savings:       { label: 'Tiết Kiệm & Tích Lũy',        group: 'Tài Chính' },
-    luck_money:    { label: 'Lộc Tài / May Mắn',           group: 'Tài Chính' },
-    real_estate:   { label: 'Bất Động Sản',                group: 'Tài Chính' },
-    financial_loss:{ label: 'Thua Lỗ / Khó Khăn',          group: 'Tài Chính' },
-    sudden_wealth: { label: 'Vận May Bất Ngờ',             group: 'Tài Chính' },
+    finance: { label: 'Tài Chính Tổng Quát', group: 'Tài Chính' },
+    investment: { label: 'Đầu Tư / Chứng Khoán', group: 'Tài Chính' },
+    debt: { label: 'Nợ Nần / Vay Mượn', group: 'Tài Chính' },
+    savings: { label: 'Tiết Kiệm & Tích Lũy', group: 'Tài Chính' },
+    luck_money: { label: 'Lộc Tài / May Mắn', group: 'Tài Chính' },
+    real_estate: { label: 'Bất Động Sản', group: 'Tài Chính' },
+    financial_loss: { label: 'Thua Lỗ / Khó Khăn', group: 'Tài Chính' },
+    sudden_wealth: { label: 'Vận May Bất Ngờ', group: 'Tài Chính' },
     // Health
-    health:        { label: 'Sức Khỏe Thể Chất',           group: 'Sức Khỏe' },
-    mental:        { label: 'Sức Khỏe Tâm Thần',           group: 'Sức Khỏe' },
-    energy:        { label: 'Năng Lượng & Chakra',          group: 'Sức Khỏe' },
-    diet:          { label: 'Điều Độ / Chăm Sóc Bản Thân', group: 'Sức Khỏe' },
-    pet:           { label: 'Thú Cưng',                     group: 'Sức Khỏe' },
-    healing:       { label: 'Chữa Lành Tâm Hồn',           group: 'Sức Khỏe' },
-    stress:        { label: 'Căng Thẳng / Âu Lo',          group: 'Sức Khỏe' },
-    trauma:        { label: 'Tổn Thương Quá Khứ',          group: 'Sức Khỏe' },
+    health: { label: 'Sức Khỏe Thể Chất', group: 'Sức Khỏe' },
+    mental: { label: 'Sức Khỏe Tâm Thần', group: 'Sức Khỏe' },
+    energy: { label: 'Năng Lượng & Chakra', group: 'Sức Khỏe' },
+    diet: { label: 'Điều Độ / Chăm Sóc Bản Thân', group: 'Sức Khỏe' },
+    pet: { label: 'Thú Cưng', group: 'Sức Khỏe' },
+    healing: { label: 'Chữa Lành Tâm Hồn', group: 'Sức Khỏe' },
+    stress: { label: 'Căng Thẳng / Âu Lo', group: 'Sức Khỏe' },
+    trauma: { label: 'Tổn Thương Quá Khứ', group: 'Sức Khỏe' },
     // Self
-    study:         { label: 'Học Tập',                      group: 'Bản Thân' },
-    study_abroad:  { label: 'Du Học',                       group: 'Bản Thân' },
-    self:          { label: 'Định Hướng Bản Thân',          group: 'Bản Thân' },
-    purpose:       { label: 'Sứ Mệnh / Mục Đích Sống',     group: 'Bản Thân' },
-    shadow_self:   { label: 'Bóng Tối Nội Tâm',            group: 'Bản Thân' },
-    decision:      { label: 'Ra Quyết Định',                 group: 'Bản Thân' },
-    travel:        { label: 'Du Lịch / Di Chuyển',          group: 'Bản Thân' },
-    spiritual:     { label: 'Tâm Linh',                     group: 'Bản Thân' },
-    dream:         { label: 'Giải Mã Giấc Mơ',              group: 'Bản Thân' },
-    past_life:     { label: 'Tiền Kiếp',                    group: 'Bản Thân' },
-    karma:         { label: 'Nghiệp Quả (Karma)',           group: 'Bản Thân' },
-    lost_item:     { label: 'Tìm Đồ Thất Lạc',              group: 'Bản Thân' },
-    exams:         { label: 'Thi Cử',                       group: 'Bản Thân' },
-    scholarship:   { label: 'Học Bổng',                     group: 'Bản Thân' },
-    talent:        { label: 'Năng Khiếu',                   group: 'Bản Thân' },
-    spirit_guide:  { label: 'Thần Hộ Mệnh',                 group: 'Bản Thân' },
+    study: { label: 'Học Tập', group: 'Bản Thân' },
+    study_abroad: { label: 'Du Học', group: 'Bản Thân' },
+    self: { label: 'Định Hướng Bản Thân', group: 'Bản Thân' },
+    purpose: { label: 'Sứ Mệnh / Mục Đích Sống', group: 'Bản Thân' },
+    shadow_self: { label: 'Bóng Tối Nội Tâm', group: 'Bản Thân' },
+    decision: { label: 'Ra Quyết Định', group: 'Bản Thân' },
+    travel: { label: 'Du Lịch / Di Chuyển', group: 'Bản Thân' },
+    spiritual: { label: 'Tâm Linh', group: 'Bản Thân' },
+    dream: { label: 'Giải Mã Giấc Mơ', group: 'Bản Thân' },
+    past_life: { label: 'Tiền Kiếp', group: 'Bản Thân' },
+    karma: { label: 'Nghiệp Quả (Karma)', group: 'Bản Thân' },
+    lost_item: { label: 'Tìm Đồ Thất Lạc', group: 'Bản Thân' },
+    exams: { label: 'Thi Cử', group: 'Bản Thân' },
+    scholarship: { label: 'Học Bổng', group: 'Bản Thân' },
+    talent: { label: 'Năng Khiếu', group: 'Bản Thân' },
+    spirit_guide: { label: 'Thần Hộ Mệnh', group: 'Bản Thân' },
   };
 
   // Expose to window for Daily Draw
@@ -154,9 +154,9 @@
             </button>
             <div class="cda-group-body" style="display:none;">
               ${validItems.map(item => {
-                const u = item.data.upright || item.data.up || '';
-                const r = item.data.reversed || item.data.rev || '';
-                return `
+          const u = item.data.upright || item.data.up || '';
+          const r = item.data.reversed || item.data.rev || '';
+          return `
                   <div class="cda-item">
                     <button class="cda-item-btn" type="button">
                       <span class="cda-item-label">${item.label}</span>
@@ -168,7 +168,7 @@
                     </div>
                   </div>
                 `;
-              }).join('')}
+        }).join('')}
             </div>
           </div>
         `;
@@ -188,13 +188,13 @@
         </div>
         <div class="cd-info-col">
           <div class="cd-section">
-            <h3 class="cd-sec-title">Ý Nghĩa Xuôi (Upright)</h3>
+            <h3 class="cd-sec-title">Ý Nghĩa Xuôi</h3>
             <p class="cd-desc">${card.generalUpright || card.upright}</p>
             ${keywordsHtml}
           </div>
           
           <div class="cd-section" style="margin-top: 24px;">
-            <h3 class="cd-sec-title">Ý Nghĩa Ngược (Reversed)</h3>
+            <h3 class="cd-sec-title">Ý Nghĩa Ngược</h3>
             <p class="cd-desc">${card.generalReversed || card.reversed}</p>
             ${keywordsRevHtml}
           </div>
@@ -238,32 +238,32 @@
     cdContent.querySelectorAll('.cda-group-btn').forEach(btn => {
       btn.addEventListener('click', () => {
         const group = btn.closest('.cda-group');
-        const body  = group.querySelector('.cda-group-body');
+        const body = group.querySelector('.cda-group-body');
         const arrow = btn.querySelector('.cda-group-arrow');
-        const open  = body.style.display !== 'none';
+        const open = body.style.display !== 'none';
         // Collapse all groups first
         cdContent.querySelectorAll('.cda-group-body').forEach(b => { b.style.display = 'none'; });
         cdContent.querySelectorAll('.cda-group-arrow').forEach(a => { a.textContent = '▸'; a.style.transform = ''; });
         if (!open) {
           body.style.display = 'block';
-          arrow.textContent  = '▾';
+          arrow.textContent = '▾';
         }
       });
     });
 
     cdContent.querySelectorAll('.cda-item-btn').forEach(btn => {
       btn.addEventListener('click', () => {
-        const item  = btn.closest('.cda-item');
-        const body  = item.querySelector('.cda-item-body');
+        const item = btn.closest('.cda-item');
+        const body = item.querySelector('.cda-item-body');
         const arrow = btn.querySelector('.cda-item-arrow');
-        const open  = body.style.display !== 'none';
+        const open = body.style.display !== 'none';
         // Collapse siblings
         const parent = item.closest('.cda-group-body');
         parent.querySelectorAll('.cda-item-body').forEach(b => { b.style.display = 'none'; });
         parent.querySelectorAll('.cda-item-arrow').forEach(a => { a.textContent = '▸'; });
         if (!open) {
           body.style.display = 'block';
-          arrow.textContent  = '▾';
+          arrow.textContent = '▾';
         }
       });
     });
@@ -273,7 +273,7 @@
     const btnOpen = document.getElementById('btnDictionary');
     const btnClose = document.getElementById('btnDictClose');
     const modal = document.getElementById('dictionaryModal');
-    
+
     const btnCdClose = document.getElementById('btnCdClose');
     const cdModal = document.getElementById('cardDetailModal');
 
@@ -317,7 +317,7 @@
             card.style.display = 'none';
           }
         });
-        
+
         // Hide/show group titles if empty
         ['dictMajor', 'dictMinor'].forEach(id => {
           const grid = document.getElementById(id);

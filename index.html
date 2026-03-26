@@ -526,9 +526,6 @@
   <!-- ===================== CLARIFICATION MODAL ===================== -->
   <div id="clarifyModal" class="clarify-screen">
     <div class="clarify-container">
-      <div class="clarify-progress">
-        <div class="clarify-progress-fill" id="clarifyProgressBar" style="width: 0%;"></div>
-      </div>
       <div
         style="font-size: 2.5rem; color: var(--c-gold); margin-bottom: 12px; animation: float 3s ease-in-out infinite;">
         ✦</div>
@@ -536,8 +533,13 @@
         style="font-family: 'Philosopher', serif; color: var(--c-gold); font-size: 1.6rem; margin-bottom: 12px; letter-spacing: 0.05em; text-transform: uppercase;">
         Kết Nối Tâm Thức</h2>
       <p id="clarifyDesc"
-        style="font-family: 'EB Garamond', serif; color: rgba(232, 180, 255, 0.9); font-size: 1.15rem; line-height: 1.6; margin-bottom: 32px; max-width: 600px; margin-left: auto; margin-right: auto;">
+        style="font-family: 'EB Garamond', serif; color: rgba(232, 180, 255, 0.9); font-size: 1.15rem; line-height: 1.6; margin-bottom: 20px; max-width: 600px; margin-left: auto; margin-right: auto;">
         Vũ trụ cần bạn xác nhận 3 điều để thông điệp được giải mã chính xác nhất cho hoàn cảnh của bạn lúc này.</p>
+
+      <!-- Progress bar below subtitle -->
+      <div class="clarify-progress" style="margin-bottom: 24px;">
+        <div class="clarify-progress-fill" id="clarifyProgressBar" style="width: 0%;"></div>
+      </div>
 
       <!-- Loading state within modal -->
       <div id="clarifyLoading">
