@@ -130,13 +130,13 @@
 
       // Map API cards to app format
       const cards = data.cards.map(c => {
-        const fullCard = window.TAROT_DB ? window.TAROT_DB.find(db => db.id === c.id) : null;
+        const fullCard = window.TAROT_DB ? window.TAROT_DB.find(db => db.id === c.id || db.name === c.name) : null;
         return {
           id: c.id,
           name: c.name,
           nameVi: c.name_vi,
           number: fullCard ? fullCard.number : '',
-          image: fullCard ? fullCard.image : `images/cards/${c.id}.jpg`,
+          image: fullCard ? fullCard.image : `cards/${c.id || c.name.toLowerCase().replace(/\s+/g, '')}.jpg`,
           isReversed: c.is_reversed === 1 || c.is_reversed === true,
           upright: fullCard ? (fullCard.generalUpright || fullCard.upright) : c.meaning,
           reversed: fullCard ? (fullCard.generalReversed || fullCard.reversed) : c.meaning,

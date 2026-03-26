@@ -127,11 +127,28 @@
         saveDraw(drawnCard, message);
         syncWidgetState();
         
-        nameEl.innerText = drawnCard.name + (isReversed ? ' (Ngược)' : '');
+        nameEl.innerText = drawnCard.name;
+        const statusEl = document.getElementById('dailyCardStatus');
+        if (statusEl) {
+          statusEl.innerHTML = `<span class="mm-orient ${isReversed ? 'rev' : 'up'}">${isReversed ? 'Ngược (Reversed)' : 'Xuôi (Upright)'}</span>`;
+          statusEl.style.textAlign = 'center';
+          statusEl.style.marginTop = '4px';
+          statusEl.style.marginBottom = '12px';
+        }
+
         msgEl.innerHTML = message;
         resultBox.classList.add('visible');
         hintEl.style.display = 'none';
         hintEl.classList.remove('shimmer-text');
+        
+        // Click to open dictionary
+        cardImg.onclick = () => {
+          if (window.showCardDetail) {
+            const dModal = document.getElementById('dailyDrawModal');
+            if (dModal) dModal.classList.remove('visible');
+            window.showCardDetail(drawnCard);
+          }
+        };
         
         if (window.playDrawSound) window.playDrawSound();
       }, 2000);

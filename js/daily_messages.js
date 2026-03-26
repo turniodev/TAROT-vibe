@@ -50,7 +50,7 @@ window.DAILY_MESSAGES = {
       "Hãy xem xét lại động cơ của bạn. Liệu bạn đang dùng tài năng để phục vụ điều tốt đẹp hay cho mục đích ích kỷ?",
       "Những ý tưởng tuyệt vời đang bị bỏ dở hoặc thiếu sự thực thi. Đã đến lúc biến chúng thành hành động cụ thể.",
       "Cẩn thận với những lời hứa hão huyền hoặc những ảo ảnh. Hãy nhìn sâu vào bản chất để phân biệt thật giả.",
-      "Đừng ��ể sự tự mãn hoặc kiêu ngạo làm lu mờ tầm nhìn của bạn. Hãy giữ sự khiêm tốn và không ngừng học hỏi."
+      "Đừng để sự tự mãn hoặc kiêu ngạo làm lu mờ tầm nhìn của bạn. Hãy giữ sự khiêm tốn và không ngừng học hỏi."
     ]
   },
   "2": {
@@ -149,7 +149,7 @@ window.DAILY_MESSAGES = {
       "Lá bài này cảnh báo về việc làm theo lời khuyên mù quáng hoặc trở thành nạn nhân của những niềm tin lỗi thời. Hãy tự mình tìm kiếm sự thật.",
       "Bạn có thể đang cảm thấy bị gò bó bởi các quy tắc hoặc hệ thống. Đã đến lúc xem xét liệu chúng còn phục vụ cho con đường tâm linh của bạn hay không.",
       "Hãy cảnh giác với những người tự xưng là thầy nhưng lại có ý đồ không trong sáng. Luôn tin vào trực giác của bạn và kiểm tra lại mọi thông tin.",
-      "Sự nổi loạn chỉ vì nổi loạn có thể khiến bạn lạc lối. Hãy tìm cách tạo ra con đường riêng một c��ch có ý thức, không phải chỉ để chống đối.",
+      "Sự nổi loạn chỉ vì nổi loạn có thể khiến bạn lạc lối. Hãy tìm cách tạo ra con đường riêng một cách có ý thức, không phải chỉ để chống đối.",
       "Bạn có thể đang trải qua một cuộc khủng hoảng niềm tin hoặc nghi ngờ các giá trị đã được dạy. Đây là cơ hội để định hình lại hệ thống đạo đức của riêng bạn.",
       "Đừng từ chối việc học hỏi chỉ vì bạn muốn đi con đường riêng. Thậm chí những người tiên phong cũng cần nền tảng kiến thức vững chắc.",
       "Hãy xem xét liệu sự chống đối của bạn có phải là một hình thức cứng đầu mới hay không. Sự linh hoạt trong tư duy là chìa khóa.",
@@ -174,7 +174,7 @@ window.DAILY_MESSAGES = {
       "Cảnh báo! Sự do dự đang kìm hãm bạn, khiến bạn khó đưa ra quyết định cần thiết. Hãy đối mặt với nỗi sợ hãi và tìm kiếm sự rõ ràng trong nội tâm.",
       "Hãy cẩn trọng với những mâu thuẫn nội tâm hoặc sự bất hòa trong các mối quan hệ. Đã đến lúc nhìn nhận lại giá trị và tìm cách hàn gắn sự rạn nứt.",
       "Bạn đang đứng trước một lựa chọn sai lầm, hoặc bị cám dỗ bởi những điều không phù hợp với giá trị thật của mình. Hãy lùi lại, suy nghĩ kỹ lưỡng trước khi hành động.",
-      "Mối quan hệ có thể đang gặp trục trặc do thiếu cam k��t hoặc sự hiểu lầm. Hãy dành thời gian để giao tiếp chân thành và tìm kiếm giải pháp.",
+      "Mối quan hệ có thể đang gặp trục trặc do thiếu cam kết hoặc sự hiểu lầm. Hãy dành thời gian để giao tiếp chân thành và tìm kiếm giải pháp.",
       "Sự thiếu quyết đoán đang làm mất đi cơ hội quý giá của bạn. Hãy tin tưởng vào trực giác và dũng cảm đưa ra lựa chọn, dù khó khăn đến mấy.",
       "Có thể bạn đang bị mắc kẹt giữa hai con đường, không thể đưa ra phán quyết cuối cùng. Hãy tìm kiếm sự cân bằng và lắng nghe tiếng nói của lương tâm.",
       "Sự bất hòa hoặc xung đột trong tình yêu đang thử thách mối quan hệ của bạn. Hãy nhìn nhận lại bản thân và đối phương để tìm ra nguyên nhân sâu xa.",
@@ -194,7 +194,7 @@ window.DAILY_MESSAGES = {
       "Mỗi bước tiến đều mang theo sự tự chủ và khát vọng chiến thắng. Hãy tận dụng động lực này để đạt được thành công vang dội.",
       "Hãy dồn mọi năng lượng vào mục tiêu, như một mũi tên xuyên phá. Vũ trụ đang mở đường cho ý chí kiên cường của bạn.",
       "Cỗ xe của định mệnh đang chờ bạn điều khiển. Hãy thể hiện sự quyết đoán và lòng dũng cảm để biến ước mơ thành hiện thực.",
-      "Tiến lên, hỡi chiến binh! Với sự kiên trì và niềm tin mãnh liệt, không gì có thể ngăn cản bạn đạt được th��nh tựu vĩ đại."
+      "Tiến lên, hỡi chiến binh! Với sự kiên trì và niềm tin mãnh liệt, không gì có thể ngăn cản bạn đạt được thành tựu vĩ đại."
     ],
     "reversed": [
       "Hỡi lữ khách, hãy cẩn trọng! Sự mất kiểm soát có thể khiến cỗ xe định mệnh lạc lối, biến hành trình thành hỗn loạn.",
@@ -250,7 +250,7 @@ window.DAILY_MESSAGES = {
     ],
     "reversed": [
       "Sự cô lập quá mức có thể biến thành ngục tù; hãy cẩn trọng với việc rút lui hoàn toàn khỏi thế giới bên ngoài.",
-      "Bạn đang bỏ l�� cơ hội kết nối vì quá sợ hãi hoặc tự mãn trong vỏ bọc cô độc của mình. Hãy mở lòng ra.",
+      "Bạn đang bỏ lỡ cơ hội kết nối vì quá sợ hãi hoặc tự mãn trong vỏ bọc cô độc của mình. Hãy mở lòng ra.",
       "Việc phân tích quá mức mà không hành động có thể khiến bạn mắc kẹt trong vòng lặp của sự do dự. Đã đến lúc đưa ra quyết định.",
       "Cảnh báo: Bạn có thể đang lạc lối, từ chối sự giúp đỡ hoặc không chịu tìm kiếm người dẫn đường khi cần.",
       "Đừng lờ đi tiếng nói nội tâm hay phớt lờ những lời khuyên hữu ích từ người khác; sự cứng đầu có thể dẫn đến sai lầm.",
@@ -266,7 +266,7 @@ window.DAILY_MESSAGES = {
       "Bánh Xe Vận Mệnh đang xoay chuyển, mang theo những cơ hội mới và may mắn bất ngờ. Hãy mở lòng đón nhận dòng chảy của số phận.",
       "Một chu kỳ mới sắp bắt đầu, hứa hẹn sự thay đổi tích cực và những bước tiến vượt bậc. Hãy sẵn sàng cho sự thăng hoa.",
       "Vũ trụ đang sắp xếp mọi thứ theo cách tốt nhất cho bạn. Tin tưởng vào định mệnh và để nó dẫn lối.",
-      "Thời điểm vàng đã đến, khi may mắn mỉm cười và những mong ước có thể trở thành hiện th��c. Nắm bắt cơ hội này!",
+      "Thời điểm vàng đã đến, khi may mắn mỉm cười và những mong ước có thể trở thành hiện thực. Nắm bắt cơ hội này!",
       "Hãy nhìn nhận những thay đổi như một phần tất yếu của cuộc sống, chúng đang đưa bạn đến một cấp độ cao hơn.",
       "Karma đang vận hành, mang lại phần thưởng xứng đáng cho những nỗ lực của bạn. Gặt hái thành quả của hạt giống đã gieo.",
       "Sự sắp đặt của định mệnh đang diễn ra, hãy tin rằng mọi thứ đều có lý do của nó. Một sự kiện trọng đại đang đến gần.",
@@ -275,7 +275,7 @@ window.DAILY_MESSAGES = {
       "Sức mạnh của số phận đang ở bên bạn, biến những điều không thể thành có thể. Hãy tự tin vào dòng chảy vũ trụ."
     ],
     "reversed": [
-      "Bánh Xe Vận Mệnh đang bị kẹt, có thể do sự trì hoãn hoặc cảm giác mắc kẹt. Hãy xem xét lại hành ��ộng của bạn.",
+      "Bánh Xe Vận Mệnh đang bị kẹt, có thể do sự trì hoãn hoặc cảm giác mắc kẹt. Hãy xem xét lại hành động của bạn.",
       "Những thay đổi không mong muốn hoặc sự chậm trễ đang thử thách sự kiên nhẫn của bạn. Đừng cố chống lại dòng chảy, hãy tìm cách thích nghi.",
       "Cảm giác bất lực trước số phận có thể đang bao trùm. Hãy nhớ rằng bạn vẫn có sức mạnh để tạo ra sự khác biệt.",
       "Cẩn trọng với những rủi ro không lường trước hoặc vận rủi tạm thời. Đây là lúc để củng cố nền tảng, không phải mạo hiểm.",
@@ -292,7 +292,7 @@ window.DAILY_MESSAGES = {
       "Hôm nay, hãy tin tưởng vào sự thật và công lý. Cán cân thiêng liêng đang nghiêng về phía chính trực, mang lại sự công bằng mà bạn xứng đáng.",
       "Hãy ý thức về quy luật nhân quả; mỗi hành động của bạn hôm nay là hạt giống cho tương lai. Gieo hạt thiện lành, gặt quả ngọt lành.",
       "Đây là thời điểm để nhìn nhận mọi vấn đề với cái nhìn khách quan nhất. Sự minh bạch và chính trực sẽ dẫn lối bạn đến quyết định sáng suốt.",
-      "Công lý đang hé lộ; một gi���i pháp cân bằng và công bằng đang chờ đợi. Hãy kiên định với những giá trị đạo đức của mình.",
+      "Công lý đang hé lộ; một giải pháp cân bằng và công bằng đang chờ đợi. Hãy kiên định với những giá trị đạo đức của mình.",
       "Đối mặt với sự thật, dù khó khăn, là con đường duy nhất dẫn đến sự giải thoát. Ánh sáng của sự thật sẽ xua tan mọi bóng tối.",
       "Hãy thực hiện trách nhiệm của mình với lòng chính trực và sự rõ ràng. Mọi hành động đều tạo nên dấu ấn karmic của riêng nó.",
       "Sự cân bằng nội tại sẽ dẫn dắt bạn qua mọi phán quyết. Hãy lắng nghe tiếng nói lương tâm, nó là kim chỉ nam của sự công bằng.",
@@ -317,13 +317,13 @@ window.DAILY_MESSAGES = {
     "upright": [
       "Hôm nay, hãy buông bỏ sự kiểm soát và cho phép bản thân được treo ngược, nhìn thế giới từ một góc độ hoàn toàn mới. Sự đình trệ này không phải là sự kết thúc, mà là cánh cửa dẫn đến trí tuệ sâu sắc.",
       "Chấp nhận sự tạm dừng cần thiết. Trong khoảnh khắc tĩnh lặng này, bạn sẽ tìm thấy những câu trả lời mà sự hối hả của thế giới không thể mang lại.",
-      "Sự hy sinh tự nguyện hôm nay sẽ mở đường cho một sự giác ngộ. Hãy tin tưởng vào quá trình v�� học cách buông bỏ những gì không còn phục vụ bạn.",
+      "Sự hy sinh tự nguyện hôm nay sẽ mở đường cho một sự giác ngộ. Hãy tin tưởng vào quá trình và học cách buông bỏ những gì không còn phục vụ bạn.",
       "Linh hồn bạn đang kêu gọi một sự thay đổi góc nhìn sâu sắc. Đừng sợ hãi sự khác biệt; chính trong đó, sự thật sẽ được tiết lộ một cách rõ ràng.",
       "Tạm gác lại những lo toan vật chất và tìm kiếm sự phong phú trong thế giới nội tâm. Sự kiên nhẫn của bạn sẽ được đền đáp bằng một hiểu biết sâu sắc về bản chất.",
       "Khoảnh khắc treo ngược này là một lời mời gọi để thiền định, để nhìn thấu những ảo ảnh và tìm thấy bản chất thực sự của vấn đề. Hãy để trực giác dẫn lối.",
       "Đôi khi, để tiến lên, chúng ta cần phải dừng lại. Hãy chấp nhận sự chờ đợi này như một cơ hội quý giá để tái định hình tầm nhìn và mục tiêu của bạn.",
       "Sự buông bỏ không phải là thất bại, mà là một hành động mạnh mẽ của ý chí và lòng tin. Hãy để dòng chảy của cuộc sống đưa bạn đến một bờ bến mới của sự thấu hiểu.",
-      "Bạn đang đứng trước ngưỡng cửa của một sự giác ngộ lớn. Hãy mở lòng mình để đón nhận những bài học đến từ những trải nghiệm không mong đợi, bất kể chúng có vẻ \"ngược đời\" đến đâu.",
+      "Bạn đang đứng trước ngưỡng cửa của một sự giác ngộ lớn. Hãy mở lòng mình để đón nhận những bài học đến từ những trải nghiệm không mong đợi, bất kể chúng có vẻ ngược đời đến đâu.",
       "Hãy nhìn nhận thách thức hiện tại như một cơ hội để phát triển tinh thần. Bằng cách thay đổi góc nhìn, bạn sẽ khám phá ra sức mạnh tiềm ẩn và sự khôn ngoan bên trong mình."
     ],
     "reversed": [
@@ -360,7 +360,7 @@ window.DAILY_MESSAGES = {
       "Bạn đang từ chối nhìn nhận sự thật rằng một giai đoạn đã qua. Sự bế tắc này đang ngăn cản những khởi đầu mới diệu kỳ.",
       "Sự chối bỏ thay đổi đang khiến bạn mắc kẹt trong vũng lầy của sự trì trệ và vô vọng. Hãy tìm cách thoát ra.",
       "Bạn đang bám víu vào những gì đã cũ kỹ, không còn phù hợp với vận mệnh. Sự cứng đầu này đang cản trở bạn tìm thấy con đường mới.",
-      "Hãy cẩn trọng: việc từ chối sự kết thúc tự nhiên sẽ chỉ mang lại sự đình trệ và lãng phí thời gian quý b��u của bạn.",
+      "Hãy cẩn trọng: việc từ chối sự kết thúc tự nhiên sẽ chỉ mang lại sự đình trệ và lãng phí thời gian quý báu của bạn.",
       "Nỗi sợ hãi sự không chắc chắn đang ngăn bạn bước vào một tương lai tươi sáng hơn. Hãy đối diện với nó bằng lòng dũng cảm.",
       "Dấu hiệu cảnh báo: việc bám víu vào những gì đã chết sẽ chỉ mang lại sự u ám, thiếu sinh khí và cản trở sự phát triển của linh hồn."
     ]
@@ -370,7 +370,7 @@ window.DAILY_MESSAGES = {
       "Hôm nay, hãy tìm kiếm sự cân bằng diệu kỳ giữa các thái cực, để dòng chảy của sự hài hòa dẫn lối tâm hồn bạn đến bình an.",
       "Sức mạnh của sự kiên nhẫn và điều độ sẽ mở ra cánh cửa của sự chữa lành, kết nối linh hồn bạn với dòng chảy vũ trụ.",
       "Hãy hòa trộn các yếu tố đối lập trong cuộc sống, như một nhà giả kim tinh thông, để tạo nên một kiệt tác của sự dung hòa.",
-      "Lắng nghe tiếng gọi của sự điều độ, bạn sẽ khám phá ra ý nghĩa s��u sắc và mục đích thiêng liêng đang chờ đợi.",
+      "Lắng nghe tiếng gọi của sự điều độ, bạn sẽ khám phá ra ý nghĩa sâu sắc và mục đích thiêng liêng đang chờ đợi.",
       "Dòng chảy hài hòa của vũ trụ đang soi sáng cho bạn con đường của sự hợp nhất và hiểu biết. Hãy tin tưởng vào quá trình.",
       "Hôm nay là ngày để tìm thấy điểm vàng, nơi mọi xung đột tan biến và sự đồng điệu thăng hoa trong tâm hồn bạn.",
       "Hãy để năng lượng của sự kiên trì và kiểm soát bản thân dẫn dắt bạn qua mọi thử thách, mang lại sự bình yên nội tại.",
@@ -386,7 +386,7 @@ window.DAILY_MESSAGES = {
       "Cẩn thận với những xung đột không cần thiết hoặc sự từ chối thỏa hiệp, chúng đang cản trở dòng chảy hài hòa trong các mối quan hệ.",
       "Sự vội vàng và thiếu suy nghĩ đang dẫn bạn đến những quyết định sai lầm. Hãy hít thở sâu và chậm lại để thấy rõ hơn.",
       "Cảnh báo về sự bất hòa trong nội tâm, nơi các phần của bản thân bạn đang chống đối nhau. Cần sự hàn gắn và thống nhất.",
-      "Bạn đang phản đối sự thích nghi hoặc từ chối pha trộn các yếu tố c��n thiết. Sự cứng nhắc này sẽ gây ra bế tắc.",
+      "Bạn đang phản đối sự thích nghi hoặc từ chối pha trộn các yếu tố cần thiết. Sự cứng nhắc này sẽ gây ra bế tắc.",
       "Hãy đề phòng sự quá độ, dù là trong công việc hay thú vui. Điều độ là chìa khóa để tránh kiệt sức và mất phương hướng.",
       "Sự thiếu kiên nhẫn đang làm mờ đi tầm nhìn của bạn. Hãy học cách chờ đợi, để mọi thứ diễn ra một cách tự nhiên."
     ]
@@ -395,7 +395,7 @@ window.DAILY_MESSAGES = {
     "upright": [
       "Hỡi linh hồn, hãy đối mặt với bóng tối sâu thẳm nhất trong mình. Chỉ khi nhận diện những xiềng xích vô hình, ngươi mới thấu hiểu sức mạnh thực sự nằm trong tay để giải thoát bản thân.",
       "Lá bài này soi rọi những ham muốn trần tục và sự gắn bó vật chất đang giam hãm ngươi. Hãy nhìn thẳng vào chúng để nhận ra rằng quyền năng phá vỡ xiềng xích luôn thuộc về ngươi.",
-      "The Devil không phải là hình phạt, mà là tấm gương phản chiếu những nỗi sợ hãi và nghi��n ngập đang kiểm soát ngươi. Đã đến lúc chấp nhận và chuyển hóa chúng.",
+      "The Devil không phải là hình phạt, mà là tấm gương phản chiếu những nỗi sợ hãi và nghiện ngập đang kiểm soát ngươi. Đã đến lúc chấp nhận và chuyển hóa chúng.",
       "Ngươi có đang bị mắc kẹt trong một vòng lặp độc hại, bởi những cám dỗ hay ảo ảnh quyền lực? Hãy dùng ánh sáng nội tâm để soi rọi con đường thoát khỏi mê cung này.",
       "Hãy lắng nghe tiếng gọi của bản năng nguyên thủy, nhưng đừng để nó dẫn lối mù quáng. Sức mạnh thực sự nằm ở việc làm chủ dục vọng, không phải để nó làm chủ ngươi.",
       "Những ràng buộc mà ngươi cảm thấy có thể không phải do ai khác đặt ra, mà là do chính ngươi tự tạo nên. Hãy tìm kiếm sự thật đằng sau bức màn ảo ảnh.",
@@ -422,7 +422,7 @@ window.DAILY_MESSAGES = {
       "Hôm nay, những bức tường cũ sụp đổ, mở ra một chân trời mới. Hãy đón nhận sự giải thoát bất ngờ này, vì nó dẫn lối đến sự thật và tự do đích thực.",
       "Ánh chớp định mệnh xé toạc màn đêm, phơi bày những nền móng giả dối. Đây là cơ hội để xây dựng lại từ tro tàn, vững chắc hơn bao giờ hết.",
       "Vũ trụ đang tái cấu trúc cuộc đời bạn. Đừng sợ hãi sự hỗn loạn, vì nó là cơn mưa gột rửa, mang đến sự rõ ràng và một khởi đầu mới.",
-      "S�� sụp đổ này không phải là kết thúc, mà là sự giải thoát khỏi xiềng xích vô hình. Hãy để mọi thứ tan biến để nhường chỗ cho sự đổi mới mạnh mẽ.",
+      "Sự sụp đổ này không phải là kết thúc, mà là sự giải thoát khỏi xiềng xích vô hình. Hãy để mọi thứ tan biến để nhường chỗ cho sự đổi mới mạnh mẽ.",
       "Chân lý đã được tiết lộ, dù đau đớn, nhưng nó là ngọn hải đăng dẫn lối. Hãy can đảm đối mặt, vì sau đó là sự giác ngộ.",
       "Một sự kiện chấn động đang thay đổi quỹ đạo của bạn, phá vỡ những ảo ảnh. Hãy tin rằng sự thật được phơi bày sẽ giải phóng linh hồn bạn.",
       "Đừng bám víu vào những gì đã cũ, dù nó từng mang lại sự an toàn. Tòa Tháp sụp đổ để bạn có thể vươn lên, mạnh mẽ và chân thật hơn.",
@@ -435,7 +435,7 @@ window.DAILY_MESSAGES = {
       "Nỗi sợ hãi sự hỗn loạn đang giam cầm bạn trong xiềng xích của sự từ chối. Nếu không đối diện với sự thay đổi, nó sẽ đến dưới một hình thức đau đớn hơn.",
       "Những vết nứt âm ỉ trong nền móng đang bị bỏ qua. Việc trì hoãn giải quyết vấn đề sẽ dẫn đến sự đổ vỡ lớn hơn khi bạn ít ngờ tới nhất.",
       "Bạn đang phớt lờ những dấu hiệu cảnh báo, cố gắng duy trì một ảo ảnh an toàn. Hãy tỉnh táo nhìn nhận sự thật trước khi nó tự vỡ tan trong tay bạn.",
-      "Sự thay đổi đang đến một cách chậm chạp, nhưng nó vẫn sẽ phá vỡ. B��n có cơ hội để chuẩn bị và giảm thiểu thiệt hại, nhưng không thể tránh khỏi cuộc thanh lọc này.",
+      "Sự thay đổi đang đến một cách chậm chạp, nhưng nó vẫn sẽ phá vỡ. Bạn có cơ hội để chuẩn bị và giảm thiểu thiệt hại, nhưng không thể tránh khỏi cuộc thanh lọc này.",
       "Trốn tránh sự thật sẽ chỉ khiến bạn xây dựng trên cát. Dù có vẻ an toàn tạm thời, nhưng cuối cùng, công trình đó sẽ sụp đổ, gây ra sự thất vọng sâu sắc.",
       "Một sự biến động nhỏ hơn có thể là lời nhắc nhở để bạn thực hiện những thay đổi cần thiết. Đừng đợi đến khi mọi thứ hoàn toàn sụp đổ mới hành động.",
       "Bạn đang kéo dài một tình huống không bền vững, cố chấp giữ chặt những gì đã lỗi thời. Hãy tự giải thoát mình trước khi vũ trụ buộc bạn phải làm điều đó.",
@@ -480,7 +480,7 @@ window.DAILY_MESSAGES = {
       "Hãy chấp nhận sự mơ hồ của hiện tại. Chính trong sự không chắc chắn này, bạn sẽ tìm thấy một loại trí tuệ khác biệt và sâu sắc hơn.",
       "Con đường phía trước có thể mờ ảo, nhưng hãy tin vào ánh sáng nội tâm của bạn. Nó sẽ dẫn bạn qua những ảo ảnh và lầm lạc.",
       "Hôm nay là một ngày để kết nối với thế giới tâm linh, lắng nghe những lời thì thầm từ vũ trụ và khám phá chiều sâu của bản thân mình.",
-      "Dưới ánh trăng, hãy buông bỏ nhu cầu ki���m soát và cho phép bản năng mách bảo dẫn dắt bạn qua mê cung của cuộc sống để tìm thấy con đường."
+      "Dưới ánh trăng, hãy buông bỏ nhu cầu kiểm soát và cho phép bản năng mách bảo dẫn dắt bạn qua mê cung của cuộc sống để tìm thấy con đường."
     ],
     "reversed": [
       "Cảnh báo: Bạn đang tự huyễn hoặc bản thân hoặc từ chối nhìn nhận sự thật. Hãy dũng cảm đối diện với những gì đang che giấu.",
@@ -500,7 +500,7 @@ window.DAILY_MESSAGES = {
       "Ánh sáng rực rỡ của Mặt Trời soi chiếu, mang đến niềm vui thuần khiết và sự thành công vang dội. Hãy đón nhận phước lành và lan tỏa năng lượng tích cực của mình.",
       "Hôm nay là ngày của sự rõ ràng và giác ngộ. Mọi nghi ngờ tan biến, bạn nhìn thấy sự thật hiển nhiên và con đường phía trước.",
       "Năng lượng sống dồi dào chảy trong huyết quản, đánh thức đứa trẻ nội tâm và khát khao tự do. Hãy vui đùa và tận hưởng cuộc sống trọn vẹn.",
-      "Thành tựu r��c rỡ đang chờ đón bạn. Đây là thời điểm để ăn mừng những nỗ lực đã qua và gặt hái quả ngọt.",
+      "Thành tựu rực rỡ đang chờ đón bạn. Đây là thời điểm để ăn mừng những nỗ lực đã qua và gặt hái quả ngọt.",
       "Sự lạc quan tỏa sáng từ bên trong, thu hút mọi điều tốt lành đến với bạn. Hãy tin tưởng vào hành trình của mình.",
       "Bạn đang bước vào kỷ nguyên của sự thịnh vượng và hạnh phúc. Mọi thứ bạn chạm vào đều hóa vàng, mang lại sự viên mãn.",
       "Nguồn năng lượng vũ trụ tràn ngập, ban tặng cho bạn sức sống và tinh thần minh mẫn. Hãy tỏa sáng như chính Mặt Trời.",
@@ -526,7 +526,7 @@ window.DAILY_MESSAGES = {
       "Hôm nay là ngày linh hồn bạn thức tỉnh, lắng nghe tiếng gọi từ sâu thẳm để tái sinh và vươn lên.",
       "Khoảnh khắc phán xét đã đến, không phải từ bên ngoài, mà là sự minh triết nội tại dẫn lối bạn đến sự thật và giải thoát.",
       "Hãy đón nhận sự tha thứ, cho cả bản thân và người khác, để những gánh nặng quá khứ tan biến và mở ra một chương mới.",
-      "Lá bài này báo hiệu một sự tái sinh mạnh mẽ, một cơ hội vàng để định hình lại cuộc đời bạn b��ng những lựa chọn khôn ngoan.",
+      "Lá bài này báo hiệu một sự tái sinh mạnh mẽ, một cơ hội vàng để định hình lại cuộc đời bạn bằng những lựa chọn khôn ngoan.",
       "Chiêm nghiệm lại hành trình đã qua, rút ra bài học quý giá và dũng cảm tiến bước trên con đường chân lý đã được soi rọi.",
       "Bạn đang đứng trước ngưỡng cửa của một quyết định trọng đại, được soi sáng bởi trí tuệ tích lũy từ mọi trải nghiệm.",
       "Tiếng kèn thiên thần vang vọng, mời gọi bạn đến một sứ mệnh cao cả hơn, một mục đích sống ý nghĩa hơn.",
@@ -558,7 +558,7 @@ window.DAILY_MESSAGES = {
       "Hôm nay là ngày của sự kết thúc mỹ mãn, mở ra một tầm nhìn mới mẻ và rộng lớn hơn. Hãy tận hưởng thành quả lao động của mình.",
       "Bạn đã hoàn tất một chương quan trọng trong cuộc đời. Nắm giữ sự khôn ngoan tích lũy, bạn sẵn sàng cho những trải nghiệm tiếp theo.",
       "Vòng tròn hoàn hảo của cuộc đời đã khép lại một cách tuyệt vời. Hãy cảm nhận sự kết nối sâu sắc với vạn vật xung quanh.",
-      "Tận hưởng khoảnh khắc vinh quang này. Bạn đã đạt được sự cân bằng, sự thật và sự hoàn hảo mà b��y lâu tìm kiếm."
+      "Tận hưởng khoảnh khắc vinh quang này. Bạn đã đạt được sự cân bằng, sự thật và sự hoàn hảo mà bấy lâu tìm kiếm."
     ],
     "reversed": [
       "Bạn đang cảm thấy mắc kẹt trong một chu trình chưa hoàn thành. Hãy xem xét những gì cần được kết thúc để tiến về phía trước.",
@@ -567,7 +567,7 @@ window.DAILY_MESSAGES = {
       "Cảm giác cô lập hay không thuộc về có thể đang bao trùm. Hãy tìm cách kết nối lại với thế giới và cộng đồng xung quanh bạn.",
       "Bạn có đang bỏ lỡ cơ hội hoàn thành một dự án hay mục tiêu quan trọng? Đừng để sự thiếu quyết đoán làm chậm trễ thành công của mình.",
       "Nếu cảm thấy lạc lõng hoặc không tìm thấy ý nghĩa, hãy nhìn lại hành trình của mình. Có thể có những mảnh ghép cần được sắp xếp lại.",
-      "Sự không hoàn chỉnh đang khiến b���n mất đi năng lượng. Hãy tập trung vào việc khép lại những cánh cửa đã mở quá lâu.",
+      "Sự không hoàn chỉnh đang khiến bạn mất đi năng lượng. Hãy tập trung vào việc khép lại những cánh cửa đã mở quá lâu.",
       "Đừng để bản thân bị quá tải bởi những mục tiêu chưa đạt được. Hãy chia nhỏ chúng và giải quyết từng bước một, đừng vội vàng.",
       "Một chương cần được khép lại để bạn có thể thực sự tự do. Hãy đối diện với sự thật và tìm kiếm sự giải thoát.",
       "Bạn có thể đang cảm thấy không được công nhận hoặc không đạt được thành tựu như mong muốn. Hãy xem xét lại kỳ vọng và những gì bạn đã thực sự hoàn thành."
@@ -655,7 +655,7 @@ window.DAILY_MESSAGES = {
     "upright": [
       "Hôm nay, hãy đón nhận niềm vui của sự hoàn thành và sự hài hòa đang bao trùm cuộc sống bạn. Nền tảng vững chắc đã được thiết lập, mang đến cảm giác bình yên và an toàn.",
       "Một cột mốc đáng ăn mừng đang chờ đợi, đánh dấu thành quả của những nỗ lực bạn đã bỏ ra. Hãy mở lòng đón nhận hạnh phúc và sự công nhận.",
-      "Ngôi nhà và gia đình bạn là nơi trú ẩn của tình yêu và sự ổn định. Hãy trân trọng những khoảnh khắc sum vầy, kết nối và sẻ chia ni��m vui.",
+      "Ngôi nhà và gia đình bạn là nơi trú ẩn của tình yêu và sự ổn định. Hãy trân trọng những khoảnh khắc sum vầy, kết nối và sẻ chia niềm vui.",
       "Cảm giác thuộc về và an toàn đang hiện hữu mạnh mẽ. Bạn đang xây dựng một cộng đồng vững chắc, nơi mọi người cùng nhau phát triển.",
       "Thành công trong công việc hoặc dự án đang đến, mang theo niềm hân hoan và sự viên mãn. Đây là lúc để tận hưởng thành quả lao động của mình.",
       "Hãy tổ chức một lễ kỷ niệm nhỏ cho những điều tốt đẹp đã đến. Năng lượng của niềm vui và sự gắn kết đang lan tỏa quanh bạn.",
@@ -708,7 +708,7 @@ window.DAILY_MESSAGES = {
       "Hãy đón nhận ánh hào quang! Thành công rực rỡ và sự công nhận xứng đáng đang đến với bạn, sau bao nỗ lực không ngừng nghỉ.",
       "Đây là khoảnh khắc của chiến thắng, khi những nỗ lực thầm lặng được tôn vinh. Hãy tự hào về hành trình đã qua.",
       "Niềm tin vững chắc vào bản thân đã dẫn lối bạn đến đỉnh cao. Hãy tận hưởng cảm giác vinh quang này.",
-      "Tin tức tốt lành và sự tán dương từ cộng đồng đang chờ đón bạn. Mọi ánh mắt đang hướng về thành t��u của bạn.",
+      "Tin tức tốt lành và sự tán dương từ cộng đồng đang chờ đón bạn. Mọi ánh mắt đang hướng về thành tựu của bạn.",
       "Bước đi kiêu hãnh trên con đường danh vọng, vì bạn đã chứng minh được giá trị và năng lực phi thường của mình.",
       "Sự công nhận mà bạn hằng mong đợi nay đã thành hiện thực. Hãy chia sẻ niềm vui chiến thắng này với mọi người.",
       "Mọi trở ngại đã được vượt qua, giờ là lúc bạn gặt hái quả ngọt và đón nhận sự ngưỡng mộ.",
@@ -760,7 +760,7 @@ window.DAILY_MESSAGES = {
       "Năng lượng đang tuôn chảy mạnh mẽ, hãy đón nhận tốc độ và sự rõ ràng trong mọi hành động của bạn. Đây là lúc để tiến bước thần tốc.",
       "Những tin tức quan trọng đang trên đường đến, hoặc một cơ hội bất ngờ sẽ xuất hiện. Hãy sẵn sàng hành động nhanh chóng và quyết đoán.",
       "Mọi trở ngại đang dần tan biến, mở ra con đường thẳng tắp cho bạn. Hãy tin tưởng vào dòng chảy và sự phát triển vượt bậc.",
-      "Các dự án của bạn đang tăng tốc với m���t lực đẩy phi thường. Hãy tận dụng động lực này để đạt được mục tiêu một cách nhanh nhất.",
+      "Các dự án của bạn đang tăng tốc với một lực đẩy phi thường. Hãy tận dụng động lực này để đạt được mục tiêu một cách nhanh nhất.",
       "Đây là thời điểm lý tưởng để gửi đi thông điệp của trái tim hoặc bắt đầu một cuộc hành trình mới. Vũ trụ đang hỗ trợ cho những bước đi thần tốc của bạn.",
       "Hãy nắm bắt khoảnh khắc và đưa ra quyết định mà không do dự. Sự nhanh nhạy của bạn sẽ dẫn lối đến thành công rực rỡ.",
       "Như những mũi tên bay thẳng, các kế hoạch của bạn sẽ tìm thấy đích đến một cách trực tiếp và hiệu quả. Hãy giữ vững trọng tâm.",
@@ -775,7 +775,7 @@ window.DAILY_MESSAGES = {
       "Cảm giác bị mắc kẹt hoặc thiếu định hướng có thể xuất hiện. Hãy tìm kiếm sự tĩnh lặng để tái kết nối với mục tiêu thật sự của mình.",
       "Cẩn thận với những tranh cãi hoặc xung đột không cần thiết. Năng lượng tiêu cực này có thể làm chậm trễ tiến trình của bạn.",
       "Cơ hội đang trôi qua vì sự chần chừ hoặc thiếu quyết đoán. Đừng để nỗi sợ hãi giữ chân bạn lại.",
-      "Nếu cảm thấy mọi thứ đang đình trệ, ��ó là dấu hiệu bạn cần chậm lại, đánh giá tình hình và điều chỉnh hướng đi. Đừng cố gắng thúc ép.",
+      "Nếu cảm thấy mọi thứ đang đình trệ, đó là dấu hiệu bạn cần chậm lại, đánh giá tình hình và điều chỉnh hướng đi. Đừng cố gắng thúc ép.",
       "Chuyến đi hoặc kế hoạch di chuyển có thể gặp trục trặc. Hãy chuẩn bị phương án dự phòng và giữ thái độ bình tĩnh.",
       "Bạn đang phân tán năng lượng vào quá nhiều hướng, dẫn đến sự thiếu hiệu quả. Tập trung vào một mục tiêu duy nhất để tránh lãng phí.",
       "Mũi tên của số phận đang bị lệch hướng. Hãy dành thời gian để lắng nghe trực giác sâu thẳm, tìm lại sự rõ ràng và mục đích thật sự."
@@ -812,7 +812,7 @@ window.DAILY_MESSAGES = {
       "Hôm nay, bạn gánh trên vai những trọng trách lớn lao, nhưng hãy nhớ rằng mỗi bước chân đều đưa bạn gần hơn đến vạch đích. Sức mạnh nội tại của bạn là vô hạn.",
       "Gánh nặng này là minh chứng cho sự kiên trì và nỗ lực không ngừng của bạn. Hãy tự hào về những gì bạn đang mang vác và sắp hoàn thành.",
       "Dù cảm thấy quá tải, hãy nhìn về phía trước: sự hoàn thành đang chờ đợi. Thành công thực sự đòi hỏi sự chịu đựng và quyết tâm cao độ.",
-      "Lá b��i này nhắc nhở rằng bạn đang mang vác quá nhiều, nhưng đó cũng là dấu hiệu của năng lực phi thường. Hãy tìm cách phân chia và quản lý tốt hơn.",
+      "Lá bài này nhắc nhở rằng bạn đang mang vác quá nhiều, nhưng đó cũng là dấu hiệu của năng lực phi thường. Hãy tìm cách phân chia và quản lý tốt hơn.",
       "Hoàn thành một chu kỳ khó khăn, bạn sẽ gặt hái thành quả xứng đáng. Đừng lùi bước khi đã đi được gần hết chặng đường.",
       "Sức nặng bạn đang mang không phải là điểm yếu, mà là bằng chứng cho sự cam kết và khả năng của bạn. Hãy tin tưởng vào bản thân.",
       "Đây là lúc để học cách quản lý trách nhiệm hiệu quả hơn, không phải để từ bỏ. Hãy tìm kiếm sự hỗ trợ nếu cần.",
@@ -827,7 +827,7 @@ window.DAILY_MESSAGES = {
       "Lá bài này là lời nhắc nhở rằng bạn có thể đang từ chối sự giúp đỡ hoặc quá sợ hãi để ủy quyền. Hãy mở lòng và tin tưởng người khác.",
       "Nguy cơ bỏ cuộc giữa chừng hoặc ôm đồm đến mức kiệt quệ là rất lớn. Hãy dừng lại, sắp xếp lại ưu tiên và tìm lối thoát.",
       "Bạn có đang chạy trốn khỏi những trách nhiệm cần thiết, hoặc ngược lại, đang gánh vác những gánh nặng không thuộc về mình? Hãy thành thật với bản thân.",
-      "Sự bướng bỉnh trong việc không chịu buông bỏ có thể dẫn đến sự sụp đổ. Hãy học cách nói \"không\" và thiết lập ranh giới.",
+      "Sự bướng bỉnh trong việc không chịu buông bỏ có thể dẫn đến sự sụp đổ. Hãy học cách nói không và thiết lập ranh giới.",
       "Nếu cảm thấy bế tắc và không thể tiếp tục, đó là dấu hiệu bạn cần phải thay đổi chiến lược. Buông bớt để có thể tiến lên.",
       "Hỡi lữ khách, đừng để gánh nặng này biến bạn thành tù nhân của chính mình. Hãy tìm kiếm một lối đi nhẹ nhàng hơn, cho phép bản thân nghỉ ngơi.",
       "Đôi khi, việc buông bỏ một phần gánh nặng lại là cách nhanh nhất để đạt được mục tiêu. Đừng ngại thay đổi hướng đi."
@@ -904,7 +904,7 @@ window.DAILY_MESSAGES = {
       "Sự thiếu kiên nhẫn hoặc tính khí thất thường có thể gây ra những hiểu lầm không đáng có. Hãy thực hành sự bình tĩnh và thấu hiểu.",
       "Bạn có đang quá phụ thuộc vào sự chú ý từ bên ngoài? Hãy nuôi dưỡng sự tự tin từ bên trong thay vì tìm kiếm sự công nhận từ người khác.",
       "Cảm giác bất an có thể đang che mờ khả năng thực sự của bạn. Đã đến lúc đối diện với nỗi sợ hãi và lấy lại niềm tin vào bản thân.",
-      "Sự bốc đồng hoặc thiếu suy nghĩ có thể dẫn đến những quyết định sai lầm. Hãy dành thời gian suy ngẫm kỹ lưỡng trư���c khi hành động.",
+      "Sự bốc đồng hoặc thiếu suy nghĩ có thể dẫn đến những quyết định sai lầm. Hãy dành thời gian suy ngẫm kỹ lưỡng trước khi hành động.",
       "Bạn có thể đang cảm thấy thiếu động lực hoặc hứng thú với những dự án sáng tạo. Hãy tìm kiếm nguồn cảm hứng mới để khơi dậy ngọn lửa bên trong.",
       "Tránh xa sự ghen tị hoặc thái độ thống trị có thể làm tổn hại đến các mối quan hệ. Hãy học cách tôn trọng và chia sẻ.",
       "Sự kiệt sức đang rình rập nếu bạn không biết cách quản lý năng lượng. Hãy dành thời gian nghỉ ngơi và tái tạo bản thân để tránh kiệt sức.",
@@ -916,7 +916,7 @@ window.DAILY_MESSAGES = {
       "Hôm nay, hãy nắm lấy ngọn lửa lãnh đạo bên trong bạn. Sự tự tin và tầm nhìn của bạn sẽ soi sáng con đường cho những thành công lớn.",
       "Với tinh thần tiên phong và nhiệt huyết, bạn có đủ năng lực để biến những ý tưởng táo bạo thành hiện thực. Hãy hành động ngay!",
       "Vua Gậy xuất hiện để nhắc nhở bạn về sức mạnh truyền cảm hứng của mình. Hãy dẫn dắt bằng sự chân thành và đam mê.",
-      "Thời điểm này là của bạn để thể hiện sự quả quyết và d��ng cảm. Đừng ngần ngại bước ra và chỉ huy vận mệnh của mình.",
+      "Thời điểm này là của bạn để thể hiện sự quả quyết và dũng cảm. Đừng ngần ngại bước ra và chỉ huy vận mệnh của mình.",
       "Năng lượng sáng tạo của bạn đang bùng cháy. Hãy dùng nó để khơi gợi sự nhiệt tình và tập hợp mọi người xung quanh mục tiêu chung.",
       "Bạn là một người có tầm nhìn, một kiến trúc sư của tương lai. Hãy tin tưởng vào khả năng lãnh đạo bẩm sinh của mình.",
       "Sự tự tin và kinh nghiệm của bạn là tài sản quý giá. Hãy sử dụng chúng để dẫn dắt một cách khôn ngoan và kiên định.",
@@ -931,7 +931,7 @@ window.DAILY_MESSAGES = {
       "Có phải bạn đang lạm dụng quyền lực hoặc trở nên quá kiểm soát? Hãy nhớ rằng sự lãnh đạo thực sự đến từ sự tôn trọng, không phải sự sợ hãi.",
       "Đừng để sự thiếu tự tin hoặc sự thờ ơ làm nguội lạnh ngọn lửa đam mê của bạn. Hãy tìm lại mục đích và nguồn cảm hứng ban đầu.",
       "Cẩn thận với những quyết định vội vàng, thiếu suy nghĩ. Hãy dành thời gian để lập kế hoạch và cân nhắc kỹ lưỡng trước khi hành động.",
-      "Bạn có đang trở nên quá bướng bỉnh hay không chịu lắng nghe ý kiến của người khác? Một người lãnh đạo v�� đại luôn biết lắng nghe.",
+      "Bạn có đang trở nên quá bướng bỉnh hay không chịu lắng nghe ý kiến của người khác? Một người lãnh đạo vĩ đại luôn biết lắng nghe.",
       "Năng lượng tiêu cực có thể biến sự quả quyết thành hung hăng. Hãy kiểm soát cảm xúc để tránh gây tổn hại đến mối quan hệ.",
       "Đừng để bản thân trở nên mệt mỏi hay mất đi định hướng. Hãy tái tạo năng lượng và tìm lại niềm vui trong vai trò lãnh đạo của mình.",
       "Có thể bạn đang thiếu đi tầm nhìn dài hạn, chỉ tập trung vào những lợi ích nhất thời. Hãy nhìn xa hơn và định hình một tương lai bền vững."
@@ -956,7 +956,7 @@ window.DAILY_MESSAGES = {
       "Sự tắc nghẽn trong dòng chảy sáng tạo hoặc sự thiếu cảm hứng đang cản trở bạn. Hãy tìm cách khơi thông nguồn năng lượng bằng sự tự do biểu cảm.",
       "Bạn có đang bỏ qua tiếng nói của trực giác mình không? Việc phớt lờ những dấu hiệu từ trái tim có thể dẫn đến những quyết định sai lầm.",
       "Cảnh báo về sự mất cân bằng cảm xúc, có thể là sự thờ ơ hoặc sự bùng nổ không kiểm soát. Hãy tìm kiếm sự ổn định và hài hòa.",
-      "Một khởi đầu mới về cảm xúc có thể không như bạn mong đợi, hoặc đang gặp phải rào cản. Đừng vội nản lòng, hãy kiên nhẫn và nhìn nhận vấn đề t��� góc độ khác.",
+      "Một khởi đầu mới về cảm xúc có thể không như bạn mong đợi, hoặc đang gặp phải rào cản. Đừng vội nản lòng, hãy kiên nhẫn và nhìn nhận vấn đề tất cả góc độ khác.",
       "Bạn có thể đang cảm thấy trống rỗng hoặc thiếu kết nối. Hãy tự hỏi điều gì thực sự nuôi dưỡng tâm hồn bạn và tìm cách lấp đầy khoảng trống đó.",
       "Tránh việc đổ lỗi cho người khác về những cảm xúc của mình. Hãy chịu trách nhiệm với thế giới nội tâm và tìm cách tự chữa lành.",
       "Sự từ chối tiếp nhận tình yêu hoặc lòng trắc ẩn có thể đang khiến bạn cô lập. Hãy mở lòng mình một lần nữa, nhưng với sự thận trọng và sáng suốt.",
@@ -978,7 +978,7 @@ window.DAILY_MESSAGES = {
     ],
     "reversed": [
       "Hôm nay, hãy cảnh giác với sự mất cân bằng trong mối quan hệ. Có thể có sự thiếu công bằng trong tình cảm hoặc sự hợp tác.",
-      "Sự hiểu lầm và r���n nứt trong giao tiếp có thể đang cản trở một kết nối quan trọng. Hãy chủ động hàn gắn.",
+      "Sự hiểu lầm và rạn nứt trong giao tiếp có thể đang cản trở một kết nối quan trọng. Hãy chủ động hàn gắn.",
       "Bạn đang đối mặt với sự bất hòa hoặc mâu thuẫn trong một mối quan hệ. Đã đến lúc nhìn nhận vấn đề một cách thẳng thắn.",
       "Một sự chia ly hoặc cảm giác bị từ chối có thể đang hiện hữu. Hãy tìm kiếm sự chữa lành và chấp nhận.",
       "Cẩn trọng với sự phụ thuộc quá mức hoặc không được đáp lại trong tình cảm. Hãy bảo vệ giá trị bản thân và tìm kiếm sự cân bằng.",
@@ -1073,7 +1073,7 @@ window.DAILY_MESSAGES = {
       "Một người bạn cũ hoặc mối liên hệ từ quá khứ có thể xuất hiện, mang đến sự ấm áp và hoài niệm.",
       "Tìm thấy niềm an ủi và sự thân thuộc trong những điều đã qua. Hồi ức là món quà của tâm hồn.",
       "Thế giới nội tâm của bạn đang mời gọi bạn trở về với sự ngây thơ và niềm hân hoan giản dị.",
-      "Hãy trân trọng những giá trị cốt l��i và truyền thống đã định hình nên con người bạn.",
+      "Hãy trân trọng những giá trị cốt lỗi và truyền thống đã định hình nên con người bạn.",
       "Có thể bạn sẽ được tặng hoặc nhận lại một vật kỷ niệm quý giá, gợi nhắc về tình yêu thương bền vững.",
       "Mở lòng đón nhận sự chữa lành và bình yên từ những khoảnh khắc dịu dàng của quá khứ.",
       "Đôi khi, để tiến về phía trước, ta cần một cái nhìn ấm áp về những gì đã ở lại phía sau.",
@@ -1098,7 +1098,7 @@ window.DAILY_MESSAGES = {
       "Hôm nay, vũ trụ mở ra trước mắt bạn một bữa tiệc của những lựa chọn; hãy mơ mộng và khám phá mọi tiềm năng.",
       "Hãy để trí tưởng tượng bay bổng, bởi trong thế giới của vô vàn khả năng, bạn là kiến trúc sư của định mệnh mình.",
       "Trước ngưỡng cửa của những giấc mơ, hãy dũng cảm nhìn sâu vào mỗi chiếc cốc để thấu hiểu khao khát thật sự của tâm hồn.",
-      "Cơ hội đang vẫy gọi từ mọi hướng. Đừng ngại ngần đắm chìm vào thế giới nội tâm đ��� tìm ra điều rực rỡ nhất.",
+      "Cơ hội đang vẫy gọi từ mọi hướng. Đừng ngại ngần đắm chìm vào thế giới nội tâm để tìm ra điều rực rỡ nhất.",
       "Sức mạnh sáng tạo của bạn đang ở đỉnh cao. Hãy hình dung những tương lai tươi đẹp và cho phép chúng dẫn lối.",
       "Bạn đang đứng giữa một khu vườn phong phú của những ý tưởng. Hãy tận hưởng hành trình khám phá và ươm mầm cho chúng.",
       "Mỗi chiếc cốc ẩn chứa một bí mật, một lời hứa. Hãy chiêm nghiệm chúng để nhận diện con đường hạnh phúc nhất.",
@@ -1108,7 +1108,7 @@ window.DAILY_MESSAGES = {
     ],
     "reversed": [
       "Cẩn trọng, Nữ hoàng của những giấc mơ, đừng để vô vàn lựa chọn biến thành gánh nặng trì hoãn bạn khỏi hành động.",
-      "��ừng quá đắm chìm trong ảo tưởng mà quên đi thực tại. Đã đến lúc phải nhìn rõ sự thật và đưa ra quyết định dứt khoát.",
+      "Đừng quá đắm chìm trong ảo tưởng mà quên đi thực tại. Đã đến lúc phải nhìn rõ sự thật và đưa ra quyết định dứt khoát.",
       "Bạn đang đối mặt với sự phân vân đến tê liệt. Hãy tập trung, loại bỏ những điều phù phiếm để thấy rõ con đường duy nhất.",
       "Nguy hiểm của việc trốn tránh thực tế đang rình rập. Hãy thức tỉnh khỏi giấc mộng và đối diện với những gì cần được giải quyết.",
       "Nhiều lựa chọn có thể dẫn đến sự thiếu quyết đoán. Đã đến lúc phải buông bỏ sự hoàn hảo và chọn một hướng đi cụ thể.",
@@ -1150,7 +1150,7 @@ window.DAILY_MESSAGES = {
       "Hôm nay, những ước nguyện sâu thẳm nhất của bạn có thể thành hiện thực. Hãy mở lòng đón nhận niềm vui và sự thỏa mãn trọn vẹn.",
       "Lá bài này là biểu tượng của sự mãn nguyện và hạnh phúc. Vũ trụ đang ban tặng cho bạn phước lành và sự đủ đầy.",
       "Hãy tận hưởng khoảnh khắc vinh quang này, khi mọi nỗ lực của bạn được đền đáp xứng đáng. Hạnh phúc đang ngập tràn trái tim bạn.",
-      "Bạn đang đứng trước ngưỡng cửa của sự thỏa mãn tuyệt đối. H��y cảm nhận sự phong phú và biết ơn những gì bạn đã đạt được.",
+      "Bạn đang đứng trước ngưỡng cửa của sự thỏa mãn tuyệt đối. Hãy cảm nhận sự phong phú và biết ơn những gì bạn đã đạt được.",
       "Niềm vui và sự hài lòng đang bao trùm lấy bạn. Đây là lúc để ăn mừng những thành công và ước mơ đã trở thành hiện thực.",
       "Một dòng chảy năng lượng tích cực đang đưa bạn đến bến bờ hạnh phúc. Hãy tin vào sự nhiệm màu của cuộc sống.",
       "Mọi điều bạn khao khát đều đang nằm trong tầm tay. Hãy mở rộng trái tim để đón nhận sự thịnh vượng và an lành.",
@@ -1159,7 +1159,7 @@ window.DAILY_MESSAGES = {
       "Hạnh phúc không chỉ là một cảm giác, mà là một trạng thái hiện hữu. Hôm nay, bạn đang sống trong sự đủ đầy và viên mãn."
     ],
     "reversed": [
-      "Hãy cẩn trọng với sự thỏa mãn giả tạo hoặc những mong muốn chưa được đáp ứng. Đ��ng để vẻ ngoài che giấu sự trống rỗng bên trong.",
+      "Hãy cẩn trọng với sự thỏa mãn giả tạo hoặc những mong muốn chưa được đáp ứng. Đừng để vẻ ngoài che giấu sự trống rỗng bên trong.",
       "Lá bài này cảnh báo về sự tự mãn hoặc ham muốn vật chất quá đà. Hạnh phúc đích thực không thể mua được bằng tiền bạc.",
       "Có thể bạn đang đặt kỳ vọng quá cao hoặc cảm thấy thất vọng vì những ước mơ chưa thành. Hãy nhìn lại những gì bạn đã có.",
       "Bạn có đang bỏ qua những phước lành nhỏ bé để chạy theo những ham muốn lớn hơn không? Cẩn thận với sự không biết đủ.",
@@ -1219,7 +1219,7 @@ window.DAILY_MESSAGES = {
       "Đừng để mình mắc kẹt trong thế giới mộng mơ mà bỏ qua thực tại; sự mơ mộng quá đà có thể dẫn đến thất vọng.",
       "Có thể bạn đang trốn tránh đối mặt với cảm xúc thật của mình. Sự chối bỏ này sẽ chỉ làm vấn đề thêm chồng chất.",
       "Hãy chú ý đến những dấu hiệu cảnh báo từ trực giác mà bạn đang cố tình phớt lờ. Chúng có thể đang bảo vệ bạn khỏi nguy hại.",
-      "Năng lượng sáng t���o của bạn có vẻ đang bị tắc nghẽn; hãy tìm cách giải phóng nó thay vì chìm đắm trong sự uể oải.",
+      "Năng lượng sáng tạo của bạn có vẻ đang bị tắc nghẽn; hãy tìm cách giải phóng nó thay vì chìm đắm trong sự uể oải.",
       "Đừng để mình bị cuốn vào những trò đùa vô nghĩa hoặc những hành vi thiếu trưởng thành. Hãy tìm kiếm sự sâu sắc và ý nghĩa trong mọi việc."
     ]
   },
@@ -1280,7 +1280,7 @@ window.DAILY_MESSAGES = {
       "Hôm nay, hãy là người thuyền trưởng vững chãi của tâm hồn bạn, dẫn dắt bằng sự điềm tĩnh và thấu hiểu sâu sắc.",
       "Trái tim bạn là nguồn suối của lòng trắc ẩn. Hãy rộng mở chia sẻ sự đồng cảm và trí tuệ cho những người xung quanh.",
       "Sức mạnh thực sự nằm ở khả năng kiểm soát cảm xúc, không phải kìm nén chúng. Hãy thể hiện sự trưởng thành và bình yên nội tại.",
-      "Bạn được mời gọi trở thành người hòa giải, dùng sự khôn ngoan và ngoại giao đ��� mang lại sự cân bằng và hòa hợp.",
+      "Bạn được mời gọi trở thành người hòa giải, dùng sự khôn ngoan và ngoại giao đang mang lại sự cân bằng và hòa hợp.",
       "Hãy tin tưởng vào trực giác của mình. Sự thông thái đến từ việc lắng nghe cả trái tim và lý trí.",
       "Cơ hội để thể hiện sự sáng tạo và nghệ thuật đang hé mở. Hãy để cảm xúc của bạn tuôn chảy thành những tác phẩm ý nghĩa.",
       "Một người cố vấn đáng tin cậy hoặc một nguồn hỗ trợ tinh thần có thể xuất hiện để soi sáng con đường của bạn.",
@@ -1306,7 +1306,7 @@ window.DAILY_MESSAGES = {
       "Một tia sáng của sự thật vừa lóe lên, mang theo khởi đầu mới cho tâm trí. Hãy đón nhận khoảnh khắc thấu hiểu này và hành động dứt khoát.",
       "Sức mạnh của trí tuệ đang thức tỉnh trong bạn. Hãy dùng thanh gươm của lý trí để xuyên thủng mọi màn sương mù và nhìn rõ con đường.",
       "Đây là thời điểm để khai sinh một ý tưởng đột phá. Hãy tự tin vào khả năng tư duy sắc bén của mình và mạnh dạn thể hiện nó.",
-      "Bạn sắp sửa có một khám phá quan trọng, m��t sự thật sẽ giải phóng tâm hồn. Hãy mở lòng đón nhận sự minh triết mới.",
+      "Bạn sắp sửa có một khám phá quan trọng, một sự thật sẽ giải phóng tâm hồn. Hãy mở lòng đón nhận sự minh triết mới.",
       "Thanh gươm công lý đang nằm trong tay bạn, sẵn sàng cắt đứt những xiềng xích của sự hoài nghi. Hãy đứng lên vì điều đúng đắn.",
       "Một cái nhìn sâu sắc bỗng nhiên xuất hiện, mang đến sự rõ ràng tuyệt đối. Hãy tận dụng khoảnh khắc này để đưa ra quyết định sáng suốt.",
       "Hãy tin tưởng vào trực giác và lý lẽ của mình. Bạn có sức mạnh để vượt qua mọi thách thức bằng sự sắc bén của trí óc.",
@@ -1338,7 +1338,7 @@ window.DAILY_MESSAGES = {
       "Sức mạnh của bạn nằm ở khả năng tạm gác lại xung đột, tạo không gian cho sự minh triết xuất hiện. Đừng vội vàng phán xét.",
       "Hãy tin rằng sự lưỡng lự hiện tại là một bước cần thiết để bạn nhìn rõ hơn bức tranh toàn cảnh, trước khi đưa ra quyết định cuối cùng.",
       "Bạn được mời gọi để tìm thấy sự bình yên trong chính sự không chắc chắn. Hãy để trực giác dẫn lối qua màn sương của sự lựa chọn.",
-      "Khoảnh khắc này đòi hỏi sự kiên nhẫn và khả năng giữ vững lập tr��ờng giữa hai bên. Sự thật sẽ hiện rõ khi bạn sẵn sàng đối mặt."
+      "Khoảnh khắc này đòi hỏi sự kiên nhẫn và khả năng giữ vững lập trường giữa hai bên. Sự thật sẽ hiện rõ khi bạn sẵn sàng đối mặt."
     ],
     "reversed": [
       "Cảnh báo: Việc trì hoãn quyết định quá lâu có thể dẫn đến sự bế tắc và căng thẳng không thể tránh khỏi. Đã đến lúc phải hành động.",
@@ -1346,7 +1346,7 @@ window.DAILY_MESSAGES = {
       "Sự lưỡng lự kéo dài đang khiến bạn mất phương hướng và bị mắc kẹt trong vòng lặp của sự phân vân. Hãy tìm kiếm sự hỗ trợ.",
       "Những xung đột nội tâm bị kìm nén đang có nguy cơ bùng phát, gây ra sự hỗn loạn. Hãy đối diện với chúng trước khi quá muộn.",
       "Thận trọng: Có thể có những sự thật khó chịu đang được che giấu, hoặc bạn đang cố tình không nhìn thấy chúng. Hãy mở mắt và lắng nghe.",
-      "Sự từ chối đối mặt với lựa chọn đang đẩy bạn vào tình thế khó xử, nơi sự cân bằng bị phá vỡ. Hãy chấp nhận rủi ro và ti���n lên.",
+      "Sự từ chối đối mặt với lựa chọn đang đẩy bạn vào tình thế khó xử, nơi sự cân bằng bị phá vỡ. Hãy chấp nhận rủi ro và tiến lên.",
       "Bạn đang cảm thấy quá tải bởi những lựa chọn, dẫn đến sự tê liệt. Hãy bắt đầu từ những bước nhỏ để thoát khỏi tình trạng này.",
       "Lá bài này cảnh báo về những lời nói dối hoặc sự hiểu lầm đang gây ra sự chia rẽ. Hãy tìm cách giao tiếp rõ ràng và trung thực.",
       "Việc né tránh xung đột đã đến giới hạn, và giờ đây, những bất đồng có thể bùng nổ. Hãy chuẩn bị tinh thần để đối mặt và giải quyết.",
@@ -1396,7 +1396,7 @@ window.DAILY_MESSAGES = {
       "Bồn chồn xâm chiếm, linh hồn kiệt sức: Sự bồn chồn không ngừng đang đẩy bạn đến bờ vực kiệt sức. Hãy lắng nghe tiếng gọi của cơ thể trước khi quá muộn.",
       "Né tránh sự nghỉ ngơi, tự đẩy mình vào hiểm nguy: Bạn đang cố gắng chống lại nhu cầu nghỉ ngơi cần thiết. Hãy cẩn trọng, năng lượng của bạn có giới hạn và cần được tôn trọng.",
       "Hồi phục chưa trọn, đã vội vã quay về: Quá trình chữa lành chưa hoàn tất, nhưng bạn đã vội vã trở lại cuộc chiến. Hãy cho phép bản thân thêm thời gian để phục hồi hoàn toàn.",
-      "Mắc kẹt trong trì trệ, sợ hãi đổi thay: Nỗi sợ hãi đang giam hãm bạn trong sự bất động không hiệu quả. ��ừng để sự trì hoãn biến thành cái bẫy vô hình.",
+      "Mắc kẹt trong trì trệ, sợ hãi đổi thay: Nỗi sợ hãi đang giam hãm bạn trong sự bất động không hiệu quả. Đừng để sự trì hoãn biến thành cái bẫy vô hình.",
       "Trở lại quá sớm, đối mặt thất bại: Bạn đang nóng vội quay lại guồng quay khi chưa thực sự sẵn sàng. Hành động vội vã có thể dẫn đến những sai lầm đáng tiếc.",
       "Tâm trí quá tải, từ chối an nghỉ: Tâm trí bạn đang kêu gào đòi được nghỉ ngơi, nhưng bạn lại từ chối lắng nghe. Hãy chấp nhận rằng việc dừng lại không phải là yếu đuối.",
       "Bất động vô ích, trốn tránh thực tại: Bạn đang bị mắc kẹt trong sự trì hoãn, ngụy biện cho sự thiếu hành động. Đã đến lúc phân biệt giữa nghỉ ngơi thực sự và trốn tránh.",
@@ -1409,21 +1409,21 @@ window.DAILY_MESSAGES = {
     "upright": [
       "Hôm nay, ánh sáng chiếu rọi vào một chiến thắng cay đắng: bạn có thể đã giành phần thắng, nhưng cái giá phải trả quá đắt. Hãy chiêm nghiệm sự mất mát ẩn sau vinh quang.",
       "Lá bài này tiết lộ một cuộc đối đầu mà ở đó, không ai thực sự thắng. Hãy nhận ra sự hao tổn tinh thần khi cố gắng áp đặt ý chí.",
-      "Một cuộc tranh cãi nảy lửa đang bùng lên, mang theo những lời nói sắc như gươm. Hãy cân nhắc liệu có đáng để tiếp tục giằng co hay nên buông bỏ sự c��ng thẳng.",
+      "Một cuộc tranh cãi nảy lửa đang bùng lên, mang theo những lời nói sắc như gươm. Hãy cân nhắc liệu có đáng để tiếp tục giằng co hay nên buông bỏ sự công thẳng.",
       "Năng lượng của sự ích kỷ đang chiếm hữu. Bạn có thể đạt được điều mình muốn, nhưng sẽ để lại vết sẹo sâu trong các mối quan hệ.",
       "Hãy lắng nghe tiếng nói bên trong: không phải mọi trận chiến đều đáng để chiến đấu. Đôi khi, sự rút lui là một hành động của trí tuệ và sự tự bảo vệ.",
       "Sức mạnh chân chính không nằm ở việc hạ gục đối thủ, mà ở việc giữ vững phẩm giá và sự thanh thản giữa cơn bão tranh chấp.",
       "Một bài học về sự chấp nhận thất bại đang hiện hữu. Hãy nhìn thẳng vào thực tế, buông bỏ những gì không thể cứu vãn và tiến bước.",
-      "Sự trống rỗng của một chiến thắng không trọn vẹn đang bao trùm. Hãy tự hỏi: liệu sự bình yên có đến sau khi bạn \"thắng\" bằng mọi giá?",
+      "Sự trống rỗng của một chiến thắng không trọn vẹn đang bao trùm. Hãy tự hỏi: liệu sự bình yên có đến sau khi bạn thắng bằng mọi giá?",
       "Linh hồn bạn đang bị thử thách bởi những xung đột gay gắt. Đã đến lúc bảo vệ năng lượng và tìm kiếm sự tĩnh lặng nội tâm.",
-      "Bài học hôm nay là về b���n chất phù du của chiến thắng khi nó được xây dựng trên sự tổn thương. Hãy học cách buông bỏ gánh nặng của sự cạnh tranh không lành mạnh."
+      "Bài học hôm nay là về bản chất phù du của chiến thắng khi nó được xây dựng trên sự tổn thương. Hãy học cách buông bỏ gánh nặng của sự cạnh tranh không lành mạnh."
     ],
     "reversed": [
       "Lá bài đảo ngược soi chiếu: đã đến lúc hàn gắn những vết thương cũ và tìm kiếm sự hòa giải sau những cuộc chiến. Đừng để hận thù kéo dài thêm.",
       "Cảnh báo: những oán giận âm ỉ từ quá khứ đang trỗi dậy. Hãy dũng cảm đối diện, tha thứ để giải thoát bản thân khỏi xiềng xích của căm ghét.",
       "Bạn đang đứng trước ngưỡng cửa của sự hòa giải, nhưng đòi hỏi sự khiêm tốn để chấp nhận sai lầm hoặc buông bỏ niềm kiêu hãnh.",
       "Đừng để những vết sẹo cũ tiếp tục định hình hiện tại. Hãy chủ động tìm kiếm sự bình yên, đặt dấu chấm hết cho vòng luẩn quẩn của đối đầu.",
-      "Thận trọng với sức mạnh của lời nói: hãy sửa chữa những tổn thương đã gây ra. Con đường đến sự tha thứ bắt đầu từ sự hối lỗi ch��n thành.",
+      "Thận trọng với sức mạnh của lời nói: hãy sửa chữa những tổn thương đã gây ra. Con đường đến sự tha thứ bắt đầu từ sự hối lỗi chân thành.",
       "Nếu bạn đang né tránh một cuộc đối đầu cần thiết, lá bài này khuyên bạn hãy đối mặt với nó bằng trí tuệ, tìm kiếm giải pháp hòa bình.",
       "Sự khôn ngoan đích thực nằm ở việc biết khi nào nên đặt gươm xuống. Đừng để cái tôi cản trở con đường đến sự bình an và hòa hợp.",
       "Hãy chiêm nghiệm những hậu quả từ hành động trong quá khứ. Đây là thời điểm để sửa chữa, xây dựng lại niềm tin đã mất.",
@@ -1445,7 +1445,7 @@ window.DAILY_MESSAGES = {
       "Tương lai đang gọi mời bạn đến một chân trời mới. Hãy sẵn sàng gạt bỏ những gì đã cũ để đón nhận những điều tốt đẹp đang chờ đợi."
     ],
     "reversed": [
-      "Bạn đang mắc kẹt trong quá khứ, không thể bu��ng bỏ những gánh nặng đã qua. Hãy xem xét lý do gì đang níu giữ bạn.",
+      "Bạn đang mắc kẹt trong quá khứ, không thể buông bỏ những gánh nặng đã qua. Hãy xem xét lý do gì đang níu giữ bạn.",
       "Sự kháng cự thay đổi đang làm chậm trễ hành trình tìm kiếm sự bình yên của bạn. Đối mặt với nỗi sợ hãi để tiến lên.",
       "Cảm giác bị mắc kẹt có thể là dấu hiệu bạn đang từ chối thoát ly khỏi một tình huống không còn phục vụ mình. Hãy tìm kiếm lối thoát.",
       "Bạn có đang quay trở lại những vấn đề cũ, hoặc trì hoãn việc rời bỏ một môi trường độc hại? Đã đến lúc đưa ra quyết định dứt khoát.",
@@ -1468,7 +1468,7 @@ window.DAILY_MESSAGES = {
       "Đừng ngại đi theo con đường riêng, ngay cả khi nó đòi hỏi sự khéo léo và một chút bí mật. Tự chủ là sức mạnh cần thiết lúc này.",
       "Hôm nay, hãy tin vào trực giác mách bảo bạn về những gì cần làm để bảo vệ bản thân và lợi ích của mình. Đôi khi, sự ranh mãnh là cần thiết.",
       "Bạn có khả năng vượt qua thử thách bằng cách sử dụng trí thông minh và sự linh hoạt. Hãy là người thiết lập luật chơi riêng của mình.",
-      "Sức mạnh của sự tinh tế và khôn ngoan đang ở bên bạn. Hãy tự tin tiến lên b���ng cách dùng chiến lược sắc bén để đạt được điều bạn mong muốn."
+      "Sức mạnh của sự tinh tế và khôn ngoan đang ở bên bạn. Hãy tự tin tiến lên bằng cách dùng chiến lược sắc bén để đạt được điều bạn mong muốn."
     ],
     "reversed": [
       "Hỡi lữ khách, lá bài ngược này cảnh báo về sự tự lừa dối. Hãy đối diện với sự thật, dù nó có khó khăn đến đâu, để tránh hậu quả nghiêm trọng hơn.",
@@ -1476,7 +1476,7 @@ window.DAILY_MESSAGES = {
       "Cẩn trọng, những bí mật bạn che giấu có thể sắp bị phơi bày ra ánh sáng. Hãy xem xét việc thú nhận để giải tỏa gánh nặng và hàn gắn tổn thương.",
       "Lá bài này khuyên bạn dừng lại việc lừa dối bản thân hoặc người khác. Hãy tìm kiếm sự minh bạch và trung thực để tìm lại bình yên trong tâm hồn.",
       "Bạn đang đứng trước ngưỡng cửa của sự hối lỗi và chuộc tội. Đã đến lúc trả lại những gì đã lấy hoặc sửa chữa những sai lầm đã gây ra.",
-      "Đừng để nỗi sợ bị phát hiện chi ph���i bạn và giữ bạn trong bóng tối. Hãy dũng cảm đối mặt với sự thật và tìm kiếm sự tha thứ, cả từ bản thân và người khác.",
+      "Đừng để nỗi sợ bị phát hiện chi phối bạn và giữ bạn trong bóng tối. Hãy dũng cảm đối mặt với sự thật và tìm kiếm sự tha thứ, cả từ bản thân và người khác.",
       "Sự trì hoãn trong việc đối diện với sự thật sẽ chỉ làm tăng thêm gánh nặng. Hãy mạnh dạn thừa nhận và bắt đầu quá trình chữa lành ngay hôm nay.",
       "Lá bài này nhắc nhở về tầm quan trọng của sự chính trực và liêm khiết. Hãy từ bỏ những toan tính không lành mạnh để xây dựng nền tảng vững chắc.",
       "Thế giới đang đòi hỏi sự trung thực từ bạn, và những gì đã che giấu sẽ không còn bí mật. Đã đến lúc chấm dứt vòng luẩn quẩn của sự lừa dối và bước ra ánh sáng.",
@@ -1504,7 +1504,7 @@ window.DAILY_MESSAGES = {
       "Cảnh báo: Tự lừa dối bản thân về việc đã thoát khỏi xiềng xích sẽ chỉ khiến chúng siết chặt hơn trong vô thức.",
       "Sự lưỡng lự và thiếu quyết đoán có thể đẩy bạn trở lại tình trạng bế tắc. Đã đến lúc phải hành động mạnh mẽ và dứt khoát.",
       "Đừng để những lời nói tiêu cực của người khác hoặc của chính bạn một lần nữa làm lu mờ tầm nhìn. Hãy bảo vệ sự tự do mới tìm thấy.",
-      "Bạn đang đứng trư��c ngưỡng cửa của sự tự do, nhưng nỗi sợ hãi về tương lai có thể khiến bạn quay trở lại nơi an toàn nhưng gò bó.",
+      "Bạn đang đứng trước ngưỡng cửa của sự tự do, nhưng nỗi sợ hãi về tương lai có thể khiến bạn quay trở lại nơi an toàn nhưng gò bó.",
       "Hãy cẩn thận với việc thay thế một nhà tù bằng một cái khác. Sự tự do đích thực đến từ việc phá vỡ mọi khuôn mẫu cũ.",
       "Đừng né tránh trách nhiệm với sự lựa chọn của mình. Sức mạnh để duy trì tự do nằm ở khả năng đối mặt và vượt qua mọi thử thách."
     ]
@@ -1608,7 +1608,7 @@ window.DAILY_MESSAGES = {
       "Đừng để tham vọng mù quáng đẩy bạn vào những cuộc chiến không cần thiết. Hãy phân định rõ ràng đâu là trận chiến đáng để bạn dấn thân.",
       "Sự tự tin thái quá có thể che mờ phán đoán của bạn. Hãy lắng nghe ý kiến của người khác và xem xét mọi góc độ.",
       "Nếu cảm thấy bị choáng ngợp hoặc mất phương hướng, hãy lùi lại để tái tập trung năng lượng. Đừng cố gắng ôm đồm quá nhiều.",
-      "Tránh hành ��ộng chỉ vì muốn chứng tỏ bản thân mà thiếu đi mục đích rõ ràng. Hãy định hình lại ý định của bạn.",
+      "Tránh hành động chỉ vì muốn chứng tỏ bản thân mà thiếu đi mục đích rõ ràng. Hãy định hình lại ý định của bạn.",
       "Lời nói của bạn có thể trở thành vũ khí gây sát thương. Hãy suy nghĩ kỹ trước khi phát ngôn để tránh làm tổn thương người khác.",
       "Đừng để năng lượng dồi dào biến thành sự hiếu chiến hay thiếu kiên nhẫn. Hãy học cách điều hòa sức mạnh của mình để đạt hiệu quả cao nhất."
     ]
@@ -1644,7 +1644,7 @@ window.DAILY_MESSAGES = {
       "Sức mạnh của trí tuệ đang soi đường cho bạn. Hãy dùng lý trí sắc bén để thấu hiểu sự thật và đưa ra quyết định công bằng.",
       "Giờ là lúc để lãnh đạo bằng sự minh bạch và công lý. Hãy phát ngôn rõ ràng, không e ngại sự thật.",
       "Vua Kiếm thúc giục bạn cắt bỏ mọi sự mơ hồ. Hãy đối diện vấn đề bằng tư duy khách quan, không để cảm xúc chi phối.",
-      "Bạn sở hữu khả năng phân tích tuyệt vời. Hãy tin tưởng vào sự phán đoán của mình để định hư���ng con đường phía trước.",
+      "Bạn sở hữu khả năng phân tích tuyệt vời. Hãy tin tưởng vào sự phán đoán của mình để định hướng con đường phía trước.",
       "Hãy trở thành người truyền đạt sự thật, người tìm kiếm công lý. Lời nói của bạn có sức mạnh thay đổi cục diện.",
       "Tập trung vào sự logic và khách quan. Đó là chìa khóa để vượt qua mọi thách thức với sự khôn ngoan và tầm nhìn rõ ràng.",
       "Sự rõ ràng trong suy nghĩ mang lại sự tự do. Hãy giải phóng bản thân khỏi những ràng buộc của sự thiếu hiểu biết.",
@@ -1660,7 +1660,7 @@ window.DAILY_MESSAGES = {
       "Đừng để trí tuệ trở thành vũ khí để thao túng người khác. Sự thật cần được tôn trọng, không phải bị bóp méo vì lợi ích cá nhân.",
       "Tránh xa sự cố chấp và bảo thủ. Một cái đầu không chịu tiếp nhận điều mới sẽ bị lạc hậu trong dòng chảy cuộc sống.",
       "Kiểm soát sự nóng nảy và lời lẽ cay nghiệt. Lời nói có thể gây ra vết thương sâu sắc hơn cả gươm đao, hãy cân nhắc trước khi phát ngôn.",
-      "Hãy xem xét liệu bạn có đang trở thành một ngư���i độc đoán, không lắng nghe ý kiến khác. Sự độc đoán chỉ dẫn đến thất bại và mất lòng tin.",
+      "Hãy xem xét liệu bạn có đang trở thành một người độc đoán, không lắng nghe ý kiến khác. Sự độc đoán chỉ dẫn đến thất bại và mất lòng tin.",
       "Cảnh báo về sự thiếu linh hoạt trong tư duy. Đôi khi, buông bỏ một phần logic để đón nhận trực giác lại là điều khôn ngoan hơn.",
       "Đừng để sự hoài nghi và tiêu cực làm mờ đi tầm nhìn của bạn. Hãy tìm kiếm sự thật với một trái tim cởi mở, không phải một tâm hồn đầy thành kiến."
     ]
@@ -1676,7 +1676,7 @@ window.DAILY_MESSAGES = {
       "Cơ hội vàng để biến ý tưởng thành hiện thực đang nằm trong tay bạn. Hãy hành động một cách thiết thực và có kế hoạch.",
       "Sự dồi dào đang gõ cửa, mang theo tiềm năng cho một sự nghiệp mới, một tài chính vững vàng hoặc một sức khỏe dồi dào. Hãy sẵn sàng đón nhận.",
       "Bạn đang được trao một nền tảng vững chắc để xây dựng tương lai. Hãy tận dụng nguồn năng lượng tích cực này để kiến tạo sự ổn định.",
-      "Hãy mở lòng đón nhận những cơ hội mới mẻ và hữu hình. Đây là dấu hiệu cho một chu kỳ thịnh vượng v�� phát triển vật chất sắp đến."
+      "Hãy mở lòng đón nhận những cơ hội mới mẻ và hữu hình. Đây là dấu hiệu cho một chu kỳ thịnh vượng và phát triển vật chất sắp đến."
     ],
     "reversed": [
       "Cẩn trọng với những cơ hội bị bỏ lỡ hoặc sự trì hoãn không đáng có. Đừng để nỗi sợ hãi làm lu mờ tiềm năng thực sự của bạn.",
@@ -1696,21 +1696,21 @@ window.DAILY_MESSAGES = {
       "Hôm nay, vũ trụ mời gọi sự linh hoạt và khả năng ứng biến của bạn. Hãy tự tin cân bằng những dòng chảy năng lượng trong cuộc sống.",
       "Hãy đón nhận sự uyển chuyển của dòng chảy, bạn đang khéo léo điều hòa các khía cạnh khác nhau của cuộc đời mình. Mọi thứ đều có thể dung hòa.",
       "Sức mạnh của bạn nằm ở khả năng thích nghi. Hãy tận hưởng điệu nhảy của sự cân bằng, nơi mỗi yếu tố đều tìm thấy vị trí hài hòa của nó.",
-      "Bạn đang đứng trư���c ngưỡng cửa của sự đổi mới, hãy điều chỉnh hành trình để đón nhận những cơ hội mới. Sự linh hoạt là chìa khóa.",
+      "Bạn đang đứng trước ngưỡng cửa của sự đổi mới, hãy điều chỉnh hành trình để đón nhận những cơ hội mới. Sự linh hoạt là chìa khóa.",
       "Như một nghệ sĩ xiếc tài ba, bạn đang giữ cho mọi thứ không bị rơi. Đây là lúc để thể hiện sự khéo léo và khả năng quản lý tài tình của mình.",
       "Hôm nay, hãy tin vào trực giác để phân bổ năng lượng. Sự hài hòa giữa công việc và cuộc sống sẽ mang lại niềm vui và hiệu quả.",
       "Dòng chảy của sự thay đổi đang đến, hãy nhẹ nhàng lướt theo nó. Bạn có đủ sự khéo léo để điều hướng mọi sự phức tạp.",
       "Hãy biến những thách thức thành cơ hội để thể hiện sự khôn ngoan và khả năng sắp xếp của bạn. Mọi thứ đều có thể được dung hòa.",
       "Thế giới đang mở ra nhiều lựa chọn, hãy chọn lựa một cách thông minh và linh hoạt. Mỗi quyết định đều là một bước nhảy điệu nghệ.",
-      "Sức mạnh của sự cân bằng đang nằm trong tay bạn. Hãy đón nhận sự đa dạng v�� biến nó thành một bản giao hưởng hài hòa của cuộc sống."
+      "Sức mạnh của sự cân bằng đang nằm trong tay bạn. Hãy đón nhận sự đa dạng và biến nó thành một bản giao hưởng hài hòa của cuộc sống."
     ],
     "reversed": [
       "Hãy cẩn trọng, năng lượng đang trở nên mất cân bằng, khiến bạn cảm thấy quá tải và khó đưa ra quyết định. Đã đến lúc xem xét lại ưu tiên.",
       "Cảnh báo! Sự cứng nhắc có thể khiến bạn bỏ lỡ dòng chảy của cuộc sống. Hãy buông bỏ sự kiểm soát và tìm lại sự linh hoạt.",
-      "Có vẻ như bạn đang cố gắng ôm đồm quá nhiều, dẫn đến sự kiệt sức và hiệu quả giảm sút. Hãy học cách nói \"không\" và phân chia trách nhiệm.",
+      "Có vẻ như bạn đang cố gắng ôm đồm quá nhiều, dẫn đến sự kiệt sức và hiệu quả giảm sút. Hãy học cách nói không và phân chia trách nhiệm.",
       "Sự thiếu quyết đoán đang làm cản trở bước tiến của bạn. Hãy dũng cảm lựa chọn và tin tưởng vào khả năng của bản thân.",
       "Tiền bạc và tài chính có thể đang gây áp lực. Hãy xem xét lại cách quản lý, tìm kiếm sự ổn định và tránh rủi ro không cần thiết.",
-      "Bạn đang bỏ bê một số trách nhiệm quan trọng hoặc trì hoãn việc cần làm. Hãy đối mặt với chúng trước khi mọi thứ tr�� nên phức tạp hơn.",
+      "Bạn đang bỏ bê một số trách nhiệm quan trọng hoặc trì hoãn việc cần làm. Hãy đối mặt với chúng trước khi mọi thứ trở nên phức tạp hơn.",
       "Sự căng thẳng tích tụ đang đe dọa sự an yên nội tại. Hãy dành thời gian để nghỉ ngơi, sắp xếp lại suy nghĩ và tìm lại sự cân bằng.",
       "Đừng để mình bị cuốn vào vòng xoáy của những lo toan vụn vặt. Hãy nhìn nhận bức tranh lớn hơn và tập trung vào những điều thực sự có ý nghĩa.",
       "Bạn có thể đang cảm thấy bị mắc kẹt giữa nhiều lựa chọn hoặc nghĩa vụ chồng chéo. Hãy tìm kiếm sự hỗ trợ hoặc một góc nhìn mới để thoát ra.",
@@ -1722,7 +1722,7 @@ window.DAILY_MESSAGES = {
       "Hôm nay, cánh cổng hợp tác và học hỏi đang mở ra. Kỹ năng của bạn được mài giũa, và thành quả lao động sẽ sớm được ghi nhận.",
       "Nền tảng vững chắc đang được kiến tạo từ sự cống hiến và chuyên môn của bạn. Hãy tự hào về công trình mà bạn đang dày công xây đắp.",
       "Hãy tìm kiếm sự hướng dẫn từ những bậc thầy và sẻ chia tài năng của mình. Từ sự kết nối này, một kiệt tác sẽ thăng hoa.",
-      "Linh hồn bạn đang trên con đường tinh thông, từng n��� lực là viên gạch xây nên sự hoàn hảo. Hãy kiên định với hành trình làm chủ.",
+      "Linh hồn bạn đang trên con đường tinh thông, từng nổ lực là viên gạch xây nên sự hoàn hảo. Hãy kiên định với hành trình làm chủ.",
       "Mở lòng đón nhận những lời khuyên chuyên nghiệp và cộng tác cùng những tâm hồn đồng điệu. Sức mạnh tổng hợp sẽ mang lại thành công vang dội.",
       "Công việc của bạn đang thu hút ánh nhìn và nhận được sự đánh giá cao. Đây là thời điểm để tỏa sáng tài năng và sự tận tâm.",
       "Mỗi chi tiết nhỏ bạn chăm chút đều góp phần tạo nên sự hoàn hảo diệu kỳ. Hãy kiên trì và đặt trọn tâm huyết vào mỗi dự án.",
@@ -1810,7 +1810,7 @@ window.DAILY_MESSAGES = {
     ],
     "reversed": [
       "Cảnh báo: Có thể bạn đang mất cân bằng trong việc cho và nhận. Hãy xem xét lại liệu bạn đang bị lợi dụng hay đang quá keo kiệt.",
-      "Hãy cẩn trọng với những hành động cho đi có mục đích vụ lợi hoặc sự gi��p đỡ không chân thành từ người khác.",
+      "Hãy cẩn trọng với những hành động cho đi có mục đích vụ lợi hoặc sự giúp đỡ không chân thành từ người khác.",
       "Lá bài nhắc nhở bạn về sự bất công trong giao dịch hoặc mối quan hệ. Đừng để mình bị khai thác hay tự mình khai thác người khác.",
       "Sự thiếu lòng biết ơn hoặc sự từ chối giúp đỡ có thể tạo ra rào cản cho dòng chảy phước lành của bạn.",
       "Hãy nhìn sâu vào nội tâm: Liệu bạn đang ôm giữ quá chặt nguồn lực của mình, hay bạn đang cảm thấy mình mắc nợ ai đó quá nhiều?",
@@ -1826,8 +1826,8 @@ window.DAILY_MESSAGES = {
       "Thời khắc của sự kiên nhẫn đã đến, linh hồn ơi. Hãy an tâm nhìn hạt giống của mình nảy mầm, biết rằng mỗi nỗ lực đều là một phần của hành trình chờ đợi.",
       "Hãy lùi lại và đánh giá những gì bạn đã gieo trồng. Đây là lúc để xem xét liệu khu vườn của bạn có đang phát triển đúng hướng hay không.",
       "Vũ trụ nhắc nhở bạn về tầm quan trọng của tầm nhìn dài hạn. Thành quả ngọt ngào thường đòi hỏi thời gian và sự bền bỉ.",
-      "Đừng vội vàng h��i quả khi chưa chín. Hãy tin tưởng vào quy luật tự nhiên của sự tăng trưởng và phát triển.",
-      "Bạn đang đứng giữa một dự án quan trọng, hãy tự hỏi: \"Liệu sự đầu tư này có xứng đáng?\" Câu trả lời nằm trong sự kiên định của bạn.",
+      "Đừng vội vàng hái quả khi chưa chín. Hãy tin tưởng vào quy luật tự nhiên của sự tăng trưởng và phát triển.",
+      "Bạn đang đứng giữa một dự án quan trọng, hãy tự hỏi: Liệu sự đầu tư này có xứng đáng? Câu trả lời nằm trong sự kiên định của bạn.",
       "Năng lượng của bạn đã được đặt vào, giờ là lúc để chờ đợi và quan sát. Hãy để dòng chảy của thời gian mang lại những gì xứng đáng.",
       "Đây là lời nhắc nhở rằng mọi công sức đều cần thời gian để đơm hoa kết trái. Hãy giữ vững niềm tin vào quá trình.",
       "Hãy đánh giá lại giá trị của công việc bạn đang làm. Đôi khi, việc lùi lại một bước sẽ giúp bạn nhìn rõ hơn bức tranh toàn cảnh.",
@@ -1840,7 +1840,7 @@ window.DAILY_MESSAGES = {
       "Hãy cẩn trọng với những khoản đầu tư vội vã hoặc năng lượng lãng phí. Đừng gieo hạt trên mảnh đất cằn cỗi mà không suy xét.",
       "Cảnh báo! Sự thất vọng có thể khiến bạn bỏ cuộc quá sớm. Hãy tìm kiếm sự hỗ trợ hoặc thay đổi chiến lược thay vì từ bỏ.",
       "Đừng để cảm giác mắc kẹt ngăn bạn đánh giá lại. Có lẽ đã đến lúc thay đổi cách tiếp cận thay vì tiếp tục làm điều vô ích.",
-      "Bạn đang làm việc quá sức mà không thấy kết quả? Hãy tự hỏi liệu bạn có đang đặt năng lượng vào đúng nơi, hay chỉ đang tự làm hao m��n mình.",
+      "Bạn đang làm việc quá sức mà không thấy kết quả? Hãy tự hỏi liệu bạn có đang đặt năng lượng vào đúng nơi, hay chỉ đang tự làm hao mòn mình.",
       "Sự sợ hãi khi cam kết hoặc sợ thất bại có thể đang kìm hãm bạn. Hãy đối mặt với nỗi sợ và đưa ra quyết định có ý thức.",
       "Cẩn thận với việc đưa ra các quyết định cắt giảm tổn thất một cách vội vàng. Hãy đảm bảo bạn đã xem xét tất cả các khả năng trước khi hành động.",
       "Nếu bạn đang cảm thấy không có tiến triển, có lẽ bạn cần một cái nhìn mới hoặc một lời khuyên từ bên ngoài. Đừng cố chấp đi theo lối mòn.",
@@ -1852,7 +1852,7 @@ window.DAILY_MESSAGES = {
       "Hành trình tinh thông đang mở ra trước mắt. Hãy đắm mình vào sự tỉ mỉ của công việc, và sự hoàn hảo sẽ là phần thưởng.",
       "Mỗi nhát búa, mỗi đường kim đều rèn giũa kỹ năng, đưa ngươi gần hơn tới đỉnh cao nghệ thuật và chuyên môn.",
       "Với tâm trí tập trung và đôi tay khéo léo, ngươi đang tạo nên giá trị bền vững từ sự cống hiến không ngừng.",
-      "Đừng ngại lặp lại, vì trong mỗi lần lặp lại là một bài học mới, một sự hoàn thiện tinh vi hơn cho k��� năng của ngươi.",
+      "Đừng ngại lặp lại, vì trong mỗi lần lặp lại là một bài học mới, một sự hoàn thiện tinh vi hơn cho khả năng của ngươi.",
       "Hãy tìm thấy niềm vui sâu sắc trong quá trình học hỏi không ngừng, trong việc mài giũa tài năng độc đáo của mình.",
       "Sự chuyên tâm và cần mẫn hôm nay sẽ là nền tảng vững chắc cho thành công rực rỡ và bền vững mai sau.",
       "Ngươi đang xây dựng một di sản, từng chi tiết nhỏ đều quan trọng và đáng được trân trọng trong quá trình đó.",
@@ -1882,7 +1882,7 @@ window.DAILY_MESSAGES = {
       "Sự thịnh vượng không chỉ ở vật chất mà còn ở tinh thần, khi bạn tìm thấy niềm vui trong sự tĩnh lặng và độc lập. Hãy đắm mình trong sự giàu có đích thực này.",
       "Bạn là minh chứng sống cho sự kiên trì và tài năng, đã biến ước mơ thành hiện thực hữu hình. Hãy trân trọng từng khoảnh khắc của sự tự do và thành công.",
       "Hào quang của sự tinh tế và quyền lực tự thân đang tỏa sáng quanh bạn. Hãy cho phép mình tận hưởng sự yên bình và tự do mà bạn đã dày công vun đắp.",
-      "Mỗi \"đồng tiền\" bạn gặt hái hôm nay đều là biểu tượng cho sự khéo léo và nỗ lực không ngừng nghỉ. Hãy tự hào về hành trình và điểm đến của mình.",
+      "Mỗi đồng tiền bạn gặt hái hôm nay đều là biểu tượng cho sự khéo léo và nỗ lực không ngừng nghỉ. Hãy tự hào về hành trình và điểm đến của mình.",
       "Đây là thời điểm để kết nối sâu sắc với bản thân, tìm thấy sự đủ đầy trong nội tâm và sự an toàn trong thế giới bạn đã tạo ra. Vẻ đẹp của sự độc lập đang hiển lộ.",
       "Hãy mở lòng đón nhận sự phong phú từ vũ trụ, biết rằng bạn đã chuẩn bị kỹ càng để đón nhận và duy trì nó. Sự thịnh vượng đang chảy tràn trong cuộc sống bạn."
     ],
@@ -1905,7 +1905,7 @@ window.DAILY_MESSAGES = {
       "Hãy đón nhận di sản mà thế hệ trước đã vun đắp, bởi bạn đang đứng trên đỉnh cao của sự viên mãn và thành công lâu dài.",
       "Vận may đang mỉm cười, mang đến sự ổn định tài chính và cảm giác thuộc về một cộng đồng vững chắc.",
       "Cội rễ của bạn sâu bền, hãy tận hưởng sự sung túc và hạnh phúc mà chúng mang lại.",
-      "Sự kế thừa không ch��� là vật chất, mà còn là giá trị tinh thần, giúp bạn xây dựng một tương lai thịnh vượng.",
+      "Sự kế thừa không chỉ là vật chất, mà còn là giá trị tinh thần, giúp bạn xây dựng một tương lai thịnh vượng.",
       "Bạn đã hoàn thành một chu trình quan trọng, hãy tận hưởng thành quả của sự kiên trì và tầm nhìn xa.",
       "Hạnh phúc gia đình và sự ổn định tài chính là món quà mà vũ trụ ban tặng cho sự cống hiến của bạn.",
       "Hãy tin tưởng vào sự bảo bọc của truyền thống và những giá trị cốt lõi, chúng là la bàn dẫn lối thành công.",
@@ -1997,7 +1997,7 @@ window.DAILY_MESSAGES = {
       "Cẩn thận với sự ích kỷ hoặc thiếu trách nhiệm trong các vấn đề tài chính. Đã đến lúc xem xét lại cách bạn quản lý nguồn lực của mình.",
       "Năng lượng ngược nhắc nhở bạn không nên quá bám víu vào sự an toàn vật chất. Đôi khi, sự thay đổi là cần thiết để phát triển.",
       "Bạn có đang cảm thấy quá tải hoặc không thể hoàn thành các nghĩa vụ của mình? Hãy tìm kiếm sự hỗ trợ và ưu tiên những gì thực sự quan trọng.",
-      "Hãy xem xét liệu bạn có đang trở nên quá kiểm soát hoặc can thiệp sâu vào cuộc sống của người khác dưới danh nghĩa \"chăm sóc\" hay không. Tôn trọng không gian cá nhân.",
+      "Hãy xem xét liệu bạn có đang trở nên quá kiểm soát hoặc can thiệp sâu vào cuộc sống của người khác dưới danh nghĩa chăm sóc hay không. Tôn trọng không gian cá nhân.",
       "Lá bài này cảnh báo về sự mất cân bằng giữa công việc và cuộc sống cá nhân. Đừng để công việc chiếm hết thời gian và năng lượng dành cho gia đình và bản thân.",
       "Đừng để nỗi sợ hãi về sự thiếu thốn vật chất làm lu mờ khả năng của bạn. Hãy tin tưởng vào năng lực tự cung tự cấp và sự khéo léo của bản thân.",
       "Hãy cảnh giác với việc trở nên quá thực dụng hoặc chỉ tập trung vào lợi ích cá nhân mà quên đi giá trị của sự tử tế và lòng trắc ẩn."
@@ -2017,7 +2017,7 @@ window.DAILY_MESSAGES = {
       "Sức mạnh của bạn nằm ở khả năng biến ý tưởng thành hiện thực, mang lại giá trị vật chất và sự an toàn. Hãy phát huy tối đa."
     ],
     "reversed": [
-      "Cẩn thận với sự tham lam và ám ảnh vật chất. Đừng để tiền bạc kiểm so��t bạn, làm mất đi giá trị thực sự của cuộc sống.",
+      "Cẩn thận với sự tham lam và ám ảnh vật chất. Đừng để tiền bạc kiểm soát bạn, làm mất đi giá trị thực sự của cuộc sống.",
       "Sự thiếu trách nhiệm tài chính hoặc quản lý kém có thể dẫn đến bất ổn. Hãy xem xét lại các quyết định tiền bạc của bạn ngay.",
       "Bạn có thể đang trở nên quá cứng nhắc hoặc keo kiệt. Hãy mở lòng và chia sẻ, đừng để sự giàu có cô lập bạn khỏi thế giới.",
       "Một sự phụ thuộc quá mức vào vật chất có thể khiến bạn bỏ lỡ những niềm vui tinh thần khác. Hãy tìm sự cân bằng giữa tiền bạc và tâm hồn.",
@@ -2032,7 +2032,7 @@ window.DAILY_MESSAGES = {
 };
 
 // Generic fallback handler
-window.getDailyMessage = function(cardId, isReversed) {
+window.getDailyMessage = function (cardId, isReversed) {
   const data = window.DAILY_MESSAGES[cardId];
   if (data) {
     const list = isReversed ? data.reversed : data.upright;

@@ -417,7 +417,7 @@ window.AnalysisModule = (function () {
   }
 
   // Bind Share button
-  document.getElementById('btnShareReading')?.addEventListener('click', function () {
+  document.getElementById('btnShareReading')?.addEventListener('click', async function () {
     const id = this.dataset.id;
     if (!id) {
       if (!window.AuthModule?.isLoggedIn()) {
@@ -427,13 +427,31 @@ window.AnalysisModule = (function () {
       }
       return;
     }
-    const shareUrl = window.location.origin + window.location.pathname + '?share=' + id;
-    if (navigator.clipboard) {
-      navigator.clipboard.writeText(shareUrl).then(() => {
-        const origText = this.innerHTML;
+    
+    try {
+      const origText = this.innerHTML;
+      this.innerHTML = '<div class="ai-pulse" style="width:16px;height:16px;display:inline-block;margin-right:8px;vertical-align:middle;"></div> Đang tạo link...';
+      
+      const res = await fetch(`${API_BASE}/make_public.php?id=${id}`);
+      if (!res.ok) throw new Error('Không thể cấp quyền chia sẻ');
+      const data = await res.json();
+      const shareIdV2 = data.share_id || id;
+      
+      const shareUrl = window.location.origin + window.location.pathname + '?share=' + shareIdV2;
+      if (navigator.clipboard) {
+        await navigator.clipboard.writeText(shareUrl);
         this.innerHTML = 'Đã copy link! <svg width="20" height="20" viewBox="0 0 24 24" fill="none" class="animate-check" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="margin-left:8px;"><polyline points="20 6 9 17 4 12"></polyline></svg>';
-        setTimeout(() => this.innerHTML = origText, 2500);
-      });
+      } else {
+        this.innerHTML = origText;
+        alert("Lỗi copy link, bạn vui lòng thử lại!");
+        return;
+      }
+      setTimeout(() => this.innerHTML = origText, 2500);
+    } catch (e) {
+      console.error(e);
+      alert('⚠️ Không thể chia sẻ lúc này. Vui lòng thử lại.');
+      // Restore the innerHTML on error. We assume origText was saved correctly or just fallback to icon
+      this.innerHTML = '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="margin-right:8px"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line></svg> Chia Sẻ Lời Khuyên';
     }
   });
 

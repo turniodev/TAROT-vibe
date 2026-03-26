@@ -107,6 +107,9 @@
     spirit_guide:  { label: 'Thần Hộ Mệnh',                 group: 'Bản Thân' },
   };
 
+  // Expose to window for Daily Draw
+  window.showCardDetail = showCardDetail;
+
   function showCardDetail(card) {
     const cdContent = document.getElementById('cdContent');
     const cdModal = document.getElementById('cardDetailModal');

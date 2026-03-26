@@ -7639,3 +7639,34 @@ body {
   animation: slowPulse 2s infinite alternate;
   pointer-events: none;
 }
+
+/* ════════════════════════════════════════════════════
+   DAILY DRAW MODAL ENHANCEMENTS
+════════════════════════════════════════════════════ */
+.daily-line-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(90deg, transparent, var(--c-violet), var(--c-gold), transparent);
+}
+
+.daily-status {
+  font-family: 'EB Garamond', serif;
+  font-size: 1rem;
+  font-style: italic;
+  color: var(--c-gold-pale);
+  margin-top: -6px;
+  margin-bottom: 15px;
+  opacity: 0.9;
+}
+
+.daily-card-wrap.flipped .daily-card-back img {
+  transition: filter 0.3s ease, transform 0.3s ease;
+}
+
+.daily-card-wrap.flipped .daily-card-back img:hover {
+  cursor: pointer;
+  filter: drop-shadow(0 0 15px rgba(255, 215, 0, 0.6)) brightness(1.1);
+}
