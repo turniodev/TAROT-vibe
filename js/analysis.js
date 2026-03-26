@@ -228,6 +228,9 @@ window.AnalysisModule = (function () {
 
       // Generate HTML dynamically
       let html = '';
+      const progressBar = document.getElementById('clarifyProgressBar');
+      if (progressBar) progressBar.style.width = '0%';
+
       for (let i = 0; i < numQuestions; i++) {
         html += `
           <div class="cq-item" id="cq${i + 1}" style="display: ${i === 0 ? 'block' : 'none'}; opacity: ${i === 0 ? '1' : '0'}; transition: opacity 0.3s ease;">
@@ -248,6 +251,10 @@ window.AnalysisModule = (function () {
           const next = document.getElementById(`cq${index + 2}`);
 
           if (current) current.style.opacity = '0';
+          
+          const progressPercent = ((index + 1) / numQuestions) * 100;
+          const progressBar = document.getElementById('clarifyProgressBar');
+          if (progressBar) progressBar.style.width = `${progressPercent}%`;
 
           setTimeout(() => {
             if (current) current.style.display = 'none';

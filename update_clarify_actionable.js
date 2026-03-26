@@ -2,7 +2,7 @@ const fs = require('fs');
 const https = require('https');
 
 const DATA_PATH = 'e:\\TAROT\\js\\clarify_data.js';
-const API_KEY = process.env.GEMINI_API_KEY || 'AIzaSyAdsyNguqHmReQ8cX_upLYRAkVDN-wCA58';
+const API_KEY = process.env.GEMINI_API_KEY
 
 const LABELS = {
   love: 'Tình Yêu Tổng Quát',
@@ -139,7 +139,7 @@ async function start() {
   let rawContent = fs.readFileSync(DATA_PATH, 'utf-8');
   let jsonStr = rawContent.replace('window.ClarifyData = ', '').trim();
   if (jsonStr.endsWith(';')) jsonStr = jsonStr.slice(0, -1);
-  
+
   let db;
   try {
     db = new Function('return ' + jsonStr)();
@@ -179,7 +179,7 @@ async function start() {
     console.log("Đã cập nhật file clarify_data.js an toàn. Đợi 2s...");
     await new Promise(r => setTimeout(r, 2000));
   }
-  
+
   console.log("\\nHOÀN THÀNH TẠO LẠI DỮ LIỆU CLARIFY THEO FORMAT HÀNH VI THỰC TẾ!");
 }
 

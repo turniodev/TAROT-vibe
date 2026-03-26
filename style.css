@@ -6514,8 +6514,10 @@ body {
   width: 100%;
   max-width: 900px;
   max-height: 90vh;
-  background: linear-gradient(160deg, rgba(16, 0, 40, 0.98), rgba(8, 0, 22, 0.99));
-  border: 1px solid rgba(155, 48, 255, 0.35);
+  background: rgba(8, 0, 22, 0.88);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(155, 48, 255, 0.25);
   border-radius: 20px;
   box-shadow: 0 40px 100px rgba(0, 0, 0, 0.8), 0 0 60px rgba(155, 48, 255, 0.15);
   display: flex;
@@ -6529,6 +6531,25 @@ body {
 .dict-modal.visible .dict-panel,
 .cd-modal.visible .cd-panel {
   transform: translateY(0) scale(1);
+}
+
+.dict-panel::before,
+.cd-panel::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--c-violet), var(--c-gold), var(--c-glow), var(--c-violet), transparent);
+  background-size: 200% 100%;
+  animation: bgGradientRunning 3s linear infinite;
+  z-index: 20;
+}
+
+@keyframes bgGradientRunning {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
 }
 
 .dict-header {
@@ -6637,9 +6658,9 @@ body {
 .clarify-screen {
   position: fixed;
   inset: 0;
-  background: rgba(10, 0, 25, 0.85); /* Tối hơn một chút để tập trung */
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  background: rgba(10, 0, 25, 0.75); /* Tối hơn một chút để tập trung */
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
   z-index: 100000;
   display: flex;
   flex-direction: column;
@@ -6659,6 +6680,28 @@ body {
   width: 100%;
   max-width: 800px;
   animation: modalFadeIn 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.clarify-progress {
+  width: 100%;
+  height: 4px;
+  background: rgba(155, 48, 255, 0.2);
+  border-radius: 4px;
+  margin-bottom: 24px;
+  overflow: hidden;
+  position: relative;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.clarify-progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--c-glow), var(--c-gold));
+  width: 0%;
+  border-radius: 4px;
+  transition: width 0.6s cubic-bezier(0.25, 0.8, 0.25, 1);
+  box-shadow: 0 0 10px rgba(201, 168, 76, 0.5);
 }
 
 .cq-item {
@@ -6682,11 +6725,10 @@ body {
 .cq-btns {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 12px;
+  align-items: stretch;
 }
 .cq-btn {
-  flex: 2;
-  max-width: 160px;
   padding: 12px 0;
   background: transparent;
   border: 1px solid rgba(201, 168, 76, 0.3);
@@ -6699,9 +6741,14 @@ body {
   position: relative;
   overflow: hidden;
 }
+.cq-yes, .cq-no {
+  flex: 0 0 calc(40% - 6px);
+  max-width: calc(40% - 6px);
+}
 .cq-skip {
-  flex: 1;
-  max-width: 100px;
+  flex: 0 0 calc(20% - 6px);
+  max-width: calc(20% - 6px);
+  font-size: 0.9rem;
 }
 .cq-btn:hover {
   background: rgba(201, 168, 76, 0.1);
