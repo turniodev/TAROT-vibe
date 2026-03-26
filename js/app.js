@@ -1,5 +1,12 @@
 // js/app.js — Main application coordinator / page router
 (function () {
+  console.log(
+    "\n\n\n\n\n%c✦ IMPERIAL TAROT ✦%c\n\nChào mừng bạn đến với không gian tâm linh Huyền Bí Mystery Tarot. Mọi thông điệp đều mang tần số năng lượng riêng dành cho bạn.\n\n%c🔮 Developed & Designed by Turnio DEV%c\nKết nối: https://www.facebook.com/turni0\n\n\n\n\n\n\n\n\n\n\n",
+    "color: #C9A84C; font-size: 28px; font-weight: bold; text-shadow: 0 0 15px rgba(201, 168, 76, 0.8), 0 0 30px rgba(155, 48, 255, 0.5); font-family: 'Cinzel', serif; padding: 10px 0;",
+    "color: #e8b4ff; font-size: 14px; font-style: italic; font-family: 'EB Garamond', serif; line-height: 1.8;",
+    "color: #fff; font-size: 13px; font-family: 'Philosopher', serif; background: linear-gradient(90deg, #1e0f32, #6a1b9a); padding: 5px 12px; border-radius: 4px; border: 1px solid rgba(201, 168, 76, 0.3); display: inline-block;",
+    "color: #aaa; font-size: 12px; font-style: italic; margin-top: 10px; display: block;"
+  );
   const pages = {
     landing: document.getElementById('pageLanding'),
     reading: document.getElementById('pageReading'),

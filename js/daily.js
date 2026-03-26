@@ -70,11 +70,11 @@
         cardWrap.classList.add('flipped');
         cardImg.src = saved.card.image;
         cardImg.style.transform = saved.card.isReversed ? 'rotate(180deg)' : 'none';
-        
+
         nameEl.innerText = saved.card.name;
         const statusEl = document.getElementById('dailyCardStatus');
         if (statusEl) {
-          statusEl.innerHTML = `<span class="mm-orient ${saved.card.isReversed ? 'rev' : 'up'}">${saved.card.isReversed ? 'Ngược (Reversed)' : 'Xuôi (Upright)'}</span>`;
+          statusEl.innerHTML = `<span class="mm-orient ${saved.card.isReversed ? 'rev' : 'up'}">${saved.card.isReversed ? 'Ngược' : 'Xuôi'}</span>`;
           statusEl.style.textAlign = 'center';
           statusEl.style.marginTop = '4px';
           statusEl.style.marginBottom = '12px';
@@ -123,30 +123,30 @@
       cardImg.src = drawnCard.image;
       cardImg.style.transform = isReversed ? 'rotate(180deg)' : 'none';
       cardWrap.classList.add('flipped');
-      
+
       hintEl.innerText = 'Vũ trụ đang kết nối tinh tú...';
       hintEl.classList.add('shimmer-text');
-      
+
       // Simulate mystical calculation delay (e.g. 2 seconds)
       setTimeout(() => {
         let message = 'Năng lượng vũ trụ đang giao thoa, hãy tĩnh tâm và chiêm nghiệm lại lá bài này trong ngày hôm nay.';
-        
+
         if (window.getDailyMessage) {
           message = window.getDailyMessage(drawnCard.id, isReversed);
         } else {
           // Fallback based on keywords from TAROT_DB
-          message = isReversed ? 
-            (drawnCard.keywordsRev[0] + ": " + drawnCard.reversed.split('.')[0] + ".") : 
+          message = isReversed ?
+            (drawnCard.keywordsRev[0] + ": " + drawnCard.reversed.split('.')[0] + ".") :
             (drawnCard.keywords[0] + ": " + drawnCard.upright.split('.')[0] + ".");
         }
 
         saveDraw(drawnCard, message);
         syncWidgetState();
-        
+
         nameEl.innerText = drawnCard.name;
         const statusEl = document.getElementById('dailyCardStatus');
         if (statusEl) {
-          statusEl.innerHTML = `<span class="mm-orient ${isReversed ? 'rev' : 'up'}">${isReversed ? 'Ngược (Reversed)' : 'Xuôi (Upright)'}</span>`;
+          statusEl.innerHTML = `<span class="mm-orient ${isReversed ? 'rev' : 'up'}">${isReversed ? 'Ngược' : 'Xuôi'}</span>`;
           statusEl.style.textAlign = 'center';
           statusEl.style.marginTop = '4px';
           statusEl.style.marginBottom = '12px';
@@ -156,7 +156,7 @@
         resultBox.classList.add('visible');
         hintEl.style.display = 'none';
         hintEl.classList.remove('shimmer-text');
-        
+
         // Click to open dictionary
         cardImg.onclick = () => {
           if (window.showCardDetail) {
@@ -164,7 +164,7 @@
             window.showCardDetail(drawnCard);
           }
         };
-        
+
         if (window.playDrawSound) window.playDrawSound();
       }, 2000);
     });
