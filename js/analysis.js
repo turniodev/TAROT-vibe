@@ -213,10 +213,13 @@ window.AnalysisModule = (function () {
         ];
       }
 
+      // Formatter function to dynamically update pronouns (vợ/chồng, người yêu) based on chosen gender.
+      const formatQ = (q) => window.FormModule?.formatGenderText ? window.FormModule.formatGenderText(q) : q;
+
       // Shuffle and pick random questions
       const shuffled = [...allQuestions].sort(() => 0.5 - Math.random());
-      let questions = shuffled.slice(0, numQuestions);
-      let replacementQuestions = shuffled.slice(numQuestions);
+      let questions = shuffled.slice(0, numQuestions).map(formatQ);
+      let replacementQuestions = shuffled.slice(numQuestions).map(formatQ);
 
       // Simulate a small delay for mystical effect
       await new Promise(r => setTimeout(r, 1500));

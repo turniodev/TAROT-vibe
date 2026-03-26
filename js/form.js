@@ -13,6 +13,31 @@
   let _selectedTheme = 'general';
 
   /* ── Helpers ──────────────────────────────────────── */
+  function formatGenderText(text) {
+    const gender = document.getElementById('inputGender')?.value || '';
+    if (gender === 'Nam' || gender === 'Nữ') {
+      let res = text.replace(/chồng\/vợ|vợ\/chồng/gi, match => {
+        const isUpper = match.charAt(0) === match.charAt(0).toUpperCase();
+        const repl = gender === 'Nam' ? 'vợ' : 'chồng';
+        return isUpper ? repl.charAt(0).toUpperCase() + repl.slice(1) : repl;
+      });
+      res = res.replace(/người yêu( cũ| hiện tại| tương lai)?/gi, match => {
+        const isFirstUpper = match.charAt(0) === 'N';
+        const isSecondUpper = match.charAt(6) === 'Y';
+        const suffix = match.slice(9) || '';
+        let repl = gender === 'Nam' ? 'bạn gái' : 'bạn trai';
+        if (isFirstUpper && isSecondUpper) {
+          repl = gender === 'Nam' ? 'Bạn Gái' : 'Bạn Trai';
+        } else if (isFirstUpper) {
+          repl = gender === 'Nam' ? 'Bạn gái' : 'Bạn trai';
+        }
+        return repl + suffix;
+      });
+      return res;
+    }
+    return text;
+  }
+
   function getStep(n) { return document.getElementById(`step${n}`); }
 
   function updateProgress(n) {
@@ -302,9 +327,9 @@
       </div>
       <div class="sub-theme-list">
         ${subs.map(s => `
-          <button class="sub-theme-item" data-value="${s.key}" data-search="${(s.label + ' ' + s.desc).toLowerCase()}" type="button">
-            <span class="sti-label">${s.label}</span>
-            <span class="sti-desc">${s._group ? s._group + ' · ' : ''}${s.desc}</span>
+          <button class="sub-theme-item" data-value="${s.key}" data-search="${(formatGenderText(s.label) + ' ' + formatGenderText(s.desc)).toLowerCase()}" type="button">
+            <span class="sti-label">${formatGenderText(s.label)}</span>
+            <span class="sti-desc">${s._group ? formatGenderText(s._group) + ' · ' : ''}${formatGenderText(s.desc)}</span>
             <span class="sti-arrow"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg></span>
           </button>`).join('')}
       </div>`;
@@ -1296,40 +1321,11 @@
   function refreshPresetQ() {
     const grid = document.getElementById('presetQGrid');
     const groups = PRESET_Q[_selectedTheme] || PRESET_Q.general;
-    const gender = document.getElementById('inputGender')?.value || '';
-
-    function formatQ(q) {
-      if (gender === 'Nam' || gender === 'Nữ') {
-        let newQ = q.replace(/chồng\/vợ|vợ\/chồng/gi, match => {
-          const isUpper = match.charAt(0) === match.charAt(0).toUpperCase();
-          const repl = gender === 'Nam' ? 'vợ' : 'chồng';
-          return isUpper ? repl.charAt(0).toUpperCase() + repl.slice(1) : repl;
-        });
-
-        newQ = newQ.replace(/người yêu tương lai/gi, match => {
-          const isFirstUpper = match.charAt(0) === 'N';
-          const isSecondUpper = match.charAt(6) === 'Y';
-
-          if (gender === 'Nam') {
-            if (isFirstUpper && isSecondUpper) return 'Bạn Gái Tương Lai';
-            if (isFirstUpper) return 'Bạn gái tương lai';
-            return 'bạn gái tương lai';
-          } else {
-            if (isFirstUpper && isSecondUpper) return 'Bạn Trai Tương Lai';
-            if (isFirstUpper) return 'Bạn trai tương lai';
-            return 'bạn trai tương lai';
-          }
-        });
-
-        return newQ;
-      }
-      return q;
-    }
 
     grid.innerHTML = groups.map(g => `
       <div class="preset-q-group">
-        <div class="preset-q-group-header">${formatQ(g.group)}</div>
-        ${g.qs.map(q => `<button class="preset-q-btn" type="button">${formatQ(q)}</button>`).join('')}
+        <div class="preset-q-group-header">${formatGenderText(g.group)}</div>
+        ${g.qs.map(q => `<button class="preset-q-btn" type="button">${formatGenderText(q)}</button>`).join('')}
       </div>`).join('');
     grid.querySelectorAll('.preset-q-btn').forEach(btn => {
       btn.addEventListener('click', () => {
