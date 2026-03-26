@@ -2008,9 +2008,9 @@ body {
   border-radius: 12px;
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
-  overflow: hidden;
   border: 1px solid rgba(155, 48, 255, 0.3);
   transition: border-color 0.4s, box-shadow 0.4s, filter 0.4s, transform 0.4s;
+  overflow: visible;
 }
 
 .card-back {
@@ -2058,6 +2058,7 @@ body {
   width: 100%;
   min-height: 0;
   object-fit: cover;
+  border-radius: 11px;
   display: block;
   border-top-left-radius: 11px;
   border-top-right-radius: 11px;
@@ -2115,23 +2116,18 @@ body {
 }
 
 /* Hover aura */
-.tarot-card::after {
-  content: '';
-  position: absolute;
-  inset: -3px;
-  border-radius: 15px;
-  pointer-events: none;
-  transition: box-shadow 0.4s;
-  z-index: 2;
+.tilt-wrapper {
+  position: relative;
+  overflow: visible !important;
 }
 
-.tarot-card:hover:not(.is-selected)::after {
-  box-shadow: 0 0 28px rgba(155, 48, 255, 0.7), 0 0 60px rgba(155, 48, 255, 0.2);
+.tarot-card:hover:not(.is-selected) .card-back {
+  box-shadow: 0 0 28px 2px rgba(155, 48, 255, 0.7), 0 0 60px 4px rgba(155, 48, 255, 0.2);
 }
 
 /* Flipped card hover aura same as face-down */
-.tarot-card.spread-card.flipped:hover::after {
-  box-shadow: 0 0 28px rgba(155, 48, 255, 0.7), 0 0 60px rgba(155, 48, 255, 0.2);
+.tarot-card.spread-card.flipped:hover .card-face {
+  box-shadow: 0 0 28px 2px rgba(155, 48, 255, 0.7), 0 0 60px 4px rgba(155, 48, 255, 0.2);
 }
 
 /* All Cards Flipped Constant Glow */
@@ -2139,21 +2135,21 @@ body {
 
   0%,
   100% {
-    box-shadow: 0 0 15px rgba(155, 48, 255, 0.3), 0 0 35px rgba(107, 0, 204, 0.1);
+    box-shadow: 0 0 15px 1px rgba(155, 48, 255, 0.3), 0 0 35px 2px rgba(107, 0, 204, 0.1);
   }
 
   50% {
-    box-shadow: 0 0 30px rgba(180, 100, 255, 0.5), 0 0 60px rgba(155, 48, 255, 0.3);
+    box-shadow: 0 0 30px 2px rgba(180, 100, 255, 0.5), 0 0 60px 4px rgba(155, 48, 255, 0.3);
   }
 }
 
-.selected-area.all-flipped .tarot-card.spread-card.flipped::after {
+.selected-area.all-flipped .tarot-card.spread-card.flipped .card-face {
   animation: allFlippedConstantGlow 3.5s ease-in-out infinite alternate;
 }
 
-.selected-area.all-flipped .tarot-card.spread-card.flipped:hover::after {
+.selected-area.all-flipped .tarot-card.spread-card.flipped:hover .card-face {
   animation: none;
-  box-shadow: 0 0 40px rgba(200, 120, 255, 0.8), 0 0 80px rgba(155, 48, 255, 0.4) !important;
+  box-shadow: 0 0 40px 3px rgba(200, 120, 255, 0.8), 0 0 80px 4px rgba(155, 48, 255, 0.4) !important;
 }
 
 
@@ -2579,16 +2575,21 @@ body {
 /* Hover: glow aura, no scale */
 .spread-card:not(.flipped):hover {
   z-index: 20;
-  filter:
-    drop-shadow(0 0 18px rgba(201, 168, 76, 0.75)) drop-shadow(0 0 48px rgba(201, 168, 76, 0.3)) brightness(1.12);
-  transition: filter 0.45s ease-out;
+}
+
+.spread-card:not(.flipped):hover .card-back {
+  box-shadow: 0 0 18px 2px rgba(201, 168, 76, 0.75), 0 0 48px 4px rgba(201, 168, 76, 0.3);
+}
+
+.spread-card:not(.flipped):hover .card-inner {
+  filter: brightness(1.12);
 }
 
 .spread-card.flipped {
   cursor: default;
 }
 
-.spread-card.flipped::after {
+.spread-card.flipped .card-back {
   box-shadow: none !important;
 }
 
@@ -4696,13 +4697,13 @@ body {
     margin-bottom: 4px !important;
   }
 
-  .spread-card {
-    width: 70px !important;
-    height: 120px !important;
-  }
-
   .card-caption {
     padding: 3px 4px !important;
+  }
+
+  .deck-card {
+    width: 38px !important;
+    height: 64px !important;
   }
 
   .card-caption-name {
@@ -5137,11 +5138,6 @@ body {
   .deck-card {
     width: 38px !important;
     height: 64px !important;
-  }
-
-  .spread-card {
-    width: 58px !important;
-    height: 98px !important;
   }
 }
 
@@ -5799,19 +5795,9 @@ body {
 }
 
 /* ════════════════════════════════════════════════════
-   SELECTED CARD SIZE — 1-card spread bigger
+   SELECTED CARD SIZE
 ════════════════════════════════════════════════════ */
-.selected-area[data-spread="1"] .spread-card {
-  width: 160px !important;
-  height: 275px !important;
-}
 
-@media (max-width: 768px) {
-  .selected-area[data-spread="1"] .spread-card {
-    width: 120px !important;
-    height: 206px !important;
-  }
-}
 
 /* ════════════════════════════════════════════════════
    MOBILE FIXES — batch

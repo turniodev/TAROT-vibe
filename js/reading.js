@@ -106,11 +106,6 @@ window.ReadingModule = (function () {
     tiltWrap.className = 'tilt-wrapper';
     tiltWrap.style.width = '100%';
     tiltWrap.style.height = '100%';
-    tiltWrap.setAttribute('data-tilt', '');
-    tiltWrap.setAttribute('data-tilt-max', '15');
-    tiltWrap.setAttribute('data-tilt-speed', '400');
-    tiltWrap.setAttribute('data-tilt-glare', 'true');
-    tiltWrap.setAttribute('data-tilt-max-glare', '0.25');
 
     const inner = document.createElement('div');
     inner.className = 'card-inner';
@@ -120,13 +115,28 @@ window.ReadingModule = (function () {
     backImg.src = BACK; backImg.alt = '';
     backImg.style.cssText = 'width:100%;height:100%;object-fit:fill;border-radius:11px;display:block;';
     back.appendChild(backImg);
+
+    const glareWrap = document.createElement('div');
+    glareWrap.className = 'js-tilt-glare';
+    glareWrap.style.cssText = 'position: absolute; inset: 0; border-radius: 12px; overflow: hidden; pointer-events: none; z-index: 10;';
+    const glareInner = document.createElement('div');
+    glareInner.className = 'js-tilt-glare-inner';
+    glareWrap.appendChild(glareInner);
+
     inner.appendChild(back);
+    inner.appendChild(glareWrap);
     
     tiltWrap.appendChild(inner);
     wrap.appendChild(tiltWrap);
     
     if (window.VanillaTilt) {
-      VanillaTilt.init(tiltWrap);
+      VanillaTilt.init(tiltWrap, {
+        max: 15,
+        speed: 400,
+        glare: true,
+        "max-glare": 0.25,
+        "glare-prerender": true
+      });
     }
     
     return wrap;
@@ -200,11 +210,14 @@ window.ReadingModule = (function () {
   }
 
   /* ── Dynamic card sizing ──────────────────────────── */
-  const SMALL_W = 120, SMALL_H = 206;
+  function getSmallW() { return window.innerWidth <= 768 ? (window.innerWidth <= 400 ? 58 : 70) : 120; }
+  function getSmallH() { return window.innerWidth <= 768 ? (window.innerWidth <= 400 ? 98 : 120) : 206; }
 
   function getSpreadCardSize() {
     const n = session.spread;
-    const gap = 22, padding = 48;
+    const isMobile = window.innerWidth <= 768;
+    const gap = isMobile ? 12 : 22;
+    const padding = isMobile ? 32 : 48;
     
     // Nới lỏng giới hạn chiều cao tối đa cho tụ ít bài
     let maxAbsHeight = 540;
@@ -212,9 +225,15 @@ window.ReadingModule = (function () {
     let heightRatio = 0.6;
     
     if (n === 1) {
-      maxAbsHeight = 750;
-      maxW = 420;
-      heightRatio = 0.75;
+      if (isMobile) {
+        maxAbsHeight = 360;
+        maxW = 200;
+        heightRatio = 0.55;
+      } else {
+        maxAbsHeight = 550;
+        maxW = 300;
+        heightRatio = 0.65;
+      }
     } else if (n === 3) {
       maxAbsHeight = 560;
       maxW = 250;
@@ -268,18 +287,13 @@ window.ReadingModule = (function () {
     const wrap = document.createElement('div');
     wrap.className = 'tarot-card spread-card';
     wrap.style.setProperty('--slot-idx', slotIdx);
-    wrap.style.width  = SMALL_W + 'px';
-    wrap.style.height = SMALL_H + 'px';
+    wrap.style.width  = getSmallW() + 'px';
+    wrap.style.height = getSmallH() + 'px';
 
     const tiltWrap = document.createElement('div');
     tiltWrap.className = 'tilt-wrapper';
     tiltWrap.style.width = '100%';
     tiltWrap.style.height = '100%';
-    tiltWrap.setAttribute('data-tilt', '');
-    tiltWrap.setAttribute('data-tilt-max', '12');
-    tiltWrap.setAttribute('data-tilt-speed', '400');
-    tiltWrap.setAttribute('data-tilt-glare', 'true');
-    tiltWrap.setAttribute('data-tilt-max-glare', '0.35');
 
     const inner = document.createElement('div');
     inner.className = 'card-inner';
@@ -308,14 +322,29 @@ window.ReadingModule = (function () {
 
     face.appendChild(frontImg);
     face.appendChild(caption);
+
+    const glareWrap = document.createElement('div');
+    glareWrap.className = 'js-tilt-glare';
+    glareWrap.style.cssText = 'position: absolute; inset: 0; border-radius: 12px; overflow: hidden; pointer-events: none; z-index: 10;';
+    const glareInner = document.createElement('div');
+    glareInner.className = 'js-tilt-glare-inner';
+    glareWrap.appendChild(glareInner);
+
     inner.appendChild(back);
     inner.appendChild(face);
+    inner.appendChild(glareWrap);
     
     tiltWrap.appendChild(inner);
     wrap.appendChild(tiltWrap);
     
     if (window.VanillaTilt) {
-      VanillaTilt.init(tiltWrap);
+      VanillaTilt.init(tiltWrap, {
+        max: 12,
+        speed: 400,
+        glare: true,
+        "max-glare": 0.35,
+        "glare-prerender": true
+      });
     }
 
     wrap.addEventListener('click', (e) => {
