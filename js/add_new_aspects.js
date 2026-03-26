@@ -1,7 +1,7 @@
 const fs = require('fs');
 const https = require('https');
 
-const API_KEY = process.env.GEMINI_API_KEY || "AIzaSyCTSJflC3WaGpi1ys8v45l-rU_G1eUpYmc";
+const API_KEY = process.env.GEMINI_API_KEY;
 const dataJsPath = "E:/TAROT/js/data.js";
 
 const newAspectsTemplate = {
@@ -48,84 +48,84 @@ const newAspectsTemplate = {
 };
 
 function parseDB(content) {
-    const match = content.match(/window\.TAROT_DB\s*=\s*(\[[\s\S]*\]);?/);
-    if (match) {
-        let jsonStr = match[1].replace(/,(?=\s*[}\]])/g, "");
-        return JSON.parse(jsonStr);
-    }
-    return [];
+  const match = content.match(/window\.TAROT_DB\s*=\s*(\[[\s\S]*\]);?/);
+  if (match) {
+    let jsonStr = match[1].replace(/,(?=\s*[}\]])/g, "");
+    return JSON.parse(jsonStr);
+  }
+  return [];
 }
 
 async function generateBatchNewAspects(cards) {
-    const cardListStr = cards.map(c => `- ${c.name} (${c.nameVi})`).join("\n");
-    const prompt = `Bạn là chuyên gia Tarot. Dựa vào 10 khía cạnh (aspects) mới của lá The Fool dưới đây, hãy viết 10 khía cạnh này (friendship, pregnancy, gossip, legal, moving, pet, dream, past_life, karma, lost_item) cho các lá bài sau:\n${cardListStr}\n\nYêu cầu:\n- BẮT BUỘC giữ nguyên 10 keys trên cho mỗi lá bài. Mỗi key chứa 'upright' và 'reversed'.\n- Lời văn trau chuốt, thơ mộng, sắc bén và bám sát ý nghĩa gốc của TỪNG lá bài.\n- Trả về MỘT OBJECT JSON DUY NHẤT có key là tên tiếng Anh của lá bài (ví dụ "The Magician"), value là object chứa 10 keys khía cạnh kia.\n- KHÔNG DÙNG MARKDOWN (không có \`\`\`json).\n\nMẫu cấu trúc 10 keys của The Fool:\n${JSON.stringify(newAspectsTemplate)}`;
+  const cardListStr = cards.map(c => `- ${c.name} (${c.nameVi})`).join("\n");
+  const prompt = `Bạn là chuyên gia Tarot. Dựa vào 10 khía cạnh (aspects) mới của lá The Fool dưới đây, hãy viết 10 khía cạnh này (friendship, pregnancy, gossip, legal, moving, pet, dream, past_life, karma, lost_item) cho các lá bài sau:\n${cardListStr}\n\nYêu cầu:\n- BẮT BUỘC giữ nguyên 10 keys trên cho mỗi lá bài. Mỗi key chứa 'upright' và 'reversed'.\n- Lời văn trau chuốt, thơ mộng, sắc bén và bám sát ý nghĩa gốc của TỪNG lá bài.\n- Trả về MỘT OBJECT JSON DUY NHẤT có key là tên tiếng Anh của lá bài (ví dụ "The Magician"), value là object chứa 10 keys khía cạnh kia.\n- KHÔNG DÙNG MARKDOWN (không có \`\`\`json).\n\nMẫu cấu trúc 10 keys của The Fool:\n${JSON.stringify(newAspectsTemplate)}`;
 
-    const data = JSON.stringify({
-        contents: [{ parts: [{ text: prompt }] }],
-        generationConfig: { response_mime_type: "application/json", temperature: 0.7 }
-    });
+  const data = JSON.stringify({
+    contents: [{ parts: [{ text: prompt }] }],
+    generationConfig: { response_mime_type: "application/json", temperature: 0.7 }
+  });
 
-    return new Promise((resolve, reject) => {
-        const req = https.request({
-            hostname: 'generativelanguage.googleapis.com',
-            path: `/v1beta/models/gemini-2.5-flash:generateContent?key=${API_KEY}`,
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json', 'Content-Length': Buffer.byteLength(data) }
-        }, (res) => {
-            const chunks = [];
-            res.on('data', chunk => chunks.push(chunk));
-            res.on('end', () => {
-                try {
-                    const body = Buffer.concat(chunks).toString('utf8');
-                    const json = JSON.parse(body);
-                    if (json.error) return reject(new Error(json.error.message));
-                    resolve(JSON.parse(json.candidates[0].content.parts[0].text));
-                } catch (e) { reject(e); }
-            });
-        });
-        req.on('error', reject);
-        req.write(data);
-        req.end();
+  return new Promise((resolve, reject) => {
+    const req = https.request({
+      hostname: 'generativelanguage.googleapis.com',
+      path: `/v1beta/models/gemini-2.5-flash:generateContent?key=${API_KEY}`,
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'Content-Length': Buffer.byteLength(data) }
+    }, (res) => {
+      const chunks = [];
+      res.on('data', chunk => chunks.push(chunk));
+      res.on('end', () => {
+        try {
+          const body = Buffer.concat(chunks).toString('utf8');
+          const json = JSON.parse(body);
+          if (json.error) return reject(new Error(json.error.message));
+          resolve(JSON.parse(json.candidates[0].content.parts[0].text));
+        } catch (e) { reject(e); }
+      });
     });
+    req.on('error', reject);
+    req.write(data);
+    req.end();
+  });
 }
 
 async function main() {
-    try {
-        let content = fs.readFileSync(dataJsPath, 'utf8');
-        let db = parseDB(content);
+  try {
+    let content = fs.readFileSync(dataJsPath, 'utf8');
+    let db = parseDB(content);
 
-        const targetAspects = Object.keys(newAspectsTemplate);
-        
-        let cardsToProcess = db.filter(c => c.id !== 0 && (!c.aspects || !targetAspects.every(k => c.aspects[k])));
+    const targetAspects = Object.keys(newAspectsTemplate);
 
-        console.log(`Còn ${cardsToProcess.length} lá cần cập nhật 10 trường mới...`);
+    let cardsToProcess = db.filter(c => c.id !== 0 && (!c.aspects || !targetAspects.every(k => c.aspects[k])));
 
-        const BATCH_SIZE = 1;
-        for (let i = 0; i < cardsToProcess.length; i += BATCH_SIZE) {
-            const batch = cardsToProcess.slice(i, i + BATCH_SIZE);
-            console.log(`Đang xử lý batch từ ${i+1} đến ${i + batch.length}...`);
-            try {
-                const results = await generateBatchNewAspects(batch);
-                for (const card of batch) {
-                    if (results[card.name]) {
-                        card.aspects = { ...card.aspects, ...results[card.name] };
-                        console.log(` -> Cập nhật thành công: ${card.name}`);
-                    } else {
-                        console.log(` -> Lỗi: API không trả về dữ liệu cho ${card.name}`);
-                    }
-                }
-                
-                for (const card of batch) {
-                    const index = db.findIndex(c => c.id === card.id);
-                    if (index !== -1) db[index] = card;
-                }
-                fs.writeFileSync(dataJsPath, "window.TAROT_DB = " + JSON.stringify(db, null, 2) + ";\n", 'utf8');
-                
-            } catch (err) {
-                console.error(`Lỗi batch: ${err.message}`);
-            }
+    console.log(`Còn ${cardsToProcess.length} lá cần cập nhật 10 trường mới...`);
+
+    const BATCH_SIZE = 1;
+    for (let i = 0; i < cardsToProcess.length; i += BATCH_SIZE) {
+      const batch = cardsToProcess.slice(i, i + BATCH_SIZE);
+      console.log(`Đang xử lý batch từ ${i + 1} đến ${i + batch.length}...`);
+      try {
+        const results = await generateBatchNewAspects(batch);
+        for (const card of batch) {
+          if (results[card.name]) {
+            card.aspects = { ...card.aspects, ...results[card.name] };
+            console.log(` -> Cập nhật thành công: ${card.name}`);
+          } else {
+            console.log(` -> Lỗi: API không trả về dữ liệu cho ${card.name}`);
+          }
         }
-        console.log("Hoàn thành cập nhật các trường mới!");
-    } catch (error) { console.error("Lỗi:", error); }
+
+        for (const card of batch) {
+          const index = db.findIndex(c => c.id === card.id);
+          if (index !== -1) db[index] = card;
+        }
+        fs.writeFileSync(dataJsPath, "window.TAROT_DB = " + JSON.stringify(db, null, 2) + ";\n", 'utf8');
+
+      } catch (err) {
+        console.error(`Lỗi batch: ${err.message}`);
+      }
+    }
+    console.log("Hoàn thành cập nhật các trường mới!");
+  } catch (error) { console.error("Lỗi:", error); }
 }
 main();
