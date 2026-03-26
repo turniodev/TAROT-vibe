@@ -126,6 +126,8 @@ if ($action === 'stats') {
 // ── Action: Users ────────────────────────────────────────
 if ($action === 'users') {
     $where = $search ? "WHERE u.email LIKE :q OR u.name LIKE :q" : '';
+    $sortParam = $_GET['sort'] ?? '';
+    $orderBy = ($sortParam === 'top') ? "ORDER BY reading_count DESC, last_reading DESC" : "ORDER BY last_reading DESC";
     $stmt = $pdo->prepare("
         SELECT u.id, u.email, u.name, u.dob, u.plan_type, u.status, u.plan_expiry_date, u.last_seen,
                COUNT(r.id) AS reading_count,
@@ -134,7 +136,7 @@ if ($action === 'users') {
         LEFT JOIN readings r ON r.user_id = u.id
         $where
         GROUP BY u.id
-        ORDER BY last_reading DESC
+        $orderBy
         LIMIT $limit OFFSET $offset
     ");
     if ($search)

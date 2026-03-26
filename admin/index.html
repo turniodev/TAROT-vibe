@@ -1681,6 +1681,7 @@
     let filterTheme = '';
     let filterStart = new Date(Date.now() - 7 * 86400000).toISOString().split('T')[0];
     let filterEnd = new Date().toISOString().split('T')[0];
+    let filterSortUser = '';
 
     const THEME_MAP = {
       love: 'Tình Yêu', ex: 'Người Yêu Cũ', current_love: 'Người Yêu Hiện Tại',
@@ -1995,9 +1996,16 @@
   `;
     }
 
+    function selectUserSort(val) {
+      filterSortUser = val;
+      if (activeFilterMenu) activeFilterMenu.classList.remove('show');
+      currentPage = 1;
+      renderUsers(document.getElementById('searchInput').value);
+    }
+
     // ── Users ────────────────────────────────────────────
     async function renderUsers(search = '') {
-      const d = await apiFetch('users', { page: currentPage, q: search });
+      const d = await apiFetch('users', { page: currentPage, q: search, sort: filterSortUser });
       if (!d.users?.length) {
         document.getElementById('viewContent').innerHTML = '<div style="color:var(--muted); text-align:center; padding:80px; font-family:\'EB Garamond\',serif; font-style:italic;">Chưa có người dùng</div>';
         return;
@@ -2047,7 +2055,22 @@
     </tr>
   `}).join('');
 
-      document.getElementById('viewContent').innerHTML = `
+      const filterHTML = `
+        <div style="display:flex; gap:16px; margin-bottom:24px; flex-wrap:wrap; align-items:center;">
+          <div class="filter-dropdown" id="userSortDropdown">
+            <button class="filter-btn" onclick="toggleFilterMenu(event, 'userSortMenu')">
+              <span>✦ ${filterSortUser === 'top' ? 'Top Lượt Hỏi' : 'Mới nhất'}</span>
+              <span>▾</span>
+            </button>
+            <div class="filter-menu" id="userSortMenu">
+              <div class="filter-item ${!filterSortUser ? 'active' : ''}" onclick="selectUserSort('')">Mới nhất</div>
+              <div class="filter-item ${filterSortUser === 'top' ? 'active' : ''}" onclick="selectUserSort('top')">Top Lượt Hỏi</div>
+            </div>
+          </div>
+        </div>
+      `;
+
+      document.getElementById('viewContent').innerHTML = filterHTML + `
     <div class="table-wrap">
       <div class="table-header">
         <div class="table-title">Danh Sách Người Dùng</div>

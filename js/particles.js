@@ -13,15 +13,13 @@
 
   function createStars() {
     stars = [];
-    const count = Math.floor((W * H) / 5000);
+    const count = Math.floor((W * H) / 2500); // Tăng số lượng sao một chút cho hiệu ứng 3D đậm hơn
     for (let i = 0; i < count; i++) {
       stars.push({
-        x: Math.random() * W,
-        y: Math.random() * H,
-        r: Math.random() * 1.2 + 0.2,
-        a: Math.random(),
-        speed: Math.random() * 0.004 + 0.001,
-        phase: Math.random() * Math.PI * 2
+        x: (Math.random() - 0.5) * W * 3, // Phân bổ rộng hơn màn hình
+        y: (Math.random() - 0.5) * H * 3,
+        z: Math.random() * 2000 + 1,      // Chiều sâu Z để giả lập 3D
+        r: Math.random() * 1.5 + 0.5
       });
     }
   }
@@ -137,52 +135,60 @@
   // ──────────────────────────────────────────
 
   let isWarping = false;
-  let warpFactor = 0;
+  let warpFactor = 1;
 
   function drawStars(t) {
     if (isWarping) {
-      if (warpFactor < 2.5) warpFactor += 0.06; // Gradual acceleration up to max speed
+      if (warpFactor < 18) warpFactor += 0.8; // Khởi động Warp Drive siêu tốc
+    } else {
+      if (warpFactor > 1) warpFactor -= 0.3;  // Giảm tốc về bình thường
+      if (warpFactor < 1) warpFactor = 1;     // Tốc độ bay bình thường (điều hướng sâu)
     }
 
-    stars.forEach((s, index) => {
-      ctx.beginPath();
-      if (isWarping) {
-        // Giảm thiểu đến 80% hạt bị hút vào để tránh rối mắt
-        if (index % 5 !== 0) return;
+    const hw = W / 2;
+    const hh = H / 2;
 
-        const dx = s.x - W / 2;
-        const dy = s.y - H / 2;
-        const dist = Math.sqrt(dx * dx + dy * dy) || 1;
-        
-        // Push outward
-        const speed = warpFactor * dist * 0.035;
-        s.x += (dx / dist) * speed;
-        s.y += (dy / dist) * speed;
-        s.r += warpFactor * 0.005;
+    stars.forEach((s) => {
+      // Sao bay về phía màn hình (giảm z)
+      s.z -= 1.8 * warpFactor;
 
-        // Respawn in center if out of bounds (Creates infinite tunnel)
-        if (s.x < -50 || s.x > W + 50 || s.y < -50 || s.y > H + 50) {
-          s.x = W / 2 + (Math.random() - 0.5) * 80;
-          s.y = H / 2 + (Math.random() - 0.5) * 80;
-          s.r = Math.random() * 0.5 + 0.2; // reset size
-        }
+      // Nếu sao bay qua qua màn camera, reset lại ở xa tít
+      if (s.z <= 0) {
+        s.x = (Math.random() - 0.5) * W * 3;
+        s.y = (Math.random() - 0.5) * H * 3;
+        s.z = 2000;
+        s.r = Math.random() * 1.5 + 0.5;
+      }
 
-        ctx.arc(s.x, s.y, s.r, 0, Math.PI * 2);
-        ctx.fillStyle = `rgba(255, 230, 255, ${0.4 + warpFactor * 0.15})`;
-        ctx.fill();
+      // Đảo ngược 3D thành 2D
+      const fov = 800;
+      const scale = fov / s.z;
+      const sx = s.x * scale + hw;
+      const sy = s.y * scale + hh;
+      const sr = s.r * scale;
 
-        // Starlight trail
+      if (sx >= 0 && sx <= W && sy >= 0 && sy <= H) {
         ctx.beginPath();
-        ctx.moveTo(s.x, s.y);
-        ctx.lineTo(s.x - dx * warpFactor * 0.04, s.y - dy * warpFactor * 0.04);
-        ctx.strokeStyle = `rgba(155, 80, 255, ${0.5 + warpFactor * 0.1})`;
-        ctx.lineWidth = s.r * 1.5;
-        ctx.stroke();
-      } else {
-        s.a = 0.4 + 0.5 * Math.sin(t * s.speed + s.phase);
-        ctx.arc(s.x, s.y, s.r, 0, Math.PI * 2);
-        ctx.fillStyle = `rgba(200, 160, 255, ${s.a})`;
+        // Độ mờ tăng dần khi sao đến gần
+        let alpha = (1 - s.z / 2000);
+        ctx.arc(sx, sy, sr, 0, Math.PI * 2);
+        ctx.fillStyle = `rgba(220, 190, 255, ${alpha})`;
         ctx.fill();
+
+        // Kéo vệt sáng khi di chuyển nhanh
+        if (warpFactor > 1.5 || s.z > 0) {
+          const prevZ = s.z + 15 * warpFactor; // Độ dài vệt sáng phụ thuộc tốc độ
+          const prevScale = fov / prevZ;
+          const psx = s.x * prevScale + hw;
+          const psy = s.y * prevScale + hh;
+          
+          ctx.beginPath();
+          ctx.moveTo(sx, sy);
+          ctx.lineTo(psx, psy);
+          ctx.strokeStyle = `rgba(160, 90, 255, ${alpha * 0.7})`;
+          ctx.lineWidth = sr * 0.8;
+          ctx.stroke();
+        }
       }
     });
 
@@ -302,12 +308,10 @@
   window.Particles = {
     triggerWarp: function(duration = 800) {
       isWarping = true;
-      warpFactor = 0;
-      for (let i = 0; i < 4; i++) spawnShootingStar(); // Initial burst
+      for (let i = 0; i < 6; i++) spawnShootingStar(); // Initial burst
       setTimeout(() => {
         isWarping = false;
-        warpFactor = 0;
-        createStars(); // Reset stars to random positions after warp
+        // Mượt mà giảm tốc về tốc độ bình thường nhờ drawStars() lo logic
       }, duration);
     }
   };

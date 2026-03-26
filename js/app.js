@@ -37,7 +37,7 @@
       const hasWarp = particles && particles.triggerWarp;
 
       if (hasWarp) {
-        particles.triggerWarp(1400); // Trigger visual warp
+        particles.triggerWarp(3000); // Trigger visual warp and make it last longer
 
         const landingCenter = document.querySelector('.landing-center');
         if (landingCenter) {
@@ -64,7 +64,7 @@
             }
           }, 1000);
         }
-      }, hasWarp ? 1200 : 300);
+      }, hasWarp ? 2800 : 300);
     }
 
     const focusScreen = document.getElementById('focusScreen');
@@ -229,53 +229,63 @@
           Chart.defaults.font.family = "'EB Garamond', serif";
           
           const ctx = topicsChartCanvas.getContext('2d');
-          topTopicsChartInstance = new Chart(ctx, {
-            type: 'bar',
-            data: {
-              labels: labels,
-              datasets: [{
-                label: 'Tỷ lệ %',
-                data: percentages,
-                backgroundColor: 'rgba(201, 168, 76, 0.6)',
-                borderColor: 'rgba(201, 168, 76, 1)',
-                borderWidth: 1,
-                borderRadius: 4
-              }]
-            },
-            options: {
-              indexAxis: 'y',
-              responsive: true,
-              maintainAspectRatio: false,
-              plugins: {
-                legend: { display: false },
-                tooltip: {
-                  backgroundColor: 'rgba(20, 10, 30, 0.9)',
-                  titleColor: '#e8b4ff',
-                  bodyColor: '#c9a84c',
-                  borderColor: '#c9a84c',
+          
+          // Trì hoãn một chút để CSS transition (fade-in) của modal chạy xong 
+          // thì mới tạo chart, giúp hiệu ứng chạy từ 0 lên hiển thị trọn vẹn
+          setTimeout(() => {
+            topTopicsChartInstance = new Chart(ctx, {
+              type: 'bar',
+              data: {
+                labels: labels,
+                datasets: [{
+                  label: 'Tỷ lệ %',
+                  data: percentages,
+                  backgroundColor: 'rgba(201, 168, 76, 0.6)',
+                  borderColor: 'rgba(201, 168, 76, 1)',
                   borderWidth: 1,
-                  padding: 10,
-                  displayColors: false,
-                  callbacks: {
-                     label: (ctx) => `${ctx.raw}%`
+                  borderRadius: 4
+                }]
+              },
+              options: {
+                indexAxis: 'y',
+                animation: {
+                  duration: 2000,
+                  easing: 'easeOutQuart'
+                },
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                  legend: { display: false },
+                  tooltip: {
+                    backgroundColor: 'rgba(20, 10, 30, 0.9)',
+                    titleColor: '#e8b4ff',
+                    bodyColor: '#c9a84c',
+                    borderColor: '#c9a84c',
+                    borderWidth: 1,
+                    padding: 10,
+                    displayColors: false,
+                    callbacks: {
+                       label: (ctx) => `\${ctx.raw}%`
+                    }
+                  }
+                },
+                scales: {
+                  x: {
+                    beginAtZero: true,
+                    ticks: { 
+                       precision: 0,
+                       callback: function(value) { return value + "%"; }
+                    },
+                    grid: { color: 'rgba(155, 48, 255, 0.1)' }
+                  },
+                  y: {
+                    ticks: { font: { family: "'Philosopher', serif", size: 14 } },
+                    grid: { display: false }
                   }
                 }
-              },
-              scales: {
-                x: {
-                  ticks: { 
-                     precision: 0,
-                     callback: function(value) { return value + "%"; }
-                  },
-                  grid: { color: 'rgba(155, 48, 255, 0.1)' }
-                },
-                y: {
-                  ticks: { font: { family: "'Philosopher', serif", size: 14 } },
-                  grid: { display: false }
-                }
               }
-            }
-          });
+            });
+          }, 350);
         }
       } catch (err) {
         console.error('Error fetching top topics:', err);
