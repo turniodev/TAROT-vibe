@@ -183,6 +183,7 @@
       { key: 'soulmate', label: 'Tri Kỷ / Soulmate', desc: 'Kết nối linh hồn' },
       { key: 'reconciliation', label: 'Gương Vỡ Lại Lành', desc: 'Quay lại tái hợp' },
       { key: 'secret_admirer', label: 'Người Thầm Thương', desc: 'Ai đang để ý bạn' },
+      { key: 'family', label: 'Gia Đình', desc: 'Các mối quan hệ gia đình' },
     ],
     career: [
       { key: 'career', label: 'Sự Nghiệp / Công Việc', desc: 'Công việc hiện tại' },
@@ -214,7 +215,6 @@
       { key: 'health', label: 'Sức Khỏe Thể Chất', desc: 'Cơ thể & bệnh tật' },
       { key: 'mental', label: 'Sức Khỏe Tâm Thần', desc: 'Cảm xúc & tâm lý' },
       { key: 'energy', label: 'Năng Lượng & Chakra', desc: 'Cân bằng năng lượng' },
-      { key: 'family', label: 'Gia Đình', desc: 'Các mối quan hệ gia đình' },
       { key: 'diet', label: 'Điều Độ / Chăm Sóc', desc: 'Ăn uống & lối sống' },
       { key: 'pet', label: 'Thú Cưng', desc: 'Vật nuôi kết nối' },
       { key: 'healing', label: 'Chữa Lành Tâm Hồn', desc: 'Phục hồi vết thương' },

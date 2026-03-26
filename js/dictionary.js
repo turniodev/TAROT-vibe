@@ -54,6 +54,7 @@
     soulmate:      { label: 'Tri Kỷ / Soulmate',          group: 'Tình Yêu' },
     reconciliation:{ label: 'Gương Vỡ Lại Lành',          group: 'Tình Yêu' },
     secret_admirer:{ label: 'Người Thầm Thương',          group: 'Tình Yêu' },
+    family:        { label: 'Gia Đình',                   group: 'Tình Yêu' },
     // Career
     career:        { label: 'Sự Nghiệp / Công Việc',      group: 'Sự Nghiệp' },
     job_search:    { label: 'Xin Việc Làm',                group: 'Sự Nghiệp' },
@@ -82,7 +83,6 @@
     health:        { label: 'Sức Khỏe Thể Chất',           group: 'Sức Khỏe' },
     mental:        { label: 'Sức Khỏe Tâm Thần',           group: 'Sức Khỏe' },
     energy:        { label: 'Năng Lượng & Chakra',          group: 'Sức Khỏe' },
-    family:        { label: 'Gia Đình',                     group: 'Sức Khỏe' },
     diet:          { label: 'Điều Độ / Chăm Sóc Bản Thân', group: 'Sức Khỏe' },
     pet:           { label: 'Thú Cưng',                     group: 'Sức Khỏe' },
     healing:       { label: 'Chữa Lành Tâm Hồn',           group: 'Sức Khỏe' },
