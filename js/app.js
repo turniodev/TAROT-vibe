@@ -44,7 +44,7 @@
       const hasWarp = particles && particles.triggerWarp;
 
       if (hasWarp) {
-        particles.triggerWarp(3000); // Trigger visual warp and make it last longer
+        particles.triggerWarp(2000); // Trigger visual warp and make it last longer
 
         const landingCenter = document.querySelector('.landing-center');
         if (landingCenter) {
@@ -71,7 +71,7 @@
             }
           }, 1000);
         }
-      }, hasWarp ? 2800 : 300);
+      }, hasWarp ? 2000 : 300);
     }
 
     const focusScreen = document.getElementById('focusScreen');

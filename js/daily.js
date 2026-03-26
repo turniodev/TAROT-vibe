@@ -60,6 +60,13 @@
     }
     syncWidgetState();
 
+    // Auto-open modal on first visit of the day
+    if (!getSavedDraw()) {
+      setTimeout(() => {
+        widget.click();
+      }, 2500);
+    }
+
     // Open Modal
     widget.addEventListener('click', () => {
       modal.classList.add('open');
