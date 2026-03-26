@@ -101,6 +101,17 @@ window.ReadingModule = (function () {
     const wrap  = document.createElement('div');
     wrap.className = 'tarot-card deck-card';
     wrap.dataset.deckIndex = index;
+    
+    const tiltWrap = document.createElement('div');
+    tiltWrap.className = 'tilt-wrapper';
+    tiltWrap.style.width = '100%';
+    tiltWrap.style.height = '100%';
+    tiltWrap.setAttribute('data-tilt', '');
+    tiltWrap.setAttribute('data-tilt-max', '15');
+    tiltWrap.setAttribute('data-tilt-speed', '400');
+    tiltWrap.setAttribute('data-tilt-glare', 'true');
+    tiltWrap.setAttribute('data-tilt-max-glare', '0.25');
+
     const inner = document.createElement('div');
     inner.className = 'card-inner';
     const back  = document.createElement('div');
@@ -110,7 +121,14 @@ window.ReadingModule = (function () {
     backImg.style.cssText = 'width:100%;height:100%;object-fit:fill;border-radius:11px;display:block;';
     back.appendChild(backImg);
     inner.appendChild(back);
-    wrap.appendChild(inner);
+    
+    tiltWrap.appendChild(inner);
+    wrap.appendChild(tiltWrap);
+    
+    if (window.VanillaTilt) {
+      VanillaTilt.init(tiltWrap);
+    }
+    
     return wrap;
   }
 
@@ -253,6 +271,16 @@ window.ReadingModule = (function () {
     wrap.style.width  = SMALL_W + 'px';
     wrap.style.height = SMALL_H + 'px';
 
+    const tiltWrap = document.createElement('div');
+    tiltWrap.className = 'tilt-wrapper';
+    tiltWrap.style.width = '100%';
+    tiltWrap.style.height = '100%';
+    tiltWrap.setAttribute('data-tilt', '');
+    tiltWrap.setAttribute('data-tilt-max', '12');
+    tiltWrap.setAttribute('data-tilt-speed', '400');
+    tiltWrap.setAttribute('data-tilt-glare', 'true');
+    tiltWrap.setAttribute('data-tilt-max-glare', '0.35');
+
     const inner = document.createElement('div');
     inner.className = 'card-inner';
 
@@ -282,7 +310,13 @@ window.ReadingModule = (function () {
     face.appendChild(caption);
     inner.appendChild(back);
     inner.appendChild(face);
-    wrap.appendChild(inner);
+    
+    tiltWrap.appendChild(inner);
+    wrap.appendChild(tiltWrap);
+    
+    if (window.VanillaTilt) {
+      VanillaTilt.init(tiltWrap);
+    }
 
     wrap.addEventListener('click', (e) => {
       if (!wrap.classList.contains('flipped')) {

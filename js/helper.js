@@ -101,10 +101,10 @@ window.showMysticalAlert = function(title, msg, btnText = 'Đã Hiểu', onOk = 
       <div class="modal-box" style="max-width: 400px; text-align: center; position: relative; background: var(--bg-modal, #170d2b); padding: 0; border: 1px solid rgba(201, 168, 76, 0.4); border-radius: 12px; box-shadow: 0 0 30px rgba(155, 48, 255, 0.2);">
         <div class="modal-body" style="padding: 32px 24px;">
           <div class="ai-pulse" style="margin: 0 auto 20px; border-color: var(--c-gold);"></div>
-          <h2 class="shimmer-text" style="color: var(--c-gold); font-size: 1.4rem; margin-bottom: 12px; font-family: 'Cinzel', serif;" id="mysticalAlertTitle"></h2>
-          <p id="mysticalAlertMsg" style="color: var(--c-pale); font-size: 1rem; line-height: 1.6; margin-bottom: 24px;"></p>
-          <div id="mysticalAlertCountdown" style="color: var(--c-gold); font-size: 2.5rem; font-family: 'Cinzel', serif; font-weight: bold; margin-bottom: 22px; text-shadow: 0 0 15px rgba(201, 168, 76, 0.8); display: none;"></div>
-          <button id="btnMysticalAlertOk" style="background: linear-gradient(135deg, rgba(82, 33, 130, 0.8), rgba(50, 16, 85, 0.9)); border: 1px solid rgba(201, 168, 76, 0.5); color: var(--c-gold); padding: 10px 36px; border-radius: 8px; font-family: 'Cinzel', serif; font-size: 1rem; cursor: pointer; text-transform: uppercase; letter-spacing: 1px; transition: all 0.3s ease; box-shadow: 0 0 15px rgba(201, 168, 76, 0.15);" onmouseover="this.style.boxShadow='0 0 25px rgba(201, 168, 76, 0.4)'; this.style.transform='translateY(-2px)';" onmouseout="this.style.boxShadow='0 0 15px rgba(201, 168, 76, 0.15)'; this.style.transform='none';"></button>
+          <h2 class="shimmer-text" style="color: var(--c-gold); font-size: 1.8rem; margin-bottom: 12px; font-family: 'EB Garamond', serif;" id="mysticalAlertTitle"></h2>
+          <p id="mysticalAlertMsg" style="color: var(--c-pale); font-size: 1.1rem; line-height: 1.6; margin-bottom: 24px; font-family: 'EB Garamond', serif;"></p>
+          <div id="mysticalAlertCountdown" style="color: var(--c-gold); font-size: 3.5rem; font-family: 'EB Garamond', serif; font-weight: bold; margin-bottom: 22px; text-shadow: 0 0 15px rgba(201, 168, 76, 0.8); display: none;"></div>
+          <button id="btnMysticalAlertOk" style="background: linear-gradient(135deg, rgba(82, 33, 130, 0.8), rgba(50, 16, 85, 0.9)); border: 1px solid rgba(201, 168, 76, 0.5); color: var(--c-gold); padding: 10px 36px; border-radius: 8px; font-family: 'EB Garamond', serif; font-size: 1.1rem; cursor: pointer; text-transform: uppercase; letter-spacing: 1px; transition: all 0.3s ease; box-shadow: 0 0 15px rgba(201, 168, 76, 0.15);" onmouseover="this.style.boxShadow='0 0 25px rgba(201, 168, 76, 0.4)'; this.style.transform='translateY(-2px)';" onmouseout="this.style.boxShadow='0 0 15px rgba(201, 168, 76, 0.15)'; this.style.transform='none';"></button>
         </div>
       </div>
     `;

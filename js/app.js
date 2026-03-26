@@ -161,8 +161,12 @@
         "Thông điệp bị ẩn",
         "Vũ trụ không tìm thấy tín hiệu hoặc thông điệp này đã được ẩn đi. Xin hãy trở lại nơi bắt đầu.",
         "Quay Về",
-        null,
-        3000
+        () => {
+          if (window.history.replaceState) {
+            window.history.replaceState({}, document.title, window.location.pathname);
+          }
+        },
+        5000
       );
     }
   }
