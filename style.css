@@ -5384,7 +5384,8 @@ body {
   display: none;
 }
 
-#pageAnalysis.page--active .btn-float-icon {
+#pageAnalysis.page--active .btn-float-icon,
+#pageLanding.page--active #btnTopTopics {
   display: flex;
 }
 

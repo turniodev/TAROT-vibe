@@ -202,7 +202,7 @@
       topicsChartCanvas.style.display = 'none';
 
       try {
-        const res = await fetch('tarot_api/get_top_topics.php');
+        const res = await fetch('https://ka-en.com.vn/tarot_api/get_top_topics.php');
         const json = await res.json();
         
         if (json.status === 'success') {
