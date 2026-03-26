@@ -22,6 +22,7 @@
       --muted:    rgba(232,224,255,0.45);
       --danger:   #ff6060;
       --success:  #60ffa0;
+      --warning:  #ffb860;
       --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
       color-scheme: dark;
     }
@@ -35,6 +36,36 @@
       min-height: 100vh;
       overflow-x: hidden;
     }
+
+    /* ── Nebula & Vignette Backgrounds ──────────────────── */
+    .bg-nebula {
+      position: fixed; inset: 0; z-index: -2; pointer-events: none;
+      background:
+        radial-gradient(circle at 15% 30%, rgba(107, 0, 204, 0.15), transparent 45%),
+        radial-gradient(circle at 85% 70%, rgba(155, 48, 255, 0.1), transparent 50%),
+        radial-gradient(circle at 50% 10%, rgba(201, 168, 76, 0.08), transparent 35%);
+      mix-blend-mode: screen;
+      animation: drift 25s ease-in-out infinite alternate;
+    }
+    @keyframes drift {
+      from { transform: scale(1) translate(0, 0); }
+      to { transform: scale(1.05) translate(2%, 2%); }
+    }
+    .bg-vignette {
+      position: fixed; inset: 0; z-index: -1; pointer-events: none;
+      background: radial-gradient(circle at center, transparent 30%, rgba(4, 0, 14, 0.75) 100%);
+    }
+    .bg-sigil-wrap {
+      position: fixed; top: 50%; left: 50%; width: 120vh; height: 120vh;
+      transform: translate(-50%, -50%); z-index: -2; pointer-events: none; opacity: 0.15;
+      animation: spinSigil 180s linear infinite;
+    }
+    @keyframes spinSigil {
+      from { transform: translate(-50%, -50%) rotate(0deg); }
+      to { transform: translate(-50%, -50%) rotate(360deg); }
+    }
+    .bg-sigil-svg { width: 100%; height: 100%; display: block; opacity: 0.8; }
+
 
     /* Form elements baseline */
     option {
@@ -52,11 +83,19 @@
     }
 
     /* ── Stars / Particles Canvas ──────────────────── */
-    #adminCanvas {
-      position: fixed; inset: 0; pointer-events: none; z-index: 0;
+    #particleCanvas, #lightningCanvas {
+      position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+      pointer-events: none; z-index: 0; opacity: 1;
     }
 
-    /* ── Login Screen ─────────────────────────────── */
+    /* ── Floating Cards ───────────────────────────── */
+    .floating-cards-layer { position: fixed; inset: 0; pointer-events: none; z-index: -1; overflow: hidden; }
+    .float-card {
+      position: absolute; top: 0; left: 0;
+      background: none !important; border-radius: 7px;
+      box-shadow: 0 4px 24px rgba(107,0,204,0.35); pointer-events: none;
+      will-change: transform, opacity; z-index: -1;
+    }
     #loginScreen {
       position: relative; z-index: 10;
       display: flex; align-items: center; justify-content: center; height: 100vh;
@@ -93,6 +132,30 @@
     @keyframes loginIconFloat {
       from { transform: translateY(0); }
       to   { transform: translateY(-8px); filter: drop-shadow(0 0 16px rgba(201,168,76,0.6)); }
+    }
+
+    /* ── Sigil Login Icon ───────────────────────── */
+    .sigil-wrap {
+      width: 130px; height: 130px;
+      margin: 0 auto 16px; position: relative;
+    }
+    .sigil-svg {
+      width: 100%; height: 100%; display: block;
+      animation: spinSigilIcon 24s linear infinite;
+    }
+    @keyframes spinSigilIcon {
+      from { transform: rotate(0deg); } to { transform: rotate(360deg); }
+    }
+    .sigil-glow {
+      position: absolute; top: 50%; left: 50%; width: 100%; height: 100%;
+      transform: translate(-50%, -50%);
+      background: radial-gradient(circle, rgba(155,48,255,0.3) 0%, transparent 60%);
+      pointer-events: none; filter: blur(10px);
+      animation: pulseSigil 3s ease-in-out infinite alternate;
+    }
+    @keyframes pulseSigil {
+      from { transform: translate(-50%, -50%) scale(0.9); opacity: 0.6; }
+      to { transform: translate(-50%, -50%) scale(1.1); opacity: 1; }
     }
 
     .login-title {
@@ -162,23 +225,26 @@
 
     /* Sidebar */
     .sidebar {
-      width: 230px;
+      width: 260px;
       flex-shrink: 0;
-      background: linear-gradient(180deg, rgba(10,0,28,0.98), rgba(6,0,18,0.99));
-      border-right: 1px solid var(--border);
+      background: linear-gradient(180deg, rgba(16,0,40,0.35), rgba(8,0,20,0.6));
+      border-right: 1px solid rgba(155,48,255,0.25);
+      box-shadow: 4px 0 30px rgba(0,0,0,0.6);
       display: flex;
       flex-direction: column;
-      padding: 24px 0;
+      padding: 32px 0;
       position: sticky;
       top: 0;
       height: 100vh;
-      backdrop-filter: blur(20px);
+      backdrop-filter: blur(24px);
+      z-index: 20;
     }
 
     .sidebar-logo {
-      padding: 0 22px 24px;
-      border-bottom: 1px solid var(--border);
-      margin-bottom: 20px;
+      padding: 0 28px 32px;
+      border-bottom: 1px solid rgba(155,48,255,0.15);
+      margin-bottom: 24px;
+      text-align: center;
     }
     .sidebar-logo-icon {
       font-size: 1.8rem;
@@ -204,32 +270,34 @@
     .nav-item {
       display: flex;
       align-items: center;
-      gap: 12px;
-      padding: 11px 22px;
+      gap: 14px;
+      padding: 14px 28px;
       cursor: pointer;
       color: var(--muted);
-      transition: all 0.25s var(--ease-out);
-      border-left: 3px solid transparent;
-      font-size: 0.88rem;
-      letter-spacing: 0.03em;
+      transition: all 0.3s var(--ease-out);
+      border-left: 4px solid transparent;
+      font-size: 0.95rem;
+      letter-spacing: 0.05em;
       position: relative;
+      margin-bottom: 4px;
     }
     .nav-item::before {
       content: '';
       position: absolute;
       inset: 0;
-      background: linear-gradient(90deg, rgba(155,48,255,0.12), transparent);
+      background: linear-gradient(90deg, rgba(155,48,255,0.15), transparent);
       opacity: 0;
       transition: opacity 0.3s;
     }
-    .nav-item:hover { color: var(--text); }
+    .nav-item:hover { color: var(--text); transform: translateX(4px); }
     .nav-item:hover::before { opacity: 1; }
     .nav-item.active {
       color: var(--gold-pale);
       border-left-color: var(--gold);
-      text-shadow: 0 0 10px rgba(201,168,76,0.3);
+      background: linear-gradient(90deg, rgba(201,168,76,0.1), transparent);
+      text-shadow: 0 0 10px rgba(201,168,76,0.4);
     }
-    .nav-item.active::before { opacity: 1; }
+    .nav-item.active::before { opacity: 0; }
     .nav-icon { font-size: 1.05rem; width: 22px; text-align: center; flex-shrink: 0; }
 
     .sidebar-footer {
@@ -442,6 +510,33 @@
       border-color: var(--border);
       color: var(--muted);
     }
+    .plan-select {
+      background: rgba(155,48,255,0.06);
+      border: 1px solid rgba(155,48,255,0.3);
+      color: var(--gold-pale);
+      border-radius: 8px;
+      padding: 3px 8px;
+      font-family: 'Philosopher', serif;
+      font-size: 0.75rem;
+      outline: none;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .plan-select:focus { border-color: var(--gold); }
+    
+    .status-chip {
+      display: inline-block;
+      border-radius: 20px;
+      padding: 3px 12px;
+      font-size: 0.72rem;
+      white-space: nowrap;
+      text-transform: capitalize;
+    }
+    .status-chip.active { background: rgba(96,255,160,0.1); border: 1px solid rgba(96,255,160,0.3); color: var(--success); }
+    .status-chip.warned { background: rgba(255,184,96,0.1); border: 1px solid rgba(255,184,96,0.3); color: var(--warning); }
+    .status-chip.banned { background: rgba(255,96,96,0.1); border: 1px solid rgba(255,96,96,0.3); color: var(--danger); }
+
+    /* ── Action Dropdown & Buttons ──────────────────── */
     .action-btn {
       background: rgba(155,48,255,0.12);
       border: 1px solid rgba(155,48,255,0.3);
@@ -460,6 +555,149 @@
       box-shadow: 0 4px 14px rgba(155,48,255,0.3);
       transform: translateY(-1px);
     }
+
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      right: 0; top: 110%;
+      background: rgba(12, 0, 30, 0.95);
+      min-width: 140px;
+      border: 1px solid rgba(155,48,255,0.4);
+      border-radius: 8px;
+      box-shadow: 0 8px 32px rgba(4,0,14,0.8);
+      z-index: 50;
+      backdrop-filter: blur(10px);
+      padding: 6px 0;
+    }
+    .dropdown-content.show {
+      display: block;
+      animation: fadeInDown 0.2s ease-out;
+    }
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-10px); }
+      to { opacity: 1; transform: none; }
+    }
+    .dropdown-item {
+      padding: 10px 16px;
+      cursor: pointer;
+      font-size: 0.8rem;
+      color: var(--text);
+      transition: background 0.2s;
+      text-align: left;
+      border: none;
+      background: none;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-family: 'Philosopher', serif;
+    }
+    .dropdown-item:hover {
+      background: rgba(155,48,255,0.15);
+    }
+    .dropdown-item.text-warn { color: var(--warning); }
+    .dropdown-item.text-ban { color: var(--danger); }
+    .dropdown-item.text-success { color: var(--success); }
+
+    /* Custom Input Dropdowns */
+    .filter-dropdown {
+      position: relative;
+    }
+    .filter-btn {
+      background: rgba(15,0,30,0.6);
+      border: 1px solid rgba(155,48,255,0.3);
+      color: var(--text);
+      border-radius: 12px;
+      padding: 10px 18px;
+      cursor: pointer;
+      font-family: 'Philosopher', serif;
+      font-size: 0.9rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      transition: all 0.3s;
+      min-width: 180px;
+      backdrop-filter: blur(8px);
+    }
+    .filter-btn:hover {
+      border-color: var(--gold);
+      box-shadow: 0 0 16px rgba(201,168,76,0.15);
+    }
+    .filter-menu {
+      position: absolute;
+      top: 100%; left: 0;
+      margin-top: 8px;
+      background: rgba(12,0,30,0.95);
+      border: 1px solid rgba(155,48,255,0.4);
+      border-radius: 12px;
+      min-width: 100%;
+      padding: 8px 0;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.8);
+      z-index: 60;
+      backdrop-filter: blur(12px);
+      display: none;
+      max-height: 300px;
+      overflow-y: auto;
+    }
+    .filter-menu.show {
+      display: block;
+      animation: fadeInDown 0.2s ease-out;
+    }
+    .filter-menu::-webkit-scrollbar { width: 4px; }
+    .filter-menu::-webkit-scrollbar-track { background: transparent; }
+    .filter-menu::-webkit-scrollbar-thumb { background: rgba(155,48,255,0.4); border-radius: 4px; }
+    
+    .filter-item {
+      padding: 10px 18px;
+      color: var(--muted);
+      cursor: pointer;
+      font-family: 'EB Garamond', serif;
+      font-size: 0.95rem;
+      transition: all 0.2s;
+      display: flex; align-items: center; gap: 8px;
+    }
+    .filter-item:hover { background: rgba(155,48,255,0.15); color: var(--gold-pale); }
+    .filter-item.active { background: rgba(201,168,76,0.1); color: var(--gold); border-left: 2px solid var(--gold); }
+    
+    /* Plan Dropdown within Table */
+    .plan-custom-select {
+      position: relative;
+      display: inline-block;
+    }
+    .plan-btn {
+      background: rgba(155,48,255,0.06);
+      border: 1px solid rgba(155,48,255,0.3);
+      color: var(--text);
+      border-radius: 8px;
+      padding: 5px 12px;
+      font-family: 'Philosopher', serif;
+      font-size: 0.75rem;
+      cursor: pointer;
+      min-width: 120px;
+      display: flex; justify-content: space-between; align-items: center;
+      transition: all 0.2s;
+    }
+    .plan-btn:hover { border-color: var(--gold); }
+    .plan-btn[data-val="guide"] { color: var(--gold); }
+    .plan-btn[data-val="master"] { color: #ff6060; }
+    
+    .plan-menu {
+      position: absolute; top: 100%; left: 0; margin-top: 4px;
+      background: rgba(12,0,30,0.98); border: 1px solid rgba(155,48,255,0.4);
+      border-radius: 8px; padding: 4px 0; z-index: 60; display: none; min-width: 100%;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.8);
+    }
+    .plan-menu.show { display: block; animation: fadeInDown 0.2s; }
+    .plan-item {
+      padding: 8px 12px; font-size: 0.75rem; color: var(--muted); cursor: pointer;
+      transition: all 0.2s; font-family: 'Philosopher', serif; white-space: nowrap;
+    }
+    .plan-item:hover { background: rgba(155,48,255,0.2); color: #fff; }
 
     /* Pagination */
     .pagination {
@@ -542,6 +780,52 @@
       to   { opacity: 1; transform: none; }
     }
 
+    /* Reading Detail Modal (Fullscreen Product Clone) */
+    .detail-box {
+      background: linear-gradient(160deg, rgba(8,0,20,0.98), rgba(4,0,10,0.99));
+      border: 1px solid rgba(155,48,255,0.4);
+      border-radius: 20px;
+      width: 100%; max-width: 900px;
+      padding: 40px; position: relative;
+      box-shadow: 0 20px 80px rgba(0,0,0,0.9), 0 0 40px rgba(155,48,255,0.15);
+      animation: detailIn 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+      margin: auto;
+    }
+    .detail-close {
+      position: absolute; top: 20px; right: 20px;
+      background: rgba(255,255,255,0.05); border: none; color: var(--muted);
+      width: 32px; height: 32px; border-radius: 50%;
+      cursor: pointer; font-size: 1.2rem; line-height: 1; transition: all 0.2s;
+    }
+    .detail-close:hover { background: rgba(255,96,96,0.2); color: #fff; }
+
+    /* Analysis View Parity */
+    .analysis-title-block { text-align: center; margin-bottom: 32px; }
+    .analysis-main-title { font-family: 'Cinzel', serif; font-size: 1.8rem; color: #e8e0ff; font-weight: 500; letter-spacing: 0.05em; margin-bottom: 8px;}
+    .analysis-meta-line { font-family: 'EB Garamond', serif; color: var(--gold); font-size: 0.95rem; margin-bottom: 20px; }
+    .analysis-question-hero { font-family: 'Philosopher', serif; font-size: 1.15rem; font-style: italic; color: #e8e0ff; padding: 16px; background: rgba(155,48,255,0.08); border: 1px solid rgba(155,48,255,0.2); border-radius: 8px; max-width: 600px; margin: 0 auto; line-height: 1.6;}
+
+    .ai-analysis-box {
+      background: rgba(12, 0, 30, 0.4);
+      border: 1px solid rgba(155,48,255,0.25);
+      border-radius: 12px;
+      padding: 32px;
+      margin-top: 32px;
+    }
+    .ai-label { color: var(--gold); font-family: 'Cinzel', serif; font-size: 1.1rem; text-align: center; display: block; margin-bottom: 24px; }
+    .ai-h3 { color: var(--gold); font-size: 1.15rem; font-family: 'Cinzel', serif; margin: 28px 0 14px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.03em;}
+    .ai-p { font-family: 'EB Garamond', serif; font-size: 1.05rem; line-height: 1.8; margin-bottom: 16px; text-align: justify; color: rgba(232,224,255,0.9); }
+    .ai-list { padding-left: 20px; margin-bottom: 16px; }
+    .ai-list li { font-family: 'EB Garamond', serif; font-size: 1.05rem; line-height: 1.8; margin-bottom: 8px; color: rgba(232,224,255,0.9); }
+    .ai-divider { text-align: center; color: var(--gold); opacity: 0.5; margin: 32px 0; font-size: 1.2rem; }
+
+    .cards-row { display: flex; gap: 24px; overflow-x: auto; padding: 12px 0; justify-content: center; flex-wrap: wrap;}
+    .card-thumb { text-align: center; width: 110px; }
+    .card-thumb-pos { font-size: 0.75rem; color: var(--muted); margin-bottom: 8px; font-family: 'EB Garamond', serif; }
+    .ab-card-img { width: 100%; border-radius: 8px; border: 1px solid rgba(155,48,255,0.4); box-shadow: 0 4px 16px rgba(107,0,204,0.4); }
+    .ab-card-img--rev { transform: rotate(180deg); }
+    .card-thumb-name { font-size: 0.8rem; color: var(--gold-pale); margin-top: 10px; font-family: 'Philosopher', serif; }
+    
     .detail-box {
       background: linear-gradient(160deg, rgba(16,0,40,0.97), rgba(8,0,20,0.99));
       border: 1px solid rgba(155,48,255,0.3);
@@ -677,13 +961,40 @@
 </head>
 <body>
 
-<!-- Starfield Background -->
-<canvas id="adminCanvas"></canvas>
+<!-- Canvas layers -->
+<canvas id="particleCanvas"></canvas>
+<canvas id="lightningCanvas"></canvas>
+
+<!-- Floating cards layer -->
+<div id="floatingCards" class="floating-cards-layer"></div>
+
+<!-- Background -->
+<div class="bg-nebula"></div>
+<div class="bg-vignette"></div>
+<div class="bg-sigil-wrap" aria-hidden="true">
+  <svg class="bg-sigil-svg" viewBox="0 0 400 400">
+    <circle cx="200" cy="200" r="188" fill="none" stroke="rgba(155,48,255,0.07)" stroke-width="1.2" />
+    <circle cx="200" cy="200" r="150" fill="none" stroke="rgba(201,168,76,0.06)" stroke-width="0.9" />
+    <circle cx="200" cy="200" r="112" fill="none" stroke="rgba(155,48,255,0.08)" stroke-width="0.8" />
+    <circle cx="200" cy="200" r="70" fill="none" stroke="rgba(201,168,76,0.05)" stroke-width="0.6" />
+    <polygon points="200,40 238,150 350,150 260,210 295,320 200,255 105,320 140,210 50,150 162,150" fill="none" stroke="rgba(201,168,76,0.03)" stroke-width="0.8" />
+  </svg>
+</div>
 
 <!-- Login -->
 <div id="loginScreen">
   <div class="login-box">
-    <span class="login-icon">🔮</span>
+    <div class="sigil-wrap">
+      <svg class="sigil-svg" viewBox="0 0 200 200">
+        <circle cx="100" cy="100" r="90" fill="none" stroke="rgba(155,48,255,0.4)" stroke-width="0.8" />
+        <circle cx="100" cy="100" r="70" fill="none" stroke="rgba(201,168,76,0.3)" stroke-width="0.6" />
+        <circle cx="100" cy="100" r="50" fill="none" stroke="rgba(155,48,255,0.6)" stroke-width="0.8" />
+        <polygon points="100,20 118,80 180,80 130,115 150,175 100,140 50,175 70,115 20,80 82,80" fill="none"
+          stroke="rgba(201,168,76,0.25)" stroke-width="0.6" />
+        <circle cx="100" cy="100" r="6" fill="rgba(155,48,255,0.8)" />
+      </svg>
+      <div class="sigil-glow"></div>
+    </div>
     <h1 class="login-title">Tarot Admin</h1>
     <p class="login-sub">Nhập mật khẩu để tiến vào cổng huyền bí</p>
     <input type="password" class="login-input" id="secretInput" placeholder="✦  Mật khẩu bí mật..." />
@@ -807,20 +1118,31 @@ let searchTimer;
 // Filters
 let filterTheme = '';
 let filterStart = new Date(Date.now() - 7 * 86400000).toISOString().split('T')[0];
-let filterEnd = '';
+let filterEnd = new Date().toISOString().split('T')[0];
 
 const THEME_MAP = {
   love:'Tình Yêu', ex:'Người Yêu Cũ', current_love:'Người Yêu Hiện Tại',
   ambiguous:'Mối Quan Hệ Mập Mờ', crush:'Crush', future_love:'Tình Duyên TL',
   someone:'Người Ấy', marriage:'Hôn Nhân', conflict:'Xung Đột', breakup:'Chia Tay',
   long_distance:'Yêu Xa', jealousy:'Người Thứ Ba', self_love:'Yêu Bản Thân',
+  toxic_relationship:'Q/hệ Độc Hại', soulmate:'Tri Kỷ / Soulmate', reconciliation:'Gương Vỡ Lại Lành', secret_admirer:'Người Thầm Thương',
+  friendship:'Tình Bạn', pregnancy:'Con Cái', gossip:'Thị Phi',
+
   career:'Sự Nghiệp', job_search:'Xin Việc', promotion:'Thăng Tiến',
   business:'Kinh Doanh', colleague:'Đồng Nghiệp', career_change:'Chuyển Nghề',
-  freelance:'Freelance', interview:'Phỏng Vấn',
+  freelance:'Freelance', interview:'Phỏng Vấn', legal:'Pháp Lý', moving:'Định Cư',
+  burnout:'Kiệt Sức', startup:'Khởi Nghiệp', workplace_politics:'Thị Phi Công Sở', side_hustle:'Nghề Tay Trái',
+
   finance:'Tài Chính', investment:'Đầu Tư', debt:'Nợ Nần', savings:'Tiết Kiệm', luck_money:'Lộc Tài',
-  health:'Sức Khỏe', mental:'Tâm Thần', energy:'Năng Lượng', family:'Gia Đình', diet:'Chăm Sóc',
+  real_estate:'Bất Động Sản', financial_loss:'Thua Lỗ', sudden_wealth:'Vận May Bất Ngờ',
+
+  health:'Sức Khỏe', mental:'Tâm Thần', energy:'Năng Lượng', family:'Gia Đình', diet:'Chăm Sóc', pet:'Thú Cưng',
+  healing:'Chữa Lành', stress:'Căng Thẳng', trauma:'Tổn Thương',
+
   study:'Học Tập', study_abroad:'Du Học', self:'Bản Thân', purpose:'Mục Đích',
   shadow_self:'Bóng Tối', decision:'Quyết Định', travel:'Du Lịch', spiritual:'Tâm Linh',
+  dream:'Giải Mộng', past_life:'Tiền Kiếp', karma:'Nghiệp Quả', lost_item:'Tìm Đồ',
+  exams:'Thi Cử', scholarship:'Học Bổng', talent:'Năng Khiếu', spirit_guide:'Thần Hộ Mệnh',
   general:'Tổng Quát'
 };
 
@@ -935,13 +1257,24 @@ async function renderDashboard() {
     ambiguous:'Mối Quan Hệ Mập Mờ', crush:'Crush / Thầm Thích', future_love:'Tình Duyên TL',
     someone:'Người Ấy', marriage:'Hôn Nhân', conflict:'Xung Đột', breakup:'Chia Tay',
     long_distance:'Yêu Xa', jealousy:'Người Thứ Ba', self_love:'Yêu Bản Thân',
+    toxic_relationship:'Q/hệ Độc Hại', soulmate:'Tri Kỷ / Soulmate', reconciliation:'Gương Vỡ Lại Lành', secret_admirer:'Người Thầm Thương',
+    friendship:'Tình Bạn', pregnancy:'Con Cái', gossip:'Thị Phi',
+
     career:'Sự Nghiệp', job_search:'Xin Việc', promotion:'Thăng Tiến',
     business:'Kinh Doanh', colleague:'Đồng Nghiệp', career_change:'Chuyển Nghề',
-    freelance:'Freelance', interview:'Phỏng Vấn',
+    freelance:'Freelance', interview:'Phỏng Vấn', legal:'Pháp Lý', moving:'Định Cư',
+    burnout:'Kiệt Sức', startup:'Khởi Nghiệp', workplace_politics:'Thị Phi Công Sở', side_hustle:'Nghề Tay Trái',
+
     finance:'Tài Chính', investment:'Đầu Tư', debt:'Nợ Nần', savings:'Tiết Kiệm', luck_money:'Lộc Tài',
-    health:'Sức Khỏe', mental:'Tâm Thần', energy:'Năng Lượng', family:'Gia Đình', diet:'Chăm Sóc',
+    real_estate:'Bất Động Sản', financial_loss:'Thua Lỗ', sudden_wealth:'Vận May Bất Ngờ',
+
+    health:'Sức Khỏe', mental:'Tâm Thần', energy:'Năng Lượng', family:'Gia Đình', diet:'Chăm Sóc', pet:'Thú Cưng',
+    healing:'Chữa Lành', stress:'Căng Thẳng', trauma:'Tổn Thương',
+
     study:'Học Tập', study_abroad:'Du Học', self:'Bản Thân', purpose:'Mục Đích',
     shadow_self:'Bóng Tối', decision:'Quyết Định', travel:'Du Lịch', spiritual:'Tâm Linh',
+    dream:'Giải Mộng', past_life:'Tiền Kiếp', karma:'Nghiệp Quả', lost_item:'Tìm Đồ',
+    exams:'Thi Cử', scholarship:'Học Bổng', talent:'Năng Khiếu', spirit_guide:'Thần Hộ Mệnh',
     general:'Tổng Quát'
   };
 
@@ -997,18 +1330,60 @@ async function renderReadings(search = '') {
   });
 
   const themeOptions = Object.entries(THEME_MAP).map(([k, v]) => 
-    `<option value="${k}" ${k === filterTheme ? 'selected' : ''}>${v}</option>`
+    `<div class="filter-item ${k === filterTheme ? 'active' : ''}" onclick="selectTheme('${k}')">${v}</div>`
   ).join('');
+
+  let dateLabel = 'Tùy chỉnh...';
+  const todayStr = new Date().toISOString().split('T')[0];
+  const yesterdayStr = new Date(Date.now() - 86400000).toISOString().split('T')[0];
+  const weekAgoStr = new Date(Date.now() - 7 * 86400000).toISOString().split('T')[0];
+  const monthAgoStr = new Date(Date.now() - 30 * 86400000).toISOString().split('T')[0];
+
+  if (filterStart === todayStr && filterEnd === todayStr) dateLabel = 'Hôm nay';
+  else if (filterStart === yesterdayStr && filterEnd === yesterdayStr) dateLabel = 'Hôm qua';
+  else if (filterStart === weekAgoStr && filterEnd === todayStr) dateLabel = '7 ngày gần đây';
+  else if (filterStart === monthAgoStr && filterEnd === todayStr) dateLabel = '30 ngày gần đây';
+  else if (!filterStart && !filterEnd) dateLabel = 'Toàn thời gian';
+  else if (filterStart && filterEnd) dateLabel = `${filterStart} ➝ ${filterEnd}`;
+  else if (filterStart) dateLabel = `Từ ${filterStart}`;
+  else if (filterEnd) dateLabel = `Đến ${filterEnd}`;
 
   const filterHTML = `
     <div style="display:flex; gap:16px; margin-bottom:24px; flex-wrap:wrap; align-items:center;">
-      <select class="search-input" style="width:200px; padding:10px 16px; border-radius:12px; font-family:'EB Garamond',serif;" onchange="filterTheme=this.value; currentPage=1; renderReadings(document.getElementById('searchInput').value)">
-        <option value="">✦  Tất cả chủ đề</option>
-        ${themeOptions}
-      </select>
-      <input type="date" class="search-input" style="width:auto; padding:10px 16px; border-radius:12px; font-family:'EB Garamond',serif;" title="Từ ngày" value="${filterStart}" onchange="filterStart=this.value; currentPage=1; renderReadings(document.getElementById('searchInput').value)">
-      <span style="color:var(--muted); font-family:'EB Garamond',serif; font-style:italic;">đến</span>
-      <input type="date" class="search-input" style="width:auto; padding:10px 16px; border-radius:12px; font-family:'EB Garamond',serif;" title="Đến ngày" value="${filterEnd}" onchange="filterEnd=this.value; currentPage=1; renderReadings(document.getElementById('searchInput').value)">
+      
+      <div class="filter-dropdown" id="themeDropdown">
+        <button class="filter-btn" onclick="toggleFilterMenu(event, 'themeMenu')">
+          <span>✦ ${filterTheme ? THEME_MAP[filterTheme] : 'Tất cả chủ đề'}</span>
+          <span>▾</span>
+        </button>
+        <div class="filter-menu" id="themeMenu">
+          <div class="filter-item ${!filterTheme ? 'active' : ''}" onclick="selectTheme('')">Tất cả chủ đề</div>
+          <div style="height:1px; background:rgba(255,255,255,0.1); margin:4px 0;"></div>
+          ${themeOptions}
+        </div>
+      </div>
+
+      <div class="filter-dropdown" id="dateDropdown">
+        <button class="filter-btn" onclick="toggleFilterMenu(event, 'dateMenu')">
+          <span>🗓 ${dateLabel}</span>
+          <span>▾</span>
+        </button>
+        <div class="filter-menu" id="dateMenu" style="min-width: 260px;">
+          <div class="filter-item" onclick="selectDatePreset('today')">Hôm nay</div>
+          <div class="filter-item" onclick="selectDatePreset('yesterday')">Hôm qua</div>
+          <div class="filter-item" onclick="selectDatePreset('7days')">7 ngày gần đây</div>
+          <div class="filter-item" onclick="selectDatePreset('30days')">30 ngày gần đây</div>
+          <div class="filter-item" onclick="selectDatePreset('all')">Toàn thời gian</div>
+          <div style="height:1px; background:rgba(255,255,255,0.1); margin:4px 0;"></div>
+          <div style="padding: 10px 18px;" onclick="event.stopPropagation()">
+            <div style="font-size:0.75rem; color:var(--muted); margin-bottom:6px;">Từ ngày</div>
+            <input type="date" class="search-input" style="width:100%; padding:8px 12px; margin-bottom:10px; box-sizing:border-box;" value="${filterStart}" onchange="filterStart=this.value; updateCustomDate()">
+            <div style="font-size:0.75rem; color:var(--muted); margin-bottom:6px;">Đến ngày</div>
+            <input type="date" class="search-input" style="width:100%; padding:8px 12px; margin-bottom:10px; box-sizing:border-box;" value="${filterEnd}" onchange="filterEnd=this.value; updateCustomDate()">
+          </div>
+        </div>
+      </div>
+
     </div>
   `;
 
@@ -1066,7 +1441,11 @@ async function renderUsers(search = '') {
     return;
   }
 
-  const rows = d.users.map(u => `
+  const rows = d.users.map(u => {
+    const status = u.status || 'active';
+    const statusLabel = status === 'banned' ? 'Cấm' : (status === 'warned' ? 'Cảnh cáo' : 'Hoạt động');
+    const isFree = u.plan_type === 'free';
+    return `
     <tr>
       <td>
         <div style="font-weight:600; font-family:'Philosopher',serif">${u.name || '—'}</div>
@@ -1074,15 +1453,36 @@ async function renderUsers(search = '') {
       </td>
       <td class="td-muted" style="font-family:'EB Garamond',serif">${u.dob || '—'}</td>
       <td>
-        <span class="plan-chip ${u.plan_type === 'free' ? 'free' : ''}">
-          ${{ free: 'Miễn phí', guide: '⭐ Người Dẫn Đường', master: '👑 Bậc Thầy' }[u.plan_type] || u.plan_type}
-        </span>
+        <div class="plan-custom-select" id="plan-${u.id}">
+          <button class="plan-btn" data-val="${u.plan_type}" onclick="toggleFilterMenu(event, 'planMenu-${u.id}')">
+            <span>${u.plan_type === 'master' ? '👑 Bậc Thầy' : (u.plan_type === 'guide' ? '⭐ Người Dẫn Đường' : 'Miễn phí')}</span>
+            <span>▾</span>
+          </button>
+          <div class="plan-menu" id="planMenu-${u.id}">
+            <div class="plan-item" onclick="updateUserPlan(${u.id}, 'free', '${status}')">Miễn phí</div>
+            <div class="plan-item" onclick="updateUserPlan(${u.id}, 'guide', '${status}')">⭐ Người Dẫn Đường</div>
+            <div class="plan-item" onclick="updateUserPlan(${u.id}, 'master', '${status}')">👑 Bậc Thầy</div>
+          </div>
+        </div>
       </td>
       <td class="td-muted">${u.plan_expiry_date ? u.plan_expiry_date.slice(0,10) : '—'}</td>
-      <td style="text-align:center; color:var(--purple); font-family:'Cinzel',serif">${u.reading_count}</td>
-      <td class="td-muted" style="font-size:0.73rem">${u.last_reading ? u.last_reading.slice(0,16).replace('T',' ') : '—'}</td>
+      <td>
+        <span class="status-chip ${status}">${statusLabel}</span>
+      </td>
+      <td>
+        <div class="dropdown">
+          <button class="action-btn" onclick="toggleDropdown(event, ${u.id})">Hành động ▾</button>
+          <div id="dropdown-${u.id}" class="dropdown-content">
+            <button class="dropdown-item text-warn" onclick="confirmAction('Cảnh cáo', 'Bạn muốn gửi cảnh cáo đến người dùng này?', 'Cảnh cáo', 'primary', () => toggleStatus(${u.id}, '${status}', 'warned', '${u.plan_type}'))">Cảnh cáo</button>
+            <button class="dropdown-item text-ban" onclick="confirmAction('Cấm tài khoản', 'Khóa hoàn toàn tài khoản này?', 'Khóa', 'danger', () => toggleStatus(${u.id}, '${status}', 'banned', '${u.plan_type}'))">Khóa/Cấm</button>
+            <button class="dropdown-item text-success" onclick="toggleStatus(${u.id}, '${status}', 'active', '${u.plan_type}')">Kích hoạt lại</button>
+            <div style="height:1px; background:rgba(255,255,255,0.1); margin:4px 0;"></div>
+            <button class="dropdown-item text-ban" onclick="confirmAction('Xóa vĩnh viễn', 'CẢNH BÁO: Hành động này sẽ xóa toàn bộ dữ liệu và lịch sử trải bài của người dùng. Không thể hoàn tác!', 'Xóa Vĩnh Viễn', 'danger', () => executeDeleteUser(${u.id}))">Xóa Tài Khoản</button>
+          </div>
+        </div>
+      </td>
     </tr>
-  `).join('');
+  `}).join('');
 
   document.getElementById('viewContent').innerHTML = `
     <div class="table-wrap">
@@ -1090,15 +1490,79 @@ async function renderUsers(search = '') {
         <div class="table-title">Danh Sách Người Dùng</div>
         <span class="badge">${d.total} tài khoản</span>
       </div>
-      <table>
-        <thead>
-          <tr><th>Tên / Email</th><th>Ngày sinh</th><th>Gói cước</th><th>Hết hạn</th><th>Số lần</th><th>Lần cuối</th></tr>
-        </thead>
-        <tbody>${rows}</tbody>
-      </table>
+      <div style="overflow-x: auto;">
+        <table>
+          <thead>
+            <tr><th>Tên / Email</th><th>Ngày sinh</th><th>Gói cước</th><th>Hết hạn</th><th>Trạng thái</th><th>Hành động</th></tr>
+          </thead>
+          <tbody>${rows}</tbody>
+        </table>
+      </div>
       <div class="pagination">${renderPagination(d.page, Math.ceil(d.total/20))}</div>
     </div>
   `;
+}
+
+// ── User Management Actions ──────────────────────────
+async function updateUserPlan(id, newPlan, currentStatus) {
+  try {
+    const res = await fetch(API + '?action=update_user', {
+      method: 'POST',
+      headers: { 'Authorization': `Bearer \${SECRET}`, 'Content-Type': 'application/json' },
+      body: JSON.stringify({ id, plan_type: newPlan, status: currentStatus })
+    });
+    if (!res.ok) throw new Error();
+  } catch(e) {
+    alert("Lỗi khi cập nhật gói cước.");
+    renderUsers(document.getElementById('searchInput').value);
+  }
+}
+
+async function toggleStatus(id, currentStatus, newStatus, currentPlan) {
+  if (currentStatus === newStatus) return;
+  try {
+    const res = await fetch(API + '?action=update_user', {
+      method: 'POST',
+      headers: { 'Authorization': `Bearer \${SECRET}`, 'Content-Type': 'application/json' },
+      body: JSON.stringify({ id, plan_type: currentPlan, status: newStatus })
+    });
+    if (!res.ok) throw new Error();
+    renderUsers(document.getElementById('searchInput').value);
+  } catch(e) {
+    alert("Lỗi khi cập nhật trạng thái.");
+  }
+}
+
+async function executeDeleteUser(id) {
+  try {
+    const res = await fetch(API + '?action=delete_user', {
+      method: 'POST',
+      headers: { 'Authorization': `Bearer \${SECRET}`, 'Content-Type': 'application/json' },
+      body: JSON.stringify({ id })
+    });
+    if (!res.ok) throw new Error();
+    renderUsers(document.getElementById('searchInput').value);
+  } catch(e) {
+    alert("Lỗi khi xóa người dùng.");
+  }
+}
+
+/* ── Lightweight Markdown → HTML ─────────────────────── */
+function markdownToHtml(md) {
+  if (!md) return '';
+  return md
+    .replace(/^[-*_]{3,}$/gm, '<div class="ai-divider"><span>✦</span></div>')
+    .replace(/^### (.+)$/gm, '<h3 class="ai-h3">$1</h3>')
+    .replace(/^## (.+)$/gm, '<h3 class="ai-h3">$1</h3>')
+    .replace(/^# (.+)$/gm, '<h3 class="ai-h3">$1</h3>')
+    .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+    .replace(/\*(.+?)\*/g, '<em>$1</em>')
+    .replace(/^[-•] (.+)$/gm, '<li>$1</li>')
+    .replace(/(<li>.*<\/li>\n?)+/gs, m => `<ul class="ai-list">${m}</ul>`)
+    .replace(/^\d+\. (.+)$/gm, '<li>$1</li>')
+    .replace(/\n\n+/g, '</p><p class="ai-p">')
+    .replace(/^(?!<[hul])(.+)$/gm, (m) => m.trim() ? m : '')
+    .replace(/^([^<].+)$/gm, '<p class="ai-p">$1</p>');
 }
 
 // ── Detail modal ─────────────────────────────────────
@@ -1107,26 +1571,35 @@ async function showDetail(id) {
   document.getElementById('detailContent').innerHTML = '<div style="color:var(--muted); padding:40px; text-align:center; font-family:\'EB Garamond\',serif; font-style:italic; font-size:1rem;">Đang kết nối vũ trụ...</div>';
   const d = await apiFetch('reading', { id });
   const r = d.reading;
+  
+  const formattedDate = r.created_at.slice(0,16).replace('T',' ');
+  const dobText = r.dob ? `${r.dob} — ` : '';
+
   document.getElementById('detailContent').innerHTML = `
-    <div class="detail-name">${r.name} <span style="font-family:'EB Garamond',serif;font-weight:400;font-size:0.85rem;color:var(--muted)">&lt;${r.email}&gt;</span></div>
-    <div class="detail-meta">
-      Sinh: ${r.dob || '—'} &nbsp;|&nbsp; 
-      Chủ đề: <span style="color:var(--gold)">${THEME_MAP[r.theme] || r.theme}</span> &nbsp;|&nbsp; 
-      ${r.spread_count} lá &nbsp;|&nbsp; 
-      ${r.created_at.slice(0,16).replace('T',' ')}
+    <div class="analysis-title-block">
+      <h1 class="analysis-main-title">Thông Điệp Từ Vũ Trụ</h1>
+      <p class="analysis-meta-line">${r.name} ✧ ${dobText}${THEME_MAP[r.theme] || r.theme}</p>
+      <p class="analysis-question-hero">"${r.question}"</p>
     </div>
-    <div class="detail-question">"${r.question}"</div>
+
     <div class="cards-row">
-      ${(r.cards || []).map(c => `
-        <div class="card-thumb ${c.is_reversed ? 'rev' : ''}">
-          <div class="card-thumb-pos">${c.position_label}</div>
-          <img src="../cards/${c.card_name.toLowerCase().replace(/ /g, '-')}.jpg" 
-               onerror="this.style.display='none'" alt="${c.card_name}" />
+      ${(r.cards || []).map(c => {
+        const deckCard = window.TAROT_DB ? window.TAROT_DB.find(dbC => dbC.name === c.card_name) : null;
+        const imgSrc = deckCard ? `../${deckCard.image}` : `../cards/${(c.card_name || '').toLowerCase().replace(/ /g, '-')}.jpg`;
+        return `
+        <div class="card-thumb">
+          <div class="card-thumb-pos">${c.position_label || ''}</div>
+          <img class="ab-card-img ${c.is_reversed ? 'ab-card-img--rev' : ''}" 
+               src="${imgSrc}" 
+               onerror="this.src='../cards/back.png'" alt="${c.card_name}" />
           <div class="card-thumb-name">${c.card_name_vi || c.card_name}${c.is_reversed ? ' ↓' : ''}</div>
         </div>
-      `).join('')}
+        `;
+      }).join('')}
     </div>
-    <div class="analysis-box" style="font-family:'EB Garamond',serif; font-size:1.05rem; line-height:1.8; color:var(--text); white-space:normal;">
+
+    <div class="ai-analysis-box">
+      <span class="ai-label">✦ Luận Giải Tổng Hợp</span>
       ${markdownToHtml(r.gemini_analysis)}
     </div>
   `;
@@ -1159,6 +1632,117 @@ function goPage(p) {
   currentPage = p;
   loadView(currentView);
 }
+
+// ── Action Dropdown & Confirm Modals ────────────────
+let activeDropdown = null;
+let activeFilterMenu = null;
+let pendingActionCallback = null;
+
+function toggleDropdown(event, userId) {
+  event.stopPropagation();
+  const dropdown = document.getElementById(`dropdown-${userId}`);
+  if (activeDropdown && activeDropdown !== dropdown) {
+    activeDropdown.classList.remove('show');
+  }
+  dropdown.classList.toggle('show');
+  activeDropdown = dropdown.classList.contains('show') ? dropdown : null;
+}
+
+function toggleFilterMenu(event, menuId) {
+  event.stopPropagation();
+  const menu = document.getElementById(menuId);
+  if (activeFilterMenu && activeFilterMenu !== menu) {
+    activeFilterMenu.classList.remove('show');
+  }
+  menu.classList.toggle('show');
+  activeFilterMenu = menu.classList.contains('show') ? menu : null;
+}
+
+function selectTheme(val) {
+  filterTheme = val;
+  if (activeFilterMenu) activeFilterMenu.classList.remove('show');
+  currentPage = 1;
+  renderReadings(document.getElementById('searchInput').value);
+}
+
+function selectDatePreset(preset) {
+  const today = new Date();
+  const todayStr = today.toISOString().split('T')[0];
+  
+  if (preset === 'today') {
+    filterStart = todayStr; filterEnd = todayStr;
+  } else if (preset === 'yesterday') {
+    const yest = new Date(today.getTime() - 86400000).toISOString().split('T')[0];
+    filterStart = yest; filterEnd = yest;
+  } else if (preset === '7days') {
+    filterStart = new Date(today.getTime() - 7 * 86400000).toISOString().split('T')[0];
+    filterEnd = todayStr;
+  } else if (preset === '30days') {
+    filterStart = new Date(today.getTime() - 30 * 86400000).toISOString().split('T')[0];
+    filterEnd = todayStr;
+  } else if (preset === 'all') {
+    filterStart = ''; filterEnd = '';
+  }
+  
+  if (activeFilterMenu) activeFilterMenu.classList.remove('show');
+  currentPage = 1;
+  renderReadings(document.getElementById('searchInput').value);
+}
+
+function updateCustomDate() {
+  currentPage = 1;
+  renderReadings(document.getElementById('searchInput').value);
+}
+
+document.addEventListener('click', () => {
+  if (activeDropdown) {
+    activeDropdown.classList.remove('show');
+    activeDropdown = null;
+  }
+  if (activeFilterMenu) {
+    activeFilterMenu.classList.remove('show');
+    activeFilterMenu = null;
+  }
+});
+
+function confirmAction(title, desc, confirmBtnText, btnClass, callback) {
+  document.getElementById('modalTitle').textContent = title;
+  document.getElementById('modalDesc').textContent = desc;
+  const btn = document.getElementById('modalConfirmBtn');
+  btn.textContent = confirmBtnText;
+  btn.className = `btn-modal ${btnClass}`;
+  pendingActionCallback = callback;
+  document.getElementById('modalOverlay').classList.add('open');
+}
+
+function closeModal() {
+  document.getElementById('modalOverlay').classList.remove('open');
+  pendingActionCallback = null;
+}
+document.getElementById('modalConfirmBtn').addEventListener('click', () => {
+  if (pendingActionCallback) pendingActionCallback();
+  closeModal();
+});
+
 </script>
+
+<!-- Generic Modals overlay -->
+<div id="modalOverlay" class="detail-overlay" onclick="closeModal()">
+  <div class="modal-box" onclick="event.stopPropagation()">
+    <h2 class="modal-title" id="modalTitle">Xác nhận</h2>
+    <p class="modal-desc" id="modalDesc">Bạn có chắc chắn muốn thực hiện hành động này?</p>
+    <div class="modal-actions">
+      <button class="btn-modal" onclick="closeModal()">Hủy</button>
+      <button class="btn-modal primary" id="modalConfirmBtn">Đồng ý</button>
+    </div>
+  </div>
+</div>
+
+<!-- Background Effects -->
+<script src="../js/data.js?v=2"></script>
+<script src="../js/particles.js?v=2"></script>
+<script src="../js/lightning.js?v=2"></script>
+<script src="../js/float-cards.js?v=2"></script>
+
 </body>
 </html>

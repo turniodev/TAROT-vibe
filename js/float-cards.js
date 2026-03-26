@@ -5,7 +5,8 @@
   const cards = [];
 
   // Back image path — preload once to get natural dimensions
-  const BACK_IMG = 'cards/back.png';
+  // Admin page is in subfolder, so we check path
+  const BACK_IMG = window.location.pathname.includes('/admin') ? '../cards/back.png' : 'cards/back.png';
 
   function rand(min, max) { return min + Math.random() * (max - min); }
 

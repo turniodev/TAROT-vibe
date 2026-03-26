@@ -38,21 +38,31 @@ window.TarotHelper = (function () {
     return pool.slice(0, Math.min(n, pool.length));
   }
 
-  /* ── Theme display labels ────────────────────────── */
   const THEME_LABELS = {
     love: 'Tình Yêu', ex: 'Người Yêu Cũ', current_love: 'Người Yêu Hiện Tại',
     ambiguous: 'Mối Quan Hệ Mập Mờ', crush: 'Crush / Thầm Thích', future_love: 'Tình Duyên Tương Lai',
     someone: 'Người Ấy', marriage: 'Hôn Nhân', conflict: 'Giải Quyết Xung Đột', breakup: 'Chia Tay & Hàn Gắn',
     long_distance: 'Yêu Xa', jealousy: 'Người Thứ Ba / Ghen Tuông', self_love: 'Yêu Bản Thân',
+    finding_love: 'Tìm Kiếm Tình Yêu', compatibility: 'Độ Tương Hợp',
+    toxic_relationship: 'Q/hệ Độc Hại', soulmate: 'Tri Kỷ / Soulmate', reconciliation: 'Gương Vỡ Lại Lành', secret_admirer: 'Người Thầm Thương',
     friendship: 'Tình Bạn / Tri Kỷ', pregnancy: 'Con Cái / Thai Kỳ', gossip: 'Thị Phi / Đàm Tiếu',
+
     career: 'Sự Nghiệp', job_search: 'Xin Việc Làm', promotion: 'Thăng Tiến', business: 'Kinh Doanh / Khởi Nghiệp',
     colleague: 'Quan Hệ Đồng Nghiệp', career_change: 'Chuyển Nghề', freelance: 'Freelance / Tự Do',
     interview: 'Phỏng Vấn', legal: 'Pháp Lý / Giấy Tờ', moving: 'Chuyển Chỗ / Xuất Ngoại',
+    burnout: 'Kiệt Sức', startup: 'Khởi Nghiệp', workplace_politics: 'Thị Phi Công Sở', side_hustle: 'Nghề Tay Trái',
+
     finance: 'Tài Chính', investment: 'Đầu Tư', debt: 'Nợ Nần', savings: 'Tiết Kiệm', luck_money: 'Lộc Tài',
+    real_estate: 'Bất Động Sản', financial_loss: 'Thua Lỗ', sudden_wealth: 'Vận May Bất Ngờ',
+
     health: 'Sức Khỏe', mental: 'Tâm Thần', energy: 'Năng Lượng', family: 'Gia Đình', diet: 'Chăm Sóc Bản Thân', pet: 'Thú Cưng',
+    healing: 'Chữa Lành Tâm Hồn', stress: 'Căng Thẳng', trauma: 'Tổn Thương Quá Khứ',
+
     study: 'Học Tập', study_abroad: 'Du Học', self: 'Bản Thân', purpose: 'Mục Đích Sống', shadow_self: 'Bóng Tối Nội Tâm',
     decision: 'Ra Quyết Định', travel: 'Du Lịch / Di Chuyển', spiritual: 'Tâm Linh', dream: 'Giải Mã Giấc Mơ',
     past_life: 'Tiền Kiếp', karma: 'Nghiệp Quả (Karma)', lost_item: 'Tìm Đồ Thất Lạc',
+    exams: 'Thi Cử', scholarship: 'Học Bổng', talent: 'Năng Khiếu', spirit_guide: 'Thần Hộ Mệnh',
+
     general: 'Tổng Quát', more: 'Tổng Quát'
   };
 

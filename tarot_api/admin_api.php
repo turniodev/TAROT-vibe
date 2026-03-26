@@ -26,11 +26,71 @@ if ($token !== ADMIN_SECRET) {
 }
 
 $pdo = get_pdo();
+
+// Auto migrate status column if it doesn't exist
+try {
+    $pdo->query("SELECT status FROM users LIMIT 1");
+} catch(PDOException $e) {
+    if (strpos($e->getMessage(), 'Unknown column') !== false || strpos($e->getMessage(), 'no such column') !== false) {
+        $pdo->exec("ALTER TABLE users ADD COLUMN status VARCHAR(20) DEFAULT 'active'");
+    }
+}
+
 $action = $_GET['action'] ?? 'readings';
 $page = max(1, (int) ($_GET['page'] ?? 1));
 $limit = 20;
 $offset = ($page - 1) * $limit;
 $search = trim($_GET['q'] ?? '');
+
+// ── Action: Update User ──────────────────────────────────
+if ($action === 'update_user' && $_SERVER['REQUEST_METHOD'] === 'POST') {
+    $data = json_decode(file_get_contents('php://input'), true) ?? $_POST;
+    $id = (int)($data['id'] ?? 0);
+    $plan_type = trim($data['plan_type'] ?? '');
+    $status = trim($data['status'] ?? '');
+    
+    if (!$id || !$plan_type || !$status) {
+        json_error("Missing parameters", 400);
+    }
+    
+    $stmt = $pdo->prepare("UPDATE users SET plan_type = ?, status = ? WHERE id = ?");
+    $stmt->execute([$plan_type, $status, $id]);
+    json_ok(['message' => 'User updated successfully']);
+}
+
+// ── Action: Delete User ──────────────────────────────────
+if ($action === 'delete_user' && $_SERVER['REQUEST_METHOD'] === 'POST') {
+    $data = json_decode(file_get_contents('php://input'), true) ?? $_POST;
+    $id = (int)($data['id'] ?? 0);
+    
+    if (!$id) json_error("Missing user ID", 400);
+    
+    $pdo->beginTransaction();
+    try {
+        // Find all readings for this user
+        $stmt = $pdo->prepare("SELECT id FROM readings WHERE user_id = ?");
+        $stmt->execute([$id]);
+        $readingIds = $stmt->fetchAll(PDO::FETCH_COLUMN);
+        
+        if (!empty($readingIds)) {
+            $inClause = implode(',', array_fill(0, count($readingIds), '?'));
+            $delCards = $pdo->prepare("DELETE FROM reading_cards WHERE reading_id IN ($inClause)");
+            $delCards->execute($readingIds);
+            
+            $delReadings = $pdo->prepare("DELETE FROM readings WHERE user_id = ?");
+            $delReadings->execute([$id]);
+        }
+        
+        $delUser = $pdo->prepare("DELETE FROM users WHERE id = ?");
+        $delUser->execute([$id]);
+        
+        $pdo->commit();
+        json_ok(['message' => 'User and their readings deleted successfully']);
+    } catch(Exception $e) {
+        $pdo->rollBack();
+        json_error("Failed to delete user: " . $e->getMessage(), 500);
+    }
+}
 
 // ── Action: Stats ────────────────────────────────────────
 if ($action === 'stats') {
@@ -67,7 +127,7 @@ if ($action === 'stats') {
 if ($action === 'users') {
     $where = $search ? "WHERE u.email LIKE :q OR u.name LIKE :q" : '';
     $stmt = $pdo->prepare("
-        SELECT u.id, u.email, u.name, u.dob, u.plan_type, u.plan_expiry_date, u.last_seen,
+        SELECT u.id, u.email, u.name, u.dob, u.plan_type, u.status, u.plan_expiry_date, u.last_seen,
                COUNT(r.id) AS reading_count,
                MAX(r.created_at) AS last_reading
         FROM users u

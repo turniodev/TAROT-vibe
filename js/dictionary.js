@@ -50,6 +50,10 @@
     friendship:    { label: 'Tình Bạn / Tri Kỷ',          group: 'Tình Yêu' },
     pregnancy:     { label: 'Con Cái / Thai Kỳ',          group: 'Tình Yêu' },
     gossip:        { label: 'Thị Phi / Đàm Tiếu',         group: 'Tình Yêu' },
+    toxic_relationship: { label: 'Mối Quan Hệ Độc Hại',   group: 'Tình Yêu' },
+    soulmate:      { label: 'Tri Kỷ / Soulmate',          group: 'Tình Yêu' },
+    reconciliation:{ label: 'Gương Vỡ Lại Lành',          group: 'Tình Yêu' },
+    secret_admirer:{ label: 'Người Thầm Thương',          group: 'Tình Yêu' },
     // Career
     career:        { label: 'Sự Nghiệp / Công Việc',      group: 'Sự Nghiệp' },
     job_search:    { label: 'Xin Việc Làm',                group: 'Sự Nghiệp' },
@@ -61,12 +65,19 @@
     interview:     { label: 'Phỏng Vấn',                   group: 'Sự Nghiệp' },
     legal:         { label: 'Pháp Lý / Giấy Tờ',           group: 'Sự Nghiệp' },
     moving:        { label: 'Chuyển Chỗ / Xuất Ngoại',     group: 'Sự Nghiệp' },
+    burnout:       { label: 'Kiệt Sức / Áp Lực',          group: 'Sự Nghiệp' },
+    startup:       { label: 'Khởi Nghiệp',                 group: 'Sự Nghiệp' },
+    workplace_politics: { label: 'Thị Phi Công Sở',          group: 'Sự Nghiệp' },
+    side_hustle:   { label: 'Nghề Tay Trái',               group: 'Sự Nghiệp' },
     // Finance
     finance:       { label: 'Tài Chính Tổng Quát',         group: 'Tài Chính' },
     investment:    { label: 'Đầu Tư / Chứng Khoán',        group: 'Tài Chính' },
     debt:          { label: 'Nợ Nần / Vay Mượn',           group: 'Tài Chính' },
     savings:       { label: 'Tiết Kiệm & Tích Lũy',        group: 'Tài Chính' },
     luck_money:    { label: 'Lộc Tài / May Mắn',           group: 'Tài Chính' },
+    real_estate:   { label: 'Bất Động Sản',                group: 'Tài Chính' },
+    financial_loss:{ label: 'Thua Lỗ / Khó Khăn',          group: 'Tài Chính' },
+    sudden_wealth: { label: 'Vận May Bất Ngờ',             group: 'Tài Chính' },
     // Health
     health:        { label: 'Sức Khỏe Thể Chất',           group: 'Sức Khỏe' },
     mental:        { label: 'Sức Khỏe Tâm Thần',           group: 'Sức Khỏe' },
@@ -74,6 +85,9 @@
     family:        { label: 'Gia Đình',                     group: 'Sức Khỏe' },
     diet:          { label: 'Điều Độ / Chăm Sóc Bản Thân', group: 'Sức Khỏe' },
     pet:           { label: 'Thú Cưng',                     group: 'Sức Khỏe' },
+    healing:       { label: 'Chữa Lành Tâm Hồn',           group: 'Sức Khỏe' },
+    stress:        { label: 'Căng Thẳng / Âu Lo',          group: 'Sức Khỏe' },
+    trauma:        { label: 'Tổn Thương Quá Khứ',          group: 'Sức Khỏe' },
     // Self
     study:         { label: 'Học Tập',                      group: 'Bản Thân' },
     study_abroad:  { label: 'Du Học',                       group: 'Bản Thân' },
@@ -87,6 +101,10 @@
     past_life:     { label: 'Tiền Kiếp',                    group: 'Bản Thân' },
     karma:         { label: 'Nghiệp Quả (Karma)',           group: 'Bản Thân' },
     lost_item:     { label: 'Tìm Đồ Thất Lạc',              group: 'Bản Thân' },
+    exams:         { label: 'Thi Cử',                       group: 'Bản Thân' },
+    scholarship:   { label: 'Học Bổng',                     group: 'Bản Thân' },
+    talent:        { label: 'Năng Khiếu',                   group: 'Bản Thân' },
+    spirit_guide:  { label: 'Thần Hộ Mệnh',                 group: 'Bản Thân' },
   };
 
   function showCardDetail(card) {

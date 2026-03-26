@@ -227,6 +227,78 @@ window.TAROT_DB = [
       "lost_item": {
         "upright": "Buông bỏ sự chấp niệm, tin rằng vật đã mất sẽ trở lại hoặc một điều mới mẻ sẽ thay thế.",
         "reversed": "Mất đồ do sự bất cẩn, lơ đễnh hoặc không chú ý đến những chi tiết nhỏ."
+      },
+      "toxic_relationship": {
+        "upright": "Sự ngây thơ khiến bạn mù quáng trước những dấu hiệu cờ đỏ, hoặc đây là lúc bạn tìm thấy can đảm để nhảy thoát khỏi sự bế tắc bằng một khởi đầu mới.",
+        "reversed": "Cảnh báo về sự lẩn quẩn trong một mối quan hệ độc hại chỉ vì sợ sự cô đơn hoặc thiếu chín chắn để chấm dứt."
+      },
+      "soulmate": {
+        "upright": "Một cuộc gặp gỡ định mệnh mang đầy năng lượng hồn nhiên và tươi mới; một kết nối linh hồn khiến bạn thấy tự do được là chính mình.",
+        "reversed": "Những kỳ vọng hão huyền về một tình yêu cổ tích có thể khiến bạn bỏ qua những thử thách thực tế của mối gắn kết soulmate."
+      },
+      "reconciliation": {
+        "upright": "Một cơ hội quay lại hoàn toàn mới mẻ, xóa bỏ những định kiến cũ và bắt đầu lại từ vạch xuất phát như những người lữ hành tự do.",
+        "reversed": "Quay lại một cách bốc đồng mà chưa giải quyết rễ rập vấn đề, nguy cơ lặp lại chướng ngại cũ là rất lớn."
+      },
+      "secret_admirer": {
+        "upright": "Một người thầm thương mang năng lượng lạc quan, trẻ trung hoặc ai đó sắp tạo ra một sự bất ngờ đầy lãng mạn cho bạn.",
+        "reversed": "Người thầm thương có thể có phần thiếu nghiêm túc hoặc bạn đang cố lờ đi những tín hiệu quá rõ ràng vì e dè."
+      },
+      "burnout": {
+        "upright": "Lời kêu gọi khẩn thiết hãy tạm gác lại gánh nặng, cho phép bản thân nghỉ ngơi và có một chuyến đi ngắn để tìm lại tự do.",
+        "reversed": "Sự gắng gượng một cách mù quáng sắp vượt quá giới hạn chịu đựng; bạn cần dừng lại trước khi rơi xuống vực thẳm của sự cạn kiệt năng lượng."
+      },
+      "startup": {
+        "upright": "Năng lượng tuyệt vời cho sự khởi nghiệp! Hãy liều lĩnh theo đuổi đam mê với trái tim rộng mở và sẵn sàng học hỏi mọi thứ.",
+        "reversed": "Sự nhiệt tình thái quá nhưng thiếu kế hoạch kinh doanh chi tiết; cẩn trọng trước những rủi ro 'bắt dao rơi' khi thiếu kinh nghiệm."
+      },
+      "workplace_politics": {
+        "upright": "Hãy giữ thái độ vô tư, khách quan như Kẻ Ngốc, đừng để mình bị kéo vào mớ bòng bong của những toan tính công sở.",
+        "reversed": "Sự ngây dại có thể khiến bạn trở thành tâm điểm của thị phi hoặc bị lợi dụng; hãy nâng cao sự phòng bị."
+      },
+      "side_hustle": {
+        "upright": "Một ý tưởng nghề tay trái đầy sáng tạo và vui vẻ; cứ mạnh dạn thử nghiệm vì nó sẽ mang lại trải nghiệm thú vị độc đáo.",
+        "reversed": "Cần thận trọng với những quyết định bồng bột, đầu tư không suy tính cho một sở thích chưa thể sinh lời rõ ràng."
+      },
+      "real_estate": {
+        "upright": "Thời cơ thuận lợi cho một sự thay đổi chỗ ở đột phá hoặc giao dịch bất động sản mang tính chất mở ra cánh cửa hoàn toàn mới.",
+        "reversed": "Sự thiếu cẩn trọng trong các điều khoản giấy tờ; không nên vội vàng chốt kèo nhà cửa, đất đai vào lúc này."
+      },
+      "financial_loss": {
+        "upright": "Dù mất đi tài sản, The Fool nhắc bạn rằng bản thể cốt lõi vẫn còn nguyên vẹn; đây là bài học để bạn bắt đầu lại từ con số không với sự nhẹ bén hơn.",
+        "reversed": "Những sai lầm ngớ ngẩn hoặc sự bốc đồng vô trách nhiệm đang là căn nguyên của sự thất thoát tiền bạc."
+      },
+      "sudden_wealth": {
+        "upright": "May mắn bất ngờ gõ cửa đúng như cách vạn vật ưu ái năng lượng trẻ trung; một lộc tài nhỏ bé sẽ làm bạn vui vẻ cả ngày.",
+        "reversed": "Của thiên trả địa; nếu có lộc bất ngờ hãy cẩn thận đừng tiêu xài hoang phí trong phút chốc."
+      },
+      "healing": {
+        "upright": "Hành trình chữa lành chân thực bắt đầu khi bạn học cách yêu lại từ đầu, đối diện với cuộc đời bằng sự cởi mở và trong sáng nhất.",
+        "reversed": "Từ chối nhìn nhận thực tại tổn thương hoặc né tránh trách nhiệm chữa lành bằng cách tìm kiếm những niềm vui nông cạn."
+      },
+      "stress": {
+        "upright": "Sự căng thẳng sẽ được hóa giải khi bạn học cách buông lỏng kiểm soát, đi ra ngoài hít thở khí trời và tận hưởng hiện tại.",
+        "reversed": "Sự ôm đồm quá mức gây áp lực nặng nề; cẩn thận với những quyết định bốc đồng để chạy trốn khỏi stress áp lực."
+      },
+      "trauma": {
+        "upright": "Bóng ma quá khứ không còn trói buộc bạn; Inner child (đứa trẻ bên trong) vẫy gọi bạn thực sự sống lại với bản thể tự do thuần túy.",
+        "reversed": "Những vết thương chưa lành có thể khiến bạn hành xử liều lĩnh hoặc chối bỏ sự hỗ trợ, hãy đối mặt thay vì trốn chạy."
+      },
+      "exams": {
+        "upright": "Chuẩn bị với tinh thần tươi mới, niềm tin bất diệt vào bản thân sẽ giúp bạn bứt phá ngoạn mục.",
+        "reversed": "Sự chủ quan, nước đến chân mới nhảy hoặc thiếu sự ôn tập kỹ càng có thể dẫn đến kết quả hụt hẫng."
+      },
+      "scholarship": {
+        "upright": "Sự sáng tạo và tính nguyên bản táo bạo trong hồ sơ của bạn sẽ giúp bạn tỏa sáng và ghi điểm ấn tượng.",
+        "reversed": "Thiếu sự chuẩn bị chu đáo hoặc hành động quá bốc đồng dễ làm lỡ mất cơ hội vàng."
+      },
+      "talent": {
+        "upright": "Bạn có năng lực thiên bẩm về sự sáng tạo, đổi mới và nghệ thuật độc lập; hãy mạnh dạn khám phá những địa hạt chưa ai dấn tới.",
+        "reversed": "Tài năng bị lãng phí do sự thiếu kiên nhẫn trui rèn hoặc quá hời hợt cả thèm chóng chán."
+      },
+      "spirit_guide": {
+        "upright": "Spirit guide đang che chở khi bạn dấn bước vào chưa biết; hãy tin tưởng hoàn toàn vào trực giác vô điều kiện lúc này.",
+        "reversed": "Việc từ chối nghe theo lời nhắc nhở của định mệnh có thể khiến bạn vấp ngã; hãy lắng nghe trực giác thay vì bản ngã."
       }
     },
     "advice": "Hãy dũng cảm dang rộng đôi cánh để đón gió, nhưng đừng quên cúi nhìn mặt đất dưới chân. Sự tự do đích thực luôn đi kèm với ý thức trách nhiệm.",
@@ -462,6 +534,78 @@ window.TAROT_DB = [
       "lost_item": {
         "upright": "Món đồ bị mất có thể được tìm thấy thông qua sự tập trung và vận dụng trí óc. Hãy nhớ lại những nơi bạn đã sử dụng hoặc đặt nó một cách chủ động, hoặc nó sẽ xuất hiện khi bạn đang làm việc gì đó có liên quan.",
         "reversed": "Vật thất lạc có thể do sự bất cẩn, lơ đễnh hoặc bị đánh cắp bởi một kẻ khéo léo. Khó có thể tìm lại được nếu bạn không thực sự chú ý hoặc có người khác cố tình che giấu."
+      },
+      "toxic_relationship": {
+        "upright": "Lá bài này báo hiệu khả năng nhận diện và sử dụng ý chí để định hình lại động lực của một mối quan hệ độc hại. Bạn có quyền năng để tạo ra sự thay đổi, hoặc để thoát khỏi nó một cách có chủ đích, biến chuyển năng lượng tiêu cực thành hành động dứt khoát.",
+        "reversed": "Trong khía cạnh này, The Magician ngược chỉ ra sự thao túng, lừa dối tinh vi đang ăn mòn mối quan hệ. Một bên có thể đang dùng quyền lực hoặc lời nói để kiểm soát, tạo ra ảo ảnh về tình yêu trong khi thực chất là độc dược. Hoặc, bạn cảm thấy bất lực, không thể sử dụng công cụ của mình để thoát ra khỏi vòng xoáy độc hại này."
+      },
+      "soulmate": {
+        "upright": "Sức mạnh của The Magician xuôi biểu thị khả năng bạn đang chủ động thu hút và kiến tạo mối liên kết sâu sắc với một tri kỷ. Đây là sự manifest có ý thức, dùng ý định thuần khiết và hành động cụ thể để đưa người bạn tâm giao đích thực vào cuộc đời, hoặc cùng nhau xây đắp mối quan hệ linh hồn đã tìm thấy.",
+        "reversed": "Khi The Magician ngược hiện diện, có thể bạn đang bị lừa dối bởi ảo ảnh về một 'linh hồn song sinh' không có thật, hoặc tự mình thao túng một mối quan hệ để nó trông giống như định mệnh. Nó cũng có thể là sự lãng phí tiềm năng để tìm thấy tri kỷ đích thực do sự thiếu tập trung, ý định không rõ ràng, hoặc sợ hãi cam kết sâu sắc."
+      },
+      "reconciliation": {
+        "upright": "The Magician xuôi mang theo năng lượng của sự chủ động và khéo léo trong việc hàn gắn. Bạn có công cụ, lời nói và ý chí để tạo ra một cây cầu hòa giải, biến đổi sự chia cắt thành sự hiểu biết và kết nối. Đây là thời điểm để sử dụng kỹ năng giao tiếp và lòng chân thành để tái thiết.",
+        "reversed": "Sự hòa giải được đại diện bởi The Magician ngược thường bị vấy bẩn bởi sự không thành thật hoặc động cơ thao túng. Những lời nói xin lỗi có thể rỗng tuếch, hành động hàn gắn chỉ là vỏ bọc. Hoặc, bạn đang thiếu đi sự tập trung và công cụ cần thiết để thực sự sửa chữa những tổn thương, khiến mọi nỗ lực trở nên vô ích và không chân thực."
+      },
+      "secret_admirer": {
+        "upright": "The Magician xuôi ám chỉ một người hâm mộ bí mật đang khéo léo, tinh tế sử dụng mọi công cụ có sẵn để thu hút sự chú ý của bạn, tạo ra một màn trình diễn đầy mê hoặc mà không tiết lộ danh tính. Họ là bậc th���y trong việc gieo rắc những hạt giống quyến rũ và bí ẩn.",
+        "reversed": "Khi The Magician ngược xuất hiện, người hâm mộ bí mật này có thể có động cơ không trong sáng, hoặc đang sử dụng những thủ đoạn thao túng, lừa dối. Những cử chỉ của họ có thể không chân thật, hoặc sự vụng về của họ làm lộ ra ý định không minh bạch, gây ra sự khó chịu thay vì sự ngưỡng mộ."
+      },
+      "burnout": {
+        "upright": "Lá bài xuôi ở đây không phải là burnout, mà là khả năng của bạn để quản lý năng lượng và tài nguyên một cách khéo léo, tránh xa tình trạng kiệt sức. Bạn có ý chí và sự tập trung để phân bổ sức lực một cách khôn ngoan, biến áp lực thành động lực sáng tạo, duy trì ngọn lửa nội tại mà không thiêu rụi chính mình.",
+        "reversed": "The Magician ngược trong bối cảnh này báo hiệu sự kiệt sức do việc sử dụng năng lượng sai cách, thiếu tập trung, hoặc lạm dụng quyền lực của bản thân. Bạn đang tiêu hao sức l��c vào những mục tiêu không rõ ràng, hoặc bị thao túng bởi áp lực bên ngoài, dẫn đến sự cạn kiệt cả về thể chất lẫn tinh thần. Khả năng tự quản lý đã bị mất đi."
+      },
+      "startup": {
+        "upright": "The Magician xuôi là điềm lành cho một startup, biểu thị khả năng biến ý tưởng thành hiện thực thông qua kỹ năng, sự sáng tạo và ý chí mạnh mẽ. Bạn có mọi công cụ cần thiết để xây dựng một đế chế từ con số không, với tầm nhìn rõ ràng và hành động quyết đoán.",
+        "reversed": "Khi ngược, lá bài này cảnh báo về một startup đang gặp vấn đề do thiếu tập trung, quản lý kém hiệu quả, hoặc có thể là sự lừa dối trong kinh doanh. Tầm nhìn bị mờ mịt, tài nguyên bị lãng phí, hoặc người sáng lập thiếu đi khả năng thực thi thực sự, dẫn đến nguy cơ thất bại hoặc hoạt động không minh bạch."
+      },
+      "workplace_politics": {
+        "upright": "Bạn là một bậc thầy trong việc điều hướng những dòng chảy phức tạp của chính trị nơi làm việc. The Magician xuôi cho thấy khả năng sử dụng kỹ năng giao tiếp, chiến lược thông minh và ảnh hưởng của mình để đạt được mục tiêu một cách đạo đức và hiệu quả, biến thách thức thành cơ hội.",
+        "reversed": "The Magician ngược ở đây cảnh báo về việc tham gia vào các trò chơi chính trị nơi làm việc một cách thao túng, lừa dối hoặc phi đạo đức. Bạn có thể đang sử dụng ảnh hưởng của mình để tư lợi, hoặc trở thành nạn nhân của những âm mưu xảo quyệt do thiếu cảnh giác hoặc không có khả năng chống trả."
+      },
+      "side_hustle": {
+        "upright": "Đây là dấu hiệu của việc bạn đang khéo léo phát triển và hiện thực hóa một nguồn thu nhập phụ. Bạn đang áp dụng tài năng và tài nguyên của mình để tạo ra những cơ hội mới, chủ động quản lý nhiều dự án một cách hiệu quả, biến đam mê thành lợi nhuận.",
+        "reversed": "Khi ngược, lá bài này cho thấy công việc phụ của bạn đang bị qu���n lý kém, thiếu tập trung, hoặc có thể dựa trên những thực hành không trung thực. Tiềm năng kiếm tiền bị lãng phí do sự trì hoãn, năng lượng phân tán, hoặc công việc phụ trở thành gánh nặng do sự quản lý yếu kém."
+      },
+      "real_estate": {
+        "upright": "The Magician xuôi cho thấy sự khéo léo trong đàm phán, lập kế hoạch chiến lược và khả năng hiện thực hóa các giao dịch bất động sản thành công. Bạn đang sử dụng kiến thức và tài nguyên để đưa ra những quyết định đầu tư sáng suốt, tạo ra cơ hội sinh lời.",
+        "reversed": "The Magician ngược cảnh báo về sự lừa dối, thao túng trong các giao dịch bất động sản. Đó có thể là những phán đoán sai lầm, thiếu tập trung, hoặc thông tin sai lệch dẫn đến kết quả bất lợi. Tiềm năng trong thị trường bị bỏ lỡ do sự thiếu quyết đoán hoặc sự bất an của chính bạn."
+      },
+      "financial_loss": {
+        "upright": "Trong bối cảnh mất mát tài chính, The Magician xuôi biểu thị khả n��ng của bạn để chiến lược hóa và hành động để ngăn chặn hoặc phục hồi từ những tổn thất tiềm tàng. Bạn có công cụ để quản lý rủi ro, biến những thách thức thành cơ hội để tái thiết tài chính một cách khôn ngoan.",
+        "reversed": "Mất mát tài chính dưới tác động của The Magician ngược thường xuất phát từ sự thao túng, lừa dối, phán đoán kém hoặc việc sử dụng tài nguyên một cách liều lĩnh. Bạn thiếu khả năng kiểm soát tài chính của mình, dễ bị lừa gạt hoặc bị động trước những tổn thất đáng lẽ có thể tránh được."
+      },
+      "sudden_wealth": {
+        "upright": "The Magician xuôi không chỉ ra 'may mắn' ngẫu nhiên, mà là sự hiện thực hóa nhanh chóng của sự giàu có thông qua kỹ năng, sự khéo léo và hành động tập trung. Bạn đang tạo ra 'vận may' của chính mình thông qua các chiến lược thông minh và thực thi hiệu quả, biến ý định thành của cải vật chất.",
+        "reversed": "Sự giàu có đột ngột này, khi The Magician ngược xuất hiện, có thể được tạo ra thông qua các phương tiện thao túng, lừa dối hoặc bằng cách lợi dụng người khác. Hoặc, sự giàu có đó bị quản lý kém, nhanh chóng bị phung phí do phán đoán sai lầm, hoặc chỉ là một ảo ảnh không bền vững."
+      },
+      "healing": {
+        "upright": "Bạn đang chủ động sử dụng sức mạnh nội tại và các nguồn lực sẵn có để hiện thực hóa quá trình chữa lành. Đây là một cách tiếp cận có chủ đích, tập trung vào việc phục hồi thể chất, cảm xúc hoặc tinh thần, nắm quyền kiểm soát phúc lợi của chính mình.",
+        "reversed": "The Magician ngược cho thấy sự kháng cự với quá trình chữa lành, sự tự lừa dối về tình trạng sức khỏe của bản thân, hoặc tìm kiếm những giải pháp nhanh chóng nhưng không hiệu quả. Có thể có sự lạm dụng các phương pháp chữa bệnh, hoặc cảm thấy bất lực trong hành trình phục hồi của mình do thiếu tập trung vào sự thật."
+      },
+      "stress": {
+        "upright": "The Magician xuôi biểu thị khả năng bạn đang khéo léo quản lý căng thẳng, sử dụng các kỹ thuật và tài nguyên để duy trì sự bình tĩnh và tập trung giữa áp lực. Bạn có thể biến những yếu tố gây căng thẳng tiềm ẩn thành năng lượng sản xuất, làm chủ cảm xúc của mình.",
+        "reversed": "Bạn đang bị choáng ngợp bởi căng thẳng do quản lý kém, năng lượng phân tán, hoặc cảm giác mất kiểm soát. Căng thẳng biểu hiện thành những tắc nghẽn về thể chất hoặc tinh thần vì bạn không sử dụng công cụ của mình một cách hiệu quả, hoặc bị thao túng bởi các yếu tố gây căng thẳng bên ngoài."
+      },
+      "trauma": {
+        "upright": "Bạn đang sử dụng sức mạnh nội tại và các nguồn lực bên ngoài để chủ động xử lý và vượt qua chấn thương. Bạn đang thực hiện các bước có chủ đích để chữa lành và hòa nhập, biến nỗi đau quá khứ thành trí tuệ và sức mạnh, làm chủ câu chuyện của chính mình.",
+        "reversed": "The Magician ngư���c ở đây cho thấy việc bạn đang kìm nén chấn thương thông qua sự tự lừa dối hoặc các cơ chế đối phó không lành mạnh. Bạn cảm thấy bất lực trước những ảnh hưởng của chấn thương, hoặc bị thao túng bởi những ảnh hưởng dai dẳng của nó. Tiềm năng chữa lành bị bỏ lỡ do sự trì hoãn hoặc chối bỏ."
+      },
+      "exams": {
+        "upright": "Đây là dấu hiệu của sự chuẩn bị xuất sắc, học tập tập trung và khả năng tự tin áp dụng kiến thức trong kỳ thi. Bạn đang hiện thực hóa thành công thông qua kỹ năng, trí tuệ và khả năng truyền đạt sự hiểu biết một cách rõ ràng và mạch lạc.",
+        "reversed": "The Magician ngược báo hiệu sự chuẩn bị kém, thiếu tập trung trong học tập, hoặc sự hiểu lầm/truyền đạt sai lệch về tài liệu. Có thể có tiềm năng gian lận hoặc sử dụng các chiến thuật thao túng. Tiềm năng thành công bị bỏ lỡ do lo lắng hoặc suy nghĩ phân tán."
+      },
+      "scholarship": {
+        "upright": "The Magician xuôi cho thấy bạn đang khéo léo trình bày các phẩm chất của mình, truyền đạt hiệu quả những khát vọng và hiện thực hóa cơ hội học bổng thông qua nỗ lực tập trung và tài năng vượt trội. Bạn là người tạo ra cơ hội cho chính mình.",
+        "reversed": "Cơ hội học bổng bị bỏ lỡ do đơn đăng ký kém, thiếu tập trung, hoặc trình bày sai lệch về khả năng của bạn. Hoặc, một suất học bổng có thể được giành được thông qua các phương tiện thao túng, không chân thật, làm mất đi giá trị thực sự của thành tích."
+      },
+      "talent": {
+        "upright": "Bạn đang nhận ra, nuôi dưỡng và phát huy mạnh mẽ những tài năng bẩm sinh của mình. Bạn đang sử dụng các kỹ năng và khả năng để sáng tạo, đạt được thành tựu và gây ảnh hưởng, trở thành bậc thầy trong lĩnh vực của mình, biến tiềm năng thành hiện thực rực rỡ.",
+        "reversed": "The Magician ngược chỉ ra tài năng bị bỏ phí hoặc bị sử dụng sai mục đích. Sự trì hoãn, bất an hoặc thiếu tập trung đang ngăn cản bạn thể hiện hết khả năng của mình. Hoặc, tài năng đang bị sử dụng cho mục đích thao túng hoặc lừa dối, làm hoen ố vẻ đẹp của nó."
+      },
+      "spirit_guide": {
+        "upright": "Bạn đang chủ động kết nối và sử dụng trí tuệ cũng như sự hướng dẫn của các linh hồn dẫn lối. Bạn đang sử dụng trực giác và ý định có ý thức để hiện thực hóa những hiểu biết và hỗ trợ tâm linh, trở thành một kênh rõ ràng cho sự giao tiếp thiêng liêng.",
+        "reversed": "Bạn đang hiểu sai hoặc bỏ qua sự hướng dẫn của các linh hồn dẫn lối. Bạn có thể bị lạc lối bởi những ảnh hưởng tâm linh lừa dối, hoặc sử dụng các thực hành tâm linh cho mục đích thao túng. Một kết nối bị chặn hoặc không rõ ràng do thiếu tập trung hoặc ý định không chân thành."
       }
     },
     "advice": "Quyền năng sáng tạo nằm trong chính tư duy của bạn. Hãy tập trung ý chí như một tia laser và biến mọi khát vọng thành hiện thực.",
@@ -697,6 +841,78 @@ window.TAROT_DB = [
       "lost_item": {
         "upright": "Món đồ bị mất có thể được tìm thấy khi bạn tin tưởng vào trực giác của mình. Hãy tĩnh lặng, nhắm mắt lại và để cảm giác dẫn lối đến nơi cất giấu, nó có thể ở một nơi ít ngờ tới nhưng đầy ý nghĩa.",
         "reversed": "Vật thất lạc có thể đang bị che giấu hoặc bạn đang bỏ qua những dấu hiệu trực giác. Sự lo lắng và thiếu tin tưởng vào bản năng sẽ khiến việc tìm kiếm trở nên vô vọng."
+      },
+      "toxic_relationship": {
+        "upright": "Mối quan hệ ẩn chứa những động lực ngầm, những sự thật chưa được thừa nhận, đòi hỏi sự soi chiếu sâu sắc từ nội tâm để thấu hiểu các vấn đề cốt lõi. Trực giác mách bảo về những rắc rối không lời.",
+        "reversed": "Những bí mật dần hé lộ, cảm xúc bị kìm nén bùng phát, sự phủ nhận độc hại tan vỡ, có thể là một sự thật đau lòng được phơi bày buộc phải đối mặt hoặc chia ly."
+      },
+      "soulmate": {
+        "upright": "Một kết nối sâu sắc, linh thiêng, sự thấu hiểu không lời, một sợi dây liên kết tâm hồn vượt lên trên thể xác. Cảm giác 'biết' người đó ở một cấp độ trực giác sâu sắc, thường đòi hỏi một giai đoạn chờ đợi hoặc kết nối thầm kín trước khi biểu hiện đầy đủ.",
+        "reversed": "Nhầm lẫn sự hấp dẫn bề ngoài với một kết nối sâu sắc, bỏ qua những cảnh báo trực giác, một kết nối tâm hồn bị chặn bởi tiếng ồn bên ngoài hoặc sự nghi ngờ bên trong, những bí mật hoặc khía cạnh ẩn giấu ngăn cản sự thân mật thực sự."
+      },
+      "reconciliation": {
+        "upright": "Đòi hỏi sự soi chiếu sâu sắc và thấu hiểu những động lực trong quá khứ, một giai đoạn im lặng để chiêm nghiệm trước khi sự hàn gắn thực sự có thể bắt đầu, cần lắng nghe trí tuệ nội tâm về khả năng thực sự của việc hàn gắn mối quan hệ.",
+        "reversed": "Những nỗ lực hòa giải hời hợt mà không giải quyết được gốc rễ vấn đề, những bí m���t hoặc nỗi đau chưa được thừa nhận ngăn cản sự hàn gắn thực sự, bỏ qua những cảnh báo trực giác rằng sự hòa giải có thể không chân thành hoặc không lành mạnh."
+      },
+      "secret_admirer": {
+        "upright": "Bản chất của lá bài! Một người ngưỡng mộ thầm lặng, ai đó đang quan sát từ xa, tình cảm không lời, một bí ẩn bao quanh người đang giữ những cảm xúc này.",
+        "reversed": "Bí mật bị tiết lộ, có thể quá sớm hoặc một cách vụng về; ý định thực sự của người ngưỡng mộ có thể nông cạn hoặc không sâu sắc như tưởng tượng; hoặc danh tính của người ngưỡng mộ đã được biết nhưng cảm xúc của họ bị phủ nhận."
+      },
+      "burnout": {
+        "upright": "Một lời kêu gọi rút lui, lắng nghe những tín hiệu tinh tế từ cơ thể, tìm kiếm sự tĩnh lặng và tái tạo nội tâm, thừa nhận nhu cầu nghỉ ngơi trước khi sự kiệt sức thực sự ập đến.",
+        "reversed": "Phớt lờ những tiếng kêu gọi nghỉ ngơi của cơ thể, đẩy bản thân vượt qua trực giác cảnh báo về sự sụp đổ sắp xảy ra, những nỗ lực đối phó hời hợt mà không giải quyết được sự mệt mỏi tinh thần và tâm linh sâu sắc tiềm ẩn, một sự bộc lộ kịch tính của sự kiệt sức hoàn toàn."
+      },
+      "startup": {
+        "upright": "Một dự án đòi hỏi nghiên cứu sâu sắc, các quyết định dựa trên trực giác, hoạt động âm thầm phía sau hậu trường, một giai đoạn phát triển và lập kế hoạch lặng lẽ trước khi ra mắt công chúng, tin tưởng vào tầm nhìn nội tâm của mình.",
+        "reversed": "Vội vàng ra mắt mà không có sự soi chiếu kỹ lưỡng, bỏ qua những cảnh báo trực giác về thị trường hoặc sản phẩm, lập kế hoạch hời hợt, những bí mật hoặc lỗi ẩn trong mô hình kinh doanh bị phơi bày, thiếu sự thận trọng."
+      },
+      "workplace_politics": {
+        "upright": "Điều hướng những quy tắc bất thành văn, những chương trình nghị sự ẩn giấu, những cuộc đấu đá quyền lực tinh vi, đòi hỏi trực giác nhạy bén và sự quan sát cẩn thận, giữ sự thận trọng và không tiết lộ tất cả quân bài của mình.",
+        "reversed": "Những chương trình nghị sự ẩn giấu bị phơi bày, tin đồn và thông tin sai lệch, bị bất ngờ bởi những sự phản bội không lường trước, không thể phân biệt động cơ thực sự, hoặc có lẽ những bí mật của chính mình bị tiết lộ."
+      },
+      "side_hustle": {
+        "upright": "Một dự án được theo đuổi một cách lặng lẽ, thường là bí mật, được nuôi dưỡng bởi niềm đam mê và trực giác cá nhân, một nguồn thu nhập ẩn hoặc một lối thoát sáng tạo tách biệt với công việc chính.",
+        "reversed": "Công việc phụ bị công khai sớm hơn dự kiến, mất đi sức hấp dẫn thần bí, gặp khó khăn do thiếu sự hướng dẫn trực giác, hoặc có lẽ trở thành nguồn căng thẳng thay vì sự thỏa mãn thầm lặng."
+      },
+      "real_estate": {
+        "upright": "Giá trị ẩn giấu, những khía cạnh chưa được tiết lộ của một tài sản, nhu cầu điều tra kỹ lưỡng và tin tưởng vào cảm giác ruột thịt về một địa điểm hoặc giao dịch, những bí mật trong lịch sử của tài sản.",
+        "reversed": "Những vấn đề hoặc khiếm khuyết chưa được tiết lộ bị phơi bày, những bí mật về một tài sản được tiết lộ, bỏ qua những cảnh báo trực giác về một giao dịch tồi, hoặc phán đoán hời hợt dẫn đến những quyết định sai lầm."
+      },
+      "financial_loss": {
+        "upright": "Một giai đoạn căng thẳng tài chính tiềm ẩn, cần soi chiếu và hiểu rõ nguyên nhân sâu xa, có thể là một gánh nặng tài chính bí mật, một lời kêu gọi thận trọng và kín đáo với nguồn lực.",
+        "reversed": "Những bí mật tài chính bị phơi bày, sự phủ nhận về thực tế tài chính dẫn đến mất mát lớn hơn, bỏ qua những cảnh báo trực giác về các khoản đầu tư rủi ro, hoặc một sự tiết lộ đột ngột, đau đớn về khoản lỗ đáng kể."
+      },
+      "sudden_wealth": {
+        "upright": "Sự giàu có đến từ một nguồn bất ngờ hoặc bí ẩn, một khoản thừa kế ẩn, một món quà bất ngờ thầm lặng, một phước lành bí mật, đòi hỏi sự thận trọng và quản lý chu đáo thay vì phô trương.",
+        "reversed": "Sự giàu có bất ngờ mang lại sự hời hợt hoặc thiếu thận trọng, những bí mật về nguồn gốc của sự giàu có gây ra vấn đề, hoặc có lẽ sự giàu có chỉ là thoáng qua do phán đoán trực giác kém."
+      },
+      "healing": {
+        "upright": "Sự chữa lành sâu sắc, nội tại diễn ra ở cấp độ tiềm thức hoặc tâm linh, một hành trình nội quan và lắng nghe trí tuệ của cơ thể, thường là một quá trình thầm lặng và riêng tư.",
+        "reversed": "Chống lại quá trình chữa lành, bỏ qua các tín hiệu của cơ thể, những nỗ lực chữa lành hời hợt mà không giải quyết được nguyên nhân gốc rễ, hoặc có lẽ những vết thương bị chôn vùi sâu sắc bỗng nhiên trỗi dậy."
+      },
+      "stress": {
+        "upright": "Căng thẳng bắt nguồn từ những cảm xúc chưa được thừa nhận hoặc gánh nặng tiềm ẩn, nhu cầu rút lui và tìm kiếm sự bình yên nội tâm, lắng nghe những cảnh báo thầm lặng của cơ thể và tâm trí.",
+        "reversed": "Căng thẳng bị kìm nén bùng phát một cách kịch tính, sự phủ nhận căng thẳng dẫn đến các biểu hiện thể chất, không có khả năng tìm thấy sự bình tĩnh nội tâm, hoặc áp lực bên ngoài lấn át các nguồn lực bên trong do thiếu sự thận trọng."
+      },
+      "trauma": {
+        "upright": "Chấn thương nằm sâu trong tiềm thức, những vết thương chưa được thừa nhận, cần khám phá nhẹ nhàng, trực giác để khám phá và xử lý nỗi đau tiềm ẩn, một hành trình chữa lành thầm lặng.",
+        "reversed": "Sự trỗi dậy đột ngột của những ký ức bị kìm nén, chấn thương biểu hiện theo những cách gây rối, chống lại công việc nội tâm cần thiết, hoặc những bí mật xung quanh chấn thương bị tiết lộ, đôi khi một cách đau đớn."
+      },
+      "exams": {
+        "upright": "Đòi hỏi sự tập trung sâu sắc, trực giác để nhớ lại thông tin, tin tưởng vào kiến thức đã chuẩn bị, học tập và nội quan tĩnh lặng, tiếp cận trí tuệ nội tâm trong suốt bài kiểm tra.",
+        "reversed": "Quên thông tin quan trọng dưới áp lực, dựa vào kiến thức hời hợt, bỏ qua những gợi ý trực giác, hoặc có lẽ những bí mật (như gian lận) bị tiết lộ, hoặc thiếu sự chuẩn bị kỹ lưỡng, sâu sắc."
+      },
+      "scholarship": {
+        "upright": "Một học bổng được trao dựa trên thành tích có thể không được công bố rộng rãi, một cơ hội thầm lặng, đòi hỏi sự tập trung sâu sắc và cam kết học tập, một phước lành tiềm ẩn.",
+        "reversed": "Một học bổng bị từ chối vì những lý do không được tiết lộ, hoặc có lẽ không được sử dụng hết tiềm năng do thiếu sự nội quan hoặc kỷ luật, hoặc các điều khoản của học bổng bị hiểu lầm."
+      },
+      "talent": {
+        "upright": "Một tài năng bẩm sinh, trực giác c�� thể bị ẩn giấu hoặc chưa được phát triển, một khả năng sâu sắc, bẩm sinh đang chờ được khám phá và nuôi dưỡng thông qua thực hành thầm lặng và nội quan.",
+        "reversed": "Kìm nén tài năng bẩm sinh của mình, bỏ qua tiếng gọi nội tâm để phát triển chúng, một tài năng bị tiết lộ sớm mà không được rèn giũa đúng cách, hoặc sử dụng tài năng một cách hời hợt mà không có kết nối sâu sắc."
+      },
+      "spirit_guide": {
+        "upright": "Kết nối mạnh mẽ với các hướng dẫn tâm linh của mình, nhận được những thông điệp và trí tuệ trực giác, một sự hiểu biết sâu sắc bên trong, sự hướng dẫn đến thông qua những giấc mơ, thiền định và những dấu hiệu tinh tế.",
+        "reversed": "Kết nối với các hướng dẫn tâm linh bị chặn, bỏ qua những thông điệp trực giác, không có khả năng phân biệt hướng dẫn thực sự từ tiếng ồn nội tâm, hoặc có lẽ hiểu sai thông điệp do thiếu sự nội quan hoặc kỷ luật tâm linh."
       }
     },
     "advice": "Đừng vội vàng hành động khi bức màn bí mật chưa được vén lên. Sự tĩnh lặng và trực giác nhạy bén chính là tấm khiên vững chắc nhất của bạn lúc này.",
@@ -933,6 +1149,78 @@ window.TAROT_DB = [
       "lost_item": {
         "upright": "Món đồ bị mất có thể được tìm thấy ở một nơi quen thuộc, gần gũi với thiên nhiên hoặc trong một không gian ấm cúng. Hãy tìm kiếm ở những nơi bạn thường thư giãn hoặc tạo ra vẻ đẹp.",
         "reversed": "Vật thất lạc có thể do sự bừa bộn, thiếu ngăn nắp hoặc bị chôn vùi trong đống đồ đạc. Hoặc nó có thể bị mất do sự lãng phí, không trân trọng giá trị của món đồ."
+      },
+      "toxic_relationship": {
+        "upright": "Nữ Hoàng xuôi trong bối cảnh này có thể chỉ ra một nỗ lực sâu sắc để nuôi dưỡng hoặc hàn gắn, tìm kiếm vẻ đẹp và sự sinh sôi ngay cả trong những mảnh đất cằn cỗi. Nó có thể là lời nhắc nhở về sức mạnh nội tại để chuyển hóa, hoặc sự nguy hiểm của việc quá độ trong việc cho đi, biến sự nuôi dưỡng thành sự phụ thuộc.",
+        "reversed": "Khi Nữ Hoàng đảo ngược, mối quan hệ độc hại đã trở thành một vùng đất hoang cằn cỗi, nơi sự sáng tạo và tình yêu bị bóp nghẹt. Nó chỉ ra sự trì trệ sâu sắc, sự phụ thuộc không lành mạnh, hoặc cảm giác bị bóp nghẹt, không có khả năng phát triển trong một môi trường đã mất đi sự nuôi dưỡng chân thực."
+      },
+      "soulmate": {
+        "upright": "Một kết nối linh hồn đang nở rộ, hứa hẹn sự sinh sôi và phong phú. Nữ Hoàng xuôi chỉ ra một mối quan hệ được nuôi dưỡng bởi tình yêu vô điều kiện, sự thấu hiểu sâu sắc và khả năng cùng nhau kiến tạo một cuộc sống tràn đầy vẻ đẹp và sự thịnh vượng.",
+        "reversed": "Sự đảo ngược của Nữ Hoàng cho thấy những rào cản trong việc phát triển mối quan hệ linh hồn. Có thể là sự tắc nghẽn cảm xúc, sự hời hợt ngự trị, hoặc cảm giác bị bóp nghẹt, không thể nuôi dưỡng hạt giống tình yêu đích thực. Sự phát triển bị đình trệ, thiếu đi sự đơm hoa kết trái."
+      },
+      "reconciliation": {
+        "upright": "Một cơ hội màu mỡ để hàn gắn và tái tạo. Nữ Hoàng xuôi báo hiệu khả năng nuôi dưỡng những vết thương cũ bằng lòng trắc ẩn, cho phép sự tha thứ và hiểu biết nở hoa, dẫn đến một sự hòa giải chân thành và đầy hứa hẹn.",
+        "reversed": "Sự hòa giải bị đình trệ, khô cằn. Nữ Hoàng đảo ngược chỉ ra sự từ chối buông bỏ quá khứ, sự cằn cỗi về cảm xúc hoặc một nỗ lực kiểm soát, bóp nghẹt thay vì tìm kiếm sự hiểu biết lẫn nhau. Hạt giống tha thứ không thể nảy mầm."
+      },
+      "secret_admirer": {
+        "upright": "Sự ngưỡng mộ bí mật này bắt nguồn từ sự đánh giá sâu sắc về vẻ đẹp, sự duyên dáng và bản chất nuôi dưỡng của bạn. Nó là một dấu hiệu của sự lãng mạn tiềm ẩn, một mối liên kết có thể sớm nở rộ thành một điều gì đó phong phú và đầy ý nghĩa.",
+        "reversed": "Sự ngưỡng mộ có thể hời hợt, dựa trên vẻ bề ngoài hơn là chiều sâu tâm hồn. Hoặc, người ngưỡng mộ đang bị kìm hãm, không thể bày tỏ, dẫn đến sự bực bội. Cảnh báo về sự chiếm hữu hoặc một dạng ngưỡng mộ không lành mạnh, có tính chất bóp nghẹt."
+      },
+      "burnout": {
+        "upright": "Một lời kêu gọi linh thiêng để quay về với bản chất nuôi dưỡng của chính mình, tìm kiếm sự tái tạo trong vòng tay của thiên nhiên và sự sáng tạo. Nữ Hoàng xuôi khuyến khích việc chăm sóc bản thân một cách nhẹ nhàng, tái nạp năng lượng để ngăn chặn sự cạn kiệt.",
+        "reversed": "Sự cạn kiệt năng lượng đã thành hiện thực. Nữ Hoàng đảo ngược là biểu hiện của sự kiệt quệ hoàn toàn về sức sáng tạo và khả năng nuôi dưỡng, cảm giác cằn cỗi và quá tải, bỏ bê bản thân đến mức suy sụp."
+      },
+      "startup": {
+        "upright": "Một điềm lành vô cùng lớn cho một dự án mới. Đất đai màu mỡ cho sự sáng tạo, sự phong phú, sự phát triển và hiện thực hóa các ý tưởng thành công cụ thể. Nuôi dưỡng ý tưởng bằng dòng chảy sáng tạo và trực giác, hứa hẹn sự thịnh vượng.",
+        "reversed": "Những khối tắc nghẽn sáng tạo, sự trì trệ trong tầm nhìn hoặc thiếu sự nuôi dưỡng. Dự án có thể bị quá tải, không thể đưa ý tưởng thành hiện thực, hoặc đang phát triển trên một nền tảng không thực sự màu mỡ, dẫn đến sự thất bại và kiệt sức."
+      },
+      "workplace_politics": {
+        "upright": "Điều hướng với sự duyên dáng, ngoại giao và khả năng lãnh đạo nuôi dưỡng. Tạo ra một môi trường hài hòa, thúc đẩy sự hợp tác và sử dụng trực giác để hiểu rõ động lực, thúc đẩy sự phát triển thông qua các phương tiện mang tính xây dựng.",
+        "reversed": "Các thủ đoạn thao túng được che đậy dưới vỏ bọc nuôi dưỡng, sự kiểm soát bóp nghẹt hoặc sự quyến rũ hời hợt che giấu động cơ thầm kín. Tạo ra một môi trường làm việc không hiệu quả, hoặc cảm giác bị quá tải và không thể khẳng định ảnh hưởng của mình một cách chân thực."
+      },
+      "side_hustle": {
+        "upright": "Một mảnh đất màu mỡ cho một nỗ lực sáng tạo phụ để phát triển và mang lại sự phong phú. Nuôi dưỡng một dự án đam mê, thể hiện những luồng thu nhập mới và sự thể hiện sáng tạo dẫn đến những phần thưởng hữu hình.",
+        "reversed": "Công việc phụ trở thành gánh nặng, làm hao mòn năng lượng thay vì tiếp thêm sức mạnh. Những khối tắc nghẽn sáng tạo, thiếu động lực, cảm giác quá tải, hoặc một dự án không thực sự bền vững hoặc thỏa mãn. Nó có thể đang bóp nghẹt các khía cạnh khác của cuộc sống."
+      },
+      "real_estate": {
+        "upright": "Một điềm báo cực kỳ tích cực. Sự màu mỡ của đất đai, sự phong phú, tạo dựng một ngôi nhà, sự an toàn, sự tăng trưởng trong đầu tư, một môi trường nuôi dưỡng. Lý tưởng cho việc mua, bán hoặc phát triển tài sản.",
+        "reversed": "Sự trì trệ trên thị trường, các vấn đề với tài sản (đất cằn cỗi, nhà cửa không được chăm sóc), sự hao hụt tài chính, cảm giác bị bóp nghẹt bởi một tài sản, hoặc các vấn đề liên quan đến việc tạo ra một môi trường sống ổn định. Thiếu sự tăng trưởng hoặc giá trị."
+      },
+      "financial_loss": {
+        "upright": "Lời kêu gọi nuôi dưỡng tài nguyên của bạn cẩn thận hơn, tìm kiếm các giải pháp sáng tạo để giảm thiểu tổn thất. Ngay cả trong mất mát, vẫn có tiềm năng cho sự phát triển và phong phú mới nếu được quản lý khôn ngoan. Một lời nhắc nhở về sự phong phú nội tại.",
+        "reversed": "Sự cằn cỗi tài chính sâu sắc, không có khả năng phục hồi, cảm giác hoàn toàn cạn kiệt và quá tải bởi sự mất mát. Thiếu các giải pháp sáng tạo hoặc sự nuôi dưỡng về tài chính, dẫn đến sự suy giảm hơn nữa."
+      },
+      "sudden_wealth": {
+        "upright": "Một sự nở rộ tự nhiên của sự phong phú, một mùa gặt bội thu từ những nỗ lực trong quá khứ hoặc một món quà từ vũ trụ. Nữ Hoàng chỉ ra rằng sự giàu có này có thể được nuôi dưỡng và phát triển, được sử dụng để tạo ra nhiều vẻ đẹp và sự thoải mái hơn.",
+        "reversed": "Sự giàu có cảm thấy hời hợt, không xứng đáng hoặc mang lại nhiều vấn đề hơn là niềm vui. Nó có thể thoáng qua, hoặc dẫn đến sự nuông chiều quá mức và trì trệ thay vì sự phát triển thực sự. Có lẽ sự giàu có đang bóp nghẹt hạnh phúc hoặc sự sáng tạo thực sự."
+      },
+      "healing": {
+        "upright": "Sự chữa lành sâu sắc thông qua sự nuôi dưỡng, kết nối với thiên nhiên, chăm sóc bản thân và ôm lấy nguồn sức sống nội tại của chính mình. Một giai đoạn màu mỡ cho sự phục hồi và tái tạo, cho phép cơ thể, tâm trí và tinh thần nở rộ.",
+        "reversed": "Sự trì trệ trong quá trình chữa lành, bỏ bê việc chăm sóc bản thân, cảm giác cằn cỗi hoặc không thể phục hồi. Những nỗ lực chữa lành hời hợt, hoặc bị quá tải bởi bệnh tật, dẫn đến việc thiếu tiến bộ."
+      },
+      "stress": {
+        "upright": "Một lời kêu gọi kết nối với năng lượng nền tảng, nuôi dưỡng bản thân thông qua thiên nhiên, sự sáng tạo và chăm sóc bản thân để giảm bớt căng thẳng. Nữ Hoàng mang đến trí tuệ về cách quản lý căng thẳng bằng cách nuôi dưỡng sự bình yên nội tại và vẻ đẹp bên ngoài.",
+        "reversed": "Bị quá tải bởi căng thẳng, cảm giác cằn cỗi về giải pháp, bỏ bê sức khỏe cá nhân, dẫn đến những khối tắc nghẽn sáng tạo và sự cạn kiệt cảm xúc. Căng thẳng đã trở nên bóp nghẹt và không hiệu quả."
+      },
+      "trauma": {
+        "upright": "Tiềm năng cho sự chữa lành sâu sắc và sự phát triển từ chấn thương. Nuôi dưỡng bản thân thông qua quá trình, cho phép sự sáng tạo và kết nối với thiên nhiên giúp xử lý và chuyển hóa nỗi đau thành trí tuệ. Tìm thấy mảnh đất màu mỡ cho cuộc sống mới sau sự tàn phá.",
+        "reversed": "Chấn thương đã dẫn đến sự trì trệ, sự cằn cỗi về cảm xúc, không có khả năng chữa lành, hoặc cảm giác hoàn toàn bị quá tải và mắc kẹt trong quá khứ. Quá trình nuôi dưỡng bị chặn, dẫn đến sự đau khổ hơn nữa hoặc các cơ chế đối phó hời hợt."
+      },
+      "exams": {
+        "upright": "Một tâm trí màu mỡ, cách tiếp cận sáng tạo để học tập, sự hiểu biết trực giác và khả năng biến kiến thức thành kết quả thành công. Nuôi dưỡng thói quen học tập và tin tưởng vào trí tuệ bẩm sinh của mình.",
+        "reversed": "Những khối tắc nghẽn sáng tạo, sự trì hoãn, sự hiểu biết hời hợt, cảm giác quá tải bởi tài liệu, hoặc thiếu sự chăm sóc bản thân trong thời gian học, dẫn đến kết quả kém."
+      },
+      "scholarship": {
+        "upright": "Một cơ hội màu mỡ cho sự phát triển trí tuệ và sự phong phú. Học bổng là một món quà cho phép một người nuôi dưỡng tài năng của mình và thể hiện tiềm năng học thuật của họ.",
+        "reversed": "Học bổng cảm thấy như một gánh nặng, hoặc nó không thực sự nuôi dưỡng sự phát triển của một người. Có lẽ nó dẫn đến những khối tắc nghẽn sáng tạo, hoặc người nhận cảm thấy quá tải và không thể tận dụng hết cơ hội, hoặc học bổng bị từ chối do thiếu công lao/tiềm năng nuôi dưỡng."
+      },
+      "talent": {
+        "upright": "Sự nở rộ của tài năng tự nhiên, một mảnh đất màu mỡ cho sự thể hiện sáng tạo và sự hiện thực hóa. Nuôi dưỡng những món quà của một người, cho phép chúng nở hoa và mang lại sự phong phú.",
+        "reversed": "Những khối tắc nghẽn sáng tạo, sự trì trệ của tài năng, bỏ bê những món quà của một người, cảm giác quá tải bởi áp lực phải thể hiện, hoặc một cách sử dụng tài năng hời hợt thiếu chiều sâu và sự nuôi dưỡng thực sự."
+      },
+      "spirit_guide": {
+        "upright": "Một linh hồn dẫn dắt nuôi dưỡng, mang tính mẫu tính và phong phú, người thúc đẩy sự sáng tạo, trực giác và kết nối với trí tuệ của Trái Đất. Vị dẫn dắt này giúp một người thể hiện mong muốn của họ và ôm lấy nữ thần/nam thần nội tại của mình.",
+        "reversed": "Một linh hồn dẫn dắt có thể quá chiếm hữu, bóp nghẹt, hoặc sự hướng dẫn của họ dẫn đến sự trì trệ và phụ thuộc thay vì sự phát triển độc lập. Hoặc, một sự tắc nghẽn trong việc tiếp nhận hoặc hiểu trí tuệ nuôi dưỡng của họ, dẫn đến sự nhầm lẫn hoặc cảm giác không được hỗ trợ."
       }
     },
     "advice": "Hãy mở rộng vòng tay ôm lấy sự phong phú của vũ trụ, nhưng đừng quên tưới tắm cho khu vườn tâm hồn của chính mình. Tình yêu thương vĩ đại nhất bắt đầu từ việc yêu thương bản thân.",
@@ -1169,6 +1457,78 @@ window.TAROT_DB = [
       "lost_item": {
         "upright": "Món đồ thất lạc đang nằm ở một nơi có tổ chức, ngăn nắp, có thể là trong ngăn kéo, tủ hồ sơ hoặc một vị trí cố định mà bạn đã đặt theo thói quen.",
         "reversed": "Vật bị mất do sự cứng nhắc trong sắp xếp hoặc sự cố chấp không chịu thay đổi cách tìm kiếm. Có thể do sự lộn xộn dưới một lớp vỏ bọc trật tự giả tạo."
+      },
+      "toxic_relationship": {
+        "upright": "Sự hiện diện của Hoàng Đế trong mối quan hệ độc hại chỉ ra một cấu trúc kiểm soát chặt chẽ, nơi một đối tác áp đặt quyền lực tuyệt đối, tạo ra một khuôn khổ ngột ngạt nhưng có vẻ 'có trật tự'. Đây là sự kiểm soát được che đậy dưới lớp vỏ của sự bảo vệ hoặc trách nhiệm.",
+        "reversed": "Khi Hoàng Đế đảo ngược, mối quan hệ độc hại chuyển mình thành một vương quốc hỗn loạn của sự chuyên quyền tàn bạo, nơi quyền lực bị lạm dụng một cách trắng trợn. Sự cứng nhắc và thiếu linh hoạt phá vỡ mọi nền tảng, hoặc sự nổi loạn chống lại sự áp bức dẫn đến sự đổ vỡ hoàn toàn."
+      },
+      "soulmate": {
+        "upright": "Lá bài này báo hiệu một linh hồn tri kỷ mang đến sự ổn định, cấu trúc vững chắc và một nền tảng kiên cố cho mối quan hệ. Đây là một người định hình và bảo vệ, dẫn lối bằng sự khôn ngoan và nguyên tắc, xây dựng một vương quốc tình yêu có trật tự và bền vững.",
+        "reversed": "Sự xuất hiện ngược của Hoàng Đế cho thấy sự cản trở trong kết nối linh hồn tri kỷ bởi những vấn đề về kiểm soát, sự độc đoán hoặc sự thiếu trưởng thành. Có thể một trong hai bên quá cứng nhắc, hoặc sự thiếu vắng ranh giới lành mạnh đang làm xói mòn khả năng xây dựng một mối quan hệ chân thật, sâu sắc."
+      },
+      "reconciliation": {
+        "upright": "Sự hòa giải sẽ đến thông qua việc thiết lập lại cấu trúc, ranh giới rõ ràng và một lộ trình có kỷ luật. Đây là một quyết định trưởng thành, dựa trên lý trí để xây dựng lại cầu nối, đặt nền móng vững chắc cho tương lai.",
+        "reversed": "Nỗ lực hòa giải bị cản trở bởi sự bướng bỉnh, thiếu linh hoạt hoặc một bên quá độc đoán. Sự thiếu cởi mở về mặt cảm xúc và sự cứng nhắc trong tư duy đang ngăn cản mọi sự hàn gắn, khiến cho việc tái thiết mối quan hệ trở nên vô vọng."
+      },
+      "secret_admirer": {
+        "upright": "Người ngưỡng mộ bí mật này là một linh hồn có tính toán, có tổ chức, có thể ở vị trí quyền lực hoặc có ảnh hưởng. Sự ngưỡng mộ của họ được thể hiện một cách có kỷ luật, có thể gián tiếp, như một người bảo vệ thầm lặng, quan sát từ xa.",
+        "reversed": "Kẻ ngưỡng mộ bí mật này có thể ẩn chứa sự ám ảnh, kiểm soát hoặc thậm chí là một mối đe dọa. Sự ngưỡng mộ của họ xuất phát từ ham muốn quyền lực hoặc một cảm giác sở hữu sai l��ch, hoặc sự rụt rè cố hữu khiến họ không thể bộc lộ, tạo ra một năng lượng trì trệ."
+      },
+      "burnout": {
+        "upright": "Sự kiệt sức này bắt nguồn từ gánh nặng của việc duy trì trật tự hoàn hảo, lịch trình cứng nhắc và trách nhiệm quá mức. Nó là hệ quả của việc theo đuổi quyền lực và tham vọng một cách không ngừng nghỉ, dẫn đến sự cạn kiệt năng lượng thể chất và tinh thần.",
+        "reversed": "Kiệt sức do thiếu cấu trúc hoàn toàn, sự hỗn loạn trong quản lý hoặc sự nổi loạn chống lại những yêu cầu áp bức. Đây là sự sụp đổ khi mọi ranh giới bị phá vỡ, hoặc khi một hệ thống kiểm soát quá mức đã vắt kiệt sức lực của cá nhân."
+      },
+      "startup": {
+        "upright": "Hoàng Đế báo hiệu một khởi nghiệp được xây dựng trên nền tảng vững chắc, với sự lãnh đạo rõ ràng, kỷ luật nghiêm ngặt và kế hoạch chiến lược thông minh. Tiềm năng phát triển nhanh chóng nhưng có trật tự, tạo ra một đế ch��� mới.",
+        "reversed": "Một khởi nghiệp đang chìm trong những cuộc đấu đá nội bộ, thiếu lãnh đạo rõ ràng hoặc quản lý hỗn loạn. Sự quan liêu cứng nhắc đang bóp nghẹt sự đổi mới, hoặc một nhà lãnh đạo độc đoán đang đẩy công ty vào bờ vực sụp đổ."
+      },
+      "workplace_politics": {
+        "upright": "Bạn điều hướng chính trị nơi công sở bằng chiến lược, hiểu rõ hệ thống phân cấp và khẳng định quyền uy của mình. Sử dụng logic và cấu trúc để đạt được ảnh hưởng, tôn trọng trật tự hiện có để đạt được mục tiêu cao hơn.",
+        "reversed": "Bạn đang vướng vào những cuộc đấu tranh quyền lực, trở thành nạn nhân của sự lãnh đạo chuyên quyền hoặc lạm dụng quyền lực vì lợi ích cá nhân. Sự cứng nhắc trong việc tuân thủ các quy tắc lỗi thời hoặc sự nổi loạn vô tổ chức gây ra sự gián đoạn nghiêm trọng."
+      },
+      "side_hustle": {
+        "upright": "Công việc phụ này được lên kế hoạch tốt, có cấu trúc, kỷ luật và được tích hợp hợp lý vào cuộc sống của bạn. Nó có thể liên quan đến việc tận dụng các kỹ năng hoặc quyền hạn hiện có, tạo ra một nguồn thu nhập ổn định và có kiểm soát.",
+        "reversed": "Công việc phụ đang trở nên hỗn loạn, quản lý kém, thiếu kỷ luật hoặc trở thành một gánh nặng áp bức do thiếu cấu trúc. Hoặc, đây là một hành động nổi loạn chống lại công việc chính, thiếu sự định hướng rõ ràng."
+      },
+      "real_estate": {
+        "upright": "Đầu tư bất động sản thành công, tài sản ổn định, nền móng vững chắc. Việc sở hữu tài sản này tượng trưng cho sự thiết lập một mái ấm hoặc cơ sở kinh doanh bền vững. Các giao dịch được cấu trúc và nghiên cứu kỹ lưỡng.",
+        "reversed": "Tranh chấp tài sản, đầu tư không ổn định, hoặc các vấn đề với chính quyền liên quan đến tài sản (ví dụ: quy hoạch, giấy phép). Mất mát tài chính do cấu trúc kém hoặc bị chi phối bởi chủ nhà/nhà phát triển độc đoán."
+      },
+      "financial_loss": {
+        "upright": "Mất mát tài chính do tuân thủ cứng nhắc một kế hoạch lỗi thời, kiểm soát quá mức các khoản đầu tư mà thiếu linh hoạt, hoặc một chiến lược có cấu trúc nhưng cuối cùng lại sai lầm. Sự cứng nhắc là nguyên nhân của sự hao hụt.",
+        "reversed": "Mất mát do hoàn toàn thiếu kỷ luật tài chính, chi tiêu hỗn loạn, nổi loạn chống lại lời khuyên tài chính, hoặc bị kiểm soát/bóc lột bởi một thế lực tài chính độc đoán. Sự hỗn loạn và thiếu kiểm soát dẫn đến sự sụp đổ."
+      },
+      "sudden_wealth": {
+        "upright": "Sự giàu có đột ngột được tích lũy thông qua các khoản đầu tư có cấu trúc, công việc kỷ luật, kế hoạch chiến lược, hoặc thừa kế từ một nhân vật quyền lực, có địa vị. Sự giàu có này ổn định và được quản lý tốt, mang lại sự an toàn.",
+        "reversed": "Sự giàu có có được bằng những phương tiện đáng ngờ, dẫn đến sự bất ��n hoặc tranh giành quyền lực. Hoặc, sự giàu có đột ngột mang theo gánh nặng của sự kiểm soát, hoặc dẫn đến một cách tiếp cận độc đoán đối với tiền bạc."
+      },
+      "healing": {
+        "upright": "Sự chữa lành đến qua kỷ luật, các thói quen có cấu trúc, tuân thủ lời khuyên y tế, thiết lập ranh giới lành mạnh và một cách tiếp cận hợp lý đối với sức khỏe. Đây là quá trình xây dựng lại sự cân bằng từ bên trong.",
+        "reversed": "Quá trình chữa lành bị cản trở bởi sự bướng bỉnh, kháng cự điều trị, thói quen sức khỏe hỗn loạn hoặc một hệ thống y tế quá áp đặt. Hoặc, sự chữa lành từ vết thương của sự kiểm soát cứng nhắc trong quá khứ."
+      },
+      "stress": {
+        "upright": "Căng thẳng từ gánh nặng trách nhiệm, duy trì trật tự, quản lý các cấu trúc phức tạp hoặc cảm thấy áp lực phải kiểm soát mọi thứ. Đây là gánh nặng của một người lãnh đạo.",
+        "reversed": "Căng thẳng từ việc mất kiểm soát hoàn toàn, sự hỗn loạn, không có khả năng thiết lập ranh giới hoặc phải chiến đấu chống lại một thế lực áp bức, gây căng thẳng. Sự đổ vỡ của trật tự mang lại sự lo âu tột độ."
+      },
+      "trauma": {
+        "upright": "Chấn thương liên quan đến các nhân vật có thẩm quyền áp bức, các quy tắc cứng nhắc, một nền giáo dục nghiêm khắc hoặc một tình huống mà sự kiểm soát là tuyệt đối và gây tổn hại sâu sắc. Nền tảng của sự tổn thương là sự kìm kẹp.",
+        "reversed": "Chữa lành chấn thương bằng cách phá vỡ các khuôn mẫu kiểm soát, nổi loạn chống lại sự áp bức trong quá khứ, hoặc nhận ra và tháo gỡ các cấu trúc cứng nhắc bên trong do chấn thương gây ra. Hoặc, chấn thương do sự sụp đổ của mọi cấu trúc."
+      },
+      "exams": {
+        "upright": "Thành công thông qua kỷ luật, học tập có cấu trúc, cách tiếp cận hợp lý, hiểu rõ các quy tắc và yêu cầu, và thể hiện sự thành thạo. Đây là chiến thắng của sự chuẩn bị kỹ lưỡng và sự kiên định.",
+        "reversed": "Thất bại do thiếu kỷ luật, nổi loạn chống lại phương pháp học tập, không có khả năng làm theo hướng dẫn hoặc cảm thấy choáng ngợp bởi cấu trúc thi cử cứng nhắc. Sự thiếu kiểm soát cá nhân dẫn đến sự thất bại."
+      },
+      "scholarship": {
+        "upright": "Giành được học bổng thông qua công lao, thành tích học tập có kỷ luật, tuân thủ các yêu cầu ứng tuyển và thể hiện khả năng lãnh đạo hoặc ý thức mục đích mạnh mẽ. Đây là sự công nhận cho sự nỗ lực có cấu trúc.",
+        "reversed": "Bỏ lỡ học bổng do thiếu kỷ luật, không tuân thủ hướng dẫn hoặc bị bỏ qua do quy trình tuyển chọn cứng nhắc. Hoặc, một học bổng đi kèm với những điều kiện quá hạn chế, kìm hãm sự tự do."
+      },
+      "talent": {
+        "upright": "Tài năng được thể hiện thông qua thực hành có kỷ luật, phát triển có cấu trúc, sự thành thạo một nghề thủ công và khả năng lãnh đạo trong lĩnh vực của mình. Tài năng này được tổ chức tốt và ứng dụng một cách hiệu quả.",
+        "reversed": "Tài năng bị kìm hãm bởi những kỳ vọng cứng nhắc, nỗi sợ hãi quyền lực, thiếu tự do sáng tạo hoặc từ chối phát triển kỷ luật. Hoặc, một tài năng được sử dụng để thống trị hoặc kiểm soát người khác, mang lại năng lượng tiêu cực."
+      },
+      "spirit_guide": {
+        "upright": "Một linh hồn hướng dẫn mang đến cấu trúc, sự bảo vệ, lời khuyên thực tế, giúp thiết lập ranh giới và dẫn dắt bằng bàn tay vững chắc nhưng đầy yêu thương. Một người hướng dẫn như một người cố vấn đầy quyền uy và trí tuệ.",
+        "reversed": "Một linh hồn hướng dẫn bị cảm nhận là quá nghiêm khắc hoặc kiểm soát, lời khuyên của họ cảm thấy áp bức, hoặc thông điệp của họ bị hiểu lầm do sự kháng cự kỷ luật của người tìm kiếm. Hoặc, một người hướng dẫn giúp phá vỡ các giáo điều tâm linh cứng nhắc."
       }
     },
     "advice": "Đừng để cảm xúc lấn át lý trí. Hãy thiết lập ranh giới rõ ràng, giữ vững kỷ luật và trở thành người cai trị thông thái nhất cho vương quốc cuộc đời bạn.",
@@ -1405,6 +1765,78 @@ window.TAROT_DB = [
       "lost_item": {
         "upright": "Món đồ thất lạc có thể nằm ở một nơi linh thiêng, một thư viện, một nơi thờ cúng hoặc một vị trí gắn liền với truyền thống, học hỏi hay lời khuyên từ người lớn tuổi.",
         "reversed": "Vật bị mất do sự cố chấp không chịu thay đổi cách tìm kiếm, hoặc bị giấu ở một nơi không theo quy tắc nào, thể hiện sự phản kháng với những gì đã định sẵn."
+      },
+      "toxic_relationship": {
+        "upright": "Lá bài này báo hiệu một mối quan hệ độc hại được duy trì bởi những quy tắc ngầm, nghĩa vụ truyền thống hoặc sự bám víu vào những giáo điều cũ kỹ. Bạn có thể đang tìm kiếm sự chấp thuận từ bên ngoài hoặc lời khuyên từ những người có quyền lực để biện minh cho sự gắn bó này, hoặc bạn đang bị trói buộc bởi những kỳ vọng xã hội.",
+        "reversed": "Đây là lời kêu gọi giải phóng bản thân khỏi xiềng xích của một mối quan hệ độc hại, từ chối những khuôn mẫu truyền thống và những kỳ vọng đã giữ bạn lại. Bạn đang thách thức giáo điều và tìm kiếm sự thật cá nhân, sẵn sàng phá vỡ các quy tắc để giành lấy sự tự do và chữa lành."
+      },
+      "soulmate": {
+        "upright": "Sự xuất hiện của lá bài này cho thấy một kết nối tri kỷ được định hình bởi những giá trị thiêng liêng, sự cam kết sâu sắc và sự chấp thuận từ các thể chế truyền thống hoặc gia đình. Mối liên kết này phát triển trong khuôn khổ của sự hiểu biết chung và sự tôn trọng lẫn nhau, hướng tới một con đường chung được công nhận.",
+        "reversed": "Mối liên kết tri kỷ này vượt ra ngoài những định nghĩa thông thường, thách thức các chuẩn mực xã hội và niềm tin cố hữu về tình yêu đích thực. Nó có thể là một mối quan hệ độc đáo, đòi hỏi bạn phải từ bỏ những con đường đã định để hoàn toàn đón nhận, tìm kiếm định nghĩa riêng về sự gắn kết thiêng liêng."
+      },
+      "reconciliation": {
+        "upright": "Hòa giải sẽ đạt được thông qua việc tuân thủ các nghi thức truyền thống, tìm kiếm lời khuyên từ những người đáng kính hoặc các nhà trung gian có thẩm quyền. Việc khôi phục trật tự và sự hòa hợp dựa trên những giá trị được chia sẻ, tìm kiếm sự tha thứ và thấu hiểu trong một khuôn khổ được chấp nhận.",
+        "reversed": "Việc hòa giải trở nên khó khăn bởi sự từ chối tuân thủ các kỳ vọng truyền thống hoặc lời xin lỗi thông thường. Một hoặc cả hai bên có thể khao khát một con đường mới thay vì quay lại những khuôn mẫu cũ, nhận ra rằng những phương pháp truyền thống không đủ để hàn gắn rạn nứt sâu sắc."
+      },
+      "secret_admirer": {
+        "upright": "Người ngưỡng mộ bí mật này có thể là một cá nhân tôn trọng bạn từ xa, tuân thủ một quy tắc ứng xử nhất định hoặc chờ đợi thời điểm 'chính đáng' theo truyền thống để bày tỏ tình cảm. Sự ngưỡng mộ của họ bắt nguồn từ sự tôn kính đối với những phẩm chất hoặc vị trí đã được thiết lập của bạn.",
+        "reversed": "Người ngưỡng mộ bí mật này có thể tiếp cận một cách phi truyền thống hoặc sự ngưỡng mộ của họ thách thức các chuẩn mực xã hội hiện có. Họ có thể ngần ngại tiết lộ bản thân vì sợ bị đánh giá từ các vòng tròn đã thiết lập, hoặc tình cảm của họ đi ngược lại những kỳ vọng thông thường."
+      },
+      "burnout": {
+        "upright": "Sự kiệt sức này bắt nguồn từ việc tuân thủ một cách cứng nhắc các kỳ vọng bên ngoài, đạo đức công việc truyền thống hoặc các yêu cầu của thể chế mà không đặt câu hỏi về tính hợp lệ của chúng. Một cảm giác nghĩa vụ hoặc bổn phận phải duy trì vẻ bề ngoài hoặc đi theo những con đường đã định, dẫn đến sự cạn kiệt năng lượng.",
+        "reversed": "Sự kiệt sức này nảy sinh từ sự nổi loạn chống lại các cấu trúc công việc thông thường hoặc sự từ ch���i tuân thủ, dẫn đến sự mệt mỏi khi chiến đấu với hệ thống. Hoặc, đây là một sự giải thoát cần thiết khỏi những yêu cầu truyền thống để tái khám phá năng lượng và mục đích cá nhân, từ chối sự nghiền ép."
+      },
+      "startup": {
+        "upright": "Một công ty khởi nghiệp được xây dựng trên các mô hình kinh doanh truyền thống, nguyên tắc đạo đức vững chắc hoặc trí tuệ thông thường. Tìm kiếm sự cố vấn, tuân theo các thực hành ngành đã được thiết lập và hướng tới việc tạo ra một tổ chức cung cấp giá trị ổn định, được công nhận.",
+        "reversed": "Một công ty khởi nghiệp thách thức các mô hình hiện có, phá vỡ các ngành công nghiệp truyền thống hoặc hoạt động bên ngoài các cấu trúc doanh nghiệp thông thường. Nó có thể đối mặt với sự phản kháng từ các thể chế đã được thiết lập nhưng tìm cách tạo ra con đường riêng, coi trọng sự đổi mới hơn sự tuân thủ."
+      },
+      "workplace_politics": {
+        "upright": "Điều hướng chính trị nơi làm việc bằng cách hiểu và tuân thủ các quy tắc bất thành văn, hệ thống cấp bậc và cấu trúc quyền lực đã được thiết lập. Chơi đúng luật, tìm kiếm lời khuyên từ những người có kinh nghiệm và duy trì một thái độ chuyên nghiệp thông thường.",
+        "reversed": "Sự từ chối các chính trị nơi làm việc ngột ngạt, thách thức các hệ thống cấp bậc không công bằng hoặc từ chối tham gia vào các trò chơi thao túng. Nó có thể cho thấy mong muốn cải cách hệ thống hoặc một cuộc đấu tranh chống lại các giáo điều doanh nghiệp lỗi thời, dẫn đến xung đột hoặc sự cô lập."
+      },
+      "side_hustle": {
+        "upright": "Một công việc phụ phù hợp với các kỹ năng đã được thiết lập, nghề thủ công truyền thống hoặc các cách kiếm thêm thu nhập thông thường. Nó có thể là một cách để áp dụng kiến thức đã học hoặc mở rộng chuyên môn chuyên nghiệp hiện có một cách có cấu trúc.",
+        "reversed": "Một công việc phụ phi truyền thống, thách thức các mô hình việc làm thông thường hoặc liên quan đến việc thoát ly khỏi những kỳ vọng của một sự nghiệp chính. Nó có thể là một dự án đam mê đi ngược lại các chuẩn mực thương mại hoặc một con đường dẫn đến sự giải phóng cá nhân khỏi những ràng buộc của doanh nghiệp."
+      },
+      "real_estate": {
+        "upright": "Các giao dịch bất động sản được điều chỉnh bởi luật pháp nghiêm ngặt, quy trình truyền thống và các thể chế đã được thiết lập (ngân hàng, đại lý, khuôn khổ pháp lý). Đầu tư vào các tài sản thông thường, tìm kiếm lời khuyên chuyên gia và tuân thủ các thủ tục tiêu chuẩn.",
+        "reversed": "Các giao dịch bất động sản thách thức các chuẩn mực, có thể là các tài sản phi truyền thống, tài chính thay thế hoặc sự từ chối các xu hướng thị trường điển hình. Nó cũng có thể biểu thị việc bị mắc kẹt bởi các hợp đồng cứng nhắc hoặc hệ thống chủ nhà/người thuê áp bức, hoặc mong muốn thoát khỏi những điều này."
+      },
+      "financial_loss": {
+        "upright": "Mất mát tài chính do tuân thủ một cách cứng nhắc các lời khuyên lỗi thời, các chiến lược đầu tư thông thường đã thất bại hoặc mù quáng tin tưởng các thể chế đã được thiết lập mà không có sự đánh giá phê phán. Một bài học đau đớn được học trong một trải nghiệm có cấu trúc.",
+        "reversed": "Mất mát tài chính bắt nguồn từ sự nổi loạn chống lại trí tuệ tài chính thông thường hoặc chấp nhận những rủi ro phi truyền thống không thành công. Nó cũng có thể có nghĩa là giải phóng khỏi giáo điều tài chính hoặc các cấu trúc nợ áp bức, ngay cả khi ban đầu nó dẫn đến mất mát, để đạt được sự tự do lâu dài."
+      },
+      "sudden_wealth": {
+        "upright": "Của cải bất ngờ có được thông qua các phương tiện truyền thống, hợp pháp, có thể là một khoản thừa kế, một khoản tiền thưởng từ một sự nghiệp đã được thiết lập hoặc một kết quả may mắn của các khoản đầu tư thông thường. Nó thường đi kèm với cảm giác trách nhiệm phải quản lý nó một cách khôn ngoan, có thể bằng cách tìm kiếm lời khuyên tài chính truyền thống.",
+        "reversed": "Của cải bất ngờ có được thông qua các phương tiện phi truyền thống, có thể là một giải xổ số, thành công đột phá của một công ty khởi nghiệp hoặc một khoản tiền bất ngờ thách thức mô hình tài chính hiện có của một người. Nó có thể dẫn đến sự từ chối các giá trị truyền thống hoặc một cuộc đấu tranh để tích hợp sự phong phú mới này mà không đánh mất bản thân."
+      },
+      "healing": {
+        "upright": "Sự chữa lành được tìm kiếm thông qua các phương pháp y học truyền thống, các thể chế tâm linh hoặc các phương pháp trị liệu đã được thiết lập. Tuân thủ các phương pháp điều trị được kê đơn, tìm kiếm hướng dẫn từ các nhà chữa bệnh được công nhận và tuân theo một con đường có cấu trúc hướng tới sức khỏe.",
+        "reversed": "Sự chữa lành đòi hỏi phải thoát ly khỏi các phương pháp tiếp cận thông thường, từ chối lời khuyên y tế lỗi thời hoặc tìm kiếm các liệu pháp thay thế, phi truyền thống. Nó biểu thị nhu cầu lắng nghe trí tuệ bên trong của một người và tạo ra một con đường chữa lành cá nhân, ngay cả khi nó đi ngược lại chuẩn mực."
+      },
+      "stress": {
+        "upright": "Căng thẳng phát sinh từ áp lực phải tuân thủ, đáp ứng các kỳ vọng xã hội hoặc tuân thủ các quy tắc và truyền thống cứng nhắc. Gánh nặng của việc thực hiện nhiệm vụ, trách nhiệm hoặc vẻ bề ngoài trong các cấu trúc đã được thiết lập.",
+        "reversed": "Căng thẳng do chống lại sự tuân thủ, thách thức quyền lực hoặc đấu tranh để thoát khỏi các cấu trúc áp bức. Sự xung đột nội tâm của việc muốn tạo ra con đường riêng trong khi đối mặt với sự phán xét hoặc kháng cự từ bên ngoài."
+      },
+      "trauma": {
+        "upright": "Chấn thương được giải quyết thông qua các khuôn khổ trị liệu truyền thống, tư vấn tâm linh hoặc các nhóm hỗ trợ đã được thiết lập. Tìm kiếm trí tuệ từ những người hướng dẫn có kinh nghiệm và xử lý chấn thương trong một môi trường chữa lành được công nhận, có cấu trúc.",
+        "reversed": "Chấn thương khó chữa lành bằng các phương tiện thông thường, đòi hỏi một cách tiếp cận phi truyền thống hoặc sự từ chối các câu chuyện đã được thiết lập xung quanh trải nghiệm. Nó có thể biểu thị nhu cầu giải phóng khỏi giáo điều hoặc sự xấu hổ liên quan đến chấn thương, tạo ra một con đường phục hồi độc đáo."
+      },
+      "exams": {
+        "upright": "Thành công trong các kỳ thi đạt được thông qua việc học tập siêng năng, tuân thủ chương trình giảng dạy đã được thiết lập và tôn trọng quyền lực của hệ thống giáo dục. Tuân theo các quy tắc, ghi nhớ sự kiện và thể hiện tốt trong một môi trường học thuật có cấu trúc.",
+        "reversed": "Khó khăn trong các kỳ thi do từ chối học thuộc lòng, thách thức chương trình giảng dạy hoặc đấu tranh với cấu trúc cứng nhắc của hệ thống thi cử. Nó cũng có thể chỉ ra các phương pháp học tập phi truyền thống hoặc ưu tiên học hỏi kinh nghiệm hơn đánh giá truyền thống."
+      },
+      "scholarship": {
+        "upright": "Học bổng được trao dựa trên thành tích học tập, tuân thủ các tiêu chuẩn của tổ chức và công nhận tiềm năng của một người trong một khuôn khổ giáo dục đã được thiết lập. Nó đại diện cho sự hỗ trợ cho việc học tập truyền thống và theo đuổi trí tuệ.",
+        "reversed": "Một học bổng có các tiêu chí phi truyền thống, có thể dành cho một lĩnh vực nghiên cứu không truyền thống, hoặc một học bổng đòi hỏi phải thoát ly khỏi các chuẩn mực học thuật hiện có. Nó cũng có thể biểu thị một cuộc đấu tranh để có được học bổng do thách thức hệ thống hoặc không phù hợp với các khuôn mẫu thông thường."
+      },
+      "talent": {
+        "upright": "Tài năng được công nhận và nuôi dưỡng trong các thể chế đã được thiết lập, học nghề truyền thống hoặc các khuôn khổ nghệ thuật/học thuật thông thường. Phát triển kỹ năng thông qua đào tạo chính thức, cố vấn và tuân thủ các kỹ thuật đã được chứng minh.",
+        "reversed": "Tài năng thách thức sự phân loại thông thường, đấu tranh để được công nhận trong các hệ thống đã được thiết lập hoặc đòi hỏi một con đường phi truyền thống để thể hiện đầy đủ. Nó biểu thị sự giải phóng khỏi các hình thức truyền thống để giải phóng một lực lượng sáng tạo độc đáo, không bị gò bó."
+      },
+      "spirit_guide": {
+        "upright": "Một linh hồn dẫn đường xuất hiện dưới hình thức truyền thống, mang lại trí tuệ, hướng dẫn đạo đức và kết nối với các chân lý tâm linh đã được thiết lập hoặc kiến thức tổ tiên. Họ củng cố các con đường tâm linh thông thường và mang lại sự giác ngộ có cấu trúc.",
+        "reversed": "Một linh hồn dẫn đường thách thức các niềm tin tâm linh thông thường, khuyến khích các thực hành phi truyền thống hoặc thúc đẩy một người đặt câu hỏi về các giáo điều đã được thiết lập. Họ có thể xuất hiện dưới một hình thức bất ngờ, hướng dẫn bạn tránh xa các cấu trúc tâm linh cứng nhắc để tìm kiếm sự thật và giải phóng cá nhân."
       }
     },
     "advice": "Đôi khi con đường mòn lại là con đường an toàn nhất. Hãy lắng nghe lời khuyên từ những bậc tiền bối, nhưng đừng đánh mất đi tiếng nói của lương tri.",
@@ -1640,6 +2072,78 @@ window.TAROT_DB = [
       "lost_item": {
         "upright": "Món đồ thất lạc có thể nằm ở một nơi gắn liền với tình yêu, kỷ niệm chung của hai người, hoặc ở nơi bạn thường đưa ra những quyết định quan trọng.",
         "reversed": "Vật bị mất do sự bất đồng, mâu thuẫn hoặc sự thiếu tập trung trong một mối quan hệ. Có thể là một món quà bị lãng quên hoặc thất lạc trong lúc giận dỗi."
+      },
+      "toxic_relationship": {
+        "upright": "Một lựa chọn sâu sắc để đối diện với những khía cạnh bóng tối trong một mối liên kết, tìm kiếm con đường chân lý và lòng tự trọng giữa những động lực đầy thử thách. Đây là thời điểm quan trọng khi một người chọn mang ánh sáng vào những sự mất cân bằng ẩn giấu, dù có thể đau đớn.",
+        "reversed": "Mắc kẹt trong một chu kỳ của những mô hình phá hoại, nơi tiếng nói của linh hồn bị im lặng bởi sự phụ thuộc lẫn nhau hoặc thao túng. S�� từ chối đưa ra quyết định cần thiết, dù khó khăn, để cắt đứt mối quan hệ, duy trì một vết thương đang mưng mủ."
+      },
+      "soulmate": {
+        "upright": "Sự hội tụ thiêng liêng của hai linh hồn, định mệnh để đan xen, phản ánh những giá trị chung và một mối liên kết nghiệp quả sâu sắc. Nó biểu thị một sự kết hợp thần thánh, một tấm gương phản chiếu bản ngã cao nhất, nơi những lựa chọn dễ dàng hòa hợp hướng tới một số phận chung.",
+        "reversed": "Sự khao khát một kết nối vẫn còn xa vời, hoặc một niềm tin sai lầm vào một mối liên kết tri kỷ hóa ra là ảo ảnh. Sự không phù hợp về giá trị cốt lõi ngăn cản sự hợp nhất tinh thần thực sự, dẫn đến sự vỡ mộng hoặc một loạt những cuộc gặp gỡ không thỏa mãn."
+      },
+      "reconciliation": {
+        "upright": "Sự lựa chọn sâu sắc của trái tim để hàn gắn những rạn nứt, được dẫn dắt bởi sự tha thứ và một sự hiểu biết mới mẻ về tình cảm chung. N�� báo trước một sự tái hợp thiêng liêng, nơi những rạn nứt trong quá khứ được chữa lành thông qua sự tôn trọng lẫn nhau và một quyết định có ý thức để xây dựng lại sự hài hòa.",
+        "reversed": "Sự bất lực trong việc hòa giải, có lẽ do lòng kiêu hãnh cố chấp hoặc những khác biệt không thể dung hòa trong niềm tin cốt lõi. Con đường tái hợp bị chặn bởi những xung đột chưa được giải quyết, cho thấy rằng lựa chọn hàn gắn mối quan hệ hoặc bị kháng cự hoặc không còn khả thi."
+      },
+      "secret_admirer": {
+        "upright": "Một sự cộng hưởng ẩn giấu, một sự thừa nhận thầm lặng về một kết nối tinh thần hoặc cảm xúc sâu sắc được người khác cảm nhận. Năng lượng này gợi ý một sự hấp dẫn tinh tế, một lựa chọn để quan sát và ngưỡng mộ từ xa, chờ đợi thời điểm thích hợp để hòa hợp.",
+        "reversed": "Một tình cảm bí mật gây ra xung đột nội tâm hoặc dẫn đến những lựa chọn sai lầm. Sự ngư��ng mộ bí mật có thể bắt nguồn từ những ám ảnh không lành mạnh, hoặc ý định của người ngưỡng mộ không phù hợp với lợi ích cao nhất của bạn, tạo ra một sự bất hòa tinh tế trong trường năng lượng."
+      },
+      "burnout": {
+        "upright": "Một khoảnh khắc lựa chọn quan trọng, nơi linh hồn đòi hỏi sự cân bằng giữa nỗ lực và sự phục hồi. Đó là mệnh lệnh tinh thần để tôn trọng giới hạn năng lượng của bản thân, đưa ra những quyết định có ý thức để lùi lại và điều chỉnh lại với hạnh phúc nội tâm trước khi cạn kiệt hoàn toàn.",
+        "reversed": "Một trạng thái cạn kiệt năng lượng hoàn toàn, sinh ra từ sự từ chối kéo dài trong việc đưa ra những lựa chọn tôn trọng giới hạn của bản thân. Ngọn lửa sống động của linh hồn lụi tàn, bị bóp nghẹt bởi những yêu cầu không ngừng và sự mất cân bằng sâu sắc với nhu cầu cá nhân, dẫn đến sự suy sụp."
+      },
+      "startup": {
+        "upright": "Sự khởi đầu c��a một dự án ra đời từ đam mê và sự phù hợp rõ ràng về mục đích, đòi hỏi những lựa chọn dũng cảm và một tầm nhìn thống nhất giữa những người sáng lập hoặc các nguyên tắc cốt lõi. Nó biểu thị sự kết hợp thiêng liêng giữa ý tưởng và thực thi, được dẫn dắt bởi nền tảng đạo đức vững chắc.",
+        "reversed": "Một công ty khởi nghiệp bị bao vây bởi xung đột nội bộ, tầm nhìn xung đột, hoặc sự mất cân bằng cơ bản về giá trị giữa các bên liên quan chính. Những lựa chọn tồi trong quan hệ đối tác hoặc thiếu hướng dẫn đạo đức rõ ràng dẫn đến một nền tảng bị rạn nứt, cản trở sự phát triển và tiềm năng."
+      },
+      "workplace_politics": {
+        "upright": "Điều hướng các động lực tương tác phức tạp bằng sự chính trực, đưa ra những lựa chọn có ý thức phù hợp với la bàn đạo đức của bản thân trong khi thúc đẩy sự hợp tác. Nó đại diện cho khả năng xây dựng liên minh và ảnh hưởng đến các quyết định thông qua ngoại giao và sự hiểu biết chung.",
+        "reversed": "Mắc kẹt trong một mạng lưới thao túng, tin đồn và đấu tranh quyền lực, nơi những lựa chọn được quyết định bởi nỗi sợ hãi hoặc tư lợi hơn là các nguyên tắc đạo đức. Sự đổ vỡ trong niềm tin và giao tiếp, dẫn đến xung đột và một môi trường độc hại."
+      },
+      "side_hustle": {
+        "upright": "Một lựa chọn có ý thức để mở rộng các con đường sáng tạo hoặc tài chính của một người, phù hợp với niềm đam mê cá nhân với những nỗ lực thực tế. Nó biểu thị sự tích hợp hài hòa của nhiều vai trò, đòi hỏi sự sáng suốt để cân bằng các cam kết mà không hy sinh các giá trị cốt lõi.",
+        "reversed": "Một công việc phụ tạo ra xung đột quá lớn, làm cạn kiệt năng lượng và tài nguyên do quản lý thời gian kém hoặc sự mất cân bằng với tiếng gọi thực sự của một người. Dự án bổ sung trở thành nguồn gốc của căng thẳng, kéo một ngư���i ra khỏi trách nhiệm chính hoặc sự bình yên nội tâm."
+      },
+      "real_estate": {
+        "upright": "Một quyết định quan trọng liên quan đến tài sản, thường liên quan đến quan hệ đối tác hoặc sự phù hợp sâu sắc với tầm nhìn dài hạn của một người về sự ổn định và nhà cửa. Nó biểu thị một lựa chọn hài hòa cộng hưởng với các giá trị cá nhân và tạo ra nền tảng cho sự phát triển trong tương lai.",
+        "reversed": "Những lựa chọn tồi trong các dự án bất động sản, dẫn đến xung đột, căng thẳng tài chính hoặc cảm giác bất an. Sự mất cân bằng với giá trị thực của tài sản hoặc sự bất lực trong việc đồng ý các điều khoản với các đối tác tạo ra sự bất hòa và thua lỗ tiềm tàng."
+      },
+      "financial_loss": {
+        "upright": "Bài học sâu sắc vốn có trong một lựa chọn dẫn đến tổn thất tài chính, thúc đẩy việc đánh giá lại các giá trị và ưu tiên. Đó là cơ hội để học hỏi sự sáng suốt, để chọn một con đường chính trực và khôn ngoan hơn trong các nỗ lực tài chính trong tương lai.",
+        "reversed": "Một tổn thất tài chính bắt nguồn từ những quyết định bốc đồng, xung đột nội bộ liên quan đến chi tiêu, hoặc sự mất cân bằng cơ bản với các mục tiêu tài chính của một người. Nó biểu thị một sự mất cân bằng nghiệp quả, nơi những lựa chọn được thúc đẩy bởi lòng tham hoặc nỗi sợ hãi đã dẫn đến thiệt hại đáng kể."
+      },
+      "sudden_wealth": {
+        "upright": "Một sự phù hợp nghiệp quả giữa năng lượng và cơ hội, một phần thưởng thần thánh cho những lựa chọn trong quá khứ đã tôn vinh sự chính trực và các giá trị chung. Dòng chảy dồi dào này trình bày một lựa chọn sâu sắc: làm thế nào để quản lý phước lành này theo cách phục vụ lợi ích cao nhất.",
+        "reversed": "Sự giàu có bất ngờ mang đến sự bất hòa, xung đột nội bộ, hoặc phơi bày sự mất cân bằng về giá trị. Sự dồi dào trở thành nguồn gốc của sự cám dỗ hoặc chia rẽ, dẫn đến những lựa chọn tồi làm xói mòn hạnh phúc thực sự hoặc các mối quan hệ."
+      },
+      "healing": {
+        "upright": "Lựa chọn có ý thức để đón nhận tình yêu bản thân và sự hài hòa nội tâm, khởi xướng một quá trình phục hồi tinh thần và cảm xúc sâu sắc. Nó biểu thị sự kết hợp thiêng liêng giữa thể xác, tâm trí và tinh thần, được dẫn dắt bởi một cam kết sâu sắc đối với hạnh phúc.",
+        "reversed": "Sự kháng cự đối với hành trình chữa lành, có lẽ do những xung đột nội bộ chưa được giải quyết hoặc sự bất lực trong việc đưa ra những lựa chọn cần thiết cho việc tự chăm sóc bản thân. Con đường đến sự toàn vẹn bị chặn bởi sự từ chối, sợ hãi hoặc sự mất cân bằng dai dẳng với nhu cầu thực sự của một người."
+      },
+      "stress": {
+        "upright": "Một khoảnh khắc lựa chọn sâu sắc để xác định nguồn gốc của áp lực nội bộ và bên ngoài, thúc đẩy một quy���t định có ý thức để khôi phục sự cân bằng. Đó là tiếng gọi của linh hồn để sắp xếp lại các ưu tiên và đưa ra những lựa chọn tôn vinh sự bình yên hơn là sự choáng ngợp.",
+        "reversed": "Căng thẳng quá mức do không thể đưa ra những lựa chọn quyết đoán kéo dài, dẫn đến xung đột nội bộ và cảm giác bị kéo theo nhiều hướng đối lập. Sự hài hòa của linh hồn bị rạn nứt, dẫn đến kiệt sức và rối loạn tinh thần."
+      },
+      "trauma": {
+        "upright": "Lựa chọn dũng cảm để đối diện và hòa nhập những vết thương trong quá khứ, nhận ra những bài học sâu sắc ẩn chứa trong trải nghiệm. Nó biểu thị một điểm mấu chốt nơi một người chọn chữa lành, tìm cách biến nỗi đau thành trí tuệ và tìm thấy sự bình yên nội tâm.",
+        "reversed": "Một chấn thương sâu sắc tạo ra xung đột nội bộ liên tục, ngăn cản linh hồn đưa ra những lựa chọn dẫn đến sự giải thoát. Vết thương trong quá khứ tiếp tục chi phối các hành động hiện tại, dẫn đến các chu kỳ đau đớn và sự mất cân bằng sâu sắc với bản thân đích thực của một người."
+      },
+      "exams": {
+        "upright": "Một thời điểm quan trọng đòi hỏi sự lựa chọn và cống hiến tập trung, nơi kiến thức và giá trị của một người được đưa vào thử thách. Nó biểu thị sự tích hợp thành công của việc học, dẫn đến một kết quả hài hòa thông qua sự chuẩn bị siêng năng và ra quyết định rõ ràng.",
+        "reversed": "Sự thiếu quyết đoán, thiếu tập trung, hoặc xung đột nội bộ trong các kỳ thi, dẫn đến kết quả kém. Sự mất cân bằng giữa sự chuẩn bị và kỳ vọng, hoặc một thất bại trong việc đưa ra những lựa chọn cần thiết để cam kết hoàn toàn với nhiệm vụ."
+      },
+      "scholarship": {
+        "upright": "Một sự phù hợp hài hòa giữa công lao và cơ hội, một sự công nhận thần thánh về sự cống hiến và tiềm năng của một người. Nó đại diện cho một lựa chọn có ý thức được người khác đưa ra để đầu tư vào tương lai của bạn, biểu thị một kết nối mạnh mẽ giữa nỗ lực và phần thưởng.",
+        "reversed": "Một cơ hội học bổng bị bỏ lỡ do những lựa chọn tồi, xung đột nội bộ liên quan đến con đường học vấn, hoặc sự mất cân bằng với các tiêu chí của học bổng. Nó gợi ý sự thiếu rõ ràng hoặc cam kết đã ngăn cản kết quả mong muốn."
+      },
+      "talent": {
+        "upright": "Lựa chọn có ý thức để đón nhận và trau dồi những khả năng bẩm sinh của một người, phù hợp với sự thể hiện cá nhân với một mục đích cao hơn. Nó biểu thị sự phát triển hài hòa của những món quà độc đáo, dẫn đến sự mãn nguyện sâu sắc và sự kết hợp sáng tạo.",
+        "reversed": "Một tài năng bị bỏ quên hoặc sử dụng sai do sự thiếu quyết đoán, sợ hãi, hoặc sự mất cân bằng với tiếng gọi thực sự của một người. Xung đột nội bộ ngăn cản việc thực hiện đầy đủ tiềm năng, dẫn đ��n cảm giác không thỏa mãn hoặc đình trệ sáng tạo."
+      },
+      "spirit_guide": {
+        "upright": "Một kết nối sâu sắc và sự phù hợp với một sự hiện diện tinh thần nhân từ, mang lại sự hướng dẫn và trí tuệ trong việc đưa ra những lựa chọn quan trọng của cuộc đời. Nó biểu thị một mối quan hệ đối tác hài hòa với những điều vô hình, nơi trực giác được khuếch đại và các con đường được soi sáng.",
+        "reversed": "Sự mất kết nối với các linh hướng của một người, có lẽ do tiếng ồn nội bộ, sự nghi ngờ, hoặc sự từ chối tuân theo lời khuyên thiêng liêng. Sự mất cân bằng với trí tuệ tâm linh dẫn đến sự nhầm lẫn, những lựa chọn tồi và cảm giác trôi dạt không có định hướng rõ ràng."
       }
     },
     "advice": "Dù đứng trước bất kỳ ngã rẽ nào, hãy để trái tim thuần khiết và sự trung thực tuyệt đối dẫn lối cho bạn.",
@@ -1877,6 +2381,78 @@ window.TAROT_DB = [
       "lost_item": {
         "upright": "Vật thất lạc không mất hoàn toàn, nó chỉ bị đặt sai chỗ do một khoảnh khắc mất tập trung. Hãy dùng ý chí và sự kiên trì để truy tìm, bạn sẽ tìm thấy nó ở một nơi gắn liền với sự di chuyển hoặc điều khiển.",
         "reversed": "Món đồ bị mất do sự bất cẩn cực độ, môi trường sống hỗn loạn hoặc bị di chuyển mà không hề có sự kiểm soát. Việc tìm lại trở nên vô vọng, như một bài học về sự ngăn nắp và trách nhiệm."
+      },
+      "toxic_relationship": {
+        "upright": "Sức mạnh ý chí đang trỗi dậy, đòi hỏi bạn phải nắm quyền kiểm soát và định hình lại ranh giới thiêng liêng của mình. Đây là hành trình dũng cảm để thoát ly khỏi xiềng xích độc hại, tìm lại tự do và sự toàn vẹn của bản thân.",
+        "reversed": "Cỗ Xe đảo ngược báo hiệu sự mất kiểm soát, khi bạn bị cuốn vào vòng xoáy thao túng và phụ thuộc. Sự do dự đang ngăn cản bạn thoát ly, khiến linh hồn mắc kẹt trong một mê cung độc hại không lối thoát."
+      },
+      "soulmate": {
+        "upright": "Một định mệnh đang hiển lộ, được dẫn dắt bởi ý chí sắt đá và quyết tâm vượt qua mọi thử thách. Sự kết nối này không chỉ là cảm xúc mà còn là một hành trình chung, nơi hai linh hồn cùng nhau tiến về phía trước với một mục đích duy nhất.",
+        "reversed": "Những trở ngại vô hình đang cản trở sự hội ngộ của các linh hồn đồng điệu. Sự thiếu định hướng hoặc xung đột nội tâm có thể khiến bạn lạc lối, không tìm thấy con đường dẫn đến tình yêu đích thực mà vũ trụ đã sắp đặt."
+      },
+      "reconciliation": {
+        "upright": "Ý chí hòa giải đang chiếm ưu thế, thúc đẩy bạn vượt qua những vết rạn nứt quá khứ bằng sự quyết tâm và thấu hiểu. Đây là hành động dũng cảm để hàn gắn, chọn lựa con đường tiến lên phía trước cùng nhau, thoát khỏi gánh nặng của quá khứ.",
+        "reversed": "Sự kiên định mù quáng hoặc thiếu kiểm soát cảm xúc đang ngăn cản mọi nỗ l���c hòa giải. Những vết thương cũ vẫn còn dai dẳng, tạo ra rào cản vô hình, khiến hai bên không thể dung hòa và tiến bước."
+      },
+      "secret_admirer": {
+        "upright": "Một sức hút mạnh mẽ, có chủ đích đang âm thầm vận hành. Người ngưỡng mộ bí mật này đang dùng ý chí và sự khéo léo để tiến gần hơn, dù hành động của họ có thể chưa lộ rõ, nhưng sự quyết tâm là không thể phủ nhận.",
+        "reversed": "Sự do dự hoặc xung đột nội tâm đang kìm hãm người ngưỡng mộ này. Họ có thể thiếu dũng khí để bày tỏ hoặc đang lạc lối trong cách thể hiện tình cảm, dẫn đến sự bế tắc và thiếu tiến triển."
+      },
+      "burnout": {
+        "upright": "Bạn đang dùng ý chí sắt đá để đẩy mình vượt qua giới hạn, duy trì kiểm soát giữa áp lực cực độ. Đây là một cảnh báo về sự quá tải, khi động lực mạnh mẽ có thể dẫn đến kiệt quệ nếu không có sự điều tiết khôn ngoan.",
+        "reversed": "Sự kiệt quệ tinh thần và thể chất đã vượt quá tầm kiểm soát. Ý chí đã suy yếu, bạn cảm thấy hoàn toàn bị áp đảo và không thể tiếp tục tiến lên, rơi vào trạng thái bế tắc và mất phương hướng."
+      },
+      "startup": {
+        "upright": "Một sự khởi đầu đầy mạnh mẽ, được thúc đẩy bởi tầm nhìn rõ ràng và ý chí kiên cường. Bạn đang vượt qua mọi rào cản ban đầu, tạo dựng đà phát triển vững chắc, hướng tới chiến thắng và sự thịnh vượng.",
+        "reversed": "Dự án đang đình trệ, thiếu định hướng hoặc gặp phải xung đột nội bộ nghiêm trọng. Tham vọng có thể trở nên liều lĩnh, dẫn đến sự mất kiểm soát và nguy cơ sụp đổ, do thiếu sự điều hành khôn ngoan."
+      },
+      "workplace_politics": {
+        "upright": "Bạn đang điều hướng khéo léo qua mê cung chính trị nơi công sở, khẳng định vị thế với sự kiểm soát và chiến lược tinh tế. Đây là chiến thắng của trí tuệ và sự quyết đoán, vượt lên trên những âm mưu và cạnh tranh.",
+        "reversed": "Bạn đang bị cuốn vào vòng xoáy thao túng hoặc mất kiểm soát vị trí của mình. Sự thiếu tập trung hoặc hành động liều lĩnh có thể dẫn đến thất bại trong cuộc chiến quyền lực, gây ra chia rẽ và bất ổn."
+      },
+      "side_hustle": {
+        "upright": "Sự kỷ luật và tập trung cho phép bạn quản lý nhiều dự án cùng lúc, tạo ra nguồn thu nhập bổ sung một cách hiệu quả. Mỗi bước đi đều có chủ đích, dẫn đến sự phát triển và thành công rõ rệt.",
+        "reversed": "Bạn đang quá tải, mất đi sự tập trung cần thiết, khiến công việc phụ trở thành gánh nặng thay vì nguồn lực. Sự thiếu kiểm soát có thể dẫn đến hỗn loạn và ảnh hưởng tiêu cực đến các khía cạnh khác."
+      },
+      "real_estate": {
+        "upright": "Một giao dịch bất động sản thành công đang chờ đợi, được thúc đẩy bởi sự quyết đoán và khả năng vượt qua mọi trở ngại. Đây là một bước tiến mạnh mẽ, khẳng định quyền sở hữu và sự thịnh vượng.",
+        "reversed": "Giao dịch bị đình trệ, có thể do tranh chấp pháp lý hoặc sự thiếu quyết đoán. Bạn đang mất kiểm soát trước các yếu tố thị trường hoặc nội bộ, dẫn đến sự trì hoãn và có thể là mất mát."
+      },
+      "financial_loss": {
+        "upright": "Bạn đang đối mặt với mất mát tài chính bằng ý chí kiên cường, thực hiện các bước quyết định để kiểm soát tình hình và ngăn chặn thiệt hại thêm. Đây là thời điểm để tái thiết lập kỷ luật và giành lại quyền làm chủ vận mệnh tài chính.",
+        "reversed": "Sự mất kiểm soát hoàn toàn về tài chính đang diễn ra, với những quyết định liều lĩnh hoặc thiếu hành động, khiến tổn thất chồng chất. Bạn đang bị cuốn vào vòng xoáy nợ nần không lối thoát."
+      },
+      "sudden_wealth": {
+        "upright": "Bạn đang quản lý và định hướng sự giàu có bất ngờ với kỷ luật và tầm nhìn xa. Sự kiểm soát vững chắc cho phép bạn sử dụng tài sản để thúc đẩy các mục tiêu lớn hơn, mang lại sự thịnh vượng bền vững.",
+        "reversed": "Sự giàu có bất ngờ đang trở thành gánh nặng, dẫn đến những quyết định bốc đồng và thiếu kiểm soát. Tài sản có thể bị phung phí, gây ra sự hỗn loạn và suy đồi đạo đức thay vì phồn vinh."
+      },
+      "healing": {
+        "upright": "Một hành trình chữa lành đầy quyết tâm, nơi bạn chủ động nắm quyền kiểm soát sức khỏe và tinh thần của mình. Ý chí sắt đá đang dẫn lối bạn vượt qua bệnh tật và tổn thương, hướng tới sự phục hồi toàn diện.",
+        "reversed": "Sự kháng cự nội tại hoặc thiếu cam kết đang cản trở quá trình chữa lành. Bạn cảm thấy bị áp đảo, mất kiểm soát trước bệnh tật, hoặc không thể tiến bộ trong việc phục hồi bản thân."
+      },
+      "stress": {
+        "upright": "Bạn đang làm chủ sự căng thẳng bằng kỷ luật và sự tập trung, biến năng lượng lo âu thành hành động hiệu quả. Sự điềm tĩnh và kiểm soát cho phép bạn vượt qua áp lực m���t cách mạnh mẽ.",
+        "reversed": "Bạn đang bị căng thẳng nhấn chìm, mất kiểm soát và rơi vào trạng thái xung đột nội tâm. Sự lo âu quá mức đang làm tê liệt khả năng hành động, khiến bạn bế tắc và không thể tìm thấy lối thoát."
+      },
+      "trauma": {
+        "upright": "Một hành trình dũng cảm và kỷ luật để đối diện, xử lý và tích hợp những vết thương quá khứ. Bạn đang chủ động tìm kiếm sự chữa lành và tiến về phía trước, biến nỗi đau thành sức mạnh.",
+        "reversed": "Bạn đang bị mắc kẹt trong vòng xoáy của tổn thương, không thể thoát ra khỏi quá khứ. Sự mất kiểm soát trước các yếu tố kích hoạt và ký ức đau buồn đang ngăn cản bạn tiến lên, định hình hiện tại bằng nỗi sợ hãi."
+      },
+      "exams": {
+        "upright": "Chiến thắng đang chờ đợi nhờ sự chuẩn bị kỹ lưỡng và kỷ luật học tập. Bạn sẽ làm chủ kiến thức với sự tự tin và quyết tâm, đạt được kết quả xuất sắc trong kỳ thi.",
+        "reversed": "Sự thiếu chuẩn bị, mất tập trung hoặc lo lắng quá mức đang đe dọa kết quả. Một thái độ liều lĩnh hoặc thiếu kiểm soát có thể dẫn đến thất bại, không đạt được mục tiêu mong muốn."
+      },
+      "scholarship": {
+        "upright": "Bạn đang nắm giữ một con đường rõ ràng để đạt được học bổng thông qua nỗ lực bền bỉ và thành tích xuất sắc. Đây là sự công nhận cho ý chí và sự tận tâm của bạn trong hành trình học vấn.",
+        "reversed": "Cơ hội học bổng đang bị đe dọa bởi sự thiếu kỷ luật hoặc xung đột nội tâm. Bạn có thể đang lạc lối trong mục tiêu học tập, hoặc thiếu sự kiểm soát cần thiết để duy trì thành tích."
+      },
+      "talent": {
+        "upright": "Sự kỷ luật và khả năng vận dụng tài năng một cách bậc thầy đang dẫn bạn đến thành công vang dội. Bạn đang điều khiển và phát triển năng khiếu bẩm sinh của mình với ý chí sắt đá, tạo ra những thành quả phi thường.",
+        "reversed": "Tài năng đang bị lãng phí hoặc định hướng sai lầm. Sự thiếu kỷ luật trong việc phát triển kỹ năng, hoặc xung đột nội tâm đang ngăn cản bạn thể hiện hết tiềm năng, dẫn đến sự bế tắc và thất vọng."
+      },
+      "spirit_guide": {
+        "upright": "Bạn đang nhận được sự hướng dẫn rõ ràng từ các linh hồn dẫn lối và hành động theo với niềm tin vững chắc. Các lực lượng tâm linh đang thúc đẩy hành trình của bạn tiến về phía trước với mục đích và ý nghĩa sâu sắc.",
+        "reversed": "Bạn đang phớt lờ hoặc hiểu sai thông điệp từ linh hồn dẫn lối. Xung đột nội tâm hoặc sự nhầm lẫn giữa tiếng nói hỗn loạn bên trong và sự chỉ dẫn thiêng liêng đang dẫn bạn đi chệch hướng, gây ra những bước đi sai lầm."
       }
     },
     "advice": "Hãy nắm chặt dây cương, tập trung ánh nhìn vào đích đến và đừng để bất kỳ ai can thiệp vào tay lái của bạn.",
@@ -2114,6 +2690,78 @@ window.TAROT_DB = [
       "lost_item": {
         "upright": "Món đồ thất lạc có thể được tìm thấy thông qua sự kiên nhẫn và khả năng tập trung cao độ. Hãy bình tĩnh, hít thở sâu và tin vào trực giác của mình; vật ấy không đi đâu xa mà chỉ đang chờ bạn \"chế ngự\" sự lộn xộn để tìm ra.",
         "reversed": "Vật phẩm bị mất do sự thiếu cẩn trọng, bốc đồng hoặc không kiểm soát được thói quen lộn xộn. Sự nóng vội và thiếu kiên nhẫn sẽ càng khiến việc tìm kiếm trở nên vô vọng, đòi hỏi bạn phải học cách tổ chức và tự chủ hơn."
+      },
+      "toxic_relationship": {
+        "upright": "Sức mạnh nội tại để chịu đựng và tìm cách chuyển hóa độc tố, hoặc đủ dũng khí để buông bỏ một cách nhẹ nhàng nhưng kiên quyết, không dùng bạo lực hay phản kháng. Khả năng giữ vững sự bình yên bên trong dù đối mặt với sự hỗn loạn bên ngoài.",
+        "reversed": "Mất kiểm soát bản thân, để mối quan hệ độc hại thao túng cảm xúc, thiếu dũng khí để thoát ly, hoặc dùng sức mạnh sai cách (cố gắng kiểm soát người khác, phản kháng bằng sự hung hăng) làm tăng thêm độc tố. Nỗi sợ hãi lớn hơn sự tự trọng."
+      },
+      "soulmate": {
+        "upright": "Sức mạnh của sự kết nối tâm linh sâu sắc, sự kiên nhẫn và lòng trắc ẩn để chấp nhận và yêu thương những khía cạnh \"hoang dã\" nhất của nhau, tạo nên một liên kết bền vững vượt qua mọi thử thách. Sự hòa hợp của hai linh hồn được dẫn dắt bởi tình yêu và sự thấu hiểu.",
+        "reversed": "Thiếu niềm tin vào định mệnh, sự nghi ngờ làm suy yếu mối liên kết. Hoặc một trong hai (hoặc cả hai) không đủ sức mạnh nội tâm để đối mặt với những thử thách của mối quan hệ sâu sắc, để cái tôi hoặc nỗi sợ hãi lấn át, dẫn đến sự xa cách hoặc hiểu lầm."
+      },
+      "reconciliation": {
+        "upright": "Sức mạnh của sự tha thứ, lòng trắc ẩn và sự kiên nhẫn để hàn gắn vết thương cũ. Khả năng nhìn nhận lỗi lầm bằng con mắt bao dung, và dùng tình yêu để xoa dịu sự giận dữ, mở ra cánh cửa hòa giải chân thành.",
+        "reversed": "Thiếu sức mạnh để vượt qua cái tôi và sự oán giận. Sự hèn nhát trong việc đối mặt với sự thật, hoặc sự cứng đầu không chịu buông bỏ tổn thương. Lòng trắc ẩn bị che mờ bởi sự phán xét, khiến việc hòa giải trở nên giả tạo hoặc không thể thực hiện được."
+      },
+      "secret_admirer": {
+        "upright": "Sức mạnh của sự kiên nhẫn và lòng tin vào thời điểm thích hợp để bộc lộ tình cảm, hoặc sự khéo léo, tinh tế trong cách thể hiện sự ngưỡng mộ một cách kín đáo nhưng chân thành, không gây áp lực.",
+        "reversed": "Thiếu dũng khí để bộc lộ cảm xúc, để nỗi sợ bị từ chối hoặc bị hiểu lầm lấn át. Hoặc sự ngưỡng mộ trở thành ám ảnh, thiếu kiểm soát, gây ra sự khó chịu hoặc xâm phạm quyền riêng tư."
+      },
+      "burnout": {
+        "upright": "Sức mạnh nội tại để nhận diện và lắng nghe tiếng gọi của cơ thể và tâm trí, tìm kiếm sự cân bằng và phục hồi một cách có ý thức. Khả năng tự kiểm soát để không vượt quá giới hạn, và sự khôn ngoan để nghỉ ngơi khi cần.",
+        "reversed": "Thiếu sức mạnh để nói \"không\", tiếp tục đẩy bản thân vượt quá giới hạn mà không lắng nghe tín hiệu cảnh báo. Sự mất kiểm soát về năng lượng, để áp lực bên ngoài hoặc tham vọng cá nhân dẫn đến kiệt quệ hoàn toàn."
+      },
+      "startup": {
+        "upright": "Sức mạnh của tầm nhìn, lòng dũng cảm để khởi nghiệp, và sự kiên trì không lay chuyển trước thử thách. Khả năng dẫn dắt bằng sự khôn ngoan, lòng trắc ẩn và sự kiểm soát bản thân, thu phục lòng người và vượt qua những \"thú dữ\" của thị trường.",
+        "reversed": "Thiếu tự tin vào ý tưởng, dễ dàng bỏ cuộc khi gặp khó khăn. Hoặc sự thiếu kiểm soát trong quản lý, để cái tôi hoặc sự nóng vội dẫn đến những quyết định sai lầm, mất đi sự tin tưởng của đội ngũ."
+      },
+      "workplace_politics": {
+        "upright": "Sức mạnh của sự khéo léo, sự đi��m tĩnh và trí tuệ để điều hướng trong môi trường phức tạp mà không đánh mất sự chính trực. Khả năng ảnh hưởng đến người khác bằng sự thuyết phục nhẹ nhàng và lòng trắc ẩn, chứ không phải bằng quyền lực hay thao túng.",
+        "reversed": "Thiếu khả năng kiểm soát cảm xúc, dễ bị cuốn vào vòng xoáy tranh giành quyền lực. Hoặc sử dụng sức mạnh sai cách, cố gắng thao túng hoặc dùng quyền lực để đàn áp, gây ra mâu thuẫn và sự bất mãn."
+      },
+      "side_hustle": {
+        "upright": "Sức mạnh của sự kỷ luật, khả năng cân bằng giữa công việc chính và phụ, và sự kiên trì để theo đuổi đam mê hoặc mục tiêu tài chính một cách bền bỉ.",
+        "reversed": "Thiếu kiểm soát thời gian và năng lượng, để công việc phụ ảnh hưởng tiêu cực đến công việc chính hoặc cuộc sống cá nhân. Hoặc sự thiếu kiên nhẫn, dễ dàng từ bỏ khi gặp khó khăn ban đầu."
+      },
+      "real_estate": {
+        "upright": "Sức mạnh của sự kiên nhẫn trong việc chờ đợi cơ hội, sự khôn ngoan trong đàm phán và khả năng kiểm soát cảm xúc khi đối mặt với các giao dịch lớn. Sự vững vàng và tự tin trong quyết định.",
+        "reversed": "Thiếu tự tin hoặc sự nóng vội dẫn đến quyết định sai lầm. Hoặc sự thiếu kiểm soát về tài chính, để lòng tham hoặc nỗi sợ hãi chi phối, gây ra những rủi ro không đáng có."
+      },
+      "financial_loss": {
+        "upright": "Sức mạnh nội tại để chấp nhận mất mát, học hỏi từ kinh nghiệm và phục hồi một cách kiên cường. Khả năng giữ vững tinh thần lạc quan và tìm kiếm giải pháp một cách bình tĩnh, không để nỗi sợ hãi hoặc tuyệt vọng lấn át.",
+        "reversed": "Thiếu sức mạnh để đối mặt với thực tế, để nỗi sợ hãi và sự tuyệt vọng nhấn chìm. Mất kiểm soát cảm xúc, dẫn đến những hành động vội vàng hoặc thiếu suy nghĩ, làm tình hình tồi tệ hơn."
+      },
+      "sudden_wealth": {
+        "upright": "Sức mạnh của sự khôn ngoan và tự kiểm so��t để quản lý tài sản mới một cách có trách nhiệm, không để tiền bạc làm thay đổi bản chất hoặc làm mất đi giá trị cốt lõi. Khả năng sử dụng của cải một cách có mục đích và lòng trắc ẩn.",
+        "reversed": "Thiếu sức mạnh để kiểm soát bản thân, để lòng tham hoặc sự kiêu ngạo lấn át. Mất phương hướng, sử dụng tiền bạc một cách phung phí hoặc gây hại, đánh mất sự bình yên nội tại."
+      },
+      "healing": {
+        "upright": "Sức mạnh của sự tự chữa lành, lòng trắc ẩn với bản thân và sự kiên nhẫn trong quá trình phục hồi. Khả năng lắng nghe cơ thể và tâm hồn, cho phép quá trình chữa lành diễn ra một cách tự nhiên và bền vững, không cưỡng ép.",
+        "reversed": "Thiếu sức mạnh để đối mặt với tổn thương, từ chối quá trình chữa lành hoặc cố gắng ép buộc sự hồi phục. Mất kiểm soát về cảm xúc hoặc thể chất, làm chậm trễ hoặc cản trở quá trình chữa lành."
+      },
+      "stress": {
+        "upright": "S��c mạnh của sự điềm tĩnh, khả năng kiểm soát phản ứng của bản thân trước áp lực. Khả năng chuyển hóa căng thẳng thành động lực, hoặc tìm ra cách giải tỏa một cách lành mạnh và có ý thức.",
+        "reversed": "Thiếu sức mạnh để đối phó với căng thẳng, để áp lực nhấn chìm và gây ra sự mất kiểm soát về cảm xúc, hành vi. Sự hèn nhát trong việc đối mặt với nguồn gốc của căng thẳng, hoặc không tìm được phương pháp giải tỏa hiệu quả."
+      },
+      "trauma": {
+        "upright": "Sức mạnh phi thường để đối mặt với tổn thương sâu sắc, bắt đầu hành trình chữa lành với lòng dũng cảm, kiên nhẫn và lòng trắc ẩn vô hạn dành cho bản thân. Khả năng chuyển hóa nỗi đau thành sức mạnh nội tại.",
+        "reversed": "Thiếu sức mạnh để đối diện với sang chấn, để nỗi sợ hãi và tổn thương chi phối hoàn toàn. Mất kiểm soát về cuộc sống, tự cô lập hoặc lạm dụng chất kích thích để trốn tránh, ngăn cản quá trình ch���a lành thực sự."
+      },
+      "exams": {
+        "upright": "Sức mạnh của sự tập trung, kỷ luật trong học tập và sự tự tin vào kiến thức đã tích lũy. Khả năng giữ bình tĩnh và kiểm soát lo lắng, thể hiện hết năng lực của bản thân một cách khéo léo.",
+        "reversed": "Thiếu tự tin, lo lắng quá mức khiến khả năng bị ảnh hưởng. Hoặc sự thiếu kỷ luật trong chuẩn bị, để sự lười biếng hoặc thiếu kiểm soát thời gian dẫn đến kết quả không mong muốn."
+      },
+      "scholarship": {
+        "upright": "Sức mạnh của sự kiên trì, nỗ lực không ngừng và sự tự tin vào năng lực của bản thân để đạt được học bổng. Khả năng thể hiện giá trị bản thân một cách khiêm tốn nhưng thuyết phục.",
+        "reversed": "Thiếu tự tin vào khả năng của mình, không dám theo đuổi cơ hội. Hoặc sự thiếu kiên nhẫn, dễ dàng bỏ cuộc khi đối mặt với sự cạnh tranh gay gắt."
+      },
+      "talent": {
+        "upright": "Sức mạnh để nhận ra, nuôi dưỡng và ph��t triển tài năng một cách kiên trì, kỷ luật. Khả năng sử dụng tài năng một cách có trách nhiệm, phục vụ cộng đồng và lan tỏa giá trị, không để cái tôi lấn át.",
+        "reversed": "Thiếu sức mạnh để phát huy tài năng, để nỗi sợ hãi, sự lười biếng hoặc thiếu tự tin kìm hãm. Hoặc sử dụng tài năng một cách sai mục đích, vì lợi ích cá nhân mà không có lòng trắc ẩn."
+      },
+      "spirit_guide": {
+        "upright": "Sức mạnh của sự kết nối tâm linh sâu sắc, khả năng lắng nghe và tin tưởng vào sự dẫn dắt từ các linh hồn hướng dẫn. Sự kiên nhẫn và lòng trắc ẩn để hiểu thông điệp, và dũng khí để đi theo con đường được chỉ dẫn.",
+        "reversed": "Thiếu sức mạnh để lắng nghe trực giác, nghi ngờ hoặc từ chối sự dẫn dắt tâm linh. Hoặc mất kiểm soát trong việc phân biệt giữa sự dẫn dắt thật sự và những ảo tưởng, để cái tôi hoặc nỗi sợ hãi làm méo mó thông điệp."
       }
     },
     "advice": "Sức mạnh vĩ đại nhất luôn được gói ghém trong sự dịu dàng. Hãy dùng lòng bao dung để thuần phục thế giới.",
@@ -2350,6 +2998,78 @@ window.TAROT_DB = [
       "lost_item": {
         "upright": "Vật phẩm thất lạc không mất đi, nó đang nằm ở một nơi yên tĩnh, khuất mình, có thể là một góc riêng tư mà bạn thường xuyên lui tới để chiêm nghiệm. Hãy tĩnh tâm nhớ lại, ánh sáng nội tâm sẽ dẫn lối bạn tìm thấy.",
         "reversed": "Sự lơ đễnh do quá mức chìm đắm vào suy nghĩ riêng hoặc sự bừa bộn trong không gian cá nhân đã khiến vật phẩm bị thất lạc hoàn toàn. Việc tìm kiếm trở nên vô vọng khi bạn không thể kết nối với môi trường xung quanh."
+      },
+      "toxic_relationship": {
+        "upright": "Một lời kêu gọi rút lui vào nội tâm, tìm kiếm ánh sáng của sự thật bên trong để nhận diện và thấu hiểu cội rễ của sự độc hại. Đây là lúc cần sự chiêm nghiệm sâu sắc để định hướng cho những bước đi tiếp theo, có thể là tìm kiếm sự hướng dẫn từ một bậc thầy tâm linh để thoát khỏi gông cùm cảm xúc.",
+        "reversed": "Sự cô lập tự nguyện trong mối quan hệ độc hại, từ chối đối mặt với sự thật hoặc tìm kiếm sự giúp đỡ bên ngoài. Nỗi sợ hãi sự cô đơn lớn hơn cả mong muốn được giải thoát, khiến linh hồn mắc kẹt trong bóng tối của sự từ bỏ và tránh né."
+      },
+      "soulmate": {
+        "upright": "Dấu hiệu cho một giai đoạn chiêm nghiệm sâu sắc, nơi bạn cần khám phá chiều sâu tâm hồn mình trước khi linh hồn tri kỷ có thể xuất hiện. Người bạn đời đích thực sẽ đến khi bạn đã tìm thấy ánh sáng và sự bình yên nội tại, hoặc qua sự dẫn dắt của một người thầy tâm linh.",
+        "reversed": "Sự tự cô lập, nỗi sợ hãi tổn thương hoặc sự thiếu tự tin đang ngăn cản bạn nhận ra hoặc thu hút linh hồn tri kỷ. Sự rút lui quá mức khiến bạn bỏ lỡ những kết nối thiêng liêng, hoặc không thể nhìn thấy ánh sáng của tình yêu đích thực khi nó xuất hiện."
+      },
+      "reconciliation": {
+        "upright": "Một lời mời gọi cho cả hai bên rút lui vào sự tĩnh lặng, chiêm nghiệm sâu sắc về những gì đã qua. Chỉ khi mỗi linh hồn tìm thấy sự bình yên và thấu hi��u nội tại, cánh cửa hòa giải mới có thể hé mở, được soi sáng bởi trí tuệ và sự tha thứ.",
+        "reversed": "Sự từ chối cố chấp không chịu đối mặt với quá khứ hoặc tìm kiếm sự thấu hiểu. Sự cô lập kéo dài đã tạo ra một vực thẳm không thể vượt qua, khiến cho nỗ lực hòa giải trở nên vô vọng do một hoặc cả hai bên đã hoàn toàn rút lui vào vỏ bọc của riêng mình."
+      },
+      "secret_admirer": {
+        "upright": "Người ngưỡng mộ đang âm thầm quan sát từ xa, dành thời gian chiêm nghiệm về bạn trong sự tĩnh lặng. Họ có thể là một linh hồn nhút nhát, cần thời gian để thu thập dũng khí, hoặc bạn cần hướng ánh sáng nội tâm vào để nhận ra những dấu hiệu tinh tế.",
+        "reversed": "Người ngưỡng mộ vẫn mãi ẩn mình trong bóng tối của sự do dự và nỗi sợ hãi bị từ chối, không dám bước ra ánh sáng. Hoặc bạn đang quá tập trung vào thế giới nội tâm của mình, khiến cho những tín hiệu yêu mến từ bên ngoài không thể chạm tới."
+      },
+      "burnout": {
+        "upright": "Một lời cảnh tỉnh sâu sắc, yêu cầu bạn phải rút lui ngay lập tức khỏi sự ồn ào và áp lực. Đây là thời điểm để tìm kiếm sự cô tịch, lắng nghe tiếng nói bên trong và tái tạo năng lượng cho linh hồn, tìm lại ánh sáng dẫn đường đã mất.",
+        "reversed": "Sự kháng cự lại nhu cầu nghỉ ngơi và chữa lành, ép buộc bản thân tiếp tục chịu đựng sự kiệt quệ. Sự cô lập trở thành một cái bẫy, khiến bạn mắc kẹt trong bóng tối của sự mệt mỏi mà không tìm thấy lối thoát hay sự giúp đỡ cần thiết."
+      },
+      "startup": {
+        "upright": "Một giai đoạn cần sự chiêm nghiệm sâu sắc, nghiên cứu tỉ mỉ và phát triển một tầm nhìn độc đáo trong sự cô tịch. Người sáng lập đóng vai trò là một nhà hiền triết, dẫn dắt con đường bằng trí tuệ và sự kiên định nội tại.",
+        "reversed": "Sự cô lập quá mức dẫn đến thiếu cái nhìn sâu sắc về thị trường hoặc sự từ chối tìm kiếm lời khuyên từ bên ngoài. Một ý tưởng xuất chúng có nguy cơ bị chôn vùi trong bóng tối vì nỗi sợ hãi bị phơi bày hoặc thiếu sự kết nối với thế giới bên ngoài."
+      },
+      "workplace_politics": {
+        "upright": "Rút lui khỏi những tranh chấp ồn ào, quan sát với sự khách quan và trí tuệ. Sử dụng ánh sáng nội tâm để điều hướng những tình huống phức tạp mà không bị cuốn vào vòng xoáy của drama, giữ vững sự chính trực và bình yên.",
+        "reversed": "Trở thành mục tiêu do sự cô lập hoặc thiếu nhận thức về dòng chảy chính trị. Hoặc tự cô lập một cách cực đoan, khiến bản thân bị loại trừ và không thể bảo vệ lợi ích của mình trong môi trường làm việc."
+      },
+      "side_hustle": {
+        "upright": "Một dự án đòi hỏi sự suy nghĩ độc lập, nỗ lực đơn độc và tập trung sâu sắc. Đây là một hành trình cá nhân để khám phá thêm nguồn thu nhập hoặc một kênh sáng tạo, được soi sáng bởi ngọn đèn của s�� kiên trì.",
+        "reversed": "Dự án phụ chỉ mãi là một giấc mơ do thiếu sáng kiến, nỗi sợ hãi khi phải tự mình bước ra. Hoặc sự tập trung ám ảnh vào nó khiến bạn bỏ bê những khía cạnh quan trọng khác của cuộc sống, dẫn đến sự cô lập không lành mạnh."
+      },
+      "real_estate": {
+        "upright": "Một giai đoạn cần nghiên cứu cẩn thận, đưa ra quyết định thận trọng, có thể tìm kiếm lời khuyên từ một chuyên gia giàu kinh nghiệm. Tìm kiếm một nơi ở yên tĩnh, ẩn mình, nơi linh hồn có thể tìm thấy sự bình yên và chiêm nghiệm.",
+        "reversed": "Sự cô lập dẫn đến hiểu biết sai lệch về thị trường hoặc từ chối cố chấp không lắng nghe lời khuyên. Hoặc cảm giác bị mắc kẹt, bị cô lập trong chính ngôi nhà của mình, không tìm thấy sự tự do hay ánh sáng."
+      },
+      "financial_loss": {
+        "upright": "Thời điểm để rút lui, đánh giá tình hình một cách bình tĩnh, học hỏi từ những sai lầm và lên kế hoạch phục hồi một cách khôn ngoan. Tìm kiếm sự hướng dẫn từ một nguồn đáng tin cậy để soi sáng con đường tài chính.",
+        "reversed": "Rút lui vào sự tuyệt vọng và bất động, từ chối đối mặt với thực tế hoặc tự cô lập khỏi những cơ hội giúp đỡ. Bóng tối của sự mất mát bao trùm, khiến bạn không thể nhìn thấy ánh sáng của sự phục hồi."
+      },
+      "sudden_wealth": {
+        "upright": "Một lời kêu gọi quản lý tài sản một cách khôn ngoan, chiêm nghiệm cẩn thận về cách sử dụng nguồn lực mới. Có thể là một giai đoạn điều chỉnh thầm lặng để thích nghi với những trách nhiệm mới, được dẫn dắt bởi trí tuệ nội tại.",
+        "reversed": "Trở nên cô lập bởi sự giàu có, nỗi sợ hãi chia sẻ hoặc rút lui khỏi xã hội do tài sản mới, dẫn đến sự trống rỗng nội tâm. Ánh sáng của sự giàu sang bị che mờ bởi bóng tối của sự cô đơn và mất kết nối."
+      },
+      "healing": {
+        "upright": "Một hành trình chữa lành nội tâm sâu sắc, đòi hỏi sự cô tịch, thiền định và phản tư sâu sắc về bản thân. Con đường dẫn đến sự toàn vẹn và ánh sáng được tìm thấy bên trong, qua sự chiêm nghiệm chân thành.",
+        "reversed": "Kháng cự lại quá trình chữa lành, né tránh sự phản tư cần thiết hoặc sự cô lập kéo dài cản trở sự phục hồi thay vì hỗ trợ nó. Bóng tối của sự từ chối che khuất ánh sáng của sự chữa lành đích thực."
+      },
+      "stress": {
+        "upright": "Một lời nhắc nhở mạnh mẽ để rút lui, tìm kiếm sự tĩnh lặng và kết nối lại với bình yên nội tâm. Giải pháp nằm ở việc lùi lại khỏi những áp lực bên ngoài, tìm thấy ánh sáng dẫn đường trong sự yên tĩnh của chính mình.",
+        "reversed": "Rút lui vào những cơ chế đối phó không lành mạnh, tự cô lập với sự căng thẳng hoặc không thể tìm thấy một lối thoát lành mạnh để giải tỏa. Bóng tối của sự lo âu bao trùm, khiến bạn mất phương hướng và không thể tìm thấy bình yên."
+      },
+      "trauma": {
+        "upright": "Một giai đoạn cần thiết để xử lý vết thương trong sự tĩnh lặng, tìm kiếm trí tuệ nội tâm để hiểu và tích hợp trải nghiệm. Có thể cần sự hướng dẫn trong quá trình chiêm nghiệm sâu sắc để tìm thấy ánh sáng chữa lành.",
+        "reversed": "Chôn vùi vết thương bằng sự cô lập, né tránh quá trình chữa lành đối đầu hoặc rút lui sâu sắc, không lành mạnh khỏi cuộc sống do vết thương. Bóng tối của quá khứ tiếp tục ám ảnh, ngăn cản bạn tìm thấy ánh sáng của sự giải thoát."
+      },
+      "exams": {
+        "upright": "Giai đoạn học tập chuyên sâu, tập trung cao độ trong sự cô tịch, dựa vào kiến thức nội tại và sự chuẩn bị kỹ lưỡng. Có thể tìm kiếm sự hướng dẫn từ một người thầy để soi sáng con đường tri thức.",
+        "reversed": "Sự trì hoãn do né tránh, cảm thấy quá tải và rút lui khỏi việc học. Hoặc từ chối tìm kiếm sự giúp đỡ khi cần, khiến bản thân mắc kẹt trong bóng tối của sự thiếu tự tin và lo lắng."
+      },
+      "scholarship": {
+        "upright": "Sự công nhận cho quá trình theo đuổi trí tuệ sâu sắc, sự cống hiến đơn độc cho việc học hỏi. Một phần thưởng cho trí tuệ có được qua quá trình tự nghiên cứu và chiêm nghiệm, được ánh sáng tri thức soi rọi.",
+        "reversed": "Sự cô lập quá mức cản trở quá trình nộp đơn, nỗi sợ hãi khi trình bày kiến thức của mình. Hoặc một trí tuệ xuất chúng vẫn bị che khuất trong bóng tối do sự tự cô lập và thiếu tự tin."
+      },
+      "talent": {
+        "upright": "Một giai đoạn mài giũa tài năng trong sự cô tịch, thực hành sâu sắc và phát triển nội tại một món quà. Tài năng được nuôi dưỡng trong sự cống hiến thầm lặng trước khi được chia sẻ ra ánh sáng.",
+        "reversed": "Giấu giếm ánh sáng của mình, từ chối chia sẻ tài năng đã được phát triển do nỗi sợ hãi hoặc sự bất an. Hoặc tài năng vẫn chưa được phát triển do thiếu sự nỗ lực tập trung và sự cô l��p không lành mạnh."
+      },
+      "spirit_guide": {
+        "upright": "Lá bài Hermit tự nó là hiện thân của một người dẫn dắt tâm linh, hoặc báo hiệu một kết nối trực tiếp với trí tuệ nội tại. Một người thầy tâm linh sâu sắc xuất hiện hoặc được nhận ra bên trong chính bạn, soi sáng con đường.",
+        "reversed": "Sự mất kết nối với sự hướng dẫn tâm linh, bỏ qua những thôi thúc bên trong hoặc cảm thấy hoàn toàn lạc lõng và cô đơn trên con đường tâm linh mà không có một người dẫn dắt rõ ràng. Bóng tối của sự hoài nghi che mờ ánh sáng chỉ dẫn."
       }
     },
     "advice": "Câu trả lời bạn mỏi mắt kiếm tìm không nằm ở thế giới ngoài kia, nó đang ngủ quên ngay trong sâu thẳm tâm hồn bạn.",
@@ -2586,6 +3306,78 @@ window.TAROT_DB = [
       "lost_item": {
         "upright": "Món đồ thất lạc có thể bất ngờ xuất hiện trở lại, như một sự may mắn ngẫu nhiên. Hãy tin vào sự sắp đặt của số phận, bởi đôi khi những gì mất đi lại tìm thấy trong khoảnh khắc không ngờ nhất.",
         "reversed": "Món đồ đã mất dường như bị cuốn vào vòng xoáy không thể tìm thấy. Sự xui rủi đang cản trở việc thu hồi, báo hiệu rằng đôi khi cần chấp nhận mất mát như một phần của vòng xoay cuộc đời."
+      },
+      "toxic_relationship": {
+        "upright": "Một bước ngoặt định mệnh, một cơ hội để thoát ly hoặc để chu kỳ độc hại cuối cùng bộc lộ bản chất thật, dẫn đến một sự thay đổi không thể tránh khỏi. Nó cũng có thể báo hiệu một bài học nghiệp quả trong mối quan hệ đang đạt đến đỉnh điểm.",
+        "reversed": "Bị mắc kẹt trong một chu kỳ độc hại lặp đi lặp lại, cảm thấy không thể thoát ra do số phận hoặc hoàn cảnh bên ngoài. Sự kháng cự nhìn nhận sự thật, hoặc sự trì hoãn trong việc kết thúc chu kỳ không thể tránh khỏi, kéo dài sự đau khổ."
+      },
+      "soulmate": {
+        "upright": "Một cuộc gặp gỡ định mệnh, một cuộc hội ngộ được số phận sắp đặt với tri kỷ. Vũ trụ đang sắp xếp để mang kết nối quan trọng này vào cuộc đời bạn. Một mối liên kết nghiệp quả đang hiển lộ.",
+        "reversed": "Sự trì hoãn hoặc trở ngại trong việc gặp gỡ tri kỷ định mệnh của bạn, có lẽ do bạn chưa sẵn sàng hoặc hoàn cảnh bên ngoài cản trở kết nối. Một cơ hội bị bỏ lỡ, hoặc nhầm lẫn một mối quan hệ nghiệp quả với một kết nối tri kỷ do nhận thức sai lệch về số phận."
+      },
+      "reconciliation": {
+        "upright": "Một sự trở lại định mệnh, bánh xe vận mệnh quay để đưa những người xa cách lại gần nhau. Một chu kỳ hoàn tất, mang đến cơ hội thứ hai hoặc một giải pháp cho những xung đột trong quá khứ. Định mệnh đang hàn gắn những cây cầu.",
+        "reversed": "Sự kháng cự hòa giải, hoặc các thế lực bên ngoài ngăn cản điều đó. Chu kỳ chia ly tiếp tục, hoặc một sự hòa giải định mệnh bị trì hoãn, có lẽ do những bài học chưa được học. Một sự bất lực trong việc thoát khỏi những khuôn mẫu cũ ngăn cản sự đoàn tụ."
+      },
+      "secret_admirer": {
+        "upright": "Một sự tiết lộ định mệnh, vũ trụ sắp đặt hoàn cảnh để sự ngưỡng mộ thầm kín được đưa ra ánh sáng. Một bước ngoặt bất ngờ, không báo trước mang tình cảm ẩn giấu này vào nhận thức của bạn.",
+        "reversed": "Bí mật vẫn còn ẩn giấu, hoặc thời điểm không thích hợp để tiết lộ. Những hiểu lầm hoặc tín hiệu bị bỏ lỡ ngăn cản người ngưỡng mộ bộc lộ bản thân, hoặc cơ hội kết nối bị mất đi."
+      },
+      "burnout": {
+        "upright": "Một bước ngoặt quan trọng trong chu kỳ làm việc quá sức. Vũ trụ đang buộc phải dừng lại, báo hiệu một nhu cầu nghỉ ngơi và đánh giá lại không thể tránh khỏi. Một cơ hội định mệnh để phá vỡ những khuôn mẫu hủy hoại.",
+        "reversed": "Mắc kẹt trong một chu kỳ kiệt sức không ngừng nghỉ, không thể thoát ra. Sự kháng cự thừa nhận nhu cầu thay đổi, hoặc áp lực bên ngoài ngăn cản một khoảng dừng cần thiết, dẫn đến kiệt sức sâu hơn."
+      },
+      "startup": {
+        "upright": "Một dự án định mệnh, một khởi đầu mới được số phận ban phước. Những cơ hội bất ngờ và vận may thúc đẩy công ty khởi nghiệp tiến lên. Thời điểm thích hợp cho sự tăng trưởng và thành công đáng kể.",
+        "reversed": "Sự trì hoãn, thất bại, hoặc những điều không may bất ngờ đeo bám công ty khởi nghiệp. Sự kháng cự đối với những sự thích nghi cần thiết, hoặc cảm giác bị mắc kẹt trong một chu kỳ đấu tranh. Thời điểm không thích hợp, hoặc các thế lực bên ngoài đang tạo ra trở ngại."
+      },
+      "workplace_politics": {
+        "upright": "Một sự thay đổi định mệnh trong động lực quyền lực, hoặc một giải pháp nghiệp quả cho những âm mưu chính trị. Bánh xe vận mệnh quay, mang lại công lý hoặc phơi bày những chương trình nghị sự ẩn giấu, dẫn đến một sự thay đổi không thể tránh khỏi trong môi trường.",
+        "reversed": "Bị cuốn vào một chu kỳ chính trị công sở trì trệ hoặc bất lợi, không thể thoát ra hoặc ảnh hưởng đến kết quả. Những bước ngoặt tiêu cực không lường trước được, hoặc cảm giác trở thành một con tốt trong một trò chơi lớn hơn, không thể kiểm soát."
+      },
+      "side_hustle": {
+        "upright": "Một cơ hội định mệnh để có thêm thu nhập hoặc một dự án đam mê cất cánh. Vận may bất ngờ và sự đồng bộ hóa sắp xếp để hỗ trợ dự án này, dẫn đến sự phát triển.",
+        "reversed": "Sự trì hoãn hoặc trở ngại trong công việc phụ, có lẽ do thời điểm không tốt hoặc hoàn cảnh không lường trước được. Cảm giác bị mắc kẹt, hoặc dự án không đạt được đà phát triển như mong đợi, báo hiệu cần phải đánh giá lại."
+      },
+      "real_estate": {
+        "upright": "Một cơ hội định mệnh trong bất động sản, có lẽ là một khoản tiền bất ngờ, một giao dịch hoàn hảo xuất hiện, hoặc một sự thay đổi đáng kể trong tình hình nhà ở. Bánh xe vận mệnh quay theo hướng có lợi cho bạn về đất đai và nhà cửa.",
+        "reversed": "Sự trì hoãn, những biến chứng bất ngờ, hoặc vận rủi trong các giao dịch bất động sản. Sự kháng cự chuyển nhà, hoặc cảm giác bị mắc kẹt trong một tình huống sống không mong muốn. Cơ hội bị bỏ lỡ hoặc thất bại tài chính liên quan đến tài sản."
+      },
+      "financial_loss": {
+        "upright": "Một bước ngoặt định mệnh sau một mất mát, báo hiệu rằng chu kỳ bất hạnh đang kết thúc, hoặc rằng mất mát đó phục vụ như một bài học nghiệp quả dẫn đến những lợi ích trong tương lai. Bánh xe sắp quay lên.",
+        "reversed": "Bị mắc kẹt trong một chu kỳ thất bại tài chính liên tục, không thể thoát ra. Sự kháng cự học hỏi t�� những sai lầm trong quá khứ, hoặc những sự kiện tiêu cực không lường trước được kéo dài sự mất mát. Cảm giác mất kiểm soát."
+      },
+      "sudden_wealth": {
+        "upright": "Một vòng quay tốt lành của bánh xe, mang lại sự thịnh vượng và sung túc bất ngờ. Thời điểm thần thánh và sự sắp xếp vũ trụ dẫn đến một khoản tiền lớn đáng kể. Một phần thưởng nghiệp quả đang hiển lộ.",
+        "reversed": "Sự trì hoãn hoặc trở ngại ngăn cản sự biểu hiện của sự giàu có mong đợi. Có lẽ là một cơ hội bị bỏ lỡ, hoặc sự kháng cự bên trong đối với việc đón nhận sự sung túc. Bánh xe tạm thời bị kẹt, hoặc thời điểm chưa thích hợp."
+      },
+      "healing": {
+        "upright": "Một bước ngoặt định mệnh trong hành trình chữa lành, nơi cơ thể, tâm trí hoặc tinh thần bắt đầu hồi phục. Chu kỳ bệnh tật hoặc đau khổ đang gần kết thúc, mang lại sức sống và sự cân bằng mới. Sự can thiệp thần thánh trong quá trình hồi phục.",
+        "reversed": "Sự kháng cự chữa lành, hoặc sự trì hoãn trong quá trình hồi phục do những biến chứng không lường trước được hoặc sự miễn cưỡng chấp nhận những thay đổi cần thiết. Cảm giác bị mắc kẹt trong một chu kỳ bệnh tật, hoặc nhận thức về việc thiếu kiểm soát sức khỏe của mình."
+      },
+      "stress": {
+        "upright": "Một khoảnh khắc định mệnh khi chu kỳ căng thẳng đạt đến đỉnh điểm, đòi hỏi một sự thay đổi. Vũ trụ mang đến cơ hội để thoát khỏi những áp lực quá lớn, dẫn đến một sự giải tỏa cần thiết.",
+        "reversed": "Bị mắc kẹt trong một vòng lặp căng thẳng liên tục, không thể tìm thấy lối thoát. Sự kháng cự giải quyết các nguyên nhân gốc rễ, hoặc hoàn cảnh bên ngoài kéo dài áp lực, dẫn đến kiệt sức và trì trệ."
+      },
+      "trauma": {
+        "upright": "Một cơ hội định mệnh để xử lý và giải phóng những tổn thương trong quá khứ. Bánh xe quay, mang đến cơ hội chữa lành và biến ��ổi sâu sắc, phá vỡ chu kỳ đau khổ và hướng tới sự giải thoát.",
+        "reversed": "Mắc kẹt trong tiếng vọng của tổn thương trong quá khứ, không thể tiến về phía trước. Sự kháng cự đối mặt với nỗi đau, hoặc những yếu tố kích hoạt không lường trước được kéo dài chu kỳ đau khổ. Hành trình chữa lành bị tắc nghẽn hoặc trì hoãn."
+      },
+      "exams": {
+        "upright": "Một kết quả định mệnh, thường là tích cực, cho thấy số phận đang đứng về phía bạn. Sự rõ ràng bất ngờ, may mắn, hoặc một đột phá bất ngờ trong hiểu biết dẫn đến thành công. Đỉnh điểm của một chu kỳ học tập.",
+        "reversed": "Những khó khăn không lường trước, vận rủi, hoặc những trở ngại bất ngờ trong kỳ thi. Cảm giác không chuẩn bị mặc dù đã nỗ lực, hoặc hoàn cảnh bên ngoài cản trở hiệu suất. Chu kỳ học tập cảm thấy không đầy đủ hoặc bị gián đoạn."
+      },
+      "scholarship": {
+        "upright": "Một cơ hội định mệnh cho s�� tiến bộ học tập, một học bổng xuất hiện thông qua thời điểm thần thánh và sự đồng bộ hóa. Vũ trụ sắp xếp để hỗ trợ hành trình giáo dục của bạn.",
+        "reversed": "Sự trì hoãn, những lời từ chối bất ngờ, hoặc trở ngại trong việc giành được học bổng. Cơ hội bị bỏ lỡ, hoặc cảm giác rằng các thế lực bên ngoài đang ngăn cản bạn tiếp cận nguồn tài chính cần thiết. Thời điểm không thích hợp."
+      },
+      "talent": {
+        "upright": "Một khoảnh khắc định mệnh để một tài năng tiềm ẩn xuất hiện hoặc được công nhận. Bánh xe quay, mang đến cơ hội để những món quà độc đáo của bạn tỏa sáng và được sử dụng, dẫn đến sự phát triển và hoàn thiện.",
+        "reversed": "Sự kháng cự thừa nhận hoặc phát triển tài năng thực sự của một người. Cơ hội thể hiện khả năng bị bỏ lỡ hoặc trì hoãn, dẫn đến trì trệ hoặc cảm giác không được thỏa mãn. Chu kỳ biểu hiện sáng tạo bị tắc nghẽn."
+      },
+      "spirit_guide": {
+        "upright": "Một cuộc gặp gỡ định mệnh hoặc một thông điệp rõ ràng, không thể chối cãi từ người hướng dẫn tinh thần của bạn. Vũ trụ sắp xếp các sự kiện đồng bộ để đưa sự hướng dẫn của họ vào nhận thức của bạn, đánh dấu một bước ngoặt quan trọng trên con đường tâm linh của bạn.",
+        "reversed": "Cảm giác mất kết nối với sự hướng dẫn tâm linh, hoặc hiểu sai các thông điệp. Sự kháng cự đối với trí tuệ thần thánh, hoặc tiếng ồn bên ngoài che khuất những dấu hiệu tinh tế từ những người hướng dẫn của bạn, dẫn đến cảm giác lạc lối hoặc không được giúp đỡ."
       }
     },
     "advice": "Dù bánh xe đưa bạn lên đỉnh vinh quang hay dìm xuống vực thẳm, hãy giữ tâm bất biến giữa dòng đời vạn biến. Mọi thứ rồi sẽ qua đi.",
@@ -2822,6 +3614,78 @@ window.TAROT_DB = [
       "lost_item": {
         "upright": "Vật phẩm bị thất lạc sẽ được tìm thấy một cách công bằng, có thể do ai đó trả lại hoặc bạn nhớ ra nơi đã cất giữ một cách hợp lý. Hãy tin rằng nó sẽ trở về đúng vị trí của nó.",
         "reversed": "Vật phẩm bị mất có thể do một sự bất cẩn hoặc bị đánh cắp một cách không công bằng. Việc tìm lại sẽ rất khó khăn, đòi hỏi sự can thiệp hoặc chấp nhận mất mát như một bài học về sự cẩn trọng."
+      },
+      "toxic_relationship": {
+        "upright": "Một lời phán quyết thiêng liêng đang đến, buộc bạn phải đối mặt với sự thật trần trụi về mối quan hệ độc hại này. Vũ trụ đòi hỏi sự cân bằng, và giờ là lúc nhận ra những khuôn mẫu bất công, giải phóng bản thân khỏi gánh nặng nghiệp chướng và tìm kiếm sự công bằng cho linh hồn mình.",
+        "reversed": "Sự chối bỏ dai dẳng trước những bất công và sự mất cân bằng trong mối quan hệ này đang tạo ra một vòng xoáy nghiệp chướng sâu hơn. Bạn đang né tránh trách nhiệm, hoặc bị mắc kẹt trong một lưới lừa dối, trì hoãn sự giải thoát và công lý cần thiết."
+      },
+      "soulmate": {
+        "upright": "Sự xuất hiện của một linh hồn tri kỷ, một mối liên kết được định mệnh bởi sự cân bằng nghiệp chướng và sự hài hòa sâu sắc. Đây là một mối quan hệ được xây dựng trên sự thật, công bằng và sự thấu hiểu lẫn nhau, mang lại sự cân bằng tâm linh cho cả hai.",
+        "reversed": "Mối liên kết linh hồn này đang gặp phải sự mất cân bằng hoặc những bài học nghiệp chướng chưa được giải quyết, gây ra sự bất hòa và cảm giác không công bằng. Có thể có sự thiếu trung thực hoặc sự từ chối đối mặt với những sự thật khó khăn, làm xáo trộn sự hài hòa vốn có."
+      },
+      "reconciliation": {
+        "upright": "Sự hòa giải chân chính đang chờ đợi, nhưng chỉ khi nó được xây dựng trên nền tảng của sự thật, sự hối lỗi và sự chấp nhận trách nhiệm. Công lý đòi hỏi sự minh bạch hoàn toàn để thiết lập lại sự cân bằng nghiệp chướng và chữa lành những vết thương cũ.",
+        "reversed": "Sự hòa giải đang bị cản trở bởi sự thiếu trung thực, lời xin lỗi hời hợt hoặc sự từ chối đối mặt với những vấn đề cốt lõi. Sự mất cân bằng quyền lực hoặc sự né tránh trách nhiệm đang ngăn cản một nền hòa bình thực sự và công bằng nghiệp chướng."
+      },
+      "secret_admirer": {
+        "upright": "Chân lý về người ngưỡng mộ bí mật này sẽ sớm được tiết lộ. Vũ trụ đang sắp xếp một sự thật công bằng, nơi tình cảm được bộc lộ một cách chính trực và cân bằng, tìm kiếm một kết nối dựa trên sự thật.",
+        "reversed": "Người ngưỡng mộ này đang che giấu cảm xúc của họ do nỗi sợ hãi về sự phán xét, hoặc có một sự mất cân bằng trong tình huống ngăn cản sự bộc lộ chân thật. Có thể có một yếu tố lừa dối hoặc tình cảm không được đáp lại một cách công bằng."
+      },
+      "burnout": {
+        "upright": "Sự kiệt sức này là một tín hiệu nghiệp chướng, một lời kêu gọi từ vũ trụ để khôi phục sự cân bằng giữa cống hiến và nghỉ ngơi. Đã đến lúc phải thực thi công lý cho bản thân, thừa nhận giới hạn và tái tạo năng lượng một cách chính trực.",
+        "reversed": "Bạn đang phớt lờ những dấu hiệu cảnh báo về sự kiệt sức, tiếp tục đẩy bản thân vào tình trạng mất cân bằng không bền vững. Sự từ chối chấp nhận trách nhiệm đối với sức khỏe của mình đang làm sâu sắc thêm gánh nặng nghiệp chướng và năng lượng cạn kiệt."
+      },
+      "startup": {
+        "upright": "Dự án khởi nghiệp này được xây dựng trên nền tảng của sự chính trực, thực hành công bằng và đạo đức kinh doanh. Thành công sẽ đến từ những quyết định cân bằng, hợp đồng rõ ràng và giao dịch minh bạch, mang lại phần thưởng nghiệp chướng xứng đáng.",
+        "reversed": "Công ty khởi nghiệp đang phải đối mặt với những vấn đề đạo đức, cạnh tranh không lành mạnh hoặc tranh chấp pháp lý. Một nền tảng được xây dựng trên sự mất cân bằng hoặc thiếu chính trực sẽ dẫn đến những hậu quả nghiệp chướng khó lường."
+      },
+      "workplace_politics": {
+        "upright": "Bạn sẽ điều hướng chính trị nơi công sở bằng sự chính trực, tìm kiếm kết quả công bằng và duy trì các tiêu chuẩn đạo đức. Sự thật sẽ được phơi bày, và công lý sẽ được thực thi, làm sáng tỏ những chương trình nghị sự ẩn giấu.",
+        "reversed": "Bạn đang bị cuốn vào những trò chơi quyền lực không công bằng, thao túng hoặc quyết định thiên vị. Một môi trường thiếu công bằng đang che mờ sự thật, gây ra những hậu quả nghiệp chướng cho những người duy trì nó."
+      },
+      "side_hustle": {
+        "upright": "Công việc phụ này được theo đuổi với sự chính trực, cân bằng hợp lý với các cam kết khác. Những cân nhắc về đạo đức là tối quan trọng, đảm bảo mọi giao d���ch đều công bằng và minh bạch.",
+        "reversed": "Công việc phụ này đang tạo ra sự mất cân bằng trong các lĩnh vực khác của cuộc sống, có khả năng liên quan đến đạo đức đáng ngờ, thực hành không công bằng hoặc thiếu minh bạch, dẫn đến những hệ quả nghiệp chướng."
+      },
+      "real_estate": {
+        "upright": "Giao dịch bất động sản sẽ công bằng, hợp đồng chính xác và thỏa thuận công bằng. Các vấn đề pháp lý diễn ra suôn sẻ, đảm bảo kết quả cân bằng cho tất cả các bên liên quan.",
+        "reversed": "Tranh chấp tài sản, hợp đồng không công bằng, vướng mắc pháp lý hoặc thực tiễn lừa đảo trong lĩnh vực bất động sản. Sự mất cân bằng trong đàm phán hoặc thiếu minh bạch dẫn đến các biến chứng."
+      },
+      "financial_loss": {
+        "upright": "Một sự tính toán nghiệp chướng, một sự cân bằng của cán cân tài chính. Mất mát này, dù đau đớn, phục vụ để dạy những bài học quý giá về sự chính trực, trách nhiệm ho���c các quyết định tài chính trong quá khứ. Đó là một lời kêu gọi đánh giá lại.",
+        "reversed": "Một sự mất mát bắt nguồn từ sự bất công, phản bội hoặc hoàn cảnh không công bằng. Hoặc, sự từ chối học hỏi từ mất mát, tiếp tục hành vi tài chính vô trách nhiệm, dẫn đến nợ nghiệp chướng sâu hơn."
+      },
+      "sudden_wealth": {
+        "upright": "Một phần thưởng nghiệp chướng, một biểu hiện của những hành động chính trực hoặc năng lượng cân bằng trong quá khứ. Sự giàu có này đến như một sự đền đáp công bằng, đòi hỏi sự quản lý có trách nhiệm và sử dụng có đạo đức.",
+        "reversed": "Sự giàu có đạt được thông qua những phương tiện không công bằng, một sự mất cân bằng trong dòng chảy nghiệp chướng có thể dẫn đến những mất cân bằng trong tương lai, hoặc sự giàu có mang lại những biến chứng bất ngờ và những tình huống khó xử về đạo đức."
+      },
+      "healing": {
+        "upright": "Sự chữa lành thông qua cân bằng và sự thật. Thừa nhận nguyên nhân gốc rễ, tìm kiếm các phương pháp chữa trị công bằng và toàn diện, khôi phục sự cân bằng cho tâm trí, cơ thể và tinh thần. Những vết thương nghiệp chướng được giải quyết.",
+        "reversed": "Sự kháng cự đối với sự chữa lành thực sự, sự chối bỏ các vấn đề tiềm ẩn, tìm kiếm các giải pháp nhanh chóng không giải quyết được sự mất cân bằng. Sự chữa lành bị cản trở bởi các mô hình nghiệp chướng chưa được giải quyết hoặc sự từ chối đối mặt với sự thật."
+      },
+      "stress": {
+        "upright": "Căng thẳng phát sinh từ nhu cầu khôi phục sự cân bằng. Đó là một tín hiệu nghiệp chướng để đánh giá lại các ưu tiên, đưa ra các quyết định công bằng và giải quyết các lĩnh vực mất cân bằng trong cuộc sống.",
+        "reversed": "Căng thẳng overwhelming do không thể đối phó với sự bất công, sự bất công được cảm nhận, hoặc sự từ chối chịu trách nhiệm về những lựa chọn của mình, duy trì một vòng luẩn quẩn của sự mất cân bằng."
+      },
+      "trauma": {
+        "upright": "Đối mặt với chấn thương bằng lòng dũng cảm và sự thật, tìm kiếm công lý cho những vết thương trong quá khứ. Hành trình chữa lành bao gồm việc thừa nhận tác động và hướng tới một giải pháp cân bằng. Những bài học nghiệp chướng đang được xử lý.",
+        "reversed": "Đàn áp chấn thương, tránh sự thật của nó, hoặc bị mắc kẹt trong một vòng luẩn quẩn bất công liên quan đến quá khứ. Sự từ chối giải quyết những mất cân bằng nghiệp chướng ngăn cản sự chữa lành thực sự và duy trì đau khổ."
+      },
+      "exams": {
+        "upright": "Thành công đến từ nỗ lực công bằng, học tập trung thực và sự chính trực trí tuệ. Kết quả sẽ phản ánh giá trị thực sự và sự chuẩn bị cân bằng.",
+        "reversed": "Kết quả không công bằng, sự bất công được cảm nhận trong việc chấm điểm, hoặc một sự cám dỗ để gian lận. Thiếu sự chuẩn bị cân bằng dẫn đến kết quả không mong muốn."
+      },
+      "scholarship": {
+        "upright": "Một học bổng kiếm được thông qua giá trị, đơn đăng ký trung thực và đánh giá cân bằng về trình độ. Một phần thưởng công bằng cho nỗ lực tận tâm.",
+        "reversed": "Một học bổng bị từ chối do thiên vị không công bằng, lỗi hành chính hoặc thiếu minh bạch. Hoặc, một học bổng được tìm kiếm thông qua các phương tiện không trung thực."
+      },
+      "talent": {
+        "upright": "Sự công nhận và ứng dụng công bằng các khả năng bẩm sinh. Sử dụng tài năng của một người một cách có trách nhiệm và đạo đức, mang lại sự cân bằng và giá trị cho thế giới.",
+        "reversed": "Đàn áp tài năng, lạm dụng nó để kiếm lợi không công bằng, hoặc đối mặt với sự bất công trong sự công nhận của nó. Sự mất cân bằng nghiệp chướng phát sinh từ việc bỏ bê hoặc khai thác quà tặng của một người."
+      },
+      "spirit_guide": {
+        "upright": "Một linh hồn hướng dẫn cung cấp trí tuệ vô tư, hướng dẫn đến sự thật, cân bằng và hiểu biết nghiệp chướng. Lời khuyên của họ giúp điều hướng các quyết định trong cuộc sống với sự chính trực.",
+        "reversed": "Giải thích sai hướng dẫn, bỏ qua lời kêu gọi đạo đức từ cõi linh hồn, hoặc gặp phải những thực thể lừa dối khuyến khích sự mất cân bằng và lừa dối. Mối liên hệ với sự hướng dẫn chân chính, công bằng bị che khuất."
       }
     },
     "advice": "Sự thật là ánh sáng không thể bị che khuất. Hãy hành xử với trái tim ngay thẳng, và vũ trụ sẽ trao cho bạn sự công bằng.",
@@ -3058,6 +3922,78 @@ window.TAROT_DB = [
       "lost_item": {
         "upright": "Vật phẩm bị mất có thể đòi hỏi bạn phải thay đổi cách tìm kiếm, nhìn từ một góc độ khác hoặc tạm thời buông bỏ sự ám ảnh để nó tự xuất hiện. Đôi khi, không tìm là cách tìm thấy nhanh nhất.",
         "reversed": "Sự bế tắc trong việc tìm kiếm đồ vật, có thể do bạn đang cố chấp tìm theo một cách cũ không hiệu quả hoặc từ chối chấp nhận rằng nó đã biến mất. Hãy thử thay đổi chiến lược hoặc từ bỏ một thời gian."
+      },
+      "toxic_relationship": {
+        "upright": "Một khoảnh khắc buộc phải dừng lại, một sự hy sinh cần thiết để nhìn thấu bản chất độc hại của mối quan hệ từ một góc độ hoàn toàn mới, chấp nhận rằng sự buông bỏ là con đường dẫn đến sự giải thoát tinh thần và giác ngộ bản thân.",
+        "reversed": "Sự kháng cự tuyệt đối trước sự thật, bám víu vào sự độc hại dù phải chịu đựng, cảm giác mắc kẹt và bất lực, từ chối hy sinh sự thoải mái giả tạo để tìm kiếm sự tự do chân chính, dẫn đến sự trì trệ và đau khổ kéo dài."
+      },
+      "soulmate": {
+        "upright": "Một giai đoạn chờ đợi thiêng liêng, một sự thay đổi sâu sắc trong nhận thức cá nhân là cần thiết để nhận ra và đón nhận mối liên kết định mệnh. Đây là một sợi dây tinh thần vượt lên trên mọi khái niệm thông thường, đòi hỏi sự hy sinh cái tôi cũ để hòa nhập vào một thể thống nhất mới.",
+        "reversed": "Sự chối bỏ hoặc kháng cự lại mối liên kết sâu sắc, đẩy lùi một linh hồn tri kỷ tiềm năng do nỗi sợ hãi hoặc sự bất an. Sự trì trệ trong phát triển bản thân ngăn cản sự nhận diện hoặc chấp nhận mối quan hệ thiêng liêng này, dẫn đến việc bỏ lỡ cơ hội quý giá."
+      },
+      "reconciliation": {
+        "upright": "Đòi hỏi một bên (hoặc cả hai) phải thực hiện một sự hy sinh đáng kể hoặc thay đổi hoàn toàn góc nhìn. Một giai đoạn tạm dừng để chiêm nghiệm sâu sắc là cần thiết trước khi sự hòa giải chân thành có thể diễn ra, nhìn nhận xung đột từ một lăng kính hoàn toàn mới mẻ.",
+        "reversed": "Sự từ chối thỏa hiệp hoặc buông bỏ những oán giận trong quá khứ, không sẵn lòng hy sinh cái tôi để đạt được hòa bình. Cảm giác mắc kẹt trong vòng xoáy xung đột, sự hòa giải bị đình trệ do sự bướng bỉnh và thiếu linh hoạt trong tư duy."
+      },
+      "secret_admirer": {
+        "upright": "Người ngưỡng mộ đang quan sát từ xa, kiên nhẫn chờ đợi thời điểm thích hợp. Một sự cống hiến thầm lặng đòi hỏi người được ngưỡng mộ phải thay đổi nhận thức để nhận ra. Cảm xúc của họ là thuần khiết nhưng chưa được bày tỏ, một giai đoạn hành động bị đình chỉ.",
+        "reversed": "Người ngưỡng mộ do dự và không thể hành động, bỏ lỡ cơ hội. Hoặc sự ngưỡng mộ của họ xuất phát từ động cơ ích kỷ, không thực sự thuần khiết. Sự từ chối bộc lộ bản thân do sợ hãi hoặc vị kỷ, dẫn đến sự trì trệ và bỏ lỡ kết nối."
+      },
+      "burnout": {
+        "upright": "Một sự tạm dừng bắt buộc, một sự hy sinh cần thiết của hoạt động để phục hồi năng lượng và lấy lại góc nhìn. Một giai đoạn chiêm nghiệm sâu sắc để hiểu rõ nguyên nhân gốc rễ, một cơ hội để đánh giá lại các ưu tiên từ một quan điểm mới mẻ.",
+        "reversed": "Kháng cự lại nhu cầu nghỉ ngơi, đẩy bản thân đến giới hạn kiệt sức. Sự không sẵn lòng buông bỏ trách nhiệm, cảm giác bị mắc kẹt trong vòng luẩn quẩn của sự kiệt sức, không học được bài học từ trải nghiệm này."
+      },
+      "startup": {
+        "upright": "Đòi hỏi một sự hy sinh cá nhân đáng kể (thời gian, tiền bạc, sự thoải mái). Một giai đoạn chờ đợi và quan sát chiến lược, cần áp dụng các phương pháp hoặc góc nhìn độc đáo, tạm gác lại phán xét để đón nhận sự đổi mới.",
+        "reversed": "Không sẵn lòng thực hiện những hy sinh cần thiết, vội vàng đưa ra quyết định mà không suy nghĩ kỹ. Kháng cự lại những ý tưởng sáng tạo, cảm giác mắc kẹt ở giai đoạn đầu do do dự hoặc sợ hãi khi buông bỏ những lối mòn cũ."
+      },
+      "workplace_politics": {
+        "upright": "Một lời kêu gọi quan sát từ một góc độ tách rời, hiểu rõ động lực bằng cách lùi lại. Một sự tạm dừng chiến lược trước khi hành động, sử dụng phương pháp 'chờ xem' để có được cái nhìn sâu sắc, hy sinh phản ứng tức thì để có được sự khôn ngoan lâu dài.",
+        "reversed": "Bị cuốn vào vòng xoáy kịch tính, không thể tách rời cảm xúc. Thực hiện những bước đi bốc đồng gây phản tác dụng, kháng cự lại việc hiểu những dòng chảy sâu sắc hơn. Cảm giác bị chính trị hóa thành nạn nhân, từ chối điều chỉnh quan điểm của mình."
+      },
+      "side_hustle": {
+        "upright": "Một giai đoạn cống hiến và có thể phải hy sinh thời gian giải trí, cần sự kiên nhẫn khi nó phát triển. Coi đó là cơ hội để phát triển và học hỏi, một sự thay đổi trong cách ta định giá thời gian và nỗ lực.",
+        "reversed": "Từ bỏ quá sớm do thiếu kết quả tức thì, không sẵn lòng bỏ ra thời gian/năng lượng cần thiết. Cảm thấy bị gánh nặng bởi công việc phụ thay vì nhìn thấy tiềm năng của nó, trì trệ do do dự hoặc sợ hãi sự thay đổi."
+      },
+      "real_estate": {
+        "upright": "Một giai đoạn chờ đợi, quan sát thị trường, hoặc một sự hy sinh cần thiết (ví dụ: bán dưới giá mong muốn để di chuyển nhanh hơn). Cần nhìn nhận tài sản hoặc khoản đầu tư từ một góc độ hoàn toàn khác, sự kiên nhẫn là chìa khóa.",
+        "reversed": "Quyết định bốc đồng, kháng cự lại nhu cầu kiên nhẫn, cảm giác bị mắc kẹt trong một tài sản. Không sẵn lòng thực hiện một sự hy sinh cần thiết (ví dụ: chấp nhận một đề nghị thấp hơn), trì trệ trong giao dịch bất động sản do sự bướng bỉnh."
+      },
+      "financial_loss": {
+        "upright": "Một bài học đau đớn nhưng cần thiết, một sự hy sinh bắt buộc dẫn đến sự thay đổi sâu sắc trong quan điểm tài chính. Một giai đoạn tạm dừng để đánh giá lại các giá trị, nhìn nhận sự mất mát như một cơ hội cho sự phát triển tinh thần hoặc cá nhân.",
+        "reversed": "Từ chối chấp nhận mất mát, bám víu vào những thói quen tài chính cũ. Cảm giác bị làm nạn nhân và không thể vượt qua, kháng cự lại việc học hỏi bài học, trì trệ trong quá trình phục hồi do sự bướng bỉnh hoặc phủ nhận."
+      },
+      "sudden_wealth": {
+        "upright": "Một sự thay đổi sâu sắc trong quan điểm sống, đòi hỏi sự chiêm nghiệm về giá trị và mục đích. Một 'tạm dừng' để hòa nhập thực tế mới này, một sự hy sinh tiềm tàng của những cách nghĩ cũ về tiền bạc, nhìn nhận sự giàu có như một công cụ cho mục đích cao cả hơn.",
+        "reversed": "Trở nên vật chất và ích kỷ, không thể thích nghi với thực tế mới. Phung phí của cải do thiếu tầm nhìn, kháng cự lại trách nhiệm đi kèm. Cảm giác bị choáng ngợp và trì trệ dù có sự sung túc."
+      },
+      "healing": {
+        "upright": "Một giai đoạn bắt buộc phải nghỉ ngơi và đầu hàng, một sự chiêm nghiệm sâu sắc về nguyên nhân gốc rễ. Sự sẵn lòng hy sinh những khuôn mẫu cũ để có được hạnh phúc mới, nhìn nhận bệnh tật hoặc vết thương như một người thầy, một hành trình tinh thần phục hồi.",
+        "reversed": "Kháng cự lại quá trình chữa lành, từ chối nghỉ ngơi hoặc giải quyết các vấn đề thực sự. Bám víu vào nỗi đau hoặc vai trò nạn nhân, không sẵn lòng thực hiện những thay đổi lối sống cần thiết, trì trệ trong quá trình phục hồi."
+      },
+      "stress": {
+        "upright": "Một lời kêu gọi tạm dừng và đánh giá lại các nguồn gây căng thẳng, một sự hy sinh cần thiết của sự kiểm soát để có được bình yên. Nhìn nhận tình huống từ một góc độ tách rời, sử dụng căng thẳng như một chất xúc tác cho sự chiêm nghiệm và thay đổi.",
+        "reversed": "Bị choáng ngợp và không thể tìm ra lối thoát, bám víu vào những tình huống căng thẳng. Từ chối thực hiện những thay đổi hoặc hy sinh cần thiết, cảm giác bị mắc kẹt và làm nạn nhân bởi căng thẳng, không thể có được cái nhìn sâu sắc."
+      },
+      "trauma": {
+        "upright": "Một giai đoạn đình trệ để xử lý sâu sắc, một sự chiêm nghiệm bắt buộc cuối cùng dẫn đến sự thay đổi sâu sắc trong hiểu biết. Đầu hàng quá trình chữa lành, nhìn nhận chấn thương như một chất xúc tác cho sự thức tỉnh tinh thần.",
+        "reversed": "Từ chối thừa nhận hoặc xử lý chấn thương, cảm giác bị mắc kẹt vĩnh viễn trong quá khứ. Kháng cự lại việc chữa lành hoặc tìm kiếm sự giúp đỡ, sự tử đạo, không sẵn lòng thực hiện những thay đổi nội tâm cần thiết để giải thoát."
+      },
+      "exams": {
+        "upright": "Đòi hỏi sự tập trung cao độ và sự hy sinh tạm thời các hoạt động xã hội, một giai đoạn chiêm nghiệm sâu sắc và tiếp thu kiến thức. Cần tiếp cận tài liệu từ một góc độ độc đáo để thực sự hiểu nó, sự kiên nhẫn trong quá trình chuẩn bị.",
+        "reversed": "Trì hoãn, không thể tập trung, kháng cự lại nỗ lực cần thiết. Cảm giác bị choáng ngợp và mắc kẹt, từ chối áp dụng phương pháp học tập mới, dẫn đến sự trì trệ hoặc kết quả kém."
+      },
+      "scholarship": {
+        "upright": "Một phần thưởng cho sự cống hiến và hy sinh, một giai đoạn chờ đợi kết quả. Đòi hỏi một sự thay đổi trong quan điểm tài chính, coi đó là cơ hội cho việc học cao hơn và phát triển cá nhân, một sự công nhận cách tiếp cận độc đáo của một người.",
+        "reversed": "Bỏ lỡ cơ hội do thiếu nỗ lực hoặc trì hoãn, kháng cự lại việc nộp đơn, cảm thấy không xứng đáng. Hoặc không thể sử dụng học bổng một cách hiệu quả do thiếu tập trung hoặc cam kết, trì trệ trong các hoạt động học tập."
+      },
+      "talent": {
+        "upright": "Đòi hỏi một giai đoạn tinh chỉnh đơn độc và hy sinh, sẵn lòng nhìn nhận tài năng của mình từ một góc độ độc đáo. Một sự tạm dừng để chiêm nghiệm sáng tạo sâu sắc, phát triển một quan điểm độc đáo làm nên sự khác biệt của một người.",
+        "reversed": "Bỏ bê tài năng của mình, không sẵn lòng bỏ ra công sức cần thiết. Cảm giác bị mắc kẹt trong lối mòn sáng tạo, kháng cự lại sự thể hiện độc đáo. Hoặc khai thác tài năng chỉ vì lợi ích vật chất, dẫn đến sự trì trệ."
+      },
+      "spirit_guide": {
+        "upright": "Một lời kêu gọi tạm dừng, lắng nghe và đầu hàng trí tuệ nội tâm. Vị hướng dẫn xuất hiện khi một người sẵn sàng cho một sự thay đổi sâu sắc trong quan điểm, đòi hỏi sự chiêm nghiệm và sẵn lòng nhìn xa hơn những điều trần tục, một giai đoạn tiếp nhận lặng lẽ.",
+        "reversed": "Từ chối lắng nghe sự hướng dẫn nội tâm, kháng cự lại sự phát triển tinh thần. Cảm giác bị ngắt kết nối hoặc lạc lối, không thể làm dịu tâm trí. Bỏ lỡ các dấu hiệu do vật chất hoặc quá bận tâm đến các vấn đề bên ngoài, trì trệ tinh thần."
       }
     },
     "advice": "Đôi khi, việc không làm gì cả lại là hành động mạnh mẽ nhất. Hãy buông tay để rơi tự do vào sự tĩnh lặng của sự giác ngộ.",
@@ -3295,6 +4231,78 @@ window.TAROT_DB = [
       "lost_item": {
         "upright": "Vật phẩm bị mất đã thực sự ra đi, hoặc nó đã biến đổi thành một dạng khác không còn nhận ra. Đây là lúc để chấp nhận sự mất mát và buông bỏ, để tạo không gian cho những điều mới mẻ hơn.",
         "reversed": "Bạn đang cố gắng tìm kiếm một vật phẩm đã thực sự không còn tồn tại hoặc đã bị phá hủy. Sự bám víu vào việc tìm kiếm vô vọng chỉ khiến bạn mất năng lượng và không thể tiến lên."
+      },
+      "toxic_relationship": {
+        "upright": "Một sự đoạn tuyệt cần thiết, dù đau đớn. Những sợi dây độc hại bị cắt đứt, dẫn đến sự giải thoát và một con đường hướng tới những kết nối lành mạnh hơn. Sự kết thúc này là một hành động sâu sắc của việc tự bảo tồn và chuyển hóa.",
+        "reversed": "Một sự bám víu tuyệt vọng vào nỗi đau quen thuộc, từ chối nhận ra nhu cầu giải thoát. Linh hồn vẫn bị mắc kẹt, trì hoãn sự chuyển hóa không thể tránh khỏi và kéo dài sự đau khổ. Nỗi sợ hãi về điều chưa biết giữ chặt một người."
+      },
+      "soulmate": {
+        "upright": "Không phải là sự kết thúc của mối liên kết linh hồn, mà là một sự chuyển hóa sâu sắc bên trong nó. Có thể một giai đoạn cũ của mối quan hệ chết đi, nhường chỗ cho một sự kết hợp sâu sắc hơn, phát triển hơn, hoặc sự kết thúc của một giai đoạn chia ly để bắt đầu một kết nối thực sự. Nó biểu thị một sự biến đổi cần thiết để mối quan hệ đạt đến tiềm năng cao nhất của nó.",
+        "reversed": "Sự kháng cự đối với sự tiến hóa tự nhiên hoặc những thay đổi cần thiết trong động lực mối quan hệ linh hồn. Một hoặc cả hai đối tác có thể không sẵn lòng từ bỏ những khuôn mẫu hoặc kỳ vọng cũ, làm nghẹt thở tiềm năng chuyển hóa thực sự của mối liên kết, dẫn đến sự trì trệ hoặc không thể hòa nhập hoàn toàn."
+      },
+      "reconciliation": {
+        "upright": "Hình thức cũ của xung đột phải chết hoàn toàn để h��a giải thực sự được sinh ra. Đó không chỉ đơn thuần là hàn gắn, mà là cái chết sâu sắc của những oán giận trong quá khứ, cho phép một nền tảng hoàn toàn mới được thiết lập. Điều này biểu thị một sự tái sinh chân chính của sự hiểu biết.",
+        "reversed": "Một sự không sẵn lòng từ bỏ những tổn thương và oán giận trong quá khứ, ngăn cản sự hòa giải chân chính. Những vết thương cũ bị bám víu, khiến cho việc chữa lành thực sự và một khởi đầu mới trở nên bất khả thi. Tinh thần kháng cự việc rũ bỏ gánh nặng của quá khứ."
+      },
+      "secret_admirer": {
+        "upright": "Bí mật phải chết để một điều gì đó mới mẻ xuất hiện. Điều này có thể có nghĩa là người ngưỡng mộ tự tiết lộ, hoặc sự ngưỡng mộ tự nó biến đổi thành một điều gì đó khác – có lẽ là tình bạn, hoặc một cuộc theo đuổi lãng mạn. Giai đoạn ẩn giấu kết thúc, mở ra một động lực mới.",
+        "reversed": "Bí mật vẫn bị che giấu một cách cứng đầu, làm nghẹt thở bất kỳ tiềm năng nào để kết nối phát triển. Nỗi sợ bị từ chối hoặc bị lộ ngăn cản người ngưỡng mộ bắt đầu thay đổi, giữ cho sự ngưỡng mộ bị mắc kẹt trong hình thức ẩn giấu, không được bày tỏ của nó."
+      },
+      "burnout": {
+        "upright": "Một sự sụp đổ hoàn toàn và cần thiết của cách vận hành cũ. Sự kiệt sức này là một sự kết thúc sâu sắc, buộc phải đánh giá lại một cách triệt để và sinh ra những ranh giới lành mạnh hơn cùng những thực hành bền vững. Đó là phượng hoàng bay lên từ đống tro tàn của sự kiệt quệ.",
+        "reversed": "Một sự từ chối cứng đầu không thừa nhận mức độ kiệt sức, cố gắng vượt qua bất chấp tiếng kêu của linh hồn đòi nghỉ ngơi. Điều này kéo dài chu kỳ cạn kiệt, kháng cự lại sự ngừng lại và chuyển hóa cần thiết để phục hồi thực sự."
+      },
+      "startup": {
+        "upright": "Startup trải qua một sự chuyển hóa triệt ��ể. Đây có thể là một sự xoay trục, một sự thay đổi thương hiệu hoàn toàn, sự kết thúc của một tầm nhìn ban đầu để đón nhận một tầm nhìn khả thi hơn, hoặc thậm chí là sự đóng cửa cần thiết của một dự án để khai sinh một dự án khác. Nó biểu thị một sự biến đổi sâu sắc cần thiết cho sự sống còn hoặc thành công lớn hơn.",
+        "reversed": "Startup bám víu tuyệt vọng vào một mô hình lỗi thời, một chiến lược thất bại, hoặc một tầm nhìn ban đầu không còn khả thi. Sự kháng cự đối với sự thay đổi cần thiết dẫn đến sự trì trệ, đấu tranh kéo dài, và cuối cùng là một sự sụp đổ đau đớn hơn so với việc nếu một sự chuyển hóa có ý thức đã được đón nhận."
+      },
+      "workplace_politics": {
+        "upright": "Một sự kết thúc dứt khoát đối với một động lực chính trị cụ thể hoặc một cuộc đại tu hoàn toàn các cấu trúc quyền lực. Các liên minh cũ sụp đổ, và các hệ thống mới, có lẽ công bằng hơn, xuất hiện. Điều này biểu thị một sự thanh lọc cần thiết của trật tự cũ.",
+        "reversed": "Một chu kỳ vô tận của các cuộc đấu đá chính trị chưa được giải quyết. Các cá nhân hoặc nhóm kháng cự việc từ bỏ các cuộc đấu tranh quyền lực hoặc các vị trí cố thủ của họ, duy trì một môi trường độc hại và ngăn cản bất kỳ sự thay đổi động lực thực sự, mang tính chuyển hóa nào."
+      },
+      "side_hustle": {
+        "upright": "Công việc phụ trải qua một sự chuyển hóa đáng kể. Nó có thể phát triển thành một công việc toàn thời gian, được hấp thụ bởi một dự án lớn hơn, hoặc kết thúc hoàn toàn để nhường chỗ cho một nỗ lực mới, phù hợp hơn. Đây là một sự kết thúc có chủ ý của hình thức hiện tại để khai sinh một điều gì đó thực chất hơn hoặc khác biệt.",
+        "reversed": "Một sự miễn cưỡng từ bỏ một công việc phụ đã hết thời, hoặc một nỗi sợ hãi khi cam kết với giai đoạn tiến hóa tiếp theo của nó. Nó vẫn ở trong trạng thái lấp lửng, hút cạn năng lượng mà không mang lại sự phát triển hoặc kết thúc thực sự, kháng cự lại sự tiến triển hoặc ngừng lại tự nhiên của nó."
+      },
+      "real_estate": {
+        "upright": "Một giao dịch hoặc thay đổi đáng kể về tình trạng tài sản. Đây có thể là việc bán một tài sản, sự kết thúc của một hợp đồng thuê dài hạn, hoặc việc cải tạo hoàn toàn làm thay đổi bản chất của nó. Nó biểu thị một sự thay đổi sâu sắc về quyền sở hữu hoặc hình thức.",
+        "reversed": "Sự trì trệ trong các vấn đề bất động sản. Một tài sản vẫn chưa bán được, một thỏa thuận bị trì hoãn vô tận, hoặc việc cải tạo cần thiết bị kháng cự. Điều này cho thấy sự không thể tiến lên, bám víu vào trạng thái hiện tại bất chấp nhu cầu thay đổi."
+      },
+      "financial_loss": {
+        "upright": "Một tổn thất tài chính đáng kể, nhưng là một chất xúc tác sâu sắc cho sự thay đổi. Đó là cái chết đau đớn nhưng cần thiết của những thói quen tài chính cũ, các khoản đầu tư, hoặc sự an toàn, buộc phải tái cấu trúc hoàn toàn và sinh ra một chiến lược tài chính kiên cường hơn.",
+        "reversed": "Một sự không sẵn lòng chấp nhận hoặc học hỏi từ một thất bại tài chính, hoặc một nỗ lực tuyệt vọng để bám víu vào một tình huống thua lỗ. Sự kháng cự này ngăn cản sự thích nghi và kéo dài thời kỳ bất ổn, trì hoãn sự tái sinh tài chính cần thiết."
+      },
+      "sudden_wealth": {
+        "upright": "Sự giàu có bất ngờ mang đến một sự chuyển hóa triệt để trong cuộc sống và bản sắc của một người. Cái tôi cũ, không quen với sự phong phú như vậy, phải chết để cho phép một cách sống mới, quản lý và liên hệ với các nguồn lực được sinh ra. Đó là một sự thay đổi sâu sắc trong sự tồn tại.",
+        "reversed": "Một cuộc đấu tranh để thích nghi với sự giàu có bất ngờ, bám víu vào những thói quen cũ, nỗi sợ hãi hoặc bản sắc. Cá nhân kháng cự sự chuyển hóa cần thiết đi kèm với sự thay đổi như vậy, dẫn đến khả năng quản lý kém, cô lập, hoặc không thể thực sự đón nhận thực tế mới."
+      },
+      "healing": {
+        "upright": "Một quá trình chữa lành sâu sắc và hoàn chỉnh đòi hỏi sự chết đi của vết thương cũ, bệnh tật hoặc chấn thương. Đó không chỉ đơn thuần là phục hồi, mà là một sự chuyển hóa hoàn toàn nơi căn bệnh cũ được rũ bỏ, cho phép một sự tái sinh của sức khỏe và sự toàn vẹn.",
+        "reversed": "Sự kháng cự đối với các giai đoạn cuối cùng của việc chữa lành, hoặc nỗi sợ hãi khi từ bỏ bản sắc gắn liền với vết thương. Cá nhân bám víu vào các khía cạnh của bệnh tật hoặc chấn thương của họ, ngăn cản sự rũ bỏ hoàn toàn và tái sinh thành sức khỏe đầy đủ."
+      },
+      "stress": {
+        "upright": "Sự đổ vỡ hoàn toàn của các mô hình căng thẳng cũ hoặc một sự kết thúc dứt khoát đối với nguồn áp lực quá lớn. Điều này biểu thị một cuộc khủng hoảng cần thiết buộc phải có một sự thay đổi triệt để trong lối sống, ưu tiên hoặc môi trường, dẫn đến sự giải phóng và đổi mới sâu sắc.",
+        "reversed": "Một sự từ chối không thừa nhận hoặc giải quyết các nguyên nhân gốc rễ của căng thẳng mãn tính, dẫn đến một trạng thái kéo dài và suy nhược. Cá nhân kháng cự những thay đổi cần thiết trong cuộc sống của họ, duy trì chu kỳ căng thẳng và ngăn cản sự giải thoát thực sự."
+      },
+      "trauma": {
+        "upright": "Quá trình xử lý và giải phóng sâu sắc và cần thiết của chấn thương trong quá khứ. Đây không phải là quên đi, mà là cái chết của sự kìm kẹp ngột ngạt của nó, cho phép sự hòa nhập, chữa lành và sự ra đời của sức mạnh và trí tuệ của người sống sót. Đó là một sự chuyển hóa giả kim sâu sắc.",
+        "reversed": "Một sự kháng cự mạnh mẽ đối với việc đối mặt hoặc giải phóng s�� kìm kẹp của chấn thương trong quá khứ. Cá nhân vẫn bị mắc kẹt bởi các khuôn mẫu của nó, không thể hoặc không sẵn lòng trải qua quá trình rũ bỏ và tái sinh cần thiết, kéo dài sự đau khổ và cản trở sự phát triển."
+      },
+      "exams": {
+        "upright": "Sự đỉnh điểm và kết thúc dứt khoát của một kỳ thi hoặc một chương học cụ thể. Điều này biểu thị một sự kết thúc hoàn toàn, nơi kiến thức cũ được kiểm tra và hoặc đậu hoặc trượt, nhường chỗ cho giai đoạn học tập hoặc cuộc sống tiếp theo. Đó là một nghi lễ trưởng thành.",
+        "reversed": "Sự trì hoãn, nỗi sợ thất bại, hoặc không thể từ bỏ những thói quen học tập cũ không còn hiệu quả. Cá nhân kháng cự sự chuẩn bị cần thiết hoặc sự kết thúc của quá trình thi cử, dẫn đến lo lắng, kết quả kém hoặc hoàn thành chậm trễ."
+      },
+      "scholarship": {
+        "upright": "Việc giành được học bổng thành công, điều này thay đổi triệt để con đường học vấn và tương lai tài chính của một người. Nó biểu thị sự kết thúc của một chương (ví dụ: khó khăn tài chính) và sự ra đời của một hành trình học thuật mới, được trao quyền.",
+        "reversed": "Những cơ hội học bổng bị bỏ lỡ do sự thiếu hành động, nỗi sợ thay đổi, hoặc sự không sẵn lòng theo đuổi những con đường mới. Cá nhân kháng cự nỗ lực hoặc sự chuyển hóa cần thiết để đảm bảo một cơ hội thay đổi cuộc đời như vậy."
+      },
+      "talent": {
+        "upright": "Cái chết của một cách thể hiện hoặc nhận thức tài năng cũ, dẫn đến một sự tái sinh nghệ thuật hoặc kỹ năng sâu sắc. Đây có thể là một sự thay đổi hoàn toàn về phương tiện, phong cách hoặc ứng dụng, cho phép tài năng phát triển thành một hình thức trưởng thành hơn hoặc có tác động hơn.",
+        "reversed": "Một sự bám víu cứng đầu vào các phương pháp lỗi thời hoặc nỗi sợ hãi khi khám phá những khía cạnh mới của tài năng. Cá nhân kháng cự sự tiến hóa cần thiết, làm nghẹt thở tiềm năng của họ và ngăn cản những món quà của họ đạt đến sự thể hiện đầy đủ nhất, mang tính chuyển hóa nhất."
+      },
+      "spirit_guide": {
+        "upright": "Một sự thay đổi sâu sắc trong sự hướng dẫn tâm linh của một người, có lẽ là sự ra đi của một người hướng dẫn cũ mà những bài học đã hoàn tất, hoặc sự chuyển hóa của mối quan hệ với một người hướng dẫn. Điều này biểu thị cái chết của một giai đoạn hướng dẫn tâm linh để sinh ra một kết nối sâu sắc hơn, độc lập hơn hoặc một hình thức hướng dẫn mới.",
+        "reversed": "Một sự kháng cự không thừa nhận hoặc chấp nhận bản chất tiến hóa của sự hướng dẫn tâm linh. Cá nhân có thể bám víu vào một người hướng dẫn cũ hoặc các hình thức giao tiếp quen thuộc, từ chối cho phép những hiểu biết mới, những người thầy khác, hoặc một con đường tâm linh trưởng thành hơn, tự hướng dẫn xuất hiện."
       }
     },
     "advice": "Giống như con rắn lột xác, đau đớn là tất yếu. Hãy dũng cảm buông bỏ những gì đã úa tàn để đón nhận sự sống mới.",
@@ -3532,6 +4540,78 @@ window.TAROT_DB = [
       "lost_item": {
         "upright": "Vật phẩm bị mất sẽ được tìm thấy khi bạn giữ được sự bình tĩnh và kiên nhẫn. Nó có thể nằm ở một nơi bạn ít ngờ tới, đòi hỏi sự quan sát kỹ lưỡng và một tâm trí thư thái để nhận ra.",
         "reversed": "Sự mất vật phẩm có thể do sự vội vàng, thiếu chú ý hoặc sự xáo trộn trong môi trường sống. Việc tìm kiếm sẽ khó khăn nếu bạn không tìm lại được sự bình tĩnh và tổ chức lại mọi thứ."
+      },
+      "toxic_relationship": {
+        "upright": "Một sự cân bằng thiêng liêng xuất hiện, dẫn lối đến sự hài hòa trong những động lực phức tạp, hoặc chỉ ra con đường để rời đi với sự bình yên và thấu hiểu. Nó là sự tích hợp của bài học, chuyển hóa độc tố thành trí tuệ.",
+        "reversed": "Sự mất cân bằng trầm trọng, những hành vi thái quá và sự thiếu kiểm soát đang phá vỡ mọi nỗ lực hòa giải. Năng lượng hỗn loạn và thiếu sự kiên nhẫn ngăn cản việc tìm thấy điểm chung, khiến đ��c tố càng thêm sâu sắc."
+      },
+      "soulmate": {
+        "upright": "Sự hòa quyện hoàn hảo của hai linh hồn, một kết nối hài hòa và sâu sắc, được định sẵn bởi thời gian thiêng liêng. Đây là sự kết hợp cân bằng của tình yêu, sự thấu hiểu và sự phát triển tâm linh chung.",
+        "reversed": "Một mối liên kết linh hồn đang phải vật lộn với sự mất cân bằng, vội vã hoặc thiếu sự tích hợp thực sự. Sự thiếu kiên nhẫn, mâu thuẫn hoặc việc không thể dung hòa những khác biệt có thể làm lu mờ ánh sáng của mối quan hệ này."
+      },
+      "reconciliation": {
+        "upright": "Sự hòa hợp diệu kỳ giữa những khác biệt, tìm thấy điểm chung và sự tha thứ thông qua lòng kiên nhẫn. Đây là quá trình cân bằng cảm xúc, dẫn đến sự hàn gắn và tái tạo mối quan hệ.",
+        "reversed": "Sự bất khả thi của hòa giải do sự cứng nhắc, quan điểm cực đoan hoặc thiếu ý chí thỏa hiệp. Năng lượng đối kháng và sự thiếu kiên nhẫn tiếp tục chia c���t, không thể tìm thấy sự cân bằng cần thiết."
+      },
+      "secret_admirer": {
+        "upright": "Sự ngưỡng mộ ẩn giấu được thể hiện một cách tinh tế, kiên nhẫn và cân bằng, chờ đợi thời điểm thiêng liêng để bộc lộ. Năng lượng của sự kết nối đang dần hòa quyện một cách hài hòa.",
+        "reversed": "Sự ngưỡng mộ trở nên mất cân bằng, ám ảnh hoặc được thể hiện một cách vội vã, không phù hợp, gây ra sự xáo trộn. Hoặc, người được ngưỡng mộ quá phân tán, không thể nhận ra những dấu hiệu tinh tế."
+      },
+      "burnout": {
+        "upright": "Tìm thấy sự cân bằng thiêng liêng giữa công việc và nghỉ ngơi, tích hợp các phương pháp tự chăm sóc để phục hồi và ngăn ngừa sự kiệt quệ. Sự kiên nhẫn là chìa khóa để khôi phục năng lượng hài hòa.",
+        "reversed": "Sự mất cân bằng cực độ giữa lao động và nghỉ ngơi, thúc ép bản thân đến giới hạn, thiếu sự điều độ. Năng lượng phân tán, không thể tích hợp, dẫn đến sự kiệt sức và cạn kiệt năng lượng trầm trọng."
+      },
+      "startup": {
+        "upright": "Một cách tiếp cận cân bằng và hài hòa để xây dựng doanh nghiệp, tích hợp các yếu tố (đội ngũ, sản phẩm, thị trường) với sự kiên nhẫn và sự pha trộn chiến lược. Tìm thấy nhịp điệu phát triển phù hợp.",
+        "reversed": "Sự vội vã, thiếu cân bằng trong phân bổ nguồn lực, sự chia rẽ trong đội ngũ hoặc những biến động cực đoan. Sự thất bại trong việc tích hợp các khía cạnh khác nhau của doanh nghiệp dẫn đến sự bất ổn và hỗn loạn."
+      },
+      "workplace_politics": {
+        "upright": "Điều hướng các động lực nơi làm việc bằng sự ngoại giao, kiên nhẫn và góc nhìn cân bằng. Tìm thấy điểm chung, hòa giải xung đột và hòa hợp các ý kiến đa dạng một cách khéo léo.",
+        "reversed": "Sự bè phái cực đoan, xung đột công khai, thiếu khả năng thỏa hiệp và ngoại giao. Sự mất cân bằng quyền lực hoặc sự thiếu kiên nhẫn dẫn ��ến leo thang căng thẳng, gây ra sự bất hòa và gián đoạn."
+      },
+      "side_hustle": {
+        "upright": "Cân bằng thành công giữa công việc chính và công việc phụ, tích hợp hài hòa các khía cạnh của cuộc sống mà không bị kiệt sức. Tìm thấy nhịp điệu và sự điều độ phù hợp.",
+        "reversed": "Sự mất khả năng cân bằng, dẫn đến việc bỏ bê một trong hai công việc hoặc cả hai, gây ra sự kiệt sức cực độ. Vội vã trong công việc phụ dẫn đến chất lượng kém hoặc nỗ lực không bền vững."
+      },
+      "real_estate": {
+        "upright": "Một giao dịch cân bằng và đúng thời điểm, tìm thấy tài sản hoàn hảo tích hợp mọi nhu cầu hoặc một quá trình đàm phán hài hòa. Sự kiên nhẫn mang lại kết quả tốt đẹp.",
+        "reversed": "Sự vội vã trong giao dịch, một khoản đầu tư mất cân bằng, sự bất hòa trong đàm phán hoặc một tài sản không thực sự tích hợp với nhu cầu, dẫn đến các vấn đề trong tương lai. Sự sai lệch nghiêm trọng."
+      },
+      "financial_loss": {
+        "upright": "Học cách cân bằng tài chính sau mất mát, kiên nhẫn xây dựng lại, tích hợp những bài học đã học và tìm một con đường hài hòa để phục hồi. Sự điều độ trong chi tiêu là chìa khóa.",
+        "reversed": "Phản ứng với mất mát bằng những biện pháp cực đoan, sự mất cân bằng hơn nữa trong chi tiêu hoặc đầu tư, không có khả năng thích nghi hoặc học hỏi, dẫn đến sự bất hòa tài chính sâu sắc hơn."
+      },
+      "sudden_wealth": {
+        "upright": "Tích hợp một cách duyên dáng sự giàu có mới vào cuộc sống, duy trì sự cân bằng, sử dụng tài nguyên một cách khôn ngoan và điều độ, tìm thấy mục đích trong sự sung túc.",
+        "reversed": "Mất đi sự cân bằng do sự giàu có đột ngột, chi tiêu quá mức, sự sai lệch với các giá trị cốt lõi hoặc không có khả năng tích hợp thực tại mới, dẫn đến sự bất hòa và những vấn đề tiềm ẩn."
+      },
+      "healing": {
+        "upright": "Một quá trình chữa lành hài hòa và cân bằng, tích hợp tâm trí, cơ thể và tinh thần. Sự kiên nhẫn trong phục hồi, tìm thấy sự pha trộn phù hợp của các phương pháp điều trị, tự chăm sóc và sự liên kết tâm linh.",
+        "reversed": "Một cách tiếp cận chữa lành mất cân bằng, vội vã trong quá trình, bỏ qua một số khía cạnh (ví dụ: cảm xúc trong khi chỉ tập trung vào thể chất) hoặc thiếu sự điều độ trong điều trị, dẫn đến sự chậm trễ hoặc thất bại."
+      },
+      "stress": {
+        "upright": "Tìm thấy sự cân bằng và điều độ để quản lý căng thẳng hiệu quả, tích hợp các cơ chế đối phó, tự chăm sóc và một góc nhìn bình tĩnh. Sự kiên nhẫn trong việc điều hướng những thách thức.",
+        "reversed": "Căng thẳng quá mức do mất cân bằng, thiếu điều độ, không có khả năng đối phó, cảm thấy phân tán và choáng ngợp, dẫn đến phản ứng cực đoan hoặc kiệt sức."
+      },
+      "trauma": {
+        "upright": "Một cách tiếp cận kiên nhẫn và tích hợp để xử lý sang chấn, tìm cách pha trộn kinh nghiệm trong quá khứ với sự chữa lành hiện tại, đạt được sự cân bằng cảm xúc và hòa hợp nội tâm bất chấp những vết thương cũ.",
+        "reversed": "Không có khả năng tích hợp các trải nghiệm đau thương, dẫn đến phản ứng cảm xúc cực đoan, mất cân bằng dai dẳng, né tránh hoặc cảm giác bản thân bị phân mảnh. Vội vã trong quá trình chữa lành hoặc kìm nén cảm xúc."
+      },
+      "exams": {
+        "upright": "Sự chuẩn bị cân bằng, quản lý thời gian hiệu quả, tích hợp kiến thức một cách hài hòa, duy trì sự bình tĩnh và tập trung trong kỳ thi. Sự kiên nhẫn và nỗ lực ổn định.",
+        "reversed": "Thói quen học tập mất cân bằng (nhồi nhét vs. không học), sự vội vã, lo lắng dẫn đến suy nghĩ phân tán, không có khả năng tích hợp thông tin hiệu quả hoặc căng thẳng cực độ cản trở hiệu suất."
+      },
+      "scholarship": {
+        "upright": "Một học bổng xứng đáng, phản ánh thành tích học tập cân bằng và phẩm chất cá nhân, sự liên kết hài hòa giữa cơ hội và giá trị. Thời gian thiêng liêng phát huy tác dụng.",
+        "reversed": "Bỏ lỡ cơ hội do sự mất cân bằng trong hồ sơ (ví dụ: vội vã, không đầy đủ) hoặc sự sai lệch giữa hồ sơ của ứng viên và yêu cầu của học bổng. Cũng có thể chỉ ra việc sử dụng học bổng không tích hợp."
+      },
+      "talent": {
+        "upright": "Sự pha trộn hài hòa giữa tài năng thiên bẩm và sự rèn luyện kỷ luật, tìm thấy một biểu hiện cân bằng của món quà của mình, tích hợp các kỹ năng khác nhau để tạo ra điều gì đó độc đáo. Sự kiên nhẫn trong việc tinh chỉnh.",
+        "reversed": "Tài năng bị lãng phí do thiếu kỷ luật, sự tự phê bình cực đoan hoặc tự tin thái quá, không có khả năng tích hợp các khía cạnh khác nhau của tài năng hoặc một cách tiếp cận phân tán trong phát triển."
+      },
+      "spirit_guide": {
+        "upright": "Một kết nối rõ ràng, hài hòa với người dẫn đường tâm linh, nhận được sự hướng dẫn cân bằng và tích hợp trí tuệ tâm linh vào cuộc sống hàng ngày với sự kiên nhẫn và thấu hiểu.",
+        "reversed": "Một kết nối bị chặn hoặc mất cân bằng, hiểu sai thông điệp, vội vã trong sự phát triển tâm linh hoặc không có khả năng tích hợp sự hướng dẫn vào hành động thực tế, dẫn đến sự nhầm lẫn hoặc bất hòa."
       }
     },
     "advice": "Đừng vội vã. Hãy là vị giả kim thuật của đời mình, từ từ pha trộn những mảnh ghép tìm ra điểm cân bằng hoàn hảo nhất.",
@@ -3768,6 +4848,78 @@ window.TAROT_DB = [
       "lost_item": {
         "upright": "Vật phẩm bị mất có thể do sự tham lam, bất cẩn hoặc bị đánh cắp một cách có chủ đích. Hoặc bạn đang bị ám ảnh bởi việc tìm kiếm, khiến bản thân mắc kẹt trong sự lo lắng và không thể buông bỏ.",
         "reversed": "Bạn đang nhận ra rằng việc bám víu vào vật phẩm bị mất là một xiềng xích tinh thần. Đây là lúc để giải phóng bản thân khỏi sự ám ảnh, chấp nhận buông bỏ để tìm kiếm sự bình yên nội tâm."
+      },
+      "toxic_relationship": {
+        "upright": "Một sợi xích vô hình trói buộc hai linh hồn trong vòng xoáy của sự phụ thuộc, thao túng và dục vọng trần tục. Mối quan hệ này là tấm gương phản chiếu những góc khuất tăm tối, nơi tình yêu bị biến chất thành sự chiếm hữu, và sự tự do bị đánh đổi lấy nỗi sợ hãi cô đơn. Năng lượng của sự ám ảnh và sự kiểm soát đang ngự trị, tạo nên một nhà tù tình cảm mà cả hai đều khó thoát ra.",
+        "reversed": "Bức màn ảo ảnh dần tan biến, ánh sáng thấu suốt bản chất thật của sự ràng buộc. Đây là khoảnh khắc của sự thức tỉnh, khi một hoặc cả hai linh hồn bắt đầu nhận ra xiềng xích và tìm cách phá vỡ chúng. Nó đại diện cho việc từ chối tái diễn những khuôn mẫu độc hại, dũng cảm đối diện với sự thật, và bước đi trên con đường giải phóng bản thân khỏi gông cùm của một mối quan hệ thiếu lành mạnh."
+      },
+      "soulmate": {
+        "upright": "Một 'linh hồn đồng điệu' xuất hiện dưới hình hài của kẻ cám dỗ, phản ánh những khía cạnh đen tối nhất của bản thân. Mối liên kết này không phải là sự hòa hợp mà là một bài kiểm tra khắc nghiệt, một sợi dây karmic trói buộc bởi dục vọng, sự phụ thuộc hoặc một thỏa thuận linh hồn cần được phá vỡ để tiến hóa. Đây là một 'soulmate' mang đến sự thách thức tột cùng, không phải sự viên mãn.",
+        "reversed": "Cái nhìn sâu sắc xuyên qua lớp vỏ bọc mê hoặc, nhận ra rằng liên kết này, dù mạnh mẽ đến đâu, cũng đang kìm hãm sự phát triển của linh hồn. Đây là dấu hiệu của sự giải thoát khỏi một 'liên kết linh hồn' mang tính chất nghiệp quả hoặc độc hại, mở ra cánh cửa cho một mối quan hệ chân chính, dựa trên sự tôn trọng và tự do, sau khi đã chấp nhận và vượt qua bài học."
+      },
+      "reconciliation": {
+        "upright": "Sự hòa giải này không phải là hàn gắn mà là sự tái diễn của một vòng luẩn quẩn độc hại. Nó bị thúc đẩy bởi nỗi sợ hãi, sự ám ảnh hoặc một sự phụ thuộc khó cưỡng, kéo cả hai trở lại những khuôn mẫu cũ, những xiềng xích đã quen thuộc. Đây là một sự trở lại với nhà tù tinh thần, không phải là sự tự do.",
+        "reversed": "Một quyết định dứt khoát từ chối quay lại con đường cũ. Linh hồn đã đủ sáng suốt để nhìn thấy những cạm bẫy của quá khứ và chọn con đường tiến lên, dù khó khăn. Sự hòa giải này, nếu có, sẽ phải dựa trên nền tảng của sự thay đổi thực sự và ý thức r�� ràng về tự do, không phải là sự tái lập xiềng xích."
+      },
+      "secret_admirer": {
+        "upright": "Sự ngưỡng mộ bí mật này không trong sáng mà ẩn chứa dục vọng, sự ám ảnh hoặc mong muốn kiểm soát. Người ngưỡng mộ có thể đang bị cuốn vào một ảo ảnh về bạn, hoặc có những động cơ sâu xa, không lành mạnh. Năng lượng này mang theo một sự căng thẳng và tiềm ẩn những mối nguy hiểm.",
+        "reversed": "Màn sương mù của sự bí ẩn tan biến, phơi bày bản chất thật của người ngưỡng mộ hoặc động cơ đằng sau sự chú ý của họ. Đây có thể là sự giải thoát khỏi một mối quan hệ tiềm ẩn độc hại, hoặc việc người ngưỡng mộ tự nhận ra và giải phóng bản thân khỏi sự ám ảnh của họ, chuyển hóa năng lượng thành một điều gì đó lành mạnh hơn."
+      },
+      "burnout": {
+        "upright": "Linh hồn bị xiềng xích bởi sự ám ảnh về công việc, tiền bạc hoặc địa vị, tự nguyện dâng hiến mọi năng lượng cho một mục tiêu vật chất. Đây là sự cạn kiệt toàn diện, không chỉ về thể chất mà còn về tinh thần và tâm linh, do không thể thoát khỏi vòng xoáy của sự tham vọng và trách nhiệm tự áp đặt.",
+        "reversed": "Một tia sáng lóe lên trong bóng tối của sự kiệt quệ. Đây là khoảnh khắc nhận ra xiềng xích của sự ám ảnh công việc, bắt đầu quá trình thiết lập ranh giới, từ chối những đòi hỏi quá mức và tìm kiếm sự cân bằng. Nó đánh dấu sự giải thoát khỏi gông cùm của công việc, cho phép linh hồn tìm lại nguồn năng lượng và ý nghĩa sống."
+      },
+      "startup": {
+        "upright": "Một dự án khởi nghiệp được xây dựng trên nền tảng của sự tham lam, mong muốn kiểm soát thị trường hoặc các phương pháp không đạo đức. Nó có thể trở thành một nhà tù cho người sáng lập, bị ám ảnh bởi lợi nhuận và quyền lực, dẫn đến sự đánh đổi về đạo đức và tinh thần.",
+        "reversed": "Sự thức tỉnh về các giá trị cốt lõi, từ bỏ các phương pháp kinh doanh không lành mạnh. Đây là việc một startup nhận ra và phá vỡ xiềng xích của sự tham lam hoặc ám ảnh về tăng trưởng bằng mọi giá, chuyển hướng sang một mô hình bền vững, đạo đức hơn, hoặc một sự giải thoát khỏi áp lực của sự thành công vật chất."
+      },
+      "workplace_politics": {
+        "upright": "Bạn đang bị cuốn vào một mạng lưới phức tạp của sự thao túng, quyền lực và những âm mưu đen tối. Đây là một môi trường làm việc bị chi phối bởi sự ích kỷ, đố kỵ và sự cạnh tranh không lành mạnh, nơi linh hồn dễ dàng bị tha hóa bởi dục vọng quyền lực hoặc nỗi sợ hãi mất vị trí.",
+        "reversed": "Ánh sáng xuyên qua màn sương mù của sự thao túng, giúp bạn nhìn rõ bản chất của các trò chơi quyền lực. Đây là lúc bạn từ chối tham gia vào các hoạt động không đạo đức, giải phóng bản thân khỏi sự kiểm soát của người khác, hoặc có đủ sức mạnh để vạch trần và thay đổi môi trường làm việc độc hại."
+      },
+      "side_hustle": {
+        "upright": "Một công việc phụ trở thành một nỗi ám ảnh, một xiềng xích mới trói buộc thời gian và năng lượng của bạn. Nó bị thúc đẩy bởi sự tham lam vật chất hoặc nỗi sợ hãi thiếu thốn, khiến bạn đánh mất sự cân bằng và tự do, biến nó thành gánh nặng chứ không phải là nguồn bổ trợ.",
+        "reversed": "Sự nhận thức về việc công việc phụ đã trở thành một gánh nặng, dẫn đến việc thiết lập ranh giới lành mạnh hoặc hoàn toàn từ bỏ nó. Đây là sự giải thoát khỏi áp lực tài chính hoặc sự ám ảnh về việc phải luôn 'làm thêm', cho phép bạn lấy lại quyền kiểm soát cuộc sống và thời gian của mình."
+      },
+      "real_estate": {
+        "upright": "Bất động sản trở thành một gánh nặng, một xiềng xích trói buộc bạn vào nợ nần, các giao dịch không minh bạch hoặc một nơi chốn mang năng lượng tiêu cực. Sự ám ảnh về tài sản vật chất có thể dẫn đến những quyết định sai lầm hoặc cảm giác bị mắc kẹt không lối thoát.",
+        "reversed": "Sự giải thoát khỏi một gánh nặng bất động sản, có thể là việc bán đi một tài sản mang năng lượng tiêu cực hoặc thoát khỏi một giao dịch ràng buộc. Đây cũng có thể là sự từ bỏ ám ảnh về việc sở hữu tài sản vật chất, tìm kiếm sự tự do và thanh thản trong cuộc sống, không bị trói buộc bởi vật chất."
+      },
+      "financial_loss": {
+        "upright": "Một sự mất mát tài chính không phải là ngẫu nhiên, mà là hệ quả của sự tham lam, những quyết định bốc đồng bị chi phối bởi dục vọng vật chất hoặc sự cả tin vào những lời hứa hão huyền. Đây là một bài học khắc nghiệt về sự ràng buộc của tiền bạc và những hệ lụy của việc đặt nặng vật chất.",
+        "reversed": "Sự mất mát tài chính trở thành một chất xúc tác cho sự thức tỉnh. Bạn học được bài học quý giá về giá trị thực sự của tiền bạc, phá vỡ những khuôn mẫu chi tiêu không lành mạnh hoặc những niềm tin sai lệch về sự giàu có. Đây là sự giải thoát khỏi xiềng xích của sự tham lam và bắt đầu xây dựng lại nền tảng tài chính vững chắc hơn, dựa trên sự khôn ngoan."
+      },
+      "sudden_wealth": {
+        "upright": "Sự giàu có đột ngột này không mang lại tự do mà lại trở thành một xiềng xích mới, trói buộc linh hồn vào dục vọng, sự xa hoa và nỗi sợ hãi mất mát. Nó có thể được tạo ra từ những nguồn không trong sạch hoặc biến người nhận thành nô lệ của vật chất, đánh mất đi bản chất thật.",
+        "reversed": "Sự giàu có đột ngột này được nhìn nhận với con mắt sáng suốt, không bị mê hoặc bởi vẻ hào nhoáng bên ngoài. Đây là cơ hội để giải phóng bản thân khỏi những cám dỗ vật chất, sử dụng tài sản một cách có ý thức, phục vụ cho mục đích cao cả hơn, hoặc từ chối những nguồn lợi không minh bạch, chọn sự thanh thản hơn là sự giàu có bị ràng buộc."
+      },
+      "healing": {
+        "upright": "Quá trình chữa lành bị cản trở bởi sự từ chối đối mặt với bóng tối bên trong, những thói quen gây nghiện hoặc sự ám ảnh với vai trò nạn nhân. Linh hồn tự nhốt mình trong một nhà tù của bệnh tật hoặc nỗi đau, không thể buông bỏ những xiềng xích vô hình.",
+        "reversed": "Một bước đột phá quan trọng trong hành trình chữa lành. Đây là lúc bạn dũng cảm đối diện với những góc khuất, phá vỡ xiềng xích của sự nghiện ngập hoặc những niềm tin giới hạn, và giải phóng bản thân khỏi sự kiểm soát của bệnh tật hoặc chấn thương. Năng lượng này báo hiệu sự bắt đầu của một quá trình phục hồi thực sự, dựa trên sự tự chấp nhận và ý chí mạnh mẽ."
+      },
+      "stress": {
+        "upright": "Stress trở thành một gánh nặng tự áp đặt, một xiềng xích tinh thần do sự ám ảnh về thành công, sự kiểm soát hoặc nỗi sợ hãi thất bại. Linh hồn bị mắc kẹt trong vòng xoáy của lo âu và áp lực, không thể tìm thấy s��� bình yên nội tại.",
+        "reversed": "Sự nhận thức về nguồn gốc thực sự của stress và quyết tâm phá vỡ những xiềng xích tinh thần. Đây là khoảnh khắc bạn buông bỏ nhu cầu kiểm soát mọi thứ, thiết lập ranh giới lành mạnh và giải phóng bản thân khỏi những áp lực không cần thiết, tìm lại sự thanh thản và bình yên."
+      },
+      "trauma": {
+        "upright": "Linh hồn bị xiềng xích bởi những vết thương từ quá khứ, biến chấn thương thành một nhà tù vô hình giam hãm hiện tại. Nó chi phối hành vi, tạo ra những khuôn mẫu tự hủy hoại và ngăn cản sự phát triển, khiến bạn không thể thoát khỏi bóng tối của những ký ức đau khổ.",
+        "reversed": "Một hành trình dũng cảm để đối mặt và phá vỡ những xiềng xích của chấn thương. Đây là lúc bạn bắt đầu giải phóng bản thân khỏi sự kiểm soát của quá khứ, đối diện với nỗi đau và tìm cách chữa lành. Dù khó khăn, đây là con đường dẫn đến sự giải thoát và tái sinh tinh thần."
+      },
+      "exams": {
+        "upright": "Sự ám ảnh về điểm số, áp lực thi cử trở thành một xiềng xích tinh thần, dẫn đến sự lo âu tột độ, hành vi gian lận hoặc cảm giác bị mắc kẹt trong hệ thống giáo dục. Kiến thức bị biến chất thành một công cụ để đạt được mục đích vật chất, không phải là sự khai sáng.",
+        "reversed": "Sự giải thoát khỏi áp lực và nỗi sợ hãi về thi cử. Đây là lúc bạn từ bỏ sự ám ảnh về kết quả, tập trung vào quá trình học tập thực sự và tìm thấy ý nghĩa đích thực của kiến thức. Nó cũng có thể là sự từ chối những phương pháp không đạo đức, chọn con đường trung thực dù khó khăn hơn."
+      },
+      "scholarship": {
+        "upright": "Một học bổng đi kèm với những ràng buộc ẩn giấu, những kỳ vọng nặng nề hoặc được đạt được thông qua những phương tiện không minh bạch. Nó trở thành một xiềng xích, trói buộc người nhận vào một con đường không mong muốn hoặc đánh ��ổi sự tự do để lấy cơ hội học tập.",
+        "reversed": "Sự nhận thức về những ràng buộc của học bổng, dẫn đến việc từ chối những điều khoản không phù hợp hoặc tìm cách giải phóng bản thân khỏi những áp lực vô hình. Đây là việc sử dụng học bổng như một công cụ để khai phóng tri thức và bản thân, không bị nó biến thành gánh nặng hay sự kiểm soát."
+      },
+      "talent": {
+        "upright": "Tài năng bẩm sinh bị biến thành một lời nguyền, một xiềng xích của cái tôi, sự tham lam hoặc ám ảnh về danh tiếng. Thay vì phục vụ cho mục đích cao cả, tài năng được sử dụng để thao túng, kiểm soát hoặc chỉ để thỏa mãn dục vọng cá nhân, khiến linh hồn bị mắc kẹt trong sự phù phiếm.",
+        "reversed": "Sự thức tỉnh về mục đích thực sự của tài năng. Đây là lúc bạn giải phóng bản thân khỏi những xiềng xích của cái tôi, danh tiếng hoặc lợi ích vật chất. Tài năng được sử dụng để phụng sự, khai sáng và mang l���i giá trị chân chính, không còn là công cụ của sự ám ảnh hay kiểm soát."
+      },
+      "spirit_guide": {
+        "upright": "Sự xuất hiện của một 'linh hồn dẫn lối' nhưng thực chất lại là một thực thể lừa dối, thao túng hoặc một khía cạnh bóng tối của chính bản thân bạn đang tự ngụy trang. Nó dẫn dắt bạn vào những con đường sai lầm, trói buộc bạn vào những ảo ảnh hoặc sự phụ thuộc, thay vì mang lại sự khai sáng và tự do thực sự.",
+        "reversed": "Sự phân định rõ ràng giữa ánh sáng và bóng tối trong thế giới tâm linh. Bạn đã đủ sáng suốt để nhận ra và phá vỡ xiềng xích với những thực thể lừa dối hoặc những ảo ảnh do chính mình tạo ra. Đây là sự giải thoát khỏi sự phụ thuộc vào những 'hướng dẫn' sai lệch, mở đường cho việc kết nối với nguồn trí tuệ chân thật và thuần khiết."
       }
     },
     "advice": "Xiềng xích không nằm ở đôi tay, mà nằm trong tâm trí. Hãy nhìn thẳng vào bóng tối, nhận ra quyền năng của mình và tự do bước đi.",
@@ -4004,6 +5156,78 @@ window.TAROT_DB = [
       "lost_item": {
         "upright": "Vật phẩm bị mất có thể do một sự kiện đột ngột, một tai nạn hoặc một sự phá hủy không lường trước được. Đây là lúc để chấp nhận sự mất mát và buông bỏ, vì nó đã thực sự không còn tồn tại.",
         "reversed": "Bạn đang cố gắng tìm kiếm một vật phẩm đã bị phá hủy hoặc biến mất một cách không thể cứu vãn. Sự bám víu vào việc tìm kiếm vô vọng chỉ kéo dài sự đau khổ và không cho phép bạn tiến lên."
+      },
+      "toxic_relationship": {
+        "upright": "Sự sụp đổ đột ngột, mang tính giải phóng của một mối quan hệ độc hại. Một sự thật phũ phàng được phơi bày, phá vỡ mọi ảo ảnh và buộc phải chấm dứt hoàn toàn, dù đau đớn nhưng cần thiết để giải thoát linh hồn.",
+        "reversed": "Sự kháng cự mạnh mẽ trước việc thừa nhận bản chất độc hại của mối quan hệ, bám víu vào những tàn tích đang mục ruỗng. Sự trì hoãn của một sự đổ vỡ không thể tránh khỏi, kéo dài nỗi đau khổ, hoặc m��t cuộc đấu tranh nội tâm âm ỉ để thoát ly, thay vì một sự bùng nổ bên ngoài."
+      },
+      "soulmate": {
+        "upright": "Một biến cố kịch tính, bất ngờ phá tan những rào cản hoặc niềm tin sai lầm về tình yêu, mở đường cho sự xuất hiện định mệnh của một tri kỷ. Hoặc, một sự thức tỉnh sâu sắc, bất ngờ bên trong chính mối quan hệ tri kỷ, làm rung chuyển nền tảng để lộ ra một chân lý sâu thẳm hơn, thách thức hình thái hiện tại vì sự phát triển tâm linh.",
+        "reversed": "Sự né tránh những thay đổi cần thiết, dù là nội tâm hay bên ngoài, có thể cho phép một tri kỷ bước vào đời. Hoặc, một mối quan hệ tri kỷ đối mặt với những thử thách nội tại dai dẳng, kháng cự lại sức mạnh biến đổi sâu sắc mà nó mang lại."
+      },
+      "reconciliation": {
+        "upright": "Một sự hòa giải không thể xảy ra hoặc mang tính giả tạo, bởi vì những vấn đề tiềm ẩn đã quá sâu sắc, đòi hỏi một sự sụp đổ hoàn toàn trước khi b��t kỳ sự tái thiết chân chính nào có thể diễn ra. Hoặc, một sự hòa giải đến từ một sự thật phũ phàng, một sự kiện gây sốc, buộc phải đối mặt với sự chân thật tàn nhẫn.",
+        "reversed": "Sự kháng cự trước một sự đổ vỡ cần thiết để mở đường cho sự hòa giải chân thực. Một nỗ lực hòa giải hời hợt, né tránh các vấn đề cốt lõi, xây dựng trên nền tảng lung lay, hoặc một quá trình tháo gỡ những oán giận cũ kéo dài, khó khăn trước khi tìm thấy bình yên thực sự."
+      },
+      "secret_admirer": {
+        "upright": "Sự tiết lộ đột ngột, gây sốc về một người thầm yêu trộm nhớ, có thể làm đảo lộn các mối quan hệ hiện có hoặc nhận thức về bản thân. Đó có thể là một sự thật phá vỡ niềm tin hiện tại hoặc tạo ra một sự biến động bất ngờ.",
+        "reversed": "Người thầm yêu vẫn ẩn mình, hoặc sự tiết lộ của họ bị kháng cự, có thể vì sợ sự xáo trộn mà nó sẽ gây ra. Sự thật bị che giấu, hoặc tác động của nó bị giảm thiểu, dẫn đến căng thẳng nội tâm thay vì một sự sụp đổ bên ngoài."
+      },
+      "burnout": {
+        "upright": "Một sự sụp đổ đột ngột, hoàn toàn do kiệt sức. Thể xác, tinh thần hoặc linh hồn không còn có thể chịu đựng áp lực, dẫn đến một sự phá vỡ đột ngột, buộc phải ngừng lại và đánh giá lại hoàn toàn.",
+        "reversed": "Sự kháng cự trước các dấu hiệu kiệt sức, cố gắng vượt qua dù đã cạn kiệt, dẫn đến một sự suy giảm kéo dài, đau đớn thay vì một sự phá vỡ dứt khoát, đột ngột. Hoặc, một sự tháo gỡ dần dần, nội tại các kiểu mẫu làm việc không lành mạnh, tránh một sự sụp đổ hoàn toàn."
+      },
+      "startup": {
+        "upright": "Sự thất bại đột ngột, thảm khốc của một công ty khởi nghiệp, hoặc một sự thay đổi hướng đi triệt để, bất ngờ do các sự kiện bên ngoài buộc phải làm lại hoàn toàn nền tảng. Đó là một sự tháo dỡ và tái thiết từ đầu.",
+        "reversed": "Công ty khởi nghiệp đang trên nền tảng lung lay, chênh vênh bên bờ vực sụp đổ, nhưng sự kháng cự trước việc thừa nhận những sai sót cơ bản kéo dài cuộc đấu tranh của nó. Hoặc, một loạt các điều chỉnh nhỏ, đau đớn được thực hiện để tránh một sự đổ vỡ toàn diện, nhưng các vấn đề cốt lõi vẫn có thể tồn tại."
+      },
+      "workplace_politics": {
+        "upright": "Một sự phơi bày đột ngột, kịch tính về tham nhũng, lừa dối hoặc các thủ đoạn thao túng trong môi trường làm việc, dẫn đến một vụ bê bối lớn, sa thải, hoặc một sự tái cơ cấu hoàn toàn các động lực quyền lực. Sự thật phá vỡ mặt nạ.",
+        "reversed": "Những căng thẳng chính trị và thao túng tiềm ẩn tiếp tục âm ỉ, tạo ra một môi trường độc hại, nhưng một cuộc khủng hoảng toàn diện được ngăn chặn, hoặc sự phơi bày của nó bị trì hoãn. Sự thật được biết nhưng bị đàn áp, dẫn đến xung đột nội bộ kéo dài."
+      },
+      "side_hustle": {
+        "upright": "Sự thất bại đột ngột, bất ngờ của một công việc phụ, buộc phải đánh giá lại khả năng tồn tại của nó. Hoặc, một sự thay đổi sâu sắc, đột ngột trong định hướng của nó, làm thay đổi hoàn toàn mục đích hoặc cấu trúc ban đầu.",
+        "reversed": "Bám víu vào một công việc phụ không hiệu quả, kháng cự các dấu hiệu cho thấy nó cần được tháo dỡ hoặc thay đổi triệt để. Hoặc, một sự nhận ra chậm chạp, đau đớn rằng công việc phụ không bền vững, dẫn đến một sự chấm dứt dần dần thay vì một kết thúc đột ngột."
+      },
+      "real_estate": {
+        "upright": "Một sự kiện đột ngột, thảm khốc liên quan đến bất động sản – một sự sụp đổ thị trường, phá hủy tài sản, bị buộc phải di dời, hoặc một cuộc bán nhà bất ngờ làm đảo lộn hoàn toàn tình hình sống của một người. Một nền tảng bị phá vỡ.",
+        "reversed": "Sự kháng cự bán một tài sản đang là gánh nặng, hoặc trì hoãn việc sửa chữa cần thiết. Một giai đoạn bất ổn kéo dài, khó khăn trong bất động sản, né tránh một sự phá vỡ quyết định, hoặc một sự gián đoạn ít kịch tính hơn nhưng vẫn đáng kể như một cuộc tranh chấp pháp lý kéo dài về tài sản."
+      },
+      "financial_loss": {
+        "upright": "Một sự mất mát tài chính đột ngột, tàn khốc làm tan vỡ hoàn toàn sự an toàn kinh tế của một người và buộc phải tái thiết hoàn toàn từ đầu. Đó là một sự sụp đổ không thể tránh khỏi, đột ngột của các cấu trúc tài chính.",
+        "reversed": "Sự kháng cự thừa nhận tổn thất tài chính sắp xảy ra, bám víu vào các khoản đầu tư hoặc thói quen không bền vững. Một giai đoạn bất ổn và suy giảm tài chính kéo dài, hoặc một loạt các tổn thất nhỏ hơn, đau đớn có thể tránh được bằng một sự phá vỡ quyết đoán, sớm hơn."
+      },
+      "sudden_wealth": {
+        "upright": "Một sự dịch chuyển sâu sắc, gây chấn động trong cuộc đời do tài sản đột ngột. Sự giàu có này có thể phá hủy các cấu trúc cũ, các mối quan hệ hoặc bản sắc cá nhân, buộc phải đánh giá lại hoàn toàn các giá trị và mục đích. Nó không nhất thiết tiêu cực, nhưng mang tính phá vỡ và biến đổi.",
+        "reversed": "Sự kháng cự trước sức mạnh biến đổi của tài sản đột ngột, có lẽ bám víu vào những bản sắc cũ hoặc thói quen tài chính dù trong hoàn cảnh mới. Hoặc, sự giàu có tự nó không ổn định, được xây dựng trên nền tảng lung lay, dẫn đến một giai đoạn lo lắng kéo dài thay vì sự giải thoát."
+      },
+      "healing": {
+        "upright": "Một bước đột phá đột ngột, sâu sắc trong quá trình chữa lành, thường đi trước bởi một cuộc khủng hoảng hoặc sự phá vỡ các niềm tin/mẫu hình cũ đang cản trở sự phục hồi. Đó là một sự giải phóng kịch tính, một sự sụp đổ cần thiết của những gì không còn phục vụ quá trình chữa lành.",
+        "reversed": "Sự kháng cự trước việc tháo g�� đau đớn nhưng cần thiết những vết thương cũ hoặc cơ chế đối phó đang ngăn cản sự chữa lành thực sự. Sự đau khổ kéo dài do không sẵn lòng đối mặt với một sự thật cốt lõi, hoặc một quá trình chữa lành chậm chạp, gian khổ nơi các bước đột phá bị trì hoãn."
+      },
+      "stress": {
+        "upright": "Một sự sụp đổ đột ngột, choáng váng do căng thẳng tích tụ, dẫn đến sự tan vỡ hoàn toàn khả năng đối phó của một người. Đó là điểm mà mọi thứ tan vỡ, buộc phải dừng lại và đánh giá lại hoàn toàn.",
+        "reversed": "Căng thẳng mãn tính, kéo dài, nơi cá nhân liên tục đứng trên bờ vực sụp đổ nhưng tránh được một sự phá vỡ hoàn toàn. Hoặc, sự kháng cự thừa nhận mức độ nghiêm trọng của căng thẳng, dẫn đến sự suy giảm chậm nhưng ổn định về sức khỏe."
+      },
+      "trauma": {
+        "upright": "Sự trải nghiệm lại hoặc đối mặt đột ngột, trần trụi với một chấn thương trong quá khứ, dẫn đến một s�� suy sụp cảm xúc hoặc tâm lý sâu sắc, tức thì. Quá trình đau đớn nhưng cần thiết này phá vỡ những phòng thủ cũ, mở đường cho sự chữa lành thực sự.",
+        "reversed": "Sự kháng cự xử lý chấn thương, giữ nó bị chôn vùi, dẫn đến một cuộc đấu tranh nội tâm kéo dài và ngăn cản sự giải thoát thực sự. Hoặc, một sự tháo gỡ dần dần, nội tại các kiểu mẫu chấn thương, thay vì một cuộc đối đầu bùng nổ."
+      },
+      "exams": {
+        "upright": "Một sự thất bại đột ngột, thảm khốc trong kỳ thi, hoặc một sự kiện bất ngờ, kịch tính trong thời gian thi làm đảo lộn hoàn toàn kết quả của một người. Đó là một sự chấm dứt đột ngột cho những kỳ vọng.",
+        "reversed": "Nỗi sợ hãi và lo lắng dữ dội bao quanh các kỳ thi, dẫn đến căng thẳng kéo dài thay vì một thất bại dứt khoát. Hoặc, một sự thoát hiểm trong gang tấc khỏi thất bại, nhưng với những điểm yếu tiềm ẩn vẫn còn, dẫn đến sự bất ổn trong tương lai."
+      },
+      "scholarship": {
+        "upright": "Sự mất mát hoặc bị từ chối đột ngột, bất ngờ một cơ hội học bổng, phá vỡ các kế hoạch và buộc phải đánh giá lại hoàn toàn con đường học vấn.",
+        "reversed": "Bám víu vào hy vọng về một học bổng khó có thể thành hiện thực, hoặc đối mặt với những trở ngại đáng kể, kéo dài trong việc đảm bảo một học bổng. Một quá trình thất vọng chậm chạp, đau đớn thay vì một sự từ chối đột ngột."
+      },
+      "talent": {
+        "upright": "Sự nhận ra đột ngột, kịch tính rằng cách ứng dụng tài năng hiện tại của một người bị sai lầm cơ bản hoặc định hướng sai, dẫn đến sự tháo dỡ hoàn toàn các cấu trúc nghệ thuật hoặc chuyên nghiệp trước đây. Hoặc, một bước đột phá bất ngờ, bùng nổ phá vỡ những giới hạn trước đây của tài năng.",
+        "reversed": "Sự kháng cự thừa nhận bản chất thực sự hoặc tiềm năng của tài năng, có thể giữ nó bị che giấu ho��c chưa được khai thác vì sợ sự gián đoạn mà nó có thể gây ra. Hoặc, một cuộc đấu tranh kéo dài để tìm ra lối thoát phù hợp cho tài năng, né tránh một sự thay đổi triệt để, cần thiết trong cách tiếp cận."
+      },
+      "spirit_guide": {
+        "upright": "Một cuộc gặp gỡ hoặc thông điệp đột ngột, sâu sắc và thường gây sốc từ một linh hồn hướng dẫn làm tan vỡ hoàn toàn niềm tin hoặc con đường tâm linh hiện tại của một người, buộc phải đánh giá lại triệt để và một hướng đi mới. Đó là một sự can thiệp thiêng liêng phá vỡ các mô hình cũ.",
+        "reversed": "Sự kháng cự trước sự hướng dẫn của một linh hồn hướng dẫn, có lẽ vì sợ những thay đổi mà nó đòi hỏi, dẫn đến một giai đoạn đình trệ tâm linh kéo dài. Hoặc, thông điệp của người hướng dẫn rất tinh tế, đòi hỏi một sự tháo gỡ nội tại của bản ngã và sự kháng cự thay vì một sự mặc khải bên ngoài, kịch tính."
       }
     },
     "advice": "Đừng khóc than cho một nền móng đã thối nát. Hãy đón nhận cơn bão, quét sạch tàn dư và kiêu hãnh xây lại một lâu đài kiên cố hơn.",
@@ -4241,6 +5465,78 @@ window.TAROT_DB = [
       "lost_item": {
         "upright": "Vật phẩm bị mất sẽ được tìm thấy một cách bất ngờ, mang lại hy vọng và sự nhẹ nhõm. Có thể nó sẽ xuất hiện khi bạn ít mong đợi nhất, như một dấu hiệu của sự may mắn và sự quan phòng.",
         "reversed": "Sự mất mát vật phẩm đang gây ra sự tuyệt vọng và mất niềm tin. Bạn đang cảm thấy không có hy vọng tìm lại được, hoặc đang bám víu vào nó như một nguồn an ủi, khiến bạn khó lòng tiến lên."
+      },
+      "toxic_relationship": {
+        "upright": "The Star ở đây gợi lên tia hy vọng chữa lành và sự rõ ràng trong mối quan hệ độc hại. Đó là lời kêu gọi tìm kiếm sự bình an nội tâm, tách mình khỏi tiêu cực, tìm kiếm sự đổi mới cá nhân và con đường hướng tới một kết nối lành mạnh hơn, hoặc sức mạnh để rời đi với sự thanh thản.",
+        "reversed": "Trong bối cảnh này, Ngôi Sao ngược nói về sự tuyệt vọng sâu sắc và cảm giác bị mắc kẹt trong vòng luẩn quẩn độc hại. Hy vọng thay đổi đã phai nhạt, dẫn đến sự vỡ mộng, nghi ngờ bản thân và từ chối nhìn thấy con đường chữa lành hoặc giải thoát. Nó biểu thị sự kiệt quệ tinh thần từ mối quan hệ."
+      },
+      "soulmate": {
+        "upright": "Ngôi Sao chiếu sáng rực rỡ lên khái niệm tri kỷ, cho thấy một kết nối thiêng liêng tràn đầy hy vọng, sự thanh bình và sự hiểu biết tinh thần lẫn nhau. Nó gợi ý rằng mối liên kết này mang lại sự chữa lành sâu sắc, nguồn cảm hứng và cảm giác hài hòa định mệnh.",
+        "reversed": "Sự đảo ngược này ám chỉ cảm giác vỡ mộng hoặc nhận thức thiếu vắng kết nối tinh thần với một tri kỷ tiềm năng. Nó có thể biểu thị sự nghi ngờ bản thân về việc tìm thấy một mối liên kết như vậy, hoặc sự bất lực trong việc nhận ra sự thiêng liêng của một kết nối do những tổn thương trong quá khứ hoặc một trái tim khép kín."
+      },
+      "reconciliation": {
+        "upright": "Ngôi Sao mang đến một thông điệp mạnh mẽ về hy vọng và sự chữa lành cho sự hòa giải. Nó gợi ý rằng sự tha thứ, thấu hiểu và cảm giác bình yên được đổi mới là có thể, được dẫn d dắt bởi ân sủng thiêng liêng và sự sẵn lòng cho đi hoặc nhận lòng trắc ẩn.",
+        "reversed": "Đối với sự hòa giải, Ngôi Sao ngược chỉ ra sự tuyệt vọng dai dẳng hoặc sự từ chối buông bỏ những oán giận trong quá khứ. Con đường chữa lành dường như bị chặn bởi sự bướng bỉnh, thiếu niềm tin vào khả năng hàn gắn, hoặc cảm giác vỡ mộng tràn ngập ngăn cản sự đoàn tụ bằng tấm lòng rộng mở."
+      },
+      "secret_admirer": {
+        "upright": "Ngôi Sao, trong ánh sáng này, gợi ý rằng người hâm mộ bí mật có những ý định trong sáng, thậm chí có thể là một kết nối tinh thần hoặc sự ngưỡng mộ sâu sắc mang lại cảm giác hy vọng và nguồn cảm hứng thầm lặng cho cuộc sống của bạn, ngay cả khi chưa được tiết lộ. Có một năng lượng tích cực, nhẹ nhàng bao quanh tình cảm ẩn giấu này.",
+        "reversed": "Sự đảo ngược này có thể chỉ ra rằng ý định của người hâm mộ bí mật bị che mờ bởi những dự phóng không lành mạnh hoặc sự thiếu hiểu biết thực sự. Nó cũng có thể gợi ý cảm giác bất an hoặc nỗi sợ bị lộ, nơi sự ngưỡng mộ ẩn giấu cảm thấy giống như một gánh nặng hoặc ảo ảnh hơn là một nguồn hy vọng."
+      },
+      "burnout": {
+        "upright": "Ngôi Sao đến như một ngọn hải đăng hy vọng và lời hứa đổi mới sau khi kiệt sức. Nó biểu thị một giai đoạn chữa lành sâu sắc, nguồn cảm hứng để tìm kiếm những nguồn năng lượng mới và sự khôn ngoan để phục hồi sự cân bằng và thanh thản cho tinh thần và tâm trí.",
+        "reversed": "Ở đây, Ngôi Sao ngược làm sâu sắc thêm sự tuyệt vọng của sự kiệt sức, cho thấy sự thiếu hy vọng sâu sắc để phục hồi. Nó gợi ý sự từ chối nghỉ ngơi, sự bất lực trong việc tìm kiếm nguồn cảm hứng và cảm giác kiệt quệ tinh thần và thể chất lan tỏa dường như không thể vượt qua."
+      },
+      "startup": {
+        "upright": "Đối với một startup, Ngôi Sao là một điềm lành vô cùng tốt lành, mang đến hy vọng lớn lao, nguồn cảm hứng đổi mới và phước lành của một tầm nhìn rõ ràng. Nó gợi ý rằng dự án được dẫn dắt bởi một mục đích cao cả hơn, hứa hẹn sự tăng trưởng, sự thanh thản giữa những thách thức và một tương lai tích cực.",
+        "reversed": "Ngôi Sao ngược đối với một startup có thể chỉ ra sự thiếu tầm nhìn gây suy yếu, cảm giác tuyệt vọng tràn ngập về tương lai của dự án, hoặc sự mất kết nối với mục đích truyền cảm hứng ban đầu của nó. Nó cảnh báo về sự nghi ngờ bản thân, sự trì trệ sáng tạo và sự mất niềm tin vào tiềm năng của nó."
+      },
+      "workplace_politics": {
+        "upright": "Ngôi Sao khuyến khích bạn vượt lên trên những mâu thuẫn chính trị nơi công sở, mang đến sự rõ ràng và thanh thản để điều hướng các tình huống phức tạp với sự chính tr��c và hy vọng. Nó gợi ý việc tìm kiếm sự bình an nội tâm và tập trung vào mục đích cao cả hơn của bạn, không bị vấy bẩn bởi sự nhỏ nhen.",
+        "reversed": "Trong lĩnh vực chính trị nơi công sở, Ngôi Sao ngược biểu thị sự vỡ mộng sâu sắc và cảm giác bị áp đảo bởi sự tiêu cực. Nó gợi ý sự mất niềm tin vào sự công bằng, sự sa sút vào chủ nghĩa hoài nghi và sự bất lực trong việc tìm kiếm con đường hướng tới sự chính trực hoặc hòa bình giữa sự hỗn loạn."
+      },
+      "side_hustle": {
+        "upright": "Ngôi Sao chiếu sáng công việc tay trái của bạn với nguồn cảm hứng, hy vọng và cảm giác được dẫn dắt thiêng liêng. Nó gợi ý rằng nỗ lực này phù hợp với con người thật của bạn, mang lại sự sáng tạo, thanh thản và tiềm năng phát triển trọn vẹn vượt xa lợi ích tài chính đơn thuần.",
+        "reversed": "Đối với công việc tay trái, Ngôi Sao ngược có thể cho thấy sự mất nguồn cảm hứng, cảm giác tuyệt vọng rằng nó không tiến triển, hoặc sự mất kết nối với mục đích ban đầu của nó. Nó gợi ý sự nghi ngờ bản thân về khả năng tồn tại của nó hoặc sự miễn cưỡng không muốn thổi hồn đam mê và sự sáng tạo thực sự vào nó."
+      },
+      "real_estate": {
+        "upright": "Ngôi Sao chiếu sáng thuận lợi cho các vấn đề bất động sản, mang đến hy vọng cho một kết quả tích cực, sự rõ ràng trong việc ra quyết định và cảm giác an toàn và thanh thản lâu dài. Nó gợi ý rằng các khoản đầu tư hoặc động thái được dẫn dắt thiêng liêng và sẽ dẫn đến một tương lai hài hòa.",
+        "reversed": "Trong bất động sản, Ngôi Sao ngược có thể báo hiệu sự vỡ mộng, những trở ngại bất ngờ hoặc cảm giác tuyệt vọng lan tỏa liên quan đến một giao dịch hoặc tài sản. Nó có thể gợi ý sự thiếu tầm nhìn, phán đoán kém hoặc sự mất kết nối tinh thần với giá trị hoặc mục đích thực sự của tài sản."
+      },
+      "financial_loss": {
+        "upright": "Ngay cả giữa những mất mát tài chính, Ngôi Sao vẫn mang đến một thông điệp mạnh mẽ về hy vọng và sự kiên cường. Nó biểu thị rằng giai đoạn này là tạm thời, mang theo cơ hội đổi mới tinh thần, học hỏi và nguồn cảm hứng để xây dựng lại với sự khôn ngoan và thanh thản lớn hơn.",
+        "reversed": "Ngôi Sao ngược khi đối mặt với mất mát tài chính chỉ ra sự tuyệt vọng sâu sắc, cảm giác hoàn toàn bị áp đảo và sự mất niềm tin vào khả năng phục hồi của bản thân. Nó biểu thị sự kiệt quệ tinh thần sâu sắc và sự bất lực trong việc nhìn thấy bất kỳ ánh sáng nào ở cuối đường hầm, dẫn đến sự trì trệ hơn nữa."
+      },
+      "sudden_wealth": {
+        "upright": "Ngôi Sao ban phước cho sự giàu có bất ngờ với cảm giác ân sủng và mục đích thiêng liêng. Nó gợi ý rằng sự sung túc này có nghĩa là để phát triển tinh thần, truyền cảm hứng cho những hành động hào phóng và mang lại cảm giác bình an và rõ ràng sâu sắc về cách sử dụng nó cho lợi ích lớn hơn.",
+        "reversed": "Khi của cải đến bất ngờ, Ngôi Sao ngược cảnh báo về sự mất kết nối tinh thần và sự vỡ mộng. Nó có thể chỉ ra rằng của cải mang lại nhiều lo lắng hơn là bình yên, dẫn đến mất mục đích, nghi ngờ bản thân về nguồn gốc hoặc cách sử dụng của nó, và sự tách rời khỏi sự viên mãn thực sự."
+      },
+      "healing": {
+        "upright": "Ngôi Sao là lá bài chữa lành tinh túy, hứa hẹn sự phục hồi sâu sắc về tinh thần, cảm xúc và thể chất. Nó biểu thị một giai đoạn đổi mới sâu sắc, hy vọng và sự đón nhận ân sủng thiêng liêng giúp xóa tan nỗi đau và mang lại sự thanh thản.",
+        "reversed": "Đối với sự chữa lành, Ngôi Sao ngược cho thấy một sự tắc nghẽn đáng kể hoặc sự tuyệt vọng sâu sắc trong quá trình chữa lành. Nó gợi ý sự kháng cự trong việc buông bỏ những vết thương cũ, thiếu niềm tin vào sự phục hồi hoặc sự kiệt quệ tinh thần ngăn cản sự phục hồi và thanh thản thực sự."
+      },
+      "stress": {
+        "upright": "Ngôi Sao mang đến một liều thuốc thần thánh cho căng thẳng, mang lại cảm giác bình tĩnh sâu sắc, hy vọng và sự rõ ràng. Nó truyền cảm hứng cho bạn buông bỏ lo lắng, tìm thấy nơi trú ẩn bên trong và kết nối với một nguồn bình an cao hơn vượt qua những áp lực thế tục.",
+        "reversed": "Ngôi Sao ngược làm trầm trọng thêm cảm giác căng thẳng, đẩy bạn vào sự tuyệt vọng và cảm giác tuyệt vọng tràn ngập. Nó biểu thị sự bất lực trong việc tìm kiếm lối thoát cho căng thẳng, mất kết nối với sự bình an nội tâm và cảm giác bị mắc kẹt bởi lo lắng."
+      },
+      "trauma": {
+        "upright": "Ngôi Sao chiếu sáng con đường chữa lành từ chấn thương, mang đến hy vọng sâu sắc, sự hướng dẫn tinh thần và lời hứa đổi mới. Nó biểu thị một hành trình dũng cảm hướng tới sự bình an nội tâm, nơi những vết thương trong quá khứ được biến đổi thành trí tuệ và sự thanh thản.",
+        "reversed": "Đối với chấn thương, Ngôi Sao ngược nói về sự tuyệt vọng sâu sắc và cảm giác bị mắc kẹt trong quá khứ. Nó cho thấy sự kháng cự trong việc chữa lành, thiếu niềm tin vào sự phục hồi và sự mất kết nối tinh thần ngăn cản tâm hồn tìm thấy sự bình an và tiến về phía trước."
+      },
+      "exams": {
+        "upright": "Ngôi Sao ban phước cho các kỳ thi với sự rõ ràng trong tâm trí, cái nhìn sâu sắc đầy cảm hứng và sự tự tin thanh thản. Nó gợi ý rằng những nỗ lực của bạn được dẫn dắt thiêng liêng, mang lại hy vọng thành công và khả năng tiếp cận kiến thức một cách dễ dàng và duyên dáng.",
+        "reversed": "Đối với các kỳ thi, Ngôi Sao ngược có thể cho thấy sự thiếu tự tin sâu sắc, sự tắc nghẽn tinh thần hoặc cảm giác tuyệt vọng rằng người ta không thể thành công. Nó gợi ý sự mất kết nối với trí tuệ bên trong của một người, dẫn đến sự nghi ngờ bản thân và sự bất lực trong việc thực hiện tối ưu mặc dù đã chuẩn bị."
+      },
+      "scholarship": {
+        "upright": "Ngôi Sao chiếu sáng rực rỡ lên triển vọng học bổng, biểu thị sự ưu ái thiêng liêng, hy vọng cho sự tiến bộ giáo dục và dòng chảy cơ hội thanh thản. Nó gợi ý rằng thành tựu này sẽ mang lại nguồn cảm hứng sâu sắc và mở ra cánh cửa đến một tương lai tươi sáng hơn.",
+        "reversed": "Ngôi Sao ngược đối với học bổng có thể cho thấy cảm giác vỡ mộng, thiếu hy vọng trong việc giành được nó, hoặc những trở ngại dường như không thể vượt qua. Nó cũng có thể chỉ ra một tư duy tự phá hoại hoặc sự mất kết nối với mục đích và giá trị thực sự của việc theo đuổi giáo dục."
+      },
+      "talent": {
+        "upright": "Ngôi Sao làm nổi bật những tài năng bẩm sinh của bạn với nguồn cảm hứng thiêng liêng, mang đến sự rõ ràng và sự tự tin thanh thản vào khả năng của bạn. Nó gợi ý rằng những món quà của bạn có nghĩa là để chia sẻ, mang lại hy vọng và ảnh hưởng tích cực đến thế giới, được dẫn dắt bởi một mục đích cao cả hơn.",
+        "reversed": "Ngôi Sao ngược liên quan đến tài năng nói về sự nghi ngờ bản thân, cảm giác không xứng đáng hoặc sự thiếu nguồn cảm hứng sâu sắc để trau dồi hoặc chia sẻ những món quà của mình. Nó cho thấy một sự tắc nghẽn tinh thần ngăn cản sự thể hiện tự do của những khả năng bẩm sinh, dẫn đến sự trì trệ sáng tạo và tuyệt vọng."
+      },
+      "spirit_guide": {
+        "upright": "Ngôi Sao biểu thị một kết nối rõ ràng và sâu sắc với linh hồn dẫn đường của bạn, mang đến hy vọng thiêng liêng, sự hướng dẫn thanh thản và nguồn cảm hứng sâu sắc. Nó đảm bảo với bạn rằng bạn đang được che chở và dẫn dắt đến điều tốt đẹp nhất của mình.",
+        "reversed": "Ngôi Sao ngược cho thấy sự mất kết nối hoặc cảm giác bị mất liên lạc với linh hồn dẫn đường của bạn. Nó có thể gợi ý sự nghi ngờ bản thân về sự hiện diện của họ, sự từ chối lắng nghe sự hướng dẫn bên trong hoặc sự kiệt quệ tinh thần khiến việc nhận biết thông điệp của họ trở nên khó khăn, dẫn đến cảm giác lạc lối."
       }
     },
     "advice": "Hãy trút bỏ mọi muộn phiền, mở rộng trái tim và đón nhận dòng suối chữa lành. Vũ trụ luôn yêu thương và bảo bọc bạn.",
@@ -4477,6 +5773,78 @@ window.TAROT_DB = [
       "lost_item": {
         "upright": "Vật phẩm bị mất đang ở một nơi khó tìm, bị che giấu hoặc bị hiểu lầm về vị trí. Cần tin vào trực giác và tìm kiếm ở những nơi bạn ít ngờ tới, hoặc những nơi có ánh sáng yếu, mơ hồ.",
         "reversed": "Vật phẩm bị mất sẽ được tìm thấy khi bạn loại bỏ được sự nhầm lẫn và ảo ảnh. Có thể bạn đã hiểu sai về nơi cất giữ, hoặc có một sự thật ẩn giấu về nó đang dần được phơi bày."
+      },
+      "toxic_relationship": {
+        "upright": "Mối quan hệ này chìm trong màn sương mù của lừa dối, thao túng cảm xúc và những sự thật bị che giấu. Bạn đang lạc lối trong mê cung của sự hoang mang, không thể nhìn rõ bản chất thực sự của đối phương hay động lực ngầm. Nỗi sợ hãi và lo âu ngấm ngầm đang bào mòn tâm hồn bạn.",
+        "reversed": "Màn sương mù tan biến, sự thật trần trụi về mối quan hệ độc hại được phơi bày. Bạn bắt đầu đối mặt với thực tế đau đớn, tìm kiếm sự rõ ràng và con đường thoát ly. Đây là lúc giải phóng bản thân khỏi sự thao túng và bắt đầu hành trình chữa lành."
+      },
+      "soulmate": {
+        "upright": "Một kết nối tâm hồn sâu sắc, trực giác mách bảo nhưng lại bị bao phủ bởi sự bí ẩn và không chắc chắn. Người bạn đời định mệnh có thể chưa lộ diện hoàn toàn, hoặc có những ảo ảnh, hiểu lầm đang che khuất mối liên kết này. Nó chạm đến những nỗi sợ hãi hoặc khao khát tiềm thức sâu thẳm.",
+        "reversed": "Những ảo ảnh về người bạn đời tiềm năng tan biến, hé lộ bản chất thực sự của mối liên kết (hoặc sự thiếu vắng của nó). Sự rõ ràng xuất hiện, giúp bạn nhìn thấy con đường dẫn đến một mối quan hệ tri kỷ chân chính, hoặc nhận ra rằng một người bạn đời tưởng chừng như vậy chỉ là ảo ảnh."
+      },
+      "reconciliation": {
+        "upright": "Sự hòa giải bị bao trùm bởi sự không chắc chắn, những hiểu lầm và gánh nặng cảm xúc chưa được giải quyết. Có những động cơ ngầm, nỗi sợ hãi không nói ra, hoặc thiếu giao tiếp rõ ràng đang ngăn cản sự đoàn tụ thực sự. Con đường này đầy rẫy ảo ảnh.",
+        "reversed": "Màn sương mù tan biến, cho phép giao tiếp chân thành và những lừa dối hay hiểu lầm trong quá khứ được phơi bày. Đối mặt với sự thật về những gì đã xảy ra, mở đường cho một sự hòa giải chân chính (dù có thể khó khăn), hoặc một quyết định rõ ràng rằng hòa giải là không thể do những sự thật được hé lộ."
+      },
+      "secret_admirer": {
+        "upright": "Người ngưỡng mộ vẫn ẩn mình sâu sắc, danh tính của họ chìm trong bí ẩn và có thể tạo ra cảm giác tò mò, lo lắng, hoặc thậm chí là hoang tưởng. Tình cảm hiện hữu nhưng không được bày tỏ, tồn tại trong bóng tối.",
+        "reversed": "Danh tính của người ngưỡng mộ bí mật được tiết lộ, mang sự thật ra ánh sáng. Bí ẩn được giải đáp, xua tan mọi sự bối rối hay sợ hãi liên quan đến người ngưỡng mộ vô danh."
+      },
+      "burnout": {
+        "upright": "Sự kiệt sức được thúc đẩy bởi cảm giác kiệt quệ về cảm xúc và tinh thần sâu sắc, thường bắt nguồn từ những áp lực vô hình, nỗi sợ hãi tiềm thức, hoặc cảm giác lạc lối trong một tình huống đòi hỏi cao. Thiếu sự rõ ràng về cách thoát ra hoặc phục hồi.",
+        "reversed": "Con đường phục hồi trở nên rõ ràng. Những ảo tưởng về khả năng của bản thân hoặc yêu cầu của tình huống được xua tan, dẫn đến nỗ lực có ý thức để giải quyết nguyên nhân gốc rễ của sự kiệt sức và tìm thấy sự chữa lành."
+      },
+      "startup": {
+        "upright": "Dự án khởi nghiệp đang trải qua một giai đoạn đầy bất ổn, những thách thức tiềm ẩn và khả năng lừa dối. Thiếu tầm nhìn hoặc chiến lược rõ ràng, và nỗi sợ hãi về những điều chưa biết bao trùm. Trực giác rất quan trọng nhưng dễ bị che mờ.",
+        "reversed": "Màn sương mù tan biến, hé lộ con đường thực sự phía trước cho startup. Những trở ngại tiềm ẩn được khám phá, và một chiến lược rõ ràng hơn xuất hiện. Đây là thời điểm để xua tan ảo ảnh và đối mặt với thực tế của doanh nghiệp."
+      },
+      "workplace_politics": {
+        "upright": "Nơi làm việc đầy rẫy những động cơ ngầm, những lời đồn thổi, và các chiến thuật thao túng. Bạn cảm thấy bị mắc kẹt trong một mạng lưới lừa dối, không thể phân biệt thật giả, dẫn đến lo lắng và mất lòng tin.",
+        "reversed": "Sự thật đằng sau những tranh chấp chính trị nơi làm việc được phơi bày. Những sự lừa dối bị vạch trần, và sự rõ ràng xuất hiện, cho phép bạn điều hướng tình huống với nhận thức cao hơn và bảo vệ bản thân khỏi sự thao túng."
+      },
+      "side_hustle": {
+        "upright": "Công việc phụ bị bao trùm bởi sự không chắc chắn, có thể cảm thấy như một dự án mờ ảo với kết quả không rõ ràng hoặc rủi ro tiềm ẩn. Có thể thiếu tự tin hoặc một sự thôi thúc trực giác không được hiểu rõ hoàn toàn.",
+        "reversed": "Sự rõ ràng xuất hiện liên quan đến công việc phụ. Con đường trở nên rõ ràng hơn, rủi ro được hiểu rõ hơn, và mọi ảo tưởng hay nỗi sợ hãi xung quanh tiềm năng của nó được xua tan, cho phép hành động quyết đoán hơn."
+      },
+      "real_estate": {
+        "upright": "Các giao dịch bất động sản bị che khuất bởi thông tin ẩn, khả năng lừa dối, hoặc cảm giác bất an và không chắc chắn nói chung. Có thể có những vấn đề không được tiết lộ về một tài sản hoặc thông tin gây hiểu lầm từ các đại lý.",
+        "reversed": "Sự thật về một tài sản hoặc một giao dịch được đưa ra ánh sáng. Những khiếm khuyết tiềm ẩn hoặc hành vi lừa dối được tiết lộ, cho phép đưa ra các quyết định sáng suốt và tránh những cạm bẫy tiềm tàng."
+      },
+      "financial_loss": {
+        "upright": "Một khoản lỗ tài chính đang rình rập hoặc xảy ra do các yếu tố vô hình, rủi ro tiềm ẩn, hoặc thiếu hiểu biết rõ ràng về tình hình. Đây là thời điểm của sự lo lắng, bối rối và sợ hãi liên quan đến tiền bạc.",
+        "reversed": "Nguyên nhân của khoản lỗ tài chính trở nên rõ ràng, cho phép hành động khắc phục hoặc chấp nhận. Màn sương mù của sự bối rối tan biến, và bạn có thể bắt đầu xây dựng lại với sự hiểu biết rõ ràng hơn về những sai lầm trong quá khứ hoặc các yếu tố bên ngoài."
+      },
+      "sudden_wealth": {
+        "upright": "Sự giàu có đột ngột đi kèm với một bức màn bí ẩn, có thể từ một nguồn không ngờ tới hoặc mang theo những ý nghĩa và trách nhiệm tiềm ẩn chưa được hiểu rõ hoàn toàn. Nó có thể mang lại những lo lắng về việc quản lý hoặc nguồn gốc thực sự.",
+        "reversed": "Nguồn gốc và ý nghĩa của sự giàu có đột ngột trở nên rõ ràng. Mọi ảo tưởng hoặc nỗi sợ hãi liên quan đến sự sung túc mới này được xua tan, cho phép đưa ra các quyết định có cơ sở và quản lý có trách nhiệm."
+      },
+      "healing": {
+        "upright": "Chữa lành là một hành trình đi sâu vào tiềm thức, khám phá những tổn thương, nỗi sợ hãi và vết thương cảm xúc ẩn giấu trong bóng tối. Đây là thời điểm nội tâm sâu sắc, có khả năng mang lại sự khó chịu và bối rối khi những khuôn mẫu cũ trỗi dậy.",
+        "reversed": "Quá trình chữa lành đạt được sự rõ ràng và động lực. Những cảm xúc bị kìm nén hoặc vết thương tiềm ẩn được đưa ra ánh sáng và xử lý, dẫn đến một bước đột phá trong sự hiểu biết và một con đường phục hồi rõ ràng hơn."
+      },
+      "stress": {
+        "upright": "Căng thẳng được khuếch đại bởi nỗi sợ hãi về những điều chưa biết, những lo lắng bắt nguồn từ các vấn đề chưa được giải quyết, và cảm giác bị choáng ngợp bởi những hoàn cảnh thiếu rõ ràng. Tâm trí bị che mờ, khiến khó tìm ra giải pháp.",
+        "reversed": "Các nguồn gây căng thẳng được xác định và đối mặt. Sự rõ ràng xuất hiện, cho phép bạn giải quyết nguyên nhân gốc rễ, giải tỏa lo lắng và tìm ra những cách thực tế để quản lý hoặc vượt qua tình huống căng thẳng."
+      },
+      "trauma": {
+        "upright": "Tổn thương bị chôn vùi sâu trong tiềm thức, biểu hiện dưới dạng những nỗi sợ hãi không giải thích được, ác mộng hoặc sự bất ổn về cảm xúc. Nó phủ một cái bóng dài, ảnh hưởng đến nhận thức và hành vi hiện tại mà không có nhận thức rõ ràng.",
+        "reversed": "Sự thật về tổn thương bắt đầu lộ diện, cho phép nhận thức và xử lý. Màn sương mù của sự kìm nén tan biến, mở đường cho sự chữa lành sâu sắc và hiểu biết về những vết thương trong quá khứ."
+      },
+      "exams": {
+        "upright": "Các kỳ thi được tiếp cận với sự lo lắng, tự nghi ngờ và cảm giác không chuẩn bị hoặc bối rối về tài liệu. Có một nỗi sợ hãi về những câu hỏi không biết hoặc thiếu rõ ràng trong sự hiểu biết.",
+        "reversed": "Màn sương mù tinh thần tan bi��n, cho phép suy nghĩ rõ ràng và hiểu biết tốt hơn về tài liệu thi. Sự tự tin trở lại khi nỗi sợ hãi được xua tan, dẫn đến một cách tiếp cận tập trung và thành công hơn."
+      },
+      "scholarship": {
+        "upright": "Con đường đến học bổng bị bao trùm bởi sự không chắc chắn, có thể liên quan đến các tiêu chí ẩn, sự cạnh tranh gay gắt, hoặc cảm giác không 'đủ tốt'. Thiếu sự rõ ràng về cách để đạt được nó.",
+        "reversed": "Các yêu cầu cho học bổng trở nên rõ ràng, hoặc những cơ hội tiềm ẩn được tiết lộ. Mọi sự bối rối hoặc tự nghi ngờ được xua tan, cho phép một ứng dụng chiến lược và tự tin hơn."
+      },
+      "talent": {
+        "upright": "Một tài năng hiện hữu nhưng không được công nhận, bị che giấu, hoặc không được hiểu rõ hoàn toàn. Đó có thể là một món quà trực giác, một tia sáng tạo vẫn còn trong bóng tối, hoặc một kỹ năng gây lo lắng khi tiết lộ.",
+        "reversed": "Bản chất thực sự của tài năng được tiết lộ và công nhận. Nỗi sợ hãi khi thể hiện nó tan biến, và sự rõ ràng xuất hiện về cách nuôi dưỡng và chia sẻ món quà độc đáo này."
+      },
+      "spirit_guide": {
+        "upright": "Sự hiện diện của một linh hồn dẫn đường được cảm nhận một cách trực giác nhưng vẫn còn mơ hồ, giao tiếp thông qua những giấc mơ, dấu hiệu tinh tế hoặc một sự hiểu biết nội tâm sâu sắc, bí ẩn. Sự hướng dẫn của họ hiện diện nhưng không phải lúc nào cũng rõ ràng hoặc được hiểu hoàn toàn.",
+        "reversed": "Sự giao tiếp với linh hồn dẫn đường trở nên rõ ràng và trực tiếp hơn. Bức màn giữa các thế giới mỏng đi, cho phép một kết nối có ý thức và không mơ hồ hơn, mang lại sự hướng dẫn và hiểu biết rõ ràng."
       }
     },
     "advice": "Khi mắt trần không thể nhìn xuyên qua màn sương, hãy nhắm mắt lại và để ánh sáng của trực giác dẫn lối.",
@@ -4714,6 +6082,78 @@ window.TAROT_DB = [
       "lost_item": {
         "upright": "Vật phẩm bị mất sẽ được tìm thấy ở một nơi rõ ràng, dễ nhìn thấy, hoặc nó sẽ xuất hiện một cách bất ngờ, mang lại niềm vui và sự nhẹ nhõm. Ánh sáng sẽ dẫn lối bạn đến nó.",
         "reversed": "Vật phẩm bị mất có thể do sự che giấu, sự nhầm lẫn hoặc bị đặt ở nơi tối tăm, khó tìm. Sự thiếu rõ ràng đang làm chậm trễ việc tìm kiếm, cần tìm lại sự minh bạch và lạc quan."
+      },
+      "toxic_relationship": {
+        "upright": "Ánh sáng chân lý rực rỡ soi rọi vào mối quan hệ độc hại, mang lại sự minh bạch và sức mạnh để giải thoát, hướng tới hạnh phúc đích thực. Đây là lúc ảo ảnh tan biến, bình minh của giá trị bản thân hé lộ.",
+        "reversed": "Sự từ chối nguy hiểm khi không thừa nhận độc tố, bám víu vào cảm giác ấm áp hay hy vọng giả tạo, dẫn đến đau khổ kéo dài và tự lừa dối. Ánh sáng bị che khuất bởi bản ngã hoặc sợ hãi, ngăn cản sự chữa lành thật s��."
+      },
+      "soulmate": {
+        "upright": "Một kết nối rạng rỡ, sự nhận diện sâu sắc giữa những tâm hồn đồng điệu, đắm chìm trong niềm vui, sự thấu hiểu và tình yêu vô điều kiện. Đây là sự khẳng định tối thượng của một mối duyên hài hòa, định mệnh.",
+        "reversed": "Cảm giác bị che khuất hoặc sự ngắt kết nối tạm thời với mối duyên tri kỷ, có thể do áp lực bên ngoài hoặc nghi ngờ nội tâm. Nó có thể chỉ ra một mối quan hệ tri kỷ được lý tưởng hóa hơn là chân thực, hoặc sự trì hoãn trong việc biểu lộ hoàn toàn."
+      },
+      "reconciliation": {
+        "upright": "Sự trở lại vinh quang của hòa hợp và thấu hiểu, nơi những bất hòa trong quá khứ được tắm mình trong ánh sáng của sự tha thứ, dẫn đến một cuộc đoàn tụ trọn vẹn và hân hoan. Mọi bóng tối đều được xua tan.",
+        "reversed": "Một sự hòa giải hời hợt, gượng ép hoặc không trọn vẹn; những vấn đề tiềm ẩn vẫn chưa được giải quyết, ngăn cản một cuộc đoàn tụ chân thành. Ánh sáng của sự thấu hiểu đích thực bị che khuất bởi bản ngã chưa được hóa giải hoặc sự oán giận dai dẳng."
+      },
+      "secret_admirer": {
+        "upright": "Người ngưỡng mộ thầm lặng sẽ sớm bước ra ánh sáng, tiết lộ tình cảm của họ với sự chân thành vui tươi, mang lại sự ấm áp và rõ ràng cho mối quan hệ. Sự ngưỡng mộ của họ trở nên hiển nhiên và được tôn vinh.",
+        "reversed": "Người ngưỡng mộ vẫn chìm trong bí mật, có thể do sợ hãi hoặc thiếu dũng khí tạm thời, gây ra sự bối rối hoặc bỏ lỡ cơ hội. Ánh sáng của sự tiết lộ bị trì hoãn hoặc bị che khuất bởi sự nhút nhát hay nghi ngờ."
+      },
+      "burnout": {
+        "upright": "Lá bài này mang đến con đường tái tạo năng lượng, sự hiểu biết rõ ràng về ranh giới, và sức mạnh rạng rỡ để phục hồi và lấy lại sức sống. Đây là bình minh sau đêm dài kiệt sức.",
+        "reversed": "Sự từ chối nghỉ ngơi một cách bướng b���nh, ảo tưởng về năng lượng vô hạn mặc dù đã kiệt sức sâu sắc, dẫn đến sự suy sụp sâu hơn. Ánh sáng nội tâm bị lu mờ, nhưng cá nhân vẫn phủ nhận bóng tối."
+      },
+      "startup": {
+        "upright": "Một khởi đầu rực rỡ, được định sẵn cho thành công vang dội, sự đổi mới và sự công nhận rộng rãi. Các ý tưởng phát triển dưới ánh mắt nhân từ của mặt trời, hứa hẹn sự tăng trưởng dồi dào và thành tựu hân hoan.",
+        "reversed": "Sự nhiệt tình ban đầu có thể bị lu mờ bởi những trở ngại không lường trước, thiếu sự rõ ràng trong tầm nhìn, hoặc đánh giá quá cao nguồn lực. Công ty khởi nghiệp phải vật lộn để tìm thấy ánh sáng của mình, đối mặt với sự chậm trễ hoặc cần đánh giá lại."
+      },
+      "workplace_politics": {
+        "upright": "Sự minh bạch chiếm ưu thế, sự thật được phơi bày, và mọi âm mưu ẩn giấu đều được đưa ra ánh sáng, dẫn đến các giải pháp công bằng và một môi trường làm việc tích cực, hài hòa. Sự chính trực tỏa sáng.",
+        "reversed": "Những chiến thuật lừa dối và âm mưu ẩn giấu tạo ra bóng tối, gây ra môi trường mất lòng tin và bối rối. Sự thật bị che khuất, dẫn đến kết quả bất công hoặc sự mất tinh thần tạm thời do những cuộc đấu đá quyền lực chưa được giải quyết."
+      },
+      "side_hustle": {
+        "upright": "Một công việc phụ mang lại niềm vui lớn lao, sự thỏa mãn sáng tạo và sự sung túc tài chính bất ngờ. Nó phát triển dưới ánh sáng của niềm đam mê và sự quan tâm chân thành, dẫn đến thành công đáng chúc mừng.",
+        "reversed": "Công việc phụ trở thành gánh nặng, mất đi sự lấp lánh ban đầu và không mang lại niềm vui hay lợi nhuận đáng kể. Nó có thể bị lu mờ bởi các cam kết chính hoặc thiếu tầm nhìn rõ ràng cần thiết cho sự phát triển thực sự."
+      },
+      "real_estate": {
+        "upright": "Một thời điểm cực kỳ tốt lành cho các dự án bất động sản, hứa hẹn các giao dịch thành công, một ngôi nhà mới đầy niềm vui, hoặc các khoản đầu tư sinh lời. Tất cả các chi tiết đều rõ ràng, dẫn đến một kết quả tươi sáng và tích cực.",
+        "reversed": "Sự chậm trễ, những phức tạp không lường trước, hoặc thiếu minh bạch trong các giao dịch bất động sản. Có thể có những vấn đề tiềm ẩn với một tài sản hoặc một trở ngại tạm thời trong doanh số bán hàng, che khuất con đường dẫn đến một kết quả rõ ràng, tích cực."
+      },
+      "financial_loss": {
+        "upright": "Ngay cả giữa mất mát, Mặt Trời vẫn mang đến tia hy vọng, tiết lộ những cơ hội tiềm ẩn để phục hồi, phát triển và một cảm giác lạc quan tài chính được đổi mới. Nó biểu thị việc học hỏi từ quá khứ để xây dựng một tương lai tươi sáng hơn.",
+        "reversed": "Một giai đoạn u ám tài chính kéo dài, nơi những bài học từ mất mát bị bỏ qua, hoặc sự từ chối thừa nhận mức độ thực sự của thất bại, kéo dài bóng tối của sự khan hiếm và ngăn cản sự phục hồi."
+      },
+      "sudden_wealth": {
+        "upright": "Một tài lộc bất ngờ đầy hân hoan và xứng đáng, mang lại không chỉ sự sung túc vật chất mà còn là hạnh phúc sâu sắc, tự do và khả năng chia sẻ vận may của mình. Đó là một phước lành rạng rỡ.",
+        "reversed": "Tài lộc bất ngờ mang lại nhiều vấn đề hơn là giải pháp, có thể dẫn đến sự tự phụ, hạnh phúc hời hợt, hoặc sự mất đi khả năng phán đoán rõ ràng tạm thời. Ánh sáng của sự thịnh vượng bị che khuất bởi sự bất hòa nội bộ hoặc bên ngoài."
+      },
+      "healing": {
+        "upright": "Một sự chữa lành sâu sắc và hoàn toàn, nơi cơ thể, tâm trí và tinh thần được phục hồi hoàn toàn về sức sống rạng rỡ của chúng. Đó là bình minh của sức khỏe được đổi mới, sự lạc quan và một niềm vui đón nhận cuộc sống.",
+        "reversed": "Một sự chữa lành hời hợt, hoặc sự kháng cự không hoàn toàn đón nhận quá trình chữa lành, đ��� lại những vấn đề tiềm ẩn chưa được giải quyết. Ánh sáng của sự phục hồi thực sự tạm thời bị che khuất bởi sự phủ nhận hoặc một bóng tối bệnh tật dai dẳng."
+      },
+      "stress": {
+        "upright": "Mặt Trời mang lại sự rõ ràng và cái nhìn sâu sắc, soi sáng nguyên nhân gốc rễ của căng thẳng và trao quyền cho bạn tìm ra giải pháp hiệu quả, dẫn đến sự giải thoát vui vẻ và trở lại trạng thái bình yên nội tâm.",
+        "reversed": "Một trạng thái căng thẳng kéo dài, nơi cá nhân cảm thấy choáng ngợp và không thể tìm thấy lối thoát. Ánh sáng hy vọng bị che khuất bởi cảm giác bị mắc kẹt, hoặc sự từ chối tìm kiếm sự giúp đỡ và đón nhận các giải pháp."
+      },
+      "trauma": {
+        "upright": "Cuộc hành trình dũng cảm vượt qua chấn thương lên đến đỉnh điểm trong sự chữa lành và chuyển hóa sâu sắc. Mặt trời chiếu sáng rực rỡ trên con đường phục hồi, mang lại sự rõ ràng, sức mạnh và khả năng đón nhận cuộc sống mới, thoát khỏi bóng tối của quá khứ.",
+        "reversed": "Sự kháng cự đối mặt với chấn thương, hoặc một trở ngại tạm thời trong quá trình chữa lành, nơi cá nhân vẫn bị mắc kẹt trong bóng tối của nó, không thể hoàn toàn bước vào ánh sáng của sự chấp nhận và phục hồi."
+      },
+      "exams": {
+        "upright": "Thành công rực rỡ trong các kỳ thi, phản ánh sự hiểu biết rõ ràng, nỗ lực siêng năng và một màn trình diễn tự tin. Kết quả mang lại niềm vui, sự công nhận và cảm giác thành tựu chiến thắng.",
+        "reversed": "Những khó khăn không lường trước hoặc thiếu sự rõ ràng trong kỳ thi, có thể do quá tự tin, chuẩn bị không đầy đủ hoặc tự nghi ngờ tạm thời. Kết quả có thể kém rạng rỡ hơn mong đợi, đòi hỏi phải đánh giá lại."
+      },
+      "scholarship": {
+        "upright": "Một học bổng xứng đáng, được trao với sự công nhận đáng chúc mừng về tài năng và sự chăm chỉ của một người. Nó soi sáng một con đường rõ ràng dẫn đến thành công giáo dục và các cơ hội trong tương lai.",
+        "reversed": "Một cơ hội học bổng phải đối mặt với sự chậm trễ, những trở ngại bất ngờ hoặc một trở ngại tạm thời trong quá trình nộp đơn. Con đường đến với sự hỗ trợ học thuật tạm thời bị che khuất, đòi hỏi sự kiên trì."
+      },
+      "talent": {
+        "upright": "Sự nở rộ hoàn toàn và sự công nhận vui vẻ về tài năng bẩm sinh của một người, mang lại sự sáng tạo, sự thể hiện bản thân và một cảm giác mục đích rạng rỡ. Đó là một lễ kỷ niệm những món quà độc đáo.",
+        "reversed": "Tài năng vẫn ẩn giấu, không được thể hiện, hoặc bị che khuất bởi sự tự nghi ngờ hoặc áp lực bên ngoài. Cá nhân phải vật lộn để hoàn toàn đón nhận và thể hiện ánh sáng độc đáo của mình, dẫn đến cảm giác không thỏa mãn tạm thời."
+      },
+      "spirit_guide": {
+        "upright": "Một kết nối rõ ràng, rạng rỡ với hướng dẫn tâm linh của m��t người, mang lại trí tuệ sâu sắc, sự hướng dẫn vui vẻ và cảm giác định hướng khai sáng trên con đường tâm linh của một người. Sự hiện diện của họ là một ngọn hải đăng của ánh sáng.",
+        "reversed": "Sự ngắt kết nối tạm thời hoặc thiếu rõ ràng trong việc nhận thông điệp từ các hướng dẫn tâm linh, có thể do tiếng ồn nội tâm, sự nghi ngờ, hoặc nhu cầu tập trung lại bản thân để lắng nghe trí tuệ tinh tế của họ. Ánh sáng hướng dẫn tạm thời bị che khuất."
       }
     },
     "advice": "Hãy bung nở rực rỡ như đóa hướng dương đón nắng. Bạn hoàn toàn xứng đáng với những đặc ân rực rỡ nhất mà vũ trụ ban tặng.",
@@ -4951,6 +6391,78 @@ window.TAROT_DB = [
       "lost_item": {
         "upright": "Vật phẩm bị mất sẽ được tìm thấy khi bạn nhìn nhận lại hành trình của mình, tha thứ cho sự bất cẩn và chấp nhận sự thật. Nó có thể xuất hiện như một dấu hiệu để bạn buông bỏ gánh nặng.",
         "reversed": "Bạn đang tự phán xét quá mức về việc làm mất đồ, hoặc đang từ chối chấp nhận sự thật về việc mất mát. Nỗi sợ hãi bị đánh giá đang ngăn cản bạn tìm kiếm một cách hiệu quả."
+      },
+      "toxic_relationship": {
+        "upright": "Một sự giác ngộ sâu sắc về bản chất độc hại, một tiếng gọi thần thánh hướng đến sự giải phóng và giá trị bản thân. Thời điểm của sự thật đến, đòi hỏi một sự cắt đứt dứt khoát để tái sinh tâm linh.",
+        "reversed": "Từ chối thừa nhận sự độc hại cố hữu, bám víu vào cảm giác tội lỗi hoặc sợ hãi bị phán xét. Trì hoãn sự chia ly không thể tránh khỏi, mắc kẹt trong vòng lặp tự lên án và những bài học chưa được học."
+      },
+      "soulmate": {
+        "upright": "Một cuộc gặp gỡ định mệnh, một sự nhận diện ở cấp độ linh hồn. Mối liên kết này giống như một lời khẳng định thiêng liêng, một cuộc đoàn tụ nghiệp báo mang đến sự phát triển tâm linh sâu sắc và sự thức tỉnh lẫn nhau.",
+        "reversed": "Đánh giá sai một mối liên kết, nhầm lẫn sự hời hợt với chiều sâu. Hoặc, sự tự ti ngăn cản việc nhận ra tri kỷ đích thực, hoặc nỗi sợ cam kết cản trở sự kết nối định mệnh."
+      },
+      "reconciliation": {
+        "upright": "Một khoảnh khắc tha thứ sâu sắc và thấu hiểu lẫn nhau, sinh ra từ sự nội tâm hóa sâu sắc và chấp nhận những bài học nghiệp báo trong quá khứ. Một sự tái sinh tâm linh của mối quan hệ, được thanh tẩy bởi sự thật.",
+        "reversed": "Không sẵn lòng tha thứ hoặc được tha thứ, bám víu vào những bất bình trong quá khứ. Nỗi sợ đối mặt với sự thật ngăn cản sự chữa lành thực sự, dẫn đến sự chia ly tiếp diễn hoặc một thỏa hiệp hời hợt không có sự giải tội chân chính."
+      },
+      "secret_admirer": {
+        "upright": "Một sự tiết lộ sắp xảy ra; sự thật về tình cảm ẩn giấu này sẽ sớm được đưa ra ánh sáng. Một khoảnh khắc minh bạch khi những cảm xúc không nói ra được thừa nhận, đòi hỏi một sự phản hồi.",
+        "reversed": "Người ngưỡng mộ do dự, sợ bị phán xét hoặc từ chối, giữ kín cảm xúc của mình. Hoặc, người nhận không nhận ra những dấu hiệu tinh tế, bị che mắt bởi nhận thức của chính họ hoặc thiếu sự nội tâm hóa."
+      },
+      "burnout": {
+        "upright": "Một sự thức tỉnh quan trọng đối với con đường không bền vững, một tiếng gọi từ linh hồn để đánh giá lại các ưu tiên và lấy lại sự cân bằng bên trong. Đây là sự phán xét thiêng liêng chống lại sự bỏ bê bản thân, đòi hỏi một sự thay đổi sâu sắc.",
+        "reversed": "Phớt lờ những dấu hiệu kiệt sức sâu sắc, vượt qua tiếng kêu gọi nghỉ ngơi của linh hồn. Từ chối thừa nhận nhu cầu thay đổi, dẫn đến sự tự lên án sâu sắc hơn và một chu kỳ những bài học chưa được học."
+      },
+      "startup": {
+        "upright": "Một khoảnh khắc khởi đầu then chốt, một sự tích lũy nghiệp báo của tầm nhìn và nỗ lực. Doanh nghiệp này được kêu gọi đến một mục đích cao hơn, đòi hỏi sự chính trực và tầm nhìn rõ ràng cho sự tái sinh của nó vào thế giới. Một đèn xanh thiêng liêng.",
+        "reversed": "Sự tự ti làm tê liệt sự khởi động, hoặc nỗi sợ bị phán xét từ bên ngoài trì hoãn điều không thể tránh khỏi. Không sẵn lòng học hỏi từ những sai lầm trong quá khứ khi lập kế hoạch, dẫn đến một khởi đầu sai lầm hoặc một doanh nghiệp thiếu mục đích thực sự."
+      },
+      "workplace_politics": {
+        "upright": "Một khoảnh khắc sự thật khi những chương trình nghị sự ẩn giấu được tiết lộ, và công lý nghiệp báo được thực thi. Một tiếng gọi để đứng vững trong sự chính trực của mình, đòi hỏi sự rõ ràng và trách nhiệm giải trình cho tất cả những người liên quan.",
+        "reversed": "Đánh giá sai tính cách hoặc động cơ, dẫn đến liên minh hoặc cáo buộc không chính xác. Hoặc, nỗi sợ nói ra sự thật với quyền lực, cho phép sự bất công tiếp diễn do sự tự bảo tồn hoặc tránh xung đột."
+      },
+      "side_hustle": {
+        "upright": "Một tiếng gọi thiêng liêng để thể hiện một dự án đam mê, một sự nhận diện tài năng hoặc mục đích chưa được khai thác. Doanh nghiệp này sẵn sàng cho một sự biến đổi đáng kể, một sự tái sinh từ một ý tưởng đơn thuần thành một thực tại hữu hình.",
+        "reversed": "Sự tự ti hoặc nỗi sợ hãi về sự không đủ năng lực ngăn cản tiềm năng thực sự của công việc phụ được hiện thực hóa. Sự trì hoãn và thiếu cam kết, không lắng nghe tiếng gọi bên trong để thể hiện sáng tạo."
+      },
+      "real_estate": {
+        "upright": "Một khoảnh khắc quyết định cho một giao dịch quan trọng, một sự tích lũy nghiệp báo của các quyết định trong quá khứ liên quan đến nhà cửa hoặc tài sản. Một lựa chọn sâu sắc dẫn đến một nền tảng mới hoặc một nơi ở tâm linh.",
+        "reversed": "Sự thiếu quyết đoán hoặc nỗi sợ cam kết liên quan đến tài sản. Phớt lờ những đánh giá hoặc cảnh báo quan trọng, dẫn đến một khoản đầu tư sai lầm hoặc một cơ hội bị bỏ lỡ cho một nơi ở định mệnh."
+      },
+      "financial_loss": {
+        "upright": "Một sự tính toán nghiệp báo, một bài học sâu sắc nảy sinh từ sự mất mát. Đây là một tiếng gọi để đánh giá lại mối quan hệ của một người với của cải vật chất, dẫn đến một sự tái sinh tâm linh trong sự khôn ngoan và cái nhìn sâu sắc về tài chính.",
+        "reversed": "Từ chối học hỏi từ sự mất mát, đổ lỗi cho các yếu tố bên ngoài thay vì nội tâm hóa. Tự lên án mà không có hành động mang tính xây dựng, duy trì một chu kỳ bất ổn tài chính và những bài học chưa được học."
+      },
+      "sudden_wealth": {
+        "upright": "Một phần thưởng nghiệp báo, một phước lành thiêng liêng biểu hiện từ những hành động tốt trong quá khứ hoặc một tiếng gọi cao hơn. Sự giàu có này đến như một cơ hội sâu sắc để biến đổi và mục đích, đòi hỏi sự quản lý khôn ngoan.",
+        "reversed": "Quản lý sai sự phong phú bất ngờ, phung phí phước lành do thiếu tầm nhìn xa hoặc sự tự chủ. Hoặc, cảm thấy không xứng đáng, dẫn đến sự tự phá hoại hoặc nỗi sợ chấp nhận món quà thiêng liêng."
+      },
+      "healing": {
+        "upright": "Một sự thức tỉnh tâm linh sâu sắc, một sự giải tội hoàn toàn cho những vết thương trong quá khứ. Đây là một tiếng gọi thiêng liêng để trở nên toàn vẹn, một sự tái sinh của bản thân, được chữa lành và đổi mới ở mọi cấp độ.",
+        "reversed": "Chống lại sự chữa lành thực sự, bám víu vào vai trò nạn nhân hoặc những bất bình trong quá khứ. Từ chối đối mặt với những sự thật bên trong cần thiết cho sự giải tội hoàn toàn, trì hoãn sự tái sinh của linh hồn vào sự khỏe mạnh."
+      },
+      "stress": {
+        "upright": "Một khoảnh khắc nhận ra quan trọng nơi các nguyên nhân gốc rễ của căng thẳng được soi sáng. Đây là một tiếng gọi thiêng liêng để rũ bỏ gánh nặng và đón nhận con đường của sự rõ ràng và bình yên nội tâm, đòi hỏi một sự tự đánh giá sâu sắc.",
+        "reversed": "Phớt lờ tiếng kêu gọi giúp đỡ của cơ thể và linh hồn, duy trì một chu kỳ áp lực tự áp đặt. Từ chối thừa nhận nhu cầu thay đổi, dẫn đến xung đột nội bộ sâu sắc hơn và bỏ lỡ cơ hội giải thoát."
+      },
+      "trauma": {
+        "upright": "Một cơ hội mạnh mẽ để tích hợp và giải phóng sâu sắc sang chấn trong quá khứ. Đây là một sự thức tỉnh tâm linh, một tiếng gọi để đối mặt với bóng tối, dẫn đến một sự tái sinh hoàn toàn và giải thoát khỏi sự kìm kẹp của nó.",
+        "reversed": "Từ chối xử lý hoặc thừa nhận sang chấn, chôn vùi nó sâu hơn trong tâm trí. Sự né tránh này ngăn cản sự chữa lành thực sự và duy trì một chu kỳ những bài học chưa được học, cản trở sự tiến hóa tâm linh."
+      },
+      "exams": {
+        "upright": "Một khoảnh khắc sự thật và đánh giá nghiệp báo. Thành công đến từ sự tự đánh giá trung thực, sự chuẩn bị siêng năng và sự hiểu biết rõ ràng về tài liệu. Một sự phán xét quyết định dẫn đến sự tiến bộ.",
+        "reversed": "Sự tự ti và nỗi sợ thất bại dẫn đến kết quả kém hoặc sự né tránh. Đánh giá sai khả năng của bản thân hoặc yêu cầu của kỳ thi, dẫn đến một cơ hội tiến bộ bị bỏ lỡ."
+      },
+      "scholarship": {
+        "upright": "Một sự công nhận thiêng liêng về giá trị và tiềm năng, một phần thưởng nghiệp báo cho những nỗ lực và khát vọng trong quá khứ. Học bổng này là một tiếng gọi đến con đường học tập cao hơn, một sự khẳng định sâu sắc cho hành trình trí tuệ của một người.",
+        "reversed": "Tự phá hoại hoặc thiếu tự tin ngăn cản việc nộp đơn hoặc chấp nhận một học bổng xứng đáng. Hoặc, đánh giá sai cơ hội, dẫn đến một cơ hội bị bỏ lỡ cho sự thăng tiến học thuật định mệnh."
+      },
+      "talent": {
+        "upright": "Một sự thức tỉnh sâu sắc về những món quà thực sự của một người, một tiếng gọi thiêng liêng để thể hiện những khả năng bẩm sinh cho một mục đích cao hơn. Đây là một khoảnh khắc được công nhận và một sự tái sinh của sự thể hiện sáng tạo.",
+        "reversed": "Sự tự ti hoặc nỗi sợ bị phán xét kìm hãm sự thể hiện những tài năng bẩm sinh. Từ chối thừa nhận hoặc trau dồi những món quà độc đáo của một người, dẫn đến cảm giác tiềm năng chưa được thực hiện và sự trì trệ sáng tạo."
+      },
+      "spirit_guide": {
+        "upright": "Một sự giao tiếp rõ ràng và không thể phủ nhận từ cõi linh hồn, một tiếng gọi trực tiếp từ các vị hư��ng dẫn của một người. Đây là một khoảnh khắc sâu sắc của sự khẳng định và hướng dẫn tâm linh, đòi hỏi sự chú ý và tin tưởng vào những điều vô hình.",
+        "reversed": "Phớt lờ hoặc hiểu sai những lời thì thầm và dấu hiệu tinh tế từ các vị hướng dẫn tâm linh. Sự tự ti hoặc hoài nghi ngăn cản việc tiếp nhận các thông điệp thiêng liêng, dẫn đến cảm giác cô lập tâm linh hoặc lạc lối."
       }
     },
     "advice": "Quá khứ không phải là ngục tù. Hãy vị tha, lắng nghe tiếng kèn thức tỉnh và dũng cảm cất bước tái sinh.",
@@ -5188,6 +6700,78 @@ window.TAROT_DB = [
       "lost_item": {
         "upright": "Món đồ thất lạc sẽ được tìm thấy một cách bất ngờ, mang lại cảm giác nhẹ nhõm và sự hoàn tất. Nó có thể xuất hiện trở lại khi bạn không còn tìm kiếm nữa, như một phần của chu trình tự nhiên.",
         "reversed": "Món đồ thất lạc có thể đã bị mất vĩnh viễn, hoặc việc tìm kiếm đang gặp bế tắc. Có thể cần chấp nhận sự mất mát và xem đó như một cách để hoàn tất một chu kỳ và bắt đầu cái mới."
+      },
+      "toxic_relationship": {
+        "upright": "Sự giải thoát cuối cùng khỏi xiềng xích của một mối quan hệ độc hại, đạt được sự trọn vẹn và tự do nội tâm sau khi hoàn thành một chu kỳ đau khổ. Đây là thời điểm nhận ra sự toàn vẹn của bản thân, vượt lên trên mọi ràng buộc tiêu cực để bước vào một giai đoạn mới của sự hài hòa.",
+        "reversed": "Cảm giác mắc kẹt trong vòng lặp độc hại, không thể tìm thấy lối thoát hay hoàn tất quá trình giải phóng. Sự trì hoãn trong việc nhận ra giá trị bản thân và sức mạnh để chấm dứt chu kỳ tiêu cực, dẫn đến sự bất toàn và trì trệ trong tâm hồn."
+      },
+      "soulmate": {
+        "upright": "Sự hội ngộ định mệnh và hoàn hảo với một linh hồn tri kỷ, đánh dấu sự hoàn thành một hành trình tâm linh và tìm thấy sự trọn vẹn trong tình yêu. Mối liên kết này mang lại sự hài hòa tuyệt đối, một kết nối sâu sắc như thể hai nửa của một chỉnh thể đã tìm thấy nhau.",
+        "reversed": "Những trở ngại hoặc sự chậm trễ trong việc gặp gỡ hoặc nhận ra linh hồn tri kỷ. Có thể là cảm giác thiếu vắng một nửa của mình, hoặc sự kháng cự vô thức khiến bạn không thể hoàn toàn đón nhận mối liên kết định mệnh, để lại một cảm giác bất toàn."
+      },
+      "reconciliation": {
+        "upright": "Sự hòa giải trọn vẹn và sâu sắc, mang lại sự chữa lành hoàn toàn cho những vết thương cũ và tái thiết lập một mối quan hệ hài hòa. Đây là sự hoàn tất của một chu kỳ xung đột, dẫn đến sự hiểu biết và chấp nhận lẫn nhau ở một cấp độ cao hơn.",
+        "reversed": "Sự hòa giải chưa hoàn tất, vẫn còn những vấn đề chưa được giải quyết triệt để, để lại cảm giác bất toàn và lo lắng. Sự kháng cự trong việc buông bỏ quá khứ hoặc không thể tìm thấy sự đồng điệu hoàn toàn, khiến quá trình hàn gắn bị trì hoãn."
+      },
+      "secret_admirer": {
+        "upright": "Sự bộc lộ trọn vẹn của một tình cảm thầm kín, mang đến sự hoàn thành và hài hòa cho cả người ngưỡng mộ và đối tượng. Đây là thời điểm mà những rung động ẩn giấu đạt đến đỉnh điểm, tạo nên một kết nối mới mẻ và đầy đủ.",
+        "reversed": "Tình cảm thầm kín vẫn còn ẩn giấu, không thể tìm được cơ hội hoặc dũng khí để bộc lộ, tạo ra cảm giác bất toàn và tiếc nuối. Sự trì hoãn trong việc đưa ra quyết định hoặc thiếu kết nối khiến tình cảm không thể nở rộ."
+      },
+      "burnout": {
+        "upright": "Sự hoàn tất của một giai đoạn căng thẳng cực độ, dẫn đến việc nhận ra giới hạn và tìm thấy sự cân bằng cần thiết để phục hồi. Đây là khoảnh khắc của sự giải thoát, cho phép bạn bắt đầu một chu kỳ mới với năng lượng tái tạo và sự hiểu biết sâu sắc hơn về bản thân.",
+        "reversed": "Cảm giác mắc kẹt trong vòng xoáy của sự kiệt sức, không thể tìm thấy lối thoát hay hoàn tất quá trình nghỉ ngơi. Sự kháng cự trong việc chấp nhận sự cần thiết của việc dừng lại, dẫn đến sự bất toàn trong cả thể chất lẫn tinh thần."
+      },
+      "startup": {
+        "upright": "Sự ra mắt thành công và hoàn chỉnh của một dự án khởi nghiệp, đạt được sự tích hợp toàn diện vào thị trường và hoàn thành các mục tiêu ban đầu. Đây là đỉnh cao của một hành trình đầy thử thách, mở ra một chu kỳ mới của sự phát triển và mở rộng toàn cầu.",
+        "reversed": "Những trở ngại và sự chậm trễ trong quá trình khởi nghiệp, cảm giác m���c kẹt ở giai đoạn đầu hoặc không thể hoàn thành các mục tiêu quan trọng. Tiềm năng chưa được khai thác hoàn toàn, thiếu sự tích hợp cần thiết để vươn ra thị trường, dẫn đến sự bất toàn của dự án."
+      },
+      "workplace_politics": {
+        "upright": "Khả năng điều hướng tinh vi và hoàn hảo trong môi trường chính trị công sở, đạt được vị trí cân bằng và ảnh hưởng hài hòa. Đây là sự thấu hiểu toàn diện về các động lực phức tạp, cho phép bạn vượt lên trên những mâu thuẫn nhỏ nhặt và đạt được sự hoàn thiện trong vai trò của mình.",
+        "reversed": "Cảm giác mắc kẹt trong mạng lưới chính trị công sở, không thể tìm thấy lối thoát hoặc giải pháp hoàn chỉnh. Sự trì hoãn trong việc hiểu rõ bản chất của các cuộc đấu đá, khiến bạn không thể đạt được sự cân bằng và hài hòa cần thiết trong công việc."
+      },
+      "side_hustle": {
+        "upright": "Sự tích hợp thành công của một công việc phụ vào cuộc sống, tạo ra sự cân bằng hoàn hảo giữa niềm đam mê và nguồn thu nhập. Đây là sự hoàn thành một khía cạnh mới của bản thân, mang lại sự trọn vẹn và tự do trong việc theo đuổi nhiều mục tiêu cùng lúc.",
+        "reversed": "Công việc phụ chưa hoàn thiện hoặc không thể tích hợp hài hòa vào cuộc sống, gây ra cảm giác quá tải hoặc thiếu cân bằng. Sự trì hoãn trong việc đưa ra quyết định cuối cùng về hướng đi, khiến tiềm năng của công việc phụ chưa được khai thác trọn vẹn."
+      },
+      "real_estate": {
+        "upright": "Sự hoàn tất thành công một giao dịch bất động sản, tìm thấy ngôi nhà lý tưởng hoặc khoản đầu tư mang lại cảm giác trọn vẹn và thuộc về. Đây là một cột mốc quan trọng, đánh dấu sự ổn định và hài hòa trong cuộc sống.",
+        "reversed": "Những trở ngại hoặc sự chậm trễ trong giao dịch bất động sản, cảm giác mắc kẹt trong quá trình tìm kiếm hoặc hoàn tất hợp đồng. Sự bất toàn trong việc tìm được n��i chốn thực sự, hoặc thiếu sự ổn định cần thiết, gây ra cảm giác không thuộc về."
+      },
+      "financial_loss": {
+        "upright": "Sự chấp nhận và thấu hiểu trọn vẹn một mất mát tài chính như một phần của chu kỳ lớn hơn, đạt được sự khép lại và học được những bài học quý giá. Đây là sự hoàn thành một giai đoạn khó khăn, mở ra cánh cửa cho một chu kỳ mới của sự tăng trưởng và khôn ngoan.",
+        "reversed": "Cảm giác mắc kẹt trong nỗi đau và hậu quả của mất mát tài chính, không thể tìm thấy sự khép lại hoặc vượt qua. Sự trì hoãn trong việc chấp nhận thực tại, khiến bạn không thể học hỏi từ kinh nghiệm và tiếp tục chu kỳ phát triển mới."
+      },
+      "sudden_wealth": {
+        "upright": "Sự biểu hiện trọn vẹn của sự thịnh vượng bất ngờ, là đỉnh cao của những nỗ lực trong quá khứ hoặc nghiệp lành, mang lại sự hoàn chỉnh và tự do tài chính. Đây là một phần thưởng xứng đáng, mở ra những cơ hội toàn c��u và một chu kỳ mới của sự dồi dào.",
+        "reversed": "Sự giàu có bất ngờ đến nhưng không mang lại cảm giác trọn vẹn hay hài hòa. Có thể là sự thiếu kết nối với tài sản mới, hoặc không thể tích hợp nó vào một cuộc sống cân bằng, dẫn đến cảm giác bất toàn hoặc trì hoãn trong việc sử dụng đúng mục đích."
+      },
+      "healing": {
+        "upright": "Quá trình chữa lành sâu sắc và hoàn chỉnh, đạt đến trạng thái toàn vẹn của thân, tâm và linh hồn. Đây là sự hoàn thành một hành trình gian khổ, mở ra một chu kỳ mới của sức sống và sự hài hòa tuyệt đối.",
+        "reversed": "Quá trình chữa lành chưa hoàn tất, vẫn còn những vết thương âm ỉ hoặc sự kháng cự trong việc chấp nhận sự thật. Cảm giác mắc kẹt trong trạng thái bệnh tật hoặc bất an, trì hoãn việc đạt được sự tích hợp và trọn vẹn thực sự."
+      },
+      "stress": {
+        "upright": "Sự hoàn thành thành công một giai đoạn căng thẳng, đạt được sự bình yên và cân bằng sau áp lực. Đây là sự giải phóng khỏi gánh nặng, cho phép bạn bước vào một chu kỳ mới với sự hiểu biết sâu sắc hơn về khả năng chịu đựng của mình.",
+        "reversed": "Cảm giác bị bao vây bởi căng thẳng liên tục, không thể tìm thấy sự khép lại hoặc giải tỏa. Một chu kỳ của sự lo âu không ngừng, trì hoãn việc tìm kiếm sự bình yên và hài hòa, khiến bạn cảm thấy bất toàn và kiệt sức."
+      },
+      "trauma": {
+        "upright": "Sự hoàn thành một hành trình chữa lành từ chấn thương, tích hợp những trải nghiệm đau khổ thành trí tuệ và giải phóng khỏi sự kìm kẹp của quá khứ. Đây là sự tái sinh, mở ra một chu kỳ mới của sự hiểu biết bản thân sâu sắc và trọn vẹn.",
+        "reversed": "Chấn thương vẫn còn nguyên vẹn, không được giải quyết hoặc tích hợp hoàn toàn vào kinh nghiệm sống. Cảm giác mắc kẹt trong những ảnh hưởng dai dẳng của quá khứ, trì hoãn sự khép lại và ngăn cản việc đạt được sự trọn vẹn tâm hồn."
+      },
+      "exams": {
+        "upright": "Sự hoàn thành xuất sắc các kỳ thi, đạt được thành công viên mãn như là đỉnh cao của nỗ lực. Đây là sự khép lại một chu kỳ học tập và mở ra một giai đoạn mới của sự tiến bộ, mang lại cảm giác thành tựu và trọn vẹn.",
+        "reversed": "Sự chuẩn bị chưa hoàn thiện hoặc những trở ngại trong quá trình thi cử, dẫn đến kết quả không như mong đợi. Cảm giác mắc kẹt hoặc trì hoãn trong việc đạt được mục tiêu học vấn, cho thấy tiềm năng chưa được khai thác hết và cần thêm một bước nữa để hoàn thành."
+      },
+      "scholarship": {
+        "upright": "Sự đạt được học bổng một cách trọn vẹn và xứng đáng, đánh dấu sự hoàn thành những nỗ lực học thuật và mở ra cánh cửa đến một chu kỳ mới của tri thức và cơ hội toàn cầu. Đây là sự công nhận hoàn hảo cho tài năng và sự cống hiến.",
+        "reversed": "Sự chậm trễ hoặc những trở ngại trong việc đ��t được học bổng, cảm giác tiềm năng chưa được công nhận hoàn toàn. Sự bất toàn trong quá trình nộp đơn hoặc thiếu các yêu cầu, khiến cơ hội học tập mới bị trì hoãn."
+      },
+      "talent": {
+        "upright": "Sự bộc lộ và phát huy trọn vẹn tài năng bẩm sinh, đạt đến đỉnh cao của sự thành thạo và chia sẻ món quà của mình với thế giới. Đây là sự hoàn thành mục đích sống, mang lại cảm giác trọn vẹn và ý nghĩa sâu sắc thông qua sự sáng tạo.",
+        "reversed": "Tài năng chưa được khai thác hoặc bộc lộ hoàn toàn, cảm giác mắc kẹt trong tiềm năng mà không thể biến thành hiện thực. Sự kháng cự trong việc phát triển hoặc chia sẻ món quà của mình, dẫn đến cảm giác bất toàn và thiếu mục đích."
+      },
+      "spirit_guide": {
+        "upright": "Sự kết nối sâu sắc và trọn vẹn với các linh hồn dẫn lối, nhận được hướng dẫn rõ ràng và toàn diện để đạt được sự trọn vẹn tâm linh. Đây là sự tích hợp hài hòa của trí tuệ vũ trụ vào con đường của bạn, dẫn đến sự giải phóng và giác ngộ.",
+        "reversed": "Cảm giác ngắt kết nối hoặc không thể nhận được hướng dẫn rõ ràng từ các linh hồn dẫn lối. Sự kháng cự trong việc chấp nhận hoặc tích hợp trí tuệ tâm linh, dẫn đến cảm giác mắc kẹt trên con đường của mình và thiếu sự hoàn chỉnh trong định hướng."
       }
     },
     "advice": "Hãy ăn mừng chiến thắng vĩ đại này. Một vòng tròn đã khép lại, để chuẩn bị cho một vòng tròn mới, bao la hơn, bắt đầu.",
@@ -5418,6 +7002,78 @@ window.TAROT_DB = [
       "lost_item": {
         "upright": "Món đồ thất lạc có thể xuất hiện một cách bất ngờ, như một tia sáng lóe lên. Hãy tìm kiếm ở những nơi bạn thường bắt đầu mọi thứ, hoặc ở những nơi liên quan đến sự sáng tạo.",
         "reversed": "Món đồ thất lạc có thể đang bị che giấu hoặc bị bỏ quên do sự thiếu chú ý. Cần phải tìm kiếm một cách có hệ thống hơn, tránh bỏ qua những chi tiết nhỏ."
+      },
+      "toxic_relationship": {
+        "upright": "Một tia sáng thức tỉnh bỗng chợt lóe lên, soi rọi con đường giải thoát khỏi xiềng xích của một mối quan hệ độc hại, trao ban dũng khí để khởi đầu một chương mới của sự tự do và tôn trọng bản thân. Đây là khoảnh khắc của sự khai sáng và hành động quyết liệt.",
+        "reversed": "Ngọn lửa thoát ly bị dập tắt, khiến linh hồn mắc kẹt trong vòng lặp của đau khổ, tiềm năng thay đổi bị kìm hãm bởi sự sợ hãi hoặc thiếu thốn cảm hứng để tìm kiếm một lối đi lành mạnh hơn. Năng lượng tiếp tục bị hao tổn vào sự vô vọng."
+      },
+      "soulmate": {
+        "upright": "Một tia lửa định mệnh bùng cháy mãnh liệt, báo hiệu sự khởi đầu của một kết nối tâm linh sâu sắc và không thể phủ nhận. Đây là khoảnh khắc vũ trụ tác hợp, mở ra cánh cửa cho một tình yêu đích thực, đầy cảm hứng và đam mê.",
+        "reversed": "Tia lửa định mệnh vẫn chưa thể bùng cháy, có thể do sự trì hoãn của vũ trụ hoặc linh hồn chưa sẵn sàng đón nhận. Những cơ hội gặp gỡ bị bỏ lỡ, hoặc sự nhầm lẫn giữa một sức hút thoáng qua với một mối liên kết tri kỷ sâu sắc."
+      },
+      "reconciliation": {
+        "upright": "Một xung lực mạnh mẽ và thiêng liêng thúc đẩy sự hòa giải, mang đến cơ hội vàng cho một khởi đầu mới, xóa bỏ những vết thương cũ. Đây là sự tái sinh của hy vọng, một lời mời gọi dũng cảm để hàn gắn và tha thứ.",
+        "reversed": "Sự do dự và nỗi sợ hãi đã dập t��t ngọn lửa hòa giải, khiến cơ hội tái hợp bị bỏ lỡ. Niềm kiêu h hãnh hoặc những tổn thương chưa được giải quyết đã chặn đứng con đường dẫn đến sự hàn gắn, khiến linh hồn vẫn còn mắc kẹt trong quá khứ."
+      },
+      "secret_admirer": {
+        "upright": "Một tia sáng bất ngờ hé lộ sự ngưỡng mộ thầm kín, thúc đẩy người đó vượt qua rào cản và bày tỏ cảm xúc. Đây là khởi đầu của một kết nối mới, khi một ngọn lửa ẩn giấu bỗng nhiên bùng cháy thành hiện thực.",
+        "reversed": "Sự ngưỡng mộ vẫn còn ẩn mình trong bóng tối, thiếu dũng khí để bộc lộ. Tia lửa quan tâm không thể bùng cháy thành hành động, khiến cơ hội cho một mối quan hệ tiềm năng bị bỏ lỡ và chìm vào quên lãng."
+      },
+      "burnout": {
+        "upright": "Một tia sáng thức tỉnh bỗng chợt lóe lên, cảnh báo về sự cạn kiệt năng lượng và thôi thúc mạnh mẽ để khởi xướng một hành trình phục hồi. Đây là khoảnh khắc nhận ra cần tái tạo nguồn cảm hứng và tìm lại ngọn lửa đam mê.",
+        "reversed": "Sự kiệt quệ tinh thần và thể chất đã đạt đến đỉnh điểm, làm tê liệt mọi nguồn cảm hứng và khả năng tìm kiếm lối thoát. Linh hồn cảm thấy hoàn toàn cạn kiệt, không thể tìm thấy tia lửa nào để bắt đầu quá trình hồi phục."
+      },
+      "startup": {
+        "upright": "Sự ra đời đầy mạnh mẽ và cảm hứng của một dự án mới, một tia sáng chói lọi của tinh thần khởi nghiệp. Đây là khoảnh khắc thần thánh ban phước cho một ý tưởng đột phá, trao ban dũng khí để thực hiện bước đi táo bạo đầu tiên.",
+        "reversed": "Những trì hoãn không ngừng cản trở sự ra mắt, khiến dự án thiếu đi động lực ban đầu. Sự bế tắc trong sáng tạo đã kìm hãm tầm nhìn, biến một ý tưởng thiên tài thành một tia sáng không bao giờ bùng cháy thành hiện thực."
+      },
+      "workplace_politics": {
+        "upright": "Một tia sáng của sự thật bỗng chợt lóe lên, trao ban dũng khí để đối m��t với những phức tạp tại nơi làm việc. Đây là khoảnh khắc khởi xướng một chiến lược đầy cảm hứng, tạo ra một động lực mới, tích cực và minh bạch.",
+        "reversed": "Linh hồn cảm thấy bất lực, không thể khẳng định bản thân giữa những âm mưu. Tia lửa của sáng kiến bị dập tắt bởi môi trường độc hại, dẫn đến sự mắc kẹt trong các cuộc đấu đá quyền lực thay vì tìm kiếm giải pháp xây dựng."
+      },
+      "side_hustle": {
+        "upright": "Sự khởi đầu đầy phấn khích của một dự án phụ sáng tạo, một tia sáng bùng nổ của cảm hứng cho một nguồn thu nhập bổ sung. Đây là lời mời gọi dũng cảm để khám phá những tài năng và niềm đam mê mới bên ngoài con đường chính.",
+        "reversed": "Thiếu động lực để bắt đầu, một ý tưởng tuyệt vời vẫn mãi nằm trên giấy. Năng lượng bị lãng phí vào những dự án thiếu cảm hứng, khiến tia lửa tiềm năng của một công việc phụ không bao giờ được bùng cháy."
+      },
+      "real_estate": {
+        "upright": "Một cơ hội bất ngờ và đầy cảm hứng cho một bất động sản mới, một quyết định táo bạo để đầu tư hoặc chuyển đổi. Đây là khởi đầu của một hành trình bất động sản quan trọng, một tia sáng tiềm năng ở một địa điểm mới.",
+        "reversed": "Những trì hoãn không ngừng cản trở việc sở hữu bất động sản, khiến các cơ hội bị bỏ lỡ. Sự thiếu rõ ràng về một vị trí phù hợp, hoặc các rào cản tài chính đã dập tắt tia lửa của một khởi đầu mới trong lĩnh vực này."
+      },
+      "financial_loss": {
+        "upright": "Một cú sốc tài chính bất ngờ trở thành tia sáng thức tỉnh, thôi thúc linh hồn khởi xướng một chiến lược phục hồi mới. Đây là khoảnh khắc dũng cảm đối mặt với mất mát, mở ra một con đường mới để tái thiết và tìm lại nguồn cảm hứng.",
+        "reversed": "Sự sa sút tài chính kéo dài, linh hồn không thể tìm thấy con đường mới để tiến lên. Cảm giác hoàn to��n cạn kiệt tài nguyên và cảm hứng, khiến những giải pháp sáng tạo bị bế tắc và vòng lặp khó khăn tiếp diễn."
+      },
+      "sudden_wealth": {
+        "upright": "Một luồng năng lượng dồi dào và bất ngờ của tài lộc, một món quà thiêng liêng từ vũ trụ. Đây là sự bùng nổ của thịnh vượng, khởi đầu của một chương mới đầy hứa hẹn về tài chính, một tia sáng của sự sung túc.",
+        "reversed": "Những cơ hội làm giàu bị bỏ lỡ, hoặc sự giàu có bất ngờ đến nhưng nhanh chóng tan biến. Linh hồn thiếu sự chuẩn bị hoặc khả năng quản lý sự thịnh vượng đột ngột, khiến tia lửa tiềm năng của tài lộc bị trì hoãn hoặc bị dập tắt."
+      },
+      "healing": {
+        "upright": "Một tia sáng phục hồi bỗng chợt lóe lên, khởi xướng một hành trình chữa lành mạnh mẽ. Năng lượng thiêng liêng tuôn chảy vào quá trình tái tạo, giúp linh hồn tìm thấy những phương pháp mới hoặc nguồn cảm hứng cho sự khỏe mạnh toàn diện.",
+        "reversed": "Năng lượng chữa lành bị phong tỏa, linh hồn kháng cự lại quá trình phục hồi. Thiếu cảm hứng để tự chăm sóc, hoặc những khởi đầu giả tạo trong việc chữa lành, khiến những vấn đề chưa được giải quyết vẫn còn dai dẳng."
+      },
+      "stress": {
+        "upright": "Một tia sáng thức tỉnh bỗng chợt lóe lên, nhận ra nhu cầu cấp thiết phải thay đổi. Đây là sự khởi xướng của những cơ chế đối phó mới, tìm thấy một lối thoát mạnh mẽ và đầy cảm hứng cho những căng thẳng đang đè nặng.",
+        "reversed": "Sự choáng ngợp bao trùm, linh hồn không thể tìm thấy lối thoát khỏi vòng xoáy căng thẳng. Cảm giác cạn kiệt và thiếu cảm hứng để thực hiện những thay đổi, khiến những giải pháp sáng tạo cho việc quản lý căng thẳng bị bế tắc."
+      },
+      "trauma": {
+        "upright": "Sự khởi xướng đầy dũng cảm của quá trình chữa lành tổn thương, một bước đột phá bất ngờ trong việc thấu hiểu và xử lý. Đây là hành trình tìm kiếm một con đường mới dẫn đến sự phục hồi và hòa nhập, một tia hy vọng giữa những nỗi đau.",
+        "reversed": "Sự kháng cự mạnh mẽ trong việc đối mặt với tổn thương, khiến linh hồn mắc kẹt trong nỗi đau quá khứ. Sự giải phóng cảm xúc bị phong tỏa, không thể tìm thấy tia lửa để bắt đầu quá trình chữa lành, dẫn đến sự tái tổn thương mà không có tiến bộ."
+      },
+      "exams": {
+        "upright": "Một luồng cảm hứng bất ngờ bùng nổ cho việc học tập, mang đến sự rõ ràng tức thì cho những môn học khó. Đây là sự khởi đầu của một kế hoạch học tập thành công, trao ban dũng khí để vượt trội và đón nhận thử thách.",
+        "reversed": "Thiếu động lực cho việc học, những bế tắc sáng tạo trong việc tiếp thu tài liệu. Những trì hoãn trong quá trình chuẩn bị, khiến linh hồn cảm thấy thiếu cảm hứng và choáng ngợp bởi nhiệm vụ, dẫn đến một khởi đầu sai lầm trong nỗ lực học tập."
+      },
+      "scholarship": {
+        "upright": "Một cơ hội bất ngờ cho nguồn tài trợ học thuật, một hồ sơ ứng tuyển đầy cảm hứng và nổi bật. Đây là khởi đầu của một hành trình giáo dục mới được hỗ trợ bởi ân sủng thiêng liêng, một tia sáng tiềm năng được công nhận.",
+        "reversed": "Những hạn chót bị bỏ lỡ, một hồ sơ ứng tuyển thiếu đi sự bùng nổ hoặc thuyết phục. Những trì hoãn trong việc nhận tin tức, hoặc cơ hội tài trợ bị phong tỏa, khiến tia lửa cảm hứng để theo đuổi giáo dục cao hơn bị dập tắt."
+      },
+      "talent": {
+        "upright": "Sự khám phá hoặc công nhận bất ngờ về một tài năng mới, một thôi thúc mạnh mẽ để phát triển một kỹ năng tiềm ẩn. Đây là sự khởi xướng của một sự thể hiện sáng tạo, một tia sáng thiêng liêng thắp lên tiềm năng ẩn giấu.",
+        "reversed": "Tài năng vẫn còn chưa được khám phá hoặc phát triển, những bế tắc sáng tạo ngăn cản sự thể hiện. Sự do dự trong việc theo đuổi một m��n quà tự nhiên, khiến tia lửa tiềm năng vẫn còn ngủ yên và không được đánh thức."
+      },
+      "spirit_guide": {
+        "upright": "Sự hiện diện hoặc thông điệp bất ngờ và không thể phủ nhận từ một linh hồn hướng dẫn, khởi xướng một kết nối tâm linh mới. Đây là một tia sáng mạnh mẽ của sự dẫn dắt và cảm hứng từ những cõi vô hình.",
+        "reversed": "Kết nối với sự hướng dẫn tâm linh bị phong tỏa, linh hồn hiểu sai các thông điệp. Cảm giác lạc lõng không có định hướng rõ ràng, khiến tia sáng của trí tuệ thiêng liêng bị che khuất hoặc bị bỏ qua."
       }
     },
     "planet": "Nguyên tố Lửa",
@@ -5649,6 +7305,78 @@ window.TAROT_DB = [
       "lost_item": {
         "upright": "Món đồ thất lạc có thể nằm ở một nơi bạn đã cân nhắc nhưng chưa thực sự tìm kiếm kỹ. Hãy mở rộng tầm nhìn và tìm kiếm ở những nơi liên quan đến kế hoạch hoặc sự lựa chọn.",
         "reversed": "Món đồ có thể bị mất do sự thiếu quyết đoán hoặc không chắc chắn về nơi đã đặt. Cần xem xét lại các hành động gần đây và những lựa chọn bạn đã thực hiện."
+      },
+      "toxic_relationship": {
+        "upright": "Đứng trước ngưỡng cửa của sự lựa chọn, linh hồn đang cân nhắc con đường thoát ly khỏi xiềng xích độc hại, nhìn thấu khả năng tự do và định hình lại tương lai.",
+        "reversed": "Sự do dự bủa vây, linh hồn mắc kẹt trong sự quen thuộc độc hại, sợ hãi bước vào vùng đất chưa biết, bám víu vào ảo ảnh an toàn thay vì đối mặt với sự thật."
+      },
+      "soulmate": {
+        "upright": "Khoảnh khắc định mệnh của sự nhận diện, một quyết định có ý thức để cam kết với hành trình chung, mở rộng chân trời tâm hồn cùng một tri kỷ, kiến tạo tương lai từ nền tảng vững chắc.",
+        "reversed": "Sự ngần ngại trong việc đón nhận hoàn toàn chiều sâu của kết nối, nỗi sợ hãi về cam kết hoặc tương lai vĩ đại nó hứa hẹn, bỏ lỡ cơ hội do sự thiếu quyết đoán, hoặc nhận ra rằng kết nối này không thực sự là định mệnh."
+      },
+      "reconciliation": {
+        "upright": "Thời điểm xem xét con đường hàn gắn, cân nhắc lợi ích và rủi ro của việc tái hợp, đưa ra quyết định có ý thức để nối lại tình xưa hoặc chấp nhận lời đề nghị hòa giải.",
+        "reversed": "Sự do dự ngăn cản sự hòa giải, nỗi sợ hãi về những vết thương cũ tái phát, miễn cưỡng không muốn thực hiện bước đầu tiên, hoặc nhận ra rằng hòa giải không phải là con đường thực sự dẫn đến bình yên, dẫn đến một quyết định dứt khoát để tiến lên."
+      },
+      "secret_admirer": {
+        "upright": "Người ngưỡng mộ đang đứng trước ngã ba đường, cân nhắc việc thổ lộ tình cảm, vạch ra chiến lược tiếp cận, hoặc quan sát từ xa trong khi lên kế hoạch cho bước đi tiếp theo.",
+        "reversed": "Người ngưỡng mộ bị nhấn chìm bởi sự thiếu quyết đoán và nỗi sợ bị từ chối, trì hoãn việc thổ lộ vô thời hạn, hoặc kế hoạch của họ bị cản trở, khiến họ rút lui sâu hơn vào bí mật, có thể dẫn đến một cơ hội bị bỏ lỡ."
+      },
+      "burnout": {
+        "upright": "Đứng trên bờ vực kiệt sức, linh hồn đang cân nhắc một sự thay đổi hướng đi cần thiết hoặc một sự dịch chuyển triệt để trong lối sống để ngăn chặn sự sụp đổ hoàn toàn, một quyết định có ý thức để ưu tiên sức khỏe.",
+        "reversed": "Sự tê liệt sâu sắc do kiệt sức, không thể đưa ra quyết định nghỉ ngơi hoặc thay đổi hướng đi, cảm thấy bị mắc kẹt bởi những yêu cầu, hoặc một sự tạm dừng đột ngột, bắt buộc do sự sụp đổ, cho thấy sự thất bại hoàn toàn trong việc lập kế hoạch tự chăm sóc."
+      },
+      "startup": {
+        "upright": "Giai đoạn của tầm nhìn, vạch ra chiến lược vĩ đại, khám phá thị trường toàn cầu, đưa ra những quyết định quan trọng về hướng đi và sự mở rộng của dự án, một khoảnh khắc của tiềm năng sâu sắc.",
+        "reversed": "Tê liệt bởi phân tích quá mức, nỗi sợ hãi không dám dấn thân, sự thiếu quyết đoán cản trở việc khởi động hoặc phát triển, hoặc thiếu tầm nhìn rõ ràng khiến dự án trôi nổi vô định, có thể dẫn đến trì trệ hoặc thất bại."
+      },
+      "workplace_politics": {
+        "upright": "Hoạch định chiến lược vị trí của mình, cân nhắc các liên minh và động thái tiềm năng, đưa ra các quyết định có tính toán để điều hướng động lực quyền lực, một khoảnh khắc quan sát cục diện và lên kế hoạch thăng tiến.",
+        "reversed": "Sự thiếu quyết đoán hoặc ngây thơ trong đấu trường chính trị, không thực hiện các động thái chiến lược cần thiết, trở thành nạn nhân của âm mưu của người khác do sự bất động, hoặc một sự thay đổi đột ngột, bất ngờ trong động lực quyền lực khiến một người không chuẩn bị kịp."
+      },
+      "side_hustle": {
+        "upright": "Cân nhắc việc ra mắt hoặc mở rộng một dự án phụ, cân nhắc tiềm năng của nó so với các cam kết hiện tại, đưa ra quyết định có ý thức để đầu tư thời gian và năng lượng vào một dự án mới, cân bằng hai thế giới.",
+        "reversed": "Sự thiếu quyết đoán trong việc theo đuổi dự án phụ, nỗi sợ hãi bị phân tán quá mức, sự trì hoãn ngăn cản sự phát triển của nó, hoặc nhận ra rằng dự án phụ không khả thi hoặc quá xung đột với các mục tiêu chính, dẫn đến việc từ bỏ."
+      },
+      "real_estate": {
+        "upright": "Cân nhắc một khoản đầu tư hoặc bán bất động sản quan trọng, cân nhắc điều kiện thị trường và tiềm năng tương lai, đưa ra một quyết định chiến lược về việc mở rộng hoặc thoái vốn, nhìn vào bức tranh lớn hơn.",
+        "reversed": "Sự thiếu quyết đoán liên quan đến một giao dịch bất động sản, nỗi sợ hãi về biến động thị trường, bỏ lỡ cơ hội do sự do dự, hoặc một bước ngoặt đột ngột, bất ngờ trên thị trường buộc phải đưa ra quyết định hoặc tiết lộ một lựa chọn tồi."
+      },
+      "financial_loss": {
+        "upright": "Khoảnh khắc đánh giá thiệt hại và lập kế hoạch phục hồi một cách chiến lược, đưa ra các quyết định quan trọng để giảm thiểu tổn thất thêm và vạch ra một lộ trình tài chính mới, một phản ứng chủ động trước nghịch cảnh.",
+        "reversed": "Tê liệt vì cú sốc mất mát, không thể đưa ra các quyết định tài chính đúng đắn, bám víu vào các chiến lược cũ không còn hiệu quả, hoặc sự gia tăng tổn thất do sự bất động và sợ hãi."
+      },
+      "sudden_wealth": {
+        "upright": "Khoảnh khắc đưa ra quyết định sâu sắc liên quan đến sự giàu c�� bất ngờ, hoạch định chiến lược cách đầu tư, phát triển hoặc sử dụng tài sản một cách có trách nhiệm, cân nhắc tác động lâu dài và tiềm năng toàn cầu của nó.",
+        "reversed": "Sự thiếu quyết đoán và choáng ngợp từ sự giàu có bất ngờ, nỗi sợ hãi trong việc quản lý nó, lãng phí cơ hội do thiếu tầm nhìn, hoặc đưa ra những lựa chọn bốc đồng, kém cỏi khiến tài sản tiêu tan nhanh chóng."
+      },
+      "healing": {
+        "upright": "Đứng trước một ngưỡng cửa, ý thức chọn con đường phục hồi, khám phá các phương pháp khác nhau, đưa ra các quyết định chiến lược cho sức khỏe toàn diện, bắt đầu một hành trình tự đổi mới.",
+        "reversed": "Sự thiếu quyết đoán hoặc kháng cự với quá trình chữa lành, nỗi sợ hãi khi đối mặt với những vết thương bên trong, bám víu vào những khuôn mẫu bệnh tật cũ, hoặc một bước lùi trong quá trình chữa lành do thiếu cam kết hoặc lựa chọn tồi."
+      },
+      "stress": {
+        "upright": "Nhận diện nguồn gốc căng thẳng và tích cực lập kế hoạch chiến lược để quản lý hoặc loại bỏ chúng, đưa ra các quyết định có ý thức để tạo ra sự cân bằng và giảm gánh nặng, xem căng thẳng như một thử thách để vượt qua.",
+        "reversed": "Tê liệt dưới sức nặng của căng thẳng, không thể đưa ra quyết định để giảm bớt nó, cảm thấy bị mắc kẹt bởi những yêu cầu quá lớn, hoặc một sự sụp đổ hoàn toàn do căng thẳng mãn tính, không được giải quyết, buộc phải dừng lại ngoài ý muốn."
+      },
+      "trauma": {
+        "upright": "Một thời điểm quan trọng trong việc xử lý chấn thương, ý thức chọn con đường phục hồi và hòa nhập, tìm kiếm sự hỗ trợ, đưa ra quyết định để giành lại quyền tự chủ và hình dung một tương lai vượt lên trên nỗi đau.",
+        "reversed": "Sự thiếu quyết đoán hoặc né tránh trong việc đối mặt với chấn thương, nỗi sợ hãi khi trải nghiệm lại nỗi đau, mắc kẹt trong sự kìm kẹp c���a nó, hoặc một cuộc đối đầu buộc phải xảy ra với chấn thương trong quá khứ do các sự kiện bên ngoài, mà không có sự chuẩn bị hoặc lựa chọn trước."
+      },
+      "exams": {
+        "upright": "Lập kế hoạch chiến lược để thành công, cân nhắc các phương pháp học tập, chọn môn học để tập trung, hình dung kết quả, một khoảnh khắc chuẩn bị tập trung và hành động quyết đoán hướng tới mục tiêu học tập.",
+        "reversed": "Sự thiếu quyết đoán hoặc trì hoãn trong việc học, cảm thấy choáng ngợp bởi các lựa chọn tài liệu, thiếu kế hoạch học tập rõ ràng, hoặc một thử thách bất ngờ, đột ngột trong kỳ thi làm xáo trộn sự chuẩn bị."
+      },
+      "scholarship": {
+        "upright": "Cân nhắc các cơ hội khác nhau, nộp đơn chiến lược vào các chương trình phù hợp nhất, đưa ra các quyết định quan trọng về tương lai học tập và cách tài trợ cho nó, một khoảnh khắc cân nhắc tiềm năng.",
+        "reversed": "Sự thiếu quyết đoán trong việc nộp đơn xin học bổng, nỗi sợ hãi bị từ chối, bỏ lỡ thời hạn do trì hoãn, hoặc đánh giá sai khả năng của bản thân dẫn đến bỏ lỡ cơ hội."
+      },
+      "talent": {
+        "upright": "Tại ngã ba đường của việc phát triển và sử dụng những món quà của mình, quyết định tài năng nào cần trau dồi, lên kế hoạch cách thể hiện chúng, hình dung một tác động rộng lớn hơn, đưa ra lựa chọn để mở rộng khả năng của mình.",
+        "reversed": "Sự thiếu quyết đoán trong việc theo đuổi hoặc phát triển tài năng, nỗi sợ hãi thất bại hoặc bị phơi bày, để tiềm năng ngủ yên, hoặc một sự tập trung hẹp hòi ngăn cản sự thể hiện đầy đủ các món quà của một người, dẫn đến trì trệ."
+      },
+      "spirit_guide": {
+        "upright": "Một khoảnh khắc kết nối sâu sắc, cân nhắc sự hướng dẫn nhận được, đưa ra quyết định có ý thức để đi theo trí tuệ, vạch ra một lộ trình tâm linh dựa trên sự hiểu biết thiêng liêng, mở rộng chân trời tâm linh của mình.",
+        "reversed": "Sự thiếu quyết đoán trong việc tin tưởng vào sự hướng dẫn tâm linh, nỗi sợ hãi về con đường chưa biết mà nó mang lại, chống lại tiếng gọi của mục đích cao cả hơn, hoặc hiểu sai sự hướng dẫn, dẫn đến sự bối rối hoặc chệch hướng khỏi hành trình tâm linh dự định."
       }
     },
     "planet": "Sao Hỏa",
@@ -5880,6 +7608,78 @@ window.TAROT_DB = [
       "lost_item": {
         "upright": "Món đồ thất lạc có thể được tìm thấy ở một nơi xa, hoặc nó đang trên đường trở về với bạn. Hãy kiên nhẫn và mở rộng phạm vi tìm kiếm.",
         "reversed": "Món đồ có thể bị mất do sự thiếu chú ý trong quá trình vận chuyển hoặc ở một nơi bạn đã không ngờ tới. Cần xem xét lại các hành trình và điểm đến đã qua."
+      },
+      "toxic_relationship": {
+        "upright": "Lá bài này báo hiệu một khoảnh khắc giác ngộ, khi bạn bắt đầu nhìn thấy những con đường thoát khỏi sợi dây trói buộc của mối quan hệ độc hại. Bạn đang ở ngưỡng cửa của việc lập kế hoạch cho một tương lai tự do, nơi tầm nhìn của bạn vượt ra ngoài giới hạn hiện tại, tìm kiếm sự mở rộng và những chân trời mới cho trái tim mình.",
+        "reversed": "Khi đảo ngược, Ba Gậy cho thấy sự trì hoãn hoặc sự bất lực trong việc thoát ra khỏi vòng lu���n quẩn của một mối quan hệ độc hại. Bạn có thể đang cảm thấy mắc kẹt, không thể nhìn thấy lối thoát hoặc bị níu giữ bởi những kỳ vọng không thực tế, bỏ lỡ những cơ hội để giải phóng bản thân khỏi gánh nặng này."
+      },
+      "soulmate": {
+        "upright": "Sự xuất hiện của Ba Gậy xuôi cho thấy một sự kết nối tâm linh sâu sắc đang ở phía chân trời, một tri kỷ có thể đến từ một phương trời xa xăm hoặc mở ra những cánh cửa mới cho sự phát triển của bạn. Đây là sự khởi đầu của một hành trình chung đầy hứa hẹn, định hình tương lai của hai tâm hồn.",
+        "reversed": "Ba Gậy ngược cảnh báo về những cơ hội bị bỏ lỡ hoặc sự chậm trễ trong việc gặp gỡ tri kỷ của bạn. Có thể bạn đang quá tập trung vào những điều hời hợt hoặc không nhận ra người đó đang ở gần, khiến mối lương duyên bị đình trệ vì sự thiếu hụt tầm nhìn hoặc sự do dự."
+      },
+      "reconciliation": {
+        "upright": "Lá bài này báo hiệu một sự hòa giải thành công, không chỉ hàn gắn vết thương mà còn mở ra một chương mới, rộng lớn hơn cho mối quan hệ. Đây là cơ hội để xây dựng lại với tầm nhìn sâu sắc hơn và một nền tảng vững chắc cho tương lai, vượt qua những hiểu lầm trong quá khứ.",
+        "reversed": "Khi đảo ngược, Ba Gậy cho thấy những nỗ lực hòa giải có thể gặp trở ngại hoặc không đạt được kết quả như mong đợi. Những vết thương cũ có thể tái phát, thiếu sự sẵn lòng nhìn xa hơn những lỗi lầm đã qua, khiến cho sự tái hợp trở nên khó khăn hoặc chỉ là giải pháp tạm thời."
+      },
+      "secret_admirer": {
+        "upright": "Có một người ngưỡng mộ bí mật đang quan sát bạn từ xa, với những kế hoạch cẩn trọng và tầm nhìn cho một sự kết nối sâu sắc hơn. Họ có thể đến từ một nền văn hóa khác hoặc đang chờ đợi thời điểm thích hợp để tiết lộ tình cảm, mang theo một tiềm năng phát triển đáng kinh ngạc.",
+        "reversed": "Ba Gậy ngược cho thấy người ngưỡng mộ bí mật đang do dự hoặc sợ hãi bị từ chối. Sự chậm trễ trong việc thể hiện tình cảm của họ có thể dẫn đến những cơ hội bị bỏ lỡ, hoặc ý định của họ không được truyền đạt rõ ràng, khiến cho mối liên kết tiềm năng bị chôn vùi."
+      },
+      "burnout": {
+        "upright": "Bạn đã đạt đến điểm kiệt sức, nhưng lá bài này là một lời nhắc nhở để lùi lại, nhìn nhận toàn cảnh và vạch ra một kế hoạch phục hồi chiến lược. Đây là thời điểm để tìm kiếm những phương pháp mới, bền vững hơn để phát triển mà không hy sinh năng lượng của bạn.",
+        "reversed": "Kiệt sức trầm trọng đang đè nặng lên bạn, và Ba Gậy ngược cho thấy sự bất lực trong việc tìm lối thoát. Bạn có thể đang tiếp tục thúc đẩy bản thân dù đã cạn kiệt, bỏ qua việc tự chăm sóc, dẫn đến sự suy kiệt sâu sắc hơn và cảm giác bế tắc."
+      },
+      "startup": {
+        "upright": "Một dự án kh���i nghiệp đầy hứa hẹn đang ở giai đoạn đầu, với tầm nhìn rõ ràng về sự mở rộng và tiềm năng vươn ra thị trường quốc tế. Nền tảng đã được đặt vững chắc, và tương lai hứa hẹn những thành công vang dội và sự tăng trưởng vượt bậc.",
+        "reversed": "Khởi nghiệp đang đối mặt với những trở ngại lớn, sự chậm trễ hoặc thiếu hụt tầm nhìn chiến lược. Kế hoạch kinh doanh có thể bị hạn chế, thiếu sự chuẩn bị hoặc gặp phải những xung đột nội bộ, khiến dự án khó có thể cất cánh hoặc phát triển như mong đợi."
+      },
+      "workplace_politics": {
+        "upright": "Bạn đang điều hướng chính trị công sở một cách khôn ngoan, với tầm nhìn xa và chiến lược rõ ràng. Lá bài này cho thấy khả năng xây dựng liên minh, hiểu rõ bức tranh lớn và tự định vị mình cho sự thăng tiến trong tương lai.",
+        "reversed": "Bạn có thể đang bị cuốn vào những tranh chấp nhỏ nhặt ở nơi làm việc, không thể nhìn thấy bức tranh l���n hơn. Những quyết định thiển cận có thể gây tổn hại đến các mối quan hệ, khiến bạn mắc kẹt trong một môi trường chính trị trì trệ và thiếu tiến bộ."
+      },
+      "side_hustle": {
+        "upright": "Một dự án phụ (side hustle) đầy tiềm năng đang mở ra những cánh cửa cho sự phát triển đáng kể, có thể trở thành sự nghiệp chính của bạn. Đây là thời điểm để đặt nền móng cho một tương lai tài chính vững chắc và những cơ hội mở rộng không ngừng.",
+        "reversed": "Dự án phụ của bạn đang gặp khó khăn trong việc cất cánh, thiếu cam kết hoặc kế hoạch rõ ràng. Sự xao nhãng hoặc thiếu tầm nhìn dài hạn có thể khiến nó lụi tàn, bỏ lỡ tiềm năng phát triển đáng giá."
+      },
+      "real_estate": {
+        "upright": "Những giao dịch bất động sản thành công đang chờ đợi, có thể liên quan đến các khoản đầu tư quốc tế, mở rộng sang thị trường mới hoặc các khoản đầu tư dài hạn hứa hẹn lợi nhuận đáng kể trong tương lai.",
+        "reversed": "Các giao dịch bất động sản bị trì hoãn, tài sản khó bán hoặc những lựa chọn đầu tư kém khôn ngoan. Phân tích thị trường thiển cận có thể khiến bạn mắc kẹt với một tài sản không mong muốn hoặc bỏ lỡ những cơ hội vàng."
+      },
+      "financial_loss": {
+        "upright": "Mặc dù có tổn thất tài chính, lá bài này cho thấy bạn đang sử dụng nó như một bài học quý giá. Bạn đang điều chỉnh chiến lược tương lai, lập kế hoạch phục hồi và đa dạng hóa để ngăn chặn những tổn thất tiếp theo, nhìn xa hơn những thất bại tức thời.",
+        "reversed": "Tổn thất tài chính dẫn đến sự tuyệt vọng và trì trệ. Bạn có thể không thể phục hồi, lặp lại những sai lầm cũ hoặc đưa ra những quyết định thiển cận làm trầm trọng thêm tình hình, cảm thấy bị mắc kẹt bởi nợ nần."
+      },
+      "sudden_wealth": {
+        "upright": "Sự giàu có bất ngờ đang đến, mở ra những cánh cửa cho các khoản đầu tư mới, du lịch và nh���ng cơ hội mở rộng. Đây là thời điểm để lập kế hoạch khôn ngoan cho tương lai, sử dụng nguồn lực mới để kiến tạo những điều vĩ đại.",
+        "reversed": "Sự giàu có bất ngờ có thể bị quản lý kém, lãng phí vào những quyết định bốc đồng hoặc không mang lại hạnh phúc như mong đợi. Thiếu tầm nhìn và kế hoạch có thể tạo ra những vấn đề mới thay vì giải quyết chúng."
+      },
+      "healing": {
+        "upright": "Bạn đang bắt đầu một hành trình chữa lành sâu sắc, khám phá những phương pháp mới, tìm kiếm trí tuệ từ các nền văn hóa khác và phát triển một kế hoạch dài hạn cho sức khỏe toàn diện. Tương lai hứa hẹn sự phục hồi hoàn toàn và sự bình an.",
+        "reversed": "Quá trình chữa lành đang bị đình trệ, những vết thương cũ vẫn còn dai dẳng. Sự kháng cự với những phương pháp mới hoặc những nỗ lực chữa lành thiển cận có thể khiến bạn mắc kẹt trong vòng luẩn quẩn của nỗi đau, không chạm tới được gốc rễ vấn đề."
+      },
+      "stress": {
+        "upright": "Bạn đang nhận diện nguồn gốc của căng thẳng và chủ động lập kế hoạch chiến lược để giảm thiểu chúng. Tìm kiếm những góc nhìn mới hoặc khám phá môi trường mới sẽ giúp bạn giảm bớt áp lực, hướng tới một tương lai bình yên hơn.",
+        "reversed": "Căng thẳng đang áp đảo bạn, và bạn không thể tìm thấy lối thoát. Việc bỏ bê kế hoạch giảm áp lực hoặc lặp lại những khuôn mẫu căng thẳng có thể dẫn đến sự kiệt quệ tinh thần và cảm xúc sâu sắc hơn."
+      },
+      "trauma": {
+        "upright": "Bạn đang bắt đầu xử lý chấn thương bằng cách tìm kiếm sự hỗ trợ, đạt được những góc nhìn mới và phát triển một kế hoạch chữa lành dài hạn. Điều này sẽ dẫn đến sự phát triển trong tương lai và giải thoát khỏi nỗi đau trong quá khứ.",
+        "reversed": "Chấn thương vẫn chưa được xử lý, dẫn đến sự trì trệ và lặp lại những khuôn mẫu có hại. Bạn có thể c���m thấy bị mắc kẹt bởi những trải nghiệm trong quá khứ, không thể tiến về phía trước hoặc từ chối sự giúp đỡ."
+      },
+      "exams": {
+        "upright": "Sự thành công trong các kỳ thi là kết quả của sự chuẩn bị kỹ lưỡng, tầm nhìn xa trong học tập và một mục tiêu rõ ràng cho sự thăng tiến học vấn hoặc nghề nghiệp trong tương lai.",
+        "reversed": "Các kỳ thi có thể gặp phải những khó khăn không mong muốn do sự chuẩn bị kém, thiếu tập trung hoặc thói quen học tập thiển cận. Điều này có thể dẫn đến kết quả đáng thất vọng hoặc sự chậm trễ trong tiến trình học tập."
+      },
+      "scholarship": {
+        "upright": "Việc nhận được học bổng đang mở ra cánh cửa đến những cơ hội giáo dục mới, có thể ở nước ngoài, và trải thảm cho một tương lai tươi sáng và đầy hứa hẹn. Đây là bước đệm cho sự phát triển vượt bậc.",
+        "reversed": "Các cơ hội học bổng có thể bị bỏ lỡ, đơn đăng ký bị từ chối do kế hoạch kém hoặc học bổng được trao không đủ. Điều này có thể dẫn đến sự chậm trễ trong giáo dục hoặc gánh nặng tài chính."
+      },
+      "talent": {
+        "upright": "Bạn đang khám phá và phát triển một tài năng có tiềm năng vươn xa, với kế hoạch nuôi dưỡng nó cho thành công trong tương lai, có thể trong các lĩnh vực mới hoặc trên phạm vi toàn cầu. Đây là sự khởi đầu của một hành trình đầy triển vọng.",
+        "reversed": "Tài năng của bạn vẫn chưa được phát triển, bị che giấu hoặc lãng phí do thiếu tầm nhìn xa, sợ hãi thất bại hoặc không thể nhìn thấy tiềm năng thực sự của nó. Điều này dẫn đến sự trì trệ và bỏ lỡ cơ hội."
+      },
+      "spirit_guide": {
+        "upright": "Bạn đang kết nối với một hướng dẫn tâm linh, người mang đến sự chỉ dẫn cho những con đường tương lai, sự mở rộng ý thức và những hành trình tinh thần mới, có thể dẫn đến những giáo lý hoặc cái nhìn sâu sắc mới mẻ.",
+        "reversed": "Bạn ��ang gặp khó khăn trong việc kết nối với các hướng dẫn tâm linh, hiểu sai thông điệp của họ hoặc cảm thấy lạc lối và không được dẫn dắt. Sự kháng cự với sự chỉ dẫn do sợ hãi điều chưa biết có thể là nguyên nhân."
       }
     },
     "planet": "Mặt Trời",
@@ -6111,6 +7911,78 @@ window.TAROT_DB = [
       "general": {
         "upright": "Một giai đoạn của sự ăn mừng, ổn định và niềm vui, nơi những nỗ lực được đền đáp và bạn tìm thấy sự an toàn, hạnh phúc trong cuộc sống.",
         "reversed": "Sự chậm trễ trong niềm vui, cảm giác bất an hoặc những xáo trộn nhỏ đang làm gián đoạn sự bình yên và ổn định của bạn."
+      },
+      "toxic_relationship": {
+        "upright": "Trong vòng xoáy của mối quan hệ độc hại, lá bài này hé lộ một khoảnh khắc an bài, nơi sự ổn định tạm thời được thiết lập, hoặc một nền móng vững chắc đang được xây dựng để thoát ly khỏi gông cùm. Nó có thể là sự tìm thấy niềm vui trong những giây phút bình yên hiếm hoi, hoặc sự chuẩn bị cho một cuộc chia ly mang lại tự do.",
+        "reversed": "Sự đảo ngược của Bốn Gậy cho thấy sự rung chuyển trong nền móng của mối quan hệ độc hại, đưa đến sự bất ổn không thể chối cãi. Những niềm vui giả tạo bị phơi bày, và sự hài hòa chỉ là một ảo ảnh. Nó báo hiệu sự tan rã của những cấu trúc đã từng kìm hãm, hoặc một cuộc chia ly đầy sóng gió, thiếu đi sự an bài."
+      },
+      "soulmate": {
+        "upright": "Sự xuất hiện của Bốn Gậy báo hiệu một cuộc hội ngộ định mệnh, nơi linh hồn tìm thấy ngôi nhà đích thực của mình. Đó là sự hợp nhất đầy hân hoan, một nền tảng vững chắc cho tình yêu và sự thuộc về, nơi hai trái tim hòa ca trong một bản giao hưởng bình yên và hạnh phúc.",
+        "reversed": "Khi Bốn Gậy đảo ngược, sự kết nối linh hồn có thể gặp trở ngại hoặc chậm trễ. Nền tảng của mối quan hệ tiềm năng còn lung lay, hoặc có những nghi ngờ về sự phù hợp và ổn định. Nó có thể là cảm giác lạc lõng, chưa tìm thấy bến đỗ an toàn trong mối quan hệ thiêng liêng này."
+      },
+      "reconciliation": {
+        "upright": "Lá bài này là dấu hiệu của một cuộc tái hợp thành công và đầy hân hoan. Những vết rạn nứt được hàn gắn, và một nền móng mới, vững chắc hơn được thiết lập cho mối quan hệ. Đó là sự trở về của hòa bình và niềm vui, một lễ kỷ niệm cho sự tha thứ và đoàn viên.",
+        "reversed": "Sự đảo ngược cho thấy cuộc hòa giải có thể bị trì hoãn hoặc không đạt được sự chân thật sâu sắc. Những vấn đề cốt lõi vẫn còn tồn tại, khiến nền tảng của sự tái hợp trở nên mong manh. Niềm vui đoàn tụ chỉ là hời hợt, và sự bình yên còn xa vời."
+      },
+      "secret_admirer": {
+        "upright": "Bốn Gậy xuôi cho thấy người ngưỡng mộ bí mật đang chuẩn bị cho một tiết lộ đầy hân hoan, hoặc tình cảm của họ đang phát triển thành một mối quan hệ ổn định và công khai. Năng lượng của sự ăn mừng và kết nối đang đến gần, một nền tảng cho sự gắn bó mới mẻ.",
+        "reversed": "Khi đảo ngược, người ngưỡng mộ bí mật có thể do dự, sợ hãi làm xáo trộn s�� ổn định hiện có, hoặc có những rào cản khiến họ không thể bộc lộ. Tình cảm của họ có thể không rõ ràng hoặc mang tính chất tạm thời, thiếu đi nền tảng vững chắc để tiến tới một mối quan hệ công khai."
+      },
+      "burnout": {
+        "upright": "Lá bài này mang đến lời hứa về một kỳ nghỉ ngơi cần thiết, một sự rút lui để tìm lại niềm vui và sự ổn định nội tại. Đó là sự hoàn thành của một giai đoạn căng thẳng, mở ra cánh cửa cho sự phục hồi và tìm thấy mái nhà bình yên trong tâm hồn.",
+        "reversed": "Đảo ngược, Bốn Gậy cho thấy sự bất lực trong việc tìm kiếm sự nghỉ ngơi hoặc bình yên. Chu kỳ kiệt sức vẫn tiếp diễn vì 'ngôi nhà' của sự phục hồi bị gián đoạn, hoặc những thành tựu đạt được không mang lại niềm vui trọn vẹn, chỉ là sự trống rỗng."
+      },
+      "startup": {
+        "upright": "Đây là dấu hiệu của một khởi đầu thành công, đạt được cột mốc quan trọng và thiết lập một nền móng vững chắc. Đó là sự ăn mừng của những chiến thắng ban đầu, tạo dựng một cộng đồng hoặc đội ngũ phát triển mạnh mẽ, nơi mỗi thành viên tìm thấy sự thuộc về.",
+        "reversed": "Khi đảo ngược, khởi nghiệp có thể đối mặt với sự chậm trễ, những vấn đề nền tảng hoặc xung đột nội bộ. Sự bất ổn trong giai đoạn đầu, thiếu đi tinh thần ăn mừng dù có nhiều nỗ lực, báo hiệu một nền móng chưa vững chắc, cần phải được củng cố lại."
+      },
+      "workplace_politics": {
+        "upright": "Trong bối cảnh chính trị công sở, lá bài này chỉ ra khả năng tìm thấy một vị trí ổn định và hài hòa. Bạn có thể tạo ra một 'nơi trú ẩn an toàn' hoặc một bầu không khí vui vẻ trong đội ngũ của mình, đạt được sự thỏa hiệp hoặc thành công trong việc điều hướng khéo léo.",
+        "reversed": "Đảo ngược, Bốn Gậy cho thấy chính trị công sở đang phá vỡ sự hài hòa, tạo ra bất ổn và xung đột. Cảm giác không được chào đón hoặc bị cô lập trong 'cộng đồng' làm việc trở nên rõ rệt, khiến bạn cảm thấy lạc lõng và không có chỗ dựa."
+      },
+      "side_hustle": {
+        "upright": "Công việc phụ này mang lại niềm vui, sự ổn định và cảm giác thành tựu. Nó là một dự án thành công, bổ sung cho cuộc sống chính của bạn, thậm chí có thể phát triển thành một điều gì đó đáng để ăn mừng, tạo ra một nền tảng mới cho sự độc lập.",
+        "reversed": "Khi đảo ngược, công việc phụ có thể trở thành nguồn gốc của căng thẳng, bất ổn hoặc không mang lại niềm vui/lợi nhuận như mong đợi. Nó có thể phá vỡ sự cân bằng của cuộc sống chính thay vì bổ sung, khiến bạn cảm thấy gánh nặng thay vì tự do."
+      },
+      "real_estate": {
+        "upright": "Bốn Gậy xuôi báo hiệu một giao dịch bất động sản thành công, tìm thấy ngôi nhà lý tưởng, một khoản đầu tư ổn định, hoặc một nơi thuộc về và ăn mừng. Đó là sự thiết lập cội rễ, tạo nên một nền m��ng vững chắc cho cuộc sống và tương lai.",
+        "reversed": "Đảo ngược, lá bài này cho thấy sự chậm trễ trong giao dịch, những vấn đề nền tảng với tài sản, cảm giác không ổn định trong một ngôi nhà mới, hoặc tranh chấp liên quan đến bất động sản. Sự bất ổn trong tình hình nhà ở, một nền móng lung lay."
+      },
+      "financial_loss": {
+        "upright": "Sau mất mát tài chính, lá bài này mang đến hy vọng về sự ổn định và khả năng tái thiết, tạo dựng một nền móng tài chính mới. Đó là niềm vui của sự phục hồi và khả năng phục hồi đáng kinh ngạc, một lễ kỷ niệm cho sức mạnh nội tại.",
+        "reversed": "Sự đảo ngược cho thấy khó khăn trong việc phục hồi sau mất mát, sự bất ổn tài chính tiếp diễn, hoặc không thể tái thiết lập một nền móng an toàn. 'Lễ kỷ niệm' của sự phục hồi còn xa vời, và cảm giác bất an vẫn đeo bám."
+      },
+      "sudden_wealth": {
+        "upright": "Đây là một lễ kỷ niệm đầy hân hoan cho sự giàu có bất ngờ, thiết lập một nền móng tài chính mới, ổn định và vững chắc. Đó là sự tự do và an ninh đến cùng với sự thịnh vượng, một món quà của vũ trụ mang lại niềm vui và sự bình yên.",
+        "reversed": "Khi đảo ngược, sự giàu có bất ngờ có thể mang lại sự bất ổn hoặc phá vỡ sự hài hòa hiện có. Khó khăn trong việc quản lý tài chính mới, dẫn đến xung đột nội bộ hoặc cảm giác choáng ngợp thay vì niềm vui ăn mừng, khiến nền móng lung lay."
+      },
+      "healing": {
+        "upright": "Bốn Gậy đánh dấu một cột mốc quan trọng trong hành trình chữa lành, tìm thấy sự bình yên, ổn định và cảm giác 'ngôi nhà' trong chính bản thân. Đó là một lễ kỷ niệm của sức khỏe và hạnh phúc được đổi mới, một nền tảng vững chắc cho sự tái sinh.",
+        "reversed": "Đảo ngược, lá bài này cho thấy những trở ngại trong quá trình chữa lành, cảm giác bồn chồn hoặc không thể tìm thấy sự bình yên nội tại. Nền tảng của sự phục hồi còn lung lay, hoặc lễ kỷ niệm sức khỏe bị trì hoãn, một sự gián đoạn trong hành trình thiêng liêng."
+      },
+      "stress": {
+        "upright": "Lá bài này tượng trưng cho khả năng quản lý căng thẳng thành công, tìm thấy những cơ chế đối phó mang lại sự ổn định và những khoảnh khắc niềm vui. Đó là việc tạo ra một nơi trú ẩn an toàn khỏi áp lực, một không gian bình yên trong tâm hồn.",
+        "reversed": "Khi đảo ngược, căng thẳng trở nên quá tải, dẫn đến sự bất ổn và phá vỡ sự bình yên nội tại. Sự bất lực trong việc tìm kiếm một 'nơi trú ẩn an toàn' khỏi áp lực, cảm giác lạc lõng và bị cuốn trôi trong dòng xoáy của lo âu."
+      },
+      "trauma": {
+        "upright": "Bốn Gậy mang đến hy vọng về một không gian an toàn để chữa lành vết thương tâm lý, thiết lập một nền tảng ổn định cho sự phục hồi và bắt đầu trải nghiệm những khoảnh khắc niềm vui và tự do bất chấp quá khứ. Đó là sự xây dựng lại 'ngôi nh��' nội tâm.",
+        "reversed": "Đảo ngược, chấn thương tiếp tục phá vỡ sự ổn định, gây khó khăn trong việc xây dựng một 'ngôi nhà' an toàn bên trong hoặc bên ngoài. Quá trình chữa lành bị đình trệ hoặc cảm thấy không trọn vẹn, một nền móng lung lay không ngừng nghỉ."
+      },
+      "exams": {
+        "upright": "Đây là dấu hiệu của sự hoàn thành thành công các kỳ thi, ăn mừng thành tích và chuyển sang giai đoạn tiếp theo với một nền tảng kiến thức vững chắc. Đó là một kết quả đầy hân hoan, một lễ kỷ niệm cho sự nỗ lực và thành công.",
+        "reversed": "Khi đảo ngược, có thể có những thách thức bất ngờ trong kỳ thi, kết quả bị trì hoãn hoặc không như mong đợi, cảm giác chưa chuẩn bị hoặc tâm trạng ăn mừng bị giảm sút. Nền tảng kiến thức có thể chưa vững chắc, dẫn đến sự bất ổn."
+      },
+      "scholarship": {
+        "upright": "Bốn Gậy xuôi báo hiệu việc nhận được học bổng thành công, mang lại sự ổn định tài ch��nh và niềm vui theo đuổi giáo dục. Đó là một lễ kỷ niệm cho thành tích học tập và tiềm năng tương lai, một nền móng vững chắc cho con đường tri thức.",
+        "reversed": "Đảo ngược, học bổng có thể bị trì hoãn, bị từ chối hoặc đi kèm với những điều kiện bất ngờ làm xáo trộn cảm giác an toàn. Lễ kỷ niệm cơ hội bị cản trở, một sự bất ổn trong kế hoạch học tập đã định."
+      },
+      "talent": {
+        "upright": "Lá bài này tượng trưng cho việc thể hiện và ăn mừng tài năng một cách vui vẻ, tìm thấy một nền tảng ổn định cho những nỗ lực sáng tạo và được công nhận trong một cộng đồng hỗ trợ. Đó là sự tự do thể hiện bản thân và niềm vui của sự thuộc về.",
+        "reversed": "Khi đảo ngược, tài năng bị kìm nén hoặc không được đánh giá cao, dẫn đến cảm giác bất ổn hoặc thiếu sự thuộc về. Khó khăn trong việc tìm kiếm một lối thoát phù hợp hoặc một cộng đồng hỗ trợ cho những món quà trời ban, một nền móng lung lay cho sự phát triển."
+      },
+      "spirit_guide": {
+        "upright": "Bốn Gậy cho thấy một kết nối rõ ràng và ổn định với linh hồn dẫn đường, cảm thấy được hỗ trợ và hướng dẫn đến một con đường vui vẻ và hài hòa. Đó là một cảm giác 'ngôi nhà' tâm linh và sự thuộc về, một nền tảng vững chắc cho sự phát triển tâm linh.",
+        "reversed": "Đảo ngược, lá bài này báo hiệu khó khăn trong việc kết nối hoặc hiểu các thông điệp từ linh hồn dẫn đường. Cảm giác tâm linh bị lung lay hoặc trải nghiệm sự gián đoạn trong hướng dẫn tâm linh, một nền móng không vững chắc trong hành trình tâm linh."
       }
     },
     "planet": "Sao Kim",
@@ -6342,6 +8214,78 @@ window.TAROT_DB = [
       "general": {
         "upright": "Cuộc sống đang ở trong giai đoạn đầy thử thách và cạnh tranh, nơi những va chạm và bất đồng là điều không thể tránh khỏi, nhưng chúng lại là động lực để phát triển.",
         "reversed": "Sự mệt mỏi trước những mâu thuẫn không hồi kết, sự hỗn loạn hoặc sự từ bỏ cuộc chiến, khiến mọi thứ trở nên bế tắc và thiếu định hướng."
+      },
+      "toxic_relationship": {
+        "upright": "Lá bài này báo hiệu một vòng xoáy xung đột không ngừng, những trận chiến quyền lực âm ỉ và ma sát dai dẳng đang gặm nhấm linh hồn mối quan hệ. Năng lượng đối đầu ngốn sạch sự bình yên, để lại sự căng thẳng và mệt mỏi.",
+        "reversed": "Dấu hiệu của sự tan rã hoặc một nỗ lực tuyệt vọng để hóa giải những mâu thuẫn sâu sắc. Có thể là sự rút lui khỏi chiến trường độc hại, hoặc ngược lại, sự leo thang không kiểm soát dẫn đến chia ly hoàn toàn, giải thoát linh hồn khỏi xiềng xích."
+      },
+      "soulmate": {
+        "upright": "Mối quan hệ định mệnh này không tránh khỏi những thử thách ban đầu, những cuộc tranh luận nảy lửa và những cuộc đấu trí đầy đam mê. Đây là những cuộc va chạm cần thiết để mài giũa và củng cố sợi dây liên kết linh hồn, một điệu nhảy của những cái tôi mạnh mẽ.",
+        "reversed": "Sau bão tố, sự hài hòa sâu sắc hơn được tìm thấy. Những mâu thuẫn ban đầu được hóa giải, tiết lộ một sự hiểu biết sâu sắc hơn về nhau. Hoặc, đôi khi, lá bài ngược cho thấy những khác biệt cơ bản không thể dung hòa, báo hiệu một 'linh hồn song sinh' với những bài học khó khăn nhưng cần thiết."
+      },
+      "reconciliation": {
+        "upright": "Con đường hòa giải vẫn còn đầy chông gai, những vết sẹo cũ vẫn âm ỉ và những bất đồng chưa được giải quyết tiếp tục cản trở sự hàn gắn. Một cuộc chiến nội tâm hoặc ngoại cảnh vẫn đang diễn ra để tìm lại sự bình yên.",
+        "reversed": "Một sự hòa giải thực sự, chân thành, nơi những vết thương cũ được chữa lành và lòng vị tha ngự trị. Hoặc, một sự chấp nhận đau đớn rằng hòa giải là bất khả thi, và việc buông bỏ là con đường duy nhất để giải thoát linh hồn khỏi gánh nặng của quá khứ."
+      },
+      "secret_admirer": {
+        "upright": "Trái tim của người ngưỡng mộ đang trong cuộc chiến nội tâm dữ dội, một trận chiến giữa khao khát thể hiện và nỗi sợ hãi bị từ chối. Những hành động của họ có thể biểu hiện thành những trò trêu chọc, những lời thách thức ngầm, hay sự cạnh tranh không rõ ràng để thu hút sự chú ý.",
+        "reversed": "Người ngưỡng mộ đã vượt qua nỗi sợ hãi, sẵn sàng bộc lộ cảm xúc thật, hoặc đã quyết định giữ kín bí mật của mình, tìm thấy sự bình yên trong việc chấp nhận cảm xúc đơn phương. Mâu thuẫn nội tâm đã tìm thấy lối thoát hoặc được giải quyết."
+      },
+      "burnout": {
+        "upright": "Sự kiệt quệ đến từ cuộc đua không ngừng nghỉ, sự cạnh tranh khốc liệt và những yêu cầu chồng chất, mâu thuẫn. Linh hồn bị vắt kiệt bởi gánh nặng của những trận chiến liên miên, đẩy tới bờ vực của sự suy sụp.",
+        "reversed": "Một sự nhận thức sâu sắc về nhu cầu rút lui khỏi vòng xoáy cạnh tranh, tìm kiếm sự bình yên và cân bằng. Hoặc, sự sụp đổ hoàn toàn do kiệt sức, buộc phải dừng lại, mở ra cánh cửa cho sự tái sinh và phục hồi."
+      },
+      "startup": {
+        "upright": "Trong thế giới khởi nghiệp, đây là một đấu trường khốc liệt, nơi những ý tưởng va chạm, những cuộc tranh giành thị phần diễn ra không ngừng. Nội bộ có thể tồn tại những bất đồng mạnh mẽ, tạo nên một môi trường năng động nhưng đầy hỗn loạn và thách thức.",
+        "reversed": "Sự đoàn kết nội bộ được thiết lập sau những tranh cãi, hoặc tìm thấy một ngách riêng độc đáo, tránh được cuộc chiến tổng l���c. Hoặc, sự thất bại của startup do mâu thuẫn nội bộ không thể giải quyết, hoặc sự cạnh tranh quá sức, dẫn đến việc giải thể để tìm lại sự bình yên."
+      },
+      "workplace_politics": {
+        "upright": "Một mạng lưới phức tạp của những cuộc chiến quyền lực ngầm và công khai, những drama văn phòng, sự chia bè kéo cánh và những cuộc tranh giành lợi ích. Không gian làm việc biến thành chiến trường của những cái tôi và tham vọng.",
+        "reversed": "Một cuộc chiến chính trị tạm thời lắng xuống, một thỏa hiệp được đạt được, mang lại sự bình yên ngắn ngủi. Hoặc, sự leo thang của chính trị công sở trở nên quá độc hại, buộc những linh hồn yếu đuối phải rời đi, hoặc một sự can thiệp từ cấp cao để dẹp loạn."
+      },
+      "side_hustle": {
+        "upright": "Cuộc chiến cân bằng giữa công việc chính và phụ, những ưu tiên chồng chéo và sự cạnh tranh khốc liệt trong thị trường ngách. Một cuộc đấu tranh không ngừng nghỉ ��ể biến ý tưởng thành hiện thực, đòi hỏi sự kiên trì và linh hoạt.",
+        "reversed": "Tìm thấy sự hài hòa giữa các vai trò, công việc phụ được tích hợp một cách suôn sẻ hơn vào cuộc sống. Hoặc, quyết định buông bỏ công việc phụ do quá tải mâu thuẫn và căng thẳng, để tìm lại sự bình yên và tập trung."
+      },
+      "real_estate": {
+        "upright": "Thị trường bất động sản là một cuộc chiến không ngừng: đấu thầu, đàm phán gay gắt, tranh chấp giữa người mua và người bán, và sự cạnh tranh khốc liệt để sở hữu một mảnh đất. Mỗi giao dịch là một trận chiến của ý chí.",
+        "reversed": "Một cuộc đàm phán thành công, một thỏa thuận hài hòa được ký kết, nơi cả hai bên đều cảm thấy được tôn trọng. Hoặc, sự rút lui khỏi một giao dịch do những mâu thuẫn không thể vượt qua, bảo vệ linh hồn khỏi những rắc rối tài chính không đáng có."
+      },
+      "financial_loss": {
+        "upright": "Sự mất mát tài chính không chỉ là con số, mà còn là kết quả của những quyết định mâu thuẫn, sự cạnh tranh khắc nghiệt trên thị trường, hoặc những cuộc chiến nội tâm về cách quản lý tiền bạc. Một trận chiến đau đớn với số phận.",
+        "reversed": "Học được những bài học quý giá từ những thất bại tài chính, giải quyết những xung đột nội tâm về chi tiêu và đầu tư. Hoặc, sự mất mát quá lớn buộc phải có một sự tái cấu trúc hoàn toàn, một sự khởi đầu mới từ đống tro tàn, mang lại sự giải thoát."
+      },
+      "sudden_wealth": {
+        "upright": "Sự giàu có bất ngờ thường đến từ một cuộc cạnh tranh khốc liệt, một chiến thắng vang dội. Nhưng nó cũng mang theo những thách thức mới: những mâu thuẫn gia đình, trách nhiệm nặng nề, và những cuộc chiến để bảo vệ tài sản. Một phước lành kèm theo gánh nặng.",
+        "reversed": "Sự giàu có mang lại sự hài hòa và giải quyết những lo toan tài chính trước đây. Hoặc, những mâu thuẫn tiềm ẩn được xử lý một cách khéo léo, mang lại sự bình yên và ổn định cho linh hồn, sử dụng tài sản để tạo ra giá trị bền vững."
+      },
+      "healing": {
+        "upright": "Quá trình chữa lành là một cuộc chiến cam go: chống lại bệnh tật, đối mặt với những bóng ma nội tâm, và điều hướng những lời khuyên mâu thuẫn từ nhiều nguồn khác nhau. Một cuộc đấu tranh không ngừng nghỉ để tìm lại sự toàn vẹn của linh hồn.",
+        "reversed": "Tìm thấy con đường đến sự bình yên nội tâm sau những trận chiến. Giải quyết những kháng cự bên trong đối với việc chữa lành, chấp nhận và hòa nhập những phần bị tổn thương của bản thân. Một sự buông bỏ sau một cuộc chiến dài, mang lại sự an yên."
+      },
+      "stress": {
+        "upright": "Áp lực tinh thần đến từ những cuộc xung đột không ngừng, sự cạnh tranh khốc liệt, và cảm giác bị choáng ngợp bởi quá nhiều yêu cầu mâu thuẫn. Linh hồn bị giằng xé giữa những áp lực không ngừng nghỉ, đẩy đến giới hạn của sự chịu đựng.",
+        "reversed": "Tìm ra những phương pháp hữu hiệu để quản lý và giảm thiểu căng thẳng do xung đột. Đạt được cảm giác bình yên sau cơn bão, hoặc, khi căng thẳng trở nên mãn tính và suy nhược, buộc phải có một sự thay đổi triệt để để bảo vệ linh hồn."
+      },
+      "trauma": {
+        "upright": "Một cuộc chiến nội tâm dai dẳng với những hậu quả của chấn thương, những cảm xúc mâu thuẫn và cuộc đấu tranh để xử lý và hòa nhập một quá khứ đau đớn. Linh hồn bị mắc kẹt trong vòng xoáy của những ký ức và cảm giác bị tổn thương.",
+        "reversed": "Bắt đầu giải quyết những xung đột nội tâm do chấn thương, tìm thấy con đường đến sự bình yên và chấp nhận. Hoặc, chấn thương bị kìm nén quá sâu đến nỗi nó biểu hiện ra ngoài theo những cách khác, đòi hỏi một sự đối mặt dũng cảm để giải phóng linh hồn."
+      },
+      "exams": {
+        "upright": "Một đấu trường của sự cạnh tranh khốc liệt giữa các học sinh, cuộc vật lộn để nắm vững kiến thức, những phương pháp học tập mâu thuẫn, và áp lực nặng nề của bài kiểm tra. Mỗi kỳ thi là một thử thách của ý chí và trí tuệ.",
+        "reversed": "Vượt qua kỳ thi một cách thành công, chiến thắng áp lực cạnh tranh, hoặc nhận ra rằng giá trị thực sự không nằm ở điểm số. Đạt được sự bình yên sau những ngày tháng học tập căng thẳng, hoặc tìm ra một con đường khác phù hợp hơn."
+      },
+      "scholarship": {
+        "upright": "Một cuộc đua tranh khốc liệt để giành lấy những suất học bổng quý giá, cuộc đấu tranh để chứng tỏ giá trị bản thân, và những yêu cầu hoặc quy trình đăng ký phức tạp, mâu thuẫn. Chỉ những người mạnh mẽ nhất mới có thể chiến thắng.",
+        "reversed": "Giành được học bổng sau khi vượt qua mọi đối thủ, hoặc nhận ra rằng một con đường khác phù hợp hơn, tránh xa cuộc chiến tranh giành. Sự bình yên và định hướng rõ ràng được tìm thấy sau khi vượt qua thử thách hoặc chấp nhận một lối đi khác."
+      },
+      "talent": {
+        "upright": "Sự phát triển tài năng thông qua những cuộc cạnh tranh lành mạnh, những cuộc va chạm ý tưởng để mài giũa kỹ năng, và cuộc đấu tranh để tìm ra tiếng nói độc đáo của bản thân giữa vô vàn tài năng khác. Một quá trình không ngừng nghỉ để hoàn thiện.",
+        "reversed": "Hòa hợp những tài năng đa dạng, tìm thấy một kênh hợp tác thay vì cạnh tranh, hoặc giải quyết những xung đột nội tâm về cách thể hiện tốt nhất món quà của mình. Sự bình yên và mục đích rõ ràng trong việc sử dụng và phát triển tài năng."
+      },
+      "spirit_guide": {
+        "upright": "Sự hướng dẫn tâm linh đến theo cách thử thách niềm tin hiện tại của bạn, một hành trình tâm linh đầy mâu thuẫn nội tâm, đòi hỏi sự phân định rõ ràng giữa nhiều tiếng nói chỉ dẫn khác nhau. Một cuộc chiến để lắng nghe tiếng nói chân thật nhất.",
+        "reversed": "Tìm thấy sự rõ ràng và thống nhất trong sự hướng dẫn tâm linh, một sự giải quyết những hỗn loạn nội tâm. Hoặc, sự tích hợp hài hòa của nhiều hiểu biết tâm linh đa dạng vào một con đường nhất quán, mang lại sự bình yên và định hướng rõ ràng cho linh hồn."
       }
     },
     "planet": "Sao Thổ",
@@ -6573,6 +8517,78 @@ window.TAROT_DB = [
       "lost_item": {
         "upright": "Món đồ thất lạc có thể được tìm thấy ở một nơi công cộng, hoặc ở một nơi liên quan đến sự thành công và vinh quang. Hãy tìm kiếm ở những nơi bạn thường được chú ý.",
         "reversed": "Món đồ có thể bị mất do sự bất cẩn trong lúc ăn mừng hoặc bị bỏ quên ở một nơi không được chú ý. Cần phải cẩn trọng hơn trong việc quản lý tài sản."
+      },
+      "toxic_relationship": {
+        "upright": "Một khoảnh khắc giác ngộ, nhận ra giá trị bản thân và sự cần thiết phải chiến thắng độc tố. Đây là một chiến thắng nội tâm, nơi bạn tìm thấy dũng khí để thiết lập ranh giới hoặc buông bỏ xiềng xích, khẳng định quyền năng của mình.",
+        "reversed": "Lẩn quẩn trong bóng tối của một mối quan hệ mà những 'chiến thắng' trong quá khứ chỉ là hư ảo. Nỗi sợ hãi sự phán xét từ bên ngoài ngăn cản sự giải thoát, khiến bạn cảm thấy bị mắc kẹt, không được công nhận, và không thể khẳng định sự độc lập, kéo dài chu kỳ độc hại."
+      },
+      "soulmate": {
+        "upright": "Sự nhận diện hoan hỷ và lời khẳng định công khai về một kết nối sâu sắc, một sự kết hợp thắng lợi được vũ trụ chúc phúc. Cảm giác đã tìm thấy tri kỷ đích thực và tự hào chia sẻ điều đó với thế giới.",
+        "reversed": "Nảy sinh hoài nghi về tính chân thực của kết nối, có thể là một màn thể hiện công khai gượng ép hoặc thiếu sự công nhận thực sự bất chấp vẻ bề ngoài. Nỗi sợ cam kết hoặc cảm giác rằng 'chiến thắng' khi tìm thấy tri kỷ không thực sự viên mãn hay được đáp lại."
+      },
+      "reconciliation": {
+        "upright": "Một cuộc hòa giải thành công và được công nhận rộng rãi, mang lại cảm giác chiến thắng và chữa lành. Quá khứ đã được vượt qua, một mối liên kết mới, bền chặt hơn được hình thành, được tất cả những người liên quan ăn mừng.",
+        "reversed": "Một cuộc hòa giải hời hợt, gượng ép hoặc thiếu cam kết thực sự. Một bên có thể tìm kiếm sự chấp thuận từ bên ngoài hơn là sự chữa lành đích thực, dẫn đến một thỏa thuận đình chiến rỗng tuếch cuối cùng sẽ sụp đổ, hoặc nỗi sợ thất bại công khai ngăn cản hòa giải chân thành."
+      },
+      "secret_admirer": {
+        "upright": "Người hâm mộ bí mật lộ diện, dẫn đến một sự công nhận tình cảm một cách thắng lợi và có thể công khai. Một khoảnh khắc của sự ngạc nhiên và xác nhận đầy thú vị.",
+        "reversed": "Người ngưỡng mộ vẫn ẩn mình, có lẽ do sợ bị từ chối hoặc thiếu tự tin vào cảm xúc của mình. Khoảnh khắc tiết lộ bị trì hoãn hoặc không bao giờ đến, khiến người được ngưỡng mộ trong bóng tối, hoặc dẫn đến một sự tiết lộ công khai vụng về, không mong muốn."
+      },
+      "burnout": {
+        "upright": "Một trận chiến khó khăn chống lại sự kiệt sức, dẫn đến một bước đột phá nơi bạn nhận ra nhu cầu nghỉ ngơi và bắt đầu lấy lại năng lượng. Một chiến thắng nhỏ trong việc ưu tiên sức khỏe hơn sự theo đuổi không ngừng nghỉ.",
+        "reversed": "Những ảnh hưởng dai dẳng của sự kiệt sức, nơi những thành tựu trong quá khứ trở nên vô nghĩa, và sự công nhận bạn tìm kiếm giờ bị lu mờ bởi sự mệt mỏi sâu sắc. Không thể phục hồi, cảm thấy không được đánh giá cao dù đã nỗ lực rất nhiều, dẫn đến kiệt sức sâu hơn và mất tinh thần."
+      },
+      "startup": {
+        "upright": "Thành công ban đầu và sự công nhận rộng rãi của một công ty khởi nghiệp, có thể là một buổi ra mắt thành công, vòng gọi vốn, hoặc phản ứng tích cực từ thị trường. Một khoảnh khắc chiến thắng cho tầm nhìn và nỗ lực đã đầu tư.",
+        "reversed": "Một công ty khởi nghiệp đối mặt với sự giám sát hoặc thiếu công nhận từ công chúng bất chấp nỗ lực. Những lời hứa về thành công không được thực hiện, hoặc xung đột nội b�� ngăn cản một hình ảnh công khai gắn kết, dẫn đến mất đà hoặc cảm giác bị bỏ qua."
+      },
+      "workplace_politics": {
+        "upright": "Thành công trong việc điều hướng các động lực phức tạp nơi công sở, chiến thắng từ một tình huống khó khăn, có thể giành được ảnh hưởng hoặc sự công nhận. Một chiến thắng chiến lược trong một môi trường đầy thách thức.",
+        "reversed": "Trở thành nạn nhân của chính trị nơi công sở, nơi thành tựu của bạn bị phá hoại hoặc chiếm đoạt bởi người khác. Cảm thấy bị công khai sỉ nhục hoặc trải qua một thất bại do thao túng không công bằng, dẫn đến mất địa vị hoặc sự tự tin."
+      },
+      "side_hustle": {
+        "upright": "Công việc phụ đang phát triển, đạt được một cột mốc quan trọng, hoặc nhận được phản hồi tích cực và sự công nhận từ công chúng. Một sự xác nhận thắng lợi cho tinh thần kinh doanh của bạn.",
+        "reversed": "Công việc phụ gặp khó khăn trong việc thu hút sự chú ý, thiếu sự công nhận hoặc thành công như mong đợi. Nỗ lực cảm thấy không được đền đáp, hoặc các yếu tố bên ngoài tạo ra trở ngại, dẫn đến sự nản lòng và có khả năng từ bỏ dự án."
+      },
+      "real_estate": {
+        "upright": "Một giao dịch bất động sản thành công, có thể là bán một tài sản với giá tốt, hoặc mua được một ngôi nhà mong muốn, mang lại cảm giác thành tựu và sự ăn mừng công khai. Một cuộc chốt giao dịch thắng lợi.",
+        "reversed": "Sự chậm trễ hoặc biến chứng trong giao dịch bất động sản, dẫn đến một chiến thắng rỗng tuếch hoặc một tổn thất nhận thức. Thành công dự kiến không đạt được, hoặc nhận thức của công chúng về giao dịch là tiêu cực, gây ra sự thất vọng và các trở ngại tài chính."
+      },
+      "financial_loss": {
+        "upright": "Một chiến thắng nhỏ trong việc giảm thiểu tổn thất tài chính, tìm ra cách để phục hồi một số tài sản, hoặc học được một bài học quan trọng ngăn chặn thiệt hại thêm. Một chiến thắng của sự kiên cường trong nghịch cảnh.",
+        "reversed": "Một tổn thất tài chính dẫn đến sự sỉ nhục công khai hoặc một đòn giáng mạnh vào danh tiếng. Không thể phục hồi, hoặc những thất bại tiếp tục, khiến bạn cảm thấy bị đánh bại và phơi bày, với những thành tựu tài chính trong quá khứ bị lu mờ."
+      },
+      "sudden_wealth": {
+        "upright": "Một dòng chảy tài lộc bất ngờ, vui vẻ được công khai thừa nhận và ăn mừng, mang lại cảm giác chiến thắng và xác nhận. Cảm thấy xứng đáng và thu hút sự chú ý tích cực.",
+        "reversed": "Sự giàu có bất ngờ mang lại những vấn đề không mong muốn, sự giám sát của công chúng, hoặc cảm giác không xứng đáng. 'Chiến thắng' trở nên trống rỗng, dẫn đến sự cô lập, đố kỵ, hoặc sự tiêu tan nhanh chóng của tài sản mới tìm thấy, gây ra nhiều căng thẳng hơn là niềm vui."
+      },
+      "healing": {
+        "upright": "Một bước đột phá đáng kể trong hành trình chữa lành, một khoảnh khắc chiến thắng nơi bạn lấy lại sức khỏe hoặc sự bình yên nội tâm. Tiến trình này thường rõ ràng và mang lại cảm giác sức sống mới.",
+        "reversed": "Quá trình chữa lành bị đình trệ hoặc cảm thấy hời hợt. Bất chấp vẻ bề ngoài, những vết thương sâu hơn vẫn chưa được giải quyết, hoặc tiến bộ đạt được không thực sự được công nhận hoặc tích hợp, dẫn đến cảm giác phục hồi chưa trọn vẹn hoặc tái phát."
+      },
+      "stress": {
+        "upright": "Thành công vượt qua một giai đoạn căng thẳng dữ dội, xuất hiện với sự tự tin mới và cảm giác thành tựu. Một chiến thắng trước áp lực nội tại và bên ngoài.",
+        "reversed": "Căng thẳng trở nên quá sức, dẫn đến sự suy sụp về tự tin hoặc biểu hiện công khai của sự đấu tranh. Cảm giác không thể đối phó, bất chấp những thành công trong quá khứ, dẫn đến mất bình tĩnh và cảm giác thất bại."
+      },
+      "trauma": {
+        "upright": "Một khoảnh khắc chiến thắng sâu sắc trước bóng tối của chấn thương trong quá khứ, nơi bạn có được sức mạnh, cái nhìn sâu sắc, và thậm chí có thể giúp đỡ người khác thông qua trải nghiệm của mình. Một sự thừa nhận công khai về khả năng phục hồi và chữa lành.",
+        "reversed": "Sự kìm kẹp của chấn thương vẫn tiếp diễn, ngăn cản bạn tiến lên hoàn toàn hoặc chấp nhận sự chữa lành. Những 'chiến thắng' trong quá khứ cảm thấy bị lu mờ bởi chấn thương, hoặc nhận thức của công chúng cản trở sự phục hồi thực sự, dẫn đến một cuộc đấu tranh kéo dài với những ảnh hưởng của nó."
+      },
+      "exams": {
+        "upright": "Một thành công vang dội trong các kỳ thi, đạt được kết quả xuất sắc và nhận được sự công nhận cho nỗ lực của mình. Một chiến thắng rõ ràng trong một thử thách học thuật.",
+        "reversed": "Kết quả thi đáng thất vọng, hoặc thiếu sự công nhận bất chấp sự chăm chỉ. Thành công dự kiến không đạt được, dẫn đến sự tự ti, sự xấu hổ công khai, hoặc nhu cầu phải lặp lại thử thách."
+      },
+      "scholarship": {
+        "upright": "Việc đạt được học bổng thành công, một sự công nhận công khai về năng lực và tiềm năng học thuật. Một khoảnh khắc chiến thắng của sự xác nhận về tài chính và học thuật.",
+        "reversed": "Cơ hội học bổng bị bỏ lỡ, hoặc đơn đăng ký không thành công, dẫn đến sự thất vọng và cảm giác bị bỏ qua. Sự công nhận và hỗ trợ dự kiến không thành hiện thực, gây ra một trở ngại trong việc theo đuổi giáo dục."
+      },
+      "talent": {
+        "upright": "Sự công nhận và ăn mừng công khai về tài năng độc đáo của bạn, mang lại cơ hội thể hiện và phát triển thêm. Một khoảnh khắc chiến thắng của sự xác nhận cho những món quà bẩm sinh.",
+        "reversed": "Tài năng không được công nhận hoặc bị kìm nén, dẫn đến thiếu cơ hội hoặc cảm giác bị đánh giá thấp. Nh��ng thành tựu trong quá khứ có thể bị lãng quên, hoặc nỗi sợ bị công chúng soi xét ngăn cản việc thể hiện đầy đủ những món quà của bạn."
+      },
+      "spirit_guide": {
+        "upright": "Một kết nối rõ ràng và thắng lợi với một linh hồn hướng dẫn, mang lại những thông điệp sâu sắc, sự dẫn dắt, và cảm giác xác nhận cho con đường tâm linh của bạn. Một khoảnh khắc của sự nhận diện và hỗ trợ thiêng liêng.",
+        "reversed": "Sự ngắt kết nối hoặc nhầm lẫn liên quan đến các linh hồn hướng dẫn, có lẽ do sự tự ti hoặc tiếng ồn bên ngoài. Các thông điệp không rõ ràng, hoặc sự dẫn dắt cảm thấy không thỏa mãn, dẫn đến cảm giác cô lập tâm linh hoặc mất niềm tin vào sự hiện diện của họ."
       }
     },
     "planet": "Sao Mộc",
@@ -6804,6 +8820,78 @@ window.TAROT_DB = [
       "lost_item": {
         "upright": "Món đồ thất lạc có thể được tìm thấy ở một nơi khó tiếp cận, hoặc bị che giấu trong một đống đồ đạc. Hãy tìm kiếm ở những nơi bạn đã phải đấu tranh hoặc bảo vệ.",
         "reversed": "Món đồ có thể bị mất do sự bất cẩn trong lúc hoảng loạn hoặc bị giấu đi bởi người khác. Cần phải bình tĩnh và suy nghĩ lại những tình huống gây căng thẳng."
+      },
+      "toxic_relationship": {
+        "upright": "Bạn dũng cảm đứng vững trên nền đất tâm linh của mình, bảo vệ ranh giới và giá trị bản thân khỏi sự xâm phạm của một mối quan hệ độc hại. Đây là cuộc chiến nội tâm để giữ gìn sự toàn vẹn của linh hồn.",
+        "reversed": "Sự kiệt sức đã khiến bạn buông bỏ lá chắn, chấp nhận sự thao túng hoặc không thể thiết lập ranh giới. Linh hồn bạn đang bị nhấn chìm, mất đi khả năng tự vệ trước dòng chảy tiêu cực."
+      },
+      "soulmate": {
+        "upright": "Bạn kiên cường bảo vệ sợi dây thiêng liêng với tri kỷ khỏi những nghi ngờ bên ngoài hoặc sự hỗn loạn nội tâm. Một cam kết bất diệt, chiến đấu cho sự thật của tình yêu định mệnh.",
+        "reversed": "Sự bất an hoặc những lời xì xào bên ngoài đã làm lung lay niềm tin vào mối liên kết tri kỷ. Bạn mất đi sức mạnh để đứng vững bảo vệ tình yêu, để mặc cho sự hoài nghi xâm chiếm."
+      },
+      "reconciliation": {
+        "upright": "Một lập trường dũng cảm, đòi hỏi sự thật và công bằng, nhưng vẫn mở lòng cho sự hòa giải. Bạn chiến đấu để xây dựng lại cầu nối, nhưng không lùi bước khỏi nguyên tắc cốt lõi của mình.",
+        "reversed": "Cảm giác bị áp đảo bởi những vết thương cũ hoặc thiếu tự tin đã khiến bạn từ bỏ hy vọng hòa giải. Bạn không còn sức lực để đối mặt với những thách thức của việc hàn gắn."
+      },
+      "secret_admirer": {
+        "upright": "Người ngưỡng mộ bí mật đang trong cuộc đấu tranh nội tâm để bộc lộ tình cảm, bảo vệ sự thật của trái tim mình khỏi nỗi sợ hãi hoặc những định kiến xã hội. Một cuộc chiến thầm lặng để được nhìn nhận.",
+        "reversed": "Người ngưỡng mộ đã đầu hàng nỗi sợ hãi hoặc áp lực bên ngoài, chọn cách giữ kín tình cảm. Sự thiếu tự tin đã ngăn cản họ bước ra ánh sáng, để tình yêu chìm vào bóng tối."
+      },
+      "burnout": {
+        "upright": "Một sự phản kháng cuối cùng, kiên cường chống lại sự suy sụp hoàn toàn. Bạn đang đứng trên bờ vực, nhưng vẫn từ chối gục ngã, một ý chí sắt đá để vượt qua giới hạn.",
+        "reversed": "Linh hồn đã hoàn toàn kiệt quệ, buông xuôi trước gánh nặng. Bạn không còn sức lực để chống cự, chấp nhận sự thất bại trước những yêu cầu quá sức."
+      },
+      "startup": {
+        "upright": "Bạn kiên cường bảo vệ tầm nhìn và sứ mệnh của mình khỏi những kẻ hoài nghi, đối thủ cạnh tranh và vô vàn chướng ngại vật. Một cuộc chiến không ngừng nghỉ để đưa giấc mơ thành hiện thực.",
+        "reversed": "Cảm giác bị áp đảo bởi sự cạnh tranh khốc liệt hoặc những thách thức không lường trước đã khiến bạn từ bỏ dự án khởi nghiệp. Niềm tin vào con đường đã mất, giấc mơ lụi tàn."
+      },
+      "workplace_politics": {
+        "upright": "Bạn dũng cảm đứng vững, bảo vệ sự chính trực và nguyên tắc của mình trước những mưu đồ, lời đồn đại và sự thao túng tại nơi làm việc. Một chiến binh của sự thật trong bóng tối của quyền lực.",
+        "reversed": "Bạn đã khuất phục trước áp lực chính trị, tránh né những cuộc đối đầu cần thiết hoặc cảm thấy bị áp đảo bởi những âm mưu. Linh hồn bạn mất đi sự kiên định, để mặc cho mình bị thao túng."
+      },
+      "side_hustle": {
+        "upright": "Bạn kiên quyết bảo vệ thời gian và năng lượng dành cho công việc phụ khỏi những yêu cầu khác, một nỗ lực bền bỉ để nuôi dưỡng sự phát triển của nó b��t chấp mọi giới hạn.",
+        "reversed": "Do thiếu thời gian, quá tải hoặc mất động lực, bạn đã từ bỏ công việc phụ. Linh hồn bạn không còn đủ sức để duy trì ngọn lửa đam mê thứ hai."
+      },
+      "real_estate": {
+        "upright": "Bạn kiên cường đàm phán, bảo vệ vị thế của mình trong một thị trường cạnh tranh. Một lập trường vững chắc về giá trị và điều khoản, không lùi bước trước áp lực.",
+        "reversed": "Bạn đã từ bỏ việc tìm kiếm bất động sản do sự cạnh tranh quá lớn hoặc điều kiện thị trường không thuận lợi. Cảm giác bị áp đảo hoặc thiếu tự tin đã khiến bạn buông xuôi."
+      },
+      "financial_loss": {
+        "upright": "Một nỗ lực dũng cảm để giảm thiểu thiệt hại, bảo vệ những gì còn lại và chiến đấu để lấy lại sự ổn định bất chấp những mất mát đáng kể. Một tinh thần không khuất phục trước vận rủi.",
+        "reversed": "Bạn đã hoàn toàn gục ngã trước mất mát tài chính, không thể phục hồi hoặc bảo vệ bản thân khỏi sự suy giảm thêm. Cảm giác bị áp đảo và thất bại đã nhấn chìm linh hồn bạn."
+      },
+      "sudden_wealth": {
+        "upright": "Bạn kiên định bảo vệ tài sản mới khỏi những kẻ cơ hội, quản lý những trách nhiệm mới bằng bàn tay vững chắc và bảo vệ những phước lành bất ngờ của mình.",
+        "reversed": "Bạn cảm thấy bị choáng ngợp bởi sự giàu có bất ngờ, không thể quản lý nó hoặc đã khuất phục trước áp lực bên ngoài, mất đi quyền kiểm soát tài sản."
+      },
+      "healing": {
+        "upright": "Một cuộc chiến quyết liệt để phục hồi, bảo vệ sức khỏe của bản thân khỏi bệnh tật hoặc vết thương lòng. Một sự dũng cảm ôm lấy con đường gian nan dẫn đến sự trọn vẹn của linh hồn.",
+        "reversed": "Bạn đã từ bỏ quá trình chữa lành, cảm thấy quá tải bởi hành trình hoặc đã khuất phục trước những khuôn mẫu cũ và sự tự phá hoại. Linh hồn bạn chìm trong bóng tối của sự từ bỏ."
+      },
+      "stress": {
+        "upright": "Bạn chủ động đối mặt và quản lý các yếu tố gây căng thẳng, kiên quyết chống lại sự quá tải. Một nỗ lực có ý thức để duy trì sự cân bằng của linh hồn bất chấp áp lực.",
+        "reversed": "Bạn đã gục ngã trước căng thẳng mãn tính, cảm thấy tê liệt bởi áp lực, không thể đối phó hoặc tránh né những cuộc đối đầu cần thiết với các yếu tố gây căng thẳng."
+      },
+      "trauma": {
+        "upright": "Một hành trình dũng cảm và gian khổ để đối mặt và xử lý chấn thương, bảo vệ sự bình yên nội tâm khỏi những bóng ma dai dẳng. Một hành động thách thức để đòi lại linh hồn mình.",
+        "reversed": "Bạn bị chấn thương nhấn chìm, không thể đối mặt hoặc cảm thấy mắc kẹt trong sự kìm kẹp của nó. Linh hồn bạn đã đầu hàng sức mạnh của chấn thương, tránh né con đường chữa lành."
+      },
+      "exams": {
+        "upright": "Một quyết tâm sắt đá để thành công, bảo vệ ki��n thức và sự chuẩn bị của bạn trước áp lực và thách thức của kỳ thi. Đứng vững dưới sự giám sát nghiêm ngặt.",
+        "reversed": "Bạn cảm thấy bị áp đảo bởi áp lực thi cử, từ bỏ việc chuẩn bị, thiếu tự tin hoặc gục ngã trước sự lo lắng trong quá trình làm bài."
+      },
+      "scholarship": {
+        "upright": "Bạn kiên cường cạnh tranh để giành học bổng, bảo vệ trình độ và giá trị của mình trước những ứng viên mạnh khác. Một sự theo đuổi bền bỉ cơ hội để vươn lên.",
+        "reversed": "Bạn đã từ bỏ việc nộp đơn xin học bổng do sự cạnh tranh quá lớn hoặc sự tự nghi ngờ. Cảm giác không xứng đáng hoặc không thể cạnh tranh hiệu quả đã khiến bạn buông xuôi."
+      },
+      "talent": {
+        "upright": "Bạn kiên định bảo vệ và khẳng định tài năng độc đáo của mình trước những lời chỉ trích, sự cạnh tranh hoặc sự tự nghi ngờ. Một hành động dũng cảm của sự thể hiện và niềm tin vào bản thân.",
+        "reversed": "Bạn che giấu tài năng của mình, cảm thấy bất an khi thể hiện nó hoặc đã khuất phục trước áp lực bên ngoài kìm hãm sự sáng tạo và thể hiện bản thân. Linh hồn bạn cất giấu đi ánh sáng riêng."
+      },
+      "spirit_guide": {
+        "upright": "Bạn chủ động bảo vệ mối liên kết với người dẫn dắt tâm linh của mình, duy trì niềm tin và sự tiếp nhận bất chấp những xao nhãng trần tục hoặc thách thức tinh thần. Đứng vững trong sự hiểu biết trực giác của bạn.",
+        "reversed": "Bạn cảm thấy mất kết nối với người dẫn dắt tâm linh, nghi ngờ sự hiện diện hoặc thông điệp của họ, hoặc đã khuất phục trước sự hoài nghi và đóng cửa giao tiếp tâm linh."
       }
     },
     "planet": "Sao Hỏa",
@@ -7035,6 +9123,78 @@ window.TAROT_DB = [
       "lost_item": {
         "upright": "Món đồ thất lạc có thể được tìm thấy ở một nơi liên quan đến sự di chuyển, hoặc nó đang trên đường trở về với bạn. Hãy tìm kiếm ở những nơi bạn thường đi lại nhanh chóng.",
         "reversed": "Món đồ có thể bị mất do sự bất cẩn trong lúc vội vàng hoặc bị bỏ quên trong quá trình di chuyển. Cần phải bình tĩnh và suy nghĩ lại những hành động gần đây."
+      },
+      "toxic_relationship": {
+        "upright": "Một sự kết thúc nhanh chóng và không thể chối cãi của mối ràng buộc độc hại, một sự thức tỉnh đột ngột dẫn đến sự giải thoát, hoặc sự leo thang nhanh chóng của các khuôn mẫu độc hại, buộc phải đối mặt với sự thật.",
+        "reversed": "Sự vướng mắc kéo dài, sự bất lực trong việc giải thoát khỏi xiềng xích do quán tính hoặc chu kỳ xung đột lặp lại, sự chậm trễ trong việc nhận ra bản chất độc hại, hoặc những hành động bốc đồng, hủy hoại trong mối quan hệ."
+      },
+      "soulmate": {
+        "upright": "Một sự kết nối nhanh chóng, không thể phủ nhận; tình yêu sét đánh; sự phát triển nhanh chóng của một mối liên kết sâu sắc; một cuộc gặp gỡ định mệnh diễn ra sớm hơn mong đợi, như thể vũ trụ đang thúc đẩy.",
+        "reversed": "Những chậm trễ trong việc gặp gỡ định mệnh, những hiểu lầm làm cản trở sự kết nối, hoặc sự vội vàng lao vào một mối quan hệ được cho là tri kỷ mà thực chất không phù hợp, dẫn đến sự thất vọng sâu sắc."
+      },
+      "reconciliation": {
+        "upright": "Sự giao tiếp nhanh chóng dẫn đến sự hòa giải, giải quyết nhanh gọn những xung đột trong quá khứ, một cơ hội bất ngờ để hàn gắn những vết thương cũ, như một luồng gió mới thổi qua.",
+        "reversed": "Những nỗ lực bị đình trệ, những hiểu lầm ngăn cản sự hòa giải, một hoặc cả hai bên vội vàng hòa giải mà không có sự chữa lành thích đáng, dẫn đến những vấn đề sâu xa hơn, hoặc sự tắc nghẽn hoàn toàn trong giao tiếp."
+      },
+      "secret_admirer": {
+        "upright": "Người ngưỡng mộ bí mật đột ngột tiết lộ danh tính một cách trực tiếp, một lời thú nhận bất ngờ, hoặc những dấu hiệu tình cảm rõ ràng trở nên hiển hiện, như một mũi tên tình ái xuyên qua màn sương.",
+        "reversed": "Người ngưỡng mộ do dự, trì hoãn việc tiết lộ bản thân, những hiểu lầm trong nỗ lực của họ, hoặc ý định của họ không rõ ràng và gây hoang mang, tạo ra sự khó chịu và bối rối."
+      },
+      "burnout": {
+        "upright": "Sự kiệt sức đột ngột, một sự cạn kiệt năng lượng nhanh chóng do tốc độ không ngừng nghỉ, hoặc một nhận thức cấp bách rằng cần phải giảm tốc độ, như một cảnh báo từ vũ trụ.",
+        "reversed": "Trạng thái kiệt sức kéo dài, sự bất lực trong việc hồi phục do áp lực liên tục, hoặc một nỗ lực hoảng loạn, thiếu tập trung để vượt qua, làm trầm trọng thêm tình trạng, đẩy linh hồn vào sự mệt mỏi vô tận."
+      },
+      "startup": {
+        "upright": "Sự tăng trưởng nhanh chóng, thực hiện kế hoạch thần tốc, thâm nhập thị trường nhanh chóng, tiến bộ năng động, một cơ hội mở rộng bất ngờ, như một tia chớp định mệnh.",
+        "reversed": "Sự chậm trễ trong việc ra mắt, nguồn vốn bị đình trệ, những hiểu lầm trong nội bộ đội ngũ, sự vội vàng phát triển mà không có kế hoạch thích hợp, dẫn đến sự bất ổn, hoặc sự kháng cự đối với những thay đổi cần thiết."
+      },
+      "workplace_politics": {
+        "upright": "Giải quyết xung đột nhanh chóng, giao tiếp trực tiếp xuyên qua màn kịch, hoặc sự phơi bày nhanh chóng những âm mưu ẩn giấu, mang lại sự rõ ràng tức thì.",
+        "reversed": "Sự leo thang của những xung đột nhỏ nhặt, những hiểu lầm làm thổi bùng sự cạnh tranh, sự chậm trễ trong việc giải quyết vấn đề, hoặc những hành động bốc đồng làm trầm trọng thêm căng thẳng chính trị, gây ra hỗn lo���n."
+      },
+      "side_hustle": {
+        "upright": "Thành công nhanh chóng, tạo ra thu nhập cấp tốc, mở rộng nhanh chóng công việc kinh doanh phụ, hoặc một cơ hội bất ngờ để kiếm tiền từ một kỹ năng, như một cánh cửa mới mở ra.",
+        "reversed": "Sự chậm trễ trong lợi nhuận, tiến độ bị đình trệ, quản lý thời gian kém giữa công việc chính và công việc phụ, hoặc vội vàng lao vào quá nhiều dự án mà không tập trung, dẫn đến kiệt sức và thất bại."
+      },
+      "real_estate": {
+        "upright": "Mua bán nhanh chóng, thị trường biến động nhanh, chốt giao dịch thần tốc, hoặc những cơ hội bất ngờ xuất hiện, như thể vận may đang gõ cửa.",
+        "reversed": "Sự chậm trễ trong giao dịch, các cuộc đàm phán bị đình trệ, những hiểu lầm giữa các bên, hoặc vội vàng ký kết một giao dịch mà không thẩm định kỹ lưỡng, dẫn đến những biến chứng trong tương lai."
+      },
+      "financial_loss": {
+        "upright": "Một sự sụt giảm tài chính đột ng���t, không lường trước được, sự cạn kiệt nhanh chóng các khoản tiền, hoặc một nhận thức cấp bách về sự cần thiết phải cắt giảm thua lỗ, như một tiếng chuông cảnh tỉnh.",
+        "reversed": "Sự hao hụt tài chính kéo dài, sự bất lực trong việc ngăn chặn thua lỗ do quán tính hoặc những quyết định tồi tệ, hoặc chi tiêu bốc đồng làm trầm trọng thêm tình hình, nhấn chìm vào vực sâu."
+      },
+      "sudden_wealth": {
+        "upright": "Một khoản tiền bất ngờ, lợi nhuận tài chính nhanh chóng, một sự cải thiện nhanh chóng và đáng kể về tình hình tài chính, như một phước lành từ các vị thần.",
+        "reversed": "Sự chậm trễ trong việc nhận được các khoản tiền mong đợi, quản lý tài sản bất ngờ một cách bốc đồng, hoặc sự giàu có mang lại những biến chứng và sự thất vọng không lường trước được."
+      },
+      "healing": {
+        "upright": "Sự phục hồi nhanh chóng, tiến bộ thần tốc trong các quá trình trị liệu, một bước đột phá bất ngờ trong việc thấu hiểu hoặc giải phóng nỗi đau, như một dòng chảy năng lượng tái sinh.",
+        "reversed": "Quá trình chữa lành bị đình trệ, sự kháng cự đối với những thay đổi cần thiết, những sai lầm trong hành trình chữa lành, hoặc sự vội vàng trong quá trình, dẫn đến sự phục hồi hời hợt và không trọn vẹn."
+      },
+      "stress": {
+        "upright": "Một làn sóng áp lực đột ngột, sự tích lũy nhanh chóng các trách nhiệm, hoặc sự khởi phát nhanh chóng của lo lắng do những yêu cầu quá lớn, như một cơn bão ập đến.",
+        "reversed": "Căng thẳng mãn tính, dai dẳng, sự bất lực trong việc giải tỏa căng thẳng, hoặc những phản ứng bốc đồng đối với các yếu tố gây căng thẳng làm trầm trọng thêm tình hình, dẫn đến cảm giác bị mắc kẹt và kiệt quệ."
+      },
+      "trauma": {
+        "upright": "Một sự tái kích hoạt đột ngột, một cuộc đối đầu nhanh chóng với nỗi đau trong quá khứ, hoặc một quá trình xử lý nhanh chóng, dữ dội các ký ức chấn thương dẫn đến một bước đột phá, mở ra con đường giải thoát.",
+        "reversed": "Quá trình xử lý bị đình trệ, sự kháng cự đối với việc đối mặt với chấn thương, quá khứ tiếp tục ảnh hưởng đến hiện tại thông qua các vòng lặp chưa được giải quyết, hoặc những nỗ lực bốc đồng để trốn thoát chỉ làm kéo dài chu kỳ đau khổ."
+      },
+      "exams": {
+        "upright": "Sự hiểu biết nhanh chóng các khái niệm, tiến bộ nhanh chóng trong học tập, hoàn thành thành công, hoặc sự dễ dàng bất ngờ trong quá trình thi cử, như một luồng minh triết.",
+        "reversed": "Sự chậm trễ trong chuẩn bị, hiểu sai câu hỏi, vội vàng trả lời, hoặc cảm giác bị choáng ngợp và không thể tập trung, dẫn đến kết quả kém và sự thất vọng."
+      },
+      "scholarship": {
+        "upright": "Phê duyệt nhanh chóng, thông báo chấp thuận cấp tốc, hoặc một cơ hội tài trợ bất ngờ xuất hiện, như một món quà từ số phận.",
+        "reversed": "Sự chậm trễ trong xử lý hồ sơ, những hiểu lầm với tổ chức, hoặc sự vội vàng trong quá trình nộp đơn, dẫn đến sai sót và bị từ chối, làm mất đi cơ hội quý giá."
+      },
+      "talent": {
+        "upright": "Một sự nhận ra hoặc biểu hiện đột ngột của khả năng bẩm sinh, sự phát triển nhanh chóng các kỹ năng, hoặc một cơ hội nhanh chóng để thể hiện tài năng của mình, như một ngôi sao vụt sáng.",
+        "reversed": "Sự phát triển bị đình trệ, sự kháng cự đối với việc mài giũa tài năng, sự định hướng sai lầm của tài năng, hoặc bốc đồng theo đuổi quá nhiều con đường, làm phân tán tiềm năng và sức mạnh bên trong."
+      },
+      "spirit_guide": {
+        "upright": "Sự giao tiếp nhanh chóng và rõ ràng từ cõi linh hồn, những hiểu biết sâu sắc bất ngờ, hoặc một sự mở ra nhanh chóng của những sự đồng bộ dẫn lối, như một ngọn hải đăng tâm linh.",
+        "reversed": "Giao tiếp bị chặn, hiểu sai thông điệp tâm linh, sự chậm trễ trong việc nhận được sự hướng dẫn, hoặc cảm thấy bị choáng ngợp bởi quá nhiều thông điệp mâu thuẫn, dẫn đến sự bối rối và mất phương hướng."
       }
     },
     "planet": "Sao Thủy",
@@ -7266,6 +9426,78 @@ window.TAROT_DB = [
       "lost_item": {
         "upright": "Món đồ thất lạc có thể được tìm thấy ở một nơi bạn đã tìm kiếm nhiều lần, nhưng cần sự kiên trì cuối cùng. Hãy tìm kiếm ở những nơi bạn đã bảo vệ hoặc cất giữ cẩn thận.",
         "reversed": "Món đồ có thể bị mất do sự mệt mỏi trong quá trình tìm kiếm hoặc bị bỏ quên ở một nơi không được chú ý. Cần phải nghỉ ngơi và suy nghĩ lại những hành động gần đây."
+      },
+      "toxic_relationship": {
+        "upright": "Bạn đang ở trong một cuộc chiến đầy cam go, bảo vệ ranh giới và tâm hồn mình khỏi những tổn thương từ mối quan hệ độc hại. Sức chịu đựng của bạn đang được thử thách đến tột cùng, nhưng bạn vẫn kiên cường đứng vững, không ngừng cảnh giác trước sự thao túng.",
+        "reversed": "Sự kiệt sức đã bào mòn ý chí của bạn, khiến bạn buông bỏ sự phòng thủ, trở thành nạn nhân của sự thao túng hoặc chìm đắm trong sự nghi ngờ, sợ hãi. Bạn có thể đang từ chối thiết lập ranh giới, hoặc đã hoàn toàn mất đi khả năng tự bảo vệ."
+      },
+      "soulmate": {
+        "upright": "Mối liên kết này đã trải qua vô vàn thử thách, được tôi luyện trong lửa và chứng minh sự bền bỉ. Tuy nhiên, những vết sẹo cũ khiến bạn vẫn còn dè dặt, cảnh giác, chưa hoàn toàn mở lòng dù biết đây là định mệnh của mình.",
+        "reversed": "Những vết thương lòng từ quá khứ đang ngăn cản bạn đón nhận trọn vẹn tình yêu đích thực. Nỗi sợ hãi và sự đề phòng thái quá khiến bạn đẩy xa linh hồn tri kỷ, hoặc tự tạo ra những rào cản vô hình, từ chối sự hòa hợp sâu sắc."
+      },
+      "reconciliation": {
+        "upright": "Sự hàn gắn được tiếp cận với một thái độ thận trọng, đầy cảnh giác. Bạn sẵn lòng thử lại, nhưng với những ranh giới rõ ràng và yêu cầu minh chứng cho sự thay đổi. Những vết sẹo cũ khiến lòng tin khó được xây dựng lại hoàn toàn.",
+        "reversed": "Sự mệt mỏi và tổn thương dai dẳng khiến bạn từ chối mọi nỗ lực hòa giải, chìm đắm trong sự cay đắng và hoài nghi. Hoặc, bạn có thể vội vàng hòa giải mà không thực sự chữa lành, lặp lại những khuôn mẫu cũ đầy đau khổ."
+      },
+      "secret_admirer": {
+        "upright": "Người ngưỡng mộ bí mật đang quan sát bạn với sự thận trọng, có thể vì họ từng bị tổn thương hoặc sợ hãi sự từ chối. Họ đang ở tư thế phòng thủ, chưa dám bộc lộ tình cảm. Hoặc, chính bạn đang cảnh giác với những sự chú ý mới.",
+        "reversed": "Người ngưỡng mộ đã từ bỏ ý định bộc lộ tình cảm do sự nhút nhát hoặc cảm thấy không có hy vọng. Hoặc, sự đa nghi, cảnh giác thái quá của bạn khiến bạn bỏ lỡ những dấu hiệu tinh tế từ người thầm yêu mình."
+      },
+      "burnout": {
+        "upright": "Bạn đã đẩy bản thân đến giới hạn cuối cùng, dồn toàn bộ sức lực vào một trận chiến dài hơi. Đây là đỉnh điểm của sự chịu đựng, một khoảnh khắc trước bờ vực kiệt quệ nhưng vẫn kiên cường đứng vững.",
+        "reversed": "Sự kiệt sức đã hoàn toàn nhấn chìm bạn, khiến bạn buông bỏ mọi thứ. Đây là trạng thái suy sụp hoàn toàn, cơ thể và tâm trí không còn khả năng chống đỡ, hoặc bạn đang cố chấp từ chối nghỉ ngơi, dẫn đến tổn hại nghiêm trọng."
+      },
+      "startup": {
+        "upright": "Dự án khởi nghiệp của bạn đang ở giai đoạn cuối cùng đầy cam go, đòi hỏi sự kiên cường phi thường để bảo vệ tầm nhìn và vượt qua mọi trở ngại. Đây là trận chiến cuối cùng trước khi đạt được sự ổn định.",
+        "reversed": "Sự mệt mỏi đã khiến bạn từ bỏ ước mơ khởi nghiệp, không còn khả năng bảo vệ ý tưởng trước những thách thức. Sự đa nghi và sợ hãi thất bại có thể làm tê liệt mọi hành động, hoặc sự cứng nhắc khiến dự án không thể thích nghi và sụp đổ."
+      },
+      "workplace_politics": {
+        "upright": "Bạn đang giữ vững lập trường và bảo vệ sự chính trực của mình giữa những âm mưu nơi công sở. Sự cảnh giác và chiến lược thận trọng là cần thiết để vượt qua những cạm bẫy và sự đố kỵ.",
+        "reversed": "Sự kiệt sức từ những cuộc chiến liên miên khiến bạn dễ dàng bị thao túng hoặc buông bỏ. Sự đa nghi có thể khiến bạn cô lập bản thân, hoặc sự hung hăng thái quá biến bạn thành kẻ thù trong mắt đồng nghiệp."
+      },
+      "side_hustle": {
+        "upright": "Dự án phụ của bạn đòi hỏi một sự nỗ lực phi thường, là minh chứng cho sự kiên trì và tận tâm của bạn. Bạn đang đẩy mình đến giới hạn để theo đuổi một mục tiêu kép, vượt qua sự mệt mỏi để đạt được thành quả.",
+        "reversed": "Sự quá tải và kiệt sức từ việc ôm đồm quá nhiều khiến bạn phải từ bỏ dự án phụ. Hoặc, việc thiếu ranh giới rõ ràng giữa công việc chính và phụ dẫn đến kiệt quệ toàn diện."
+      },
+      "real_estate": {
+        "upright": "Bạn đang trong một cuộc đàm phán kéo dài, bảo vệ tài sản hoặc lợi ích của mình. Sự cảnh giác trong hợp đồng, kiểm tra kỹ lưỡng là cần thiết. Đây là giai đoạn cuối cùng đầy thử thách trong giao dịch bất động sản.",
+        "reversed": "Sự mệt mỏi khiến bạn từ bỏ một giao dịch tiềm năng. Sự đa nghi về thị trường hoặc sự cứng nhắc trong thỏa hiệp có thể gây ra tổn thất. Hoặc, thiếu sự thẩm định kỹ lưỡng khiến bạn dễ bị tổn thương."
+      },
+      "financial_loss": {
+        "upright": "Bạn đang thực hiện một nỗ lực cuối cùng để giảm thiểu tổn thất, bảo vệ những gì còn lại. Những bài học từ quá khứ giúp bạn cảnh giác hơn, tiếp cận tài chính một cách thận trọng để tránh những rủi ro tiếp theo.",
+        "reversed": "Bạn đã buông xuôi trước những tổn thất, chìm đắm trong sự tuyệt vọng và nghi ngờ về tương lai tài chính. Sự cứng nhắc không chịu thay đổi chiến lược có thể khiến bạn rơi vào hố sâu tài chính hơn nữa."
+      },
+      "sudden_wealth": {
+        "upright": "Bạn nhận được của cải bất ngờ nhưng vẫn giữ thái độ dè dặt, cảnh giác với những hệ lụy hoặc những kẻ có thể lợi dụng. Bạn tiếp cận sự giàu có mới một cách thận trọng, bảo vệ vị thế của mình.",
+        "reversed": "Sự đa nghi và sợ hãi mất đi của cải khiến bạn trở nên cô lập, phòng thủ quá mức. Hoặc, bạn không thể quản lý được trách nhiệm mới, dẫn đến sự lãng phí và mất mát nhanh chóng."
+      },
+      "healing": {
+        "upright": "Bạn đang ở giai đoạn cuối cùng của quá trình hồi phục, kiên cường chịu đựng những cơn đau cuối cùng. Ý chí mạnh mẽ giúp bạn vượt qua những vết thương cũ, bảo vệ tiến trình chữa lành của mình một cách cẩn trọng.",
+        "reversed": "Bạn đã từ bỏ quá trình chữa lành, để những vết thương cũ ám ảnh và làm bạn suy yếu. Sự đa nghi về khả năng hồi phục hoặc sự cứng nhắc từ chối đối mặt với nguyên nhân gốc rễ dẫn đến sự đau khổ mãn tính."
+      },
+      "stress": {
+        "upright": "Bạn đang ở đỉnh điểm của sự căng thẳng, phải vượt qua một giai đoạn đầy áp lực. Trạng thái cảnh giác và sức chịu đựng tinh thần cao độ giúp bạn đứng vững, dù đang cận kề bờ vực kiệt sức.",
+        "reversed": "Bạn hoàn toàn suy sụp và bị nhấn chìm bởi căng thẳng, không còn khả năng chống đỡ. Nỗi lo lắng mãn tính, sự đa nghi hoặc bất lực trong việc đối phó dẫn đến sự suy sụp về thể chất và tinh thần."
+      },
+      "trauma": {
+        "upright": "Bạn đang sống với những di chứng của chấn thương, xây dựng hàng rào phòng thủ và cơ chế đối phó. Đây là cuộc chiến không ngừng nghỉ để tích hợp và chữa lành những vết thương quá khứ, tạo nên sức mạnh kiên cường từ đau khổ.",
+        "reversed": "Bạn hoàn toàn bị chấn thương nuốt chửng, không thể vượt qua. Sự đa nghi và cảnh giác quá mức trở nên suy nhược, hoặc sự sụp đổ hoàn toàn của các cơ chế phòng thủ khiến bạn dễ b��� tổn thương và choáng ngợp."
+      },
+      "exams": {
+        "upright": "Đây là giai đoạn cuối cùng đầy căng thẳng trước kỳ thi, bạn đang dồn hết sức lực để ôn luyện. Sự tập trung cao độ và ý chí kiên cường giúp bạn vượt qua áp lực và những nghi ngờ về bản thân.",
+        "reversed": "Bạn đã buông xuôi trước hoặc trong kỳ thi do quá tải. Sự đa nghi về khả năng của bản thân, sự cứng nhắc không chịu chuẩn bị đầy đủ, hoặc sự tê liệt tinh thần dưới áp lực dẫn đến thất bại."
+      },
+      "scholarship": {
+        "upright": "Bạn đã giành được học bổng nhờ nỗ lực bền bỉ và vượt qua nhiều thử thách học thuật. Đây là phần thưởng cho sự kiên trì, nhưng cũng đòi hỏi bạn phải tiếp nhận trách nhiệm mới một cách thận trọng và bảo vệ thành tích của mình.",
+        "reversed": "Bạn đã đánh mất học bổng do kiệt sức hoặc không thể duy trì tiêu chuẩn. Sự đa nghi về khả năng cạnh tranh hoặc sự cứng nhắc không chịu tìm ki���m sự giúp đỡ dẫn đến sự sa sút trong học tập."
+      },
+      "talent": {
+        "upright": "Tài năng của bạn đã được mài giũa qua vô vàn nỗ lực và sự kiên trì, vượt qua khó khăn để đạt được sự tinh thông. Bạn bảo vệ sự chính trực nghệ thuật hoặc chuyên môn của mình, đây là một thành quả khó khăn mới có được.",
+        "reversed": "Bạn đã từ bỏ việc phát triển tài năng do sự thất vọng hoặc thiếu động lực. Sự đa nghi về khả năng của bản thân hoặc sự cứng nhắc không chịu tiếp thu phê bình đã cản trở sự phát triển của bạn."
+      },
+      "spirit_guide": {
+        "upright": "Vị linh hướng đã đồng hành cùng bạn qua nhiều thử thách, mang đến sức mạnh và sự bảo vệ thầm lặng, khuyến khích sự kiên cường của bạn. Bạn cần cảnh giác và lắng nghe những chỉ dẫn tinh tế của họ.",
+        "reversed": "Bạn cảm thấy mất kết nối với linh hướng do kiệt sức hoặc sợ hãi. Bạn đang bỏ qua những lời cảnh báo tinh tế của họ, hoặc sự cứng nhắc từ chối chấp nhận sự hướng dẫn, khiến bạn cảm thấy lạc lối và không được bảo vệ."
       }
     },
     "planet": "Mặt Trăng",
@@ -7497,6 +9729,78 @@ window.TAROT_DB = [
       "general": {
         "upright": "Bạn đang gánh vác quá nhiều trách nhiệm, cảm thấy kiệt sức và quá tải, nhưng đã gần đến đích. Cần nghỉ ngơi và buông bỏ.",
         "reversed": "Tìm cách giải tỏa gánh nặng, học cách ủy thác và từ chối, hoặc bạn đang từ bỏ mọi thứ vì không thể chịu đựng thêm áp lực."
+      },
+      "toxic_relationship": {
+        "upright": "Lá bài này báo hiệu gánh nặng đè nén từ một mối quan hệ độc hại, nơi bạn đang gồng mình chịu đựng mọi trách nhiệm và đau khổ, cảm thấy kiệt sức và bị trói buộc bởi những sợi dây vô hình.",
+        "reversed": "Đây là dấu hiệu của sự giải thoát khỏi gánh nặng của mối quan hệ độc hại, hoặc bạn đang tìm thấy sức mạnh để buông bỏ. Tuy nhiên, nó cũng có thể ám chỉ sự chối bỏ thực tại độc hại, khiến gánh nặng tiếp tục đeo bám, hoặc s��� kiệt quệ đến mức không thể thoát ra."
+      },
+      "soulmate": {
+        "upright": "Hành trình tìm kiếm tri kỷ đang trở thành một gánh nặng tâm hồn, chất đầy những kỳ vọng, thử thách và trách nhiệm vô hình. Mối liên kết có thể mang theo những bài học nặng nề cần được thấu hiểu.",
+        "reversed": "Bạn đang giải phóng bản thân khỏi những kỳ vọng phi thực tế về tri kỷ, tìm thấy sự nhẹ nhõm khi không còn áp lực phải tìm kiếm 'người duy nhất'. Hoặc, mối quan hệ tri kỷ đang dần cởi bỏ những gánh nặng ban đầu, trở nên nhẹ nhàng và dễ dàng hơn."
+      },
+      "reconciliation": {
+        "upright": "Con đường hòa giải đang chất chồng những gánh nặng từ quá khứ, những tổn thương và trách nhiệm chưa được giải quyết, khiến quá trình này trở nên vô cùng khó khăn và nặng nề.",
+        "reversed": "Bạn đang buông bỏ nhu cầu hòa giải, tìm thấy sự bình yên mà không cần đến nó, hoặc nhận ra rằng gánh nặng của quá khứ quá lớn để c�� thể thực sự hàn gắn. Hoặc, bạn đã thành công trong việc gỡ bỏ những gánh nặng cũ để tiến tới hòa giải thực sự."
+      },
+      "secret_admirer": {
+        "upright": "Người ngưỡng mộ thầm kín đang mang trong mình một gánh nặng lớn của cảm xúc chưa nói ra, áp lực giữ bí mật và trách nhiệm của tình cảm đơn phương, khiến họ kiệt sức trong im lặng.",
+        "reversed": "Người ngưỡng mộ thầm kín đang dần trút bỏ gánh nặng bí mật, có thể là bằng cách tiết lộ cảm xúc, hoặc quyết định buông bỏ sự ngưỡng mộ vì gánh nặng quá lớn. Hoặc, họ vẫn đang vật lộn để giải thoát mình khỏi sự ràng buộc của bí mật này."
+      },
+      "burnout": {
+        "upright": "Đây là biểu tượng rõ ràng của sự kiệt sức toàn diện. Bạn đang bị đè nặng bởi quá nhiều trách nhiệm, công việc và áp lực, cảm thấy hoàn toàn cạn kiệt năng lượng và tinh thần.",
+        "reversed": "Bạn đang nhận ra và chủ động tìm cách giải tỏa sự kiệt sức, buông b�� trách nhiệm, nghỉ ngơi. Tuy nhiên, nó cũng có thể chỉ ra rằng bạn đã quá kiệt quệ đến mức không thể tìm cách thoát ra, bị mắc kẹt trong trạng thái quá tải."
+      },
+      "startup": {
+        "upright": "Việc khởi nghiệp đang trở thành một gánh nặng khổng lồ, đòi hỏi sự hy sinh, trách nhiệm không ngừng nghỉ và những nỗ lực kiệt sức, khiến bạn cảm thấy bị quá tải bởi mọi thứ.",
+        "reversed": "Bạn đang học cách ủy thác, loại bỏ những gánh nặng không cần thiết, tìm kiếm phương pháp làm việc thông minh hơn, hoặc nhận ra rằng ý tưởng khởi nghiệp quá nặng nề và quyết định buông bỏ. Hoặc, sự kiệt sức khiến bạn không thể buông bỏ quyền kiểm soát."
+      },
+      "workplace_politics": {
+        "upright": "Bạn đang gánh chịu gánh nặng nặng nề từ những mưu toan, phức tạp và căng thẳng của chính trị công sở, cảm thấy kiệt sức khi phải điều hướng những mối quan hệ khó khăn và đấu tranh quyền lực.",
+        "reversed": "Bạn đang giải thoát bản thân khỏi sự ràng buộc của chính trị công sở, tìm cách vượt lên hoặc rút lui khỏi những drama, hoặc ủy thác việc xử lý cho người khác. Hoặc, bạn đang vật lộn để thoát khỏi gánh nặng này, bị nó nhấn chìm."
+      },
+      "side_hustle": {
+        "upright": "Công việc tay trái đang trở thành một gánh nặng bổ sung, gây thêm căng thẳng và kiệt sức vào cuộc sống vốn đã bận rộn. Bạn cảm thấy quá tải khi phải xoay sở quá nhiều thứ cùng lúc.",
+        "reversed": "Bạn đang thành công trong việc tích hợp công việc tay trái mà không bị quá tải, tìm cách quản lý khối lượng công việc, hoặc quyết định buông bỏ nó để giảm bớt áp lực. Hoặc, bạn đang vật lộn để buông bỏ công việc tay trái dù nó đang quá sức."
+      },
+      "real_estate": {
+        "upright": "Gánh nặng và trách nhiệm lớn từ một giao dịch bất động sản đang đè nặng lên bạn – từ tài chính, giấy tờ, đến việc di chuyển hoặc sửa chữa. Hoặc, bạn đang gánh m���t tài sản là gánh nặng tài chính.",
+        "reversed": "Bạn đang tìm thấy sự giải thoát khỏi những gánh nặng bất động sản, hoàn tất giao dịch thành công và trút bỏ căng thẳng, hoặc khôn ngoan giải phóng một tài sản gây hao tổn. Hoặc, bạn không thể thoát khỏi gánh nặng tài chính của một tài sản."
+      },
+      "financial_loss": {
+        "upright": "Bạn đang mang gánh nặng nặng nề của một khoản thua lỗ tài chính, cảm thấy quá tải bởi nợ nần hoặc những hệ lụy của nó, vật lộn dưới sức ép đè nén.",
+        "reversed": "Bạn đang dần trút bỏ gánh nặng của thua lỗ tài chính, tìm thấy con đường phục hồi, hoặc chấp nhận mất mát và tiến về phía trước mà không còn gánh nặng cảm xúc. Hoặc, bạn từ chối chấp nhận mất mát, tiếp tục mang gánh nặng cảm xúc."
+      },
+      "sudden_wealth": {
+        "upright": "Sự giàu có bất ngờ mang đến những trách nhiệm nặng nề không lường trước, gánh nặng quản lý tài sản mới, áp lực từ những kỳ vọng, hoặc sức nặng của địa vị mới. Đây không phải là một gánh vác nhẹ nhàng.",
+        "reversed": "Bạn đang học cách quản lý sự giàu có bất ngờ một cách khôn ngoan, loại bỏ những gánh nặng không cần thiết đi kèm, hoặc sử dụng tài sản để giảm bớt áp lực hiện có. Hoặc, bạn đang bị quá tải bởi những trách nhiệm mới, không thể thích nghi."
+      },
+      "healing": {
+        "upright": "Hành trình chữa lành đang trở nên dài đằng đẵng, gian nan và cảm giác như một gánh nặng nặng nề. Nó đòi hỏi nỗ lực và sự kiên trì phi thường để vượt qua.",
+        "reversed": "Bạn đang giải phóng sự kháng cự với việc chữa lành, trút bỏ những vết thương cũ, tìm thấy sự nhẹ nhõm khi quá trình chữa lành tiến triển. Hoặc, bạn từ chối thực hiện công việc cần thiết, kéo dài gánh nặng, hoặc cảm thấy quá tải để bắt đầu."
+      },
+      "stress": {
+        "upright": "Lá bài này là biểu tượng của sự căng thẳng. Bạn đang cảm thấy hoàn toàn b��� quá tải, bị đè bẹp bởi áp lực và mang một gánh nặng trách nhiệm không thể chịu đựng nổi.",
+        "reversed": "Bạn đang chủ động tìm cách giảm căng thẳng, ủy thác công việc, tìm kiếm cơ chế đối phó và thành công trong việc trút bỏ những áp lực quá lớn. Hoặc, bạn quá căng thẳng đến mức không thể tìm ra lối thoát, hoặc từ chối nhận ra nhu cầu giải tỏa."
+      },
+      "trauma": {
+        "upright": "Bạn đang mang gánh nặng nặng nề, dai dẳng của chấn thương trong quá khứ, cảm nhận sức nặng của nó trong mọi khía cạnh cuộc sống, vật lộn dưới sự hiện diện áp bức của nó.",
+        "reversed": "Bạn đang bắt đầu xử lý và giải phóng gánh nặng chấn thương, tìm kiếm sự hỗ trợ trị liệu để trút bỏ, hoặc cuối cùng cho phép bản thân chữa lành và hướng tới sự nhẹ nhõm. Hoặc, bạn không thể giải phóng chấn thương, hoặc từ chối thừa nhận tác động của nó."
+      },
+      "exams": {
+        "upright": "Bạn đang cảm thấy hoàn toàn bị quá tải bởi áp lực thi cử, khối lượng học tập khổng lồ, trách nhiệm phải đạt kết quả tốt và lượng kiến thức khổng lồ cần nắm vững.",
+        "reversed": "Bạn đang thành công trong việc quản lý căng thẳng thi cử, ủy thác nhiệm vụ học tập (nếu có thể), tìm kiếm chiến lược học tập hiệu quả để giảm bớt gánh nặng, hoặc cuối cùng hoàn thành kỳ thi và trút bỏ áp lực. Hoặc, bạn quá tải đến mức tê liệt hoặc bỏ cuộc."
+      },
+      "scholarship": {
+        "upright": "Học bổng đi kèm với những trách nhiệm đáng kể, áp lực học thuật và gánh nặng phải duy trì tiêu chuẩn cao để giữ vững nó. Đây là một cam kết nặng nề nhưng giá trị.",
+        "reversed": "Bạn đang thành công trong việc quản lý các yêu cầu của học bổng, tìm thấy sự cân bằng để tránh kiệt sức, hoặc hoàn thành các yêu cầu của nó một cách duyên dáng và dễ dàng. Hoặc, bạn đang bị quá tải bởi các yêu cầu của học bổng và vật lộn để mang vác gánh nặng."
+      },
+      "talent": {
+        "upright": "Bạn đang mang gánh nặng nặng nề của một tài năng lớn – áp lực phải thể hiện, trách nhiệm phát triển nó, những hy sinh cần thiết, hoặc cảm thấy quá tải bởi những yêu cầu của nó.",
+        "reversed": "Bạn đang học cách đón nhận và thể hiện tài năng mà không biến nó thành gánh nặng đè nén, tìm thấy niềm vui và sự dễ dàng trong việc thể hiện, hoặc trút bỏ những áp lực bên ngoài liên quan. Hoặc, bạn từ chối phát triển tài năng vì trách nhiệm quá lớn."
+      },
+      "spirit_guide": {
+        "upright": "Sự hiện diện của một linh hồn dẫn đường mang đến một cảm giác trách nhiệm sâu sắc, đôi khi nặng nề, hoặc một bài học tâm linh quan trọng mà bạn cảm thấy như một gánh nặng cần phải tích hợp. Các thông điệp có thể đầy thử thách hoặc đòi hỏi công việc nội tâm sâu sắc.",
+        "reversed": "Bạn đang giải phóng sự kháng cự với sự hướng dẫn, tìm thấy sự dễ dàng và rõ r��ng trong kết nối, hoặc thành công trong việc tích hợp các bài học tâm linh và trút bỏ gánh nặng ban đầu. Hoặc, bạn đang vật lộn để hiểu hoặc chấp nhận sự hướng dẫn, tiếp tục cảm thấy sức nặng của nó."
       }
     },
     "planet": "Sao Thổ",
@@ -7728,6 +10032,78 @@ window.TAROT_DB = [
       "lost_item": {
         "upright": "Bạn sẽ nhận được một gợi ý hoặc một tia sáng bất ngờ về nơi ở của món đồ thất lạc. Một ý tưởng mới hoặc sự tò mò sẽ dẫn lối bạn tìm thấy nó.",
         "reversed": "Những thông tin sai lệch hoặc sự thiếu tập trung đang cản trở việc tìm kiếm. Món đồ có thể bị mất do sự bất cẩn hoặc thiếu quan tâm của bạn."
+      },
+      "toxic_relationship": {
+        "upright": "Một tia lửa mới lóe lên, mang theo sự phấn khích ban đầu nhưng cũng ẩn chứa những hạt giống của sự bất ổn. Đây có thể là thông điệp về một khởi đầu đầy mê hoặc, nơi sự ngây thơ che lấp những dấu hiệu cảnh báo, hoặc một lời nhắc nhở về sự khởi đầu của một chu kỳ cần được quan sát kỹ lưỡng.",
+        "reversed": "Sự non nớt trong cảm xúc hoặc hành vi trở nên rõ ràng, dẫn đến những lời hứa hão huyền hoặc sự thiếu cam kết. Thông đi��p về mối quan hệ này bị bóp méo, sự thật bị che đậy bởi những ảo tưởng hoặc sự từ chối đối mặt với bản chất thực sự của sự độc hại."
+      },
+      "soulmate": {
+        "upright": "Một thông điệp từ vũ trụ, báo hiệu sự xuất hiện của một linh hồn đồng điệu. Đây là tia sáng đầu tiên của một kết nối sâu sắc, sự khởi đầu của một hành trình lãng mạn đầy hứa hẹn, nơi sự ngây thơ và nhiệt huyết mở lối cho tình yêu đích thực.",
+        "reversed": "Những chướng ngại vật hoặc sự hiểu lầm trì hoãn việc gặp gỡ linh hồn tri kỷ. Có thể là do sự thiếu trưởng thành trong cách tiếp cận tình yêu, hoặc một thông điệp bị hiểu sai, dẫn đến những khởi đầu giả tạo hoặc những mối quan hệ không dẫn đến đâu."
+      },
+      "reconciliation": {
+        "upright": "Một tia hy vọng mới bùng cháy, mang theo thông điệp về sự hàn gắn hoặc một lời mời tái kết nối. Đây là khởi đầu của một nỗ lực chân thành, nơi sự nhiệt huyết và mong muốn được tha thứ mở ra cánh cửa hòa giải.",
+        "reversed": "Lời đề nghị hòa giải thiếu đi sự chân thành hoặc chỉ là một nỗ lực hời hợt. Thông điệp về sự tái hợp bị trì hoãn hoặc không thành hiện thực do sự thiếu trưởng thành, những lời hứa suông hoặc sự từ chối đối mặt với vấn đề gốc rễ."
+      },
+      "secret_admirer": {
+        "upright": "Một dấu hiệu tinh tế, một thông điệp bí ẩn hoặc một cử chỉ nhỏ bé hé lộ sự ngưỡng mộ thầm kín. Đây là khởi đầu của một câu chuyện tình yêu tiềm ẩn, nơi sự tò mò và ngây thơ tạo nên sức hút khó cưỡng.",
+        "reversed": "Người ngưỡng mộ quá nhút nhát để hành động, hoặc thông điệp của họ bị hiểu lầm, không bao giờ đến được đích. Sự ngưỡng mộ có thể chỉ là thoáng qua, thiếu chiều sâu hoặc không đủ trưởng thành để biến thành hành động cụ thể."
+      },
+      "burnout": {
+        "upright": "Một thông điệp cảnh báo sớm từ cơ thể và tâm trí, báo hiệu sự cạn kiệt năng lượng. Đây là khởi đầu của sự nhận thức về giới hạn bản thân, một tia sáng soi rọi nhu cầu cấp thiết về sự nghỉ ngơi và tái tạo.",
+        "reversed": "Sự từ chối lắng nghe những dấu hiệu cảnh báo, hoặc một cách tiếp cận non nớt, thiếu trách nhiệm trong việc quản lý năng lượng. Thông điệp về sự kiệt sức bị bỏ qua, dẫn đến sự suy sụp sâu hơn và khó khăn trong việc phục hồi."
+      },
+      "startup": {
+        "upright": "Một tia sáng của ý tưởng đột phá, sự bùng nổ của nguồn cảm hứng và nhiệt huyết để khởi nghiệp. Đây là khởi đầu của một hành trình đầy tiềm năng, nơi sự sáng tạo và khát vọng được hiện thực hóa.",
+        "reversed": "Thiếu định hướng rõ ràng, kế hoạch kinh doanh non nớt hoặc sự trì hoãn trong việc biến ý tưởng thành hành động. Nguồn cảm hứng ban đầu có thể lụi tàn, hoặc thông điệp về cơ hội bị bỏ lỡ do thiếu sự chuẩn bị và cam kết."
+      },
+      "workplace_politics": {
+        "upright": "Một thông điệp mới về những động lực quyền lực đang thay đổi, những tin đồn ban đầu hoặc những cuộc đấu tranh ngầm chớm nở. Đây là khởi đầu của việc học cách điều hướng các mối quan hệ phức tạp trong môi trường làm việc.",
+        "reversed": "Sự non nớt trong việc xử lý các tình huống chính trị, dễ bị thao túng hoặc truyền bá thông tin sai lệch. Thông điệp về sự thay đổi bị hiểu sai, dẫn đến những quyết định thiếu khôn ngoan và làm trầm trọng thêm xung đột."
+      },
+      "side_hustle": {
+        "upright": "Sự ra đời của một ý tưởng mới để tạo thêm thu nhập, một tia sáng của cơ hội và sự nhiệt huyết để bắt đầu một dự án phụ. Đây là khởi đầu của một hành trình khám phá tiềm năng và sự độc lập tài chính.",
+        "reversed": "Sự trì hoãn, thiếu kỷ luật hoặc một cách tiếp cận non nớt trong việc quản lý dự án phụ. Thông điệp về cơ hội bị bỏ lỡ, hoặc sự thiếu kiên trì khiến ý tưởng không thể phát triển thành hiện thực."
+      },
+      "real_estate": {
+        "upright": "Một thông điệp mới về cơ hội bất động sản, một danh sách mới đầy hứa hẹn hoặc một lời đề nghị ban đầu. Đây là khởi đầu của một giao dịch quan trọng, nơi sự tò mò và nhiệt huyết mở ra cánh cửa cho sự đầu tư.",
+        "reversed": "Những trì hoãn không mong muốn trong giao dịch, những lời hứa hão huyền từ bên thứ ba hoặc những quyết định non nớt trong việc mua bán. Thông điệp về tài sản bị bóp méo, dẫn đến sự thất vọng hoặc tổn thất."
+      },
+      "financial_loss": {
+        "upright": "Một thông điệp cảnh báo sớm về rủi ro tài chính tiềm ẩn, một dấu hiệu nhỏ của sự hao hụt có thể leo thang. Đây là khởi đầu của sự nhận thức về những lỗ hổng trong quản lý tài chính cần được khắc phục kịp thời.",
+        "reversed": "Sự từ chối đối mặt với thực tế tài chính, những quyết định non nớt hoặc s��� thiếu thận trọng dẫn đến tổn thất không đáng có. Thông điệp cảnh báo bị bỏ qua, khiến tình hình tài chính trở nên tồi tệ hơn."
+      },
+      "sudden_wealth": {
+        "upright": "Một thông điệp bất ngờ về cơ hội tài chính, một tia sáng của ý tưởng làm giàu hoặc một khoản lợi nhỏ bất ngờ có thể mở đường cho sự thịnh vượng. Đây là khởi đầu của một chu kỳ may mắn và phát triển.",
+        "reversed": "Sự giàu có đến nhanh chóng nhưng cũng dễ dàng mất đi do những quyết định non nớt hoặc thiếu sự quản lý khôn ngoan. Thông điệp về cơ hội bị hiểu lầm, dẫn đến sự lãng phí hoặc thất vọng về tài chính."
+      },
+      "healing": {
+        "upright": "Tia sáng đầu tiên của sự phục hồi, một thông điệp về phương pháp chữa lành mới hoặc một hy vọng được tái sinh. Đây là khởi đầu của một hành trình chữa lành, nơi sự tò mò và nhiệt huyết mở lối cho sự tái tạo.",
+        "reversed": "Sự kháng cự đối với quá trình chữa l��nh, cách tiếp cận non nớt hoặc những khởi đầu giả tạo không mang lại kết quả. Thông điệp về sự chữa lành bị bỏ qua, hoặc niềm tin vào khả năng phục hồi bị lung lay."
+      },
+      "stress": {
+        "upright": "Một thông điệp cảnh báo về sự gia tăng áp lực, tia lửa đầu tiên của sự căng thẳng hoặc nhận thức ban đầu về sự quá tải. Đây là khởi đầu của một giai đoạn cần sự chú ý đến sức khỏe tinh thần và thể chất.",
+        "reversed": "Sự từ chối thừa nhận mức độ căng thẳng, những cơ chế đối phó non nớt hoặc sự thiếu hiểu biết về nguyên nhân gốc rễ. Thông điệp về sự cần thiết phải giảm căng thẳng bị bỏ qua, dẫn đến sự suy sụp sâu hơn."
+      },
+      "trauma": {
+        "upright": "Một tia sáng mới chiếu rọi vào vết thương cũ, một thông điệp hé lộ sự thật về quá khứ hoặc khởi đầu của mong muốn được chữa lành. Đây là sự thức tỉnh ban đầu, mở ra cánh cửa để đối diện và thấu hiểu.",
+        "reversed": "Sự kháng cự đối mặt với tổn thương, những cách xử lý non nớt hoặc một thông điệp nhắc nhở về quá khứ mà không cung cấp hướng đi. Sự né tránh hoặc hiểu lầm về bản chất của vết thương lòng."
+      },
+      "exams": {
+        "upright": "Khởi đầu của một giai đoạn học tập mới, một thông điệp quan trọng liên quan đến kỳ thi hoặc sự bùng nổ của nhiệt huyết học hỏi. Đây là thời điểm để tập trung vào kiến thức và chuẩn bị cho thử thách.",
+        "reversed": "Sự trì hoãn, thiếu chuẩn bị hoặc thói quen học tập non nớt dẫn đến kết quả không mong muốn. Thông điệp về yêu cầu của kỳ thi bị hiểu sai, hoặc sự thiếu tập trung làm giảm hiệu suất."
+      },
+      "scholarship": {
+        "upright": "Một thông điệp về cơ hội học bổng, sự khởi đầu của quá trình nộp đơn hoặc tia hy vọng về nguồn tài trợ. Đây là cánh cửa mở ra cho sự phát triển học vấn và hiện thực hóa ước mơ.",
+        "reversed": "Sự chậm trễ trong việc nộp đơn, những lỗi non nớt trong hồ sơ hoặc học bổng không thành hiện thực. Thông điệp về cơ hội bị bỏ lỡ do thiếu sự chuẩn bị hoặc cam kết."
+      },
+      "talent": {
+        "upright": "Sự khám phá một tài năng tiềm ẩn, tia sáng đầu tiên của sự sáng tạo hoặc một thông điệp khuyến khích phát triển khả năng. Đây là khởi đầu của một hành trình khai phá bản thân và thể hiện cá tính.",
+        "reversed": "Tài năng bị bỏ bê, nỗi sợ hãi thể hiện bản thân hoặc việc sử dụng những món quà một cách non nớt. Thông điệp về tiềm năng bị phớt lờ, hoặc sự thiếu kỷ luật khiến tài năng không thể nở rộ."
+      },
+      "spirit_guide": {
+        "upright": "Một thông điệp rõ ràng hoặc một dấu hiệu tinh tế từ hướng dẫn tâm linh, sự nhận thức ban đầu về sự hiện diện của họ. Đây là lời mời gọi đến một kết nối sâu sắc hơn, mở ra cánh cửa cho sự hướng dẫn thiêng liêng.",
+        "reversed": "Sự hiểu lầm các thông đi��p tâm linh, sự bỏ qua lời khuyên hoặc sự thiếu trưởng thành trong thực hành tâm linh. Có thể là dấu hiệu của sự mất kết nối hoặc nhận được những hướng dẫn sai lệch."
       }
     },
     "planet": "Sao Hỏa",
@@ -7959,6 +10335,78 @@ window.TAROT_DB = [
       "lost_item": {
         "upright": "Món đồ thất lạc có thể đã bị bỏ quên trong một khoảnh khắc vội vã hoặc trong một cuộc di chuyển. Hãy nhớ lại những hoạt động gần đây, bạn sẽ tìm thấy nó ở một nơi không ngờ đến, thường là dọc theo một tuyến đường hoặc trong một chiếc túi xách ngẫu nhiên.",
         "reversed": "Vật thất lạc đã bị cuốn đi do sự cẩu thả hoặc thay đổi địa điểm quá nhanh chóng. Có thể nó đã bị bỏ lại ở một nơi xa hoặc bị hỏng hóc do sự thiếu cẩn trọng của bạn, việc tìm lại sẽ vô cùng khó khăn hoặc gần như không thể."
+      },
+      "toxic_relationship": {
+        "upright": "Khi Kỵ Sĩ Gậy xuất hiện xuôi trong một mối quan hệ độc hại, nó báo hiệu một sự gắn kết bùng nổ, đầy đam mê nhưng cũng đầy biến động. Tình yêu như một ngọn lửa cháy rực, nhưng lại thiếu sự ổn định, dễ dẫn đến xung đột nảy lửa, sự chiếm hữu mãnh liệt và những lời hứa hẹn bốc đồng, cuối cùng để lại sự hỗn loạn và kiệt sức.",
+        "reversed": "Trong khía cạnh ngược, Kỵ Sĩ Gậy chỉ ra một mối quan hệ độc hại đã trở nên mục nát, với năng lượng ban đầu biến thành sự thù địch, thao túng hoặc kiểm soát không ngừng. Sự bốc đồng và thiếu kiềm chế biến thành những cuộc cãi vã không hồi kết, sự từ bỏ trách nhiệm, hoặc một cuộc chạy trốn không lối thoát khỏi những gì đã từng là đam mê."
+      },
+      "soulmate": {
+        "upright": "Sự xuất hiện xuôi của Kỵ Sĩ Gậy cho thấy một kết nối định mệnh bùng nổ với một tri kỷ, một tia lửa điện từ không thể phủ nhận thắp lên một hành trình phiêu lưu và phát triển chung. Đây là một đối tác đầy nhiệt huyết, người sẽ thách thức và truyền cảm hứng cho bạn đón nhận cuộc sống với sự hăng hái.",
+        "reversed": "Khi Kỵ Sĩ Gậy đảo ngược, tiềm năng cho một kết nối tri kỷ sâu sắc, nồng nàn bị cản trở bởi sự thiếu kiên nhẫn, bất ổn hoặc nỗi sợ cam kết. Nó có thể chỉ ra việc gặp một tri kỷ sai thời điểm, hoặc một mối quan hệ, dù mãnh liệt đến đâu, lại bị bao vây bởi tranh cãi, sự chiếm hữu hoặc thiếu sự vững chắc, ngăn cản sự hợp nhất thực sự."
+      },
+      "reconciliation": {
+        "upright": "Kỵ Sĩ Gậy xuôi báo hiệu một mong muốn mãnh liệt, đột ngột để hàn gắn, được thúc đẩy bởi tia lửa tình cảm mới hoặc khao khát làm rõ mọi chuyện với sự chân thành táo bạo. Nó gợi ý một động thái nhanh chóng, có thể là bốc đồng, hướng tới hòa giải, thường được khởi xướng bởi một cá nhân đầy sức hút.",
+        "reversed": "Khi Kỵ Sĩ Gậy đảo ngược, những nỗ lực hòa giải bị cản trở bởi sự bướng bỉnh, giận dữ hoặc từ chối thỏa hiệp. Năng lượng bùng cháy biểu hiện thành xung đột liên tục, sự không thể buông bỏ những oán giận trong quá khứ, hoặc một nỗ lực giải quyết vội vã thiếu sự tự vấn chân thành và chỉ làm bùng lên những vết thương cũ."
+      },
+      "secret_admirer": {
+        "upright": "Kỵ Sĩ Gậy xuôi tiết lộ một người ngưỡng mộ bí mật đầy táo bạo và đam mê, sắp sửa bộc lộ bản thân bằng một cử chỉ lớn hoặc một lời tuyên bố bất ngờ. Sự ngưỡng mộ của họ mãnh liệt, có thể hơi choáng ngợp, và được thúc đẩy bởi một sức hút mạnh mẽ, không thể chối từ.",
+        "reversed": "Với Kỵ Sĩ Gậy đảo ngược, ý định của người ngưỡng mộ bí mật bị vẩn đục bởi nỗi sợ hãi, sự thiếu quyết đoán hoặc thiếu dũng khí hành động. Sự ngưỡng mộ của họ có thể biểu hiện thành hành vi thất thường, tín hiệu lẫn lộn, hoặc xu hướng tạo ra kịch tính thay vì một cách tiếp cận rõ ràng, chân thành, khiến bạn bối rối hoặc cảnh giác."
+      },
+      "burnout": {
+        "upright": "Kỵ Sĩ Gậy xuôi chỉ ra giai đoạn đầu của sự kiệt sức, nơi sự theo đuổi không ngừng nghỉ các mục tiêu, được thúc đẩy bởi ý chí kiên cường, đẩy một người đến bờ vực của sự suy sụp. Nó tượng trưng cho một cá nhân luôn 'bận rộn,' bỏ bê nghỉ ngơi để hành động, dẫn đến một sự sụp đổ đột ngột.",
+        "reversed": "Khi Kỵ Sĩ Gậy đảo ngược, nó biểu thị sự kiệt sức hoàn toàn, nơi năng lượng rực lửa đã hoàn toàn tan biến, để lại sự mệt mỏi sâu sắc, hoài nghi và mất hoàn toàn động lực. Nó cho thấy một trạng thái cạn kiệt hoàn toàn, nơi sự bốc đồng trong quá khứ đã dẫn đến sự suy sụp hoàn toàn, khiến mọi hành động trở nên bất khả thi."
+      },
+      "startup": {
+        "upright": "Kỵ Sĩ Gậy xuôi tượng trưng cho một dự án khởi nghiệp được ra mắt với niềm đam mê vô bờ bến, tham vọng táo bạo và sẵn sàng chấp nhận rủi ro. Nó thể hiện tinh thần khởi nghiệp, một làn sóng ý tưởng đổi mới nhanh chóng và một nhà lãnh đạo lôi cuốn thúc đẩy tiến độ nhanh chóng.",
+        "reversed": "Khi Kỵ Sĩ Gậy đảo ngược, một dự án khởi nghiệp bị ảnh hưởng bởi quản lý hỗn loạn, các quyết định bốc đồng và thiếu định hướng rõ ràng. Sự nhiệt tình ban đầu giảm dần khi các dự án bị đình trệ, tài nguyên bị lãng phí do hành động vội vàng, hoặc xung đột nội bộ bùng phát, đe dọa chính nền tảng của doanh nghiệp."
+      },
+      "workplace_politics": {
+        "upright": "Trong bối cảnh chính trị nơi làm việc, Kỵ Sĩ Gậy xuôi biểu thị việc tham gia với cách tiếp cận trực tiếp, quyết đoán và đôi khi quá tự tin. Nó tượng trưng cho một người mạnh dạn bảo vệ ý tưởng của mình, có thể xung đột với người khác do sự thẳng thắn, nhưng thường đạt được ảnh hưởng nhờ sức mạnh tính cách.",
+        "reversed": "Khi Kỵ Sĩ Gậy đảo ngược, chính trị nơi làm việc biểu hiện thành các chiến thuật thao túng, hung hăng hoặc quá đối đầu. Nó chỉ ra các cuộc đấu tranh quyền lực được thúc đẩy bởi cái tôi, những lời buộc tội vội vàng, hoặc một môi trường hỗn loạn nơi các cá nhân hành động hoàn toàn theo bản năng, tạo ra sự bất hòa và phá hoại tinh thần đồng đội."
+      },
+      "side_hustle": {
+        "upright": "Kỵ Sĩ Gậy xuôi đại diện cho một dự án ph��� đầy đam mê và thú vị, nhanh chóng có được đà phát triển, được thúc đẩy bởi sự nhiệt tình cá nhân và mong muốn thể hiện sự sáng tạo hoặc kiếm thêm thu nhập. Nó gợi ý một luồng năng lượng dồn vào một nỗ lực mới, có khả năng sinh lời.",
+        "reversed": "Với Kỵ Sĩ Gậy đảo ngược, một dự án phụ nhanh chóng mất đi sức hấp dẫn ban đầu, trở thành nguồn gốc của sự thất vọng hoặc hao hụt tài chính do kế hoạch kém, chi tiêu bốc đồng hoặc thiếu cam kết bền vững. Năng lượng bị phân tán, dẫn đến việc bỏ dở hoặc một dự án không bao giờ thực sự cất cánh."
+      },
+      "real_estate": {
+        "upright": "Kỵ Sĩ Gậy xuôi báo hiệu một cơ hội bất động sản đột ngột, có thể là một giao dịch mua hoặc bán bốc đồng nhưng cuối cùng lại thành công. Nó gợi ý sự biến động thị trường nhanh chóng, các quyết định đầu tư táo bạo, hoặc một môi giới lôi cuốn thúc đẩy một giao dịch nhanh chóng.",
+        "reversed": "Khi Kỵ Sĩ Gậy đảo ngược, các giao dịch bất động sản đầy rẫy sự chậm trễ, các vấn đề bất ngờ hoặc các quyết định bốc đồng đáng tiếc. Nó cảnh báo chống lại việc mua vội vàng, đầu tư sai lầm, hoặc một thị trường biến động có thể dẫn đến tổn thất đáng kể do thiếu tầm nhìn xa."
+      },
+      "financial_loss": {
+        "upright": "Kỵ Sĩ Gậy xuôi cho thấy một khoản thua lỗ tài chính xuất phát từ một khoản đầu tư bốc đồng hoặc quá tham vọng, một dự án mạo hiểm, hoặc một khoản chi phí bất ngờ, đột ngột. Nó tượng trưng cho hậu quả của việc hành động thiếu thận trọng, mặc dù có một năng lượng tiềm ẩn để phục hồi.",
+        "reversed": "Khi Kỵ Sĩ Gậy đảo ngược, nó chỉ ra một khoản thua lỗ tài chính đáng kể và có khả năng tàn khốc do sự liều lĩnh kéo dài, chi tiêu không kiểm soát hoặc một loạt các quyết định thiếu suy nghĩ. Nó làm nổi bật cái hố sâu của hậu quả khi niềm đam mê rực lửa biến thành sự tự hủy hoại không kiểm soát, khiến việc phục hồi trở thành một con đường dài và khó khăn."
+      },
+      "sudden_wealth": {
+        "upright": "Kỵ Sĩ Gậy xuôi báo hiệu một khoản tiền bất ngờ hoặc sự gia tăng nhanh chóng về tài chính, thường do một sáng kiến táo bạo, một khoản đầu tư đầu cơ thành công, hoặc một sự may mắn trong kinh doanh. Nó tượng trưng cho sự giàu có đến nhanh chóng, đòi hỏi hành động nhanh chóng, quyết đoán để quản lý.",
+        "reversed": "Khi Kỵ Sĩ Gậy đảo ngược, sự giàu có bất ngờ bị lãng phí nhanh chóng thông qua chi tiêu bốc đồng, đầu tư kém hoặc thiếu kỷ luật tài chính. Nó cảnh báo rằng một khoản lợi nhuận bất ngờ có thể trở thành một ảo ảnh thoáng qua nếu không được xử lý bằng sự khôn ngoan và tầm nhìn xa, dẫn đến sự trở lại nhanh chóng tình trạng thiếu thốn."
+      },
+      "healing": {
+        "upright": "Kỵ Sĩ Gậy xuôi biểu thị một cách tiếp cận chủ động và tràn đầy năng lượng đối với việc chữa lành, được thúc đẩy bởi ý chí mạnh mẽ để phục hồi và đón nhận sức sống mới. Nó tượng trưng cho sự cải thiện nhanh chóng, một niềm vui sống mới, hoặc việc bắt đầu một hành trình trẻ hóa thể chất hoặc tinh thần mãnh liệt.",
+        "reversed": "Khi Kỵ Sĩ Gậy đảo ngược, việc chữa lành bị cản trở bởi sự thiếu kiên nhẫn, thiếu nỗ lực nhất quán hoặc xu hướng vội vàng trong quá trình. Nó gợi ý một sự phục hồi không ổn định, những thất bại do sự liều lĩnh, hoặc sự không thể cam kết thực hiện các bước cần thiết, kéo dài sự đau khổ hoặc dẫn đến sự phục hồi không hoàn chỉnh."
+      },
+      "stress": {
+        "upright": "Kỵ Sĩ Gậy xuôi đại diện cho căng thẳng phát sinh từ quá nhiều dự án, một nhịp sống hối hả, hoặc nhu cầu hành động và phấn khích liên tục. Đây là căng thẳng của việc luôn 'bận rộn,' được thúc đẩy bởi tham vọng, dẫn đến trạng thái cảnh giác cao độ và có khả năng kiệt sức.",
+        "reversed": "Khi Kỵ Sĩ Gậy đảo ngược, nó chỉ ra căng thẳng đè nặng, suy nhược do cảm giác bị mắc kẹt, mất phương hướng, hoặc hoàn toàn kiệt sức bởi những hành động bốc đồng trong quá khứ. Nó tượng trưng cho một trạng thái mà năng lượng rực lửa đã biến thành sự tự đốt cháy bên trong, dẫn đến lo lắng, giận dữ và một nhu cầu tuyệt vọng để thoát khỏi những gì dường như ngoài tầm với."
+      },
+      "trauma": {
+        "upright": "Kỵ Sĩ Gậy xuôi nói về tác động dữ dội, tức thì của một sự kiện đau thương làm tan vỡ cảm giác ổn định của một người, dẫn đến một cú sốc cảm xúc đột ngột và choáng váng. Nó nói lên nỗi đau thô ráp, mãnh liệt và những phản ứng bốc đồng theo sau một vết thương sâu sắc.",
+        "reversed": "Khi Kỵ Sĩ Gậy đảo ngược, nó chỉ ra những tác động dai dẳng, hủy hoại của chấn thương, biểu hiện thành những cơn bùng nổ cảm xúc, trạng thái kích động liên tục, hoặc sự bồn chồn không thể tìm thấy bình yên. Vết thương chưa lành thúc đẩy hành vi thất thường, tự phá hoại và một cuộc đấu tranh tuyệt vọng để thoát khỏi quá khứ, thường thông qua những phương tiện có hại."
+      },
+      "exams": {
+        "upright": "Kỵ Sĩ Gậy xuôi biểu thị việc tiếp cận kỳ thi với sự nhiệt tình, khả năng nắm bắt khái niệm nhanh chóng và một phương pháp học tập tự tin, mặc dù đôi khi bốc đồng. Nó gợi ý một màn trình diễn táo bạo, có thể xuất sắc nhờ trí thông minh và một luồng năng lượng vào phút chót.",
+        "reversed": "Khi Kỵ Sĩ Gậy đảo ngược, kỳ thi bị hủy hoại bởi sự chuẩn bị kém do trì hoãn, thiếu tập trung hoặc không thể ghi nhớ thông tin dưới áp lực. Nó cảnh báo chống lại những câu trả lời vội vàng, sai lầm bất cẩn hoặc một sự tắc nghẽn tinh thần hoàn toàn do lo lắng và suy nghĩ phân tán."
+      },
+      "scholarship": {
+        "upright": "Kỵ Sĩ Gậy xuôi báo hiệu một cơ hội học bổng xuất hiện đột ngột hoặc được đảm bảo thông qua việc thể hiện sự thúc đẩy đặc biệt, sức hút, hoặc một đơn đăng ký đầy đam mê, hấp dẫn. Nó tượng trưng cho một con đường nhanh chóng để tiến bộ giáo dục, được thúc đẩy bởi tham vọng.",
+        "reversed": "Khi Kỵ Sĩ Gậy đảo ngược, một cơ hội học bổng bị mất do sự thiếu kiên nhẫn, không tuân thủ thời hạn, thiếu nỗ lực bền vững, hoặc một cách tiếp cận quá hung hăng phản tác dụng. Nó gợi ý rằng mặc dù tiềm năng đã có, nhưng thiếu kỷ luật hoặc hành vi liều lĩnh đã cản trở việc đạt được nó."
+      },
+      "talent": {
+        "upright": "Kỵ Sĩ Gậy xuôi đại diện cho một tài năng thô, không thể phủ nhận, được thể hiện bằng niềm đam mê, sự nhiệt tình và mong muốn biểu diễn hoặc sáng tạo một cách táo bạo. Nó tượng trưng cho một năng khiếu tự nhiên, một khả năng bẩm sinh đòi hỏi một lối thoát, thường dẫn đến những màn trình diễn ấn tượng, tự phát.",
+        "reversed": "Khi Kỵ Sĩ Gậy đảo ngược, một tài năng bị lãng phí, không được phát triển hoặc bị định hướng sai do thiếu kiên nhẫn, thiếu kỷ luật hoặc không thể tập trung. Nó gợi ý một tia sáng rực rỡ mà, nếu không được nuôi dưỡng đúng cách, sẽ trở nên thất thường, không nhất quán hoặc thậm chí hủy hoại, không đạt được tiềm năng đầy đủ của nó."
+      },
+      "spirit_guide": {
+        "upright": "Kỵ Sĩ Gậy xuôi cho thấy một linh hồn dẫn đường xuất hiện như một lực lượng đầy đam mê, năng động và truyền cảm hứng, thúc giục bạn hành động táo bạo, phiêu lưu và theo đuổi tiếng gọi thực sự của mình. Họ là một chất xúc tác cho sự thay đổi, thúc đẩy bạn đón nhận ngọn lửa bên trong mình.",
+        "reversed": "Khi Kỵ Sĩ Gậy đảo ngược, thông điệp của linh hồn dẫn đường bị che khuất bởi sự hỗn loạn nội tâm, thiếu kiên nhẫn hoặc sự kháng cự đối với sự hướng dẫn của họ. Nó gợi ý rằng mặc dù một người hướng dẫn mạnh mẽ đang hiện diện, nhưng sự liều lĩnh, năng lượng phân tán hoặc không có khả năng lắng nghe của bạn đang ngăn cản bạn nhận được sự khôn ngoan của họ, dẫn đến sự bối rối hoặc những hành động sai lầm."
       }
     },
     "planet": "Sao Mộc",
@@ -8192,6 +10640,78 @@ window.TAROT_DB = [
       "lost_item": {
         "upright": "Vật thất lạc có thể nằm ở một nơi đầy cảm hứng hoặc bị bỏ quên trong lúc bạn đang say sưa với một dự án sáng tạo nào đó. Hãy thả lỏng tâm trí, bạn sẽ tìm thấy nó ở một góc quen thuộc trong không gian làm việc hoặc giải trí của mình.",
         "reversed": "Món đồ đã mất do sự thiếu tổ chức, mất tập trung hoặc sự thờ ơ của bạn. Việc tìm kiếm sẽ khó khăn vì nó bị lẫn lộn trong sự lộn xộn hoặc bị bỏ quên do tính cách tự cho mình là trung tâm."
+      },
+      "toxic_relationship": {
+        "upright": "Mối quan hệ đầy nhiệt huyết và đam mê, nơi một người (thường là Nữ Hoàng) mang lại năng lượng sống động, khuyến khích sự độc lập và phát triển. Tuy nhiên, cường độ và sự hiện diện mạnh mẽ có thể vô tình lấn át đối phương, đòi hỏi sự cân bằng tinh tế để không trở thành độc hại.",
+        "reversed": "Mối quan hệ bị thống trị bởi sự kiểm soát, ghen tuông và tính sở hữu của một người. Năng lượng rực rỡ một thời giờ đây trở nên độc hại, dẫn đến thao túng cảm xúc, kịch tính liên miên và một bầu không khí ngột ngạt, triệt tiêu sự tự do của đối phương."
+      },
+      "soulmate": {
+        "upright": "Một kết nối linh hồn được đánh dấu bằng đam mê mãnh liệt, nguồn cảm hứng lẫn nhau và một tia lửa không thể phủ nhận. Người bạn đời này thắp sáng tinh thần bạn, khuyến khích sự độc lập và chia sẻ niềm say mê cuộc sống, tạo nên một mối quan hệ năng động, rực rỡ.",
+        "reversed": "Một kết nối linh hồn trở nên choáng ngợp, đòi hỏi hoặc sở hữu, nơi đam mê mãnh liệt biến thành sự kiểm soát hoặc ghen tuông. Nó gợi ý một mối quan hệ, dù ban đầu hấp dẫn, nhưng lại vật lộn với sự mất cân bằng, bất an và thiếu tôn trọng thực sự đối với sự tự do cá nhân."
+      },
+      "reconciliation": {
+        "upright": "Sự hòa giải được thúc đẩy bởi mong muốn chân thành khơi dậy đam mê và giải quyết vấn đề bằng sự thẳng thắn, ấm áp. Nó gợi ý một cá nhân mạnh mẽ chủ động, mang năng lượng sôi nổi và sẵn sàng thắp lại ngọn lửa, có thể với những ranh giới được đổi mới.",
+        "reversed": "Nỗ lực hòa giải xuất phát từ cái tôi, mong muốn kiểm soát hoặc nhu cầu tuyệt vọng được chú ý hơn là sự hối hận chân thành hay mong muốn chữa lành. Đó có thể là một cách tiếp cận hung hăng hoặc đòi hỏi, dẫn đến xung đột thêm hoặc một cuộc hội ngộ hời hợt thiếu sự thay đổi thực sự."
+      },
+      "secret_admirer": {
+        "upright": "Một người hâm mộ bí mật bị cuốn hút bởi sự tự tin, sức lôi cuốn và năng lượng sôi nổi của bạn. Họ quan sát tinh thần độc lập và sự hiện diện từ tính của bạn từ xa, bị thu hút bởi ngọn lửa bên trong và cách bạn dễ dàng thu hút sự chú ý.",
+        "reversed": "Một người hâm mộ bí mật mà sự ngưỡng mộ của họ gần như ám ảnh hoặc ghen tuông. Ánh mắt của họ có thể sở hữu hoặc chỉ trích, xuất phát từ sự bất an hoặc mong muốn kiểm soát. Sự 'ngưỡng mộ' của họ có thể cảm thấy xâm phạm hoặc đáng lo ngại nếu được tiết lộ, thiếu ý định thuần khiết."
+      },
+      "burnout": {
+        "upright": "Nữ Hoàng Gậy, khi bị đẩy đến giới hạn, có thể đối mặt với kiệt sức do liên tục cống hiến năng lượng, truyền cảm hứng cho người khác và duy trì vẻ ngoài rạng rỡ của mình. Nó báo hiệu một thời điểm mà sự nhiệt tình vô bờ bến của cô ấy đã bị kéo căng, cần được tự chăm sóc để ngăn chặn sự kiệt quệ.",
+        "reversed": "Kiệt sức biểu hiện dưới dạng cáu kỉnh cực độ, hung hăng và hoàn toàn mất đi niềm đam mê. Ngọn lửa rực rỡ không chỉ mờ đi mà còn biến thành sự oán giận âm ỉ, dẫn đến những lời lẽ gay gắt, sự biến động cảm xúc và cảm giác kiệt quệ sâu sắc khiến ngay cả những nhiệm vụ cơ bản cũng trở nên quá sức."
+      },
+      "startup": {
+        "upright": "Một dự án khởi nghiệp được sinh ra từ niềm đam mê lớn lao, sự sáng tạo và một động lực không sợ hãi. Khởi nghiệp này được thúc đẩy bởi một nhà lãnh đạo lôi cuốn, người truyền cảm hứng cho đội ngũ, thực hiện các sáng kiến táo bạo và mang lại năng lượng độc đáo, sôi nổi cho thị trường, định hướng cho sự phát triển năng động.",
+        "reversed": "Một dự án khởi nghiệp đang gặp khó khăn với một nhà lãnh đạo quá độc đoán hoặc thiếu tự tin, xung đột nội bộ xuất phát từ cái tôi, hoặc thiếu định hướng tập trung mặc dù ban đầu có đam mê. Nó có thể báo hiệu một ý tưởng tuyệt vời bị hủy hoại bởi quản lý kém, sự ghen tị trong đội ngũ, hoặc một nhà lãnh đạo chỉ giỏi thể hiện hơn là thực chất."
+      },
+      "workplace_politics": {
+        "upright": "Điều hướng chính trị nơi công sở bằng sự duyên dáng, lôi cuốn và khả năng bẩm sinh để gây ảnh hưởng và truyền cảm hứng. Nữ Hoàng sử dụng sự quyến rũ và thẳng thắn của mình để xây dựng liên minh, ủng hộ tầm nhìn của mình và lãnh đạo với sự chính trực, khiến cô ấy trở thành một nhân vật được kính trọng và quyền lực.",
+        "reversed": "Tham gia vào chính trị nơi công sở bằng sự hung hăng, thao túng và mong muốn thống trị hoặc kiểm soát. Điều này báo hiệu việc sử dụng ảnh hưởng của mình vì lợi ích cá nhân, nuôi dưỡng sự ghen tị, lan truyền tin đồn hoặc tạo ra một môi trường thù địch thông qua hành vi độc đoán và thiếu sự hợp tác chân chính."
+      },
+      "side_hustle": {
+        "upright": "Một công việc phụ là sự mở rộng đầy đam mê của tinh thần sáng tạo và động lực độc lập của bạn. Nó mang lại niềm vui, cho phép bạn thể hiện những tài năng độc đáo của mình, và có khả năng phát triển thành một điều gì đó quan trọng nhờ cách tiếp cận nhiệt tình và chủ động của bạn.",
+        "reversed": "Một công việc phụ trở thành nguồn căng thẳng, nghĩa vụ, hoặc một lối thoát cho sự bất an, nơi bạn liên tục tìm kiếm sự xác nhận hoặc cạnh tranh một cách hung hăng. Nó có thể thiếu niềm đam mê thực sự, cảm thấy như một gánh nặng hơn là một dự án trao quyền, hoặc trở nên quá đòi hỏi về thời gian và năng lượng của bạn."
+      },
+      "real_estate": {
+        "upright": "Một giao dịch bất động sản được đánh dấu bằng sự tự tin trong ra quyết định, con mắt tinh tường để nhận ra tiềm năng và một cách tiếp cận chủ động. Nó gợi ý một tài sản tỏa ra sự ấm áp, nằm ở một vị trí sôi động, hoặc một giao dịch được theo đuổi với sự nhiệt tình và tầm nhìn rõ ràng, dẫn đến kết quả thành công.",
+        "reversed": "Các giao dịch bất động sản đầy rẫy những cuộc đàm phán hung hăng, những quyết định bốc đồng do cái tôi điều khiển, hoặc thiếu tầm nhìn xa. Nó có thể chỉ ra một tài sản gây hao tổn năng lượng, một giao dịch trở nên quá tranh chấp, hoặc một tình huống mà một bên quá đòi hỏi và cứng nhắc, dẫn đến xung đột hoặc hối tiếc."
+      },
+      "financial_loss": {
+        "upright": "Một tổn thất tài chính có thể xảy ra do những khoản đầu tư hoặc dự án táo bạo, có lẽ quá nhiệt tình. Mặc dù có một trở ngại, sự kiên cường bẩm sinh và tinh thần lạc quan của Nữ Hoàng đảm bảo sự phục hồi nhanh chóng và một bài học quý giá được rút ra, thúc đẩy thành công trong tương lai.",
+        "reversed": "Một tổn thất tài chính bắt nguồn từ những quyết định bốc đồng, liều lĩnh hoặc quá hung hăng do cái tôi hoặc nhu cầu chứng tỏ bản thân. Nó cho thấy sự thiếu kế hoạch cẩn thận, sự cứng đầu khi đối mặt với những lời cảnh báo, hoặc xu hướng đánh bạc quá mức, dẫn đến những thất bại đáng kể và có thể tránh được."
+      },
+      "sudden_wealth": {
+        "upright": "Sự giàu có bất ngờ đến từ một dự án sinh ra từ niềm đam mê, sự sáng tạo hoặc một nỗ lực lôi cuốn. Đó không chỉ là tiền, mà còn là sự khẳng định năng lượng sôi nổi và khả năng biểu hiện sự phong phú thông qua cảm hứng và hành động tự tin của bạn.",
+        "reversed": "Sự giàu có bất ngờ mang theo cái tôi tăng cao, xu hướng chi tiêu xa hoa và lãng phí, hoặc một sự thay đổi hướng tới việc trở nên đòi hỏi và hời hợt. Sự phong phú mới tìm thấy có thể bộc lộ những bất an tiềm ẩn, dẫn đến sự kiêu ngạo hoặc sự tách rời khỏi những giá trị đích thực."
+      },
+      "healing": {
+        "upright": "Một hành trình chữa lành được tiếp thêm sức mạnh bởi ngọn lửa nội tại, sự kiên cường và cách tiếp cận chủ động đối với sức khỏe. Nó biểu thị việc đón nhận năng lượng sôi nổi, tìm kiếm các phương pháp toàn diện và dựa vào sức mạnh bẩm sinh của bạn để phục hồi sự cân bằng và sức sống.",
+        "reversed": "Một quá trình chữa lành bị cản trở bởi sự thiếu kiên nhẫn, từ chối thừa nhận các vấn đề sâu sắc hơn, hoặc sự phản kháng hung hăng đối với những thay đổi cần thiết. Nó có thể ch��� ra xu hướng thúc đẩy quá mạnh, bỏ qua lời khuyên chuyên môn hoặc bị choáng ngợp bởi sự thất vọng, dẫn đến trì trệ hoặc thất bại."
+      },
+      "stress": {
+        "upright": "Căng thẳng phát sinh từ vô số trách nhiệm, dự án sáng tạo hoặc các cuộc gặp gỡ xã hội, nơi năng lượng của Nữ Hoàng cao nhưng bị kéo căng. Đó là một loại căng thẳng hiệu quả có thể được quản lý bằng sự tập trung và tự nhận thức, thường dẫn đến kết quả thành công.",
+        "reversed": "Căng thẳng biểu hiện dưới dạng những cơn bùng nổ dữ dội, sự cáu kỉnh cực độ hoặc cảm giác bị choáng ngợp đến nghẹt thở, dẫn đến những hành vi phá hoại. Nó báo hiệu sự không thể đối phó, mất kiểm soát cảm xúc và sự đổ vỡ của năng lượng sôi nổi thành sự căng thẳng và thất vọng thuần túy."
+      },
+      "trauma": {
+        "upright": "Vượt qua chấn thương bằng ý chí sắt đá, sự kiên cường và quyết tâm lấy lại tinh thần sôi nổi của mình. Nó nói lên sức mạnh nội tại cho phép một người biến nỗi đau thành mục đích, trở nên mạnh mẽ hơn và đồng cảm hơn, nhưng vẫn tỏa sáng.",
+        "reversed": "Chấn thương biểu hiện dưới dạng sự tức giận sâu sắc, oán giận hoặc xu hướng trút giận lên người khác. Nỗi đau đã biến năng lượng rạng rỡ một thời của Nữ Hoàng thành một tư thế phòng thủ, hung hăng, khiến việc chữa lành trở nên khó khăn khi cô ấy vật lộn với sự tin tưởng, kiểm soát và chấp nhận bản thân."
+      },
+      "exams": {
+        "upright": "Tiếp cận các kỳ thi với sự tự tin, nhiệt tình và một tâm trí rõ ràng, tập trung. Năng lượng sôi nổi của bạn tiếp thêm sức mạnh cho việc học, cho phép bạn tiếp thu thông tin hiệu quả và trình bày kiến thức của mình một cách tự tin và tinh tế.",
+        "reversed": "Các kỳ thi trở thành nguồn gốc của sự lo lắng dữ dội, dẫn đến việc nhồi nhét hung hăng, nghi ngờ bản thân hoặc không thể thể hiện dưới áp lực. Nó gợi ý một cách tiếp cận rời rạc, thiếu tự tin hoặc xu hướng quá khắt khe, cản trở tiềm năng thực sự của bạn."
+      },
+      "scholarship": {
+        "upright": "Giành được học bổng thông qua khả năng lãnh đạo được thể hiện, thành tích học tập xuất sắc và sự cam kết đầy đam mê với lĩnh vực đã chọn. Sự hiện diện lôi cuốn và tinh thần độc lập của bạn khiến bạn trở thành một ứng cử viên lý tưởng, được công nhận vì tiềm năng truyền cảm hứng của mình.",
+        "reversed": "Một cơ hội học bổng bị bỏ lỡ hoặc bị đe dọa do sự kiêu ngạo, thái độ độc đoán hoặc thiếu sự hợp tác chân chính. Nó có thể chỉ ra sự tập trung vào vinh quang cá nhân hơn là lợi ích tập thể, hoặc không thể đáp ứng những kỳ vọng về sự khiêm tốn và tinh thần đồng đội."
+      },
+      "talent": {
+        "upright": "Một tài năng thiên bẩm được thể hiện bằng niềm đam mê, sự tự tin và một phong cách độc đáo, sôi nổi. Tài năng này không chỉ là kỹ năng; đó là sự mở rộng của tính cách rạng rỡ của bạn, thu hút người khác và truyền cảm hứng cho niềm vui và sự sáng tạo bất cứ nơi nào bạn áp dụng nó.",
+        "reversed": "Tài năng bị kìm hãm bởi sự bất an, bị lạm dụng cho mục đích ích kỷ, hoặc được thể hiện một cách độc đoán, hung hăng khiến người khác xa lánh. Nó gợi ý một tiềm năng không được hiện thực hóa đầy đủ hoặc đang được định hướng một cách phá hoại, có lẽ do sợ hãi sự dễ bị tổn thương hoặc nhu cầu được xác nhận liên tục."
+      },
+      "spirit_guide": {
+        "upright": "Một linh hồn dẫn đường biểu hiện dưới dạng năng lượng nữ tính mạnh mẽ, truyền cảm hứng và bảo vệ một cách mãnh liệt. Vị dẫn đường này thắp sáng ngọn lửa bên trong bạn, khuyến khích sự độc lập và giúp bạn đón nhận con đường độc đáo của mình bằng niềm đam mê và sự tự tin vững chắc.",
+        "reversed": "Một linh hồn dẫn đường mà thông điệp bị hiểu lầm, bị hiểu sai là hung hăng, hoặc sự hướng dẫn của họ cảm thấy choáng ngợp và đòi hỏi. Nó có thể báo hiệu một sự tắc nghẽn trong việc nhận được cái nhìn sâu sắc tâm linh rõ ràng, hoặc xu hướng chiếu những bất an của bản thân vào sự hướng dẫn nhận được, dẫn đến sự nhầm lẫn hoặc hành động sai lầm."
       }
     },
     "planet": "Sao Hỏa",
@@ -8424,6 +10944,78 @@ window.TAROT_DB = [
       "lost_item": {
         "upright": "Món đồ bị thất lạc trong lúc bạn đang tập trung cao độ vào một dự án quan trọng hoặc trong một không gian làm việc có tổ chức. Hãy rà soát lại những nơi bạn thường ra lệnh hoặc kiểm soát, nó sẽ xuất hiện.",
         "reversed": "Vật thất lạc do sự kiêu ngạo, bỏ bê hoặc cho rằng người khác sẽ lo liệu. Việc tìm kiếm sẽ khó khăn vì sự thiếu trách nhiệm cá nhân hoặc nó đã bị di chuyển khỏi tầm kiểm soát của bạn."
+      },
+      "toxic_relationship": {
+        "upright": "Trong mối quan hệ này, ngọn lửa đam mê bùng cháy mãnh liệt, nhưng ẩn chứa sự độc đoán của một linh hồn mạnh mẽ, khao khát kiểm soát mọi khía cạnh. Sự quyến rũ và quyền lực của một bên có thể trở thành gông cùm vàng, đòi hỏi sự phục tùng tuyệt đối dưới danh nghĩa tình yêu.",
+        "reversed": "Mối quan hệ này là một ngọn lửa địa ngục, nơi sự độc đoán biến thành bạo ngược, sự đam mê thành cơn thịnh nộ hủy diệt. Một linh hồn kiêu ngạo, thiếu kiểm soát sẽ thao túng, áp chế và gây tổn thương sâu sắc, biến tình yêu thành đấu trường quyền lực tàn khốc."
+      },
+      "soulmate": {
+        "upright": "Một linh hồn đồng điệu bùng cháy với ngọn lửa đam mê, cùng nhau thắp sáng con đường của sự sáng tạo và hoài bão. Đây là một mối liên kết định mệnh, nơi sự tự tin, lòng dũng cảm và tầm nhìn vĩ đại được sẻ chia, thúc đẩy cả hai vươn tới đỉnh cao.",
+        "reversed": "Mối liên kết ban đầu tưởng chừng là định mệnh, nhưng lại ẩn chứa sự kiêu ngạo và độc đoán. Ngọn lửa đam mê có thể trở thành ngọn lửa thiêu rụi, biến mối quan hệ thành sự kiểm soát, ghen tuông mù quáng hoặc sự thiếu ổn định, khiến linh hồn bị tổn thương và kiệt quệ."
+      },
+      "reconciliation": {
+        "upright": "Sự hòa giải được dẫn dắt bởi một linh hồn mạnh mẽ, đầy nhiệt huyết và tầm nhìn. Họ chủ động hàn gắn, không ngại đối mặt với vấn đề, và dùng sự tự tin cùng lòng chân thành để thắp lại ngọn lửa yêu thương, hướng tới một tương lai vững chắc.",
+        "reversed": "Sự hòa giải này chỉ là một màn kịch của quyền lực và kiểm soát. Một bên tìm cách quay lại không phải vì tình yêu mà vì sự kiêu ngạo, muốn giành lại vị thế hoặc chứng tỏ bản thân, khiến ngọn lửa hòa hợp không thể bùng cháy, chỉ còn lại tro tàn của sự giả dối và thiếu chân thành."
+      },
+      "secret_admirer": {
+        "upright": "Một linh hồn bí ẩn đang âm thầm ngưỡng mộ bạn, sở hữu sức hút mạnh mẽ và tầm ảnh hưởng đáng kể. Họ là người đầy nhiệt huyết, tự tin và có thể sớm bộc lộ tình cảm một cách táo bạo, đầy bất ngờ, như một tia sét đánh thẳng vào trái tim.",
+        "reversed": "Người ngưỡng mộ bí mật này có thể ẩn chứa những ý định không trong sáng, sự ám ảnh hoặc khát khao kiểm soát. Tình cảm của họ có thể bùng nổ một cách thái quá, gây khó chịu hoặc thậm chí nguy hiểm, xuất phát từ cái tôi lớn hơn là tình yêu chân chính."
+      },
+      "burnout": {
+        "upright": "Sự kiệt sức này không phải do thiếu đam mê, mà do ngọn lửa quá lớn không được kiểm soát. Một linh hồn quá nhiệt huyết, ôm đồm quá nhiều trách nhiệm, đã tự thiêu đốt năng lượng của mình bằng chính tham vọng và tầm nhìn không giới hạn.",
+        "reversed": "Sự kiệt sức này là hậu quả của một ngọn lửa đã bị dập tắt, hoặc bị bóp nghẹt bởi sự độc đoán, thiếu sáng tạo. Một linh hồn cảm thấy bị áp bức, mất đi ý chí và mục đích, dẫn đến sự suy sụp về tinh thần và thể chất, không còn khả năng bùng cháy."
+      },
+      "startup": {
+        "upright": "Một dự án khởi nghiệp được dẫn dắt bởi một linh hồn tiên phong, đầy nhiệt huyết và tầm nhìn vĩ đại. Đây là ngọn lửa khai sáng, đốt cháy mọi giới hạn, hứa hẹn sự đột phá và thành công rực rỡ nhờ vào sự tự tin và khả năng truyền cảm hứng mạnh mẽ.",
+        "reversed": "Dự án khởi nghi���p này đang chìm trong hỗn loạn do sự lãnh đạo độc đoán, thiếu kiểm soát hoặc kiêu ngạo. Ngọn lửa đam mê bị thay thế bằng sự thiếu kiên nhẫn, những quyết định bốc đồng, khiến con thuyền khởi nghiệp chao đảo, có nguy cơ tan vỡ trước giông bão."
+      },
+      "workplace_politics": {
+        "upright": "Bạn là một linh hồn có khả năng điều hướng chính trị nơi công sở bằng sự tự tin, tầm nhìn và khả năng truyền cảm hứng. Bạn có thể đoàn kết mọi người, dẫn dắt các cuộc thảo luận và định hình môi trường làm việc bằng sự khôn ngoan và quyền lực tự nhiên.",
+        "reversed": "Bạn đang vướng vào một môi trường chính trị độc hại, nơi sự kiêu ngạo, độc đoán và thao túng ngự trị. Hoặc chính bạn đang sử dụng quyền lực một cách sai trái, gây ra xung đột, làm mất lòng tin và phá vỡ sự cân bằng của tập thể, biến công sở thành chiến trường."
+      },
+      "side_hustle": {
+        "upright": "Một công việc tay trái được khai sinh từ ngọn lửa đam mê cháy bỏng và tinh thần khởi nghiệp mãnh liệt. Đây là cơ hội để một linh hồn tự tin thể hiện tài năng, sáng tạo và biến ý tưởng thành hiện thực, mang lại niềm vui và tiềm năng phát triển.",
+        "reversed": "Công việc tay trái này đang trở thành gánh nặng do sự thiếu kiểm soát, những quyết định bốc đồng hoặc cái tôi quá lớn. Ngọn lửa đam mê ban đầu có thể đã biến thành áp lực, sự căng thẳng hoặc thậm chí là sự thất vọng do thiếu tầm nhìn và sự kiên nhẫn."
+      },
+      "real_estate": {
+        "upright": "Trong lĩnh vực bất động sản, bạn là một linh hồn tiên phong, đầy tự tin và tầm nhìn. Các giao dịch được thực hiện táo bạo, với khả năng lãnh đạo mạnh mẽ và một khát vọng kiến tạo. Đây là thời điểm để đầu tư lớn, xây dựng đế chế hoặc dẫn dắt những dự án đột phá.",
+        "reversed": "Các giao dịch bất động sản đang gặp rắc rối do sự kiêu ngạo, thiếu kiểm soát hoặc những quy���t định vội vàng. Ngọn lửa tham vọng có thể thiêu rụi mọi thứ, dẫn đến xung đột, tổn thất tài chính hoặc những vướng mắc pháp lý do thiếu sự cẩn trọng và tầm nhìn xa."
+      },
+      "financial_loss": {
+        "upright": "Nếu có tổn thất tài chính, đó là do những quyết định táo bạo, mạo hiểm được thực hiện với tầm nhìn lớn, nhưng có thể đã quá vội vàng. Tuy nhiên, ngọn lửa bên trong vẫn mạnh mẽ, thúc đẩy bạn tìm cách phục hồi bằng sự kiên cường và ý chí không ngừng nghỉ.",
+        "reversed": "Tổn thất tài chính này là hậu quả trực tiếp của sự kiêu ngạo, những quyết định bốc đồng và thiếu suy nghĩ. Một linh hồn đã để cái tôi dẫn lối, không kiểm soát được ham muốn quyền lực và sự mạo hiểm, khiến tài sản tan biến như tro tàn trong ngọn lửa mất kiểm soát."
+      },
+      "sudden_wealth": {
+        "upright": "Sự giàu có bất ngờ đến từ những ý tưởng đột phá, khả năng lãnh đạo phi thường và tinh thần dám nghĩ d��m làm. Đây là phần thưởng cho một linh hồn đã dũng cảm theo đuổi đam mê và biến tầm nhìn thành hiện thực, một ngọn lửa thắp sáng con đường thịnh vượng.",
+        "reversed": "Sự giàu có bất ngờ này mang theo những rắc rối và cám dỗ. Một linh hồn có thể trở nên kiêu ngạo, tiêu xài hoang phí hoặc sử dụng tài sản vào mục đích sai trái. Ngọn lửa tiền bạc có thể thiêu rụi đạo đức và sự bình yên, dẫn đến sự bất ổn và mất mát lớn hơn."
+      },
+      "healing": {
+        "upright": "Quá trình chữa lành được dẫn dắt bởi ý chí mạnh mẽ và tinh thần lạc quan. Một linh hồn chủ động tìm kiếm con đường phục hồi, truyền cảm hứng cho chính mình và những người xung quanh bằng ngọn lửa của hy vọng và sự kiên cường, vượt qua mọi trở ngại.",
+        "reversed": "Quá trình chữa lành bị cản trở bởi sự cứng đầu, kiêu ngạo hoặc từ chối đối mặt với sự thật. Một linh hồn có thể tự hủy hoại bản thân bằng sự tức giận, thiếu kiểm soát hoặc không chấp nhận sự giúp đỡ, khiến ngọn lửa phục hồi không thể bùng cháy."
+      },
+      "stress": {
+        "upright": "Áp lực và căng thẳng đến từ trách nhiệm lãnh đạo, những dự án lớn hoặc tham vọng không ngừng nghỉ. Đây là gánh nặng của một linh hồn tiên phong, nhưng họ vẫn giữ được sự bình tĩnh và tầm nhìn để vượt qua, biến căng thẳng thành động lực.",
+        "reversed": "Căng thẳng bùng phát thành sự tức giận, độc đoán và mất kiểm soát. Một linh hồn đang bị áp lực đè nặng, nhưng thay vì đối mặt, họ lại trút bỏ sự khó chịu lên người khác, biến môi trường xung quanh thành ngọn lửa của xung đột và bất ổn."
+      },
+      "trauma": {
+        "upright": "Bạn đang tìm cách biến trải nghiệm đau thương thành sức mạnh, dẫn dắt bản thân và những người khác vượt qua bóng tối. Với ngọn lửa ý chí kiên cường, bạn đang chủ động đối mặt, chữa lành và tạo ra một câu chuyện mới đầy cảm hứng từ vết thương lòng.",
+        "reversed": "Chấn thương tâm lý đang bị bóp méo bởi sự tức giận, kiêu ngạo hoặc nhu cầu kiểm soát. Một linh hồn có thể bị mắc kẹt trong vòng xoáy của sự oán giận, sử dụng vết thương để thao túng hoặc tự hủy hoại bản thân, không thể thoát khỏi ngọn lửa quá khứ."
+      },
+      "exams": {
+        "upright": "Bạn tiếp cận kỳ thi với sự tự tin tuyệt đối, tầm nhìn rõ ràng về thành công và một ngọn lửa quyết tâm cháy bỏng. Đây là lúc để thể hiện kiến thức, khả năng lãnh đạo trong học tập và đạt được kết quả xuất sắc bằng sự nỗ lực không ngừng.",
+        "reversed": "Kỳ thi bị ảnh hưởng bởi sự tự mãn, bốc đồng hoặc thiếu chuẩn bị kỹ lưỡng do sự kiêu ngạo. Một linh hồn có thể đánh giá thấp đối thủ hoặc đề thi, dẫn đến kết quả không như mong đợi, hoặc thậm chí là những hành vi thiếu trung thực để che đậy sự thiếu sót."
+      },
+      "scholarship": {
+        "upright": "Bạn được ban tặng học bổng nhờ vào khả năng lãnh đạo xuất sắc, thành tích nổi bật và một ngọn lửa đam mê không ngừng nghỉ trong lĩnh vực của mình. Đây là sự công nhận cho tầm nhìn, ý chí và tiềm năng phi thường của một linh hồn.",
+        "reversed": "Học bổng có thể bị từ chối do sự kiêu ngạo, thái độ khó chịu hoặc thiếu sự cam kết thực sự. Một linh hồn có thể đã thể hiện tài năng, nhưng lại thất bại trong việc truyền tải sự khiêm tốn và lòng biết ơn, hoặc sử dụng học bổng một cách không xứng đáng."
+      },
+      "talent": {
+        "upright": "Tài năng của bạn bùng cháy rực rỡ, đầy táo bạo và khả năng truyền cảm hứng. Đây là tài năng lãnh đạo, sáng tạo, thu hút sự chú ý và thúc đẩy người khác hành động. Một linh hồn với ngọn lửa nghệ thuật hoặc kinh doanh mãnh liệt, không ngừng vươn xa.",
+        "reversed": "Tài năng này đang bị lãng phí, bị kìm hãm bởi sự kiêu ngạo hoặc được sử dụng vào mục đích sai trái. M��t linh hồn có thể sở hữu tiềm năng lớn, nhưng lại để cái tôi kiểm soát, dẫn đến sự xung đột, thiếu hợp tác hoặc biến tài năng thành công cụ hủy hoại."
+      },
+      "spirit_guide": {
+        "upright": "Người dẫn dắt linh hồn của bạn là một vị vua đầy quyền năng, khôn ngoan và truyền cảm hứng, mang ngọn lửa của sự lãnh đạo và bảo vệ. Họ khuyến khích bạn bước vào quyền năng của mình, theo đuổi đam mê và dẫn lối bằng sự tự tin và tầm nhìn sáng suốt.",
+        "reversed": "Người dẫn dắt linh hồn có thể đang cảnh báo bạn về con đường quyền lực độc đoán hoặc sự kiêu ngạo. Hoặc bạn đang hiểu sai thông điệp của họ, biến lời khuyên thành sự áp đặt, dẫn đến sự bất ổn và mất phương hướng trên hành trình tâm linh."
       }
     },
     "planet": "Mặt Trời",
@@ -8655,6 +11247,78 @@ window.TAROT_DB = [
       "lost_item": {
         "upright": "Món đồ bị mất có thể mang giá trị tình cảm sâu sắc và sẽ được tìm thấy khi bạn lắng nghe trực giác của mình. Hãy thả lỏng tâm trí, cảm nhận nơi nó muốn được tìm thấy.",
         "reversed": "Món đồ bị mất có thể liên quan đến một sự mất mát cảm xúc hoặc sự thiếu quan tâm. Việc tìm lại nó có thể khó khăn do sự bế tắc trong cảm xúc hoặc sự từ bỏ hy vọng."
+      },
+      "toxic_relationship": {
+        "upright": "Một dòng chảy mới của tình yêu thương và thấu hiểu đang nảy nở, mang đến cơ hội vàng để chữa lành và chuyển hóa những mối quan hệ độc hại, hướng tới sự kết nối chân thật từ trái tim.",
+        "reversed": "Cảm xúc bị bế tắc, không thể cho đi hay nhận lại tình yêu một cách chân thành, dẫn đến sự duy trì hoặc tăng cường độc tính trong mối quan hệ. Nỗi sợ hãi hoặc sự thao túng cảm xúc đang ngăn cản sự giải thoát."
+      },
+      "soulmate": {
+        "upright": "Sự xuất hiện của một kết nối tâm hồn sâu sắc, một tình yêu định mệnh đang thức tỉnh, mang đến niềm vui vỡ òa và sự thấu hiểu vô điều kiện từ vũ trụ.",
+        "reversed": "Những cơ hội kết nối sâu sắc bị bỏ lỡ do sự không sẵn sàng về mặt cảm xúc hoặc nỗi sợ hãi tổn thương. Sự nhầm lẫn về cảm xúc thực sự đang che mờ khả năng nhận diện người bạn tâm giao."
+      },
+      "reconciliation": {
+        "upright": "Một khởi đầu mới tràn đầy sự tha thứ và thấu hiểu, trái tim rộng mở đón nhận sự hàn gắn, mang đến hòa bình và sự kết nối lại từ sâu thẳm tâm hồn.",
+        "reversed": "Những bức tường cảm xúc vẫn còn tồn tại, ngăn c cản sự tha thứ chân thành. Lời xin lỗi hời hợt hoặc sự từ chối mở lòng đang cản trở quá trình hòa giải thực sự."
+      },
+      "secret_admirer": {
+        "upright": "Một tình cảm thầm kín đang hé lộ, một dòng chảy yêu thương dịu dàng đang hướng về bạn, báo hiệu một trái tim ngưỡng mộ đang sẵn sàng bày tỏ.",
+        "reversed": "Những cảm xúc ngưỡng mộ bị kìm nén do nỗi sợ hãi bị từ chối hoặc sự ngại ngùng. Sự bế tắc cảm xúc đang giữ chân người ngưỡng mộ trong im lặng, hoặc tình cảm đó xuất phát từ một động cơ không trong sáng."
+      },
+      "burnout": {
+        "upright": "Một lời mời gọi thiêng liêng để tái tạo năng lượng cảm xúc và tinh thần. Nguồn cảm hứng mới đang tuôn trào, giúp bạn kết nối lại với niềm vui và sức sống nội tại để vượt qua sự kiệt quệ.",
+        "reversed": "Sự cạn kiệt cảm xúc tiếp tục không ngừng, không thể tìm thấy sự an ủi hay nạp lại năng lượng. Sự thờ ơ với tiếng gọi của tâm hồn đang kéo dài tình trạng kiệt sức."
+      },
+      "startup": {
+        "upright": "Một dự án mới đầy đam mê, sinh ra từ nguồn cảm hứng sâu sắc và dòng chảy sáng tạo dồi dào. Một khởi đầu được truyền tải bằng tình yêu, niềm vui và sự đầu tư từ trái tim.",
+        "reversed": "Sự tắc nghẽn sáng tạo, thiếu đi sự gắn kết cảm xúc với tầm nhìn ban đầu. Nỗi sợ hãi và bất an đang bóp nghẹt tiềm năng của dự án, làm mất đi ngọn lửa đam mê."
+      },
+      "workplace_politics": {
+        "upright": "Cơ hội để nuôi dưỡng sự hòa hợp và thấu hiểu cảm xúc, mang lòng trắc ẩn vào môi trường làm việc, tạo ra một không gian tích cực và hợp tác hơn.",
+        "reversed": "Sự thao túng cảm xúc, ghen tị và oán giận đang lan tràn trong môi trường làm việc. Khó khăn trong việc kết nối chân thật với đồng nghiệp, khiến những cảm xúc tiêu cực đầu độc các mối quan hệ."
+      },
+      "side_hustle": {
+        "upright": "Một kênh sáng tạo mới hoặc dự án phụ mang lại niềm vui và sự thỏa mãn cảm xúc, hứa hẹn những phần thưởng bất ngờ về tài chính hoặc cá nhân, xuất phát từ tình yêu và cảm hứng.",
+        "reversed": "Công việc phụ trở thành gánh nặng, hút cạn năng lượng cảm xúc thay vì nuôi dưỡng nó. Thiếu đi sự quan tâm chân thật, hoặc áp lực tài chính làm lu mờ tia sáng sáng tạo ban đầu."
+      },
+      "real_estate": {
+        "upright": "Một ngôi nhà mới tràn ngập tình yêu và sự ấm áp, một không gian sống cộng hưởng sâu sắc với tâm hồn bạn, hoặc một quyết định đầu tư bất động sản được dẫn dắt bởi trái tim.",
+        "reversed": "Sự gắn bó cảm xúc quá mức với một tài sản cản trở những quyết định thực tế. Một ngôi nhà thiếu đi sự ấm áp hoặc cảm thấy trống rỗng về mặt cảm xúc, hoặc một giao dịch bất động sản bị thúc đẩy bởi sợ hãi thay vì nhu cầu chân thật."
+      },
+      "financial_loss": {
+        "upright": "Tìm thấy sự kiên cường cảm xúc và bình yên nội tâm giữa mất mát. Hiểu rằng của cải thật sự nằm bên trong, hoặc một cái nhìn tinh thần mới mẻ vượt lên trên những lo toan vật chất, dẫn đến sự chữa lành.",
+        "reversed": "Nỗi đau khổ và tuyệt vọng sâu sắc trước mất mát tài chính. Không thể vượt qua nỗi buồn, đ��� những thất bại vật chất hoàn toàn nhấn chìm sự bình an cảm xúc."
+      },
+      "sudden_wealth": {
+        "upright": "Một dòng chảy dồi dào của sự phong phú, không chỉ về vật chất mà còn về cảm xúc và tinh thần. Sự giàu có mang lại sự mãn nguyện sâu sắc, lòng quảng đại và cơ hội chia sẻ phước lành từ trái tim.",
+        "reversed": "Sự giàu có đột ngột mang lại sự trống rỗng cảm xúc, lòng tham hoặc sự cô lập. Không thể thực sự tận hưởng hoặc trân trọng sự sung túc, hoặc sự gia tăng tài nguyên đột ngột tạo ra sự hỗn loạn cảm xúc."
+      },
+      "healing": {
+        "upright": "Sự khởi đầu của quá trình chữa lành cảm xúc và tinh thần sâu sắc. Một làn sóng mới của tình yêu bản thân, lòng trắc ẩn và bình yên nội tâm đang tràn ngập, khôi phục sự cân bằng và hạnh phúc.",
+        "reversed": "Sự kháng cự với quá trình chữa lành, những tắc nghẽn cảm xúc ngăn cản sự phục hồi thực sự. Bám víu vào những vết thương cũ hoặc tìm kiếm những giải pháp hời hợt không giải quyết được nguyên nhân gốc rễ."
+      },
+      "stress": {
+        "upright": "Tìm thấy một lối thoát cảm xúc hoặc thực hành tinh thần mới để giải tỏa căng thẳng và tìm thấy sự bình yên. Một góc nhìn mới cho phép căng thẳng tan biến, mở ra sự thanh thản nội tâm.",
+        "reversed": "Bị choáng ngợp bởi gánh nặng cảm xúc, không thể đối phó với áp lực. Sự kìm nén cảm xúc dẫn đến căng thẳng gia tăng, hoặc tìm kiếm những lối thoát không lành mạnh thay vì sự giải tỏa cảm xúc chân thật."
+      },
+      "trauma": {
+        "upright": "Sự khởi đầu của quá trình xử lý và giải phóng cảm xúc sâu sắc. Tìm thấy lòng trắc ẩn cho bản thân và mở ra con đường phục hồi tinh thần, tìm lại bình yên nội tâm sau những vết thương sâu sắc.",
+        "reversed": "Sự tê liệt cảm xúc hoặc tái tổn thương, không thể tiếp cận hoặc xử lý nỗi đau trong quá khứ. Kìm nén cảm xúc liên quan đến chấn thương hoặc nỗi sợ hãi mở lòng để chữa lành."
+      },
+      "exams": {
+        "upright": "Một làn sóng trực giác rõ ràng, sự cân bằng cảm xúc và cái nhìn sâu sắc đầy cảm hứng hỗ trợ cho việc học tập và thể hiện. Tiếp cận kỳ thi với một trái tim bình tĩnh và tập trung.",
+        "reversed": "Sự lo lắng và nghi ngờ bản thân làm lu mờ phán đoán. Khó khăn trong việc tiếp cận trí tuệ nội tại, hoặc để căng thẳng ngăn chặn dòng chảy kiến thức trong kỳ thi."
+      },
+      "scholarship": {
+        "upright": "Một món quà cơ hội, sinh ra từ năng lực chân chính và khát khao phát triển, mang lại niềm vui cảm xúc và mở ra những con đường mới cho học tập và phát triển cá nhân.",
+        "reversed": "Sự gắn bó cảm xúc với kết quả gây ra áp lực không đáng có, sự nghi ngờ bản thân cản trở quá trình nộp đơn, hoặc một học bổng không thực sự phù hợp với khát vọng chân thành, dẫn đến sự không hài lòng."
+      },
+      "talent": {
+        "upright": "Sự khám phá hoặc nở rộ của một tài năng mới từ trái tim, một món quà sáng tạo xuất phát từ sâu thẳm tâm hồn, mang lại niềm vui và cảm hứng.",
+        "reversed": "Tiềm năng sáng tạo bị kìm nén, nỗi sợ hãi thể hiện những món quà thực sự của mình. Những tắc nghẽn cảm xúc cản trở dòng chảy nghệ thuật, hoặc một tài năng được sử dụng vì lợi ích hời hợt thay vì sự thỏa mãn chân chính."
+      },
+      "spirit_guide": {
+        "upright": "Một kết nối rõ ràng và đầy yêu thương với người dẫn đường tinh thần của bạn, nhận được những thông điệp trực giác và sự hỗ trợ cảm xúc, cảm thấy được dẫn dắt bởi lòng trắc ẩn và trí tuệ thiêng liêng.",
+        "reversed": "Khó khăn trong việc kết nối với sự dẫn dắt tinh thần, những nhiễu loạn cảm xúc làm tắc nghẽn các thông điệp trực giác. Sự thiếu tin tưởng vào trí tuệ nội tại của mình, hoặc hiểu sai sự dẫn dắt do những thành kiến cảm xúc."
       }
     },
     "planet": "Nguyên tố Nước",
@@ -8886,6 +11550,78 @@ window.TAROT_DB = [
       "lost_item": {
         "upright": "Món đồ bị mất có thể liên quan đến một kỷ niệm tình yêu hoặc tình bạn. Hãy tìm kiếm nó cùng với người bạn tin tưởng, hoặc ở nơi có ý nghĩa đặc biệt với mối quan hệ của bạn.",
         "reversed": "Món đồ bị mất có thể là biểu tượng cho sự rạn nứt trong một mối quan hệ, hoặc nó đã bị bỏ quên do sự bất đồng. Việc tìm lại nó đòi hỏi sự hàn gắn trước tiên."
+      },
+      "toxic_relationship": {
+        "upright": "Sự hấp dẫn ban đầu mạnh mẽ, một mối liên kết tưởng chừng hoàn hảo, nhưng ẩn chứa tiềm năng của sự mất cân bằng. Nó có thể là tiếng gọi của linh hồn đến một mối quan hệ cần được chữa lành hoặc sự nhận diện rằng cần thiết lập ranh giới để bảo vệ sự hài hòa.",
+        "reversed": "Mối quan hệ đang chìm trong sự mất cân bằng sâu sắc, thao túng cảm xúc, hoặc sự chia ly đau đớn khỏi một sợi dây ràng buộc độc hại. Sự đổ vỡ của niềm tin và sự thiếu tôn trọng lẫn nhau."
+      },
+      "soulmate": {
+        "upright": "Sự hội ngộ định mệnh của hai linh hồn, một mối liên kết sâu sắc, thiêng liêng và không thể chối từ. Đây là lời khẳng định về một đối tác tâm giao, người phản chiếu và hoàn thiện bạn ở cấp độ sâu sắc nhất.",
+        "reversed": "Sự xuất hiện của chướng ngại vật trong việc tìm kiếm tri kỷ, hoặc sự nhầm lẫn trong việc nhận diện. Có thể là sự chia ly tạm thời để mỗi người hoàn thiện bản thân, hoặc cần chữa lành vết thương lòng trước khi mối liên kết này có thể thực sự đơm hoa kết trái."
+      },
+      "reconciliation": {
+        "upright": "Sự hòa giải đến từ trái tim, sự tha thứ và hàn gắn những vết nứt cũ. Hai tâm hồn tìm lại được sự đồng điệu, xóa bỏ hiểu lầm và tái thiết lập một mối quan hệ dựa trên tình yêu và sự tôn trọng.",
+        "reversed": "Nỗ lực hòa giải thất bại, sự từ chối tha thứ, hoặc nhận ra rằng việc quay lại không phải là con đường đúng đắn. Vết thương quá sâu để hàn gắn, hoặc sự thiếu vắng mong muốn chung để tìm lại sự hài hòa."
+      },
+      "secret_admirer": {
+        "upright": "Một sự hấp dẫn thầm kín nhưng mãnh liệt, một luồng năng lượng cảm xúc đang chờ đợi được bộc lộ. Người ngưỡng mộ bạn có một mối liên kết tâm linh sâu sắc và cảm nhận được sự đồng điệu từ bạn.",
+        "reversed": "Sự ngưỡng mộ đơn phương, tình cảm không được đáp lại, hoặc sự hiểu lầm về ý định. Có thể người ngưỡng mộ không phải là người phù hợp, hoặc sự thiếu can đảm khiến mối liên kết không thể phát triển."
+      },
+      "burnout": {
+        "upright": "Tìm thấy sự hỗ trợ và cân bằng thông qua hợp tác, hoặc nhận ra tầm quan trọng của việc chia sẻ gánh nặng để tránh kiệt sức. Lời kêu gọi tìm kiếm sự hỗ trợ cảm xúc và thiết lập ranh giới lành mạnh.",
+        "reversed": "Kiệt quệ cảm xúc do thiếu hỗ trợ, sự cho đi không cân bằng, hoặc cảm giác cô lập trong gánh nặng của mình. Năng lượng cạn kiệt vì không có sự trao đổi và hồi phục."
+      },
+      "startup": {
+        "upright": "Sự hợp tác hài hòa và thành công, nền tảng vững chắc dựa trên tầm nhìn chung và sự tôn trọng lẫn nhau. Thu hút những đối tác hoặc nhà đầu tư lý tưởng, tạo nên một liên minh mạnh mẽ.",
+        "reversed": "Mâu thuẫn giữa các đối tác, thiếu tin tưởng, tầm nhìn không đồng nhất, hoặc sự đổ vỡ trong hợp tác dẫn đến thất bại. Năng lượng không hòa hợp làm suy yếu nền tảng của doanh nghiệp."
+      },
+      "workplace_politics": {
+        "upright": "Điều hướng chính trị công sở bằng sự khéo léo, xây dựng liên minh chiến lược và tìm kiếm điểm chung. Khả năng giải quyết xung đột một cách hòa bình và tạo ra môi trường làm việc cân bằng.",
+        "reversed": "Sự cạnh tranh gay gắt, sự phản bội, thao túng cảm xúc, hoặc sự đổ vỡ của niềm tin. Bị cuốn vào vòng xoáy của k��ch tính và những mối quan hệ không lành mạnh tại nơi làm việc."
+      },
+      "side_hustle": {
+        "upright": "Một công việc phụ mang lại niềm vui và sự thỏa mãn, có thể là một dự án đam mê được chia sẻ với đối tác hoặc kết nối bạn với một cộng đồng hỗ trợ. Sự cân bằng giữa công việc chính và phụ.",
+        "reversed": "Công việc phụ gây hao mòn năng lượng, tạo ra xung đột với công việc chính hoặc cuộc sống cá nhân, hoặc thiếu đi niềm đam mê và sự kết nối thực sự. Sự mất cân bằng trong việc phân bổ thời gian và năng lượng."
+      },
+      "real_estate": {
+        "upright": "Sự đồng sở hữu hài hòa, các giao dịch thành công dựa trên sự đồng thuận, hoặc tìm được một ngôi nhà phản ánh sự hòa hợp giữa các thành viên. Một thỏa thuận cân bằng và công bằng.",
+        "reversed": "Tranh chấp về tài sản, khó khăn trong việc hoàn tất giao dịch do thiếu thỏa thuận, sự gắn bó cảm xúc cản trở việc mua bán, hoặc một giao dịch không cân bằng, thiếu công bằng."
+      },
+      "financial_loss": {
+        "upright": "Tìm thấy sự hỗ trợ và hợp tác để giảm thiểu tổn thất, chia sẻ gánh nặng, hoặc một cách tiếp cận cân bằng để phục hồi. Sức mạnh tinh thần được củng cố nhờ sự kết nối và đồng cảm.",
+        "reversed": "Mất mát tài chính do đối tác xấu, sự phản bội niềm tin, sự bất ổn cảm xúc dẫn đến quyết định sai lầm, hoặc cảm giác cô lập khi đối mặt với khó khăn tài chính."
+      },
+      "sudden_wealth": {
+        "upright": "Sự giàu có được chia sẻ với người thân yêu, một mối hợp tác may mắn dẫn đến tài lộc, hoặc tìm thấy sự cân bằng cảm xúc giữa sự thịnh vượng mới. Niềm vui được nhân đôi khi có người để sẻ chia.",
+        "reversed": "Sự giàu có bất ngờ gây ra rạn nứt trong các mối quan hệ, cảm giác cô lập bởi của cải, hoặc sự mất cân bằng trong cách quản lý và chia sẻ tài sản. Tiền bạc trở thành gánh nặng cảm xúc."
+      },
+      "healing": {
+        "upright": "Sự chữa lành cảm xúc thông qua kết nối, sự hỗ trợ từ người thân, tìm thấy sự cân bằng và bình yên nội tâm, hoặc hòa giải với những vết thương trong quá khứ. Một quá trình phục hồi được dẫn dắt bởi tình yêu.",
+        "reversed": "Sự tắc nghẽn trong quá trình chữa lành cảm xúc, không thể kết nối với người khác để tìm kiếm sự hỗ trợ, cảm thấy cô lập trong nỗi đau của mình, hoặc những mất cân bằng cảm xúc chưa được giải quyết."
+      },
+      "stress": {
+        "upright": "Tìm thấy sự giải tỏa căng thẳng thông qua việc chia sẻ gánh nặng, sự hỗ trợ cảm xúc từ đối tác, hoặc thiết lập ranh giới lành mạnh để duy trì cân bằng. Sự bình an đến từ mối liên kết.",
+        "reversed": "Căng thẳng do xung đột trong mối quan hệ, cảm thấy choáng ngợp và không được hỗ trợ, hoặc không thể tìm thấy sự cân bằng cảm xúc. Mối quan hệ trở thành nguồn gốc của áp lực."
+      },
+      "trauma": {
+        "upright": "Bắt đầu quá trình xử lý chấn thương thông qua các mối quan hệ hỗ trợ, tìm thấy một không gian an toàn để chia sẻ và chữa lành, hoặc những bước đầu tiên hướng tới sự hòa nhập cảm xúc với sự yêu thương.",
+        "reversed": "Trải nghiệm lại chấn thương do sự đổ vỡ niềm tin, khó khăn trong việc hình thành các kết nối chữa lành, cảm thấy cô lập trong nỗi đau, hoặc chấn thương biểu hiện thành các vấn đề trong mối quan hệ."
+      },
+      "exams": {
+        "upright": "Sự hợp tác học tập thành công, học nhóm hiệu quả, tìm thấy người cố vấn phù hợp, hoặc sự cân bằng cảm xúc giúp tập trung trong kỳ thi. Sự hỗ trợ lẫn nhau mang lại kết quả tốt.",
+        "reversed": "Xung đột với bạn học, thiếu sự hỗ trợ, sự phân tâm về mặt cảm xúc cản trở hiệu suất, hoặc sự mất cân bằng trong việc chuẩn bị. Thiếu sự hòa hợp dẫn đến thất bại."
+      },
+      "scholarship": {
+        "upright": "Giành được học bổng thông qua năng lực, có thể với sự hỗ trợ hoặc giới thiệu từ người cố vấn/tổ chức, hoặc tìm thấy một chương trình học bổng hoàn toàn phù hợp với khát vọng của mình.",
+        "reversed": "Bỏ lỡ cơ hội học bổng do hiểu lầm, thiếu kết nối, hoặc xung đột nội tâm/nghi ngờ về giá trị bản thân. Sự không hòa hợp giữa mong muốn và thực tế."
+      },
+      "talent": {
+        "upright": "Nhận diện và nuôi dưỡng tài năng thông qua hợp tác, tìm được người cố vấn tin tưởng, hoặc một tài năng tự nhiên kết nối bạn với những người khác. Sự thể hiện tài năng hài hòa và được ủng hộ.",
+        "reversed": "Tài năng bị suy yếu bởi sự nghi ngờ bản thân, tài năng không được người khác công nhận hoặc đánh giá cao, hoặc tài năng gây ra sự cô lập/xung đột thay vì kết nối. Sự mất cân bằng trong việc phát triển và thể hiện bản thân."
+      },
+      "spirit_guide": {
+        "upright": "Một mối liên kết sâu sắc, hài hòa với linh hồn dẫn lối, giao tiếp rõ r��ng, nhận được sự hướng dẫn yêu thương, hoặc một mối quan hệ tâm linh sâu sắc. Sự đồng điệu hoàn hảo giữa bạn và thế giới tâm linh.",
+        "reversed": "Sự tắc nghẽn trong việc kết nối với linh hồn dẫn lối, hiểu lầm thông điệp, cảm thấy bị ngắt kết nối với sự hỗ trợ tâm linh, hoặc sự mất cân bằng trong hành trình tâm linh của mình. Cần điều chỉnh lại tần số rung động."
       }
     },
     "planet": "Sao Kim",
@@ -9117,6 +11853,78 @@ window.TAROT_DB = [
       "lost_item": {
         "upright": "Món đồ bị mất có thể được tìm thấy trong một buổi tụ họp, tại nhà một người bạn hoặc ở nơi bạn thường xuyên ăn mừng. Hãy hỏi những người thân thiết xung quanh.",
         "reversed": "Món đồ bị mất có thể là biểu tượng cho sự thiếu tổ chức trong các sự kiện xã hội, hoặc nó đã bị thất lạc trong một buổi tiệc tùng hỗn loạn. Việc tìm lại nó có thể khó khăn."
+      },
+      "toxic_relationship": {
+        "upright": "Trong vòng xoáy của mối quan hệ độc hại, lá bài này hé lộ những khoảnh khắc ảo ảnh của niềm vui và sự kết nối, nơi những lễ hội phù du che lấp vết nứt sâu thẳm. Nó có thể là dấu hiệu của việc tìm thấy sự an ủi và hỗ trợ từ một cộng đồng bên ngoài, giúp bạn nhận diện và thoát khỏi xiềng xích vô hình.",
+        "reversed": "Khi đảo ngược, nó phơi bày sự trần trụi của độc tố: sự cô lập giữa đám đông, những lời thì thầm ác ý, sự ph��n bội của những người từng chung vui. Mối quan hệ này không còn che giấu được bản chất thật, mang lại cảm giác bị bỏ rơi và tổn thương sâu sắc, nơi niềm vui giả tạo sụp đổ."
+      },
+      "soulmate": {
+        "upright": "Một lời tiên tri về sự hòa hợp sâu sắc, lá bài này vẫy gọi linh hồn đồng điệu của bạn, mang đến một lễ kỷ niệm của sự kết nối thiêng liêng và niềm vui chung. Sự đoàn tụ này không chỉ là một cuộc gặp gỡ, mà là sự bùng nổ của năng lượng tình yêu, tạo nên một bản giao hưởng của hạnh phúc.",
+        "reversed": "Ý nghĩa ngược lại cảnh báo về một sự lầm lẫn, một kết nối bề ngoài bị nhầm lẫn với định mệnh. Nó có thể chỉ ra sự thiếu vắng niềm vui thực sự, những rạn nứt trong sự hòa hợp tưởng chừng hoàn hảo, hoặc những chướng ngại xã hội cản trở sự phát triển của một mối liên kết sâu sắc."
+      },
+      "reconciliation": {
+        "upright": "Đây là dấu hiệu của một cuộc hòa giải ngọt ngào, nơi những trái tim tan vỡ tìm lại được nhịp đập chung trong niềm hân hoan. Những cuộc đoàn tụ này được đánh dấu bằng sự thấu hiểu, tha thứ và một lễ kỷ niệm chân thành cho sự hàn gắn của những vết thương cũ, tái lập sự hòa hợp đã mất.",
+        "reversed": "Sự đảo ngược cho thấy một cuộc hòa giải không trọn vẹn, nơi những vết sẹo cũ vẫn âm ỉ dưới lớp vỏ hòa bình mỏng manh. Nó có thể là một sự đoàn tụ miễn cưỡng, một lời xin lỗi thiếu chân thành, hoặc sự từ chối tha thứ, khiến những linh hồn vẫn bị mắc kẹt trong vòng lặp của sự bất hòa."
+      },
+      "secret_admirer": {
+        "upright": "Năng lượng của Ba Cốc xuôi báo hiệu một sự tiết lộ vui vẻ, nơi người ngưỡng mộ bí mật của bạn có thể sớm bước ra ánh sáng, mang theo niềm vui và sự kết nối bất ngờ. Sự ngưỡng mộ này có thể nở rộ thành một tình bạn sâu sắc hoặc một tình yêu chớm nở, được chào đón bằng sự hân hoan.",
+        "reversed": "Khi đảo ngược, nó ám chỉ rằng sự ngưỡng mộ vẫn còn ẩn mình trong bóng tối, có lẽ do sự ngại ngùng hoặc những rào cản xã hội. Sự tiết lộ có thể mang lại sự lúng túng hoặc sự thất vọng, hoặc bản chất của sự ngưỡng mộ đó chỉ là phù phiếm, không dẫn đến một kết nối thực sự."
+      },
+      "burnout": {
+        "upright": "Trong khoảnh khắc kiệt sức, lá bài này mang đến một lời mời gọi thiêng liêng: hãy tìm kiếm sự phục hồi trong vòng tay của cộng đồng. Niềm vui từ những buổi họp mặt, sự hỗ trợ từ bạn bè và những khoảnh khắc nhẹ nhõm có thể là liều thuốc chữa lành, giúp bạn tái tạo năng lượng và tìm lại sự cân bằng.",
+        "reversed": "Sự đảo ngược cảnh báo về sự quá tải từ những nghĩa vụ xã hội, nơi những cuộc vui không mang lại sự nghỉ ngơi mà chỉ làm cạn kiệt năng lượng. Nó cũng có thể biểu thị sự cô lập dù ở giữa đám đông, hoặc việc dùng những thú vui phù phiếm để che giấu sự kiệt quệ thay vì đối mặt với nó."
+      },
+      "startup": {
+        "upright": "Đối với một công ty khởi nghiệp, lá bài này là điềm báo của sự hợp tác thịnh vượng, những lễ kỷ niệm thành công ban đầu và một tinh thần đồng đội mạnh mẽ, gắn kết. Nó dự báo những cột mốc quan trọng được chào đón bằng niềm vui chung, tạo nên nền tảng vững chắc cho sự phát triển.",
+        "reversed": "Khi đảo ngược, nó cảnh báo về những mâu thuẫn nội bộ, thiếu sự công nhận cho những nỗ lực chung, hoặc những mối quan hệ đối tác hời hợt. Những lễ kỷ niệm có thể trở nên phù phiếm, tiêu tốn nguồn lực mà không mang lại giá trị thực sự, làm suy yếu tinh thần và định hướng của doanh nghiệp."
+      },
+      "workplace_politics": {
+        "upright": "Trong mê cung của chính trị công sở, lá bài này là lá chắn của sự đoàn kết. Nó cho thấy khả năng xây dựng những liên minh vững chắc, tạo ra một môi trường làm việc tích cực nơi những thành tựu tập thể được tôn vinh, vượt lên trên những toan tính cá nhân, mang lại niềm vui từ sự đồng lòng.",
+        "reversed": "Ý nghĩa ngược lại phơi bày mặt tối: những lời đồn đại độc hại, sự phản bội ngấm ngầm và sự phân chia bè phái. Nó cảnh báo về những liên minh bề ngoài dễ đổ vỡ, dẫn đến sự cô lập và cảm giác bị bỏ rơi giữa những trò chơi quyền lực, làm suy yếu tinh thần tập thể."
+      },
+      "side_hustle": {
+        "upright": "Ba Cốc xuôi mang đến niềm vui của sự sáng tạo và thành công ban đầu cho công việc phụ của bạn. Nó khuyến khích sự hợp tác, biến đam mê thành một dự án chung đầy hứa hẹn, nơi những thành tựu nhỏ được ăn mừng, nuôi dưỡng ngọn lửa của sự đổi mới và sự hài lòng cá nhân.",
+        "reversed": "Khi đảo ngược, nó cảnh báo về việc quá sa đà vào những khía cạnh vui vẻ mà bỏ bê cấu trúc kinh doanh cần thiết. Sự thiếu hợp tác thực sự hoặc cảm giác bị cô lập bởi gánh nặng công việc có thể làm lu mờ niềm vui ban đầu, biến đam mê thành gánh nặng."
+      },
+      "real_estate": {
+        "upright": "Một lễ kỷ niệm hân hoan đang chờ đón, có thể là một giao dịch mua bán thành công, một bữa tiệc tân gia ấm cúng, hoặc việc tìm thấy một cộng đồng gắn bó trong ngôi nhà mới. Lá bài này báo hiệu niềm vui chung và sự hài lòng từ một quyết định quan trọng liên quan đến bất động sản.",
+        "reversed": "Sự đảo ngược cho thấy những tranh chấp về tài sản, những lễ kỷ niệm hời hợt che giấu vấn đề sâu xa, hoặc cảm giác cô lập trong một môi trường mới. Nó cũng có thể cảnh báo về việc chi tiêu quá mức cho một tài sản không mang lại niềm hạnh phúc thực sự, chỉ là một vỏ bọc hào nhoáng."
+      },
+      "financial_loss": {
+        "upright": "Trong bóng tối của sự mất mát tài chính, lá bài này thắp lên ánh sáng của sự hỗ trợ cộng đồng. Nó biểu thị việc tìm thấy sự an ủi, thấu hiểu và sức mạnh tập thể từ những người xung quanh, cùng nhau vượt qua khó khăn và tìm thấy niềm vui trong những chiến thắng nhỏ bé của sự kiên cường.",
+        "reversed": "Khi đảo ngược, nó ám chỉ sự cô lập và tuyệt vọng sau mất mát, thiếu vắng sự hỗ trợ thực sự. Những lời chia buồn hời hợt không thể xoa dịu nỗi đau, hoặc việc tìm đến những thú vui quá mức như một cơ chế đối phó có thể làm trầm trọng thêm tình hình tài chính vốn đã khó khăn."
+      },
+      "sudden_wealth": {
+        "upright": "Đây là một lời tiên tri về niềm vui bất ngờ và sự thịnh vượng, mang đến cơ hội chia sẻ tài lộc với những người thân yêu và cộng đồng. Lá bài này khuyến khích sử dụng của cải mới để tạo ra giá trị chung, biến sự giàu có thành nguồn gốc của hạnh phúc và sự kết nối chân thành.",
+        "reversed": "Sự đảo ngược cảnh báo về sự quá đà, chi tiêu phù phiếm, hoặc sự cô lập do ghen tị từ người khác. Sự giàu có bất ngờ có thể không mang lại h���nh phúc thực sự nếu thiếu đi những kết nối chân thành, biến phước lành thành gánh nặng của sự cô đơn và trống rỗng."
+      },
+      "healing": {
+        "upright": "Lá bài này là một biểu tượng của sự chữa lành thông qua cộng đồng, nơi tiếng cười và niềm vui chung trở thành liều thuốc tinh thần. Nó đánh dấu những cột mốc quan trọng trong quá trình phục hồi, mang lại sự bổ sung cảm xúc và sự hỗ trợ vững chắc từ những người yêu thương.",
+        "reversed": "Khi đảo ngược, nó ám chỉ một quá trình chữa lành hời hợt, nơi những vấn đề sâu xa bị bỏ qua để tìm kiếm sự phân tâm trong các sự kiện xã hội. Cảm giác cô lập trong hành trình chữa bệnh hoặc những vết thương cũ tái phát dù có vẻ ngoài vui vẻ là những cảnh báo rõ ràng."
+      },
+      "stress": {
+        "upright": "Để giảm bớt gánh nặng căng thẳng, lá bài này mời gọi bạn tìm kiếm niềm vui và sự thư thái trong các mối quan hệ xã hội. Sự hỗ trợ từ cộng đồng và nh���ng khoảnh khắc cười đùa có thể là phương thuốc hữu hiệu, giúp bạn giải tỏa áp lực và tìm lại sự cân bằng nội tâm.",
+        "reversed": "Sự đảo ngược cho thấy căng thẳng bị trầm trọng thêm bởi những đòi hỏi xã hội, cảm giác choáng ngợp bởi nghĩa vụ. Nó cũng có thể ám chỉ việc tìm cách cô lập bản thân hoặc sử dụng các sự kiện xã hội phù phiếm để trốn tránh đối mặt với nguồn gốc thực sự của căng thẳng."
+      },
+      "trauma": {
+        "upright": "Trong hành trình vượt qua chấn thương, lá bài này mang đến ánh sáng của sự an ủi và sức mạnh từ một cộng đồng hỗ trợ. Nó biểu thị việc xử lý chấn thương thông qua những trải nghiệm được chia sẻ, sự đồng cảm và việc ăn mừng những bước tiến nhỏ hướng tới sự phục hồi và kiên cường.",
+        "reversed": "Khi đảo ngược, nó cảnh báo về việc tái chấn thương thông qua sự phản bội xã hội, sự cô lập hoặc cảm giác bị hiểu lầm. Việc sử dụng các tương tác xã hội hời hợt để phủ nhận chấn thương cũng là một dấu hiệu của lá bài này, ngăn cản quá trình chữa lành sâu sắc."
+      },
+      "exams": {
+        "upright": "Một điềm báo của niềm vui và thành công, lá bài này dự báo những lễ kỷ niệm sau khi vượt qua kỳ thi. Nó tôn vinh những nhóm học tập hợp tác, nơi sự hỗ trợ lẫn nhau dẫn đến kết quả xuất sắc, và sự nhẹ nhõm cùng niềm vui được chia sẻ sau một giai đoạn làm việc chăm chỉ.",
+        "reversed": "Sự đảo ngược ám chỉ sự thất vọng về kết quả, cảm giác cô lập dù đã học nhóm, hoặc việc quá sa đà vào ăn mừng trước khi có kết quả, dẫn đến sự hối tiếc. Nó cũng có thể biểu thị sự thiếu hỗ trợ cần thiết trong quá trình chuẩn bị, làm giảm cơ hội thành công."
+      },
+      "scholarship": {
+        "upright": "Lá bài này là một lễ kỷ niệm cho thành tựu học bổng, một niềm vui được chia sẻ với những người đã ủng hộ hành trình của bạn. Nó biểu thị sự c��ng nhận của cộng đồng đối với tài năng và nỗ lực, mang lại sự hân hoan và động lực cho tương lai học vấn.",
+        "reversed": "Khi đảo ngược, nó cảnh báo rằng học bổng có thể dẫn đến sự cô lập hoặc ghen tị từ người khác. Những lời chúc mừng có thể chỉ là hời hợt, hoặc áp lực duy trì hình ảnh hoàn hảo làm lu mờ niềm vui thực sự, biến thành tựu thành gánh nặng."
+      },
+      "talent": {
+        "upright": "Một sự tôn vinh cho tài năng và thành tựu của bạn, lá bài này khuyến khích sự hợp tác để phát triển kỹ năng và chia sẻ món quà của mình với cộng đồng. Nó mang đến sự công nhận vui vẻ và sự hài lòng sâu sắc khi tài năng của bạn được tỏa sáng và đón nhận.",
+        "reversed": "Sự đảo ngược cho thấy bạn đang đánh giá thấp tài năng của mình, tìm kiếm những lời khen ngợi phù phiếm, hoặc tài năng của bạn gây ra sự ghen tị hay cô lập. Những trở ngại sáng tạo do sự bất hòa xã hội cũng là một dấu hiệu của lá bài này, ngăn cản sự phát triển tiềm năng."
+      },
+      "spirit_guide": {
+        "upright": "Lá bài này là một lời chúc phúc từ cõi vô hình, báo hiệu sự hướng dẫn và hỗ trợ vui vẻ từ các linh hồn dẫn lối. Nó đại diện cho một lễ kỷ niệm của sự kết nối tâm linh sâu sắc, tìm thấy một con đường hài hòa và cảm giác gắn kết với cộng đồng tâm linh rộng lớn.",
+        "reversed": "Khi đảo ngược, nó cảnh báo về việc giải thích sai các thông điệp tâm linh, cảm giác bị ngắt kết nối khỏi các vị dẫn lối, hoặc tìm kiếm những trải nghiệm tâm linh hời hợt. Sự nhầm lẫn phát sinh từ những lời khuyên tâm linh mâu thuẫn cũng là một dấu hiệu rõ ràng, làm xáo trộn sự bình an nội tâm."
       }
     },
     "planet": "Sao Thủy",
@@ -9348,6 +12156,78 @@ window.TAROT_DB = [
       "lost_item": {
         "upright": "Vật thất lạc có thể ở một nơi quen thuộc nhưng bạn lại quá thờ ơ hoặc không chú ý để tìm thấy. Hoặc bạn đã bỏ qua những dấu hiệu quan trọng dẫn đến vị trí của nó.",
         "reversed": "Vật đã mất sẽ được tìm thấy khi bạn chủ động thay đổi góc nhìn hoặc mở lòng đón nhận sự giúp đỡ. Sự tìm kiếm không còn trong vô vọng mà có hướng đi rõ ràng hơn."
+      },
+      "toxic_relationship": {
+        "upright": "Lá bài này cho thấy bạn đang chìm sâu trong sự thờ ơ đối với một mối quan hệ độc hại. Năng lượng tiêu cực bao trùm, nhưng bạn lại quá tê liệt về mặt cảm xúc hoặc quá mệt mỏi để nhìn nhận sự thật, bỏ qua mọi dấu hiệu cảnh báo hay cơ hội thoát ly. Bạn đang chấp nhận sự giam hãm vô hình này, không màng đến những cánh cửa thoát hiểm đang mở ra.",
+        "reversed": "Đây là khoảnh khắc thức tỉnh, khi bạn nhận ra bản chất độc hại của mối quan hệ và không còn chấp nhận sự trì trệ. Bạn đang bắt đầu nhìn rõ ràng, sẵn sàng đối mặt hoặc dứt bỏ, giải phóng bản thân khỏi gông cùm cảm xúc. Năng lượng này thúc đẩy bạn hành động, tìm kiếm sự chữa lành và tự do đích thực."
+      },
+      "soulmate": {
+        "upright": "Một kết nối linh hồn sâu sắc đang hiện hữu hoặc sắp xuất hiện, nhưng trái tim bạn đang khép chặt, bị che mờ bởi sự hoài nghi hay nỗi buồn nội tâm. Bạn đang bỏ lỡ một cơ hội định mệnh để gặp gỡ tri kỷ vì sự thờ ơ hoặc không sẵn lòng mở lòng đón nhận tình yêu thiêng liêng.",
+        "reversed": "Trái tim bạn đang dần hé mở, sẵn sàng đón nhận một tình yêu sâu sắc, có thể là tri kỷ mà bạn từng bỏ qua. Bạn vượt qua những vết thương cũ và sự hoài nghi, tạo không gian cho một kết nối linh hồn thực sự. Đây là sự tái sinh của hy vọng và sự tin tưởng vào tình yêu vĩnh cửu."
+      },
+      "reconciliation": {
+        "upright": "Một nhành ô liu đang được trao, một cơ hội hòa giải đang chờ đón, nhưng bạn lại quá cố chấp, tổn thương hoặc rút lui vào vỏ bọc cảm xúc của mình. Bạn đang chìm đắm trong quá khứ, không thể buông bỏ oán hờn, khiến cơ hội hàn gắn mối quan hệ thiêng liêng trôi qua trong im lặng.",
+        "reversed": "Bạn đã sẵn sàng buông bỏ những gánh nặng quá khứ và mở lòng cho sự hòa giải. Đây là thời điểm bạn chủ động tìm cách hàn gắn hoặc cuối cùng cũng chấp nhận lời xin lỗi mà trước đây bạn đã từ chối. Sự khao khát kết nối lại và chữa lành vết thương đã chiến thắng sự trì trệ."
+      },
+      "secret_admirer": {
+        "upright": "Một tâm hồn đang thầm ngưỡng mộ bạn từ xa, nhưng bạn lại quá tập trung vào thế giới nội tâm hoặc quá thờ ơ với những tín hiệu bên ngoài. Bạn đang bỏ lỡ những dấu hiệu tinh tế của tình yêu và sự kết nối tiềm năng vì sự cô lập cảm xúc hoặc không sẵn lòng đón nhận.",
+        "reversed": "Bức màn che phủ sự thờ ơ đang dần vén lên, giúp bạn nhận ra những tình cảm thầm kín đang hướng về mình. Bạn trở nên nhạy bén hơn với các tín hiệu, hoặc người ngưỡng mộ bí mật sẽ có động thái rõ ràng hơn. Đây là sự thức tỉnh của nhận thức về tình yêu và sự trân trọng từ bên ngoài."
+      },
+      "burnout": {
+        "upright": "Bạn đang ở đỉnh điểm của sự kiệt sức, nơi sự thờ ơ và trống rỗng tinh thần chiếm lĩnh. Ngay cả khi có những giải pháp hay cơ hội nghỉ ngơi được đưa ra, bạn vẫn không thể tiếp nhận, bị mắc kẹt trong vòng xoáy mệt mỏi và vô vọng, không thể nhìn thấy lối thoát.",
+        "reversed": "Đây là một bước ngoặt quan trọng trong hành trình phục hồi sau kiệt sức. Bạn bắt đầu nhận ra nhu cầu thay đổi và chủ động tìm kiếm các phương pháp chữa lành, chấp nhận sự giúp đỡ và tái tạo năng lượng. Sự chuyển dịch từ trạng thái thụ động sang chủ động phục hồi đã bắt đầu."
+      },
+      "startup": {
+        "upright": "Một ý tưởng khởi nghiệp đầy hứa hẹn hoặc một cơ hội vàng đang bị bạn bỏ qua vì thiếu nhiệt huyết, sợ hãi thất bại, hoặc sự thờ ơ chung. Bạn đang bị mắc kẹt trong tư duy cũ, không thể nhìn thấy tiềm năng đột phá, hoặc đơn giản là không muốn mạo hiểm.",
+        "reversed": "Bạn đang thoát khỏi sự tự mãn và sẵn sàng ôm lấy những dự án khởi nghiệp mới. Bạn nhìn thấy tiềm năng ở những ý tưởng sáng tạo và sẵn sàng đầu tư năng lượng, trí tuệ vào chúng. Đây là sự tái sinh của tinh thần tiên phong và khao khát đổi mới."
+      },
+      "workplace_politics": {
+        "upright": "Bạn đang hoàn toàn thờ ơ hoặc bị vỡ mộng bởi chính trị công sở, khiến bạn dễ bị thao túng hoặc bỏ lỡ những cơ hội quan trọng. Sự thụ động này có thể khiến bạn mất đi lợi thế hoặc không thể tự bảo vệ mình trong môi trường cạnh tranh.",
+        "reversed": "Bạn đã thức tỉnh trước thực tế của chính trị công sở. Không còn là người quan sát th�� động, bạn trở nên nhận thức rõ ràng hơn, chiến lược hơn và sẵn sàng tham gia (hoặc tránh né một cách khôn ngoan) để bảo vệ lợi ích và thăng tiến. Đây là sự chuyển đổi từ sự thờ ơ sang sự tham gia có ý thức."
+      },
+      "side_hustle": {
+        "upright": "Những cơ hội kinh doanh phụ đầy tiềm năng đang hiện hữu, nhưng bạn lại thiếu động lực, tự mãn, hoặc quá tập trung vào những bất mãn hiện tại để theo đuổi chúng. Bạn đang bỏ lỡ một con đường dẫn đến thu nhập bổ sung hoặc một kênh sáng tạo mới.",
+        "reversed": "Bạn đang phá vỡ sự trì trệ và chủ động khám phá hoặc cam kết với một công việc phụ. Bạn nhận ra tiềm năng tăng trưởng, lợi ích tài chính hoặc sự thỏa mãn cá nhân bên ngoài công việc chính. Đây là sự tái sinh của động lực để tạo ra và đa dạng hóa."
+      },
+      "real_estate": {
+        "upright": "Một cơ hội bất động sản giá trị (mua, bán, đầu tư) đang hiện diện nhưng bị bạn bỏ qua hoặc đối xử thờ ơ. Bạn có thể quá do dự, hoài nghi về thị trường, hoặc đơn giản là không có động lực hành động, dẫn đến bỏ lỡ một khoản lợi nhuận đáng kể.",
+        "reversed": "Bạn đang thoát khỏi sự do dự hoặc thờ ơ trong lĩnh vực bất động sản. Bạn sẵn sàng khám phá các lựa chọn mới, nhận ra một cơ hội khả thi và hành động dứt khoát để mua, bán hoặc đầu tư. Đây là sự trở lại của tinh thần thực tế và sẵn sàng tham gia vào thế giới vật chất."
+      },
+      "financial_loss": {
+        "upright": "Một tổn thất tài chính đã xảy ra hoặc sắp xảy ra, và bạn đang trong trạng thái thờ ơ hoặc phủ nhận, không thể hoặc không muốn thực hiện các bước để giảm thiểu thiệt hại hoặc rút ra bài học. Bạn đang thụ động chấp nhận số phận, chìm đắm trong mất mát mà không tìm kiếm giải pháp.",
+        "reversed": "Bạn đang vượt qua cú sốc hoặc sự thờ ơ từ một tổn thất tài chính. Bạn chủ động tìm cách phục hồi, học hỏi từ sai lầm và xây dựng lại sự ổn định tài chính. Đây là một bước ngoặt, nơi bạn ngừng chìm đắm và bắt đầu hành động thực tế để phục hồi."
+      },
+      "sudden_wealth": {
+        "upright": "Một cơ hội bất ngờ cho sự giàu có đột ngột đang đến gần, nhưng bạn lại quá bận tâm với trạng thái cảm xúc cá nhân hoặc quá thờ ơ để nhận ra hoặc trân trọng nó. Bạn có thể coi đó là điều không thể tin được hoặc đơn giản là không quan tâm, bỏ lỡ cơ hội vàng.",
+        "reversed": "Bạn đang trở nên cởi mở hơn với những phước lành bất ngờ và cơ hội giàu có đột ngột. Bạn đang rũ bỏ sự hoài nghi hoặc thờ ơ, khiến bạn dễ dàng nhận ra và chấp nhận những món quà này, hoặc chủ động thu hút chúng thông qua sự thay đổi trong tư duy. Đây là sự thức tỉnh của nhận thức về sự thịnh vượng."
+      },
+      "healing": {
+        "upright": "Bạn đang chống lại hoặc xa lánh quá trình chữa lành của mình, dù là về thể chất, tinh thần hay tâm linh. Những phương thuốc, lời khuyên hay sự hỗ trợ được đưa ra nhưng sự thờ ơ, tê liệt cảm xúc hoặc từ chối đối mặt với vấn đề cốt lõi đã ngăn cản sự phục hồi thực sự. Bạn đang mắc kẹt trong trạng thái đau khổ thụ động.",
+        "reversed": "Một bước đột phá quan trọng trong hành trình chữa lành. Bạn cuối cùng đã sẵn sàng dấn thân vào quá trình phục hồi, chấp nhận sự giúp đỡ và đối mặt với những gì cần được giải quyết. Điều này biểu thị sự giải phóng khỏi những tắc nghẽn cảm xúc và cam kết mới với sức khỏe, dẫn đến tiến bộ thực sự."
+      },
+      "stress": {
+        "upright": "Bạn đang trải qua căng thẳng sâu sắc, nhưng lại phản ứng bằng sự thờ ơ, rút lui hoặc cảm giác bất lực, thay vì chủ động giải quyết nguyên nhân gốc rễ. Bạn có thể bị choáng ngợp đến mức tê liệt cảm xúc, bỏ qua các giải pháp hoặc sự hỗ trợ tiềm năng.",
+        "reversed": "Bạn đang thoát khỏi trạng thái căng thẳng tột độ và bắt đầu thực hiện các bước chủ động để quản lý nó. Bạn đang tìm kiếm các cơ chế đối phó mới, tìm kiếm sự hỗ trợ hoặc thực hiện những thay đổi cần thiết để giảm bớt gánh nặng, chuyển từ chịu đựng thụ động sang giải quyết chủ động."
+      },
+      "trauma": {
+        "upright": "Bạn đang bị ảnh hưởng sâu sắc bởi chấn thương trong quá khứ, dẫn đến sự tê liệt cảm xúc, rút lui hoặc cảm giác thờ ơ lan tỏa, ngăn cản bạn xử lý hoặc vượt qua trải nghiệm. Bạn được đề nghị hỗ trợ hoặc con đường chữa lành, nhưng lại quá khép kín hoặc choáng ngợp để chấp nhận.",
+        "reversed": "Một bước tiến đáng kể trong việc xử lý và chữa lành chấn thương. Bạn bắt đầu phá vỡ sự tê liệt cảm xúc, sẵn sàng đối mặt với quá khứ, tìm kiếm liệu pháp hoặc tham gia vào các thực hành giúp phục hồi và giải phóng cảm xúc thực sự. Một sự chuyển dịch từ trì trệ sang chữa lành chủ động."
+      },
+      "exams": {
+        "upright": "Bạn đang tiếp cận kỳ thi với sự thiếu động lực sâu sắc, thờ ơ hoặc không quan tâm, có thể dẫn đến kết quả kém. Bạn có thể bỏ qua các cơ hội học tập, cảm thấy quá tải hoặc đơn giản là không quan tâm đến kết quả, bất chấp tầm quan trọng.",
+        "reversed": "Một sự bùng nổ động lực và tập trung bất ngờ cho kỳ thi. Bạn đang rũ bỏ sự thờ ơ trước đây, nhận ra tầm quan trọng và chủ động cam kết học tập và chuẩn bị. Điều này cho thấy một nỗ lực cuối cùng hoặc một quyết tâm mới để thành công."
+      },
+      "scholarship": {
+        "upright": "Một cơ hội học bổng giá trị đang có sẵn hoặc được đề nghị, nhưng bạn lại quá thờ ơ, thiếu động lực hoặc tập trung vào những trở ngại nhận thức để theo đuổi nó. Bạn có thể coi đó là quá nhiều công việc, hoặc đơn giản là không thấy giá trị, bỏ lỡ cơ hội được hỗ trợ giáo dục đáng kể.",
+        "reversed": "Bạn đang vư���t qua sự thờ ơ và chủ động theo đuổi các cơ hội học bổng. Bạn nhận ra giá trị của sự hỗ trợ đó và nỗ lực nộp đơn, tìm kiếm các con đường mới để tài trợ giáo dục. Một sự thúc đẩy mới cho sự tiến bộ trong học tập."
+      },
+      "talent": {
+        "upright": "Bạn sở hữu tài năng đáng kể, nhưng nó đang ngủ yên hoặc bị bỏ qua do sự thờ ơ, thiếu động lực hoặc từ chối phát triển nó. Bạn có thể quá hài lòng với sự tầm thường, hoặc quá chán nản để tin vào tiềm năng của chính mình, dẫn đến lời hứa sáng tạo hoặc chuyên nghiệp không được thực hiện.",
+        "reversed": "Một sự thức tỉnh đối với những tài năng bẩm sinh của bạn. Bạn cuối cùng đã nhận ra và bắt đầu trau dồi khả năng của mình, thoát khỏi sự nghi ngờ bản thân hoặc tự mãn. Điều này biểu thị một niềm đam mê mới đối với sự thể hiện sáng tạo hoặc phát triển chuyên nghiệp, dẫn đến sự nở rộ của tiềm năng."
+      },
+      "spirit_guide": {
+        "upright": "Các linh hồn dẫn đường đang cố gắng giao tiếp hoặc đưa ra hướng dẫn, nhưng bạn lại quá khép kín về mặt cảm xúc, bị phân tâm bởi sự bất mãn trần tục hoặc thờ ơ về mặt tâm linh để cảm nhận hoặc nhận được thông điệp của họ. Bạn đang bỏ lỡ những hiểu biết thiêng liêng do sự tập trung vào nội tâm hoặc thiếu sự tiếp nhận.",
+        "reversed": "Bạn đang mở lòng với sự hướng dẫn tâm linh, trở nên nhạy bén hơn với các thông điệp từ linh hồn dẫn đường của mình. Bạn đang rũ bỏ sự hoài nghi hoặc thờ ơ, chủ động tìm kiếm kết nối tâm linh và bắt đầu cảm nhận những dấu hiệu và hiểu biết tinh tế được trao cho bạn. Một nhận thức và kết nối tâm linh mới mẻ."
       }
     },
     "planet": "Mặt Trăng",
@@ -9580,6 +12460,78 @@ window.TAROT_DB = [
       "general": {
         "upright": "Giai đoạn của sự mất mát, tiếc nuối và tập trung vào những gì đã qua, bỏ lỡ những cơ hội và nguồn lực đang hiện hữu. Nỗi buồn bao trùm.",
         "reversed": "Quá trình chữa lành bắt đầu, bạn buông bỏ quá khứ, chấp nhận thực tại và tìm thấy hy vọng, mở lòng đón nhận những điều tốt đẹp sắp đến."
+      },
+      "toxic_relationship": {
+        "upright": "Lá bài này báo hiệu một mối quan hệ độc hại, nơi tâm hồn bạn bị nhấn chìm trong nỗi đau và sự mất mát, không thể thoát ly khỏi vòng xoáy tiếc nuối và sự hao mòn cảm xúc. Bạn bị giam cầm bởi những gì đã mất, không thể nhận ra sự hủy hoại hiện hữu hay con đường dẫn đến sự giải thoát.",
+        "reversed": "Đây là một bước ngoặt quan trọng, khi tấm màn sầu muộn được vén lên, hé lộ bản chất thực sự của sự độc hại. Bạn tìm thấy sức m��nh để chấp nhận tổn thương và bắt đầu quá trình tách rời đầy đau đớn nhưng cần thiết, giải phóng mình khỏi chu kỳ hối tiếc để chữa lành."
+      },
+      "soulmate": {
+        "upright": "Một nỗi tiếc nuối sâu sắc về một kết nối linh hồn dường như đã mất hoặc chưa trọn vẹn, có thể do những sai lầm trong quá khứ hay cơ hội bị bỏ lỡ. Trái tim bạn chìm đắm trong nỗi buồn chia ly, bỏ qua những bài học quý giá hay tiềm năng tái ngộ trong tương lai.",
+        "reversed": "Trái tim bắt đầu hàn gắn, giải thoát khỏi nỗi buồn gắn liền với một kết nối linh hồn đã qua. Đây là dấu hiệu của sự bình yên với quá khứ, hiểu rằng một số bài học linh hồn đòi hỏi sự chia ly, hoặc nhận ra rằng kết nối tri kỷ thực sự có thể vẫn còn ở phía trước, không còn bị che mờ bởi nỗi đau cũ."
+      },
+      "reconciliation": {
+        "upright": "Một khao khát hòa giải sâu sắc, nhưng lại không thể vượt qua những tổn thương và hối tiếc đã gây ra rạn nứt ban đầu. Tâm trí bạn vẫn bị giam giữ bởi nỗi đau quá khứ, khiến cho sự tha thứ chân thành hoặc việc xây dựng lại mối quan hệ trở nên bất khả thi.",
+        "reversed": "Một tia hy vọng hòa giải lóe lên khi những oán giận trong quá khứ được buông bỏ. Điều này báo hiệu sự sẵn lòng tha thứ, nhìn xa hơn nỗi đau ban đầu và chủ động tìm kiếm giải pháp, được thúc đẩy bởi mong muốn xây dựng lại hơn là chìm đắm trong tiếc nuối."
+      },
+      "secret_admirer": {
+        "upright": "Bạn đang chìm đắm trong những thất vọng hay hối tiếc cá nhân đến mức hoàn toàn không nhận ra những dấu hiệu tình cảm tinh tế từ một người ngưỡng mộ thầm lặng. Bầu không khí cảm xúc của bạn quá u ám bởi nỗi buồn để cảm nhận những kết nối tích cực mới.",
+        "reversed": "Khi màn sương mù của nỗi buồn quá khứ dần tan biến, nhận thức của bạn trở nên sắc bén hơn, cho phép bạn cuối cùng cũng nhận ra và có thể trân trọng sự tận tâm âm thầm của một người ngưỡng mộ. Trái tim bạn mở lòng đón nhận những hình thức tình cảm mới, không còn bị ràng buộc bởi những tổn thương cũ."
+      },
+      "burnout": {
+        "upright": "Sự tuyệt vọng và kiệt sức sâu sắc nảy sinh từ những nỗ lực và thất bại trong quá khứ, dẫn đến cảm giác mất mát sâu sắc về năng lượng, đam mê và mục đích. Bạn bị mắc kẹt trong vòng xoáy hối tiếc về những gì không thể đạt được hoặc duy trì.",
+        "reversed": "Một khoảnh khắc thức tỉnh quan trọng từ vực sâu của sự kiệt sức. Lá bài báo hiệu việc chấp nhận sự cạn kiệt trong quá khứ, giải phóng sự tự trách và tìm thấy lòng dũng cảm để lùi lại, chữa lành và tái khám phá một ý nghĩa mục đích và năng lượng mới."
+      },
+      "startup": {
+        "upright": "Dự án khởi nghiệp bị ám ảnh bởi cảm giác thất bại trong quá khứ, những cơ hội bị bỏ lỡ hoặc những trở ngại ban đầu. Những người sáng lập và đội ngũ chìm đ���m trong những gì đã sai, dẫn đến sự trì trệ và không thể thích nghi hay đổi mới, bị che mắt trước các giải pháp tiềm năng hoặc hướng đi mới.",
+        "reversed": "Một sự hồi sinh mạnh mẽ cho startup, như phượng hoàng từ đống tro tàn. Đây là thời điểm nhận ra những sai lầm trong quá khứ mà không chìm đắm vào chúng, học được những bài học quan trọng và tìm thấy quyết tâm mới. Trọng tâm chuyển từ những gì đã mất sang những gì có thể xây dựng, đón nhận các chiến lược và cơ hội mới."
+      },
+      "workplace_politics": {
+        "upright": "Cảm thấy bị tổn thương sâu sắc và phản bội bởi những xung đột hoặc bất công trong công sở trong quá khứ. Bạn bị mắc kẹt trong vòng lặp của sự oán giận và hối tiếc, không thể vượt qua những điều bị coi là thiếu tôn trọng, điều này cản trở khả năng điều hướng hiệu quả các động lực hiện tại.",
+        "reversed": "Một bước đột phá trong việc điều hướng chính trị nơi làm việc. Lá bài báo hiệu việc giải phóng những oán giận trong quá khứ, tìm cách tha thứ (hoặc ít nhất là chấp nhận) những hành động đã qua và áp dụng một cách tiếp cận chiến lược hơn, ít bị cảm xúc chi phối hơn đối với những thách thức hiện tại."
+      },
+      "side_hustle": {
+        "upright": "Một công việc phụ bị bỏ dở hoặc trì trệ do những thất bại trong quá khứ, cảm giác thiếu tiến bộ hoặc hối tiếc về những khoản đầu tư ban đầu (thời gian/tiền bạc). Trọng tâm hoàn toàn nằm ở tiềm năng \"đã mất\", thay vì học hỏi từ kinh nghiệm hoặc khám phá những con đường mới.",
+        "reversed": "Một tia sáng cảm hứng mới cho công việc phụ. Điều này cho thấy sự sẵn lòng học hỏi từ những sai lầm trong quá khứ, buông bỏ sự hối tiếc và tìm thấy một cách tiếp cận thực tế hoặc đam mê hơn. Những cơ hội mới hoặc một góc nhìn mới cho phép sự phát triển."
+      },
+      "real_estate": {
+        "upright": "Một cảm giác hối ti���c hoặc thất vọng sâu sắc liên quan đến một quyết định bất động sản – một giao dịch mua bị bỏ lỡ, một thương vụ bán tồi tệ hoặc một tài sản không đáp ứng kỳ vọng. Trọng tâm là \"mất mát\" tài chính hoặc cảm xúc, khiến việc tiến lên với các dự án mới trở nên khó khăn.",
+        "reversed": "Sự giải thoát khỏi gánh nặng của những hối tiếc bất động sản trong quá khứ. Nó báo hiệu một sự rõ ràng và chấp nhận mới, cho phép bạn học hỏi từ những kinh nghiệm trước đây và tiếp cận các quyết định tài sản trong tương lai với một tâm trí minh mẫn và sự lạc quan mới."
+      },
+      "financial_loss": {
+        "upright": "Bản chất của lá bài này. Một nỗi đau buồn sâu sắc và choáng ngợp trước những mất mát tài chính, thường đi kèm với sự tự trách, hối tiếc và không thể nhìn thấy bất kỳ con đường phục hồi nào. Bạn bị ám ảnh bởi những gì đã mất, bỏ qua những nguồn lực còn lại hoặc tiềm năng trong tương lai.",
+        "reversed": "Sự xuất hiện chậm rãi nhưng chắc chắn từ bóng tối của sự tuyệt vọng tài chính. Nó báo hiệu sự chấp nhận mất mát, sự giải thoát khỏi vòng xoáy hối tiếc và sự khám phá những chiến lược hoặc cơ hội mới để xây dựng lại, thường thông qua hành động thực tế và sự thay đổi trong quan điểm."
+      },
+      "sudden_wealth": {
+        "upright": "Trớ trêu thay, ngay cả với sự giàu có bất ngờ, lá bài này gợi ý sự bất lực trong việc tận hưởng hoặc đánh giá cao nó một cách trọn vẹn do những hối tiếc dai dẳng trong quá khứ, cảm giác tội lỗi về cách nó được có được, hoặc nỗi sợ hãi bao trùm về việc mất đi nó, bắt nguồn từ những trải nghiệm thiếu thốn hoặc mất mát trước đây. Niềm vui bị che khuất bởi bóng tối.",
+        "reversed": "Bạn bắt đầu hòa nhập sự giàu có bất ngờ vào cuộc sống của mình, buông bỏ những nỗi sợ hãi hoặc cảm giác tội lỗi trong quá khứ. Bạn tìm thấy cách để tôn vinh những khó khăn trong quá khứ trong khi đón nhận sự phong phú mới, sử dụng nó một cách xây dựng và tìm thấy sự bình yên thực sự với hoàn cảnh đã thay đổi của mình."
+      },
+      "healing": {
+        "upright": "Quá trình chữa lành bị đình trệ hoặc cản trở bởi sự không sẵn lòng buông bỏ những vết thương, tổn thương hoặc oán giận trong quá khứ. Bạn bị mắc kẹt trong vòng lặp của việc sống lại nỗi đau, khiến cho sự phục hồi cảm xúc hoặc tinh thần thực sự trở nên khó nắm bắt.",
+        "reversed": "Một bước đột phá đáng kể trong hành trình chữa lành. Lá bài báo hiệu hành động dũng cảm đối mặt và cuối cùng giải phóng nỗi đau sâu sắc, tha thứ cho bản thân hoặc người khác, và bước đi trên con đường phục hồi cảm xúc và tinh thần chân chính."
+      },
+      "stress": {
+        "upright": "Căng thẳng bị chồng chất bởi việc liên tục tái hiện những sai lầm trong quá khứ, những cơ hội bị bỏ lỡ hoặc những thất bại được nhận thức. Tâm trí bị mắc kẹt trong vòng lặp hối tiếc, khuếch đại áp lực hiện tại và khiến việc tìm thấy sự bình yên nội tâm hoặc các cơ chế đối phó hiệu quả trở nên bất khả thi.",
+        "reversed": "Sự nhận ra sâu sắc rằng việc chìm đắm trong những căng thẳng trong quá khứ chỉ làm kéo dài chu kỳ. Sự đảo ngược này báo hiệu một quyết định có ý thức để giải phóng gánh nặng tinh thần của ngày hôm qua, tìm kiếm những chiến lược mới để quản lý áp lực hiện tại và lấy lại cảm giác bình tĩnh và kiểm soát."
+      },
+      "trauma": {
+        "upright": "Tác động sâu sắc và lan tỏa của chấn thương trong quá khứ, biểu hiện như một trạng thái đau buồn, hối tiếc hoặc tê liệt cảm xúc dai dẳng. Bạn không thể vượt qua sự kiện đó, liên tục sống lại nỗi đau và mất mát liên quan đến nó.",
+        "reversed": "Một bước ngoặt quan trọng trong quá trình chữa lành chấn thương. Nó cho thấy một bước tiến dũng cảm để xử l�� quá khứ, cho phép giải phóng nỗi đau tích trữ và khởi đầu quá trình tái hòa nhập. Đó là về việc tìm thấy hy vọng và một con đường phía trước, không còn bị chấn thương định nghĩa hoàn toàn."
+      },
+      "exams": {
+        "upright": "Một học sinh bị tê liệt bởi lo lắng bắt nguồn từ những thất bại hoặc kết quả kém trong kỳ thi trước, dẫn đến việc tập trung vào những gì đã sai hơn là chuẩn bị hiệu quả cho tương lai. Tâm lý tự hủy hoại này có thể phá hoại những nỗ lực hiện tại.",
+        "reversed": "Học sinh rũ bỏ gánh nặng của những thất vọng học tập trong quá khứ. Họ học hỏi từ những sai lầm trước đó mà không chìm đắm vào chúng, tiếp cận các kỳ thi mới với một tư duy sảng khoái, quyết tâm mới và tập trung vào nỗ lực hiện tại và thành công trong tương lai."
+      },
+      "scholarship": {
+        "upright": "Một nỗi thất vọng hoặc hối tiếc sâu sắc về một cơ hội học bổng đã mất, hoặc nỗi sợ rằng những thiếu sót trong học tập trong quá khứ sẽ ngăn cản thành công trong tương lai. Trọng tâm là những gì đã bỏ lỡ, thay vì khám phá các con đường thay thế hoặc thể hiện tiềm năng hiện tại.",
+        "reversed": "Giải phóng nỗi thất vọng về những lần bị từ chối học bổng hoặc cơ hội bị bỏ lỡ trong quá khứ. Nó báo hiệu một quyết tâm mới để theo đuổi mục tiêu giáo dục, có thể tìm thấy những con đường tài trợ bất ngờ hoặc chứng minh giá trị thông qua những nỗ lực hiện tại, không còn bị cản trở bởi những trở ngại trong quá khứ."
+      },
+      "talent": {
+        "upright": "Một cảm giác hối tiếc hoặc đau buồn sâu sắc về những tài năng chưa được sử dụng hoặc phát triển, hoặc sự \"mất mát\" được nhận thức về một tài năng do thiếu cơ hội hoặc sự tự nghi ngờ trong quá khứ. Bạn than thở về những gì có thể đã xảy ra, thay vì khám phá tiềm năng hiện tại.",
+        "reversed": "Một sự thức tỉnh đối với những tài năng tiềm ẩn hoặc bị bỏ quên. Nó báo hiệu sự giải thoát khỏi những hối tiếc trong quá khứ về những gì chưa được theo đuổi, dẫn đến một khao khát mới để khám phá, nuôi dưỡng và thể hiện những khả năng bẩm sinh của bản thân, tìm thấy niềm vui và mục đích trong sự phát triển của chúng."
+      },
+      "spirit_guide": {
+        "upright": "Bạn quá chìm đắm trong nỗi buồn cá nhân, hối tiếc hoặc sự gắn bó với những nỗi đau trong quá khứ đến mức không thể nhận thức hoặc kết nối với sự hướng dẫn tinh tế được đưa ra bởi các linh hồn dẫn dắt của mình. Màn sương mù cảm xúc che khuất con đường tâm linh.",
+        "reversed": "Khi màn sương mù của nỗi buồn cá nhân bắt đầu tan biến, nhận thức tâm linh của bạn trở nên rõ ràng. Điều này cho phép kết nối sâu sắc hơn với các linh hồn dẫn dắt của bạn, nhận được sự khôn ngoan và an ủi của họ, đồng thời tìm thấy hy vọng và định hướng mới trên hành trình tâm linh của bạn."
       }
     },
     "planet": "Sao Hỏa",
@@ -9812,6 +12764,78 @@ window.TAROT_DB = [
       "lost_item": {
         "upright": "Món đồ thất lạc có thể tìm thấy ở một nơi cũ quen thuộc, hoặc do một người quen cũ trả lại. Nó mang ý nghĩa kỉ niệm, giá trị tinh thần hơn vật chất, như một mảnh ghép từ quá khứ.",
         "reversed": "Vật bị mất đã bị lãng quên hoặc bị vứt bỏ trong một khoảnh khắc vô tâm. Việc tìm kiếm trở nên vô vọng vì nó đã không còn giá trị trong mắt bạn, như một kỉ vật đã phai mờ."
+      },
+      "toxic_relationship": {
+        "upright": "Sáu Cốc xuôi trong mối quan hệ độc hại thường biểu thị một vòng lặp quen thuộc, một sự trở lại với những khuôn mẫu cũ, dù biết là không lành mạnh nhưng vẫn mang một sự 'ấm áp' giả tạo của quá khứ. Nó là sự níu kéo những ảo ảnh về 'những ngày xưa' trong một mối liên kết đã mục ruỗng.",
+        "reversed": "Khi Sáu Cốc ngược xuất hiện, nó là lời cảnh tỉnh sắc lạnh về sự cần thiết phải đoạn tuyệt với những xiềng xích của quá khứ độc hại. Đó là khoảnh khắc nhận ra sự thật trần trụi, từ chối lặp lại những lỗi lầm cũ và dũng cảm bước ra khỏi vùng an toàn ảo ảnh để tìm kiếm sự tự do đích thực."
+      },
+      "soulmate": {
+        "upright": "Sáu Cốc xuôi cho thấy một sự kết nối định mệnh, một linh hồn tri kỷ có thể đến từ kiếp trước hoặc một người bạn thời thơ ấu trở lại. Đó là cảm giác 'về nhà', sự thân thuộc sâu sắc và an ủi, như thể hai tâm hồn đã biết nhau từ rất lâu.",
+        "reversed": "Sáu Cốc ngược trong bối cảnh này thường báo hiệu sự vỡ mộng với một người từng được xem là tri kỷ, hoặc sự khó khăn trong việc nhận ra một linh hồn phù hợp mới vì còn mãi vấn vương những hình bóng lý tưởng hóa của quá khứ. Nó cũng có thể là dấu hiệu để buông bỏ một kết nối từng thiêng liêng nhưng nay không còn phục vụ cho sự phát triển của bạn."
+      },
+      "reconciliation": {
+        "upright": "Lá bài này báo hiệu một cơ hội hòa giải m���nh mẽ, một sự quay về với những mối quan hệ cũ đã từng rạn nứt. Nó là khao khát hàn gắn vết thương, tìm lại sự hài hòa và bình yên trong quá khứ, nơi những kỷ niệm đẹp có thể làm cầu nối.",
+        "reversed": "Sáu Cốc ngược chỉ ra sự từ chối hòa giải, một sự cố chấp không thể buông bỏ những oán hận cũ. Nó cũng có thể là nhận thức rằng việc tái hợp không còn lành mạnh hoặc cần thiết, và đã đến lúc phải tiến về phía trước, không còn bị ràng buộc bởi những kỳ vọng của quá khứ."
+      },
+      "secret_admirer": {
+        "upright": "Một người ngưỡng mộ thầm lặng từ quá khứ đang xuất hiện trở lại, có thể là một người bạn cũ, một mối tình thời thơ ấu. Sự ngưỡng mộ này mang màu sắc trong sáng, thuần khiết và có phần hoài niệm.",
+        "reversed": "Người ngưỡng mộ thầm lặng từ quá khứ có thể lộ diện, nhưng sự tiết lộ này có thể gây ra sự khó chịu hoặc nhận ra rằng sự ngưỡng mộ đó dựa trên một hình ảnh lý tưởng hóa, không còn phù hợp với thực tại. Cũng có thể là bạn đang thoát khỏi những ảo mộng về một người hâm mộ bí mật để đối diện với thực tế."
+      },
+      "burnout": {
+        "upright": "Sáu Cốc xuôi cho thấy sự kiệt sức bắt nguồn từ việc bám víu vào những phương pháp làm việc cũ kỹ, một sự kháng cự không muốn thích nghi với cái mới. Đó là sự tìm kiếm an ủi trong những thói quen và vai trò đã qua, dù chúng không còn bền vững và gây ra gánh nặng.",
+        "reversed": "Lá bài ngược báo hiệu sự giải thoát khỏi gánh nặng của những kỳ vọng và áp lực từ quá khứ đã dẫn đến kiệt sức. Đó là một sự thức tỉnh khắc nghiệt, buộc bạn phải đối mặt với cội rễ của sự cạn kiệt năng lượng, thường nằm sâu trong những khuôn mẫu cũ, để tìm lại nguồn năng lượng mới và vượt lên."
+      },
+      "startup": {
+        "upright": "Một ý tưởng khởi nghiệp nảy sinh từ niềm đam mê thời thơ ấu, một khái ni���m mang tính hoài niệm hoặc một doanh nghiệp xây dựng trên những giá trị quen thuộc và các mối quan hệ đáng tin cậy. Đó là sự trở về với những nguyên tắc nền tảng, vững chắc.",
+        "reversed": "Một dự án khởi nghiệp đang gặp khó khăn vì không thể vượt qua những ý tưởng lỗi thời, hoặc sự cố chấp với các khái niệm hoài niệm đang cản trở sự đổi mới. Đó là một lời cảnh báo để buông bỏ những giấc mơ trẻ thơ không còn khả thi trong bối cảnh hiện tại và dũng cảm tiến lên với tư duy mới."
+      },
+      "workplace_politics": {
+        "upright": "Chính trị nơi công sở bắt nguồn từ những hiềm khích lịch sử, các liên minh lâu đời hoặc sự trở lại của những động thái quyền lực quen thuộc, mang đậm tính 'trò chơi trẻ con' trong môi trường làm việc.",
+        "reversed": "Sáu Cốc ngược là sự giải thoát khỏi những trò chơi chính trị cũ kỹ, từ chối tham gia vào các cuộc đấu tranh quyền lực trẻ con. Đó là một sự thức t���nh khắc nghiệt về bản chất thật sự của những thao túng trong quá khứ, thúc đẩy bạn vượt lên trên những động thái quen thuộc nhưng độc hại."
+      },
+      "side_hustle": {
+        "upright": "Một công việc phụ giống như một sở thích, một điều bạn từng yêu thích khi còn nhỏ, hoặc sự trở lại với một niềm vui sáng tạo đơn giản. Đó là một cách thoải mái, quen thuộc để kiếm thêm thu nhập, mang lại niềm vui như thời thơ ấu.",
+        "reversed": "Công việc phụ trở thành gánh nặng, cảm giác bị mắc kẹt bởi nó hoặc nhận ra rằng nó không còn bền vững. Lá bài ngược cũng có thể là dấu hiệu để bạn vượt qua một sở thích hoài niệm để theo đuổi những dự án tham vọng hơn, hoặc một đam mê cũ không còn mang lại giá trị trong hiện tại."
+      },
+      "real_estate": {
+        "upright": "Việc mua bán ngôi nhà thời thơ ấu, trở về khu phố quen thuộc hoặc đầu tư vào bất động sản mang lại cảm giác hoài niệm và an toàn. Đó là một cảm giác 'mái ấm' và sự thoải mái sâu sắc.",
+        "reversed": "Khó khăn trong việc buông bỏ một ngôi nhà gia đình, không thể rời khỏi một tình huống sống trong quá khứ, hoặc một sự thật phũ phàng về giá trị thực của một tài sản mang tính hoài niệm. Nó là lúc phải rời xa nơi ở cũ để mở ra một tương lai mới."
+      },
+      "financial_loss": {
+        "upright": "Thiệt hại tài chính do bám víu vào các khoản đầu tư lỗi thời, những gắn bó tình cảm với tài sản, hoặc lặp lại những sai lầm tài chính trong quá khứ. Đó là một bài học từ quá khứ chưa được lĩnh hội.",
+        "reversed": "Cuối cùng đã học được từ những sai lầm tài chính trong quá khứ, giải phóng những ràng buộc tình cảm gây ra tổn thất, hoặc thoát khỏi một vòng lặp của sự bất cẩn tài chính. Đó là một sự thức tỉnh khắc nghiệt nhưng cần thiết đối với thực tế tài chính."
+      },
+      "sudden_wealth": {
+        "upright": "Sự giàu có bất ngờ đến từ một nguồn không mong đợi nhưng có liên quan đến quá khứ – một khoản thừa kế, một khoản đầu tư cũ đã đáo hạn, hoặc một khoản nợ đã quên được hoàn trả. Đó là một món quà từ dòng chảy thời gian.",
+        "reversed": "Sự giàu có bất ngờ gây ra sự xáo trộn, không thể xử lý sự phong phú mới do những khuôn mẫu tiền bạc trong quá khứ, hoặc một nhận thức đột ngột rằng tiền bạc không mang lại sự thoải mái như kỳ vọng từ một lý tưởng hoài niệm. Cũng có thể là sự buông bỏ những kỳ vọng về của cải từ quá khứ."
+      },
+      "healing": {
+        "upright": "Quá trình chữa lành thông qua việc hồi tưởng lại ký ức tuổi thơ, kết nối với đứa trẻ bên trong, tìm thấy sự an ủi trong những thói quen quen thuộc hoặc xử lý những vết thương cũ với một sự hoài niệm nhẹ nhàng.",
+        "reversed": "Khó khăn trong việc vượt qua những vết thương cũ, bám víu vào nỗi đau trong quá khứ, hoặc một nhận thức khắc nghiệt rằng những phương pháp đối phó cũ không còn hiệu quả. Đó là lúc vượt qua sự thoải mái của vai trò nạn nhân để đón nhận quá trình chữa lành hiện tại."
+      },
+      "stress": {
+        "upright": "Căng thẳng xuất phát từ việc không thể buông bỏ những kỳ vọng trong quá khứ, khao khát một quá khứ lý tưởng hóa, hoặc quay trở lại những khuôn mẫu gây căng thẳng từ những giai đoạn trước của cuộc đời.",
+        "reversed": "Giải phóng những nguồn căng thẳng từ quá khứ, thoát khỏi những lo lắng cũ, hoặc một sự thức tỉnh khắc nghiệt về nguyên nhân thực sự của căng thẳng, vốn bắt nguồn từ những điều kiện trong quá khứ. Đó là lúc tiến về phía trước, thoát khỏi những áp lực cũ."
+      },
+      "trauma": {
+        "upright": "Sáu Cốc xuôi cho thấy việc tái thăm lại những tổn thương trong quá khứ, có thể là một cách trị liệu nhẹ nhàng để hiểu và xử lý chúng. Bản thân tổn thương có nguồn gốc từ thời thơ ấu hoặc những trải nghiệm đã qua đang tái hiện.",
+        "reversed": "Giải phóng sự kiểm soát của tổn thương cũ, từ chối bị định nghĩa bởi nó, hoặc một sự đối mặt khó khăn nhưng cần thiết với nỗi đau quá khứ để cuối cùng có thể bước tiếp. Cũng có thể là nhận ra rằng tổn thương cũ vẫn đang níu giữ bạn, đòi hỏi hành động dứt khoát."
+      },
+      "exams": {
+        "upright": "Thành công trong kỳ thi nhờ kiến thức nền tảng vững chắc từ việc học tập trong quá khứ, việc ôn lại những thói quen học cũ, hoặc tìm thấy sự thoải mái trong các môn học quen thuộc.",
+        "reversed": "Khó khăn trong kỳ thi do dựa vào kiến thức lỗi thời, không thể thích nghi với các phương pháp mới, hoặc một nhận thức khắc nghiệt rằng những thói quen học cũ không còn đủ. Đó là lúc vượt qua những phương pháp học tập cũ để tiếp cận kiến thức mới."
+      },
+      "scholarship": {
+        "upright": "Một học bổng được trao dựa trên những thành tích trong quá khứ, một sự trở lại với con đường học vấn, hoặc một món quà nhân ái cho phép tiếp tục giáo dục. Đó là sự công nhận tiềm năng từ quá khứ.",
+        "reversed": "Một cơ hội học bổng bị bỏ lỡ do bám víu vào những hạn chế trong quá khứ, không thể nắm bắt những cơ hội giáo dục mới, hoặc nhận ra rằng những con đường học thuật cũ không còn phù hợp. Đó là lúc vượt qua những vinh quang học thuật cũ để định hình tương lai."
+      },
+      "talent": {
+        "upright": "Tái khám phá một tài năng thời thơ ấu, nuôi dưỡng một kỹ năng đã bị lãng quên, hoặc tìm thấy sự thoải mái và niềm vui trong việc thể hiện những khả năng bẩm sinh từ quá khứ.",
+        "reversed": "Bám víu vào những tài năng lỗi thời không còn phục vụ, không thể phát triển những kỹ năng mới, hoặc một nhận thức khắc nghiệt rằng một tài năng cũ cần được hiện đại hóa đáng kể hoặc đánh giá lại. Đó là lúc vượt qua những định nghĩa cũ về tài năng."
+      },
+      "spirit_guide": {
+        "upright": "Một linh hồn dẫn lối xuất hiện dưới hình dạng của một người thân đã khuất từ thời thơ ấu, một tổ tiên hướng dẫn, hoặc một người dẫn đường mang lại sự an ủi và trí tuệ bắt nguồn từ kiến thức cổ xưa. Một sự hiện diện tâm linh quen thuộc, vỗ về.",
+        "reversed": "Khó khăn trong việc kết nối với các linh hồn dẫn lối do bám víu vào những niềm tin cũ, không thể nhận ra sự hướng dẫn tâm linh mới, hoặc nhận ra rằng những người thầy tâm linh trong quá khứ không còn phục vụ con đường hiện tại. Đó là lúc vượt qua những khái niệm tâm linh thời thơ ấu."
       }
     },
     "planet": "Mặt Trời",
@@ -10043,6 +13067,78 @@ window.TAROT_DB = [
       "general": {
         "upright": "Một giai đoạn của sự lựa chọn phong phú nhưng cũng đầy bối rối, nơi những giấc mơ và thực tại hòa quyện, đòi hỏi sự tỉnh táo để không lạc lối.",
         "reversed": "Sau màn sương mờ ảo, mọi thứ trở nên rõ ràng. Bạn đã sẵn sàng đưa ra quyết định, đối mặt với thực tế và hành động một cách dứt khoát."
+      },
+      "toxic_relationship": {
+        "upright": "Một mạng lưới ảo ảnh bao phủ mối quan hệ, nơi những lời hứa hão huyền và giấc mơ viển vông che mờ sự thật phũ phàng. Bạn đắm chìm trong viễn cảnh 'nếu như', bỏ qua những dấu hiệu cảnh báo đỏ rực, lạc lối giữa mê cung của những lựa chọn cảm xúc sai lầm, tin vào một tình yêu chỉ tồn tại trong tưởng tượng.",
+        "reversed": "Màn sương ảo ảnh tan biến, hé lộ bản chất độc hại của mối quan hệ. Đây là khoảnh khắc thức tỉnh đau đớn nhưng cần thiết, khi bạn đối diện với sự thật trần trụi và đưa ra quyết định dứt khoát để thoát khỏi xiềng xích của sự lừa dối, hoặc nhận ra sự tự lừa dối của chính mình."
+      },
+      "soulmate": {
+        "upright": "Bạn đang lạc lối trong khu vườn của những lý tưởng hóa, gán ghép hình ảnh 'tri kỷ' lên nhiều đối tượng tiềm năng, nhầm lẫn giữa sự say mê nhất thời và một kết nối định mệnh. Có quá nhiều lựa chọn, nhưng không ai thực sự chạm đến chiều sâu tâm hồn, chỉ là những hình bóng mờ ảo của một tình yêu hoàn hảo không có thật.",
+        "reversed": "Sau màn sương mù của những kỳ vọng hão huyền, một sự rõ ràng thiêng liêng xuất hiện. Bạn phân biệt được đâu là ảo ảnh và đâu là sợi dây liên kết chân thật, nhận ra rằng khái niệm tri kỷ có thể là một ảo tưởng, hoặc một kết nối sâu sắc, thực tế cuối cùng đã được nhận diện sau nhiều hoài nghi."
+      },
+      "reconciliation": {
+        "upright": "Bạn đắm chìm trong những giấc mơ hòa giải ngọt ngào, tái hiện lại quá khứ với những màu sắc lãng mạn không thực, tin vào một sự đoàn tụ hoàn hảo chỉ tồn tại trong tâm trí. Đây là sự khao khát phi thực tế, lạc lối trong những kịch bản 'giá như' thay vì đối diện với thực tế cần thiết để hàn gắn.",
+        "reversed": "Một quyết định rõ ràng được đưa ra về việc liệu hòa giải có thực sự khả thi hay không. Màn sương mơ mộng tan đi, nhường chỗ cho cái nhìn thực tế về những gì cần thiết để hàn gắn, hoặc sự chấp nhận rằng một số ảo ảnh phải bị phá vỡ để sự chữa lành đích thực có thể bắt đầu."
+      },
+      "secret_admirer": {
+        "upright": "Một tấm màn bí ẩn bao phủ, với vô số gương mặt tiềm năng hiện lên trong tâm trí bạn. Bạn lạc lối trong những phỏng đoán, nhầm lẫn giữa những cử chỉ thân thiện và một tình cảm sâu sắc hơn, tạo ra một mạng lưới suy đoán không có hồi kết.",
+        "reversed": "Màn sư��ng mù tan biến, danh tính của người hâm mộ bí mật được hé lộ rõ ràng, hoặc bạn nhận ra rằng 'người ngưỡng mộ' chỉ là một sản phẩm của trí tưởng tượng. Đây là lúc quyết định đối mặt với sự mơ hồ để tìm kiếm sự thật."
+      },
+      "burnout": {
+        "upright": "Bạn bị nhấn chìm bởi vô số lựa chọn và kỳ vọng, trải rộng năng lượng của mình trên quá nhiều con đường không định hướng. Một sự mệt mỏi tinh thần bao trùm, xuất phát từ việc theo đuổi một lý tưởng thành công không thực tế, khiến tâm trí bạn chìm trong sương mù.",
+        "reversed": "Một khoảnh khắc giác ngộ xuất hiện, bạn nhận ra sự cần thiết phải ưu tiên và đơn giản hóa. Những kỳ vọng phi thực tế bị loại bỏ, một quyết định vững chắc được đưa ra để nghỉ ngơi và phục hồi, hoặc bạn chấp nhận giới hạn thực tế của bản thân."
+      },
+      "startup": {
+        "upright": "Những ý tưởng rực rỡ nhưng thiếu tập trung, quá nhiều hướng đi tiềm năng khiến bạn lạc lối trong 'giấc mơ' khởi nghiệp mà thiếu đi kế hoạch cụ thể. Sự tê liệt phân tích do quá nhiều lựa chọn làm lu mờ con đường thực tế.",
+        "reversed": "Một tầm nhìn rõ ràng xuất hiện, dẫn đến hành động quyết đoán trên một con đường cụ thể. Bạn xuyên thủng những tiếng ồn của vô số khả năng để xây dựng một nền tảng vững chắc, hoặc nhận ra một cách thực tế những gì thực sự khả thi."
+      },
+      "workplace_politics": {
+        "upright": "Bạn bị cuốn vào một mạng lưới phức tạp của các liên minh và chương trình nghị sự ẩn giấu, khó lòng phân biệt được động cơ thực sự. Những lời đồn thổi và suy đoán làm bạn choáng váng, cảm thấy choáng ngợp bởi sự phức tạp trong môi trường làm việc.",
+        "reversed": "Sự rõ ràng xuất hiện về động lực quyền lực, bạn nhìn thấu những thao túng và đưa ra quyết định chiến lược để điều hướng hoặc tránh xa những tình huống nhất định, hoặc trực tiếp đối mặt với các trò chơi chính trị."
+      },
+      "side_hustle": {
+        "upright": "Vô số ý tưởng kinh doanh phụ lấp đầy tâm trí bạn, tạo ra ảo ảnh về sự giàu có nhanh chóng hoặc thành công dễ dàng. Sự phân vân về con đường nào để theo đuổi, khiến năng lượng bị phân tán vào quá nhiều ý tưởng chưa thành hình.",
+        "reversed": "Một lựa chọn cụ thể được đưa ra và bạn cam kết thực hiện. Một đánh giá thực tế về thời gian và công sức cần thiết, từ bỏ những giấc mơ không thực tế để tập trung vào một dự án khả thi."
+      },
+      "real_estate": {
+        "upright": "Bạn bị choáng ngợp bởi vô số lựa chọn bất động sản, mơ mộng về một ngôi nhà lý tưởng có thể không tồn tại hoặc vượt quá khả năng tài chính. Sự thiếu quyết đoán, lạc lối trong những vẻ đẹp bề ngoài thay vì những yếu tố thực tế.",
+        "reversed": "Một quyết định rõ ràng được đưa ra về một bất động sản cụ thể. Bạn có cái nhìn thực tế về thị trường, nhìn thấu những quảng cáo lừa dối, hoặc đưa ra lựa chọn thực dụng phù hợp với nhu cầu và ngân sách thực tế."
+      },
+      "financial_loss": {
+        "upright": "Những ảo ảnh về đầu tư, sự lạc quan hão huyền dẫn đến những lựa chọn tài chính kém khôn ngoan. Bạn bị cuốn vào những kế hoạch làm giàu nhanh chóng, không thể nhìn thấy những rủi ro thực sự đang tiềm ẩn.",
+        "reversed": "Một sự thật phũ phàng về những sai lầm tài chính được phơi bày. Bạn đối mặt với thực tế mất mát một cách rõ ràng, đưa ra quyết định vững chắc để cắt lỗ và xây dựng lại, hoặc học cách phân biệt cơ hội khả thi với những trò lừa đảo."
+      },
+      "sudden_wealth": {
+        "upright": "Bạn đang mơ mộng về một khoản tiền bất ngờ, tưởng tượng vô số khả năng mà không có kế hoạch thực tế, lạc lối trong những giấc mơ xa hoa và thoát ly khỏi thực tại.",
+        "reversed": "Một dòng tiền bất ngờ mang lại sự rõ ràng về các ưu tiên. Một cách tiếp cận thực dụng để quản lý các nguồn lực mới, hoặc nhận ra rằng giá trị thực sự nằm ngoài lợi ích vật chất, dẫn đến những lựa chọn có ý thức với vận may mới."
+      },
+      "healing": {
+        "upright": "Bạn đang khám phá vô số phương pháp chữa lành mà không có sự cam kết, lạc lối trong những giải pháp tâm linh hời hợt hoặc ảo tưởng về một phương thuốc tức thì, né tránh công việc chữa lành sâu sắc hơn.",
+        "reversed": "Bạn lựa chọn một con đường chữa lành cụ thể và cam kết thực hiện. Đối mặt với nguyên nhân gốc rễ của sự đau khổ, loại bỏ những ảo ảnh về các giải pháp nhanh chóng, hoặc một sự nhận thức sâu sắc dẫn đến sự phục hồi thực sự."
+      },
+      "stress": {
+        "upright": "Bạn bị choáng ngợp bởi vô số yếu tố gây căng thẳng, cảm thấy không thể ưu tiên hoặc giải quyết chúng. Một làn sương mù tinh thần bao trùm, khiến bạn mắc kẹt trong vòng xoáy lo lắng và thiếu quyết đoán.",
+        "reversed": "Sự rõ ràng xuất hiện về các nguồn gây căng thẳng. Bạn đưa ra những lựa chọn quyết đoán để giảm bớt gánh nặng, thiết lập ranh giới, hoặc có một bước đột phá trong việc hiểu cách quản lý hiệu quả tình trạng quá tải tinh thần."
+      },
+      "trauma": {
+        "upright": "Bạn trốn tránh vào thế giới ảo ảnh hoặc sự phủ nhận để đối phó với tổn thương, tái hiện lại những sự kiện trong quá khứ một cách méo mó. Cảm giác choáng ngợp bởi những ký ức và cảm xúc rời rạc, khó phân biệt thực tế với ảnh hưởng của chấn thương.",
+        "reversed": "Một bước đột phá trong việc xử lý chấn thương, đối mặt với thực tế của các sự kiện trong quá khứ với sự rõ ràng. Đưa ra quyết định có ý thức để tìm kiếm sự giúp đỡ cụ thể, hoặc tích hợp những trải nghiệm rời rạc thành một câu chuyện mạch lạc để chữa lành."
+      },
+      "exams": {
+        "upright": "Bạn bị choáng ngợp bởi tài liệu học tập, thiếu quyết đoán về việc nên tập trung vào cái gì. Mơ mộng về thành công mà thiếu đi nỗ lực cụ thể, bị phân tâm bởi quá nhiều lựa chọn hoặc khả năng.",
+        "reversed": "Một kế hoạch học tập rõ ràng xuất hiện, ưu tiên các lĩnh vực chính. Bạn loại bỏ thông tin không liên quan, hoặc một sự nhận thức đột ngột về những gì cần làm để thành công, dẫn đến nỗ lực tập trung."
+      },
+      "scholarship": {
+        "upright": "Bạn đang mơ mộng về việc nhận được nhiều học bổng, lạc lối trong giấc mơ về tài trợ học thuật mà thiếu đi sự nỗ lực thực tế, bị choáng ngợp bởi vô số lựa chọn và yêu cầu.",
+        "reversed": "Bạn tập trung vào các đơn xin học bổng cụ thể, khả thi. Một đánh giá thực tế về khả năng đủ điều kiện, đưa ra quyết định rõ ràng về những cơ hội nào nên theo đuổi, hoặc một bước đột phá trong việc hiểu quy trình nộp đơn."
+      },
+      "talent": {
+        "upright": "Bạn khám phá ra nhiều tài năng tiềm ẩn nhưng lại khó khăn trong việc lựa chọn một để phát triển, mơ mộng về việc trở thành bậc thầy của mọi lĩnh vực, lạc lối trong ý tưởng về tiềm năng mà thiếu đi sự hiện thực hóa.",
+        "reversed": "Một sự tập trung rõ ràng vào việc phát triển một tài năng cụ thể. Bạn nhận ra và từ bỏ những con đường ít khả thi, đưa ra một lựa chọn cam kết để mài giũa một kỹ năng cụ thể, hoặc một bước đột phá trong việc hiểu được tiếng gọi thực sự của bản thân."
+      },
+      "spirit_guide": {
+        "upright": "Vô số ảnh hưởng hoặc tiếng nói tâm linh bao vây bạn, khiến bạn khó phân biệt giữa sự hướng dẫn chân thật và những suy nghĩ hão huyền, hay sự nhầm lẫn giữa bản ngã và thông điệp thiêng liêng. Bạn cảm thấy choáng ngợp bởi các con đường tâm linh đa dạng.",
+        "reversed": "Một kết nối rõ ràng với một linh hồn hướng dẫn cụ thể được thiết lập. Bạn phân biệt được những thông điệp tâm linh đích thực khỏi những tiếng ồn nhiễu loạn, đạt được sự rõ ràng trong con đường tâm linh của mình, hoặc nhận ra rằng trí tuệ nội tại là kim chỉ nam đáng tin cậy nhất."
       }
     },
     "planet": "Sao Kim",
@@ -10275,6 +13371,78 @@ window.TAROT_DB = [
       "lost_item": {
         "upright": "Món đồ thất lạc có thể đã bị bạn cố tình bỏ lại, hoặc bạn đã không còn tìm kiếm nó vì nhận ra nó không còn quan trọng. Sự buông bỏ vật chất để tìm kiếm giá trị tinh thần.",
         "reversed": "Hối tiếc vì đã vứt bỏ một món đồ, hoặc bạn đang tìm kiếm một thứ mà bạn đã từng cố gắng quên đi. Vật phẩm đã mất mang theo nỗi day dứt, như một phần kí ức bị lãng quên."
+      },
+      "toxic_relationship": {
+        "upright": "Một khoảnh khắc giác ngộ sâu sắc, khi bạn nhận ra mối quan hệ này, dù quen thuộc, đã rút cạn sinh khí của bạn. Đây là lúc dũng cảm rời bỏ sự độc hại, tìm kiếm bình yên và sự trọn vẹn thật sự ở nơi khác. Một sự ra đi có chủ đích khỏi một mối liên kết nghiệt ngã.",
+        "reversed": "Sự giằng xé nội tâm khi cố gắng cắt đứt với một kết nối quen thuộc nhưng độc hại. Bạn có thể bị kéo lại bởi những khuôn mẫu cũ, nỗi sợ cô đơn, hoặc một hy vọng sai lầm vào sự thay đổi. Điều này báo hiệu sự do dự, một vòng lặp của việc rời đi rồi quay lại, hoặc cuối cùng tìm thấy sức mạnh để cam kết rời đi vĩnh viễn sau nhiều xung đột nội tâm."
+      },
+      "soulmate": {
+        "upright": "Rời bỏ một kết nối mà bạn từng nghĩ là tri kỷ, chỉ để nhận ra nó không còn phù hợp với con đường tâm linh thật sự của bạn. Lá bài này biểu thị lòng dũng cảm để từ bỏ một mối quan hệ tưởng chừng hoàn hảo nhưng cuối cùng lại không trọn vẹn, tin tưởng rằng tri kỷ đích thực đang chờ đợi bạn trên một hành trình khác.",
+        "reversed": "Một giai đoạn tái đánh giá về một kết nối quan trọng. Bạn có thể đang quay lại với một tình yêu cũ, hoặc gặp khó khăn trong việc hoàn toàn cam kết với một người mới, tự hỏi liệu họ có phải là 'người duy nhất'. Nó cũng có thể có nghĩa là nhận ra một kết nối tri kỷ trong quá khứ không phải là định mệnh, hoặc tìm thấy hy v��ng mới trong một mối quan hệ mà bạn suýt từ bỏ."
+      },
+      "reconciliation": {
+        "upright": "Một dấu hiệu rõ ràng rằng hòa giải không phải là con đường tốt nhất cho lợi ích cao nhất của bạn. Một hoặc cả hai bên đã rời đi, tìm kiếm một sự thật sâu sắc hơn hoặc sự phát triển cá nhân mà không thể tìm thấy bằng cách quay lại động lực cũ. Đó là một sự ra đi dứt khoát, không phải một cây cầu để xây dựng lại.",
+        "reversed": "Một sự thôi thúc mạnh mẽ muốn xem xét lại một kết nối trong quá khứ, có thể do những cảm xúc chưa được giải quyết hoặc khao khát sự khép lại. Nó có thể chỉ ra một bước đi do dự hướng tới hòa giải, một sự tái đánh giá những gì đã mất, hoặc một cuộc đấu tranh để quyết định liệu việc quay lại có thực sự có lợi hay chỉ đơn thuần là lặp lại những khuôn mẫu cũ."
+      },
+      "secret_admirer": {
+        "upright": "Người thầm yêu chọn cách từ bỏ những cảm xúc chưa được nói ra của mình, có lẽ cảm nhận được sự thiếu đáp lại, hoặc nhận ra tình huống đó không trọn vẹn đối với họ. Họ tiếp tục tìm kiếm một kết nối mang lại nhiều tiềm năng hơn cho sự phát triển và biểu đạt.",
+        "reversed": "Người thầm yêu vật lộn với tình cảm giấu kín của mình, có lẽ dao động giữa việc tiết lộ cảm xúc và rút lui. Họ có thể đang trên bờ vực của việc công khai sự ngưỡng mộ, hoặc ngược lại, liên tục rút lui, không thể cam kết với bất kỳ con đường nào. Nó cũng có thể gợi ý họ đang quay lại với ý tưởng về một tình yêu đơn phương."
+      },
+      "burnout": {
+        "upright": "Một khoảnh khắc quan trọng của sự tự bảo tồn. Bạn đang có ý thức lựa chọn rút lui khỏi một tình huống quá sức đã làm cạn kiệt năng lượng và tinh thần của bạn, tìm kiếm sự nghỉ ngơi, phục hồi và một con đường tôn vinh hạnh phúc của bạn. Đó là một sự rút lui cần thiết để trẻ hóa tinh thần và thể chất.",
+        "reversed": "Sự đấu tranh để thoát khỏi vòng lặp của sự kiệt sức. Bạn có thể bị mắc kẹt bởi những nghĩa vụ, nỗi sợ hãi về hậu quả, hoặc không thể thực sự nghỉ ngơi. Nó có thể biểu thị một sự trở lại bắt buộc với một tình huống kiệt sức, hoặc một cuộc tìm kiếm tuyệt vọng một lối thoát mà dường như liên tục bị chặn đứng. Đó là một cuộc chiến để thoát khỏi sự cạn kiệt."
+      },
+      "startup": {
+        "upright": "Một quyết định then chốt để từ bỏ một dự án hiện tại hoặc một ý tưởng trước đó không còn phù hợp với tầm nhìn thực sự của bạn. Bạn đang rời bỏ những gì đã thiết lập để theo đuổi một con đường kinh doanh mới, phù hợp hơn, ngay cả khi điều đó có nghĩa là bắt đầu lại từ đầu trong một lãnh thổ chưa biết.",
+        "reversed": "Tái đánh giá một ý tưởng khởi nghiệp đã bị loại bỏ hoặc tạm dừng trước đó. Nó có thể biểu thị một sự trở lại với bản nháp ban đầu, một cơ hội thứ hai cho một ý tưởng trong quá khứ, hoặc một cuộc đấu tranh để cam kết với một hướng đi mới, có lẽ cảm thấy bị kéo lại bởi những ý tưởng cũ hoặc nỗi sợ hãi khi phải buông bỏ."
+      },
+      "workplace_politics": {
+        "upright": "Một quyết định có ý thức để tách mình khỏi những vở kịch nhỏ nhặt và những cuộc tranh giành quyền lực không trọn vẹn nơi công sở. Bạn đang chọn nâng cao năng lượng của mình, tập trung vào công việc có ý nghĩa hoặc tìm kiếm một môi trường phù hợp hơn với sự chính trực của bạn, thay vì tham gia vào sự tiêu cực.",
+        "reversed": "Một sự trở lại miễn cưỡng hoặc vướng mắc vào chính trị nơi công sở, có lẽ do cần thiết hoặc một nỗ lực thất bại để thoát khỏi. Nó có thể biểu thị việc bị kéo lại vào các cuộc xung đột, đấu tranh để giữ sự vô tư, hoặc một sự tái đánh giá cách điều hướng các động lực xã hội mà không làm tổn hại đến giá trị của bản thân."
+      },
+      "side_hustle": {
+        "upright": "Một dấu hiệu rõ ràng rằng công việc phụ hiện tại của bạn không còn phục vụ mục đích hoặc mang lại niềm vui cho bạn. Bạn đang chọn rời bỏ nó, có lẽ để tìm kiếm một dự án đam mê trọn vẹn hơn, hoặc để lấy lại thời gian và năng lượng cho những mục tiêu khác.",
+        "reversed": "Xem xét lại một công việc phụ mà bạn đã từng từ bỏ hoặc gác lại. Đó có thể là một sự quan tâm mới, một nỗ lực thứ hai, hoặc một cuộc đấu tranh để tìm sự cam kết với bất kỳ nguồn thu nhập bổ sung nào, dao động giữa các ý tưởng khác nhau."
+      },
+      "real_estate": {
+        "upright": "Đưa ra quyết định khó khăn nhưng cần thiết để rời bỏ một tài sản hoặc khoản đầu tư không còn phục vụ lợi ích cao nhất của bạn, ngay cả khi nó đại diện cho một cam kết đáng kể. Đó là về việc tìm kiếm một nền tảng mới, cả về nghĩa đen và nghĩa bóng, thực sự phù hợp với tương lai của bạn.",
+        "reversed": "Một giai đoạn do dự hoặc tái đánh giá liên quan đến một tài sản. Bạn có thể đang gặp khó khăn trong việc bán, cân nhắc quay lại một tài sản trước đó, hoặc cảm thấy bị mắc kẹt trong một tình huống bất động sản mà bạn muốn rời đi. Nó cũng có thể biểu thị một sự quan tâm mới đến một tài sản đã từng bị loại bỏ."
+      },
+      "financial_loss": {
+        "upright": "Thừa nhận một khoản lỗ tài chính và có ý thức rời bỏ một tình huống hoặc khoản đầu tư tiếp tục làm cạn kiệt nguồn lực. Đó là về việc cắt lỗ, chấp nhận kết quả và tiến về phía trước để xây dựng lại trên một nền tảng ổn định hơn, thay vì bám víu vào những gì đã mất.",
+        "reversed": "Đấu tranh để chấp nhận một khoản lỗ tài chính, có lẽ cố gắng phục hồi những gì đã mất, hoặc xem xét lại các khoản đầu tư cũ. Nó có thể biểu thị sự miễn cưỡng buông bỏ những sai lầm trong quá khứ, không thể vư��t qua một thất bại tài chính, hoặc một sự trở lại thận trọng với một dự án tương tự sau một thời gian suy ngẫm."
+      },
+      "sudden_wealth": {
+        "upright": "Nghịch lý thay, rời bỏ sự hấp dẫn hoặc gánh nặng của sự giàu có đột ngột, nhận ra rằng sự trọn vẹn thực sự nằm ngoài sự tích lũy vật chất. Đó là về việc tìm kiếm một mục đích sâu sắc hơn hoặc một cuộc sống giản dị hơn, thay vì bị định nghĩa bởi những của cải mới tìm thấy.",
+        "reversed": "Vật lộn với những tác động của sự giàu có đột ngột, có lẽ cảm thấy choáng ngợp hoặc bị kéo lại về những thói quen tài chính cũ. Nó có thể biểu thị sự không thể hòa nhập sự phong phú mới, sự do dự trong việc hoàn toàn chấp nhận sự thay đổi, hoặc một sự trở lại với các khuôn mẫu tài chính trước đó mặc dù có những của cải mới tìm thấy."
+      },
+      "healing": {
+        "upright": "Một bước tiến sâu sắc trong hành trình chữa lành của bạn, nơi b��n có ý thức chọn rời bỏ những vết thương cũ, khuôn mẫu cũ hoặc môi trường cản trở sự phục hồi của bạn. Đó là một hành động tự yêu bản thân, bỏ lại những gì không còn phục vụ hạnh phúc của bạn để đón nhận một con đường phục hồi sâu sắc hơn.",
+        "reversed": "Sự kháng cự hoặc do dự trong quá trình chữa lành. Bạn có thể bị kéo lại bởi những cơ chế đối phó cũ, đấu tranh để buông bỏ những tổn thương trong quá khứ, hoặc cảm thấy không thể hoàn toàn cam kết với con đường phục hồi. Nó cũng có thể biểu thị một sự trở lại với một phương pháp chữa lành đã từng bị từ bỏ, hoặc một sự tái đánh giá phương pháp tiếp cận của bạn."
+      },
+      "stress": {
+        "upright": "Sự khôn ngoan để nhận ra nguồn gốc của căng thẳng và lòng dũng cảm để loại bỏ bản thân khỏi nó. Bạn đang chủ động rời bỏ những tình huống, con người hoặc nghĩa vụ gây áp lực không đáng có, tìm kiếm sự thanh thản và s��� rõ ràng trong tâm trí.",
+        "reversed": "Một cuộc đấu tranh dai dẳng với căng thẳng, nơi những nỗ lực thoát khỏi hoặc giảm bớt nó tỏ ra khó khăn. Bạn có thể bị mắc kẹt trong một vòng luẩn quẩn của căng thẳng, không thể hoàn toàn thoát ra, hoặc liên tục quay lại những tình huống căng thẳng, có lẽ do thói quen hoặc sự cần thiết được nhận thức."
+      },
+      "trauma": {
+        "upright": "Một hành động giải phóng mạnh mẽ, nơi bạn có ý thức chọn rời bỏ những ảnh hưởng dai dẳng hoặc yếu tố kích hoạt của chấn thương trong quá khứ. Nó biểu thị một khoảnh khắc then chốt của việc phá vỡ sự kìm kẹp của nó, tìm kiếm một tương lai không bị gánh nặng bởi bóng tối của nó, và đón nhận một con đường chữa lành sâu sắc và khám phá bản thân.",
+        "reversed": "Hành trình gian nan và thường xuyên lặp đi lặp lại của việc xử lý chấn thương. Bạn có thể thấy mình liên tục xem xét lại những vết thương trong quá khứ, đ���u tranh để hoàn toàn thoát khỏi ảnh hưởng của nó, hoặc cảm thấy bị kéo lại vào câu chuyện của nó. Nó cũng có thể biểu thị một sự trở lại dũng cảm để đối mặt với chấn thương bằng những công cụ mới để chữa lành."
+      },
+      "exams": {
+        "upright": "Một quyết định từ bỏ một khóa học cụ thể, một kỳ thi, hoặc một con đường học thuật không còn phù hợp với tiếng gọi thực sự của bạn hoặc không mang lại sự trọn vẹn. Đó là về việc ưu tiên hạnh phúc tinh thần và trí tuệ của bạn hơn những kỳ vọng bên ngoài.",
+        "reversed": "Xem xét lại một kỳ thi hoặc một theo đuổi học thuật đã bị từ bỏ trước đó. Nó có thể có nghĩa là quay lại ôn thi cho một kỳ thi bạn đã từng bỏ cuộc, đấu tranh với quyết định tiếp tục hay bỏ cuộc, hoặc cảm thấy bị áp lực phải xem xét lại một con đường học thuật không hoàn toàn phù hợp."
+      },
+      "scholarship": {
+        "upright": "Rời bỏ một cơ hội học bổng mà, sau khi suy nghĩ kỹ, không phù hợp với con đường học thuật hoặc cuộc đời thực sự của bạn. Đó là một hành động dũng cảm chọn sự chân thật hơn là uy tín được nhận thức hoặc lợi ích tài chính, tìm kiếm một hành trình giáo dục trọn vẹn hơn.",
+        "reversed": "Tái đánh giá một đơn xin học bổng hoặc cơ hội đã từng bị bỏ qua hoặc từ chối. Nó có thể biểu thị một cơ hội thứ hai, một nỗ lực mới để đảm bảo tài trợ, hoặc một cuộc đấu tranh để cam kết với các điều khoản của học bổng, có lẽ cảm thấy nó kéo bạn theo một hướng mà bạn không chắc chắn."
+      },
+      "talent": {
+        "upright": "Một sự nhận ra sâu sắc rằng một tài năng bạn đã trau dồi không còn mang lại niềm vui hoặc phục vụ mục đích cao hơn của bạn. Bạn đang chọn rời bỏ nó, có lẽ để khám phá những đam mê mới, hoặc để tìm một cách thể hiện chân thực hơn những món quà của mình.",
+        "reversed": "Quay lại một tài năng hoặc theo đuổi sáng tạo đã từng bị bỏ rơi hoặc bỏ bê. Nó có thể biểu thị sự hồi sinh của một niềm đam mê cũ, một cam kết mới để trau dồi một kỹ năng, hoặc một cuộc đấu tranh để hoàn toàn đón nhận hoặc buông bỏ một món quà cụ thể."
+      },
+      "spirit_guide": {
+        "upright": "Một hành trình tâm linh của sự cô độc và nội quán, nơi bạn có ý thức bước ra khỏi sự hướng dẫn thông thường hoặc những phiền nhiễu trần tục để tìm kiếm sự kết nối sâu sắc hơn với các hướng dẫn tâm linh của mình, tin tưởng vào trí tuệ bên trong của bạn để dẫn bạn đến sự hiện diện của họ.",
+        "reversed": "Một cuộc đấu tranh để kết nối hoặc nhận được sự hướng dẫn từ các hướng dẫn tâm linh của bạn, có lẽ cảm thấy bị ngắt kết nối hoặc không thể hoàn toàn tin tưởng vào các thông điệp. Nó có thể biểu thị một sự trở lại tìm kiếm sự xác nhận bên ngoài, hoặc một giai đoạn tái đánh giá về con đường tâm linh của bạn và cách bạn tìm kiếm trí tuệ thiêng liêng."
       }
     },
     "planet": "Sao Thổ",
@@ -10506,6 +13674,78 @@ window.TAROT_DB = [
       "lost_item": {
         "upright": "Món đồ thất lạc sẽ được tìm thấy, và việc tìm thấy nó mang lại sự hài lòng lớn. Có thể là một vật có giá trị tinh thần đặc biệt, như một báu vật được cất giấu.",
         "reversed": "Món đồ đã mất không thể tìm thấy, hoặc việc tìm thấy nó không mang lại sự thỏa mãn như mong đợi. Sự thất vọng bao trùm, như một ước muốn không thành."
+      },
+      "toxic_relationship": {
+        "upright": "The Nine of Cups, in its upright grace, whispers of a profound sense of emotional fulfillment, even within the confines of a relationship that others might deem challenging. It suggests a deep personal satisfaction derived from a perceived triumph or control, a self-imposed contentment that masks underlying issues, or a willful blindness to the toxicity, choosing to see only what brings personal gratification.",
+        "reversed": "When reversed, the Nine of Cups unveils the bitter truth beneath the gilded facade of a toxic bond. It speaks of deep dissatisfaction, unfulfilled emotional needs, and the crushing weight of regret for investments made in a relationship that offers only superficial joy. The seeker realizes the emptiness of their desires and the true cost of their self-deception, longing for genuine connection beyond the current illusion."
+      },
+      "soulmate": {
+        "upright": "The Nine of Cups, in its radiant upright form, heralds the arrival of a soul connection that perfectly aligns with one's deepest heart's desires. It signifies a profound sense of \"home\" and complete emotional satisfaction found in another, a wish fulfilled in the realm of true partnership, bringing immense joy and contentment.",
+        "reversed": "In its reversed state, the Nine of Cups cautions against mistaking superficial attraction or idealized projections for a true soulmate bond. It suggests a yearning for a connection that remains unfulfilled, or the realization that a perceived soulmate is merely a reflection of one's own desires, leading to disappointment, disillusionment, and the painful recognition that this connection lacks genuine depth."
+      },
+      "reconciliation": {
+        "upright": "The upright Nine of Cups suggests a reconciliation that brings immense personal satisfaction and emotional closure, fulfilling a long-held wish for harmony. It speaks of a successful mending of bridges, where all parties find contentment and a sense of having achieved their desired outcome, basking in the glow of renewed peace.",
+        "reversed": "The reversed Nine of Cups warns that a reconciliation, if attempted, will likely fall short of true emotional fulfillment. It indicates unaddressed resentments, lingering dissatisfaction, or a superficial peace that fails to mend the deeper wounds. The desire for reconciliation may be present, but the outcome brings only a hollow victory or a renewed sense of disappointment."
+      },
+      "secret_admirer": {
+        "upright": "The Nine of Cups, upright, hints at a secret admirer whose affection brings a deep, unspoken satisfaction to the querent. It suggests that the existence of this hidden devotion, whether known or merely sensed, fulfills a personal desire for admiration or validation, creating a private sense of contentment and self-worth.",
+        "reversed": "When reversed, the Nine of Cups suggests that the existence of a secret admirer might bring more discomfort than joy, or that the querent's desires are not truly met by this hidden affection. It could also indicate a misinterpretation of admiration, leading to disappointment, or a yearning for a more open, genuine connection rather than a clandestine one."
+      },
+      "burnout": {
+        "upright": "Paradoxically, the upright Nine of Cups here might indicate a state where one feels immense satisfaction from their achievements, even if it comes at the cost of their well-being. It speaks of a self-imposed pressure to succeed and a deep contentment derived from reaching goals, potentially ignoring the signs of exhaustion until the very brink, fueled by a desire for personal triumph.",
+        "reversed": "The reversed Nine of Cups directly addresses burnout, revealing the profound dissatisfaction and emptiness that follows overexertion. The initial gratification has faded, leaving behind regret for neglecting self-care and a realization that the strenuous pursuit of desires has led to emotional and physical depletion, rather than true fulfillment."
+      },
+      "startup": {
+        "upright": "The upright Nine of Cups heralds a startup venture that is a true passion project, born from a deep personal desire and destined for great success and satisfaction. It speaks of the entrepreneur's vision manifesting beautifully, bringing immense pride, financial comfort, and the fulfillment of a long-held dream.",
+        "reversed": "In its reversed aspect, the Nine of Cups warns that a startup, despite initial enthusiasm, may fail to bring true satisfaction or achieve its intended goals. It suggests a misalignment between the entrepreneur's desires and the venture's reality, leading to disappointment, unfulfilled expectations, or a realization that the pursuit was driven by superficial motives rather than genuine passion."
+      },
+      "workplace_politics": {
+        "upright": "The upright Nine of Cups suggests a situation where one navigates workplace politics with cunning and success, achieving their desired outcomes and personal satisfaction through strategic maneuvering. It speaks of a confident individual who feels in control, perhaps even smugly content with their ability to influence situations to their advantage.",
+        "reversed": "When reversed, the Nine of Cups reveals the bitter taste left by workplace politics. It signifies dissatisfaction with the outcomes, a sense of being manipulated or having one's desires thwarted. It could also indicate regret over engaging in such games, leading to a realization that superficial victories do not bring true professional contentment."
+      },
+      "side_hustle": {
+        "upright": "The upright Nine of Cups signifies a side hustle that brings immense personal joy, financial gratification, and a deep sense of fulfillment beyond one's main occupation. It is a venture born from passion, where one's desires are met, and the fruits of their labor contribute significantly to their overall happiness and comfort.",
+        "reversed": "The reversed Nine of Cups cautions that a side hustle, though promising, may not deliver the expected satisfaction or financial rewards. It suggests that the effort invested might lead to disappointment, unfulfilled hopes, or a realization that the pursuit was driven by a superficial desire for quick gains rather than genuine passion, ultimately leading to regret."
+      },
+      "real_estate": {
+        "upright": "In real estate, the upright Nine of Cups signifies a property acquisition or sale that perfectly aligns with one's desires, bringing profound satisfaction, comfort, and a sense of having manifested a dream home or a lucrative investment. It speaks of a deal that feels utterly right and fulfilling.",
+        "reversed": "The reversed Nine of Cups in real estate warns of dissatisfaction or regret concerning a property transaction. It could indicate that a purchase or sale, despite appearances, does not bring the desired comfort or financial gain, leading to a sense of unfulfilled expectations, buyer's remorse, or a realization that the deal was not as ideal as initially perceived."
+      },
+      "financial_loss": {
+        "upright": "The upright Nine of Cups, in this context, might represent a state of denial or a misplaced sense of contentment despite an impending or actual financial loss. It could signify a focus on other areas of life that bring satisfaction, or a belief that one's desires will still be met despite the setback, perhaps even a smugness about one's overall financial stability that blinds them to the immediate loss.",
+        "reversed": "The reversed Nine of Cups directly confronts the sting of financial loss, revealing the deep dissatisfaction, regret, and unfulfilled desires that accompany it. It speaks of the painful realization that comfort and security have been compromised, leading to a profound sense of disappointment and a yearning for what has been lost."
+      },
+      "sudden_wealth": {
+        "upright": "The upright Nine of Cups is the quintessential card of sudden wealth, a manifestation of long-held desires for abundance. It signifies a windfall that brings immense joy, comfort, and the ability to fulfill every material wish, creating a profound sense of satisfaction and well-being.",
+        "reversed": "While sudden wealth may arrive, the reversed Nine of Cups cautions that it might not bring true happiness or lasting satisfaction. It suggests that the wealth could lead to overindulgence, superficial pleasures, or a realization that material gain alone does not fulfill deeper emotional needs, potentially leaving one with a sense of emptiness or regret despite their riches."
+      },
+      "healing": {
+        "upright": "The upright Nine of Cups signifies a profound and deeply satisfying healing journey, where one's wishes for recovery and well-being are beautifully manifested. It speaks of a complete restoration, bringing immense contentment, emotional peace, and a feeling of being wholly renewed and in control of one's health.",
+        "reversed": "The reversed Nine of Cups warns that a healing process may be incomplete, superficial, or fail to bring the desired sense of wholeness. It suggests lingering pain, unaddressed emotional wounds, or a dissatisfaction with the outcome, indicating that true emotional or physical restoration remains elusive, leading to a sense of unfulfilled longing."
+      },
+      "stress": {
+        "upright": "The upright Nine of Cups, in the context of stress, might suggest a person who, despite external pressures, maintains a facade of contentment or finds satisfaction in their ability to manage it, perhaps even thriving on the challenge. It can also point to a self-imposed stress stemming from a desire to achieve perfection or specific outcomes, leading to a sense of control that masks the underlying tension.",
+        "reversed": "The reversed Nine of Cups directly addresses the overwhelming dissatisfaction and emotional depletion caused by stress. It signifies a breaking point where the desire for peace and comfort remains unfulfilled, leading to regret, burnout, and a profound realization that the current situation is unsustainable and detrimental to well-being."
+      },
+      "trauma": {
+        "upright": "The upright Nine of Cups here might represent a coping mechanism where one finds a superficial sense of comfort or a self-protective contentment in avoiding confronting past trauma. It could signify a desire to believe one is \"over it,\" creating a facade of well-being that, while offering temporary relief, prevents deeper healing.",
+        "reversed": "The reversed Nine of Cups powerfully reveals the profound dissatisfaction and unfulfilled emotional needs stemming from unaddressed trauma. It signifies the breaking down of coping mechanisms, the surfacing of deep regret, and the painful realization that true peace and happiness remain elusive until the past wounds are genuinely acknowledged and healed."
+      },
+      "exams": {
+        "upright": "The upright Nine of Cups for exams is a highly auspicious sign, indicating that the querent's hard work and desires will culminate in excellent results and profound satisfaction. It speaks of achieving one's academic goals with confidence and ease, basking in the glory of a well-deserved success.",
+        "reversed": "The reversed Nine of Cups cautions against overconfidence or a lack of genuine preparation for exams. It suggests that despite hopes, the results may bring disappointment, unfulfilled expectations, or regret for not putting in the necessary effort, leading to a sense of dissatisfaction with the outcome."
+      },
+      "scholarship": {
+        "upright": "The upright Nine of Cups signifies the successful attainment of a scholarship, fulfilling a deep desire for academic opportunity and financial support. It brings immense joy, a sense of accomplishment, and the profound satisfaction of having one's efforts recognized and rewarded.",
+        "reversed": "The reversed Nine of Cups suggests that a scholarship opportunity may not materialize as hoped, or if attained, might not bring the expected satisfaction. It could indicate disappointment, unfulfilled financial or academic desires, or a realization that the scholarship comes with unforeseen strings attached, leading to a sense of regret or hollowness."
+      },
+      "talent": {
+        "upright": "The upright Nine of Cups celebrates the full recognition and profound satisfaction derived from one's unique talents. It signifies a period where one's abilities are not only acknowledged but also bring immense personal fulfillment, enabling the manifestation of artistic or professional desires with great success and contentment.",
+        "reversed": "The reversed Nine of Cups warns that one's talents may not be fully utilized, recognized, or appreciated, leading to deep dissatisfaction and unfulfilled potential. It could indicate a sense of regret for not pursuing one's true calling, or a realization that current endeavors do not allow for the genuine expression that brings true joy."
+      },
+      "spirit_guide": {
+        "upright": "The upright Nine of Cups signifies a profound connection with one's spirit guide, bringing immense peace, clarity, and the deep satisfaction of knowing one's path is divinely supported. It suggests that the guidance received perfectly aligns with one's deepest spiritual desires, leading to a sense of inner fulfillment and contentment.",
+        "reversed": "The reversed Nine of Cups suggests a disconnect or dissatisfaction with one's spiritual guidance. It could indicate a feeling that messages are unclear, misinterpreted, or that one's spiritual desires remain unfulfilled despite seeking guidance, leading to a sense of longing, confusion, or the realization that one is not truly aligned with their inner wisdom."
       }
     },
     "planet": "Sao Mộc",
@@ -10737,6 +13977,78 @@ window.TAROT_DB = [
       "lost_item": {
         "upright": "Món đồ thất lạc có giá trị tình cảm, liên quan đến gia đình, sẽ được tìm thấy trong chính ngôi nhà của bạn hoặc do một thành viên trong gia đình cất giữ. Nó là một mảnh ghép của kí ức chung.",
         "reversed": "Món đồ đã mất gây ra mâu thuẫn gia đình, hoặc đã bị thất lạc do sự bất cẩn của một thành viên. Sự mất mát này trở thành nguồn cơn của những lời trách móc."
+      },
+      "toxic_relationship": {
+        "upright": "Sự xuất hiện của lá bài này trong bối cảnh một mối quan hệ độc hại báo hiệu một sự chuyển hóa kỳ diệu, nơi những sợi xích vô hình được phá vỡ, mở ra con đường đến sự bình yên nội tâm và hạnh phúc đích thực. Nó không hẳn là sự hòa giải với độc tố, mà là sự giải thoát khỏi nó để tìm thấy sự viên mãn ở một nơi khác, hoặc một phép màu hiếm hoi biến đổi hoàn toàn bản chất mối quan hệ thành một tình yêu thuần khiết.",
+        "reversed": "Mối quan hệ độc hại đang bóp nghẹt mọi niềm vui và sự hài hòa, đẩy linh hồn vào trạng thái bất an và xung đột triền miên. Những ảo tưởng về hạnh phúc bị xé toạc, để lộ ra sự đổ vỡ sâu sắc và sự thiếu vắng nghiêm trọng của sự kết nối chân thật, khiến cho sự bình yên trở nên xa vời."
+      },
+      "soulmate": {
+        "upright": "Đây là dấu hiệu của một định mệnh thiêng liêng, sự hội ngộ của hai linh hồn đã được an bài từ trước. Mối liên kết này mang đến sự viên mãn tuyệt đối, niềm hạnh phúc trọn vẹn và một tình yêu vĩnh cửu, hòa quyện cả thể xác lẫn tâm hồn vào một bản giao hưởng hoàn hảo của sự đồng điệu.",
+        "reversed": "Mặc dù có thể là một linh hồn tri kỷ, nhưng những hiểu lầm, sự thiếu giao tiếp hoặc những rào cản nội tâm đang ngăn cản sự kết nối sâu sắc. Có thể có một cảm giác mất mát, một sự xa cách tinh thần khiến cho mối quan hệ không thể đạt được sự hòa hợp và viên mãn đích thực, hoặc là sự nhầm lẫn giữa một mối tình nồng nàn với một linh hồn tri kỷ thực sự."
+      },
+      "reconciliation": {
+        "upright": "Sự hòa giải này không chỉ là một sự hàn gắn bề ngoài mà là sự tái tạo một mối quan hệ dựa trên sự hiểu biết sâu sắc, lòng trắc ẩn và tình yêu thương vô điều kiện. Nó mang lại sự bình yên vĩnh cửu, niềm hạnh phúc gia đình và một sự đồng điệu tinh thần, xóa tan mọi vết thương cũ.",
+        "reversed": "Sự hòa giải chỉ mang tính tạm thời, những vết nứt sâu sắc vẫn còn ẩn giấu dưới lớp vỏ hòa thuận. Các vấn đề cốt lõi chưa được giải quyết, dẫn đến sự bất ổn, xung đột tái diễn và một cảm giác trống rỗng, không thể đạt được sự bình yên và hạnh phúc trọn vẹn."
+      },
+      "secret_admirer": {
+        "upright": "Sự ngưỡng mộ thầm kín này không chỉ là một sự say mê thoáng qua mà là một tình cảm chân thành, sâu sắc, có khả năng mang lại một mối quan hệ đầy ắp hạnh phúc và sự viên mãn. Nguồn năng lượng tích cực này hứa hẹn một tương lai tươi sáng, nơi tình yêu được bộc lộ và đón nhận với tất cả sự trân trọng.",
+        "reversed": "Người ngưỡng mộ bí mật có thể mang trong mình những ý định không thuần khiết, hoặc sự ngưỡng mộ của họ xuất phát từ một ảo tưởng hơn là một sự hiểu biết chân thật. Việc tiết lộ có thể gây ra sự xáo trộn, thất vọng hoặc mang lại một cảm giác không thoải mái, không dẫn đến sự hài hòa và hạnh phúc."
+      },
+      "burnout": {
+        "upright": "Đây là dấu hiệu của sự phục hồi hoàn toàn sau kiệt sức, tìm thấy lại niềm vui, sự cân bằng và ý nghĩa trong cuộc sống. Linh hồn được tái tạo, tìm thấy nguồn năng lượng mới và sự bình yên nội tại, cho phép bạn tận hưởng từng khoảnh khắc với sự mãn nguyện sâu sắc.",
+        "reversed": "Sự kiệt sức đang ăn mòn mọi niềm vui và sự hài lòng, khiến linh hồn trống rỗng và vô vọng. Bạn ��ang mắc kẹt trong một vòng luẩn quẩn của sự mệt mỏi và bất hạnh, không thể tìm thấy lối thoát hay sự bình yên thực sự, và cảm giác bị cô lập, thiếu kết nối."
+      },
+      "startup": {
+        "upright": "Dự án khởi nghiệp này là một hạt giống của niềm vui và sự viên mãn, hứa hẹn mang lại không chỉ thành công về vật chất mà còn là sự hài lòng sâu sắc về tinh thần. Nó sẽ tạo ra một môi trường làm việc hài hòa, nơi mọi thành viên đều tìm thấy ý nghĩa và hạnh phúc trong sự đóng góp của mình.",
+        "reversed": "Dự án khởi nghiệp đang gặp phải những xung đột nội bộ, thiếu sự đồng thuận hoặc mục tiêu không rõ ràng, dẫn đến sự bất hòa và thất vọng. Mặc dù có thể đạt được một số thành công ban đầu, nhưng nó không mang lại niềm vui và sự viên mãn như mong đợi, mà thay vào đó là sự căng thẳng và mâu thuẫn."
+      },
+      "workplace_politics": {
+        "upright": "Dù có những thách thức của chính trị nơi công sở, bạn vẫn tìm thấy một ốc đảo bình yên, một không gian nơi bạn có thể duy trì sự chính trực và tạo dựng những mối quan hệ hài hòa. Lá bài này báo hiệu khả năng vượt qua mọi xáo trộn để đạt được sự ổn định và hạnh phúc trong môi trường làm việc.",
+        "reversed": "Chính trị nơi công sở đang gây ra sự xáo trộn sâu sắc, tạo ra một môi trường đầy rẫy sự bất hòa, ghen tị và xung đột. Bạn cảm thấy bị cô lập, không thể tìm thấy niềm vui hoặc sự bình yên, và những mưu đồ ngầm đang đe dọa sự ổn định và hạnh phúc tinh thần của bạn."
+      },
+      "side_hustle": {
+        "upright": "Công việc phụ này không chỉ là một nguồn thu nhập bổ sung mà còn là một con đường dẫn đến niềm vui, sự sáng tạo và sự viên mãn cá nhân. Nó hòa quyện một cách hoàn hảo vào cuộc sống của bạn, mang lại sự cân bằng và hạnh phúc, giúp bạn thực hiện những ước mơ đã ấp ủ.",
+        "reversed": "Công việc phụ đang trở thành một gánh n��ng, làm xáo trộn cuộc sống cá nhân và gây ra sự căng thẳng thay vì niềm vui. Nó không mang lại sự hài lòng như mong đợi, mà thay vào đó là cảm giác kiệt sức và mất mát sự cân bằng, không còn là nguồn cảm hứng mà là một áp lực."
+      },
+      "real_estate": {
+        "upright": "Đây là dấu hiệu của việc tìm thấy một ngôi nhà mơ ước, một tổ ấm tràn ngập tình yêu, niềm vui và sự bình yên. Bất động sản này không chỉ là một tài sản vật chất mà còn là nền tảng cho hạnh phúc gia đình và sự ổn định lâu dài, một nơi để linh hồn tìm thấy sự an trú.",
+        "reversed": "Các vấn đề liên quan đến bất động sản đang gây ra sự căng thẳng, xung đột gia đình hoặc một cảm giác bất an. Ngôi nhà có thể không mang lại sự bình yên mong muốn, hoặc giao dịch bất động sản dẫn đến sự thất vọng và đổ vỡ cảm xúc, không thể tạo dựng được một tổ ấm hài hòa."
+      },
+      "financial_loss": {
+        "upright": "Dù có sự mất mát về tài chính, lá bài này cho thấy khả năng tìm thấy sự bình yên và hạnh phúc trong những giá trị phi vật chất. Bạn sẽ nhận ra rằng sự giàu có thực sự nằm ở sự kết nối, tình yêu và sự mãn nguyện nội tâm, vượt lên trên mọi biến động vật chất.",
+        "reversed": "Sự mất mát tài chính đang gây ra sự đổ vỡ sâu sắc về mặt cảm xúc, phá vỡ sự bình yên và hạnh phúc gia đình. Cảm giác thiếu thốn và bất an lan tỏa, khiến bạn khó lòng tìm thấy niềm vui và sự ổn định, mọi thứ dường như đang chống lại bạn."
+      },
+      "sudden_wealth": {
+        "upright": "Sự giàu có bất ngờ này sẽ mang lại niềm vui và sự viên mãn tột độ, củng cố hạnh phúc gia đình và tạo điều kiện cho một cuộc sống tràn ngập sự bình yên và thịnh vượng. Nó là một phước lành cho phép bạn thực hiện những ước mơ và sống một cuộc đời trọn vẹn.",
+        "reversed": "Sự giàu có bất ngờ đang trở thành một nguồn gốc của xung đột, sự bất hòa trong gia đình hoặc một cảm giác trống rỗng, không mang lại hạnh phúc thực sự. Nó có thể phá vỡ sự cân bằng hiện có, dẫn đến sự cô lập và những rắc rối không mong muốn, khiến tiền bạc trở thành gánh nặng."
+      },
+      "healing": {
+        "upright": "Đây là giai đoạn của sự chữa lành hoàn toàn, nơi mọi vết thương tinh thần và cảm xúc được hàn gắn, mang lại sự bình yên sâu sắc và niềm vui trọn vẹn. Bạn đạt được sự hòa hợp nội tại, cảm thấy được tái sinh và sẵn sàng đón nhận một cuộc sống mới tràn đầy ánh sáng.",
+        "reversed": "Quá trình chữa lành đang bị cản trở, những vết thương cũ tái phát hoặc sự bình yên chỉ là tạm thời. Có một sự bất hòa nội tại, khiến bạn khó lòng tìm thấy sự thanh thản và hạnh phúc thực sự, và cảm giác rằng việc chữa lành chưa hoàn tất hoặc bị gián đoạn."
+      },
+      "stress": {
+        "upright": "Trong bối cảnh căng thẳng, lá bài này là lời nhắc nhở rằng bạn có khả năng tìm th���y sự bình yên và niềm vui nội tại. Bạn sẽ tìm ra cách để cân bằng cuộc sống, giảm bớt áp lực và tái tạo năng lượng, mang lại sự hài hòa và hạnh phúc cho tâm hồn.",
+        "reversed": "Sự căng thẳng đang nuốt chửng mọi niềm vui và sự bình yên, đẩy bạn vào trạng thái kiệt sức cảm xúc và tinh thần. Mọi nỗ lực tìm kiếm sự thanh thản đều vô vọng, và cảm giác bị áp đảo, mất kết nối với hạnh phúc đang hiện hữu."
+      },
+      "trauma": {
+        "upright": "Lá bài này báo hiệu một hành trình vượt qua chấn thương để đạt được sự chữa lành sâu sắc và niềm vui trọn vẹn. Bạn sẽ tìm thấy sức mạnh để tái tạo cuộc sống, xây dựng lại sự bình yên và hạnh phúc, biến những trải nghiệm đau khổ thành nguồn sức mạnh nội tại.",
+        "reversed": "Chấn thương vẫn đang ám ảnh, ngăn cản bạn tìm thấy sự bình yên và hạnh phúc thực sự. Những vết sẹo cảm xúc vẫn còn nhức nhối, gây ra sự bất ổn và xung đột nội tâm, khiến cho việc kết nối với niềm vui và sự mãn nguyện trở nên khó khăn."
+      },
+      "exams": {
+        "upright": "Thành công trong kỳ thi sẽ mang lại không chỉ điểm số cao mà còn là niềm vui tột độ và sự hài lòng sâu sắc. Kết quả này mở ra một con đường mới tràn ngập cơ hội, mang lại sự bình yên và hạnh phúc cho tương lai học vấn của bạn.",
+        "reversed": "Kết quả kỳ thi không như mong đợi, gây ra sự thất vọng và căng thẳng. Nó có thể làm xáo trộn kế hoạch tương lai hoặc gây ra sự bất an về năng lực, không mang lại niềm vui và sự mãn nguyện mà thay vào đó là sự lo lắng và không chắc chắn."
+      },
+      "scholarship": {
+        "upright": "Học bổng này không chỉ là một sự hỗ trợ tài chính mà còn là một cánh cửa mở ra tương lai tươi sáng, mang lại niềm vui và sự viên mãn trong học tập. Nó là một phước lành cho phép bạn theo đuổi đam mê, đạt được thành công và tìm thấy hạnh phúc trong con đường tri thức.",
+        "reversed": "Cơ hội học bổng bị mất đi hoặc học bổng không mang lại sự giải thoát và niềm vui như mong đợi. Nó có thể gây ra sự thất vọng, căng thẳng tài chính hoặc cảm giác rằng con đường học vấn không còn mang lại sự hài hòa và hạnh phúc như trước."
+      },
+      "talent": {
+        "upright": "Tài năng của bạn là một món quà thiêng liêng, khi được phát triển và chia sẻ, nó sẽ mang lại niềm vui tột độ và sự viên mãn sâu sắc. Nó không chỉ là nguồn cảm hứng cho bạn mà còn lan tỏa hạnh phúc và sự hài hòa đến những người xung quanh, tạo nên một bản giao hưởng cuộc đời tươi đẹp.",
+        "reversed": "Tài năng đang bị bỏ phí, không được khai thác hoặc bị sử dụng sai mục đích, gây ra sự thất vọng và trống rỗng. Việc theo đuổi tài năng có thể dẫn đến xung đột hoặc sự bất hòa, không mang lại niềm vui và sự mãn nguyện mà thay vào đó là cảm giác mất mát và hối tiếc."
+      },
+      "spirit_guide": {
+        "upright": "Sự kết nối v���i linh hồn hướng dẫn đang ở trạng thái hài hòa và rõ ràng nhất, mang lại sự bình yên sâu sắc và sự dẫn dắt thiêng liêng. Bạn nhận được những thông điệp quý giá, giúp bạn tìm thấy con đường đúng đắn và đạt được sự viên mãn tinh thần tuyệt đối.",
+        "reversed": "Sự kết nối với linh hồn hướng dẫn đang bị gián đoạn hoặc không rõ ràng, gây ra sự bối rối và mất phương hướng. Bạn có thể cảm thấy cô lập, không nhận được sự dẫn dắt cần thiết, hoặc những thông điệp nhận được mang lại sự bất hòa thay vì bình yên, khiến bạn lạc lối trên con đường tâm linh."
       }
     },
     "planet": "Sao Hỏa",
@@ -10970,6 +14282,78 @@ window.TAROT_DB = [
       "general": {
         "upright": "Một thông điệp bất ngờ, một cơ hội mới hoặc một khởi đầu tươi sáng. Mang theo sự ngây thơ, tò mò và khao khát khám phá cảm xúc, thế giới xung quanh.",
         "reversed": "Những thông tin gây bối rối, sự thiếu trưởng thành trong hành động hoặc cảm xúc bất ổn. Có thể là sự nhạy cảm thái quá, sự trì hoãn hoặc những quyết định bốc đồng."
+      },
+      "toxic_relationship": {
+        "upright": "Một mối quan hệ mới chớm nở, mang vẻ ngây thơ và đầy hứa hẹn, nhưng tiềm ẩn những dấu hiệu tinh tế của sự non nớt cảm xúc hoặc phụ thuộc ngây thơ, tạo nên một nền tảng mong manh cho sự mất cân bằng sau này. Hoặc, một cái nhìn cảm xúc mới mẻ về sự độc hại đang hiện hữu.",
+        "reversed": "Biểu hiện rõ ràng của sự non nớt cảm xúc, thao túng hoặc những trò chơi tình cảm trẻ con trong mối quan hệ. Một hoặc cả hai bên từ chối trưởng thành, dẫn đến một động thái trì trệ và tổn hại. Sự thất vọng trong kết nối cảm xúc."
+      },
+      "soulmate": {
+        "upright": "Tiếng thì thầm dịu dàng của một kết nối cảm xúc mới, một sợi dây linh hồn non trẻ đang trỗi dậy với sự ngạc nhiên ngây thơ và cộng hưởng trực giác. Một gợi ý mềm mại, mơ màng về một mối liên kết sâu sắc, thường thông qua một người mới hoặc một sự hiểu biết cảm xúc mới.",
+        "reversed": "Sự bối rối hoặc non nớt cản trở việc nhận ra một tri kỷ. Những rào cản cảm xúc ngăn cản mối liên kết sâu sắc hình thành hoặc được thừa nhận. Sự thất vọng trong một kết nối linh hồn tiềm năng, hoặc những trò chơi cảm xúc che mờ bản chất thật của nó."
+      },
+      "reconciliation": {
+        "upright": "Một lời đề nghị hòa bình dè dặt, chân thành, thường đến từ người trẻ hơn hoặc nhạy cảm hơn về mặt cảm xúc. Một khởi đầu cảm xúc mới hoặc một nỗ lực ngây thơ để hàn gắn, tràn đầy hy vọng và mong muốn kết nối lại.",
+        "reversed": "Một nỗ lực hòa giải thất bại do sự non nớt, cứng đầu hoặc thao túng cảm xúc. Lời đề nghị cảm xúc không chân thành, hoặc một bên không sẵn lòng vượt qua những tổn thương trong quá khứ, dẫn đến sự thất vọng cảm xúc sâu sắc hơn."
+      },
+      "secret_admirer": {
+        "upright": "Sự thể hiện tinh tế, thường là rụt rè, của sự ngưỡng mộ hoặc tình cảm. Một tia lửa cảm xúc mới được cảm nhận, có thể thông qua một món quà nhỏ, một lời khen nhẹ nhàng hoặc một ánh nhìn mơ màng. Nó ngây thơ và đầy tiềm năng.",
+        "reversed": "Người hâm mộ bí mật quá nhút nhát và non nớt để hành động, dẫn đến bỏ lỡ cơ hội, hoặc ý định của họ không trong sáng, có thể gần với sự mê đắm hoặc thao túng cảm xúc hơn là tình cảm chân thật. Hành động của họ có thể vụng về hoặc không đúng lúc."
+      },
+      "burnout": {
+        "upright": "Một lời cảnh báo nhẹ nhàng hoặc một ti���ng thì thầm trực giác để lắng nghe nhu cầu cảm xúc và sáng tạo của mình. Những dấu hiệu đầu tiên của sự mệt mỏi cảm xúc đang xuất hiện, thúc giục trở lại việc tự chăm sóc và tìm kiếm nguồn cảm hứng trước khi sự kiệt sức sâu sắc hơn ập đến. Một lời kêu gọi kết nối lại với niềm vui bên trong.",
+        "reversed": "Sự kiệt quệ cảm xúc và sáng tạo hoàn toàn, thường bắt nguồn từ việc bỏ qua các tín hiệu trực giác. Thiếu cảm hứng trầm trọng, sự bất ổn cảm xúc và không thể tìm thấy niềm vui hoặc ý nghĩa trong công việc. Nguồn sáng tạo cạn kiệt do sự lơ là."
+      },
+      "startup": {
+        "upright": "Sự ra đời của một ý tưởng sáng tạo, một dự án mới tràn đầy nhiệt huyết tuổi trẻ, tiềm năng trí tưởng tượng và một góc nhìn tươi mới. Đó là một dự án được thúc đẩy bởi đam mê và trực giác hơn là logic thuần túy, tràn đầy sự lạc quan ngây thơ.",
+        "reversed": "Một startup bị ảnh hưởng bởi s��� non nớt trong kế hoạch, những kỳ vọng không thực tế hoặc thiếu trí tuệ cảm xúc trong lãnh đạo. Những trở ngại sáng tạo hoặc những cơn bùng phát cảm xúc cản trở tiến độ, dẫn đến sự bất ổn hoặc một dự án không thể khởi động do thiếu nền tảng thực tế."
+      },
+      "workplace_politics": {
+        "upright": "Điều hướng các động thái nơi làm việc với một sự ngây thơ nhất định, có thể là người truyền tải thông tin cảm xúc hoặc một người quan sát nhạy cảm. Nó có thể đại diện cho một luồng cảm xúc mới, tinh tế hoặc một nỗ lực ngây thơ để hòa giải.",
+        "reversed": "Bị cuốn vào những cạm bẫy cảm xúc hoặc sự thao túng trong môi trường làm việc. Tin đồn, sự cạnh tranh trẻ con hoặc sự non nớt cảm xúc từ đồng nghiệp tạo ra một môi trường độc hại. Một người có thể quá nhạy cảm với sự chỉ trích hoặc dễ bị thao túng."
+      },
+      "side_hustle": {
+        "upright": "Một công việc phụ mới, sáng tạo đư���c thực hiện vì đam mê và sự thỏa mãn cá nhân. Đó là một dự án non trẻ, thường mang tính nghệ thuật hoặc trực giác, mang lại niềm vui và một lối thoát cảm xúc tươi mới, tràn đầy khả năng tưởng tượng.",
+        "reversed": "Một công việc phụ thiếu cảm hứng, trở nên kiệt sức về mặt cảm xúc hoặc được theo đuổi với những kỳ vọng không thực tế. Nó có thể dẫn đến sự thất vọng hoặc cảm thấy như một sự xao nhãng trẻ con hơn là một lối thoát sáng tạo thực sự, có lẽ do thiếu cam kết hoặc sự theo dõi cảm xúc."
+      },
+      "real_estate": {
+        "upright": "Một kết nối cảm xúc mới với một bất động sản, có thể là một ngôi nhà mơ ước hoặc một nơi gợi lên cảm giác thuộc về và thoải mái mạnh mẽ. Nó có thể biểu thị một lời đề nghị mới hoặc một tầm nhìn sáng tạo cho một không gian.",
+        "reversed": "Sự thất vọng cảm xúc hoặc sự non nớt trong các giao dịch bất động sản. Những kỳ vọng không thực tế về một tài sản, hoặc những gắn bó/ác cảm cảm xúc làm mờ đi phán đoán. Có thể chỉ ra một lời đề nghị có vấn đề hoặc một tình huống mà các vấn đề cảm xúc cản trở một giao dịch."
+      },
+      "financial_loss": {
+        "upright": "Một lời cảnh báo tinh tế, trực giác về những sai lầm tài chính tiềm ẩn, thúc giục sự thận trọng và nhận thức cảm xúc trong chi tiêu. Đó là một lời nhắc nhở nhẹ nhàng để xem xét lại những quyết định bốc đồng do ý thích nhất thời.",
+        "reversed": "Những tổn thất tài chính bắt nguồn từ sự non nớt cảm xúc, những quyết định bốc đồng hoặc không lắng nghe những cảnh báo trực giác. Sự thất vọng và hối tiếc về những lựa chọn tài chính được đưa ra mà không có sự tiên liệu hoặc kiểm soát cảm xúc thích hợp."
+      },
+      "sudden_wealth": {
+        "upright": "Một món quà bất ngờ, hoặc một khoản tiền bất ngờ mang lại niềm vui và những khả năng mới. Đó thường là một phước lành nhỏ, nhưng đáng kể, mở ra cánh cửa cho những theo đuổi sáng tạo hoặc sự thoải mái về mặt cảm xúc.",
+        "reversed": "Sự giàu có bất ngờ dẫn đến sự non nớt cảm xúc, chi tiêu phù phiếm hoặc thiếu lòng biết ơn. Nó có thể mang lại nhiều vấn đề cảm xúc hơn là giải pháp, khi một người phải vật lộn để xử lý các nguồn lực mới một cách có trách nhiệm hoặc trưởng thành."
+      },
+      "healing": {
+        "upright": "Sự khởi đầu nhẹ nhàng của quá trình chữa lành cảm xúc, thường thông qua việc kết nối lại với đứa trẻ bên trong, sự sáng tạo hoặc trực giác của mình. Đó là một quá trình nhạy cảm của việc mở lòng đón nhận những hiểu biết cảm xúc mới và tìm thấy sự an ủi trong việc thể hiện bản thân.",
+        "reversed": "Quá trình chữa lành cảm xúc bị chặn do sự kháng cự, sự non nớt cảm xúc hoặc không thể xử lý những tổn thương trong quá khứ. Cảm xúc bị kìm nén, sự phủ nhận hoặc từ chối đối mặt với s��� thật cản trở sự phục hồi thực sự, dẫn đến sự trì trệ."
+      },
+      "stress": {
+        "upright": "Những dấu hiệu ban đầu, tinh tế của sự căng thẳng cảm xúc, một tiếng thì thầm trực giác rằng sức khỏe cảm xúc của một người đang bị thử thách. Đó là một lời kêu gọi để thừa nhận sự nhạy cảm và tìm kiếm những lối thoát sáng tạo để giải tỏa.",
+        "reversed": "Căng thẳng cảm xúc quá mức, thường biểu hiện dưới dạng những cơn bùng phát trẻ con, trốn tránh hoặc không có khả năng đối phó một cách trưởng thành. Sự nhạy cảm của Page trở thành gánh nặng, dẫn đến sự mong manh và suy sụp cảm xúc nếu không được quản lý đúng cách."
+      },
+      "trauma": {
+        "upright": "Sự xuất hiện tinh tế của những cảm xúc bị kìm nén liên quan đến chấn thương trong quá khứ, thường thông qua những giấc mơ, sự thể hiện sáng tạo hoặc những tia chớp trực giác. Đó là một lời mời để nhẹ nhàng thừa nhận và bắt đầu x�� lý những vết thương cảm xúc sâu sắc này.",
+        "reversed": "Sự từ chối thừa nhận hoặc giải quyết chấn thương trong quá khứ, dẫn đến sự non nớt cảm xúc, né tránh hoặc các hành vi tự hủy hoại. Những vết thương cảm xúc sâu sắc vẫn chưa được chữa lành, biểu hiện dưới dạng những cơn bùng phát cảm xúc, ảo tưởng hoặc không có khả năng kết nối một cách chân thực."
+      },
+      "exams": {
+        "upright": "Tiếp cận các kỳ thi với một tâm trí cởi mở, trực giác và một góc nhìn mới. Nó gợi ý một thái độ tiếp thu đối với việc học và tiềm năng cho các giải pháp sáng tạo, có thể là một thông điệp hoặc cái nhìn sâu sắc giúp ích trong việc hiểu bài.",
+        "reversed": "Sự non nớt cảm xúc hoặc lo lắng cản trở hiệu suất trong các kỳ thi. Khó tập trung, bế tắc sáng tạo hoặc không có khả năng thể hiện kiến thức một cách hiệu quả do cảm xúc quá tải hoặc thiếu chuẩn bị."
+      },
+      "scholarship": {
+        "upright": "M��t cơ hội bất ngờ hoặc một thông điệp mới liên quan đến học bổng, thường liên quan đến các lĩnh vực sáng tạo hoặc nhân đạo. Nó đại diện cho một cơ hội học hỏi và phát triển cảm xúc mới, một món quà hỗ trợ.",
+        "reversed": "Sự thất vọng về một học bổng, có thể do những lời hứa không được thực hiện, thiếu sự trưởng thành trong quá trình nộp đơn hoặc những trở ngại cảm xúc ngăn cản một người nắm bắt cơ hội."
+      },
+      "talent": {
+        "upright": "Sự thức tỉnh của một tài năng nghệ thuật hoặc trực giác mới, tràn đầy tiềm năng và sự thể hiện ngây thơ. Đó là một lời kêu gọi khám phá những món quà sáng tạo với sự ngạc nhiên và nhạy cảm.",
+        "reversed": "Tài năng không được công nhận, kém phát triển hoặc bị lãng phí do sự non nớt cảm xúc, thiếu tự tin hoặc từ chối nuôi dưỡng tài năng của mình. Những trở ngại sáng tạo hoặc sự tự nghi ngờ cản trở sự thể hiện đầy đủ các khả n��ng bẩm sinh."
+      },
+      "spirit_guide": {
+        "upright": "Một thông điệp trực giác nhẹ nhàng hoặc một sự hiện diện tinh tế của một linh hồn dẫn lối, thường xuất hiện trong giấc mơ hoặc thông qua cảm hứng sáng tạo. Đó là một lời mời yêu thương để kết nối với trí tuệ cao hơn và sự hướng dẫn cảm xúc.",
+        "reversed": "Khó khăn trong việc kết nối hoặc hiểu các thông điệp từ linh hồn dẫn lối do các rào cản cảm xúc, sự hoài nghi hoặc thiếu sự trưởng thành tâm linh. Một người có thể bỏ qua những lời nhắc nhở trực giác hoặc hiểu sai hướng dẫn do sự bối rối về mặt cảm xúc."
       }
     },
     "planet": "Mặt Trăng",
@@ -11203,6 +14587,78 @@ window.TAROT_DB = [
       "lost_item": {
         "upright": "Món đồ thất lạc có thể là một món quà tình yêu, một vật kỷ niệm lãng mạn. Nó sẽ được tìm thấy bởi một người có ý tốt, mang theo thông điệp của sự kết nối.",
         "reversed": "Món đồ bị mất do sự bất cẩn trong tình yêu, hoặc nó đã bị ai đó lừa dối lấy đi. Sự mất mát này gợi nhắc về những tổn thương trong mối quan hệ."
+      },
+      "toxic_relationship": {
+        "upright": "Sự xuất hiện của Kỵ Sĩ Cốc xuôi trong mối quan hệ độc hại thường báo hiệu một lời đề nghị, một lời hứa hẹn lãng mạn đầy mê hoặc, nhưng lại thiếu nền tảng thực tế. Đó là sự quyến rũ ban đầu, một giấc mơ tình ái ngọt ngào che lấp những vết rạn nứt tiềm ẩn, khiến bạn đắm chìm vào ảo ảnh của tình yêu lý tưởng, dễ bị thao túng bởi cảm xúc.",
+        "reversed": "Khi đảo ngược, Kỵ Sĩ Cốc phơi bày bản chất thật của mối quan hệ đ���c hại: những lời hứa hão huyền, sự thao túng cảm xúc tinh vi và sự thất vọng sâu sắc. Đây là lúc ảo ảnh tan vỡ, để lộ sự nông cạn, thiếu chân thành và sự lừa dối đằng sau vỏ bọc lãng mạn, dẫn đến sự tổn thương tinh thần và kiệt quệ cảm xúc."
+      },
+      "soulmate": {
+        "upright": "Kỵ Sĩ Cốc xuôi là sứ giả của một kết nối định mệnh, một người bạn tâm giao đích thực đến mang theo sự thấu hiểu sâu sắc và tình yêu lý tưởng. Đó là sự gặp gỡ của hai tâm hồn đồng điệu, nơi những giấc mơ và cảm xúc được chia sẻ, tạo nên một liên kết thiêng liêng và hài hòa.",
+        "reversed": "Khi đảo ngược, lá bài này cảnh báo về một “linh hồn tri kỷ” giả tạo, một ảo ảnh của sự kết nối sâu sắc mà thực chất chỉ là hời hợt và thiếu bền vững. Sự thất vọng sẽ đến khi bạn nhận ra rằng tình cảm ban đầu chỉ là sự ngộ nhận, thiếu đi sự tương thích cảm xúc thực sự, dẫn đến sự tan vỡ và đau lòng."
+      },
+      "reconciliation": {
+        "upright": "Kỵ Sĩ Cốc xuôi mang đến một thông điệp hòa giải chân thành, một lời xin lỗi xuất phát từ trái tim và khao khát hàn gắn. Đó là cơ hội để tha thứ, thấu hiểu và bắt đầu lại, nơi những vết thương cũ được xoa dịu bằng sự đồng cảm và tình yêu thương, mở ra một chương mới của sự bình yên và kết nối.",
+        "reversed": "Kỵ Sĩ Cốc ngược cho thấy nỗ lực hòa giải thiếu chân thành, chỉ là một cử chỉ hời hợt hoặc một sự thao túng cảm xúc để đạt được mục đích riêng. Những lời hứa hẹn có thể không được thực hiện, gây ra sự thất vọng và làm sâu sắc thêm những vết rạn nứt, khiến việc hòa giải trở nên vô vọng hoặc gây tổn thương hơn."
+      },
+      "secret_admirer": {
+        "upright": "Một Kỵ Sĩ Cốc xuôi thầm lặng mang trong mình tình cảm thuần khiết, lãng mạn và lý tưởng, có thể được biểu lộ qua những cử chỉ nghệ thuật hoặc sự quan tâm tinh tế. Người n��y có ý định tốt đẹp, dù có thể còn rụt rè hoặc chưa dám thổ lộ cảm xúc sâu kín của mình.",
+        "reversed": "Khi đảo ngược, lá bài này cảnh báo về một người hâm mộ bí mật với động cơ không trong sáng, hoặc sự ngưỡng mộ của họ chỉ là ảo tưởng, không dựa trên thực tế. Có thể có yếu tố ám ảnh, thao túng hoặc thiếu tôn trọng ranh giới cá nhân, biến sự ngưỡng mộ thành một mối đe dọa tiềm ẩn."
+      },
+      "burnout": {
+        "upright": "Kỵ Sĩ Cốc xuôi ở đây biểu thị sự kiệt sức xuất phát từ việc theo đuổi một lý tưởng quá cao đẹp, hoặc dồn hết cảm xúc và năng lượng vào một mục tiêu mà không có sự cân bằng. Sự đam mê ban đầu, dù thuần khiết, lại dẫn đến việc tiêu hao cảm xúc mà không hay biết, đòi hỏi sự nhìn nhận lại.",
+        "reversed": "Kỵ Sĩ Cốc ngược thể hiện sự kiệt quệ cảm xúc hoàn toàn do burnout, đánh dấu bởi sự vỡ mộng sâu sắc, thờ ơ và mất hết động lực sáng tạo. Đây l�� sự rút lui vào thế giới ảo tưởng hoặc các hành vi trốn tránh (như nghiện ngập) để đối phó với sự mệt mỏi quá sức, không còn khả năng kết nối với cảm xúc thật của mình."
+      },
+      "startup": {
+        "upright": "Một dự án khởi nghiệp được thúc đẩy bởi niềm đam mê, sự sáng tạo và tầm nhìn mạnh mẽ. Thành công đến từ trực giác nhạy bén, khả năng kết nối cảm xúc với khách hàng và sự dũng cảm theo đuổi những ý tưởng độc đáo, mang tính nghệ thuật hoặc phục vụ nhu cầu cảm xúc của cộng đồng.",
+        "reversed": "Một dự án khởi nghiệp gặp khó khăn do kỳ vọng phi thực tế, thiếu kế hoạch cụ thể hoặc sự bất ổn cảm xúc trong đội ngũ. Các ý tưởng chỉ dừng lại ở mức ảo tưởng, khó hiện thực hóa. Xung đột nội bộ hoặc thiếu cam kết cảm xúc làm suy yếu tiến độ, dẫn đến sự thất vọng và đổ vỡ."
+      },
+      "workplace_politics": {
+        "upright": "Điều hướng chính trị công sở bằng sự duyên dáng, khéo léo và trí tuệ cảm xúc. Sử dụng trực giác để hiểu rõ động thái của người khác, xây dựng liên minh dựa trên sự thấu hiểu. Cũng có thể là một người nhạy cảm với không khí chung, cố gắng duy trì sự hài hòa và hòa giải xung đột.",
+        "reversed": "Bị mắc kẹt trong mạng lưới thao túng cảm xúc, lời đồn thổi và những lời hứa hão huyền nơi công sở. Có thể có ai đó đang lợi dụng sự quyến rũ để lừa dối hoặc thao túng. Sự ngây thơ khiến bạn dễ bị lợi dụng, hoặc bạn không thể đối phó với cường độ cảm xúc của các trò chơi chính trị, dẫn đến sự rút lui hoặc vỡ mộng."
+      },
+      "side_hustle": {
+        "upright": "Một công việc phụ xuất phát từ niềm đam mê sáng tạo, một sở thích được biến thành nguồn thu nhập, hoặc mang lại sự thỏa mãn về mặt cảm xúc. Thành công đến từ việc lắng nghe trái tim và trực giác của mình, tạo ra giá trị từ những gì bạn yêu thích.",
+        "reversed": "Một công việc phụ trở thành gánh nặng cảm xúc thay vì niềm vui. Những kỳ vọng phi thực tế về thành công dẫn đến thất vọng. Sự trì hoãn hoặc thiếu nỗ lực thực tế ngăn cản nó phát triển. Có thể đây chỉ là một dự án trong mơ mà không bao giờ thành hiện thực."
+      },
+      "real_estate": {
+        "upright": "Một giao dịch bất động sản được thúc đẩy bởi sự kết nối cảm xúc, tìm thấy một ngôi nhà mơ ước, hoặc một khoản đầu tư mà 'cảm thấy đúng'. Có thể là một tài sản có giá trị thẩm mỹ cao hoặc hứa hẹn sự thoải mái và ổn định về mặt cảm xúc.",
+        "reversed": "Sự thất vọng trong một giao dịch bất động sản, có thể do sự gắn bó cảm xúc làm lu mờ những khuyết điểm. Kỳ vọng không thực tế về một ngôi nhà, hoặc một thỏa thuận bị đổ vỡ do những phức tạp cảm xúc không lường trước được hoặc những lời hứa hão từ môi giới/người bán. Một tài sản mang lại sự xáo trộn cảm xúc thay vì bình yên."
+      },
+      "financial_loss": {
+        "upright": "Một tổn thất tài chính đóng vai trò là bài học cảm xúc, có thể xuất phát từ một khoản đầu tư quá lạc quan hoặc lý tưởng. Mặc dù là mất mát, nhưng nó có thể dẫn đến sự hiểu biết sâu sắc hơn hoặc sự thay đổi trong các giá trị cá nhân, giúp bạn trưởng thành hơn về mặt cảm xúc.",
+        "reversed": "Một tổn thất tài chính đáng kể do sự tin tưởng ngây thơ, sự bốc đồng cảm xúc hoặc bị lừa dối bởi những lời hứa hão. Sự vỡ mộng là sâu sắc, và mất mát có thể liên quan đến xu hướng trốn tránh thực tế hoặc thất bại trong việc đối mặt với sự thật tài chính."
+      },
+      "sudden_wealth": {
+        "upright": "Sự xuất hiện bất ngờ của của cải, có thể thông qua một nỗ lực sáng tạo, một di sản, hoặc một cơ hội may mắn mang lại niềm vui cảm xúc và những cơ hội mới để thực hiện ước mơ. Đây là sự ban tặng từ vũ trụ cho những ai biết theo đuổi lý tưởng của mình.",
+        "reversed": "Sự giàu có bất ngờ mang lại sự bất ổn cảm xúc, hạnh phúc hời hợt hoặc nhanh chóng bị phung phí do những quyết định bốc đồng. Có thể là của cải có được thông qua những phương tiện đáng ngờ, hoặc nó không mang lại sự mãn nguyện thực sự, dẫn đến sự thất vọng và trống rỗng."
+      },
+      "healing": {
+        "upright": "Một hành trình chữa lành cảm xúc sâu sắc, được dẫn dắt bởi trực giác và lòng trắc ẩn. Tìm thấy sự an ủi trong biểu hiện sáng tạo, kết nối với đứa trẻ bên trong hoặc nhận được sự hỗ trợ đầy yêu thương. Một quá trình phục hồi cảm xúc nhẹ nhàng và sâu sắc.",
+        "reversed": "Sự kháng cự đối với việc chữa lành cảm xúc, bám víu vào những tổn thương trong quá khứ, hoặc tìm kiếm những giải pháp hời hợt thay vì sự tự vấn sâu sắc. Trốn tránh thực tế là một cách để tránh đối mặt với vết thương lòng. Thiếu sự đồng cảm hoặc hỗ trợ chân thành, cản trở quá trình chữa lành."
+      },
+      "stress": {
+        "upright": "Căng thẳng phát sinh từ sự quá tải cảm xúc, quá nhạy cảm với cảm xúc của người khác, hoặc áp lực khi theo đuổi một lý tưởng. Căng thẳng thường mang tính nội tâm, gắn liền với cảnh quan cảm xúc của một người, đòi hỏi sự cân bằng và tự chăm sóc.",
+        "reversed": "Căng thẳng mãn tính dẫn đến sự tê liệt cảm xúc, thay đổi tâm trạng hoặc hành vi trốn tránh. Không có khả năng đối phó với các yêu cầu cảm xúc, dẫn đến lo lắng, trầm cảm hoặc mất hoàn toàn sự cân bằng cảm xúc. Cảm giác căng thẳng trở nên quá sức và không thể kiểm soát."
+      },
+      "trauma": {
+        "upright": "Kỵ Sĩ Cốc xuôi đại diện cho việc bắt đầu nhận thức và chấp nhận những vết thương lòng trong quá khứ, khởi đầu hành trình xử lý chúng bằng sự nhạy cảm và lòng tự trắc ẩn. Đây là bước đầu tiên để hòa nhập những trải nghiệm đau thương vào câu chuyện cảm xúc của mình, thường thông qua các phương pháp sáng tạo hoặc trị liệu.",
+        "reversed": "Kỵ Sĩ Cốc ngược cho thấy sự kìm nén tổn thương thông qua tưởng tượng hoặc phủ nhận, dẫn đến sự trì trệ cảm xúc, tính khí thất thường hoặc hành vi thao túng. Chấn thương biểu hiện thành các kiểu mẫu cảm xúc chưa được giải quyết, ngăn cản kết nối chân thật và duy trì vòng lặp đau khổ."
+      },
+      "exams": {
+        "upright": "Tiếp cận kỳ thi với trực giác, khả năng giải quyết vấn đề sáng tạo và một tâm trí bình tĩnh, tập trung. Thành công đến từ việc hiểu tài liệu ở mức độ sâu sắc, cảm xúc hơn là học thuộc lòng. Có thể nhận được 'linh cảm' về câu trả lời đúng.",
+        "reversed": "Lo lắng cảm xúc và sự tự ti cản trở hiệu suất. Trì hoãn, trốn tránh hoặc thiếu tập trung do quá tải cảm xúc. Không có khả năng biến kiến thức thành ứng dụng thực tế dưới áp lực, dẫn đến sự thất vọng và kết quả không như mong đợi."
+      },
+      "scholarship": {
+        "upright": "Nhận được học bổng, thường dành cho các lĩnh vực nghệ thuật, nhân đạo hoặc các ngành đòi hỏi sự đồng cảm. Điều này biểu thị sự công nhận trí tuệ cảm xúc, tài năng sáng tạo hoặc sự cống hiến cho một lý tưởng cao đẹp. Một cơ hội được trao tặng để theo đuổi ước mơ.",
+        "reversed": "Cơ hội học bổng bị bỏ lỡ do sự bất ổn cảm xúc, thiếu cam kết hoặc kỳ vọng không thực tế. Cũng có thể là một học bổng đi kèm với những ràng buộc, dẫn đến sự vỡ mộng hoặc cảm thấy bị hạn chế về mặt cảm xúc, không còn tự do theo đuổi đam mê."
+      },
+      "talent": {
+        "upright": "Một tài năng bẩm sinh về biểu hiện sáng tạo, sự đồng cảm, trực giác, hoặc khả năng kết nối với người khác ở cấp độ cảm xúc sâu sắc. Tài năng này đã sẵn sàng để được khám phá và chia sẻ, mang lại niềm vui và nguồn cảm hứng cho bản thân và những người xung quanh.",
+        "reversed": "Tài năng chưa được khám phá ho���c chưa được thực hiện do sự tự ti, sợ bị đánh giá, hoặc xu hướng giữ kín các nỗ lực sáng tạo. Tài năng có thể bị lạm dụng để thao túng, hoặc nó vẫn tiềm ẩn, dẫn đến sự thất vọng về cảm xúc và cảm giác không trọn vẹn."
+      },
+      "spirit_guide": {
+        "upright": "Một người hướng dẫn tâm linh dịu dàng, trực giác, giao tiếp thông qua những giấc mơ, cảm xúc và nguồn cảm hứng sáng tạo. Họ mang đến sự hướng dẫn đầy lòng trắc ẩn, khuyến khích sự phát triển cảm xúc và kết nối tâm linh sâu sắc, là một sứ giả từ thế giới vô hình.",
+        "reversed": "Sự hiểu lầm hướng dẫn tâm linh do sự bối rối cảm xúc hoặc ước muốn hão huyền. Một 'người hướng dẫn' đưa ra những thông điệp sai lệch hoặc lừa dối, hoặc khuyến khích sự trốn tránh thay vì sự phát triển tâm linh thực sự. Cảm thấy mất kết nối với hướng dẫn tâm linh do những tắc nghẽn cảm xúc."
       }
     },
     "planet": "Sao Hải Vương",
@@ -11435,6 +14891,78 @@ window.TAROT_DB = [
       "general": {
         "upright": "Một giai đoạn của sự thấu hiểu, lòng trắc ẩn và trực giác nhạy bén. Thời điểm để nuôi dưỡng tâm hồn, chữa lành và kết nối sâu sắc với cảm xúc.",
         "reversed": "Một giai đoạn của sự bất ổn cảm xúc, sự nhạy cảm quá mức hoặc cảm giác bị tổn thương. Cần tìm cách cân bằng và bảo vệ trái tim."
+      },
+      "toxic_relationship": {
+        "upright": "Sự xuất hiện của Nữ Hoàng Cốc xuôi trong mối quan hệ độc hại là lời nhắc nhở về sức mạnh của lòng trắc ẩn và trực giác. Bạn được kêu gọi lắng nghe tiếng nói sâu thẳm bên trong, nhận diện những dòng chảy cảm xúc ẩn khuất và tìm cách chữa lành, hoặc đủ dũng cảm để tự nuôi dưỡng tâm hồn rời khỏi vòng xoáy tổn thương. Đây là lúc để thấu hiểu, không phải chấp nhận, mà là để tìm ra con đường thoát khỏi sự ràng buộc, mang lại sự bình yên cho chính mình.",
+        "reversed": "Khi Nữ Hoàng Cốc đảo ngược xuất hiện trong mối quan hệ độc hại, nó cảnh báo về sự sa lầy sâu sắc vào những cảm xúc tiêu cực. Có thể bạn đang bị thao túng cảm xúc một cách tinh vi, hoặc chính bạn đang vô thức sử dụng cảm xúc để kiểm soát người khác. Sự phụ thuộc lẫn nhau một cách không lành mạnh, thiếu ranh giới rõ ràng và sự mất cân bằng cảm xúc khiến bạn khó lòng thoát ra, hoặc thậm chí còn làm trầm trọng thêm sự độc hại."
+      },
+      "soulmate": {
+        "upright": "Nữ Hoàng Cốc xuôi báo hiệu một kết nối linh hồn sâu sắc, nơi tình yêu được dệt nên từ sự thấu hiểu, lòng trắc ẩn và trực giác nhạy bén. Đây là sự gặp gỡ của hai tâm hồn có khả năng đọc vị cảm xúc của nhau mà không cần lời nói, cùng nhau nuôi dưỡng một mối quan hệ đầy sự hỗ trợ, bình yên và thấu cảm. Một tình yêu định mệnh, nơi cảm xúc được tôn vinh và chia sẻ một cách chân thành.",
+        "reversed": "Khi Nữ Hoàng Cốc đảo ngược xuất hiện, kết nối 'tri kỷ' này có thể bị che mờ bởi những ảo tưởng cảm xúc hoặc sự phụ thuộc không lành mạnh. Có thể bạn đang nhầm lẫn sự mê đắm nhất thời với tình yêu định mệnh, hoặc một trong hai người (hoặc cả hai) đang thiếu sự trưởng thành cảm xúc, khiến mối quan hệ trở nên bất ổn, đầy kịch tính và thiếu đi sự chân thật. Nó cảnh báo về sự thất vọng khi kỳ vọng quá nhiều vào một kết nối chưa đủ vững vàng."
+      },
+      "reconciliation": {
+        "upright": "Nữ Hoàng Cốc xuôi mang đến năng lượng của sự hòa giải chân thành, xuất phát từ trái tim. Đây là cơ hội để hai bên đối diện với tổn thương trong quá khứ bằng lòng trắc ẩn, sự thấu hiểu sâu sắc và khả năng lắng nghe không phán xét. Sự tha thứ được trao đi và nhận lại một cách tự nguyện, mở đường cho sự hàn gắn cảm xúc và một khởi đầu mới dựa trên sự bình yên và yêu thương.",
+        "reversed": "Với Nữ Hoàng Cốc đảo ngược, sự hòa giải có thể chỉ là một lớp vỏ bọc mỏng manh. Có thể có sự thao túng cảm xúc để đạt được sự tái hợp, hoặc một trong hai bên (hoặc cả hai) chưa thực sự buông bỏ những oán giận cũ. Các vết thương lòng vẫn âm ỉ dưới bề mặt, khiến cho việc tái hợp trở nên bấp bênh, dễ dàng đổ vỡ khi cảm xúc tiêu cực lại trỗi dậy, hoặc thiếu đi sự chân thành và bền vững."
+      },
+      "secret_admirer": {
+        "upright": "Nữ Hoàng Cốc xuôi cho thấy một người ngưỡng mộ bí mật với một tâm hồn nhạy cảm và trực giác sâu sắc. Người này có thể đã quan sát bạn từ xa, thấu hiểu những khía cạnh tinh tế trong con người bạn mà ít ai biết đến. Sự ngưỡng mộ của họ xuất phát từ một sự kết nối cảm xúc và tâm linh, có thể là một tình cảm thuần khiết, chân thành và đầy sự trân trọng.",
+        "reversed": "Khi Nữ Hoàng Cốc đảo ngược, sự ngưỡng mộ bí mật này có thể mang màu sắc của sự ám ảnh hoặc sự thiếu ổn định về cảm xúc. Người ngưỡng mộ có thể đang phóng chiếu những cảm xúc của riêng họ lên bạn, hoặc có những ý định không hoàn toàn trong sáng, thậm chí có thể gây ra sự khó chịu hoặc thao túng. Cần cẩn trọng với những kết nối cảm xúc không rõ ràng và có dấu hiệu bất ổn."
+      },
+      "burnout": {
+        "upright": "Nữ Hoàng Cốc xuôi là lời thì thầm dịu dàng từ vũ trụ, thôi thúc bạn lắng nghe tiếng gọi của tâm hồn đang kiệt quệ. Đây là lúc để thực hành lòng trắc ẩn với chính mình, nuôi dưỡng lại năng lượng đã mất và tìm kiếm sự bình yên nội tại. Lá bài này khuyên bạn nên rút lui, tìm không gian để chữa lành cảm xúc và khôi phục sự cân bằng tinh thần trước khi mọi thứ trở nên quá sức.",
+        "reversed": "Với Nữ Hoàng Cốc đảo ngược, bạn đang phớt lờ những tín hiệu kiệt sức từ cơ thể và tâm trí. Sự quá tải cảm xúc đang đẩy bạn đến bờ vực sụp đổ hoàn toàn. Bạn có thể cảm thấy bị nhấn chìm bởi cảm xúc, không thể tự chăm sóc bản thân và tiếp tục đẩy mình vượt quá giới hạn, dẫn đến sự cạn kiệt năng lượng nghiêm trọng và khó khăn trong việc phục hồi."
+      },
+      "startup": {
+        "upright": "Nữ Hoàng Cốc xuôi báo hiệu một dự án khởi nghiệp được sinh ra từ trực giác sâu sắc và một trái tim đầy đam mê. Đây là một hành trình kinh doanh có mục đích nuôi dưỡng, chữa lành hoặc mang lại giá trị cảm xúc cho cộng đồng. Sự lãnh đạo sẽ được dẫn dắt bởi trí tuệ cảm xúc, tạo ra một môi trường làm việc đầy lòng trắc ẩn, hỗ trợ và thấu hiểu, nơi mọi người có thể phát triển tiềm năng.",
+        "reversed": "Khi Nữ Hoàng Cốc đảo ngược, dự án khởi nghiệp của bạn có thể thiếu đi nền tảng cảm xúc vững chắc. Các quyết định có thể bị ảnh hưởng bởi sự bất ổn cảm xúc, cái tôi cá nhân thay vì tầm nhìn chân chính. Môi trường làm việc có thể bị vướng vào những kịch tính cảm xúc, sự thao túng hoặc thiếu sự gắn kết, khiến cho sự phát triển của công ty trở nên bấp bênh và thiếu bền vững."
+      },
+      "workplace_politics": {
+        "upright": "Nữ Hoàng Cốc xuôi cho thấy khả năng điều hướng các mối quan hệ phức tạp nơi công sở bằng trí tuệ cảm xúc và sự khéo léo. Bạn có khả năng cảm nhận được những dòng chảy ngầm, thấu hiểu động cơ của người khác và duy trì sự hài hòa. Bạn là một người mang lại sự bình yên, sử dụng trực giác để nhận biết sự thật và tránh xa những cạm bẫy cảm xúc.",
+        "reversed": "Với Nữ Hoàng Cốc đảo ngược, bạn có thể dễ dàng bị cuốn vào những trò chơi chính trị nơi công sở, trở nên quá nhạy cảm với những lời đàm tiếu hoặc bị thao túng cảm xúc. Bạn có thể sử dụng cảm xúc để đạt được lợi thế, hoặc chính bạn trở thành nạn nhân của những cảm xúc tiêu cực từ người khác. Sự thiếu ranh giới và khả năng kiểm soát cảm xúc khiến bạn dễ bị tổn thương trong môi trường này."
+      },
+      "side_hustle": {
+        "upright": "Nữ Hoàng Cốc xuôi cho thấy một công việc phụ là một dự án đam mê, mang lại sự thỏa mãn cảm xúc sâu sắc. Đây là một kênh sáng tạo, cho phép bạn nuôi dưỡng những tài năng tiềm ẩn, thường liên quan đến nghệ thuật, chữa lành hoặc các dịch vụ mang tính nhân văn. Nó không chỉ là nguồn thu nhập mà còn là nơi tâm hồn bạn được an ủi và thăng hoa.",
+        "reversed": "Khi Nữ Hoàng Cốc đảo ngược, công việc phụ này có thể trở thành một gánh nặng cảm xúc. Có thể bạn đang theo đuổi nó như một hình thức trốn tránh thực tại, hoặc nó đang làm mất cân bằng cảm xúc của bạn. Sự bất ổn trong cảm xúc có thể khiến bạn thực hiện công việc này một cách thất thường, thiếu tập trung và không mang lại sự thỏa mãn như mong đợi, thậm chí còn gây ra thêm căng thẳng."
+      },
+      "real_estate": {
+        "upright": "Nữ Hoàng Cốc xuôi chỉ dẫn bạn đến một ngôi nhà không chỉ là nơi ở, mà còn là một không gian cộng hưởng sâu sắc với tâm hồn bạn. Đó là một tổ ấm mang lại sự thoải mái, an toàn về mặt cảm xúc và cảm giác thuộc về. Quyết định đầu tư hoặc mua bán bất động sản của bạn được dẫn dắt bởi trực giác, tạo ra một không gian sống đầy sự nuôi dưỡng và bình yên.",
+        "reversed": "Với Nữ Hoàng Cốc đảo ngược, bạn có thể đang bị ràng buộc cảm xúc một cách không lành mạnh với một tài sản, hoặc đưa ra những quyết định bất động sản dựa trên cảm tính, thiếu thực tế. Môi trường sống có thể trở nên bất ổn về mặt cảm xúc, hoặc chính không gian đó đang tiêu hao năng lượng của bạn thay vì nuôi dưỡng. Cần xem xét lại những động cơ cảm xúc đằng sau các quyết định liên quan đến nhà cửa."
+      },
+      "financial_loss": {
+        "upright": "Nữ Hoàng Cốc xuôi mang đến một thông điệp về sự chấp nhận và chữa lành cảm xúc sau tổn thất tài ch��nh. Đây là cơ hội để bạn xử lý nỗi đau một cách duyên dáng, học hỏi sự kiên cường và lòng trắc ẩn với chính mình. Trực giác sẽ dẫn lối bạn đến những bài học sâu sắc hơn, giúp bạn tìm lại sự ổn định cảm xúc bất chấp sự thay đổi về vật chất.",
+        "reversed": "Khi Nữ Hoàng Cốc đảo ngược, tổn thất tài chính có thể nhấn chìm bạn vào sự tuyệt vọng cảm xúc. Bạn có thể cảm thấy tê liệt, không thể đối phó và đưa ra những quyết định tài chính bốc đồng, thiếu lý trí do bị chi phối bởi nỗi sợ hãi hoặc sự mất mát. Sự tự thương hại và thiếu khả năng phục hồi cảm xúc sẽ làm cho tình hình trở nên tồi tệ hơn."
+      },
+      "sudden_wealth": {
+        "upright": "Nữ Hoàng Cốc xuôi cho thấy bạn sẽ sử dụng sự giàu có bất ngờ này một cách đầy lòng trắc ẩn và trực giác. Bạn sẽ biết cách chia sẻ, tạo ra những cơ hội nuôi dưỡng cho người khác và duy trì sự ổn định cảm xúc giữa những thay đổi lớn. Sự thịnh vượng này mang lại sự thỏa mãn sâu sắc cho tâm hồn, không chỉ là vật chất mà còn là sự giàu có về tinh thần.",
+        "reversed": "Với Nữ Hoàng Cốc đảo ngược, sự giàu có đột ngột có thể gây ra sự bất ổn cảm xúc. Bạn có thể trở nên quá nuông chiều bản thân, xa cách với thực tế, hoặc sử dụng tiền bạc để thao túng người khác. Nguy cơ đánh mất kết nối với bản ngã đích thực, cảm thấy trống rỗng về mặt cảm xúc dù có tất cả vật chất là rất cao. Cần cẩn trọng với những cám dỗ và sự thay đổi tâm tính."
+      },
+      "healing": {
+        "upright": "Nữ Hoàng Cốc xuôi là biểu tượng của sự chữa lành cảm xúc và tinh thần sâu sắc. Bạn đang kết nối với trí tuệ bên trong để phục hồi, thực hành lòng trắc ẩn với bản thân và tìm kiếm sự hỗ trợ cần thiết. Trực giác sẽ là ngọn hải đăng dẫn lối bạn đến sự toàn vẹn, biến những vết thương thành nguồn sức mạnh và sự thấu hiểu.",
+        "reversed": "Khi Nữ Hoàng Cốc đảo ngược, bạn đang kháng cự lại quá trình chữa lành cảm xúc, kìm nén những cảm giác đau đớn hoặc bị mắc kẹt trong những rào cản nội tâm. Bạn có thể tìm kiếm giải pháp bên ngoài mà không đối diện với những vết thương bên trong, hoặc sự mong manh cảm xúc đang cản trở quá trình phục hồi, khiến bạn khó lòng tiến về phía trước."
+      },
+      "stress": {
+        "upright": "Nữ Hoàng Cốc xuôi là khả năng nhận diện trực giác các dấu hiệu căng thẳng và tìm cách xoa dịu tâm hồn. Bạn có khả năng tự trấn an, tìm kiếm sự bình tĩnh nội tại, thực hành chánh niệm và tìm kiếm sự hỗ trợ đầy lòng trắc ẩn từ những người xung quanh. Bạn biết cách nuôi dưỡng không gian an toàn bên trong để đối phó với áp lực.",
+        "reversed": "Với Nữ Hoàng Cốc đảo ngược, bạn đang bị nhấn chìm bởi căng thẳng, dẫn đến sự suy sụp cảm xúc. Bạn có thể không có khả năng đối phó, phóng chiếu sự căng thẳng lên người khác hoặc thể hiện sự dễ bùng nổ cảm xúc. Việc bỏ bê bản thân càng làm trầm trọng thêm tình hình, khiến bạn cảm thấy mất kiểm soát và kiệt sức hoàn toàn."
+      },
+      "trauma": {
+        "upright": "Nữ Hoàng Cốc xuôi mang đến sức mạnh để bạn đối diện và xử lý những chấn thương sâu sắc bằng lòng dũng cảm và sự trắc ẩn. Bạn tìm kiếm sự hỗ trợ chân thành, kết nối với sức mạnh nội tại để chữa lành những vết thương cũ và sử dụng trực giác để điều hướng con đường phục hồi. Đây là quá trình biến nỗi đau thành trí tuệ và sự thấu hiểu sâu sắc.",
+        "reversed": "Khi Nữ Hoàng Cốc đảo ngược, bạn có thể đang kìm nén chấn thương, lặp lại những khuôn mẫu đau khổ hoặc cảm thấy bị nhấn chìm bởi nỗi đau quá khứ. Khó khăn trong việc tiến về phía trước, sự tách rời cảm xúc hoặc sự bùng nổ cảm xúc cực đoan có thể là những cơ chế đối phó không lành mạnh, cản trở quá trình giải phóng và chữa lành thực sự."
+      },
+      "exams": {
+        "upright": "Nữ Hoàng Cốc xuôi cho thấy bạn sẽ tiếp cận kỳ thi với sự tập trung bình tĩnh và sự hiểu biết trực giác. Bạn tin tưởng vào kiến thức nội tại của mình, quản lý tốt sự lo lắng bằng trí tuệ cảm xúc và duy trì một tâm trí minh mẫn, dễ tiếp thu. Kết quả sẽ phản ánh khả năng kết nối với kiến thức một cách sâu sắc.",
+        "reversed": "Với Nữ Hoàng Cốc đảo ngược, sự lo lắng và quá tải cảm xúc đang làm lu mờ khả năng phán đoán của bạn trong kỳ thi. Những rào cản cảm xúc có thể cản trở khả năng ghi nhớ, sự thiếu tự tin và bất ổn cảm xúc sẽ ảnh hưởng tiêu cực đến hiệu suất. Bạn có thể cảm thấy bị nhấn chìm và không thể phát huy hết khả năng của mình."
+      },
+      "scholarship": {
+        "upright": "Nữ Hoàng Cốc xuôi báo hiệu một cơ hội học bổng xứng đáng, dựa trên giá trị thực sự và tinh thần nuôi dưỡng. Đây là sự hỗ trợ cho sự phát triển trí tuệ và cảm xúc của bạn, giúp bạn định hướng theo mục đích cao cả hơn, được dẫn dắt bởi trực giác. Sự hỗ trợ này không chỉ về tài chính mà còn là sự công nhận cho tâm hồn và trí tuệ của bạn.",
+        "reversed": "Khi Nữ Hoàng Cốc đảo ngược, học bổng có thể được nhận bằng những phương tiện không chân chính, hoặc có sự thao túng cảm xúc để đạt được lợi thế. Bạn có thể lãng phí cơ hội này do sự thiếu trưởng thành cảm xúc hoặc thiếu tập trung. Cảm giác không xứng đáng cũng có thể khiến bạn không tận dụng hết tiềm năng của mình, dẫn đến sự hối tiếc về sau."
+      },
+      "talent": {
+        "upright": "Nữ Hoàng Cốc xuôi tượng trưng cho một tài năng trực giác hoặc sáng tạo sâu sắc. Tài năng này được thể hiện với cảm xúc chân thành và sự thấu cảm, được sử dụng để nuôi dưỡng và truyền cảm hứng cho người khác. Đó là dòng chảy tự nhiên của năng lượng sáng tạo, một món quà từ vũ trụ được bạn sử dụng một cách tinh tế và đầy ý nghĩa.",
+        "reversed": "Với Nữ Hoàng Cốc đảo ngược, tài năng của bạn có thể bị kìm hãm bởi sự bất an cảm xúc hoặc nỗi sợ hãi. Bạn có thể sử dụng tài năng của mình cho mục đích thao túng, hoặc bị tắc nghẽn sáng tạo do sự hỗn loạn cảm xúc. Tài năng này có thể bị bỏ bê hoặc không được đánh giá cao do sự thiếu quan tâm đến khía cạnh cảm xúc của chính bạn."
+      },
+      "spirit_guide": {
+        "upright": "Nữ Hoàng Cốc xuôi cho thấy một kết nối rõ ràng và nhạy bén với sự dẫn dắt tâm linh. Bạn đang nhận được những thông điệp trực giác từ các vị dẫn dắt đầy lòng trắc ẩn, cảm thấy được hỗ trợ và thấu hiểu sâu sắc bởi thế giới vô hình. Bạn tin tưởng vào trí tuệ bên trong và khả năng tiếp nhận những thông điệp thiêng liêng một cách rõ ràng.",
+        "reversed": "Khi Nữ Hoàng Cốc đảo ngược, bạn có thể đang bị ngắt kết nối với sự dẫn dắt tâm linh, hoặc hiểu sai các thông điệp do sự thiên vị cảm xúc. Sự nhầm lẫn về mặt tâm linh có thể xảy ra, hoặc sự bất ổn cảm xúc đang làm mờ khả năng nhận thức tâm linh của bạn. Bạn có thể dựa vào sự xác nhận bên ngoài thay vì lắng nghe tiếng nói bên trong, dẫn đến sự lạc lối và thiếu định hướng."
       }
     },
     "planet": "Mặt Trăng",
@@ -11667,6 +15195,78 @@ window.TAROT_DB = [
       "lost_item": {
         "upright": "Món đồ thất lạc sẽ được tìm thấy nhờ sự bình tĩnh và suy luận logic. Nó có thể là một vật có giá trị, được cất giữ cẩn thận, chờ đợi bạn tìm thấy.",
         "reversed": "Món đồ bị mất do sự thiếu kiểm soát, hoặc nó đã bị ai đó thao túng lấy đi. Sự mất mát này gợi nhắc về sự bất cẩn và thiếu trách nhiệm."
+      },
+      "toxic_relationship": {
+        "upright": "Một hải đăng của sự bình tĩnh giữa bão tố cảm xúc, lá bài này chỉ ra một con đường dẫn đến sự hiểu biết và hòa giải, hoặc sự hiện diện của một người mang đến sự trưởng thành cảm xúc, tìm kiếm sự cân bằng và chữa lành cho mối quan hệ. Nó gợi ý tiềm năng để mối quan hệ tìm thấy sự cân bằng nếu một hoặc cả hai bên thể hiện năng lượng này, nuôi dưỡng sự đồng cảm và hướng dẫn khôn ngoan.",
+        "reversed": "Biểu thị sự thao túng cảm xúc sâu sắc, lừa dối, hoặc các chiến thuật thụ động-hung hăng đã đầu độc mối quan hệ. Một hoặc cả hai bên có thể đang chìm đắm trong những cảm xúc không kiểm soát của chính mình, phóng chiếu sự bất ổn của họ lên người kia, tạo ra một vòng xoáy của sự phụ thuộc lẫn nhau và lạm dụng cảm xúc, nơi sự chữa lành thực sự bị cản trở bởi việc từ chối đối mặt với những bóng tối bên trong."
+      },
+      "soulmate": {
+        "upright": "Sự xuất hiện của một người bạn tâm hồn mà chiều sâu cảm xúc, trí tuệ và sự thấu hiểu đầy lòng trắc ẩn của họ cộng hưởng sâu sắc với bạn. Mối liên kết này được xây dựng trên nền tảng của sự tôn trọng lẫn nhau, sự trưởng thành cảm xúc và một hành trình chung hướng tới sự phát triển tâm linh, mang đến một nơi trú ẩn của tình yêu vô điều kiện và sự chấp nhận.",
+        "reversed": "Chỉ ra một mối liên kết tâm hồn đầy rẫy sự bất ổn cảm xúc, nơi một hoặc c�� hai đối tác phải vật lộn với sự hỗn loạn nội tâm, tính khí thất thường, hoặc xu hướng thao túng. Mối ràng buộc thiêng liêng bị che mờ bởi những vết thương cảm xúc chưa được giải quyết, dẫn đến những giai đoạn hiểu lầm sâu sắc, trốn tránh, hoặc thiếu sự sẵn sàng về mặt cảm xúc thực sự, cản trở sự nở rộ của một mối quan hệ hài hòa."
+      },
+      "reconciliation": {
+        "upright": "Một con đường rõ ràng hướng tới sự chữa lành cảm xúc và sự hiểu biết mới mẻ, được dẫn dắt bởi trí tuệ và lòng trắc ẩn. Nó gợi ý sự sẵn lòng từ tất cả các bên để tiếp cận những tổn thương trong quá khứ với sự trưởng thành và lòng trắc ẩn, tạo ra một môi trường nơi sự tha thứ có thể nở rộ và những cây cầu có thể được xây dựng lại trên nền tảng của sự hiểu biết cảm xúc chân thật.",
+        "reversed": "Sự hòa giải bị phá hoại bởi những gánh nặng cảm xúc còn sót lại, xu hướng thao túng, hoặc sự b���t lực trong việc thực sự tha thứ và buông bỏ. Một hoặc nhiều cá nhân có thể không sẵn sàng về mặt cảm xúc, dễ bị thay đổi tâm trạng, hoặc sử dụng nỗ lực hòa giải như một phương tiện kiểm soát, ngăn cản sự kết thúc cảm xúc thực sự và duy trì các chu kỳ tổn thương."
+      },
+      "secret_admirer": {
+        "upright": "Một sự ngưỡng mộ sâu sắc và thâm thúy, thường mang tính tâm linh hoặc nghệ thuật, được giữ bởi một người quan sát với trí tuệ và sự nhạy cảm cảm xúc. Người ngưỡng mộ này sở hữu một sức mạnh thầm lặng và sự trân trọng chân thành đối với thế giới nội tâm của bạn, tình cảm của họ thuần khiết và không ích kỷ, có lẽ đang chờ đợi thời điểm thích hợp để tiết lộ sự tận tâm trưởng thành và ổn định của họ.",
+        "reversed": "Sự ngưỡng mộ, mặc dù hiện hữu, nhưng xuất phát từ một nơi của sự non nớt cảm xúc, sự ám ảnh, hoặc mong muốn kiểm soát hơn là sự kết nối chân thật. Người ngưỡng mộ bí mật này có thể nuôi dưỡng những ảo tưởng không lành mạnh, dễ bị thay đổi tâm trạng, hoặc sở hữu xu hướng thao túng, khiến việc tiết lộ của họ có khả năng gây khó chịu hoặc hỗn loạn về mặt cảm xúc."
+      },
+      "burnout": {
+        "upright": "Một dấu hiệu để tìm kiếm sự cân bằng cảm xúc và trí tuệ trong cách tiếp cận các yêu cầu của cuộc sống. Nó kêu gọi sự tích hợp của việc tự chăm sóc, tự đánh giá đầy lòng trắc ẩn và sự tách rời khôn ngoan khỏi những áp lực quá mức, cho phép phục hồi sự bình yên nội tâm và phân bổ thông minh các nguồn lực cảm xúc và năng lượng của bạn.",
+        "reversed": "Chiều sâu của sự kiệt sức cảm xúc được phóng đại bởi sự mất hoàn toàn quyền kiểm soát đối với cảm xúc và ranh giới của một người. Điều này cho thấy một trạng thái mà sự thao túng cảm xúc (do tự gây ra hoặc từ các nguồn bên ngoài) hoặc sự từ chối thừa nhận giới hạn cá nhân đã dẫn đến sự cạn kiệt tinh thần thảm khốc, biểu hiện qua những cảm xúc dễ biến động, sự trốn tránh, hoặc sự tê liệt cảm xúc hoàn toàn."
+      },
+      "startup": {
+        "upright": "Nền tảng của liên doanh này được xây dựng dựa trên trí tuệ cảm xúc, sự lãnh đạo đầy lòng trắc ẩn và một tầm nhìn rõ ràng, khôn ngoan. Thành công đến từ khả năng điều hướng các thách thức bằng sự ngoại giao điềm tĩnh, nuôi dưỡng một môi trường hỗ trợ và đồng cảm, và đưa ra các quyết định có lợi cho tất cả với sự hiểu biết sâu sắc về động lực con người.",
+        "reversed": "Công ty khởi nghiệp bị ảnh hưởng bởi sự bất ổn cảm xúc, sự lãnh đạo kém cỏi, hoặc các chiến thuật thao túng trong cốt lõi của nó. Các quyết định có thể được thúc đẩy bởi cái tôi, sự thay đổi tâm trạng, hoặc thiếu sự đồng cảm chân thật, dẫn đến xung đột nội bộ, một văn hóa độc hại, và sự bất lực trong việc thích nghi một cách khôn ngoan với biến động thị trường, cuối cùng làm suy yếu tiềm năng tăng trưởng bền vững của nó."
+      },
+      "workplace_politics": {
+        "upright": "Bạn được kêu gọi điều hướng những dòng chảy phức tạp của nơi làm việc với trí tuệ, sự ngoại giao và sự làm chủ cảm xúc của Vua. Điều này cho thấy khả năng hòa giải xung đột, hiểu những động cơ tiềm ẩn mà không phán xét, và duy trì sự chính trực của bạn giữa các trò chơi quyền lực, trở thành một lực lượng bình tĩnh và có ảnh hưởng.",
+        "reversed": "Nơi làm việc là một vũng lầy của sự thao túng cảm xúc, hành vi thụ động-hung hăng và động lực quyền lực không ổn định. Bạn có thể đối mặt với những cá nhân sử dụng cảm xúc để kiểm soát, lan truyền tin đồn hoặc hành động vì sự bất an cá nhân, tạo ra một môi trường độc hại nơi sự rõ ràng và công bằng liên tục bị phá hoại bởi những cảm xúc dễ biến động."
+      },
+      "side_hustle": {
+        "upright": "Công việc phụ này phát triển khi được tiếp cận bằng trí tuệ cảm xúc, sự thể hiện sáng tạo và một cái nhìn cân bằng. Nó gợi ý một công việc phụ phù hợp với đam mê của bạn, cho phép phục vụ đầy lòng trắc ẩn, hoặc liên quan đến các nỗ lực nghệ thuật, mang lại sự thỏa mãn cảm xúc và quản lý thời gian, năng lượng của bạn một cách ổn định, khôn ngoan.",
+        "reversed": "Công việc phụ trở thành một nguồn cạn kiệt cảm xúc, được thúc đẩy bởi sự trốn tránh, sự tuyệt vọng về tài chính, hoặc thiếu ranh giới cảm xúc. Nó có thể dẫn đến kiệt sức, sự thao túng cảm xúc từ khách hàng, hoặc một phong cách quản lý hỗn loạn, cuối cùng không cung cấp sự ổn định hoặc sự hài lòng sáng tạo như mong muốn."
+      },
+      "real_estate": {
+        "upright": "Một khoản đầu tư khôn ngoan và vững chắc về mặt cảm xúc, có lẽ là một ngôi nhà mang lại sự thoải mái, ổn định và cảm giác thuộc về sâu sắc. Giao dịch có khả năng được xử lý bằng sự ngoại giao và chính trực, dẫn đến một kết quả an toàn và thỏa mãn về mặt cảm xúc, hoặc được hướng dẫn bởi một người có trí tuệ thị trường sâu sắc và trí tuệ cảm xúc.",
+        "reversed": "Dự án bất động sản này đầy rẫy những phức tạp về cảm xúc, các quyết định tài chính không ổn định, hoặc những giao dịch thao túng. Nó có thể liên quan đến các tài sản mang gánh nặng cảm xúc nặng nề, hoặc các giao dịch bị ảnh hưởng bởi sự lừa dối, thay đổi tâm trạng, hoặc thiếu ranh giới cảm xúc rõ ràng, dẫn đến sự bất ổn hoặc hối tiếc."
+      },
+      "financial_loss": {
+        "upright": "Một lời kêu gọi tiếp cận tổn thất với sự kiên cường cảm xúc, trí tuệ và một cái nhìn bình tĩnh, khách quan. Nó gợi ý khả năng học hỏi từ kinh nghiệm mà không rơi vào tuyệt vọng, tìm kiếm lời khuyên từ những nguồn trưởng thành về mặt cảm xúc, và tìm ra con đường phục hồi thông qua việc ra quyết định cân bằng và sức mạnh nội tâm.",
+        "reversed": "Tổn thất tài chính trầm trọng hơn bởi sự hỗn loạn cảm xúc, sự phán xét kém cỏi do sợ hãi hoặc tham lam, hoặc những ảnh hưởng thao túng. Nó biểu thị sự bất lực trong việc đối phó với thất bại, dẫn đến sự bất ổn cảm xúc hơn nữa, sự trốn tránh, hoặc những quyết định tuyệt vọng, thiếu khôn ngoan làm sâu sắc thêm vết thương tài chính và cảm xúc."
+      },
+      "sudden_wealth": {
+        "upright": "Sự xuất hiện của cải được đón nhận bằng trí tuệ cảm xúc sâu sắc, sự hào phóng và một cái nhìn cân bằng. Nó gợi ý khả năng quản lý các nguồn lực mới một cách chính trực, sử dụng chúng cho những mục đích cao cả, hỗ trợ người khác bằng lòng trắc ẩn, và duy trì sự bình yên nội tâm giữa những thay đổi bên ngoài, tránh những cạm bẫy của chủ nghĩa vật chất.",
+        "reversed": "Dòng tiền bất ngờ mang đến sự hỗn loạn cảm xúc, những ham muốn không kiểm soát, hoặc xu hướng thao túng. Nó có thể dẫn đến sự nuông chiều, bất ổn cảm xúc, sử dụng tiền bạc để kiểm soát, hoặc mất hoàn toàn la bàn đạo đức của một người, biến phước lành tiềm năng thành nguồn gốc của sự hỗn loạn nội tâm và bất hòa bên ngoài."
+      },
+      "healing": {
+        "upright": "Một hành trình chữa lành cảm xúc và tâm linh sâu sắc, được dẫn dắt bởi lòng trắc ẩn sâu sắc, sự tự nhận thức và sự chấp nhận khôn ngoan về cảnh quan nội tâm của một người. Nó biểu thị sự tích hợp các vết thương trong quá khứ thông qua sự đồng cảm, tìm kiếm sự cân bằng và nuôi dưỡng sự bình yên nội tâm, thường với sự hướng dẫn của một người chữa lành hoặc cố vấn khôn ngoan.",
+        "reversed": "Quá trình chữa lành bị cản trở bởi sự kháng cự cảm xúc, sự phủ nhận, hoặc sự vật lộn với những thay đổi tâm trạng và sự tự thương hại. Có thể có xu hướng thao túng người khác để được thông cảm, hoặc s��� bất lực trong việc thực sự đối mặt và xử lý nỗi đau cảm xúc, dẫn đến sự trì trệ, trốn tránh, hoặc duy trì các mô hình cảm xúc không lành mạnh."
+      },
+      "stress": {
+        "upright": "Khả năng đối mặt với căng thẳng bằng sự làm chủ cảm xúc, duy trì thái độ bình tĩnh và tâm trí minh mẫn giữa áp lực. Nó biểu thị trí tuệ để thực hiện các cơ chế đối phó, đặt ra các ranh giới lành mạnh và tìm kiếm sự bình yên nội tâm thông qua việc tự chăm sóc cân bằng và sự hiểu biết trưởng thành về giới hạn cảm xúc của một người.",
+        "reversed": "Căng thẳng biểu hiện dưới dạng sự hỗn loạn cảm xúc quá mức, dẫn đến thay đổi tâm trạng, bùng phát vô lý, hoặc mất hoàn toàn quyền kiểm soát cảm xúc. Nó gợi ý xu hướng trốn tránh áp lực hơn là đối mặt với chúng, hoặc thao túng tình huống để tránh trách nhiệm, làm trầm trọng thêm sự hỗn loạn nội tâm và ngăn cản giải pháp hiệu quả."
+      },
+      "trauma": {
+        "upright": "Con đường vượt qua chấn thương được soi sáng bởi trí tuệ cảm xúc sâu sắc, lòng trắc ẩn và lòng dũng cảm để tích hợp những trải nghiệm trong quá khứ với một cái nhìn trưởng thành. Nó biểu thị việc tìm kiếm một người hướng dẫn hoặc cố vấn khôn ngoan, tham gia vào sự tự phản ánh sâu sắc, và cuối cùng biến nỗi đau thành sức mạnh thông qua sự kiên cường cảm xúc và sự chữa lành cân bằng.",
+        "reversed": "Sự kìm kẹp của chấn thương được tăng cường bởi sự kìm nén cảm xúc, những bùng phát dữ dội, hoặc những hành vi thao túng bắt nguồn từ nỗi đau chưa được giải quyết. Cá nhân có thể bị mắc kẹt trong một chu kỳ bất ổn cảm xúc, sử dụng chấn thương của họ như một lá chắn hoặc một vũ khí, cản trở sự chữa lành thực sự và duy trì một trạng thái hỗn loạn nội tâm."
+      },
+      "exams": {
+        "upright": "Thành công trong kỳ thi đạt được thông qua cách tiếp cận bình tĩnh, tập trung và cân bằng cảm xúc. Nó biểu thị khả năng quản lý căng thẳng, gợi nhớ thông tin một cách rõ ràng và thể hiện kiến thức với sự hiểu biết trưởng thành, thể hiện trí tuệ cảm xúc song song với năng lực trí tuệ.",
+        "reversed": "Hiệu suất trong kỳ thi bị cản trở bởi sự bất ổn cảm xúc, lo lắng, hoặc thiếu tập trung bắt nguồn từ sự hỗn loạn nội tâm. Có thể có xu hướng hoảng sợ, thao túng hoàn cảnh để tránh trách nhiệm, hoặc để những cảm xúc quá mức làm lu mờ khả năng phán đoán, dẫn đến kết quả kém cỏi mặc dù có kiến thức tiềm năng."
+      },
+      "scholarship": {
+        "upright": "Học bổng được trao cho người không chỉ thể hiện năng lực trí tuệ mà còn cả sự trưởng thành cảm xúc, trí tuệ và tinh thần từ bi. Nó biểu thị sự công nhận dành cho một cá nhân cân bằng, người sẽ sử dụng cơ hội của họ một cách khôn ngoan, đóng góp cho lĩnh vực của họ bằng sự chính trực và đồng cảm.",
+        "reversed": "Học bổng có thể được tìm kiếm hoặc trao dưới những lời lẽ sai trái, hoặc cho một cá nhân, mặc dù có năng khiếu trí tuệ, nhưng lại thiếu sự trưởng thành cảm xúc, sự chính trực, hoặc sử dụng vị trí của họ cho mục đích thao túng. Nó cảnh báo về khả năng lạm dụng đặc quyền hoặc một sự theo đuổi kiến thức hời hợt mà không có trí tuệ thực sự."
+      },
+      "talent": {
+        "upright": "Một tài năng sâu sắc, thường mang tính nghệ thuật hoặc trực giác, được thể hiện bằng chiều sâu cảm xúc, trí tuệ và sự thấu hiểu đầy lòng trắc ẩn. Tài năng này được truyền tải một cách điêu luyện, mang lại sự cộng hưởng cảm xúc và chữa lành cho người khác, phản ánh một tinh thần sáng tạo cân bằng và trưởng thành.",
+        "reversed": "Tài năng hiện hữu nhưng bị kìm hãm bởi sự bất ổn cảm xúc, được sử dụng cho mục đích thao túng, hoặc được thể hiện một cách hỗn loạn, không kiểm soát. Nó gợi ý một cuộc đấu tranh để khai thác năng lượng sáng tạo một cách khôn ngoan, dẫn đến sự không nhất quán, sự nuông chiều bản thân, hoặc sự bất lực trong việc kết nối chân thật với khán giả hoặc mục đích của một người."
+      },
+      "spirit_guide": {
+        "upright": "Người hướng dẫn tinh thần của bạn biểu hiện dưới dạng một thực thể nhân từ, khôn ngoan và cân bằng về mặt cảm xúc, mang đến những hiểu biết sâu sắc, sự hướng dẫn đầy lòng trắc ẩn và sự hỗ trợ kiên định trên hành trình tâm linh của bạn. Họ giúp bạn điều hướng cảnh quan cảm xúc bằng sự duyên dáng và hiểu biết, nuôi dưỡng sự bình yên nội tâm và sự làm chủ tâm linh.",
+        "reversed": "Mối liên kết với người hướng dẫn tinh thần của bạn bị che khuất hoặc hiểu sai bởi sự hỗn loạn cảm xúc, sự tự lừa dối, hoặc sự vật lộn với sự bất ổn nội tâm. Nó có thể chỉ ra sự hiểu lầm về thông điệp của họ, sự phóng chiếu gánh nặng cảm xúc cá nhân lên những hiểu biết tâm linh, hoặc thậm chí là sự hiện diện của những thực thể lợi dụng những điểm yếu cảm xúc để thao túng hơn là hướng dẫn thực sự."
       }
     },
     "planet": "Sao Diêm Vương",
@@ -11900,6 +15500,78 @@ window.TAROT_DB = [
       "lost_item": {
         "upright": "Món đồ thất lạc sẽ được tìm thấy nhờ sự suy luận logic và khả năng phân tích. Nó sẽ xuất hiện khi bạn có cái nhìn rõ ràng, như một bí ẩn được giải mã.",
         "reversed": "Món đồ bị mất do sự nhầm lẫn, hoặc nó đã bị hủy hoại do sự bất cẩn. Sự mất mát này gợi nhắc về sự thiếu tập trung và sai lầm trong suy nghĩ."
+      },
+      "toxic_relationship": {
+        "upright": "Một tia sáng chói xuyên qua màn sương mù của ảo ảnh, vén lên bức màn che giấu sự thật trần trụi về mối quan hệ độc hại. Đây là khoảnh khắc của sự nhận thức sâu sắc, ban tặng bạn thanh gươm sắc bén của trí tuệ để dứt bỏ xiềng xích tinh thần.",
+        "reversed": "Tâm trí bị vây hãm bởi sự mơ hồ, không thể nhìn rõ bản chất độc hại của mối quan hệ. Những lời lẽ cay nghiệt và sự thao túng tinh thần trở thành gông cùm vô hình, giữ bạn trong v��ng xoáy của sự phủ nhận và đau khổ."
+      },
+      "soulmate": {
+        "upright": "Sự giao thoa của hai tâm hồn, một khoảnh khắc thấu hiểu sâu sắc và rõ ràng, như một tia chớp trí tuệ kết nối hai thực thể. Đây là sự khởi đầu của một liên kết tinh thần mạnh mẽ, nơi sự thật và minh triết là nền tảng.",
+        "reversed": "Sự nhầm lẫn trong nhận định về một kết nối định mệnh, những suy nghĩ mâu thuẫn làm lu mờ khả năng nhận diện tri kỷ. Hoặc một liên kết tinh thần mang đến sự xung đột trí tuệ, nơi những ý tưởng va chạm thay vì hòa hợp."
+      },
+      "reconciliation": {
+        "upright": "Một cuộc đối thoại mang tính đột phá, nơi những lời thật lòng được thốt ra, cắt xuyên qua mọi hiểu lầm và tổn thương. Sự minh bạch này mở ra cánh cửa cho một sự hòa giải chân thật, được soi sáng bởi trí tuệ và lòng dũng cảm.",
+        "reversed": "Những cuộc tranh luận không hồi kết, sự từ chối đối mặt với sự thật phũ phàng, hoặc một sự hòa giải hời hợt không giải quyết được gốc rễ vấn đề. Tâm trí bị mắc kẹt trong vòng lặp của những lời lẽ cay độc và sự bất đồng."
+      },
+      "secret_admirer": {
+        "upright": "Sự thật về người ngưỡng mộ bí mật bỗng nhiên được phơi bày một cách rõ ràng, như một luồng gió tinh khiết thổi tan màn sương che phủ. Một tín hiệu không thể phủ nhận hoặc lời thú nhận trực tiếp mang lại sự minh bạch tuyệt đối.",
+        "reversed": "Sự bối rối và hoài nghi bao trùm, khiến bạn không thể xác định danh tính hay ý định thực sự của người ngưỡng mộ. Những tín hiệu mơ hồ, những lời nói ẩn ý chỉ làm tăng thêm sự hỗn loạn trong tâm trí."
+      },
+      "burnout": {
+        "upright": "Một khoảnh khắc giác ngộ đau đớn nhưng cần thiết, nhận ra sự kiệt quệ tinh thần và thể chất. Thanh gươm của ý chí được vung lên, cắt đứt những gánh nặng không cần thiết, mở ra con đường phục hồi và tái tạo năng lượng.",
+        "reversed": "Tâm trí bị vây hãm bởi sự mệt mỏi, không còn khả năng tư duy rõ ràng để thoát khỏi vòng xoáy kiệt sức. Sự cứng đầu trong việc duy trì những gánh nặng tinh thần, đẩy bản thân vào vực thẳm của sự cạn kiệt năng lượng."
+      },
+      "startup": {
+        "upright": "Một ý tưởng đột phá, chói sáng như tia sét đánh ngang trời, là nền tảng vững chắc cho một khởi nghiệp đầy tiềm năng. Sự quyết đoán và tầm nhìn sắc bén dẫn lối cho một hành trình mới mẻ và đầy thách thức.",
+        "reversed": "Một ý tưởng ban đầu đầy hứa hẹn nhưng thiếu sự rõ ràng trong thực thi, hoặc bị mắc kẹt trong những suy nghĩ phức tạp và mâu thuẫn nội bộ. Những rào cản tinh thần cản trở sự phát triển của dự án."
+      },
+      "workplace_politics": {
+        "upright": "Khả năng nhìn thấu những âm mưu và thao túng tinh vi, như một tia X xuyên qua mọi lớp vỏ bọc. Bạn có được sự minh mẫn để đưa ra những quyết định sáng suốt và bảo vệ bản thân bằng sự thật.",
+        "reversed": "Tâm trí bị cuốn vào vòng xoáy của những lời đồn đại và âm mưu, không thể phân biệt thật giả. Hoặc sử dụng trí tuệ sắc bén của mình vào những trò chơi quyền lực, gây ra sự chia rẽ và căng thẳng."
+      },
+      "side_hustle": {
+        "upright": "Một ý tưởng kinh doanh phụ đột phá, một kế hoạch rõ ràng và sắc bén như lưỡi kiếm, mở ra một nguồn thu nhập mới. Khả năng tư duy logic và sự quyết đoán sẽ dẫn lối thành công.",
+        "reversed": "Sự do dự và phân vân quá mức về một ý tưởng kinh doanh phụ, khiến nó không thể thành hình. Hoặc một công việc phụ trở thành gánh nặng tinh thần, làm phân tán sự tập trung và năng lượng."
+      },
+      "real_estate": {
+        "upright": "Một quyết định sáng suốt và dứt khoát trong giao dịch bất động sản, cắt xuyên qua mọi sự phức tạp và nhiễu loạn thị trường. Sự minh bạch về pháp lý và chiến lược thông minh dẫn đến thành công.",
+        "reversed": "Sự bối rối trong thị trường bất động sản, những tranh chấp pháp lý phức tạp, hoặc một giao dịch mang lại gánh nặng tinh thần thay vì lợi ích. Quyết định vội vàng hoặc thiếu cân nhắc dẫn đến hậu quả không mong muốn."
+      },
+      "financial_loss": {
+        "upright": "Sự giác ngộ đau đớn nhưng cần thiết về nguyên nhân gốc rễ của sự mất mát tài chính. Cái nhìn rõ ràng này cung cấp sức mạnh tinh thần để đối mặt với sự thật và xây dựng lại từ đầu.",
+        "reversed": "Sự phủ nhận về mất mát tài chính, tâm trí bị tê liệt không thể đưa ra hành động. Hoặc đưa ra những quyết định tài chính bốc đồng, thiếu suy nghĩ trong lúc tuyệt vọng, làm trầm trọng thêm tình hình."
+      },
+      "sudden_wealth": {
+        "upright": "Một ý tưởng thiên tài hoặc một đột phá trí tuệ bất ngờ mang lại của cải không tưởng. Sự minh mẫn để quản lý nguồn lực mới một cách khôn ngoan và có tầm nhìn xa.",
+        "reversed": "Tài sản bất ngờ đến từ những con đường không minh bạch hoặc gây ra sự xáo trộn tinh thần. Sự bối rối và thiếu khả năng quản lý tài chính mới, biến của cải thành gánh nặng tinh thần."
+      },
+      "healing": {
+        "upright": "Một khoảnh khắc đột phá trong nhận thức, hiểu rõ nguyên nhân sâu xa của vết thương thể chất hoặc tinh thần. Sự thật được phơi bày mở ra con đường chữa lành một cách dứt khoát và hiệu quả.",
+        "reversed": "Những rào cản tinh thần ngăn cản quá trình chữa lành, sự từ chối đối mặt với sự thật đau đớn. Hoặc việc quá mức trí tuệ hóa nỗi đau mà không thực sự xử lý cảm xúc, khiến vết thương khó lành."
+      },
+      "stress": {
+        "upright": "Một khoảnh khắc giác ngộ sâu sắc về nguồn gốc thực sự của căng thẳng, trao quyền cho bạn để đưa ra những quyết định dứt khoát, cắt bỏ những yếu tố gây áp lực và tìm lại sự bình yên trong tâm trí.",
+        "reversed": "Áp lực tinh thần chồng chất, dẫn đến sự bối rối v�� mất khả năng suy nghĩ rõ ràng. Tâm trí bị mắc kẹt trong vòng xoáy của những lo âu, không thể tìm ra lối thoát, thậm chí còn tự tạo ra thêm căng thẳng."
+      },
+      "trauma": {
+        "upright": "Sự dũng cảm đối mặt với sự thật đau đớn về chấn thương, một đột phá tinh thần trong việc xử lý và thấu hiểu tác động của nó. Đây là khởi đầu của một hành trình phục hồi được soi sáng bởi trí tuệ.",
+        "reversed": "Những rào cản tinh thần mạnh mẽ ngăn cản việc xử lý chấn thương, sự từ chối hoặc lẩn tránh sự thật. Hoặc việc tái trải nghiệm nỗi đau tinh thần mà không có sự giải quyết, khiến vết thương cứ âm ỉ."
+      },
+      "exams": {
+        "upright": "Một khoảnh khắc bùng nổ của sự minh mẫn và sáng suốt trong quá trình học tập hoặc trong phòng thi, dẫn đến chiến thắng trí tuệ. Khả năng diễn đạt kiến thức một cách chính xác và sắc bén.",
+        "reversed": "Sự tắc nghẽn tinh thần trong kỳ thi, sự bối rối hoặc suy nghĩ quá nhiều làm mất đi sự tập trung. Khả năng giải thích sai câu hỏi hoặc diễn đạt kiến thức một cách lộn xộn, không mạch lạc."
+      },
+      "scholarship": {
+        "upright": "Một bài luận học thuật xuất sắc hoặc một đề xuất nghiên cứu đột phá, thể hiện trí tuệ vượt trội, dẫn đến việc được cấp học bổng. Sự công nhận cho năng lực tư duy sắc bén.",
+        "reversed": "Một hồ sơ ứng tuyển thiếu sự rõ ràng hoặc sức thuyết phục, những lập luận học thuật yếu kém. Hoặc một cơ hội học bổng bị bỏ lỡ do sự thiếu quyết đoán hoặc sự nhầm lẫn trong quá trình chuẩn bị."
+      },
+      "talent": {
+        "upright": "Sự nhận ra và phát triển một tài năng trí tuệ hoặc giao tiếp độc đáo một cách đột ngột. Một khoảnh khắc đột phá trong việc thể hiện khả năng bẩm sinh, mang lại sự rõ ràng về con đường phát triển.",
+        "reversed": "Những rào cản tinh thần cản trở việc thể hiện tài năng, sự nghi ngờ về khả năng trí tuệ của bản thân. Hoặc việc lạm dụng trí óc sắc bén của mình vào những mục đích không chính đáng, gây hại."
+      },
+      "spirit_guide": {
+        "upright": "Một thông điệp tinh thần rõ ràng và không thể phủ nhận từ vị linh hướng, mang đến sự hướng dẫn chính xác và minh triết. Một khoảnh khắc giác ngộ, nơi trí tuệ siêu việt được truyền tải trực tiếp.",
+        "reversed": "Những thông điệp từ thế giới tâm linh trở nên mơ hồ hoặc mâu thuẫn, gây ra sự bối rối trong tâm trí. Hoặc sự ồn ào tinh thần nội tại làm che khuất những lời khuyên thiêng liêng, khiến bạn khó lòng tiếp nhận trí tuệ tâm linh."
       }
     },
     "planet": "Nguyên tố Khí",
@@ -12133,6 +15805,78 @@ window.TAROT_DB = [
       "lost_item": {
         "upright": "Món đồ thất lạc đang ở một nơi trung gian, không hẳn là mất mà bạn chỉ đang phân vân không biết nó ở đâu. Hãy nhớ lại những nơi bạn có thể đã đặt nó khi đang lưỡng lự.",
         "reversed": "Sự bế tắc trong việc tìm kiếm, có thể bạn đang tìm sai hướng hoặc đã bỏ qua một manh mối quan trọng do không muốn đối mặt với sự thật."
+      },
+      "toxic_relationship": {
+        "upright": "Một tình yêu độc hại đang ở thế bế tắc, nơi cả hai linh hồn chọn cách duy trì sự im lặng đáng sợ, che giấu sự thật đau lòng dưới lớp vỏ của một 'hòa bình' giả tạo. Năng lượng bị chặn đứng, ngăn cản sự đối mặt với những vết thương sâu sắc, kéo dài chuỗi ngày đau khổ không lối thoát.",
+        "reversed": "Bức màn che phủ sự thật về mối quan hệ độc hại cuối cùng cũng sụp đổ. Sự thật trần trụi phơi bày, buộc các linh hồn phải đối m���t với thực tại nghiệt ngã. Đây có thể là một cuộc đổ vỡ đầy hỗn loạn nhưng cần thiết, hoặc một khoảnh khắc giác ngộ đau đớn mở ra con đường giải thoát, dù đầy chông gai."
+      },
+      "soulmate": {
+        "upright": "Dù đã chạm trán với một nửa định mệnh, nhưng một bức tường vô hình của sự nghi ngại, lựa chọn khó khăn hoặc rào cản bên ngoài đang ngăn cản sự hợp nhất trọn vẹn. Các linh hồn đang ở thế phòng thủ, cân nhắc từng bước đi, trì hoãn việc mở lòng hoàn toàn.",
+        "reversed": "Những rào cản nội tại và ngoại cảnh cuối cùng cũng được gỡ bỏ, mở ra dòng chảy mãnh liệt của sự kết nối linh hồn. Hoặc, sau một quá trình đấu tranh nội tâm dữ dội, một sự thật hiển nhiên được tiết lộ: đây không phải là linh hồn bạn đời, dẫn đến một quyết định dứt khoát để bước tiếp."
+      },
+      "reconciliation": {
+        "upright": "Sự hòa giải đang ở thế giằng co, nơi cả hai bên đều khao khát hàn gắn nhưng lại chìm trong sự im lặng của lòng tự trọng hoặc nỗi sợ hãi. Một sự đình chiến mong manh được duy trì, nhưng những vết thương sâu thẳm vẫn chưa được chạm tới, ngăn cản sự chữa lành thực sự.",
+        "reversed": "Bế tắc trong hòa giải đã được phá vỡ. Một trong hai hoặc cả hai linh hồn đã hạ vũ khí, mở lòng đón nhận sự thật và tha thứ. Hoặc, sự thật về những mâu thuẫn không thể vượt qua đã trở nên quá rõ ràng, dẫn đến một sự chia ly dứt khoát nhưng cần thiết."
+      },
+      "secret_admirer": {
+        "upright": "Một linh hồn đang âm thầm ngưỡng mộ bạn, nhưng nỗi sợ hãi về sự từ chối hoặc những lựa chọn khó khăn đang trói buộc họ. Họ giữ chặt cảm xúc thật, tạo ra một sự căng thẳng vô hình, một bí mật được che giấu trong bóng tối của sự lưỡng lự.",
+        "reversed": "Bí mật cuối cùng cũng được hé lộ. Người ngưỡng mộ thầm kín đã vượt qua nỗi sợ hãi, quyết định công khai tình cảm, đối mặt v���i mọi kết quả. Hoặc, sự đấu tranh nội tâm đã trở nên quá sức chịu đựng, khiến họ từ bỏ hoàn toàn, giải phóng cả hai khỏi gánh nặng của sự chờ đợi."
+      },
+      "burnout": {
+        "upright": "Linh hồn đang ở ngưỡng của sự kiệt quệ, buộc phải dừng lại và dựng lên những bức tường bảo vệ khỏi sự tấn công của áp lực. Đây là một sự đình trệ cưỡng bức, nơi mọi giải pháp đều bị chặn đứng bởi sự mệt mỏi cùng cực và nỗi sợ hãi đối mặt.",
+        "reversed": "Bức tường phòng thủ đã sụp đổ. Sự kiệt sức bùng nổ thành một cuộc khủng hoảng, hoặc một sự giác ngộ mạnh mẽ về mức độ cạn kiệt năng lượng. Điều này buộc linh hồn phải đối mặt trực diện với nguồn gốc của sự mệt mỏi, dẫn đến một hành động quyết liệt để phá vỡ vòng luẩn quẩn."
+      },
+      "startup": {
+        "upright": "Một dự án khởi nghiệp đang ở ngã ba đường, đối mặt với những quyết định khó khăn hoặc một thế bế tắc trong quá trình phát triển. Có thể có những ý kiến trái chiều, sự không chắc chắn của thị trường, hoặc một lựa chọn chiến lược quan trọng đang bị trì hoãn.",
+        "reversed": "Sự bế tắc trong dự án khởi nghiệp đã được giải quyết. Một quyết định táo bạo được đưa ra, một bước ngoặt đột phá xuất hiện, hoặc một sự thật phũ phàng về thị trường buộc phải chấp nhận, dẫn đến hành động dứt khoát dù là tiến lên hay dừng lại."
+      },
+      "workplace_politics": {
+        "upright": "Trong mê cung của chính trị công sở, bạn đang cố gắng duy trì sự trung lập, tránh xa những cuộc đấu đá ngầm. Một sự đình chiến mong manh được duy trì, nơi thông tin bị che giấu và ý định thực sự bị che mờ, tạo nên một không khí căng thẳng tiềm ẩn.",
+        "reversed": "Màn kịch chính trị công sở đã bị vén mở. Những âm mưu ẩn giấu bị phơi bày, xung đột bùng nổ, hoặc bạn bị buộc phải lựa chọn phe phái, phá vỡ sự trung lập. Sự thật về động lực quyền lực trở nên rõ ràng, dẫn đến đối đầu hoặc một quyết định dứt khoát về liên minh."
+      },
+      "side_hustle": {
+        "upright": "Bạn đang ở trong trạng thái lưỡng lự về một công việc phụ, cân nhắc giữa những lợi ích và rủi ro. Nỗi sợ hãi về cam kết hoặc sự xáo trộn cuộc sống đang ngăn cản bạn hành động, tạo ra một sự đình trệ trong quyết định.",
+        "reversed": "Sự lưỡng lự về công việc phụ đã kết thúc. Một quyết định dứt khoát được đưa ra – hoặc là toàn tâm toàn ý theo đuổi, hoặc là từ bỏ vì những thách thức quá lớn. Cuộc đấu tranh nội tâm kết thúc, dẫn đến hành động cụ thể hoặc sự giải thoát khỏi gánh nặng của sự lựa chọn."
+      },
+      "real_estate": {
+        "upright": "Một giao dịch bất động sản đang ở thế bế tắc, có thể do những lời đề nghị xung đột, sự thiếu quyết đoán của các bên, hoặc một lựa chọn khó khăn giữa các tài sản. Mọi người đều giữ vững lập trường, ngăn cản mọi sự tiến triển.",
+        "reversed": "Sự bế tắc trong giao dịch bất động sản đã được phá vỡ. Một quyết định cuối cùng được đưa ra, một thỏa thuận được ký kết (hoặc đổ vỡ), hoặc một sự thật ẩn giấu về tài sản/thị trường được tiết lộ, buộc mọi thứ phải đi đến hồi kết."
+      },
+      "financial_loss": {
+        "upright": "Bạn đang ở trong trạng thái phủ nhận hoặc né tránh về một khoản thua lỗ tài chính sắp xảy ra hoặc đang diễn ra. Một bức tường tinh thần được dựng lên, ngăn cản bạn đối mặt với thực tế khắc nghiệt hoặc đưa ra những quyết định khó khăn để giảm thiểu thiệt hại.",
+        "reversed": "Khoản thua lỗ tài chính đã trở nên không thể phủ nhận và quá sức chịu đựng. Bạn bị buộc phải đối mặt với toàn bộ mức độ thiệt hại, dẫn đến sự sụp đổ của mọi hàng rào phòng thủ và một cuộc tìm kiếm giải pháp tuyệt vọng, hoặc sự chấp nhận hoàn toàn tình hình."
+      },
+      "sudden_wealth": {
+        "upright": "Một cơ hội giàu có bất ngờ xuất hiện, nhưng đi kèm với một sự lựa chọn khó khăn hoặc một tình huống tiến thoái lưỡng nan về đạo đức. Bạn đang lưỡng lự chấp nhận do những điều kiện ràng buộc, hoặc bị giằng xé giữa hai con đường dẫn đến thịnh vượng.",
+        "reversed": "Một hành động quyết đoán được thực hiện liên quan đến sự giàu có bất ngờ. Hoặc là bạn hoàn toàn đón nhận nó, phá vỡ mọi sự dè dặt ban đầu, hoặc từ chối nó do những xung đột đạo đức không thể hòa giải. Lựa chọn đã được đưa ra, con đường đã được khai thông."
+      },
+      "healing": {
+        "upright": "Bạn đang ở một điểm mấu chốt trong hành trình chữa lành, nơi cần phải đưa ra một lựa chọn khó khăn hoặc đối mặt với một sự thật đau đớn, nhưng lại đang chặn đứng nó. Có một sự kháng cự đối với việc tham gia đầy đủ vào quá trình chữa lành, tạo ra một sự đình trệ tạm thời.",
+        "reversed": "Một bước đột phá trong quá trình chữa lành. Khối tắc nghẽn cảm xúc được giải phóng, cho phép xử lý sâu sắc hơn và phục hồi. Hoặc, một sự nhận thức mạnh mẽ về mức độ của vết thương, dẫn đến một cuộc khủng hoảng buộc phải thực hiện các bước chữa lành cấp bách và triệt để."
+      },
+      "stress": {
+        "upright": "Bạn đang cố gắng kiểm soát căng thẳng bằng cách tạo ra các ranh giới và duy trì cảm giác kiểm soát, thường bằng cách phân chia hoặc né tránh các vấn đề cốt lõi. Một trạng thái hòa bình mong manh, nơi căng thẳng tiềm ẩn vẫn hiện hữu nhưng tạm thời bị kìm hãm.",
+        "reversed": "Căng thẳng trở nên quá sức chịu đựng và không thể kiểm soát, phá vỡ mọi hàng rào phòng thủ. Điều này có thể dẫn đến một cuộc khủng hoảng, một sự suy sụp, hoặc một nhận thức đột ngột rằng các cơ chế đối phó hiện tại là không đủ, buộc bạn phải đối mặt trực tiếp v���i nguồn gốc của căng thẳng."
+      },
+      "trauma": {
+        "upright": "Linh hồn đang ở trong trạng thái tự bảo vệ, chặn đứng những ký ức hoặc cảm xúc đau buồn để duy trì một cảm giác yên bình mong manh. Đây là một cơ chế bảo vệ, nhưng nó cũng ngăn cản quá trình xử lý và chữa lành thực sự. Chấn thương được giữ lại, nhưng không được giải quyết.",
+        "reversed": "Chấn thương bị kìm nén bắt đầu trỗi dậy, thường theo một cách áp đảo hoặc hỗn loạn. Đây có thể là một bước đau đớn nhưng cần thiết để chữa lành, vì linh hồn bị buộc phải đối mặt với những gì đã bị che giấu trước đây. Nó cũng có thể biểu thị một bước đột phá trong trị liệu, nơi các khối tắc nghẽn cuối cùng được giải phóng."
+      },
+      "exams": {
+        "upright": "Bạn đang đối mặt với một kỳ thi khó khăn, cảm thấy choáng ngợp bởi quá nhiều lựa chọn hoặc thông tin, dẫn đến sự tê liệt tinh thần. Có thể bạn đang né tránh việc học những chủ đề khó hoặc cảm thấy bị tắc nghẽn trong quá trình ôn tập.",
+        "reversed": "Một bước đột phá trong việc chuẩn bị cho kỳ thi – cuối cùng cũng hiểu được một khái niệm khó, lập được kế hoạch học tập dứt khoát, hoặc vượt qua nỗi sợ hãi khi làm bài. Nó cũng có thể báo hiệu một nhận thức đột ngột về việc chưa chuẩn bị, buộc phải gấp rút hoặc quyết định rút lui."
+      },
+      "scholarship": {
+        "upright": "Một cơ hội học bổng mang đến một sự lựa chọn khó khăn hoặc tình thế tiến thoái lưỡng nan. Có thể có những lời đề nghị mâu thuẫn, điều kiện ràng buộc, hoặc một quyết định khó khăn ảnh hưởng đến con đường học vấn tương lai. Một giai đoạn cân nhắc kỹ lưỡng và lo lắng.",
+        "reversed": "Một quyết định dứt khoát được đưa ra liên quan đến học bổng. Hoặc là học bổng được nhận sau khi vượt qua các trở ngại, hoặc bị từ chối/mất đi do những điều kiện quá sức hoặc một lựa chọn rõ ràng cho một con đường thay thế. Sự mơ hồ đã được giải quyết."
+      },
+      "talent": {
+        "upright": "Một linh hồn tài năng đang ngần ngại thể hiện hoặc cam kết hoàn toàn với khả năng của mình, có thể do sự tự nghi ngờ, nỗi sợ bị đánh giá, hoặc bị giằng xé giữa các con đường nghệ thuật khác nhau. Tài năng hiện hữu nhưng bị chặn đứng khỏi sự biểu lộ trọn vẹn.",
+        "reversed": "Linh hồn đã phá vỡ những rào cản nội tại và hoàn toàn đón nhận tài năng của mình, thường theo một cách mạnh mẽ và không bị gò bó. Hoặc, họ có thể nhận ra rằng một tài năng cụ thể không phải là tiếng gọi thực sự của mình, dẫn đến một sự thay đổi dứt khoát trong trọng tâm. Khối tắc nghẽn được loại bỏ, dẫn đến sự biểu lộ hoặc định hướng lại."
+      },
+      "spirit_guide": {
+        "upright": "Bạn cảm nhận được sự kết nối với một linh hồn hướng dẫn, nhưng có một sự tắc nghẽn trong việc giao tiếp hoặc thấu hiểu rõ ràng. Bạn có thể nhận được những thông điệp tinh tế nhưng khó giải mã, hoặc cảm thấy một sự hiện diện nhưng không thể tương tác hoàn toàn, tạo ra cảm giác đang đứng ở ngưỡng cửa.",
+        "reversed": "Sự tắc nghẽn trong giao tiếp với linh hồn hướng dẫn đã được loại bỏ. Các thông điệp đến rõ ràng và mạnh mẽ, hoặc một sự nhận thức sâu sắc về sự hiện diện của linh hồn hướng dẫn xuất hiện. Nó cũng có thể biểu thị một dòng chảy mạnh mẽ của cái nhìn sâu sắc tâm linh, hoặc sự phá vỡ các hàng rào phòng thủ tâm linh, cho phép kết nối sâu sắc hơn."
       }
     },
     "planet": "Mặt Trăng",
@@ -12366,6 +16110,78 @@ window.TAROT_DB = [
       "lost_item": {
         "upright": "Món đồ thất lạc có thể mang giá trị tình cảm sâu sắc, và việc mất nó đang gây ra nỗi buồn. Hoặc nó bị mất trong một tình huống đau lòng.",
         "reversed": "Sự chấp nhận việc mất món đồ và bắt đầu quá trình buông bỏ nỗi buồn liên quan đến nó. Hoặc là sự đau khổ kéo dài vì không tìm thấy."
+      },
+      "toxic_relationship": {
+        "upright": "Sự thật phũ phàng về mối quan hệ độc hại bị phơi bày, buộc ta phải đối mặt với những tổn thương sâu sắc và khả năng chấm dứt đau đớn.",
+        "reversed": "Quá trình chữa lành chậm rãi từ những vết thương do mối quan hệ độc hại gây ra, hoặc sự chối bỏ nguy hiểm những tổn hại còn vương vấn, kéo dài khổ đau."
+      },
+      "soulmate": {
+        "upright": "Nỗi đau chia ly xé lòng với người tưởng là tri kỷ, hoặc sự nhận ra cay đắng rằng ngay cả một kết nối sâu sắc cũng có thể mang lại bi ai tột cùng.",
+        "reversed": "Hành trình đau đớn và chậm chạp để buông bỏ hình ảnh lý tưởng về tri kỷ sau một vết thương lòng, hoặc chấp nhận sự kết thúc cần thiết, dù đau đớn, cho sự trưởng thành."
+      },
+      "reconciliation": {
+        "upright": "Sự hòa giải bị phủ bóng bởi những vết thương chưa lành, khiến những nỗi đau cũ trỗi dậy, hoặc nhận ra sự hàn gắn là bất khả thi với những gì đã vỡ nát.",
+        "reversed": "Những bước đi thận trọng, dè dặt để hàn gắn rạn nứt, hoặc nỗi sợ hãi dai dẳng rằng hòa giải chỉ làm vết thương lòng tái phát, dẫn đến sự né tránh."
+      },
+      "secret_admirer": {
+        "upright": "Tiết lộ về người thầm mến mang đến nỗi đau bất ngờ, có thể là sự từ chối, không phù hợp, hoặc vạch trần một sự thật ẩn giấu gây tổn thương.",
+        "reversed": "Tình cảm chân thật của người thầm mến vẫn bị che giấu, nhưng sự căng thẳng không đư���c thừa nhận tạo ra nỗi khổ tâm âm ỉ, hoặc sự chấp nhận từ từ một tình yêu không được đáp lại."
+      },
+      "burnout": {
+        "upright": "Sự vỡ òa của kiệt sức hoàn toàn, một sự suy sụp tinh thần và cảm xúc do áp lực không ngừng, đòi hỏi một sự dừng lại đau đớn và bắt buộc.",
+        "reversed": "Con đường hồi phục gian nan, chậm chạp từ kiệt sức, thừa nhận những vết thương sâu sắc, hoặc sự kìm nén nguy hiểm các triệu chứng, dẫn đến tổn hại nội tại sâu hơn."
+      },
+      "startup": {
+        "upright": "Một thất bại đau đớn, một sai lầm nghiêm trọng, hoặc sự thật phũ phàng rằng một dự án khởi nghiệp không khả thi, dẫn đến mất mát lớn và đau khổ tinh thần.",
+        "reversed": "Quá trình khó khăn để học hỏi từ những thất bại khởi nghiệp, từ từ gây dựng lại, hoặc nỗi sợ hãi và ám ảnh dai dẳng từ một sự sụp đổ trước đó cản trở những khởi đầu mới."
+      },
+      "workplace_politics": {
+        "upright": "Vết thương cay đắng của sự phản bội, đâm sau lưng, hoặc sự rõ ràng tàn nhẫn khi bị cô lập trong môi trường chính trị độc hại, dẫn đến sự vỡ mộng sâu sắc.",
+        "reversed": "Sự điều hướng chậm rãi, thận trọng qua môi trường chính trị hiểm ác, tìm cách chữa lành những vết thương cũ hoặc tránh những vết thương mới, hoặc cuộc đấu tranh nội tâm để buông bỏ oán giận."
+      },
+      "side_hustle": {
+        "upright": "Nghề tay trái trở thành nguồn gốc của căng thẳng bất ngờ, thất vọng, hoặc mất mát tài chính, hé lộ một sự thật khắc nghiệt về khả năng hoặc cái giá cá nhân của nó.",
+        "reversed": "Quyết định đau đớn từ bỏ một nghề tay trái đã chứng tỏ nhiều tai hại hơn là lợi ích, hoặc quá trình dần dần tìm lại sự cân bằng sau khi những yêu cầu của nó gây ra đau khổ."
+      },
+      "real_estate": {
+        "upright": "Một mất mát nặng nề trong bất động sản, như một giao dịch thất bại, tịch biên, hoặc một tài sản trở thành nguồn gốc của nỗi đau tài chính và cảm xúc to lớn.",
+        "reversed": "Sự phục hồi chậm rãi, khó khăn từ một thất bại bất động sản, xây dựng lại một cách tỉ mỉ, hoặc nỗi sợ hãi và thận trọng dai dẳng ngăn cản các khoản đầu tư tương lai sau một chấn thương cũ."
+      },
+      "financial_loss": {
+        "upright": "Thực tế rõ ràng, không thể chối cãi về một tổn thất tài chính đáng kể, mang theo nỗi đau buồn, lo lắng và sự nhận thức đau đớn về những gì đã mất.",
+        "reversed": "Hành trình gian nan để chữa lành từ sự tàn phá tài chính, dần dần lấy lại sự ổn định, hoặc sự chối bỏ nguy hiểm về toàn bộ tác động, kéo dài sự đau khổ."
+      },
+      "sudden_wealth": {
+        "upright": "Sự giàu có bất ngờ mang đến nỗi buồn không lường trước, có thể là qua những mối quan hệ rạn nứt, áp lực quá lớn, hoặc nhận ra đau đớn rằng tiền bạc không thể mua được hạnh phúc hay giải quyết những vấn đề sâu xa hơn.",
+        "reversed": "Quá trình chậm rãi, thường khó khăn, để hòa nhập sự giàu có bất ngờ mà không gục ngã trước những cạm bẫy tiềm ẩn của nó, hoặc cuộc đấu tranh âm thầm để chữa lành những vết thương cảm xúc mà nó có thể vô tình gây ra."
+      },
+      "healing": {
+        "upright": "Quá trình đau đớn nhưng cần thiết để đối mặt với những vết thương sâu sắc và sự thật, một giai đoạn giải tỏa cảm xúc cấp tính, là tiền đề cho sự chữa lành thực sự.",
+        "reversed": "Hành trình gian nan, thường kéo dài, để phục hồi từ nỗi đau sâu sắc, nơi sự chữa lành diễn ra chậm chạp và đòi hỏi sự kiên nhẫn to lớn, hoặc sự kháng cự không muốn thừa nhận và xử lý hoàn toàn các vết thương, do đó cản trở sự hồi phục thực sự."
+      },
+      "stress": {
+        "upright": "Căng thẳng biểu hiện thành nỗi đau tinh thần dữ dội, một sự rõ ràng xuyên thấu về những gánh nặng quá lớn đòi hỏi sự chú ý và giải tỏa ngay lập t���c.",
+        "reversed": "Quá trình chậm rãi, có chủ ý để quản lý căng thẳng mãn tính, tìm cách giải thoát khỏi sự kìm kẹp của nó, hoặc sự kìm nén nguy hiểm các triệu chứng căng thẳng, dẫn đến rối loạn nội tâm sâu sắc hơn."
+      },
+      "trauma": {
+        "upright": "Sự đối mặt trần trụi, không che đậy với chấn thương trong quá khứ, nơi những ký ức đau buồn trỗi dậy, đòi hỏi sự thừa nhận và xử lý.",
+        "reversed": "Con đường dài, gian nan để hòa nhập và chữa lành từ chấn thương, nơi tiến bộ chậm chạp và có thể tái phát, hoặc sự kháng cự tiềm thức không muốn giải quyết hoàn toàn những vết thương sâu sắc."
+      },
+      "exams": {
+        "upright": "Một thất bại nặng nề hoặc một kết quả thi cử đáng thất vọng, mang đến nỗi buồn sâu sắc và sự nhận ra khắc nghiệt về những thiếu sót.",
+        "reversed": "Quá trình chậm chạp, đau đớn để học hỏi từ những thất bại thi cử trong quá khứ, gây dựng lại sự tự tin, hoặc sự lo lắng và nghi ngờ bản thân dai dẳng sau một trải nghiệm học tập đặc biệt khó khăn."
+      },
+      "scholarship": {
+        "upright": "Sự mất mát đau đớn của một học bổng, hoặc nhận ra rằng dù nhận được, nó lại đi kèm với những gánh nặng hoặc hy sinh không lường trước gây ra nỗi đau tinh thần đáng kể.",
+        "reversed": "Hành trình gian nan để duy trì học bổng bất chấp những thách thức to lớn, hoặc sự chữa lành chậm rãi từ nỗi thất vọng khi không nhận được học bổng, và tìm kiếm những con đường thay thế."
+      },
+      "talent": {
+        "upright": "Sự nhận ra đau đớn rằng tài năng của mình không được trân trọng, bị hiểu lầm, hoặc mang lại nhiều nỗi buồn hơn là niềm vui, dẫn đến sự tan vỡ sáng tạo.",
+        "reversed": "Quá trình chậm rãi, thường khó khăn, để nuôi dưỡng một tài năng bị tổn thương trở lại cuộc sống, hoặc cuộc đấu tranh nội tâm để vượt qua những sự từ chối trong quá khứ và tìm một con đường để thể hiện."
+      },
+      "spirit_guide": {
+        "upright": "Thông điệp từ linh hồn dẫn dắt đến qua một sự thật đau đớn hoặc một bài học khó khăn, đòi hỏi người tìm kiếm phải đối mặt với những thực tế không thoải mái để đạt được sự phát triển tâm linh.",
+        "reversed": "Sự hướng dẫn tinh tế, đòi hỏi sự nội quán sâu sắc để khám phá những sự thật đau đớn mà nó tiết lộ, hoặc sự kháng cự của người tìm kiếm không muốn thừa nhận trí tuệ khó khăn do linh hồn dẫn dắt ban tặng, kéo dài sự đau khổ của họ."
       }
     },
     "planet": "Sao Thổ",
@@ -12598,6 +16414,78 @@ window.TAROT_DB = [
       "general": {
         "upright": "Giai đoạn nghỉ ngơi, phục hồi, suy ngẫm và chuẩn bị. Cần rút lui khỏi sự ồn ào để tìm lại sự bình yên và tái tạo năng lượng.",
         "reversed": "Sự bồn chồn, kiệt sức, không thể nghỉ ngơi. Cố gắng quay lại cuộc sống quá sớm hoặc cảm thấy bế tắc, trì trệ trong mọi khía cạnh."
+      },
+      "toxic_relationship": {
+        "upright": "Khoảnh khắc linh thiêng của sự rút lui, lá chắn vô hình bảo vệ tâm trí khỏi những mũi tên độc hại. Đây là thời gian để chiêm nghiệm, để linh hồn tìm lại bình an, nhận diện gông cùm trước khi quyết định giải thoát.",
+        "reversed": "Sự giằng xé nội tâm khi linh hồn không thể tìm thấy sự nghỉ ngơi, liên tục bị kéo vào vòng xoáy độc hại. Một sự từ chối vô thức việc chữa lành, hay một sự tái nhập vội vã vào chiến trường đã bào mòn tâm trí."
+      },
+      "soulmate": {
+        "upright": "Một giai đoạn tĩnh lặng, nơi linh hồn chuẩn bị không gian bên trong cho sự hòa hợp thiêng liêng. Đây là sự nghỉ ngơi sâu sắc, thanh lọc tâm trí để nhận diện và đón chào một kết nối định mệnh, không vội vã, không ồn ào.",
+        "reversed": "Sự sốt ruột và khao khát mãnh liệt làm xáo động sự bình yên nội tại, cản trở linh hồn nhận ra dấu hiệu của định mệnh. Sự vội vàng có thể khiến ta bỏ lỡ những lời thì thầm của vũ trụ, hoặc tạo ra những kết nối không chân thật."
+      },
+      "reconciliation": {
+        "upright": "Khoảng lặng cần thiết để vết thương tâm hồn được xoa dịu, cho phép sự tha thứ nảy mầm trong tĩnh lặng. Đây là thời gian để mỗi linh hồn tự tìm lại sự cân bằng, trước khi tìm kiếm sự hòa hợp bên ngoài.",
+        "reversed": "Sự thúc ép hòa giải khi vết thương chưa lành, tạo ra một lớp vỏ bọc bình yên mong manh. Tâm trí vẫn còn vướng bận những dằn vặt cũ, khiến sự hàn gắn trở nên hời hợt, dễ dàng tan vỡ."
+      },
+      "secret_admirer": {
+        "upright": "Một linh hồn đang âm thầm quan sát, chiêm nghiệm vẻ đẹp và ánh sáng của bạn từ nơi ẩn mình. Tình cảm này đang được ấp ủ trong sự tĩnh lặng, chờ đợi thời khắc linh thiêng để bộc lộ, hoặc đơn giản là tìm thấy niềm vui trong sự ngưỡng mộ thuần khiết.",
+        "reversed": "Sự bồn chồn của một trái tim đang giấu kín, có thể dẫn đến việc tiết lộ cảm xúc quá sớm, phá vỡ sự tinh tế của khoảnh khắc. Hoặc, sự dằn vặt nội tâm khiến người ngưỡng mộ không thể tìm thấy bình yên, tạo ra một năng lượng bất an."
+      },
+      "burnout": {
+        "upright": "Tiếng gọi khẩn thiết của linh hồn đòi hỏi sự rút lui hoàn toàn. Đây là cánh cửa dẫn vào thánh địa của sự nghỉ ngơi tuyệt đối, nơi mọi gánh nặng tinh thần được đặt xuống, để năng lượng sống được phục hồi từ cội nguồn sâu thẳm.",
+        "reversed": "Sự chống cự l���i lời mời gọi của sự nghỉ ngơi, một vòng xoáy không ngừng nghỉ của sự kiệt sức. Linh hồn bị mắc kẹt trong guồng quay, từ chối sự chữa lành cần thiết, dẫn đến sự suy sụp sâu sắc hơn."
+      },
+      "startup": {
+        "upright": "Giai đoạn ươm mầm thiêng liêng, nơi ý tưởng được chiêm nghiệm sâu sắc trong tĩnh lặng, chiến lược được kiến tạo từng bước một. Đây là sự chuẩn bị ẩn mình, thu thập năng lượng và trí tuệ trước khi dự án vươn mình ra ánh sáng.",
+        "reversed": "Sự vội vã đưa ý tưởng ra thị trường mà chưa đủ sự chiêm nghiệm, tạo ra một nền móng lung lay. Năng lượng phân tán, tâm trí hỗn loạn, dễ dẫn đến những quyết định thiếu sáng suốt, làm mất đi tiềm năng ban đầu."
+      },
+      "workplace_politics": {
+        "upright": "Một sự rút lui chiến lược, một lá chắn vô hình bảo vệ tâm trí khỏi những lời nói dối và âm mưu. Đây là lúc để quan sát từ xa, giữ vững bình yên nội tại, không để mình bị cuốn vào vòng xoáy năng lượng tiêu cực.",
+        "reversed": "Sự kiệt quệ tinh thần khi không thể thoát khỏi lưới chính trị nơi công sở, liên tục bị kéo vào những cuộc chiến không đáng có. Năng lượng bị hao mòn, sự bình yên nội tại bị xáo trộn bởi những toan tính và nghi kỵ."
+      },
+      "side_hustle": {
+        "upright": "Giai đoạn ấp ủ và phát triển bí mật, nơi dự án phụ được nuôi dưỡng trong sự tĩnh lặng, tránh xa những ánh nhìn phán xét. Đây là thời gian để thử nghiệm, học hỏi và củng cố nền tảng một cách bình yên, không áp lực.",
+        "reversed": "Sự quá tải tinh thần khi ôm đồm quá nhiều, khiến dự án phụ trở thành gánh nặng thay vì niềm vui. Tâm trí bồn chồn, không tìm thấy sự nghỉ ngơi, có thể dẫn đến việc bỏ dở giữa chừng hoặc mất đi sự sáng tạo ban đầu."
+      },
+      "real_estate": {
+        "upright": "Khoảng lặng thiêng liêng để chiêm nghiệm một quyết định trọng đại. Đây là thời gian để lắng nghe trực giác, cân nhắc kỹ lưỡng mọi khía cạnh của một giao dịch bất động sản, tìm kiếm sự bình yên trong lựa chọn cuối cùng.",
+        "reversed": "Sự vội vã đưa ra quyết định mua bán mà chưa đủ sự chiêm nghiệm, dẫn đến những hối tiếc tiềm ẩn. Tâm trí bị xáo trộn bởi áp lực thị trường, không tìm thấy sự bình an để đưa ra lựa chọn sáng suốt."
+      },
+      "financial_loss": {
+        "upright": "Một sự rút lui cần thiết để linh hồn chấp nhận và chữa lành vết thương từ sự mất mát. Đây là khoảnh khắc tĩnh lặng để chiêm nghiệm, tái cấu trúc tư duy tài chính, và tìm lại bình an trước khi hoạch định con đường phục hồi.",
+        "reversed": "Sự dằn vặt dai dẳng từ nỗi đau mất mát, khiến tâm trí không thể tìm thấy sự bình yên để vượt qua. Sự bồn chồn và cố gắng phục hồi vội vã có thể dẫn đến những rủi ro không đáng có, làm trầm trọng thêm tình hình."
+      },
+      "sudden_wealth": {
+        "upright": "Một lời mời gọi thiêng liêng đến sự tĩnh tâm, để linh hồn có thể hòa nhập với năng lượng của sự sung túc mà không bị choáng ngợp. Đây là thời gian để chiêm nghiệm, lập kế hoạch khôn ngoan, và đảm bảo sự bình an nội tại trước khi hành động.",
+        "reversed": "Sự bất an và vội vã khi đối mặt với sự giàu có bất ngờ, khiến tâm trí xáo động và dễ đưa ra những quyết định bốc đồng. Sự thiếu vắng bình yên nội tại có thể biến phước lành thành gánh nặng."
+      },
+      "healing": {
+        "upright": "Đây là hình ảnh thiêng liêng của sự chữa lành sâu sắc nhất, một lời mời gọi đến thánh địa của sự nghỉ ngơi và tái tạo. Tâm trí và linh hồn được thanh lọc, đặt xuống mọi gánh nặng để năng lượng hồi phục chảy tự do.",
+        "reversed": "Sự chống cự lại quá trình chữa lành cần thiết, một sự từ chối vô thức việc nghỉ ngơi, khiến vết thương tâm hồn khó lòng khép lại. Hoặc, một cuộc khủng hoảng chữa lành khi những tổn thương cũ trỗi dậy, đòi hỏi sự bình tâm nhưng lại gặp phải sự giằng xé nội tâm."
+      },
+      "stress": {
+        "upright": "Một lời nhắc nhở từ vũ trụ về sự cần thiết phải rút lui, tạo ra một không gian thiêng liêng để tâm trí được nghỉ ngơi. Đây là khoảnh khắc để tìm lại sự bình an, thanh lọc những suy nghĩ hỗn loạn và tái tạo năng lượng sống.",
+        "reversed": "Sự kiệt quệ tinh thần khi không thể thoát khỏi vòng xoáy căng thẳng, liên tục bị những lo âu bủa vây. Tâm trí bồn chồn, không tìm thấy lối thoát, dẫn đến sự suy sụp năng lượng và tinh thần."
+      },
+      "trauma": {
+        "upright": "Một hành trình thiêng liêng vào sâu bên trong, tìm kiếm thánh địa của sự bình yên để bắt đầu quá trình chữa lành tổn thương sâu sắc. Đây là khoảnh khắc của sự tĩnh lặng, nơi linh hồn được bảo vệ để đối diện và xoa dịu vết sẹo vô hình.",
+        "reversed": "Sự giằng xé nội tâm không ngừng nghỉ, khiến linh hồn không thể tìm thấy sự bình an để xử lý tổn thương. Sự bồn chồn và né tránh có thể trì hoãn quá trình chữa lành, hoặc khiến những vết thương cũ liên tục tái phát."
+      },
+      "exams": {
+        "upright": "Giai đoạn thiêng liêng của sự tập trung cao độ, nơi trí tuệ được mài giũa trong tĩnh lặng. Đây là thời gian để củng cố kiến thức, chiêm nghiệm sâu sắc, và chuẩn bị tinh thần một cách bình yên, không bị xao nhãng.",
+        "reversed": "Sự lo lắng và bồn chồn làm xáo trộn khả năng tập trung, khiến kiến thức khó thẩm thấu. Sự vội vã nhồi nhét thông tin mà thiếu sự chiêm nghiệm sâu sắc có thể dẫn đến kiệt sức tinh thần và kết quả không như ý."
+      },
+      "scholarship": {
+        "upright": "Một lời mời gọi đến sự cống hiến thầm lặng, nơi trí tuệ được tôi luyện và hồ sơ được chuẩn bị với sự tỉ mỉ, chiêm nghiệm. Đây là sự nghỉ ngơi cần thiết để tâm trí tập trung vào mục tiêu cao cả, không bị phân tâm bởi những yếu tố b��n ngoài.",
+        "reversed": "Sự vội vã và thiếu sự chiêm nghiệm trong quá trình chuẩn bị, khiến hồ sơ thiếu đi chiều sâu và sự tinh tế. Sự lo lắng và áp lực có thể làm mờ đi ánh sáng của trí tuệ, cản trở cơ hội thiêng liêng."
+      },
+      "talent": {
+        "upright": "Một giai đoạn thiêng liêng của sự chiêm nghiệm và mài giũa tài năng trong tĩnh lặng. Đây là thời gian để lắng nghe tiếng gọi bên trong, để kỹ năng được nuôi dưỡng và phát triển một cách sâu sắc, tránh xa sự ồn ào của thế giới bên ngoài.",
+        "reversed": "Sự bồn chồn và khao khát thể hiện tài năng quá sớm, khi nó chưa đủ độ chín. Hoặc, sự phân tâm và thiếu tập trung khiến tài năng không được nuôi dưỡng đúng mức, dẫn đến sự đình trệ hoặc mất đi sự tinh túy."
+      },
+      "spirit_guide": {
+        "upright": "Một lời mời gọi thiêng liêng đến sự tĩnh lặng sâu sắc, nơi bức màn giữa các thế giới trở nên mỏng manh. Trong không gian bình yên này, tâm trí đư���c thanh lọc, sẵn sàng lắng nghe những lời thì thầm của các vị dẫn dắt linh hồn.",
+        "reversed": "Sự ồn ào của tâm trí, những lo toan trần tục làm nhiễu loạn khả năng kết nối với thế giới tâm linh. Sự bồn chồn và thiếu kiên nhẫn cản trở việc tiếp nhận thông điệp, khiến linh hồn cảm thấy lạc lõng hoặc không được hỗ trợ."
       }
     },
     "planet": "Sao Mộc",
@@ -12831,6 +16719,78 @@ window.TAROT_DB = [
       "lost_item": {
         "upright": "Món đồ bị mất do xung đột, sự tranh giành hoặc bị đánh cắp một cách trắng trợn. Có thể là bạn đã mất nó trong một cuộc cãi vã.",
         "reversed": "Tìm thấy món đồ nhưng kèm theo cảm giác cay đắng, hoặc sự tức giận vẫn còn đó ngay cả khi đã tìm được vật."
+      },
+      "toxic_relationship": {
+        "upright": "Mối quan hệ này là một chiến trường tâm hồn, nơi những lưỡi kiếm của sự thao túng và quyền lực không ngừng vung lên, để lại những vết sẹo sâu hoắm. Một chiến thắng rỗng tuếch cho kẻ giành ưu thế, nhưng là sự tàn phá cho cả hai.",
+        "reversed": "Sự buông bỏ đau đớn khỏi xiềng xích độc hại, hoặc một nỗ lực tuyệt vọng để vá víu những đổ vỡ bằng cách hạ vũ khí. Dù vậy, dư âm của sự tổn thương vẫn còn đó, đòi hỏi sự dũng cảm đ��� thực sự bước đi hoặc tha thứ."
+      },
+      "soulmate": {
+        "upright": "Một nhận thức cay đắng rằng kết nối 'tri kỷ' này chỉ là vỏ bọc cho những cuộc chiến không hồi kết, sự phản bội hoặc thao túng sâu sắc, dẫn đến sự mất mát và vỡ mộng tột cùng. Đây là cuộc đấu trí thay vì sự hòa hợp của hai tâm hồn.",
+        "reversed": "Sự chấp nhận khó khăn rằng người này không phải là tri kỷ đích thực, hoặc quá trình chữa lành từ những vết thương do mối quan hệ đó gây ra. Nó có thể là một sự hòa giải sau xung đột, nhưng những vết sẹo vẫn còn, khiến bản chất của mối liên kết bị nghi ngờ."
+      },
+      "reconciliation": {
+        "upright": "Hòa giải khó thành, hoặc chỉ là một sự dàn xếp hời hợt bị che lấp bởi những oán giận âm ỉ, những lời chưa nói. Một 'hòa bình' được thiết lập bằng sự khuất phục hoàn toàn của một bên, không phải là sự chữa lành thực sự.",
+        "reversed": "Một nỗ lực hòa giải chân thành, dù đầy chông gai, nơi những tổn thương cũ được nhìn nhận và con đường dẫn đến sự tha thứ thực sự được tìm kiếm. Nó có thể là sự giải thoát khỏi nhu cầu trả đũa, mở ra một nền hòa bình mong manh, hoặc nhận ra rằng hòa giải là bất khả thi và đã đến lúc buông bỏ."
+      },
+      "secret_admirer": {
+        "upright": "Kẻ ngưỡng mộ bí mật này có thể ẩn chứa những động cơ thầm kín, dẫn đến sự thao túng, phản bội hoặc một 'chiến thắng' khiến người được ngưỡng mộ cảm thấy bị lợi dụng và sỉ nhục. Sự ngưỡng mộ của họ bị vấy bẩn bởi tư lợi.",
+        "reversed": "Kẻ ngưỡng mộ bí mật lộ diện, nhưng có lẽ theo cách thừa nhận những sai lầm hoặc ý định trong quá khứ, tìm kiếm một kết nối chân thành thay vì một trò chơi thao túng. Hoặc người được ngưỡng mộ khám phá ra ý đồ không mấy cao thượng của họ và chọn cách rút lui khỏi xung đột tiềm tàng."
+      },
+      "burnout": {
+        "upright": "Kiệt sức do những cuộc chiến tranh dai dẳng, thường là tự áp đặt, hoặc những xung đột không ngừng nghỉ. Dù có 'chiến thắng' cũng chỉ để lại sự kiệt quệ và cảm giác thất bại. Cái giá của chiến thắng quá đắt.",
+        "reversed": "Nhận ra rằng cuộc chiến liên tục là không bền vững, dẫn đến quyết định buông bỏ, nghỉ ngơi và chữa lành. Nó biểu thị quá trình phục hồi gian nan từ sự kiệt quệ tinh thần và cảm xúc, học cách từ bỏ nhu cầu 'chiến thắng' mọi trận chiến."
+      },
+      "startup": {
+        "upright": "Môi trường khởi nghiệp tràn ngập xung đột nội bộ, cạnh tranh khốc liệt, đâm sau lưng hoặc những thỏa hiệp đạo đức. Một tư duy 'kẻ thắng làm tất cả' tạo ra văn hóa độc hại, dẫn đến tổn thất lớn về tinh thần hoặc nhân tài, ngay cả khi doanh nghiệp đạt được một số 'thành công'.",
+        "reversed": "Quá trình khó khăn để chữa lành văn hóa khởi nghiệp sau những xung đột nội bộ nghiêm trọng, hoặc quyết định từ bỏ những phương pháp cạnh tranh hủy diệt. Nó cho thấy việc học hỏi từ những sai lầm trong quá khứ và hướng tới một cách tiếp cận hợp tác, đạo đức hơn, hoặc sự tan rã đau đớn của một startup do những khác biệt không thể hòa giải."
+      },
+      "workplace_politics": {
+        "upright": "Chính trị công sở là hiện thân của Năm Kiếm. Những cuộc đấu đá, thao túng, đâm sau lưng và tranh giành quyền lực dữ dội, nơi các cá nhân ưu tiên lợi ích cá nhân hơn lợi ích tập thể, để lại hàng loạt nạn nhân.",
+        "reversed": "Sự rút lui mệt mỏi khỏi những cuộc đấu đá chính trị công sở hủy hoại, chọn bình yên thay vì chiến tranh không ngừng, hoặc một cuộc đối đầu khó khăn nhưng cần thiết để giải quyết độc tố. Nó cũng có thể có nghĩa là bối cảnh chính trị đang thay đổi, cho phép một môi trường công bằng hơn, hoặc hậu quả đau đớn của một cuộc đấu tranh chính trị nơi những bài học được rút ra."
+      },
+      "side_hustle": {
+        "upright": "Một công việc phụ trở thành nguồn gốc của những xung đột bất ngờ, những vấn đề đạo đức hoặc cạnh tranh gay gắt, làm cạn kiệt năng lượng và nguồn lực, mang lại nhiều căng thẳng hơn là lợi ích. Một 'chiến thắng' mà cảm giác như một thất bại.",
+        "reversed": "Nhận ra sự vô ích hoặc độc hại của một công việc phụ và chọn cách buông bỏ, hoặc tìm cách giải quyết các xung đột tiềm ẩn để nó trở nên bền vững. Nó cũng có thể có nghĩa là học hỏi từ những sai lầm trong môi trường cạnh tranh và tìm ra một con đường hài hòa hơn."
+      },
+      "real_estate": {
+        "upright": "Các giao dịch bất động sản đầy rẫy cạnh tranh khốc liệt, chiến thuật thao túng, tranh chấp, hoặc một thỏa thuận mà một bên coi là 'thắng lợi' nhưng là sự mất mát hoặc phản bội đáng kể đối với bên kia. Các cuộc chiến pháp lý hoặc hành vi phi đạo đức.",
+        "reversed": "Giải quyết tranh chấp bất động sản, có thể thông qua s��� thỏa hiệp đau đớn, hoặc quyết định rút lui khỏi một giao dịch gây tranh cãi. Nó cho thấy một bước tiến tới sự công bằng và hòa giải, hoặc quá trình chữa lành lâu dài từ một mất mát nặng nề trong giao dịch tài sản."
+      },
+      "financial_loss": {
+        "upright": "Tổn thất tài chính do xung đột, phản bội, phán đoán kém trong các tình huống cạnh tranh, hoặc một 'chiến thắng' tốn kém hơn lợi ích nó mang lại. Cảm giác bị đánh bại hoặc bị cướp đoạt, ngay cả khi thông qua các phương tiện hợp pháp.",
+        "reversed": "Quá trình khó khăn của việc chấp nhận một mất mát tài chính và tiếp tục bước đi, giải tỏa oán giận, hoặc tìm cách giảm thiểu thiệt hại thêm. Nó cũng có thể biểu thị sự giải quyết một tranh chấp tài chính, ngay cả khi liên quan đến những nhượng bộ đau đớn, hoặc học được những bài học quý giá từ các cuộc chiến tài chính trong quá khứ."
+      },
+      "sudden_wealth": {
+        "upright": "Sự giàu có đột ngột có được bằng những phương tiện đáng ngờ, với cái giá là người khác, hoặc thông qua một cuộc cạnh tranh khốc liệt để lại một vệt đắng cay. Sự giàu có này có thể đi kèm với cái giá đạo đức hoặc quan hệ xã hội nặng nề, một chiến thắng rỗng tuếch.",
+        "reversed": "Nhận ra rằng sự giàu có có được bằng phương tiện phi đạo đức không mang lại sự hài lòng thực sự, dẫn đến mong muốn sửa chữa hoặc tìm một con đường đạo đức hơn. Nó cũng có thể biểu thị quá trình khó khăn trong việc đối phó với hậu quả của sự giàu có đó, hoặc chọn cách từ bỏ những cơ hội đòi hỏi sự thỏa hiệp về đạo đức."
+      },
+      "healing": {
+        "upright": "Quá trình chữa lành bị cản trở bởi những xung đột chưa được giải quyết, những oán giận dai dẳng hoặc sự bất lực trong việc buông bỏ những tổn thương và trận chiến trong quá khứ. Việc không ngừng suy nghĩ lại về những bất bình ngăn cản sự hồi phục thực sự.",
+        "reversed": "Một bước đi khó khăn nhưng cần thiết hướng tới sự chữa lành thực sự, bao gồm việc đối mặt với những xung đột trong quá khứ, tha thứ (cho bản thân hoặc người khác), và giải tỏa nhu cầu 'chiến thắng' hoặc 'đúng'. Nó biểu thị hành trình gian nan của việc kiến tạo hòa bình trong bản thân và với quá khứ của mình."
+      },
+      "stress": {
+        "upright": "Căng thẳng bắt nguồn từ xung đột liên tục, đối đầu và gánh nặng tinh thần của việc lập chiến lược chống lại người khác hoặc sống lại những thất bại trong quá khứ. Tâm trí là một chiến trường.",
+        "reversed": "Nỗ lực có ý thức để thoát khỏi những xung đột gây căng thẳng, tìm kiếm sự bình yên nội tâm hoặc tìm ra giải pháp cho những trận chiến tinh thần đang diễn ra. Nó gợi ý việc giải tỏa nhu cầu kiểm soát kết quả và chấp nhận những gì không thể thay đổi, dẫn đến giảm bớt gánh nặng tinh thần."
+      },
+      "trauma": {
+        "upright": "T���n thương gây ra bởi sự phản bội, sỉ nhục hoặc việc trở thành nạn nhân trong cuộc truy cầu chiến thắng tàn nhẫn của người khác. Những vết thương sâu sắc của những xung đột trong quá khứ tiếp tục ám ảnh.",
+        "reversed": "Quá trình dài và gian khổ để chữa lành từ những trải nghiệm đau thương của xung đột và phản bội. Nó liên quan đến việc giải tỏa sự kìm kẹp của những oán giận trong quá khứ, tìm kiếm sự tha thứ (cho bản thân hoặc người khác), và tìm một con đường dẫn đến sự bình yên nội tâm sau những cuộc chiến tranh tinh thần hoặc cảm xúc đáng kể."
+      },
+      "exams": {
+        "upright": "Các kỳ thi được tiếp cận với tư duy cạnh tranh khốc liệt, có thể dẫn đến hành vi phi đạo đức, hoặc cảm giác thất bại/sỉ nhục sâu sắc bất chấp nỗ lực. 'Chiến thắng' có thể bị vấy bẩn, hoặc thất bại đặc biệt đau đớn.",
+        "reversed": "Nhận ra rằng sự cạnh tranh khốc liệt trong các kỳ thi là có hại, d��n đến việc tập trung vào thành tích cá nhân thay vì đánh bại người khác. Nó cũng có thể biểu thị việc học hỏi từ những thất bại trong quá khứ, chấp nhận kết quả và tiếp tục mà không còn oán giận."
+      },
+      "scholarship": {
+        "upright": "Học bổng đạt được thông qua cạnh tranh khốc liệt, có thể phi đạo đức, hoặc đi kèm với những ràng buộc không lường trước được, dẫn đến cảm giác bị mắc kẹt hoặc bị thỏa hiệp. Một chiến thắng mang vị đắng hoặc rỗng tuếch.",
+        "reversed": "Quyết định khó khăn để rút khỏi một học bổng đòi hỏi quá nhiều sự thỏa hiệp, hoặc giải quyết các xung đột xung quanh việc giành được nó. Nó cũng có thể biểu thị quá trình sửa chữa những hành động cạnh tranh trong quá khứ hoặc tìm một con đường đạo đức hơn để tài trợ giáo dục."
+      },
+      "talent": {
+        "upright": "Tài năng được sử dụng cho mục đích thao túng, để thống trị người khác, hoặc trong một đấu trường cạnh tranh cao độ nơi trọng tâm là đánh bại đối thủ hơn là biểu hiện thuần túy. Điều này dẫn đến việc lạm dụng tài năng và xung đột tiềm tàng.",
+        "reversed": "Sự nhận thức rằng tài năng của một người đã bị sử dụng một cách hủy hoại hoặc trong những cách quá cạnh tranh, dẫn đến mong muốn điều chỉnh lại và sử dụng nó cho những mục đích xây dựng hơn. Nó cũng có thể biểu thị việc lùi lại khỏi môi trường cạnh tranh để nuôi dưỡng tài năng một cách lành mạnh hơn, hoặc chữa lành từ những vết thương của các cuộc chiến tranh nghệ thuật/chuyên môn cạnh tranh."
+      },
+      "spirit_guide": {
+        "upright": "Một linh hồn dẫn lối đang cố gắng truyền đạt những bài học về xung đột, sự vô ích của những trận chiến do bản ngã điều khiển, hoặc hậu quả của những hành động thao túng. Thông điệp có thể khắc nghiệt, thúc giục sự nội quan về vai trò của một người trong việc tạo ra sự bất hòa.",
+        "reversed": "Linh hồn dẫn lối giúp đỡ trong quá trình khó khăn của việc buông bỏ những xung đột trong quá khứ, tha thứ cho bản thân hoặc người khác, và tìm thấy sự bình yên sau những giai đoạn chiến tranh tinh thần hoặc cảm xúc dữ dội. Họ hướng dẫn đến sự hòa giải với bản ngã đen tối và sự chấp nhận những 'thất bại' trong quá khứ như những bài học."
       }
     },
     "planet": "Sao Kim",
@@ -13064,6 +17024,78 @@ window.TAROT_DB = [
       "general": {
         "upright": "Một giai đoạn chuyển giao cần thiết, rời bỏ những gánh nặng để tìm kiếm sự bình yên và ổn định mới.",
         "reversed": "Sự trì trệ, không thể thoát khỏi tình trạng khó khăn hiện tại, hoặc quay trở lại với những vấn đề đã qua."
+      },
+      "toxic_relationship": {
+        "upright": "Một sự ra đi cần thiết khỏi xiềng xích của mối quan hệ độc hại, một hành trình tâm linh hướng tới sự bình yên và tự do nội tâm. Đây là lúc bạn rời bỏ những năng lượng gây tổn thương để tìm đến bến bờ thanh thản.",
+        "reversed": "Sự kháng cự lại việc rời bỏ hoặc bị kéo ngược trở lại vòng xoáy độc hại. Nỗi sợ hãi sự cô đơn hay sự quen thuộc với nỗi đau đang ngăn cản bạn tìm thấy lối thoát, giữ bạn mắc kẹt trong sự giằng xé."
+      },
+      "soulmate": {
+        "upright": "Một cuộc hành trình định mệnh đang diễn ra, đưa bạn vượt qua những tổn thương cũ để gặp gỡ linh hồn tri kỷ. Sự dịch chuyển này mở ra không gian cho một kết nối sâu sắc, chân thật và mang tính chữa lành.",
+        "reversed": "Những trở ngại vô hình hoặc gánh nặng cảm xúc từ quá khứ đang ngăn cản sự hội ngộ. Bạn có thể đang mắc kẹt trong những mô thức cũ, không thể nhận ra hoặc tiếp cận người định mệnh của mình."
+      },
+      "reconciliation": {
+        "upright": "Một sự dịch chuyển tinh tế hướng tới sự thấu hiểu và hòa giải, vượt qua những xung đột đã qua để tìm lại bình yên. Đây là một hành trình cần sự buông bỏ cái tôi và hướng tới sự hàn gắn chân thật.",
+        "reversed": "Sự kháng cự lại việc hòa giải, hoặc những vết thương cũ vẫn còn quá sâu nặng để có thể buông bỏ. Có thể có sự quay trở lại những tranh cãi cũ, khiến quá trình hàn gắn bị đình trệ hoặc th���t bại."
+      },
+      "secret_admirer": {
+        "upright": "Người ngưỡng mộ bí mật đang lặng lẽ quan sát hành trình chuyển đổi của bạn, chờ đợi thời điểm thích hợp để lộ diện khi bạn đã tìm thấy sự bình yên. Sự hiện diện của họ là một nguồn động viên vô hình từ xa.",
+        "reversed": "Người ngưỡng mộ đang do dự không dám tiếp cận, có thể vì cảm thấy bạn chưa sẵn sàng hoặc họ đang mắc kẹt trong những nỗi sợ hãi của chính mình. Sự bí mật này có thể là gánh nặng cho cả hai."
+      },
+      "burnout": {
+        "upright": "Một cuộc rút lui cần thiết khỏi gánh nặng của sự kiệt sức, tìm kiếm sự phục hồi và tĩnh dưỡng. Đây là hành trình bạn đang rời bỏ áp lực để tìm lại năng lượng và sự cân bằng nội tại.",
+        "reversed": "Sự kháng cự lại nhu cầu nghỉ ngơi, hoặc cảm thấy không thể thoát khỏi vòng xoáy công việc. Bạn có thể bị kéo ngược trở lại tình trạng kiệt sức, không tìm được lối thoát và tiếp t��c chịu đựng."
+      },
+      "startup": {
+        "upright": "Một sự dịch chuyển chiến lược, vượt qua những hỗn loạn ban đầu để tìm thấy hướng đi rõ ràng và thị trường ngách. Đây là hành trình hướng tới sự ổn định và phát triển bền vững sau giai đoạn thử thách.",
+        "reversed": "Sự đình trệ hoặc không thể thích nghi với thay đổi. Có thể có sự quay trở lại với những phương pháp cũ không hiệu quả, khiến dự án mắc kẹt hoặc thất bại trong việc tạo ra động lực."
+      },
+      "workplace_politics": {
+        "upright": "Sự khéo léo trong việc thoát ly khỏi những xung đột và drama chốn công sở. Bạn đang tìm kiếm một môi trường làm việc hòa bình hơn, hoặc khôn ngoan tránh xa những rắc rối không đáng có.",
+        "reversed": "Bị mắc kẹt trong vòng xoáy chính trị công sở, không thể thoát khỏi những lời đồn đại hoặc tranh giành quyền lực. Bạn có thể bị kéo ngược vào những cuộc chiến không hồi kết, cảm thấy bị bủa vây."
+      },
+      "side_hustle": {
+        "upright": "Thành công trong việc chuyển đổi một sở thích thành nguồn thu nhập phụ, một bước đi chiến lược hướng tới sự độc lập tài chính. Đây là hành trình khám phá một con đường mới đầy tiềm năng.",
+        "reversed": "Khó khăn trong việc phát triển hoặc duy trì công việc phụ, cảm thấy quá tải bởi những yêu cầu. Bạn có thể bị kéo ngược lại công việc chính, không tìm được động lực hoặc thời gian để phát triển."
+      },
+      "real_estate": {
+        "upright": "Một cuộc di chuyển hoặc tái định cư thành công, tìm thấy một tổ ấm mới mang lại bình yên và sự ổn định. Đây là một sự chuyển đổi suôn sẻ trong các giao dịch bất động sản, hướng tới một không gian sống tốt đẹp hơn.",
+        "reversed": "Sự chậm trễ trong việc di chuyển, khó khăn trong việc bán hoặc mua nhà. Bạn có thể cảm thấy bị mắc kẹt trong một tài sản không mong muốn, hoặc có những vấn đề phức tạp khiến việc chuyển đ���i bị đình trệ."
+      },
+      "financial_loss": {
+        "upright": "Một sự dịch chuyển mạnh mẽ rời xa giai đoạn thua lỗ, một chiến lược phục hồi tài chính thông minh. Bạn đang tìm kiếm những con đường mới để tái thiết, buông bỏ gánh nặng tài chính để tiến lên phía trước.",
+        "reversed": "Sự bất lực trong việc phục hồi sau thua lỗ, hoặc lặp lại những sai lầm tài chính trong quá khứ. Bạn có thể cảm thấy bị gánh nặng tài chính đeo bám, rơi sâu hơn vào sự bất ổn."
+      },
+      "sudden_wealth": {
+        "upright": "Một sự thay đổi mang tính chuyển hóa trong tình hình tài chính, dịch chuyển từ sự khan hiếm sang sự dư dả. Đây là một hành trình vào một cảnh quan tài chính mới, đòi hỏi sự điều hướng khôn ngoan và có ý thức.",
+        "reversed": "Sự kháng cự lại việc đón nhận tài lộc mới, hoặc cảm thấy bị choáng ngợp bởi nó. Tài sản bất ngờ có thể mang đến những gánh nặng không mong muốn, khiến bạn quay trở lại với những lo lắng cũ hoặc không tìm được bình yên."
+      },
+      "healing": {
+        "upright": "Một hành trình chữa lành sâu sắc, rời bỏ nỗi đau để hướng tới sự toàn vẹn. Đây là một hành động có ý thức về tự chăm sóc và phục hồi tinh thần, đưa bạn đến bến bờ của sự bình an nội tâm.",
+        "reversed": "Sự kháng cự lại quá trình chữa lành, hoặc mắc kẹt trong những vết thương cũ. Bạn có thể không thể buông bỏ gánh nặng cảm xúc, dẫn đến sự tái phát hoặc quá trình chữa lành bị đình trệ."
+      },
+      "stress": {
+        "upright": "Chủ động tìm kiếm sự giải thoát khỏi căng thẳng, một quyết định có ý thức để dịch chuyển đến trạng thái tinh thần bình yên hơn. Bạn đang tìm thấy những phương pháp hiệu quả để giảm bớt áp lực.",
+        "reversed": "Sự bất lực trong việc thoát khỏi căng thẳng, cảm thấy bị choáng ngợp và mắc kẹt. Bạn có thể bị kéo ngược vào những mô hình căng thẳng cũ, sống trong trạng thái lo âu liên t��c mà không có giải pháp."
+      },
+      "trauma": {
+        "upright": "Một hành trình dũng cảm vượt qua chấn thương trong quá khứ, tìm kiếm sự trị liệu hoặc hướng dẫn tâm linh để xử lý và giải phóng nỗi đau. Bạn đang tìm thấy một con đường hướng tới sự bình yên và tự do.",
+        "reversed": "Bị mắc kẹt trong vòng xoáy của chấn thương, kháng cự lại việc chữa lành hoặc đối mặt với quá khứ. Bạn có thể tái trải nghiệm những vết thương cũ, cảm thấy không thể thoát khỏi gánh nặng này."
+      },
+      "exams": {
+        "upright": "Thành công vượt qua một giai đoạn học tập thử thách, một sự dịch chuyển rõ ràng hướng tới việc hoàn thành với sự minh mẫn. Đây là một cách tiếp cận chiến lược để đạt được kết quả mong muốn.",
+        "reversed": "Khó khăn trong việc tập trung, cảm thấy bị choáng ngợp bởi kiến thức. Có thể có sự trì hoãn, cần phải thi lại, hoặc cảm thấy mắc kẹt trong quá trình học tập mà không thấy tiến triển."
+      },
+      "scholarship": {
+        "upright": "Một sự chuyển đổi thành công sang một cơ hội học thuật mới, một hành trình hướng tới sự tiến bộ giáo dục được hỗ trợ. Đây là một con đường được mở ra nhờ sự hỗ trợ từ bên ngoài.",
+        "reversed": "Sự chậm trễ hoặc những biến chứng trong việc đảm bảo học bổng, không thể đáp ứng các yêu cầu. Bạn có thể cảm thấy không xứng đáng, hoặc học bổng không đủ để thực sự giảm bớt gánh nặng tài chính, tạo ra những áp lực mới."
+      },
+      "talent": {
+        "upright": "Khám phá và nuôi dưỡng một tài năng, một hành trình hướng tới sự phát triển và biểu hiện của nó. Bạn đang tìm thấy một con đường mới để thể hiện sự sáng tạo và khả năng tiềm ẩn của mình.",
+        "reversed": "Sự kìm nén tài năng, nỗi sợ hãi khi thể hiện nó. Bạn có thể cảm thấy mắc kẹt trong một vai trò không thỏa mãn, không tìm được lối thoát phù hợp, hoặc quay trở lại với những con đường cũ ít sáng tạo hơn."
+      },
+      "spirit_guide": {
+        "upright": "Một vị thần linh đang dẫn dắt bạn qua một giai đoạn chuyển tiếp, mang đến sự hướng dẫn tinh tế khi bạn di chuyển đến những bờ bến tâm linh mới. Một sự hiện diện nhẹ nhàng đảm bảo hành trình an toàn.",
+        "reversed": "Khó khăn trong việc kết nối với vị thần linh, hoặc kháng cự lại những thông điệp của họ. Bạn có thể cảm thấy lạc lối hoặc trôi dạt không có phương hướng rõ ràng, hoặc hiểu sai hướng dẫn, khiến bạn quay trở lại với những mô hình cũ không hữu ích."
       }
     },
     "planet": "Sao Thủy",
@@ -13299,6 +17331,78 @@ window.TAROT_DB = [
       "general": {
         "upright": "Một tình huống cần sự cẩn trọng, có thể có sự lừa dối, bí mật, hoặc ai đó đang cố gắng 'lách luật' để đạt được mục tiêu riêng.",
         "reversed": "Sự thật được phơi bày, yêu cầu sự trung thực và minh bạch để giải quyết vấn đề một cách dứt khoát."
+      },
+      "toxic_relationship": {
+        "upright": "Một mạng lưới lừa dối tinh vi bao trùm mối quan hệ, nơi một bên khéo léo che giấu ý định thật sự hoặc thao túng người kia bằng những lời nói dối ngọt ngào. Có sự trốn tránh trách nhiệm và sự thật, tạo nên một liên kết độc hại dựa trên sự không chân thật.",
+        "reversed": "Màn sương mù của sự dối trá tan biến, đưa sự thật phũ phàng ra ánh sáng. Đây là lúc đối mặt với sự thao túng hoặc sự thiếu trung thực, mở ra con đường giải thoát hoặc yêu cầu sự minh bạch hoàn toàn để hàn gắn những vết rạn nứt."
+      },
+      "soulmate": {
+        "upright": "Một mối liên kết định mệnh bị bao phủ bởi bí mật hoặc sự hiểu lầm cố ý. Có thể một trong hai người đang che giấu một phần bản thân, hoặc tình yêu này đang phát triển trong một hoàn cảnh cần sự kín đáo, đầy rẫy những điều chưa được tiết lộ.",
+        "reversed": "Bức màn che giấu được vén lên, tiết lộ bản chất thật của mối liên kết. Hoặc là những bí mật được hóa giải, đưa hai linh hồn đến sự hòa hợp chân thật, hoặc là sự thật phũ phàng cho thấy đây không phải là một mối liên kết thuần khiết mà là một ảo ảnh được dệt nên từ sự lừa dối."
+      },
+      "reconciliation": {
+        "upright": "Một nỗ lực hòa giải được thực hiện với ý đồ không hoàn toàn trong sáng, hoặc một bên đang cố gắng khéo léo chuộc lỗi mà không thực sự đối mặt với gốc rễ vấn đề. Có sự thiếu chân thành, chỉ là một thỏa thuận bề ngoài.",
+        "reversed": "Một sự hòa giải chân thành và sâu sắc, nơi cả hai bên sẵn sàng đối mặt với sự thật, thừa nhận lỗi lầm và gạt bỏ mọi chiêu trò. Đây là cơ hội để xây dựng lại niềm tin trên nền tảng của sự minh bạch và hối lỗi thật sự."
+      },
+      "secret_admirer": {
+        "upright": "Một linh hồn bí ẩn đang âm thầm quan sát và ngưỡng mộ, nhưng động cơ của họ có thể phức tạp hơn vẻ bề ngoài. Sự hiện diện của họ mang theo một chút bí ẩn, có thể là sự tính toán hoặc chỉ đơn thuần là sự nhút nhát che giấu cảm xúc thật.",
+        "reversed": "Bí mật được tiết lộ, người ngưỡng mộ lộ diện. Sự thật về ý định của họ được phơi bày – có thể là một tình cảm chân thành được giải phóng khỏi sự giấu giếm, hoặc một sự thao túng khéo léo giờ đây bị phơi bày dưới ánh sáng."
+      },
+      "burnout": {
+        "upright": "Sự kiệt quệ đến từ việc cố gắng lách luật, trốn tránh trách nhiệm hoặc duy trì một vỏ bọc. Năng lượng cạn kiệt vì phải liên tục giữ bí mật, lẩn tránh đối đầu hoặc tìm cách 'thoát thân' khỏi gánh nặng thực sự.",
+        "reversed": "Sự thừa nhận chân thật về giới hạn của bản thân và nhu cầu nghỉ ngơi. Giải thoát khỏi gánh nặng của sự lừa dối hoặc tự lừa dối về khả năng của mình, tìm kiếm sự hỗ trợ chân thành thay vì cố gắng đơn độc vượt qua mọi thứ."
+      },
+      "startup": {
+        "upright": "Một khởi nghiệp hoạt động trong chế độ 'tàng hình', có thể liên quan đến việc lách luật, sử dụng các chiến thuật không chính thống hoặc một mô hình kinh doanh thông minh nhưng thiếu minh bạch. Có nguy cơ về vấn đề đạo đức hoặc quyền sở hữu trí tuệ.",
+        "reversed": "Khởi nghiệp chuyển mình hướng tới sự minh bạch và đạo đức. Đối mặt với những lối tắt trong quá khứ, sửa chữa chúng và xây dựng một nền tảng vững chắc dựa trên sự liêm chính. Hoặc, những chiến thu���t xảo quyệt bị phơi bày, buộc phải thay đổi hướng đi theo hướng trung thực hơn."
+      },
+      "workplace_politics": {
+        "upright": "Một môi trường làm việc đầy rẫy những âm mưu ngầm, đâm sau lưng, liên minh bí mật và thao túng. Có những người đang cố gắng chiếm đoạt công lao hoặc phá hoại đồng nghiệp một cách khéo léo.",
+        "reversed": "Sự thật về chính trị công sở được phơi bày. Những kẻ lừa dối bị vạch mặt, và có một làn sóng đòi hỏi sự minh bạch và trách nhiệm. Hoặc, bạn chọn rút lui khỏi những trò chơi thao túng, tìm kiếm một con đường trung thực hơn."
+      },
+      "side_hustle": {
+        "upright": "Một công việc phụ được giữ bí mật, có thể vì nó đi ngược lại quy tắc đạo đức, xung đột lợi ích với công việc chính, hoặc đơn giản là cần sự khéo léo để duy trì mà không bị phát hiện.",
+        "reversed": "Công việc phụ trở nên công khai và hợp pháp, hoặc bạn quyết định từ bỏ nó nếu nó được xây dựng trên sự lừa dối. Sự minh bạch về các hoạt động kinh doanh, hoặc đối mặt với hậu quả của việc giữ bí mật."
+      },
+      "real_estate": {
+        "upright": "Những giao dịch bất động sản tiềm ẩn sự lừa dối, các khuyết điểm bị che giấu trong tài sản, hoặc một bên đang cố gắng trục lợi thông qua thông tin không được tiết lộ đầy đủ. Cần sự cẩn trọng với những điều khoản mập mờ.",
+        "reversed": "Sự thật về các vấn đề tiềm ẩn trong bất động sản được tiết lộ. Đàm phán trung thực, sửa chữa những sai lầm trong quá khứ, hoặc khám phá giá trị/tình trạng thực của tài sản. Sự liêm chính được thiết lập trong các giao dịch."
+      },
+      "financial_loss": {
+        "upright": "Thiệt hại tài chính do những âm mưu xảo quyệt, sự lừa dối hoặc bị lừa gạt tiền bạc. Một chiến lược tài chính quá khôn khéo đã phản tác dụng, dẫn đến mất mát do sự gian lận của bản thân hoặc người khác.",
+        "reversed": "Sự phục hồi sau mất mát bằng cách phơi bày sự lừa dối, rút ra bài học từ những sai lầm trong quá khứ, hoặc giành lại những gì đã mất bằng phương tiện trung thực. Đối mặt với sự thật về quản lý tài chính."
+      },
+      "sudden_wealth": {
+        "upright": "Sự giàu có đến bất ngờ nhưng có thể thông qua những phương tiện đáng ngờ, một may mắn đòi hỏi sự khéo léo hoặc bí mật, hoặc một món tiền lớn quá tốt để tin, ám chỉ một vấn đề đạo đức tiềm ẩn.",
+        "reversed": "Nguồn gốc thực sự của sự giàu có được tiết lộ và xác nhận là hợp pháp, hoặc những thỏa hiệp đạo đức để đạt được nó được đối mặt và sửa chữa. Lựa chọn sự liêm chính thay vì những lợi ích bất chính."
+      },
+      "healing": {
+        "upright": "Quá trình chữa lành bị cản trở bởi sự tự lừa dối, việc tránh né những sự thật cần thiết, hoặc cố gắng bỏ qua công việc thực sự bằng những giải pháp nhanh chóng hoặc sự phủ nhận. Một sự 'trốn thoát' khỏi việc đối mặt với nguyên nhân gốc rễ của nỗi đau.",
+        "reversed": "Chấp nhận sự trung thực triệt để trong quá trình chữa lành, đối mặt với những sự thật khó khăn, tìm kiếm sự hỗ trợ chân thành thay vì cố gắng tự mình giải quyết nỗi đau. Quá trình chữa lành thực sự bắt đầu khi những chiếc mặt nạ được gỡ bỏ."
+      },
+      "stress": {
+        "upright": "Căng thẳng phát sinh từ việc duy trì một vỏ bọc, giữ bí mật, nỗi sợ hãi liên tục bị phát hiện, hoặc sự căng thẳng tinh thần khi cố gắng lách luật thay vì đối mặt trực tiếp với tình huống.",
+        "reversed": "Giảm bớt căng thẳng bằng cách thú nhận, trung thực, từ bỏ nhu cầu phải khéo léo, hoặc đối mặt trực tiếp với tình huống, dẫn đến sự giải tỏa áp lực. Sự thật giải phóng tâm trí."
+      },
+      "trauma": {
+        "upright": "Phản ứng chấn thương biểu hiện như một nhu cầu trốn thoát, che giấu hoặc sử dụng sự khéo léo để tồn tại, thay vì xử lý nỗi đau. Những ký ức bị kìm nén hoặc cảm giác bị phản bội sâu sắc.",
+        "reversed": "Bắt đầu thừa nhận và đối mặt với chấn thương, tìm kiếm con đường chữa lành trung thực, không còn cần phải che giấu hoặc trốn tránh nỗi đau. Sự thật về quá khứ bắt đầu được đưa ra ánh sáng, mở ra cánh cửa giải thoát."
+      },
+      "exams": {
+        "upright": "Sự cám dỗ gian lận, đạo văn, sử dụng lợi thế không công bằng hoặc cố gắng 'lách luật' trong kỳ thi thay vì dựa vào kiến thức chân chính. Cảnh báo về sự thiếu trung thực trong học tập.",
+        "reversed": "Sự liêm chính trong các kỳ thi, chống lại sự cám dỗ gian lận, đối mặt với kết quả một cách trung thực hoặc sự phơi bày của hành vi gian lận học thuật. Một cam kết hướng tới việc học tập chân chính."
+      },
+      "scholarship": {
+        "upright": "Học bổng được đạt được thông qua việc tô vẽ hồ sơ, ứng dụng gây hiểu lầm hoặc một hình thức gian lận học thuật tinh vi. Có sự thiếu minh bạch trong quá trình xét tuyển.",
+        "reversed": "Học bổng được trao dựa trên công lao thực sự và sự trình bày trung thực. Hoặc, nếu đạt được một cách gian lận, sự thật sẽ được phơi bày, có thể dẫn đến việc thu hồi học bổng. Sự liêm chính được đặt lên hàng đầu."
+      },
+      "talent": {
+        "upright": "Một tài năng được sử dụng cho mục đích thao túng, lừa dối hoặc để khéo léo giành lợi thế. Có lẽ là một tài năng bị che giấu hoặc không được thừa nhận hoàn toàn vì sợ bị phơi bày.",
+        "reversed": "Một tài năng được công nhận công khai và được sử dụng cho các mục đích trung thực, mang tính xây dựng. Khẳng định khả năng thực sự của bản thân mà không cần dùng đến sự khéo léo hoặc che giấu. Sự tỏa sáng chân thật."
+      },
+      "spirit_guide": {
+        "upright": "Một thông điệp từ linh hồn dẫn lối khuyến khích tư duy chiến lược, sự sáng suốt trong việc nhận diện những động cơ ẩn giấu, hoặc một lời nhắc nhở cần thận trọng với những người không đáng tin cậy. Có thể cảnh báo về năng lượng lừa dối xung quanh.",
+        "reversed": "Linh hồn dẫn lối thúc đẩy sự trung thực triệt để, tiết lộ những sự thật đã bị che giấu hoặc hướng dẫn bạn đối mặt với sự lừa dối (cả bên trong lẫn bên ngoài). Một lời kêu gọi hướng tới sự liêm chính và minh bạch."
       }
     },
     "planet": "Mặt Trăng",
@@ -13532,6 +17636,78 @@ window.TAROT_DB = [
       "lost_item": {
         "upright": "Món đồ thất lạc đang ở một nơi bị giam cầm, bị che giấu hoặc bạn cảm thấy bất lực trong việc tìm kiếm nó.",
         "reversed": "Tìm thấy món đồ sau khi đã thoát khỏi những giới hạn về suy nghĩ, hoặc món đồ được tìm thấy ở một nơi từng bị phong tỏa."
+      },
+      "toxic_relationship": {
+        "upright": "Bạn đang bị trói buộc bởi những xiềng xích vô hình của nỗi sợ hãi và sự phụ thuộc, không thể thoát ra khỏi mối quan hệ độc hại. Tâm trí bạn bị che mờ, khiến bạn không nhìn thấy lối thoát, dù sự tổn thương hiển hiện rõ ràng. Đây là một nhà tù tinh thần do chính bạn tạo ra.",
+        "reversed": "Ánh sáng đã xuyên qua màn sương mù của sự lừa dối. Bạn đã nhận diện được bản chất độc hại của mối quan hệ và đang tích cực tháo gỡ những xiềng xích vô hình. Sức mạnh nội tâm trỗi dậy, cho phép bạn cắt đứt sợi dây liên kết đau khổ và bước ra khỏi bóng tối."
+      },
+      "soulmate": {
+        "upright": "Những nỗi sợ hãi, tổn thương trong quá khứ hoặc niềm tin giới hạn đang che mờ tầm nhìn của bạn, khiến bạn không thể nhận ra hoặc kết nối sâu sắc với người bạn tâm giao. Bạn đang tự giam mình trong một lồng kính, ngăn cản sự gặp gỡ định mệnh.",
+        "reversed": "Bạn đã dỡ bỏ bức tường ngăn cách tâm hồn, giải phóng bản thân khỏi những định kiến và nỗi sợ hãi cũ. Tầm nhìn trở nên sáng rõ, giúp bạn nhận ra và mở lòng đón nhận một mối liên kết sâu sắc, chân thực với người bạn tâm giao định mệnh."
+      },
+      "reconciliation": {
+        "upright": "Sự kiêu hãnh, nỗi sợ bị tổn thương lần nữa hoặc những suy nghĩ tiêu cực đang giam cầm bạn, khiến bạn không thể tiến tới sự hòa giải. Bạn bị mắc kẹt trong vòng lặp của sự bất mãn và không thể nhìn thấy con đường hàn gắn.",
+        "reversed": "Bức màn che mắt đã được gỡ bỏ, cho phép bạn nhìn thấy sự thật và buông bỏ những gánh nặng của quá khứ. Bạn sẵn sàng tha thứ, tháo gỡ những rào cản tinh thần để mở lòng cho một sự hòa giải chân thành, mang lại sự bình yên và kết nối mới."
+      },
+      "secret_admirer": {
+        "upright": "Bạn đang bị che mắt bởi sự tự ti hoặc nỗi sợ hãi, khiến bạn không thể nhận ra những dấu hiệu của một người thầm ngưỡng mộ. Hoặc chính người ngưỡng mộ đó đang bị trói buộc bởi sự e dè, không dám bày tỏ, tạo nên một sự bế tắc trong im lặng.",
+        "reversed": "Màn sương mù đã tan, bạn bắt đầu nhận ra những tín hiệu tinh tế của tình cảm thầm kín. Hoặc người ngưỡng mộ đã tìm thấy dũng khí để vượt qua nỗi sợ hãi, phá vỡ sự im lặng và hé lộ tình cảm của họ, mở ra một khả năng kết nối mới."
+      },
+      "burnout": {
+        "upright": "Bạn đang cảm thấy bị mắc kẹt hoàn toàn trong vòng xoáy của công việc và trách nhiệm, tâm trí bị kiệt quệ, không thể nhìn thấy bất kỳ lối thoát hay giải pháp nào để nghỉ ngơi. Đây là một nhà tù của sự căng thẳng và mệt mỏi tinh thần.",
+        "reversed": "Bạn đã nhận ra sự cần thiết phải phá vỡ chuỗi xiềng xích của sự kiệt sức. Bạn đang tìm thấy sức mạnh để thiết lập ranh giới, buông bỏ những gánh nặng không cần thiết và chủ động tìm kiếm con đường phục hồi, giải phóng bản thân khỏi áp lực."
+      },
+      "startup": {
+        "upright": "Bạn bị mắc kẹt trong nỗi sợ hãi thất bại, sự phân tích quá mức hoặc những niềm tin giới hạn, khiến ý tưởng khởi nghiệp của bạn không thể cất cánh. Tâm trí bạn đang tự giam cầm mình trong một vòng luẩn quẩn của sự do dự và thiếu quyết đoán.",
+        "reversed": "Bạn đã phá v vỡ những rào cản tinh thần và nỗi sợ hãi ban đầu. Sự rõ ràng và quyết đoán trỗi dậy, cho phép bạn mạnh dạn hành động, giải phóng ti��m năng của ý tưởng khởi nghiệp và vượt qua những thách thức đầu tiên."
+      },
+      "workplace_politics": {
+        "upright": "Bạn đang cảm thấy bị mắc kẹt và bị động trong một mạng lưới chính trị phức tạp ở nơi làm việc. Những lời nói, âm mưu và sự thao túng đang giam cầm bạn, khiến bạn không thể lên tiếng hoặc tìm ra lối thoát mà không cảm thấy bị tổn thương.",
+        "reversed": "Bạn đã nhìn thấu những âm mưu và sự thao túng, phá vỡ sự giam cầm của chúng. Bạn tìm thấy tiếng nói và sự tự tin để điều hướng một cách chiến lược trong môi trường chính trị, bảo vệ bản thân và giành lại quyền kiểm soát tình hình."
+      },
+      "side_hustle": {
+        "upright": "Những nỗi sợ hãi về sự thất bại, thiếu thời gian hoặc sự tự ti đang giam cầm bạn, ngăn cản bạn theo đuổi hoặc phát triển một nguồn thu nhập phụ. Bạn đang tự đặt ra những giới hạn vô hình cho tiềm năng của mình.",
+        "reversed": "Bạn đã giải phóng bản thân khỏi những niềm tin giới hạn và nỗi sợ hãi. Sự tự tin và tầm nhìn rõ ràng cho phép bạn mạnh dạn theo đuổi và phát triển dự án phụ, phá vỡ xiềng xích của sự phụ thuộc và mở rộng tiềm năng tài chính."
+      },
+      "real_estate": {
+        "upright": "Bạn đang cảm thấy bị mắc kẹt trong một tình huống bất động sản khó khăn, có thể là một giao dịch không thuận lợi, một căn nhà không thể bán hoặc một khoản nợ đè nặng. Tâm trí bạn bị che mờ, không nhìn thấy lối thoát hoặc giải pháp.",
+        "reversed": "Bạn đã tìm thấy con đường thoát khỏi tình trạng bế tắc về bất động sản. Những giới hạn tinh thần đã được gỡ bỏ, cho phép bạn đưa ra quyết định sáng suốt và hành động dứt khoát để giải quyết vấn đề, giành lại sự tự do và kiểm soát."
+      },
+      "financial_loss": {
+        "upright": "Bạn đang bị tê liệt bởi nỗi sợ hãi và sự tuyệt vọng sau một tổn thất tài chính. Tâm trí bạn bị giam cầm trong sự hối tiếc và lo lắng, không thể nhìn thấy con đường phục hồi hoặc đưa ra những quyết định tài chính sáng suốt.",
+        "reversed": "Bạn đã vượt qua cú sốc và nỗi sợ hãi ban đầu. Màn sương mù đã tan, cho phép bạn nhìn rõ tình hình và đưa ra những quyết định táo bạo, sáng suốt để phục hồi tài chính. Bạn đang tháo gỡ những xiềng xích của sự bất lực và bắt đầu xây dựng lại."
+      },
+      "sudden_wealth": {
+        "upright": "Sự giàu có bất ngờ đang trở thành một gánh nặng, một nhà tù của sự lo lắng và không tin tưởng. Bạn cảm thấy bị choáng ngợp, bị giam cầm bởi nỗi sợ hãi về cách quản lý hoặc giữ gìn tài sản, không thể tận hưởng sự tự do mà nó mang lại.",
+        "reversed": "Bạn đã giải phóng bản thân khỏi những nỗi sợ hãi và định kiến về tiền bạc. Với sự khôn ngoan và cái nhìn thấu đáo, bạn đón nhận sự giàu có bất ngờ, biến nó thành công cụ để giải phóng bản thân và người khác, không còn bị giam cầm b��i nó."
+      },
+      "healing": {
+        "upright": "Những nỗi sợ hãi sâu thẳm, những niềm tin giới hạn hoặc những vết thương chưa được nhìn nhận đang giam cầm bạn, ngăn cản quá trình chữa lành thực sự. Bạn đang tự đặt mình vào trạng thái nạn nhân, không thể thoát khỏi vòng lặp của đau khổ.",
+        "reversed": "Bạn đã gỡ bỏ những tấm màn che mắt tinh thần, đối diện với nguồn gốc của nỗi đau và chủ động tìm kiếm con đường chữa lành. Sự giải phóng khỏi xiềng xích của quá khứ cho phép bạn trải nghiệm sự phục hồi sâu sắc và toàn vẹn."
+      },
+      "stress": {
+        "upright": "Bạn đang cảm thấy bị giam cầm hoàn toàn bởi gánh nặng của sự căng thẳng. Tâm trí bạn bị bao vây bởi những lo lắng, khiến bạn không thể nhìn thấy lối thoát hay tìm ra bất kỳ cơ chế đối phó hiệu quả nào, rơi vào trạng thái tê liệt.",
+        "reversed": "Bạn đã phá vỡ xiềng xích của sự căng thẳng. Bằng cách nhận diện các yếu tố gây áp lực và áp dụng những chiến lược đối phó hiệu quả, bạn đang giành lại quyền kiểm soát, giải phóng tâm trí và tìm thấy sự bình yên nội tại."
+      },
+      "trauma": {
+        "upright": "Bạn đang bị giam cầm bởi những tiếng vọng của chấn thương trong quá khứ, không thể thoát ra khỏi vòng lặp của nỗi đau và ký ức. Tâm trí bạn bị trói buộc, khiến bạn sống lại những khoảnh khắc đau khổ, ngăn cản sự tiến lên phía trước.",
+        "reversed": "Bạn đã tìm thấy sức mạnh để phá vỡ xiềng xích của chấn thương. Bằng cách đối diện và xử lý những vết thương cũ, bạn đang biến nỗi đau thành sức mạnh, giành lại quyền tự chủ và giải phóng bản thân khỏi quá khứ để bước vào tương lai."
+      },
+      "exams": {
+        "upright": "Nỗi sợ hãi, sự lo lắng hoặc tự ti đang giam cầm tâm trí bạn, gây ra sự tê liệt trong quá trình ôn luyện hoặc ngay trong phòng thi. Bạn cảm thấy bị mắc kẹt, không thể truy cập kiến thức hoặc thể hiện hết kh�� năng của mình.",
+        "reversed": "Bạn đã phá vỡ xiềng xích của sự lo lắng và tự ti. Với sự rõ ràng và tự tin, bạn vượt qua nỗi sợ hãi trong kỳ thi, tin tưởng vào kiến thức của mình và thể hiện hết khả năng, giành lấy thành công xứng đáng."
+      },
+      "scholarship": {
+        "upright": "Những niềm tin giới hạn hoặc nỗi sợ hãi về sự không đủ năng lực đang giam cầm bạn, ngăn cản bạn nộp đơn hoặc tin rằng mình xứng đáng với một học bổng. Bạn đang tự đặt ra những rào cản vô hình cho con đường học vấn của mình.",
+        "reversed": "Bạn đã giải phóng bản thân khỏi những nghi ngờ và niềm tin giới hạn. Nhận ra giá trị và tiềm năng của mình, bạn mạnh dạn theo đuổi cơ hội học bổng, phá vỡ xiềng xích của sự tự ti để mở cánh cửa tri thức."
+      },
+      "talent": {
+        "upright": "Bạn đang tự giam cầm tài năng của mình trong bóng tối của nỗi sợ hãi, sự tự ti hoặc thiếu tự tin. Bạn sợ hãi sự phơi bày, không dám thể hiện hoặc phát triển hết những khả năng thiên bẩm, khiến chúng bị chôn vùi.",
+        "reversed": "Bạn đã phá vỡ xiềng xích của sự tự ti và nỗi sợ hãi. Với lòng dũng cảm và sự tự tin, bạn chấp nhận và phát huy những tài năng độc đáo của mình, mạnh dạn chia sẻ chúng với thế giới, giải phóng tiềm năng sáng tạo."
+      },
+      "spirit_guide": {
+        "upright": "Tâm trí bạn đang bị bao phủ bởi sự nhiễu loạn, nỗi sợ hãi hoặc sự hoài nghi, khiến bạn không thể tiếp nhận thông điệp từ các vị dẫn dắt tâm linh. Bạn cảm thấy bị cô lập, bị giam cầm trong sự im lặng của chính mình, không nghe thấy tiếng nói dẫn đường.",
+        "reversed": "Bạn đã thanh lọc tâm trí, gỡ bỏ những rào cản và mở lòng đón nhận. Sự rõ ràng và trực giác trỗi dậy, cho phép bạn tiếp nhận những thông điệp và sự hỗ trợ rõ ràng từ các vị dẫn dắt tâm linh, phá vỡ sự cô lập và tìm thấy định hướng."
       }
     },
     "planet": "Sao Mộc",
@@ -13766,6 +17942,78 @@ window.TAROT_DB = [
       "lost_item": {
         "upright": "Món đồ thất lạc đang gây ra sự lo lắng tột độ, bạn cảm thấy tội lỗi vì đã làm mất nó. Hoặc nó bị mất trong một tình huống đầy sợ hãi.",
         "reversed": "Nỗi lo lắng về món đồ thất lạc đang dần nguôi ngoai, hoặc bạn đang tìm cách đối mặt với sự thật và buông bỏ."
+      },
+      "toxic_relationship": {
+        "upright": "Một sự giam cầm tinh thần, nơi nỗi sợ hãi, cảm giác tội lỗi và sự dày vò cảm xúc biến mối quan hệ thành ngục tù. Những đêm dài trằn trọc, tâm trí bị bủa vây bởi sự hối tiếc sâu sắc và nỗi hổ thẹn âm ỉ, rút cạn sinh lực linh hồn.",
+        "reversed": "Sự thức tỉnh chậm rãi nhưng đau đớn trước bản chất độc hại của mối quan hệ, hoặc dũng khí để đối mặt với sự tuyệt vọng mà nó gây ra. Đây là những bước đầu tiên để thoát khỏi xi��ng xích, tìm kiếm sự an ủi, hoặc cuối cùng chấp nhận chiều sâu của những vết thương lòng, báo hiệu một bước ngoặt tiềm năng hướng tới sự chữa lành, dù quá trình này vẫn còn đầy rẫy nỗi sợ hãi dai dẳng."
+      },
+      "soulmate": {
+        "upright": "Nỗi sợ hãi và lo âu sâu sắc ngăn cản việc nhận ra hoặc chấp nhận một mối liên kết tri kỷ. Có lẽ sự tự ti, những tổn thương trong quá khứ, hoặc cảm giác không xứng đáng đè nặng tạo ra một rào cản, biến một phước lành tiềm năng thành nguồn gốc của sự dày vò nội tâm.",
+        "reversed": "Sự giải tỏa dần dần những rào cản tinh thần tự áp đặt, cho phép khả năng một mối liên kết tri kỷ xuất hiện mà không bị đè nặng bởi gánh nặng lo âu. Điều này biểu thị sự sẵn sàng đối mặt với những nỗi sợ hãi trong quá khứ đã cản trở kết nối thực sự, hoặc một cuộc đấu tranh thầm lặng, nội tại để chấp nhận một mối liên kết sâu sắc như vậy bất chấp những bất an còn sót lại."
+      },
+      "reconciliation": {
+        "upright": "Cảm giác tội lỗi, hối tiếc và lo âu chồng chất về một xung đột trong quá khứ, khiến việc hòa giải dường như bất khả thi hoặc đầy rẫy nỗi đau cảm xúc. Suy nghĩ về việc đối mặt với vấn đề mang lại những đêm mất ngủ và sự tuyệt vọng sâu sắc, sợ hãi sự từ chối hoặc khơi lại những vết thương cũ.",
+        "reversed": "Một bước đi do dự nhưng chân thành hướng tới việc giải quyết những bất bình trong quá khứ. Điều này cho thấy sự hỗn loạn nội tâm đang dần lắng xuống đủ để cho phép đối thoại, hoặc cuối cùng người ta sẵn sàng đối mặt với nỗi đau của quá khứ để tìm kiếm giải pháp, ngay cả khi con đường vẫn còn mong manh và không chắc chắn."
+      },
+      "secret_admirer": {
+        "upright": "Nỗi lo âu và hoang tưởng mãnh liệt về danh tính hoặc ý định của một người hâm mộ bí mật. Sự bí ẩn trở thành nguồn gốc của những đêm mất ngủ, gợi lên những kịch bản tồi tệ nhất và nuôi dưỡng sự tự ti về giá trị hoặc sự an toàn của bản thân.",
+        "reversed": "Sự giảm bớt dần dần của sự hoang tưởng, có lẽ một chút tò mò thay thế nỗi sợ hãi, hoặc sự chấp nhận thầm lặng của điều chưa biết mà không khuất phục trước nỗi lo âu áp đảo. Điều này cũng có thể có nghĩa là người hâm mộ sắp tiết lộ danh tính của mình, dẫn đến sự giải tỏa căng thẳng, hoặc một quyết định không còn bận tâm đến sự bí ẩn, tìm thấy sự bình yên trong hiện tại."
+      },
+      "burnout": {
+        "upright": "Đỉnh điểm của sự kiệt quệ tinh thần và cảm xúc, đặc trưng bởi sự tuyệt vọng sâu sắc, cảm giác tội lỗi về những thất bại được cho là, và sự mất mát hoàn toàn động lực. Những đêm mất ngủ tràn ngập những suy nghĩ miên man về trách nhiệm, dẫn đến sự suy sụp tinh thần.",
+        "reversed": "Những bước đi mong manh đầu tiên hướng tới sự phục hồi từ tình trạng kiệt sức. Điều này biểu thị một tiếng kêu tuyệt vọng để được giúp đỡ, một sự nhận thức bắt buộc về nhu cầu nghỉ ngơi, hoặc một quá trình đau đớn chậm rãi để tách rời khỏi nguồn căng thẳng. Nó gợi ý một bước ngoặt nơi cá nhân bắt đầu tìm kiếm sự an ủi và tái tạo tinh thần của mình, ngay cả khi con đường đầy gian nan."
+      },
+      "startup": {
+        "upright": "Nỗi lo âu, sự tự ti và những đêm mất ngủ bao trùm bởi nỗi sợ thất bại, phá sản hoặc áp lực to lớn khi khởi nghiệp. Giấc mơ khởi nghiệp trở thành một cơn ác mộng của sự lo lắng không ngừng và sự dày vò tinh thần.",
+        "reversed": "Sự giảm bớt dần dần của áp lực đè nặng, có lẽ thông qua việc tìm kiếm giải pháp, tìm kiếm sự hỗ trợ, hoặc nhận ra rằng những nỗi sợ hãi đã bị phóng đại. Nó chỉ ra một bước ngoặt nơi doanh nhân bắt đầu đối mặt với nỗi lo âu của mình một cách xây dựng, tìm thấy sự tập trung mới và một con đư���ng phía trước, ngay cả khi hành trình vẫn còn đầy thử thách."
+      },
+      "workplace_politics": {
+        "upright": "Nỗi hoang tưởng, sự ngờ vực và lo âu sâu sắc bắt nguồn từ bản chất xảo quyệt của chính trị nơi làm việc. Những đêm mất ngủ trôi qua trong việc tua lại các cuộc trò chuyện, sợ hãi sự phản bội, hoặc dày vò về những lời lẽ được cho là thiếu tôn trọng, dẫn đến sự đau khổ tinh thần to lớn và cảm giác liên tục bị đặt trong tình thế căng thẳng.",
+        "reversed": "Một quyết định thận trọng nhưng kiên quyết để rút lui khỏi những khía cạnh độc hại nhất của chính trị nơi làm việc, hoặc một khả năng mới để điều hướng chúng mà không khuất phục trước nỗi lo âu áp đảo. Điều này cho thấy một quá trình chậm rãi để lấy lại quyền kiểm soát trạng thái cảm xúc của bản thân, có lẽ bằng cách thiết lập ranh giới hoặc tìm kiếm đồng minh, do đó giảm bớt một số dày vò tinh thần."
+      },
+      "side_hustle": {
+        "upright": "Công việc phụ trở thành nguồn gốc của sự căng thẳng, tội lỗi và những đêm mất ngủ triền miên, khi cá nhân vật lộn với việc cân bằng các cam kết, nỗi sợ hãi về sự không đủ năng lực, hoặc áp lực to lớn để thành công. Điều bắt đầu như một cơ hội biến thành một gánh nặng tinh thần.",
+        "reversed": "Một quyết định quan trọng để đánh giá lại tác động của công việc phụ đối với sức khỏe tinh thần. Nó biểu thị một lựa chọn có ý thức để giảm bớt, tìm kiếm sự giúp đỡ, hoặc tìm ra một nhịp điệu bền vững giúp giảm bớt nỗi lo âu áp đảo. Cá nhân bắt đầu lấy lại sự bình yên trong tâm trí, ngay cả khi điều đó có nghĩa là phải điều chỉnh tham vọng của họ."
+      },
+      "real_estate": {
+        "upright": "Nỗi lo âu, sợ hãi và hối tiếc chồng chất xung quanh một quyết định bất động sản – có lẽ là mua, bán hoặc đầu tư. Những đêm mất ngủ bị ám ảnh bởi những lo lắng tài chính, những mối bận tâm pháp lý, hoặc gánh nặng nặng nề của một lựa chọn sai lầm được cho là, dẫn đến sự đau khổ tinh thần sâu sắc.",
+        "reversed": "Sự giảm bớt dần dần những lo lắng liên quan đến bất động sản, có lẽ thông qua việc tìm ra giải pháp cho một vấn đề, nhận được lời khuyên của chuyên gia, hoặc một sự thay đổi hoàn cảnh. Nó biểu thị sự bắt đầu giải thoát khỏi sự dày vò tinh thần, một hy vọng thận trọng xuất hiện khi sự rõ ràng bắt đầu thay thế sự tuyệt vọng, ngay cả khi những thách thức vẫn còn."
+      },
+      "financial_loss": {
+        "upright": "Sự tuyệt vọng sâu sắc, cảm giác tội lỗi và những đêm mất ngủ bao trùm bởi thực tế của một khoản lỗ tài chính đáng kể. Tâm trí chạy đua với sự hối tiếc, tự trách móc và nỗi sợ hãi áp đảo cho tương lai, tạo ra một gánh nặng dày vò tinh thần.",
+        "reversed": "Quá trình chậm rãi, đau đớn để chấp nhận khoản lỗ tài chính và bắt đầu xây dựng lại. Nó biểu thị một sự thay đổi từ sự tuyệt vọng suy nhược sang một quyết tâm mong manh để tìm giải pháp, tìm kiếm sự hỗ trợ, hoặc chấp nhận thực tế và tiến về phía trước, ngay cả khi con đường phía trước không chắc chắn và đầy thử thách về mặt cảm xúc."
+      },
+      "sudden_wealth": {
+        "upright": "Nghịch lý thay, của cải bất ngờ trở thành nguồn gốc của nỗi lo âu, hoang tưởng và những đêm mất ngủ triền miên. Nỗi sợ hãi về việc quản lý kém, mất tất cả, ý định của người khác, hoặc gánh nặng của những trách nhiệm mới tạo ra sự dày vò tinh thần sâu sắc, biến một phước lành thành lời nguyền của sự lo lắng.",
+        "reversed": "Sự điều chỉnh dần dần đối với thực tế của của cải bất ngờ, nơi những nỗi lo âu ban đầu bắt đầu lắng xuống. Nó gợi ý một giai đoạn tìm kiếm lời khuyên khôn ngoan, thiết lập ranh giới, hoặc phát triển một kế hoạch giúp giảm bớt nỗi sợ hãi áp đảo, cho phép một sự hòa nhập vững vàng và bình yên hơn của tài sản mới tìm thấy."
+      },
+      "healing": {
+        "upright": "Thực tế đau đớn rằng sự chữa lành bị cản trở sâu sắc bởi sự tự trách móc, cảm giác tội lỗi và sự dày vò tinh thần không ngừng. Cá nhân bị mắc kẹt trong một vòng luẩn quẩn của việc sống lại những vết thương và nỗi sợ hãi trong quá khứ, ngăn cản sự phục hồi cảm xúc hoặc tâm lý thực sự.",
+        "reversed": "Những bước đi đầu tiên dũng cảm, dù khó khăn, hướng tới sự chữa lành thực sự. Nó biểu thị một quyết định có ý thức để đối mặt với những con quỷ nội tâm, tìm kiếm sự hỗ trợ trị liệu, hoặc giải phóng cảm giác tội lỗi tự áp đặt đã ngăn cản sự phục hồi. Một hy vọng mong manh về sự bình yên bắt đầu xuất hiện khi cá nhân bắt đầu xử lý và giải phóng nỗi đau sâu sắc của mình."
+      },
+      "stress": {
+        "upright": "Căng thẳng đã đạt đến một điểm tới hạn, làm suy nhược, biểu hiện là nỗi lo âu áp đảo, lo lắng không ngừng và những đêm mất ngủ. Tâm trí là một chiến trường, không thể tìm thấy sự bình yên, dẫn đến sự sụp đổ về tinh thần và cảm xúc.",
+        "reversed": "Một bước ngoặt quan trọng nơi cá nhân nhận ra mức độ nghiêm trọng của căng thẳng và bắt đầu tích cực tìm kiếm sự giải thoát. Nó biểu thị một nỗ lực có ý thức để thực hiện các cơ chế đối phó, thiết lập ranh giới, hoặc ủy thác nhiệm vụ, dẫn đến sự giảm bớt dần dần, mặc dù thường khó khăn, gánh nặng tinh thần và một sự trở lại mong manh của sự cân bằng."
+      },
+      "trauma": {
+        "upright": "Sự kìm kẹp áp đảo và suy nhược của chấn thương chưa được xử lý, biểu hiện là những cơn ác mộng, hồi tưởng, cảm giác tội lỗi mãnh liệt và sự dày vò tinh thần sâu sắc. Cá nhân bị mắc kẹt trong một vòng luẩn quẩn của việc sống lại nỗi đau, không thể tìm thấy sự an ủi hoặc thoát khỏi nhà tù tinh thần của quá khứ.",
+        "reversed": "Hành trình gian khổ và dũng cảm của việc đối mặt và bắt đầu xử lý chấn thương. Nó biểu thị việc tìm kiếm sự giúp đỡ chuyên nghiệp, tìm không gian an toàn để chia sẻ, hoặc sự giải thoát dần dần khỏi những triệu chứng cấp tính nhất. Mặc dù nỗi đau vẫn còn, nhưng có một hy vọng mong manh và một cam kết chữa lành, thoát khỏi sự dày vò tức thời."
+      },
+      "exams": {
+        "upright": "Nỗi lo lắng thi cử tê liệt, dẫn đến những đêm mất ngủ, sự tự ti mãnh liệt và nỗi sợ thất bại làm tê liệt tâm trí. Mặc dù đã chuẩn bị, sự dày vò tinh thần ngăn cản tư duy rõ ràng và hiệu suất tự tin, biến kỳ thi thành nguồn gốc của nỗi sợ hãi sâu sắc.",
+        "reversed": "Sự giảm bớt dần dần của nỗi lo lắng liên quan đến kỳ thi, có lẽ thông qua các chiến lược học tập hiệu quả, kỹ thuật giảm căng thẳng, hoặc một sự thay đổi trong quan điểm. Nó biểu thị sự giải thoát khỏi những nỗi sợ hãi suy nhược nhất, cho phép một cách tiếp cận tập trung và bình tĩnh hơn đối với kỳ thi, ngay cả khi một số lo lắng vẫn còn. Đó là về việc đối mặt với nỗi sợ hãi và vượt qua nó."
+      },
+      "scholarship": {
+        "upright": "Nỗi lo âu, cảm giác tội lỗi hoặc hội chứng kẻ mạo danh mãnh liệt xung quanh một đơn xin hoặc giải thưởng học bổng. Nỗi sợ không đủ tốt, áp lực phải duy trì các tiêu chuẩn, hoặc ý nghĩa tài chính to lớn tạo ra những đêm mất ngủ và sự đau khổ tinh thần sâu sắc, ngay cả khi cơ hội là tích cực.",
+        "reversed": "Sự giải thoát chậm rãi nhưng ổn định khỏi áp lực và lo âu tự áp đặt liên quan đến học bổng. Nó gợi ý một sự chấp nhận ngày càng tăng về giá trị của bản thân, một cách tiếp cận chủ động để quản lý kỳ vọng, hoặc tìm kiếm các hệ thống hỗ trợ giúp giảm bớt gánh nặng tinh thần, cho phép cá nhân hoàn toàn nắm bắt cơ hội với ít nỗi sợ hãi hơn."
+      },
+      "talent": {
+        "upright": "Sự tự ti sâu sắc, nỗi sợ thất bại hoặc hội chứng kẻ mạo danh làm tê liệt sự thể hiện hoặc phát triển tài năng của một người. Cá nhân bị dày vò bởi áp lực phải thể hiện, nỗi sợ bị đánh giá, hoặc cảm giác không đủ năng lực, biến một món quà thành nguồn gốc của sự dày vò tinh thần và sự tắc nghẽn sáng tạo.",
+        "reversed": "Quyết định dũng cảm, dù thường đau đớn, để đối mặt với những nỗi sợ hãi đã kìm hãm tài năng của một người. Nó biểu thị một bước đi dè dặt hướng tới việc chấp nhận và thể hiện khả năng của bản thân, tìm kiếm sự xác nhận từ bên trong thay vì từ các nguồn bên ngoài, và từ từ giải phóng xiềng xích tinh thần đã trói buộc sự thể hiện sáng tạo."
+      },
+      "spirit_guide": {
+        "upright": "Một cuộc khủng hoảng tâm linh được đánh dấu bằng sự nghi ngờ sâu sắc, nỗi sợ hãi, hoặc cảm giác bị bỏ rơi bởi các hướng dẫn tâm linh của một người. Cá nhân trải qua những đêm mất ngủ tràn ngập nỗi sợ hãi hiện sinh, cảm thấy lạc lối, không được lắng nghe, hoặc bị dày vò bởi những lo lắng tâm linh, đấu tranh để kết nối hoặc tin tưởng vào sự hướng dẫn thiêng liêng.",
+        "reversed": "Một sự tái mở cửa mong manh nhưng sâu sắc đối với sự hướng dẫn tâm linh. Nó biểu thị sự giải thoát khỏi những lo lắng tâm linh cấp tính nhất, sự sẵn lòng tìm kiếm kết nối trở lại, hoặc một sự hiểu biết thầm lặng rằng các hướng dẫn luôn hiện diện ngay cả giữa sự hỗn loạn. Cá nhân bắt đầu chữa lành những vết thương tâm linh của mình, tìm thấy sự an ủi và một niềm tin mới, dù thận trọng, vào điều vô hình."
       }
     },
     "planet": "Sao Hỏa",
@@ -13998,6 +18246,78 @@ window.TAROT_DB = [
       "lost_item": {
         "upright": "Món đồ thất lạc đã hoàn toàn biến mất, không thể tìm thấy. Đây là một mất mát không thể đảo ngược.",
         "reversed": "Sự chấp nhận việc mất món đồ và buông bỏ, hoặc tìm thấy nó nhưng đã bị hư hại nghiêm trọng, không thể sử dụng."
+      },
+      "toxic_relationship": {
+        "upright": "Sự cắt đứt đau đớn và dứt khoát của một mối liên kết tàn phá, một sự giải thoát nghiệt ngã nhưng cần thiết khỏi xiềng xích hủy diệt. Cái chết của một ảo ảnh tình yêu.",
+        "reversed": "Quá trình rời bỏ một mối quan hệ độc hại bị kéo dài trong đau khổ, hoặc sự chậm rãi chấp nhận rằng sự giải thoát, dù đau đớn, là con đường duy nhất. Sự phục hồi từng bước sau vết thương sâu."
+      },
+      "soulmate": {
+        "upright": "Sự tan vỡ của ảo ảnh về một 'linh hồn tri kỷ' đã được lý tưởng hóa, thường kết thúc bằng sự phản bội sâu sắc hoặc sự vỡ mộng hoàn toàn. Một bài học nghiệp chướng được hoàn tất qua sự chia ly nghiệt ngã.",
+        "reversed": "Quá trình buông bỏ chậm rãi, day dứt một hình mẫu 'tri kỷ' lý tưởng nhưng cuối cùng lại gây tổn thương. Hoặc, sự phục hồi cần thiết sau khi mối liên kết đó tan vỡ, dẫn đến sự khám phá bản thân đích thực."
+      },
+      "reconciliation": {
+        "upright": "Một sự bất khả thi tuyệt đối. Những vết thương quá sâu, sự phản bội quá lớn để có thể hàn gắn thực sự. Cánh cửa này đã vĩnh viễn đóng lại.",
+        "reversed": "Một nỗ lực tuyệt vọng, có lẽ là vô ích, để hàn gắn những gì đã vỡ nát không thể cứu vãn. Hoặc, sự chấp nhận dần dần rằng sự hòa giải, theo đúng nghĩa, là không thể, nhưng một sự chia ly hòa bình có thể đạt được."
+      },
+      "secret_admirer": {
+        "upright": "Sự tiết lộ tàn khốc rằng một người ngưỡng mộ bí mật lại mang ý đồ xấu xa, hoặc mục đích của họ là thao túng, dẫn đến cảm giác bị phản bội và thất vọng sâu sắc. Ảo ảnh bị đập tan.",
+        "reversed": "Sự hé lộ chậm rãi về một người ngưỡng mộ bí mật mà ý định của họ bị hiểu lầm, hoặc họ có thể sẽ tiết lộ bản thân sau một thời gian đấu tranh nội tâm dữ dội, có lẽ tránh được một kết cục tiêu cực tiềm tàng. Hoặc, sự thật đau lòng về bản chất thật của họ dần được phơi bày."
+      },
+      "burnout": {
+        "upright": "Sự sụp đổ hoàn toàn về năng lượng và tinh thần. Chạm đáy về thể chất, tinh thần và cảm xúc. Một sự chấm dứt bắt buộc.",
+        "reversed": "Cuộc hành trình chậm rãi, gian khổ từ bờ vực kiệt quệ hoàn toàn. Một sự phục hồi dần dần sau khi kiệt sức, hoặc sự né tránh tuyệt vọng một sự sụp đổ hoàn toàn, có lẽ bằng cách cuối cùng lắng nghe tiếng kêu gọi nghỉ ngơi của cơ thể."
+      },
+      "startup": {
+        "upright": "Sự thất bại thảm khốc và sự sụp đổ hoàn toàn của một dự án. Một sự kết thúc cuối cùng, không thể đảo ngược, thường do những sự phản bội không lường trước hoặc những trở ngại không thể vượt qua.",
+        "reversed": "Một sự thoát hiểm trong gang tấc khỏi sự sụp đổ hoàn toàn, hoặc quá trình đau đớn để cứu vãn những gì còn lại sau một thất bại đáng kể. Một sự tái thiết chậm rãi, khó khăn hoặc quyết định cắt lỗ trước khi hoàn toàn phá sản."
+      },
+      "workplace_politics": {
+        "upright": "Nạn nhân cuối cùng của sự đâm sau lưng và thao túng, dẫn đến sự sụp đổ hoàn toàn, bị sa thải hoặc thất bại hoàn toàn trong bối cảnh chính trị công sở.",
+        "reversed": "Một sự thoát ly chậm rãi, đau đớn khỏi những cuộc đấu tranh quyền lực độc hại ở nơi làm việc, hoặc sự phục hồi dần dần sau khi trở thành mục tiêu. Học cách điều hướng hoặc thoát khỏi những vùng nước hiểm nguy sau một cú sốc đáng kể, tránh một sự sụp đổ sự nghiệp hoàn toàn."
+      },
+      "side_hustle": {
+        "upright": "Sự thất bại hoàn toàn và tuyệt đối của một dự án phụ. Một sự kết thúc dứt khoát cho giấc mơ, thường do kiệt sức, thiếu nguồn lực hoặc các yếu tố bên ngoài.",
+        "reversed": "Cuộc đấu tranh kéo dài để duy trì một công việc phụ, có lẽ tránh được sự sụp đổ hoàn toàn nhờ ý chí kiên cường, hoặc quyết định đau đớn nhưng cần thiết để từ bỏ nó trước khi nó hoàn toàn rút cạn nguồn lực chính của một người."
+      },
+      "real_estate": {
+        "upright": "Một mất mát tàn khốc, tịch biên tài sản, hoặc sự phá sản hoàn toàn liên quan đến bất động sản. Sự kết thúc của một kỷ nguyên, thường đi kèm với chi phí cảm xúc và vật chất đáng kể.",
+        "reversed": "Một sự thoát hiểm trong gang tấc khỏi một mất mát bất động sản thảm khốc, hoặc quá trình chậm rãi, đau đớn để phục hồi sau một thất bại liên quan đến tài sản, có lẽ bằng cách bán lỗ để ngăn chặn thiệt hại thêm."
+      },
+      "financial_loss": {
+        "upright": "Đáy vực tuyệt đối của sự phá sản tài chính. Một mất mát hoàn toàn và không thể đảo ngược, chạm đáy mà không có con đường nào nhìn thấy được ngay lập tức.",
+        "reversed": "Quá trình chậm rãi, gian khổ để thoát khỏi nợ nần chồng chất hoặc phục hồi sau một cú sốc tài chính đáng kể. Tránh hoàn toàn phá sản, hoặc tìm một con đường đau đớn nhưng cần thiết để tái thiết."
+      },
+      "sudden_wealth": {
+        "upright": "Một sự trớ trêu nghiệt ngã khi sự giàu có bất ngờ mang đến hình thức hủy diệt riêng, có lẽ thông qua sự phản bội, tranh chấp pháp lý hoặc áp lực quá lớn, cuối cùng dẫn đến một loại suy tàn khác. Lời nguyền của vận may bất ngờ.",
+        "reversed": "Sự nhận ra đau đớn rằng sự giàu có bất ngờ đi kèm với những hạn chế hủy diệt không lường trước, dẫn đến sự tan rã chậm rãi hoặc quyết định khó khăn để từ chối gánh nặng đó. Hoặc, một sự thoát hiểm trong gang tấc khỏi những hậu quả tiêu cực liên quan đến một dòng tiền nhanh chóng."
+      },
+      "healing": {
+        "upright": "Khoảnh khắc khủng hoảng tột cùng *trước* khi sự chữa lành thực sự bắt đầu. Người ta phải chạm đáy, nhận ra toàn bộ mức độ của vết thương, để quá trình này mới có thể khởi động. Đó là sự kết thúc của sự chối bỏ, đỉnh điểm của nỗi đau.",
+        "reversed": "Cuộc hành trình chậm rãi, gian khổ và thường đau đớn của sự phục hồi sau một vết thương sâu sắc. Một sự thoát ra dần dần khỏi vực thẳm của đau khổ, hoặc sự kháng cự không muốn thừa nhận hoàn toàn nỗi đau, do đó kéo dài quá trình chữa lành."
+      },
+      "stress": {
+        "upright": "Điểm giới hạn tuyệt đối của sự căng thẳng tinh thần và cảm xúc. Sụp đổ hoàn toàn dưới áp lực không thể chịu đựng được, dẫn đến sự ngừng hoạt đ���ng bắt buộc.",
+        "reversed": "Sự giải tỏa dần dần khỏi áp lực đè nặng, hoặc những bước đi chậm rãi, có chủ ý để phục hồi sau căng thẳng mãn tính trước khi sụp đổ hoàn toàn. Tránh được sự suy sụp tinh thần thông qua nỗ lực có ý thức."
+      },
+      "trauma": {
+        "upright": "Tác động thô sơ, tức thì của một sự kiện chấn thương tàn khốc, khiến một người hoàn toàn tan vỡ và bất lực. Khoảnh khắc của sự tổn thương sâu sắc.",
+        "reversed": "Quá trình chậm rãi, gian khổ để xử lý và tích hợp chấn thương trong quá khứ. Một sự thoát ra dần dần khỏi bóng tối của nó, hoặc cuộc hành trình đau đớn, thường đầy kháng cự, hướng tới việc thừa nhận và chữa lành những vết thương sâu sắc."
+      },
+      "exams": {
+        "upright": "Sự thất bại hoàn toàn và tuyệt đối, một thất bại nặng nề trong một nỗ lực học tập. Sự kết thúc dứt khoát của một con đường hoặc khát vọng giáo dục cụ thể.",
+        "reversed": "Một sự thoát hiểm trong gang tấc khỏi thất bại học tập, hoặc quá trình đau đớn của việc thi lại, đánh giá lại và dần dần nỗ lực để vượt qua sau một thất bại đáng kể. Tai họa được tránh, nhưng không phải không có đấu tranh."
+      },
+      "scholarship": {
+        "upright": "Sự mất mát hoặc từ chối tàn khốc một học bổng quan trọng, chấm dứt hiệu quả các cơ hội hoặc khát vọng giáo dục.",
+        "reversed": "Quá trình chậm rãi, gian khổ để kháng cáo việc từ chối học bổng, hoặc sự nhận ra đau đớn rằng các con đường tài chính thay thế, ít lý tưởng hơn, phải được theo đuổi sau một thất bại. Tránh được mất mát hoàn toàn, nhưng với nỗ lực đáng kể."
+      },
+      "talent": {
+        "upright": "Sự hủy diệt hoặc từ chối tuyệt đối tài năng của một người, có lẽ thông qua sự phản bội, thiếu công nhận hoặc tự phá hoại, dẫn đến sự từ bỏ hoàn toàn.",
+        "reversed": "Sự đòi lại chậm rãi, đau đớn một tài năng đ�� từng bị từ bỏ hoặc kìm nén. Một sự tái xuất hiện dần dần của khả năng sau một thời gian bỏ bê hoặc tuyệt vọng, hoặc quá trình khó khăn để vượt qua các rào cản nội tâm để thể hiện nó."
+      },
+      "spirit_guide": {
+        "upright": "Cảm giác sâu sắc về việc bị bỏ rơi hoặc phản bội hoàn toàn bởi sự hướng dẫn tâm linh của mình, dẫn đến cảm giác hoang vắng và mất phương hướng hoàn toàn. Một đêm tối của linh hồn nơi ánh sáng dường như đã tắt.",
+        "reversed": "Quá trình chậm rãi, gian khổ để kết nối lại với sự hướng dẫn tâm linh sau một thời gian nghi ngờ sâu sắc hoặc cảm giác bị bỏ rơi. Một sự tái thiết lập dần dần của niềm tin và sự thấu hiểu, hoặc cuộc hành trình khó khăn qua sự tuyệt vọng tâm linh hướng tới một sự hiểu biết mới."
       }
     },
     "planet": "Mặt Trời",
@@ -14233,6 +18553,78 @@ window.TAROT_DB = [
       "lost_item": {
         "upright": "Món đồ thất lạc có thể ở một nơi mới mẻ, hoặc bạn sẽ tìm thấy nó thông qua một thông tin bất ngờ. Hãy chú ý đến những manh mối nhỏ.",
         "reversed": "Món đồ bị mất do sự thiếu cẩn trọng, vội vàng hoặc bị đánh cắp bởi một người có ý đồ xấu."
+      },
+      "toxic_relationship": {
+        "upright": "Lá bài hé lộ tia sáng của nhận thức, một sự tò mò sắc bén muốn xuyên thấu màn sương che phủ bản chất thực sự của mối liên kết độc hại, tìm kiếm chân lý trong mê cung cảm xúc.",
+        "reversed": "Những lời nói sắc như dao găm, những lời thì thầm độc địa gieo rắc sự hoài nghi, khiến tâm trí bị mắc kẹt trong mạng lưới dối trá và hiểu lầm, ngăn cản khả năng thoát ly khỏi xiềng xích thao túng."
+      },
+      "soulmate": {
+        "upright": "Một luồng năng lượng trí tuệ mới bừng nở, sự kết nối linh hồn được thắp sáng qua những cuộc đối thoại sâu sắc, thách thức tư duy và mở rộng tầm nhìn tâm linh, như hai tia sáng tìm thấy nhau trong vũ trụ tri thức.",
+        "reversed": "Màn sương của sự hiểu lầm bao phủ, những lời nói không ăn khớp tạo nên khoảng cách, hoặc một mối liên kết trí tuệ chỉ hời hợt, ẩn chứa sự giả dối, không thể chạm tới chiều sâu của linh hồn."
+      },
+      "reconciliation": {
+        "upright": "Một cánh cửa trí tuệ mở ra cho sự hòa giải, mang đến cái nhìn mới mẻ và trong sáng về những xung đột cũ, thúc đẩy việc tìm kiếm sự thật và thấu hiểu lẫn nhau để hàn gắn vết thương tâm hồn.",
+        "reversed": "Những lời đồn thổi ác ý, sự thiếu minh bạch trong giao tiếp biến cuộc hòa giải thành chiến trường ngôn từ, hoặc sự từ chối đối mặt với sự thật, khiến vết nứt càng thêm sâu sắc."
+      },
+      "secret_admirer": {
+        "upright": "Một linh hồn quan sát từ xa, thu thập những mảnh ghép thông tin, gửi đi những tín hiệu tinh tế qua làn sóng tư tưởng, sự ngưỡng mộ thuần khiết nảy sinh từ sự thấu hiểu trí tuệ.",
+        "reversed": "Sự ngưỡng mộ biến thành sự theo dõi ám ảnh, hoặc những lời nói thì thầm không chân thật, ẩn chứa ý đồ thao túng, hoặc người ngưỡng mộ quá nhút nhát, không dám bộc lộ chân tình."
+      },
+      "burnout": {
+        "upright": "Sự cạn kiệt tinh thần, khi tâm trí không ngừng hoạt động, phân tích quá mức mọi khía cạnh, dẫn đến sự mệt mỏi cùng cực, như một ngọn nến cháy quá nhanh trong bóng đêm tri thức.",
+        "reversed": "Sự tê liệt của trí óc, sự từ chối tiếp nhận bất kỳ thông tin mới nào, một cái nhìn hoài nghi và cay độc đối với mọi ý tưởng, tâm hồn kiệt quệ và không còn khả năng phục hồi."
+      },
+      "startup": {
+        "upright": "Một tia sáng ý tưởng lóe lên, một cuộc phiêu lưu trí tuệ đầy nhiệt huyết, sự khao khát học hỏi và khám phá nh���ng con đường mới, đặt nền móng cho một đế chế tri thức.",
+        "reversed": "Những ý tưởng vĩ đại mãi mãi nằm trong bóng tối của sự trì hoãn, sự thiếu minh bạch trong kế hoạch, hoặc những lời hứa hão huyền không bao giờ thành hiện thực, làm tan biến tiềm năng."
+      },
+      "workplace_politics": {
+        "upright": "Một cái nhìn sắc sảo xuyên thấu màn kịch chốn công sở, sự tinh tế trong việc thu thập thông tin và nhận diện những dòng chảy quyền lực ngầm, giúp bạn đi qua mê cung của những âm mưu.",
+        "reversed": "Bị cuốn vào vòng xoáy của những lời đồn đại độc hại, trở thành nạn nhân hoặc kẻ gieo rắc sự chia rẽ bằng ngôn từ, làm suy yếu tinh thần đoàn kết và sự thật."
+      },
+      "side_hustle": {
+        "upright": "Một khát vọng khám phá con đường mới, một ý tưởng kinh doanh phụ nảy mầm từ sự tò mò trí tuệ, mở ra cánh cửa cho sự sáng tạo và tự chủ tài chính.",
+        "reversed": "Sự phân tán năng lượng trí tuệ, nh��ng lời hứa hẹn không được thực hiện, hoặc sự thiếu trung thực trong giao dịch, khiến giấc mơ về sự nghiệp phụ tan vỡ."
+      },
+      "real_estate": {
+        "upright": "Sự tinh tường trong việc nghiên cứu thị trường, khả năng phân tích sâu sắc các tài liệu pháp lý và nhận diện tiềm năng ẩn giấu, như một nhà thám hiểm tìm kiếm kho báu.",
+        "reversed": "Những thông tin sai lệch, những khiếm khuyết được che giấu, hoặc những hiểu lầm trong hợp đồng, khiến giao dịch trở nên phức tạp và tiềm ẩn rủi ro."
+      },
+      "financial_loss": {
+        "upright": "Một lời cảnh báo tinh thần, một tia sáng nhận thức về nguy cơ mất mát tài chính, thúc đẩy hành động phân tích và tìm kiếm giải pháp để bảo vệ tài sản.",
+        "reversed": "Sự mất mát do phán đoán sai lầm, bị lừa dối bởi thông tin không chính xác, hoặc không học hỏi từ những sai lầm trong quá khứ, khiến tài sản tan biến như khói sương."
+      },
+      "sudden_wealth": {
+        "upright": "Một luồng thông tin bất ngờ mang lại cơ hội tài chính, hoặc một sự khai sáng trí tuệ dẫn đến sự thịnh vượng, đòi hỏi sự quản lý thông minh và tầm nhìn xa trông rộng.",
+        "reversed": "Sự giàu có đến từ những con đường mờ ám, sự thiếu hiểu biết trong việc quản lý tài sản mới, hoặc những quyết định tài chính bốc đồng, khiến của cải nhanh chóng tiêu tan."
+      },
+      "healing": {
+        "upright": "Một hành trình trí tuệ hướng tới sự chữa lành, khao khát tìm hiểu sâu sắc về các phương pháp và nguyên nhân, mở ra cánh cửa cho sự phục hồi toàn diện.",
+        "reversed": "Sự phân tích quá mức mà thiếu hành động, thông tin sai lệch về sức khỏe, hoặc sự kháng cự trí tuệ đối với quá trình chữa lành, khiến vết thương tâm hồn mãi âm ỉ."
+      },
+      "stress": {
+        "upright": "Tâm trí bị bao vây bởi những suy nghĩ không ngừng, sự lo lắng bủa vây mọi giác quan, như một cơn bão dữ dội trong vũ trụ nội tâm, đòi hỏi sự kiểm soát và tĩnh lặng.",
+        "reversed": "Sự tê liệt tinh thần do căng thẳng, không thể tập trung hay sắp xếp suy nghĩ, hoặc những lời nói cay nghiệt tuôn ra từ áp lực, làm tổn thương cả bản thân và người khác."
+      },
+      "trauma": {
+        "upright": "Tia sáng đầu tiên của sự nhận thức về vết thương lòng, một khát vọng hiểu rõ cội nguồn và ý nghĩa của nó, bắt đầu hành trình đối diện và tìm cách giải thoát.",
+        "reversed": "Sự chối bỏ trí tuệ về vết thương, che giấu sự thật bằng những lời nói dối, hoặc bị mắc kẹt trong vòng xoáy của sự suy nghĩ không lối thoát, ngăn cản quá trình chữa lành."
+      },
+      "exams": {
+        "upright": "Sự chuẩn bị tinh thần sắc bén, khả năng tập trung cao độ, một tâm trí tràn đầy kiến thức sẵn sàng đối mặt với thử thách, như một chiến binh chuẩn bị ra trận.",
+        "reversed": "Sự trống rỗng trong tâm trí, những lời nói dối trong bài thi, hoặc sự lo lắng áp đảo khiến kiến thức bị phong tỏa, dẫn đến thất bại đáng tiếc."
+      },
+      "scholarship": {
+        "upright": "Sự cống hiến trí tuệ, khả năng trình bày ý tưởng sắc sảo, một tâm hồn khao khát tri thức được công nhận, mở ra cánh cửa cho những tầng cao mới của học vấn.",
+        "reversed": "Sự thiếu trung thực trong hồ sơ, sự kiêu ngạo trí tuệ, hoặc sự lơ là trong học tập, khiến cơ hội vàng tuột khỏi tầm tay."
+      },
+      "talent": {
+        "upright": "Một tài năng trí tuệ bẩm sinh, khả năng giao tiếp sắc bén, một con mắt tinh tường quan sát thế giới, tiềm năng của một tâm hồn sáng suốt đang chờ được khai phá.",
+        "reversed": "Tài năng bị chôn vùi trong sự sợ hãi, sử dụng trí tuệ cho mục đích xấu xa, hoặc sự trì trệ tinh thần khiến khả năng thiên phú không bao giờ được phát huy."
+      },
+      "spirit_guide": {
+        "upright": "Một kết nối mới với thế giới linh hồn, một vị đạo sư tinh thần mang đến những thông điệp sắc sảo, khai mở trí tuệ và dẫn lối trên con đường chân lý tâm linh.",
+        "reversed": "Sự hiểu lầm những thông điệp từ thế giới linh hồn, sự hoài nghi trí tuệ cản trở kết nối, hoặc bị lừa dối bởi những luồng năng lượng tiêu cực, lạc lối trong mê cung tâm linh."
       }
     },
     "planet": "Sao Thủy",
@@ -14467,6 +18859,78 @@ window.TAROT_DB = [
       "lost_item": {
         "upright": "Vật thất lạc có thể do bạn đã vội vàng cất giấu hoặc di chuyển nó một cách nhanh chóng mà không ghi nhớ. Cần sự tập trung và tái tạo lại hành động vội vã đó để tìm lại.",
         "reversed": "Vật mất có thể là do bị cướp đoạt, hoặc bị thất lạc trong một cuộc tranh cãi, xung đột gay gắt. Việc tìm kiếm có thể gặp khó khăn do sự hỗn loạn hoặc hành vi tiêu cực liên quan."
+      },
+      "toxic_relationship": {
+        "upright": "Sự xuất hiện của Kỵ Sĩ Kiếm chỉ ra một cuộc đối đầu trực diện với bản chất độc hại của mối quan hệ. Có thể là một sự bùng nổ của những lời nói sắc bén, những sự thật phũ phàng được phơi bày, hoặc một quyết định đột ngột để chấm dứt chuỗi tổn thương. Năng lượng này đòi hỏi sự dũng cảm để đối mặt với thực tế, dù cho cách thức có phần gay gắt và thiếu tế nhị.",
+        "reversed": "Trong mối quan hệ độc hại, Kỵ Sĩ Kiếm đảo ngược biểu thị sự hỗn loạn, thiếu quyết đoán hoặc sự hung hăng bị kìm nén, biến thành thao túng tinh thần. Bạn có thể chìm sâu hơn vào vòng xoáy tranh cãi vô tận, không có lối thoát, hoặc đối tác sử dụng lời lẽ sắc bén để gây tổn thương mà không có ý định giải quyết. Năng lượng này cảnh báo về sự trì hoãn trong việc đối mặt, hoặc một cuộc đối đầu không hiệu quả, chỉ làm tăng thêm sự cay đắng."
+      },
+      "soulmate": {
+        "upright": "Linh hồn tri kỷ của bạn đến như một luồng gió mạnh mẽ, khuấy động trí tuệ và thách thức mọi giới hạn tư duy. Mối liên kết này bùng nổ với sự chân thật, trực diện, và thường là một cuộc gặp gỡ định mệnh mang tính cách mạng, thúc đẩy cả hai cùng phát triển thông qua những cuộc đối thoại sâu sắc và đôi khi là những tranh luận nảy lửa, nhưng luôn hướng tới sự thật.",
+        "reversed": "Sự xuất hiện của một linh hồn tri kỷ tiềm năng bị cản trở bởi sự v���i vàng, xung đột hoặc sự hiểu lầm trí tuệ. Năng lượng này cho thấy một mối liên kết đầy hứa hẹn nhưng lại gặp phải sự thiếu kiên nhẫn, những cuộc tranh cãi không cần thiết hoặc sự cứng nhắc trong tư duy, khiến hai tâm hồn khó lòng hòa hợp trọn vẹn. Hoặc là sự do dự, sợ hãi đối mặt với cường độ của mối liên kết này."
+      },
+      "reconciliation": {
+        "upright": "Kỵ Sĩ Kiếm cho thấy một nỗ lực hòa giải đầy quyết đoán và trực diện. Đây không phải là sự xoa dịu nhẹ nhàng mà là một cuộc đối thoại thẳng thắn, thậm chí gay gắt, để giải quyết tận gốc rễ vấn đề. Có thể có một lời xin lỗi chân thành nhưng không kém phần mạnh mẽ, hoặc một yêu cầu rõ ràng để gác lại quá khứ và tiến về phía trước.",
+        "reversed": "Nỗ lực hòa giải bị cản trở bởi sự kiêu hãnh, sự cố chấp hoặc những lời lẽ sắc bén tiếp tục gây tổn thương. Sự hòa giải trở nên hỗn loạn, không có kết quả, hoặc chỉ là một giải pháp tạm thời không giải quyết được vấn đề cốt lõi. Năng lượng này cảnh báo về sự từ chối đối mặt với lỗi lầm hoặc sự thiếu khả năng thể hiện sự hối lỗi một cách chân thành, dẫn đến sự chia cắt kéo dài."
+      },
+      "secret_admirer": {
+        "upright": "Người ngưỡng mộ bí mật của bạn không còn giữ im lặng. Họ sẽ tiết lộ bản thân một cách bất ngờ, trực diện và đầy táo bạo, thường thông qua một hành động hoặc lời nói rõ ràng không thể nhầm lẫn. Sự ngưỡng mộ của họ xuất phát từ trí tuệ và sự mạnh mẽ của bạn, và họ sẽ không ngần ngại thể hiện điều đó.",
+        "reversed": "Người ngưỡng mộ bí mật đang đấu tranh với sự do dự, sợ hãi hoặc những suy nghĩ mâu thuẫn. Họ có thể thể hiện sự quan tâm thông qua những tín hiệu hỗn loạn, những lời phê bình ẩn ý hoặc sự thiếu nhất quán trong hành động. Năng lượng này cho thấy một sự ngưỡng mộ chân thành nhưng bị kìm hãm bởi sự thiếu tự tin hoặc sự quá phân tích, khiến họ không thể tiến lên một cách rõ ràng."
+      },
+      "burnout": {
+        "upright": "Kỵ Sĩ Kiếm báo hiệu một giai đoạn kiệt sức do sự thúc đẩy bản thân đến giới hạn, bỏ qua các tín hiệu cảnh báo của cơ thể và tâm trí. Đây là sự sụp đổ đột ngột sau một thời gian dài làm việc cật lực, hoặc một nhận thức đau đớn rằng tốc độ hiện tại là không bền vững. Trí óc bạn đã làm việc quá mức, dẫn đến sự quá tải và cần được giải phóng.",
+        "reversed": "Kiệt sức đã ăn sâu, dẫn đến sự mất mát hoàn toàn động lực, sự mệt mỏi tinh thần và một cái nhìn hoài nghi về mọi thứ. Trí óc bạn trở nên phân tán, không thể tập trung và liên tục bị giày vò bởi sự tự chỉ trích. Năng lượng này cho thấy sự bất lực trong việc tìm kiếm hướng đi mới, hoặc những nỗ lực phục hồi bị cản trở bởi sự thiếu nhất quán và sự hỗn loạn nội tâm, làm sâu sắc thêm trạng th��i kiệt quệ."
+      },
+      "startup": {
+        "upright": "Dự án khởi nghiệp của bạn sẽ được thúc đẩy bởi một động lực mạnh mẽ, sự đổi mới trí tuệ và một chiến lược tấn công thị trường đầy táo bạo. Bạn sẽ hành động nhanh chóng, không ngại phá vỡ các quy tắc và dẫn dắt bằng tầm nhìn rõ ràng, không ngừng nghỉ. Thành công đến từ sự quyết đoán và khả năng thích nghi nhanh chóng.",
+        "reversed": "Dự án khởi nghiệp gặp phải sự hỗn loạn trong thực hiện, xung đột nội bộ hoặc thiếu định hướng rõ ràng. Những quyết định vội vàng, kế hoạch kém cỏi hoặc sự cứng nhắc trong tư duy có thể dẫn đến thất bại. Năng lượng này cảnh báo về một người lãnh đạo quá hung hăng, gây mất lòng đối tác, hoặc một người quá do dự, không thể cam kết với một chiến lược nhất quán, dẫn đến sự trì trệ."
+      },
+      "workplace_politics": {
+        "upright": "Bạn sẽ tham gia vào chính trị nơi làm việc một cách trực diện, không ngại thách thức quyền lực hoặc phơi bày sự thật. Với trí tuệ sắc bén và khả năng hùng biện, bạn sẽ điều hướng các cuộc đấu đá quyền lực một cách mạnh mẽ, đôi khi là đối đầu để đạt được mục tiêu của mình. Sự thật sẽ được nói ra, dù có gây tranh cãi.",
+        "reversed": "Chính trị nơi làm việc trở nên độc hại, đặc trưng bởi sự đâm sau lưng, thao túng trí tuệ và những lời nói hung hăng không mục đích. Bạn có thể trở thành nạn nhân hoặc người gây ra những tin đồn, những cuộc đấu đá nhỏ nhặt. Năng lượng này cũng có thể chỉ ra sự choáng ngợp bởi môi trường chính trị, dẫn đến sự thiếu quyết đoán hoặc trở thành con tốt trong tay người khác."
+      },
+      "side_hustle": {
+        "upright": "Dự án phụ của bạn được bắt đầu với sự tập trung cao độ, sự tò mò trí tuệ và một động lực mạnh mẽ để nhanh chóng chứng minh khả năng tồn tại. Đây là lúc để học hỏi nhanh, thực hiện ý tưởng và tiếp thị một cách mạnh mẽ, hướng tới kết quả nhanh chóng. Sự sắc bén và quyết đoán sẽ là chìa khóa.",
+        "reversed": "Dự án phụ của bạn thiếu định hướng, sự nhất quán hoặc cam kết thực sự. Ý tưởng có thể phong phú nhưng việc thực hiện lại hỗn loạn, dẫn đến những nỗ lực phân tán và ít tiến bộ. Năng lượng này cũng có thể chỉ ra một cách tiếp cận quá khắt khe, liên tục phân tích mọi thứ đến mức tê liệt, hoặc một sự khởi đầu bốc đồng sau đó nhanh chóng bị bỏ rơi khi gặp thách thức."
+      },
+      "real_estate": {
+        "upright": "Một động thái nhanh chóng, dứt khoát và có thể là quyết liệt trong lĩnh vực bất động sản. Điều này có thể liên quan đến việc nắm bắt cơ hội, đàm phán gay gắt hoặc đưa ra một khoản đầu tư táo bạo. Quyết định được thúc đẩy bởi phân tích sắc bén và mong muốn mua bán nhanh chóng. Hành động nhanh chóng trong một thị trường cạnh tranh là điều cần thiết.",
+        "reversed": "Giao dịch bất động sản gặp phải những quyết định bốc đồng dẫn đến thua lỗ tài chính, hoặc sự thiếu quyết đoán gây bỏ lỡ cơ hội. Các cuộc đàm phán có thể trở nên quá đối đầu và đổ vỡ, hoặc thiếu chiến lược rõ ràng dẫn đến các khoản đầu tư kém hiệu quả. Năng lượng này cũng có thể chỉ ra việc bị ép buộc vào một thỏa thuận tồi hoặc không thể hành động dứt khoát khi cơ hội tốt xuất hiện."
+      },
+      "financial_loss": {
+        "upright": "Một khoản thua lỗ tài chính xảy ra đột ngột, có thể do một quyết định bốc đồng, một khoản đầu tư rủi ro hoặc một cuộc đối đầu trực tiếp thất bại. Khoản lỗ này rõ ràng, không thể phủ nhận và thường là hậu quả trực tiếp của hành động mạnh mẽ hoặc thiếu sự cân nhắc kỹ lưỡng trước khi hành động. Đây là một cú sốc tài chính rõ ràng và mạnh mẽ.",
+        "reversed": "Một khoản thua lỗ tài chính kéo dài, hỗn loạn và có thể trầm trọng hơn do sự thiếu quyết đoán, kế hoạch kém hoặc những sai lầm bốc đồng lặp đi lặp lại. Điều này có thể chỉ ra một chu kỳ đầu tư tồi tệ, không thể cắt lỗ hoặc bị mắc kẹt trong một kế hoạch lừa đảo. Năng lượng này mang tính hủy hoại, dẫn đến những vướng mắc tài chính sâu sắc hơn và cảm giác bị choáng ngợp bởi hoàn cảnh."
+      },
+      "sudden_wealth": {
+        "upright": "Sự giàu có bất ngờ đến nhanh chóng, có thể thông qua một dự án táo bạo, một khoản đầu tư quyết đoán hoặc một tài sản thừa kế bất ngờ đòi hỏi hành động nhanh chóng. Sự giàu có này thường là kết quả trực tiếp của trí tuệ sắc bén, tư duy chiến lược và lòng dũng cảm chấp nhận rủi ro có tính toán. Nó đòi hỏi sự thích nghi nhanh chóng và quản lý thông minh.",
+        "reversed": "Sự giàu có bất ngờ bị phung phí do chi tiêu bốc đồng, đầu tư liều lĩnh hoặc thiếu tầm nhìn xa. Lợi nhuận nhanh chóng dẫn đến thua lỗ nhanh chóng, vì cá nhân không thể quản lý sự giàu có mới một cách khôn ngoan. Năng lượng này cũng có thể chỉ ra sự giàu có có được bằng những phương tiện đáng ngờ hoặc hung hăng, dẫn đến những rắc rối trong tương lai hoặc xung đột nội tâm."
+      },
+      "healing": {
+        "upright": "Quá trình chữa lành được tiếp cận với tư duy trực diện, phân tích và chủ động. Điều này liên quan đến việc tích cực tìm kiếm giải pháp, đối mặt với các vấn đề cốt lõi và thực hiện một kế hoạch phục hồi rõ ràng. Đó là về sự hiểu biết trí tuệ về bệnh tật và thực hiện các bước quyết đoán, dù khó khăn, để đạt được sức khỏe.",
+        "reversed": "Quá trình chữa lành bị cản trở bởi sự kháng cự trí tuệ, sự phủ nhận hoặc một cách tiếp cận phục hồi phân tán. Có thể có sự bất lực trong việc đối mặt với nguyên nhân gốc rễ của bệnh tật, liên tục nghi ngờ các phương pháp điều trị hoặc xu hướng từ bỏ con đường này để theo con đường khác mà không cho bất cứ điều gì có cơ hội phát huy tác dụng. Điều này dẫn đến sự đau khổ kéo dài, thất vọng và cảm giác bị mắc kẹt trong quá trình chữa lành."
+      },
+      "stress": {
+        "upright": "Căng thẳng biểu hiện dưới dạng áp lực tinh thần dữ dội, áp đảo, thường do sự theo đuổi mục tiêu không ngừng nghỉ hoặc không thể chậm lại. Tâm trí liên tục chạy đua, suy nghĩ quá mức và tham gia vào các cuộc chiến nội tâm. Căng thẳng này sắc nét, cấp tính và có thể dẫn đến những cơn bùng phát đột ngột hoặc kiệt sức tinh thần.",
+        "reversed": "Căng thẳng trở nên mãn tính, dẫn đến tê liệt tinh thần, thiếu quyết đoán và cảm giác lo lắng lan tỏa. Tâm trí phân tán, không thể tập trung và liên tục bị giày vò bởi những lo lắng thiếu định hướng rõ ràng. Điều này có thể biểu hiện dưới dạng cứng nhắc trí tuệ, tự chỉ trích liên tục hoặc một chu kỳ suy nghĩ quá mức mà không có giải pháp, làm sâu sắc thêm trạng thái đau khổ tinh thần."
+      },
+      "trauma": {
+        "upright": "Chấn thương được đối mặt trực tiếp, thậm chí quyết liệt, trong nỗ lực hiểu và vượt qua nó thông qua phân tích trí tuệ và hành động dứt khoát. Điều này có thể liên quan đến liệu pháp chuyên sâu, xử lý trực tiếp những ký ức khó khăn hoặc nỗ lực mạnh mẽ để vượt qua nỗi đau. Cách tiếp cận này táo bạo, nhưng cũng có thể tái chấn thương nếu không được xử lý cẩn thận.",
+        "reversed": "Chấn thương biểu hiện dưới dạng hỗn loạn tinh thần áp đảo, không thể xử lý các sự kiện trong quá khứ hoặc một chu kỳ suy nghĩ và tự trách mình hủy hoại. Cá nhân có thể bị mắc kẹt trong các vòng lặp trí tuệ, không thể thoát khỏi quá khứ hoặc hành động bốc đồng theo những cách làm trầm trọng thêm chấn thương. Có một sự kháng cự đối với việc chữa lành, hoặc những nỗ lực chữa lành bị phân tán và không hiệu quả, dẫn đến những vết thương tình cảm sâu sắc hơn."
+      },
+      "exams": {
+        "upright": "Một cách tiếp cận các kỳ thi tập trung, mãnh liệt và mang tính cạnh tranh cao. Cá nhân có động lực, sắc bén và sẵn sàng đối mặt với thử thách. Họ sẽ học tập chăm chỉ, tiếp thu thông tin nhanh chóng và thể hiện sự chính xác về trí tuệ, thường xuất sắc nhờ bản chất trực diện và đầy tham vọng của mình.",
+        "reversed": "Các kỳ thi được tiếp cận với sự lo lắng, chuẩn bị kém do tập trung phân tán hoặc nhồi nhét bốc đồng vào phút cuối không hiệu quả. Có thể có xu hướng suy nghĩ quá mức, nghi ngờ câu trả lời hoặc tham gia vào hành vi tự phá hoại. Năng lượng trí tuệ có mặt nhưng bị định hướng sai, dẫn đến hiệu suất kém, thất vọng hoặc thậm chí thất bại do thiếu chiến lược mạch lạc hoặc tắc nghẽn tinh thần."
+      },
+      "scholarship": {
+        "upright": "Học bổng được theo đuổi với sự quyết tâm mãnh liệt, sự xuất sắc trong trí tuệ và một hồ sơ ứng tuyển hấp dẫn thể hiện kỹ năng phân tích sắc bén và tham vọng học thuật rõ ràng. Thành công đến từ việc trình bày trực tiếp, quyết đoán những giá trị của bản thân và một hồ sơ học tập mạnh mẽ, chứng minh sự vượt trội về trí tuệ.",
+        "reversed": "Cơ hội học bổng bị bỏ lỡ do sự thiếu quyết đoán, hồ sơ ứng tuyển được trình bày kém hoặc thiếu cam kết thực sự. Tiềm năng trí tuệ có thể có, nhưng nó bị lu mờ bởi sự thiếu tổ chức, không thể diễn đạt ý tưởng rõ ràng hoặc thái độ hoài nghi đối với quá trình này. Nó cũng có thể chỉ ra một lời đề nghị học bổng đi kèm với những ràng buộc hoặc dẫn đến những áp lực học thuật bất ngờ gây choáng ngợp."
+      },
+      "talent": {
+        "upright": "Tài năng được thể hiện với sự tự tin táo bạo, sự rõ ràng về trí tuệ và một cách tiếp cận trực tiếp, thường mang tính tiên phong. Cá nhân này không sợ hãi thể hiện khả năng độc đáo của mình, vượt qua ranh giới và sử dụng tr�� óc sắc bén của họ để đổi mới và xuất sắc. Tài năng của họ là không thể phủ nhận và được trình bày với sức mạnh và niềm tin.",
+        "reversed": "Tài năng bị kìm hãm bởi sự tự ti, sự kiêu ngạo trí tuệ dẫn đến sự tự mãn hoặc một ứng dụng kỹ năng hỗn loạn, không nhất quán. Cá nhân có thể quá khắt khe với công việc của mình, không thể cam kết với một con đường hoặc sử dụng tài năng của mình một cách hủy hoại hoặc tự phá hoại. Tiềm năng có, nhưng nó bị phân tán, định hướng sai hoặc không được sử dụng do xung đột nội tâm."
+      },
+      "spirit_guide": {
+        "upright": "Một linh hồn dẫn dắt xuất hiện như một sự hiện diện mạnh mẽ, trực diện và thách thức về mặt trí tuệ. Vị dẫn dắt này thúc đẩy bạn đối mặt với sự thật, hành động dứt khoát và làm sắc bén sự minh mẫn tinh thần của bạn. Họ đưa ra lời khuyên thẳng thắn, có thể hơi thẳng thừng, nhằm thúc đẩy sự phát triển tâm linh nhanh chóng và lòng dũng cảm trong hành trình của bạn.",
+        "reversed": "Một linh hồn dẫn dắt có thông điệp bị hiểu sai, bị bỏ qua do sự kháng cự trí tuệ hoặc bị coi là quá hung hăng và khó hiểu. Điều này cũng có thể biểu thị một giai đoạn mà sự hướng dẫn tâm linh cảm thấy hỗn loạn, mâu thuẫn hoặc vắng mặt, dẫn đến sự bối rối và thiếu quyết đoán trên con đường của bạn. Đó có thể là một thử thách về sự sáng suốt, nơi bạn đấu tranh để phân biệt sự hướng dẫn thực sự với tiếng ồn tinh thần hoặc nỗi sợ hãi, dẫn đến cảm giác bị lạc lối."
       }
     },
     "planet": "Sao Thủy",
@@ -14702,6 +19166,78 @@ window.TAROT_DB = [
       "lost_item": {
         "upright": "Món đồ thất lạc có thể được tìm thấy nhờ vào khả năng suy luận sắc bén và sự sắp xếp logic của bạn. Hãy rà soát lại những nơi bạn đã đặt đồ một cách có chủ đích, nơi cần sự ngăn nắp.",
         "reversed": "Vật phẩm mất đi do sự bừa bộn, thiếu ngăn nắp hoặc do bị đánh cắp bởi một kẻ xảo quyệt. Sự thiếu cẩn trọng trong việc bảo quản đồ đạc đã dẫn đến hậu quả khó cứu vãn."
+      },
+      "toxic_relationship": {
+        "upright": "Nữ Hoàng Kiếm hiển linh, soi rọi sự thật trần trụi của mối quan hệ độc hại. Với trí tuệ sắc bén, nàng cắt đứt mọi sợi dây lừa dối, thiết lập ranh giới vững chắc và yêu cầu sự minh bạch tuyệt đối, giải thoát linh hồn khỏi xiềng xích thao túng.",
+        "reversed": "Khi đảo ngược, Nữ Hoàng Kiếm cảnh báo về sự sa lầy trong mối quan hệ độc hại, nơi trí tuệ bị dùng để biện minh cho nỗi đau, hoặc sự cay đắng biến thành vũ khí, khiến người ta trở thành nạn nhân hoặc kẻ gây tổn thương bằng lời nói sắc lạnh."
+      },
+      "soulmate": {
+        "upright": "Một mối liên kết linh hồn được dệt nên từ sự thấu hiểu trí tuệ sâu sắc, giao tiếp chân thật và ranh giới tôn trọng. Đây là sự kết nối của những tâm hồn độc lập, tìm thấy sự đồng điệu trong tư duy và sự minh bạch trong cảm xúc, vượt lên trên những ham muốn phù phiếm.",
+        "reversed": "Mối liên kết linh hồn bị vẩn đục bởi sự xa cách trí tuệ, phán xét khắc nghiệt hoặc nỗi sợ hãi sự dễ bị tổn thương, ngăn cản sự gần gũi thực sự. Trí óc sắc bén trở thành bức tường ngăn cách thay vì cầu nối."
+      },
+      "reconciliation": {
+        "upright": "Sự hòa giải được dẫn lối bởi trí tuệ minh mẫn và ý chí chân thật. Nàng đòi hỏi sự đối diện thẳng thắn với quá khứ, phân tích khách quan mọi vấn đề và thiết lập những nguyên tắc rõ ràng cho tương lai, không dung thứ cho sự mơ hồ hay lẩn tránh.",
+        "reversed": "Hòa giải trở nên khó khăn do sự chai sạn của tâm hồn, sự cố chấp trong tư duy hoặc nỗi cay đắng chưa được hóa giải. Trí óc bị mắc kẹt trong việc biện minh cho những vết thương cũ, thay vì mở lòng đón nhận sự chữa lành."
+      },
+      "secret_admirer": {
+        "upright": "Nữ Hoàng Kiếm, với trực giác nhạy bén và khả năng phân tích tinh tế, có thể nhận ra những dấu hiệu của người hâm mộ bí mật qua những tín hiệu vô hình. Nàng đánh giá cao sự thông minh và độc lập, và sẽ chờ đợi một lời bày tỏ rõ ràng, không úp mở.",
+        "reversed": "Sự nghi ngờ và hoang tưởng trí tuệ có thể khiến Nữ Hoàng Kiếm hiểu sai ý định của người hâm mộ. Hoặc người bí mật đó có thể là kẻ thao túng, sử dụng lời nói để che đậy ý đồ, khiến nàng phải cảnh giác tột độ."
+      },
+      "burnout": {
+        "upright": "Nàng nhận biết rõ ràng dấu hiệu của sự kiệt quệ tinh thần, sử dụng trí tuệ để vạch ra chiến lược nghỉ ngơi, thiết lập ranh giới không thể lay chuyển để bảo vệ tâm trí, và ưu tiên sự minh mẫn hơn mọi nỗ lực không ngừng nghỉ.",
+        "reversed": "Sự kiệt sức tinh thần trở nên trầm trọng do sự cố chấp trong tư duy, không chịu nghỉ ngơi, hoặc sự khắc nghiệt với bản thân. Nàng đẩy mình vượt quá giới hạn, dẫn đến sự u uất và hoài nghi sâu sắc."
+      },
+      "startup": {
+        "upright": "Một dự án khởi nghiệp được xây dựng trên nền tảng logic vững chắc, kế hoạch kinh doanh rõ ràng, thực thi chính xác và phân tích thị trường khách quan. Nàng lãnh đạo bằng trí tuệ, sự quyết đoán và tầm nhìn chiến lược sắc sảo.",
+        "reversed": "Dự án khởi nghiệp bị đình trệ bởi sự cứng nhắc trong tư duy, không thể thích nghi, hoặc những lời chỉ trích gay gắt nội bộ. Sự thiếu linh hoạt về trí tuệ và giao tiếp kém hiệu quả có thể dẫn đến hỗn loạn."
+      },
+      "workplace_politics": {
+        "upright": "Nàng điều hướng chốn công sở với trí tuệ sắc bén, xuyên thấu mọi âm mưu thao túng, nói lên sự thật mà không sợ hãi và duy trì sự chính trực. Nàng là một đồng minh đáng gờm hoặc một đối thủ không thể xem thường.",
+        "reversed": "Trí tuệ bị lạm dụng vào những cuộc đấu đá, buôn chuyện hoặc chỉ trích vô cớ. Nàng có thể trở thành nạn nhân của chính những lời nói cay nghiệt của mình, hoặc bị cuốn vào vòng xoáy chính trị vì sự yếu đuối cảm xúc."
+      },
+      "side_hustle": {
+        "upright": "Một công việc tay trái được lựa chọn vì thử thách trí tuệ hoặc tính ứng dụng thực tế, được quản lý bằng kỷ luật, mục tiêu rõ ràng và sự sắp xếp thời gian hiệu quả. Nàng biến sở thích thành một nguồn lực trí tuệ.",
+        "reversed": "Công việc tay trái trở thành gánh nặng do sự suy nghĩ quá mức, thiếu mục đích rõ ràng, hoặc sự tự phê bình gay gắt về tiến độ. Trí óc bị mắc kẹt trong vòng lặp lo âu, cản trở sự phát triển."
+      },
+      "real_estate": {
+        "upright": "Các giao dịch bất động sản được tiếp cận với sự nghiên cứu tỉ mỉ, hợp đồng rõ ràng, định giá khách quan và đàm phán khôn ngoan. Mọi quyết định đều dựa trên dữ kiện, không bị cảm xúc chi phối.",
+        "reversed": "Vấn đề phát sinh từ sự bỏ sót về trí tuệ, lời khuyên pháp lý kém cỏi, sự cố chấp trong đàm phán hoặc sự gắn bó cảm xúc làm mờ đi phán đoán, dẫn đến những điều khoản bất lợi."
+      },
+      "financial_loss": {
+        "upright": "Đối mặt với mất mát tài chính bằng sự phân tích tỉnh táo, rút kinh nghiệm từ sai lầm, điều chỉnh chính xác và cắt giảm chi tiêu không cần thiết với sự quyết đoán lạnh lùng, không để cảm xúc lấn át lý trí.",
+        "reversed": "Mất mát bị chồng chất bởi sự tê liệt trí tuệ, nỗi cay đắng, đổ lỗi cho người khác, hoặc đưa ra những quyết định bốc đồng, thiếu suy nghĩ trong tuyệt vọng, không thể học hỏi từ sai lầm."
+      },
+      "sudden_wealth": {
+        "upright": "Tài s���n bất ngờ được quản lý bằng trí tuệ, đầu tư khôn ngoan, sử dụng chiến lược và không để sự giàu có làm hỏng phán đoán. Nàng thiết lập ranh giới rõ ràng với những yêu cầu mới, bảo vệ sự độc lập của mình.",
+        "reversed": "Sự giàu có bất ngờ dẫn đến sự kiêu ngạo trí tuệ, phán đoán kém trong chi tiêu, trở thành mục tiêu của những kẻ thao túng, hoặc sử dụng tài sản để kiểm soát người khác, đánh mất sự minh mẫn ban đầu."
+      },
+      "healing": {
+        "upright": "Sự chữa lành đến từ việc thấu hiểu rõ ràng nguyên nhân gốc rễ, xử lý nỗi đau một cách trí tuệ, thiết lập ranh giới để bảo vệ sức khỏe tinh thần và tìm kiếm giải pháp hợp lý. Sự minh mẫn của tâm trí là chìa khóa phục hồi.",
+        "reversed": "Quá trình chữa lành bị cản trở bởi việc lý giải hóa nỗi đau mà không thực sự cảm nhận, sự xa cách cảm xúc ngăn cản công việc sâu sắc, sự tự phán xét khắc nghiệt, hoặc dùng logic để phủ nhận nhu cầu chữa lành."
+      },
+      "stress": {
+        "upright": "Nàng xác định chính xác các yếu tố gây căng thẳng, sử dụng trí tuệ để tạo ra các chiến lược đối phó, thiết lập ranh giới vững chắc để bảo vệ sự bình yên tinh thần và tìm kiếm các giải pháp khách quan.",
+        "reversed": "Căng thẳng dẫn đến sự suy nghĩ quá mức, vòng lặp tinh thần không lối thoát, tự phê bình gay gắt, không thể nói lên nhu cầu của bản thân, hoặc dùng lý trí để trốn tránh gốc rễ cảm xúc của căng thẳng."
+      },
+      "trauma": {
+        "upright": "Tiếp cận chấn thương với mong muốn rõ ràng để hiểu và xử lý nó một cách trí tuệ, tìm kiếm sự giúp đỡ chuyên nghiệp, và sử dụng sự phân định để tách biệt sự thật khỏi ký ức méo mó, thiết lập ranh giới cho quá trình phục hồi.",
+        "reversed": "Chấn thương dẫn đến việc trí tuệ hóa như một cơ chế phòng vệ, sự tê liệt cảm xúc, cay đắng, không thể diễn đạt trải nghiệm, hoặc sử dụng nỗi đau trong quá khứ để biện minh cho sự khắc nghiệt hiện tại."
+      },
+      "exams": {
+        "upright": "Thành công đến từ sự chuẩn bị tỉ mỉ, tư duy rõ ràng, kỹ năng phân tích sắc bén và khả năng trình bày kiến thức chính xác. Nàng bình tĩnh và tập trung cao độ dưới áp lực, đạt được kết quả xứng đáng.",
+        "reversed": "Thất bại do suy nghĩ quá mức, tắc nghẽn tinh thần, không thể tập trung, tự phê bình gay gắt, hoặc sự kiêu ngạo trí tuệ dẫn đến sự chuẩn bị không đầy đủ. Trí óc trở thành rào cản."
+      },
+      "scholarship": {
+        "upright": "Học bổng được trao dựa trên năng lực trí tuệ, thành tích học tập rõ ràng, bài luận sắc sảo và khả năng tư duy phản biện đã được chứng minh. Đây là biểu tượng của sự độc lập và thành tựu trí tuệ.",
+        "reversed": "Cơ hội học bổng bị bỏ lỡ do sự cứng nhắc trí tuệ trong hồ sơ, giao tiếp ý tưởng kém hiệu quả, hoặc thái độ chỉ trích bị coi là kiêu ngạo thay vì n��ng lực thực sự, khiến nàng mất đi cơ hội vàng."
+      },
+      "talent": {
+        "upright": "Tài năng nằm ở trí tuệ sắc bén, khả năng phân tích, giao tiếp rõ ràng, tư duy chiến lược và khả năng xuyên thấu sự phức tạp. Đó là món quà của sự phân định và chân lý, giúp nàng nhìn rõ bản chất mọi sự.",
+        "reversed": "Tài năng bị lạm dụng thông qua sự phán xét quá mức, sự kênh kiệu trí tuệ, sử dụng lời nói để gây tổn thương, hoặc một trí óc xuất chúng bị kìm hãm bởi sự hoài nghi và cay đắng, không thể phát huy hết tiềm năng."
+      },
+      "spirit_guide": {
+        "upright": "Một linh hồn dẫn lối giao tiếp thông qua những suy nghĩ rõ ràng, cái nhìn sâu sắc logic, chân lý khách quan và giúp phân định ảo ảnh khỏi thực tại. Hướng dẫn của họ trực tiếp và kích thích trí tuệ.",
+        "reversed": "Hiểu sai hướng dẫn tâm linh do sự cố chấp trí tuệ, hoài nghi, hoặc nhận được hướng dẫn thúc đẩy sự phán xét khắc nghiệt, xa cách cảm x��c hoặc sự kiêu ngạo trí tuệ, dẫn đến lạc lối."
       }
     },
     "planet": "Sao Kim",
@@ -14937,6 +19473,78 @@ window.TAROT_DB = [
       "lost_item": {
         "upright": "Món đồ thất lạc có thể được tìm thấy bằng cách áp dụng tư duy logic, hệ thống và sự tỉ mỉ. Hãy rà soát lại các khu vực một cách có tổ chức, nơi cần sự quản lý chặt chẽ.",
         "reversed": "Vật phẩm mất đi do sự thiếu tổ chức, quản lý lỏng lẻo hoặc do bị đánh cắp bởi một người có mưu đồ. Sự chủ quan và thiếu cẩn trọng đã dẫn đến hậu quả khó cứu vãn."
+      },
+      "toxic_relationship": {
+        "upright": "Mối quan hệ này bị chi phối bởi sự kiểm soát trí tuệ, những lời lẽ sắc bén và nhu cầu về sự thật tuyệt đối, dẫn đến sự lạnh nhạt về cảm xúc hoặc một động lực quyền lực nơi một đối tác ra lệnh bằng logic lạnh lùng. Nó có thể kích thích trí tuệ nhưng cằn cỗi về mặt cảm xúc.",
+        "reversed": "Động lực này xoáy sâu vào sự tàn nhẫn, thao túng trí tuệ, lạm dụng lời nói và sự khăng khăng độc đoán vào logic sai lệch của một người, bóp nghẹt tiếng nói và tinh thần của đối tác kia. Giao tiếp trở thành vũ khí, không phải cầu nối."
+      },
+      "soulmate": {
+        "upright": "Một kết nối tri kỷ được xây dựng trên sự hiểu biết trí tuệ sâu sắc, các nguyên tắc chung và sự tôn trọng lẫn nhau đối với sự thật và logic. Đó là một sự kết hợp nơi các tâm hồn gặp gỡ và thách thức nhau cùng phát triển, mang lại sự rõ ràng và mối quan hệ đối tác khách quan.",
+        "reversed": "Con đường đến với tri kỷ bị cản trở bởi sự cứng nhắc về trí tuệ, sự bất lực trong việc thỏa hiệp, hoặc một lập trường phòng thủ, hay tranh cãi đẩy mối liên hệ thực sự ra xa. Một người có thể đang tìm kiếm sự hoàn hảo trí tuệ hơn là sự cộng hưởng cảm xúc."
+      },
+      "reconciliation": {
+        "upright": "Hòa giải có thể thực hiện được thông qua đối thoại trung thực, trực tiếp và hợp lý, nơi cả hai bên sẵn sàng đối mặt với sự thật, đặt ra ranh giới rõ ràng và áp dụng lý trí vào các xung đột trong quá khứ. Nó đòi hỏi giao tiếp trưởng thành và tập trung vào giải quyết khách quan.",
+        "reversed": "Hòa giải bị cản trở bởi sự bướng bỉnh, sự không sẵn lòng thừa nhận lỗi lầm, hoặc việc sử dụng những lời lẽ gay gắt và logic buộc tội chỉ làm sâu sắc thêm rạn nứt. Mong muốn “chiến thắng” một cuộc tranh luận lấn át mong muốn hòa bình."
+      },
+      "secret_admirer": {
+        "upright": "Người ngưỡng mộ có khả năng là người phân tích, quan sát và có lẽ giữ khoảng cách do nhu cầu về sự chắc chắn trí tuệ hoặc thời điểm chiến lược. Sự ngưỡng mộ của họ xuất phát từ sự tôn trọng trí tuệ và sự hiểu biết sâu sắc về tâm trí bạn.",
+        "reversed": "Ý định của người ngưỡng mộ có thể bị che mờ bởi một chương trình nghị sự thao túng, những trò chơi trí tuệ, hoặc một cách tiếp cận thụ động-hung hăng tạo ra sự bối rối hơn là kết nối thực sự. Sự ngưỡng mộ của họ có thể là một công cụ để kiểm soát."
+      },
+      "burnout": {
+        "upright": "Sự kiệt sức phát sinh từ sự gắng sức tinh thần không ngừng nghỉ, nhu cầu liên tục về sự rõ ràng, phân tích và tư duy chiến lược mà không có đủ thời gian nghỉ ngơi. Tâm trí bị đẩy đến giới hạn, dẫn đến kiệt quệ tinh thần và sự tách rời cảm xúc khỏi công việc.",
+        "reversed": "Sự kiệt sức trở nên trầm trọng hơn bởi sự cứng nhắc trí tuệ, sự bất lực trong việc ủy thác hoặc thích nghi, hoặc một sự tự đánh giá phê phán liên tục làm cạn kiệt nguồn lực tinh thần. Đó là một tâm trí bị mắc kẹt trong vòng luẩn quẩn của suy nghĩ quá nhiều và tự hành hạ."
+      },
+      "startup": {
+        "upright": "Một công ty khởi nghiệp được dẫn dắt bởi trí tuệ sắc bén, tầm nhìn rõ ràng, kế hoạch chiến lược và khả năng lãnh đạo quyết đoán. Thành công được tạo ra thông qua phân tích logic, đổi mới và một cách tiếp cận có kỷ luật để giải quyết v��n đề. Nó phát triển mạnh nhờ năng lực trí tuệ.",
+        "reversed": "Công ty khởi nghiệp đối mặt với sự sụp đổ do phán đoán kém, sự kiêu ngạo trí tuệ, quản lý vi mô, hoặc một phong cách lãnh đạo quá chỉ trích, cứng nhắc hoặc thiếu quyết đoán. Thiếu sự ứng dụng thực tế của những ý tưởng xuất sắc."
+      },
+      "workplace_politics": {
+        "upright": "Điều hướng chính trị nơi làm việc bằng trí tuệ sắc bén, tư duy chiến lược và cam kết với sự thật và công bằng. Một người có thể xuyên thủng sự lừa dối và duy trì sự chính trực, sử dụng logic để gây ảnh hưởng và giải quyết xung đột.",
+        "reversed": "Vướng mắc vào chính trị nơi làm việc thông qua các chiến thuật thao túng, sự thiếu trung thực về trí tuệ, đâm sau lưng, hoặc lạm dụng quyền lực để giành lợi thế. Nó biểu thị một môi trường độc hại nơi lời nói được sử dụng làm vũ khí."
+      },
+      "side_hustle": {
+        "upright": "Một công việc phụ đòi hỏi kỹ năng trí tuệ, lập kế hoạch chiến lược hoặc kiến thức chuyên môn. Đó là việc áp dụng một tư duy sắc bén vào một dự án mới, đòi hỏi sự rõ ràng, kỷ luật và thực hiện khách quan.",
+        "reversed": "Công việc phụ gặp khó khăn do suy nghĩ quá nhiều, tê liệt phân tích, thiếu định hướng rõ ràng, hoặc sự kiêu ngạo trí tuệ ngăn cản việc học hỏi và thích nghi. Nó cũng có thể liên quan đến các hành vi phi đạo đức."
+      },
+      "real_estate": {
+        "upright": "Các giao dịch bất động sản được đặc trưng bởi phân tích tỉ mỉ, hợp đồng rõ ràng, tư vấn pháp lý đúng đắn và ra quyết định khách quan. Đó là việc đưa ra những lựa chọn thông minh, có cơ sở dựa trên logic và sự hiểu biết thị trường.",
+        "reversed": "Các dự án bất động sản bị ảnh hưởng bởi sự thiếu trung thực trí tuệ, hợp đồng gây hiểu lầm, tư vấn pháp lý kém, hoặc các quyết định dựa trên logic sai lầm hoặc chiến thuật thao túng. Hãy cẩn thận với các điều khoản ẩn hoặc các hành vi lừa đảo."
+      },
+      "financial_loss": {
+        "upright": "Mất mát tài chính bắt nguồn từ một cách tiếp cận quá phân tích hoặc tách rời đã bỏ lỡ những sắc thái cảm xúc hoặc thực tế quan trọng, hoặc một quyết định được đưa ra bằng logic lạnh lùng đã bỏ qua các yếu tố con người. Nó cũng có thể biểu thị một sự cắt giảm logic cần thiết, mặc dù đau đớn.",
+        "reversed": "Mất mát tài chính do phán đoán kém, sự cứng nhắc trí tuệ, từ chối thích nghi một cách bướng bỉnh, hoặc bị lừa gạt bởi trí tuệ sắc bén, thao túng. Nó chỉ ra một sự thất bại trong việc nhìn thấu sự lừa dối hoặc một lập trường trí tuệ tự hủy hoại."
+      },
+      "sudden_wealth": {
+        "upright": "Sự giàu có đột ngột có được thông qua kế hoạch chiến lược xuất sắc, cái nhìn sâu sắc trí tuệ, hoặc một động thái quyết đoán, đúng lúc dựa trên phân tích khách quan. Đó là sự giàu có kiếm được thông qua năng lực tinh thần và tầm nhìn rõ ràng.",
+        "reversed": "Sự giàu có đột ngột có được thông qua các phương tiện phi đạo đức, thao túng, hoặc bóc lột trí tuệ người khác. Hoặc, sự giàu có mang theo những gánh nặng trí tuệ, các cuộc chiến pháp lý, hoặc sự kiểm soát độc đoán đối với các nguồn lực."
+      },
+      "healing": {
+        "upright": "Chữa lành được tìm thấy thông qua sự hiểu biết trí tuệ, tự đánh giá khách quan và đối mặt với những sự thật khó khăn bằng sự rõ ràng và tách rời. Đó là việc xử lý chấn thương thông qua logic và đạt được quan điểm để tiến về phía trước.",
+        "reversed": "Việc chữa lành bị chặn bởi việc trí tuệ hóa cảm xúc quá mức, sự bất lực trong việc kết nối với những cảm xúc sâu sắc hơn, hoặc bám víu vào những niềm tin cứng nhắc ngăn cản sự giải phóng cảm xúc. Nó cũng có thể biểu thị một cách tiếp cận lạnh lùng, chỉ trích đối với hành trình chữa lành của chính mình."
+      },
+      "stress": {
+        "upright": "Căng thẳng phát sinh từ những yêu cầu không ngừng của tư duy phản biện, ra quyết định và trách nhiệm trí tuệ. Đó là gánh nặng của sự rõ ràng và sức nặng của sự thật khách quan.",
+        "reversed": "Căng thẳng tăng cường bởi suy nghĩ quá nhiều, cứng nhắc trí tuệ, thiếu quyết đoán, hoặc áp lực quá lớn khi đối phó với những cá nhân thao túng hoặc không trung thực. Tâm trí trở thành một nhà tù do chính nó tạo ra."
+      },
+      "trauma": {
+        "upright": "Xử lý chấn thương thông qua một lăng kính rõ ràng, phân tích, tìm cách hiểu các sự kiện và động lực mà không bị vướng mắc cảm xúc. Đó là việc đạt được sự làm chủ trí tuệ đối với trải nghiệm để tìm ra con đường phục hồi.",
+        "reversed": "Chấn thương biểu hiện như sự tê liệt trí tuệ, sự bất lực trong việc xử lý hoặc diễn đạt trải nghiệm, hoặc xu hướng sử dụng logic để phủ nhận hoặc hợp lý hóa nỗi đau, dẫn đến sự tách rời cảm xúc và các vấn đề chưa được giải quyết."
+      },
+      "exams": {
+        "upright": "Thành công trong kỳ thi thông qua trí tuệ sắc bén, học tập siêng năng, lý luận logic và diễn đạt kiến thức rõ ràng. Nó biểu thị sự nắm vững mạnh mẽ về chủ đề và năng lực phân tích.",
+        "reversed": "Kết quả kém trong kỳ thi do suy nghĩ quá nhiều, sự kiêu ngạo trí tuệ (đánh giá thấp kỳ thi), sự cứng nhắc trong tư duy, hoặc sự bất lực trong việc truyền đạt kiến thức rõ ràng dưới áp lực. Cũng có thể chỉ ra sự thiếu trung thực trong học tập."
+      },
+      "scholarship": {
+        "upright": "Giành được học bổng thông qua trí tuệ vượt trội, thành tích học tập xuất sắc, kỹ năng tư duy phản biện và một hồ sơ ứng tuyển rõ ràng, được trình bày tốt. Đó là sự công nhận năng lực tinh thần và tiềm năng trí tuệ.",
+        "reversed": "Bỏ lỡ học bổng do sự kiêu ngạo trí tuệ, sự bất lực trong việc trình bày ý tưởng rõ ràng, hoặc một thái độ phê phán, khó gần. Cũng có thể gợi ý việc lạm dụng tài năng trí tuệ."
+      },
+      "talent": {
+        "upright": "Tài năng nằm ở kỹ năng phân tích sắc bén, tư duy chiến lược, lý luận khách quan và khả năng diễn đạt những ý tưởng phức tạp một cách chính xác. Một món quà cho các hoạt động trí tuệ, giải quyết vấn đề và giao tiếp rõ ràng.",
+        "reversed": "Tài năng bị lạm dụng cho sự thao túng, kiêu ngạo trí tuệ, hoặc một ứng dụng phá hoại của tâm trí sắc bén. Nó cũng có thể biểu thị một tài năng cứng nhắc, quá chỉ trích, hoặc không thể thích nghi và phát triển."
+      },
+      "spirit_guide": {
+        "upright": "Một linh hồn hướng dẫn thể hiện trí tuệ, sự rõ ràng, sự thật và lời khuyên khách quan. Người hướng dẫn này giúp bạn xuyên thủng ảo ảnh, suy nghĩ logic và đưa ra quyết định dựa trên trí tuệ và sự sáng suốt cao hơn. Họ cung cấp hướng dẫn trí tuệ.",
+        "reversed": "Một linh hồn hướng dẫn mà thông điệp bị che khuất bởi tiếng ồn tinh thần, sự bối rối trí tuệ, hoặc người thách thức bạn vượt qua tư duy cứng nhắc và rào cản trí tuệ của chính mình để đạt được cái nhìn sâu sắc tâm linh thực sự. Hoặc, một người hướng dẫn thử thách sự sáng suốt của bạn chống lại những lời kêu gọi trí tuệ lừa dối."
       }
     },
     "planet": "Sao Thiên Vương",
@@ -15170,6 +19778,78 @@ window.TAROT_DB = [
       "general": {
         "upright": "Một khởi đầu mới đầy hứa hẹn, mang lại những cơ hội cụ thể và nền tảng vững chắc cho sự thịnh vượng và ổn định.",
         "reversed": "Các cơ hội quan trọng bị bỏ lỡ, sự trì trệ trong mọi mặt cuộc sống, hoặc thiếu sự chuẩn bị cho tương lai."
+      },
+      "toxic_relationship": {
+        "upright": "Một cơ hội thiêng liêng để kiến tạo nền móng mới, vững chắc cho mối quan hệ, hoặc là hạt giống của một kết nối chân thật, ổn định sau khi giải phóng những ràng buộc độc hại. Đây là món quà của sự minh triết để xây dựng điều gì đó bền vững.",
+        "reversed": "Cơ hội cho một khởi đầu mới, lành mạnh đang bị bỏ lỡ hoặc từ chối. Sự độc hại vẫn còn vương vấn do bám víu vào khuôn mẫu cũ, hoặc nền tảng đang được xây dựng đã mục ruỗng, dẫn đến sự mất cân bằng kéo dài. Một sự lãng phí năng lượng xây dựng."
+      },
+      "soulmate": {
+        "upright": "Hạt giống thần thánh của một kết nối linh hồn sâu sắc, vững vàng và thực tế đang hiển linh. Một cơ hội hữu hình để gặp gỡ hoặc làm sâu sắc thêm mối quan hệ với tri kỷ, dẫn đến một mối quan hệ đối tác chân thật trong thế giới vật chất.",
+        "reversed": "Sự trì hoãn hoặc trở ngại trong việc nhận ra hay biểu lộ mối liên kết tri kỷ. Có lẽ cơ hội đã hiện diện nhưng bị bỏ qua do sợ hãi, chủ nghĩa vật chất, hoặc thiếu nền tảng vững chắc, ngăn cản sự hình thành của một nền tảng chân thật."
+      },
+      "reconciliation": {
+        "upright": "Một cơ hội chân thành để hàn gắn mối quan hệ đã rạn nứt trên một nền tảng mới, vững chắc. Một cơ hội để biểu lộ những bước đi cụ thể hướng tới hòa bình và ổn định, mang đến một khởi đầu tươi mới.",
+        "reversed": "Lời đề nghị hòa gi���i hoặc bị từ chối, bị trì hoãn, hoặc được xây dựng trên nền đất không vững chắc, thiếu sự chân thành hoặc cam kết thực sự. Tiềm năng cho một mối quan hệ ổn định, được đổi mới đang bị bỏ phí hoặc chủ động phá hoại."
+      },
+      "secret_admirer": {
+        "upright": "Một dấu hiệu hữu hình hoặc cơ hội để khám phá danh tính của người hâm mộ thầm lặng. Tiềm năng cho tình cảm ẩn giấu này biểu lộ thành một mối quan hệ thực tế, có nền tảng vững chắc.",
+        "reversed": "Ý định hoặc cơ hội tiết lộ của người hâm mộ thầm lặng bị chặn đứng hoặc bỏ lỡ. Có lẽ tình cảm của họ không thực sự có nền tảng vững chắc, hoặc người được ngưỡng mộ không sẵn lòng đón nhận sự tiết lộ đó, dẫn đến tiềm năng không được thực hiện."
+      },
+      "burnout": {
+        "upright": "Một sự can thiệp thiêng liêng, mang đến cơ hội hữu hình để nghỉ ngơi, tái tạo và xây dựng lại năng lượng trên một nền tảng vững chắc. Một cơ hội để biểu lộ sức sống mới và sự tự chăm sóc thiết thực.",
+        "reversed": "Sự từ chối hoặc không có khả năng nắm bắt cơ hội phục hồi, dẫn đến sự kiệt sức và cạn kiệt kéo dài. Năng lượng chữa lành đang bị sử dụng sai mục đích hoặc bị bỏ qua, ngăn cản sự trở lại ổn định của trạng thái khỏe mạnh."
+      },
+      "startup": {
+        "upright": "Khởi đầu đầy hứa hẹn của một dự án mới, tràn đầy tiềm năng hữu hình cho sự tăng trưởng, ổn định và thành công vật chất. Một nền tảng vững chắc đang được đặt ra cho một tương lai thịnh vượng.",
+        "reversed": "Những cơ hội bị bỏ lỡ hoặc sự trì hoãn trong việc khởi động dự án. Nền tảng không ổn định, thiếu kế hoạch thực tế, hoặc tài nguyên đang bị quản lý sai, dẫn đến thất bại tiềm tàng hoặc tầm nhìn không được thực hiện."
+      },
+      "workplace_politics": {
+        "upright": "Một cơ hội để thiết lập một nền tảng mới, ổn định và đạo đức trong môi trường làm việc, có khả năng mang lại sự minh bạch và công bằng. Một cơ hội để biểu lộ một môi trường hài hòa hơn.",
+        "reversed": "Sự thao túng tài nguyên hoặc cơ hội vì lợi ích cá nhân, tạo ra sự bất ổn và bất công. Tiềm năng cho một môi trường làm việc công bằng đang bị phá hoại bởi lòng tham hoặc những hành động thiển cận."
+      },
+      "side_hustle": {
+        "upright": "Sự ra đời của một công việc phụ đầy hứa hẹn, mang đến những cơ hội hữu hình để tăng thêm thu nhập, phát triển kỹ năng và sự sung túc về vật chất. Một hạt giống vững chắc được gieo trồng cho sự phát triển trong tương lai.",
+        "reversed": "Sự trì hoãn, thiếu cam kết, hoặc kế hoạch kém cỏi cản trở sự phát triển của công việc phụ. Tiềm năng cho dự án này biểu lộ sự thịnh vượng đang bị lãng phí hoặc định hướng sai."
+      },
+      "real_estate": {
+        "upright": "Một cơ hội vàng cho việc mua lại, đầu tư mới, hoặc một ngôi nhà ổn định. Sự biểu lộ của một tài sản hữu hình, vững chắc, hứa hẹn sự an toàn và tăng trưởng.",
+        "reversed": "Những cơ hội bị bỏ lỡ trong bất động sản, hoặc một giao dịch chứng tỏ không ổn định, gian lận, hoặc dẫn đến tổn thất tài chính. Nền tảng của khoản đầu tư bị lỗi hoặc thời điểm không thích hợp."
+      },
+      "financial_loss": {
+        "upright": "Một khởi đầu mới sau tổn thất, mang đến cơ hội hữu hình để xây dựng lại tài chính trên một nền tảng vững chắc hơn. Một món quà của sự kiên cường và cơ hội cho sự thịnh vượng mới.",
+        "reversed": "Sự từ chối học hỏi từ những sai lầm tài chính trong quá khứ, dẫn đến sự bất ổn kéo dài hoặc những tổn thất tiếp theo. Cơ hội thiết lập các thực hành tài chính lành mạnh đang bị bỏ qua hoặc phung phí."
+      },
+      "sudden_wealth": {
+        "upright": "Một món quà hoặc cơ hội hữu hình, bất ngờ cho sự gia tăng tài chính đáng kể, hiển linh đột ngột. Một hạt giống thịnh vượng mang lại sự sung túc vật chất tức thì.",
+        "reversed": "Sự giàu có bất ngờ là phù du, bị quản lý sai, hoặc mang lại nhiều vấn đề hơn là giải pháp. Cơ hội hoặc bị bỏ lỡ, hoặc lợi ích không được đặt trên nền tảng bền vững, dẫn đến sự tiêu tan cuối cùng."
+      },
+      "healing": {
+        "upright": "Bình minh của một hành trình chữa lành mới, hữu hình, mang đến một nền tảng vững chắc cho sự phục hồi và khỏe mạnh. Một món quà của sức sống mới và một con đường thực tế đến sức khỏe.",
+        "reversed": "Sự kháng cự trong việc đón nhận quá trình chữa lành hoặc sự trì hoãn trong sự biểu lộ của nó. Cơ hội cho sự phục hồi ổn định đang bị phá hoại bởi sự bỏ bê, từ chối, hoặc các phương pháp không hiệu quả."
+      },
+      "stress": {
+        "upright": "Một cơ hội thực tế để thực hiện các thói quen hoặc chiến lược mới mang lại sự ổn định và giảm bớt căng thẳng. Một cơ hội để biểu lộ sự bình tĩnh thông qua các hành động cụ thể.",
+        "reversed": "Sự không có khả năng hoặc từ chối áp dụng các giải pháp thực tế để giảm căng thẳng, dẫn đến lo lắng kéo dài và cảm giác mất cân bằng. Cơ hội cho sự bình yên đang bị bỏ qua."
+      },
+      "trauma": {
+        "upright": "Một cơ hội sâu sắc để bắt đầu quá trình chữa lành, đặt một nền tảng mới, ổn định cho sự phục hồi cảm xúc. Một món quà hữu hình của sự kiên cường và một con đường hướng tới sự hòa nhập.",
+        "reversed": "Sự né tránh hoặc ngăn chặn các bước cần thiết để chữa lành chấn thương. Tiềm năng xây dựng một tương lai cảm xúc ổn định đang bị cản trở bởi nỗi đau không được giải quyết hoặc thiếu sự hỗ trợ thực tế."
+      },
+      "exams": {
+        "upright": "Một khởi đầu mới trong học tập, hứa hẹn thành công thông qua nỗ lực chuyên cần và nền tảng kiến thức vững chắc. Một cơ hội hữu hình để xuất sắc và đạt được kết quả mong muốn.",
+        "reversed": "Sự chuẩn bị kém, bỏ lỡ cơ hội học tập, hoặc thiếu tập trung dẫn đến kết quả không đạt yêu cầu. Tiềm năng cho thành công học tập bị phá hoại bởi sự thiếu nền tảng hoặc nỗ lực không đủ."
+      },
+      "scholarship": {
+        "upright": "Sự hiển linh của một cơ hội hữu hình cho hỗ trợ tài chính, cấp quyền tiếp cận giáo dục và sự ổn định trong tương lai. Một món quà mở ra cánh cửa cho những khởi đầu mới.",
+        "reversed": "Cơ hội học bổng hoặc bị bỏ lỡ, bị từ chối, hoặc lợi ích của nó không được thực hiện đầy đủ do những trường hợp không lường trước hoặc thiếu sự theo dõi. Tiềm năng hỗ trợ giáo dục không được thực hiện."
+      },
+      "talent": {
+        "upright": "Sự xuất hiện của một tài năng mới, thô sơ, hoặc một cơ hội hữu hình để trau dồi một tài năng hiện có. Một hạt giống tiềm năng mà, với sự vững vàng và nỗ lực, có th��� biểu lộ thành điều gì đó sâu sắc và có giá trị.",
+        "reversed": "Tài năng vẫn chưa được phát triển, không được công nhận, hoặc bị lạm dụng cho những lợi ích hời hợt. Tiềm năng cho sự biểu lộ chân chính bị lãng phí do sự bỏ bê hoặc định hướng sai."
+      },
+      "spirit_guide": {
+        "upright": "Một kết nối mới, hữu hình hoặc thông điệp từ một linh hồn dẫn lối, mang đến trí tuệ có nền tảng và hướng dẫn thực tế cho con đường của bạn. Một món quà của sự định hướng rõ ràng trong thế giới vật chất.",
+        "reversed": "Những thông điệp hoặc hướng dẫn từ linh hồn dẫn lối đang bị bỏ qua, hiểu lầm, hoặc không cộng hưởng do thiếu nền tảng hoặc sự ngắt kết nối tâm linh. Cơ hội cho sự hỗ trợ tâm linh thực tế đang bị bỏ qua."
       }
     },
     "planet": "Nguyên tố Đất",
@@ -15403,6 +20083,78 @@ window.TAROT_DB = [
       "lost_item": {
         "upright": "Món đồ thất lạc không thực sự biến mất, nó chỉ đang lẫn lộn giữa nhiều vật dụng khác do sự sắp xếp vội vã. Hãy xem xét lại những nơi bạn thường xuyên đặt nhiều thứ cùng lúc.",
         "reversed": "Vật phẩm đã mất đi do sự thiếu tổ chức hoặc ôm đồm quá nhiều thứ cùng lúc. Sự hỗn loạn trong tâm trí và môi trường sống đã khiến món đồ bị cuốn vào nơi khó tìm thấy."
+      },
+      "toxic_relationship": {
+        "upright": "Linh hồn đang trong một vũ điệu cân bằng đầy nguy hiểm, cố gắng điều hòa những năng lượng hỗn loạn của một mối quan hệ độc hại. Đây là giai đoạn của sự thích nghi đau đớn, nơi bạn nỗ lực duy trì một sự ổn định mong manh giữa sóng gió, như một người thợ tung hứng giữa vực sâu và đỉnh núi.",
+        "reversed": "Sự cân bằng mong manh đã sụp đổ. Linh hồn không còn đủ sức để tung hứng giữa những yêu cầu mâu thuẫn của mối quan hệ độc hại, dẫn đến sự kiệt quệ, hỗn loạn và mất phương hướng. Đây là lời cảnh tỉnh rằng sự điều hòa là không thể, và sự buông bỏ có thể là con đường duy nhất dẫn đến bình an."
+      },
+      "soulmate": {
+        "upright": "Hai linh hồn đang nhẹ nhàng hòa điệu, tìm kiếm nhịp điệu chung trong một vũ khúc định mệnh. Lá bài này biểu thị sự thích nghi, trao đổi và cân bằng giữa hai cá thể riêng biệt, tạo nên một sự hài hòa mới mẻ và đầy hứa hẹn, như những vì sao tìm thấy quỹ đạo chung.",
+        "reversed": "Sự hòa hợp giữa hai linh hồn đang gặp trở ngại. Có thể có sự mất cân bằng trong việc cho và nhận, hoặc những gánh nặng bên ngoài đang cản trở sự kết nối sâu sắc. Điều này đòi hỏi sự xem xét lại để tìm ra điểm cân bằng bị lạc mất, trước khi sợi dây định mệnh bị lung lay."
+      },
+      "reconciliation": {
+        "upright": "Một sự tái hợp mong manh đang cần sự khéo léo và linh hoạt. Hai bên đang cố gắng điều chỉnh và thích nghi với những thay đổi, tìm lại nhịp điệu chung sau những rạn nứt. Đây là một điệu nhảy của sự tha thứ và thấu hiểu, nơi mỗi bước chân đều cần sự cân nhắc.",
+        "reversed": "Nỗ lực hòa giải đang gặp bế tắc, sự mất cân bằng giữa hai bên quá lớn để có thể điều hòa. Có thể có sự cứng nhắc, thiếu linh hoạt hoặc một bên cảm thấy quá tải, không thể tiếp tục tung hứng những mảnh vỡ của quá khứ. Sự tái hợp này đang đối mặt với nguy cơ đổ vỡ hoàn toàn."
+      },
+      "secret_admirer": {
+        "upright": "Người ngưỡng mộ bí mật đang khéo léo cân nhắc giữa việc giữ kín cảm xúc và biểu lộ chúng. Họ đang tung hứng giữa sự thận trọng và khao khát, tìm kiếm thời điểm và cách thức phù hợp để tiết lộ tâm tư. Một điệu nhảy tinh tế giữa ánh sáng và bóng tối của tình cảm.",
+        "reversed": "Sự do dự và mất cân bằng đang bao trùm người ngưỡng mộ. Họ có thể cảm thấy quá tải với cảm xúc của m��nh, không thể đưa ra quyết định, hoặc những nỗ lực biểu lộ tinh tế lại trở nên vụng về, gây ra sự hiểu lầm hoặc bỏ lỡ cơ hội. Màn kịch bí mật này đang mất đi sự duyên dáng."
+      },
+      "burnout": {
+        "upright": "Linh hồn đang ở bờ vực của sự kiệt sức, cố gắng duy trì một sự cân bằng mong manh giữa vô số gánh nặng. Bạn đang tung hứng quá nhiều quả bóng cùng lúc, nhưng năng lượng đang cạn kiệt, và mỗi khoảnh khắc đều là một thử thách để không gục ngã.",
+        "reversed": "Sự kiệt sức đã nhấn chìm linh hồn. Mọi nỗ lực cân bằng đều thất bại, dẫn đến sự sụp đổ hoàn toàn. Bạn không thể tiếp tục tung hứng, và mọi thứ dường như đang rơi vào hỗn loạn. Đây là lúc cần buông bỏ để tìm lại sự nghỉ ngơi và tái tạo năng lượng từ sâu thẳm."
+      },
+      "startup": {
+        "upright": "Giai đoạn khởi nghiệp đầy biến động, đòi hỏi sự thích nghi phi thường và khả năng tung hứng nhiều vai trò cùng lúc. Đây là thời điểm của sự khéo léo trong việc quản lý tài nguyên hạn chế và liên tục điều chỉnh theo dòng chảy của thị trường, như một người lái thuyền giữa biển cả mênh mông.",
+        "reversed": "Doanh nghiệp khởi nghiệp đang gặp khó khăn trong việc tìm kiếm sự ổn định. Có sự thiếu tổ chức, quản lý tài chính kém hoặc không thể thích nghi với những thay đổi, dẫn đến sự mất cân bằng và nguy cơ sụp đổ. Sự linh hoạt đã biến thành hỗn loạn."
+      },
+      "workplace_politics": {
+        "upright": "Bạn đang khéo léo điều hướng những dòng chảy phức tạp của chính trị công sở, cân bằng giữa các phe phái và lợi ích khác nhau để duy trì vị thế hoặc đạt được mục tiêu mà không bị cuốn vào vòng xoáy. Một nghệ thuật ngoại giao và thích nghi tinh tế.",
+        "reversed": "Bạn đang bị mắc kẹt trong lưới chính trị công sở, mất khả năng cân bằng giữa các áp lực và yêu cầu đối lập. Sự thiếu quyết đoán hoặc không thể thích nghi đang khiến bạn trở thành con tốt trong trò chơi của người khác, dẫn đến sự mất uy tín và bất ổn."
+      },
+      "side_hustle": {
+        "upright": "Bạn đang thành công trong việc điều hòa giữa công việc chính và công việc phụ, tìm thấy một nhịp điệu hài hòa để quản lý thời gian và năng lượng. Sự linh hoạt và khả năng thích nghi đang giúp bạn mở rộng cánh cửa tài chính mà không làm mất đi sự cân bằng cuộc sống.",
+        "reversed": "Công việc phụ đang gây ra sự mất cân bằng nghiêm trọng, làm xáo trộn cuộc sống cá nhân hoặc ảnh hưởng đến công việc chính. Sự quá tải hoặc quản lý kém đang biến cơ hội thành gánh nặng, đòi hỏi sự sắp xếp lại ưu tiên và tìm kiếm sự ổn định."
+      },
+      "real_estate": {
+        "upright": "Bạn đang cân nhắc kỹ lưỡng các lựa chọn bất động sản, khéo léo quản lý tài chính và thích nghi với những biến động của thị trường. Đây là thời điểm của sự linh hoạt, phân tích cẩn trọng và đưa ra những quyết định sáng suốt để tìm thấy sự hài hòa trong giao dịch.",
+        "reversed": "Sự thiếu quyết đoán hoặc quản lý tài chính kém đang cản trở các giao dịch bất động sản. Có sự hỗn loạn trong việc đánh giá, hoặc bạn đang bị choáng ngợp bởi sự phức tạp của thị trường, dẫn đến những cơ hội bị bỏ lỡ hoặc các khoản đầu tư không ổn định."
+      },
+      "financial_loss": {
+        "upright": "Sau một tổn thất tài chính, bạn đang khéo léo điều chỉnh và tìm cách bù đắp, cân bằng lại ngân sách và thích nghi với hoàn cảnh mới. Đây là thời điểm của sự tháo vát và khả năng phục hồi, tìm kiếm những giải pháp sáng tạo để vượt qua khó khăn.",
+        "reversed": "Tổn thất tài chính đang gây ra sự mất cân bằng nghiêm trọng, khiến bạn cảm thấy choáng ngợp và không thể tìm ra lối thoát. Sự quản lý tài chính yếu kém hoặc thiếu khả năng thích nghi đang đẩy tình hình vào sự bất ổn sâu sắc hơn, cần một sự thay đổi mạnh mẽ để tránh sụp đổ."
+      },
+      "sudden_wealth": {
+        "upright": "Sự giàu có bất ngờ đòi hỏi sự khéo léo trong việc quản lý và thích nghi. Bạn đang học cách cân bằng giữa sự sung túc mới mẻ và những trách nhiệm hiện có, đưa ra những quyết định sáng suốt để duy trì sự ổn định và phát triển tài sản một cách hài hòa.",
+        "reversed": "Sự giàu có bất ngờ đang tạo ra sự mất cân bằng, dẫn đến những quyết định thiếu suy nghĩ, chi tiêu bốc đồng hoặc không thể hòa nhập sự thay đổi này vào cuộc sống. Điều này có thể dẫn đến sự bất ổn tài chính hoặc mất mát trong tương lai nếu không có sự điều chỉnh kịp thời."
+      },
+      "healing": {
+        "upright": "Quá trình chữa lành là một điệu nhảy tinh tế, nơi bạn đang cân bằng các phương pháp khác nhau, thích nghi với nhu cầu của cơ thể và tâm trí. Đây là một giai đoạn của sự linh hoạt, chấp nhận những thăng trầm và kiên nhẫn tìm kiếm sự hài hòa bên trong để phục hồi toàn diện.",
+        "reversed": "Quá trình chữa lành đang gặp phải sự mất cân bằng hoặc trì trệ. Bạn có thể cảm thấy choáng ngợp bởi các lựa chọn, không thể hòa nhập các khía cạnh khác nhau của sự hồi phục, hoặc thiếu khả năng thích nghi với những thay đổi cần thiết. Điều này cản trở sự tiến bộ và duy trì sự bất ổn."
+      },
+      "stress": {
+        "upright": "Bạn đang khéo léo quản lý những áp lực và căng thẳng, cố gắng duy trì một sự cân bằng mong manh giữa các yêu cầu. Đây là giai đoạn bạn vẫn đang hoạt động hiệu quả nhưng dưới một áp lực lớn, như một người nghệ sĩ tung hứng trên dây, cần sự tập trung cao độ.",
+        "reversed": "Sự căng thẳng đã vượt quá khả năng chịu đựng, dẫn đến sự mất kiểm soát và sụp đổ hoàn toàn. Mọi nỗ lực cân bằng đều thất bại, khiến bạn kiệt sức và không thể đối phó. Đây là dấu hiệu cần phải buông bỏ gánh nặng để tìm lại sự bình yên và ổn định nội tâm."
+      },
+      "trauma": {
+        "upright": "Linh hồn đang cố gắng điều hòa và thích nghi với những dư chấn của tổn thương. Bạn đang tìm cách cân bằng giữa những khoảnh khắc chữa lành và những lúc vật lộn, từng bước nhẹ nhàng sắp xếp lại các mảnh vỡ của bản thân để tìm lại một sự ổn định mới, dù mong manh.",
+        "reversed": "Tổn thương đang gây ra sự mất cân bằng sâu sắc, khiến linh hồn cảm thấy mắc kẹt, rời rạc và không thể tìm thấy điểm tựa. Khó khăn trong việc tích hợp trải nghiệm hoặc tìm kiếm con đường phía trước đang dẫn đến sự bối rối và bất ổn nội tâm kéo dài."
+      },
+      "exams": {
+        "upright": "Bạn đang khéo léo điều hòa giữa các môn học, quản lý thời gian ôn tập và thích nghi với các yêu cầu khác nhau của kỳ thi. Đây là giai đoạn đòi hỏi sự linh hoạt, khả năng sắp xếp ưu tiên và một chiến lược học tập thông minh để đạt được thành công.",
+        "reversed": "Áp lực thi cử đang gây ra sự mất cân bằng nghiêm trọng. Bạn có thể cảm thấy choáng ngợp, thiếu khả năng sắp xếp ưu tiên hoặc quản lý thời gian kém, dẫn đến sự hỗn loạn trong ôn tập và nguy cơ thất bại. Cần một sự điều chỉnh khẩn cấp để lấy lại kiểm soát."
+      },
+      "scholarship": {
+        "upright": "Bạn đang thành công trong việc cân bằng giữa các yêu cầu học thuật và các trách nhiệm khác để duy trì học bổng. Sự thích nghi và quản lý thời gian hiệu quả đang giúp bạn giữ vững vị trí và phát huy tối đa cơ hội vàng này.",
+        "reversed": "Học bổng đang bị đe dọa do sự mất cân bằng trong việc đáp ứng các yêu cầu. Có thể có sự quá tải về học tập hoặc không thể điều hòa giữa việc học và các cam kết khác, dẫn đến nguy cơ mất đi nguồn hỗ trợ quý giá. Cần xem xét lại các ưu tiên một cách nghiêm túc."
+      },
+      "talent": {
+        "upright": "Bạn đang khéo léo phát triển và cân bằng nhiều tài năng, hoặc linh hoạt thích nghi tài năng của mình vào các bối cảnh và cơ hội khác nhau. Đây là giai đoạn của sự đa năng, phát triển không ngừng và khả năng biến hóa để tỏa sáng theo nhiều cách.",
+        "reversed": "Tài năng đang bị phân tán hoặc thiếu tập trung, dẫn đến sự mất cân bằng trong phát triển. Bạn có thể cảm thấy choáng ngợp bởi nhiều lựa chọn, hoặc không thể tìm thấy một nền tảng ổn định để thể hiện, khiến nỗ lực bị phân mảnh và tiềm năng chưa được khai thác trọn vẹn."
+      },
+      "spirit_guide": {
+        "upright": "Bạn đang học cách điều hòa và thích nghi với sự hướng dẫn tinh tế từ các linh hồn dẫn lối. Đây là giai đoạn của sự lắng nghe trực giác, cân bằng giữa thế giới vật chất và tâm linh để tích hợp những thông điệp thiêng liêng vào cuộc sống hàng ngày, một điệu nhảy duyên dáng giữa hai thế giới.",
+        "reversed": "Có sự mất cân bằng trong việc kết nối hoặc hiểu rõ thông điệp từ linh hồn dẫn lối. Bạn có thể cảm thấy choáng ngợp bởi thông tin tâm linh, hoặc khó khăn trong việc tích hợp sự hướng dẫn vào thực tế, dẫn đến sự bối rối và cảm giác bị ngắt kết nối với nguồn năng lượng cao hơn."
       }
     },
     "planet": "Sao Mộc",
@@ -15637,6 +20389,78 @@ window.TAROT_DB = [
       "general": {
         "upright": "Đây là thời điểm để hợp tác, xây dựng và học hỏi. Những nỗ lực của bạn sẽ được công nhận, đặt nền móng vững chắc cho những thành công lớn lao trong tương lai.",
         "reversed": "Có thể có sự thiếu hụt trong hợp tác, chất lượng công việc chưa đạt chuẩn hoặc thiếu sự công nhận. Cần xem xét lại cách bạn tương tác và xây dựng."
+      },
+      "toxic_relationship": {
+        "upright": "Lá bài này soi rọi ánh sáng vào những sợi dây độc hại, vén màn bản chất thực sự của các tương tác. Nó mách bảo rằng đã đến lúc cần sự khéo léo và trí tuệ để nhận diện, hoặc tìm kiếm những bàn tay chuyên gia để tháo gỡ nút thắt nghiệp quả này, kiến tạo một nền tảng lành mạnh hơn.",
+        "reversed": "Trong bóng tối, mối quan hệ độc hại tiếp tục mục ruỗng, thiếu vắng sự khéo léo trong nhận thức và ý chí kiến tạo. Sự chối bỏ việc học hỏi từ vết thương cũ, hoặc sự bất tài trong việc xây dựng cầu nối chân thật, chỉ dẫn đến sự đổ vỡ sâu sắc hơn của linh hồn."
+      },
+      "soulmate": {
+        "upright": "Sự xuất hiện của linh hồn tri kỷ được báo hiệu qua việc đồng tâm hiệp lực, dệt nên một tấm thảm định mệnh chung. Đây là sự kết hợp của những kỹ năng và tầm nhìn bổ trợ, cùng nhau kiến tạo một thánh đường tình yêu vững chãi, được vũ trụ chứng giám.",
+        "reversed": "Dù có vẻ như đã tìm thấy một nửa, nhưng thiếu vắng sự hợp tác chân thành hoặc sự bất hòa trong kiến tạo tầm nhìn chung có thể khiến nền móng của mối liên kết linh hồn này lung lay. Sự hời hợt, không chịu đầu tư công sức để xây dựng, sẽ làm phai nhạt đi bản chất thiêng liêng."
+      },
+      "reconciliation": {
+        "upright": "Một nỗ lực hàn gắn mang tính nghệ thuật và có cấu trúc đang được kiến tạo. Đây là sự ứng dụng trí tuệ và sự thấu hiểu sâu sắc để vá lại những vết rách, thường thông qua sự hướng dẫn khéo léo hoặc một kế hoạch có ý thức để tái thiết niềm tin và sự hài hòa.",
+        "reversed": "Sự bất lực trong việc học hỏi từ quá khứ, sự thiếu sót trong việc áp dụng những kỹ năng thấu hiểu, hoặc sự từ chối hợp tác chân thành sẽ khiến mọi nỗ lực hòa giải trở nên hời hợt, không có nền tảng vững chắc, dẫn đến sự tan vỡ một lần nữa."
+      },
+      "secret_admirer": {
+        "upright": "Người ngưỡng mộ bí mật đang tỉ mỉ quan sát, học hỏi và thậm chí là mài giũa bản thân để xứng đáng. Đây là một sự chiêm nghiệm sâu sắc về phẩm chất của đối tượng, một sự đánh giá khéo léo và có chủ đích, chuẩn bị cho một sự tiếp cận đầy nghệ thuật.",
+        "reversed": "Sự ngưỡng mộ này có thể dựa trên những ấn tượng hời hợt, hoặc người ngưỡng mộ thiếu đi sự khéo léo, dũng khí để biến cảm xúc thành hành động ý nghĩa. Sự thiếu sót trong việc xây dựng một cầu nối chân thật có thể khiến mối liên kết tiềm năng bị bỏ lỡ hoặc trở nên vụng về."
+      },
+      "burnout": {
+        "upright": "Sự xuất hiện của lá bài này cho thấy bạn đang học cách nhận diện giới hạn của bản thân, một kỹ năng sống còn. Nó chỉ dẫn việc cần sự khéo léo trong việc phân công, hợp tác, hoặc tái cấu trúc công việc để tránh kiệt sức, tìm kiếm lời khuyên từ những người có chuyên môn để khôi phục sự cân bằng.",
+        "reversed": "Bạn đang phớt lờ những dấu hiệu cảnh báo của cơ thể và tinh thần, thiếu đi sự khéo léo trong việc quản lý năng lượng và không chịu học hỏi từ những sai lầm. Sự thiếu hụt hỗ trợ hoặc kế hoạch rõ ràng sẽ đẩy bạn vào vực thẳm của sự kiệt quệ hoàn toàn."
+      },
+      "startup": {
+        "upright": "Một điềm lành báo hiệu sự ra đời của một công trình vững chắc! Sự hợp tác tài tình, đội ngũ có kỹ năng vượt trội, kế hoạch kinh doanh được dệt nên một cách tỉ mỉ. Đây là thời điểm để xây dựng nền tảng vững chắc, thu hút sự công nhận và áp dụng chuyên môn để tạo ra giá trị hữu hình.",
+        "reversed": "Nền móng của dự án đang lung lay do thiếu sự hợp tác, kỹ năng không đồng đều hoặc kế hoạch sơ sài. Xung đột nội bộ và việc không chịu học hỏi từ những vấp ngã ban đầu sẽ dẫn đến sự đổ vỡ hoặc một khởi đầu đầy khó khăn."
+      },
+      "workplace_politics": {
+        "upright": "Bạn sở hữu sự tinh tường và khéo léo để điều hướng những dòng chảy phức tạp của quyền lực. Đây là khả năng tạo ra những liên minh chiến lược, giao tiếp ngoại giao và sử dụng chuyên môn để ảnh hưởng tích cực hoặc bảo vệ bản thân một cách khôn ngoan.",
+        "reversed": "Sự ngây thơ, những nỗ lực thao túng vụng về, hoặc việc thiếu đi kỹ năng thấu hiểu môi trường sẽ khiến bạn dễ bị lợi dụng. Thiếu chuyên nghiệp và giao tiếp kém sẽ góp phần tạo ra một môi trường làm việc độc hại."
+      },
+      "side_hustle": {
+        "upright": "Bạn đang khéo léo phát triển một kỹ năng mới hoặc áp dụng những kỹ năng hiện có vào một dự án phụ. Với sự siêng năng và kế hoạch tỉ mỉ, bạn đang xây dựng một nền tảng vững chắc, mở ra tiềm năng được công nhận và phát triển.",
+        "reversed": "Sự thiếu cam kết, nỗ lực hời hợt, hoặc việc không dành thời gian học hỏi những kỹ năng cần thiết sẽ khiến dự án phụ không thể phát triển. Thay vì là nguồn thu nhập, nó có thể trở thành gánh nặng và nguồn gốc của căng thẳng."
+      },
+      "real_estate": {
+        "upright": "Đây là dấu hiệu của một giao dịch bất động sản thành công, được kiến tạo thông qua sự hợp tác với các chuyên gia tài năng (môi giới, kiến trúc sư, luật sư). Một khoản đầu tư vững chắc, xây dựng một tài sản có giá trị với kế hoạch tỉ mỉ và chuyên nghiệp.",
+        "reversed": "Những quyết định đầu tư kém khôn ngoan, làm việc với những người thiếu năng lực, hoặc bỏ qua những chi tiết quan trọng sẽ dẫn đến tổn thất tài chính. Thiếu sự thẩm định kỹ lưỡng và chuyên môn sẽ khiến nền móng của giao dịch trở nên yếu kém."
+      },
+      "financial_loss": {
+        "upright": "Bạn đang đối diện với tổn thất bằng sự khéo léo và trí tuệ. Đây là lúc thừa nhận sai lầm, học hỏi từ chúng, và lập kế hoạch phục hồi một cách tỉ mỉ. Tìm kiếm lời khuyên từ chuyên gia tài chính và áp dụng các chiến lược mới để tái thiết sự thịnh vượng.",
+        "reversed": "Việc lặp lại những sai lầm cũ, phớt lờ lời khuyên chuyên nghiệp, hoặc không giải quyết tận gốc nguyên nhân của tổn thất sẽ dẫn đến sự bất ổn tài chính tiếp diễn. Những nỗ lực hời hợt trong quản lý tài chính sẽ không mang lại kết quả bền vững."
+      },
+      "sudden_wealth": {
+        "upright": "Tài lộc bất ngờ đang được bạn quản lý một cách khôn ngoan và có kỹ năng. Tìm kiếm sự hướng dẫn từ chuyên gia tài chính, đầu tư một cách thận trọng, và sử dụng nguồn lực để kiến tạo một tương lai vững chắc. Đây là sự quản lý có trách nhiệm và tầm nhìn.",
+        "reversed": "Sự thiếu hiểu biết hoặc kế hoạch kém cỏi sẽ dẫn đến những quyết định tài chính tồi tệ, lãng phí tài sản. Dễ bị ảnh hưởng bởi những lời khuyên sai lầm, không xây dựng nền tảng vững chắc, khiến tài lộc nhanh chóng tan biến."
+      },
+      "healing": {
+        "upright": "Bạn đang tiếp cận quá trình chữa lành bằng một phương pháp có cấu trúc và sự tận tâm. Làm việc với các chuyên gia lành nghề (bác sĩ, nhà trị liệu), thực hiện chế độ tự chăm sóc siêng năng, và hiểu rõ bản chất của quá trình phục hồi. Bạn đang kiến tạo sức khỏe một cách có hệ thống.",
+        "reversed": "Sự phớt lờ lời khuyên y tế, những nỗ lực chữa lành hời hợt, thiếu cam kết với liệu trình, hoặc làm việc với những người thiếu năng lực sẽ dẫn đến những thất bại hoặc sự trì trệ. Bạn đang tự phá hoại quá trình phục hồi của chính mình."
+      },
+      "stress": {
+        "upright": "Bạn đang khéo léo quản lý căng thẳng, áp dụng những cơ chế đối phó hiệu quả và tìm kiếm sự giúp đỡ chuyên nghiệp khi cần. Học cách ủy thác và ưu tiên công việc, bạn đang kiến tạo khả năng phục hồi thông qua những nỗ lực có ý thức.",
+        "reversed": "Bị choáng ngợp bởi căng thẳng, không thể đối phó, phớt lờ những dấu hiệu cảnh báo. Những nỗ lực vụng về để thư giãn không mang lại kết quả, dẫn đến căng thẳng mãn tính và những tác động tiêu cực sâu sắc đến tâm hồn."
+      },
+      "trauma": {
+        "upright": "Bạn đang dấn thân vào một quá trình chữa lành chấn thương có cấu trúc, làm việc với các nhà trị liệu lành nghề. Xử lý tổn thương bằng lòng dũng cảm và trí tuệ, từ từ tái kiến tạo lại cảm giác an toàn và bản ngã, nhận diện các mô hình để phá vỡ chúng.",
+        "reversed": "Sự kìm nén chấn thương, từ chối sự giúp đỡ chuyên nghiệp, tiếp tục duy trì các cơ chế đối phó không lành mạnh, hoặc bất lực trong việc xử lý quá khứ. Điều này dẫn đến sự đau khổ kéo dài và thiếu sự hòa nhập của bản thân."
+      },
+      "exams": {
+        "upright": "Sự chuẩn bị siêng năng, nắm vững kiến thức, kỹ thuật học tập hiệu quả, và học hỏi hợp tác là chìa khóa. Sự tự tin của bạn được kiến tạo từ một nền tảng kiến thức vững chắc và kỹ năng đã được mài giũa.",
+        "reversed": "Học nhồi nhét, hiểu biết hời hợt, thói quen học tập kém, hoặc thiếu sự chuẩn bị kỹ lưỡng. Dựa vào may mắn thay vì kỹ năng sẽ dẫn đến kết quả kém hoặc thất bại, làm lung lay niềm tin vào năng lực của bản thân."
+      },
+      "scholarship": {
+        "upright": "Sự công nhận xứng đáng cho sự xuất sắc trong học thuật và làm việc chăm chỉ. Đây là phần thưởng cho việc học tập siêng năng và sự tinh thông, một sự ứng tuyển thành công, kiến tạo nền tảng vững chắc cho hành trình học vấn tương lai.",
+        "reversed": "Thiếu năng lực, hồ sơ ứng tuyển hời hợt, không đáp ứng các tiêu chuẩn cần thiết, hoặc không thể chứng minh kỹ năng hay sự cống hiến thực sự. Điều này dẫn đến việc bị từ chối hoặc mất học bổng, làm sụp đổ ước mơ."
+      },
+      "talent": {
+        "upright": "Bạn đang phát triển và mài giũa những khả năng bẩm sinh thông qua sự luyện tập siêng năng và học hỏi. Tìm kiếm sự hướng dẫn, áp dụng tài năng để tạo ra những thành quả hữu hình, và được công nhận cho sự khéo léo của mình. Bạn đang kiến tạo bản sắc từ tài năng.",
+        "reversed": "Lãng phí tài năng, từ chối phát triển kỹ năng, thiếu kỷ luật, hoặc áp dụng khả năng một cách hời hợt. Không nhận ra tiềm năng thực sự của bản thân hoặc hiểu lầm về sứ mệnh, dẫn đến sự lãng phí những món quà của vũ trụ."
+      },
+      "spirit_guide": {
+        "upright": "Một kết nối rõ ràng với sự hướng dẫn tâm linh, hiểu và tích hợp các thông điệp. Áp dụng trí tuệ tâm linh vào cuộc sống thực tế, làm việc cùng các vị dẫn dắt để kiến tạo một thực tại tốt đẹp hơn, nhận được những cái nhìn sâu sắc và khéo léo.",
+        "reversed": "Hiểu sai thông điệp, phớt lờ sự hướng dẫn tâm linh, kết nối hời hợt, hoặc nghi ngờ trực giác của mình. Thiếu sự hiểu biết về cách làm việc hiệu quả với các vị dẫn dắt, dẫn đến sự bối rối hoặc những hành động sai lầm, làm lung lay nền tảng tâm linh."
       }
     },
     "planet": "Sao Hỏa",
@@ -15871,6 +20695,78 @@ window.TAROT_DB = [
       "lost_item": {
         "upright": "Món đồ thất lạc đang ở một nơi an toàn, có thể đã được cất giữ cẩn thận đến mức bạn quên mất. Hãy tìm kiếm ở những nơi bạn thường cất giữ những vật quý giá hoặc quan trọng.",
         "reversed": "Vật phẩm đã mất đi do sự bám víu quá mức hoặc cố gắng giấu giếm nó quá kỹ. Sự biến mất này là một bài học về sự buông bỏ, cho thấy đôi khi việc giữ chặt quá mức lại dẫn đến mất mát."
+      },
+      "toxic_relationship": {
+        "upright": "Bạn đang níu giữ một mối quan hệ độc hại, bị trói buộc bởi nỗi sợ mất mát, dù nó đang bào mòn linh hồn bạn. Sự kiểm soát và sở hữu trở thành xiềng xích.",
+        "reversed": "Sự giải thoát khỏi gông cùm của một mối quan hệ độc hại, tìm thấy dũng khí để buông bỏ nỗi đau quen thuộc. Hoặc, một sự níu kéo tuyệt vọng dẫn đến sự tan rã không thể tránh khỏi."
+      },
+      "soulmate": {
+        "upright": "Sự ngần ngại đón nhận một kết nối tri kỷ sâu sắc, do nỗi sợ tổn thương, cam kết, hoặc vết sẹo từ quá khứ. Bạn đang tự khóa trái tim mình quá chặt.",
+        "reversed": "Mở lòng đón nhận sự giao thoa linh hồn, rũ bỏ những lớp bảo vệ. Hoặc, nhận ra rằng sự chiếm hữu đã đẩy một tri kỷ tiềm năng ra xa."
+      },
+      "reconciliation": {
+        "upright": "Một hoặc cả hai bên đều cố chấp không chịu nhượng bộ hay buông bỏ những oán giận cũ, giữ vững lập trường, ngăn cản sự hàn gắn thực sự.",
+        "reversed": "Sự sẵn lòng giải phóng gánh nặng của xung đột cũ, mở ra cánh cửa cho sự hòa giải chân chính. Hoặc, một sự hòa giải gượng ép thiếu đi sự giải tỏa cảm xúc thật sự."
+      },
+      "secret_admirer": {
+        "upright": "Người ngưỡng mộ bí mật quá sợ hãi hoặc quá sở hữu bí mật của mình, không thể bộc lộ cảm xúc, có thể quan sát từ xa, bảo vệ trái tim mình.",
+        "reversed": "Người ngưỡng mộ tìm thấy dũng khí để bộc lộ tình cảm, thoát khỏi sự bí mật tự ��p đặt. Hoặc, bí mật bị phơi bày một cách không mong muốn, dẫn đến sự khó xử."
+      },
+      "burnout": {
+        "upright": "Níu kéo trách nhiệm, nguồn lực, hoặc một thói quen cứng nhắc vì sợ mất kiểm soát hay an toàn, dẫn đến kiệt sức. Không thể ủy quyền hay nghỉ ngơi.",
+        "reversed": "Một sự giải thoát bắt buộc khỏi sự kìm kẹp của công việc quá tải, có thể là một sự sụp đổ hoàn toàn, hoặc một quyết định có ý thức để buông bỏ gánh nặng quá mức để phục hồi."
+      },
+      "startup": {
+        "upright": "Một công ty khởi nghiệp được xây dựng trên sự thận trọng, có lẽ quá bảo thủ, tích trữ nguồn lực, không sẵn lòng chấp nhận rủi ro cần thiết, hoặc quá bảo vệ tài sản trí tuệ.",
+        "reversed": "Một công ty khởi nghiệp đón nhận sự đổi mới, sẵn sàng đầu tư và chấp nhận rủi ro có tính toán. Hoặc, một công ty khởi nghiệp đang vật lộn với sự bất ổn tài chính do quản lý nguồn lực kém hoặc chi tiêu quá mức."
+      },
+      "workplace_politics": {
+        "upright": "Cấu trúc quyền lực cố hữu, các cá nhân bảo vệ lãnh thổ và thông tin của mình, không sẵn lòng chia sẻ, tạo ra một môi trường trì trệ và cạnh tranh.",
+        "reversed": "Một sự thay đổi trong động lực quyền lực, thông tin được chia sẻ tự do hơn, hoặc sự phá vỡ các hệ thống phân cấp cứng nhắc. Hoặc, một môi trường hỗn loạn nơi sự kiểm soát bị mất đi."
+      },
+      "side_hustle": {
+        "upright": "Níu giữ công việc tay trái chủ yếu vì an ninh tài chính, có thể hy sinh đam mê hoặc sự phát triển, sợ hãi buông bỏ nguồn thu nhập ổn định.",
+        "reversed": "Giải phóng nhu cầu kiểm soát tài chính tuyệt đối, cho phép công việc tay trái phát triển hoặc biến đổi, hoặc từ bỏ nó để theo đuổi đam mê chính. Hoặc, mất công việc tay trái do hoàn cảnh bất ngờ."
+      },
+      "real_estate": {
+        "upright": "Níu giữ tài sản, có lẽ cố chấp từ chối bán hoặc đầu tư thêm, vì sợ mất mát hoặc gắn bó với tài sản vật chất. Một tình hình bất động sản rất ổn định, nhưng có khả năng trì trệ.",
+        "reversed": "Bán tài sản, giải phóng một tài sản, hoặc một sự thay đổi đột ngột trong việc nắm giữ bất động sản. Có thể cho thấy việc buông bỏ gánh nặng hoặc sự thoái vốn bắt buộc."
+      },
+      "financial_loss": {
+        "upright": "Nỗi sợ mất mát tài chính mãnh liệt dẫn đến tích trữ, cực kỳ tiết kiệm, và không sẵn lòng đầu tư hoặc chấp nhận bất kỳ rủi ro nào, trớ trêu thay lại hạn chế tiềm năng tăng trưởng.",
+        "reversed": "Một sự giải thoát đau đớn của tài sản tài chính, một sự buông bỏ bắt buộc. Hoặc, sự chấp nhận một mất mát, cho phép một khởi đầu mới thay vì níu kéo những gì đã mất."
+      },
+      "sudden_wealth": {
+        "upright": "Nhận được của cải bất ngờ nhưng sau đó trở nên quá bảo vệ, sợ hãi mất nó, dẫn đến tích trữ thay vì tận hưởng hoặc đầu tư một cách khôn ngoan.",
+        "reversed": "Của cải bất ngờ hoặc được chia sẻ rộng rãi, hoặc nó trượt đi nhanh chóng do thiếu kiểm soát hoặc chi tiêu liều lĩnh. Hoặc, sự giải thoát khỏi gánh nặng của cải."
+      },
+      "healing": {
+        "upright": "Chống lại sự chữa lành về cảm xúc hoặc thể chất bằng cách níu kéo những khuôn mẫu cũ, nỗi đau, hoặc cơ chế bảo vệ. Sự không sẵn lòng buông bỏ những gì quen thuộc, dù nó có hại.",
+        "reversed": "Một sự giải thoát sâu sắc khỏi những vết thương và tắc nghẽn cũ, cho phép sự chữa lành thực sự bắt đầu. Rũ bỏ những lớp bảo vệ để đón nhận sự dễ bị tổn thương và phục hồi."
+      },
+      "stress": {
+        "upright": "Căng thẳng bắt nguồn từ nhu cầu kiểm soát quá lớn, ôm đồm quá nhiều trách nhiệm, hoặc không thể ủy quyền và tin tưởng người khác. Gánh nặng của sự an toàn tự áp đặt.",
+        "reversed": "Giải phóng sự kìm kẹp của kiểm soát, ủy quyền, hoặc buông bỏ những gánh nặng không cần thiết, dẫn đến giảm căng thẳng. Hoặc, căng thẳng trở nên quá sức đến nỗi mất kiểm soát."
+      },
+      "trauma": {
+        "upright": "Níu kéo những khuôn mẫu, ký ức, hoặc cơ chế bảo vệ sinh ra từ chấn thương, khiến khó khăn để tiến về phía trước. Quá khứ nắm giữ một sự kìm kẹp chặt chẽ vào hiện tại.",
+        "reversed": "Một bước quan trọng để giải phóng sự kìm kẹp của chấn thương trong quá khứ, cho phép xử lý và hòa nhập. Bắt đầu tháo dỡ những bức tường được xây dựng xung quanh bản thân."
+      },
+      "exams": {
+        "upright": "Chuẩn bị quá mức đến mức cứng nhắc, nỗi sợ thất bại dẫn đến lo lắng, hoặc tích trữ thông tin mà không thực sự hiểu. Một cách tiếp cận thận trọng, có lẽ ngột ngạt.",
+        "reversed": "Buông bỏ sự lo lắng quá mức, cho phép kiến thức tuôn chảy tự do trong kỳ thi. Hoặc, sự thiếu chuẩn bị đột ngột do hoàn cảnh bất ngờ."
+      },
+      "scholarship": {
+        "upright": "Giành được học bổng nhưng sau đó trở nên quá bảo vệ vị trí học tập của mình, sợ hãi bất kỳ sai lầm nào, dẫn đến áp lực không đáng có và sự miễn cưỡng khám phá ngoài chương trình học.",
+        "reversed": "Học bổng giải phóng một người khỏi gánh nặng tài chính, cho phép khám phá và hào phóng hơn trong học tập. Hoặc, một học bổng bị mất do không thể duy trì các yêu cầu của nó."
+      },
+      "talent": {
+        "upright": "Bảo vệ tài năng của mình, có lẽ vì sợ bị chỉ trích, thất bại, hoặc bị lợi dụng, dẫn đến việc nó bị che giấu hoặc không được sử dụng hết. Sự miễn cưỡng chia sẻ món quà của mình với thế giới.",
+        "reversed": "Giải phóng tài năng của mình vào thế giới, chia sẻ nó một cách tự do, hoặc tìm thấy dũng khí để thể hiện nó mà không sợ hãi. Hoặc, một tài năng, một khi được giải phóng, không được đánh giá cao hoặc bị lợi dụng."
+      },
+      "spirit_guide": {
+        "upright": "Sự kháng cự kết nối hoàn toàn với các linh hồn dẫn lối do sợ hãi điều chưa biết, không sẵn lòng buông bỏ kiểm soát, hoặc sự bám chấp cứng nhắc vào thực tại vật chất.",
+        "reversed": "Mở lòng đón nhận sự hướng dẫn của cõi linh thiêng, buông bỏ những ràng buộc trần thế để tiếp nhận trí tuệ thần thánh. Hoặc, một sự mất kết nối tạm thời do sự bất an về mặt tâm linh."
       }
     },
     "planet": "Mặt Trời",
@@ -16105,6 +21001,78 @@ window.TAROT_DB = [
       "general": {
         "upright": "Một giai đoạn đầy thử thách, cảm giác thiếu thốn, cô đơn và bị bỏ rơi. Có thể là những khó khăn về vật chất hoặc tinh thần đang bao trùm.",
         "reversed": "Dần thoát khỏi khó khăn, tìm thấy sự giúp đỡ và ánh sáng cuối đường hầm. Một giai đoạn phục hồi và cải thiện đang đến."
+      },
+      "toxic_relationship": {
+        "upright": "Trong vòng xoáy của mối quan hệ độc hại, lá bài này phơi bày sự cô lập lạnh lẽo, một cảm giác cạn kiệt năng lượng và giá trị bản thân, như thể linh hồn đang đóng băng trong sự thiếu thốn tình cảm. Bạn bị mắc kẹt trong vòng lặp của sự mất mát, không nhìn thấy lối thoát hay bất kỳ nguồn hỗ trợ nào.",
+        "reversed": "Dấu hiệu của sự thức tỉnh, khi màn sương mù của sự phủ nhận bắt đầu tan biến. Bạn nhận ra bản chất hủy hoại của mối quan hệ và tìm thấy sức mạnh nội tại để thoát ly, chấp nhận sự giúp đỡ từ bên ngoài để hàn gắn những vết thương sâu sắc và xây dựng lại giá trị của mình."
+      },
+      "soulmate": {
+        "upright": "Một nỗi khát khao sâu thẳm, một khoảng trống linh hồn nơi đáng lẽ phải có sự kết nối thiêng liêng. Lá bài này cho thấy bạn cảm thấy tâm hồn mình bị chia cắt hoặc người bạn đời định mệnh đang ở rất gần nhưng lại bị che khuất bởi những vết thương lòng, hoặc bạn không thể nhận ra họ giữa những khó khăn hiện tại.",
+        "reversed": "Khi những vết sẹo cũ bắt đầu lành lại, một sự nhận thức mới trỗi dậy, cho phép bạn nhìn thấy và đón nhận một mối liên kết linh hồn chân thật, có thể là một người đã từng bị bỏ lỡ hoặc một mối quan hệ mới xuất hiện sau một hành trình nội tâm sâu sắc."
+      },
+      "reconciliation": {
+        "upright": "Một vực thẳm sâu hoắm vẫn tồn tại, ngăn cách hai tâm hồn từng gắn bó. Có lẽ sự kiêu hãnh hay nỗi đau quá lớn đã đóng băng mọi hy vọng hàn gắn, khiến những vết thương cũ không thể lành lại, và sự xa cách trở nên lạnh lẽo, khó lòng vượt qua.",
+        "reversed": "Một tia sáng yếu ớt nhưng kiên định xuyên qua bóng tối, báo hiệu sự mềm lòng và những bước đi đầu tiên hướng tới việc hàn gắn. Sự tha thứ bắt đầu nảy mầm, có thể qua sự can thiệp của người thứ ba hoặc một quyết định có ý thức từ bỏ sự kiêu hãnh để tìm kiếm sự ấm áp của kết nối."
+      },
+      "secret_admirer": {
+        "upright": "Một linh hồn ngưỡng mộ bạn từ xa, nhưng sự hiện diện của họ bị che giấu bởi bức màn của sự sợ hãi hoặc cảm giác không xứng đáng, phản ánh sự giúp đỡ hiện hữu nhưng không được nhận ra. Bạn có thể cảm thấy cô đơn, không được yêu thương, hoàn toàn không biết đến tình cảm âm thầm này.",
+        "reversed": "Bức màn che phủ dần được vén lên. Người ngưỡng mộ tìm thấy dũng khí ��ể bộc lộ tình cảm, hoặc bạn trở nên nhạy bén hơn với những dấu hiệu tinh tế của sự quan tâm, phá vỡ những rào cản nội tâm về sự cô lập và đón nhận tình yêu."
+      },
+      "burnout": {
+        "upright": "Sự kiệt quệ hoàn toàn, cả về tinh thần lẫn thể chất. Một cảm giác bị bỏ rơi, không thể tiếp tục, bị cô lập trong nỗi đau của chính mình, một cái lạnh sâu thẳm của sự tuyệt vọng bao trùm linh hồn.",
+        "reversed": "Tia lửa đầu tiên của sự phục hồi, một bước đi tuyệt vọng nhưng kiên quyết hướng tới sự nghỉ ngơi và tự chăm sóc. Một nhận thức rằng sự giúp đỡ và sự giải thoát luôn sẵn có nếu bạn dám tìm kiếm, một sự tan chảy chậm rãi của tinh thần đóng băng."
+      },
+      "startup": {
+        "upright": "Khởi nghiệp đối mặt với khó khăn tài chính nghiêm trọng, thiếu hụt nguồn lực, cảm giác không được thị trường hoặc nhà đầu tư ủng hộ, vật lộn để tồn tại, một cảm giác bị loại bỏ trong môi trư���ng cạnh tranh khốc liệt, những cơn gió lạnh của thất bại.",
+        "reversed": "Một bước ngoặt sau cuộc đấu tranh gian khổ, tìm thấy nguồn vốn bất ngờ hoặc một đối tác quan trọng, thích nghi với thực tế khắc nghiệt, xây dựng khả năng phục hồi, dần thoát khỏi bờ vực sụp đổ."
+      },
+      "workplace_politics": {
+        "upright": "Cảm giác bị cô lập, bị nhắm mục tiêu hoặc bị loại khỏi các quyết định quan trọng, trải nghiệm một môi trường làm việc khắc nghiệt và lạnh lẽo nơi những đóng góp của bạn bị đánh giá thấp hoặc bỏ qua, một cảm giác bị đối xử bất công.",
+        "reversed": "Một sự thay đổi chậm rãi nhưng ổn định trong động lực, tìm thấy đồng minh, nhận biết và điều hướng chính trị nơi làm việc hiệu quả hơn, lấy lại cảm giác thuộc về hoặc khẳng định vị trí của mình sau một thời kỳ đấu tranh."
+      },
+      "side_hustle": {
+        "upright": "Công việc phụ gặp khó khăn để phát triển, đối mặt với chi phí bất ngờ hoặc thiếu nhu cầu, cảm giác như một gánh nặng hơn là một lợi ích, chỉ đủ sống qua ngày, một cuộc chiến không ngừng chống lại sự khan hiếm.",
+        "reversed": "Một khoảnh khắc đột phá, tìm thấy một thị trường ngách, tăng trưởng bất ngờ hoặc một lượng lớn khách hàng đột ngột, công việc phụ bắt đầu mang lại sự giải thoát thực sự và một con đường hướng tới sự ổn định tài chính lớn hơn, thoát khỏi sự mờ mịt."
+      },
+      "real_estate": {
+        "upright": "Khó khăn tài chính liên quan đến tài sản, khó khăn trong việc mua bán, nỗi sợ bị tịch thu nhà, sống trong một nơi ở không đầy đủ hoặc không ổn định, cảm giác bị phơi bày và dễ bị tổn thương về ngôi nhà của mình.",
+        "reversed": "Một giải pháp cho những vấn đề về tài sản, đảm bảo một ngôi nhà ổn định, tìm thấy người mua hoặc người bán sau một thời gian dài tìm kiếm, một cảm giác lấy lại an ninh và sự ấm áp trong tình hình sống của mình."
+      },
+      "financial_loss": {
+        "upright": "Một trải nghiệm tàn khốc và tức thì về sự thiếu thốn tiền bạc, một cảm giác sâu sắc về sự thiếu hụt và bất an, thực tế lạnh lẽo của khó khăn vật chất, cảm giác hoàn toàn bị số phận bỏ rơi.",
+        "reversed": "Quá trình tái thiết chậm chạp, gian khổ sau một mất mát đáng kể, tìm thấy những con đường phục hồi bất ngờ, chấp nhận sự hỗ trợ, một sự trở lại dần dần của sự ổn định và một cảm giác hy vọng cho tương lai."
+      },
+      "sudden_wealth": {
+        "upright": "Lá bài này chống lại ý nghĩa của sự giàu có bất ngờ. Nó gợi ý rằng bất kỳ sự giàu có nào được nhận thức đều chỉ là phù du hoặc đi kèm với những chi phí ẩn, hoặc người hỏi quá tập trung vào sự thiếu thốn của mình đến mức không thể nhận ra sự dồi dào thực sự ngay cả khi nó xuất hiện. Một sự bất lực tinh thần trong việc đón nhận.",
+        "reversed": "Một sự thay đổi trong quan điểm cho phép một người nhận ra và đánh giá cao sự dồi dào hiện có hoặc sắp tới, hoặc sự kết thúc của một giai đoạn khan hiếm sau đó cho phép khả năng nhận được những phước lành bất ngờ, thoát khỏi tư duy nghèo nàn."
+      },
+      "healing": {
+        "upright": "Những vết thương sâu sắc, cả thể chất và tinh thần, vẫn còn dai dẳng, một cảm giác vượt quá giới hạn chữa trị hoặc bị những người chữa lành lãng quên, một nỗi đau lạnh lẽo, cô lập dường như không có hồi kết, một cuộc đấu tranh để thậm chí thừa nhận con đường phục hồi.",
+        "reversed": "Những tia ấm áp đầu tiên xuyên qua cái lạnh, một bước ngoặt trong hành trình chữa lành, tìm thấy sự hỗ trợ hoặc phương pháp điều trị phù hợp, một cam kết mới cho việc tự chăm sóc, một sự trở lại chậm rãi nhưng chắc chắn của sự toàn vẹn, nhận ra nơi trú ẩn có sẵn."
+      },
+      "stress": {
+        "upright": "Căng thẳng quá mức và suy nhược, dẫn đến sự suy sụp về thể chất và tinh thần, cảm giác hoàn toàn cô đơn trong cuộc đấu tranh, sự kìm kẹp lạnh lẽo của lo lắng và tuyệt vọng, cảm giác không thể đối phó.",
+        "reversed": "Một cuộc tìm kiếm tuyệt vọng nhưng hiệu quả các cơ chế đối phó, tìm thấy sự giải thoát thông qua sự hỗ trợ hoặc thay đổi, một sự giải thoát dần dần khỏi sự kìm kẹp ngột ngạt của căng thẳng, nhận ra rằng mình không đơn độc và sự giúp đỡ có thể tiếp cận được."
+      },
+      "trauma": {
+        "upright": "Sống trong bóng tối của những vết thương quá khứ, cảm giác mãi mãi dễ bị tổn thương, bị cô lập bởi nỗi đau, một cái lạnh tinh thần và cảm xúc sâu sắc ngăn cản sự kết nối và chữa lành, sống lại cảm giác bị bỏ rơi và thiếu thốn.",
+        "reversed": "Quá trình khó khăn nhưng cần thiết để đối mặt và hòa nhập với chấn thương, tìm thấy những không gian an toàn và những người hướng dẫn đầy lòng trắc ẩn, từ từ làm tan ch��y những phần đóng băng của bản thân, chuyển từ vai trò nạn nhân sang người sống sót."
+      },
+      "exams": {
+        "upright": "Cảm thấy không chuẩn bị, choáng ngợp, thiếu nguồn lực hoặc sự tự tin, một nỗi sợ hãi sâu sắc về thất bại, cảm giác cô lập trong những cuộc đấu tranh học tập của mình, nỗi sợ hãi lạnh lẽo của sự phán xét sắp tới.",
+        "reversed": "Một sự rõ ràng đột ngột, tìm thấy tài liệu học tập hoặc sự hỗ trợ quan trọng, vượt qua các rào cản tinh thần, một sự hiểu biết hoặc khả năng phục hồi vào phút cuối giúp vượt qua thử thách, nhận ra con đường dẫn đến thành công."
+      },
+      "scholarship": {
+        "upright": "Một cảm giác sâu sắc về sự không xứng đáng hoặc thiếu cơ hội, cảm giác bị bỏ qua đối với hỗ trợ học tập, vật lộn để tài trợ cho giáo dục, thực tế lạnh lẽo của các rào cản tài chính đối với việc học.",
+        "reversed": "Nhận được hỗ trợ tài chính bất ngờ, một học bổng đến sau một thời gian tuyệt vọng, nhận ra và nộp đơn xin các cơ hội đã bị bỏ qua trước đây, một bước đột phá từ sự ràng buộc tài chính."
+      },
+      "talent": {
+        "upright": "Một tài năng vẫn không được công nhận, không được trau dồi hoặc không được đánh giá cao, dẫn đến cảm giác không được thỏa mãn và thất vọng, cảm giác rằng những món quà của một người bị lãng phí hoặc không liên quan, một sự bỏ bê lạnh lẽo tiềm năng bên trong.",
+        "reversed": "Một sự tái khám phá hoặc xác nhận những món quà bẩm sinh của một người, tìm thấy một nền tảng hoặc người cố vấn để nuôi dưỡng tài năng, vượt qua sự tự nghi ngờ và cho phép khả năng độc đáo của một người tỏa sáng, thoát khỏi bóng tối của sự bỏ bê."
+      },
+      "spirit_guide": {
+        "upright": "Cảm giác hoàn toàn mất kết nối với sự hướng dẫn tâm linh, một cảm giác bị các thế lực cao hơn bỏ rơi, đấu tranh qua một đêm tối của linh hồn, không nhận thấy ánh sáng hoặc sự hỗ trợ thiêng liêng nào, cảm thấy nghèo nàn về mặt tâm linh.",
+        "reversed": "Một sự tái kết nối tinh tế nhưng sâu sắc với các đồng minh tâm linh, nhận ra những lời thì thầm nhẹ nhàng hoặc những lời thúc giục nhẹ nhàng của một người hướng dẫn tinh thần đã bị bỏ qua trước đây, sự trở lại của niềm tin và cảm giác được che chở, làm tan chảy cái lạnh tâm linh."
       }
     },
     "planet": "Sao Thủy",
@@ -16340,6 +21308,78 @@ window.TAROT_DB = [
       "general": {
         "upright": "Thời điểm của sự hào phóng, lòng nhân ái và sự cân bằng trong việc cho đi và nhận lại. Bạn có thể là người giúp đỡ hoặc được giúp đỡ.",
         "reversed": "Sự mất cân bằng rõ rệt, có thể là sự keo kiệt, ích kỷ, hoặc cảm giác bị lợi dụng, bất công trong các mối quan hệ và giao dịch."
+      },
+      "toxic_relationship": {
+        "upright": "Trong bóng tối của sự bất cân xứng, lá bài này đôi khi chỉ ra một mối quan hệ độc hại nơi một bên không ngừng ban phát, trong khi bên kia mãi mãi nhận lấy. Tuy nhiên, nó cũng có thể là một lời nhắc nhở về sự cần thiết của sự hỗ trợ trong một giai đoạn khó khăn, dù có thể ngầm ẩn một sự trao đổi không đồng đều cần được nhận diện.",
+        "reversed": "Khi đảo ngược, Sáu Tiền phơi bày sự trần trụi của sự bóc lột và thao túng trong mối quan hệ độc hại. Một bên bị rút cạn năng lượng, tài nguyên, trong khi bên kia tích lũy và kiểm soát. Đây là một vòng lặp nợ nần cảm xúc không lành mạnh, nơi sự hào phóng giả tạo che đậy ý đồ chiếm đoạt."
+      },
+      "soulmate": {
+        "upright": "Một liên kết linh hồn được dệt nên từ sự hỗ trợ lẫn nhau, gánh vác chung gánh nặng và sự trao đi nhận lại công bằng. Mỗi người nâng đỡ người kia, vun đắp cảm giác sung túc và lòng biết ơn chung, tạo nên sự trao đổi cân bằng của phước lành vật chất và tinh thần.",
+        "reversed": "Một ảo ảnh của kết nối linh hồn, nơi một người hút cạn sinh lực của người kia, hoặc một mối quan hệ mà sự cho đi là đơn phương, dẫn đến sự mất cân bằng che khuất mối quan hệ đối tác tinh thần đích thực. Một món nợ nghiệp quả đội lốt tình yêu định mệnh."
+      },
+      "reconciliation": {
+        "upright": "Một cơ hội chân thành cho sự tha thứ và sửa đổi cân bằng, nơi cả hai bên sẵn lòng cho đi và nhận lại lời xin lỗi, sự thấu hiểu và hỗ trợ để hàn gắn vết thương cũ. Một sự trao đổi công bằng các ý định để xây dựng lại.",
+        "reversed": "Một nỗ lực hòa giải thiếu đi sự chân thành, nơi một bên tìm cách lợi dụng thiện chí của bên kia, hoặc sự mất cân bằng trong mong muốn hòa giải, dẫn đến sự oán giận sâu sắc hơn hoặc một thỏa thuận đình chiến hời hợt. Những món nợ của trái tim vẫn chưa được thanh toán."
+      },
+      "secret_admirer": {
+        "upright": "Một ân nhân ẩn danh đầy thiện ý, người lặng lẽ ban tặng sự hỗ trợ, những món quà hoặc cử chỉ tử tế mà không tìm kiếm sự công nhận, được thúc đẩy bởi sự ngưỡng mộ thuần khiết hoặc mong muốn nâng đỡ.",
+        "reversed": "Một người ngưỡng mộ bí mật với ý đồ không trong sáng, có thể tìm cách thao túng hoặc đạt được điều gì đó thông qua 'sự hào phóng' của họ, hoặc một người mong đợi sự biết ơn và cảm thấy bị coi thường nếu không được công nhận, biến sự ngưỡng mộ thành một hình thức kiểm soát."
+      },
+      "burnout": {
+        "upright": "Một giai đoạn mà người ta có thể nhận được sự hỗ trợ, tài nguyên hoặc hướng dẫn quan trọng để phục hồi sau kiệt sức, hoặc một dấu hiệu cho thấy cần học cách ủy thác và chấp nhận sự giúp đỡ để khôi phục sự cân bằng. Một khoảnh khắc nhận được ân sủng.",
+        "reversed": "Sự kiệt sức trầm trọng hơn do không thể nhận sự giúp đỡ, cảm giác bị lợi dụng hoặc không được trân trọng dù đã cho đi không ngừng nghỉ, hoặc từ chối thừa nhận nhu cầu hỗ trợ bên ngoài, dẫn đến sự cạn kiệt sâu sắc hơn."
+      },
+      "startup": {
+        "upright": "Nhận được nguồn vốn ban đầu, sự cố vấn hoặc tài nguyên thiết yếu từ các nhà đầu tư hoặc đối tác thiện chí. Một sự trao đổi giá trị công bằng, thiết lập nền tảng vững chắc thông qua phân phối và hỗ trợ công bằng.",
+        "reversed": "Qu��n lý tài chính yếu kém, bị nhà đầu tư lợi dụng, phân phối vốn không công bằng, hoặc một công ty khởi nghiệp gặp khó khăn do lòng tham, sự keo kiệt, hoặc thiếu sự hỗ trợ chân thành từ hệ sinh thái của nó. Các khoản nợ chồng chất."
+      },
+      "workplace_politics": {
+        "upright": "Điều hướng các động lực văn phòng bằng cách cung cấp sự hỗ trợ, chia sẻ công bằng thành quả và thúc đẩy một môi trường cân bằng của sự cho đi và nhận lại. Một sự phân phối chiến lược các ân huệ và ảnh hưởng duy trì sự hài hòa.",
+        "reversed": "Sự thao túng, thiên vị, bóc lột đồng nghiệp, phân phối nhiệm vụ hoặc phần thưởng không công bằng, hoặc một môi trường nơi sự hào phóng được sử dụng như một công cụ kiểm soát, dẫn đến sự oán giận và mất cân bằng."
+      },
+      "side_hustle": {
+        "upright": "Một dự án thành công mang lại thu nhập bổ sung, thường là cân bằng, có thể thông qua sự trao đổi dịch vụ hoặc hàng hóa công bằng, cho phép tăng trưởng và ổn định. Một mối quan hệ cộng sinh giữa nỗ lực và phần thưởng.",
+        "reversed": "Một công việc phụ trở nên bóc lột, hoặc là rút cạn tài nguyên mà không có sự đền bù công bằng, hoặc nơi các hành vi phi đạo đức được sử dụng, dẫn đến sự mất cân bằng giữa nỗ lực và phần thưởng, hoặc thậm chí là nợ nần."
+      },
+      "real_estate": {
+        "upright": "Một giao dịch công bằng và cân bằng, nhận được một thỏa thuận tốt, hoặc cung cấp hỗ trợ thành công (ví dụ: chủ nhà cung cấp nhà ở công bằng, người cho vay đưa ra các điều khoản hợp lý). Một sự trao đổi có lợi cho cả hai bên trong bất động sản.",
+        "reversed": "Các giao dịch bất động sản không công bằng, bóc lột trong việc thuê hoặc bán, cho vay nặng lãi, hoặc một tình huống mà một bên cảm thấy bị lợi dụng, dẫn đến mất cân bằng tài chính hoặc tranh chấp pháp lý."
+      },
+      "financial_loss": {
+        "upright": "Tìm kiếm sự h�� trợ hoặc nhận được viện trợ trong thời kỳ thua lỗ, có thể thông qua bảo hiểm, một khoản vay thiện chí, hoặc sự hào phóng của người khác, giúp giảm thiểu tác động và khôi phục sự cân bằng.",
+        "reversed": "Một tổn thất tài chính bị làm trầm trọng thêm bởi việc không thể nhận sự giúp đỡ, bị lợi dụng thêm trong tình trạng dễ bị tổn thương, hoặc sự mất cân bằng sâu sắc do các hành vi không công bằng, dẫn đến nợ nần chồng chất hoặc túng quẫn."
+      },
+      "sudden_wealth": {
+        "upright": "Nhận được sự sung túc bất ngờ, thường đi kèm với ý thức mạnh mẽ về trách nhiệm chia sẻ hoặc quản lý nó một cách khôn ngoan, có thể thông qua việc làm từ thiện hoặc đầu tư thận trọng, duy trì sự cân bằng. Một món quà từ vũ trụ đầy thiện ý.",
+        "reversed": "Sự giàu có bất ngờ dẫn đến lòng tham, ích kỷ, bóc lột người khác, hoặc không có khả năng quản lý nó một cách có trách nhiệm, tạo ra sự mất cân bằng cuối cùng dẫn đến mất mát hoặc bất hạnh. Một lời nguyền trá hình thành phước lành."
+      },
+      "healing": {
+        "upright": "Nhận được sự hỗ trợ, chăm sóc và tài nguyên thiết yếu để phục hồi, dù là về thể chất, cảm xúc hay tinh thần. Một quá trình phục hồi cân bằng, nơi người ta chấp nhận sự giúp đỡ và cống hiến cho hạnh phúc của chính mình.",
+        "reversed": "Sự chữa lành bị cản trở do không thể chấp nhận sự giúp đỡ, cảm thấy bị lợi dụng bởi các nhà trị liệu hoặc hệ thống, hoặc sự mất cân bằng trong quá trình chữa lành nơi người ta cho đi quá nhiều mà không nhận được sự chăm sóc đầy đủ, kéo dài sự đau khổ."
+      },
+      "stress": {
+        "upright": "Tìm thấy sự giải thoát thông qua sự hỗ trợ bên ngoài, ủy thác, hoặc bằng cách học cách cân bằng gánh nặng của mình, cho phép người khác chia sẻ gánh nặng. Một khoảnh khắc nhận được ân sủng để giảm bớt áp lực.",
+        "reversed": "Căng thẳng tăng cường do từ chối yêu cầu giúp đỡ, cảm thấy bị lợi dụng bởi các yêu cầu, hoặc một cảm giác gánh nặng không công bằng quá lớn, nơi người ta cho đi không ngừng mà không nhận được sự nghỉ ngơi, dẫn đến suy sụp."
+      },
+      "trauma": {
+        "upright": "Nhận được sự hỗ trợ, trị liệu hoặc sự thấu hiểu đầy lòng trắc ẩn từ người khác, giúp ích trong việc xử lý và chữa lành chấn thương. Một sự trao đổi thiêng liêng về sự đồng cảm và hướng dẫn giúp khôi phục sự cân bằng bên trong.",
+        "reversed": "Chấn thương bị làm trầm trọng thêm do thiếu sự hỗ trợ, cảm thấy bị lợi dụng hoặc hiểu lầm, hoặc không thể xử lý nó do sự mất cân bằng trong hành trình chữa lành, nơi các món nợ trong quá khứ (cảm xúc) vẫn chưa được trả."
+      },
+      "exams": {
+        "upright": "Nhận được đánh giá công bằng, hoặc hưởng lợi từ sự hào phóng của giáo viên, người cố vấn, hoặc bạn học. Một sự trao đổi cân bằng kiến thức và nỗ lực dẫn đến thành công xứng đáng.",
+        "reversed": "Điểm số không công bằng, cảm thấy bị hệ thống thi cử lợi dụng, hoặc một tình huống mà nỗ lực của một người không được đền đáp tương xứng, dẫn đến cảm giác bất công hoặc nợ nần học thuật."
+      },
+      "scholarship": {
+        "upright": "Nhận được một khoản trợ cấp hoặc hỗ trợ tài chính đầy thiện chí dựa trên thành tích hoặc nhu cầu, cho phép tiến bộ trong giáo dục mà không gặp gánh nặng không đáng có. Một món quà thúc đẩy sự phát triển và cơ hội.",
+        "reversed": "Một học bổng đi kèm với những điều kiện ngầm, các điều khoản bóc lột, hoặc một học bổng bị từ chối một cách không công bằng, dẫn đến sự mất cân bằng về cơ hội hoặc cảm giác bị lợi dụng."
+      },
+      "talent": {
+        "upright": "Sự chia sẻ tài năng đầy thiện chí của một người, nhận được sự công nhận hoặc đền bù công bằng cho chúng, hoặc được cấp tài nguyên để trau dồi và thể hiện những món quà bẩm sinh. Một sự trao đổi cân bằng giữa việc ban tặng và nhận lại.",
+        "reversed": "Sự bóc lột tài năng của một người mà không có sự đền bù công bằng, sự tích trữ quà tặng vì sợ hãi hoặc lòng tham, hoặc không có khả năng phát triển tài năng do thiếu tài nguyên hoặc hoàn cảnh không công bằng."
+      },
+      "spirit_guide": {
+        "upright": "Nhận được sự hướng dẫn, trí tuệ và hỗ trợ đầy thiện ý từ một thực thể tâm linh, một sự trao đổi cân bằng nơi những hiểu biết sâu sắc được ban tặng tự do và được đón nhận với lòng biết ơn, hỗ trợ trong hành trình tâm linh của một người.",
+        "reversed": "Hiểu sai hướng dẫn tâm linh, cảm thấy bị lợi dụng bởi một thực thể (hoặc một người tuyên bố kênh dẫn), hoặc sự mất cân bằng trong kết nối tâm linh nơi người ta không ngừng tìm kiếm mà không cho đi (ví dụ: thông qua thực hành tâm linh, lòng biết ơn), hoặc bị dẫn dắt bởi những ân nhân giả dối."
       }
     },
     "planet": "Mặt Trăng",
@@ -16573,6 +21613,78 @@ window.TAROT_DB = [
       "lost_item": {
         "upright": "Món đồ thất lạc có thể được tìm thấy sau một thời gian dài tìm kiếm, hoặc xuất hiện trở lại khi bạn không còn mong đợi. Đòi hỏi sự kiên nhẫn và niềm tin không lay chuyển.",
         "reversed": "Sự nản lòng khiến bạn từ bỏ việc tìm kiếm quá sớm. Hoặc món đồ đã bị mất do sự thiếu kiên nhẫn, không sắp xếp gọn gàng từ trước, nay khó lòng tìm lại được."
+      },
+      "toxic_relationship": {
+        "upright": "Một khoảnh khắc chiêm nghiệm sâu sắc, khi linh hồn tự vấn về những năng lượng đã đổ vào mối quan hệ độc hại này. Là lúc đánh giá liệu hạt giống của sự hy vọng có còn nảy mầm trên mảnh đất cằn cỗi, hay đã đến lúc chấp nhận rằng vụ mùa này không thể thu hoạch. Sự kiên nhẫn đang cạn kiệt, nhưng sự khôn ngoan đòi hỏi một cái nhìn tổng thể trước khi buông bỏ.",
+        "reversed": "Sự sốt ruột và thất vọng tràn trề, đẩy linh hồn đến quy���t định buông bỏ hoặc tiếp tục đầu tư mù quáng. Có thể là sự từ bỏ quá vội vàng, không cho phép một tia hy vọng cuối cùng; hoặc sự cố chấp tiếp tục vun đắp một cách vô vọng, từ chối nhận ra rằng mọi nỗ lực đều trở thành tro bụi. Năng lượng tiêu hao mà không có sự phản tư."
+      },
+      "soulmate": {
+        "upright": "Đây là giai đoạn vun đắp và chờ đợi một cách kiên nhẫn trong một kết nối tâm linh sâu sắc. Linh hồn đang ươm mầm tình yêu, quan sát sự phát triển chậm rãi nhưng vững chắc, hiểu rằng tình yêu đích thực cần thời gian để bén rễ và đơm hoa. Không phải là sự bùng nổ tức thì, mà là sự trưởng thành từ từ, bền vững.",
+        "reversed": "Sự thiếu kiên nhẫn hoặc nghi ngờ có thể khiến một kết nối định mệnh bị bỏ rơi quá sớm. Hoặc, sự miễn cưỡng không muốn đầu tư thời gian và công sức cần thiết để vun đắp mối quan hệ sâu sắc này, thay vào đó tìm kiếm sự thỏa mãn tức thời mà bỏ lỡ c�� hội phát triển tâm hồn."
+      },
+      "reconciliation": {
+        "upright": "Một sự đánh giá thận trọng về giá trị của việc hàn gắn. Linh hồn đang cân nhắc liệu năng lượng đã mất có đáng để tái đầu tư vào một mối quan hệ đã rạn nứt hay không, và liệu những hạt giống mới có thể thực sự nảy mầm từ đống đổ nát. Cần sự kiên nhẫn để chờ đợi dấu hiệu của sự hồi sinh chân thật.",
+        "reversed": "Sự sốt ruột dẫn đến việc từ bỏ cơ hội hòa giải quá sớm, hoặc lao vào hàn gắn mà không có sự đánh giá đúng đắn, chỉ để nhận ra vết thương vẫn còn hở. Cũng có thể là sự cố chấp không muốn bỏ ra công sức cần thiết cho quá trình chữa lành thực sự."
+      },
+      "secret_admirer": {
+        "upright": "Người ngưỡng mộ đang kiên nhẫn quan sát, gieo trồng những cảm xúc thầm kín và chờ đợi thời điểm chín muồi để bộc lộ. Họ đang cẩn trọng đánh giá 'vụ mùa' của tình cảm, cân nhắc mọi rủi ro và phần thưởng tiềm ẩn trước khi thực hiện bước đi tiếp theo.",
+        "reversed": "Người ngưỡng mộ từ bỏ quá sớm vì thiếu kiên nhẫn hoặc thất vọng trước sự thiếu phản hồi tức thì. Hoặc, họ bộc lộ cảm xúc một cách bốc đồng, không đúng thời điểm, dẫn đến kết quả không như mong đợi và sự lãng phí năng lượng cảm xúc."
+      },
+      "burnout": {
+        "upright": "Một khoảnh khắc quan trọng của sự tạm dừng và phản tư, khi linh hồn tự hỏi liệu những nỗ lực phi thường đã bỏ ra có thực sự xứng đáng với cái giá phải trả. Là lúc cân nhắc lại giá trị của sự lao động không ngừng nghỉ khi không có phần thưởng tương xứng, đứng trên bờ vực của sự kiệt quệ.",
+        "reversed": "Sự sụp đổ hoàn toàn vào trạng thái kiệt sức, khi những dấu hiệu cảnh báo đã bị bỏ qua. Hoặc, một nỗ lực tuyệt vọng, không hiệu quả để vượt qua sự kiệt sức, từ chối nghỉ ngơi hay đánh giá lại sự đầu tư năng lượng của bản thân, đẩy linh hồn vào vòng xoáy mệt mỏi không lối thoát."
+      },
+      "startup": {
+        "upright": "Một giai đoạn quan trọng của việc kiên nhẫn nuôi dưỡng dự án khởi nghiệp, đánh giá cẩn thận những khoản đầu tư ban đầu về thời gian, tiền bạc và công sức. Đây là lúc đánh giá chiến lược tăng trưởng, hiểu rằng vụ mùa thịnh vượng vẫn còn ở phía trước, nhưng cần sự chăm sóc tỉ mỉ.",
+        "reversed": "Sự thiếu kiên nhẫn dẫn đến việc từ bỏ dự án khởi nghiệp quá sớm, hoặc thiếu tầm nhìn trong các khoản đầu tư ban đầu, dẫn đến lãng phí công sức. Cũng có thể là việc đốt cháy tài nguyên mà không có sự đánh giá đúng đắn, dẫn đến sự bất ổn tài chính hoặc sụp đổ."
+      },
+      "workplace_politics": {
+        "upright": "Sự quan sát cẩn trọng bối cảnh chính trị nơi làm việc, gieo những hạt giống ảnh hưởng một cách chiến lược và kiên nhẫn chờ đợi thời điểm thích hợp để hành động. Đây là việc đánh giá tác động l��u dài của hành động và tránh những bước đi vội vàng, để vụ mùa quyền lực có thể đơm hoa.",
+        "reversed": "Sự tham gia bốc đồng vào chính trị nơi làm việc mà không có sự đánh giá đúng đắn, dẫn đến hậu quả tiêu cực không mong muốn hoặc lãng phí công sức. Hoặc, sự từ bỏ một cách hoài nghi mọi nỗ lực điều hướng chính trị, dẫn đến việc bị bỏ qua hoặc bất lợi."
+      },
+      "side_hustle": {
+        "upright": "Một giai đoạn đầu tư thời gian và năng lượng một cách cần mẫn vào công việc phụ, kiên nhẫn chờ đợi nó mang lại lợi nhuận đáng kể. Đây là lúc đánh giá tiềm năng của nó, nuôi dưỡng sự phát triển và hiểu rằng thành công là một quá trình dần dần, đòi hỏi sự kiên trì.",
+        "reversed": "Sự thiếu kiên nhẫn dẫn đến việc từ bỏ công việc phụ quá sớm, hoặc thiếu sự nỗ lực nhất quán, dẫn đến lợi nhuận tối thiểu. Cũng có thể là việc đổ vô số năng lượng vào nó mà không bao giờ thấy lợi nhuận, từ chối thừa nhận một khoản đầu tư kém hiệu quả."
+      },
+      "real_estate": {
+        "upright": "Sự đánh giá cẩn trọng một khoản đầu tư bất động sản, cân nhắc tiềm năng dài hạn, xu hướng thị trường và thời gian cần thiết để tăng giá. Đây là sự kiên nhẫn chờ đợi thời điểm thích hợp để mua hoặc bán, hoặc để thấy được lợi nhuận từ những nỗ lực cải tạo.",
+        "reversed": "Những quyết định bất động sản bốc đồng, mua hoặc bán quá sớm mà không có sự đánh giá thị trường đúng đắn, dẫn đến thua lỗ tài chính hoặc bỏ lỡ cơ hội. Hoặc, cố chấp giữ một tài sản đang mất giá, từ chối cắt bỏ tổn thất."
+      },
+      "financial_loss": {
+        "upright": "Một khoảnh khắc đánh giá tỉnh táo sau một thất bại tài chính, xem xét nơi khoản đầu tư đã sai và những bài học có thể rút ra. Đây là một sự tạm dừng để hiểu nguyên nhân, không phải để hoảng sợ, mà để lên kế hoạch cho những bước đi tiếp theo một cách cẩn trọng.",
+        "reversed": "Cắt bỏ tổn thất một cách bốc đồng hoặc đưa ra những quyết định vội vàng để đối phó với thua lỗ, dẫn đến thiệt hại thêm. Hoặc, từ chối thừa nhận thua lỗ và tiếp tục đổ tài nguyên vào một dự án thất bại, làm trầm trọng thêm tình hình."
+      },
+      "sudden_wealth": {
+        "upright": "Không phải là dấu hiệu của sự giàu có bất ngờ, mà là sự chiêm nghiệm sau khi nhận được của cải bất ngờ. Linh hồn đang cân nhắc cách tốt nhất để đầu tư hoặc quản lý nguồn lực mới này cho sự phát triển lâu dài, thay vì phung phí nó một cách vô tâm.",
+        "reversed": "Phung phí của cải bất ngờ do thiếu kiên nhẫn hoặc tầm nhìn xa, không đầu tư khôn ngoan cho tương lai. Sự bất lực trong việc trân trọng hoặc quản lý món quà bất ngờ, dẫn đến sự tan biến nhanh chóng của nó."
+      },
+      "healing": {
+        "upright": "Một giai đoạn nỗ lực kiên trì, nhất quán trong hành trình chữa lành, hiểu r���ng sự phục hồi là một quá trình dần dần đòi hỏi thời gian và sự nuôi dưỡng. Đây là việc đánh giá tiến độ, ghi nhận những cải thiện nhỏ và cam kết với chặng đường dài phía trước.",
+        "reversed": "Sự thiếu kiên nhẫn với quá trình chữa lành, dẫn đến việc từ bỏ các phương pháp điều trị cần thiết hoặc tìm kiếm các giải pháp nhanh chóng không giải quyết được nguyên nhân gốc rễ. Hoặc, sự từ chối đầu tư nỗ lực nhất quán cần thiết cho sự phục hồi thực sự, lâu dài."
+      },
+      "stress": {
+        "upright": "Một khoảnh khắc phản tư quan trọng về các nguồn gây căng thẳng, đánh giá liệu những nỗ lực và đầu tư hiện tại có thực sự xứng đáng với cái giá phải trả. Đây là lời kêu gọi tạm dừng, đánh giá 'vụ mùa' của lao động và cân nhắc xem liệu có cần thay đổi để giảm bớt gánh nặng hay không.",
+        "reversed": "Phớt lờ các dấu hiệu của sự căng thẳng gia tăng, tiếp tục thúc đẩy mà không đánh giá, dẫn đến sự quá tải và khả năng suy sụp. Hoặc, thực hiện những thay đổi bốc đồng, không hiệu quả để đối phó với căng thẳng mà chỉ làm trầm trọng thêm vấn đề."
+      },
+      "trauma": {
+        "upright": "Một quá trình chữa lành chấn thương chậm rãi, có chủ đích, kiên nhẫn chăm sóc những vết thương và hiểu rằng sự phục hồi không phải là đường thẳng mà đòi hỏi nỗ lực nhất quán, nhẹ nhàng. Đây là việc thừa nhận sự đầu tư sâu sắc cần thiết cho sự phát triển và bình an nội tâm.",
+        "reversed": "Sự thiếu kiên nhẫn với hành trình phức tạp của việc chữa lành chấn thương, dẫn đến sự né tránh hoặc tìm kiếm các giải pháp hời hợt. Hoặc, sự từ chối đầu tư công sức cảm xúc và tâm lý cần thiết, khiến chấn thương không được giải quyết và tiếp tục âm ỉ."
+      },
+      "exams": {
+        "upright": "Một giai đoạn chuẩn bị siêng năng và học tập kiên nhẫn, hiểu rằng nỗ lực nhất quán cuối cùng sẽ mang l���i kết quả. Đây là việc xem xét kỹ lưỡng tài liệu, đánh giá những lỗ hổng kiến thức và tin tưởng vào quá trình học tập.",
+        "reversed": "Học nhồi nhét vào phút cuối, thiếu kiên nhẫn với quá trình học tập, hoặc từ bỏ việc chuẩn bị quá sớm. Cũng có thể là cảm giác rằng nỗ lực đã bỏ ra là vô ích, hoặc thiếu sự đánh giá đúng đắn về sự sẵn sàng của bản thân."
+      },
+      "scholarship": {
+        "upright": "Quá trình nộp đơn cẩn thận và siêng năng, kiên nhẫn chờ đợi kết quả, đã đầu tư đáng kể công sức vào việc chuẩn bị một hồ sơ mạnh mẽ. Đây là việc hiểu rằng phần thưởng dành cho cam kết lâu dài và sự đầu tư vào học vấn.",
+        "reversed": "Sự thiếu kiên nhẫn hoặc thiếu tỉ mỉ trong quá trình nộp đơn, dẫn đến bỏ lỡ cơ hội. Hoặc, cảm giác rằng nỗ lực bỏ ra để nộp đơn không được đền đáp, dẫn đến sự thất vọng hoặc từ bỏ con đường học vấn."
+      },
+      "talent": {
+        "upright": "Kiên nhẫn trau dồi một tài năng, hiểu rằng sự thành thạo đến từ việc luyện tập nhất quán và sự cống hiến lâu dài. Đây là việc nuôi dưỡng cẩn thận khả năng của bản thân, đánh giá tiến độ và đầu tư thời gian để thấy chúng nở rộ.",
+        "reversed": "Sự thiếu kiên nhẫn với sự phát triển chậm của tài năng, dẫn đến việc từ bỏ quá sớm hoặc tìm kiếm sự công nhận tức thì mà không có nền tảng cần thiết. Hoặc, sự bỏ bê không đầu tư vào khả năng tự nhiên của bản thân, khiến chúng bị mai một."
+      },
+      "spirit_guide": {
+        "upright": "Kiên nhẫn vun đắp mối liên hệ với linh hướng của mình, hiểu rằng giao tiếp tâm linh thường đòi hỏi sự thiền định, quan sát nhất quán và một trái tim rộng mở. Đây là việc chờ đợi những dấu hiệu tinh tế và tin tưởng vào quá trình đang diễn ra.",
+        "reversed": "Sự thiếu kiên nhẫn hoặc thất vọng với việc thiếu giao tiếp tức thì từ linh hướng, dẫn đến việc từ bỏ các thực hành tâm linh. Hoặc, sự từ chối đầu tư thời gian và sự tĩnh lặng cần thiết để nuôi dưỡng mối liên hệ thiêng liêng như vậy."
       }
     },
     "planet": "Sao Thổ",
@@ -16807,6 +21919,78 @@ window.TAROT_DB = [
       "lost_item": {
         "upright": "Món đồ chưa hề biến mất bốc hơi, nó chỉ đang lạc trôi trong không gian làm việc của bạn. Hãy kiên nhẫn lục tìm từng ngóc ngách quen thuộc, trong đống đồ nghề, sách vở, chắc chắn sẽ tìm thấy.",
         "reversed": "Có cố lật mòn nền nhà cũng vô vọng, sự bừa bộn và thói quen không ngăn nắp đã khiến vật thất lạc bị cuốn đi ra khỏi biên giới thu hồi. Hãy coi đây là phí đóng phạt cho sự thiếu ngăn nắp trầm trọng."
+      },
+      "toxic_relationship": {
+        "upright": "Trong bóng tối của mối quan hệ độc hại, lá bài này hé lộ một sự tận tụy đáng sợ, nơi một hoặc cả hai bên đang miệt mài 'chế tác' sự kiểm soát, thao túng hoặc nỗ lực không ngừng để 'sửa chữa' điều không thể. Nó là sự tỉ mỉ trong việc duy trì một sợi dây ràng buộc đầy đau đớn, một công trình được xây dựng trên sự kiên trì sai lầm.",
+        "reversed": "Mối quan hệ độc hại này đang chìm trong sự cẩu thả, thiếu nỗ lực thực sự để thay ��ổi hoặc sửa chữa. Sự từ chối đối mặt với vấn đề, những lời hứa hão huyền không được thực hiện, hoặc sự thờ ơ đã biến nó thành một công trình đổ nát, không có nền tảng vững chắc để tái thiết. Sự lười biếng trong việc giải thoát hoặc chữa lành đang làm nó mục ruỗng."
+      },
+      "soulmate": {
+        "upright": "Một liên kết linh hồn đích thực, không phải là phép màu tức thì, mà là một công trình nghệ thuật tinh xảo được xây dựng qua sự kiên trì, nỗ lực không ngừng và sự tận tâm học hỏi lẫn nhau. Nó đòi hỏi sự tỉ mỉ trong việc vun đắp, từng bước một, để tạo nên một kiệt tác tình yêu vĩnh cửu.",
+        "reversed": "Sự kết nối linh hồn tiềm năng đang bị bỏ bê, bị hiểu lầm hoặc không được vun đắp. Sự thiếu kiên nhẫn, những nỗ lực hời hợt hoặc sự từ chối đầu tư thời gian và tâm huyết đang khiến kiệt tác này mãi chỉ là một bản nháp dang dở, không bao giờ đạt đến vẻ đẹp hoàn mỹ c��a nó."
+      },
+      "reconciliation": {
+        "upright": "Sự hòa giải là một quá trình đòi hỏi sự tỉ mỉ, kiên nhẫn và nỗ lực chân thành từ cả hai phía. Nó không phải là một sự kiện tức thời mà là một 'nghệ thuật' chữa lành, từng bước một, xây dựng lại niềm tin và sự hiểu biết thông qua công việc khó khăn và sự tận tâm không ngừng.",
+        "reversed": "Những nỗ lực hòa giải đang bị cản trở bởi sự thiếu chân thành, sự vội vã hoặc không sẵn lòng đối mặt với những vấn đề cốt lõi. Đây là một sự 'sửa chữa' hời hợt, không có sự đầu tư tâm huyết, khiến vết rạn nứt vẫn còn đó, hoặc thậm chí sâu sắc hơn."
+      },
+      "secret_admirer": {
+        "upright": "Người ngưỡng mộ bí mật đang tỉ mỉ quan sát, nghiên cứu và có thể đang cẩn thận 'chế tác' một kế hoạch để tiếp cận. Sự ngưỡng mộ của họ sâu sắc, được xây dựng qua từng chi tiết nhỏ, thể hiện một sự tận tâm trong việc tìm hiểu đối tượng của mình.",
+        "reversed": "Người ngưỡng mộ bí mật có thể đang quá do dự, bị tê liệt bởi sự cầu toàn hoặc thiếu tự tin, khiến họ không bao giờ hành động. Hoặc những nỗ lực của họ vụng về, không có sự tinh tế, và sự ngưỡng mộ có thể chỉ là hời hợt, không đủ sâu sắc để thúc đẩy hành động."
+      },
+      "burnout": {
+        "upright": "Lá bài này báo hiệu con đường dẫn đến kiệt sức, nơi sự tận tụy không ngừng nghỉ và công việc tỉ mỉ đã vượt quá giới hạn. Đó là sự 'chế tác' sự mệt mỏi đến mức ám ảnh, một sự cống hiến không ngừng nghỉ mà quên đi sự cân bằng, dẫn đến sự suy kiệt năng lượng.",
+        "reversed": "Sự kiệt sức đã trở thành hiện thực, dẫn đến công việc cẩu thả, thiếu động lực và cảm giác mắc kẹt. 'Nghề' của bạn đã bị bỏ rơi do sự cạn kiệt, không còn khả năng duy trì sự tỉ mỉ và nỗ lực cần thiết. Sự từ chối nghỉ ngơi hoặc thay đổi đang làm tình hình thêm tồi tệ."
+      },
+      "startup": {
+        "upright": "Một dự án khởi nghiệp được xây dựng trên nền tảng của sự cống hiến, làm việc chăm chỉ, học hỏi không ngừng và sự tỉ mỉ trong từng chi tiết. Nó là một hành trình chậm rãi, vững chắc hướng tới sự tinh thông và thành công lâu dài, không có lối tắt.",
+        "reversed": "Dự án khởi nghiệp đang gặp khó khăn do thiếu tập trung, thực hiện cẩu thả, thiếu kiên nhẫn hoặc không sẵn lòng đầu tư công sức cần thiết. Nó có thể là một ý tưởng lớn nhưng thiếu sự 'chế tác' tỉ mỉ, dẫn đến sự thất bại hoặc không thể cất cánh."
+      },
+      "workplace_politics": {
+        "upright": "Trong mê cung của chính trị công sở, lá bài này chỉ ra một cách tiếp cận khéo léo, tỉ mỉ, nơi bạn đang cẩn thận 'chế tác' vị thế và ảnh hưởng của mình thông qua sự quan sát tinh tế và nỗ lực chiến lược. Đó là một nghệ thuật điều hướng đòi hỏi sự kiên nhẫn và kỹ năng.",
+        "reversed": "Bạn đang vướng vào chính trị công sở do sự bất cẩn, thiếu nhận thức hoặc những động thái vụng về. Hoặc bạn đang bị lợi dụng bởi những người 'nghệ nhân' lão luyện hơn trong trò chơi này, do sự thiếu kinh nghiệm hoặc không sẵn lòng học hỏi luật chơi."
+      },
+      "side_hustle": {
+        "upright": "Một công việc phụ đang được vun đắp một cách cần mẫn, đòi hỏi nỗ lực kiên định, phát triển kỹ năng và sự chú ý đến từng chi tiết để nó phát triển thành một nguồn thu nhập đáng kể. Đó là một 'nghề tay trái' được đầu tư nghiêm túc.",
+        "reversed": "Công việc phụ đang bị bỏ bê, thiếu tập trung hoặc được tiếp cận với tư duy 'làm giàu nhanh', dẫn đến chất lượng kém hoặc bị bỏ dở. Hoặc bạn đang bị mắc kẹt trong một công việc phụ đơn điệu, không có sự phát triển và cảm hứng."
+      },
+      "real_estate": {
+        "upright": "Sự đầu tư vào bất động sản đòi hỏi sự nghiên cứu tỉ mỉ, lập kế hoạch cẩn thận và nỗ lực không ngừng trong phát triển, cải tạo hoặc quản lý. Đó là một cách tiếp cận thực tế, đòi hỏi kỹ năng để xây dựng hoặc mua lại tài sản một cách vững chắc.",
+        "reversed": "Những quyết định vội vàng, chất lượng xây dựng kém trong cải tạo hoặc thiếu sự thẩm định kỹ lưỡng trong việc mua bán. Hoặc bạn đang bị mắc kẹt với một tài sản đòi hỏi quá nhiều công sức nhưng không mang lại giá trị tương xứng, do sự cẩu thả ban đầu."
+      },
+      "financial_loss": {
+        "upright": "Sự mất mát tài chính có thể là kết quả của việc quá tập trung vào chi tiết mà bỏ qua bức tranh lớn, hoặc là một 'bài học' đắt giá từ một khoản đầu tư được thực hiện cẩn thận nhưng cuối cùng thất bại. Nó cũng có thể là quá trình phục hồi tài chính đòi hỏi sự kiên trì.",
+        "reversed": "Mất mát tài chính do sự bất cẩn, đầu tư cẩu thả, thiếu thẩm định hoặc không sẵn lòng quản lý tài chính một cách hiệu quả. Đó là hậu quả của việc 'cắt xén' các bước cần thiết, dẫn đến sự suy thoái không đáng có."
+      },
+      "sudden_wealth": {
+        "upright": "Sự giàu có đột ngột ở đây không phải là may mắn ngẫu nhiên, mà là đỉnh cao của nhiều năm làm việc chăm chỉ, tỉ mỉ và cống hiến không ngừng nghỉ. Đó là thành quả của một 'kiệt tác' được xây dựng qua thời gian dài, nay đã đến lúc thu hoạch.",
+        "reversed": "Sự giàu có đột ngột không được trân trọng, bị lãng phí do thiếu sự hiểu biết về giá trị của công sức lao động, hoặc đến từ những nguồn không minh bạch, cẩu thả. Đó là của cải không được 'chế tác' cẩn thận, dễ dàng tan biến."
+      },
+      "healing": {
+        "upright": "Quá trình chữa lành là một 'nghệ thuật' đòi hỏi sự tỉ mỉ, kiên trì, thực hành nhất quán và một cách tiếp cận cẩn thận đối với việc tự chăm sóc. Nó là sự cam kết không ngừng để phục hồi, từng bước một, xây dựng lại sức khỏe và sự bình an nội tâm.",
+        "reversed": "Quá trình chữa lành đang bị đình trệ do thiếu kiên nhẫn, thiếu cam kết hoặc từ chối thực hiện công việc cần thiết. Những nỗ lực hời hợt hoặc sự mắc kẹt trong một vòng lặp không tiến triển đang cản trở sự phục hồi toàn diện."
+      },
+      "stress": {
+        "upright": "Căng thẳng phát sinh từ những yêu cầu tỉ mỉ của công việc, áp lực phải đạt được sự tinh thông hoặc sự theo đuổi không ngừng nghỉ của sự hoàn hảo. Chính sự nỗ lực tận tâm và kiên trì không ngừng đã trở thành nguồn gốc của sự căng thẳng.",
+        "reversed": "Căng thẳng đến từ cảm giác không đủ khả năng, không thể đáp ứng các tiêu chuẩn, hoặc sự thất vọng khi công việc trở nên cẩu thả. Nó cũng có thể là sự căng thẳng từ sự đơn điệu, cảm giác mắc kẹt và không tìm thấy cảm hứng trong nỗ lực của mình."
+      },
+      "trauma": {
+        "upright": "Lá bài này đại diện cho công việc khó khăn, tỉ mỉ và thường đau đớn trong việc xử lý chấn thương, phân tích cẩn thận các trải nghiệm và xây dựng lại bản thân từng chút một. Đó là nỗ lực sâu sắc, kiên trì để chữa lành những vết thương lòng sâu sắc.",
+        "reversed": "Chấn thương vẫn chưa được xử lý do sự từ chối đối mặt với công việc khó khăn, những nỗ lực đối phó hời hợt hoặc bị mắc kẹt trong vòng lặp chấn thương mà không có tiến triển. Đó cũng có thể là sự đau khổ khi cảm thấy không thể làm chủ được quá trình chữa lành của chính mình."
+      },
+      "exams": {
+        "upright": "Sự thành công trong kỳ thi đến từ việc học tập cần mẫn, chuẩn bị tỉ mỉ, thực hành nhất quán và một cách tiếp cận tập trung để nắm vững kiến thức. Nó là phần thưởng cho những nỗ lực không ngừng nghỉ và sự cống hiến thực sự.",
+        "reversed": "Kết quả kém trong kỳ thi do thiếu học tập, 'cắt xén' kiến thức, hiểu biết hời hợt hoặc bị choáng ngợp bởi sự cầu toàn dẫn đến không hành động. Hoặc bạn bị mắc kẹt vào những chi tiết nhỏ mà bỏ qua bức tranh tổng thể."
+      },
+      "scholarship": {
+        "upright": "Một học bổng được trao dựa trên sự cống hiến học thuật kiên định, nghiên cứu tỉ mỉ và minh chứng rõ ràng về sự tinh thông trong lĩnh vực học tập của mình. Nó là sự công nhận xứng đáng cho những nỗ lực đã bỏ ra.",
+        "reversed": "Học bổng bị mất do sự giảm sút trong nỗ lực, công việc học thuật cẩu thả hoặc không thể duy trì mức độ cần mẫn yêu cầu. Hoặc học bổng được theo đuổi chỉ vì lợi ích hời hợt mà không có cam kết học thuật thực sự."
+      },
+      "talent": {
+        "upright": "Tài năng bẩm sinh được mài giũa, nuôi dưỡng qua thực hành kiên trì và phát triển thành sự tinh thông. Nó không chỉ là khả năng tự nhiên mà còn là nỗ lực tỉ mỉ, không ngừng để trau dồi và hoàn thiện kỹ năng của mình.",
+        "reversed": "Tài năng bị lãng phí, bỏ bê hoặc bị mai một do thiếu nỗ lực, sự lư���i biếng hoặc không sẵn lòng thực hành cần thiết. Hoặc tài năng được sử dụng cho những mục đích cẩu thả, không xứng đáng với tiềm năng của nó."
+      },
+      "spirit_guide": {
+        "upright": "Sự kết nối với các linh hồn dẫn lối đòi hỏi sự chú ý cần mẫn, sự giải thích cẩn thận và một thực hành tâm linh nhất quán để hiểu và tích hợp thông điệp của họ. Sự hướng dẫn luôn ở đó, nhưng cần nỗ lực để cảm nhận và áp dụng.",
+        "reversed": "Khó khăn trong việc kết nối hoặc hiểu các linh hồn dẫn lối do thiếu tập trung, thiếu kiên nhẫn hoặc thực hành tâm linh hời hợt. Hoặc việc hiểu sai thông điệp do sự bất cẩn hoặc không sẵn lòng lắng nghe thực sự và sâu sắc."
       }
     },
     "planet": "Mặt Trời",
@@ -17041,6 +22225,78 @@ window.TAROT_DB = [
       "lost_item": {
         "upright": "Món đồ thất lạc có giá trị, chưa hề biến mất bốc hơi. Nó có thể đang ở một nơi kín đáo, an toàn trong ngôi nhà bạn. Hãy tìm kiếm ở những nơi bạn cất giữ tài sản quý giá, chắc chắn sẽ tìm thấy.",
         "reversed": "Có cố lật mòn nền nhà cũng vô vọng, món đồ bị mất do sự bất cẩn trong việc quản lý tài sản, hoặc có thể bị đánh cắp bởi kẻ gian. Hãy cẩn trọng với những thứ bạn coi là của riêng, vì chúng dễ bị tổn hại."
+      },
+      "toxic_relationship": {
+        "upright": "Sự độc lập và tự chủ cho phép bạn thoát ly khỏi những xiềng xích độc hại, tìm thấy bình yên và sự mãn nguyện trong không gian riêng của mình. Bạn đủ mạnh mẽ để không dung thứ cho bất kỳ mối quan hệ nào làm suy yếu giá trị bản thân.",
+        "reversed": "Mối quan hệ độc hại đang trói buộc bạn bởi sự phụ thuộc vật chất hoặc nỗi sợ hãi mất đi những tiện nghi bề ngoài. Bạn đang hy sinh sự bình yên nội tâm và giá trị đích thực của mình để duy trì một vỏ bọc an toàn giả tạo."
+      },
+      "soulmate": {
+        "upright": "Bạn thu hút một linh hồn tri kỷ tôn trọng sự độc lập và thành tựu của bạn. Đây là một mối liên kết dựa trên sự hoàn thiện cá nhân, nơi cả hai cùng nhau phát triển mà không làm mất đi bản sắc riêng, tìm thấy sự giàu có trong tĩnh lặng và tự do.",
+        "reversed": "Bạn có thể đang nhầm lẫn một mối quan hệ hời hợt, dựa trên lợi ích vật chất hoặc vẻ ngoài, với một linh hồn tri kỷ đích thực. Sự phụ thuộc lẫn nhau hoặc nỗi sợ mất mát vật chất đang cản trở một sự kết nối sâu sắc, chân thành."
+      },
+      "reconciliation": {
+        "upright": "Sự hòa giải đến từ một vị thế của sự trưởng thành cá nhân và lòng tự trọng. Cả hai bên đều đã tìm thấy sự độc lập và giờ đây có thể tái hợp trên cơ sở tôn trọng lẫn nhau, không phải từ sự tuyệt vọng hay thiếu thốn.",
+        "reversed": "Sự hòa giải được tìm kiếm vì những động cơ hời h���t, như lợi ích tài chính hoặc sự cô đơn, chứ không phải vì tình cảm chân thật. Một trong hai bên có thể đang cố gắng lợi dụng tài nguyên hoặc sự yếu đuối của người kia."
+      },
+      "secret_admirer": {
+        "upright": "Có ai đó đang âm thầm ngưỡng mộ sự độc lập, duyên dáng và những thành tựu mà bạn đã tự tay gây dựng. Họ bị thu hút bởi sự tự chủ và vẻ thanh lịch toát ra từ con người bạn.",
+        "reversed": "Người ngưỡng mộ bí mật có thể bị thu hút bởi tài sản hoặc địa vị xã hội của bạn hơn là con người thật. Hoặc, ý định của họ không hoàn toàn trong sáng, có thể có mục đích lợi dụng. Bạn cũng có thể quá tự mãn để nhận ra sự ngưỡng mộ chân thành."
+      },
+      "burnout": {
+        "upright": "Bạn đã làm việc chăm chỉ và giờ là lúc tận hưởng thành quả lao động của mình. Sự tự chủ tài chính và khả năng tự chăm sóc bản thân cho phép bạn nghỉ ngơi, phục hồi, tránh xa kiệt sức và đắm mình trong sự xa hoa xứng đáng.",
+        "reversed": "Bạn đang kiệt sức vì làm việc quá mức để duy trì một hình ảnh giàu có hoặc đạt được lợi ích vật chất mà không có niềm vui thực sự. Sự cống hiến không ngừng nghỉ cho của cải vật chất đang bào mòn năng lượng và sức sống của bạn, dẫn đến sự trống rỗng dù bề ngoài có vẻ thành công."
+      },
+      "startup": {
+        "upright": "Dự án khởi nghiệp của bạn được xây dựng trên nền tảng vững chắc của sự chăm chỉ, kỷ luật và tầm nhìn xa, dẫn đến sự độc lập tài chính và thành công rực rỡ. Bạn đang gặt hái những quả ngọt từ hạt giống đã gieo trồng.",
+        "reversed": "Dự án khởi nghiệp đang gặp khó khăn do quản lý tài chính kém, thiếu sự nỗ lực chân thành hoặc theo đuổi mục tiêu làm giàu nhanh chóng nhưng thiếu nội lực. Có nguy cơ vướng vào những kế hoạch hời hợt, thiếu bền vững."
+      },
+      "workplace_politics": {
+        "upright": "Bạn điều hướng những rắc rối chính trị nơi công sở với sự duyên dáng, độc lập và chính trực. Sự tự tin vào năng lực và vị thế vững chắc giúp bạn đứng vững, không bị cuốn vào những trò đấu đá nhỏ nhen.",
+        "reversed": "Bạn đang bị cuốn vào những cuộc đấu đá quyền lực hời hợt hoặc bị lợi dụng trong các âm mưu nơi công sở. Sự thiếu độc lập hoặc cảm giác bất an đang khiến bạn dễ bị tổn thương trước những lời đồn đại và thao túng."
+      },
+      "side_hustle": {
+        "upright": "Công việc phụ của bạn đang phát triển mạnh mẽ, mang lại nguồn thu nhập đáng kể, tăng cường sự độc lập tài chính và cho phép bạn tận hưởng những tiện nghi cuộc sống. Đó là một nguồn lực bổ sung vững chắc.",
+        "reversed": "Công việc phụ đang tiêu tốn tài nguyên và năng lượng của bạn mà không mang lại lợi ích đáng kể, hoặc bạn đang theo đuổi nó với lòng tham vô độ, có thể dẫn đến sự bất ổn tài chính hoặc những rắc rối về đạo đức."
+      },
+      "real_estate": {
+        "upright": "Bạn sở hữu những tài sản bất động sản giá trị, mang lại sự an toàn tài chính và một cuộc sống sung túc. Đó là biểu tượng của sự đầu tư khôn ngoan và khả năng tự chủ về vật chất.",
+        "reversed": "Bạn đang đối mặt với những mất mát tài chính trong lĩnh vực bất động sản hoặc mắc kẹt trong một tài sản trở thành gánh nặng hơn là tài sản. Mong muốn sở hữu hời hợt có thể dẫn đến việc quá sức hoặc nợ nần."
+      },
+      "financial_loss": {
+        "upright": "Nhờ nền tảng tài chính vững chắc và sự tự chủ, bạn có khả năng phục hồi một cách duyên dáng sau những tổn thất nhỏ. Sự giàu có nội tại cho phép bạn vượt qua thử thách mà không mất đi sự bình yên.",
+        "reversed": "Một khoản lỗ tài chính đáng kể, có thể do phán đoán kém, quá tự tin hoặc dựa dẫm vào những lợi ích hời hợt. Bạn đang đối mặt với sự mất mát an ninh và độc lập, khiến bạn cảm thấy bất ổn."
+      },
+      "sudden_wealth": {
+        "upright": "Sự giàu có đến với bạn là kết quả của những nỗ lực cần mẫn và quyết định khôn ngoan, mang lại một cuộc sống ổn định, thoải mái và được tận hưởng với lòng biết ơn và sự tinh tế. Đây là sự thịnh vượng bền vững.",
+        "reversed": "Sự giàu có đến bất ngờ nhưng lại phù du, có được một cách không chính đáng, hoặc dẫn đến việc chi tiêu vô trách nhiệm và đánh mất giá trị thực sự. Sự giàu có này mang lại nhiều vấn đề hơn là giải pháp, hoặc ẩn chứa một sự lừa đảo."
+      },
+      "healing": {
+        "upright": "Sự chữa lành đến từ việc tự chăm sóc bản thân, tìm kiếm sự tĩnh lặng và kết nối lại với nguồn lực nội tại của chính mình. Bạn tìm thấy sự bình yên và toàn vẹn bằng cách nuôi dưỡng sự tự chủ và tận hưởng không gian riêng.",
+        "reversed": "Những nỗ lực chữa lành hời hợt, chỉ dựa vào các biện pháp bên ngoài mà không giải quyết các vấn đề sâu sắc. Bạn đang né tránh đối mặt với những vết thương bên trong, hoặc tìm kiếm những giải pháp nhanh chóng không mang lại kết quả lâu dài."
+      },
+      "stress": {
+        "upright": "Bạn quản lý căng thẳng một cách hiệu quả thông qua kỷ luật bản thân, biết cách tận hưởng những thú vui và có một nền tảng vững chắc giúp giảm thiểu áp lực bên ngoài. Căng thẳng được cân bằng bởi những khoảnh khắc bình yên và hưởng thụ.",
+        "reversed": "Căng thẳng đè nặng do sự bất an tài chính, nỗi sợ mất mát, hoặc bị mắc kẹt trong một tình huống đòi hỏi nỗ lực không ngừng mà không có phần thưởng xứng đáng. Căng thẳng xuất phát từ việc cố gắng duy trì một hình ảnh bề ngoài mà không có nội lực."
+      },
+      "trauma": {
+        "upright": "Bạn đã vượt qua chấn thương trong quá khứ thông qua khả năng phục hồi và xây dựng một cuộc sống độc lập, vững vàng. Bạn đã tìm thấy sự bình yên và ổn định, chứng tỏ sức mạnh nội tại của mình.",
+        "reversed": "Chấn thương đang cản trở sự độc lập thực sự, dẫn đến sự phụ thuộc vào sự xác nhận từ bên ngoài hoặc vật chất như một cơ chế đối phó. Chấn thương chưa được giải quyết đang biểu hiện thành sự bất an mặc dù có vẻ ngoài thành công."
+      },
+      "exams": {
+        "upright": "Thành công trong kỳ thi là kết quả của sự học tập chăm chỉ, kỷ luật bản thân và sự tự tin vào năng lực của mình. Bạn đạt được sự tinh thông và gặt hái phần thưởng xứng đáng cho nỗ lực của mình.",
+        "reversed": "Kết quả thi kém hoặc thất bại do sự chuẩn bị hời hợt, quá tự tin mà thiếu kiến thức thực chất, hoặc bị phân tâm bởi những theo đuổi vật chất. Thiếu nỗ lực thực sự dù bề ngoài có vẻ đang học tập."
+      },
+      "scholarship": {
+        "upright": "Bạn nhận được học bổng nhờ vào tài năng, sự chăm chỉ và thành tích học tập xuất sắc, mở ra cánh cửa cho sự phát triển hơn nữa và sự độc lập tài chính trong giáo dục.",
+        "reversed": "Mất học bổng do sự lơ là, thiếu cam kết nghiêm túc, hoặc theo đuổi những sở thích hời hợt thay vì trách nhiệm học tập. Hoặc, học bổng được tìm kiếm vì những lý do sai lầm (ví dụ: địa vị, không phải vì kiến thức)."
+      },
+      "talent": {
+        "upright": "Bạn đã nuôi dưỡng và làm chủ tài năng của mình thông qua sự cống hiến và luyện tập, dẫn đến sự công nhận, phần thưởng tài chính và cảm giác hoàn thành sâu sắc. Bạn đang tận hưởng thành quả từ những khả năng độc đáo của mình.",
+        "reversed": "Bạn đang lãng phí tài năng vì những lợi ích hời hợt, bỏ bê việc phát triển nó, hoặc sử dụng nó cho mục đích thao túng. Tài năng này không mang lại niềm vui hay sự thỏa mãn thực sự, bất kể tiềm năng kiếm tiền."
+      },
+      "spirit_guide": {
+        "upright": "Các linh hồn dẫn lối đang dẫn dắt bạn đến sự tự chủ, trí tuệ nội tâm và sự tận hưởng những phước lành trần thế. Họ giúp bạn tìm thấy sự duyên dáng trong độc lập và trân trọng sự phong phú xung quanh.",
+        "reversed": "Bạn đang hiểu sai thông điệp từ các linh hồn dẫn lối hoặc bị lạc lối bởi những ham muốn vật chất hơn là trí tuệ tâm linh. Sự ngắt kết nối khỏi sự hướng dẫn nội tại do quá nhấn mạnh vào của cải vật chất hoặc sự hời hợt."
       }
     },
     "planet": "Sao Kim",
@@ -17274,6 +22530,78 @@ window.TAROT_DB = [
       "lost_item": {
         "upright": "Món đồ thất lạc có ý nghĩa gia truyền, chưa hề biến mất bốc hơi. Nó có thể được cất giữ trong một nơi đặc biệt của gia đình. Hãy tìm kiếm ở những nơi cũ, quen thuộc trong nhà, chắc chắn sẽ tìm thấy.",
         "reversed": "Có cố lật mòn nền nhà cũng vô vọng, món đồ bị mất do sự bất cẩn của một thành viên trong gia đình, hoặc bị thất lạc trong quá trình tranh chấp, chia tài sản. Rất khó để tìm lại được, như một phần ký ức đã mất."
+      },
+      "toxic_relationship": {
+        "upright": "Mối quan hệ độc hại này đã ăn sâu vào cấu trúc gia đình, cộng đồng hoặc tài sản chung, tạo ra một 'lồng vàng' của sự ổn định bề ngoài nhưng giam hãm linh hồn. Nó là một di sản độc hại được duy trì bởi truyền thống hoặc lợi ích vật chất.",
+        "reversed": "Sự độc hại đã ăn sâu cuối cùng phá vỡ nền tảng gia đình hoặc cộng đồng, dẫn đến sự đổ vỡ của các cấu trúc đã thiết lập. Đây là sự tan rã đau đớn của một di sản độc hại, phơi bày những vết nứt sâu sắc dưới vỏ bọc ổn định."
+      },
+      "soulmate": {
+        "upright": "Một kết nối định mệnh sâu sắc, không chỉ mang lại sự viên mãn cá nhân mà còn hòa nhập liền mạch vào dòng chảy gia đình, tạo nên một di sản chung và cảm giác thuộc về sâu sắc. Đây là tình yêu đôi lứa xây dựng một triều đại bền vững, được ban phước bởi tổ tiên.",
+        "reversed": "Mặc dù là định mệnh, kết nối này lại thách thức các truyền thống gia đình hiện có hoặc kỳ vọng, có thể gây ra sự phản đối từ gia đình hoặc khó khăn trong việc hòa nhập. Hoặc, bản thân mối liên kết này, dù sâu sắc, lại gặp khó khăn trong việc xây dựng một nền tảng vật chất ổn định, khiến nó trở nên vô định hoặc gây ra xung đột gia đình."
+      },
+      "reconciliation": {
+        "upright": "Một sự hòa giải mang lại hòa bình lâu dài, tái thiết lập sự hòa hợp gia đình và bảo đảm tương lai của một dòng họ hoặc một liên doanh chung. Đó là sự trở về với cội nguồn, hàn gắn những rạn nứt thế hệ một cách vĩnh viễn.",
+        "reversed": "Một sự hòa giải hời hợt không giải quyết được nguyên nhân gốc rễ của xung đột, để lại những căng thẳng ngấm ngầm. Hoặc, sự hòa giải này, bất chấp nỗ lực, không thể hoàn toàn khôi phục lòng tin đã mất hoặc hàn gắn di sản bị rạn nứt, dẫn đến sự bất ổn hoặc oán giận tiếp diễn trong gia đình/nhóm."
+      },
+      "secret_admirer": {
+        "upright": "Người ngưỡng mộ bí mật có thể đến từ một nền tảng vững chắc, có lẽ từ một gia đình có địa vị hoặc một người mang lại cảm giác an toàn và truyền thống. Sự ngưỡng mộ của họ bắt nguồn từ mong muốn một kết nối ổn định, lâu dài, thậm chí nhìn bạn như một phần của di sản tương lai của họ.",
+        "reversed": "Người ngưỡng mộ có thể đến từ một nền tảng xung đột với giá trị gia đình bạn, hoặc sự ngưỡng mộ của họ có thể phá vỡ cuộc sống đã thiết lập hoặc kỳ vọng gia đình. Ngoài ra, ý định của họ có thể bắt nguồn từ lợi ích vật chất hoặc địa vị xã hội, thay vì tình cảm chân thành, dẫn đến sự bất ổn tiềm tàng."
+      },
+      "burnout": {
+        "upright": "Sự kiệt sức đến từ việc không ngừng xây dựng một di sản, duy trì của cải gia đình hoặc gánh vác trách nhiệm truyền thống. Đó là sự mệt mỏi từ gánh nặng của những cam kết lâu dài và áp lực duy trì một cấu trúc đã thiết lập.",
+        "reversed": "Sự kiệt sức bắt nguồn từ cảm giác bị mắc kẹt bởi một di sản gia đình hoặc kỳ vọng xã hội, dẫn đến sự suy sụp về sức khỏe cá nhân. Nó cũng có thể báo hiệu sự sụp đổ của một cấu trúc lâu dài (kinh doanh, vai trò gia đình) do nỗ lực không bền vững, dẫn đến mất an toàn."
+      },
+      "startup": {
+        "upright": "Một startup thành công xây dựng nền tảng vững chắc, có khả năng trở thành một doanh nghiệp gia đình hoặc một doanh nghiệp tạo ra di sản đáng kể và an ninh lâu dài cho người sáng lập và nhân viên. Đó là việc thiết lập một truyền thống mới về sự giàu có và ổn định.",
+        "reversed": "Một startup gặp khó khăn trong việc tìm chỗ đứng, có lẽ do tranh chấp nội bộ gia đình, thiếu tầm nhìn rõ ràng cho tương lai lâu dài, hoặc không thể thiết lập nền tảng tài chính ổn định. Nó cũng có thể chỉ ra một doanh nghiệp gây gián đoạn của cải gia đình hiện có hoặc truyền thống một cách tiêu cực."
+      },
+      "workplace_politics": {
+        "upright": "Chính trị nơi làm việc đã ăn sâu vào văn hóa công ty, thường gắn liền với cấu trúc quyền lực lâu đời, hệ thống cấp bậc đã thiết lập, hoặc thậm chí là các mối quan hệ 'gia đình' trong tổ chức. Điều hướng chúng đòi hỏi sự hiểu biết về động lực lịch sử và các di sản hiện có.",
+        "reversed": "Chính trị nơi làm việc dẫn đến sự đổ vỡ của các nhóm hoặc bộ phận đã thiết lập, gây ra sự bất ổn và m���t tinh thần. Nó có thể liên quan đến tranh chấp tài nguyên, thừa kế quyền lực hoặc thách thức các truyền thống lâu đời làm mất ổn định toàn bộ 'gia đình' chuyên nghiệp."
+      },
+      "side_hustle": {
+        "upright": "Một công việc phụ dần phát triển thành nguồn thu nhập ổn định, đáng kể, có khả năng trở thành một doanh nghiệp gia đình chính hoặc một tài sản lâu dài đóng góp vào an ninh tài chính tổng thể và di sản. Đó là sự xây dựng chậm rãi, vững chắc một truyền thống tài chính mới.",
+        "reversed": "Một công việc phụ gây gián đoạn tài chính gia đình hoặc cam kết hiện có, dẫn đến sự bất ổn hoặc xung đột. Nó cũng có thể là một dự án mà, bất chấp nỗ lực, không thể thiết lập một chỗ đứng an toàn, tiêu hao tài nguyên mà không xây dựng một nền tảng lâu dài."
+      },
+      "real_estate": {
+        "upright": "Đại diện cho các khoản đầu tư bất động sản đáng kể, lâu dài, thường liên quan đến tài sản tổ tiên, nhà ở gia đình hoặc các tài sản tạo thành nền tảng của cải thế hệ. Nó biểu thị sự an toàn, di sản và một nền tảng hữu hình cho tương lai.",
+        "reversed": "Tranh chấp về tài sản gia đình, các vấn đề về thừa kế hoặc sự bất ổn trong các dự án bất động sản. Nó cũng có thể chỉ ra việc mất đất đai tổ tiên, sự đổ vỡ của an ninh nhà ở gia đình hoặc các khoản đầu tư không mang lại sự ổn định lâu dài như mong đợi."
+      },
+      "financial_loss": {
+        "upright": "Mặc dù có tổn thất hiện tại, của cải gia đình cơ bản hoặc cấu trúc tài chính đã thiết lập đủ mạnh để hấp thụ cú sốc và đảm bảo sự ổn định lâu dài. Tổn thất chỉ là một gợn sóng, không phải sự sụp đổ của nền tảng vững chắc.",
+        "reversed": "Một tổn thất tài chính sâu sắc làm rung chuyển nền tảng an ninh gia đình, đe dọa của cải thế hệ hoặc dẫn đến sự tan rã của các tài sản lâu đời. Đó là sự đổ vỡ của di sản tài chính đã thiết lập, gây ra sự bất ổn sâu sắc và tiềm ẩn xung đột gia đình."
+      },
+      "sudden_wealth": {
+        "upright": "Sự giàu có bất ngờ hòa nhập liền mạch vào tài chính gia đình hiện có, củng cố một di sản hoặc cung cấp một khoản thừa kế giúp tăng cường an ninh lâu dài. Đó là của cải tìm thấy một ngôi nhà ổn định và đóng góp vào sự thịnh vượng của các thế hệ.",
+        "reversed": "Sự giàu có bất ngờ gây ra sự gián đoạn, tranh chấp gia đình về thừa kế hoặc không có khả năng quản lý nó một cách có trách nhiệm, dẫn đến sự bất ổn thay vì an ninh. Đó có thể là của cải phá hủy sự hòa hợp gia đình hiện có hoặc nhanh chóng bị phung phí, không xây dựng được một nền tảng lâu dài."
+      },
+      "healing": {
+        "upright": "Sự chữa lành liên quan đến việc giải quyết các mô hình thế hệ, hàn gắn rạn nứt gia đình và tìm thấy sự bình yên trong cội nguồn và dòng dõi của một người. Đó là sự chữa lành sâu sắc, có hệ thống, mang lại sự ổn định và hạnh phúc lâu dài cho toàn bộ cấu trúc gia đình hoặc cộng đồng.",
+        "reversed": "Sự chữa lành bị cản trở bởi chấn thương gia đình đã ăn sâu hoặc sự kháng cự đối với việc phá vỡ các mô hình truyền thống, không lành mạnh. Nó cũng có thể biểu thị sự đổ vỡ trong hệ thống hỗ trợ cộng đồng, khiến việc chữa lành cá nhân trở nên khó khăn, hoặc một sự chữa lành hời hợt không giải quyết được các vấn đề gốc rễ, có hệ thống."
+      },
+      "stress": {
+        "upright": "Căng thẳng bắt nguồn từ trách nhiệm duy trì một di sản gia đình, giữ gìn truyền thống hoặc quản lý các tài sản vật chất đáng kể. Đó là gánh nặng của việc duy trì an ninh và thịnh vượng lâu dài.",
+        "reversed": "Căng thẳng do sự đổ vỡ của cấu trúc gia đình, bất ổn tài chính hoặc áp lực phải sống theo một di sản đang sụp đổ. Đó là nỗi đau khổ khi mất đi nền tảng của một người hoặc đối phó với xung đột gia đình về các vấn đề vật chất."
+      },
+      "trauma": {
+        "upright": "Chấn thương đã ăn sâu trong dòng dõi gia đình, được truyền từ thế hệ này sang thế hệ khác và biểu hiện thành các mô hình thừa kế hoặc gánh nặng không lời ảnh hưởng đến toàn bộ cấu trúc gia đình. Đó là 'bóng ma' trong ngôi biệt thự gia đình.",
+        "reversed": "Sự xuất hiện của chấn thương thế hệ đã chôn vùi sâu sắc, dẫn đến sự đổ vỡ của sự hòa hợp gia đình hoặc các cấu trúc đã thiết lập. Đó là sự tháo gỡ đau đớn nhưng cần thiết của những vết thương cũ, buộc phải đối mặt với quá khứ để ngăn chặn di sản đau khổ tiếp diễn."
+      },
+      "exams": {
+        "upright": "Thành công trong kỳ thi là đỉnh cao của nỗ lực lâu dài, học tập siêng năng và có lẽ cả sự hỗ trợ của gia đình hoặc một truyền thống học thuật được thừa hưởng. Nó biểu thị việc đạt được một nền tảng vững chắc cho con đường sự nghiệp hoặc gi��o dục trong tương lai.",
+        "reversed": "Thất bại trong kỳ thi làm gián đoạn kế hoạch học tập hoặc sự nghiệp lâu dài, có khả năng gây ra sự thất vọng cho gia đình hoặc thách thức con đường mong đợi. Nó cũng có thể chỉ ra sự thiếu hiểu biết nền tảng mặc dù đã nỗ lực, hoặc sự đổ vỡ của cấu trúc học tập."
+      },
+      "scholarship": {
+        "upright": "Nhận được một học bổng cung cấp nền tảng an toàn cho giáo dục, có khả năng là một học bổng được tài trợ hoặc từ một tổ chức có di sản mạnh mẽ. Nó đại diện cho một khoản đầu tư vào tương lai của bạn, đóng góp vào sự ổn định và thành công lâu dài.",
+        "reversed": "Cơ hội học bổng bị mất do nghĩa vụ gia đình, bất ổn tài chính hoặc không đáp ứng được các yêu cầu lâu dài. Nó cũng có thể biểu thị một học bổng đi kèm với những hạn chế không lường trước hoặc gây ra xung đột gia đình."
+      },
+      "talent": {
+        "upright": "Một tài năng được th��a hưởng, nuôi dưỡng trong gia đình hoặc phát triển trong một thời gian dài, cuối cùng trở thành nguồn thu nhập ổn định, di sản gia đình hoặc đóng góp được cộng đồng tôn trọng. Đó là một tài năng xây dựng một nền tảng lâu dài.",
+        "reversed": "Một tài năng bị lãng phí, không được công nhận trong gia đình hoặc gây ra xung đột do bản chất độc đáo của nó so với truyền thống gia đình. Nó cũng có thể đại diện cho một tài năng gặp khó khăn trong việc tìm kiếm một lối thoát ổn định hoặc đóng góp vào an ninh lâu dài."
+      },
+      "spirit_guide": {
+        "upright": "Một linh hồn dẫn dắt là một nhân vật tổ tiên, người bảo vệ dòng dõi của bạn, hoặc một người dẫn dắt được kết nối sâu sắc với di sản và truyền thống tâm linh của gia đình bạn. Họ mang đến sự hướng dẫn để xây dựng một cuộc sống ổn định, có mục đích và hiểu rõ cội nguồn nghiệp quả của bạn.",
+        "reversed": "Một linh hồn dẫn dắt thách thức các mô hình tổ tiên của bạn, thúc giục bạn thoát khỏi các truyền thống gia đình hạn chế hoặc gánh nặng nghiệp quả không còn phục vụ lợi ích cao nhất của bạn. Sự hướng dẫn của họ có thể gây gián đoạn, thúc đẩy bạn tạo ra một con đường mới khác biệt với dòng dõi của mình."
       }
     },
     "planet": "Sao Thủy",
@@ -17509,6 +22837,78 @@ window.TAROT_DB = [
       "lost_item": {
         "upright": "Món đồ chưa hề biến mất bốc hơi, nó chỉ đang lạc trôi trong không gian học tập của bạn. Hãy tìm kiếm ở nơi bạn thường xuyên học tập, làm việc, đó có thể là một tài liệu quan trọng hoặc một món quà nhỏ.",
         "reversed": "Có cố lật mòn nền nhà cũng vô vọng, món đồ bị mất do sự bất cẩn, lơ đễnh hoặc do bạn đã đặt sai chỗ. Rất khó tìm lại được nếu không thay đổi thói quen bừa bộn, thiếu ngăn nắp."
+      },
+      "toxic_relationship": {
+        "upright": "Một hạt giống của nhận thức đang nảy mầm, hé lộ những khía cạnh thực tế, đôi khi khắc nghiệt, của một mối quan hệ có độc. Đây là thời điểm để học hỏi và đặt nền móng cho sự thay đổi hoặc rời đi.",
+        "reversed": "Sự chối bỏ những dấu hiệu rõ ràng, một sự từ chối thiếu khôn ngoan trong việc học hỏi từ những mô hình độc hại. Sự non nớt trong việc thiết lập ranh giới thực tế đang kéo dài chu kỳ đau khổ."
+      },
+      "soulmate": {
+        "upright": "Một sự khởi đầu đầy tiềm năng, một kết nối được đặt trên nền tảng vững chắc của sự khám phá thực tế và thấu hiểu lẫn nhau. Đây là giai đoạn học hỏi về sự tương thích định mệnh.",
+        "reversed": "Một cái nhìn hời hợt về khái niệm tri kỷ, bỏ qua những kết nối sâu sắc, thực tế vì những ảo ảnh phù phiếm. Cơ hội định mệnh có thể bị bỏ lỡ do sự thiếu trưởng thành trong nhận thức."
+      },
+      "reconciliation": {
+        "upright": "Một bước đi nhỏ, thực tế hướng tới hàn gắn, một đề nghị chân thành để học hỏi từ lỗi lầm và xây dựng lại. Đây là nền móng của sự tái hợp dựa trên sự thấu hiểu thực tế.",
+        "reversed": "Một nỗ lực hòa giải thiếu chân thành hoặc không có sự cam kết thực tế. Sự từ chối học hỏi từ quá khứ đang lặp lại những vết nứt cũ, khiến sự tái hợp trở nên hão huyền."
+      },
+      "secret_admirer": {
+        "upright": "Một tâm hồn đang âm thầm quan sát, thu thập những thông tin thực tế, chuẩn bị cho một cách tiếp cận có chủ đích. Ý định của họ là chân thật và có thể dẫn đến một mối liên kết sâu sắc.",
+        "reversed": "Một người ngưỡng mộ bí mật nhưng thiếu sự chân thành hoặc ý định thực tế. Sự non nớt ngăn cản họ hành động, hoặc sự ngưỡng mộ chỉ dựa trên những vẻ ngoài phù phiếm."
+      },
+      "burnout": {
+        "upright": "Một tiếng chuông cảnh tỉnh nhỏ, kêu gọi sự chú ý đến những dấu hiệu thể chất và tinh thần của sự kiệt sức. Đây là thời điểm để học hỏi và áp dụng các phương pháp tự chăm sóc thực tế để ngăn chặn sự sụp đổ.",
+        "reversed": "Sự phớt lờ những cảnh báo rõ ràng về sự kiệt sức, tiếp tục đẩy bản thân vượt quá giới hạn thực tế. Sự từ chối học hỏi các giới hạn của bản thân dẫn đến sự cạn kiệt năng lượng và hiệu suất."
+      },
+      "startup": {
+        "upright": "Sự khởi đầu đầy hứa hẹn của một dự án mới, một giai đoạn học hỏi, nghiên cứu tỉ mỉ và đặt nền móng vững chắc. Tiềm năng đang được gieo trồng bằng sự chăm chỉ và thực tế.",
+        "reversed": "Một dự án khởi nghiệp bị đình trệ bởi những ý tưởng phi thực tế, thiếu kế hoạch cơ bản hoặc sự chần chừ. Tiềm năng bị bỏ phí do sự thiếu trưởng thành trong thực thi và quản lý."
+      },
+      "workplace_politics": {
+        "upright": "Một sự thức tỉnh về động lực thực tế và những quy tắc ngầm trong môi trường làm việc. Đây là thời điểm để học hỏi cách điều hướng các cấu trúc quyền lực một cách khôn ngoan và thực tế.",
+        "reversed": "Sự ngây thơ hoặc thiếu trưởng thành trong việc hiểu các động lực chính trị nơi công sở, dẫn đến những bước đi sai lầm hoặc bị thao túng. Sự từ chối học hỏi các quy tắc thực tế có thể gây bất lợi."
+      },
+      "side_hustle": {
+        "upright": "Sự khởi đầu đầy hứng khởi của một công việc phụ mới, một hành trình học hỏi và thực hiện những bước đi cụ thể để biến đam mê thành hiện thực hoặc tạo thêm thu nhập.",
+        "reversed": "Sự trì hoãn hoặc thiếu sự kiên định trong việc theo đuổi công việc phụ. Những kỳ vọng phi thực tế hoặc sự từ chối đầu tư công sức học hỏi cần thiết để biến ý tưởng thành hiện thực."
+      },
+      "real_estate": {
+        "upright": "Sự khởi đầu của một khoản đầu tư lớn, đòi hỏi sự nghiên cứu kỹ lưỡng, học hỏi về thị trường và thực hiện các bước đi vững chắc. Đây là một nền tảng tài chính có thể định hình tương lai.",
+        "reversed": "Các quyết định bất động sản phi thực tế, thiếu sự thẩm định kỹ lưỡng hoặc không sẵn lòng học hỏi từ thị trường. Những sai lầm tài chính do sự thiếu trưởng thành hoặc kế hoạch kém cỏi."
+      },
+      "financial_loss": {
+        "upright": "Một sự nhận thức ban đầu về lỗ hổng tài chính tiềm ẩn, thúc đẩy một đánh giá thực tế và mong muốn học hỏi cách quản lý tài nguyên tốt hơn để ngăn chặn tổn thất.",
+        "reversed": "Sự bất cẩn tài chính, phớt lờ lời khuyên thực tế hoặc từ chối học hỏi từ những sai lầm trong quá khứ, dẫn đến những tổn thất có thể tránh được. Sự non nớt trong quản lý tiền bạc."
+      },
+      "sudden_wealth": {
+        "upright": "Một hạt giống cơ hội tài chính mới mẻ, mang đến tiềm năng cho sự giàu có đáng kể nếu được nuôi dưỡng bằng sự siêng năng và ứng dụng thực tế. Đây là khởi đầu của một vận may có nền tảng.",
+        "reversed": "Sự giàu có bất ngờ bị lãng phí do sự non nớt, kế hoạch kém hoặc thiếu hiểu biết thực tế về cách quản lý. Tiềm năng thịnh vượng lâu dài bị bỏ phí, dẫn đến sự tiêu tan nhanh chóng."
+      },
+      "healing": {
+        "upright": "Sự khởi đầu của một hành trình chữa lành thực tế, tập trung vào những bước đi cụ thể và học hỏi các phương pháp tự chăm sóc mới. Đây là hành động có chủ đích đ��u tiên hướng tới sự toàn vẹn.",
+        "reversed": "Sự kháng cự đối với các phương pháp chữa lành thực tế, không sẵn lòng học hỏi các cơ chế đối phó mới hoặc một cách tiếp cận hời hợt, thiếu nền tảng thực sự. Sự đình trệ trong quá trình chữa lành."
+      },
+      "stress": {
+        "upright": "Một nhận thức mới về các tác nhân thực tế và biểu hiện cụ thể của căng thẳng, thúc đẩy mong muốn học hỏi và thực hiện các chiến lược quản lý vững chắc. Đây là bước đầu tiên để giải quyết vấn đề.",
+        "reversed": "Sự phớt lờ những dấu hiệu thực tế của căng thẳng, từ chối học hỏi và áp dụng các cơ chế đối phó hiệu quả, dẫn đến áp lực gia tăng và khả năng suy sụp do thiếu quản lý bản thân."
+      },
+      "trauma": {
+        "upright": "Sự khởi đầu của một quá trình thực tế để nhận diện và hiểu rõ những tác động cụ thể của chấn thương trong quá khứ. Đây là những bước đầu tiên để học hỏi các chi���n lược đối phó lành mạnh và xây dựng nền tảng mới để chữa lành.",
+        "reversed": "Sự miễn cưỡng trong việc đối mặt với những tác động cụ thể của chấn thương, có thể thông qua sự phủ nhận hoặc không sẵn lòng tìm kiếm sự hỗ trợ vững chắc. Sự đình trệ trong quá trình chữa lành do né tránh hoặc cơ chế đối phó non nớt."
+      },
+      "exams": {
+        "upright": "Một giai đoạn học tập siêng năng, chuẩn bị thực tế và tập trung cao độ cho kỳ thi sắp tới. Nó biểu thị sự cống hiến để nắm vững kiến thức và áp dụng bản thân vào nhiệm vụ.",
+        "reversed": "Sự trì hoãn, thiếu tập trung hoặc chuẩn bị thực tế không đầy đủ cho kỳ thi. Một sự hiểu biết hời hợt về tài liệu hoặc không sẵn lòng bỏ ra nỗ lực cần thiết, dẫn đến kết quả đáng thất vọng."
+      },
+      "scholarship": {
+        "upright": "Cơ hội ban đầu hoặc đơn xin học bổng, đòi hỏi nỗ lực siêng năng, tài liệu thực tế và cam kết nghiêm túc với việc học. Nó đại diện cho tiềm năng hỗ trợ giáo dục cụ thể.",
+        "reversed": "Bỏ lỡ cơ hội học bổng do trì hoãn, đơn đăng ký không đầy đủ hoặc thiếu nỗ lực thực tế, nghiêm túc. Tiềm năng hỗ trợ tài chính bị bỏ phí do sự bất cẩn hoặc cách tiếp cận non nớt."
+      },
+      "talent": {
+        "upright": "Sự khám phá ban đầu hoặc giai đoạn đầu của việc phát triển một tài năng cụ thể, hữu hình. Đó là về việc học hỏi, thực hành siêng năng và đặt nền móng cho sự thể hiện đầy đủ của nó.",
+        "reversed": "Một tài năng chưa được phát triển hoặc bị lãng phí do thiếu ứng dụng thực tế, sự trì hoãn hoặc không sẵn lòng cống hiến nỗ lực cần thiết để mài giũa nó. Tiềm năng vẫn chưa được thực hiện."
+      },
+      "spirit_guide": {
+        "upright": "Những dấu hiệu tinh tế hoặc hữu hình ban đầu về sự hiện diện của một người hướng dẫn tâm linh, thúc giục bạn bắt đầu hành trình học hỏi tâm linh thực tế và khám phá bản thân có nền tảng. Một kết nối mới, trần thế với thế giới vô hình.",
+        "reversed": "Phớt lờ sự hướng dẫn thực tế hoặc những thông điệp tinh tế từ một người hướng dẫn tâm linh, có thể do sự hoài nghi, sự non nớt trong thực hành tâm linh hoặc từ chối đặt nền móng vững chắc cho hành trình tâm linh của mình. Bỏ lỡ cơ hội nhận được trí tuệ có nền tảng."
       }
     },
     "planet": "Sao Kim",
@@ -17743,6 +23143,78 @@ window.TAROT_DB = [
       "lost_item": {
         "upright": "Món đồ chưa hề biến mất bốc hơi, nó chỉ đang lạc trôi trong không gian làm việc của bạn. Hãy kiên nhẫn lục tìm ở nơi bạn thường xuyên làm việc, hoặc ở một nơi an toàn, được cất giữ cẩn thận.",
         "reversed": "Có cố lật mòn nền nhà cũng vô vọng, món đồ bị mất do sự bất cẩn, lơ đễnh hoặc do bạn đã để quên ở một nơi không đáng tin cậy. Rất khó tìm lại được nếu không thay đổi thói quen, vì nó đã trôi vào quên lãng."
+      },
+      "toxic_relationship": {
+        "upright": "Trong bóng tối của mối quan hệ độc hại, Kỵ Sĩ Tiền xuôi chỉ ra sự đeo bám vào một nền tảng quen thuộc, dù đã mục nát. Nó là sự cam kết bền bỉ với một tình trạng 'ổn định' nhưng thiếu sức sống, nơi sự kiên định trở thành gông cùm, trói buộc linh hồn vào một chu kỳ lặp lại không lối thoát, vì sợ hãi sự thay đổi.",
+        "reversed": "Khi đảo ngược, Kỵ Sĩ Tiền phơi bày sự trì trệ sâu sắc trong mối quan hệ độc hại. Đó là sự từ chối hành động, sự lười biếng trong việc đối mặt với sự thật, hoặc sự cố chấp không muốn thay đổi. Mối quan hệ này trở thành một hố sâu của sự thờ ơ và gánh nặng vật chất, nơi cả hai linh hồn mắc kẹt trong một vòng xoáy không lối thoát, không ai muốn nhấc gót để tìm kiếm sự giải thoát."
+      },
+      "soulmate": {
+        "upright": "Sự xuất hiện của Kỵ Sĩ Tiền xuôi cho thấy một kết nối định mệnh được xây dựng trên nền tảng vững chắc của sự tin cậy, trách nhiệm và sự đồng điệu về giá trị thực tế. Đây là một linh hồn tri kỷ mang lại sự ổn định, an toàn và một tình yêu trưởng thành, chậm rãi nhưng kiên định, cùng nhau kiến tạo nên một cuộc sống thực tế và bền vững.",
+        "reversed": "Khi đảo ngược, linh hồn tri kỷ này có thể mang đến sự trì trệ hoặc cảm giác bị mắc kẹt. Có thể một trong hai, hoặc cả hai, quá tập trung vào những khía cạnh vật chất, bỏ quên sự phát triển tinh thần, hoặc từ chối ti���n lên những bước cần thiết. Mối quan hệ này, dù mang tính định mệnh, lại trở nên nặng nề, thiếu đi sự hứng khởi và động lực để cùng nhau vươn tới."
+      },
+      "reconciliation": {
+        "upright": "Để hàn gắn, Kỵ Sĩ Tiền xuôi yêu cầu một quá trình chậm rãi, tỉ mỉ và thực tế. Sự hòa giải này đòi hỏi sự kiên nhẫn vô biên, những hành động cụ thể và nhất quán để xây dựng lại niềm tin. Nó không phải là một sự bùng nổ cảm xúc, mà là một hành trình từng bước vững chắc, đặt lại nền móng cho một mối quan hệ bền chặt.",
+        "reversed": "Sự hòa giải với Kỵ Sĩ Tiền đảo ngược báo hiệu một nỗ lực nửa vời, thiếu cam kết thực sự. Có thể có sự trì hoãn, lời hứa suông không được thực hiện, hoặc sự cố chấp không muốn từ bỏ những thói quen cũ. Quá trình này sẽ bị đình trệ, lặp lại những sai lầm cũ, vì thiếu đi ý chí và hành động cụ thể để kiến tạo một tương lai mới."
+      },
+      "secret_admirer": {
+        "upright": "Người ngưỡng mộ bí mật này là một linh hồn thầm lặng, quan sát từ xa với sự kiên định và chân thành. Tình cảm của họ sâu sắc, thực tế, thể hiện qua những hành động nhỏ bé, nhất quán, hơn là những cử chỉ khoa trương. Họ đang chờ đợi thời điểm chín muồi, một cách cẩn trọng và có trách nhiệm, để bày tỏ lòng mình.",
+        "reversed": "Người ngưỡng mộ bí mật này đang bị cầm tù bởi sự thụ động, nỗi sợ hãi hoặc sự lười biếng. Tình cảm của họ không được bộc lộ, có thể trở thành gánh nặng cho chính họ, hoặc họ chỉ nhìn nhận tình yêu qua lăng kính vật chất, thiếu đi chiều sâu tinh thần. Cơ hội kết nối sẽ bị bỏ lỡ vì sự chần chừ và thiếu quyết đoán."
+      },
+      "burnout": {
+        "upright": "Kỵ Sĩ Tiền xuôi, trong bối cảnh kiệt sức, mô tả một quá trình tích tụ từ sự cống hiến không ngừng nghỉ, sự đeo bám vào trách nhiệm và quy trình. Đây là sự mòn mỏi dần dần của linh h���n và thể chất, khi sự siêng năng trở thành gánh nặng, dẫn đến một trạng thái cạn kiệt năng lượng một cách có hệ thống nhưng chậm chạp.",
+        "reversed": "Khi đảo ngược, đây là đỉnh điểm của sự kiệt sức, một sự cạn kiệt hoàn toàn năng lượng do lao động không ngừng nghỉ và không có mục đích. Nó biểu thị sự đình trệ sâu sắc, mất đi động lực, cảm giác hoàn toàn bị mắc kẹt và choáng ngợp bởi những gánh nặng thực tế, không thể tìm thấy lối thoát hay sự tái tạo."
+      },
+      "startup": {
+        "upright": "Một công ty khởi nghiệp được xây dựng trên nền tảng vững chắc, kế hoạch tỉ mỉ và phương pháp tiếp cận chậm rãi, ổn định. Thành công sẽ đến từ sự nỗ lực kiên trì, sự chú ý đến từng chi tiết và tập trung vào kết quả thực tế, thay vì những bước nhảy vọt đầy rủi ro. Đây là sự kiến tạo một đế chế từ những viên gạch vững chắc.",
+        "reversed": "Công ty khởi nghiệp này đang bị kìm hãm bởi sự trì trệ, thiếu khả năng thực thi hoặc từ chối thích nghi. Nó có thể là một dự án mắc kẹt trong giai đoạn lập kế hoạch, không thể tạo đà, hoặc quá cứng nhắc và chống lại sự thay đổi, dẫn đến sự đình trệ hoặc thất bại cuối cùng."
+      },
+      "workplace_politics": {
+        "upright": "Trong mê cung chính trị công sở, Kỵ Sĩ Tiền xuôi cho thấy một cách tiếp cận thận trọng, thực tế và khách quan. Bạn có thể được nhìn nhận là đáng tin cậy và tận tâm với nhiệm vụ, nhưng đôi khi quá tập trung vào công việc mà ít để ý đến những dòng chảy ngầm xã hội. Bạn giữ vững lập trường, tập trung vào trách nhiệm của mình.",
+        "reversed": "Bạn trở thành nạn nhân của chính trị công sở do quá ngây thơ, phản ứng chậm chạp hoặc không sẵn lòng tham gia. Nó cũng có thể đại diện cho ai đó cố chấp từ chối thích nghi với các sắc thái xã hội, dẫn đến sự cô lập hoặc bị lợi dụng, hoặc dùng sự đáng tin cậy của mình để thao túng người khác một cách tinh vi."
+      },
+      "side_hustle": {
+        "upright": "Một công việc phụ được lên kế hoạch cẩn thận, thực hiện nhất quán, và chậm rãi nhưng chắc chắn tạo ra thu nhập hoặc kỹ năng bổ sung. Đây là sự thể hiện của kỷ luật và một cách tiếp cận thực tế để xây dựng một điều gì đó bên lề, gieo mầm cho tương lai.",
+        "reversed": "Một công việc phụ không bao giờ cất cánh do sự trì hoãn, thiếu nỗ lực kiên trì, hoặc không thể cam kết. Nó cũng có thể đại diện cho một công việc phụ trở thành gánh nặng, lấy đi nhiều năng lượng hơn là mang lại, hoặc chỉ được theo đuổi vì lợi ích vật chất mà thiếu đi niềm đam mê thực sự."
+      },
+      "real_estate": {
+        "upright": "Một khoản đầu tư bất động sản chắc chắn, dài hạn, được lựa chọn với sự nghiên cứu tỉ mỉ và cân nhắc thực tế. Nó biểu thị sự ổn định, an toàn và tăng trưởng giá trị dần dần. Đây là việc xây dựng một tài sản hữu hình, một nền tảng vững chắc cho tương lai.",
+        "reversed": "Các dự án bất động sản bị đình trệ, gặp vấn đề hoặc làm tiêu hao nguồn lực. Nó có thể biểu thị một tài sản khó bán, một khoản đầu tư kém do thiếu tầm nhìn, hoặc bị mắc kẹt với một tài sản đòi hỏi sự bảo trì liên tục nhưng không mang lại lợi ích xứng đáng."
+      },
+      "financial_loss": {
+        "upright": "Trong bối cảnh mất mát tài chính, Kỵ Sĩ Tiền xuôi kêu gọi một cách tiếp cận thận trọng và có phương pháp để kiểm soát tình hình. Nó không chỉ ra sự mất mát nhanh chóng, mà là lời nhắc nhở rằng cần có sự xem xét kỹ lưỡng, hành động chậm rãi nhưng kiên định để ngăn chặn sự suy thoái sâu hơn hoặc để phục hồi một cách vững chắc.",
+        "reversed": "Mất mát tài chính bắt nguồn từ sự vô trách nhiệm, trì trệ, hoặc từ chối cố chấp không thích nghi với hoàn cảnh thay đổi. Nó có thể là do bỏ bê các nghĩa vụ tài chính thực tế, đầu tư không khôn ngoan do lười biếng, hoặc quá chậm chạp để nắm bắt cơ hội, dẫn đến sự suy giảm tài sản một cách đều đặn và khó cứu vãn."
+      },
+      "sudden_wealth": {
+        "upright": "Kỵ Sĩ Tiền xuôi không báo hiệu sự giàu có bất ngờ, mà là lời nhắc nhở linh thiêng rằng bất kỳ tài sản 'đột ngột' nào cũng cần được quản lý bằng sự thực tế tột cùng, sự siêng năng và tầm nhìn dài hạn để đảm bảo sự ổn định và tăng trưởng. Nó là về việc củng cố nền tảng, không phải về bản thân cơn sốt vàng.",
+        "reversed": "Sự giàu có bất ngờ không được quản lý, dẫn đến sự tiêu tan nhanh chóng do sự hoang phí, lựa chọn đầu tư kém, hoặc quay trở lại những thói quen vô trách nhiệm cũ. Nó cho thấy rằng sự giàu có đột ngột trở thành gánh nặng hơn là phước lành, không mang lại an ninh thực sự do thiếu sự vững vàng và nền tảng tâm linh."
+      },
+      "healing": {
+        "upright": "Một quá trình chữa lành chậm rãi, ổn định và có phương pháp, đòi hỏi sự kiên nhẫn, kỷ luật và các bước thực tế nhất quán. Đây là việc xây dựng một nền tảng vững chắc cho sức khỏe thông qua thói quen, tự chăm sóc bản thân và một cách tiếp cận vững vàng để phục hồi, từng bước một, như một kiến trúc sư xây dựng lại ngôi đền linh hồn.",
+        "reversed": "Một quá trình chữa lành bị đình trệ, nơi sự tiến bộ bị cản trở bởi thiếu cam kết, từ chối tuân theo các thói quen cần thiết, hoặc không thể vượt qua những khuôn mẫu cũ. Nó có thể biểu thị cảm giác bị mắc kẹt trong bệnh tật hoặc sự hồi phục, hoặc bỏ bê các bước thực tế cần thiết cho sức khỏe thực sự, như một hạt giống không chịu nảy mầm."
+      },
+      "stress": {
+        "upright": "Căng thẳng phát sinh từ ý thức trách nhiệm quá mức, sự theo đuổi không ngừng nghỉ các nghĩa vụ thực tế, hoặc bị choáng ngợp bởi khối lượng công việc hàng ngày. Đó là áp lực âm ỉ, dai dẳng của vi���c cần phải đáng tin cậy và hiệu quả, một gánh nặng vô hình đè nặng lên linh hồn siêng năng.",
+        "reversed": "Căng thẳng đã trở nên suy nhược, dẫn đến sự trì trệ, trì hoãn và không có khả năng đối phó ngay cả với những trách nhiệm cơ bản nhất. Nó biểu thị cảm giác hoàn toàn bị mắc kẹt bởi những yêu cầu của cuộc sống, không thể tiến lên, thường biểu hiện như một cảm giác kiệt sức và bất lực sâu sắc, một linh hồn bị xiềng xích trong sự mệt mỏi."
+      },
+      "trauma": {
+        "upright": "Xử lý chấn thương thông qua một cách tiếp cận vững vàng, có phương pháp và kiên nhẫn. Nó gợi ý một hành trình chữa lành chậm rãi nhưng ổn định, tập trung vào các cơ chế đối phó thực tế và xây dựng một môi trường ổn định để phục hồi, thay vì vội vàng. Đây là việc đặt từng viên đá để xây lại ngôi đền của tâm hồn đã đổ nát.",
+        "reversed": "Chấn thương đã dẫn đến sự trì trệ, cảm giác bị mắc kẹt trong quá khứ hoặc không có khả năng tiến lên. Nó có thể biểu thị sự từ chối cố chấp không giải quyết chấn thương, dẫn đến các khuôn mẫu tự hủy hoại lặp đi lặp lại, hoặc một sự thờ ơ sâu sắc ngăn cản một người tìm kiếm hoặc chấp nhận sự giúp đỡ, như một cây cổ thụ không thể vươn mình ra khỏi rễ đã mục."
+      },
+      "exams": {
+        "upright": "Thành công trong các kỳ thi đạt được thông qua việc học tập siêng năng, chuẩn bị tỉ mỉ và một cách tiếp cận nhất quán, có phương pháp. Nó nói lên sự đền đáp của công sức, và sự hiểu biết sâu sắc về tài liệu, như một người nông dân gặt hái thành quả sau mùa vụ cần mẫn.",
+        "reversed": "Thất bại hoặc hiệu suất kém trong các kỳ thi do sự trì hoãn, thiếu chuẩn bị hoặc không có khả năng áp dụng bản thân một cách nhất quán. Nó cũng có thể biểu thị sự cứng nhắc trong phương pháp học tập, không thể thích nghi với các dạng câu hỏi khác nhau, hoặc đơn giản là từ bỏ do cảm thấy choáng ngợp, như một con ngựa không chịu cất bước."
+      },
+      "scholarship": {
+        "upright": "Giành được học bổng thông qua nỗ lực học tập kiên trì, thể hiện sự đáng tin cậy và cam kết thực tế, mạnh mẽ đối với việc học của mình. Đây là phần thưởng cho sự siêng năng và một hồ sơ học tập vững chắc, một sự công nhận cho hạt giống đã được gieo trồng cẩn thận.",
+        "reversed": "Bỏ lỡ cơ hội học bổng do thiếu nỗ lực kiên trì, trì hoãn trong việc nộp đơn, hoặc không đáp ứng các yêu cầu thực tế. Nó cũng có thể biểu thị việc nhận được học bổng nhưng sau đó lãng phí cơ hội thông qua sự nhàn rỗi hoặc thiếu sự cống hiến nghiêm túc, như một miếng đất màu mỡ bị bỏ hoang."
+      },
+      "talent": {
+        "upright": "Một tài năng được phát triển thông qua sự luyện tập kiên trì, kỷ luật và một cách tiếp cận thực tế, vững vàng. Nó không phải là về sự rực rỡ bẩm sinh, mà là về sự trau dồi kỹ năng siêng năng, dẫn đến sự thành thạo theo thời gian, như một người thợ rèn mài giũa thanh kiếm của mình.",
+        "reversed": "Một tài năng bị lãng phí, bỏ bê hoặc không được phát triển do sự lười biếng, thiếu động lực hoặc không sẵn lòng bỏ ra công sức cần thiết. Nó cũng có thể biểu thị sự ám ảnh với những khía cạnh tầm thường của một tài năng, đánh mất đi bản chất sáng tạo hoặc tinh thần của nó, như một viên ngọc quý bị vùi trong bùn."
+      },
+      "spirit_guide": {
+        "upright": "Một linh hồn hướng dẫn xuất hiện như một người thầy vững vàng, thực tế và kiên nhẫn, mang đến sự chỉ dẫn về việc xây dựng một nền tảng ổn định trong cuộc sống, quản lý các trách nhiệm trần thế và hiện thực hóa những hiểu biết tinh thần thành thực tại hữu hình. Họ khuyến khích nỗ lực kiên trì và một cách tiếp cận có phương pháp để phát triển tâm linh, như một kiến trúc sư xây dựng cây cầu gi���a hai thế giới.",
+        "reversed": "Những thông điệp từ linh hồn hướng dẫn bị bỏ qua hoặc hiểu lầm do sự trì trệ, cố chấp hoặc quá tập trung vào những mối bận tâm vật chất của một người, dẫn đến sự đình trệ tinh thần. Thay vào đó, nó có thể đại diện cho một người hướng dẫn thách thức một người phá vỡ những thói quen cứng nhắc hoặc vượt qua sự lười biếng tinh thần, hoặc cảm giác bị đè nặng bởi những trách nhiệm tinh thần mà không có định hướng rõ ràng, như một con thuyền mắc cạn không tìm thấy hải đăng."
       }
     },
     "planet": "Sao Thủy",
@@ -17978,6 +23450,78 @@ window.TAROT_DB = [
       "lost_item": {
         "upright": "Món đồ chưa hề biến mất bốc hơi, nó chỉ đang lạc trôi trong không gian ấm cúng của bạn. Hãy tìm kiếm ở những nơi bạn thường xuyên lui tới, những nơi có giá trị tinh thần, chắc chắn sẽ tìm thấy.",
         "reversed": "Có cố lật mòn nền nhà cũng vô vọng, món đồ bị mất do sự bất cẩn, thiếu ngăn nắp hoặc do bạn đã cho mượn mà không nhớ. Rất khó tìm lại được nếu không thay đổi thói quen, vì nó đã trôi vào quên lãng."
+      },
+      "toxic_relationship": {
+        "upright": "Trong mối quan hệ độc hại, Nữ Hoàng Tiền Xu xuôi chỉ ra sự nỗ lực kiên cường để duy trì sự ổn định và nuôi dưỡng, ngay cả khi đối mặt với thử thách. Nó thể hiện việc tìm kiếm sự bình yên và tạo ra một không gian an toàn, dù chỉ là cho riêng mình, bằng sự thực tế và lòng trắc ẩn. Đây là lúc bạn cần đặt ra ranh giới vững chắc bằng tình yêu thương.",
+        "reversed": "Khi đảo ngược, Nữ Hoàng Tiền Xu trong mối quan hệ độc hại báo hiệu sự bỏ bê, cảm giác không an toàn sâu sắc hoặc sự phụ thuộc quá mức vào vật chất, khiến mối quan hệ trở nên khô cằn và không có nền tảng. Có thể có sự thao túng dưới vỏ bọc quan tâm, hoặc một sự thờ ơ đáng lo ngại đối với nhu cầu cảm xúc và thực tế của nhau, tạo ra sự bất ổn và cạn kiệt năng lượng."
+      },
+      "soulmate": {
+        "upright": "Nữ Hoàng Tiền Xu xuôi đại diện cho một mối liên kết tri kỷ được xây dựng trên nền tảng vững chắc của sự hỗ trợ thực tế, chia sẻ giá trị và sự hài hòa trong gia đình. Đây là một người bạn tâm giao mang lại sự an toàn, sự phong phú và một tình yêu chân thật, kiên định, kết nối sâu sắc với bản chất trần tục và giác quan.",
+        "reversed": "Khi đảo ngược, mối liên kết tri kỷ có thể cảm thấy không vững chắc, thiếu an toàn hoặc quá tập trung vào các khía cạnh vật chất bề ngoài thay vì sự nuôi dưỡng cảm xúc và tinh thần thực sự. Có lẽ một trong hai hoặc cả hai đang bỏ bê nền tảng thực tế hoặc quá ích kỷ để thực sự hỗ trợ và tạo ra sự ổn định cho nhau."
+      },
+      "reconciliation": {
+        "upright": "Nữ Hoàng Tiền Xu xuôi cho thấy sự hòa giải dựa trên mong muốn thực tế để xây dựng lại, nuôi dưỡng và tạo ra một tương lai ổn định. Có sự sẵn lòng cung cấp sự hỗ trợ và thiết lập lại một nền tảng an toàn, vững chắc. Đây là về việc thực hiện các bước cụ thể để hàn gắn và tạo ra một không gian ấm áp, chào đón.",
+        "reversed": "Sự hòa giải cố gắng nhưng thiếu nỗ lực thực tế hoặc sự nuôi dưỡng cảm xúc chân thành. Nó có thể là hời hợt, bị thúc đẩy bởi động cơ vật chất, hoặc một bên quá ích kỷ, thiếu an toàn để thực sự cam kết xây dựng lại sự ổn định. Những nỗ lực hòa giải có thể không có nền tảng hoặc dẫn đến sự bỏ bê sâu sắc hơn."
+      },
+      "secret_admirer": {
+        "upright": "Một người ngưỡng mộ bí mật thể hiện tình cảm của họ thông qua những cử chỉ thực tế, những hành động quan tâm tinh tế, hoặc tạo ra cảm giác thoải mái và an toàn từ xa. Sự ngưỡng mộ của họ có nền tảng và chân thành, có lẽ được thể hiện qua những món quà nhỏ hoặc những hành động giúp đỡ thiết thực.",
+        "reversed": "Một người ngưỡng mộ bí mật có ý định có thể hời hợt, quá chiếm hữu, hoặc không có nền tảng trong sự quan tâm chân thành. Họ có thể ngưỡng mộ vì lý do vật chất, hoặc những hành động của họ (nếu có) bị sai lệch, gây ngột ngạt hoặc tạo ra sự bất an thay vì sự thoải mái và an toàn."
+      },
+      "burnout": {
+        "upright": "Nữ Hoàng Tiền Xu xuôi đề xuất việc tìm kiếm sự cân bằng và các biện pháp nuôi dưỡng để chữa lành sự kiệt sức. Kết nối với thiên nhiên, chăm sóc bản thân, thực hiện các bước thực tế để phục hồi năng lượng và tạo ra một nơi trú ẩn an lành. Đây là về sự nỗ lực bền vững và biết khi nào cần nghỉ ngơi và nạp lại năng lượng.",
+        "reversed": "Sự kiệt sức bắt nguồn từ việc bỏ bê việc chăm sóc bản thân, quá tập trung vào lợi ích vật chất mà bỏ qua sức khỏe, cảm thấy không vững chắc và bị choáng ngợp bởi những yêu cầu thực tế. Đây là trạng thái mà một người đã cho đi quá nhiều mà không được bổ sung, dẫn đến sự bất ổn và kiệt quệ sâu sắc."
+      },
+      "startup": {
+        "upright": "Một công ty khởi nghiệp được xây dựng trên nền tảng thực tế vững chắc, quản lý tài nguyên chu đáo và một cách tiếp cận nuôi dưỡng để phát triển. Nó nhấn mạnh việc tạo ra một môi trường ổn định, an toàn và phong phú, có lẽ tập trung vào các sản phẩm/dịch vụ mang lại sự thoải mái, tiện ích hoặc hỗ trợ thiết thực.",
+        "reversed": "Một công ty khởi nghiệp thiếu nền tảng thực tế, quản lý tài chính kém, hoặc quá tập trung vào vật chất mà bỏ qua phúc lợi của đội ngũ hoặc giá trị cốt lõi. Nó có thể không ổn định, thiếu an toàn hoặc gặp khó khăn do thiếu sự lãnh đạo nuôi dưỡng hoặc kế hoạch thực tế."
+      },
+      "workplace_politics": {
+        "upright": "Điều hướng chính trị nơi làm việc bằng trí tuệ vững chắc, sự thực tế và tập trung vào việc tạo ra một môi trường ổn định, hài hòa. Đây là về việc trở nên tháo vát và khéo léo, có lẽ đóng vai trò là một ảnh hưởng êm dịu, nuôi dưỡng giữa những xung đột.",
+        "reversed": "Chính trị nơi làm việc không có nền tảng, nhỏ nhen, bị thúc đẩy bởi sự bất an hoặc chủ nghĩa vật chất, và làm suy yếu sự ổn định. Nó có thể biểu thị sự bỏ bê các nguyên tắc đạo đức thực tế, hoặc ai đó đang sử dụng vị trí của mình để tạo ra sự bất ổn hoặc tích trữ tài nguyên thay vì nuôi dưỡng một môi trường tập thể."
+      },
+      "side_hustle": {
+        "upright": "Một công việc phụ khả thi về mặt thực tế, được quản lý tốt và mang lại cảm giác thành tựu vững chắc và sự phong phú bổ sung. Đây là về việc nuôi dưỡng một nguồn thu nhập thứ cấp với những kỳ vọng thực tế và nỗ lực ổn định.",
+        "reversed": "Một công việc phụ không có nền tảng, được quản lý kém, dẫn đến sự bất an tài chính, hoặc tiêu tốn quá nhiều năng lượng mà không có lợi ích thực tế. Nó có thể bị thúc đẩy bởi những kỳ vọng không thực tế hoặc sự bỏ bê các trách nhiệm cốt lõi."
+      },
+      "real_estate": {
+        "upright": "Triển vọng xuất sắc trong lĩnh vực bất động sản. Biểu thị một ngôi nhà hoặc khoản đầu tư ổn định, an toàn và phong phú. Các quyết định tốt dựa trên trí tuệ thực tế, tạo ra một không gian nuôi dưỡng và vững chắc, hoặc các giao dịch thành công dẫn đến an ninh vật chất.",
+        "reversed": "Các vấn đề bất động sản không ổn định, thiếu an toàn hoặc liên quan đến phán đoán thực tế kém. Có thể cho thấy mất mát tài chính, đầu tư không có nền tảng, bỏ bê việc bảo trì tài sản, hoặc cảm giác bất an liên quan đến nhà cửa hoặc đất đai của một người."
+      },
+      "financial_loss": {
+        "upright": "Mặc dù Nữ Hoàng Tiền Xu nói về sự phong phú, trong bối cảnh 'tổn thất tài chính', lá bài xuôi sẽ gợi ý một cách tiếp cận vững chắc để giảm thiểu tổn thất, tìm kiếm các giải pháp thực tế và nuôi dưỡng những gì còn lại. Đó là về khả năng phục hồi và quản lý cẩn thận để ngăn chặn sự suy giảm thêm.",
+        "reversed": "Mất mát tài chính bắt nguồn từ phán đoán thực tế kém, bỏ bê tài nguyên, chi tiêu không có nền tảng, hoặc tập trung vào lợi ích hời hợt hơn là an ninh thực sự. Nó biểu thị sự bất lực trong việc quản lý tài nguyên vật chất một cách hiệu quả, dẫn đến sự bất an và cạn kiệt."
+      },
+      "sudden_wealth": {
+        "upright": "Sự giàu có bất ngờ được quản lý một cách khôn ngoan, có nền tảng và được sử dụng để tạo ra sự an toàn lâu dài và nuôi dưỡng bản thân và những người khác. Đó là về việc tích hợp sự phong phú mới vào một cuộc sống ổn định, thực tế, đảm bảo nó phục vụ phúc lợi lâu dài.",
+        "reversed": "Sự giàu có bất ngờ dẫn đến hành vi không có nền tảng, chủ nghĩa vật chất, sự bất an, hoặc bỏ bê các trách nhiệm thực tế. Nó có thể bị lãng phí, dẫn đến sự bất ổn, hoặc không mang lại sự an toàn và mãn nguyện thực sự lâu dài."
+      },
+      "healing": {
+        "upright": "Chữa lành thông qua việc tự chăm sóc thực tế, kết nối với thiên nhiên, nuôi dưỡng cơ thể và tâm hồn, và tạo ra một môi trường ổn định, hỗ trợ. Nó nhấn mạnh sự vững chắc, các thực hành lành mạnh và sự phục hồi kiên nhẫn của sức khỏe.",
+        "reversed": "Sự chữa lành bị cản trở bởi việc bỏ bê các nhu cầu thực tế, các cách tiếp cận không có nền tảng, tập trung vào các biện pháp khắc phục hời hợt, hoặc thiếu sự tự chăm sóc nói chung. Nó có thể cho thấy cảm giác bị ngắt kết nối khỏi cơ thể hoặc thế giới tự nhiên, dẫn đến sự mất cân bằng kéo dài."
+      },
+      "stress": {
+        "upright": "Quản lý căng thẳng thông qua các kỹ thuật vững chắc thực tế, tạo ra một môi trường hỗ trợ, tập trung vào việc tự chăm sóc và tìm kiếm sự cân bằng. Đó là về việc nuôi dưỡng sự bình yên nội tâm giữa những áp lực bên ngoài.",
+        "reversed": "Căng thẳng gây ra bởi cảm giác không có nền tảng, bị choáng ngợp bởi các yêu cầu thực tế, bỏ bê việc tự chăm sóc, hoặc không có khả năng quản lý tài nguyên một cách hiệu quả. Nó biểu thị sự mất ổn định và cảm giác bị ngắt kết nối khỏi khả năng đối phó của một người."
+      },
+      "trauma": {
+        "upright": "Xử lý chấn thương thông qua các thực hành vững chắc, tìm kiếm sự hỗ trợ thực tế, nuôi dưỡng bản thân trở lại sự ổn định và tìm một không gian an toàn để chữa lành. Đó là về việc dần dần xây dựng lại cảm giác an toàn và kết nối với thế giới vật chất.",
+        "reversed": "Chấn thương dẫn đến cảm giác không có nền tảng, thiếu an toàn, bỏ bê việc tự chăm sóc, hoặc không có khả năng tìm cách thực tế để đối phó và chữa lành. Nó có thể biểu hiện như một cảm giác bất ổn sâu sắc, chủ nghĩa vật chất như một cơ chế đối phó, hoặc sự ngắt kết nối sâu sắc khỏi cơ thể và thực tại của một người."
+      },
+      "exams": {
+        "upright": "Thành công trong các kỳ thi thông qua việc học tập siêng năng, thực tế, nỗ lực nhất quán và tạo ra một môi trường học tập ổn định. Đó là về sự chuẩn bị vững chắc và áp dụng kiến thức một cách tháo vát.",
+        "reversed": "Kết quả kỳ thi bị cản trở bởi thiếu sự chuẩn bị thực tế, quản lý thời gian kém, cảm giác không có nền tảng và thiếu an toàn, hoặc bỏ bê nỗ lực cần thiết. Nó gợi ý sự bất lực trong việc áp dụng bản thân một cách nhất quán hoặc quản lý tài nguyên học tập một cách hiệu quả."
+      },
+      "scholarship": {
+        "upright": "Một học bổng đạt được thông qua thành tích thực tế, nỗ lực nhất quán và thể hiện cam kết vững chắc đối với việc học của một người. Nó biểu thị sự hỗ trợ tài chính cho phép theo đuổi học tập ổn định và sự phong phú trong tương lai.",
+        "reversed": "Một cơ hội học bổng bị bỏ lỡ do thiếu nỗ lực thực tế, nộp đơn kém, hoặc cách tiếp cận không có nền tảng đối với các mục tiêu học tập của một người. Nó cũng có thể gợi ý một học bổng đi kèm với những yêu cầu phi thực tế hoặc không mang lại sự an toàn thực sự."
+      },
+      "talent": {
+        "upright": "Tài năng được nuôi dưỡng, áp dụng thực tế và phát triển bằng sự cống hiến, dẫn đến kết quả hữu hình và sự phong phú. Đó là về việc đặt những món quà của một người vào ứng dụng trong thế giới thực và nỗ lực nhất quán.",
+        "reversed": "Tài năng bị bỏ bê, không có nền tảng, lãng phí, hoặc được sử dụng cho những lợi ích hời hợt hơn là sự phát triển thực sự. Nó có thể biểu thị sự thiếu ứng dụng thực tế, sự bất an về khả năng của một người, hoặc sự bất lực trong việc thể hiện những món quà của một người một cách hiệu quả."
+      },
+      "spirit_guide": {
+        "upright": "Một linh hồn hướng dẫn biểu hiện như một sự hiện diện nuôi dưỡng, vững chắc, mang đến trí tuệ thực tế, hỗ trợ cho phúc lợi vật chất và hướng dẫn về việc kết nối với trái đất và sự phong phú. Họ giúp bạn xây dựng một nền tảng an toàn cho hành trình tâm linh của bạn.",
+        "reversed": "Một kết nối với linh hồn hướng dẫn cảm thấy không có nền tảng, dẫn đến lời khuyên phi thực tế, hoặc một sự tập trung quá mức vào vật chất trong các hoạt động tâm linh. Nó có thể biểu thị sự ngắt kết nối khỏi trí tuệ vững chắc thực sự của linh hồn hướng dẫn, hoặc sự bất lực trong việc tích hợp hướng dẫn tâm linh vào cuộc sống thực tế."
       }
     },
     "planet": "Sao Thổ",
@@ -18211,6 +23755,78 @@ window.TAROT_DB = [
       "lost_item": {
         "upright": "Món đồ chưa hề biến mất bốc hơi, nó chỉ đang lạc trôi trong không gian của bạn. Hãy tìm kiếm ở những nơi an toàn, bí mật hoặc nơi bạn thường cất giữ tài sản, đó có thể là một vật phẩm sang trọng.",
         "reversed": "Có cố lật mòn nền nhà cũng vô vọng, món đồ bị mất do sự bất cẩn trong quản lý tài chính, hoặc bị đánh cắp do sự phô trương. Rất khó tìm lại được nếu không thay đổi thói quen, vì nó đã trôi vào quên lãng."
+      },
+      "toxic_relationship": {
+        "upright": "Mối quan hệ này có thể mang lại sự ổn định và an toàn về vật chất, nhưng ẩn chứa sự kiểm soát ngột ngạt, sự sở hữu quá mức hoặc định nghĩa tình yêu chỉ qua những giá trị hữu hình. Nó giống như một chiếc lồng vàng, nơi sự sung túc vật chất che lấp những thiếu hụt về cảm xúc và tinh thần.",
+        "reversed": "Mối quan hệ bị nhiễm độc bởi lòng tham không đáy, sự thao túng tài chính tàn nhẫn hoặc sự vô trách nhiệm tuyệt đối trong việc quản lý tài sản chung. Một bên có thể là kẻ bóc lột, phung phí hoặc bất tín, đẩy mối quan hệ vào vực thẳm của sự bất an và oán hận sâu sắc."
+      },
+      "soulmate": {
+        "upright": "Một mối liên kết tri kỷ được xây dựng trên nền tảng vững chắc của sự ổn định không lay chuyển, sự hỗ trợ lẫn nhau và thịnh vượng vật chất. Người bạn đời này mang đến cảm giác an toàn sâu sắc, sự thực tế và một sự hiện diện vững chãi, nuôi dưỡng một mối quan hệ hữu hình và bền vững qua thời gian.",
+        "reversed": "Mối liên kết tri kỷ bị cản trở bởi chủ nghĩa vật chất sâu sắc, nỗi ám ảnh về của cải phù phiếm hoặc sự thiếu hụt nghiêm trọng về trách nhiệm tài chính. Một bên có thể quá mức sở hữu, keo kiệt hoặc bóc lột tài nguyên của đối phương, ngăn cản sự kết nối tinh thần và cảm xúc thực sự, để lại một cảm giác trống rỗng dù có sự gắn kết."
+      },
+      "reconciliation": {
+        "upright": "Hòa giải có thể đ��t được thông qua một cách tiếp cận thực dụng, tập trung vào việc xây dựng lại lòng tin bằng những hành động cụ thể và thể hiện sự ổn định. Sự sẵn lòng cung cấp sự an toàn và nỗ lực nhất quán có thể hàn gắn vết rạn nứt, thiết lập một nền tảng mới, vững chắc.",
+        "reversed": "Hòa giải gặp khó khăn do sự thiếu trách nhiệm tài chính tiếp diễn, sự không sẵn lòng chia sẻ tài nguyên hoặc sự mất lòng tin sâu sắc phát sinh từ những phản bội vật chất trong quá khứ. Một bên vẫn giữ lòng tham, lãng phí hoặc đơn giản là quá thiếu tin cậy để mang lại một tương lai ổn định."
+      },
+      "secret_admirer": {
+        "upright": "Người hâm mộ bí mật có thể là một người có địa vị, đã thành đạt và có phần truyền thống, quan sát từ xa, đánh giá cao sự ổn định hoặc thành công vật chất của bạn. Sự ngưỡng mộ của họ rất thực tế, có lẽ với ý định mang lại sự hỗ trợ hữu hình hoặc một tương lai an toàn.",
+        "reversed": "Người hâm mộ bí mật có thể có động cơ ngầm, có lẽ chỉ quan tâm đến tài sản, địa vị của bạn hoặc tìm cách khai thác tài nguyên của bạn. Sự ngưỡng mộ của họ hời hợt, bị thúc đẩy bởi lòng tham hoặc mong muốn đạt được lợi ích vật chất hơn là tình cảm chân thành."
+      },
+      "burnout": {
+        "upright": "Kiệt sức do tập trung quá mức vào lợi ích vật chất, làm việc quá sức để tích lũy của cải hoặc không có khả năng ủy thác, dẫn đến kiệt quệ về thể chất và tinh thần bất chấp thành công tài chính. Sự tận tâm của vị Vua trở thành nguyên nhân suy tàn của chính mình.",
+        "reversed": "Kiệt sức bị trầm trọng hơn bởi sự bất ổn tài chính, chi tiêu vô trách nhiệm hoặc sự sụp đổ của các dự án vật chất, dẫn đến sự tuyệt vọng sâu sắc và cảm giác vô ích. Việc thiếu nền tảng vật chất khiến việc phục hồi trở nên khó khăn."
+      },
+      "startup": {
+        "upright": "Một liên doanh khởi nghiệp được ban phước với sự lãnh đạo mạnh mẽ, kế hoạch thực tế, hỗ trợ tài chính vững chắc và tầm nhìn rõ ràng về tăng trưởng hữu hình và ổn định lâu dài. Người sáng lập sở hữu sự nhạy bén trong kinh doanh và một cách tiếp cận vững chắc.",
+        "reversed": "Một liên doanh khởi nghiệp bị sa lầy bởi quản lý tài chính kém, đầu tư vô trách nhiệm, lòng tham hoặc thiếu thực thi thực tế. Doanh nghiệp thiếu một nền tảng vững chắc, dẫn đến sự bất ổn, khả năng sụp đổ hoặc khai thác tài nguyên."
+      },
+      "workplace_politics": {
+        "upright": "Điều hướng chính trị nơi làm việc bằng một cách tiếp cận vững chắc, thực dụng, tập trung vào kết quả hữu hình và duy trì danh tiếng về độ tin cậy và công bằng. Một người có thể là một nhà lãnh đạo được kính trọng, người mang lại sự ổn định giữa những biến động.",
+        "reversed": "Chính trị nơi làm việc được đặc trưng bởi lòng tham, tham nhũng, thao túng vì lợi ��ch tài chính hoặc một nhà lãnh đạo bóc lột, keo kiệt hoặc hoàn toàn vô trách nhiệm với tài nguyên công ty, tạo ra một môi trường độc hại và bất an."
+      },
+      "side_hustle": {
+        "upright": "Một công việc phụ được nghiên cứu kỹ lưỡng, thực hiện một cách thực tế và mang lại nguồn thu nhập bổ sung ổn định, đáng tin cậy, góp phần vào sự an toàn và sung túc tài chính tổng thể.",
+        "reversed": "Một công việc phụ được lên kế hoạch kém, vô trách nhiệm về tài chính hoặc bị thúc đẩy bởi lòng tham tuyệt vọng, dẫn đến nhiều căng thẳng hơn, tổn thất tài chính hoặc thậm chí là các biến chứng pháp lý do các hành vi phi đạo đức."
+      },
+      "real_estate": {
+        "upright": "Một thời điểm thuận lợi cho các dự án bất động sản, cho thấy các khoản đầu tư hợp lý, tài sản ổn định và cơ hội phát triển vật chất lâu dài và an toàn. Một nền tảng vững chắc đang được xây dựng hoặc mua lại.",
+        "reversed": "Các giao dịch bất động sản đầy rủi ro, bất ổn tài chính, gian lận tiềm ẩn hoặc lựa chọn đầu tư kém. Có thể có vấn đề về giá trị tài sản, quản lý vô trách nhiệm hoặc thiếu quyền sở hữu an toàn."
+      },
+      "financial_loss": {
+        "upright": "Khả năng mất mát tài chính là có, nhưng sự khôn ngoan của vị Vua gợi ý một cách tiếp cận vững chắc để giảm thiểu, quản lý thận trọng và tập trung vào việc xây dựng lại sự ổn định thông qua các phương tiện thực tế. Một mất mát có thể được hấp thụ và vượt qua.",
+        "reversed": "Mất mát tài chính là đáng kể và có khả năng tàn phá, xuất phát từ các quyết định vô trách nhiệm, lòng tham, bóc lột hoặc hoàn toàn thiếu tầm nhìn xa và kế hoạch thực tế, dẫn đến sự bất an sâu sắc và sự sụp đổ vật chất."
+      },
+      "sudden_wealth": {
+        "upright": "Sự giàu có bất ngờ đi kèm với sự khôn ngoan và sự vững chắc để quản lý nó một cách thận trọng, đầu tư khôn ngoan và đảm b���o an toàn và sung túc lâu dài. Nó được tích hợp vào một nền tảng ổn định.",
+        "reversed": "Sự giàu có bất ngờ dẫn đến chi tiêu liều lĩnh, lòng tham, bóc lột hoặc hoàn toàn thiếu trách nhiệm tài chính, khiến nó nhanh chóng tan biến, dẫn đến nhiều vấn đề hơn là giải quyết."
+      },
+      "healing": {
+        "upright": "Sự chữa lành đạt được thông qua một cách tiếp cận vững chắc, thực tế, tập trung vào sức khỏe thể chất, thói quen ổn định, nuôi dưỡng cơ thể và tạo ra một môi trường an toàn. Đó là một quá trình phục hồi chậm rãi, ổn định và hữu hình.",
+        "reversed": "Sự chữa lành bị cản trở bởi sự thiếu kỷ luật, sự tự chăm sóc vô trách nhiệm, bỏ bê nhu cầu thể chất hoặc sự tập trung quá mức vào những phiền nhiễu vật chất, ngăn cản sự phục hồi thực sự của sức khỏe và sức sống."
+      },
+      "stress": {
+        "upright": "Căng thẳng phát sinh từ gánh nặng trách nhiệm, áp lực duy trì an ninh vật chất hoặc yêu cầu của sự lãnh đạo. Tuy nhiên, bản chất vững chắc của vị Vua cho phép các giải pháp thực tế và khả năng phục hồi trong việc quản lý nó.",
+        "reversed": "Căng thẳng trở nên quá sức do bất ổn tài chính, các quyết định vô trách nhiệm, nỗi sợ mất mát vật chất hoặc gánh nặng của những trách nhiệm không được quản lý, dẫn đến lo lắng và cảm giác bị mất phương hướng."
+      },
+      "trauma": {
+        "upright": "Chấn thương được xử lý và chữa lành thông qua một môi trường vững chắc, ổn định, các cơ chế đối phó thực tế và tập trung vào việc xây dựng lại cảm giác an toàn và bảo vệ. Đó là một hành trình phục hồi hữu hình.",
+        "reversed": "Chấn thương biểu hiện như một sự bất an sâu sắc, không có khả năng tin tưởng vào sự ổn định, hoặc các cơ chế đối phó không lành mạnh liên quan đến chủ nghĩa vật chất quá mức, lòng tham, hoặc sự từ bỏ hoàn toàn việc tự chăm sóc thực tế, cản trở sự chữa lành thực sự."
+      },
+      "exams": {
+        "upright": "Thành công trong các kỳ thi đến từ việc học tập siêng năng, thực tế, một cách tiếp cận vững chắc để chuẩn bị và sự kỷ luật để áp dụng bản thân một cách nhất quán. Kết quả được kiếm được thông qua nỗ lực hữu hình.",
+        "reversed": "Thất bại hoặc kết quả kém trong các kỳ thi xuất phát từ sự thiếu kỷ luật, thói quen học tập vô trách nhiệm, bị phân tâm bởi các theo đuổi vật chất hoặc một cách tiếp cận hời hợt để học tập, dẫn đến kết quả không an toàn."
+      },
+      "scholarship": {
+        "upright": "Học bổng được trao dựa trên thành tích, một hồ sơ học tập vững chắc và một minh chứng thực tế về tiềm năng. Nó cung cấp một nền tảng tài chính ổn định cho các hoạt động giáo dục.",
+        "reversed": "Học bổng bị mất hoặc bị từ chối do thiếu trách nhiệm học tập, hành vi phi đạo đức hoặc tập trung vào lợi ích bề ngoài hơn là sự phát triển trí tuệ thực sự, dẫn đến sự bất ổn tài chính trong giáo dục."
+      },
+      "talent": {
+        "upright": "Tài năng được biểu hiện thông qua ứng dụng thực tế, phát triển siêng năng và một cách tiếp cận vững chắc để mài giũa kỹ năng, dẫn đến những thành tựu hữu hình và sự công nhận vật chất.",
+        "reversed": "Tài năng bị lãng phí hoặc sử dụng sai mục đích do thiếu kỷ luật, các lựa chọn vô trách nhiệm, nỗi ám ảnh về phần thưởng bề ngoài hoặc không thể thực tế vun đắp tài năng của mình, dẫn đến tiềm năng không được thực hiện."
+      },
+      "spirit_guide": {
+        "upright": "Hướng dẫn tinh thần của bạn biểu hiện như một sự hiện diện vững chắc, khôn ngoan và thực tế, mang đến sự hướng dẫn về an ninh vật chất, xây dựng một cuộc sống ổn định và biểu hiện sự sung túc trong lĩnh vực vật chất. Họ khuyến khích trách nhiệm và hành động hữu hình.",
+        "reversed": "Kết nối của bạn với một hướng dẫn tinh thần bị che khuất bởi sự tập trung quá mức vào chủ nghĩa vật chất, lòng tham hoặc thiếu sự vững chắc trong hành trình tâm linh. Ngoài ra, 'sự hướng dẫn' có thể dẫn đến các hành động vô trách nhiệm hoặc bóc lột, phản ánh một sự hiểu biết méo mó về sự giàu có tinh thần."
       }
     },
     "planet": "Sao Kim",
@@ -18220,4 +23836,4 @@ window.TAROT_DB = [
     "generalUpright": "Ngồi uy nghi giữa những vòm dây leo trĩu quả, King of Pentacles là đỉnh cao vinh quang của sự thành đạt vật chất, uy quyền kinh tế và sự cai trị bằng trí tuệ thực tiễn. Ông là một nhà lãnh đạo kiệt xuất, kiến tạo nên những đế chế bền vững, bảo vệ vương quốc của mình bằng sự ổn định tài chính tuyệt đối, lòng hào phóng và sự đáng tin cậy không thể lay chuyển.",
     "generalReversed": "Quyền lực bị vấy bẩn bởi sự tham lam tàn nhẫn, chủ nghĩa duy vật cực đoan và sự bóc lột. Ông trở thành kẻ độc tài cứng nhắc, hủ bại, sử dụng tiền bạc như một công cụ áp bức. Sự bảo thủ, tham nhũng và nguy cơ sụp đổ đế chế do những sai lầm đầy kiêu ngạo."
   }
-];
+]
